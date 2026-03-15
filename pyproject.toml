@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-dir]
+jubu_datastore = "."
+
+[tool.setuptools]
+packages = ["jubu_datastore", "jubu_datastore.dto", "jubu_datastore.common", "jubu_datastore.logging"]
+
+[project]
+name = "jubu_datastore"
+version = "0.1.0"
+description = "Shared datastore layer for Jubu"
+requires-python = ">=3.10"
+dependencies = [
+    "sqlalchemy",
+    "cryptography",
+    "loguru",
+    "pydantic[email]",
+]
