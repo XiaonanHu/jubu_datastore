@@ -270,3 +270,9 @@ class UserDataError(DatastoreError):
     """Exception for user datastore errors."""
 
     pass
+
+
+class CapabilityDataError(DatastoreError):
+    """Error related to capability observation or state operations."""
+
+    pass

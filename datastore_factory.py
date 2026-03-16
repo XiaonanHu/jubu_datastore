@@ -11,6 +11,7 @@ from typing import Any, Callable, Dict, Optional, Type, Union
 from jubu_datastore.logging import get_logger
 from jubu_datastore.common.exceptions import DatastoreError
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.capability_datastore import CapabilityDatastore
 from jubu_datastore.conversation_datastore import ConversationDatastore
 from jubu_datastore.facts_datastore import FactsDatastore
 from jubu_datastore.interaction_contexts_datastore import InteractionContextsDatastore
@@ -30,6 +31,7 @@ class DatastoreFactory:
     """
 
     _datastore_registry: Dict[str, Type[BaseDatastore]] = {
+        "capability": CapabilityDatastore,
         "conversation": ConversationDatastore,
         "facts": FactsDatastore,
         "profile": ProfileDatastore,
@@ -107,6 +109,20 @@ class DatastoreFactory:
             cls._instances[datastore_type] = cls.create_datastore(datastore_type)
 
         return cls._instances[datastore_type]
+
+    @classmethod
+    def create_capability_datastore(
+        cls,
+        connection_string: Optional[str] = None,
+        pool_size: Optional[int] = None,
+        encryption_key: Optional[str] = None,
+    ) -> CapabilityDatastore:
+        return cls.create_datastore(
+            "capability",
+            connection_string=connection_string,
+            pool_size=pool_size,
+            encryption_key=encryption_key,
+        )
 
     @classmethod
     def create_conversation_datastore(

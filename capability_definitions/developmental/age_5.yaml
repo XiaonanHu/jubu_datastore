@@ -1,0 +1,406 @@
+framework: developmental_milestones
+age: 5
+
+items:
+
+  - id: developmental_milestones.social_emotional.follows_rules_or_takes_turns
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: social_emotional
+
+    title: Follows rules or takes turns in games
+    short_label: Turn taking
+    parent_friendly_label: Practices taking turns
+
+    description: >
+      Child shows an age-appropriate ability to follow simple rules
+      and participate in turn-taking during games or guided interaction.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - acknowledges turn structure
+      - waits briefly before responding when prompted
+      - follows simple game instructions
+      - participates in back-and-forth interaction
+
+    example_prompts:
+      - "First it's my turn, then your turn."
+      - "Let's take turns naming animals."
+      - "I will go first, then you go."
+
+    positive_evidence_patterns:
+      - child follows simple turn structure
+      - child waits appropriately within guided play
+      - child responds correctly after turn cue
+
+    negative_evidence_patterns:
+      - repeatedly ignores turn structure
+      - consistently interrupts game sequence despite reminders
+      - cannot follow a simple one-step turn-taking pattern
+
+    evaluation_method:
+      type: llm_rubric_with_conversation_state
+      rubric_id: milestone_turn_taking_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: turn_taking
+
+    status: active
+    version: 1
+
+
+  - id: developmental_milestones.social_emotional.engages_in_pretend_play
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: social_emotional
+
+    title: Engages in pretend play
+    short_label: Pretend play
+    parent_friendly_label: Uses imagination in play
+
+    description: >
+      Child participates in imaginative or pretend-play scenarios,
+      taking on roles, inventing ideas, or extending a playful story world.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - accepts pretend scenario
+      - invents roles or story elements
+      - extends imaginative play with original ideas
+      - responds as if within the pretend world
+
+    example_prompts:
+      - "Let's pretend we are animals in the ocean."
+      - "What should our little rabbit do next?"
+      - "You can be the doctor and I can be the bear."
+
+    positive_evidence_patterns:
+      - child joins pretend scenario willingly
+      - child adds imaginative details
+      - child stays engaged in role-based play
+
+    negative_evidence_patterns:
+      - repeatedly refuses all pretend framing
+      - cannot engage with imaginative setup even after support
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: milestone_pretend_play_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: imagination
+
+    status: active
+    version: 1
+
+
+  - id: developmental_milestones.language_communication.tells_a_simple_story
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: language_communication
+
+    title: Tells a simple story
+    short_label: Storytelling
+    parent_friendly_label: Tells simple stories
+
+    description: >
+      Child can describe events, characters, or actions in a simple narrative sequence
+      using age-appropriate language.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - describes what happened in order
+      - includes a character, action, or outcome
+      - adds simple narrative details
+      - responds to story continuation prompts
+
+    example_prompts:
+      - "Can you tell me what happened to the turtle?"
+      - "What happened next in the story?"
+      - "Can you make up a story about a bunny?"
+
+    positive_evidence_patterns:
+      - child tells a short connected narrative
+      - child includes sequence or progression
+      - child responds coherently to story continuation
+
+    negative_evidence_patterns:
+      - answers remain fragmented with no narrative structure
+      - cannot describe even a basic sequence after support
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: milestone_storytelling_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: story
+
+    status: active
+    version: 1
+
+
+  - id: developmental_milestones.language_communication.asks_curiosity_questions
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: language_communication
+
+    title: Asks curiosity questions
+    short_label: Curiosity
+    parent_friendly_label: Shows curiosity
+
+    description: >
+      Child shows curiosity by asking questions about people, animals,
+      objects, events, or how things work.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - asks why, how, or what questions
+      - seeks more information about a topic
+      - follows up on an interesting idea
+
+    example_prompts:
+      - "What would you like to know about the whale?"
+      - "Do you have any questions about the story?"
+      - "What are you wondering about?"
+
+    positive_evidence_patterns:
+      - child asks spontaneous exploratory questions
+      - child asks follow-up questions after an answer
+      - child expresses interest in learning more
+
+    negative_evidence_patterns:
+      - shows no curiosity across repeated opportunities
+      - only repeats prompt mechanically without genuine inquiry
+
+    evaluation_method:
+      type: llm_rubric_with_event_detection
+      rubric_id: milestone_curiosity_questions_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: curiosity
+
+    status: active
+    version: 1
+
+
+  - id: developmental_milestones.cognitive.understands_simple_cause_and_effect
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: cognitive
+
+    title: Understands simple cause and effect
+    short_label: Cause and effect
+    parent_friendly_label: Understands simple cause and effect
+
+    description: >
+      Child demonstrates early reasoning by linking an event, action,
+      or feeling to a simple cause or consequence.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - explains why something happened
+      - predicts simple consequence of an action
+      - links feelings or events to causes
+
+    example_prompts:
+      - "Why is the turtle sad?"
+      - "What happens if we spill water on the floor?"
+      - "Why did the bunny get wet?"
+
+    positive_evidence_patterns:
+      - child gives a reasonable cause for an event
+      - child predicts a sensible consequence
+      - child connects action to outcome
+
+    negative_evidence_patterns:
+      - gives unrelated explanations repeatedly
+      - cannot connect basic event to cause even after support
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: milestone_cause_effect_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: reasoning
+
+    status: active
+    version: 1
+
+
+  - id: developmental_milestones.social_emotional.distinguishes_real_from_pretend
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: social_emotional
+
+    title: Distinguishes real from pretend
+    short_label: Real vs pretend
+    parent_friendly_label: Knows real and pretend apart
+
+    description: >
+      Child can recognize when an idea, character, or scenario is pretend
+      rather than something happening in real life.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - labels imaginative scenario as pretend
+      - distinguishes story events from real-world facts
+      - responds appropriately when asked if something is real or make-believe
+
+    example_prompts:
+      - "Is this a real turtle or a pretend story turtle?"
+      - "Can animals really talk like that?"
+      - "Are we pretending right now?"
+
+    positive_evidence_patterns:
+      - child clearly identifies pretend scenario
+      - child distinguishes fantasy from reality in simple examples
+
+    negative_evidence_patterns:
+      - repeatedly confuses obvious pretend scenario with real life
+      - cannot answer real-vs-pretend distinction after support
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: milestone_real_vs_pretend_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: pretend
+
+    status: active
+    version: 1
+
+
+  - id: developmental_milestones.cognitive.sustains_attention_in_guided_conversation
+    framework: developmental_milestones
+    domain: developmental
+    subdomain: cognitive
+
+    title: Sustains attention in guided conversation
+    short_label: Attention
+    parent_friendly_label: Stays engaged in conversation
+
+    description: >
+      Child remains engaged in a guided conversational activity long enough
+      to follow prompts, answer related questions, and stay on topic with support.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - stays on topic across several turns
+      - answers related follow-up questions
+      - remains engaged through a short guided interaction
+
+    example_prompts:
+      - "Let's keep talking about the ocean animals."
+      - "Can you answer one more question about the bunny?"
+      - "What happened next after that?"
+
+    positive_evidence_patterns:
+      - child remains engaged across multiple related turns
+      - child follows conversational thread
+      - child answers follow-up questions without drifting immediately
+
+    negative_evidence_patterns:
+      - repeatedly abandons topic immediately
+      - cannot stay with guided interaction for even a short span
+      - responses are consistently unrelated to current context
+
+    evaluation_method:
+      type: llm_rubric_with_conversation_metrics
+      rubric_id: milestone_attention_guided_conversation_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: attention
+
+    status: active
+    version: 1

@@ -1,0 +1,390 @@
+framework: casel
+age: 5
+
+items:
+
+  - id: casel.self_awareness.identify_basic_emotions
+    framework: casel
+    domain: sel
+    subdomain: self_awareness
+
+    title: Identifies basic emotions
+    short_label: Emotion identification
+    parent_friendly_label: Recognizes feelings
+
+    description: >
+      Child can identify and name basic emotions in self or others,
+      such as happy, sad, angry, and scared.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - names an emotion directly
+      - correctly matches feeling to situation
+      - describes own feeling in simple language
+      - describes another character's feeling
+
+    example_prompts:
+      - "How does the turtle feel?"
+      - "Have you ever felt sad?"
+      - "What face does someone make when they are happy?"
+
+    positive_evidence_patterns:
+      - child says happy, sad, angry, or scared correctly
+      - child links emotion to context
+      - child reflects on own feeling
+
+    negative_evidence_patterns:
+      - random guessing without context
+      - repeated contradiction of obvious emotional cues
+      - no recognition of basic emotion after support
+
+    evaluation_method:
+      type: llm_rubric_with_keyword_support
+      rubric_id: sel_emotion_identification_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: emotion
+
+    status: active
+    version: 1
+
+
+  - id: casel.self_awareness.express_own_feelings
+    framework: casel
+    domain: sel
+    subdomain: self_awareness
+
+    title: Expresses own feelings
+    short_label: Express feelings
+    parent_friendly_label: Shares feelings
+
+    description: >
+      Child expresses their own emotions using simple language,
+      such as saying they feel happy, sad, scared, or excited.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - says how they feel
+      - connects personal experiences to emotions
+      - responds to questions about feelings
+
+    example_prompts:
+      - "How would you feel if that happened to you?"
+      - "Have you ever felt excited?"
+      - "What makes you happy?"
+
+    positive_evidence_patterns:
+      - child clearly names own emotion
+      - child describes feeling with context
+
+    negative_evidence_patterns:
+      - avoids answering feeling questions
+      - answers unrelated to emotion context
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: sel_express_feelings_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: feelings
+
+    status: active
+    version: 1
+
+
+  - id: casel.self_awareness.show_self_confidence
+    framework: casel
+    domain: sel
+    subdomain: self_awareness
+
+    title: Shows self-confidence
+    short_label: Self-confidence
+    parent_friendly_label: Shows confidence
+
+    description: >
+      Child demonstrates confidence in conversation by attempting answers,
+      sharing ideas during pretend play, and expressing preferences or opinions.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - proposes ideas in pretend play
+      - attempts answers even when unsure
+      - expresses preferences or opinions
+      - continues trying after small mistakes
+
+    example_prompts:
+      - "What do you think the turtle should do?"
+      - "Can you help me think of a solution?"
+      - "What animal should we add to the story?"
+
+    positive_evidence_patterns:
+      - child proposes ideas willingly
+      - child answers open questions without hesitation
+      - child continues engaging after correction
+
+    negative_evidence_patterns:
+      - refuses to answer repeatedly
+      - consistently says "I don't know" without trying
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: sel_self_confidence_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: confidence
+
+    status: active
+    version: 1
+
+
+  - id: casel.social_awareness.recognize_emotions_in_others
+    framework: casel
+    domain: sel
+    subdomain: social_awareness
+
+    title: Recognizes emotions in others
+    short_label: Emotion recognition
+    parent_friendly_label: Understands others' feelings
+
+    description: >
+      Child recognizes emotional states in others during stories
+      or conversational scenarios.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - identifies emotions of story characters
+      - explains why a character might feel a certain way
+
+    example_prompts:
+      - "How does the bunny feel?"
+      - "Why is the turtle sad?"
+
+    positive_evidence_patterns:
+      - child correctly identifies emotion of a character
+      - child links emotion to a cause
+
+    negative_evidence_patterns:
+      - incorrect emotional interpretation repeatedly
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: sel_emotion_recognition_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: empathy
+
+    status: active
+    version: 1
+
+
+  - id: casel.social_awareness.show_empathy
+    framework: casel
+    domain: sel
+    subdomain: social_awareness
+
+    title: Shows empathy
+    short_label: Empathy
+    parent_friendly_label: Shows empathy
+
+    description: >
+      Child expresses concern, kindness, or understanding
+      toward others experiencing emotions.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - suggests helping someone
+      - expresses concern for a character
+      - proposes comforting actions
+
+    example_prompts:
+      - "What could we do to help the turtle?"
+      - "How can we make the bunny feel better?"
+
+    positive_evidence_patterns:
+      - suggests helping actions
+      - expresses care or concern
+
+    negative_evidence_patterns:
+      - dismisses emotional situation
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: sel_empathy_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: empathy
+
+    status: active
+    version: 1
+
+
+  - id: casel.decision_making.identify_safe_vs_unsafe_choices
+    framework: casel
+    domain: sel
+    subdomain: responsible_decision_making
+
+    title: Identifies safe and unsafe choices
+    short_label: Safety reasoning
+    parent_friendly_label: Understands safe choices
+
+    description: >
+      Child identifies simple safe or unsafe actions in everyday situations.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - identifies unsafe behavior
+      - suggests safer alternative
+
+    example_prompts:
+      - "Someone spilled water on the floor. What should we do?"
+      - "Is it safe to run in the street?"
+
+    positive_evidence_patterns:
+      - suggests safe action
+      - identifies risk correctly
+
+    negative_evidence_patterns:
+      - suggests clearly unsafe behavior
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: sel_safe_choice_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: safety
+
+    status: active
+    version: 1
+
+
+  - id: casel.decision_making.choose_kind_or_fair_solution
+    framework: casel
+    domain: sel
+    subdomain: responsible_decision_making
+
+    title: Chooses kind or fair solutions
+    short_label: Kind decisions
+    parent_friendly_label: Makes kind choices
+
+    description: >
+      Child proposes solutions that reflect kindness, fairness,
+      or sharing when resolving simple problems.
+
+    age_ranges:
+      - min_age: 4.5
+        max_age: 5.5
+        expected: true
+
+    observable_signals:
+      - suggests sharing
+      - suggests taking turns
+      - proposes fair solutions
+
+    example_prompts:
+      - "Two animals want the same toy. What should they do?"
+      - "How can we make it fair?"
+
+    positive_evidence_patterns:
+      - suggests sharing
+      - suggests taking turns
+      - suggests helping others
+
+    negative_evidence_patterns:
+      - suggests selfish or unfair outcome repeatedly
+
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: sel_kind_decision_v1
+
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: kindness
+
+    status: active
+    version: 1

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 jubu_datastore = "."
 
 [tool.setuptools]
-packages = ["jubu_datastore", "jubu_datastore.dto", "jubu_datastore.common", "jubu_datastore.logging"]
+packages = ["jubu_datastore", "jubu_datastore.dto", "jubu_datastore.common", "jubu_datastore.logging", "jubu_datastore.models", "jubu_datastore.loaders"]
 
 [project]
 name = "jubu_datastore"
@@ -18,4 +18,11 @@ dependencies = [
     "cryptography",
     "loguru",
     "pydantic[email]",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+    "pyyaml>=6.0",
 ]
