@@ -155,6 +155,36 @@ class CapabilityDefinitionRegistry:
                     out.append(item)
         return out
 
+    def get_all_items_definitions(self) -> list[dict]:
+        """
+        Return all capability items with id, title, description, and definition fields.
+
+        Used by backend/LLM to decide whether a conversation shows hints related to
+        these capabilities. No age filtering; returns every registered item.
+        Each element is a dict with: id, title, description, age_ranges,
+        observable_signals, positive_evidence_patterns, negative_evidence_patterns,
+        framework, domain, subdomain, version.
+        """
+        out: list[dict] = []
+        for item in self._items_by_id.values():
+            out.append({
+                "id": item.id,
+                "title": item.title,
+                "description": item.description,
+                "age_ranges": [
+                    {"min_age": ar.min_age, "max_age": ar.max_age}
+                    for ar in item.age_ranges
+                ],
+                "observable_signals": list(item.observable_signals),
+                "positive_evidence_patterns": list(item.positive_evidence_patterns),
+                "negative_evidence_patterns": list(item.negative_evidence_patterns),
+                "framework": item.framework,
+                "domain": item.domain,
+                "subdomain": item.subdomain,
+                "version": getattr(item, "version", 1),
+            })
+        return out
+
     @property
     def packs_by_framework_age(self) -> dict[tuple[str, float], CapabilityDefinitionPack]:
         """Read-only view of packs by (framework, age)."""

@@ -281,3 +281,38 @@ def test_get_demo_items(tmp_path: Path) -> None:
     frameworks = {i.framework for i in demo}
     assert "casel" in frameworks
     assert "developmental_milestones" in frameworks
+
+
+def test_get_all_items_definitions(tmp_path: Path) -> None:
+    """get_all_items_definitions() returns all items with id, title, description, and definition fields."""
+    (tmp_path / "casel").mkdir(parents=True)
+    (tmp_path / "developmental_milestones").mkdir(parents=True)
+    shutil.copy(_CASEL_YAML, tmp_path / "casel" / "age_5.yaml")
+    shutil.copy(_DEV_YAML, tmp_path / "developmental_milestones" / "age_5.yaml")
+
+    registry = CapabilityDefinitionRegistry()
+    registry.load_all_packs(tmp_path)
+
+    items = registry.get_all_items_definitions()
+    assert len(items) >= 1
+    # All items are dicts with required fields
+    for d in items:
+        assert "id" in d
+        assert "title" in d
+        assert "description" in d
+        assert "age_ranges" in d
+        assert "observable_signals" in d
+        assert "positive_evidence_patterns" in d
+        assert "negative_evidence_patterns" in d
+        assert "framework" in d
+        assert "domain" in d
+        assert "subdomain" in d
+        assert "version" in d
+        assert isinstance(d["age_ranges"], list)
+        assert all("min_age" in r and "max_age" in r for r in d["age_ranges"])
+    # Sample: first CASEL item from YAML
+    ids = [d["id"] for d in items]
+    assert "casel.self_awareness.identify_basic_emotions" in ids
+    one = next(d for d in items if d["id"] == "casel.self_awareness.identify_basic_emotions")
+    assert "emotions" in one["title"].lower() or "emotion" in one["description"].lower()
+    assert one["version"] >= 1
