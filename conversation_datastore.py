@@ -39,6 +39,7 @@ class ConversationModel(BaseDatastore.Base):
     )
     conv_metadata = sa.Column(sa.JSON, nullable=True)
     is_archived = sa.Column(sa.Boolean, nullable=False, default=False, index=True)
+    parent_summary = sa.Column(sa.Text, nullable=True)
 
     turns = relationship(
         "ConversationTurnModel",
@@ -119,6 +120,7 @@ class ConversationDatastore(BaseDatastore):
                 "last_interaction_time": conversation.last_interaction_time,
                 "conv_metadata": conversation.conv_metadata,
                 "is_archived": conversation.is_archived,
+                "parent_summary": conversation.parent_summary,
             }
 
             return conversation_dict
@@ -174,6 +176,7 @@ class ConversationDatastore(BaseDatastore):
                 state=conversation_data.get("state", ConversationState.ACTIVE.value),
                 start_time=conversation_data.get("start_time", datetime.utcnow()),
                 conv_metadata=conversation_data.get("conv_metadata", {}),
+                parent_summary=conversation_data.get("parent_summary"),
             )
 
             with self.session_scope() as session:
@@ -221,6 +224,22 @@ class ConversationDatastore(BaseDatastore):
             raise ConversationDataError(
                 f"Failed to update conversation state: {str(e)}"
             )
+
+    def set_conversation_parent_summary(
+        self, conversation_id: str, summary: str
+    ) -> bool:
+        """
+        Save the parent-facing summary for a conversation (e.g. after backend generates it).
+
+        Args:
+            conversation_id: ID of the conversation
+            summary: Summary text for the parent
+
+        Returns:
+            True if the conversation was found and updated, False otherwise
+        """
+        updated = self.update(conversation_id, {"parent_summary": summary})
+        return updated is not None
 
     def add_conversation_turn(
         self, conversation_id: str, turn_data: Dict[str, Any]
@@ -417,6 +436,7 @@ class ConversationDatastore(BaseDatastore):
                         "last_interaction_time": conv.last_interaction_time,
                         "conv_metadata": conv.conv_metadata,
                         "is_archived": conv.is_archived,
+                        "parent_summary": conv.parent_summary,
                         "turn_count": session.query(ConversationTurnModel)
                         .filter(ConversationTurnModel.conversation_id == conv.id)
                         .count(),
@@ -591,6 +611,7 @@ class ConversationDatastore(BaseDatastore):
                         "last_interaction_time": conv.last_interaction_time,
                         "conv_metadata": conv.conv_metadata,
                         "is_archived": conv.is_archived,
+                        "parent_summary": conv.parent_summary,
                         "turn_count": turn_count,
                     }
                     result.append(conv_dict)

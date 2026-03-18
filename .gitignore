@@ -30,3 +30,6 @@ ENV/
 .vscode/
 *.swp
 *.swo
+
+kidschat.db
+docs/
