@@ -16,7 +16,7 @@ from pydantic import BaseModel, ConfigDict, Field, field_validator, model_valida
 # Constants / allowed values (reduces string drift; extend for NGSS etc.)
 # -----------------------------------------------------------------------------
 
-KNOWN_FRAMEWORKS = frozenset({"casel", "developmental_milestones"})  # extend with "ngss", etc.
+KNOWN_FRAMEWORKS = frozenset({"casel", "developmental_milestones", "ngss"})
 VALID_STATUSES = frozenset({"active", "inactive", "deprecated"})
 VALID_PRIORITIES = frozenset({"low", "medium", "high"})
 VALID_SCORING_TYPES = frozenset({"ternary"})  # extend with "binary", "continuous", etc.
@@ -142,6 +142,22 @@ class DisplayConfig(BaseModel):
 
 
 # -----------------------------------------------------------------------------
+# NgssSource
+# -----------------------------------------------------------------------------
+
+
+class NgssSource(BaseModel):
+    """NGSS-specific alignment metadata (performance expectations, DCIs, SEPs, CCCs)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    performance_expectations: list[str] = Field(default_factory=list)
+    disciplinary_core_ideas: list[str] = Field(default_factory=list)
+    science_and_engineering_practices: list[str] = Field(default_factory=list)
+    crosscutting_concepts: list[str] = Field(default_factory=list)
+
+
+# -----------------------------------------------------------------------------
 # CapabilityItemDefinition
 # -----------------------------------------------------------------------------
 
@@ -164,6 +180,7 @@ class CapabilityItemDefinition(BaseModel):
     example_prompts: list[str] = Field(default_factory=list)
     positive_evidence_patterns: list[str] = Field(default_factory=list)
     negative_evidence_patterns: list[str] = Field(default_factory=list)
+    ngss_source: NgssSource | None = None
     evaluation_method: EvaluationMethod
     scoring: ScoringConfig
     display: DisplayConfig

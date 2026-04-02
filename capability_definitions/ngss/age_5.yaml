@@ -1,0 +1,870 @@
+framework: ngss
+age: 5
+items:
+
+  # ============================================================
+  # PHYSICAL SCIENCE — Forces and Motion (K-PS2-1, K-PS2-2)
+  # ============================================================
+
+  - id: ngss.physical_science.pushes_pulls_affect_motion
+    framework: ngss
+    domain: science
+    subdomain: physical_science
+    title: Understands pushes and pulls affect motion
+    short_label: Pushes and pulls
+    parent_friendly_label: Knows pushing and pulling moves things
+    description: >
+      Child demonstrates understanding that pushing or pulling on an
+      object can change its speed or direction, and can start or stop it.
+    ngss_source:
+      performance_expectations:
+        - K-PS2-1
+        - K-PS2-2
+      disciplinary_core_ideas:
+        - PS2.A  # Forces and Motion
+      science_and_engineering_practices:
+        - planning_and_carrying_out_investigations
+        - analyzing_and_interpreting_data
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - describes pushing or pulling as making something move
+      - mentions that harder pushes make things go faster or farther
+      - connects direction of push to direction of movement
+      - gives an example of stopping something by pushing against it
+    example_prompts:
+      - "What happens if the bear pushes the big rock?"
+      - "How could we make the boat go faster in the river?"
+      - "If I push the ball this way, where does it go?"
+      - "How would you stop a ball that's rolling toward you?"
+    positive_evidence_patterns:
+      - child says push or pull causes movement
+      - child links strength of push to speed or distance
+      - child describes direction change from a push
+      - child gives real or story example of forces causing motion
+    negative_evidence_patterns:
+      - says objects move on their own with no cause
+      - cannot connect pushing to any change in motion
+      - contradicts basic cause-effect of force after support
+    evaluation_method:
+      type: llm_rubric_with_keyword_support
+      rubric_id: ngss_pushes_pulls_motion_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: force_motion
+    status: active
+    version: 1
+
+  - id: ngss.physical_science.push_pull_strength_direction
+    framework: ngss
+    domain: science
+    subdomain: physical_science
+    title: Recognizes different strengths and directions of pushes and pulls
+    short_label: Force strength and direction
+    parent_friendly_label: Understands strong vs. gentle pushes
+    description: >
+      Child shows awareness that pushes and pulls can vary in strength
+      and direction, and that these differences lead to different effects
+      on an object's motion.
+    ngss_source:
+      performance_expectations:
+        - K-PS2-1
+      disciplinary_core_ideas:
+        - PS2.A
+        - PS3.C  # Relationship Between Energy and Forces (secondary)
+      science_and_engineering_practices:
+        - planning_and_carrying_out_investigations
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - compares a big push to a small push
+      - mentions that pushing harder makes something go faster or farther
+      - talks about pushing in different directions to get different results
+      - uses comparative language (harder, softer, faster, farther)
+    example_prompts:
+      - "Should the bear push gently or really hard?"
+      - "What happens if you push something sideways instead of straight?"
+      - "Why did the ball go so far that time?"
+    positive_evidence_patterns:
+      - child compares two different strengths of push
+      - child predicts different outcomes from different force amounts
+      - child connects direction of push to direction of result
+    negative_evidence_patterns:
+      - treats all pushes as identical regardless of strength
+      - cannot distinguish hard push from gentle push in effects
+    evaluation_method:
+      type: llm_rubric_with_keyword_support
+      rubric_id: ngss_force_strength_direction_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: force_motion
+    status: active
+    version: 1
+
+  - id: ngss.physical_science.collision_changes_motion
+    framework: ngss
+    domain: science
+    subdomain: physical_science
+    title: Understands collisions change motion
+    short_label: Collisions
+    parent_friendly_label: Knows bumping things changes how they move
+    description: >
+      Child demonstrates understanding that when objects touch or
+      collide, they push on one another and can change each other's motion.
+    ngss_source:
+      performance_expectations:
+        - K-PS2-1
+      disciplinary_core_ideas:
+        - PS2.B  # Types of Interactions
+      science_and_engineering_practices:
+        - planning_and_carrying_out_investigations
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - describes what happens when two things bump into each other
+      - says crashing or hitting makes things change direction or stop
+      - gives example of collision from play or story
+    example_prompts:
+      - "What happens when the two cars crash into each other?"
+      - "If the ball hits the wall, then what?"
+      - "The rabbit ran into the log — what do you think happened?"
+    positive_evidence_patterns:
+      - child describes motion change from collision
+      - child explains that both objects are affected when they collide
+      - child uses collision example to explain a change in motion
+    negative_evidence_patterns:
+      - says objects pass through each other
+      - no recognition that contact between objects affects motion
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_collision_motion_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: force_motion
+    status: active
+    version: 1
+
+  - id: ngss.physical_science.design_solution_change_motion
+    framework: ngss
+    domain: science
+    subdomain: physical_science
+    title: Suggests a design solution to change motion
+    short_label: Design for motion
+    parent_friendly_label: Thinks of ways to change how things move
+    description: >
+      Child can suggest or evaluate a simple design or strategy that uses
+      a push or pull to change the speed or direction of an object, connecting
+      to engineering design thinking.
+    ngss_source:
+      performance_expectations:
+        - K-PS2-2
+      disciplinary_core_ideas:
+        - PS2.A
+      science_and_engineering_practices:
+        - constructing_explanations_and_designing_solutions
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - suggests using a push or pull to solve a motion problem in a story
+      - evaluates whether a story character's idea would work
+      - proposes making something go a different direction or speed
+    example_prompts:
+      - "The ball keeps rolling off the table — what could we build to stop it?"
+      - "How could the rabbit make the cart go the other way?"
+      - "Did the bear's idea work? Why or why not?"
+    positive_evidence_patterns:
+      - child proposes a solution involving push or pull
+      - child evaluates whether a design would change motion as intended
+      - child iterates on an idea when first solution has problems
+    negative_evidence_patterns:
+      - cannot suggest any way to change an object's motion
+      - solution has no connection to pushing, pulling, or blocking
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_design_motion_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: engineering
+    status: active
+    version: 1
+
+  # ============================================================
+  # PHYSICAL SCIENCE — Energy (K-PS3-1, K-PS3-2)
+  # ============================================================
+
+  - id: ngss.physical_science.sunlight_warms_earth_surface
+    framework: ngss
+    domain: science
+    subdomain: physical_science
+    title: Understands sunlight warms Earth's surface
+    short_label: Sunlight warming
+    parent_friendly_label: Knows the sun makes things warm
+    description: >
+      Child demonstrates understanding that sunlight warms the ground,
+      water, and other surfaces on Earth.
+    ngss_source:
+      performance_expectations:
+        - K-PS3-1
+      disciplinary_core_ideas:
+        - PS3.B  # Conservation of Energy and Energy Transfer
+      science_and_engineering_practices:
+        - planning_and_carrying_out_investigations
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - says the sun makes things hot or warm
+      - compares sunny vs. shady areas in terms of temperature
+      - connects sunshine to warmth in a story or real-life context
+    example_prompts:
+      - "Why is the sand so hot at the beach?"
+      - "Is it warmer in the sun or in the shade? Why?"
+      - "What happens to the ground when the sun shines on it all day?"
+    positive_evidence_patterns:
+      - child links sunlight to warming of surfaces
+      - child compares sun vs. shade and correctly identifies temperature difference
+      - child uses sunlight-warmth connection in story reasoning
+    negative_evidence_patterns:
+      - says the sun has no effect on temperature
+      - cannot distinguish sunny from shady conditions re: warmth
+    evaluation_method:
+      type: llm_rubric_with_keyword_support
+      rubric_id: ngss_sunlight_warming_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: energy
+    status: active
+    version: 1
+
+  - id: ngss.physical_science.design_reduce_sunlight_warming
+    framework: ngss
+    domain: science
+    subdomain: physical_science
+    title: Suggests a way to reduce warming from sunlight
+    short_label: Shade design
+    parent_friendly_label: Thinks of ways to stay cool from the sun
+    description: >
+      Child can suggest or evaluate a simple structure or strategy
+      that would reduce the warming effect of sunlight, such as shade,
+      a cover, or a shelter.
+    ngss_source:
+      performance_expectations:
+        - K-PS3-2
+      disciplinary_core_ideas:
+        - PS3.B
+      science_and_engineering_practices:
+        - constructing_explanations_and_designing_solutions
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - suggests building shade or a roof to keep cool
+      - mentions umbrellas, hats, trees, or shelters as sun protection
+      - evaluates whether a design would block sunlight
+    example_prompts:
+      - "The animals are too hot — how could they stay cool?"
+      - "What could we build so the bear doesn't get sunburned?"
+      - "Why do we go under a tree when it's hot?"
+    positive_evidence_patterns:
+      - child proposes a structure that blocks sunlight
+      - child explains why shade keeps things cooler
+      - child evaluates a shelter design for effectiveness
+    negative_evidence_patterns:
+      - cannot suggest any way to reduce sun exposure
+      - solution has no relationship to blocking or avoiding sunlight
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_shade_design_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: engineering
+    status: active
+    version: 1
+
+  # ============================================================
+  # LIFE SCIENCE — Organisms: Needs (K-LS1-1)
+  # ============================================================
+
+  - id: ngss.life_science.living_things_need_to_survive
+    framework: ngss
+    domain: science
+    subdomain: life_science
+    title: Identifies what plants and animals need to survive
+    short_label: Survival needs
+    parent_friendly_label: Knows what living things need
+    description: >
+      Child can identify basic needs of living things — animals need
+      food and water; plants need water and light — and recognizes
+      patterns in those needs.
+    ngss_source:
+      performance_expectations:
+        - K-LS1-1
+      disciplinary_core_ideas:
+        - LS1.C  # Organization for Matter and Energy Flow
+      science_and_engineering_practices:
+        - analyzing_and_interpreting_data
+      crosscutting_concepts:
+        - patterns
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - names water, food, or air as something animals need
+      - says plants need water and light (sunshine)
+      - distinguishes that animals eat food but plants do not eat
+      - recognizes that all living things need water
+    example_prompts:
+      - "What does the rabbit need to stay alive?"
+      - "What happens to a plant if it doesn't get any water?"
+      - "Do plants eat food like animals do?"
+      - "What do all living things need?"
+    positive_evidence_patterns:
+      - child names at least two survival needs correctly
+      - child distinguishes plant needs from animal needs
+      - child identifies a pattern like all living things need water
+    negative_evidence_patterns:
+      - says living things don't need anything
+      - cannot name any survival need even with support
+      - says plants eat food the same way animals do after clarification
+    evaluation_method:
+      type: llm_rubric_with_keyword_support
+      rubric_id: ngss_survival_needs_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: life_science
+    status: active
+    version: 1
+
+  # ============================================================
+  # EARTH AND SPACE SCIENCE — Weather (K-ESS2-1)
+  # ============================================================
+
+  - id: ngss.earth_science.weather_patterns
+    framework: ngss
+    domain: science
+    subdomain: earth_space_science
+    title: Describes weather patterns over time
+    short_label: Weather patterns
+    parent_friendly_label: Notices weather changes and patterns
+    description: >
+      Child can describe local weather conditions (sunny, rainy, windy,
+      snowy, cloudy) and recognizes that weather follows observable
+      patterns over time.
+    ngss_source:
+      performance_expectations:
+        - K-ESS2-1
+      disciplinary_core_ideas:
+        - ESS2.D  # Weather and Climate
+      science_and_engineering_practices:
+        - analyzing_and_interpreting_data
+      crosscutting_concepts:
+        - patterns
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - names weather conditions (sunny, rainy, cloudy, windy, snowy)
+      - describes what weather is like today or in a story setting
+      - mentions that weather can change or follow patterns
+      - compares weather at different times (morning vs. afternoon, seasons)
+    example_prompts:
+      - "What's the weather like in our story today?"
+      - "If it's been cloudy all day, what might happen next?"
+      - "Is it usually cold or warm where the penguins live?"
+      - "What kind of weather do you like best?"
+    positive_evidence_patterns:
+      - child correctly names current or story weather conditions
+      - child identifies a pattern (e.g., it rains a lot in spring)
+      - child makes a reasonable weather prediction based on pattern
+    negative_evidence_patterns:
+      - cannot name any weather condition
+      - weather descriptions are consistently contradictory
+    evaluation_method:
+      type: llm_rubric_with_keyword_support
+      rubric_id: ngss_weather_patterns_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: earth_science
+    status: active
+    version: 1
+
+  # ============================================================
+  # EARTH AND SPACE SCIENCE — Ecosystems (K-ESS2-2)
+  # ============================================================
+
+  - id: ngss.earth_science.organisms_change_environment
+    framework: ngss
+    domain: science
+    subdomain: earth_space_science
+    title: Knows plants and animals can change their environment
+    short_label: Changing environment
+    parent_friendly_label: Understands living things change where they live
+    description: >
+      Child can describe or give examples of how plants and animals
+      (including humans) change their environment to meet their needs,
+      such as digging burrows, building nests, or damming streams.
+    ngss_source:
+      performance_expectations:
+        - K-ESS2-2
+      disciplinary_core_ideas:
+        - ESS2.E  # Biogeology
+      science_and_engineering_practices:
+        - engaging_in_argument_from_evidence
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - gives example of animal changing its surroundings (nest, burrow, dam)
+      - says plants grow roots that break up soil or that trees give shade
+      - mentions humans building things to change the environment
+    example_prompts:
+      - "Why did the beaver build a dam?"
+      - "How does a bird change the tree it lives in?"
+      - "Do people change the land around them? How?"
+    positive_evidence_patterns:
+      - child gives at least one example of organism modifying environment
+      - child connects the change to meeting a need (shelter, food, safety)
+      - child supports claim with a reason or evidence from story/experience
+    negative_evidence_patterns:
+      - says animals never change anything about where they live
+      - cannot give any example even with scaffolding
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_organisms_change_env_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: earth_science
+    status: active
+    version: 1
+
+  # ============================================================
+  # EARTH AND SPACE SCIENCE — Earth and Human Activity
+  # (K-ESS3-1, K-ESS3-2, K-ESS3-3)
+  # ============================================================
+
+  - id: ngss.earth_science.living_things_need_right_place
+    framework: ngss
+    domain: science
+    subdomain: earth_space_science
+    title: Connects living things to where they live
+    short_label: Habitats match needs
+    parent_friendly_label: Knows animals and plants live where they can get what they need
+    description: >
+      Child can describe the relationship between the needs of a plant
+      or animal and the place where it lives, understanding that
+      different organisms need different environments.
+    ngss_source:
+      performance_expectations:
+        - K-ESS3-1
+      disciplinary_core_ideas:
+        - ESS3.A  # Natural Resources
+      science_and_engineering_practices:
+        - developing_and_using_models
+      crosscutting_concepts:
+        - systems_and_system_models
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - explains why an animal lives in a particular place (food, water, shelter)
+      - says a fish needs water so it lives in a pond or ocean
+      - matches animals to appropriate habitats
+      - says a plant grows where it can get sun and water
+    example_prompts:
+      - "Why does the fish live in water and not in the forest?"
+      - "Could a polar bear live in the desert? Why or why not?"
+      - "Where should we plant the flower so it grows best?"
+    positive_evidence_patterns:
+      - child connects an organism to its habitat based on needs
+      - child explains why a mismatch would be a problem
+      - child names at least one resource the habitat provides
+    negative_evidence_patterns:
+      - says any animal can live anywhere
+      - no connection between organism needs and habitat
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_habitat_needs_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: earth_science
+    status: active
+    version: 1
+
+  - id: ngss.earth_science.severe_weather_preparation
+    framework: ngss
+    domain: science
+    subdomain: earth_space_science
+    title: Understands purpose of weather forecasting
+    short_label: Weather preparation
+    parent_friendly_label: Knows we check weather to stay safe
+    description: >
+      Child understands that weather forecasts help people prepare for
+      and respond to severe weather, and can describe simple ways to
+      prepare for bad weather.
+    ngss_source:
+      performance_expectations:
+        - K-ESS3-2
+      disciplinary_core_ideas:
+        - ESS3.B  # Natural Hazards
+      science_and_engineering_practices:
+        - asking_questions_and_defining_problems
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - says we check weather to know if we need a coat, umbrella, or to stay inside
+      - describes preparing for a storm (closing windows, going inside)
+      - mentions that big storms can be dangerous
+      - asks or answers questions about what to do in bad weather
+    example_prompts:
+      - "A big storm is coming in our story — what should the animals do?"
+      - "Why do people watch the weather on TV?"
+      - "What would you bring if you knew it was going to rain?"
+    positive_evidence_patterns:
+      - child links forecast to preparation action
+      - child describes a safety behavior for severe weather
+      - child shows understanding that weather information helps planning
+    negative_evidence_patterns:
+      - says there is no reason to know about weather in advance
+      - cannot suggest any preparation for bad weather
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_weather_prep_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: earth_science
+    status: active
+    version: 1
+
+  - id: ngss.earth_science.reduce_human_impact
+    framework: ngss
+    domain: science
+    subdomain: earth_space_science
+    title: Suggests ways to reduce human impact on environment
+    short_label: Reduce human impact
+    parent_friendly_label: Thinks of ways to protect nature
+    description: >
+      Child can describe or suggest simple solutions that would reduce
+      the impact of humans on land, water, air, or other living things
+      in the local environment.
+    ngss_source:
+      performance_expectations:
+        - K-ESS3-3
+      disciplinary_core_ideas:
+        - ESS3.C  # Human Impacts on Earth Systems
+      science_and_engineering_practices:
+        - obtaining_evaluating_and_communicating_information
+      crosscutting_concepts:
+        - cause_and_effect
+    age_ranges:
+      - min_age: 4.5
+        max_age: 6.0
+        expected: true
+    observable_signals:
+      - suggests not littering or picking up trash
+      - talks about recycling, saving water, or planting trees
+      - identifies something humans do that hurts animals or plants
+      - proposes a way to help or protect a natural area
+    example_prompts:
+      - "The forest animals are sad because of all the trash — what can we do?"
+      - "How can people help keep the river clean?"
+      - "What happens to the animals when we cut down too many trees?"
+    positive_evidence_patterns:
+      - child suggests at least one human behavior change to help environment
+      - child connects a human action to harm on nature
+      - child communicates a solution with basic reasoning
+    negative_evidence_patterns:
+      - says humans have no effect on nature
+      - cannot suggest any way to help the environment
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_reduce_impact_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: earth_science
+    status: active
+    version: 1
+
+  # ============================================================
+  # ENGINEERING DESIGN (K-2-ETS1-1, K-2-ETS1-2, K-2-ETS1-3)
+  # ============================================================
+
+  - id: ngss.engineering.define_simple_problem
+    framework: ngss
+    domain: science
+    subdomain: engineering
+    title: Defines a simple problem to solve
+    short_label: Define problem
+    parent_friendly_label: Identifies a problem that needs solving
+    description: >
+      Child can identify a situation that people (or story characters)
+      want to change and define it as a simple problem that could be
+      solved through creating or improving an object or tool.
+    ngss_source:
+      performance_expectations:
+        - K-2-ETS1-1
+      disciplinary_core_ideas:
+        - ETS1.A  # Defining and Delimiting an Engineering Problem
+      science_and_engineering_practices:
+        - asking_questions_and_defining_problems
+      crosscutting_concepts: []
+    age_ranges:
+      - min_age: 4.5
+        max_age: 7.0
+        expected: true
+    observable_signals:
+      - identifies what is wrong or what someone needs
+      - states the problem clearly in simple language
+      - asks a question about what could be done differently
+      - gathers information by asking or observing before proposing solutions
+    example_prompts:
+      - "The bear can't reach the apples — what's the problem?"
+      - "What's making it hard for the turtle to cross the river?"
+      - "Something isn't working — can you figure out what?"
+    positive_evidence_patterns:
+      - child clearly states the problem before jumping to solution
+      - child identifies needs or constraints
+      - child asks clarifying questions about the situation
+    negative_evidence_patterns:
+      - cannot identify what is wrong even with description
+      - only offers solutions with no understanding of the problem
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_define_problem_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: engineering
+    status: active
+    version: 1
+
+  - id: ngss.engineering.sketch_or_describe_solution
+    framework: ngss
+    domain: science
+    subdomain: engineering
+    title: Describes or sketches a solution
+    short_label: Describe solution
+    parent_friendly_label: Comes up with an idea to solve a problem
+    description: >
+      Child can describe (or would sketch) a simple solution to a
+      problem, illustrating how the shape or design of an object
+      helps it function for its purpose.
+    ngss_source:
+      performance_expectations:
+        - K-2-ETS1-2
+      disciplinary_core_ideas:
+        - ETS1.B  # Developing Possible Solutions
+      science_and_engineering_practices:
+        - developing_and_using_models
+      crosscutting_concepts:
+        - structure_and_function
+    age_ranges:
+      - min_age: 4.5
+        max_age: 7.0
+        expected: true
+    observable_signals:
+      - describes what they would build or make to solve a problem
+      - explains how the shape or parts of their design help it work
+      - gives details about materials, shape, or size
+      - connects design features to the problem being solved
+    example_prompts:
+      - "What could we build to help the bear reach the apples?"
+      - "Tell me about your invention — what does it look like?"
+      - "Why did you make it that shape?"
+    positive_evidence_patterns:
+      - child describes a design with at least one functional detail
+      - child connects design feature to solving the problem
+      - child shows iterative thinking (improving initial idea)
+    negative_evidence_patterns:
+      - cannot describe any design idea
+      - design has no connection to the stated problem
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_describe_solution_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: high
+      badge_icon: engineering
+    status: active
+    version: 1
+
+  - id: ngss.engineering.compare_solutions
+    framework: ngss
+    domain: science
+    subdomain: engineering
+    title: Compares how well different solutions work
+    short_label: Compare solutions
+    parent_friendly_label: Figures out which idea works better
+    description: >
+      Child can compare two approaches to solving the same problem,
+      identifying strengths and weaknesses of each.
+    ngss_source:
+      performance_expectations:
+        - K-2-ETS1-3
+      disciplinary_core_ideas:
+        - ETS1.C  # Optimizing the Design Solution
+      science_and_engineering_practices:
+        - analyzing_and_interpreting_data
+      crosscutting_concepts: []
+    age_ranges:
+      - min_age: 4.5
+        max_age: 7.0
+        expected: true
+    observable_signals:
+      - says one idea is better than another and explains why
+      - identifies what works and what doesn't about each option
+      - uses comparison language (better, worse, stronger, faster)
+      - considers trade-offs between two designs
+    example_prompts:
+      - "We tried a bridge and a boat — which one worked better for the turtle?"
+      - "The bear's first idea broke — how is the new one different?"
+      - "Which shelter would keep the rain out better? Why?"
+    positive_evidence_patterns:
+      - child compares at least two solutions on a relevant dimension
+      - child identifies a strength and/or weakness of at least one option
+      - child selects a preferred solution with reasoning
+    negative_evidence_patterns:
+      - cannot compare two options
+      - picks preference with no reasoning or irrelevant criteria
+    evaluation_method:
+      type: llm_rubric
+      rubric_id: ngss_compare_solutions_v1
+    scoring:
+      type: ternary
+      values:
+        - not_observed
+        - emerging
+        - demonstrated
+    display:
+      show_in_parent_app: true
+      priority: medium
+      badge_icon: engineering
+    status: active
+    version: 1
