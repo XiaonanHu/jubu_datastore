@@ -273,7 +273,7 @@ items:
       - child uses sunlight-warmth connection in story reasoning
     negative_evidence_patterns:
       - says the sun has no effect on temperature
-      - cannot distinguish sunny from shady conditions re: warmth
+      - "cannot distinguish sunny from shady conditions re: warmth"
     evaluation_method:
       type: llm_rubric_with_keyword_support
       rubric_id: ngss_sunlight_warming_v1

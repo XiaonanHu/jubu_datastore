@@ -16,12 +16,14 @@ from jubu_datastore.models.capability_definitions import (
     CapabilityItemDefinition,
     DisplayConfig,
     EvaluationMethod,
+    NgssSource,
     ScoringConfig,
 )
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 _CASEL_YAML = _REPO_ROOT / "capability_definitions" / "casel" / "age_5.yaml"
 _DEV_YAML = _REPO_ROOT / "capability_definitions" / "developmental" / "age_5.yaml"
+_NGSS_YAML = _REPO_ROOT / "capability_definitions" / "ngss" / "age_5.yaml"
 
 
 def _load_pack(path: Path) -> CapabilityDefinitionPack:
@@ -400,6 +402,80 @@ def test_string_fields_stripped_and_non_empty() -> None:
             status="active",
             version=1,
         )
+
+
+# -----------------------------------------------------------------------------
+# Valid parsing: NGSS
+# -----------------------------------------------------------------------------
+
+
+def test_valid_ngss_pack_parsing() -> None:
+    """ngss/age_5.yaml loads and all items pass schema validation."""
+    pack = _load_pack(_NGSS_YAML)
+    assert pack.framework == "ngss"
+    assert pack.age == 5
+    assert len(pack.items) >= 1
+    for item in pack.items:
+        assert item.framework == "ngss"
+        assert item.id.startswith("ngss.")
+        assert item.status == "active"
+        assert item.version >= 1
+        assert item.scoring.type == "ternary"
+        assert item.scoring.values == ["not_observed", "emerging", "demonstrated"]
+
+
+def test_ngss_items_have_ngss_source() -> None:
+    """Every item in ngss/age_5.yaml has a parsed ngss_source block."""
+    pack = _load_pack(_NGSS_YAML)
+    for item in pack.items:
+        assert item.ngss_source is not None, f"{item.id} is missing ngss_source"
+        assert isinstance(item.ngss_source, NgssSource)
+        assert len(item.ngss_source.performance_expectations) >= 1, (
+            f"{item.id}: expected at least one performance_expectation"
+        )
+
+
+def test_ngss_list_fields_are_plain_strings() -> None:
+    """All list string fields in ngss/age_5.yaml are plain strings, not dicts.
+
+    Guards against YAML colon-in-string bugs (e.g. 'foo: bar' parsed as a mapping).
+    """
+    pack = _load_pack(_NGSS_YAML)
+    for item in pack.items:
+        for field_name in (
+            "observable_signals",
+            "example_prompts",
+            "positive_evidence_patterns",
+            "negative_evidence_patterns",
+        ):
+            values = getattr(item, field_name)
+            for v in values:
+                assert isinstance(v, str), (
+                    f"{item.id}.{field_name}: expected str, got {type(v).__name__!r} ({v!r}). "
+                    "Likely an unquoted colon in the YAML value."
+                )
+
+
+def test_ngss_subdomains_are_known() -> None:
+    """NGSS items use one of the expected subdomains."""
+    expected_subdomains = {
+        "physical_science",
+        "life_science",
+        "earth_space_science",
+        "engineering",
+    }
+    pack = _load_pack(_NGSS_YAML)
+    for item in pack.items:
+        assert item.subdomain in expected_subdomains, (
+            f"{item.id}: unexpected subdomain {item.subdomain!r}"
+        )
+
+
+def test_ngss_item_applies_to_age_5() -> None:
+    """All items in ngss/age_5.yaml apply to age 5.0."""
+    pack = _load_pack(_NGSS_YAML)
+    for item in pack.items:
+        assert item.applies_to_age(5.0), f"{item.id} should apply to age 5.0"
 
 
 # -----------------------------------------------------------------------------
