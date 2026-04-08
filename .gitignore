@@ -33,3 +33,5 @@ ENV/
 
 kidschat.db
 docs/
+capability_definitions/casel/casel_age_5.yaml
+capability_definitions/developmental/developmental_age_5.yaml

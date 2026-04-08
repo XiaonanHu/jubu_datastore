@@ -15,6 +15,7 @@ Clean top-level imports for backend:
 """
 from jubu_datastore.base_datastore import BaseDatastore
 from jubu_datastore.capability_datastore import CapabilityDatastore
+from jubu_datastore.capability_seed import seed_child_capability_state
 from jubu_datastore.common.enums import ConversationState
 from jubu_datastore.common.exceptions import *
 from jubu_datastore.conversation_datastore import (
@@ -81,4 +82,5 @@ __all__ = [
     "DuplicatePackError",
     "load_default_registry",
     "load_definition_pack_from_yaml",
+    "seed_child_capability_state",
 ]
