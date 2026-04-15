@@ -188,7 +188,11 @@ When a new child profile is created, call `seed_child_capability_state()` to ini
 ```python
 from jubu_datastore import seed_child_capability_state
 
-seed_child_capability_state(child_id="abc-123", connection_string="postgresql://...")
+# Uses DATABASE_URL from environment (PostgreSQL in production)
+seed_child_capability_state(child_id="abc-123")
+
+# Or with explicit connection string
+seed_child_capability_state(child_id="abc-123", connection_string="postgresql://jubu:dev@localhost:5432/jubu")
 ```
 
 This creates one `child_capability_state` row per item with:

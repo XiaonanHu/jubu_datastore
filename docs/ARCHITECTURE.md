@@ -67,7 +67,7 @@ DatastoreFactory.close_all()
 | `pool_recycle` | 3600s | Max connection age before replacement |
 | `pool_pre_ping` | True | Health-check before handing out a connection |
 
-With 7 datastore types sharing one engine, the total connection footprint is **5 base + 10 overflow = 15 connections** per unique database URL (not 7x that).
+With 7 datastore types sharing one engine, the total connection footprint is **5 base + 10 overflow = 15 connections** to the PostgreSQL instance (not 7x that). This is well within typical Cloud SQL / managed PostgreSQL connection limits (default ~100).
 
 ---
 
@@ -153,14 +153,40 @@ _datastore_registry = {
 
 ---
 
+## Deployment
+
+**Production** runs on PostgreSQL hosted on Google Cloud:
+
+```
+DATABASE_URL=postgresql://jubu:<password>@<host>:5432/jubu
+```
+
+The connection string and encryption key are set as environment variables / secrets in the cloud deployment (e.g. Cloud Run, GKE). They are never committed to source control.
+
+**Local development** should mirror the production dialect by running a local PostgreSQL:
+
+```bash
+docker run -d --name jubu-pg -e POSTGRES_USER=jubu -e POSTGRES_PASSWORD=dev -e POSTGRES_DB=jubu -p 5432:5432 postgres:16
+```
+
+```
+# .env (local only, git-ignored)
+DATABASE_URL=postgresql://jubu:dev@localhost:5432/jubu
+ENCRYPTION_KEY=<generate-one>
+```
+
+**Unit tests** use `sqlite:///:memory:` for speed and isolation. This is acceptable because the ORM abstraction covers dialect differences, but integration tests should run against PostgreSQL to catch dialect-specific behavior (e.g. JSON operators, locking).
+
+---
+
 ## Known Limitations
 
 1. **No multi-tenant isolation.** All queries hit the same tables without tenant scoping. Multi-tenancy would require either a `tenant_id` filter on all queries, schema-per-tenant, or database-per-tenant.
 
-2. **SQLite is not production-ready.** The default `sqlite:///kidschat.db` works for development and demos but cannot handle concurrent writes. Use PostgreSQL (or similar) for production.
+2. **No connection-per-request pattern.** Sessions are scoped to threads, not to HTTP requests. In async frameworks (FastAPI with async endpoints), additional care is needed to avoid session leakage across requests.
 
-3. **No connection-per-request pattern.** Sessions are scoped to threads, not to HTTP requests. In async frameworks (FastAPI with async endpoints), additional care is needed to avoid session leakage across requests.
+3. **No Alembic integration.** Schema changes are handled by manual migration scripts in `migrations/` and `create_all(checkfirst=True)`. This works for additive changes but doesn't support column renames, drops, or type changes.
 
-4. **No Alembic integration.** Schema changes are handled by manual migration scripts in `migrations/` and `create_all(checkfirst=True)`. This works for additive changes but doesn't support column renames, drops, or type changes.
+4. **Encryption is opt-in at application layer.** No ORM columns are automatically encrypted. The `encrypt_data`/`decrypt_data` methods must be called explicitly by consuming code.
 
-5. **Encryption is opt-in at application layer.** No ORM columns are automatically encrypted. The `encrypt_data`/`decrypt_data` methods must be called explicitly by consuming code.
+5. **SQLite fallback exists but is not recommended.** The code defaults to `sqlite:///kidschat.db` if `DATABASE_URL` is unset. This is a safety net for bootstrapping only -- production and local development should always use PostgreSQL.

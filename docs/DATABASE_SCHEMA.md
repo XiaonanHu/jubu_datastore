@@ -1,6 +1,8 @@
 # Database Schema
 
-All tables share a single `declarative_base()` and are created via `Base.metadata.create_all()` on first use. The default database is SQLite (`sqlite:///kidschat.db`) but any SQLAlchemy-compatible backend works.
+All tables share a single `declarative_base()` and are created via `Base.metadata.create_all()` on first use.
+
+**Production** runs on PostgreSQL (`postgresql://jubu:<password>@<host>:5432/jubu`) deployed on Google Cloud. Local development should also use PostgreSQL (via Docker) to match the production dialect. The SQLite fallback (`sqlite:///kidschat.db`) exists only as a last-resort default and is used in unit tests (`sqlite:///:memory:`).
 
 ---
 

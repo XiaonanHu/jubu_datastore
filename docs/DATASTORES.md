@@ -2,6 +2,8 @@
 
 All datastores extend `BaseDatastore[T]` and implement the abstract CRUD interface: `create()`, `get()`, `update()`, `delete()`. Most also expose domain-specific methods.
 
+All examples assume `DATABASE_URL` is set in the environment pointing to PostgreSQL (production: Google Cloud, local dev: `postgresql://jubu:dev@localhost:5432/jubu`).
+
 ---
 
 ## UserDatastore

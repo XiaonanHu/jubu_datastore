@@ -22,8 +22,28 @@ factory.close_all()
 | Variable | Required | Default | Description |
 |---|---|---|---|
 | `ENCRYPTION_KEY` | **Yes** | -- | Fernet symmetric key for encrypting sensitive data |
-| `DATABASE_URL` | No | `sqlite:///kidschat.db` | SQLAlchemy connection string |
+| `DATABASE_URL` | **Yes** (production) | `sqlite:///kidschat.db` | SQLAlchemy connection string |
 | `DB_POOL_SIZE` | No | `5` | Connections per engine pool |
+
+**Production** uses PostgreSQL on Google Cloud:
+
+```
+DATABASE_URL=postgresql://jubu:<password>@<host>:5432/jubu
+```
+
+> The production `DATABASE_URL` and `ENCRYPTION_KEY` must be set as secrets in the cloud deployment environment (e.g. Cloud Run env vars or Secret Manager). Never commit credentials to `.env` or source control.
+
+**Local development** should use a local PostgreSQL instance to match the production dialect:
+
+```bash
+# Start local PostgreSQL
+docker run -d --name jubu-pg -e POSTGRES_USER=jubu -e POSTGRES_PASSWORD=dev -e POSTGRES_DB=jubu -p 5432:5432 postgres:16
+
+# .env for local dev
+DATABASE_URL=postgresql://jubu:dev@localhost:5432/jubu
+```
+
+**Unit tests** use `sqlite:///:memory:` for speed and isolation (see `tests/test_capability_datastore.py`).
 
 Generate an encryption key:
 
@@ -106,6 +126,7 @@ jubu_datastore/
 
 - Python >= 3.10
 - SQLAlchemy (ORM + connection pooling)
+- psycopg2 or asyncpg (PostgreSQL driver)
 - cryptography (Fernet encryption)
 - Pydantic (DTOs + YAML validation)
 - loguru (structured logging)
