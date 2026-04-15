@@ -51,7 +51,7 @@ class CapabilityDatastore(BaseDatastore):
             encryption_key=encryption_key,
             model_class=ChildCapabilityObservationModel,
         )
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
 
     def create(self, data: Dict[str, Any]) -> CapabilityObservation:
         """Create and return a capability observation (convenience for generic interface)."""

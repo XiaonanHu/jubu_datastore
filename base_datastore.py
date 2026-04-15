@@ -7,6 +7,7 @@ and security features.
 """
 
 import os
+import threading
 import time
 from abc import ABC, abstractmethod
 from contextlib import contextmanager
@@ -44,6 +45,12 @@ class BaseDatastore(ABC, Generic[T]):
     RETRY_DELAY = RETRY_DELAY
     # Class-level Base attribute
     Base = declarative_base(metadata=MetaData())
+    # Track which engines have already run create_all to avoid repeated DDL checks
+    _schema_initialized: set = set()
+    _schema_lock = threading.Lock()
+    # Shared engine pool: one engine per connection string across all datastore types
+    _engines: Dict[str, Any] = {}
+    _engine_lock = threading.Lock()
 
     def __init__(
         self,
@@ -55,10 +62,15 @@ class BaseDatastore(ABC, Generic[T]):
         self.connection_string = connection_string or os.environ.get(
             "DATABASE_URL", "sqlite:///kidschat.db"
         )
-        self.pool_size = pool_size or int(os.environ.get("DB_POOL_SIZE", "10"))
-        self.encryption_key = encryption_key or os.environ.get(
-            "ENCRYPTION_KEY", Fernet.generate_key().decode()
-        )
+        self.pool_size = pool_size or int(os.environ.get("DB_POOL_SIZE", "5"))
+
+        resolved_key = encryption_key or os.environ.get("ENCRYPTION_KEY")
+        if not resolved_key:
+            raise DatastoreError(
+                "ENCRYPTION_KEY must be set via argument or environment variable. "
+                "Generate one with: python -c \"from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())\""
+            )
+        self.encryption_key = resolved_key
         self.model_class = model_class
 
         self._initialize_encryption()
@@ -81,17 +93,30 @@ class BaseDatastore(ABC, Generic[T]):
             logger.error(f"Failed to initialize encryption: {e}")
             raise DatastoreError(f"Encryption initialization failed: {str(e)}")
 
+    @classmethod
+    def _get_or_create_engine(cls, connection_string: str, pool_size: int):
+        """Return a shared engine for the given connection string (thread-safe)."""
+        with cls._engine_lock:
+            if connection_string not in cls._engines:
+                engine = create_engine(
+                    connection_string,
+                    poolclass=QueuePool,
+                    pool_size=pool_size,
+                    max_overflow=10,
+                    pool_timeout=30,
+                    pool_recycle=3600,
+                    pool_pre_ping=True,
+                    echo=False,
+                )
+                cls._engines[connection_string] = engine
+                logger.info(f"Created shared engine for {connection_string}")
+            return cls._engines[connection_string]
+
     def _initialize_db_connection(self) -> None:
         """Initialize the database connection and session factory."""
         try:
-            self.engine = create_engine(
-                self.connection_string,
-                poolclass=QueuePool,
-                pool_size=self.pool_size,
-                max_overflow=10,
-                pool_timeout=30,
-                pool_recycle=1800,
-                echo=False,
+            self.engine = self._get_or_create_engine(
+                self.connection_string, self.pool_size
             )
 
             self.Session = scoped_session(
@@ -102,6 +127,17 @@ class BaseDatastore(ABC, Generic[T]):
         except Exception as e:
             logger.error(f"Failed to initialize database connection: {e}")
             raise DatabaseConnectionError(f"Database connection failed: {str(e)}")
+
+    def _ensure_schema(self) -> None:
+        """Run create_all only once per connection string to avoid repeated DDL checks."""
+        if self.connection_string in BaseDatastore._schema_initialized:
+            return
+        with BaseDatastore._schema_lock:
+            # Double-check after acquiring lock
+            if self.connection_string not in BaseDatastore._schema_initialized:
+                self.Base.metadata.create_all(self.engine)
+                BaseDatastore._schema_initialized.add(self.connection_string)
+                logger.debug(f"Schema initialized for {self.connection_string}")
 
     @contextmanager
     def session_scope(self):
@@ -171,7 +207,18 @@ class BaseDatastore(ABC, Generic[T]):
         pass
 
     def close(self) -> None:
-        """Close database connections and release resources."""
-        if hasattr(self, "engine"):
-            self.engine.dispose()
-            logger.debug("Database connections closed")
+        """Close the scoped session. Engine disposal is handled by dispose_engines()."""
+        if hasattr(self, "Session"):
+            self.Session.remove()
+            logger.debug(f"Scoped session removed for {self.__class__.__name__}")
+
+    @classmethod
+    def dispose_engines(cls) -> None:
+        """Dispose all shared engines and reset schema tracking. Call once at shutdown."""
+        with cls._engine_lock:
+            for conn_str, engine in cls._engines.items():
+                engine.dispose()
+                logger.info(f"Disposed engine for {conn_str}")
+            cls._engines.clear()
+        with cls._schema_lock:
+            cls._schema_initialized.clear()

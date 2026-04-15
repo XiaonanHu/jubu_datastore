@@ -65,7 +65,7 @@ class StoryDatastore(BaseDatastore):
             model_class=StoryModel,
         )
 
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
 
     def create(self, data: Dict[str, Any]) -> StoryModel:
         return self.save_story(data)

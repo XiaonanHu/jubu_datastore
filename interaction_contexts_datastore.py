@@ -62,7 +62,7 @@ class InteractionContextsDatastore(BaseDatastore):
             model_class=InteractionContextModel,
         )
 
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
 
     def create(self, data: Dict[str, Any]) -> InteractionContextModel:
         return self.save_interaction_context(data)

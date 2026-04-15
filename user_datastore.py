@@ -56,7 +56,7 @@ class UserDatastore(BaseDatastore):
             model_class=UserModel,
         )
         self.password_hasher = password_hasher
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
         self.model = UserModel
         logger.debug("UserDatastore initialized with UserModel")
 

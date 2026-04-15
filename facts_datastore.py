@@ -64,7 +64,7 @@ class FactsDatastore(BaseDatastore):
             model_class=ChildFactModel,
         )
 
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
 
     def create(self, data: Dict[str, Any]) -> ChildFactModel:
         return self.save_child_fact(data["child_id"], data)

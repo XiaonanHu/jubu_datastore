@@ -68,7 +68,7 @@ class ProfileDatastore(BaseDatastore):
             model_class=ChildProfileModel,
         )
 
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
 
     def _model_to_entity(self, model: ChildProfileModel) -> ChildProfile:
         return ChildProfile(

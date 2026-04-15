@@ -6,6 +6,7 @@ supporting different database backends and configurations.
 """
 
 import os
+import threading
 from typing import Any, Callable, Dict, Optional, Type, Union
 
 from jubu_datastore.logging import get_logger
@@ -41,6 +42,20 @@ class DatastoreFactory:
     }
 
     _instances: Dict[str, BaseDatastore] = {}
+    _instances_lock = threading.Lock()
+
+    @classmethod
+    def _instance_key(
+        cls,
+        datastore_type: str,
+        connection_string: Optional[str] = None,
+        encryption_key: Optional[str] = None,
+    ) -> str:
+        """Build a cache key from type and connection parameters."""
+        # Resolve defaults so that (None, None) and (env-value, env-value) hit the same key
+        conn = connection_string or os.environ.get("DATABASE_URL", "sqlite:///kidschat.db")
+        enc = encryption_key or os.environ.get("ENCRYPTION_KEY", "")
+        return f"{datastore_type}|{conn}|{enc}"
 
     @classmethod
     def create_datastore(
@@ -52,7 +67,11 @@ class DatastoreFactory:
         **kwargs,
     ) -> BaseDatastore:
         """
-        Create a datastore instance.
+        Get or create a datastore instance (singleton per type + connection params).
+
+        Returns an existing instance when one has already been created with the
+        same datastore_type, connection_string, and encryption_key.  This prevents
+        connection-pool exhaustion caused by creating a new engine per request.
 
         Args:
             datastore_type: Type of datastore to create
@@ -71,22 +90,34 @@ class DatastoreFactory:
             logger.error(f"Unsupported datastore type: {datastore_type}")
             raise DatastoreError(f"Unsupported datastore type: {datastore_type}")
 
-        datastore_class = cls._datastore_registry[datastore_type]
+        key = cls._instance_key(datastore_type, connection_string, encryption_key)
 
-        try:
-            instance = datastore_class(
-                connection_string=connection_string,
-                pool_size=pool_size,
-                encryption_key=encryption_key,
-                **kwargs,
-            )
-            logger.info(f"Created {datastore_type} datastore")
-            return instance
-        except Exception as e:
-            logger.error(f"Error creating {datastore_type} datastore: {e}")
-            raise DatastoreError(
-                f"Failed to create {datastore_type} datastore: {str(e)}"
-            )
+        # Fast path without lock
+        if key in cls._instances:
+            return cls._instances[key]
+
+        with cls._instances_lock:
+            # Double-check after acquiring lock
+            if key in cls._instances:
+                return cls._instances[key]
+
+            datastore_class = cls._datastore_registry[datastore_type]
+
+            try:
+                instance = datastore_class(
+                    connection_string=connection_string,
+                    pool_size=pool_size,
+                    encryption_key=encryption_key,
+                    **kwargs,
+                )
+                cls._instances[key] = instance
+                logger.info(f"Created {datastore_type} datastore (singleton cached)")
+                return instance
+            except Exception as e:
+                logger.error(f"Error creating {datastore_type} datastore: {e}")
+                raise DatastoreError(
+                    f"Failed to create {datastore_type} datastore: {str(e)}"
+                )
 
     @classmethod
     def get_datastore(cls, datastore_type: str) -> BaseDatastore:
@@ -105,10 +136,12 @@ class DatastoreFactory:
         Raises:
             DatastoreError: If the datastore type is not supported
         """
-        if datastore_type not in cls._instances:
-            cls._instances[datastore_type] = cls.create_datastore(datastore_type)
+        key = cls._instance_key(datastore_type)
+        if key not in cls._instances:
+            cls.create_datastore(datastore_type)
+            # create_datastore now caches in _instances
 
-        return cls._instances[datastore_type]
+        return cls._instances[key]
 
     @classmethod
     def create_capability_datastore(
@@ -212,12 +245,15 @@ class DatastoreFactory:
 
     @classmethod
     def close_all(cls) -> None:
-        """Close all datastore connections."""
-        for datastore_type, instance in cls._instances.items():
-            try:
-                instance.close()
-                logger.info(f"Closed {datastore_type} datastore")
-            except Exception as e:
-                logger.error(f"Error closing {datastore_type} datastore: {e}")
+        """Close all datastore sessions and dispose shared engine pools."""
+        with cls._instances_lock:
+            for key, instance in cls._instances.items():
+                try:
+                    instance.close()
+                    logger.info(f"Closed datastore: {key.split('|')[0]}")
+                except Exception as e:
+                    logger.error(f"Error closing datastore {key}: {e}")
+            cls._instances.clear()
 
-        cls._instances.clear()
+        # Dispose shared engines after all sessions are removed
+        BaseDatastore.dispose_engines()

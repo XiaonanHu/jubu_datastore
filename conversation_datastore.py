@@ -96,7 +96,7 @@ class ConversationDatastore(BaseDatastore):
             model_class=ConversationModel,
         )
 
-        self.Base.metadata.create_all(self.engine)
+        self._ensure_schema()
 
     def create(self, data: Dict[str, Any]) -> ConversationModel:
         return self.save_conversation(data)
