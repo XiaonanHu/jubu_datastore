@@ -557,6 +557,25 @@ class ConversationDatastore(BaseDatastore):
 
                 total_count = query.count()
 
+                # Sum minutes per conversation using ceil((end - start) / 60s) so the
+                # server-side total matches the frontend's `conversationMinutes()` formula.
+                duration_rows = query.with_entities(
+                    ConversationModel.start_time,
+                    ConversationModel.end_time,
+                    ConversationModel.last_interaction_time,
+                ).all()
+                total_minutes = 0
+                for start_time, end_time, last_interaction_time in duration_rows:
+                    if start_time is None:
+                        continue
+                    end = end_time or last_interaction_time
+                    if end is None:
+                        continue
+                    seconds = (end - start_time).total_seconds()
+                    if seconds <= 0:
+                        continue
+                    total_minutes += -(-int(seconds) // 60)  # ceil(seconds / 60)
+
                 avg_turns = (
                     session.query(
                         func.avg(
@@ -574,6 +593,7 @@ class ConversationDatastore(BaseDatastore):
 
                 return {
                     "total_conversations": total_count,
+                    "total_minutes": total_minutes,
                     "state_counts": state_counts,
                     "average_turns_per_conversation": float(avg_turns),
                     "filter_child_id": child_id,
