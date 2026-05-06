@@ -585,7 +585,7 @@ class ConversationDatastore(BaseDatastore):
                                 == ConversationModel.id
                             )
                             .correlate(ConversationModel)
-                            .statement.with_only_columns([func.count()])
+                            .statement.with_only_columns(func.count())
                         )
                     ).scalar()
                     or 0
