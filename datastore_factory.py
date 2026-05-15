@@ -18,6 +18,7 @@ from jubu_datastore.facts_datastore import FactsDatastore
 from jubu_datastore.interaction_contexts_datastore import InteractionContextsDatastore
 from jubu_datastore.profile_datastore import ProfileDatastore
 from jubu_datastore.story_datastore import StoryDatastore
+from jubu_datastore.telemetry_datastore import TelemetryDatastore
 from jubu_datastore.user_datastore import UserDatastore
 
 logger = get_logger(__name__)
@@ -38,6 +39,7 @@ class DatastoreFactory:
         "profile": ProfileDatastore,
         "interaction_contexts": InteractionContextsDatastore,
         "story": StoryDatastore,
+        "telemetry": TelemetryDatastore,
         "user": UserDatastore,
     }
 
@@ -222,6 +224,20 @@ class DatastoreFactory:
     ) -> StoryDatastore:
         return cls.create_datastore(
             "story",
+            connection_string=connection_string,
+            pool_size=pool_size,
+            encryption_key=encryption_key,
+        )
+
+    @classmethod
+    def create_telemetry_datastore(
+        cls,
+        connection_string: Optional[str] = None,
+        pool_size: Optional[int] = None,
+        encryption_key: Optional[str] = None,
+    ) -> TelemetryDatastore:
+        return cls.create_datastore(
+            "telemetry",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
