@@ -16,6 +16,7 @@ from jubu_datastore.capability_datastore import CapabilityDatastore
 from jubu_datastore.conversation_datastore import ConversationDatastore
 from jubu_datastore.facts_datastore import FactsDatastore
 from jubu_datastore.interaction_contexts_datastore import InteractionContextsDatastore
+from jubu_datastore.parent_chat_datastore import ParentChatDatastore
 from jubu_datastore.profile_datastore import ProfileDatastore
 from jubu_datastore.story_datastore import StoryDatastore
 from jubu_datastore.telemetry_datastore import TelemetryDatastore
@@ -36,6 +37,7 @@ class DatastoreFactory:
         "capability": CapabilityDatastore,
         "conversation": ConversationDatastore,
         "facts": FactsDatastore,
+        "parent_chat": ParentChatDatastore,
         "profile": ProfileDatastore,
         "interaction_contexts": InteractionContextsDatastore,
         "story": StoryDatastore,
@@ -257,6 +259,20 @@ class DatastoreFactory:
             pool_size=pool_size,
             encryption_key=encryption_key,
             password_hasher=password_hasher,
+        )
+
+    @classmethod
+    def create_parent_chat_datastore(
+        cls,
+        connection_string: Optional[str] = None,
+        pool_size: Optional[int] = None,
+        encryption_key: Optional[str] = None,
+    ) -> ParentChatDatastore:
+        return cls.create_datastore(
+            "parent_chat",
+            connection_string=connection_string,
+            pool_size=pool_size,
+            encryption_key=encryption_key,
         )
 
     @classmethod
