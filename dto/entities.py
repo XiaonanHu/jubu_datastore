@@ -7,7 +7,7 @@ from pydantic import BaseModel, EmailStr
 class User(BaseModel):
     id: str
     email: EmailStr
-    full_name: str
+    full_name: Optional[str] = None
     is_active: bool
     created_at: datetime
     updated_at: Optional[datetime] = None

@@ -87,6 +87,23 @@ class ProfileDatastore(BaseDatastore):
     def create(self, data: Dict[str, Any]) -> ChildProfile:
         return self.save_child_profile(data)
 
+    def create_in_session(self, session, data: Dict[str, Any]) -> ChildProfile:
+        """
+        Add a new child profile to an existing session without committing.
+        Use this when profile creation must be atomic with another write (e.g. consent log).
+        """
+        profile_id = data.get("id", str(uuid.uuid4()))
+        profile = ChildProfileModel(
+            id=profile_id,
+            name=data["name"],
+            age=data["age"],
+            interests=data.get("interests", []),
+            preferences=data.get("preferences", {}),
+            parent_id=data.get("parent_id"),
+        )
+        session.add(profile)
+        return self._model_to_entity(profile)
+
     def get(self, record_id: str) -> Optional[ChildProfile]:
         return self.get_child_profile(record_id)
 

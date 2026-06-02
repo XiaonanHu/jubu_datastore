@@ -26,7 +26,7 @@ class UserModel(BaseDatastore.Base):
 
     id = sa.Column(sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
     email = sa.Column(sa.String(255), unique=True, nullable=False, index=True)
-    full_name = sa.Column(sa.String(255), nullable=False)
+    full_name = sa.Column(sa.String(255), nullable=True)
     hashed_password = sa.Column(sa.String(255), nullable=False)
     is_active = sa.Column(sa.Boolean, default=True, nullable=False)
     created_at = sa.Column(sa.DateTime, default=datetime.utcnow, nullable=False)
@@ -105,6 +105,32 @@ class UserDatastore(BaseDatastore):
         except Exception as e:
             logger.error(f"Failed to create user: {e}")
             raise UserDataError(f"Failed to create user: {str(e)}")
+
+    def create_in_session(self, session, user_data: Dict[str, Any]) -> User:
+        """
+        Add a new user to an existing session without committing.
+        Use this when user creation must be atomic with another write (e.g. consent log).
+        Caller is responsible for the commit via their session_scope context manager.
+        """
+        user_id = user_data.get("id", str(uuid.uuid4()))
+        user = self.model(
+            id=user_id,
+            email=user_data.get("email"),
+            full_name=user_data.get("full_name"),
+            hashed_password=user_data.get("hashed_password"),
+            is_active=True,
+            created_at=datetime.utcnow(),
+        )
+        session.add(user)
+        return User(
+            id=user_id,
+            email=user_data.get("email"),
+            full_name=user_data.get("full_name"),
+            is_active=True,
+            created_at=user.created_at,
+            updated_at=None,
+            hashed_password=user_data.get("hashed_password"),
+        )
 
     def get_by_email(self, email: str) -> Optional[User]:
         """
