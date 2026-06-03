@@ -148,10 +148,14 @@ class ConsentDatastore(BaseDatastore):
           vpc_method, apple_transaction_id, child_id, failure_reason, event_metadata
         """
         row = self._build_event_row(parent_id, event_type, **kwargs)
+        # Capture event_id before the session closes — SQLAlchemy expires all
+        # attributes on commit, so reading row.event_id after the with-block
+        # would raise DetachedInstanceError.
+        event_id = row.event_id
         with self.session_scope() as session:
             session.add(row)
         logger.info(f"Logged consent event: {event_type} for parent {parent_id}")
-        return row.event_id
+        return event_id
 
     def log_event_in_session(self, session, parent_id: str, event_type: str, **kwargs) -> str:
         """
