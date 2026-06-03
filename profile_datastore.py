@@ -100,6 +100,7 @@ class ProfileDatastore(BaseDatastore):
             interests=data.get("interests", []),
             preferences=data.get("preferences", {}),
             parent_id=data.get("parent_id"),
+            is_active=True,
         )
         session.add(profile)
         return self._model_to_entity(profile)
