@@ -284,6 +284,32 @@ class ParentChatDatastore(BaseDatastore):
                 return None
             return (row.summary, row.session_count)
 
+    def delete_all_for_child(self, parent_id: str, child_id: str) -> int:
+        """Hard-delete all parent chat sessions for a (parent, child) pair.
+        Messages cascade via FK."""
+        with self.session_scope() as db:
+            count = (
+                db.query(ParentChatSessionModel)
+                .filter_by(parent_id=parent_id, child_id=child_id)
+                .delete(synchronize_session=False)
+            )
+            db.commit()
+        logger.info(
+            f"Hard-deleted {count} parent chat sessions for child {child_id}"
+        )
+        return count
+
+    def delete_rolling_summaries_for_parent(self, parent_id: str) -> None:
+        """Delete all rolling summaries for a parent."""
+        with self.session_scope() as db:
+            count = (
+                db.query(ParentChatRollingSummaryModel)
+                .filter_by(parent_id=parent_id)
+                .delete(synchronize_session=False)
+            )
+            db.commit()
+        logger.info(f"Deleted {count} rolling summaries for parent {parent_id}")
+
     def upsert_rolling_summary(
         self, parent_id: str, child_id: str, summary: str, session_count: int
     ) -> None:

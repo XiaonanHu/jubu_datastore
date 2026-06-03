@@ -398,6 +398,22 @@ class FactsDatastore(BaseDatastore):
             logger.error(f"Error extending fact expiration: {e}")
             raise FactsDataError(f"Failed to extend fact expiration: {str(e)}")
 
+    def delete_all_for_child(self, child_id: str) -> int:
+        """Hard-delete all facts for a child."""
+        try:
+            with self.session_scope() as session:
+                count = (
+                    session.query(ChildFactModel)
+                    .filter(ChildFactModel.child_id == child_id)
+                    .delete(synchronize_session=False)
+                )
+                session.commit()
+            logger.info(f"Hard-deleted {count} facts for child {child_id}")
+            return count
+        except Exception as e:
+            logger.error(f"Error deleting all facts for child {child_id}: {e}")
+            raise FactsDataError(f"Failed to delete facts for child: {str(e)}")
+
     def get_facts_statistics(self, child_id: Optional[str] = None) -> Dict[str, Any]:
         try:
             with self.session_scope() as session:

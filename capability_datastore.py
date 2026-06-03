@@ -83,6 +83,31 @@ class CapabilityDatastore(BaseDatastore):
         logger.warning("Capability observations must not be deleted")
         return False
 
+    def delete_all_for_child(self, child_id: str) -> int:
+        """Hard-delete all capability observations and state for a child."""
+        try:
+            with self.session_scope() as session:
+                obs_count = (
+                    session.query(ChildCapabilityObservationModel)
+                    .filter(ChildCapabilityObservationModel.child_id == child_id)
+                    .delete(synchronize_session=False)
+                )
+                state_count = (
+                    session.query(ChildCapabilityStateModel)
+                    .filter(ChildCapabilityStateModel.child_id == child_id)
+                    .delete(synchronize_session=False)
+                )
+                session.commit()
+            total = obs_count + state_count
+            logger.info(
+                f"Hard-deleted {obs_count} observations + {state_count} state rows "
+                f"for child {child_id}"
+            )
+            return total
+        except Exception as e:
+            logger.error(f"Error deleting capability data for child {child_id}: {e}")
+            raise CapabilityDataError(f"Failed to delete capability data for child: {str(e)}")
+
     def _observation_to_entity(self, m: ChildCapabilityObservationModel) -> CapabilityObservation:
         return CapabilityObservation(
             id=m.id,

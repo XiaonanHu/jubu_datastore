@@ -125,6 +125,33 @@ class TelemetryDatastore(BaseDatastore):
             logger.warning(f"telemetry insert failed for event={event!r}: {exc}")
             return None
 
+    def scrub_child_data(self, child_id: str) -> int:
+        """Null out content fields on telemetry rows for a child.
+        Rows are kept for aggregate event counts; identifying fields are cleared."""
+        try:
+            with self.session_scope() as session:
+                count = (
+                    session.query(TelemetryEventModel)
+                    .filter(TelemetryEventModel.child_id == child_id)
+                    .count()
+                )
+                session.query(TelemetryEventModel).filter(
+                    TelemetryEventModel.child_id == child_id
+                ).update(
+                    {
+                        TelemetryEventModel.fields: {},
+                        TelemetryEventModel.conversation_id: None,
+                        TelemetryEventModel.child_id: None,
+                    },
+                    synchronize_session=False,
+                )
+                session.commit()
+            logger.info(f"Scrubbed {count} telemetry rows for child {child_id}")
+            return count
+        except Exception as exc:
+            logger.warning(f"telemetry scrub failed for child {child_id}: {exc}")
+            return 0
+
     def recent(self, limit: int = 100) -> List[Dict[str, Any]]:
         """Used by tests / manual debugging only.  Production reads happen
         through Grafana's Postgres datasource."""

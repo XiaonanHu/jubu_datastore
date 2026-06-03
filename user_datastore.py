@@ -280,6 +280,24 @@ class UserDatastore(BaseDatastore):
             logger.error(f"Failed to delete user: {e}")
             raise UserDataError(f"Failed to delete user: {str(e)}")
 
+    def hard_delete(self, user_id: str) -> bool:
+        """Permanently delete a user row. Call only after all child data is removed."""
+        try:
+            with self.session_scope() as session:
+                user = (
+                    session.query(self.model).filter(self.model.id == user_id).first()
+                )
+                if not user:
+                    logger.warning(f"User {user_id} not found for hard deletion")
+                    return False
+                session.delete(user)
+                session.commit()
+            logger.info(f"Hard-deleted user {user_id}")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to hard-delete user {user_id}: {e}")
+            raise UserDataError(f"Failed to hard-delete user: {str(e)}")
+
     def deactivate(self, user_id: str) -> bool:
         """
         Deactivate a user.

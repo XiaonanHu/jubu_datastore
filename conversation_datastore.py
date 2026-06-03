@@ -500,6 +500,25 @@ class ConversationDatastore(BaseDatastore):
             logger.error(f"Error hard-deleting conversation: {e}")
             raise ConversationDataError(f"Failed to hard-delete conversation: {str(e)}")
 
+    def delete_all_for_child(self, child_id: str) -> int:
+        """Hard-delete all conversations (and their turns via cascade) for a child."""
+        try:
+            with self.session_scope() as session:
+                conversations = (
+                    session.query(ConversationModel)
+                    .filter(ConversationModel.child_id == child_id)
+                    .all()
+                )
+                count = len(conversations)
+                for conv in conversations:
+                    session.delete(conv)
+                session.commit()
+            logger.info(f"Hard-deleted {count} conversations for child {child_id}")
+            return count
+        except Exception as e:
+            logger.error(f"Error deleting all conversations for child {child_id}: {e}")
+            raise ConversationDataError(f"Failed to delete conversations for child: {str(e)}")
+
     def archive_old_conversations(
         self, days_threshold: int = DEFAULT_ARCHIVE_DAYS
     ) -> int:

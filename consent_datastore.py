@@ -24,7 +24,9 @@ VALID_EVENT_TYPES = {
     "consent_obtained",
     "consent_failed",
     "child_profile_created",
+    "child_profile_deleted",
     "consent_revoked",
+    "account_deleted",
 }
 
 
@@ -355,6 +357,36 @@ class ConsentDatastore(BaseDatastore):
     # -------------------------------------------------------------------------
     # Helpers
     # -------------------------------------------------------------------------
+
+    def null_pii_for_parent(self, parent_id: str) -> None:
+        """Null PII columns in consent_events for this parent.
+        Rows are retained ≥ 3 years (legal); only identifying fields are cleared."""
+        with self.session_scope() as session:
+            session.query(ConsentEventModel).filter(
+                ConsentEventModel.parent_id == parent_id
+            ).update(
+                {
+                    ConsentEventModel.ip_address: None,
+                    ConsentEventModel.user_agent: None,
+                    ConsentEventModel.failure_reason: None,
+                },
+                synchronize_session=False,
+            )
+            session.commit()
+        logger.info(f"Nulled PII in consent_events for parent {parent_id}")
+
+    def cancel_all_subscriptions(self, parent_id: str) -> None:
+        """Mark all subscriptions for this parent as 'cancelled' in the local DB.
+        Does NOT cancel Apple billing — the user must do that in App Store settings."""
+        with self.session_scope() as session:
+            session.query(SubscriptionModel).filter(
+                SubscriptionModel.parent_id == parent_id
+            ).update(
+                {SubscriptionModel.status: "cancelled"},
+                synchronize_session=False,
+            )
+            session.commit()
+        logger.info(f"Cancelled all subscriptions for parent {parent_id}")
 
     @staticmethod
     def _event_to_dict(row: ConsentEventModel) -> Dict[str, Any]:

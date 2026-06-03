@@ -88,6 +88,22 @@ class StoryDatastore(BaseDatastore):
             logger.info(f"Deleted story {record_id}")
             return True
 
+    def delete_all_for_child(self, child_id: str) -> int:
+        """Hard-delete all stories for a child."""
+        try:
+            with self.session_scope() as session:
+                count = (
+                    session.query(StoryModel)
+                    .filter(StoryModel.child_id == child_id)
+                    .delete(synchronize_session=False)
+                )
+                session.commit()
+            logger.info(f"Hard-deleted {count} stories for child {child_id}")
+            return count
+        except Exception as e:
+            logger.error(f"Error deleting all stories for child {child_id}: {e}")
+            raise StoryDataError(f"Failed to delete stories for child: {str(e)}")
+
     def save_story(
         self, story_data: Dict[str, Any], story_id: Optional[str] = None
     ) -> StoryModel:

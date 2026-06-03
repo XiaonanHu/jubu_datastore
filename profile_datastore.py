@@ -303,6 +303,21 @@ class ProfileDatastore(BaseDatastore):
             logger.error(f"Error deleting child data: {e}")
             raise ProfileDataError(f"Failed to delete child data: {str(e)}")
 
+    def get_all_profiles_by_parent(self, parent_id: str) -> List[ChildProfile]:
+        """Return all profiles (active + inactive) for a parent.
+        Used during account deletion to catch soft-deleted profiles that still have data."""
+        try:
+            with self.session_scope() as session:
+                profiles = (
+                    session.query(ChildProfileModel)
+                    .filter(ChildProfileModel.parent_id == parent_id)
+                    .all()
+                )
+                return [self._model_to_entity(p) for p in profiles]
+        except Exception as e:
+            logger.error(f"Error retrieving all profiles by parent: {e}")
+            raise ProfileDataError(f"Failed to retrieve profiles by parent: {str(e)}")
+
     def get_profiles_by_parent(self, parent_id: str) -> List[ChildProfile]:
         try:
             with self.session_scope() as session:
