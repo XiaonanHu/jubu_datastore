@@ -25,6 +25,7 @@ VALID_EVENT_TYPES = {
     "consent_failed",
     "child_profile_created",
     "child_profile_deleted",
+    "child_conversations_deleted",
     "consent_revoked",
     "account_deleted",
 }
