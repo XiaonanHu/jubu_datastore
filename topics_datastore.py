@@ -33,9 +33,16 @@ class ChildTopicModel(BaseDatastore.Base):
     framework_link = sa.Column(sa.String(255), nullable=True)  # nullable NGSS/CASEL item id
 
     times_visited = sa.Column(sa.Integer, nullable=False, default=1)
+    # Total mentions across all sessions (sum of per-session mention counts).
+    # Drives the parent-app topic-bubble SIZE (talked about a lot -> bigger).
+    total_mentions = sa.Column(sa.Integer, nullable=False, default=1)
+    # Who first raised the topic: "child" or "buju". Set once on insert, never
+    # updated. Drives the parent-app bubble MARK/badge.
+    origin = sa.Column(sa.String(8), nullable=False, default="child")
     first_session_id = sa.Column(sa.String(36), nullable=True)
     last_session_id = sa.Column(sa.String(36), nullable=True)
     first_observed_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    # Drives the parent-app bubble COLOR (lighter = stale, darker = recent).
     last_observed_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
 
     last_depth = sa.Column(sa.Integer, nullable=False, default=0)
@@ -120,10 +127,11 @@ class TopicsDatastore(BaseDatastore):
     def upsert_topic(self, child_id: str, topic: Dict[str, Any]) -> ChildTopicModel:
         """Insert or update one topic for a child, keyed by canonical_key.
 
-        On update: bumps times_visited, refreshes recency/session, keeps the
-        max depth seen, and records the latest sentiment. `topic` accepts:
-        canonical_key, topic_label, kind, framework_link, last_depth,
-        sentiment, session_id, observed_at.
+        On update: bumps times_visited, ACCUMULATES total_mentions by
+        `mentions_delta`, refreshes recency/session, keeps the max depth seen,
+        records the latest sentiment, and PRESERVES origin (first sighting wins).
+        `topic` accepts: canonical_key, topic_label, kind, framework_link,
+        last_depth, sentiment, session_id, observed_at, origin, mentions_delta.
         """
         canonical_key = topic.get("canonical_key")
         if not canonical_key:
@@ -132,6 +140,10 @@ class TopicsDatastore(BaseDatastore):
         observed_at = topic.get("observed_at") or datetime.utcnow()
         session_id = topic.get("session_id")
         depth = int(topic.get("last_depth", 0) or 0)
+        mentions_delta = int(topic.get("mentions_delta", 1) or 1)
+        origin = topic.get("origin", "child")
+        if origin not in ("child", "buju"):
+            origin = "child"
 
         try:
             with self.session_scope() as session:
@@ -152,6 +164,8 @@ class TopicsDatastore(BaseDatastore):
                         kind=topic.get("kind", "other"),
                         framework_link=topic.get("framework_link"),
                         times_visited=1,
+                        total_mentions=mentions_delta,
+                        origin=origin,  # set once, on insert
                         first_session_id=session_id,
                         last_session_id=session_id,
                         first_observed_at=observed_at,
@@ -164,6 +178,9 @@ class TopicsDatastore(BaseDatastore):
                     session.add(row)
                 else:
                     row.times_visited = (row.times_visited or 0) + 1
+                    row.total_mentions = (row.total_mentions or 0) + mentions_delta
+                    # origin is intentionally NOT updated — who introduced the
+                    # topic doesn't change on later visits.
                     row.last_session_id = session_id
                     row.last_observed_at = observed_at
                     row.last_depth = max(int(row.last_depth or 0), depth)
@@ -203,6 +220,8 @@ class TopicsDatastore(BaseDatastore):
                         "kind": r.kind,
                         "framework_link": r.framework_link,
                         "times_visited": r.times_visited,
+                        "total_mentions": r.total_mentions,
+                        "origin": r.origin,
                         "first_session_id": r.first_session_id,
                         "last_session_id": r.last_session_id,
                         "first_observed_at": r.first_observed_at,
