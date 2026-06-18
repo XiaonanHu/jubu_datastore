@@ -40,6 +40,9 @@ class ConversationModel(BaseDatastore.Base):
     conv_metadata = sa.Column(sa.JSON, nullable=True)
     is_archived = sa.Column(sa.Boolean, nullable=False, default=False, index=True)
     parent_summary = sa.Column(sa.Text, nullable=True)
+    # Structured "Recent highlights" for the parent dashboard, keyed by
+    # category (sel/developmental/topics/growth). See parent_summary.py.
+    parent_highlights = sa.Column(sa.JSON, nullable=True)
 
     turns = relationship(
         "ConversationTurnModel",
@@ -121,6 +124,7 @@ class ConversationDatastore(BaseDatastore):
                 "conv_metadata": conversation.conv_metadata,
                 "is_archived": conversation.is_archived,
                 "parent_summary": conversation.parent_summary,
+                "parent_highlights": conversation.parent_highlights,
             }
 
             return conversation_dict
@@ -177,6 +181,7 @@ class ConversationDatastore(BaseDatastore):
                 start_time=conversation_data.get("start_time", datetime.utcnow()),
                 conv_metadata=conversation_data.get("conv_metadata", {}),
                 parent_summary=conversation_data.get("parent_summary"),
+                parent_highlights=conversation_data.get("parent_highlights"),
             )
 
             with self.session_scope() as session:
@@ -239,6 +244,24 @@ class ConversationDatastore(BaseDatastore):
             True if the conversation was found and updated, False otherwise
         """
         updated = self.update(conversation_id, {"parent_summary": summary})
+        return updated is not None
+
+    def set_conversation_parent_highlights(
+        self, conversation_id: str, highlights: Optional[Dict[str, Any]]
+    ) -> bool:
+        """
+        Save the structured parent-dashboard highlights for a conversation.
+
+        Args:
+            conversation_id: ID of the conversation
+            highlights: Dict keyed by category (sel/developmental/topics/growth),
+                each a list of {label, observation, optional suggestion}. May be
+                an empty dict when nothing was well-supported.
+
+        Returns:
+            True if the conversation was found and updated, False otherwise
+        """
+        updated = self.update(conversation_id, {"parent_highlights": highlights})
         return updated is not None
 
     def add_conversation_turn(
@@ -437,6 +460,7 @@ class ConversationDatastore(BaseDatastore):
                         "conv_metadata": conv.conv_metadata,
                         "is_archived": conv.is_archived,
                         "parent_summary": conv.parent_summary,
+                        "parent_highlights": conv.parent_highlights,
                         "turn_count": session.query(ConversationTurnModel)
                         .filter(ConversationTurnModel.conversation_id == conv.id)
                         .count(),
@@ -651,6 +675,7 @@ class ConversationDatastore(BaseDatastore):
                         "conv_metadata": conv.conv_metadata,
                         "is_archived": conv.is_archived,
                         "parent_summary": conv.parent_summary,
+                        "parent_highlights": conv.parent_highlights,
                         "turn_count": turn_count,
                     }
                     result.append(conv_dict)
