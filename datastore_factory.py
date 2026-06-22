@@ -21,7 +21,7 @@ from jubu_datastore.parent_chat_datastore import ParentChatDatastore
 from jubu_datastore.profile_datastore import ProfileDatastore
 from jubu_datastore.story_datastore import StoryDatastore
 from jubu_datastore.telemetry_datastore import TelemetryDatastore
-from jubu_datastore.topics_datastore import TopicsDatastore
+from jubu_datastore.observed_interests_datastore import ObservedInterestsDatastore
 from jubu_datastore.user_datastore import UserDatastore
 
 logger = get_logger(__name__)
@@ -45,7 +45,7 @@ class DatastoreFactory:
         "interaction_contexts": InteractionContextsDatastore,
         "story": StoryDatastore,
         "telemetry": TelemetryDatastore,
-        "topics": TopicsDatastore,
+        "observed_interests": ObservedInterestsDatastore,
         "user": UserDatastore,
     }
 
@@ -250,14 +250,14 @@ class DatastoreFactory:
         )
 
     @classmethod
-    def create_topics_datastore(
+    def create_observed_interests_datastore(
         cls,
         connection_string: Optional[str] = None,
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
-    ) -> TopicsDatastore:
+    ) -> ObservedInterestsDatastore:
         return cls.create_datastore(
-            "topics",
+            "observed_interests",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,

@@ -1,9 +1,9 @@
 """
-Topics datastore — per-child cross-session interest ledger.
+Observed-interests datastore — per-child cross-session interest ledger.
 
 Stores what a child has been curious about across sessions, distilled to short
-labels. Upserted at session end from TurnState.session_topics. Designed to be
-graph-ready: a future `child_topic_edges` table can relate these nodes without
+labels. Upserted at session end from TurnState.memory.observed_interests. Designed to be
+graph-ready: a future `observed_interest_edges` table can relate these nodes without
 reworking them. See docs/STORY_GENERATION_PLAN.md.
 """
 
@@ -20,15 +20,15 @@ from jubu_datastore.base_datastore import BaseDatastore
 logger = get_logger(__name__)
 
 
-class ChildTopicModel(BaseDatastore.Base):
-    """SQLAlchemy model for a per-child topic the child has engaged with."""
+class ObservedInterestModel(BaseDatastore.Base):
+    """SQLAlchemy model for a per-child observed interest the child has engaged with."""
 
-    __tablename__ = "child_topics"
+    __tablename__ = "observed_interests"
 
     id = sa.Column(sa.String(36), primary_key=True)
     child_id = sa.Column(sa.String(36), nullable=False, index=True)
     canonical_key = sa.Column(sa.String(120), nullable=False)
-    topic_label = sa.Column(sa.String(120), nullable=False)
+    interest_label = sa.Column(sa.String(120), nullable=False)
     kind = sa.Column(sa.String(32), nullable=False, default="other")
     framework_link = sa.Column(sa.String(255), nullable=True)  # nullable NGSS/CASEL item id
 
@@ -56,14 +56,14 @@ class ChildTopicModel(BaseDatastore.Base):
     )
 
     __table_args__ = (
-        sa.UniqueConstraint("child_id", "canonical_key", name="uq_child_topic"),
-        sa.Index("idx_topic_child", "child_id"),
-        sa.Index("idx_topic_child_recent", "child_id", "last_observed_at"),
+        sa.UniqueConstraint("child_id", "canonical_key", name="uq_child_observed_interest"),
+        sa.Index("idx_observed_interest_child", "child_id"),
+        sa.Index("idx_observed_interest_child_recent", "child_id", "last_observed_at"),
     )
 
 
-class TopicsDatastore(BaseDatastore):
-    """Datastore for the per-child topic ledger."""
+class ObservedInterestsDatastore(BaseDatastore):
+    """Datastore for the per-child observed-interest ledger."""
 
     def __init__(
         self,
@@ -75,30 +75,30 @@ class TopicsDatastore(BaseDatastore):
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
-            model_class=ChildTopicModel,
+            model_class=ObservedInterestModel,
         )
         self._ensure_schema()
 
     # BaseDatastore abstract surface -------------------------------------
 
-    def create(self, data: Dict[str, Any]) -> ChildTopicModel:
-        return self.upsert_topic(data["child_id"], data)
+    def create(self, data: Dict[str, Any]) -> ObservedInterestModel:
+        return self.upsert_observed_interest(data["child_id"], data)
 
-    def get(self, record_id: str) -> Optional[ChildTopicModel]:
+    def get(self, record_id: str) -> Optional[ObservedInterestModel]:
         with self.session_scope() as session:
             return (
-                session.query(ChildTopicModel)
-                .filter(ChildTopicModel.id == record_id)
+                session.query(ObservedInterestModel)
+                .filter(ObservedInterestModel.id == record_id)
                 .first()
             )
 
     def update(
         self, record_id: str, data: Dict[str, Any]
-    ) -> Optional[ChildTopicModel]:
+    ) -> Optional[ObservedInterestModel]:
         with self.session_scope() as session:
             row = (
-                session.query(ChildTopicModel)
-                .filter(ChildTopicModel.id == record_id)
+                session.query(ObservedInterestModel)
+                .filter(ObservedInterestModel.id == record_id)
                 .first()
             )
             if not row:
@@ -112,8 +112,8 @@ class TopicsDatastore(BaseDatastore):
     def delete(self, record_id: str) -> bool:
         with self.session_scope() as session:
             row = (
-                session.query(ChildTopicModel)
-                .filter(ChildTopicModel.id == record_id)
+                session.query(ObservedInterestModel)
+                .filter(ObservedInterestModel.id == record_id)
                 .first()
             )
             if not row:
@@ -124,45 +124,45 @@ class TopicsDatastore(BaseDatastore):
 
     # Ledger operations --------------------------------------------------
 
-    def upsert_topic(self, child_id: str, topic: Dict[str, Any]) -> ChildTopicModel:
+    def upsert_observed_interest(self, child_id: str, interest: Dict[str, Any]) -> ObservedInterestModel:
         """Insert or update one topic for a child, keyed by canonical_key.
 
         On update: bumps times_visited, ACCUMULATES total_mentions by
         `mentions_delta`, refreshes recency/session, keeps the max depth seen,
         records the latest sentiment, and PRESERVES origin (first sighting wins).
-        `topic` accepts: canonical_key, topic_label, kind, framework_link,
+        `topic` accepts: canonical_key, interest_label, kind, framework_link,
         last_depth, sentiment, session_id, observed_at, origin, mentions_delta.
         """
-        canonical_key = topic.get("canonical_key")
+        canonical_key = interest.get("canonical_key")
         if not canonical_key:
-            raise DatastoreError("upsert_topic requires a canonical_key")
+            raise DatastoreError("upsert_observed_interest requires a canonical_key")
 
-        observed_at = topic.get("observed_at") or datetime.utcnow()
-        session_id = topic.get("session_id")
-        depth = int(topic.get("last_depth", 0) or 0)
-        mentions_delta = int(topic.get("mentions_delta", 1) or 1)
-        origin = topic.get("origin", "child")
+        observed_at = interest.get("observed_at") or datetime.utcnow()
+        session_id = interest.get("session_id")
+        depth = int(interest.get("last_depth", 0) or 0)
+        mentions_delta = int(interest.get("mentions_delta", 1) or 1)
+        origin = interest.get("origin", "child")
         if origin not in ("child", "buju"):
             origin = "child"
 
         try:
             with self.session_scope() as session:
                 row = (
-                    session.query(ChildTopicModel)
+                    session.query(ObservedInterestModel)
                     .filter(
-                        ChildTopicModel.child_id == child_id,
-                        ChildTopicModel.canonical_key == canonical_key,
+                        ObservedInterestModel.child_id == child_id,
+                        ObservedInterestModel.canonical_key == canonical_key,
                     )
                     .first()
                 )
                 if row is None:
-                    row = ChildTopicModel(
+                    row = ObservedInterestModel(
                         id=str(uuid.uuid4()),
                         child_id=child_id,
                         canonical_key=canonical_key,
-                        topic_label=topic.get("topic_label", canonical_key)[:120],
-                        kind=topic.get("kind", "other"),
-                        framework_link=topic.get("framework_link"),
+                        interest_label=interest.get("interest_label", canonical_key)[:120],
+                        kind=interest.get("kind", "other"),
+                        framework_link=interest.get("framework_link"),
                         times_visited=1,
                         total_mentions=mentions_delta,
                         origin=origin,  # set once, on insert
@@ -171,8 +171,8 @@ class TopicsDatastore(BaseDatastore):
                         first_observed_at=observed_at,
                         last_observed_at=observed_at,
                         last_depth=depth,
-                        breadth_count=int(topic.get("breadth_count", 0) or 0),
-                        sentiment=topic.get("sentiment"),
+                        breadth_count=int(interest.get("breadth_count", 0) or 0),
+                        sentiment=interest.get("sentiment"),
                         status="active",
                     )
                     session.add(row)
@@ -184,12 +184,12 @@ class TopicsDatastore(BaseDatastore):
                     row.last_session_id = session_id
                     row.last_observed_at = observed_at
                     row.last_depth = max(int(row.last_depth or 0), depth)
-                    if topic.get("sentiment"):
-                        row.sentiment = topic.get("sentiment")
-                    if topic.get("framework_link") and not row.framework_link:
-                        row.framework_link = topic.get("framework_link")
-                    if row.kind == "other" and topic.get("kind", "other") != "other":
-                        row.kind = topic.get("kind")
+                    if interest.get("sentiment"):
+                        row.sentiment = interest.get("sentiment")
+                    if interest.get("framework_link") and not row.framework_link:
+                        row.framework_link = interest.get("framework_link")
+                    if row.kind == "other" and interest.get("kind", "other") != "other":
+                        row.kind = interest.get("kind")
                     row.status = "active"
                 session.commit()
                 return row
@@ -197,16 +197,16 @@ class TopicsDatastore(BaseDatastore):
             logger.error(f"Error upserting topic for child {child_id}: {e}")
             raise DatastoreError(f"Failed to upsert topic: {str(e)}")
 
-    def get_topics_for_child(
+    def get_observed_interests_for_child(
         self, child_id: str, limit: Optional[int] = None
     ) -> List[Dict[str, Any]]:
         """Return a child's topics, most-recently-observed first."""
         try:
             with self.session_scope() as session:
                 query = (
-                    session.query(ChildTopicModel)
-                    .filter(ChildTopicModel.child_id == child_id)
-                    .order_by(ChildTopicModel.last_observed_at.desc())
+                    session.query(ObservedInterestModel)
+                    .filter(ObservedInterestModel.child_id == child_id)
+                    .order_by(ObservedInterestModel.last_observed_at.desc())
                 )
                 if limit:
                     query = query.limit(limit)
@@ -216,7 +216,7 @@ class TopicsDatastore(BaseDatastore):
                         "id": r.id,
                         "child_id": r.child_id,
                         "canonical_key": r.canonical_key,
-                        "topic_label": r.topic_label,
+                        "interest_label": r.interest_label,
                         "kind": r.kind,
                         "framework_link": r.framework_link,
                         "times_visited": r.times_visited,
@@ -242,8 +242,8 @@ class TopicsDatastore(BaseDatastore):
         try:
             with self.session_scope() as session:
                 count = (
-                    session.query(ChildTopicModel)
-                    .filter(ChildTopicModel.child_id == child_id)
+                    session.query(ObservedInterestModel)
+                    .filter(ObservedInterestModel.child_id == child_id)
                     .delete(synchronize_session=False)
                 )
                 session.commit()
