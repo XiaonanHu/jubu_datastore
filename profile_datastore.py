@@ -284,7 +284,10 @@ class ProfileDatastore(BaseDatastore):
                     logger.warning(f"Profile for child {child_id} not found")
                     return False
 
-                current_prefs = profile.preferences or {}
+                # Copy before merging: reassigning the same (mutated) dict is a
+                # no-op to SQLAlchemy's change detection, so the UPDATE would
+                # silently never be emitted for a profile with existing prefs.
+                current_prefs = dict(profile.preferences or {})
                 current_prefs.update(preferences)
                 profile.preferences = current_prefs
                 profile.updated_at = datetime.utcnow()
