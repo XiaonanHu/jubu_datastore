@@ -27,3 +27,6 @@ test = [
     "pytest>=7.0",
     "pyyaml>=6.0",
 ]
+dev = [
+    "alembic>=1.14",
+]

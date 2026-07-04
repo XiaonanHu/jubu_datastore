@@ -1,4 +1,9 @@
 """
+SUPERSEDED: converted to Alembic — see alembic/versions/ (baseline 0001,
+legacy bridge 0002, data move 0003) and scripts/verify_migrations.py.
+Kept only until the Alembic history is verified against production
+databases; do not add new migration scripts to this folder.
+
 Create parent_chat_sessions, parent_chat_messages, and parent_chat_rolling_summary tables.
 
 Run from repo root:
