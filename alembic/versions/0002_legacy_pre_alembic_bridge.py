@@ -43,9 +43,11 @@ Revises: 0001
 Create Date: 2026-07-03
 
 """
+
 from typing import Sequence, Union
 
 import sqlalchemy as sa
+
 from alembic import op
 
 # revision identifiers, used by Alembic.
@@ -90,14 +92,40 @@ def _create_capability_tables() -> None:
             sa.Column("created_at", sa.DateTime(), nullable=False),
             sa.PrimaryKeyConstraint("id"),
         )
-        op.create_index("idx_obs_child_framework", "child_capability_observations", ["child_id", "framework"])
-        op.create_index("idx_obs_child_item", "child_capability_observations", ["child_id", "item_id"])
+        op.create_index(
+            "idx_obs_child_framework",
+            "child_capability_observations",
+            ["child_id", "framework"],
+        )
+        op.create_index(
+            "idx_obs_child_item",
+            "child_capability_observations",
+            ["child_id", "item_id"],
+        )
         op.create_index("idx_obs_item_id", "child_capability_observations", ["item_id"])
-        op.create_index("idx_obs_session", "child_capability_observations", ["session_id"])
-        op.create_index("ix_child_capability_observations_child_id", "child_capability_observations", ["child_id"])
-        op.create_index("ix_child_capability_observations_framework", "child_capability_observations", ["framework"])
-        op.create_index("ix_child_capability_observations_observed_at", "child_capability_observations", ["observed_at"])
-        op.create_index("ix_child_capability_observations_session_id", "child_capability_observations", ["session_id"])
+        op.create_index(
+            "idx_obs_session", "child_capability_observations", ["session_id"]
+        )
+        op.create_index(
+            "ix_child_capability_observations_child_id",
+            "child_capability_observations",
+            ["child_id"],
+        )
+        op.create_index(
+            "ix_child_capability_observations_framework",
+            "child_capability_observations",
+            ["framework"],
+        )
+        op.create_index(
+            "ix_child_capability_observations_observed_at",
+            "child_capability_observations",
+            ["observed_at"],
+        )
+        op.create_index(
+            "ix_child_capability_observations_session_id",
+            "child_capability_observations",
+            ["session_id"],
+        )
 
     if not _has_table("child_capability_state"):
         op.create_table(
@@ -118,21 +146,44 @@ def _create_capability_tables() -> None:
             sa.Column("last_session_id", sa.String(length=255), nullable=True),
             sa.Column("created_at", sa.DateTime(), nullable=False),
             sa.Column("updated_at", sa.DateTime(), nullable=False),
-            sa.CheckConstraint("mastery_score >= 0 AND mastery_score <= 1", name="chk_mastery_score_range"),
+            sa.CheckConstraint(
+                "mastery_score >= 0 AND mastery_score <= 1",
+                name="chk_mastery_score_range",
+            ),
             sa.PrimaryKeyConstraint("id"),
-            sa.UniqueConstraint("child_id", "item_id", name="uq_child_capability_state_child_item"),
+            sa.UniqueConstraint(
+                "child_id", "item_id", name="uq_child_capability_state_child_item"
+            ),
         )
-        op.create_index("idx_state_child_framework", "child_capability_state", ["child_id", "framework"])
-        op.create_index("idx_state_child_item", "child_capability_state", ["child_id", "item_id"])
-        op.create_index("ix_child_capability_state_child_id", "child_capability_state", ["child_id"])
-        op.create_index("ix_child_capability_state_framework", "child_capability_state", ["framework"])
-        op.create_index("ix_child_capability_state_item_id", "child_capability_state", ["item_id"])
+        op.create_index(
+            "idx_state_child_framework",
+            "child_capability_state",
+            ["child_id", "framework"],
+        )
+        op.create_index(
+            "idx_state_child_item", "child_capability_state", ["child_id", "item_id"]
+        )
+        op.create_index(
+            "ix_child_capability_state_child_id", "child_capability_state", ["child_id"]
+        )
+        op.create_index(
+            "ix_child_capability_state_framework",
+            "child_capability_state",
+            ["framework"],
+        )
+        op.create_index(
+            "ix_child_capability_state_item_id", "child_capability_state", ["item_id"]
+        )
 
 
 def _add_parent_summary() -> None:
     """migrations/conversation_002_add_parent_summary.py (2026-03-17)."""
-    if _has_table("conversations") and not _has_column("conversations", "parent_summary"):
-        op.add_column("conversations", sa.Column("parent_summary", sa.Text(), nullable=True))
+    if _has_table("conversations") and not _has_column(
+        "conversations", "parent_summary"
+    ):
+        op.add_column(
+            "conversations", sa.Column("parent_summary", sa.Text(), nullable=True)
+        )
 
 
 def _create_parent_chat_tables() -> None:
@@ -151,10 +202,20 @@ def _create_parent_chat_tables() -> None:
             sa.Column("summary_generated_at", sa.DateTime(), nullable=True),
             sa.PrimaryKeyConstraint("id"),
         )
-        op.create_index("idx_pcs_parent_active", "parent_chat_sessions", ["parent_id", "is_active"])
-        op.create_index("idx_pcs_parent_created", "parent_chat_sessions", ["parent_id", "created_at"])
-        op.create_index("ix_parent_chat_sessions_child_id", "parent_chat_sessions", ["child_id"])
-        op.create_index("ix_parent_chat_sessions_parent_id", "parent_chat_sessions", ["parent_id"])
+        op.create_index(
+            "idx_pcs_parent_active", "parent_chat_sessions", ["parent_id", "is_active"]
+        )
+        op.create_index(
+            "idx_pcs_parent_created",
+            "parent_chat_sessions",
+            ["parent_id", "created_at"],
+        )
+        op.create_index(
+            "ix_parent_chat_sessions_child_id", "parent_chat_sessions", ["child_id"]
+        )
+        op.create_index(
+            "ix_parent_chat_sessions_parent_id", "parent_chat_sessions", ["parent_id"]
+        )
 
     if not _has_table("parent_chat_messages"):
         op.create_table(
@@ -167,8 +228,12 @@ def _create_parent_chat_tables() -> None:
             sa.ForeignKeyConstraint(["session_id"], ["parent_chat_sessions.id"]),
             sa.PrimaryKeyConstraint("id"),
         )
-        op.create_index("idx_pcm_session_time", "parent_chat_messages", ["session_id", "timestamp"])
-        op.create_index("ix_parent_chat_messages_session_id", "parent_chat_messages", ["session_id"])
+        op.create_index(
+            "idx_pcm_session_time", "parent_chat_messages", ["session_id", "timestamp"]
+        )
+        op.create_index(
+            "ix_parent_chat_messages_session_id", "parent_chat_messages", ["session_id"]
+        )
 
     if not _has_table("parent_chat_rolling_summary"):
         op.create_table(
@@ -180,7 +245,9 @@ def _create_parent_chat_tables() -> None:
             sa.Column("session_count", sa.Integer(), nullable=False),
             sa.Column("updated_at", sa.DateTime(), nullable=False),
             sa.PrimaryKeyConstraint("id"),
-            sa.UniqueConstraint("parent_id", "child_id", name="uq_rolling_summary_parent_child"),
+            sa.UniqueConstraint(
+                "parent_id", "child_id", name="uq_rolling_summary_parent_child"
+            ),
         )
 
 
@@ -205,7 +272,9 @@ def _create_consent_tables() -> None:
             sa.Column("created_at", sa.DateTime(), nullable=False),
             sa.PrimaryKeyConstraint("event_id"),
         )
-        op.create_index("ix_consent_events_event_type", "consent_events", ["event_type"])
+        op.create_index(
+            "ix_consent_events_event_type", "consent_events", ["event_type"]
+        )
         op.create_index("ix_consent_events_parent_id", "consent_events", ["parent_id"])
         op.create_index("ix_consent_events_timestamp", "consent_events", ["timestamp"])
 
@@ -215,7 +284,9 @@ def _create_consent_tables() -> None:
             sa.Column("subscription_id", sa.String(length=36), nullable=False),
             sa.Column("parent_id", sa.String(length=36), nullable=False),
             sa.Column("apple_transaction_id", sa.String(length=255), nullable=False),
-            sa.Column("apple_original_transaction_id", sa.String(length=255), nullable=False),
+            sa.Column(
+                "apple_original_transaction_id", sa.String(length=255), nullable=False
+            ),
             sa.Column("product_id", sa.String(length=128), nullable=False),
             sa.Column("purchase_date", sa.DateTime(), nullable=False),
             sa.Column("expires_date", sa.DateTime(), nullable=True),
@@ -239,19 +310,33 @@ def _add_child_topics_origin_mentions() -> None:
     if not _has_column("child_topics", "total_mentions"):
         op.add_column(
             "child_topics",
-            sa.Column("total_mentions", sa.Integer(), nullable=False, server_default=sa.text("1")),
+            sa.Column(
+                "total_mentions",
+                sa.Integer(),
+                nullable=False,
+                server_default=sa.text("1"),
+            ),
         )
     if not _has_column("child_topics", "origin"):
         op.add_column(
             "child_topics",
-            sa.Column("origin", sa.String(length=8), nullable=False, server_default=sa.text("'child'")),
+            sa.Column(
+                "origin",
+                sa.String(length=8),
+                nullable=False,
+                server_default=sa.text("'child'"),
+            ),
         )
 
 
 def _add_parent_highlights() -> None:
     """migrations/conversation_003_add_parent_highlights.py (2026-06-17)."""
-    if _has_table("conversations") and not _has_column("conversations", "parent_highlights"):
-        op.add_column("conversations", sa.Column("parent_highlights", sa.JSON(), nullable=True))
+    if _has_table("conversations") and not _has_column(
+        "conversations", "parent_highlights"
+    ):
+        op.add_column(
+            "conversations", sa.Column("parent_highlights", sa.JSON(), nullable=True)
+        )
 
 
 def _rename_child_topics_to_observed_interests() -> None:
@@ -265,7 +350,9 @@ def _rename_child_topics_to_observed_interests() -> None:
         )
     if has_old:
         op.rename_table("child_topics", "observed_interests")
-    if _has_table("observed_interests") and _has_column("observed_interests", "topic_label"):
+    if _has_table("observed_interests") and _has_column(
+        "observed_interests", "topic_label"
+    ):
         with op.batch_alter_table("observed_interests") as batch_op:
             batch_op.alter_column(
                 "topic_label",
@@ -283,11 +370,15 @@ def _make_full_name_nullable() -> None:
     """
     if not _has_table("users"):
         return
-    full_name = next((c for c in _inspector().get_columns("users") if c["name"] == "full_name"), None)
+    full_name = next(
+        (c for c in _inspector().get_columns("users") if c["name"] == "full_name"), None
+    )
     if full_name is None or full_name["nullable"]:
         return
     with op.batch_alter_table("users") as batch_op:
-        batch_op.alter_column("full_name", existing_type=sa.String(length=255), nullable=True)
+        batch_op.alter_column(
+            "full_name", existing_type=sa.String(length=255), nullable=True
+        )
 
 
 def _rename_profile_interests() -> None:
@@ -308,8 +399,13 @@ def _rename_profile_interests() -> None:
 
 def _add_curiosity_signal() -> None:
     """migrations/observed_interests_002_add_curiosity_signal.py (2026-07-03)."""
-    if _has_table("observed_interests") and not _has_column("observed_interests", "curiosity_signal"):
-        op.add_column("observed_interests", sa.Column("curiosity_signal", sa.Float(), nullable=True))
+    if _has_table("observed_interests") and not _has_column(
+        "observed_interests", "curiosity_signal"
+    ):
+        op.add_column(
+            "observed_interests",
+            sa.Column("curiosity_signal", sa.Float(), nullable=True),
+        )
 
 
 def _create_inferred_traits_table() -> None:
@@ -341,7 +437,11 @@ def _drop_interaction_contexts() -> None:
     """
     if not _has_table("interaction_contexts"):
         return
-    row_count = op.get_bind().execute(sa.text("SELECT COUNT(*) FROM interaction_contexts")).scalar()
+    row_count = (
+        op.get_bind()
+        .execute(sa.text("SELECT COUNT(*) FROM interaction_contexts"))
+        .scalar()
+    )
     if row_count:
         raise RuntimeError(
             f"interaction_contexts has {row_count} rows; expected 0. "

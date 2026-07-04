@@ -27,10 +27,12 @@ Revises: 0002
 Create Date: 2026-07-03
 
 """
+
 from datetime import datetime
 from typing import Sequence, Union
 
 import sqlalchemy as sa
+
 from alembic import op
 
 # revision identifiers, used by Alembic.
@@ -87,9 +89,9 @@ def upgrade() -> None:
             continue
 
         existing = bind.execute(
-            sa.select(inferred_traits.c.child_id, inferred_traits.c.evidence_count).where(
-                inferred_traits.c.child_id == child_id
-            )
+            sa.select(
+                inferred_traits.c.child_id, inferred_traits.c.evidence_count
+            ).where(inferred_traits.c.child_id == child_id)
         ).first()
         if existing is None:
             bind.execute(

@@ -7,15 +7,15 @@ during storytelling interactions, enabling children to save and revisit stories.
 
 import uuid
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column
 
-from jubu_datastore.logging import get_logger
+from jubu_datastore.base_datastore import BaseDatastore
 from jubu_datastore.common.constants import DEFAULT_STORY_VIEW_LIMIT
 from jubu_datastore.common.exceptions import StoryDataError
-from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -25,22 +25,26 @@ class StoryModel(BaseDatastore.Base):
 
     __tablename__ = "stories"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    conversation_id = sa.Column(
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    conversation_id: Mapped[str] = mapped_column(
         sa.String(36), sa.ForeignKey("conversations.id"), nullable=False, index=True
     )
-    title = sa.Column(sa.String(200), nullable=False)
-    content = sa.Column(sa.Text, nullable=False)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    is_favorite = sa.Column(sa.Boolean, nullable=False, default=False)
+    title: Mapped[str] = mapped_column(sa.String(200), nullable=False)
+    content: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    is_favorite: Mapped[bool] = mapped_column(sa.Boolean, nullable=False, default=False)
 
-    tags = sa.Column(sa.JSON, nullable=True)
-    last_viewed_at = sa.Column(sa.DateTime, nullable=True)
+    tags: Mapped[list[str] | None] = mapped_column(sa.JSON, nullable=True)
+    last_viewed_at: Mapped[Optional[datetime]] = mapped_column(
+        sa.DateTime, nullable=True
+    )
 
     __table_args__ = (
-        sa.Index("idx_child_favorite", child_id, is_favorite),
-        sa.Index("idx_created_at", created_at),
+        sa.Index("idx_child_favorite", "child_id", "is_favorite"),
+        sa.Index("idx_created_at", "created_at"),
     )
 
 
@@ -184,7 +188,7 @@ class StoryDatastore(BaseDatastore):
                 )
 
                 if favorites_only:
-                    query = query.filter(StoryModel.is_favorite == True)
+                    query = query.filter(StoryModel.is_favorite.is_(True))
 
                 query = query.order_by(StoryModel.created_at.desc())
 

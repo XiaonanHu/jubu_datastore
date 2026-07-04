@@ -11,9 +11,10 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
+from sqlalchemy.orm import Mapped, mapped_column
 
-from jubu_datastore.logging import get_logger
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -35,40 +36,62 @@ VALID_EVENT_TYPES = {
 class ConsentEventModel(BaseDatastore.Base):
     __tablename__ = "consent_events"
 
-    event_id = sa.Column(sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
-    parent_id = sa.Column(sa.String(36), nullable=False, index=True)
+    event_id: Mapped[str] = mapped_column(
+        sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4())
+    )
+    parent_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
     # account_created | direct_notice_acknowledged | consent_obtained |
     # consent_failed | child_profile_created | consent_revoked
-    event_type = sa.Column(sa.String(64), nullable=False, index=True)
-    timestamp = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow, index=True)
-    ip_address = sa.Column(sa.String(64), nullable=True)
-    user_agent = sa.Column(sa.Text, nullable=True)
-    direct_notice_version = sa.Column(sa.String(64), nullable=True)
-    privacy_policy_version = sa.Column(sa.String(32), nullable=True)
-    vpc_method = sa.Column(sa.String(32), nullable=True)
-    apple_transaction_id = sa.Column(sa.String(255), nullable=True)
-    child_id = sa.Column(sa.String(36), nullable=True)
-    failure_reason = sa.Column(sa.String(255), nullable=True)
+    event_type: Mapped[str] = mapped_column(sa.String(64), nullable=False, index=True)
+    timestamp: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow, index=True
+    )
+    ip_address: Mapped[Optional[str]] = mapped_column(sa.String(64), nullable=True)
+    user_agent: Mapped[Optional[str]] = mapped_column(sa.Text, nullable=True)
+    direct_notice_version: Mapped[Optional[str]] = mapped_column(
+        sa.String(64), nullable=True
+    )
+    privacy_policy_version: Mapped[Optional[str]] = mapped_column(
+        sa.String(32), nullable=True
+    )
+    vpc_method: Mapped[Optional[str]] = mapped_column(sa.String(32), nullable=True)
+    apple_transaction_id: Mapped[Optional[str]] = mapped_column(
+        sa.String(255), nullable=True
+    )
+    child_id: Mapped[Optional[str]] = mapped_column(sa.String(36), nullable=True)
+    failure_reason: Mapped[Optional[str]] = mapped_column(sa.String(255), nullable=True)
     # Named event_metadata to avoid shadowing SQLAlchemy's reserved 'metadata' attribute
-    event_metadata = sa.Column(sa.JSON, nullable=True)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    event_metadata: Mapped[dict[str, Any] | None] = mapped_column(
+        sa.JSON, nullable=True
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
 
 
 class SubscriptionModel(BaseDatastore.Base):
     __tablename__ = "subscriptions"
 
-    subscription_id = sa.Column(sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
-    parent_id = sa.Column(sa.String(36), nullable=False, index=True)
-    apple_transaction_id = sa.Column(sa.String(255), nullable=False, unique=True)
-    apple_original_transaction_id = sa.Column(sa.String(255), nullable=False)
-    product_id = sa.Column(sa.String(128), nullable=False)
-    purchase_date = sa.Column(sa.DateTime, nullable=False)
-    expires_date = sa.Column(sa.DateTime, nullable=True)
+    subscription_id: Mapped[str] = mapped_column(
+        sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4())
+    )
+    parent_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    apple_transaction_id: Mapped[str] = mapped_column(
+        sa.String(255), nullable=False, unique=True
+    )
+    apple_original_transaction_id: Mapped[str] = mapped_column(
+        sa.String(255), nullable=False
+    )
+    product_id: Mapped[str] = mapped_column(sa.String(128), nullable=False)
+    purchase_date: Mapped[datetime] = mapped_column(sa.DateTime, nullable=False)
+    expires_date: Mapped[Optional[datetime]] = mapped_column(sa.DateTime, nullable=True)
     # active | expired | cancelled | refunded
-    status = sa.Column(sa.String(32), nullable=False, default="active")
+    status: Mapped[str] = mapped_column(sa.String(32), nullable=False, default="active")
     # Fernet-encrypted receipt data for re-verification
-    receipt_data = sa.Column(sa.Text, nullable=True)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    receipt_data: Mapped[Optional[str]] = mapped_column(sa.Text, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
 
 
 class ConsentDatastore(BaseDatastore):
@@ -119,7 +142,9 @@ class ConsentDatastore(BaseDatastore):
     # -------------------------------------------------------------------------
 
     @staticmethod
-    def _build_event_row(parent_id: str, event_type: str, **kwargs) -> "ConsentEventModel":
+    def _build_event_row(
+        parent_id: str, event_type: str, **kwargs
+    ) -> "ConsentEventModel":
         """Build a ConsentEventModel without adding it to a session."""
         if event_type not in VALID_EVENT_TYPES:
             raise ValueError(
@@ -161,7 +186,9 @@ class ConsentDatastore(BaseDatastore):
         logger.info(f"Logged consent event: {event_type} for parent {parent_id}")
         return event_id
 
-    def log_event_in_session(self, session, parent_id: str, event_type: str, **kwargs) -> str:
+    def log_event_in_session(
+        self, session, parent_id: str, event_type: str, **kwargs
+    ) -> str:
         """
         Add a consent event to an existing session without committing.
         Use this when the event must commit atomically with another write
@@ -339,7 +366,9 @@ class ConsentDatastore(BaseDatastore):
                 return None
             return self._sub_to_dict(row)
 
-    def update_subscription_status(self, apple_transaction_id: str, status: str) -> bool:
+    def update_subscription_status(
+        self, apple_transaction_id: str, status: str
+    ) -> bool:
         """Update a subscription's status (for App Store Server Notification webhooks)."""
         with self.session_scope() as session:
             row = (
@@ -417,7 +446,9 @@ class ConsentDatastore(BaseDatastore):
             "apple_transaction_id": row.apple_transaction_id,
             "apple_original_transaction_id": row.apple_original_transaction_id,
             "product_id": row.product_id,
-            "purchase_date": row.purchase_date.isoformat() if row.purchase_date else None,
+            "purchase_date": row.purchase_date.isoformat()
+            if row.purchase_date
+            else None,
             "expires_date": row.expires_date.isoformat() if row.expires_date else None,
             "status": row.status,
             "created_at": row.created_at.isoformat() if row.created_at else None,

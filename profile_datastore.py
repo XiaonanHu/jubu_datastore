@@ -7,16 +7,20 @@ ensuring proper data security, privacy, and compliance with data protection regu
 
 import uuid
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from jubu_datastore.logging import get_logger
-from jubu_datastore.common.exceptions import ProfileDataError
 from jubu_datastore.base_datastore import BaseDatastore
-from jubu_datastore.user_datastore import UserModel
+from jubu_datastore.common.exceptions import ProfileDataError
 from jubu_datastore.dto.entities import ChildProfile
+from jubu_datastore.logging import get_logger
+
+# UserModel must be imported (registered on the declarative registry) so the
+# string-based relationship("UserModel") below can resolve when this module
+# is imported standalone.
+from jubu_datastore.user_datastore import UserModel  # noqa: F401
 
 logger = get_logger(__name__)
 
@@ -26,27 +30,39 @@ class ChildProfileModel(BaseDatastore.Base):
 
     __tablename__ = "child_profiles"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    name = sa.Column(sa.String(100), nullable=False)
-    age = sa.Column(sa.Integer, nullable=False)
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    name: Mapped[str] = mapped_column(sa.String(100), nullable=False)
+    age: Mapped[int] = mapped_column(sa.Integer, nullable=False)
     # Interests the PARENT explicitly declared for the child (Tier A, parent-owned).
     # Distinct from the system-observed `observed_interests` ledger (Tier B). ENG-347.
-    parent_declared_interests = sa.Column(sa.JSON, nullable=False, default=list)
-    preferences = sa.Column(sa.JSON, nullable=False, default=dict)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    updated_at = sa.Column(
+    parent_declared_interests: Mapped[list[str]] = mapped_column(
+        sa.JSON, nullable=False, default=list
+    )
+    preferences: Mapped[dict[str, Any]] = mapped_column(
+        sa.JSON, nullable=False, default=dict
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    updated_at: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow
     )
 
-    parent_id = sa.Column(
+    parent_id: Mapped[Optional[str]] = mapped_column(
         sa.String(36), sa.ForeignKey("users.id"), nullable=True, index=True
     )
-    is_active = sa.Column(sa.Boolean, nullable=False, default=True, index=True)
-    last_interaction = sa.Column(sa.DateTime, nullable=True)
+    is_active: Mapped[bool] = mapped_column(
+        sa.Boolean, nullable=False, default=True, index=True
+    )
+    last_interaction: Mapped[Optional[datetime]] = mapped_column(
+        sa.DateTime, nullable=True
+    )
 
-    __table_args__ = (sa.Index("idx_active_parent", is_active, parent_id),)
+    __table_args__ = (sa.Index("idx_active_parent", "is_active", "parent_id"),)
 
-    parent = relationship("UserModel", back_populates="child_profiles")
+    parent: Mapped[Optional["UserModel"]] = relationship(
+        "UserModel", back_populates="child_profiles"
+    )
 
 
 class ProfileDatastore(BaseDatastore):
@@ -114,8 +130,8 @@ class ProfileDatastore(BaseDatastore):
         try:
             with self.session_scope() as session:
                 profile = (
-                    session.query(self.model_class)
-                    .filter(self.model_class.id == record_id)
+                    session.query(ChildProfileModel)
+                    .filter(ChildProfileModel.id == record_id)
                     .first()
                 )
 
@@ -184,7 +200,9 @@ class ProfileDatastore(BaseDatastore):
                         id=profile_id,
                         name=profile_data["name"],
                         age=profile_data["age"],
-                        parent_declared_interests=profile_data.get("parent_declared_interests", []),
+                        parent_declared_interests=profile_data.get(
+                            "parent_declared_interests", []
+                        ),
                         preferences=profile_data.get("preferences", {}),
                         parent_id=profile_data.get("parent_id"),
                     )
@@ -214,7 +232,7 @@ class ProfileDatastore(BaseDatastore):
                     session.query(ChildProfileModel)
                     .filter(
                         ChildProfileModel.id == child_id,
-                        ChildProfileModel.is_active == True,
+                        ChildProfileModel.is_active.is_(True),
                     )
                     .first()
                 )
@@ -331,7 +349,7 @@ class ProfileDatastore(BaseDatastore):
                     session.query(ChildProfileModel)
                     .filter(
                         ChildProfileModel.parent_id == parent_id,
-                        ChildProfileModel.is_active == True,
+                        ChildProfileModel.is_active.is_(True),
                     )
                     .all()
                 )

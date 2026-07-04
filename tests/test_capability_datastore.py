@@ -11,7 +11,6 @@ import pytest
 from jubu_datastore.capability_datastore import CapabilityDatastore
 from jubu_datastore.models.capability_schema import (
     ChildCapabilityObservationModel,
-    ChildCapabilityStateModel,
 )
 
 
@@ -76,7 +75,9 @@ def test_insert_observation_updates_state(capability_datastore, sample_observati
     assert items[0].mastery_score > 0
 
 
-def test_aggregation_demonstrated_increases_mastery(capability_datastore, sample_observation):
+def test_aggregation_demonstrated_increases_mastery(
+    capability_datastore, sample_observation
+):
     """Multiple 'demonstrated' observations increase mastery_score."""
     sample_observation["observation_status"] = "demonstrated"
     capability_datastore.insert_capability_observation(sample_observation)
@@ -102,7 +103,9 @@ def test_aggregation_emerging_small_increase(capability_datastore, sample_observ
     assert state.mastery_score < 0.33  # smaller than demonstrated
 
 
-def test_aggregation_not_observed_no_mastery_change(capability_datastore, sample_observation):
+def test_aggregation_not_observed_no_mastery_change(
+    capability_datastore, sample_observation
+):
     """'not_observed' does not increase mastery_score."""
     sample_observation["observation_status"] = "not_observed"
     capability_datastore.insert_capability_observation(sample_observation)

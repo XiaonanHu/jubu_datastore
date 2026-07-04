@@ -23,6 +23,7 @@ from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
+from sqlalchemy.orm import Mapped, mapped_column
 
 from jubu_datastore.base_datastore import BaseDatastore
 from jubu_datastore.logging import get_logger
@@ -35,16 +36,22 @@ class TelemetryEventModel(BaseDatastore.Base):
 
     __tablename__ = "telemetry_events"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    ts = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow, index=True)
-    event = sa.Column(sa.String(64), nullable=False, index=True)
-    conversation_id = sa.Column(sa.String(36), nullable=True, index=True)
-    child_id = sa.Column(sa.String(36), nullable=True, index=True)
-    fields = sa.Column(sa.JSON, nullable=False, default=dict)
-
-    __table_args__ = (
-        sa.Index("idx_events_event_ts", "event", "ts"),
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    ts: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow, index=True
     )
+    event: Mapped[str] = mapped_column(sa.String(64), nullable=False, index=True)
+    conversation_id: Mapped[Optional[str]] = mapped_column(
+        sa.String(36), nullable=True, index=True
+    )
+    child_id: Mapped[Optional[str]] = mapped_column(
+        sa.String(36), nullable=True, index=True
+    )
+    fields: Mapped[dict[str, Any]] = mapped_column(
+        sa.JSON, nullable=False, default=dict
+    )
+
+    __table_args__ = (sa.Index("idx_events_event_ts", "event", "ts"),)
 
 
 class TelemetryDatastore(BaseDatastore):
@@ -69,9 +76,9 @@ class TelemetryDatastore(BaseDatastore):
     # BaseDatastore abstract surface
     # ------------------------------------------------------------------
 
-    def create(self, data: Dict[str, Any]) -> TelemetryEventModel:
+    def create(self, data: Dict[str, Any]) -> Optional[TelemetryEventModel]:
         """Generic create — unused by the production telemetry path; insert()
-        is the typed entry point."""
+        is the typed entry point. Returns None when the best-effort insert fails."""
         return self.insert(
             event=data["event"],
             conversation_id=data.get("conversation_id"),
@@ -81,9 +88,11 @@ class TelemetryDatastore(BaseDatastore):
 
     def get(self, record_id: str) -> Optional[Dict[str, Any]]:
         with self.session_scope() as session:
-            row = session.query(TelemetryEventModel).filter(
-                TelemetryEventModel.id == record_id
-            ).first()
+            row = (
+                session.query(TelemetryEventModel)
+                .filter(TelemetryEventModel.id == record_id)
+                .first()
+            )
             return _to_dict(row) if row else None
 
     def update(self, record_id: str, data: Dict[str, Any]) -> bool:

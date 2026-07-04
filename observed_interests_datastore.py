@@ -12,10 +12,11 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
+from sqlalchemy.orm import Mapped, mapped_column
 
-from jubu_datastore.logging import get_logger
-from jubu_datastore.common.exceptions import DatastoreError
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.common.exceptions import DatastoreError
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -25,44 +26,56 @@ class ObservedInterestModel(BaseDatastore.Base):
 
     __tablename__ = "observed_interests"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    canonical_key = sa.Column(sa.String(120), nullable=False)
-    interest_label = sa.Column(sa.String(120), nullable=False)
-    kind = sa.Column(sa.String(32), nullable=False, default="other")
-    framework_link = sa.Column(sa.String(255), nullable=True)  # nullable NGSS/CASEL item id
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    canonical_key: Mapped[str] = mapped_column(sa.String(120), nullable=False)
+    interest_label: Mapped[str] = mapped_column(sa.String(120), nullable=False)
+    kind: Mapped[str] = mapped_column(sa.String(32), nullable=False, default="other")
+    framework_link: Mapped[Optional[str]] = mapped_column(
+        sa.String(255), nullable=True
+    )  # nullable NGSS/CASEL item id
 
-    times_visited = sa.Column(sa.Integer, nullable=False, default=1)
+    times_visited: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=1)
     # Total mentions across all sessions (sum of per-session mention counts).
     # Drives the parent-app topic-bubble SIZE (talked about a lot -> bigger).
-    total_mentions = sa.Column(sa.Integer, nullable=False, default=1)
+    total_mentions: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=1)
     # Who first raised the topic: "child" or "buju". Set once on insert, never
     # updated. Drives the parent-app bubble MARK/badge.
-    origin = sa.Column(sa.String(8), nullable=False, default="child")
-    first_session_id = sa.Column(sa.String(36), nullable=True)
-    last_session_id = sa.Column(sa.String(36), nullable=True)
-    first_observed_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    origin: Mapped[str] = mapped_column(sa.String(8), nullable=False, default="child")
+    first_session_id: Mapped[Optional[str]] = mapped_column(
+        sa.String(36), nullable=True
+    )
+    last_session_id: Mapped[Optional[str]] = mapped_column(sa.String(36), nullable=True)
+    first_observed_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
     # Drives the parent-app bubble COLOR (lighter = stale, darker = recent).
-    last_observed_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    last_observed_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
 
-    last_depth = sa.Column(sa.Integer, nullable=False, default=0)
-    breadth_count = sa.Column(sa.Integer, nullable=False, default=0)
+    last_depth: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=0)
+    breadth_count: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=0)
     # Strongest curiosity pull (0-1) the child showed for this topic across sessions
     # (max seen). Previously computed per session and DROPPED at session end; now
     # persisted so the durable curiosity_mode can be learned. Lifetime learned ·
     # owner system · writer end-of-session upsert · reader curiosity_mode_policy ·
     # visibility hidden. (ENG-347 Phase 3a.)
-    curiosity_signal = sa.Column(sa.Float, nullable=True)
-    sentiment = sa.Column(sa.String(16), nullable=True)
-    status = sa.Column(sa.String(16), nullable=False, default="active")
+    curiosity_signal: Mapped[Optional[float]] = mapped_column(sa.Float, nullable=True)
+    sentiment: Mapped[Optional[str]] = mapped_column(sa.String(16), nullable=True)
+    status: Mapped[str] = mapped_column(sa.String(16), nullable=False, default="active")
 
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    updated_at = sa.Column(
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    updated_at: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow
     )
 
     __table_args__ = (
-        sa.UniqueConstraint("child_id", "canonical_key", name="uq_child_observed_interest"),
+        sa.UniqueConstraint(
+            "child_id", "canonical_key", name="uq_child_observed_interest"
+        ),
         sa.Index("idx_observed_interest_child", "child_id"),
         sa.Index("idx_observed_interest_child_recent", "child_id", "last_observed_at"),
     )
@@ -130,7 +143,9 @@ class ObservedInterestsDatastore(BaseDatastore):
 
     # Ledger operations --------------------------------------------------
 
-    def upsert_observed_interest(self, child_id: str, interest: Dict[str, Any]) -> ObservedInterestModel:
+    def upsert_observed_interest(
+        self, child_id: str, interest: Dict[str, Any]
+    ) -> ObservedInterestModel:
         """Insert or update one topic for a child, keyed by canonical_key.
 
         On update: bumps times_visited, ACCUMULATES total_mentions by
@@ -168,7 +183,9 @@ class ObservedInterestsDatastore(BaseDatastore):
                         id=str(uuid.uuid4()),
                         child_id=child_id,
                         canonical_key=canonical_key,
-                        interest_label=interest.get("interest_label", canonical_key)[:120],
+                        interest_label=interest.get("interest_label", canonical_key)[
+                            :120
+                        ],
                         kind=interest.get("kind", "other"),
                         framework_link=interest.get("framework_link"),
                         times_visited=1,

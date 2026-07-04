@@ -10,10 +10,10 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from jubu_datastore.logging import get_logger
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -21,17 +21,23 @@ logger = get_logger(__name__)
 class ParentChatSessionModel(BaseDatastore.Base):
     __tablename__ = "parent_chat_sessions"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    parent_id = sa.Column(sa.String(36), nullable=False, index=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    scenario_key = sa.Column(sa.String(100), nullable=True)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    last_message_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    is_active = sa.Column(sa.Boolean, nullable=False, default=True)
-    summary = sa.Column(sa.Text, nullable=True)
-    summary_generated_at = sa.Column(sa.DateTime, nullable=True)
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    parent_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    scenario_key: Mapped[Optional[str]] = mapped_column(sa.String(100), nullable=True)
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    last_message_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    is_active: Mapped[bool] = mapped_column(sa.Boolean, nullable=False, default=True)
+    summary: Mapped[Optional[str]] = mapped_column(sa.Text, nullable=True)
+    summary_generated_at: Mapped[Optional[datetime]] = mapped_column(
+        sa.DateTime, nullable=True
+    )
 
-    messages = relationship(
+    messages: Mapped[list["ParentChatMessageModel"]] = relationship(
         "ParentChatMessageModel",
         back_populates="session",
         cascade="all, delete-orphan",
@@ -47,36 +53,44 @@ class ParentChatSessionModel(BaseDatastore.Base):
 class ParentChatMessageModel(BaseDatastore.Base):
     __tablename__ = "parent_chat_messages"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    session_id = sa.Column(
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    session_id: Mapped[str] = mapped_column(
         sa.String(36),
         sa.ForeignKey("parent_chat_sessions.id"),
         nullable=False,
         index=True,
     )
-    role = sa.Column(sa.String(20), nullable=False)  # "parent" | "assistant"
-    content = sa.Column(sa.Text, nullable=False)
-    timestamp = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-
-    session = relationship("ParentChatSessionModel", back_populates="messages")
-
-    __table_args__ = (
-        sa.Index("idx_pcm_session_time", "session_id", "timestamp"),
+    role: Mapped[str] = mapped_column(
+        sa.String(20), nullable=False
+    )  # "parent" | "assistant"
+    content: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    timestamp: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
     )
+
+    session: Mapped["ParentChatSessionModel"] = relationship(
+        "ParentChatSessionModel", back_populates="messages"
+    )
+
+    __table_args__ = (sa.Index("idx_pcm_session_time", "session_id", "timestamp"),)
 
 
 class ParentChatRollingSummaryModel(BaseDatastore.Base):
     __tablename__ = "parent_chat_rolling_summary"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    parent_id = sa.Column(sa.String(36), nullable=False)
-    child_id = sa.Column(sa.String(36), nullable=False)
-    summary = sa.Column(sa.Text, nullable=False)
-    session_count = sa.Column(sa.Integer, nullable=False, default=0)
-    updated_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    parent_id: Mapped[str] = mapped_column(sa.String(36), nullable=False)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False)
+    summary: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    session_count: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=0)
+    updated_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
 
     __table_args__ = (
-        sa.UniqueConstraint("parent_id", "child_id", name="uq_rolling_summary_parent_child"),
+        sa.UniqueConstraint(
+            "parent_id", "child_id", name="uq_rolling_summary_parent_child"
+        ),
     )
 
 
@@ -96,7 +110,7 @@ class ParentChatDatastore(BaseDatastore):
         self._ensure_schema()
 
     # Required by BaseDatastore ABC
-    def create(self, data: Dict[str, Any]) -> ParentChatSessionModel:
+    def create(self, data: Dict[str, Any]) -> str:
         return self.create_session(
             parent_id=data["parent_id"],
             child_id=data["child_id"],
@@ -118,7 +132,9 @@ class ParentChatDatastore(BaseDatastore):
             "summary": session_obj.summary,
         }
 
-    def update(self, record_id: str, data: Dict[str, Any]) -> Optional[ParentChatSessionModel]:
+    def update(
+        self, record_id: str, data: Dict[str, Any]
+    ) -> Optional[ParentChatSessionModel]:
         with self.session_scope() as db:
             obj = db.query(ParentChatSessionModel).filter_by(id=record_id).first()
             if not obj:
@@ -201,15 +217,21 @@ class ParentChatDatastore(BaseDatastore):
                     .order_by(ParentChatMessageModel.timestamp.asc())
                     .first()
                 )
-                results.append({
-                    "session_id": row.id,
-                    "scenario_key": row.scenario_key,
-                    "created_at": row.created_at,
-                    "last_message_at": row.last_message_at,
-                    "is_active": row.is_active,
-                    "last_message_preview": (first_parent_msg.content[:120] if first_parent_msg else None),
-                    "last_message_role": (first_parent_msg.role if first_parent_msg else None),
-                })
+                results.append(
+                    {
+                        "session_id": row.id,
+                        "scenario_key": row.scenario_key,
+                        "created_at": row.created_at,
+                        "last_message_at": row.last_message_at,
+                        "is_active": row.is_active,
+                        "last_message_preview": (
+                            first_parent_msg.content[:120] if first_parent_msg else None
+                        ),
+                        "last_message_role": (
+                            first_parent_msg.role if first_parent_msg else None
+                        ),
+                    }
+                )
             return results
 
     # --- Messages ---

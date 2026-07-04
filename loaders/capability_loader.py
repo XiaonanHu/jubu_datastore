@@ -17,7 +17,6 @@ from jubu_datastore.models.capability_definitions import (
     CapabilityItemDefinition,
 )
 
-
 # -----------------------------------------------------------------------------
 # Loader errors (fail fast, no silent ignore)
 # -----------------------------------------------------------------------------
@@ -38,7 +37,9 @@ class DuplicateItemIdError(Exception):
     def __init__(self, item_id: str, first_seen_in: str) -> None:
         self.item_id = item_id
         self.first_seen_in = first_seen_in
-        super().__init__(f"Duplicate item id {item_id!r} (already in {first_seen_in!r})")
+        super().__init__(
+            f"Duplicate item id {item_id!r} (already in {first_seen_in!r})"
+        )
 
 
 # -----------------------------------------------------------------------------
@@ -76,10 +77,14 @@ class CapabilityDefinitionRegistry:
     """
 
     def __init__(self) -> None:
-        self._packs_by_framework_age: dict[tuple[str, float], CapabilityDefinitionPack] = {}
+        self._packs_by_framework_age: dict[
+            tuple[str, float], CapabilityDefinitionPack
+        ] = {}
         self._items_by_id: dict[str, CapabilityItemDefinition] = {}
         self._items_by_framework: dict[str, list[CapabilityItemDefinition]] = {}
-        self._item_origin: dict[str, tuple[str, float]] = {}  # item_id -> (framework, age)
+        self._item_origin: dict[
+            str, tuple[str, float]
+        ] = {}  # item_id -> (framework, age)
 
     def load_all_packs(self, root_directory: Path) -> None:
         """
@@ -167,26 +172,30 @@ class CapabilityDefinitionRegistry:
         """
         out: list[dict] = []
         for item in self._items_by_id.values():
-            out.append({
-                "id": item.id,
-                "title": item.title,
-                "description": item.description,
-                "age_ranges": [
-                    {"min_age": ar.min_age, "max_age": ar.max_age}
-                    for ar in item.age_ranges
-                ],
-                "observable_signals": list(item.observable_signals),
-                "positive_evidence_patterns": list(item.positive_evidence_patterns),
-                "negative_evidence_patterns": list(item.negative_evidence_patterns),
-                "framework": item.framework,
-                "domain": item.domain,
-                "subdomain": item.subdomain,
-                "version": getattr(item, "version", 1),
-            })
+            out.append(
+                {
+                    "id": item.id,
+                    "title": item.title,
+                    "description": item.description,
+                    "age_ranges": [
+                        {"min_age": ar.min_age, "max_age": ar.max_age}
+                        for ar in item.age_ranges
+                    ],
+                    "observable_signals": list(item.observable_signals),
+                    "positive_evidence_patterns": list(item.positive_evidence_patterns),
+                    "negative_evidence_patterns": list(item.negative_evidence_patterns),
+                    "framework": item.framework,
+                    "domain": item.domain,
+                    "subdomain": item.subdomain,
+                    "version": getattr(item, "version", 1),
+                }
+            )
         return out
 
     @property
-    def packs_by_framework_age(self) -> dict[tuple[str, float], CapabilityDefinitionPack]:
+    def packs_by_framework_age(
+        self,
+    ) -> dict[tuple[str, float], CapabilityDefinitionPack]:
         """Read-only view of packs by (framework, age)."""
         return dict(self._packs_by_framework_age)
 
@@ -201,7 +210,9 @@ class CapabilityDefinitionRegistry:
 # -----------------------------------------------------------------------------
 
 
-def load_default_registry(definition_root_path: Path | None = None) -> CapabilityDefinitionRegistry:
+def load_default_registry(
+    definition_root_path: Path | None = None,
+) -> CapabilityDefinitionRegistry:
     """
     Build a registry and load all packs from the default definition root.
 

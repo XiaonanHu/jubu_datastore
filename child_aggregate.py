@@ -155,7 +155,9 @@ class Child:
                 # OVERRIDE in declared.preferences["voice_style"].
                 preferred_style = traits.get("preferred_style")
         except Exception as e:
-            logger.warning(f"Child.load: inferred traits read failed for {child_id}: {e}")
+            logger.warning(
+                f"Child.load: inferred traits read failed for {child_id}: {e}"
+            )
 
         learned = LearnedProfile(
             interests=interests,

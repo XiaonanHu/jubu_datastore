@@ -35,13 +35,13 @@ import sys
 import tempfile
 import uuid
 
+import jubu_datastore
 import sqlalchemy as sa
-from alembic import command
+from alembic.autogenerate import compare_metadata
 from alembic.config import Config
 from alembic.migration import MigrationContext
-from alembic.autogenerate import compare_metadata
 
-import jubu_datastore
+from alembic import command
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HEAD = "0003"
@@ -77,7 +77,10 @@ def upgrade_downgrade_cycle(engine: sa.Engine, backend: str) -> None:
         conn.commit()
 
     with engine.connect() as conn:
-        check(current_revision(conn) == HEAD, f"upgrade head from empty -> revision {HEAD}")
+        check(
+            current_revision(conn) == HEAD,
+            f"upgrade head from empty -> revision {HEAD}",
+        )
         tables = set(sa.inspect(conn).get_table_names())
         expected = set(jubu_datastore.Base.metadata.tables)
         check(
@@ -89,7 +92,9 @@ def upgrade_downgrade_cycle(engine: sa.Engine, backend: str) -> None:
             MigrationContext.configure(conn, opts={"compare_type": True}),
             jubu_datastore.Base.metadata,
         )
-        check(not diffs, "zero autogenerate drift between migrated schema and ORM models")
+        check(
+            not diffs, "zero autogenerate drift between migrated schema and ORM models"
+        )
         if diffs:
             for d in diffs:
                 print(f"    drift: {d}")
@@ -101,7 +106,10 @@ def upgrade_downgrade_cycle(engine: sa.Engine, backend: str) -> None:
     with engine.connect() as conn:
         check(current_revision(conn) is None, "downgrade base -> no current revision")
         leftover = set(sa.inspect(conn).get_table_names()) - {"alembic_version"}
-        check(not leftover, f"no tables left after downgrade (leftover: {sorted(leftover) or 'none'})")
+        check(
+            not leftover,
+            f"no tables left after downgrade (leftover: {sorted(leftover) or 'none'})",
+        )
 
     with engine.connect() as conn:
         command.upgrade(make_config(conn), "head")
@@ -203,7 +211,9 @@ def legacy_bridge_check(engine: sa.Engine) -> None:
             ),
             {
                 "interests": json.dumps(["space"]),
-                "prefs": json.dumps({"voice_style": "warm", "voice_style_scores": VOICE_SCORES}),
+                "prefs": json.dumps(
+                    {"voice_style": "warm", "voice_style_scores": VOICE_SCORES}
+                ),
                 "t": now,
             },
         )
@@ -244,7 +254,8 @@ def legacy_bridge_check(engine: sa.Engine) -> None:
 
         oi_cols = {c["name"] for c in insp.get_columns("observed_interests")}
         check(
-            {"interest_label", "total_mentions", "origin", "curiosity_signal"} <= oi_cols
+            {"interest_label", "total_mentions", "origin", "curiosity_signal"}
+            <= oi_cols
             and "topic_label" not in oi_cols,
             "observed_interests columns renamed/added",
         )
@@ -265,7 +276,9 @@ def legacy_bridge_check(engine: sa.Engine) -> None:
             "conversations.parent_summary/parent_highlights added",
         )
 
-        full_name = next(c for c in insp.get_columns("users") if c["name"] == "full_name")
+        full_name = next(
+            c for c in insp.get_columns("users") if c["name"] == "full_name"
+        )
         check(bool(full_name["nullable"]), "users.full_name made nullable")
 
         cp_cols = {c["name"] for c in insp.get_columns("child_profiles")}
@@ -291,7 +304,9 @@ def legacy_bridge_check(engine: sa.Engine) -> None:
             )
         ).one()
         check(
-            json.loads(traits[0]) == VOICE_SCORES and traits[1] == "robo" and traits[2] == 1,
+            json.loads(traits[0]) == VOICE_SCORES
+            and traits[1] == "robo"
+            and traits[2] == 1,
             f"voice_style_scores moved into inferred_traits (got {tuple(traits)})",
         )
 
@@ -312,7 +327,9 @@ def run_sqlite() -> None:
 
 
 def run_postgresql() -> None:
-    admin_url = os.environ.get("VERIFY_PG_URL", "postgresql+psycopg2://localhost:5432/postgres")
+    admin_url = os.environ.get(
+        "VERIFY_PG_URL", "postgresql+psycopg2://localhost:5432/postgres"
+    )
 
     try:
         admin_engine = sa.create_engine(

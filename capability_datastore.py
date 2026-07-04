@@ -73,7 +73,9 @@ class CapabilityDatastore(BaseDatastore):
             logger.error(f"Error getting observation {record_id}: {e}")
             raise CapabilityDataError(f"Failed to get observation: {str(e)}")
 
-    def update(self, record_id: str, data: Dict[str, Any]) -> Optional[CapabilityObservation]:
+    def update(
+        self, record_id: str, data: Dict[str, Any]
+    ) -> Optional[CapabilityObservation]:
         """Observations are immutable; update not supported."""
         logger.warning("Capability observations are immutable; update ignored")
         return self.get(record_id)
@@ -106,9 +108,13 @@ class CapabilityDatastore(BaseDatastore):
             return total
         except Exception as e:
             logger.error(f"Error deleting capability data for child {child_id}: {e}")
-            raise CapabilityDataError(f"Failed to delete capability data for child: {str(e)}")
+            raise CapabilityDataError(
+                f"Failed to delete capability data for child: {str(e)}"
+            )
 
-    def _observation_to_entity(self, m: ChildCapabilityObservationModel) -> CapabilityObservation:
+    def _observation_to_entity(
+        self, m: ChildCapabilityObservationModel
+    ) -> CapabilityObservation:
         return CapabilityObservation(
             id=m.id,
             child_id=m.child_id,
@@ -298,7 +304,9 @@ class CapabilityDatastore(BaseDatastore):
             if isinstance(observed_at, datetime):
                 pass
             elif observed_at is not None:
-                observed_at = datetime.fromisoformat(str(observed_at).replace("Z", "+00:00"))
+                observed_at = datetime.fromisoformat(
+                    str(observed_at).replace("Z", "+00:00")
+                )
             else:
                 observed_at = datetime.utcnow()
             with self.session_scope() as session:

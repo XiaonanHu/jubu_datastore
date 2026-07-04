@@ -11,8 +11,7 @@ import threading
 import time
 from abc import ABC, abstractmethod
 from contextlib import contextmanager
-from datetime import datetime
-from typing import Any, Dict, Generic, List, Optional, Type, TypeVar, Union
+from typing import Any, Dict, Generic, Optional, Type, TypeVar
 
 import sqlalchemy
 from cryptography.fernet import Fernet
@@ -21,9 +20,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.pool import QueuePool
 
-from jubu_datastore.logging import get_logger
 from jubu_datastore.common.constants import MAX_RETRIES, RETRY_DELAY
 from jubu_datastore.common.exceptions import DatabaseConnectionError, DatastoreError
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -68,7 +67,7 @@ class BaseDatastore(ABC, Generic[T]):
         if not resolved_key:
             raise DatastoreError(
                 "ENCRYPTION_KEY must be set via argument or environment variable. "
-                "Generate one with: python -c \"from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())\""
+                'Generate one with: python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"'
             )
         self.encryption_key = resolved_key
         self.model_class = model_class

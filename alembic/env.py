@@ -17,10 +17,10 @@ live dev database, and it must never be migrated by accident.
 import os
 from logging.config import fileConfig
 
-from alembic import context
+import jubu_datastore
 from sqlalchemy import create_engine, pool
 
-import jubu_datastore
+from alembic import context
 
 config = context.config
 

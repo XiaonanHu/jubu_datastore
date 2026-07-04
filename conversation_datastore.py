@@ -7,17 +7,17 @@ ensuring proper data security, privacy, and compliance with data protection regu
 
 import uuid
 from datetime import datetime, timedelta
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Union
 
 import sqlalchemy as sa
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy.sql import func
 
-from jubu_datastore.logging import get_logger
-from jubu_datastore.common.constants import DEFAULT_ARCHIVE_DAYS
-from jubu_datastore.common.exceptions import ConversationDataError
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.common.constants import DEFAULT_ARCHIVE_DAYS
 from jubu_datastore.common.enums import ConversationState
+from jubu_datastore.common.exceptions import ConversationDataError
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -27,32 +27,36 @@ class ConversationModel(BaseDatastore.Base):
 
     __tablename__ = "conversations"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    state = sa.Column(sa.String(20), nullable=False, index=True)
-    start_time = sa.Column(
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    state: Mapped[str] = mapped_column(sa.String(20), nullable=False, index=True)
+    start_time: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow, index=True
     )
-    end_time = sa.Column(sa.DateTime, nullable=True)
-    last_interaction_time = sa.Column(
+    end_time: Mapped[Optional[datetime]] = mapped_column(sa.DateTime, nullable=True)
+    last_interaction_time: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow
     )
-    conv_metadata = sa.Column(sa.JSON, nullable=True)
-    is_archived = sa.Column(sa.Boolean, nullable=False, default=False, index=True)
-    parent_summary = sa.Column(sa.Text, nullable=True)
+    conv_metadata: Mapped[dict[str, Any] | None] = mapped_column(sa.JSON, nullable=True)
+    is_archived: Mapped[bool] = mapped_column(
+        sa.Boolean, nullable=False, default=False, index=True
+    )
+    parent_summary: Mapped[Optional[str]] = mapped_column(sa.Text, nullable=True)
     # Structured "Recent highlights" for the parent dashboard, keyed by
     # category (sel/developmental/topics/growth). See parent_summary.py.
-    parent_highlights = sa.Column(sa.JSON, nullable=True)
+    parent_highlights: Mapped[dict[str, Any] | None] = mapped_column(
+        sa.JSON, nullable=True
+    )
 
-    turns = relationship(
+    turns: Mapped[list["ConversationTurnModel"]] = relationship(
         "ConversationTurnModel",
         back_populates="conversation",
         cascade="all, delete-orphan",
     )
 
     __table_args__ = (
-        sa.Index("idx_child_state_time", child_id, state, start_time),
-        sa.Index("idx_archived_time", is_archived, start_time),
+        sa.Index("idx_child_state_time", "child_id", "state", "start_time"),
+        sa.Index("idx_archived_time", "is_archived", "start_time"),
     )
 
 
@@ -61,21 +65,27 @@ class ConversationTurnModel(BaseDatastore.Base):
 
     __tablename__ = "conversation_turns"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    conversation_id = sa.Column(
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    conversation_id: Mapped[str] = mapped_column(
         sa.String(36), sa.ForeignKey("conversations.id"), nullable=False, index=True
     )
-    timestamp = sa.Column(
+    timestamp: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow, index=True
     )
-    child_message = sa.Column(sa.Text, nullable=False)
-    system_message = sa.Column(sa.Text, nullable=True)
-    interaction_type = sa.Column(sa.String(50), nullable=False)
-    safety_evaluation = sa.Column(sa.JSON, nullable=True)
+    child_message: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    system_message: Mapped[Optional[str]] = mapped_column(sa.Text, nullable=True)
+    interaction_type: Mapped[str] = mapped_column(sa.String(50), nullable=False)
+    safety_evaluation: Mapped[dict[str, Any] | None] = mapped_column(
+        sa.JSON, nullable=True
+    )
 
-    conversation = relationship("ConversationModel", back_populates="turns")
+    conversation: Mapped["ConversationModel"] = relationship(
+        "ConversationModel", back_populates="turns"
+    )
 
-    __table_args__ = (sa.Index("idx_conversation_time", conversation_id, timestamp),)
+    __table_args__ = (
+        sa.Index("idx_conversation_time", "conversation_id", "timestamp"),
+    )
 
 
 class ConversationDatastore(BaseDatastore):
@@ -541,7 +551,9 @@ class ConversationDatastore(BaseDatastore):
             return count
         except Exception as e:
             logger.error(f"Error deleting all conversations for child {child_id}: {e}")
-            raise ConversationDataError(f"Failed to delete conversations for child: {str(e)}")
+            raise ConversationDataError(
+                f"Failed to delete conversations for child: {str(e)}"
+            )
 
     def archive_old_conversations(
         self, days_threshold: int = DEFAULT_ARCHIVE_DAYS
@@ -554,7 +566,7 @@ class ConversationDatastore(BaseDatastore):
                     session.query(ConversationModel)
                     .filter(
                         ConversationModel.last_interaction_time < cutoff_date,
-                        ConversationModel.is_archived == False,
+                        ConversationModel.is_archived.is_(False),
                     )
                     .all()
                 )
