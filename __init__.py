@@ -31,10 +31,6 @@ from jubu_datastore.dto.entities import (
     ChildCapabilityState,
 )
 from jubu_datastore.facts_datastore import ChildFactModel, FactsDatastore
-from jubu_datastore.interaction_contexts_datastore import (
-    InteractionContextModel,
-    InteractionContextsDatastore,
-)
 from jubu_datastore.loaders import (
     CapabilityDefinitionRegistry,
     DuplicateItemIdError,
@@ -63,7 +59,6 @@ __all__ = [
     "ChildProfileModel",
     "ChildFactModel",
     "StoryModel",
-    "InteractionContextModel",
     "ChildCapabilityObservationModel",
     "ChildCapabilityStateModel",
     "ConversationDatastore",
@@ -72,7 +67,6 @@ __all__ = [
     "FactsDatastore",
     "StoryDatastore",
     "CapabilityDatastore",
-    "InteractionContextsDatastore",
     "User",
     "ChildProfile",
     "CapabilityObservation",

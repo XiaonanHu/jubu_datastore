@@ -230,12 +230,6 @@ class ConversationDataError(DatastoreError):
     pass
 
 
-class InteractionContextError(DatastoreError):
-    """Error related to interaction context operations."""
-
-    pass
-
-
 class StoryDataError(DatastoreError):
     """Error related to story data operations."""
 

@@ -16,12 +16,12 @@ from jubu_datastore.capability_datastore import CapabilityDatastore
 from jubu_datastore.consent_datastore import ConsentDatastore
 from jubu_datastore.conversation_datastore import ConversationDatastore
 from jubu_datastore.facts_datastore import FactsDatastore
-from jubu_datastore.interaction_contexts_datastore import InteractionContextsDatastore
 from jubu_datastore.parent_chat_datastore import ParentChatDatastore
 from jubu_datastore.profile_datastore import ProfileDatastore
 from jubu_datastore.story_datastore import StoryDatastore
 from jubu_datastore.telemetry_datastore import TelemetryDatastore
 from jubu_datastore.observed_interests_datastore import ObservedInterestsDatastore
+from jubu_datastore.inferred_traits_datastore import InferredTraitsDatastore
 from jubu_datastore.user_datastore import UserDatastore
 
 logger = get_logger(__name__)
@@ -42,10 +42,10 @@ class DatastoreFactory:
         "facts": FactsDatastore,
         "parent_chat": ParentChatDatastore,
         "profile": ProfileDatastore,
-        "interaction_contexts": InteractionContextsDatastore,
         "story": StoryDatastore,
         "telemetry": TelemetryDatastore,
         "observed_interests": ObservedInterestsDatastore,
+        "inferred_traits": InferredTraitsDatastore,
         "user": UserDatastore,
     }
 
@@ -222,20 +222,6 @@ class DatastoreFactory:
         )
 
     @classmethod
-    def create_interaction_contexts_datastore(
-        cls,
-        connection_string: Optional[str] = None,
-        pool_size: Optional[int] = None,
-        encryption_key: Optional[str] = None,
-    ) -> InteractionContextsDatastore:
-        return cls.create_datastore(
-            "interaction_contexts",
-            connection_string=connection_string,
-            pool_size=pool_size,
-            encryption_key=encryption_key,
-        )
-
-    @classmethod
     def create_story_datastore(
         cls,
         connection_string: Optional[str] = None,
@@ -258,6 +244,20 @@ class DatastoreFactory:
     ) -> ObservedInterestsDatastore:
         return cls.create_datastore(
             "observed_interests",
+            connection_string=connection_string,
+            pool_size=pool_size,
+            encryption_key=encryption_key,
+        )
+
+    @classmethod
+    def create_inferred_traits_datastore(
+        cls,
+        connection_string: Optional[str] = None,
+        pool_size: Optional[int] = None,
+        encryption_key: Optional[str] = None,
+    ) -> InferredTraitsDatastore:
+        return cls.create_datastore(
+            "inferred_traits",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,

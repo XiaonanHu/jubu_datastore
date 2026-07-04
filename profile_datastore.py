@@ -29,7 +29,9 @@ class ChildProfileModel(BaseDatastore.Base):
     id = sa.Column(sa.String(36), primary_key=True)
     name = sa.Column(sa.String(100), nullable=False)
     age = sa.Column(sa.Integer, nullable=False)
-    interests = sa.Column(sa.JSON, nullable=False, default=list)
+    # Interests the PARENT explicitly declared for the child (Tier A, parent-owned).
+    # Distinct from the system-observed `observed_interests` ledger (Tier B). ENG-347.
+    parent_declared_interests = sa.Column(sa.JSON, nullable=False, default=list)
     preferences = sa.Column(sa.JSON, nullable=False, default=dict)
     created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
     updated_at = sa.Column(
@@ -75,7 +77,7 @@ class ProfileDatastore(BaseDatastore):
             id=model.id,
             name=model.name,
             age=model.age,
-            interests=model.interests or [],
+            parent_declared_interests=model.parent_declared_interests or [],
             preferences=model.preferences or {},
             parent_id=model.parent_id,
             created_at=model.created_at,
@@ -97,7 +99,7 @@ class ProfileDatastore(BaseDatastore):
             id=profile_id,
             name=data["name"],
             age=data["age"],
-            interests=data.get("interests", []),
+            parent_declared_interests=data.get("parent_declared_interests", []),
             preferences=data.get("preferences", {}),
             parent_id=data.get("parent_id"),
             is_active=True,
@@ -182,7 +184,7 @@ class ProfileDatastore(BaseDatastore):
                         id=profile_id,
                         name=profile_data["name"],
                         age=profile_data["age"],
-                        interests=profile_data.get("interests", []),
+                        parent_declared_interests=profile_data.get("parent_declared_interests", []),
                         preferences=profile_data.get("preferences", {}),
                         parent_id=profile_data.get("parent_id"),
                     )
@@ -226,7 +228,9 @@ class ProfileDatastore(BaseDatastore):
             logger.error(f"Error retrieving child profile: {e}")
             raise ProfileDataError(f"Failed to retrieve child profile: {str(e)}")
 
-    def update_interests(self, child_id: str, interests: List[str]) -> bool:
+    def update_parent_declared_interests(
+        self, child_id: str, parent_declared_interests: List[str]
+    ) -> bool:
         try:
             with self.session_scope() as session:
                 profile = (
@@ -238,15 +242,17 @@ class ProfileDatastore(BaseDatastore):
                     logger.warning(f"Profile for child {child_id} not found")
                     return False
 
-                profile.interests = interests
+                profile.parent_declared_interests = parent_declared_interests
                 profile.updated_at = datetime.utcnow()
 
                 session.commit()
-                logger.info(f"Updated interests for child {child_id}")
+                logger.info(f"Updated parent-declared interests for child {child_id}")
                 return True
         except Exception as e:
-            logger.error(f"Error updating child interests: {e}")
-            raise ProfileDataError(f"Failed to update child interests: {str(e)}")
+            logger.error(f"Error updating parent-declared interests: {e}")
+            raise ProfileDataError(
+                f"Failed to update parent-declared interests: {str(e)}"
+            )
 
     def update_preferences(self, child_id: str, preferences: Dict[str, Any]) -> bool:
         try:
@@ -367,7 +373,7 @@ class ProfileDatastore(BaseDatastore):
             id=profile_data.get("id", ""),
             name=profile_data["name"],
             age=profile_data["age"],
-            interests=profile_data.get("interests", []),
+            parent_declared_interests=profile_data.get("parent_declared_interests", []),
             preferences=profile_data.get("preferences", {}),
             parent_id=profile_data.get("parent_id"),
             created_at=profile_data.get("created_at"),

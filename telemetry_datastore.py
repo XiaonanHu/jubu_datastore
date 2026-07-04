@@ -19,7 +19,7 @@ Design notes:
 from __future__ import annotations
 
 import uuid
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
@@ -91,8 +91,30 @@ class TelemetryDatastore(BaseDatastore):
         raise NotImplementedError("telemetry_events rows are immutable")
 
     def delete(self, record_id: str) -> bool:
-        # Retention deletes happen via the Phase-3 cron, not this method.
-        raise NotImplementedError("use the retention cron, not delete()")
+        # Retention deletes happen via delete_events_older_than() (called by
+        # the daily retention-enforcement job), not per-row deletes.
+        raise NotImplementedError(
+            "use delete_events_older_than() via the retention job, not delete()"
+        )
+
+    def delete_events_older_than(self, retention_days: int) -> int:
+        """Hard-delete telemetry rows older than the retention window.
+
+        Called by the daily retention-enforcement job (ENG-333). Grafana reads
+        this table directly, so this also bounds how far back dashboards see.
+        """
+        cutoff = datetime.utcnow() - timedelta(days=retention_days)
+        with self.session_scope() as session:
+            count = (
+                session.query(TelemetryEventModel)
+                .filter(TelemetryEventModel.ts < cutoff)
+                .delete(synchronize_session=False)
+            )
+            session.commit()
+        logger.info(
+            f"Hard-deleted {count} telemetry rows older than {retention_days} days"
+        )
+        return count
 
     # ------------------------------------------------------------------
     # Public API — the only method telemetry.emit() actually calls.

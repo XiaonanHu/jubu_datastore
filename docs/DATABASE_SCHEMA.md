@@ -15,7 +15,6 @@ users (1) ----< child_profiles (N)
                      v
               conversations (1) ----< conversation_turns (N)  [cascade delete]
                      |
-                     +----< interaction_contexts (N)
                      +----< stories (N)
                      
               child_facts              (child_id, no FK)
@@ -23,7 +22,7 @@ users (1) ----< child_profiles (N)
               child_capability_state         (child_id, no FK)
 ```
 
-> **Note:** Most child-related tables reference `child_id` by value (String(36)) rather than a foreign key constraint. Only `child_profiles.parent_id -> users.id`, `conversation_turns.conversation_id -> conversations.id`, `stories.conversation_id -> conversations.id`, and `interaction_contexts.conversation_id -> conversations.id` are enforced FKs.
+> **Note:** Most child-related tables reference `child_id` by value (String(36)) rather than a foreign key constraint. Only `child_profiles.parent_id -> users.id`, `conversation_turns.conversation_id -> conversations.id`, and `stories.conversation_id -> conversations.id` are enforced FKs.
 
 ---
 
@@ -56,7 +55,7 @@ One row per child. Linked to a parent user.
 | `id` | String(36) | PK | |
 | `name` | String(100) | | |
 | `age` | Integer | | |
-| `interests` | JSON | default [] | List of interest strings |
+| `parent_declared_interests` | JSON | default [] | Interests the PARENT declared (Tier A, parent-owned). Distinct from the system-observed `observed_interests` ledger. |
 | `preferences` | JSON | default {} | Arbitrary key-value preferences |
 | `parent_id` | String(36) | FK -> users.id, nullable | |
 | `is_active` | Boolean | default True, indexed | Soft-delete (GDPR) |
@@ -205,17 +204,19 @@ Aggregated "best-so-far" state per child per capability item. Upserted from obse
 
 ---
 
-### `interaction_contexts`
+### `inferred_traits`
 
-Per-conversation, per-interaction-type context. Stores structured state for a specific interaction mode within a conversation.
+Durable, **system-learned** engagement traits per child (one row per child) — part of the `LearnedProfile` umbrella (ENG-347). Written only at end-of-session consolidation, never on the hot path. Every column is **hidden** (internal steering), never parent-facing. Kept separate from parent-declared `child_profiles` and from the (gated) biometric `voice_signatures` store.
 
 | Column | Type | Constraints | Description |
 |---|---|---|---|
-| `id` | String(36) | PK | |
-| `conversation_id` | String(36) | FK -> conversations.id, indexed | |
-| `interaction_type` | String(50) | indexed | e.g. chitchat, pretend_play, edutainment |
-| `context_data` | JSON | default {} | Structured context (merge-updated) |
+| `child_id` | String(36) | PK | |
+| `curiosity_mode_by_kind` | JSON | default {} | `{kind: deepener\|widener\|balanced}` — how the child explores each topic kind, derived from the `observed_interests` ledger by `curiosity_mode_policy` |
+| `preferred_style` | String(64) | nullable | Voice codename that lands best — argmax of `voice_style_scores` (Phase 3d). Hidden — never parent-facing |
+| `preferred_style_confidence` | Float | nullable | |
+| `voice_style_scores` | JSON | default {} | Learned ε-greedy bandit state `{codename: {n, score}}`, relocated from `child_profiles.preferences` (Phase 3d). Read by `select_style_for_session`. The parent OVERRIDE `voice_style` stays in `child_profiles.preferences`. |
+| `evidence_count` | Integer | default 0 | Sessions contributing to these traits |
 | `created_at` | DateTime | default utcnow | |
 | `updated_at` | DateTime | default/onupdate utcnow | |
 
-**Indexes:** `idx_conversation_interaction(conversation_id, interaction_type)`
+> Related: `observed_interests` gained a nullable `curiosity_signal` (Float) column (Phase 3a) — the max per-topic curiosity pull (0-1) seen across sessions, an input to the derivation above.

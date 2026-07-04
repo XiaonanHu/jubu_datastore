@@ -45,7 +45,7 @@ Child profiles with GDPR-compliant soft deletion.
 | `update(child_id, data)` | Update attributes. |
 | `delete(child_id)` / `delete_child_data(child_id, hard_delete=False)` | **Soft delete** by default. Pass `hard_delete=True` for permanent removal. |
 | `get_profiles_by_parent(parent_id)` | List active profiles for a parent. |
-| `update_interests(child_id, interests)` | Replace interests list. |
+| `update_parent_declared_interests(child_id, parent_declared_interests)` | Replace the parent-declared interests list. |
 | `update_preferences(child_id, prefs)` | **Merge** preferences dict with existing values. |
 | `update_last_interaction(child_id, timestamp=None)` | Update last interaction timestamp. |
 
@@ -154,20 +154,3 @@ Append-only observation log with aggregated state. See [CAPABILITY_FRAMEWORK.md]
 | `observed_at` | datetime | |
 
 ---
-
-## InteractionContextsDatastore
-
-**Table:** `interaction_contexts` | **Model:** `InteractionContextModel`
-
-Stores structured context per interaction type within a conversation (e.g., pretend play state, quiz progress).
-
-| Method | Description |
-|---|---|
-| `create(data)` / `save_interaction_context(data)` | Create or update context. Requires `conversation_id` and `interaction_type`. |
-| `get(context_id)` | Retrieve context model. |
-| `update(context_id, data)` | Update context. |
-| `delete(context_id)` | **Hard delete.** |
-| `get_context_for_conversation(conversation_id, interaction_type=None)` | Get contexts (optionally filtered by type). |
-| `update_context_data(conversation_id, interaction_type, updates)` | **Merge** updates into existing `context_data` JSON. |
-
-**Special behavior:** `context_data` is always merge-updated, never replaced. This allows multiple parts of the system to store context without overwriting each other.

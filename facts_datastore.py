@@ -346,6 +346,32 @@ class FactsDatastore(BaseDatastore):
             logger.error(f"Error expiring old facts: {e}")
             raise FactsDataError(f"Failed to expire old facts: {str(e)}")
 
+    def delete_expired_facts(self, grace_days: int = 30) -> int:
+        """Hard-delete facts whose expiration passed more than grace_days ago.
+
+        Two-stage retention: expire_old_facts() soft-deletes (active=False) at
+        expiration so the fact stops influencing conversations immediately;
+        this method permanently removes the row once the grace window has
+        passed. Called by the daily retention-enforcement job (ENG-333).
+        """
+        try:
+            cutoff = datetime.utcnow() - timedelta(days=grace_days)
+            with self.session_scope() as session:
+                count = (
+                    session.query(ChildFactModel)
+                    .filter(
+                        ChildFactModel.expiration != None,  # noqa: E711
+                        ChildFactModel.expiration < cutoff,
+                    )
+                    .delete(synchronize_session=False)
+                )
+                session.commit()
+            logger.info(f"Hard-deleted {count} facts expired more than {grace_days} days ago")
+            return count
+        except Exception as e:
+            logger.error(f"Error hard-deleting expired facts: {e}")
+            raise FactsDataError(f"Failed to hard-delete expired facts: {str(e)}")
+
     def get_facts_by_expiration(
         self, expiration_date: datetime
     ) -> List[Dict[str, Any]]:

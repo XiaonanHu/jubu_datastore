@@ -21,7 +21,7 @@ class ChildProfile(BaseModel):
     id: str
     name: str
     age: int
-    interests: List[str] = []
+    parent_declared_interests: List[str] = []
     preferences: Dict[str, Any] = {}
     parent_id: Optional[str] = None
     created_at: Optional[datetime] = None

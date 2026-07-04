@@ -47,6 +47,12 @@ class ObservedInterestModel(BaseDatastore.Base):
 
     last_depth = sa.Column(sa.Integer, nullable=False, default=0)
     breadth_count = sa.Column(sa.Integer, nullable=False, default=0)
+    # Strongest curiosity pull (0-1) the child showed for this topic across sessions
+    # (max seen). Previously computed per session and DROPPED at session end; now
+    # persisted so the durable curiosity_mode can be learned. Lifetime learned ·
+    # owner system · writer end-of-session upsert · reader curiosity_mode_policy ·
+    # visibility hidden. (ENG-347 Phase 3a.)
+    curiosity_signal = sa.Column(sa.Float, nullable=True)
     sentiment = sa.Column(sa.String(16), nullable=True)
     status = sa.Column(sa.String(16), nullable=False, default="active")
 
@@ -129,9 +135,11 @@ class ObservedInterestsDatastore(BaseDatastore):
 
         On update: bumps times_visited, ACCUMULATES total_mentions by
         `mentions_delta`, refreshes recency/session, keeps the max depth seen,
-        records the latest sentiment, and PRESERVES origin (first sighting wins).
+        keeps the max curiosity_signal seen, records the latest sentiment, and
+        PRESERVES origin (first sighting wins).
         `topic` accepts: canonical_key, interest_label, kind, framework_link,
-        last_depth, sentiment, session_id, observed_at, origin, mentions_delta.
+        last_depth, curiosity_signal, sentiment, session_id, observed_at, origin,
+        mentions_delta.
         """
         canonical_key = interest.get("canonical_key")
         if not canonical_key:
@@ -172,6 +180,11 @@ class ObservedInterestsDatastore(BaseDatastore):
                         last_observed_at=observed_at,
                         last_depth=depth,
                         breadth_count=int(interest.get("breadth_count", 0) or 0),
+                        curiosity_signal=(
+                            float(interest["curiosity_signal"])
+                            if interest.get("curiosity_signal") is not None
+                            else None
+                        ),
                         sentiment=interest.get("sentiment"),
                         status="active",
                     )
@@ -184,6 +197,11 @@ class ObservedInterestsDatastore(BaseDatastore):
                     row.last_session_id = session_id
                     row.last_observed_at = observed_at
                     row.last_depth = max(int(row.last_depth or 0), depth)
+                    if interest.get("curiosity_signal") is not None:
+                        row.curiosity_signal = max(
+                            float(row.curiosity_signal or 0.0),
+                            float(interest["curiosity_signal"]),
+                        )
                     if interest.get("sentiment"):
                         row.sentiment = interest.get("sentiment")
                     if interest.get("framework_link") and not row.framework_link:
@@ -228,6 +246,7 @@ class ObservedInterestsDatastore(BaseDatastore):
                         "last_observed_at": r.last_observed_at,
                         "last_depth": r.last_depth,
                         "breadth_count": r.breadth_count,
+                        "curiosity_signal": r.curiosity_signal,
                         "sentiment": r.sentiment,
                         "status": r.status,
                     }

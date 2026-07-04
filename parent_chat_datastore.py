@@ -285,17 +285,24 @@ class ParentChatDatastore(BaseDatastore):
             return (row.summary, row.session_count)
 
     def delete_all_for_child(self, parent_id: str, child_id: str) -> int:
-        """Hard-delete all parent chat sessions for a (parent, child) pair.
-        Messages cascade via FK."""
+        """Hard-delete all parent chat data for a (parent, child) pair:
+        sessions (messages cascade via foreign key) and the per-child
+        rolling summary row."""
         with self.session_scope() as db:
             count = (
                 db.query(ParentChatSessionModel)
                 .filter_by(parent_id=parent_id, child_id=child_id)
                 .delete(synchronize_session=False)
             )
+            summary_count = (
+                db.query(ParentChatRollingSummaryModel)
+                .filter_by(parent_id=parent_id, child_id=child_id)
+                .delete(synchronize_session=False)
+            )
             db.commit()
         logger.info(
-            f"Hard-deleted {count} parent chat sessions for child {child_id}"
+            f"Hard-deleted {count} parent chat sessions and "
+            f"{summary_count} rolling summaries for child {child_id}"
         )
         return count
 

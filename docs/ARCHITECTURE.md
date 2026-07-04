@@ -133,7 +133,6 @@ _datastore_registry = {
     "conversation":         ConversationDatastore,
     "facts":                FactsDatastore,
     "profile":              ProfileDatastore,
-    "interaction_contexts": InteractionContextsDatastore,
     "story":                StoryDatastore,
     "user":                 UserDatastore,
 }
