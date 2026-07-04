@@ -150,8 +150,8 @@ class RetentionEnforcer:
         )
 
         # 2. Telemetry retention window.
-        summary["telemetry_rows_deleted"] = (
-            self.telemetry_ds.delete_events_older_than(TELEMETRY_RETENTION_DAYS)
+        summary["telemetry_rows_deleted"] = self.telemetry_ds.delete_events_older_than(
+            TELEMETRY_RETENTION_DAYS
         )
 
         # 3. Orphan sweep (partial-deletion safety net).

@@ -1,4 +1,5 @@
 """Loaders for capability definitions and other config."""
+
 from jubu_datastore.loaders.capability_loader import (
     CapabilityDefinitionRegistry,
     DuplicateItemIdError,

@@ -7,21 +7,21 @@ supporting different database backends and configurations.
 
 import os
 import threading
-from typing import Any, Callable, Dict, Optional, Type, Union
+from typing import Callable, Dict, Optional, Type, cast
 
-from jubu_datastore.logging import get_logger
-from jubu_datastore.common.exceptions import DatastoreError
 from jubu_datastore.base_datastore import BaseDatastore
 from jubu_datastore.capability_datastore import CapabilityDatastore
+from jubu_datastore.common.exceptions import DatastoreError
 from jubu_datastore.consent_datastore import ConsentDatastore
 from jubu_datastore.conversation_datastore import ConversationDatastore
 from jubu_datastore.facts_datastore import FactsDatastore
+from jubu_datastore.inferred_traits_datastore import InferredTraitsDatastore
+from jubu_datastore.logging import get_logger
+from jubu_datastore.observed_interests_datastore import ObservedInterestsDatastore
 from jubu_datastore.parent_chat_datastore import ParentChatDatastore
 from jubu_datastore.profile_datastore import ProfileDatastore
 from jubu_datastore.story_datastore import StoryDatastore
 from jubu_datastore.telemetry_datastore import TelemetryDatastore
-from jubu_datastore.observed_interests_datastore import ObservedInterestsDatastore
-from jubu_datastore.inferred_traits_datastore import InferredTraitsDatastore
 from jubu_datastore.user_datastore import UserDatastore
 
 logger = get_logger(__name__)
@@ -61,7 +61,9 @@ class DatastoreFactory:
     ) -> str:
         """Build a cache key from type and connection parameters."""
         # Resolve defaults so that (None, None) and (env-value, env-value) hit the same key
-        conn = connection_string or os.environ.get("DATABASE_URL", "sqlite:///kidschat.db")
+        conn = connection_string or os.environ.get(
+            "DATABASE_URL", "sqlite:///kidschat.db"
+        )
         enc = encryption_key or os.environ.get("ENCRYPTION_KEY", "")
         return f"{datastore_type}|{conn}|{enc}"
 
@@ -158,12 +160,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> ConsentDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "consent",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(ConsentDatastore, ds)
 
     @classmethod
     def create_capability_datastore(
@@ -172,12 +175,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> CapabilityDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "capability",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(CapabilityDatastore, ds)
 
     @classmethod
     def create_conversation_datastore(
@@ -186,12 +190,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> ConversationDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "conversation",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(ConversationDatastore, ds)
 
     @classmethod
     def create_facts_datastore(
@@ -200,12 +205,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> FactsDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "facts",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(FactsDatastore, ds)
 
     @classmethod
     def create_profile_datastore(
@@ -214,12 +220,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> ProfileDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "profile",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(ProfileDatastore, ds)
 
     @classmethod
     def create_story_datastore(
@@ -228,12 +235,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> StoryDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "story",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(StoryDatastore, ds)
 
     @classmethod
     def create_observed_interests_datastore(
@@ -242,12 +250,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> ObservedInterestsDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "observed_interests",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(ObservedInterestsDatastore, ds)
 
     @classmethod
     def create_inferred_traits_datastore(
@@ -256,12 +265,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> InferredTraitsDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "inferred_traits",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(InferredTraitsDatastore, ds)
 
     @classmethod
     def create_telemetry_datastore(
@@ -270,12 +280,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> TelemetryDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "telemetry",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(TelemetryDatastore, ds)
 
     @classmethod
     def create_user_datastore(
@@ -285,13 +296,14 @@ class DatastoreFactory:
         encryption_key: Optional[str] = None,
         password_hasher: Optional[Callable[[str], str]] = None,
     ) -> UserDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "user",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
             password_hasher=password_hasher,
         )
+        return cast(UserDatastore, ds)
 
     @classmethod
     def create_parent_chat_datastore(
@@ -300,12 +312,13 @@ class DatastoreFactory:
         pool_size: Optional[int] = None,
         encryption_key: Optional[str] = None,
     ) -> ParentChatDatastore:
-        return cls.create_datastore(
+        ds = cls.create_datastore(
             "parent_chat",
             connection_string=connection_string,
             pool_size=pool_size,
             encryption_key=encryption_key,
         )
+        return cast(ParentChatDatastore, ds)
 
     @classmethod
     def close_all(cls) -> None:

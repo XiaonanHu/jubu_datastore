@@ -27,3 +27,43 @@ test = [
     "pytest>=7.0",
     "pyyaml>=6.0",
 ]
+dev = [
+    "alembic>=1.14",
+    "ruff>=0.15",
+    "mypy>=1.19",
+    "types-PyYAML",
+]
+
+# migrations/ holds the frozen, superseded pre-Alembic scripts — excluded from
+# lint/format/type-checking so they stay byte-stable until deleted.
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+extend-exclude = ["migrations", "docs"]
+
+[tool.ruff.lint]
+select = [
+    "E4", "E7", "E9",  # pycodestyle errors (ruff defaults)
+    "F",               # pyflakes
+    "W",               # pycodestyle warnings
+    "I",               # isort
+]
+
+[tool.mypy]
+python_version = "3.10"
+exclude = ["^migrations/", "^alembic/", "^docs/", "^build/"]
+
+# `mypy .` puts the repo root on the module search path, so the package's
+# logging/ subpackage (jubu_datastore.logging) is ALSO reachable as a
+# top-level "logging" module shadowing the stdlib, and mypy aborts with
+# "source file found twice". Our code never imports stdlib logging (loguru
+# only), so resolve the clash by skipping the top-level name.
+[[tool.mypy.overrides]]
+module = "logging.*"
+follow_imports = "skip"
+
+[[tool.mypy.overrides]]
+module = "logging"
+follow_imports = "skip"
+

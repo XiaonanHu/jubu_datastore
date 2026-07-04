@@ -101,7 +101,9 @@ class ScoringConfig(BaseModel):
     @classmethod
     def type_allowed(cls, v: str) -> str:
         if v not in VALID_SCORING_TYPES:
-            raise ValueError(f"scoring type must be one of {sorted(VALID_SCORING_TYPES)}")
+            raise ValueError(
+                f"scoring type must be one of {sorted(VALID_SCORING_TYPES)}"
+            )
         return v
 
     @field_validator("values", mode="after")

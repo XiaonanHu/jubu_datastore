@@ -1,4 +1,9 @@
 """
+SUPERSEDED: converted to Alembic — see alembic/versions/ (baseline 0001,
+legacy bridge 0002, data move 0003) and scripts/verify_migrations.py.
+Kept only until the Alembic history is verified against production
+databases; do not add new migration scripts to this folder.
+
 Add `observed_interests.curiosity_signal` (Float, nullable).
 
 Why: the per-topic curiosity pull (0-1) was computed each session but DROPPED at

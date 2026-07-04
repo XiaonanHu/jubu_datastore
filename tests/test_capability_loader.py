@@ -14,8 +14,8 @@ from jubu_datastore.loaders.capability_loader import (
     CapabilityDefinitionRegistry,
     DuplicateItemIdError,
     DuplicatePackError,
-    load_definition_pack_from_yaml,
     load_default_registry,
+    load_definition_pack_from_yaml,
 )
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -313,6 +313,8 @@ def test_get_all_items_definitions(tmp_path: Path) -> None:
     # Sample: first CASEL item from YAML
     ids = [d["id"] for d in items]
     assert "casel.self_awareness.identify_basic_emotions" in ids
-    one = next(d for d in items if d["id"] == "casel.self_awareness.identify_basic_emotions")
+    one = next(
+        d for d in items if d["id"] == "casel.self_awareness.identify_basic_emotions"
+    )
     assert "emotions" in one["title"].lower() or "emotion" in one["description"].lower()
     assert one["version"] >= 1

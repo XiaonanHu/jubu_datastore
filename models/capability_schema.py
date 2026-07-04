@@ -8,15 +8,15 @@ Used only for persistence; one row per observation, one row per (child_id, item_
 from __future__ import annotations
 
 from datetime import datetime
+from typing import Any, Optional
 
 import sqlalchemy as sa
+from sqlalchemy.orm import Mapped, mapped_column
 
 from jubu_datastore.base_datastore import BaseDatastore
 
-Base = BaseDatastore.Base
 
-
-class ChildCapabilityObservationModel(Base):
+class ChildCapabilityObservationModel(BaseDatastore.Base):
     """
     Raw evaluation events: one row per observation from one session.
 
@@ -25,39 +25,49 @@ class ChildCapabilityObservationModel(Base):
 
     __tablename__ = "child_capability_observations"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    session_id = sa.Column(sa.String(255), nullable=False, index=True)
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    session_id: Mapped[str] = mapped_column(sa.String(255), nullable=False, index=True)
 
-    item_id = sa.Column(sa.String(255), nullable=False)
-    item_version = sa.Column(sa.Integer, nullable=False)
+    item_id: Mapped[str] = mapped_column(sa.String(255), nullable=False)
+    item_version: Mapped[int] = mapped_column(sa.Integer, nullable=False)
 
-    framework = sa.Column(sa.String(64), nullable=False, index=True)
-    domain = sa.Column(sa.String(64), nullable=False)
-    subdomain = sa.Column(sa.String(64), nullable=False)
+    framework: Mapped[str] = mapped_column(sa.String(64), nullable=False, index=True)
+    domain: Mapped[str] = mapped_column(sa.String(64), nullable=False)
+    subdomain: Mapped[str] = mapped_column(sa.String(64), nullable=False)
 
-    observation_status = sa.Column(sa.String(64), nullable=False)
-    confidence = sa.Column(sa.Float, nullable=True)
+    observation_status: Mapped[str] = mapped_column(sa.String(64), nullable=False)
+    confidence: Mapped[Optional[float]] = mapped_column(sa.Float, nullable=True)
 
-    evidence_text = sa.Column(sa.Text, nullable=True)
+    evidence_text: Mapped[Optional[str]] = mapped_column(sa.Text, nullable=True)
 
-    evaluator_type = sa.Column(sa.String(64), nullable=False)
-    evaluator_version = sa.Column(sa.String(64), nullable=True)
+    evaluator_type: Mapped[str] = mapped_column(sa.String(64), nullable=False)
+    evaluator_version: Mapped[Optional[str]] = mapped_column(
+        sa.String(64), nullable=True
+    )
 
-    raw_score_json = sa.Column(sa.JSON, nullable=True)
+    raw_score_json: Mapped[dict[str, Any] | None] = mapped_column(
+        sa.JSON, nullable=True
+    )
 
-    observed_at = sa.Column(sa.DateTime, nullable=False, index=True)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    observed_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, index=True
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
 
     __table_args__ = (
         sa.Index("idx_obs_child_item", "child_id", "item_id"),
         sa.Index("idx_obs_child_framework", "child_id", "framework"),
         sa.Index("idx_obs_session", "session_id"),
-        sa.Index("idx_obs_item_id", "item_id"),  # analytics: population mastery, model training, dashboards
+        sa.Index(
+            "idx_obs_item_id", "item_id"
+        ),  # analytics: population mastery, model training, dashboards
     )
 
 
-class ChildCapabilityStateModel(Base):
+class ChildCapabilityStateModel(BaseDatastore.Base):
     """
     Current skill status per child per item: one row per (child_id, item_id).
 
@@ -66,33 +76,45 @@ class ChildCapabilityStateModel(Base):
 
     __tablename__ = "child_capability_state"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    item_id = sa.Column(sa.String(255), nullable=False, index=True)
-    item_version = sa.Column(sa.Integer, nullable=False)
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    item_id: Mapped[str] = mapped_column(sa.String(255), nullable=False, index=True)
+    item_version: Mapped[int] = mapped_column(sa.Integer, nullable=False)
 
-    framework = sa.Column(sa.String(64), nullable=False, index=True)
-    domain = sa.Column(sa.String(64), nullable=False)
-    subdomain = sa.Column(sa.String(64), nullable=False)
+    framework: Mapped[str] = mapped_column(sa.String(64), nullable=False, index=True)
+    domain: Mapped[str] = mapped_column(sa.String(64), nullable=False)
+    subdomain: Mapped[str] = mapped_column(sa.String(64), nullable=False)
 
-    current_status = sa.Column(sa.String(64), nullable=False)
-    confidence = sa.Column(sa.Float, nullable=True)
-    mastery_score = sa.Column(sa.Float, nullable=False, default=0.0)
+    current_status: Mapped[str] = mapped_column(sa.String(64), nullable=False)
+    confidence: Mapped[Optional[float]] = mapped_column(sa.Float, nullable=True)
+    mastery_score: Mapped[float] = mapped_column(sa.Float, nullable=False, default=0.0)
 
-    evidence_count = sa.Column(sa.Integer, nullable=False, default=0)
+    evidence_count: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=0)
 
-    first_observed_at = sa.Column(sa.DateTime, nullable=True)
-    last_observed_at = sa.Column(sa.DateTime, nullable=True)
-    last_session_id = sa.Column(sa.String(255), nullable=True)
+    first_observed_at: Mapped[Optional[datetime]] = mapped_column(
+        sa.DateTime, nullable=True
+    )
+    last_observed_at: Mapped[Optional[datetime]] = mapped_column(
+        sa.DateTime, nullable=True
+    )
+    last_session_id: Mapped[Optional[str]] = mapped_column(
+        sa.String(255), nullable=True
+    )
 
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    updated_at = sa.Column(
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    updated_at: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow
     )
 
     __table_args__ = (
-        sa.UniqueConstraint("child_id", "item_id", name="uq_child_capability_state_child_item"),
-        sa.CheckConstraint("mastery_score >= 0 AND mastery_score <= 1", name="chk_mastery_score_range"),
+        sa.UniqueConstraint(
+            "child_id", "item_id", name="uq_child_capability_state_child_item"
+        ),
+        sa.CheckConstraint(
+            "mastery_score >= 0 AND mastery_score <= 1", name="chk_mastery_score_range"
+        ),
         sa.Index("idx_state_child_item", "child_id", "item_id"),
         sa.Index("idx_state_child_framework", "child_id", "framework"),
     )

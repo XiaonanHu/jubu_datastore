@@ -1,4 +1,9 @@
 """
+SUPERSEDED: converted to Alembic — see alembic/versions/ (baseline 0001,
+legacy bridge 0002, data move 0003) and scripts/verify_migrations.py.
+Kept only until the Alembic history is verified against production
+databases; do not add new migration scripts to this folder.
+
 Initial migration for capability tables.
 
 Creates child_capability_observations first, then child_capability_state.

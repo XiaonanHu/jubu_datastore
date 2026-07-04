@@ -70,7 +70,10 @@ def test_valid_developmental_milestone_item_parsing() -> None:
     assert pack.age == 5
     assert len(pack.items) >= 1
     first = pack.items[0]
-    assert first.id == "developmental_milestones.social_emotional.follows_rules_or_takes_turns"
+    assert (
+        first.id
+        == "developmental_milestones.social_emotional.follows_rules_or_takes_turns"
+    )
     assert first.framework == "developmental_milestones"
     assert first.domain == "developmental"
     assert first.subdomain == "social_emotional"
@@ -153,7 +156,10 @@ def test_framework_mismatch_in_pack_rejected() -> None:
             framework="casel",
             age=5,
             items=[
-                _minimal_item(id="developmental_milestones.one.item", framework="developmental_milestones"),
+                _minimal_item(
+                    id="developmental_milestones.one.item",
+                    framework="developmental_milestones",
+                ),
             ],
         )
 
@@ -201,8 +207,10 @@ def test_pack_get_item_by_id() -> None:
             _minimal_item(id="casel.second.item", framework="casel"),
         ],
     )
-    assert pack.get_item_by_id("casel.first.item").id == "casel.first.item"
-    assert pack.get_item_by_id("casel.second.item").id == "casel.second.item"
+    first = pack.get_item_by_id("casel.first.item")
+    second = pack.get_item_by_id("casel.second.item")
+    assert first is not None and first.id == "casel.first.item"
+    assert second is not None and second.id == "casel.second.item"
     assert pack.get_item_by_id("missing") is None
 
 
@@ -266,14 +274,18 @@ def test_primary_age_range() -> None:
         AgeRange(min_age=4.0, max_age=5.0, expected=True),
         AgeRange(min_age=6.0, max_age=7.0, expected=False),
     ]
-    item = _minimal_item(id="casel.x.item", framework="casel", age_ranges=expected_first)
-    assert item.primary_age_range() is not None
-    assert item.primary_age_range().min_age == 4.0
-    assert item.primary_age_range().max_age == 5.0
+    item = _minimal_item(
+        id="casel.x.item", framework="casel", age_ranges=expected_first
+    )
+    primary = item.primary_age_range()
+    assert primary is not None
+    assert primary.min_age == 4.0
+    assert primary.max_age == 5.0
     only_one = [AgeRange(min_age=3.0, max_age=4.0, expected=False)]
     item2 = _minimal_item(id="casel.y.item", framework="casel", age_ranges=only_one)
-    assert item2.primary_age_range() is not None
-    assert item2.primary_age_range().min_age == 3.0
+    primary2 = item2.primary_age_range()
+    assert primary2 is not None
+    assert primary2.min_age == 3.0
 
 
 def test_version_ge_1() -> None:
@@ -343,7 +355,9 @@ def test_id_must_be_dotted_pattern() -> None:
 def test_scoring_type_must_be_known() -> None:
     """ScoringConfig type must be in VALID_SCORING_TYPES (e.g. typo 'ternery' fails)."""
     with pytest.raises(ValueError, match="scoring type must be one of"):
-        ScoringConfig(type="ternery", values=["not_observed", "emerging", "demonstrated"])
+        ScoringConfig(
+            type="ternery", values=["not_observed", "emerging", "demonstrated"]
+        )
 
 
 def test_list_entries_no_blank() -> None:
@@ -361,8 +375,12 @@ def test_list_entries_no_blank() -> None:
             age_ranges=[AgeRange(min_age=4.5, max_age=5.5, expected=True)],
             observable_signals=["valid", "  ", "also valid"],
             evaluation_method=EvaluationMethod(type="llm_rubric", rubric_id="r1"),
-            scoring=ScoringConfig(type="ternary", values=["not_observed", "emerging", "demonstrated"]),
-            display=DisplayConfig(show_in_parent_app=True, priority="medium", badge_icon="icon"),
+            scoring=ScoringConfig(
+                type="ternary", values=["not_observed", "emerging", "demonstrated"]
+            ),
+            display=DisplayConfig(
+                show_in_parent_app=True, priority="medium", badge_icon="icon"
+            ),
             status="active",
             version=1,
         )
@@ -373,13 +391,15 @@ def test_list_entries_no_blank() -> None:
 def test_extra_forbid() -> None:
     """Models reject unknown keys (typos in YAML)."""
     with pytest.raises(ValueError, match="Extra inputs are not permitted"):
-        AgeRange(min_age=4.5, max_age=5.5, expected=True, minn_age=4.0)
+        # intentionally-misspelled kwarg: pydantic extra="forbid" must reject it
+        AgeRange(min_age=4.5, max_age=5.5, expected=True, minn_age=4.0)  # type: ignore[call-arg]
     with pytest.raises(ValueError, match="Extra inputs are not permitted"):
         CapabilityDefinitionPack(
             framework="casel",
             age=5,
             items=[_minimal_item(id="casel.one.item", framework="casel")],
-            framwork="casel",
+            # intentionally-misspelled kwarg: pydantic extra="forbid" must reject it
+            framwork="casel",  # type: ignore[call-arg]
         )
 
 
@@ -397,8 +417,12 @@ def test_string_fields_stripped_and_non_empty() -> None:
             description="D",
             age_ranges=[AgeRange(min_age=4.5, max_age=5.5, expected=True)],
             evaluation_method=EvaluationMethod(type="llm_rubric", rubric_id="r1"),
-            scoring=ScoringConfig(type="ternary", values=["not_observed", "emerging", "demonstrated"]),
-            display=DisplayConfig(show_in_parent_app=True, priority="medium", badge_icon="icon"),
+            scoring=ScoringConfig(
+                type="ternary", values=["not_observed", "emerging", "demonstrated"]
+            ),
+            display=DisplayConfig(
+                show_in_parent_app=True, priority="medium", badge_icon="icon"
+            ),
             status="active",
             version=1,
         )
@@ -505,8 +529,12 @@ def _minimal_item(
         description="D",
         age_ranges=age_ranges,
         evaluation_method=EvaluationMethod(type="llm_rubric", rubric_id="r1"),
-        scoring=ScoringConfig(type="ternary", values=["not_observed", "emerging", "demonstrated"]),
-        display=DisplayConfig(show_in_parent_app=True, priority="medium", badge_icon="icon"),
+        scoring=ScoringConfig(
+            type="ternary", values=["not_observed", "emerging", "demonstrated"]
+        ),
+        display=DisplayConfig(
+            show_in_parent_app=True, priority="medium", badge_icon="icon"
+        ),
         status=status,
         version=version,
     )

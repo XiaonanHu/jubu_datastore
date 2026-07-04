@@ -7,16 +7,16 @@ ensuring proper data security, privacy, and management of fact lifecycle.
 
 import uuid
 from datetime import datetime, timedelta
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional
 
 import sqlalchemy as sa
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.sql import func
 
-from jubu_datastore.logging import get_logger
+from jubu_datastore.base_datastore import BaseDatastore
 from jubu_datastore.common.constants import DEFAULT_FACT_EXPIRATION_DAYS
 from jubu_datastore.common.exceptions import FactsDataError
-from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -26,20 +26,28 @@ class ChildFactModel(BaseDatastore.Base):
 
     __tablename__ = "child_facts"
 
-    id = sa.Column(sa.String(36), primary_key=True)
-    child_id = sa.Column(sa.String(36), nullable=False, index=True)
-    source_turn_id = sa.Column(sa.String(36), nullable=True)
-    content = sa.Column(sa.Text, nullable=False)
-    confidence = sa.Column(sa.Float, nullable=False)
-    timestamp = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    expiration = sa.Column(sa.DateTime, nullable=False, index=True)
-    verified = sa.Column(sa.Boolean, nullable=False, default=False)
-    active = sa.Column(sa.Boolean, nullable=False, default=True, index=True)
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
+    id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), nullable=False, index=True)
+    source_turn_id: Mapped[Optional[str]] = mapped_column(sa.String(36), nullable=True)
+    content: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    confidence: Mapped[float] = mapped_column(sa.Float, nullable=False)
+    timestamp: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    expiration: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, index=True
+    )
+    verified: Mapped[bool] = mapped_column(sa.Boolean, nullable=False, default=False)
+    active: Mapped[bool] = mapped_column(
+        sa.Boolean, nullable=False, default=True, index=True
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
 
     __table_args__ = (
-        sa.Index("idx_child_active_expiration", child_id, active, expiration),
-        sa.Index("idx_expiration", expiration),
+        sa.Index("idx_child_active_expiration", "child_id", "active", "expiration"),
+        sa.Index("idx_expiration", "expiration"),
     )
 
 
@@ -175,13 +183,20 @@ class FactsDatastore(BaseDatastore):
                     session.query(ChildFactModel)
                     .filter(
                         ChildFactModel.child_id == child_id,
-                        ChildFactModel.active == True,
+                        ChildFactModel.active.is_(True),
                         ChildFactModel.expiration > datetime.utcnow(),
                     )
                     .all()
                 )
                 for f in facts:
-                    _ = f.content, f.confidence, f.expiration, f.timestamp, f.source_turn_id, f.verified
+                    _ = (
+                        f.content,
+                        f.confidence,
+                        f.expiration,
+                        f.timestamp,
+                        f.source_turn_id,
+                        f.verified,
+                    )
                 return facts
         except Exception as e:
             logger.error(f"Failed to get active facts for child {child_id}: {e}")
@@ -209,10 +224,14 @@ class FactsDatastore(BaseDatastore):
                         "content": f.content,
                         "confidence": f.confidence,
                         "timestamp": f.timestamp.isoformat() if f.timestamp else None,
-                        "expiration": f.expiration.isoformat() if f.expiration else None,
+                        "expiration": f.expiration.isoformat()
+                        if f.expiration
+                        else None,
                         "verified": f.verified,
                         "active": f.active,
-                        "created_at": f.created_at.isoformat() if f.created_at else None,
+                        "created_at": f.created_at.isoformat()
+                        if f.created_at
+                        else None,
                     }
                     for f in facts
                 ]
@@ -246,10 +265,10 @@ class FactsDatastore(BaseDatastore):
                 )
 
                 if active_only:
-                    query = query.filter(ChildFactModel.active == True)
+                    query = query.filter(ChildFactModel.active.is_(True))
 
                 if verified_only:
-                    query = query.filter(ChildFactModel.verified == True)
+                    query = query.filter(ChildFactModel.verified.is_(True))
 
                 if min_confidence is not None:
                     query = query.filter(ChildFactModel.confidence >= min_confidence)
@@ -329,7 +348,7 @@ class FactsDatastore(BaseDatastore):
                     session.query(ChildFactModel)
                     .filter(
                         ChildFactModel.expiration < current_time,
-                        ChildFactModel.active == True,
+                        ChildFactModel.active.is_(True),
                     )
                     .all()
                 )
@@ -366,7 +385,9 @@ class FactsDatastore(BaseDatastore):
                     .delete(synchronize_session=False)
                 )
                 session.commit()
-            logger.info(f"Hard-deleted {count} facts expired more than {grace_days} days ago")
+            logger.info(
+                f"Hard-deleted {count} facts expired more than {grace_days} days ago"
+            )
             return count
         except Exception as e:
             logger.error(f"Error hard-deleting expired facts: {e}")
@@ -381,7 +402,7 @@ class FactsDatastore(BaseDatastore):
                     session.query(ChildFactModel)
                     .filter(
                         ChildFactModel.expiration <= expiration_date,
-                        ChildFactModel.active == True,
+                        ChildFactModel.active.is_(True),
                     )
                     .order_by(ChildFactModel.expiration)
                     .all()
@@ -449,8 +470,8 @@ class FactsDatastore(BaseDatastore):
                     query = query.filter(ChildFactModel.child_id == child_id)
 
                 total_count = query.count()
-                active_count = query.filter(ChildFactModel.active == True).count()
-                verified_count = query.filter(ChildFactModel.verified == True).count()
+                active_count = query.filter(ChildFactModel.active.is_(True)).count()
+                verified_count = query.filter(ChildFactModel.verified.is_(True)).count()
 
                 avg_confidence = (
                     session.query(func.avg(ChildFactModel.confidence)).scalar() or 0
@@ -459,7 +480,7 @@ class FactsDatastore(BaseDatastore):
                 expiring_soon = query.filter(
                     ChildFactModel.expiration <= datetime.utcnow() + timedelta(days=7),
                     ChildFactModel.expiration > datetime.utcnow(),
-                    ChildFactModel.active == True,
+                    ChildFactModel.active.is_(True),
                 ).count()
 
                 return {

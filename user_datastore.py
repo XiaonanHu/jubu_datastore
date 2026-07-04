@@ -4,15 +4,18 @@ Datastore for user data (parent accounts).
 
 import uuid
 from datetime import datetime
-from typing import Any, Callable, Dict, List, Optional, TypeVar
+from typing import TYPE_CHECKING, Any, Callable, Dict, List, Optional, TypeVar
 
 import sqlalchemy as sa
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from jubu_datastore.logging import get_logger
-from jubu_datastore.common.exceptions import UserDataError
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.common.exceptions import UserDataError
 from jubu_datastore.dto.entities import User
+from jubu_datastore.logging import get_logger
+
+if TYPE_CHECKING:
+    from jubu_datastore.profile_datastore import ChildProfileModel
 
 logger = get_logger(__name__)
 
@@ -24,19 +27,27 @@ class UserModel(BaseDatastore.Base):
 
     __tablename__ = "users"
 
-    id = sa.Column(sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
-    email = sa.Column(sa.String(255), unique=True, nullable=False, index=True)
-    full_name = sa.Column(sa.String(255), nullable=True)
-    hashed_password = sa.Column(sa.String(255), nullable=False)
-    is_active = sa.Column(sa.Boolean, default=True, nullable=False)
-    created_at = sa.Column(sa.DateTime, default=datetime.utcnow, nullable=False)
-    updated_at = sa.Column(
+    id: Mapped[str] = mapped_column(
+        sa.String(36), primary_key=True, default=lambda: str(uuid.uuid4())
+    )
+    email: Mapped[str] = mapped_column(
+        sa.String(255), unique=True, nullable=False, index=True
+    )
+    full_name: Mapped[Optional[str]] = mapped_column(sa.String(255), nullable=True)
+    hashed_password: Mapped[str] = mapped_column(sa.String(255), nullable=False)
+    is_active: Mapped[bool] = mapped_column(sa.Boolean, default=True, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, default=datetime.utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
         sa.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False
     )
 
-    __table_args__ = (sa.Index("idx_email_active", email, is_active),)
+    __table_args__ = (sa.Index("idx_email_active", "email", "is_active"),)
 
-    child_profiles = relationship("ChildProfileModel", back_populates="parent")
+    child_profiles: Mapped[list["ChildProfileModel"]] = relationship(
+        "ChildProfileModel", back_populates="parent"
+    )
 
 
 class UserDatastore(BaseDatastore):
@@ -124,15 +135,15 @@ class UserDatastore(BaseDatastore):
         session.add(user)
         return User(
             id=user_id,
-            email=user_data.get("email"),
-            full_name=user_data.get("full_name"),
+            email=user.email,
+            full_name=user.full_name,
             is_active=True,
             created_at=user.created_at,
             updated_at=None,
-            hashed_password=user_data.get("hashed_password"),
+            hashed_password=user.hashed_password,
         )
 
-    def get_by_email(self, email: str) -> Optional[User]:
+    def get_by_email(self, email: Optional[str]) -> Optional[User]:
         """
         Get a user by email.
 

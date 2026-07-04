@@ -14,10 +14,11 @@ from datetime import datetime
 from typing import Any, Dict, Optional
 
 import sqlalchemy as sa
+from sqlalchemy.orm import Mapped, mapped_column
 
-from jubu_datastore.logging import get_logger
-from jubu_datastore.common.exceptions import DatastoreError
 from jubu_datastore.base_datastore import BaseDatastore
+from jubu_datastore.common.exceptions import DatastoreError
+from jubu_datastore.logging import get_logger
 
 logger = get_logger(__name__)
 
@@ -27,18 +28,22 @@ class InferredTraitsModel(BaseDatastore.Base):
 
     __tablename__ = "inferred_traits"
 
-    child_id = sa.Column(sa.String(36), primary_key=True)
+    child_id: Mapped[str] = mapped_column(sa.String(36), primary_key=True)
 
     # {kind: "deepener" | "widener" | "balanced"} — how the child tends to explore
     # each topic kind. Derived from the observed_interests ledger by
     # curiosity_mode_policy. Lifetime learned · owner system · writer end-of-session
     # consolidation · reader session_seed fan-out bias · visibility hidden.
-    curiosity_mode_by_kind = sa.Column(sa.JSON, nullable=False, default=dict)
+    curiosity_mode_by_kind: Mapped[dict[str, str]] = mapped_column(
+        sa.JSON, nullable=False, default=dict
+    )
 
     # Voice style codename that lands best for this child — the derived argmax of
     # `voice_style_scores` (ENG-347 Phase 3d). visibility hidden — NEVER parent-facing.
-    preferred_style = sa.Column(sa.String(64), nullable=True)
-    preferred_style_confidence = sa.Column(sa.Float, nullable=True)
+    preferred_style: Mapped[Optional[str]] = mapped_column(sa.String(64), nullable=True)
+    preferred_style_confidence: Mapped[Optional[float]] = mapped_column(
+        sa.Float, nullable=True
+    )
 
     # Learned voice-style bandit state, relocated out of the parent-declared
     # `child_profiles.preferences` blob (ENG-347 Phase 3d) into its rightful
@@ -47,13 +52,17 @@ class InferredTraitsModel(BaseDatastore.Base):
     # end-of-session `update_voice_style_score` · reader `select_style_for_session` ·
     # visibility hidden. (The parent OVERRIDE `voice_style` stays in preferences —
     # that is parent-declared, not learned.)
-    voice_style_scores = sa.Column(sa.JSON, nullable=False, default=dict)
+    voice_style_scores: Mapped[dict[str, Any]] = mapped_column(
+        sa.JSON, nullable=False, default=dict
+    )
 
     # How many sessions have contributed to these traits.
-    evidence_count = sa.Column(sa.Integer, nullable=False, default=0)
+    evidence_count: Mapped[int] = mapped_column(sa.Integer, nullable=False, default=0)
 
-    created_at = sa.Column(sa.DateTime, nullable=False, default=datetime.utcnow)
-    updated_at = sa.Column(
+    created_at: Mapped[datetime] = mapped_column(
+        sa.DateTime, nullable=False, default=datetime.utcnow
+    )
+    updated_at: Mapped[datetime] = mapped_column(
         sa.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow
     )
 
@@ -148,9 +157,7 @@ class InferredTraitsDatastore(BaseDatastore):
             logger.error(f"Error upserting inferred traits for child {child_id}: {e}")
             raise DatastoreError(f"Failed to upsert inferred traits: {str(e)}")
 
-    def get_inferred_traits_for_child(
-        self, child_id: str
-    ) -> Optional[Dict[str, Any]]:
+    def get_inferred_traits_for_child(self, child_id: str) -> Optional[Dict[str, Any]]:
         """Return a child's inferred-traits row as a dict, or None if not yet learned."""
         try:
             with self.session_scope() as session:
