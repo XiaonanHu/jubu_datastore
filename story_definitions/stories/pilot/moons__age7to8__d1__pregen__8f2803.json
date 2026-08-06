@@ -1,0 +1,336 @@
+{
+  "id": "story.moons.age7to8.d1.pregen.8f2803",
+  "title": "The Great Moon Mix-Up",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.moons",
+    "sel_theme": null,
+    "value_lesson": "Curiosity and asking questions lead to discovery",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A storyteller shares a memory of helping a curious child astronaut solve the mystery of why moons orbit in circles and why some are icy while others have volcanoes.",
+  "slots": {
+    "child_name": {
+      "role": "The name of the child astronaut in the story",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember a time when I visited a space station that was orbiting a giant planet. It was a busy place, full of humming machines and flashing lights. A young astronaut named {child_name} was there too, peering through a big telescope at the planet's many moons. There were icy moons, and even one with a grumbling volcano! {child_name} watched them for a long, long time. The station hummed. The lights blinked. {child_name} did not move. The moons were all moving, but they weren't just flying off into space. They were traveling in perfect circles, around and around the giant planet. It was like they were all tied to the planet with invisible strings. {child_name} scratched their head. \"Why do moons travel in circles around planets?\" they asked out loud. Just then, a voice boomed from behind them. \"Aha! A question! A most excellent question!\" It was Zorp, the alien scientist, and he was holding a very strange-looking contraption.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Behold!\" boomed Zorp, and he flicked a switch. The contraption whirred to life. It was a small ball on a string, and it began to swing in a circle, around and around. \"See?\" said Zorp. \"The string pulls the ball. It keeps it from flying away. Gravity is like that string!\" {child_name} watched, their eyes wide. The ball zipped in a perfect circle. \"So the planet's gravity is the string, and the moon is the ball?\" {child_name} asked. \"Precisely!\" Zorp cheered. But then he leaned in closer, his eyes twinkling. \"But not all strings are the same. Follow me!\" He led {child_name} to a different window. He pointed to a tiny, lumpy moon, no bigger than a mountain, tumbling slowly. \"That one,\" Zorp whispered, \"is a visitor. It was flying by, and the planet's gravity grabbed it! It was captured!\" {child_name} gasped. The little moon wasn't smooth and round like the others. It was a rocky, tumbling potato of a moon. So, gravity was a string, but some moons were caught by it later? The mystery was getting bigger.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"A model is good,\" Zorp declared, \"but a field trip is better!\" He grabbed {child_name}'s hand, and they zoomed off in a bubble-ship. Whoosh! Their first stop was a moon that glittered like a giant ice cube. \"An icy moon!\" Zorp announced. \"Brrr!\" said {child_name}, and they weren't wrong. The whole world was sparkling, frozen white. Suddenly, the ground rumbled. Rumble. Rumble. Then, WHOOSH! A crack opened up and a giant geyser shot a fountain of water straight up into space! It sparkled like a million diamonds. \"Amazing!\" {child_name} shouted. But Zorp pointed. \"Look there!\" Another moon was drifting by, and this one was not icy at all. It was covered in dark rock, and a red-hot volcano was grumbling on its side. Ploom! It puffed out a cloud of smoke and glowing lava. {child_name}'s jaw dropped. One moon was a giant ice cube with a water-sprayer, and the other was a fiery rock with a volcano. How could they both be moons? The mystery was getting bigger.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Zorp's eyes went wide as dinner plates. \"Show me! Show me what you found!\" he cried, nearly dropping his contraption. {child_name} held it out, and Zorp bounced on his toes. \"Yes! YES! Now we can solve the whole moon mix-up!\" He grabbed a rubber ball tied to a string from his pocket. \"Watch closely, {child_name}!\" Zorp swung the ball around his head. Round and round it went. \"The string pulls the ball in, just like gravity pulls a moon! The moon wants to fly away, but gravity says, 'No, no, stay with me!' So the moon goes around and around. That is an orbit!\" {child_name} laughed. \"So the planet is like... holding strings on all its moons?\" \"Exactly!\" Zorp cheered. \"And each moon is different! Some are icy cold, some have rumbling volcanoes, all because of how they were made long ago. But they all dance the same circle dance!\" {child_name} looked out at the moons again. They weren't just floating anymore. They were a family, swinging around their planet like balls on invisible strings. \"We did it,\" {child_name} whispered. \"We solved it.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The icy moon!\" cried {child_name}. \"Let's go!\" Zorp zipped them down in his wobbly shuttle. \"Now, {child_name}, the ice is strong here, but we stay on the marked path,\" Zorp said, patting a rope tied to a flag. \"Safety first!\" They stepped out onto the frozen ground. It sparkled like a million tiny stars. Crunch. Crunch. Their boots made the only sound. Above them, the black sky stretched forever, and the giant planet hung overhead like a lantern. Suddenly, the ground rumbled. Rumble. Rumble. \"Look!\" Zorp pointed. A geyser burst from the ice, shooting glittering water high into the black sky. It sparkled like fireworks made of diamonds. \"It's beautiful,\" {child_name} breathed. When it was time to go, Zorp chipped off a small piece of ice. It glowed in {child_name}'s glove. \"For you,\" Zorp said with a grin. \"A piece of the moon to take home.\" And so, {child_name} brought home a piece of sparkling ice, and it glowed softly in their glove all the way back.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The volcanic moon!\" shouted {child_name}. \"I want to see the lava!\" Zorp whooped and steered them toward the moon with the grumbling volcano. He parked the shuttle behind a big, warm rock. \"We stay here, {child_name},\" Zorp said wisely. \"The rock keeps us safe from sparks.\" They climbed up and peeked over the top. The volcano rumbled. Grumble. Grumble. Then—whoosh! Bright orange lava bubbled up and flowed down the side like thick, glowing soup. It cooled and hardened right before their eyes. They watched the glow fade to dark rock. \"It's making new land!\" {child_name} gasped. \"The moon is growing!\" Zorp nodded, his eyes twinkling. Later, Zorp picked up a small, dark rock from the cooled lava. \"Fresh from the moon,\" he said, placing it in {child_name}'s hand. It was still warm. And so, {child_name} brought home a small rock from the new land, and it stayed warm in their pocket all the way back.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Robo-Guide says, 'Should we start with a model to see how gravity works, or zoom to a moon to see the differences up close?'",
+      "options": [
+        {
+          "say_word": "Model",
+          "label": "Start with a gravity model",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Zoom",
+          "label": "Zoom to a moon to see differences",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Zorp exclaims, 'Now that we know the secret, shall we visit the icy moon with its sparkling geysers, or the volcanic moon with its fiery eruptions?'",
+      "options": [
+        {
+          "say_word": "Icy",
+          "label": "Visit the icy moon",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Volcano",
+          "label": "Visit the volcanic moon",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.moons",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 8
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's material—why moons orbit, why some are icy and others volcanic—naturally unfolds as a gentle question with accumulating clues (gravity, ice, inner heat), which suits an 8-year-old's curiosity better than a contrived problem or a plotless mood piece.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Night the Telescope Opened)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Zorp, the alien scientist, whose wild experiments and enthusiastic exclamations bring the big adventure tone.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Curiosity and asking questions lead to discovery",
+      "why": "The mystery pattern naturally rewards Pip's questions with satisfying answers, showing how exploration uncovers the universe's wonders."
+    },
+    "cast": [
+      {
+        "role": "Storyteller",
+        "reused": false,
+        "why": "Frames the tale as a personal memory, using 'I' to guide the child listener."
+      },
+      {
+        "role": "Pip, the curious child astronaut",
+        "reused": false,
+        "why": "Asks the opening question and drives the exploration with wonder."
+      },
+      {
+        "role": "Robo-Guide",
+        "reused": false,
+        "why": "Explains gravity and orbits with simple models, providing clues."
+      },
+      {
+        "role": "Zorp, the alien scientist",
+        "reused": false,
+        "why": "Carries the big adventure accent with dramatic demonstrations of icy and volcanic moons."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Moons travel in circles around planets because gravity pulls them in, like a ball on a string swinging around your hand.",
+        "Some moons are icy, with surfaces covered in frozen water that sparkles in the sunlight.",
+        "Other moons have volcanoes that shoot out hot lava or even icy slush instead of rock.",
+        "Tiny moons can be captured by a planet's gravity, like a space rock that got too close and started orbiting.",
+        "Moons often come in families, with big moons and small moons all orbiting the same planet together.",
+        "The child sees a geyser on an icy moon, shooting water into space"
+      ],
+      "gathered_but_unused": [
+        "Icy moons might hide oceans of liquid water under their frozen surfaces.",
+        "Volcanoes on moons can create new land, just like they do on Earth.",
+        "The gravity of a planet keeps its moons from flying away into space."
+      ]
+    },
+    "safety_beat": "In s4a and s4b, a character lightly shows competence by pointing out safe spots to stand on the moon surfaces, with no tension.",
+    "motif": "A ball on a string swinging in a circle, which becomes the key to understanding gravity and orbits.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story has a strong engine and a charming alien, but it rushes past the very wonders it introduces, leaving the child no time to feel the size and strangeness of the moons before the next fact arrives.",
+          "editor_notes": [
+            "In s2b, the geyser 'shot a fountain of water straight up into space! It sparkled like a million diamonds. \"Amazing!\"' — the moment is over in three sentences. Let the water hang. Let {child_name} hold their breath. Give the silence after the whoosh its own beat before Zorp points at the next moon.",
+            "The volcanic moon in s2b gets even less: 'Ploom! It puffed out a cloud of smoke' and then the narration immediately pivots to the science question. Let the lava glow for a sentence or two without commentary — dark sky, red light on {child_name}'s face — so the child can sit inside the sight.",
+            "s4a has the best still moment in the draft — 'Crunch. Crunch. Their boots made the only sound.' — but it is immediately broken by the rumble. Let one more quiet sentence live there (the black sky, the big planet hanging overhead) before the geyser interrupts; the interruption will land harder.",
+            "In s4a, 'It sparkled like fireworks made of diamonds. \"It's beautiful,\" {child_name} breathed.' — good instinct, but let the breathing be the end of the beat. Cut or delay Zorp's next action so the beauty is witnessed, not immediately converted into a souvenir.",
+            "s4b's 'It cooled and hardened right before their eyes. \"It's making new land!\"' — the science lands, but give one sentence of just watching the glow fade to dark rock before anyone speaks. The wonder should be allowed to finish before the explanation begins.",
+            "The closing lines of both s4a and s4b ('a reminder that curiosity always leads to amazing discoveries' / 'a reminder that even tiny moons have their own stories') tell the child what to feel. Replace with one quiet image — the ice glowing in the glove, the warm rock in a pocket — and let the glow, not the moral, be the last thing heard."
+          ],
+          "segments_revised": 5,
+          "segments_rejected": 1
+        },
+        {
+          "round": 2,
+          "verdict": "stopped",
+          "why": "editor chose 'still_and_luminous', which is already applied"
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "wide-eyed, then quickly lectured",
+        "s2a": "pleased by the trick, then hurried along",
+        "s2b": "flashes of wow, immediately left behind",
+        "s3": "satisfied click of an answer",
+        "s4a": "a held breath under the lantern, then a soft glow",
+        "s4b": "warm and watchful, then a warm pocket"
+      },
+      "segments_revised": 5,
+      "segments_rejected": 1
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] narration heavy: only 29% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.0); [s2b] narration heavy: only 32% of sentences carry speech or action; [s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [c1] narrator asks the choice: no spoken line; a character should pose the question; [c2] narrator asks the choice: no spoken line; a character should pose the question; [story] slots: declared but never used: ['moon_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 36% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] narration heavy: only 32% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polished (148 -> 158 words)",
+      "round 1: [s2a] polished (179 -> 179 words)",
+      "round 1: [s2b] polish rejected: grew 125% of the original, over the 115% limit",
+      "round 1: [s3] polished (183 -> 183 words)",
+      "round 1: [s4a] polished (149 -> 167 words)",
+      "round 1: [s4b] polished (146 -> 155 words)",
+      "[s1] narration heavy: only 29% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] narration heavy: only 32% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[c1] narrator asks the choice: no spoken line; a character should pose the question",
+      "[c2] narrator asks the choice: no spoken line; a character should pose the question",
+      "[story] slots: declared but never used: ['moon_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "09_moons_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

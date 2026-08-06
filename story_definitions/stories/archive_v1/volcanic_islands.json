@@ -1,0 +1,313 @@
+{
+  "id": "story.volcanic_islands.quiet_hour_001",
+  "title": "Old Marta and the Island That Was Not There",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.volcanic_islands",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "An old fisherwoman remembers the dusk she sat alone on a brand-new island and saw its first green shoot and its first bird.",
+  "slots": {
+    "island_name": {
+      "role": "the young island with no name yet",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pebble"
+    },
+    "companion_name": {
+      "role": "the lava-lizard guide",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Ember"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Old Marta sat outside her door with a fishing net across her knees, mending it slowly in the last of the light. The sea was flat and pink. She looked far out at a green hump of an island and made a small sound, half a laugh. \"That one there,\" she said. \"That island was not there when I was a girl. Truly. Sit, and I will tell you. One summer the sea out that way began to steam. The boats went around it. All autumn the water hissed and rumbled and threw up black stones. And then one morning there was land. A little black hill sitting in the sea, warm and bare and brand new. When the steaming stopped, I rowed out to look. My boat touched sand as black as a cooking pot. I stepped out onto it. No grass. No trees. Not one footprint anywhere, because nobody had ever walked there before me. So I gave it a name. I called it {island_name}. And on a warm rock near the water sat a small orange lizard in a hat of grey ash, watching me as if it had been waiting all along.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"I walked the edge of the water with my shoes in my hand,\" said Marta. \"The sand was black. Every grain of it was a crumb of the island itself, ground up small by the waves. Down by the water it was cool and firm. Higher up, where the sun had been all day, it was warm as a bed. It squeaked under my feet. That squeak was the only sound on the whole island besides the sea. Thin threads of steam rose here and there, thin as hairs, and disappeared. I found a curl of driftwood, silver and smooth. I found a long rope of brown seaweed. And then I found something that made me sit straight down in the sand. A seed. A hard round seed, brown as a nut, rolled up on the beach with the seaweed. It had floated there from somewhere far away, and I never did learn where. I tucked it into a warm dip in the sand and patted it in. {companion_name} the lizard patted it too, with the tip of a tail, very seriously, as if the two of us were planting a whole garden.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"I climbed,\" said Marta. \"It was not much of a hill. Twenty steps and I stood on top of the whole island. {companion_name} the lizard rode on my shoulder and held my ear like a handle. From up there I could see everything at once. One little black island, round as a loaf of bread, with the sea all the way around it. No paths. No harbor. No smoke from any chimney, because there was no chimney. Only black rock, warm through my bare feet, and one small pool where the rain had gathered. Far off, low and blue, I could see my own island, the one with my mother in it. It looked very far away that evening. The sun went down behind it. The sea turned copper, then rose, then grey. The wind came over the top of the hill and I could hear the wind itself, because there was nothing up there for it to rustle. Not one leaf. Not one blade of grass. I have never in all my years heard a place so quiet. I sat down on the warm stone and let it hold me.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"I came back down to the beach as the light went,\" said Marta. \"I sat with my back against a rock that was still warm from the day, the way a stone wall stays warm long after the sun has gone. {companion_name} curled up beside my knee and shut both eyes. The sky went peach, then plum, then nearly dark. One star came out over the water. I was tired and happy and I was not thinking about anything much at all. And because I was so still, I saw two things at once. The first was right by my foot. In a crack in the black rock, where a little ash and a little rainwater had gathered, there was a thread of green. A shoot. A stem no taller than my finger, with two small leaves on it. The first green thing on the whole island. The second was far out over the water. A white speck, coming closer. A seabird, flying straight toward my little island. The first bird I had seen all day. It was almost dark. I could lean down to one, or hold still for the other.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I got down on my elbows in the black sand,\" said Marta. \"Close enough to see it properly. Two leaves, no bigger than my thumbnail, holding themselves up out of a crack. A seed had come from somewhere, on the wind or on the water, the way my seed came rolling up the beach. It had found one crack with a spoonful of ash in it and one sip of rainwater, and it had decided that was quite enough. The wind came over the hill and the little thing shivered. So I put my two hands around it, like this, to keep the wind off. I stayed that way a long while. Then I built it a wall of black pebbles, a ring the height of my finger, and {companion_name} patted the ash down flat all around it.\" Marta laid her mending in her lap. \"I have been back many times since. That island is green all over now. Bushes, grass, birds shouting in the morning. Somewhere in the middle of all that green are the great grandchildren of my little shoot. And I still keep one black pebble in my coat pocket. Here. Feel how smooth.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"I did not move,\" said Marta. \"Not one finger. I sat as still as the rock behind me and watched it come. The bird circled the island twice, slow and low, looking the whole place over the way you look at a room you have never been in before. Then it put its feet down on the warm stone, folded its wings, and simply stood there. White chest. Yellow beak. Perfectly at home. It looked at me. It looked at {companion_name}. It decided we were nothing to worry about. Then it made one small call, once, out over the dark water. That was the first voice that island ever heard.\" Marta smiled down at the net in her lap. \"It stayed the night. In the morning it was gone. But it came back the next year, and it brought others. Birds carry seeds caught in their feathers and drop them wherever they land. So the green came to that island a little at a time, and the birds brought most of it. Every island you can see out there began exactly the same way. Quiet and bare, and then a visitor.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Young Marta stood alone on the brand-new black sand. What should she do first? Say sand, or say hill.",
+      "options": [
+        {
+          "say_word": "sand",
+          "label": "Walk the black sand along the water's edge",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "hill",
+          "label": "Climb the little hill to see the whole island",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "It was almost dark, and Marta saw two things at once. Should she lean down to the little green shoot, or hold still and let the seabird land? Say shoot, or say bird.",
+      "options": [
+        {
+          "say_word": "shoot",
+          "label": "Lean down to the first green shoot",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "bird",
+          "label": "Hold still and let the seabird land",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.volcanic_islands",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "A young island is a place where almost nothing has happened yet, and the true wonder of it is the smallness of the first events — one shoot, one bird — which is exactly the movement a quiet hour is built to hold.",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.29,
+          "sampled": true,
+          "rejected_because": "the heaviest weight in the draw, and still wrong: the only problems available on a bare new island are being stranded or the sea taking it back, both on the avoid list"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "halved by the shelf nudge because the parent volcanoes story is a journey, and a tour of an island with nothing on it yet has nothing to tour"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": "halved because the sibling geysers story on this family's shelf is already a mystery"
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "the island itself, and the two small first arrivals on it — the shoot in the crack and the bird out of the dark. All the wonder lives there. Marta's voice, the net on her knees and the warm rock at her back stay cozy from first line to last.",
+      "why": "The story is a memory told at dusk to a child who may be falling asleep, so warmth has to own the opening and the landing. Wonder is what the memory is about, not what it sounds like, so it belongs to the island and not to the teller.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "with wonder in charge the story tips into a marvel tour of how islands are made, and the bedtime landing goes with it"
+        },
+        {
+          "recipe": "cozy dominant with a silly accent",
+          "because": "one joke would break the Naoko Awa register this story is written in; the quiet is the whole point and a gag punctures it"
+        },
+        {
+          "recipe": "big_adventure dominant",
+          "because": "the eruption that built the island is over before the story starts, deliberately — the drama is the wrong end of this topic for a five-year-old at bedtime"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "An island is only startling if you knew the sea before it was there, and only one kind of voice can say that: someone old enough to remember the water being empty. The frame also lets the last segment jump forward decades and show the island green, which no present-tense telling could reach.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "'we' pushes forward and wants the next thing; a quiet hour needs a voice that lingers and is happy to describe a squeaking beach for a whole segment"
+        },
+        {
+          "teller": "named_hero",
+          "because": "no protective distance is needed — nothing here is frightening — and a hero the child names would invite a plot the pattern does not want"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "Policy 3e needs all three conditions and only one is near. The materials do carry a patience angle, since an island takes decades to turn green, but it works as an image and dies as a lesson: saying it out loud would turn a quiet hour into a sermon. No parent value pick exists on a library story, so the story carries no value."
+    },
+    "cast": [
+      {
+        "role": "the lava-lizard guide",
+        "reused": true,
+        "reused_from": "story.volcanoes.journey_001",
+        "slot": "companion_name",
+        "why": "recurring character of this topic family; the child's name for it propagates. It arrives with no explanation, which is right for this register, and a child who met it inside the mountain gets the quiet pleasure of finding it again on the new island. Here it is silent and warm rather than comic, which the pattern requires — the same friend in a different room."
+      },
+      {
+        "role": "the young island",
+        "reused": false,
+        "reused_from": null,
+        "slot": "island_name",
+        "why": "a place, not a person, but naming it is what turns bare rock into somewhere the child cares about. Marta names it in s1 because a child would; the name is a naming slot so it comes back in any later story about this island."
+      },
+      {
+        "role": "Old Marta, the fisherwoman who remembers",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "new, and deliberately not a slot. The storyteller is the frame around the story rather than a character inside it, and the child is meant to be listening to her, not adopting her. Her fixed name keeps the frame steady while the two things inside it stay nameable."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: an undersea volcano can pile up cooled lava until the top breaks the surface and becomes new land",
+        "wonder-fact: black sand is lava rock ground fine by the waves",
+        "wonder-fact: the first plants on a new island grow from seeds that arrive by water, wind, or bird",
+        "wonder-fact: seabirds carry seeds in their feathers and are among the first arrivals",
+        "sensory picture: warm sand higher up the beach, cool and firm at the water's edge, squeaking underfoot",
+        "sensory picture: rock still warm at dusk, the way a wall stays warm after the sun goes",
+        "sound picture: wind with nothing to rustle, so you hear only the wind",
+        "setting: dusk on a bare island, the home island a low blue line on the horizon"
+      ],
+      "gathered_but_unused": [
+        "hot spots and island chains, one island after another as the seafloor slides along — a nine-year-old's system-level idea and far too big for this hour",
+        "Surtsey, the real island that rose off Iceland in the 1960s, and the scientists who counted its first arrivals — a lovely later story, but naming the real place turns the memory into a lecture",
+        "islands with animals found nowhere else on earth — belongs to the islands topic, not to a young island with nothing on it yet",
+        "the eruption itself, with the sea steaming and boiling — deliberately kept off-stage in a single sentence of s1, because it happens before the quiet hour begins",
+        "a fishing crew rowing out together — company would have filled the silence the story is made of"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "As soon as Marta steps onto the empty island, at the moment the child most wants to look around. Both options are ways of meeting an empty place, and neither carries plot, so s3 can begin simply with her coming back down to the beach at dusk.",
+        "criteria": {
+          "more_interesting": "the beach path is close-up and full of small found things; the hill path is wide and empty and is really about how small and new the island is",
+          "more_engaging": "beachcombing and climbing to see everything at once are the two things any five-year-old wants to do at a new place",
+          "reveals_taste": "wandering the sand with your shoes in your hand is gentle; going straight up to the top is bold",
+          "reveals_curiosity": "sand is just-experience, the feel and squeak of the place; hill is how-it-works, wanting to see the shape of the whole island and where it sits in the sea",
+          "reflects_mood": "the beach is pottering and companionable; the hilltop is solitary and a little awed, which suits a different kind of evening"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "At the only real moment of the quiet hour, when the island's first two events happen together and Marta cannot watch both. The choice is which small first thing the story ends on, so both endings are the same warmth arriving by different doors.",
+        "criteria": {
+          "more_interesting": "one ending is two leaves the size of a thumbnail and a wall of pebbles; the other is a whole bird out of the dark and the first sound the island ever heard",
+          "more_engaging": "sheltering something tiny with your hands and holding perfectly still so a wild bird will land are both deeply tempting to a child, and they pull in opposite directions",
+          "reveals_taste": "cupping the shoot is gentle and tending; waiting motionless for the bird is bold and patient",
+          "reveals_curiosity": "shoot is how-it-works, following the seed to its crack of ash and sip of rainwater; bird is just-experience, simply being there when it lands",
+          "reflects_mood": "the shoot ending is close and busy with the hands; the bird ending asks the child to be completely still, which is the better landing on a wound-down night"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Quiet-hour beats all present: an atmosphere established before anything happens, one small strange encounter (the lizard already waiting on the warm rock), and one image left glowing at the end. Checked hardest for what must be absent — no problem, no villain, no peril, nothing lost or broken anywhere in the braid. Avoid-list sweep clean: no wreck, no stranding, no island sinking, and the eruption is over before the story opens. Both slots are set before s1 and both are used; island_name appears in s1 and companion_name in every segment. Say-words sand and hill, shoot and bird are short, concrete and unlike each other in sound."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "Word counts run 191 to 197 per segment, inside the 150 to 200 band; 770 words on the shortest path and 778 on the longest. Sentences are short and read aloud easily even inside quotation marks; no ellipses, asterisks, parentheses or emojis. The s2a and s2b pair was written together and genuinely contrasts — s2a is low, close and full of objects, s2b is high, wide and empty. Vocabulary sits inside the age-5 treatment: island, black sand, new land, plus everyday words. Two similes per segment was the working cap, since the register goes soft if they pile up."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read end to end aloud. The rejoin is seamless because s3 opens with Marta coming back down to the beach, which is true from the hilltop and true from the far end of the sand. Cozy owns both landings and the wonder stays with the island rather than leaking into Marta's voice. The lizard stays silent throughout, so it never drags the comic register of the volcanoes story into this one. Both endings resolve fully and warmly, one with a pebble held out to the listener, one with the island green and full of birds."
+      }
+    ],
+    "writers_notes": [
+      "First outline had the island still steaming while Marta walked on it, which quietly made the place dangerous. Moved the steaming to the previous autumn; only hair-thin threads of steam remain, and they are scenery.",
+      "Warning carried forward from s1 and honoured everywhere after: keep every sentence in Marta's mouth. Two lines of neutral narration crept into s3 in the first draft and were pulled back inside the quotation marks.",
+      "The lizard almost got a joke in s2a. Cut. The accent in this story is wonder, not silliness, and the lizard's job here is to be quiet company. This is a deliberate departure from how the same character behaves in the volcanoes story, and it is the reason the reuse works instead of feeling copied.",
+      "'I have never in all my years heard a place so quiet' is the one line where the teller steps forward. Kept it to exactly one.",
+      "s4a ends with the island green decades later, s4b ends with why islands go green at all. Checked that neither ending needs the other: a child hearing only one still learns that life arrives on a new island from somewhere else.",
+      "Resisted naming the real island this is modelled on. A real name invites a fact-check and drops the register.",
+      "The word volcano never appears. The child hears where the island came from without the story stopping to say the word, and the parent-facing topic label carries it instead."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

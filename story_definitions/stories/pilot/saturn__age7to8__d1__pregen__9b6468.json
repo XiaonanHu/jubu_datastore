@@ -1,0 +1,340 @@
+{
+  "id": "story.saturn.age7to8.d1.pregen.9b6468",
+  "title": "The Great Ring Ice Machine",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.saturn",
+    "sel_theme": null,
+    "value_lesson": "Learning from mistakes",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "A child inventor and their grandparent build a spinning model of Saturn's rings, learning step by step that the rings are countless pieces of ice traveling side by side, not one solid band.",
+  "slots": {
+    "moon_name": {
+      "role": "The tiny shepherd moon added to the model",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Scoot"
+    },
+    "ring_piece_sound": {
+      "role": "The sound the model makes when it spins correctly",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "shhh-shhh-shhh like soft rain"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember the evening Grandpa Zed spread yesterday's newspaper over the kitchen table, slapped it flat with both hands, and declared it an invention laboratory. \"Tools out!\" he announced, which meant one jam jar of buttons, a ball of string, three spoons, and the good scissors.\n\nYou were there because of the picture. Ms. Orbit had pinned a photograph of Saturn to the classroom wall, and you had stared at it through the school telescope night until your eye ached. The rings were not one solid band, like a plate around a ball. They were millions of pieces of ring ice, each one glittering, each one travelling its own orbit, side by side, never crashing. The photograph was stuck to our fridge with a banana magnet, and you looked at it every time you got the juice.\n\n\"I want to build that,\" you said. \"The real way. Not a solid ring.\"\n\nGrandpa Zed unclipped his Wobble-Whistle from his shirt pocket and gave it a test toot. It went wheeee-ooo-oop, a silly sliding note, like a kazoo falling downstairs. \"The Wobble-Whistle only blows when something wobbles out of place,\" he said. \"If it stays quiet, your machine is right.\" He set it on the newspaper like a tiny silver judge.\n\n\"Then let's begin,\" you said.\n\nAnd that is when the trouble started, because nobody in the whole history of the kitchen table had ever made hundreds of tiny things stay side by side without sticking into one.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Dive!\" you shout, and Grandpa Zed flings open the craft drawers so fast that a spool of thread bounces off the table.\n\nOut come the silver sequins. Out come the tiny white beads. Out comes the glitter, which Grandpa Zed holds at arm's length like a jar of jam that might explode. \"Ring ice,\" he says, \"comes in sizes.\"\n\nSo you sort. Sequins into the bowl marked sand-size. Beads into pebble-size. And into the bowl marked house-size go the big sparkly buttons, because some pieces of Saturn's rings really are as big as houses. Your fingers go silvery. Grandpa Zed's eyebrows go silvery. Nobody knows how.\n\nThen he unrolls a clear plastic sheet, measures it twice with a string, and cuts a great ring shape. Snip. Wheeee-ooo-oop goes the Wobble-Whistle. Snip. Wheeee-ooo-oop. \"It toots at my scissors,\" Grandpa Zed says, offended. \"My scissors have never wobbled in their lives.\"\n\nLast, you paint the foam ball, swirling gold and yellow until the clouds roll like stirred whipped cream.\n\nYou both stand back. Hundreds of pieces, all sorted. \"Now,\" says Grandpa Zed slowly, \"how do we keep each one on its own orbit?\"\n\nThe Wobble-Whistle is quiet. Too quiet.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Slow and steady,\" you say, and somebody knocks at the door. It's Pip, come to help, already wearing a painting shirt.\n\nSo the two of you mix. Yellow and gold, gold and yellow, and Pip brushes the foam ball while you turn it, round and round, until the clouds roll and tumble like stirred whipped cream. \"Saturn's clouds really do that,\" you tell Pip. \"They swirl in bands, all the way around.\"\n\nThen Grandpa Zed clears his throat and reads Ms. Orbit's note aloud. \"Each piece of ring ice follows its own orbit,\" he reads, \"like runners in separate lanes. Side by side. Never crashing.\"\n\n\"Lanes,\" says Pip. \"We need lanes.\"\n\nSo before anyone touches glue, you rehearse. Grandpa Zed unrolls the string, and together you lay it in circles on the newspaper, one lane, two lanes, three, each with its own gap between. The Wobble-Whistle hums along like a tiny engine, pleased.\n\nThen Pip sneezes. The strings slide. The lanes tangle into one fat band.\n\n\"That,\" says Grandpa Zed, pointing, \"is exactly what Saturn never does.\"\n\nYou all stare at the tangle. The rehearsal has shown you the whole problem, right there on the table.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the newspaper laboratory, Grandpa Zed leaned over your shoulder. \"Well?\" he said. \"What did you find?\"\n\nYou told him, and his eyebrows climbed so high they nearly left his face. \"Then we build!\" he declared.\n\nYou tipped the beads onto the plastic. Hundreds of tiny ring-ice pieces, glittering like sugar on a counter. You pressed them in place, quick-quick, before the glue dried.\n\nBut beads are beads. They rolled. They slid. They bumped into each other and clumped into one thick solid band, exactly like the plate-around-a-ball you had promised not to make.\n\nWheeee-ooo-ooo-oooop. The Wobble-Whistle blew its longest, silliest note yet, a kazoo tumbling down three flights of stairs.\n\n\"The judge has spoken,\" said Grandpa Zed gravely.\n\nYou looked at the photograph on the fridge, held up by its banana magnet. The real rings were not one band. They were spread out, with a dark empty lane right through the middle, a gap where nothing travelled at all.\n\n\"Spread them out,\" you said. \"Each bead gets its own lane. And we leave the gap empty.\"\n\nSo Grandpa Zed laid down thin string lanes, and you pressed each bead into its own dab of glue, on its own orbit, side by side. Slow work. Good work.\n\nThe Wobble-Whistle stayed quiet.\n\nAnd slowly, the ring stopped being a band and became a crowd of glittering travellers, each one moving along beside the others, never crashing.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "“A shepherd,” you say. And because every shepherd needs a name, you give it one: {moon_name}.\n\nYou press the tiny moon at the edge of the gap, and Grandpa Zed leans in close. “Out on the real Saturn,” he says softly, “a little moon does exactly this. Its quiet pull keeps the wide dark lane swept clear, like a shepherd walking beside the flock.”\n\nYou hang the model from the lamp cord. Grandpa Zed gives it one gentle spin.\n\n{ring_piece_sound}.\n\nThe ring ice glides, each piece on its own orbit, side by side, never crashing, and the dark gap runs clean through the middle with {moon_name} keeping watch. The Wobble-Whistle does not make a peep.\n\nOutside the window, fireflies are blinking in the garden. “Look,” you whisper. “Ring ice.”\n\nGrandpa Zed smiles and drops one silver sequin into your pocket, a small spare traveller to keep.\n\nAnd that is why, even now, whenever something I build wobbles before it works, I still hear that Wobble-Whistle, sliding downstairs, telling me to spread things out and try again.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "“A geyser moon,” you say. “Like Enceladus.”\n\nYou paint the little moon white as bath snow, and Grandpa Zed holds the tiny brush steady while you dab three pale plumes at its south pole. “Real geysers,” he says, “spray water ice straight into space. Some of it may even feed a ring.”\n\n“So the ring ice and the geyser ice could be cousins,” you say.\n\n“Family,” says Grandpa Zed, and hangs the model from the lamp cord. One gentle spin.\n\n{ring_piece_sound}.\n\nThe pieces shimmer side by side, each on its own orbit, never crashing, the gap running clear and dark. The Wobble-Whistle stays quiet a long moment, then toots one proud note, rising this time, ooo-oop-wheeee, a kazoo bounding up the stairs.\n\n“The judge approves,” you say.\n\nPip dips the smallest brush and signs the golden clouds with one tiny swirl.\n\nI kept one bead from that night. It sits on my windowsill still, and when the morning light comes through, it glitters like a small piece of Saturn that decided to stay.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Inventors!\" Grandpa Zed booms, twirling the Wobble-Whistle. \"Do we dive straight into the craft drawers and gather our ring ice, or do we paint and plan our orbits first, nice and slow?\"",
+      "options": [
+        {
+          "say_word": "Gather!",
+          "label": "Raid the craft drawers and sort the ring ice pieces",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Paint first",
+          "label": "Paint the golden clouds and rehearse the orbit lanes with string",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Pip lifts the tiny unpainted moon and grins. \"Our model needs one last traveler. Should this little moon be a shepherd who guards the gap, or a geyser moon who sprays ice fountains into space?\"",
+      "options": [
+        {
+          "say_word": "Shepherd",
+          "label": "Make it a shepherd moon whose pull keeps the gap clear",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "moon_name": "Scoot"
+          }
+        },
+        {
+          "say_word": "Geysers",
+          "label": "Make it a geyser moon like Enceladus, spraying ice fountains",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "moon_name": "Scoot"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.saturn",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "The material of countless ice pieces travelling side by side naturally invites a child to build a ring piece by piece, discovering gaps and orbit as they go.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2632,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2368,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1579,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.25,
+          "family_nudge": 1.0,
+          "final_weight": 0.1053,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Lane Between the Rings)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1053,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0789,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "Grandpa Zed's Wobble-Whistle, a kazoo-like tool that toots a silly descending note whenever a bead slides out of place.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Learning from mistakes",
+      "why": "The make_and_build pattern already contains a wobble and a fix; the material offers bead-sliding and too-solid rings as natural mistakes, so the value rides along without being stated as a lesson."
+    },
+    "cast": [
+      {
+        "role": "The child inventor (named by the reader)",
+        "reused": false,
+        "why": "The make_and_build pattern needs a child who wants to make something and drives every step."
+      },
+      {
+        "role": "Grandpa Zed, a grandparent who loves tools and silly sound effects",
+        "reused": false,
+        "why": "Carries the crazy_inventor dominant tone and the silly accent through his Wobble-Whistle; also the natural helper for tricky steps."
+      },
+      {
+        "role": "Ms. Orbit, the science teacher who has seen real probe pictures",
+        "reused": false,
+        "why": "Delivers the core knowledge beat: the rings are not solid, they are countless pieces of ice in orbit, and the gaps are kept clear by moons."
+      },
+      {
+        "role": "Pip, a friend who is good at painting",
+        "reused": false,
+        "why": "Paints the golden clouds and the dark Cassini gap; also the voice of one choice question."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "ring ice is countless pieces from sand-grain to house-size, each on its own orbit",
+        "ring ice is water ice like freezer ice cubes",
+        "the Cassini Division gap kept clear by a moon's pull",
+        "golden ammonia clouds swirling like stirred whipped cream",
+        "Saturn's family of many moons",
+        "kitchen table covered with bowls, spoons, and building ingredients",
+        "white and silver beads/sequins, clear plastic sheet, yellow paint, string for orbits",
+        "wobble: beads slide off before glue dries",
+        "wobble: ring looks too thick and solid, needs spreading and a gap",
+        "the moment it works: model spins, pieces catch light, each on its own orbit with a clear gap",
+        "wider door: fireflies in the garden imagined as tiny ring ice",
+        "wider door: Enceladus geysers painted on a small moon model",
+        "deeper door: a tiny moon's gravity shepherds the gap clear"
+      ],
+      "gathered_but_unused": [
+        "Saturn's rings are not one solid band. They are made of countless pieces of ice, from grains as small as sand to chunks as big as a house, all traveling around the planet side by side.",
+        "The ice in Saturn's rings is mostly water ice, the same kind of frozen water that makes ice cubes in a freezer.",
+        "Each piece of ring ice follows its own orbit around Saturn, like millions of tiny runners on their own tracks, never crashing into each other.",
+        "Saturn's rings are very wide—about 280,000 kilometers from edge to edge—but amazingly thin, sometimes only about 10 meters thick.",
+        "There are gaps in Saturn's rings, like the Cassini Division, where almost no ice travels. These gaps are kept clear by the pull of Saturn's moons.",
+        "Saturn has at least 146 moons, more than any other planet in our solar system. Some are large like Titan, and some are tiny like grains of ring ice.",
+        "Saturn is covered in golden clouds made of ammonia and other gases. These clouds swirl and blow in winds faster than a hurricane.",
+        "Some of Saturn's moons, like Enceladus, shoot geysers of water vapor and ice from their south poles into space."
+      ]
+    },
+    "safety_beat": "At the kitchen table, Grandpa Zed shows competence lightly: he takes the craft knife for the plastic sheet himself, saying \"sharp tools are a grown-up's orbit,\" and hands the builder the safety scissors, with no tension in the beat.",
+    "motif": "Tiny pieces of ring ice, each glittering on its own orbit, never crashing, always moving side by side.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      },
+      {
+        "story_id": "story.saturn.journey_001",
+        "title": "The Lane Between the Rings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances warmth, wonder, and the satisfying texture of making: Grandpa Zed's fondness is paid as attention, the build is shown step by step with a real failure and fix, the sound-words land as their own small sentences, and both endings let the moment glow without grabbing at it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in at the impossible problem",
+        "s2a": "busy delight, fingers in the glitter, a giggle at the offended scissors",
+        "s2b": "cozy company, then a held breath as the lanes tangle",
+        "s3": "the long silly toot, then the quiet satisfaction of slow good work",
+        "s4a": "hushed wonder, a small treasure slipped into a pocket, sleepy-warm",
+        "s4b": "proud and glowing, a bead kept on the windowsill, satisfied"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] no voices: segment carries no spoken line; [s4a] narration heavy: only 27% of sentences carry speech or action; [s4b] no voices: segment carries no spoken line; [s4b] narration heavy: only 13% of sentences carry speech or action; [story] slots: declared but never used: ['builder_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 27% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 13% of sentences carry speech or action",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 27% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 13% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['builder_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "07_saturn_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

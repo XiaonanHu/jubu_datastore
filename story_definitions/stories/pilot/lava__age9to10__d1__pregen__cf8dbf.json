@@ -1,0 +1,335 @@
+{
+  "id": "story.lava.age9to10.d1.pregen.cf8dbf",
+  "title": "The Island That Grew Overnight",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.lava",
+    "sel_theme": null,
+    "value_lesson": "Patience and the power of small things adding up",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A girl follows a glowing river of lava from the mountain's mouth down to the sea, watching it turn into the newest land on Earth.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Maya pressed her hand flat against the rock. It was warm, and it was black, and it was twisted into ropes and waves, as if the whole hillside had once been soup that someone forgot to stir.\n\n\"Basalt,\" said Kai, the volcano guide. \"This was lava once. It ran right past where you're standing, a hundred years before you were born.\"\n\nMaya looked up the mountain. Above them, the ground steamed in thin white ribbons. And there, glowing through the steam like a nightlight left on in a hallway, was a line of orange.\n\n\"Is that—\"\n\nMaya watched it. The orange line didn't move, and it did move, and the steam curled up around it and the whole mountain seemed to breathe. Nobody said anything for a moment. Pip's whirring went quiet.\n\n\"Slow as honey on a cold morning,\" Kai said at last. \"But moving.\"\n\nPip shot up from her shoulder. His camera-eye blinked green. \"Beep! I see it! I see it! It's making a pattern up there, like—beep—like the swirl on top of a cake!\"\n\n\"It's going to build new land,\" Kai said. \"Brand-new, never-before-stepped-on land, right where it meets the sea.\"\n\nMaya felt her heart thump. New land. Ground that didn't exist yesterday.\n\n\"Can we watch it happen?\" she asked.\n\n\"If we're quick,\" Kai said. \"The lava won't wait, and the sun won't either.\" He pointed down the slope. Two paths wound through the black rock. One followed the glowing line closely, along a ridge of warm stone. The other dropped toward the beach, where they could hear the ocean hissing.\n\nPip hovered between them, whirring. \"Beep. Which way, Maya?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Underground,\" Maya said. \"I want to see where the lava hides.\"\n\nKai grinned and led the way to a round black mouth in the hillside. \"A lava tube,\" he said. \"The lava's secret highway.\"\n\nThey ducked inside, and the world went quiet. The air turned cool as a cellar. Pip's light clicked on, and Maya gasped.\n\nThe walls were smooth and wavy, like the inside of a curl of melted chocolate. Long ago, a river of fire had poured through here, and it had left its fingerprints everywhere — drips on the ceiling, frozen mid-drip, like icicles that forgot how to melt.\n\n\"Beep!\" Pip's light swept the floor. \"Patterns! Look, look — the floor has ripples, like the sand at the beach. The lava flowed here in waves!\"\n\nMaya ran her hand along the wall. It was slick and cold now. Hard to believe it had once run like soup.\n\n\"Where does it come out?\" she asked.\n\n\"That's what we're going to find out,\" said Kai.\n\nThey walked deeper. The tunnel curved, and curved again. Pip flew ahead, his light bouncing off the black glass walls. \"Beep — Maya! The tube splits up here!\"\n\nKai held up his lantern. Ahead, the passage forked. One way dipped down, narrow and dark, sloping into the earth. The other climbed up toward a round hole in the ceiling, where gray light spilled in like milk through a crack.\n\n\"A skylight,\" Kai said. \"Where the roof fell in, long ago.\"\n\nMaya looked down the dark slope. Then up at the light. Her hand went to her pocket, where the grain of black sand waited.\n\nPip hovered between the two ways, whirring softly. \"Beep. Down deeper, or up to the light?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The glowing river,\" Maya said. \"I want to watch it move.\"\n\nKai nodded. \"Then let's find the good ridge. I know a spot where we can see the whole flow.\"\n\nThey climbed over the black ropes of basalt, Pip buzzing ahead like an excited bee. At the top of the ridge, Maya stopped.\n\nBelow them, the lava crawled. It was orange and red and black all at once, with a crust that cracked and glowed and cracked again, like the top of a crème brûlée that kept healing itself.\n\n\"It's so slow,\" Maya whispered.\n\n\"Here, yes,\" said Kai. \"Slower than a snail. But watch.\"\n\nHe pointed. Further down, the slope steepened, and the lava changed. It poured faster there, smooth and bright, like syrup sliding off a spoon.\n\n\"Beep!\" Pip shot up, camera-eye blinking. \"Maya! Maya! I can see the pattern! The lava goes slow where it's flat, fast where it's steep. Like you on your scooter!\"\n\nMaya laughed. It was true. The lava wasn't one river. It was a hundred rivers, some creeping, some racing, all of them turning the green forest below into black, steaming rock.\n\n\"It's eating the trees,\" she said softly.\n\nKai said nothing. He stood beside her, watching.\n\nMaya watched a fern. The black crust touched its tip. The tip vanished. Then the fronds, one by one, sinking slow. In its place: rock. Brand-new rock, still glowing at the seams.\n\nPip whirred low beside her ear. \"Beep. Look — the river splits up ahead. One arm goes toward the tube. The other goes toward the sea cliffs, where the ocean is hissing.\"\n\nMaya's heart thumped. The sea. That was where the island would grow.\n\n\"Which one do we follow?\" Pip asked.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "They reached the coast where the world was being made.\n\nThe air smelled of salt and warm stone. In front of them, the glowing river of lava met the ocean. Where the orange touched the blue, great clouds of steam rose up, white and thick, like a giant's kettle boiling. Hiss. Pop. The sound of new land being born.\n\nMaya stepped onto the beach. The sand was black as midnight, and it was warm. Not hot like a stove, but warm like bathwater that had been sitting in the sun. She wiggled her toes. This ground did not exist yesterday. It was the newest ground on Earth.\n\nPip hovered low, his camera-eye whirring as he looked at the wet sand. \"Beep. Maya, look. The waves are making patterns in the black sand. Swirls and curls. Did you see anything like that back there?\"\n\nMaya smiled. \"I found something,\" she said. She didn't say what. It was her secret, tucked safe in her pocket.\n\nKai stood beside her, watching the lava flow. \"The island is growing,\" he said. \"Every second, it gets a little bigger. A little taller.\"\n\nMaya watched a wave roll in. It was warm, too. It washed over her feet, and when it pulled back, it left behind new black sand, smooth and shiny.\n\nShe looked at the steam rising. She listened to the hiss. She felt the warm wave pull back from her toes.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The columns,\" Maya said. \"Let's climb.\"\n\nKai grinned. \"Good choice. Follow me, and watch your step.\"\n\nThey walked up the slope, away from the hissing beach. The ground changed under Maya's feet. It became flat, smooth tiles, all fitted together like a puzzle. Each tile had six sides. Hexagons.\n\n\"Whoa,\" Maya breathed. \"Did someone carve these?\"\n\n\"Nope,\" Kai said. \"When lava cools slowly, it cracks into these shapes. Perfect six-sided columns. The mountain built them all by itself.\"\n\nPip zipped ahead, his camera-eye whirring. \"Beep! Maya, the pattern goes on and on! Like a honeycomb made of stone!\"\n\nMaya stepped carefully from one hexagon to the next. They were warm beneath her shoes. She crouched down and ran her fingers along the cracks between the tiles. Deep down, the rock still held the day's heat.\n\n\"How did the mountain build all this?\" she asked.\n\n\"One layer at a time,\" Kai said. \"Lava flows out. It cools. It hardens into basalt. Then more lava flows on top. Again and again, for thousands of years.\"\n\nMaya looked down the slope. She could see the layers, stacked like pancakes, each one a different shade of black and gray.\n\nThen something sparkled.\n\n\"Pip! Come here!\"\n\nThe drone hovered down. \"Beep. What is it?\"\n\nMaya reached into a crack between two hexagons. She pulled out a single grain of black sand, smooth and round and shiny as glass.\n\n\"It's perfect,\" she whispered.\n\n\"That,\" Kai said, \"was liquid fire once. And now it's yours.\"\n\nMaya tucked it into her pocket. The tide was coming in. It was time to go.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Let's wait,\" Maya said. \"I want to watch.\"\n\nKai smiled. \"Then we'll sit right here.\"\n\nThey settled onto a smooth rock, warm from the sun. Pip landed beside Maya, his camera-eye fixed on the glowing river. The sun was sinking low, turning the steam pink and gold.\n\n\"Watch the edge,\" Kai said quietly. \"Where the lava meets the water.\"\n\nMaya watched. The orange flow crept forward, slow as syrup. When it touched the ocean, the water hissed and bubbled. Steam rose up in great white clouds. And then, right at the edge, something new appeared.\n\nBlack sand. Fresh. Brand-new.\n\n\"Did you see that?\" Maya whispered.\n\n\"Beep. I saw it,\" Pip said. \"The island just got bigger. Right there. Right now.\"\n\nMaya felt her heart thump. She was watching the exact moment the Earth made new land.\n\nThe lava kept coming, inch by inch. The steam rose and rose. The sun sank lower, and the sky turned purple and orange.\n\n\"How long will it keep growing?\" Maya asked.\n\n\"As long as the lava flows,\" Kai said. \"Maybe all night. Maybe all week. The mountain decides.\"\n\nMaya sat very still. She didn't want to miss a single second.\n\nFinally, Kai stood. \"It's time. The flow is slowing. If you want to step onto the new ground, do it now, before it cools completely.\"\n\nMaya stood, too. She walked to the edge of the black sand, where it was still warm and soft. She stepped onto it. Her footprints were the first ones ever made on this brand-new ground.\n\nShe bent down and picked up a single grain of sand. It was still warm.\n\n\"This was liquid fire this morning,\" she said.\n\n\"And now it's yours,\" Kai said.\n\nMaya tucked it into her pocket. She could feel it there, warm against her leg. Behind her, the ocean hissed.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do we follow the secret underground river, or do we walk beside the glowing one up here?\"",
+      "options": [
+        {
+          "say_word": "Tunnel",
+          "label": "Explore the dark lava tube",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "River",
+          "label": "Follow the glowing surface flow",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do you want to climb the stone columns and find a treasure, or sit with me and watch the island grow?\"",
+      "options": [
+        {
+          "say_word": "Climb",
+          "label": "Explore the hexagon columns",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Watch",
+          "label": "Wait for the new land to form",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.lava",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Lava's actual material—flowing glowing rivers, cooling into basalt, building new land and islands over time—naturally feeds a journey where the movement and transformation itself is the plot, carrying a child from eruption to new ground.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip, the drone, whose camera-eye sees patterns in the lava that human eyes miss and who narrates with beeping, whirring curiosity.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and the power of small things adding up",
+      "why": "The material naturally offers the image of thin layers of lava stacking for centuries to build an island; the journey from fast-moving fire to slow-building rock embodies this without forcing it."
+    },
+    "cast": [
+      {
+        "role": "Maya",
+        "reused": false,
+        "why": "The named hero; a nine-year-old with sturdy boots and a notebook, standing where the old basalt field meets the new flow."
+      },
+      {
+        "role": "Kai",
+        "reused": false,
+        "why": "The Volcano Guide who knows which rocks are cool enough to touch and which are still cooking; he leads the journey down the mountain."
+      },
+      {
+        "role": "Pip",
+        "reused": false,
+        "why": "The Drone Pilot's camera-drone, given a name and a voice; it flies ahead to show the glowing patterns and asks the choice questions with mechanical wonder."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "basalt field with ropey coils",
+        "glowing river moving at different speeds",
+        "lava tube as a hollow tunnel",
+        "lava touching ocean to make new land",
+        "black sand beach",
+        "hexagon columns",
+        "underwater volcano building islands",
+        "drone pilot perspective"
+      ],
+      "gathered_but_unused": [
+        "Basalt is a dark, heavy rock that forms when lava cools down. It is one of the most common rocks on Earth.",
+        "A lava tube is a hollow tunnel left behind when the outside of a lava flow hardens into rock while the hot liquid inside drains away.",
+        "Some volcanoes slowly build new land by stacking layers of cooled lava on top of each other for thousands of years.",
+        "Lava can move at very different speeds. Some flows creep slower than a snail, while others can rush down a steep hill as fast as a car.",
+        "When hot lava flows into the ocean, it can create new land that adds to the edge of an island.",
+        "Basalt lava often cools into strange shapes, like ropey coils or giant six-sided columns.",
+        "The Hawaiian Islands were built entirely by volcanoes erupting underwater until they finally poked their heads above the sea.",
+        "Even though lava is hot enough to melt rock when it first comes out, it starts turning into solid stone as soon as it touches the air or water."
+      ]
+    },
+    "safety_beat": "Kai tests each rock with his hand before Maya steps, showing her how to tell the difference between cool black basalt and rock that is still cooking underneath.",
+    "motif": "A single grain of black sand, carried in a pocket, that was once liquid fire.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story has a genuinely rare subject — watching land be born — but it keeps hurrying past the very moments a child would want to sit inside, naming the wonder instead of letting it be witnessed.",
+          "editor_notes": [
+            "s1: The reveal of the lava ('glowing through the steam like a nightlight left on in a hallway') is the story's first real wonder, and it lasts one sentence before Kai explains it. Let Maya look for a beat before anyone speaks — cut Kai's immediate 'Lava. Moving right now' answer and let the question 'Is that—' hang unanswered for a breath, so the child sees it before being told what it is.",
+            "s2b: 'Maya watched a fern vanish under the slow black crust. In its place: rock.' This is the strangest, most quietly enormous moment in the draft — a living thing becoming stone — and it gets eleven words. Slow it down. Let Maya watch the fern's tip disappear first, then the fronds, without commentary; cut Kai's explanatory 'And building ground' so the watching itself does the work.",
+            "s3: 'We are standing on the edge of the future,' Kai said softly' — this tells the listener what to feel instead of letting them feel it. Cut the line. The scene already contains everything: warm black sand, toes wiggling in ground that didn't exist yesterday. Trust the toes.",
+            "s3: 'She felt very small, and very lucky' names the feeling rather than earning it. Replace with one more beat of pure looking — the steam, the hiss, the warm wave pulling back — and let smallness arrive on its own.",
+            "s4b is the strongest segment and shows what the rest could be: 'Maya sat very still. She didn't want to miss a single second' is exactly right. But the ending rushes — 'The island was still growing. And she had seen it happen' summarizes the gift instead of letting it glow. End on the warm grain in her pocket and the sound of the hiss, not on the conclusion.",
+            "Throughout: Kai explains nearly everything the moment it appears ('That's how an island grows,' 'We are standing on the edge of the future'). Cut roughly half his explanations; a guide who mostly watches quietly beside Maya would serve the wonder better than one who captions it."
+          ],
+          "segments_revised": 6,
+          "segments_rejected": 0
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, agency, and sensory warmth with a strong read-aloud rhythm; its branching structure gives Maya real choices, the geology is made legible through exact, child-sized comparisons, and the recurring grain of black sand ties the branches together with a quiet, satisfying keepsake."
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and leaning in",
+        "s2a": "deliciously spooked and curious",
+        "s2b": "hushed awe with a small ache",
+        "s3": "tingly and proud on brand-new ground",
+        "s4a": "busy, sure-footed delight ending in a small treasure",
+        "s4b": "held-breath stillness melting into warm satisfaction"
+      },
+      "segments_revised": 6,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.7); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 3.6); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 3.7); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polished (263 -> 272 words)",
+      "round 1: [s2a] polished (286 -> 286 words)",
+      "round 1: [s2b] polished (288 -> 286 words)",
+      "round 1: [s3] polished (258 -> 237 words)",
+      "round 1: [s4a] polished (269 -> 264 words)",
+      "round 1: [s4b] polished (302 -> 305 words)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['hero_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "02_lava_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

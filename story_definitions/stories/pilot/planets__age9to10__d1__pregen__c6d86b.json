@@ -1,0 +1,323 @@
+{
+  "id": "story.planets.age9to10.d1.pregen.c6d86b",
+  "title": "The Long Way to Neptune",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.planets",
+    "sel_theme": null,
+    "value_lesson": "Patience—waiting years for a probe to reach its target teaches us that some wonders are worth waiting for",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A child and a retired probe pilot ride a glass-domed observation ship outward from Earth to Neptune, following the path of the Voyager 2 probe to deliver a birthday message to the loneliest robot in the solar system.",
+  "slots": {
+    "ship_name": {
+      "role": "The glass-domed observation vessel",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Window Seat"
+    },
+    "probe_gift": {
+      "role": "The specific message or object carried to Voyager 2",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "a recording of Earth ocean waves"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The Deep-Space Messenger pressed a finger to the map, and a tiny light blinked back, far out past everything. \"That's Voyager 2,\" she said. \"A probe. A robot ship we sent to visit the planets, and it did, every one, and now it's been alone out there for twelve years. Its instruments are going quiet. Before they do, someone ought to say hello.\" She looked at you. \"Happy birthday, actually. Will you take it?\"\n\nYou would.\n\nThe ship waited with a glass dome over the top like a bubble, and it was called {ship_name}. You climbed in, the Messenger tucked the message in beside you — {probe_gift} — and the whole station let go with a soft, deep hum.\n\nUp you went.\n\nEarth shrank. First it was the whole sky, then a blue marble you could hide behind your thumb, then just a bright star like all the others, except it wasn't like the others at all.\n\n\"Well, hello out there,\" said a voice, warm and crackly, like a radio left on in the next room. \"Probe Pilot speaking. I'll be flying this bus. Old Voyager's got a head start, but we've got the faster ship and the better snacks.\" A pause, full of static. \"First entry in your notebook, kid. That blue star back there? One moon. Write it down. One's where everybody starts.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Jupiter fills the whole dome, striped like a jawbreaker, and the Cloud Cartographer climbs aboard with her pencils tucked behind one ear. She smells like graphite and peppermint. \"Look at that,\" she says, pointing at the Great Red Spot. \"A storm bigger than your whole world. It's been spinning since before your grandmother's grandmother was born.\" You press your hand to the glass. The crimson clouds swirl slow and thick, like tomato soup when you stir it, and you can see smaller storms inside it, tumbling like berries in the mix. \"How do you map something that never stops moving?\" you ask. She grins and opens her notebook. \"Carefully. And fast.\" Her pencil scratches. \"Fourteen moons so far, kiddo,\" crackles the Probe Pilot. \"Write 'em down.\" The Cartographer looks up. \"We can dive closer to the storm's edge, feel the wind in our teeth, or swing out to Saturn and walk the rings. Which way?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Saturn hangs there like a toy, yellow and quiet, and the Ring Shepherd meets you at the edge with boots that grip the ice. The rings aren't solid at all. They're chunks of ice, some as big as houses, tumbling past in a slow parade that catches the light. \"Watch this,\" the Shepherd says, and points. A tiny moon zips through the gap, sweeping the path clean like a snowplow on a winter street. \"That's how the rings stay neat.\" You reach out and touch a passing berg. It's cold and rough, like the inside of a freezer, and it hums against your palm. \"Sixty-two moons,\" crackles the Probe Pilot. \"Write it down.\" The Shepherd stamps her boots. \"We can walk the ice bridge into the ring plane, right into the thick of it, or keep pushing out to the blue giant. What do you say?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"So,\" the Probe Pilot crackled, warm as ever. \"What did you find back there?\"\n\nWhatever it was, it went into the notebook, and the ship hummed on, out past the place where the sun still looked like a sun.\n\n\"Next stop, the red one,\" said the Pilot. \"Mars. Whole planet the color of an old penny.\"\n\nMars rolled up under the dome, rusty and round, and on it sat a volcano so wide it would take all day to walk around the bottom of it. \"Olympus Mons,\" the Pilot said. \"Biggest mountain anybody knows about. And look there—two little moons. Phobos and Deimos. Lumpy as potatoes, both of them. Write it down, kid. Two more for the collection.\"\n\nTwo more. The count in the notebook was growing.\n\nThen Venus, shining like a lantern, wrapped in thick gold clouds. \"Pretty, isn't it? But that one's backwards. Spins the wrong way, slow as you like. A day there lasts longer than a year.\" A static chuckle. \"No moons. Not one. Venus travels alone.\"\n\nAnd last, little Mercury, gray as the ash in a fireplace, close enough to the sun that one side sizzles while the other side freezes. \"No moons there either. Too close to the sun to hang on to anything.\"\n\nThe ship turned its nose outward, and the sun shrank behind them, smaller and smaller, until it was just the brightest star in the window.\n\n\"That's the inner worlds,\" the Pilot said softly. \"Rock and fire and empty. And your blue marble, back there with its one moon. Funny, isn't it. The only one with oceans. The only one with anybody waving goodbye.\"\n\nThe notebook felt heavier already. Out ahead, the dark was waiting, and it was full of moons.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Neptune,\" the Probe Pilot whispered, static soft as snow. \"Last stop. Hang on to your hat.\"\n\nThe planet filled the dome, blue as a gas flame, and clouds of white streaked across it faster than anything on Earth. \"Fastest winds in the whole family,\" the Pilot said. \"Fourteen moons, kid. Fourteen. Write 'em down.\"\n\nYour pencil moved. The count in the notebook had never been so big.\n\nThen you saw it. A tiny silver thing, tumbling slow, with a dish antenna big as a dinner table. Voyager 2.\n\n\"She's listening,\" the Pilot said. \"Send it.\"\n\nYou pressed the button, and the recording of Earth ocean waves went out into the dark. For a long moment, nothing. Then a beep. Then another. Then a picture came back across the years, Neptune's white streaks seen from up close, one last look.\n\n\"She says thank you,\" the Pilot said, and the static sounded like a smile. \"She'll carry that song forever now.\"\n\nYou wrote fourteen in the notebook, and under it, one more line: Voyager 2, still traveling.\n\nThe ship turned for home. In your pocket, the recording of the wind played soft, a new sound for your collection, and the Probe Pilot hummed an old astronaut song all the way back.\n\n\"Not bad for a birthday,\" you said.\n\n\"Not bad at all,\" said the Pilot. \"Happy birthday, kid.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Neptune,\" the Probe Pilot said, and for once there was no crackle in the voice. \"End of the line.\"\n\nThe planet was blue and huge and streaked with white, and the winds there could outrun a jet plane. \"Fourteen moons,\" the Pilot said. \"Count 'em if you can.\"\n\nYou counted. Fourteen. The notebook was full of numbers now, and every number was a world.\n\nThen the Deep-Space Messenger leaned forward. In her hand was a small glass vial, and inside it, ocean water from home. \"Voyager's been carrying a message from Earth all these years,\" she said. \"Time we gave her the thing itself.\"\n\nYou watched the vial go, a tiny sparkle across the dark, into the probe's sample collector. Voyager 2 beeped once, and sent back a picture.\n\nIt was Earth. From that far out, it was just a pale blue dot, small as the period at the end of a sentence.\n\n\"That's everybody,\" the Pilot said quietly. \"Everybody you ever knew, right there on that dot.\"\n\nYou looked a long time. Then you wrote fourteen in the notebook, and under it: one home.\n\nThe ship turned around. In your pocket was a photograph, the whole solar system family portrait, and the Probe Pilot was humming, warm and crackly, all the way back.\n\n\"She's not alone anymore,\" you said.\n\n\"Never was,\" said the Messenger. \"She had us.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We've got fuel for one good look, kiddo—do we chase the biggest storm in the solar system at Jupiter, or do we skate out to walk on Saturn's icy rings?\"",
+      "options": [
+        {
+          "say_word": "Storm",
+          "label": "Dive into Jupiter's Great Red Spot",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Rings",
+          "label": "Walk the bridge through Saturn's ring system",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Voyager's listening, but she's tired. Do we send her the song of Earth oceans to carry forever, or do we give her the water itself to hold?\"",
+      "options": [
+        {
+          "say_word": "Song",
+          "label": "Play the recording of Earth waves",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "probe_gift": "a recording of Earth ocean waves"
+          }
+        },
+        {
+          "say_word": "Water",
+          "label": "Pour the vial of Earth ocean into the collector",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "probe_gift": "a vial of Earth seawater"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.planets",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 24
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's material—comparing whole planets, their moons and ring systems, and the probes that travel between them—is naturally structured as a voyage from world to world, making the journey pattern the most direct fit.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The Probe Pilot (an AI voice with a warm, crackling radio-static quality and old-fashioned astronaut slang)",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience—waiting years for a probe to reach its target teaches us that some wonders are worth waiting for",
+      "why": "The Voyager 2 material naturally embodies this; the twelve-year journey and the birthday message framing make patience a lived experience rather than a lecture."
+    },
+    "cast": [
+      {
+        "role": "The Deep-Space Messenger",
+        "reused": false,
+        "why": "The technician who listens for distant probe signals provides the emotional reason for the journey—delivering a message to Voyager 2—and frames the trip as a visit to a friend rather than a conquest."
+      },
+      {
+        "role": "The Probe Pilot",
+        "reused": false,
+        "why": "The AI voice in the helmet steers the ship and explains planetary composition; its folksy, static-filled voice carries the story's accent and serves as the consistent guide through all branches."
+      },
+      {
+        "role": "The Cloud Cartographer",
+        "reused": false,
+        "why": "Appears at Jupiter to map the Great Red Spot, offering the choice between storm-chasing and ring-walking, and demonstrating how humans study what they cannot touch."
+      },
+      {
+        "role": "The Ring Shepherd",
+        "reused": false,
+        "why": "Appears at Saturn to guide the ship through the icy gaps, showing how moons shepherd the ring particles and providing the competence beat for navigating real celestial mechanics."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Voyager 2 twelve-year journey to Neptune",
+        "Jupiter Great Red Spot storm bigger than Earth",
+        "Saturn ring system ice chunks and shepherd moons",
+        "Neptune fastest winds 2000 km/h",
+        "Earth blue marble from space",
+        "Mars Olympus Mons tallest volcano",
+        "Venus backwards spin and heat-trapping clouds",
+        "Mercury temperature swings",
+        "Glass-domed observation deck setting",
+        "Counting moons return journey pattern"
+      ],
+      "gathered_but_unused": [
+        "Jupiter is so enormous that over a thousand Earths could fit inside it, and its Great Red Spot is a storm bigger than our whole planet that has been raging for hundreds of years.",
+        "Saturn’s rings are made of countless chunks of ice and rock, some as small as a grain of sand and some as big as a house, all orbiting together like a frozen river.",
+        "Mars has the tallest volcano in the solar system, Olympus Mons, which is nearly three times taller than Mount Everest and wide enough to cover a whole country.",
+        "Venus is the hottest planet, even hotter than Mercury, because its thick clouds trap heat like a blanket, and it spins backwards compared to most other planets.",
+        "Mercury has huge temperature swings: its day side can bake at over 400 degrees Celsius, while its night side freezes at minus 170, because it has almost no air to hold the heat.",
+        "Neptune has the fastest winds in the solar system, blowing up to 2,000 kilometers per hour—faster than a jet plane—through its deep blue methane clouds.",
+        "The robot probe Voyager 2 is the only spacecraft to visit Neptune up close, and it took twelve years to get there, sending back pictures that took hours to travel back to Earth at the speed of light.",
+        "Earth is the only planet we know with liquid water oceans on the surface and life everywhere, from deep-sea vents to the tops of clouds, which is why it looks like a blue and green marble from space."
+      ]
+    },
+    "safety_beat": "At Saturn's rings (s2b), the Ring Shepherd demonstrates exactly where to place boots on the observation bridge—'right here where the gravity plates hum'—showing competence without warning or tension.",
+    "motif": "Counting moons—each world visited adds a new number to the traveler's pocket notebook, turning the vast empty dark into a collection of specific, named companions.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, companionship, and ritual beautifully — the Probe Pilot's warm crackle is a constant companion, the 'write it down' refrain gives a child a job to hold, and both endings land the emotional beat (Voyager thanked, Earth seen as one home) without rushing."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "chosen and buzzing with lift-off",
+        "s2a": "wide-eyed, hand pressed to the glass",
+        "s2b": "delighted, reaching out to touch",
+        "s3": "settling into the rhythm of counting, a little hushed at the lonely planets",
+        "s4a": "a held breath, then a warm glow",
+        "s4b": "a held breath, then a lump in the throat, then home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['hero_name', 'moon_count']"
+      }
+    ],
+    "writers_notes": [
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['hero_name', 'moon_count']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "25_planets_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

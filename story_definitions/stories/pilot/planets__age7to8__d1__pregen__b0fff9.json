@@ -1,0 +1,327 @@
+{
+  "id": "story.planets.age7to8.d1.pregen.b0fff9",
+  "title": "The Sun-Far Express",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.planets",
+    "sel_theme": null,
+    "value_lesson": "Home becomes precious by contrast",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A young moon-rock collector joins a grandmotherly astronomer on a spaceship journey from Mercury to Neptune, discovering how distance from the Sun changes everything about each world.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Pip had pockets full of moon rocks and a plan that was not really a plan.\n\n\"Just one little peek,\" Pip whispered, and slipped through the open hatch of the Sun-Far Express.\n\nInside, everything hummed. A round navigation globe glowed on its stand, and an old woman in a star-covered shawl was settling into the pilot's seat.\n\n\"Well,\" said Mrs. Nova, not even turning around. \"You must be my stowaway.\"\n\nPip froze. \"I'm a moon-rock collector,\" Pip said, which was true, mostly.\n\n\"A collector.\" Mrs. Nova smiled at the window, where the Sun blazed huge and gold, filling nearly the whole glass. \"Then you are in the right ship. I'm going to see Saturn's rings one last time. Every planet on the way. Rusty, say hello.\"\n\n\"Hello, hello!\" chirped a little robot at the controls. \"Welcome aboard, stowaway!\"\n\nThe globe spun and glowed brighter. \"Route confirmed!\" it announced in a warm, round voice. \"Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune! Eight planets, from nearest the Sun to farthest!\"\n\nPip's eyes went wide. \"A pebble from every planet,\" Pip breathed. \"In order.\"\n\n\"In order,\" Mrs. Nova agreed. \"Strap in, collector.\"\n\nThe engines rumbled. The huge Sun slid sideways in the window.\n\nAnd they were off.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Mercury!\" announced the navigation globe, glowing brighter. \"First planet! So close to the Sun, and almost no atmosphere to hold the heat!\"\n\nMrs. Nova landed gently on grey, dusty ground. \"Rusty,\" she said, \"the shields.\"\n\nRusty zipped over with two shiny heat shields. \"One for you, one for me!\" he chirped. \"Follow me, collector. I know the good spot.\"\n\nPip followed Rusty to where a tall rock cast a long shadow. \"Stand right here,\" said Rusty, \"where the shadow meets the light.\"\n\nPip stood with one foot in sunlight, one in shade. The sunny side of the shield grew warm as an oven. The shady side felt like deep winter, all at once.\n\n\"Hot and cold!\" Pip laughed. \"On the same planet!\"\n\n\"Almost no air to carry the warmth around,\" said Mrs. Nova. \"So the heat stays where the Sun puts it.\"\n\nPip bent down and picked up a small grey pebble, still warm on one side, cool on the other. Into the pocket it went.\n\nIn the window, the Sun was still huge, but not quite as huge.\n\n\"One pebble,\" said Pip.\n\n\"Seven to go,\" said Mrs. Nova.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Venus!\" announced the navigation globe, glowing golden. \"Second planet! Farther from the Sun than Mercury, but hotter — the hottest of all!\"\n\n\"Hotter?\" said Pip. \"But it's farther away!\"\n\n\"Wait and feel,\" said Mrs. Nova, landing softly under thick golden clouds.\n\nRusty brought two puffy white suits. \"Cloud suits!\" he chirped. \"The air down there is thick as soup. These keep us comfy. Follow me, I know the clear patch.\"\n\nPip stepped out beneath the clouds. Everything glowed dim and gold, like evening inside a lantern. The ground was warm under Pip's boots — warm everywhere, all over, all at once.\n\n\"The clouds wrap the whole planet like a blanket,\" said Mrs. Nova. \"The heat gets in, but it can't get out.\"\n\n\"So a blanket beats being close!\" said Pip.\n\n\"On Venus, it does.\"\n\nPip found a smooth yellowish pebble, warm all the way through, like a stone left in the sun. Into the pocket it went.\n\nIn the window, the Sun had shrunk a little smaller.\n\n\"Two pebbles,\" said Pip.\n\n\"Six to go,\" said Mrs. Nova.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The Sun-Far Express sailed on, and a blue-green marble swam into the window.\n\n\"Earth!\" sang the navigation globe, glowing bright. \"Third planet from the Sun — and we are leaving the inner planets behind!\"\n\nMrs. Nova slowed the ship. \"Look back, collector. Really look.\"\n\nPip pressed close to the glass. White clouds swirled over blue seas and green land, soft as paint in water. \"It looks alive,\" Pip whispered.\n\n\"It is,\" said Mrs. Nova. \"Earth is the only planet with liquid water on its surface. The only one with an atmosphere we can breathe.\" She tapped the window gently. \"Not too hot. Not too cold. Just the right distance from the Sun.\"\n\nRusty leaned against Pip's shoulder to see. \"Lucky old Earth,\" he beeped.\n\nPip pulled out the pebbles from the journey so far and turned them over — grey one, yellow one, and now the newest find, still warm from being found. \"They're all so different,\" Pip said. \"Same Sun. Such different worlds.\"\n\n\"Distance changes everything,\" said Mrs. Nova. \"And we are about to go very far indeed.\"\n\nPip looked at the window. The Sun was smaller now — no longer a huge blazing disc, but a bright gold coin, shrinking.\n\n\"What will it be like out there?\" Pip asked. \"So far from the Sun?\"\n\n\"Cold,\" said Mrs. Nova, smiling. \"And full of surprises. Strap in, collector. The giant planets are waiting.\"\n\nThe engines rumbled. Earth slid behind them, blue and bright and home.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The Sun-Far Express dipped toward a world the color of brick dust. \"Mars!\" sang the navigation globe. \"Fourth planet from the Sun — and getting chilly!\"\n\nRusty popped open a hatch and pulled out three pairs of chunky boots. \"Dust boots!\" he beeped. \"So we don't sink!\"\n\nThe ground crunched underfoot, red as far as Pip could see. They climbed a dune that rose like a slow red wave, and at the top, Mrs. Nova pointed. \"Olympus Mons. Tallest volcano in the whole solar system.\"\n\nIt didn't look like a mountain. It looked like the sky had hunched one enormous shoulder.\n\nThe Sun hung low, a small orange button. Around it, the sky turned blue — a deep, dusty blue, like twilight on Earth but thinner, stranger.\n\n\"Why is Mars red?\" Pip asked.\n\n\"Rust,\" said the globe, glowing. \"The dust is full of rusty iron!\"\n\nPip picked up a pebble, dark red and rough. It felt cold even through the glove. The thermometer on Rusty's arm blinked: freezing.\n\n\"It's beautiful,\" Pip whispered.\n\n\"It is,\" said Mrs. Nova. \"And it only gets colder from here.\"\n\nPip looked at the window as they lifted off. The Sun was smaller again — a bright seed, shrinking.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The Sun-Far Express rose above a sea of striped clouds, and the ship tilted so everyone could see down.\n\n\"Jupiter!\" sang the navigation globe, glowing so bright it hummed. \"Fifth planet from the Sun — and we are very, very far now!\"\n\nBeneath them, the Great Red Spot rolled like a slow red ocean, wide as a world. Lightning flickered inside it, silent and deep.\n\n\"How big is that storm?\" Pip breathed.\n\n\"Bigger than Earth,\" said Mrs. Nova. \"Jupiter is so large, all the other planets could fit inside it.\"\n\nRusty pressed his face to the glass. \"It's like a giant marble that never stops swirling!\"\n\nPip watched the bands of orange and white curl and fold, slow as honey. The thermometer on Rusty's arm blinked: deep cold, colder than Mars, colder than anything.\n\n\"Can I collect a pebble here?\" Pip asked.\n\nMrs. Nova smiled. \"Jupiter has no surface to land on. Just clouds, all the way down. But—\" She reached into a pouch and held out a smooth stone, striped orange and cream. \"From the last time I was here. A gift, collector.\"\n\nPip held it up to the window. The Sun was a bright star now, small and sharp among other stars.\n\n\"We're really out here,\" Pip whispered.\n\n\"We are,\" said Mrs. Nova. \"And Saturn is waiting.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"First stop, young collector. Shall we visit Mercury, where the Sun is three times bigger, or Venus, where the clouds glow like gold?\"",
+      "options": [
+        {
+          "say_word": "Mercury",
+          "label": "Visit Mercury first",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Venus",
+          "label": "Visit Venus first",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"We're far from the Sun now, and the cold is deepening. Would you rather see Mars, the red world with the tallest volcano, or Jupiter, the giant with a storm bigger than Earth?\"",
+      "options": [
+        {
+          "say_word": "Mars",
+          "label": "Visit Mars",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Jupiter",
+          "label": "Visit Jupiter",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.planets",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's core fact—that distance from the sun changes each planet's atmosphere, surface, and temperature—is literally a route, so a journey outward from the sun lets a child feel each planet become different as the material itself supplies the stops.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The ship's talking navigation globe, which announces each planet in order with glowing enthusiasm and always reminds everyone how far from the Sun they are now",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Home becomes precious by contrast",
+      "why": "The material offers this naturally through the journey structure: only after visiting frozen, scorching, and stormy worlds does the hero feel how gently Earth holds them, and the final look back at the pale blue dot delivers it without preaching"
+    },
+    "cast": [
+      {
+        "role": "A young stowaway moon-rock collector",
+        "reused": false,
+        "why": "The named hero whose concrete pursuit of collecting pebbles from each world grounds the journey and lets them notice how distance from the Sun changes what the ground is made of"
+      },
+      {
+        "role": "A grandmotherly astronomer traveling to see the rings one last time",
+        "reused": false,
+        "why": "Carries the cozy dominant tone through stories of how each planet got its name and gentle pointing-out of details the hero would have missed"
+      },
+      {
+        "role": "A friendly robot pilot built for every kind of weather",
+        "reused": false,
+        "why": "Shows competence at each stop by adjusting shields for heat, cold, and wind, and asks the choice questions in a practical, warm voice"
+      },
+      {
+        "role": "The ship's talking navigation globe",
+        "reused": false,
+        "why": "Carries the accent tone through its glowing announcements and constant reminders of distance from the Sun"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Mercury's scorching days and freezing nights from lack of atmosphere",
+        "Venus's thick heat-trapping clouds making it hottest of all",
+        "Mars's rusty red dust and Olympus Mons",
+        "Jupiter's Great Red Spot storm bigger than Earth",
+        "Saturn's rings of ice and rock",
+        "Neptune's fastest winds and 165-year orbit",
+        "Earth as the only planet with liquid water and breathable atmosphere",
+        "The route in strict order from the Sun announced by the navigation globe",
+        "Changing gear at every stop: heat shields, cloud suits, dust boots, wind anchors",
+        "The thermometer ritual showing dropping temperatures",
+        "The Sun shrinking in the window at each stop",
+        "Collecting one souvenir per planet so the pouch retells the journey",
+        "Each planet's color revealed like beads on a string"
+      ],
+      "gathered_but_unused": [
+        "Mercury is the closest planet to the Sun, but it has almost no atmosphere to hold heat, so its surface is scorching hot in the daytime and freezing cold at night.",
+        "Venus is wrapped in thick clouds that trap heat, making it the hottest planet of all, even hotter than Mercury which sits closer to the Sun.",
+        "Mars looks red because its surface is covered in rusty dust, and it has the tallest volcano in the whole solar system, Olympus Mons, about three times taller than Mount Everest.",
+        "Jupiter is so big that all the other planets could fit inside it, and its Great Red Spot is a storm bigger than Earth that has been swirling for hundreds of years.",
+        "Saturn's rings are made of billions of pieces of ice and rock, some as small as grains of sand and some as big as houses.",
+        "Neptune is the farthest planet from the Sun, and its winds are the fastest in the solar system, blowing faster than a thousand miles per hour.",
+        "The farther a planet is from the Sun, the colder it gets and the longer its year, so Neptune takes about 165 Earth years to go around the Sun once.",
+        "Earth is the only planet we know with liquid water on its surface and an atmosphere we can breathe, which is why it glows blue and green from space."
+      ]
+    },
+    "safety_beat": "At Mercury, Rusty shows everyone where to stand where the shadow meets the light, demonstrating competence without warning or tension",
+    "motif": "The shrinking Sun in the window, from a huge blazing disc to a bright star among other stars",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a warm shared journey with a strong counting ritual ('One pebble.' / 'Seven to go.'), a shrinking Sun as a felt measure of distance, and a fondness between Mrs. Nova, Rusty, and Pip that is paid as attention rather than declared."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and conspiratorial — a held breath of sneaking aboard, then relief at being",
+        "s2a": "delighted surprise — the hot-and-cold shield moment lands as a small giggle of d",
+        "s2b": "cozy wonder — golden lantern light, warm all over, settling into the rhythm",
+        "s3": "leaning in close to the glass — tender, a little hushed, homesick in a good way",
+        "s4a": "quiet awe with a chill — the hunched-shoulder volcano and the small orange butto",
+        "s4b": "wide-eyed and small in a vast dark — held safe by a gift and a promise of Saturn"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 12 warning. [s1] flat rhythm: sentence lengths vary little (spread 5.0); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.3); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.1); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.0)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s1] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[story] slots: declared but never used: ['hero_name', 'ship_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "01_planets_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

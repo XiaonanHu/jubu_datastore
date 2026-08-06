@@ -1,0 +1,323 @@
+{
+  "id": "story.weather.age5to6.d1.authored.c8aac5",
+  "title": "The Day the Sky Played Copycat",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.weather",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "Our cloud-shapes game gets wonderfully out of hand when the sky starts copying us, and we end the game our own way.",
+  "slots": {
+    "cloud_shape": {
+      "role": "the cloud shape we ask the sky to make, chosen at the first choice",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "dragon"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are lying on our backs on the big blanket in the yard, you and me, with the grass prickling at our elbows where they hang off the edge. Two cups of lemonade stand in the grass beside us, going warm.\nAbove us the sky is not doing much. Blue, and some clouds.\nSo we play cloud shapes.\n\"Sock,\" we say, and then \"Pancake,\" and then \"Hairbrush, upside down.\"\nThen a cloud comes over that is almost a rabbit. Nose, tail, one ear. Almost.\n\"It needs one more ear,\" we say, out loud, the way you do.\nAnd the cloud stretches, and pops out a second ear.\nWe sit up fast and look at each other. Then we look back up at the sky.\n\"Longer tail,\" we say, carefully.\nThe rabbit grows a tail so long and so fluffy that it drags along behind him across the blue.\nThe sky heard us. The sky is playing, and the rabbit hops slowly on over the fence, waiting to hear what we say next.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Dragon!\" we shout, both of us, hands cupped round our mouths.\nThree clouds slide together. One end pulls out into a long swishy tail. Two lumps flatten into wings. The front grows a snout with a curl on the end of it, like the handle of a jug.\nOur dragon has one problem. It is made of cloud, so it cannot do fire.\nIt tries anyway. It huffs, and out comes one small white ring, which floats off and bothers nobody.\n\"Again!\" we shout.\nIt huffs harder. Two rings.\nThen it fills its whole chest, which takes a while, because its chest is the size of our school. It holds the air in. It lets go with everything it has.\nAnd it sneezes.\nAchoo. A cool sprinkle of drizzle comes down over the yard and lands on our faces and in our open shouting mouths. We put our tongues out and catch some.\nWe laugh until we have to lie down again.\nHigh up over the oak tree, our dragon huffs one more little ring and looks extremely pleased with itself.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Whale!\" we shout, both of us, hands cupped round our mouths.\nOne long cloud comes rolling round and fat, like a pillow with more pillows stuffed inside it. A wide flat tail puffs out of one end. Near the other end a small dark dent opens and closes, and that is her eye, and it is looking straight down at us.\nShe swims. Slow flips of that big tail carry her right across the middle of the blue.\nThen, fwoosh. She spouts. A tall white fountain goes up off the top of her head, curls over, and breaks apart into six little clouds.\n\"Do it again,\" we say.\nFwoosh. Another six.\nFwoosh. Twelve more this time.\nThe little ones come along behind her, biggest at the front and smallest at the back, and every one has a small flat tail of its own.\n\"Six,\" we count out loud. \"Twelve. Eighteen. Twenty.\" Then we lose count.\nThe sky is full of whales. There are far too many whales in the sky now, and we do not want a single one of them to go.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Then the game gets out of hand, which is where all the best games go.\nOur {cloud_shape} cloud stops doing what we say and starts doing what we do.\nWe lift one hand and wave. It waves back with a fat white arm.\nWe hop on the blanket. It bounces.\nWe do our silliest dance, wiggle, wiggle, spin, and the whole sky turns and spins with us.\n\"Try this,\" we say, and we lie down flat as two pancakes. All across the sky the clouds come down flat as wide grey pancakes. We jump up. They leap. We fall over laughing, and forty clouds fall over too, and the sky is packed fence to fence with copies of us.\nWhich is when the yard goes dim.\nThat is the trouble with a skyful of clouds. There is no room left for the sun to get through, and a drizzle starts up, tick, tick, into our lemonade.\n\"That was us,\" we say.\nWe carry the blanket under the porch roof, cups and all, where it stays dry and we can still see everything.\nUp there, the clouds jiggle. They are waiting for our next move.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Wind!\" we shout, and then we do the thing that makes one. We fill our cheeks up fat and blow straight upwards, as hard as two people can.\nAnd the sky copies us.\nThe sky blows.\nIt comes over the fence first, through the grass, up our sleeves, lifting our hair off our foreheads and flapping the corner of the blanket like a flag. Then it gets in among the clouds and starts pushing.\nThat is what wind is for. Wind is the thing that moves clouds about. It shoves them along the sky the way we shove a boat across the bath, and it never asks them where they want to go.\nThe grey pancakes stretch out into long white ribbons. The copies come apart. Our {cloud_shape} cloud is the last one left, and on its way out it waves one arm at us, off to be somebody else's cloud over somebody else's yard.\nThen the sun is back on the grass. The drizzle stops. There is nothing left up there but three small puffs, hurrying.\nWe carry the cups out into the warm and drink the lemonade.\n\"It tastes of rain,\" we say.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We do not say anything at all. We stand up slowly, and lift one hand, and wave as slowly as we can.\nA thousand cloud arms wave back.\n\"Goodnight, clouds,\" we say. \"Thank you for playing.\"\nAnd then, because copying is the only thing they know how to do, they copy the quiet as well. The bouncing stops. The jiggling stops. They stretch themselves out flat and thin, the way a sheet gets smoothed over a bed, until the whole sky is one soft grey layer with the light coming through it.\nThe drizzle gives one last tick into the grass and stops.\nOur {cloud_shape} cloud comes down low over the porch to say goodbye. It stretches, and stretches, and yawns itself out into a white wisp no thicker than a thread.\nThen the sun finds the gap underneath, low and gold. We drag the blanket back out of the porch into it and sit down.\nWe pour out what is left of the lemonade and clink the two cups up at the sky.\n\"Same time tomorrow,\" we say. \"Bring new clouds.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"It only works if we say it out loud,\" we whisper. \"So say it big. A dragon, or a whale?\"",
+      "options": [
+        {
+          "say_word": "dragon",
+          "label": "A huffing, puffing cloud dragon",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "cloud_shape": "dragon"
+          }
+        },
+        {
+          "say_word": "whale",
+          "label": "A spouting cloud whale, and all the little clouds she makes",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "cloud_shape": "whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Our game,\" we say, \"so it needs our ending.\" Up above, all those copies jiggle and wait. \"We can blow, and let the wind take them off somewhere else. Or we can go quiet, and see whether they copy that too. Wind, or goodnight?\"",
+      "options": [
+        {
+          "say_word": "wind",
+          "label": "Blow, and let the wind carry the clouds away",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "goodnight",
+          "label": "Wave the clouds goodnight and let them copy our quiet",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.weather",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "prompt_version": "segment_writing_v2.1",
+    "pattern_choice": {
+      "chosen": "romp",
+      "why": "The age-6 framing is clouds coming in shapes and moods, which is already a game children play lying on their backs. A romp is the pattern that lets the game itself escalate until it is out of hand, so no plot has to be imported from outside the sky.",
+      "candidates": [
+        {
+          "pattern": "romp",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.13,
+          "sampled": true,
+          "rejected_because": "where rain comes from is a genuinely good question, but it is the age-7 treatment and the shelf already carries four mysteries at this band"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": true,
+          "rejected_because": "watching weather go by is a real quiet_hour story and should exist, but it belongs to fog or to a rainy afternoon indoors, not to the topic's main entry"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": "outweighed the winner but was not drawn, and just as well: every weather problem a five-year-old can picture is a storm doing damage, which is the adjacent topic's avoid list"
+        }
+      ],
+      "backup": "quiet_hour"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "the blanket, the two cups of lemonade and the porch roof. The comedy all happens in the sky; everything at ground level stays warm and unhurried, which is what keeps a very silly story landable at bedtime.",
+      "why": "A sky that does whatever you shout at it is a joke a five-year-old can hold in their head and immediately want to test out of the window. Silly has to be the dominant or the premise is wasted. The cozy accent gives both endings somewhere soft to finish.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a silly accent",
+          "because": "wonder would want the sky to be awesome and far away, and this sky has to be a playmate close enough to argue with"
+        },
+        {
+          "recipe": "silly with a big_adventure accent",
+          "because": "adventure pushes a sky story toward a storm, and a frightening storm is exactly what this story is engineered not to be"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The whole mechanism is that a shape has to be said out loud before the sky will make it, which means the child's spoken say-word is literally the thing that moves the plot. Only the we voice puts the child's mouth inside the story like that.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "a hero shouting at clouds is a child being watched being silly, which is much less funny than being the one shouting"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a grown-up remembering the day the sky played copycat quietly implies it is not true, and the joke needs to be happening now"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No natural value angle, no parent picks on a library story, and nothing interpersonal in it — the only other character is the sky. A pure play story carrying no value is the correct outcome here."
+    },
+    "cast": [
+      {
+        "role": "the sky that copies",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "The companion is the sky itself, which cannot speak, so it participates by doing: it answers every line we say, and in s3 it starts copying our bodies instead of our words. It never gets a voice, deliberately, because a talking sky would make the story about a character rather than about weather."
+      },
+      {
+        "role": "the shape we call for",
+        "reused": false,
+        "reused_from": null,
+        "slot": "cloud_shape",
+        "why": "A playthrough slot rather than a naming slot: the child's choice at c1 is the thing the sky builds, and it comes back in all three later segments, including as the last cloud to leave in both endings."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: wind is what moves clouds across the sky",
+        "wonder-fact: enough cloud between you and the sun makes the ground go dim and cool",
+        "wonder-fact: drizzle is very fine rain, the smallest kind",
+        "wonder-fact: clouds change shape constantly because they are not solid",
+        "sensory picture: thick cloud flattening out into a single grey layer with light coming through it",
+        "sensory picture: a cloud stretching until it is a wisp no thicker than a thread",
+        "sensory picture: drizzle ticking into a cup of lemonade",
+        "setting: a blanket on the grass in a back yard, an oak tree, a fence, a porch roof to move under"
+      ],
+      "gathered_but_unused": [
+        "evaporation and where the water in a cloud comes from — that is the age-7 treatment and would have turned the whale into a lesson",
+        "named cloud types, cumulus and cirrus — real vocabulary but the age-9 pleasure",
+        "thunder and counting the seconds to the flash — belongs to storms_and_lightning, and would fight the register",
+        "how a forecast is made — age-10 material",
+        "fog as a cloud sitting on the ground — kept for the quiet_hour weather story this record recommends"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "As soon as the sky has proved it is listening, so the child's first spoken word is the first thing the sky builds. Both branches are the same discovery in different shapes, so s3 can open on the game turning into copying either way, and the slot reads correctly with either word.",
+        "criteria": {
+          "more_interesting": "the dragon is a joke that escalates in three steps and ends in a sneeze that lands on our faces; the whale is a multiplication that fills the whole sky with copies of herself",
+          "more_engaging": "dragons and whales are the two things children ask the sky for, and neither is the grown-up-approved answer",
+          "reveals_taste": "dragon is bold; whale is gentle",
+          "reveals_curiosity": "dragon is just-experience, pure spectacle; whale leans how-it-works, because her spout is where all the little clouds come from",
+          "reflects_mood": "the dragon branch is the louder, sillier afternoon; the whale branch is slower and floats"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "On the one beat where the game has a consequence — the sun covered, drizzle in the lemonade — so the child chooses how their own game ends. Both endings use the copying rather than fighting it, which is the point.",
+        "criteria": {
+          "more_interesting": "s4a is us blowing and the whole sky blowing back hard enough to take itself apart; s4b is us going still and a thousand clouds copying the stillness",
+          "more_engaging": "blowing as hard as you can and waving goodnight are both things a listener will do along with the story",
+          "reveals_taste": "wind is bold; goodnight is gentle",
+          "reveals_curiosity": "wind is how-it-works and carries the story's one piece of real science; goodnight is just-experience",
+          "reflects_mood": "the wind ending finishes in bright sun with the lemonade tasting of rain; the goodnight ending finishes low and gold with the cups clinked at the sky, which is the better bedtime landing"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Structure held exactly from the v1 text: six segments, c1 after s1 rejoining at s3, c2 splitting into two endings with next null on both. The cloud_shape slot is set by both c1 options and read in s3, s4a and s4b, and every one of those sentences reads correctly with dragon or whale in it. Say-words dragon/whale and wind/goodnight are short and unalike. The weather topic carries no avoid list of its own, so the adjacent storms_and_lightning list was applied as a guard: no thunder, no lightning, no storm, nothing overhead is ever described as growing dark in a frightening way, and the worst thing that happens is drizzle in a cup. Vocabulary cloud, drizzle, windy and sunny all appear with a picture built round them."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts against the 200 ceiling: s1 172, s2a 181, s2b 183, s3 194, s4a 195, s4b 182. Longest path 744, shortest 729, against v1's flat 696-699. The length is up rather than down and that was accepted: the added words are spoken and shouted lines, of which every segment now carries two to five and v1 carried none. Measured speech-or-action share 47 per cent, sentence-length spread 7.25. No abstract mood words: v1 used cozy twice and this uses none. Every object introduced is used — the two lemonade cups are filled in s1, rained into in s3, and drunk or clinked in both endings; the porch roof we move the blanket under in s3 is where the last cloud comes down to say goodbye in s4b."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches end with the sky doing exactly what we asked and us still on our backs on the blanket, and s3 opens on the game escalating past that. Silly owns the middle and cozy owns both landings. Nobody is the butt of the joke — the dragon that cannot manage fire is delighted with its own sneeze rather than embarrassed by it. Both endings resolve completely and neither leaves the sky in a state anybody would worry about. Banned-language sweep clean."
+      }
+    ],
+    "writers_notes": [
+      "The say-word now has a job inside the fiction. The rule of the game is that a shape only happens if you say it out loud, which is stated in the c1 question, so the child's spoken word is the mechanism rather than a menu selection. That single change did more for this story than any line of prose.",
+      "One escalating joke, four steps: the sky copies our words (s1), builds what we shout and overdoes it (s2), starts copying our bodies until it has covered its own sun (s3), and in s4a copies us blowing hard enough to blow itself apart, or in s4b copies our quiet. The consequence in s3 comes out of the joke rather than arriving from outside it, which is what makes it a romp and not a lesson.",
+      "Competence, never warning, once and in one clause: when the drizzle starts we carry the blanket back under the porch roof, cups and all, where it stays dry and we can still see the whole sky. It is a reason, not a rule, and it gives us a better vantage point for both endings.",
+      "The lemonade is the story's ground-level thread. Full and going warm at the start, rained into in the middle, and in s4a it tastes of rain while in s4b it gets poured out and clinked. It is what comes home with us in place of an object.",
+      "Open question for the psychologist: the whale branch invents a made-up explanation for where little clouds come from, inside a game the story has already flagged as pretend. Whether a five-year-old files that as play or as fact is worth checking before this pattern is used again."
+    ],
+    "craft_changes": [
+      "Opening now primes the body before anything strange happens: on our backs on the blanket, grass prickling the elbows that hang off the edge, two cups going warm in the grass, and only then does the sky start listening. v1's version stated the weather and the game in flat summary.",
+      "The story now has voices. v1 contained no quoted speech anywhere in six segments; here we shout the shapes, whisper the rule, count the baby clouds out loud, own up to the drizzle with That was us, and say goodnight. The sky is still deliberately silent, because a talking sky would stop being weather.",
+      "Both choice questions are now spoken by us and handed over rather than announced. v1's narrator asked What shape should we call out next? and How should we end our cloud game?; the new c1 question also states the rule of the game, which is what makes the say-word matter.",
+      "Cut: the giant blue page simile, the dragon's peekaboo behind the oak tree, the squashed pancake cloud that did not mind, the baby cloud shaped like a lemonade cup, the ducklings after their mama, the sleepy sheep, the wind still humming far away, It is the funniest sky anyone has ever seen, and This game is getting good.",
+      "Cut both instances of the mood word v1 leaned on — our cozy blanket and the cozy golden color of almost-dinnertime — and replaced the second with what the light actually does: the sun finds the gap underneath, low and gold, and we drag the blanket back out into it.",
+      "Similes rebuilt from a child's own day: a snout curled like the handle of a jug, a chest the size of our school, a pillow with more pillows stuffed inside it, a sheet smoothed over a bed, a boat shoved across the bath, and clouds flattening into grey pancakes because we were lying flat as two pancakes ourselves.",
+      "One motif grown rather than replaced: copying. Words first, then shapes, then our bodies, then our stillness. v1 introduced copying only in s3 and dropped it again in s4a.",
+      "The escalation in s2a is now three steps of one joke — one ring, two rings, then a sneeze that lands on our faces — where v1 stacked rings, a sneeze, a tail-chase, a knot and a peekaboo into the same segment.",
+      "Sentence rhythm now rises and falls: Almost. and The sky blows. and Achoo. and The drizzle stops. land after long flowing sentences, where v1 held a steady mid-length hum for whole segments.",
+      "Safety as competence added where none existed: the move under the porch roof when the drizzle starts, given as a reason and with no fear anywhere near it.",
+      "The last line of each ending now belongs to us rather than to a summary — It tastes of rain, and Same time tomorrow. Bring new clouds — where v1 finished on narration about the game being tucked in."
+    ],
+    "authored_by": "hand-authored rewrite under prompt v2.1, replacing the v1 text of the same story (kept in story_definitions/stories/archive_v1/weather.json) for blind craft comparison",
+    "revision_of": {
+      "story_id": "story.weather.romp_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe, spine, title, the six-segment braid, both choice positions and their rejoin and split marks, the cloud_shape slot and which option sets it, the tone and curiosity leans, the premise, the cast and the yard. Only the prose and who asks the choice questions changed.",
+      "why": "This and the rainforest romp were the two worst-scoring stories on the craft audit: no spoken line anywhere, narrator-asked choices, unrelated gags stacked inside single beats, and abstract mood words carrying the feelings. They are the test of whether prompt v2.1 improves the highest-energy register rather than only the quiet one."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,332 @@
+{
+  "id": "story.hot_springs.age9to10.d1.pregen.be1c4d",
+  "title": "The Pool That Paints Itself",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.hot_springs",
+    "sel_theme": null,
+    "value_lesson": "Patience and careful observation",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A storyteller recalls guiding a curious child through a hot spring valley to solve the mystery of who painted the rainbow rings around a steaming pool.",
+  "slots": {
+    "child_name": {
+      "role": "The curious child visitor",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    },
+    "notebook_doodle": {
+      "role": "A small drawing the child makes in their notebook at the end",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "a tiny microbe wearing a scarf"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember the evening I walked the boardwalks of the hot spring valley with a child named {child_name} and their older sister. The light was going soft and gold, the way it does just before supper, and steam rose off the pools in slow ribbons. It curled around our knees. It made the whole valley look like it was wearing curtains.\n\nRanger Bea walked ahead of us, her boots knowing every board. She had been a ranger there for twenty years, and her voice sounded like the valley itself, low and unhurried, with a little sulfur in it. \"Rotten eggs,\" {child_name} whispered, wrinkling their nose. \"That's the springs breathing,\" said Ranger Bea. \"Wait till you see the one I call the painter.\"\n\nWe crossed a little bridge over a stream that steamed. The boards thrummed under our feet. And then the path opened, and there it was.\n\nThe biggest pool I have ever seen lay stretched out in front of us like a dropped paint palette, still shining. Around its edges ran rings of color. Orange first, thick as the rim of a pumpkin. Then green, bright as the skin of a lime. Then a band of blue so clear it looked like the sky had slipped down for a drink. The whole thing steamed gently, as if it had just finished and was still warm.\n\nRanger Bea stopped at the rail. \"We stay on the boards here,\" she said. \"The ground looks solid, but it's thin as a pie crust in places. This is the best spot anyway.\"\n\nBut {child_name} had already gone quiet. They were leaning forward over the rail, staring hard at the orange ring, and the ground hummed faintly through the soles of our shoes.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Who painted it?\" {child_name} asked, loud enough to scare a bird off a post. \"Who painted the edges orange and green?\"\n\nTheir sister snorted. \"Nobody. It's just dirt. Or old paint flaking off the rocks.\"\n\nRanger Bea did not answer right away. She knelt down at the rail, slow as a setting sun, and waved us closer. \"Look again,\" she said. \"Tell me what you see.\"\n\nWe looked. The orange ring went all the way around the pool, every inch of it, and inside it sat the green ring, and inside that, the blue. Not a smear anywhere. Not one drip out of place.\n\n\"They're in rings,\" {child_name} said. \"Perfect rings.\"\n\n\"And always in the same order,\" said Ranger Bea. \"Blue in the middle, where it's hottest. Then green. Then yellow. Then orange on the outside, where the water cools. Every pool in this valley wears the same pattern, like someone arranged it on purpose.\"\n\nTheir sister leaned over the rail despite herself. \"Dirt doesn't do that,\" she admitted.\n\n\"Dirt does not,\" said Ranger Bea. \"And paint doesn't grow. But these rings do. A little farther out every year, slow as a fingernail.\"\n\n{child_name} pressed their palms flat on the warm rail. Something was down there, working in the heat, painting in perfect order. Something that had never once been seen.\n\n\"So who is it?\" they whispered. \"Who's painting?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Who painted it?\" {child_name} asked, loud enough to scare a bird off a post. \"Who painted the edges orange and green?\"\n\nRanger Bea did not answer. She sniffed the air instead, like a bear catching supper on the wind. \"Let's take the long way round,\" she said. \"Up the terraces. I want you to meet the smell properly.\"\n\nWe climbed the steps beside the pool, and the ground changed under the boards. White rock rose on both sides of us in lumpy ledges, each one spilling into the next like a waterfall that had frozen mid-pour. \"Mineral rock,\" said Ranger Bea, running her hand along a ledge. \"The water builds it, drop by drop, the way dripping wax builds a candle.\"\n\n{child_name} touched it. Warm. Slick. Alive-feeling, somehow.\n\nThen the wind turned, and the smell rolled up the steps thick as soup steam. \"Rotten eggs!\" {child_name} gasped, pinching their nose.\n\n\"Sulphur,\" said Ranger Bea, breathing it in like fresh bread. \"The deeper the water comes from, the stronger it carries. Down where this water started, it's hot enough to cook an egg, and it hauls sulphur up the whole way.\"\n\n{child_name} looked back down at the pool, at the orange ring steaming far below. Then at the white rock. Then they wrinkled their nose again, on purpose this time.\n\n\"Bea,\" they said slowly. \"Does the smell make the colors?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Ranger Bea was waiting at the main pool, and she held up her thermometer like a wand. \"Well,\" she said, in that slow sulfur voice. \"What did you find?\" {child_name} told her, and Bea listened all the way through, nodding, the way you do when a friend is telling you something good. \"Then it's time you saw what I see,\" she said. \"This pool has a secret, and it lives in the rings.\"\n\nShe knelt on the boards and dipped the thermometer into the orange edge. We waited. \"Warm as a bath,\" she said, and showed us the little line of silver. Then she moved it to the green ring. \"Cooler.\" Then the blue, right at the center, where the steam rose thickest. \"Hot as tea fresh off the stove.\"\n\n\"So each color likes its own temperature?\" {child_name} asked.\n\n\"Each color,\" said Bea, \"is its own neighborhood. And here comes the person who can show you who lives there.\"\n\nFootsteps on the boardwalk. A woman with a backpack and a grin that went ear to ear came toward us, carrying a case she held very carefully, the way you carry a birthday cake. \"Dr. Moss,\" said Bea, \"meet my favorite detectives.\"\n\n\"Detectives!\" said Dr. Moss. \"Then you need to see this.\" She set the case down on a flat rock, opened it, and there was a microscope, black and shining. With a tiny glass tube, she scooped up one drop of orange water and slipped it under the lens. \"Look.\"\n\n{child_name} looked. And gasped.\n\n\"It's wiggling!\"\n\n\"The orange,\" said Dr. Moss softly, \"is not paint. It's alive. Millions of tiny microbes, so small a thousand could stand on a freckle. They live only in hot water, and each kind has its own favorite warmth. That's why they line up in rings.\"\n\n\"They're painting the pool,\" {child_name} whispered.\n\n\"They ARE the pool,\" said Dr. Moss. \"And they're painting it right now.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The light slid lower, and the rings of the pool deepened, the orange glowing like embers settling down for the night. \"So the pool really does paint itself,\" {child_name} said. \"With painters too small to see.\"\n\n\"Every hour of every day,\" said Dr. Moss, closing her case as gently as she had opened it. \"Long before us. Long after.\"\n\nRanger Bea touched the rail. \"Stay a moment,\" she said. \"Someone else comes to the warm water at dusk.\"\n\nSo we stayed, quiet as we could, and the ground hummed its low note through our shoes. Then came a soft padding from the rocks. A snow monkey picked its way down to a smaller pool nearby, fur silver in the last light, and lowered itself in slow, the way you slide into a bath that's almost too hot. It settled to its shoulders. Its eyes half closed. Its face went grumpy and blissful at once, like a grandpa who has claimed the best chair and means it.\n\n{child_name} pressed a hand over their mouth, shaking. Even Ranger Bea smiled her slow smile.\n\n\"The microbes keep it warm for him,\" Bea murmured. \"He'll never know. Good neighbors are like that.\"\n\nOn the walk back, {child_name} opened their notebook on the bridge rail and drew {notebook_doodle}, small and careful, in the corner of a page. I still have the memory of that page. The valley keeps the rest — the steam, the rings, the warm water waiting.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The light slid lower, and the rings of the pool deepened, the orange glowing like embers settling down for the night. \"So the pool really does paint itself,\" {child_name} said. \"With painters too small to see.\"\n\n\"Every hour of every day,\" said Dr. Moss, closing her case as gently as she had opened it. \"Long before us. Long after.\"\n\nRanger Bea looked out along the terraces. \"Walk back with me,\" she said. \"The night singers are starting.\"\n\nSo we said goodbye to the painter. {child_name} stepped back from the rail slow and careful, the way you leave a sleeping cat, and the boards thrummed under our feet as we went. The terraces steamed on both sides of us, quiet as sleeping animals. And then we heard it. First one cricket, trying its small violin. Then another. Then a whole orchestra tuning up in the grass beyond the boards, where the ground was cool and dark and theirs.\n\n\"They like the warm nights too,\" said Bea. \"Everybody in this valley lives by the heat. The microbes in the water. The crickets beside it.\"\n\n\"And us?\" {child_name} asked.\n\n\"You visit it,\" said Bea, \"and you come back. That's a way of living by something.\"\n\nAt the bridge, {child_name} opened their notebook and drew {notebook_doodle}, small and careful, in the corner of a page. \"So I remember the painters,\" they said.\n\n\"The painters will be here,\" said Ranger Bea. \"Same time tomorrow. Same rings. Bring the notebook.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We could look close at the colors right now, or we could follow that smell and see where it leads. Which way do you want to go?\"",
+      "options": [
+        {
+          "say_word": "Look close",
+          "label": "Examine the colored rings immediately",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Follow smell",
+          "label": "Explore the terraces and sulphur scent",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The mystery is solved, but the evening is ours. Shall we stay and see who else comes to the warm water, or walk back through the terraces and listen for the night singers?\"",
+      "options": [
+        {
+          "say_word": "Stay here",
+          "label": "Wait by the pool for animal visitors",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Walk back",
+          "label": "Return through the terraces as crickets sing",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.hot_springs",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core hook—what invisible life paints the pools orange, green, and blue—is a natural question with clues (colors, smells, terraces) that lead to a satisfying reveal about microbes, which suits a 9-year-old better than a blocked-goal or step-by-step build.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Mountain That Sings)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Ranger Bea, a park ranger of twenty years whose calm, weathered voice carries the sulphur-and-steam flavor of the valley",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and careful observation",
+      "why": "The mystery pattern naturally rewards slowing down to look closely; the older sibling's wrong guess shows what happens when we answer too quickly, and the satisfying answer comes only after collecting clues."
+    },
+    "cast": [
+      {
+        "role": "The storyteller (first-person frame narrator who once walked these boardwalks)",
+        "reused": false,
+        "why": "The storyteller_tale pattern requires an 'I' voice that opens and closes the memory warmly."
+      },
+      {
+        "role": "The curious child visitor with a small notebook",
+        "reused": false,
+        "why": "Asks the opening question and notices the clue others walk past; the child is named through a slot so the listener steps into the story."
+      },
+      {
+        "role": "Ranger Bea, veteran of the hot springs with hand lens and thermometer",
+        "reused": false,
+        "why": "Provides the thermometer clue and the safety competence beat; carries the accent tone."
+      },
+      {
+        "role": "Dr. Moss, a scientist who studies heat-loving microbes",
+        "reused": false,
+        "why": "Reveals the microscope clue that transforms the mystery from mineral to living."
+      },
+      {
+        "role": "An older sibling who confidently guesses wrong",
+        "reused": false,
+        "why": "Offers the 'it's just dirt' guess that the clues gently disprove, giving the mystery its second-beat twist."
+      },
+      {
+        "role": "A snow monkey appearing at the pool's edge",
+        "reused": false,
+        "why": "Appears at the warm landing to show the hot spring is a special place for creatures, widening the door to animal neighbors."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "steaming valley with boardwalks and scattered pools",
+        "rainbow rings: blue center, green, yellow, orange",
+        "thermometer showing each ring has its own temperature",
+        "microscope revealing living microbes in orange water",
+        "sulphur smell like the Earth breathing",
+        "snow monkey bathing at the edge",
+        "mineral terraces like frozen waterfalls (glimpsed)",
+        "crickets heard at dusk (wider door glimpse)"
+      ],
+      "gathered_but_unused": [
+        "Hot springs are home to tiny living things called microbes that are so small you need a microscope to see them, and they love water so hot it would scald us.",
+        "The bright orange, green, and yellow rings around hot springs are not paint or minerals alone — they are made by trillions of living microbes growing together in thick mats.",
+        "Different microbes like different temperatures, so the colors of a hot spring form rings — the hottest water in the center is clear blue, and as the water cools toward the edges, new colors of microbes appear.",
+        "Some hot springs smell like rotten eggs because of a gas called sulphur that bubbles up from deep underground along with the hot water.",
+        "In some places, hot spring water carries so many dissolved minerals that when the water spills over the edge and cools, the minerals harden into white or orange rock, building terraces that look like frozen waterfalls.",
+        "The blue color in the center of the hottest hot springs is not from microbes at all — the water is so hot and so clear that it absorbs every color of sunlight except blue, which bounces back to our eyes.",
+        "Some animals, like snow monkeys in Japan, climb right into hot springs to warm up in winter, sitting in the steaming water with snow piled on their heads.",
+        "Scientists study hot spring microbes to learn what life might look like on other planets, because these tiny creatures can survive in places almost as harsh as Mars."
+      ]
+    },
+    "safety_beat": "In s1, Ranger Bea lightly shows the child where to stand on the boardwalk by tapping the warm wooden slats with her boot and saying, 'This is the spot—close enough to see the paint, far enough to keep the mat safe,' demonstrating competence without warning.",
+    "motif": "A giant's paint palette dropped into the water, slowly revealing itself as a living city of tiny painters.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it pairs a real mystery with a real answer, keeps the wonder intact after the explanation, and lands both endings in quiet companionship without overstating anything."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning into the steam",
+        "s2a": "wide-eyed, a held breath of who painted it",
+        "s2b": "hands-on puzzling, a small detective's frown",
+        "s3": "the gasp of the answer arriving",
+        "s4a": "a stifled giggle melting into warm calm",
+        "s4b": "satisfied and sleepy, crickets carrying you home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "fail",
+        "notes": "1 blocking, 4 warning. [s1] banned language: 'ahead of'; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] banned language: 'ahead of'",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] banned language: 'ahead of'",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "05_hot_springs_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

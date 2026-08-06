@@ -38,3 +38,8 @@ jobs:
 
       - name: Verify Alembic migrations
         run: python scripts/verify_migrations.py
+
+      # Script entrypoint (not `python -m` from repo root) for the same
+      # logging-shadowing reason as the pytest step above.
+      - name: Validate knowledge graph definitions
+        run: python scripts/verify_knowledge_graph.py

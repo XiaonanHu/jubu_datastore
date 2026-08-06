@@ -1,0 +1,309 @@
+{
+  "id": "story.black_holes.age9to10.d1.pregen.63b518",
+  "title": "The Star That Danced with Nothing",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.black_holes",
+    "sel_theme": null,
+    "value_lesson": "Curiosity and asking questions",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We follow a star that seems to be dancing with an invisible partner, gathering clues until we discover the black hole at its heart.",
+  "slots": {
+    "star_name": {
+      "role": "The fast-orbiting star we are watching",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Zippy"
+    },
+    "snack": {
+      "role": "The midnight snack Professor Wobble shares during the long telescope wait",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "moon-shaped crackers"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Up on the roof of the observatory, the night smells like cold dust and rain that hasn't happened yet. Dr. Maya Reyes is here with us, and so is Professor Wobble, who is wearing one purple sock with Saturn on it and one green sock with a nebula. He is also talking to the telescope. \"I see you, little star,\" he squeaks, in a voice that sounds like a mouse swallowed a walkie-talkie. \"Oh yes I do.\"\n\nWe are watching a star near the middle of the Milky Way. On the computer screen it is just a dot of light, but this dot is *moving*. It is racing around in a tight little circle, faster than any star should, around absolutely nothing. Just dark. Just empty space.\n\n\"That,\" says Dr. Reyes, \"is the strangest thing I have ever seen.\"\n\nProfessor Wobble leans over the keyboard. \"What shall we call her?\" he asks us. \"She needs a name.\"\n\nWe look at the screen. The dot is zipping around like a firefly on a string. \"{star_name},\" we say.\n\n\"{star_name},\" repeats Professor Wobble, and he types it in. \"Welcome to the show.\"\n\nHe opens a tin and passes us {snack}. We eat them slowly, watching. The star goes around, and around, and around. But here is the thing that makes our skin feel fizzy: whatever she is dancing with, we cannot see it at all. Something is there. Something is pulling her in that fast, tight circle. But the middle of the dance floor is dark.\n\n\"What is she dancing with?\" we ask.\n\nDr. Reyes smiles. \"That,\" she says, \"is exactly what we are going to find out.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Follow the dancer,\" says Professor Wobble. \"Good choice. She's the one doing all the work.\" He pats the telescope. \"Keep your eye on her, old friend.\"\n\nWe watch {star_name} race across the screen. Around she goes, and around again. She is not wandering. She is *lapping* — the same tight circle, over and over, like a race car stuck on a very small track.\n\n\"Time her,\" says Dr. Reyes.\n\nProfessor Wobble clicks a stopwatch. We hold our breath. Around. Around. Around. Click.\n\n\"She's fast!\" he squeaks, in his telescope voice. \"Oh, she is *very* fast!\"\n\nDr. Reyes writes the number on a whiteboard, and then she does some maths underneath it. The numbers get bigger and bigger. Her eyebrows get higher and higher.\n\n\"Here is the rule,\" she says. \"The faster a star moves, the heavier the thing pulling on it must be. Like a swing — the harder you pull the chains, the faster you go.\" She taps the whiteboard. \"And {star_name} is moving so fast that whatever is pulling her weighs as much as *millions of suns*.\"\n\nWe look at the screen. Millions of suns. Our mouths fall open a little.\n\n\"But wait,\" we say. \"Something that heavy should be enormous. Something that enormous should be easy to see.\"\n\n\"Yes,\" says Dr. Reyes. \"It should.\"\n\nWe stare at the middle of {star_name}'s circle. There is nothing there. No giant star. No glowing mountain of anything. Just dark, ordinary, empty space.\n\nProfessor Wobble leans close to the screen and whispers, \"Where are you hiding, heavyweight?\"\n\nThe dark does not answer. But {star_name} keeps dancing around it, as fast as ever — and now we know she is dancing with an invisible heavyweight, millions of suns heavy, that refuses to be seen.\n\n\"First clue,\" says Dr. Reyes, and she writes it on the board: *Something enormous is there. We just can't see it yet.*",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Let's peek at the dance floor,\" says Dr. Reyes. \"Sometimes you learn more from the floor than from the dancer.\"\n\nProfessor Wobble nods so hard his glasses slip down his nose. \"Move the telescope,\" he tells it, in his squeaky voice. \"Not at the middle. *Beside* the middle. There's a good fellow.\"\n\nThe telescope hums and turns. On the screen, {star_name} slides off to one side, and we look at the space next to her path instead.\n\nAnd there it is.\n\nA ring. A huge, glowing ring of gas, orange and white, swirling slowly around the dark spot like water going around a drain. It is beautiful. It looks like someone stirred a pot of soup with a giant spoon and the soup caught fire.\n\n\"Oooooh,\" we say.\n\n\"That gas,\" says Dr. Reyes, \"is falling toward the dark spot. And as it falls, it rubs against itself and heats up — like your hands getting warm when you rub them together, only a million times more. By the time it gets close to the middle, it is so hot it glows.\"\n\nProfessor Wobble presses both hands to his cheeks. \"Dinner's cooking!\" he squeaks. \"But where's the cook?\"\n\nWe giggle. But he is right. Something is heating up all that gas. Something is pulling it in and spinning it around and making it glow like a campfire. Something with a very strong pull.\n\n\"The gas can see it,\" says Dr. Reyes. \"The star can feel it. Everything near it knows it is there.\"\n\n\"Everything except us,\" we say.\n\n\"Everything except our eyes,\" she corrects. \"But our eyes are not the only way to look.\"\n\nWe watch the glowing ring swirl, slow and bright, around a middle that stays perfectly dark. Professor Wobble hands us another {snack}, and we eat it without looking away.\n\n\"Second clue,\" says Dr. Reyes, writing on the board: *The invisible thing is heating up everything near it — but it still refuses to be seen.*",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Dr. Reyes pulls up a second picture on the screen, right beside the first. \"What did you find?\" she asks. We tell her. She nods slowly, and then she does something wonderful: she puts the two side by side, and they fit. They fit like puzzle pieces clicking together, like the last two socks in the drawer.\n\n\"There is something there,\" she says. \"Something with gravity so strong that once anything crosses a certain line — even light itself — it cannot get back out. That line is called the event horizon. And the something is called a black hole.\"\n\nA black hole. We say it out loud, because it is a magnificent thing to say. Professor Wobble says it in his telescope voice: \"A black hooole.\"\n\n\"Is it going to grab us?\" we ask.\n\n\"No,\" says Dr. Reyes. \"It doesn't reach out and grab anything. {star_name} is simply orbiting it, the way Earth orbits the Sun. It is the same gravity that pulls a dropped ball to the floor. Just much, much more of it.\"\n\nProfessor Wobble passes the tin of {snack} around again. \"And now,\" he says, \"the best part. In 2019, telescopes all over the world worked together like one giant eye, and they took an actual picture of a black hole's shadow. An actual picture!\"\n\n\"And tonight,\" says Dr. Reyes, grinning, \"our telescope is joining the next big photo night.\"\n\nProfessor Wobble pats the telescope. \"Did you hear that? You're going to be famous.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We stay. We stay up past midnight, which already feels like a small adventure, and Professor Wobble passes the tin of {snack} around one more time. \"Fuel,\" he whispers. \"Astronomers run on it.\"\n\nOn the screen, nothing is happening yet. Dr. Reyes explains that our telescope is not working alone tonight. Dishes and domes all over the world — on mountains, in deserts, in the cold white bottom of the Earth — are all pointing at the same dark spot. Together they make one giant eye, as wide as the planet.\n\n\"Ten minutes,\" she says.\n\nWe wait. We eat {snack}. Professor Wobble narrates in his telescope voice. \"I see you, little photons. Come along now. Nearly there.\"\n\n\"Three,\" says Dr. Reyes. \"Two. One.\"\n\nThe screen flickers. And slowly, slowly, like a photo developing in a bath, a ring appears. Fuzzy. Orange. A glowing donut of light with a perfect dark middle.\n\n\"There,\" breathes Dr. Reyes. \"That dark center is the shadow. The event horizon. The light around it is gas, heated up and glowing as it circles. We are looking at something no one can see — by looking at everything around it.\"\n\nWe cheer. We actually shout, because we cannot help it, and Professor Wobble shouts too, and the telescope gets a kiss on its cool metal side.\n\nThe printer hums. Out comes our very own copy of the ring, still slightly warm. We hold it carefully, the way you hold something that matters.\n\n\"The star that danced with nothing,\" says Professor Wobble softly. \"And we caught the nothing.\"\n\nWe tuck the picture under our arm to take home. Proof that the dark has a shape — and that we helped find it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We step outside. The rooftop air is cold and smells like dust and rain that still hasn't happened, and the telescope hums quietly behind us, doing its long, patient work.\n\n\"Look up,\" says Dr. Reyes.\n\nThe whole sky is spilled with stars. The Milky Way runs overhead like flour dusted across a dark counter, and for a moment we just stand there with our mouths open, because we are small, and the sky is not.\n\n\"Now,\" says Dr. Reyes. \"Finding one invisible point in all of that sounds impossible. So we cheat. We use the stars we can see.\"\n\nShe points. \"There — the teapot of Sagittarius. Follow the spout. Now slide over to that bright pair. Now stop.\"\n\nWe stop. Between two ordinary stars there is a patch of nothing. Just dark. Just empty sky.\n\n\"There,\" she says quietly. \"That is where {star_name} dances with her invisible partner. You cannot see the black hole. You will never see it. But you can find it — by the way everything around it moves.\"\n\nProfessor Wobble has gone very quiet, which for him is a kind of reverence. Then he squeaks, softly, \"I see you, little nothing.\"\n\nHe hands us a star chart and a silver pen. \"You do the honours.\"\n\nWe circle the dark spot. The pen scratches. The circle shines.\n\n\"Now you know the secret handshake,\" says Dr. Reyes. \"Any clear night, you can find that patch of sky and know exactly what is hiding in it.\"\n\nWe fold the chart and tuck it into a pocket, close and safe. Somewhere up there, {star_name} is still racing around her partner in the dark.\n\n\"Goodnight, you two,\" we whisper. \"We know you're there.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The star is dancing with something we can't see. Do we follow the dancer, or peek at the dance floor?\"",
+      "options": [
+        {
+          "say_word": "Follow",
+          "label": "Track the racing star itself and measure its speed",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Peek",
+          "label": "Look beside the star's path at the space around it",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Photo night is here, friends! Do we stay glued to the screen for the big reveal, or step outside and find our invisible friend in the real sky?\"",
+      "options": [
+        {
+          "say_word": "Screen",
+          "label": "Stay inside and watch the worldwide telescopes reveal the black hole's shadow",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Sky",
+          "label": "Go onto the rooftop and locate the dark spot among the constellations",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.black_holes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 27
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Black holes are naturally discovered through clues—astronomers infer them from things they cannot see—so a gentle mystery about gathering evidence with a telescope fits the topic perfectly for a 9-year-old.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "Professor Wobble, the telescope operator who wears mismatched galaxy-print socks and narrates everything the telescope does in a squeaky 'telescope voice' ('I see you, little star!').",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Curiosity and asking questions",
+      "why": "The mystery pattern begins because someone wonders why a star is moving strangely; the material offers this naturally without forcing it."
+    },
+    "cast": [
+      {
+        "role": "A child who loves asking questions (part of the 'we')",
+        "reused": false,
+        "why": "The we_adventure teller needs a reason to be at the observatory; the child's noticing of the strange star starts the mystery."
+      },
+      {
+        "role": "Dr. Maya Reyes, an astronomer who studies black holes",
+        "reused": false,
+        "why": "She anchors the science, explains how to find something invisible, and asks the first choice question."
+      },
+      {
+        "role": "Professor Wobble, the telescope operator",
+        "reused": false,
+        "why": "Carries the silly accent; operates the telescope, delivers data with comic flair, and asks the second choice question."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A star dancing in a fast circle around something invisible",
+        "Gas glowing brightly as it falls toward the invisible spot",
+        "The star's speed tells us something very heavy is pulling on it",
+        "The edge is called the event horizon—not a wall, but a line where escape becomes impossible",
+        "Telescopes around the world working together to take the first picture of a black hole's shadow (the fuzzy orange donut)",
+        "Black holes do not suck things in from far away—you have to get very close",
+        "A giant black hole sits at the center of the Milky Way",
+        "Rooftop observatory setting with telescope and computer screen of moving dots",
+        "Wider door: Gravity—the same force that pulls a dropped ball holds stars in orbit"
+      ],
+      "gathered_but_unused": [
+        "A black hole is a place in space where gravity is so strong that not even light can escape once it crosses the edge.",
+        "The edge of a black hole is called the event horizon. It is not a wall or a surface, but a line where escape becomes impossible.",
+        "Astronomers cannot see black holes directly, so they look for clues like stars moving in strange ways.",
+        "When gas and dust fall toward a black hole, they heat up and glow brightly before crossing the event horizon.",
+        "In 2019, scientists used a network of telescopes around the world to take the first picture of a black hole's shadow.",
+        "Some black holes are only a few times heavier than our Sun, while others are millions of times heavier.",
+        "There is a giant black hole at the center of our Milky Way galaxy, and stars near it zip around it at incredible speeds.",
+        "Black holes do not suck things in from far away. You have to get very close before gravity becomes too strong to escape."
+      ]
+    },
+    "safety_beat": "In s1, Professor Wobble shows us where to stand on the rooftop observatory—behind the yellow line near the telescope base, flashlight pointed at the floor—competence shown lightly through his silly telescope voice, with no tension.",
+    "motif": "An invisible partner in a dance—something we cannot see, but whose presence we can trace by the way everything around it moves.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, warmth, and real science with a strong read-aloud voice — the two-clue structure builds genuine suspense, Professor Wobble supplies companionship and comedy without undercutting the awe, and both endings land with a held-breath quiet that suits a bedtime listen."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a fizz of mystery",
+        "s2a": "leaning in, breath held at each orbit",
+        "s2b": "wide-eyed at the glowing ring, a giggle, then hushed again",
+        "s3": "the click of pieces fitting — saying 'black hole' out loud with relish",
+        "s4a": "a held breath, then a shout of triumph and a warm printout to hold",
+        "s4b": "small under a big sky, quiet and glowing, sleepy-safe"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "28_black_holes_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

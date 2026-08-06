@@ -1,0 +1,316 @@
+{
+  "id": "story.venus.age7to8.d1.pregen.840590",
+  "title": "The Backwards Blanket",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.venus",
+    "sel_theme": null,
+    "value_lesson": "It is okay to move at your own speed, even if you go the opposite way from everyone else",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "A blanket-loving child and a giggling friend unravel why Venus stays warm under its cloudy quilt while spinning the wrong way round.",
+  "slots": {
+    "hero_name": {
+      "role": "The blanket-loving child",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Mabel"
+    },
+    "friend_name": {
+      "role": "The backwards-spinning friend",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Jasper"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandma's porch chair creaks like a contented cat when she sits down, and that is how we know evening has properly begun. \"Look up, {hero_name},\" she says. \"First star.\" But it is not a star. We know stars. Stars twinkle, like they're shivering. This one does not shiver. It hangs over the garden fence, steady and silver, and it looks... wrapped up. Warm. Like it is wearing a blanket we cannot see. \"Why does it shine so warm?\" we ask. Grandma rocks. The chair purrs. \"That,\" she says, \"is Venus. And it has the thickest, cosiest, most backwards blanket in the whole sky.\" Backwards? We pull our own blanket tighter. How can a blanket be backwards? Grandma just smiles. \"Ask it,\" she says. So we do. We lean out over the porch steps, and we whisper, \"Venus, why are you so warm?\" And the strangest thing happens. The light seems to wink. Not twinkle. Wink. Like it heard us. Like it has been waiting all evening for someone to ask.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We build the fort right there on the living room rug. Three chairs, two sofa cushions, and the big patchwork quilt. \"In,\" we say. We pull {friend_name} under with us. It is dark and squishy and smells like laundry soap. \"Now we wait,\" we whisper. \"If the blanket holds our heat in, we will get toasty. Just like Venus.\" We hold very still. We listen to our own breathing. Slowly, slowly, the air gets thick. It gets heavy. It gets warm. \"It is working!\" {friend_name} says. \"I am sweating!\" We push the quilt up and tumble out, gasping. Grandma is waiting on the porch. The chair creaks. \"Well?\" she asks. \"The blanket holds the heat close,\" we say. \"It never lets it go.\" Grandma nods. \"Venus wears a golden quilt of clouds,\" she says. \"Thick as porridge, thick as jam. It never comes off. The whole planet stays toasty.\" We look up. The silver light winks again. Warm. But something still feels odd.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We run to the playground. {friend_name} is already there, hanging off the merry-go-round. \"Push me!\" they shout. \"But push me backwards!\" We grab the bars. We run the wrong way round. The world spins backwards. The trees slide past in reverse. {friend_name} giggles so hard they nearly fall off. \"It works!\" they shout. \"It feels funny, but it works!\" We spin and spin until we are dizzy. We flop onto the grass. Grandma is waiting on the porch. The chair creaks. \"Well?\" she asks. \"Backwards works,\" we say. \"It feels strange, but it works.\" Grandma rocks. The chair purrs. \"Venus spins backwards too,\" she says. \"All the other planets go one way. Venus goes the other. As if something bumped it, long ago, and turned it round.\" We look up. The silver light hangs steady. Backwards. But why would a planet do that?",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back on the porch steps, we are buzzing. Grandma holds up a hand. \"Tell me,\" she says, her eyes twinkling like proper stars, \"what did you find?\" We tell her everything, all in a tumble. She listens, and the chair creaks, and the chair purrs. \"Then it is time,\" she says, \"for the blanket trick.\" From her sewing basket she brings out an old globe and a flashlight. She hands us the light. \"You be the sun.\" We click it on. Grandma wraps the globe in her thick yellow shawl, fold over fold, till it looks like a lumpy golden quilt. \"Venus wears clouds,\" she says, \"thicker than any blanket. The sun's warmth slips in... and cannot slip back out.\" The shawl feels warm already. Then Grandma does the funniest thing. She spins the globe. The wrong way round. Slow, slow, backwards, like a top that changed its mind. \"Long ago,\" she says, \"something gave Venus a great big bump, and ever since, it turns the other way. On Venus, the sun rises in the west.\" We stare at the glowing quilt turning backwards in her hands. Warm blanket. Backwards spin. One strange, wonderful world. \"So it is backwards,\" we say, \"and it is proud of it.\" Grandma laughs, and the porch chair purrs.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We pull the golden blanket around our shoulders, and it smells of wool and Grandma's lavender soap. \"I am Venus,\" we say, stepping into the garden where the grass is cool. \"The Evening Star with my thick cloudy coat.\" We wrap it tighter, fold over fold, just like the shawl on the globe. \"You look like a lumpy quilt,\" Grandma says from her chair. Creak. Purr. \"A beautiful, backwards lumpy quilt.\" We stand very still, feeling the warmth trapped close, while above us the real Venus hangs steady and bright. \"Do you feel it?\" we whisper up. \"The warm staying in?\" The light seems to soften, like a friend tucking in their own blanket. We are small on the porch steps, wrapped up and different, and the night air cannot reach us. \"It is not so strange,\" we say, \"being backwards.\" Grandma rocks. \"No,\" she says. \"Just warm.\" We keep the blanket on. It is ours now.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Spin with me!\" {friend_name} shouts, already on the merry-go-round. We climb on, and the metal is cold under our hands. \"Backwards,\" we say. \"Like Venus.\" We push off with our feet, slow, slow, the wrong way round. The world tilts. Grandma's porch light trails behind us, then the fence, then the garden, all sliding backwards past our eyes. \"Wheee!\" {friend_name} yells, hair flopping into their face. \"We are Venus!\" We spin and spin, dizzier than a top that changed its mind, and the chair creaks from the porch. Purr. Purr. \"Careful!\" Grandma calls, but she is laughing. We are not careful. We are backwards and silly and exactly right. Finally we wobble to a stop, the world still turning inside our heads. \"Did you see?\" we gasp. \"We were the backwards blanket!\" {friend_name} nods, eyes crossed. \"Best way to be,\" they say. We lie back on the metal, looking up at Venus, and we are still smiling.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Should we test how blankets trap heat first, or shall we find out why Venus turns the wrong way?\"",
+      "options": [
+        {
+          "say_word": "Cozy test",
+          "label": "Build the blanket fort to test the warmth",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Whee spin",
+          "label": "Go to the merry-go-round to feel the backwards turn",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now that we know Venus's secrets, do you want to wrap up tight like its cloudy blanket, or spin slow and backwards like its turn?\"",
+      "options": [
+        {
+          "say_word": "Bundle up",
+          "label": "Wrap in the golden blanket on the porch",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Turn round",
+          "label": "Spin backwards on the merry-go-round",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.venus",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Venus's backwards spin and heat-trapping clouds are natural puzzles with clues a child can gather, making 'why is this twin so strange?' a more satisfying fit than a fixable problem or a simple trip.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma's porch chair that creaks like a contented cat whenever someone sits in it",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "It is okay to move at your own speed, even if you go the opposite way from everyone else",
+      "why": "The backwards spin naturally emerges as a difference to celebrate rather than fix, shown through the friend who giggles while going the other way"
+    },
+    "cast": [
+      {
+        "role": "A child who loves wrapping up in blankets",
+        "reused": false,
+        "why": "Naturally embodies the 'thick clouds as blanket' metaphor through their personal obsession with wrapping up"
+      },
+      {
+        "role": "A friend who spins the wrong way on the merry-go-round",
+        "reused": false,
+        "why": "Physically demonstrates the backwards spin through play, making the abstract concept concrete"
+      },
+      {
+        "role": "A grandparent who remembers old names for things",
+        "reused": false,
+        "why": "Provides the Evening Star knowledge and the long-ago cosmic bump story, grounding the mystery in time"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "thick clouds act like a giant blanket trapping heat",
+        "Venus spins backwards compared to Earth",
+        "Venus is often called the Evening Star",
+        "A long-ago bump made Venus spin the opposite way",
+        "A backyard at dusk where the first bright 'star' appears",
+        "A playground merry-go-round that creaks when pushed the wrong way",
+        "Opening question: Why does Venus wear a blanket of clouds that never comes off?",
+        "Clue: The child feels how warm it gets inside a blanket fort",
+        "Clue: The merry-go-round spins one way, but Venus turns the other"
+      ],
+      "gathered_but_unused": [
+        "Venus is wrapped in thick clouds that act like a giant blanket, trapping heat and keeping the whole planet warm.",
+        "Venus spins backwards compared to Earth and most other planets, so its sun rises in the west and sets in the east.",
+        "A single day on Venus lasts longer than its whole year, because it spins so slowly while racing around the sun.",
+        "Venus is often called the Evening Star because it shines so brightly in our sky just after sunset, though it is really a planet.",
+        "Underneath its cloudy blanket, Venus is a rocky world about the same size as Earth, sometimes called our twin.",
+        "The clouds on Venus are made of tiny drops of acid that never fall as rain, because the ground below is too hot.",
+        "Venus is the hottest planet in our solar system, even hotter than Mercury which sits closer to the sun.",
+        "Long ago, something may have bumped Venus or slowed it down, making it spin the opposite way from its neighbors."
+      ]
+    },
+    "safety_beat": "Grandma shows the child where to stand on the porch steps to see the Evening Star clearly over the neighbor's roof, moving aside a potted plant so the view is unobstructed.",
+    "motif": "A golden quilt that traps warmth and turns backwards",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already wraps real planetary facts inside a warm, fond companionship between child and Grandma, with a porch-chair refrain that purrs aloud and an ending that lands snugly on both branches."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning toward the sky",
+        "s2a": "giggly, squished, then triumphant and sweaty",
+        "s2b": "dizzy delight, spinning with a friend",
+        "s3": "wide-eyed, hands on the glowing quilt, everything clicking",
+        "s4a": "wrapped up, brave, and sleepy-safe",
+        "s4b": "breathless laughter settling into a smile"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s2a] flat rhythm: sentence lengths vary little (spread 2.9); [s2b] flat rhythm: sentence lengths vary little (spread 3.0); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "03_venus_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

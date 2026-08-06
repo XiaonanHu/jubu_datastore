@@ -1,0 +1,277 @@
+{
+  "id": "story.dinosaurs.mystery_001",
+  "title": "The Mystery of the Enormous Footprint",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.dinosaurs",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A child explorer follows gentle clues to discover which dinosaur made an enormous rain-filled footprint.",
+  "slots": {
+    "hero_name": {
+      "role": "the child explorer solving the footprint mystery",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Milo"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "{hero_name} was an explorer. Not the grown-up kind. The kind with a yellow backpack, a magnifying glass, and a notebook for mysteries. One bright morning, {hero_name} walked into the Green Valley, where the gentle dinosaurs lived. The ferns were taller than doors. The air smelled like rain and leaves. And there, right in the middle of the path, was a footprint. Not a small footprint. An enormous one. It was bigger than a bathtub, sunk deep in the soft mud, with four huge round toes. It looked just like the fossil footprints in {hero_name}'s dinosaur book, only fresh. Rainwater had filled it up like a little pond. {hero_name} stood at the edge and looked down into it. \"Wow,\" whispered {hero_name}. \"Who made you?\" Out came the notebook. Mystery number one, whose footprint is this? There were two clues. Nearby, the treetops looked nibbled flat across the top. And beside the footprint, a long swishy line curved away through the mud, as if something big had dragged behind. Far away, a drum sound boomed, slow and soft. Boom. Boom.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "{hero_name} hiked up the little hill for a better look. Sure enough, the tallest trees had flat tops. Every leaf above a certain height was gone, munched away neat and tidy. {hero_name} held up the magnifying glass and thought like a detective. The low leaves were not touched at all. Only the very top ones were nibbled. So the mystery muncher had to be tall. Very tall. Taller than a house. Maybe taller than two houses stacked up. {hero_name} wrote it down in the notebook. Clue one, our dinosaur is a plant eater with a very long neck. And plant eaters are gentle. That made the mystery even more exciting. Somewhere down in the valley, the drum sound came again. Boom. Boom. It was slow and calm, like giant slippers on soft ground. A stomp, {hero_name} decided. A great big friendly stomp. The stomping was coming from the lake. {hero_name} pulled the backpack straps tight and headed downhill, straight toward the sound.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "{hero_name} knelt down beside the swishy line and followed it, step by step. It curved through the mud like a giant paintbrush stroke. What could drag along the ground like that? A tail, {hero_name} decided. A tail as long as a slide. And that was not all. On both sides of the swishy line were more footprints. Some were enormous, like the first one. Some were middle sized. Some were small and round, like dinner plates. {hero_name} counted them all in the notebook. Big prints, middle prints, little prints, all walking the same way. That meant a herd. A whole dinosaur family, walking together, with one swishy tail dragging in the middle. One more thing lay in the mud. A fern leaf, half munched, with neat and tidy bite marks. Plant eaters, then. Gentle ones. The trail of toes pointed straight toward the lake. Boom. Boom. The soft drum stomp sounded again, a little closer now. {hero_name} grinned and followed the trail.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "At the edge of the lake, {hero_name} stopped behind a fern as big as an umbrella. The stomping was close now. Boom. Boom. Each stomp made the puddles wiggle in little rings. {hero_name}'s heart thumped right along with it, not scared, just excited. This was the best mystery ever. Then, above the treetops, something moved. Up went a neck. Up, and up, and up, like the tallest slide in the world. A dinosaur. A real one, gray green and enormous, with kind, sleepy eyes. She looked like somebody's mama, big and slow and calm. She stretched her long neck to the top of a tree and munched the leaves, neat and tidy. Just like the nibbled treetops. Her long tail swished through the mud. Just like the swishy line. {hero_name} did the quietest happy dance ever danced behind a fern. The clues all fit together. But a good explorer always checks one last thing. Was this gentle giant really the one who made the enormous footprint?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Down by the mama's legs stood a baby long neck, small as a pony. It stomped its little feet in the mud, happy as anything. Stomp, stomp, stomp. Little round footprints appeared, the size of dinner plates. Then the mama took one slow step. Boom. Her great foot sank deep into the mud and lifted away again. And there it was. A brand new footprint, enormous, with four huge round toes. It matched the mystery footprint exactly. {hero_name} wrote in the notebook. Case closed. The enormous footprint belongs to the long neck mama. The baby lifted its head and gave a tiny, happy roar. It sounded like a party horn. The mama lowered her great neck, all the way down to {hero_name}'s hat, and sniffed it gently. Her breath smelled like fern leaves. Nearby, a Triceratops with three horns waded into the lake to drink beside the herd. {hero_name} waved goodbye to the whole dinosaur family and walked home, notebook shut tight, mystery solved, smiling the whole way.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{hero_name} hurried back along the trail to the enormous footprint and crouched down to wait. Boom. Boom. The herd was coming this way to drink. The mama long neck stepped out of the trees. Her great foot came down in the mud, right beside the mystery footprint. Boom. When she lifted it, there was a brand new print. Same size. Same four round toes. A perfect match. \"Case closed,\" whispered {hero_name}. \"It was you.\" But the footprint had one more secret to share. In the old print, the one full of rainwater, three tiny frogs were splashing. A small bird landed on the edge, dipped its beak, and drank. The enormous footprint was not just a footprint anymore. It was a little pond, just right for little creatures. {hero_name} drew it all in the notebook, a giant's step turned into a tiny swimming pool. The mama dinosaur rumbled a soft, happy rumble. {hero_name} laughed out loud and stomped one small footprint next to hers, just to say thank you.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Two clues, one explorer. Which clue should {hero_name} follow first?",
+      "options": [
+        {
+          "say_word": "treetops",
+          "label": "The nibbled treetops on the hill",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "mud",
+          "label": "The swishy line in the mud",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "One last check. Where should {hero_name} look to solve the mystery?",
+      "options": [
+        {
+          "say_word": "baby",
+          "label": "The little dinosaur by the mama's legs",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "puddle",
+          "label": "Back at the footprint puddle",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.dinosaurs",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "the age-6 treatment is meet the famous ones, and a mystery is the only pattern that lets a child identify a dinosaur from evidence instead of being told its name.",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.30,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.30,
+          "sampled": true,
+          "rejected_because": "the highest-weighted candidate, but a tour of dinosaurs is a list with walking between the items; the shelf gets a journey later, from a topic that has a real route in it"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "the boom of the approaching footsteps. All the thrill lives in that one repeating sound, so the wonder can stay still and belong to the animal when she finally appears.",
+      "why": "the payoff of this story is a neck rising above the treetops, which is a stillness moment and therefore wonder. The accent exists to keep a young listener leaning forward through the clue-hunting middle.",
+      "rejected": [
+        {
+          "recipe": "big_adventure dominant with a curious_wonder accent",
+          "because": "adventure dominant would push the story toward being chased, and the age-5 avoid list rules out dinosaurs menacing children."
+        },
+        {
+          "recipe": "curious_wonder + silly",
+          "because": "nothing in the material is naturally funny except the baby's party-horn roar, which is one beat and cannot carry an accent for a whole story."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "this is the first story in the dinosaur topic family, so it is the right place to let the child name a hero who can walk into every later story in the family, including the deep dives. A detective also needs a person to be the detective.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "the we voice makes the clues ours to spot, which softens the pleasure of watching somebody else work them out, and it would have left the topic family with no named character to carry forward."
+        },
+        {
+          "teller": "storytellers_tale",
+          "because": "a remembered mystery gives away that it was solved, which drains the one thing this pattern is selling."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "no value angle turned up naturally, and the request carried no parent value picks. A discovery story that carries no value is a normal, good outcome."
+    },
+    "cast": [
+      {
+        "role": "the child explorer with the yellow backpack and mystery notebook",
+        "reused": false,
+        "why": "invented here, and invented to be reused. The hero_name slot is a naming slot keyed to (topic family, character role), so whatever the child calls this explorer is stored once and propagates down through the family, including into the triceratops deep-dive story. The prose carries no pronoun for the hero anywhere, deliberately, so any name the child gives fits."
+      },
+      {
+        "role": "the long neck mother and her baby",
+        "reused": false,
+        "why": "the mystery's answer has to be an animal, and a mother with a young one is the safest way to make an enormous dinosaur feel calm rather than threatening at this band."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "fossil footprints and what their size and toe shape reveal",
+        "flat-topped treetops as evidence of a very tall browser",
+        "a dragged tail leaving a swishy line",
+        "mixed print sizes meaning a herd travelling together",
+        "long-necked plant eaters stripping leaves from the tops of trees",
+        "a water-filled footprint becoming a tiny pond for small creatures"
+      ],
+      "gathered_but_unused": [
+        "teeth shapes telling diet, which belongs to the age-7 treatment",
+        "which dinosaurs became birds",
+        "stegosaurus plates, saved for that deep-dive topic",
+        "eggs and nests",
+        "how a fossil forms over millions of years"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "immediately after both clues are laid out, so the child picks the line of investigation. It rejoins because the two clues answer the same question from different angles and the herd has to be reached either way.",
+        "criteria": {
+          "more_interesting": "the treetops path is deduction on a hill and gives the long neck away; the mud path is tracking on hands and knees and gives the herd away. Different posture, different discovery.",
+          "more_engaging": "one option is climbing for a better view, the other is following a track. Both are things children already play at.",
+          "reveals_taste": "treetops is the bold pick, mud is the gentle pick.",
+          "reveals_curiosity": "treetops leans how_it_works because it is pure reasoning from evidence; mud leans just_experience because it is following a trail for the pleasure of following it.",
+          "reflects_mood": "the hill is the brisk version of the middle; the mud trail is the slow, close-up version."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice always splits, and it sits on the last-check beat, so the child decides what counts as proof and therefore which ending the story earns.",
+        "criteria": {
+          "more_interesting": "one ending stays with the family and matches a fresh print to the mystery print; the other walks back to the original print and finds it has become a pond full of frogs. One resolves the animal, the other resolves the footprint.",
+          "more_engaging": "a baby dinosaur and a puddle with frogs in it are both strong draws, and neither is the obviously correct answer.",
+          "reveals_taste": "baby is the gentle pick, puddle is the bold pick.",
+          "reveals_curiosity": "baby leans just_experience, since the pleasure is being near the herd; puddle leans what_its_for, since it asks what a giant footprint ends up being good for.",
+          "reflects_mood": "the baby ending is warm and close; the puddle ending is the curious, slightly wry one."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "mystery beat jobs all placed: an opening question in s1, two clues that each support the answer, a near-answer sighting in s3, and a confirming check on both endings. One slot, well under the cap of five. Age-5 avoid list applied: no hunting or eating, no dinosaur menacing the child, and no extinction material at all."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "each segment sits between 175 and 200 words; sentences short enough to read aloud in one breath; no ellipses, asterisks, parentheses or emoji. Year-5 and year-6 vocabulary appears with a picture built around it: stomp, fossil, herd, Triceratops. Banned words checked: none of assessment, mastery, score, milestone, behind, ahead of, delayed, gifted or grade level appears in the prose."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "all four paths read end to end. The hero_name slot was read with a short name and a long one to check the sentence rhythm holds. Both endings resolve the mystery explicitly, both are warm, and neither withholds anything or points at a next story."
+      }
+    ],
+    "writers_notes": [
+      "The boom is the story's spine made audible. It appears in every segment before the reveal and stops once she is on the page, which is what makes the reveal land without any danger in it.",
+      "The heart-thumping line in s3 says not scared, just excited on purpose. At this band an unexplained thumping heart can read as fear, and the excitement has to be named for it.",
+      "Triceratops walks into the s4a ending as one line. That is a deliberate deeper door: it plants the animal the triceratops deep-dive story then builds a whole story around.",
+      "This record was written after the story, as part of the pilot's decision-record pass. The reasoning is reconstructed honestly from the authoring notes, not invented to look tidy."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  }
+}

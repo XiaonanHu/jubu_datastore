@@ -1,0 +1,298 @@
+{
+  "id": "story.octopus.mystery_001",
+  "title": "Now You See Her",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.octopus",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "where the little octopus went when the tide pool went empty",
+  "slots": {
+    "octopus_name": {
+      "role": "the little octopus who plays hide and seek",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Ripple"
+    },
+    "first_clue": {
+      "role": "the first clue we found about where she went",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "she went speckly grey"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The tide is out. We climb over the wet black rocks to our favorite tide pool. The water is clear as a window, and the sun makes wobbly gold rings on the sand at the bottom. Down there sits a little octopus we have met before. Her name is {octopus_name}. She lifts one curly arm out of the water and waves at us, slow and friendly. We wave back with our whole arm, octopus style. On the far side of the pool, a hermit crab pokes his head out of his little shell house. Eight arms, he grumbles. Who needs eight of anything. Then a shadow slides across the pool. It is only a seagull going by. But when we look down again, the pool is empty. No octopus. No curly arms. Only water, and sand, and one lumpy grey rock, and a big empty spiral shell wedged in the corner. Where did she go? This pool is smaller than our bathtub. She has to be right here. So how do we find her?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We crouch down by the hermit crab. Excuse me, we whisper. Did you see where she went? The crab pulls himself up tall in his shell, which is not very tall at all. I see everything, he says. I am a professional watcher. Then he thinks for a long time. I saw eight arms, he says. Or maybe seven. Or eleven. Numbers are hard when they wiggle. We ask him what color she was. Ah, says the crab. That part I remember. She was pinky orange, like the inside of a peach. Then she went speckly grey, like a wet stone. And then, he waves a claw, poof. He points with the wrong claw. He notices, and points again with the other one, right at the middle of the pool. So she did not swim away at all. She only changed. An octopus can turn almost any color she likes, quick as a blink. That is how she says hello, and that is how she disappears. The crab bows. Watching is thirsty work, he says, and pops back inside.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We stay very still and look at the water instead. Still as herons. First we look for something moving, and nothing moves. So we look for the small things. There. A tiny puff of sand near the middle of the pool, curling up and settling down again. Something pushed off from that spot. Beside it lies a broken sand dollar, tipped over on its side. Under the edge is a little dip in the sand, shaped like a bowl, and much too small for an octopus to fit in. Except an octopus can fit almost anywhere. She has no bones at all. Not one bone in her whole body. She is all squish. If her hard little beak fits through a gap, the rest of her can pour through after it, like water going down a drain. A crack as skinny as a straw is a door to her. We look at the pool again, and the pool changes. It is not empty. It is full of hiding places. Every crack is a door. So which door did she choose?",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Now we have two clues. The first one is that {first_clue}. The second one is right here in front of us. A line of tiny sand puffs runs along the bottom of the pool. Puff, puff, puff, like little footprints made of dust. They lead into the corner. And in the corner sit two things. One is the lumpy grey rock, covered all over in bumps. The other is the big empty spiral shell, pale as milk, wedged between two stones. The hermit crab comes hurrying over sideways. That shell is mine, he says. Well. It is going to be mine. I have been growing into it for weeks. We look at the rock. We look at the shell. And then something happens that makes us hold very still. A small puff of water comes out of the mouth of the shell. Just one. Shells do not breathe. Rocks do not breathe either, but that rock has an awful lot of bumps for a rock. We lean in close over the water. Ready?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We lean right over the shell and peek into its round mouth. Two golden eyes look back at us. Hello, {octopus_name}. We found you. And out she comes. Not fast. Not all at once. First one arm curls over the lip of the shell. Then another. Then the rest of her pours out, smooth as syrup off a spoon, through a hole no bigger than a bottle cap. Her whole body, poured through a bottle cap. She lands on the sand and puffs herself round again, and all her little suckers grip the bottom, tap tap tap. That is the whole trick. No bones anywhere. Just squish. The hermit crab arrives at top speed, sideways. He climbs into the empty shell. It is enormous on him. He wobbles. He tips right over. I will grow into it, he says from inside, with great dignity. {octopus_name} turns bright pink all over, which is exactly what laughing looks like on an octopus. She waves one curly arm goodbye. We wave back with our whole arm, and behind us the sea comes sliding up the rocks to fill her pool again.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We sit back on our heels and go quiet. Quiet as the rocks. Quiet as the water. It takes a while, and waiting is hard, so we count our own breaths. Then the shell tips, just a little. One arm slides out over the sand, testing. Then another. And then {octopus_name} flows out of the shell like water poured from a jug, and walks across the pool on the tips of her arms. As she walks, she changes. Over the pale sand she turns sandy. Over the dark stone she turns dark. Over a patch of pink seaweed she blushes pink, and stays pink, and looks straight up at us. Pink means hello. We say hello back. In the middle of the pool she stops, reaches one long arm behind her, and gives the empty shell a push. It rolls right to the hermit crab. For me? he says. Truly? He climbs in and turns around twice. It fits him like a hat that was waiting. Then the sea slides up over the rocks and fills the pool, and we walk home saying hello to every color we pass.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Should we ask the hermit crab what he saw, or look at the pool ourselves for clues? Say crab, or say look.",
+      "options": [
+        {
+          "say_word": "crab",
+          "label": "Ask the hermit crab what he saw",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_clue": "she went speckly grey"
+          }
+        },
+        {
+          "say_word": "look",
+          "label": "Look at the pool ourselves for clues",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_clue": "she poured herself into somewhere small"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Should we peek right inside the shell, or sit back and wait quietly for her to come out? Say peek, or say wait.",
+      "options": [
+        {
+          "say_word": "peek",
+          "label": "Peek inside the spiral shell",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "wait",
+          "label": "Wait quietly for her to come out",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.octopus",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "An octopus vanishing in front of you is a question a five-year-old can hold in their head, and the true answer is two real mechanisms, camouflage and squeezing, so curiosity does all the pulling and nothing has to be in danger.",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.29,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "the parent ocean_animals story already on this topic family's shelf is a journey, and a second guided swim would read as the same story seen closer up"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false
+        }
+      ],
+      "backup": "problem_and_fix"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the hermit crab, who miscounts her arms, points with the wrong claw, and is convinced the empty shell is already his",
+      "why": "The wonder belongs to the vanishing and the reveal, so every joke is parked inside one small character who is never on screen during the reveal itself.",
+      "rejected": [
+        {
+          "recipe": "cozy + curious_wonder",
+          "because": "a bright midday rock pool with a comedy crab is not a blanket-and-lantern story, and the shelf already has cozy bedtime stories in the_moon and birds"
+        },
+        {
+          "recipe": "curious_wonder + big_adventure",
+          "because": "motion would turn looking for her into chasing her, and the whole point is that she is found by noticing, not by hurrying"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "Searching is naturally a shared job, so both branches become two ways we investigate rather than two things a character does while the child watches.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "the distance a named hero gives is protective in feelings stories and only costs intimacy here, where the pleasure is doing the looking yourself"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered tale puts the answer in the past tense, and a mystery is best while the answer is still unknown"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "no natural value angle in the materials; the shell handover in the waiting ending brushes generosity, but it is a one-beat gag on one path and tagging it would claim more than the story does"
+    },
+    "cast": [
+      {
+        "role": "the little octopus",
+        "reused": false,
+        "why": "she is the topic and the mystery, so she cannot be borrowed; her name is a naming slot, which means the child's name for her walks into every later octopus story"
+      },
+      {
+        "role": "the sideways hermit crab",
+        "reused": true,
+        "why": "the parent ocean_animals story already put sideways crabs and shell-swapping hermit crabs on this reef, so bringing one back gives the topic family continuity for free and gave the silly accent a body to live in"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "an octopus can pour through any gap her hard beak fits through",
+        "no bones at all",
+        "skin changes color in a blink, and pink means hello",
+        "suckers grip the ground like hundreds of tiny hands",
+        "hermit crabs move house into bigger empty shells",
+        "a tide pool at low tide, smaller than a bathtub",
+        "a trail of tiny sand puffs left by something pushing off"
+      ],
+      "gathered_but_unused": [
+        "an octopus tastes with her arms",
+        "squirting ink as a smokescreen",
+        "opening a screw-top jar to reach the crab inside",
+        "carrying two coconut halves around as a portable house",
+        "three hearts and blue blood",
+        "the octopus den with its front garden of shells and pebbles"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "right after the disappearance, when the question is fresh and the only thing left to decide is how to investigate; each option sets first_clue, which s3 speaks back out loud, so the rejoin never erases the pick",
+        "criteria": {
+          "more_interesting": "one branch is a comic interview with an unreliable witness, the other is a silent observation scene; different in kind, not the same beat with different wallpaper",
+          "more_engaging": "some children want to ask somebody and some want to find it themselves, and at five both are tempting",
+          "reveals_taste": "bold vs gentle",
+          "reveals_curiosity": "how_it_works vs just_experience",
+          "reflects_mood": "the crab branch is loud and funny for a lively evening, the looking branch is slow and still for a tired one"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the last beat before the answer, so the split buys two honest ways of being shown the same secret; the mystery resolves fully on both paths and neither option is a wrong guess",
+        "criteria": {
+          "more_interesting": "peeking gets the squeeze in close-up through a bottle-cap hole, waiting gets the color change played out across the whole pool",
+          "more_engaging": "one is the impatient child's move and one is the patient child's move, and this story rewards both instead of teaching patience at anyone",
+          "reveals_taste": "bold vs gentle",
+          "reveals_curiosity": "how_it_works vs just_experience",
+          "reflects_mood": "peek ends on a giggle, wait ends on a hush"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "mystery beats all present: question opens in s1, one clue per branch, a second shared clue in s3, satisfying answer in both endings. Fixed before writing: the first outline answered the mystery in s3, which left c2 with nothing to decide, so the reveal moved into s4a and s4b and s3 now only narrows it to two suspects."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "s2a and s2b written together as a pair so the interview and the silent look could be made deliberately unlike each other. Sentences kept short enough to read aloud in one breath. The node's year-5 vocabulary, arms and suckers and squish, all appear with a picture built around each one."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "both first_clue values read correctly in the s3 sentence: 'the first one is that she went speckly grey' and 'the first one is that she poured herself into somewhere small'. Both endings resolve the shell and the crab as well as the octopus. No cliffhanger, and the option not taken is never treated as the wrong one."
+      }
+    ],
+    "writers_notes": [
+      "s1 plants both suspects, the lumpy rock and the empty shell, so the corner in s3 is a payoff and not a coincidence",
+      "watch repeated use of 'suddenly'; it was cut twice, and the seagull shadow does the same job without it",
+      "keep the jokes inside the crab, because an early draft let the narrator be funny about the octopus and it flattened the reveal",
+      "nobody touches the octopus anywhere in this story; she comes to us",
+      "she is never hiding from a hunter, which keeps the parent topic's avoid entry about animals eating each other well away"
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

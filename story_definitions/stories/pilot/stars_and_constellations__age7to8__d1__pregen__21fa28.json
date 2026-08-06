@@ -1,0 +1,325 @@
+{
+  "id": "story.stars_and_constellations.age7to8.d1.pregen.21fa28",
+  "title": "The Star That Stays",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.stars_and_constellations",
+    "sel_theme": null,
+    "value_lesson": "Trust in something steady: when everything else seems to spin and change, one fixed point can guide you.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "An overnight sailing trip to a tiny island, steered the whole way by the one star that never moves.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Captain Marek has a boat with a name we get to choose. What shall we call her? The Moth? Good. The Moth it is. We are her crew tonight, and we are going sailing in the dark.\n\nThe harbor is sleepy. Ropes creak. Water goes plip, plip against the wooden sides. Captain Marek spreads out a big paper chart on his knees and holds the lantern close. His finger traces a dotted line across the paper, past the harbor, past the last buoy, to a tiny island with a tiny lighthouse drawn in ink.\n\n\"There,\" he says. \"We will get there the old way. No compass. Just the stars.\"\n\n\"Just the stars?\" we ask.\n\n\"Just the stars,\" he says. \"Sailors did it for a thousand years. So can we.\"\n\nHe pushes off, and the Moth slides out into the black water. Behind us the town lights shrink smaller and smaller, like somebody turning down a lamp. And as our eyes get used to the dark, the sky begins to fill. First a hundred stars. Then a thousand. Then more than anyone could ever count.\n\n\"Now,\" says Captain Marek, \"we find the one that stays.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Captain Marek points up, and there it hangs, bigger than we ever imagined: the Big Dipper, seven bright stars making a giant ladle in the sky. \"Find the two stars at the end of the cup,\" he says. We reach up with one finger and trace the dotted line between them, just like on his paper chart, up and up past the edge of the Dipper's bowl. The line lands on a single star, not the brightest, not the biggest, but holding perfectly still while all the others seem to drift around it. \"Polaris,\" says the captain. \"The North Star. For a thousand years, sailors found their way across black oceans by that one steady light.\" We look at it a long moment, and it looks back, small and sure. \"Now you know the secret,\" he says. \"But the night is long, and the sky won't sit still for us forever.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Lie back,\" says Captain Marek, so we stretch out flat on the deck boards, the wood still warm from the day's sun. \"Watch.\" Down low, almost touching the horizon, one bright light shines steady and unblinking. \"That's not a star,\" he says. \"That's a planet. A neighbor waving hello.\" We watch and watch until our necks feel long, and slowly we see it: the whole sky is turning, wheeling like a giant slow top. Nobody says anything for a while. The water goes plip, plip. Then the captain points, and we trace the dotted line with our finger to the center of the wheel. Polaris. The one dot that stays put while everything else spins around it. \"Now,\" says Captain Marek, \"you feel it moving. But what is that still center for?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "A gentle hand shakes us awake. 'Come and see,' whispers Captain Marek. 'The sky has been busy while you slept.'\n\nWe sit up, blankets tight around our shoulders. The boat is quiet. The water is black glass. And the stars—oh, the stars have moved. But one star has not moved at all. It hangs exactly where it always was, steady and bright and sure. We hold still and look at it, and it holds still too.\n\n'You found something out there,' says the captain, nodding at the sky. 'Now let me show you something sailors have trusted for a thousand years.'\n\nFrom his coat he pulls a small brass tool on a loop of string. It glints in the dark. 'This is the curious one,' he says. 'It always wants to know exactly how high the North Star floats.'\n\nHe holds it up, arm straight, and squints along its edge. 'Your turn.'\n\nThe brass is cool in our fingers. We hold it up, and the string hangs down, and there—right at the top—sits the star that never wanders. We are navigators now, measuring the night with our own two hands.\n\n'The island is still out there,' says Captain Marek. 'But now we know which way is north.'",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "'North is ours,' says Captain Marek. 'Who wants to steer her in?'\n\nWe do. We do!\n\nThe tiller is smooth wood, worn by a hundred hands. It feels big in ours. 'Keep the star over my shoulder,' says the captain, sitting very still, 'and you cannot go wrong.'\n\nSo we steer. The Moth hums through the dark water. When the bow drifts, the star slides sideways—and we pull it back, pull it back, until it floats over the captain's shoulder again, steady as a button sewn on the sky.\n\n'You're navigating,' he says softly. 'Truly navigating.'\n\nThen—light. A great warm beam sweeps out from the island and finds us, turning slowly. It touches our faces, and we do not say anything at all. It goes on around, and comes back, and touches us again. The lighthouse and the North Star, shaking hands above the sea.\n\nInside, the keeper is waiting. Her name is Wren. 'Ships use my lamp close in,' she says, 'and the star far out. They're partners.' She presses something small into each of our palms—a brass star, stamped with an arrow pointing up.\n\nWe sail home at pink dawn, steering by the memory of the light. And whenever we hold our brass star up to the sky, the arrow points the way.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The wind drops. The sail goes soft as a sleeping cat.\n\n'Well,' says Captain Marek, listening. 'The wind has gone to bed. So we do what sailors do—we anchor in the cove and row.'\n\nThe little rowboat goes plip, plip across water black and still. The island waits, dark and quiet, and at the top of it Wren the keeper holds a lantern low. 'Quickly,' she whispers. 'The sky won't wait forever.'\n\nWe climb. Round and round the lighthouse stairs, up and up, while below us the great lamp turns slowly, doing its night's work.\n\nAt the top, Wren opens the door to the whole sky.\n\nOh. Stars everywhere, wheeling slowly above the sea, the whole great turning of it spread out like a map too big for any table. And there, in the middle of it all, the star that stays. We lean on the rail and watch it turn. Nobody says anything. We don't need to.\n\n'There,' says Wren at last, pointing low across the water, 'is where the Sun will rise, and end the stars' shift.' Then she presses something smooth into each of our hands—a piece of sea glass, soft as a secret. 'A fallen star,' she says, 'that found its way home.'\n\nWe sail in at dawn, holding our stars, knowing the way north forever.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The sky's awake and waiting, crew. Do we hunt the North Star right now, with the Dipper as our arrow, or do we lie back on the deck first and let the whole sky show us its slow turning?\"",
+      "options": [
+        {
+          "say_word": "Hunt it",
+          "label": "Find the North Star now using the Big Dipper's pointer stars",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Watch first",
+          "label": "Lie on deck and watch the sky slowly wheel before finding the star",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"North is ours, and the island's close. Shall we sail her straight in, one of you on the tiller steering by the star, or drop anchor in the cove and row ashore to see the sky from the top of the lighthouse itself?\"",
+      "options": [
+        {
+          "say_word": "Steer us in",
+          "label": "Take the tiller and sail to the island guided by Polaris",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Climb the light",
+          "label": "Row ashore and climb the lighthouse to watch the wheeling sky from the top",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.stars_and_constellations",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 11
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's core material is literally about travelers moving across seas and steering by the stars, so a journey plot lets the North Star, navigating, and the horizon drive the story naturally.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Captain Marek's brass star-finder, a small tool of wood and string he calls 'the curious one' because it always wants to know exactly how high the North Star floats.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Trust in something steady: when everything else seems to spin and change, one fixed point can guide you.",
+      "why": "The material offers it naturally: the whole climax is watching the Dipper wheel while Polaris holds still, and the final leg steers home by that steadiness. It rides as wonder, never as a lecture."
+    },
+    "cast": [
+      {
+        "role": "An old sea captain with a salt-white beard",
+        "reused": false,
+        "why": "He owns the boat, teaches the Big Dipper pointer trick, and his voice can carry both cozy authority and the choice questions."
+      },
+      {
+        "role": "A lighthouse keeper on a tiny island",
+        "reused": false,
+        "why": "She receives us at journey's end, shows how her lamp and the North Star work together, and gives us the small thing we carry home."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wooden deck of an old sailing ship at midnight, sails glowing faintly in starlight",
+        "old sea captain teaches the Big Dipper's pointer stars",
+        "lighthouse keeper on a tiny island, light and North Star working together",
+        "first marvel: eyes adjusting until thousands of stars appear",
+        "tracing the pointer stars like a treasure map's dotted line",
+        "the North Star smaller than expected but steady, never moving",
+        "waking to find the Dipper tipped on its side but Polaris unmoved",
+        "measuring the star's height above the horizon with a sailor's tool",
+        "the same light that guided ancient sailors guiding us tonight",
+        "a glimpse of one bright steady planet near the horizon (door to Planets)",
+        "the captain's chart spread by lantern light (door to Maps and Globes)"
+      ],
+      "gathered_but_unused": [
+        "The North Star, Polaris, stays almost perfectly still in the sky while all the other stars appear to circle slowly around it through the night.",
+        "Polaris sits almost directly above Earth's North Pole, which is why it seems not to move as our planet spins.",
+        "Sailors long ago used the North Star to navigate across huge oceans with no land in sight, because it always showed them which way was north.",
+        "The two stars at the end of the Big Dipper's cup point in a straight line right to the North Star, like a giant arrow drawn in stars.",
+        "The higher the North Star sits above the horizon, the farther north you are — sailors measured its height to figure out where on Earth their ship was.",
+        "The Big Dipper changes position through the night and across the seasons — sometimes it looks upside down or standing on its handle — but its pointer stars always aim at Polaris.",
+        "Travelers crossing deserts at night steered by the stars just like sailors did, because there were no roads, signs, or landmarks in the sand.",
+        "On a dark clear night far from city lights, you can see thousands of stars — but the North Star is easy to find because of its special spot that never changes."
+      ]
+    },
+    "safety_beat": "In s1, before anyone steps aboard, Captain Marek shows each kid where to sit on the deck's low bench and how to hold the 'sailor's grip' rope when moving about, demonstrated once, lightly, as simply how crew do things; in s4b, Wren walks the lighthouse stairs ahead of us with a hand on the rail, showing the inside edge without a word of warning.",
+    "motif": "A finger tracing the sky like a dotted line, always landing on the same steady light.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story has a genuinely luminous subject — a night sky that turns, a star that stays — but it keeps explaining the wonder instead of letting the child sit inside it, and the two middle branches repeat the same Polaris lesson rather than deepening the encounter.",
+          "editor_notes": [
+            "s2a and s2b both deliver the same beat — trace the Dipper's two end stars to Polaris, hear 'for a thousand years' — so whichever branch is read, the second telling flattens the first; differentiate them: let one branch be the finding (the finger tracing, the landing on the still star) and the other be the feeling (lying back on warm boards, necks going long, the slow wheel noticed in silence before anyone names it).",
+            "The best moment in the whole draft is s2b's 'Watch.' followed by lying flat on sun-warmed wood — protect that stillness: after 'the whole sky is turning, wheeling like a giant slow top,' let there be a beat of quiet before the captain speaks again, instead of moving straight into the instructional 'Then the captain shows us the Dipper's two end stars.'",
+            "s3 opens with the sky's motion already explained twice ('like a great wheel spinning above the sea' repeats s2b's image) — cut the re-explanation and let the waking moment be pure looking: black glass water, the moved stars, the one that hasn't, held a sentence longer before the brass tool comes out.",
+            "The brass tool is called 'the curious one' in both s2a and s3, and in s2a it appears as 'the little brass tool of wood and string' — brass, wood, and string in one phrase trips the tongue and muddles the object; give the tool one clean introduction (s3's 'small brass tool on a loop of string' is the better one) and let s2a keep its eyes on the sky.",
+            "Both endings rush the leave-taking: s4a's lighthouse beam 'touching our faces like a hand' and s4b's door opening 'to the whole sky' are the story's peak wonders, but each is followed within two sentences by a gift pressed into palms — let the beam, or the wheeling stars from the tower top, have one full unhurried paragraph of being witnessed before Wren speaks, so the leaving feels like a gift rather than a plot exit.",
+            "s4b's 'Oh. Stars everywhere' is exactly right — that single-syllable landing is the sound the whole story should aspire to; consider giving s4a's beam an equivalent small held breath ('Then—light.' is close, but the simile 'like a hand' arrives too fast on its heels)."
+          ],
+          "segments_revised": 5,
+          "segments_rejected": 1
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it teaches a real skill (finding Polaris) through the body, lets wonder sit without grabbing, and closes with a token that carries the glow home — the sound-words land, the names are speakable, and the still moments are given their full length."
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning into the dark",
+        "s2a": "arm lifted, a small gasp of I-found-it",
+        "s2b": "flat on the deck, dizzy with slow wonder",
+        "s3": "sleepy-eyed, then tall with pride",
+        "s4a": "hands tight on the tiller, then hushed by the beam",
+        "s4b": "breath held at the top of the stairs, then soft and satisfied"
+      },
+      "segments_revised": 5,
+      "segments_rejected": 1
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 10 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.8); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] no voices: segment carries no spoken line; [s3] narration heavy: only 30% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] no voices: segment carries no spoken line; [s4a] narration heavy: only 35% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 30% of sentences carry speech or action",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 33% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "round 1: [s1] polish rejected: grew 115% of the original, over the 115% limit",
+      "round 1: [s2a] polished (167 -> 151 words)",
+      "round 1: [s2b] polished (127 -> 132 words)",
+      "round 1: [s3] polished (210 -> 207 words)",
+      "round 1: [s4a] polished (198 -> 215 words)",
+      "round 1: [s4b] polished (202 -> 220 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 30% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 35% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[story] slots: declared but never used: ['boat_name', 'star_height_game']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "12_stars_and_constellations_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

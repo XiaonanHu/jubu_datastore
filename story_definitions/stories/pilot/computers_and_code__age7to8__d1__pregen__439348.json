@@ -1,0 +1,316 @@
+{
+  "id": "story.computers_and_code.age7to8.d1.pregen.439348",
+  "title": "The Loop That Wouldn't Stop",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.computers_and_code",
+    "sel_theme": null,
+    "value_lesson": "Persistence: the fix only comes after failing in three different ways, and each failure taught something the success needed",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "We must fix a runaway robot sprite by learning to write precise code that tells it exactly when to stop.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The coding club room smells like pencil shavings and hamster. In the corner, Hammy runs on his wheel. Squeak. Squeak. Squeak. Around and around he goes, and he never gets anywhere, and he never seems to mind.\n\nWe are trying to get somewhere. On our screen, a little robot sprite stands in front of a treasure door, and floating beside the door is a golden key. It shines. It waits. It does not move, because neither does Zap.\n\n\"Pick up the key,\" we tell the computer. We even say please.\n\nZap stands there.\n\n\"Pick up the key!\" we say, louder, the way you'd say it to a dog who is pretending not to hear.\n\nZap stands there some more. His little pixel face does not even blink.\n\n\"Why won't he DO anything?\" we ask.\n\nMs. Bit, who runs coding club and wears sneakers with lightning bolts on them, leans over our shoulder. \"Because a computer can't guess,\" she says. \"It only does exactly what you type. Not almost what you type. Exactly.\"\n\n\"So we have to tell him everything?\"\n\n\"Everything,\" she says. \"In his language. That's what code is — commands a machine can follow.\"\n\nWe look at Zap. Zap looks at the key. Somewhere in his little robot head, we are pretty sure, he is waiting for us to get it right.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Every step,\" we say. \"We can do that.\"\n\nWe start typing. \"Pick up the key.\" Zap's arm moves. \"Pick up the key,\" we type again. His other arm moves. \"Pick up the key.\" His fingers wiggle. \"Pick up the key.\" His left foot slides forward.\n\n\"How many was that?\" we ask.\n\nHammy squeaks. Squeak. Squeak. We lose count.\n\n\"Pick up the key,\" we type again, and then, because our fingers are getting tired, \"drop the key.\"\n\nZap drops it. The key clatters to the floor, spins once, and stops.\n\n\"No, wait, pick it up again,\" we type, but Zap is already walking. He walks right past the key, right past the door, and bumps into the wall. Bump. Bump. Bump.\n\n\"He can't stop,\" Ms. Bit says, \"because you haven't told him to.\"\n\nWe look at the screen. Zap is still bumping. The key is still on the floor. And we have typed so many commands we can't remember which ones worked.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"A loop,\" we say. \"Let's use a loop.\"\n\nMs. Bit shows us the command. \"Repeat,\" we type, \"pick up the key.\"\n\nZap picks up the key. Then he picks it up again. Then he picks it up again. Then he starts spinning in circles, holding the key out like a trophy, faster and faster.\n\n\"Stop,\" we type. Zap keeps spinning.\n\n\"STOP,\" we type, louder. Zap spins faster. The key is a golden blur.\n\nIn the corner, Hammy starts running in his wheel. Squeak. Squeak. Squeak. Faster and faster, like he's trying to keep up.\n\n\"Why won't he stop?\" we ask.\n\n\"Because a loop repeats forever,\" Ms. Bit says, \"unless you tell it when to stop. And you didn't.\"\n\nZap spins. Hammy runs. The key flashes. We are all going in circles, and none of us knows how to make it end.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Ms. Bit pulls up a chair. It rolls. It always rolls. \"Okay,\" she says. \"Show me what you actually told him. Not what you meant to tell him. What you told him.\"\n\nWe lean in close. Our older sibling leans in too, and reads the code out loud, slowly, like a recipe.\n\n\"Loop,\" they say. \"Do the thing. Check for the key.\"\n\n\"And?\" says Ms. Bit.\n\n\"And... keep going.\"\n\nHammy squeaks in the corner. Around and around.\n\nWe stare at the screen. We read it again, out loud this time, because hearing it is different than seeing it. \"Keep going... keep going...\"\n\nWait.\n\n\"There's no stop,\" we whisper. \"We never told him when to stop.\"\n\n\"There's an 'if' missing,\" says our sibling. \"Or it's upside down.\"\n\nMs. Bit grins, and her lightning-bolt sneakers tap the floor. Tap tap. \"Now you're hearing it,\" she says. \"A loop without the right 'if' is a hamster wheel. It runs forever, and it never once checks for the key.\"\n\nWe look at Zap. Zap looks at the key. The key shines.\n\n\"So what did you find?\" Ms. Bit asks. \"Tell me.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The 'if' is backwards,\" we say. \"It checks if Zap is holding the key before it tells him to pick it up.\"\n\n\"So flip it,\" says Ms. Bit.\n\nWe type the fix. Loop. Do the thing. If you see the key, grab it. Then stop.\n\nZap moves. He walks. He bends. He picks up the golden key, and it fits the lock like it was always meant to. Click. The door swings open.\n\nBehind it is not treasure. It is a screen full of buttons and sliders, and one says JUMP HEIGHT. We drag it up. Zap leaps so high he bonks the top of the screen and giggles. Actually giggles.\n\n\"You just designed a game level,\" says Ms. Bit. She hands us a sticker shaped like a moth. \"Bug of the Week. Because a bug is just a discovery wearing a disguise.\"\n\nWe stick it on our sleeve. We are never taking it off.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The 'if' is backwards,\" we say. \"It checks if Zap is holding the key before he picks it up.\"\n\n\"So flip it,\" says Ms. Bit.\n\nWe type the fix. Loop. Do the thing. If you see the key, grab it. Then stop.\n\nZap moves. He walks. He bends. He picks up the golden key, and it turns in the lock like it was always meant to. Click. The door swings open.\n\nBehind it is not treasure. It is a message box, blinking. A note from our friend across town pops onto the screen. \"Did you fix it?\" it says.\n\n\"We did,\" we type back. \"Zap finally listened.\"\n\nMs. Bit prints our fixed code and hands it to us like a certificate. \"Show your family,\" she says. \"Tell them you found the bug, and the bug found you back.\"\n\nWe fold the paper carefully. It goes in the front pocket, where the important things live.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"You could type out every single step for Zap, one command at a time, or you could try using a loop to repeat the action. Which way feels right to you?\"",
+      "options": [
+        {
+          "say_word": "Type it all",
+          "label": "Write every command one by one without a loop",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Try a loop",
+          "label": "Use a loop command to repeat the action",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The door is open! Do you want to see how Zap can jump higher and design your own game level, or shall we use this code to send a message to a friend's computer?\"",
+      "options": [
+        {
+          "say_word": "Jump higher",
+          "label": "Explore game design by changing Zap's jump height",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Send message",
+          "label": "Use the fixed program to send a message to a friend",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.computers_and_code",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 29
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "Code's loops and ifs are literally machines for trying, checking a condition, and trying again, so a story about fixing a bug or getting a command sequence right lets an 8-year-old feel how programs make choices.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.26,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Zap the Robot Sprite",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Persistence: the fix only comes after failing in three different ways, and each failure taught something the success needed",
+      "why": "The problem_and_fix pattern naturally requires three distinct failures (no loop, infinite loop, backwards if) before the earned solution, making persistence the organic engine of the plot."
+    },
+    "cast": [
+      {
+        "role": "A kid who just started learning to code",
+        "reused": false,
+        "why": "The first-person plural 'we' needs a brave beginner who types boldly and makes mistakes without shame."
+      },
+      {
+        "role": "An older sibling or friend who codes a little more",
+        "reused": false,
+        "why": "Asks 'What did you TELL it to do?' to guide without fixing, modeling the persistence value."
+      },
+      {
+        "role": "A grumpy fictional character inside the program (Zap the Robot Sprite)",
+        "reused": false,
+        "why": "Carries the curious_wonder accent; does exactly what the code says even when silly, mirroring our mistakes with mechanical confusion."
+      },
+      {
+        "role": "A patient teacher or club leader",
+        "reused": false,
+        "why": "Appears at the end to celebrate the bug discovery and offer the 'Bug of the Week' trophy."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A computer cannot guess what you mean",
+        "A loop is a command that tells the computer to do the same thing again and again",
+        "An 'if' command lets a program make a choice",
+        "When a program goes wrong, the mistake is called a bug",
+        "First try: the character writes one long chain of commands with no loop",
+        "Second try: they add a loop but forget to tell it when to stop",
+        "Third try: they add an 'if' to stop the loop, but the condition is backwards",
+        "The moment of noticing: they read their code out loud, line by line",
+        "The fix: one small change, a flipped 'if'",
+        "A coding club room with posters of robots and a class pet hamster",
+        "Game Design deeper door moment"
+      ],
+      "gathered_but_unused": [
+        "A computer cannot guess what you mean. It only does exactly what the code says, in the exact order the commands are written.",
+        "A loop is a command that tells the computer to do the same thing again and again, so a person doesn't have to write the same instruction a hundred times.",
+        "An 'if' command lets a program make a choice: if something is true, do this; if not, do something else.",
+        "When a program goes wrong, the mistake is called a bug, and finding and fixing bugs is a normal part of writing code that every programmer does.",
+        "The first computer bug got its name in 1947 when a real moth got stuck inside a giant computer and caused errors.",
+        "Computers follow code step by step, one command at a time, like following a recipe, and they never skip a step on their own.",
+        "The same loop with one tiny change can make a program do something wildly different, like drawing a square instead of a spiral.",
+        "Programmers often test code by running it over and over, changing one small thing each time to see what happens."
+      ]
+    },
+    "safety_beat": "In the coding club room, the older sibling demonstrates proper posture at the computer and shows how to save work before running new code, modeling competence without warning.",
+    "motif": "A golden key that only works when the code is exactly right",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the hamster wheel quietly teaches the concept before Ms. Bit names it, the debugging is shown as real legible steps (read it aloud, find the missing stop, flip the if), and the sound-words land as their own small sentences a read-aloud voice can play."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning toward the stubborn robot",
+        "s2a": "giggles tipping into uh-oh",
+        "s2b": "dizzy delight with a held breath underneath",
+        "s3": "hushed, the click of spotting it",
+        "s4a": "proud fizz, stickered and glowing",
+        "s4b": "warm and important, pocketed carefully"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 12 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.9); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.6); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.6); [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 33% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 33% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['loop_action', 'robot_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "30_computers_and_code_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

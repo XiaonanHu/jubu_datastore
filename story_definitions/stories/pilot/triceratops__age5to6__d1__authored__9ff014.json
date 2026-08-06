@@ -1,0 +1,318 @@
+{
+  "id": "story.triceratops.age5to6.d1.authored.9ff014",
+  "title": "The Face in the Tray of Stones",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.triceratops",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "A child explorer and a paleontologist put a real Triceratops skull back together, piece by wobbly piece, until a face looks back at them.",
+  "slots": {
+    "hero_name": {
+      "role": "the child explorer rebuilding the skull",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Milo"
+    },
+    "first_piece": {
+      "role": "the part of the skull the child chose to build first, which holds the shape for everything after",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "long brow horn"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "{hero_name} came up the hill with the yellow backpack on. Inside the big canvas tent the air smelled of hot cloth and wet stone, and on the table sat a tray of stones. Fossil bones, brown and heavy, one as big as a bread board.\n\"Good morning,\" said Doctor Wren, and put down her brush. \"Today we build a face.\"\nOn the tent wall hung a drawing of a Triceratops. Three horns. And a huge bony collar spreading out over the head, like a shield made out of face.\n\"It all came out of the hill last week,\" said Doctor Wren. \"Nobody has put it together yet. Want to help?\"\n{hero_name} pulled the soft cotton gloves on.\n\"Two hands underneath, always,\" said Doctor Wren, and showed how. One hand flat underneath, the other steady on top. \"Then it cannot get away from you.\"\nThe pieces lay all mixed up, like a jigsaw with no picture on the box. Pointy ones. Wide flat ones. One curved one with a notch in it.\n\"Where does a face like this even begin?\" said {hero_name}.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "There were three pointy pieces in the tray. Two long curved ones, as long as {hero_name}'s own arms. And one stubby one, no bigger than a fist.\n\"Hold it loose,\" said Doctor Wren. \"Then turn it slowly, and let the edges find each other.\"\nSo {hero_name} turned the first long horn round, and round, until the broken edge met the skull like two halves of a cracked cookie.\nClick.\n{hero_name} let out one enormous breath.\nThe second horn went on beside it, and now the two of them pointed forward together, straight at the tent door. The stubby one sat right up on the nose.\n\"Three horns,\" said {hero_name}. \"Exactly like the drawing.\"\nThen the left horn leaned forward and drooped, and the whole thing wobbled. Doctor Wren pushed a small sandbag underneath and it stood still again.\n\"Wobbles are part of building,\" she said.\nSo the horns were on. But most of a Triceratops head is that great bony collar, and no collar was up yet. No eyes yet either.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The flat ones, then,\" said Doctor Wren. \"That is the frill, the big bony collar that goes right round the top of the head.\"\nThey laid the wide pieces out and turned them, this way, that way, until a curved edge matched a curved edge.\nIt was slow work, the kind where your hands go quiet and your eyes get busy.\nPiece by piece the frill grew. Wider than the table. Wider than {hero_name} could reach with both arms.\nThen a long crack opened across the middle and one half sagged.\n\"Wobbles are part of building,\" said Doctor Wren, and slid a strip of soft tape along the underside until the crack held.\nThey lifted the frill up onto its wooden props. There were two windows in it, and {hero_name} leaned in and looked through one.\n\"It really is a shield,\" said {hero_name}.\n\"It is,\" said Doctor Wren. \"And there is nobody behind it yet.\"\nThe horns, the jaw and the eyes were all still lying in the tray in bits.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The {first_piece} was up already, holding the shape, so everything else had somewhere to belong. On went the wide cheekbones. On went the deep round eye sockets. On went the long heavy jaw.\nDoctor Wren dabbed glue into every join, and {hero_name} put one glove on top and counted to twenty while it dried.\n{hero_name} stepped back. The head was bigger than a wheelbarrow.\nThere was one piece left over: the curved one with the notch. It did not fit at the cheek, or the jaw.\n{hero_name} turned it over, and over, and once more, then looked at the front of the skull. There was a gap there in exactly that shape.\nIn it slid. Click.\n\"Well,\" said Doctor Wren. \"Look at that. A beak.\"\nShe put one finger along the curve of it. A beak for snipping ferns off their stalks, sharp as a giant parrot's.\nEvery single piece had come home. And now that the eye sockets were in, the whole face looked back at them across the table.\nDoctor Wren wiped her eyes.\n\"Look what you made,\" she said.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "It took four hands.\nDoctor Wren lifted the frill end. {hero_name} held the beak end, two hands underneath, and they walked the whole skull across the tent, one small step at a time, and put it down on the wooden stand.\nThe wood creaked. The skull settled.\nIt stood.\n{hero_name} stepped round to the front.\nThree horns pointed straight back at {hero_name}. Above them the frill spread out like a great stone dish.\nIt was not a tray of bits anymore. It was a head.\n\"She really walked about,\" said {hero_name}.\n\"She did,\" said Doctor Wren. \"In a herd, with hundreds of others, munching ferns all day long.\"\n{hero_name} reached both arms out sideways and still could not get near the edges of that frill.\nDoctor Wren wrote a card for the stand and handed over the pencil for the last line.\nTriceratops. Found in the hill. Put back together by {hero_name}.\nThen {hero_name} put one gloved hand flat on the horn.\n\"Thank you for waiting,\" said {hero_name}.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "So they waited.\nThe sun went down behind the hill and the tent turned blue inside. Doctor Wren lit the lantern and put it on the floor at one end of the table.\nAnd up the canvas wall came a shadow.\nIt was enormous. Three horns, huge as branches, and a frill as wide as a doorway, filling the whole side of the tent.\n{hero_name} sat down on an upturned crate and looked and looked.\n\"That is how big she really was,\" said Doctor Wren, very quietly.\n{hero_name} lifted one hand into the lantern light and made a small fern shape with two fingers.\nThe shadow beak leaned over and snipped it off.\nThey both laughed, the quiet kind of laughing you do in a tent at night.\nThen {hero_name} opened the notebook and drew the whole thing, lantern and shadow and all, with four words underneath.\nWe built a face.\nOutside, the crickets started up. Inside, the Triceratops kept watch over the table all night long.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Right,\" said Doctor Wren, and turned the tray round so {hero_name} could see all of it. \"We can start with the pointy ones, or with the wide flat ones. Horns, or frill?\"",
+      "options": [
+        {
+          "say_word": "horns",
+          "label": "The long pointy horns",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_piece": "long brow horn"
+          }
+        },
+        {
+          "say_word": "frill",
+          "label": "The wide flat frill",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_piece": "wide bony frill"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Doctor Wren pulled off her gloves. \"Two good things left,\" she said. \"We can lift her onto the stand while there is still light in the tent. Or we can wait for dark and put the lantern behind her. Stand, or lantern?\"",
+      "options": [
+        {
+          "say_word": "stand",
+          "label": "Lift the whole skull up onto the stand",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "lantern",
+          "label": "Wait for dark and light the lantern",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.triceratops",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.dinosaurs",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "the triceratops facets are all about a shape you can assemble — three horns, a frill, a snipping beak — so a thing coming into being on a table teaches the animal's anatomy without a single lecture sentence.",
+      "candidates": [
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.17,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": "the parent dinosaurs story on the shelf is already a mystery, and the shelf nudge halved it for exactly that reason"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.34,
+          "sampled": true,
+          "rejected_because": "a journey wants a route with marvels along it; triceratops is one animal standing in one place, so the route would have to be invented and would carry no triceratops material"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.17,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "the tent itself — canvas walls, gloves, lantern, crickets outside. Every cozy beat is the room; the wonder belongs entirely to the skull.",
+      "why": "a dig tent at the end of a day is already a small safe world, so cozy costs nothing and buys the stillness that curious_wonder needs. The awe stays on one true thing: a face bigger than a wheelbarrow.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder + big_adventure",
+          "because": "that is exactly the parent dinosaurs story's recipe, and there is no motion in this story to carry adventure — nobody is going anywhere."
+        },
+        {
+          "recipe": "crazy_inventor + curious_wonder",
+          "because": "the inventor tone wants glorious mess and sparks; a real fossil is handled slowly with soft brushes, and the tone would teach the wrong hands."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "the hero from the parent dinosaurs story is this topic family's established character, and her name is already in the family records. Reusing the teller is what lets the same explorer walk in, notebook and all.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "it is the pattern default for make_and_build, but it would strand the family's named explorer outside her own topic family's second story."
+        },
+        {
+          "teller": "storytellers_tale",
+          "because": "a remembered dig puts the building in the past tense, and the whole pull of this pattern is watching the thing take shape right now."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "Stage 2 turned up a plausible patience angle in the slow gluing, but it was not natural enough to carry a tag — it is craft, not a value being tested. Tagging it would be bolting a lesson onto a story that is already doing its job."
+    },
+    "cast": [
+      {
+        "role": "the child explorer with the notebook",
+        "reused": true,
+        "why": "same hero as story.dinosaurs.mystery_001, deliberately. Reuse across a topic family is the preferred design, and the hero_name naming slot is keyed to (topic family, character role), so a child who named this explorer in the dinosaurs story hears that same name here without being asked again. The slot still carries ask_child true for families who meet this story first. As in the parent story, the prose gives the hero no pronoun, so any name fits."
+      },
+      {
+        "role": "the paleontologist at the dig",
+        "reused": false,
+        "why": "the topic family had no grown-up guide yet, and a build story needs someone who knows which end is the beak. She is written as a role, not a fixed personality, so later triceratops and stegosaurus stories can bring her back."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "three horns: two long brow horns, one short nose horn",
+        "the frill as a bony collar with two large openings in it",
+        "the parrot-like beak for snipping tough plants",
+        "triceratops walked in herds",
+        "skulls come out of the rock in pieces and are reassembled by hand",
+        "a working dig tent: gloves, soft brushes, sandbags, wooden props"
+      ],
+      "gathered_but_unused": [
+        "growth rings in the bone showing how old an individual was",
+        "the frill may have been for display and recognition rather than defense",
+        "triceratops teeth stacked in batteries that replaced themselves",
+        "a bone bed with several individuals found together",
+        "the tail and the rest of the skeleton, which never reaches the table here"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "at the first real build step, so the child's pick decides the order of construction and then visibly holds the shape for the shared middle through the {first_piece} slot.",
+        "criteria": {
+          "more_interesting": "horns first is quick clicks and a drooping wobble; frill first is slow jigsaw work and a crack that has to be bridged. Different pace, different hands, different piece of the animal learned.",
+          "more_engaging": "both options are the good part of a puzzle — the spiky bit and the giant bit — and a five-year-old has a real opinion about which they would grab.",
+          "reveals_taste": "horns is the bold pick, frill is the gentle pick; the tone leans record which one.",
+          "reveals_curiosity": "horns leans how_it_works because it is about sockets and fitting; frill leans just_experience because it is about looking through the windows in it.",
+          "reflects_mood": "a lively evening grabs the pointy pieces; a slow evening wants the quiet jigsaw."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice always splits, and this one sits exactly on the pattern's payoff beat — the moment it works — so the child chooses which kind of satisfying that moment is.",
+        "criteria": {
+          "more_interesting": "one ending is physical and triumphant, lifting a heavy thing until it stands; the other is still and cozy, a lantern shadow filling the tent wall. Neither reuses a sentence from the other.",
+          "more_engaging": "both are things a child would actually want to do with a finished build: stand it up, or make a huge shadow with it.",
+          "reveals_taste": "stand is bold, lantern is gentle.",
+          "reveals_curiosity": "stand leans how_it_works, since it is about the skull being a head that holds together; lantern leans just_experience, since nothing happens except looking.",
+          "reflects_mood": "the stand ending is a daytime ending; the lantern ending is a bedtime ending, and the same story can serve both."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "make_and_build beat jobs all placed, exactly as in v1: the thing wanted is named in s1 by Doctor Wren, the steps run through s2 and s3, a wobble appears on both s2 paths and again as the leftover piece in s3, and the moment it works lands in s3 with the beak click. Two slots, under the cap of five. Deep-dive avoid list checked: no fighting scenes and nothing hunted, and the inherited parent avoid list rules out graphic eating and scary extinction imagery, none of which appear. The fossils are stone throughout; the one backward glance, 'Thank you for waiting', is warmth and not grief."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts: s1 181, s2a 171, s2b 171, s3 182, s4a 168, s4b 167, all under the 200 ceiling for 5-6. Paths measure 702 for horns plus stand, 701 for horns plus lantern, 702 for frill plus stand and 701 for frill plus lantern, against 738 in v1. All six segments carry speech, against five in v1. Speech or action carries 45 to 80 per cent of sentences. Sentence-length spread runs 5.1 to 6.7 with no run of four near-identical sentences. No abstract mood words anywhere: the cozy accent is carried by canvas, gloves, a lantern on the floor and crickets, never by the word. Every object introduced is used: the notch is the beak, the drawing on the wall is what the horns are checked against, the gloves come back at the horn in s4a, and the notebook is drawn in at the lantern ending."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end, and s3 was read twice, once with each value of {first_piece}; both readings are grammatical and true to what was actually built. The skull is complete before c2 on every path, so neither ending is doing repair work the other already did. The hero carries no pronoun, so any name fits. Both endings resolve fully with nothing withheld and no invitation to come back. Banned-language sweep clean; no ellipses, asterisks, parentheses or emoji."
+      }
+    ],
+    "writers_notes": [
+      "The wobble line is deliberately identical on both s2 paths. Doctor Wren says wobbles are part of building whichever piece you chose, because that is her one repeated line and repetition is a feature at this age.",
+      "The fossils are described as stone throughout and never as a dead animal. The one backward glance, a face that had waited a long time to be a face again, is warmth rather than grief, which keeps the extinction material off the page entirely at this band.",
+      "The beak is saved for last on purpose: it is the least famous triceratops fact and the most useful one, so it lands as the story's final click rather than as a fact delivered.",
+      "Doctor Wren is the second cast member in this topic family. If a stegosaurus story follows, she should be the reuse candidate and the plates should be the thing being built.",
+      "This is the same explorer as story.dinosaurs.mystery_001, and the rewrite makes the continuity visible in one clause rather than a paragraph: the yellow backpack comes up the hill, and the notebook that gets drawn in at the lantern ending is the same notebook that gets drawn in at both dinosaurs endings.",
+      "'Two hands underneath, always' does three jobs at once. It is the story's single safety beat, it reads as competence rather than caution, and it is the reason the hero can be trusted with the beak end of a skull in s4a.",
+      "The beak is still saved for last, and the rewrite gives Doctor Wren a finger on the curve of it, so the least famous fact about this animal arrives as a thing pointed at rather than a fact delivered.",
+      "The tone accent is cozy and the word cozy is now absent from the prose on purpose. The tent does the work: hot canvas, gloves, a lantern set on the floor, crickets starting up outside."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text; premise, cast, setting, the six-segment braid, both slots and both choice structures held constant, prose and the voices that ask the choices rewritten",
+    "prompt_version": "segment_writing_v2.1",
+    "craft_changes": [
+      "Opening primes before the tray is touched: the same explorer comes up the hill with the yellow backpack on, the tent smells of hot cloth and wet stone, and the pull arrives spoken, in Doctor Wren's own voice, 'Today we build a face.'",
+      "Both choice questions are now Doctor Wren's, in her voice, and the hero hands the first one over by asking 'Where does a face like this even begin?' at the end of s1. v1 had a narrator asking 'A tray full of pieces. Which part should the hero build first?'",
+      "Safety as competence, once, at the one point a child could copy: 'Two hands underneath, always,' with the reason given plainly as 'then it cannot get away from you'. It is shown rather than warned about, and it gives Doctor Wren something to do in her first beat.",
+      "Cut: 'nodded so hard the gloves nearly fell off', the announcement 'It was also the best kind of work' (the clause about hands going quiet and eyes getting busy was kept), the second explanation of what the frill is, 'She was right', 'Every piece is here', 'just for a moment', and every use of the word cozy anywhere near the tent.",
+      "Similes from a child's own day, once each: fossil bones as big as a bread board, a jigsaw with no picture on the box, two halves of a cracked cookie, a horn no bigger than a fist, a head bigger than a wheelbarrow, a beak like a giant parrot's, three horns huge as branches, a frill as wide as a doorway.",
+      "One motif grown instead of replaced: a face. Doctor Wren promises one in s1, the horns end up pointing at the door with no eyes behind them (s2a), the frill turns out to be a shield with nobody behind it (s2b), the eye sockets go in and the whole face looks back (s3), and the endings land on 'It was a head' and 'We built a face'.",
+      "Doctor Wren's one repeated line, 'Wobbles are part of building', is kept word for word on both branches, because a phrase that comes back is a gift at this age.",
+      "Rhythm: 'Click.', 'It stood.', 'In it slid.' and 'Three horns.' now land after long sentences, and the run of four near-identical sentences the craft audit found in v1's s3 is gone.",
+      "The endings now speak. v1's s4a carried no dialogue at all; it now has the hero and Doctor Wren talking about an animal that walked in a herd, and it closes on the hero's own line, 'Thank you for waiting.'",
+      "Length fell from a longest path of 738 words to 702, with nothing removed but restatement and decoration."
+    ],
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

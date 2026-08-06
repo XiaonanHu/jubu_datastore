@@ -1,0 +1,352 @@
+axis: knowledge_domain
+pack: nature_and_earth
+nodes:
+  - id: knowledge_domain.volcanoes
+    axis: knowledge_domain
+    label: volcanoes
+    display_name: "Volcanoes"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "big mountains that go BOOM; hot orange rivers", vocabulary: [lava, rumble, smoke], avoid: [death tolls, Pompeii casualties, people fleeing in terror]}
+      6: {depth: sensory, framing: "why mountains sometimes explode; lava vs. smoke", vocabulary: [lava, erupt, ash], avoid: [death tolls, destroyed towns with people in them]}
+      7: {depth: mechanism, framing: "pressure under the ground; magma vs. lava", vocabulary: [magma, pressure, crust]}
+      8: {depth: mechanism, framing: "plate boundaries; why volcanoes cluster", vocabulary: [tectonic plates, vent]}
+      9: {depth: system, framing: "ring of fire; volcanoes shaping ecosystems and islands", vocabulary: [geothermal, dormant, extinct]}
+      10: {depth: system, framing: "prediction, monitoring, living near volcanoes; historical eruptions handled factually", vocabulary: [seismology, eruption column]}
+    edges:
+      adjacent: [knowledge_domain.earthquakes, knowledge_domain.rocks_and_minerals, knowledge_domain.islands]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-ESS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.earthquakes
+    axis: knowledge_domain
+    label: earthquakes
+    display_name: "Earthquakes"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the ground gives a big wobble; dishes rattle and dogs bark first", vocabulary: [shake, wobble, rumble], avoid: [collapsing buildings with people inside, casualties, a child's own home being destroyed]}
+      6: {depth: sensory, framing: "the earth stretches and jolts like a giant turning over in sleep; how people stay safe under sturdy tables", vocabulary: [tremor, jolt, safe spot], avoid: [casualties, trapped people]}
+      7: {depth: mechanism, framing: "rocks deep down push against each other until something slips", vocabulary: [fault, crust, pressure], avoid: [graphic disaster aftermath]}
+      8: {depth: mechanism, framing: "energy travels out in waves from the slipping point; why shaking is stronger nearby", vocabulary: [seismic waves, epicenter], avoid: [graphic disaster aftermath]}
+      9: {depth: system, framing: "why earthquakes happen along plate edges; measuring quakes and comparing their sizes", vocabulary: [magnitude, plate boundary, aftershock]}
+      10: {depth: system, framing: "engineering buildings to sway instead of snap; early-warning systems that race the waves", vocabulary: [seismometer, retrofit, tsunami warning]}
+    edges:
+      adjacent: [knowledge_domain.volcanoes, knowledge_domain.plate_tectonics, knowledge_domain.bridges_and_buildings]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-ESS3-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.weather
+    axis: knowledge_domain
+    label: weather
+    display_name: "Weather"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "what the sky is doing today — sun on your face, rain on your boots, wind in your hair", vocabulary: [sunny, rainy, windy]}
+      6: {depth: sensory, framing: "clouds come in shapes and moods; guessing what the sky will do next", vocabulary: [cloud, fog, drizzle]}
+      7: {depth: mechanism, framing: "where rain actually comes from; warm air rises and carries water up", vocabulary: [evaporate, water vapor, air pressure]}
+      8: {depth: mechanism, framing: "warm and cold air masses bumping into each other make weather change", vocabulary: [front, humidity, forecast]}
+      9: {depth: system, framing: "weather vs. climate; why the same month feels different in different places", vocabulary: [climate, temperate, precipitation]}
+      10: {depth: system, framing: "how meteorologists build forecasts from satellites, balloons, and patterns", vocabulary: [meteorologist, jet stream, weather model]}
+    edges:
+      adjacent: [knowledge_domain.seasons, knowledge_domain.storms_and_lightning, knowledge_domain.water_cycle]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-ESS2-1", "3-ESS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.storms_and_lightning
+    axis: knowledge_domain
+    label: storms_and_lightning
+    display_name: "Storms and Lightning"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the sky's big drum show — flash first, boom after; cozy inside watching it", vocabulary: [thunder, lightning, flash], avoid: [people or pets struck by lightning, homes destroyed, storms as monsters chasing the child]}
+      6: {depth: sensory, framing: "counting seconds between flash and boom to tell how far the storm is", vocabulary: [thunderstorm, gust, downpour], avoid: [people struck by lightning, destroyed homes]}
+      7: {depth: mechanism, framing: "clouds build up electric charge like socks on a carpet; lightning is the giant spark", vocabulary: [electric charge, spark, thundercloud], avoid: [detailed injury scenarios]}
+      8: {depth: mechanism, framing: "why thunder is the sound of lightning; how storms build from rising hot air", vocabulary: [static electricity, updraft, hail], avoid: [detailed injury scenarios]}
+      9: {depth: system, framing: "hurricanes and tornadoes as huge weather engines; how storm trackers follow them", vocabulary: [hurricane, tornado, storm surge], avoid: [dwelling on casualties in named real disasters]}
+      10: {depth: system, framing: "storm chasers, radar, and warnings; how communities prepare before a big storm arrives", vocabulary: [radar, evacuation plan, lightning rod], avoid: [dwelling on casualties in named real disasters]}
+    edges:
+      adjacent: [knowledge_domain.weather, knowledge_domain.electricity, knowledge_domain.oceans_and_tides]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-ESS3-2", "3-ESS3-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.seasons
+    axis: knowledge_domain
+    label: seasons
+    display_name: "Seasons"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "the year's four costumes — crunchy leaves, snowmen, puddles, ice cream days", vocabulary: [spring, summer, autumn, winter]}
+      6: {depth: sensory, framing: "how animals and trees get ready when a season is coming", vocabulary: [harvest, bloom, frost]}
+      7: {depth: mechanism, framing: "days grow longer and shorter through the year; more sunlight means warmer months", vocabulary: [daylight, temperature, sunrise]}
+      8: {depth: mechanism, framing: "Earth's tilt is the reason for seasons; why summer here is winter on the other side of the world", vocabulary: [tilt, axis, hemisphere]}
+    edges:
+      adjacent: [knowledge_domain.weather, knowledge_domain.trees, knowledge_domain.migration]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-ESS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.rocks_and_minerals
+    axis: knowledge_domain
+    label: rocks_and_minerals
+    display_name: "Rocks and Minerals"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "pocket treasures — smooth, sparkly, stripy, heavy; every rock has a feel", vocabulary: [pebble, smooth, sparkly]}
+      6: {depth: sensory, framing: "rock collecting and sorting; some rocks glitter, some crumble, some hold secrets inside", vocabulary: [crystal, boulder, gritty]}
+      7: {depth: mechanism, framing: "rocks are made in different kitchens — cooled lava, squeezed layers, cemented sand", vocabulary: [layer, mineral, harden]}
+      8: {depth: mechanism, framing: "the three rock families and how to tell them apart; crystals grow when liquids cool slowly", vocabulary: [igneous, sedimentary, metamorphic]}
+      9: {depth: system, framing: "the rock cycle — every rock is slowly becoming another kind of rock", vocabulary: [rock cycle, erosion, deposit]}
+      10: {depth: system, framing: "reading Earth's diary in rock layers; ores, gems, and why some minerals are rare", vocabulary: [strata, ore, geologist]}
+    edges:
+      adjacent: [knowledge_domain.volcanoes, knowledge_domain.fossils, knowledge_domain.caves]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-ESS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.rivers
+    axis: knowledge_domain
+    label: rivers
+    display_name: "Rivers"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "water that never sits still — splashing, gurgling, carrying leaf-boats away", vocabulary: [stream, splash, flow], avoid: [drowning, children swept away by current]}
+      6: {depth: sensory, framing: "following a river like a road — who lives beside it, what floats down it", vocabulary: [riverbank, current, ripple], avoid: [drowning]}
+      7: {depth: mechanism, framing: "every river starts small in the hills and grows as streams join it", vocabulary: [source, tributary, downstream]}
+      8: {depth: mechanism, framing: "rivers carve valleys and carry sand to the sea; fast water cuts, slow water drops", vocabulary: [erosion, valley, delta]}
+      9: {depth: system, framing: "rivers as highways and lifelines — cities, farms, and wildlife all sharing one flow", vocabulary: [watershed, floodplain, irrigation], avoid: [flood disasters dwelling on victims]}
+      10: {depth: system, framing: "great rivers of the world; dams, locks, and the trade-offs of taming a river", vocabulary: [reservoir, navigation, meander], avoid: [flood disasters dwelling on victims]}
+    edges:
+      adjacent: [knowledge_domain.water_cycle, knowledge_domain.oceans_and_tides, knowledge_domain.boats_and_floating]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-ESS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.oceans_and_tides
+    axis: knowledge_domain
+    label: oceans_and_tides
+    display_name: "Oceans and Tides"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the biggest water there is — salty spray, waves that chase your toes and run away", vocabulary: [wave, salty, seashell], avoid: [drowning, children pulled out to sea, shipwreck peril]}
+      6: {depth: sensory, framing: "the sea breathes in and out — tide pools appear when the water steps back", vocabulary: [tide, tide pool, shore], avoid: [drowning, being stranded by the tide]}
+      7: {depth: mechanism, framing: "the moon tugs on the sea; that gentle pull makes tides rise and fall", vocabulary: [gravity, high tide, low tide]}
+      8: {depth: mechanism, framing: "waves are energy moving through water; wind makes them, shores shape them", vocabulary: [swell, current, coastline]}
+      9: {depth: system, framing: "ocean currents as the planet's conveyor belts, moving heat and travelers around the globe", vocabulary: [ocean current, gulf stream, salinity]}
+      10: {depth: system, framing: "ocean zones from sunlit to midnight; exploring the deep and why most of it is still unmapped", vocabulary: [ocean zone, trench, submersible]}
+    edges:
+      adjacent: [knowledge_domain.ocean_animals, knowledge_domain.the_moon, knowledge_domain.rivers]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-ESS2-3"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.deserts
+    axis: knowledge_domain
+    label: deserts
+    display_name: "Deserts"
+    region: nature_and_earth
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "a place that almost forgot how to rain; hot days, cold nights, and clever survivors", vocabulary: [dune, cactus, oasis], avoid: [characters dying of thirst, children lost alone in the desert]}
+      8: {depth: mechanism, framing: "why deserts form — mountains blocking rain, air that dries as it sinks", vocabulary: [rain shadow, arid, sandstorm], avoid: [characters dying of thirst]}
+      9: {depth: system, framing: "desert life as a masterclass in saving water — plants, animals, and people who thrive there", vocabulary: [adaptation, nomad, drought]}
+      10: {depth: system, framing: "not all deserts are hot — polar deserts, spreading deserts, and how people push back the sand", vocabulary: [desertification, aquifer, extremophile]}
+    edges:
+      adjacent: [knowledge_domain.rainforests, knowledge_domain.camouflage, knowledge_domain.weather]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS4-3"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.rainforests
+    axis: knowledge_domain
+    label: rainforests
+    display_name: "Rainforests"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the dripping green world — parrots squawk, frogs peep, rain patters on a roof of leaves", vocabulary: [jungle, vine, parrot], avoid: [predators attacking the child character, getting lost alone in the jungle]}
+      6: {depth: sensory, framing: "a forest with floors like a treehouse — who lives up top, who lives down in the shade", vocabulary: [canopy, sloth, toucan], avoid: [getting lost alone in the jungle]}
+      7: {depth: mechanism, framing: "why rainforests are so crowded with life — warmth plus rain all year long", vocabulary: [tropical, humid, undergrowth]}
+      8: {depth: mechanism, framing: "the four layers of a rainforest and how each layer feeds the next", vocabulary: [emergent layer, forest floor, epiphyte]}
+      9: {depth: system, framing: "rainforests as the planet's rain-makers and medicine cabinets; why so much depends on them", vocabulary: [biodiversity, indigenous peoples, habitat]}
+      10: {depth: system, framing: "deforestation and restoration — what is being lost, who is protecting it, and how", vocabulary: [deforestation, conservation, carbon], avoid: [hopeless doom framing about forest loss]}
+    edges:
+      adjacent: [knowledge_domain.trees, knowledge_domain.deserts, knowledge_domain.insects]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-LS4-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.islands
+    axis: knowledge_domain
+    label: islands
+    display_name: "Islands"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a piece of land wearing the sea like a moat — boats and bridges to get there", vocabulary: [island, boat, lighthouse], avoid: [being shipwrecked and stranded alone, castaway peril]}
+      6: {depth: sensory, framing: "island life — ferries instead of buses, beaches instead of backyards", vocabulary: [ferry, harbor, coast], avoid: [being shipwrecked and stranded alone]}
+      7: {depth: mechanism, framing: "how islands are born — volcanoes pushing up from the seafloor, coral building reefs", vocabulary: [volcanic island, coral reef, seafloor]}
+      8: {depth: mechanism, framing: "island chains form as the seafloor slides over hot spots; sandbars and atolls", vocabulary: [hot spot, atoll, archipelago]}
+      9: {depth: system, framing: "islands as nature's experiments — animals found nowhere else, like Galapagos tortoises", vocabulary: [endemic species, isolation, Galapagos]}
+      10: {depth: system, framing: "island nations and rising seas; how island communities adapt and trade across water", vocabulary: [sea level, island nation, causeway]}
+    edges:
+      adjacent: [knowledge_domain.volcanoes, knowledge_domain.oceans_and_tides, knowledge_domain.maps_and_globes]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-ESS2-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.caves
+    axis: knowledge_domain
+    label: caves
+    display_name: "Caves"
+    region: nature_and_earth
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "underground rooms carved by patient water dripping for thousands of years", vocabulary: [cavern, stalactite, echo], avoid: [getting trapped or lost underground, cave-ins on characters, running out of light in peril]}
+      8: {depth: mechanism, framing: "how dripping water builds stone icicles; why caves stay the same temperature all year", vocabulary: [stalagmite, limestone, mineral drip], avoid: [getting trapped or lost underground]}
+      9: {depth: system, framing: "cave ecosystems in total darkness — blind fish, bats by the million, life without sun", vocabulary: [ecosystem, colony, adaptation], avoid: [claustrophobic entrapment scenarios]}
+      10: {depth: system, framing: "cave explorers and cave science — mapping the underground, ancient paintings, careful spelunking", vocabulary: [spelunking, cave painting, chamber], avoid: [claustrophobic entrapment scenarios]}
+    edges:
+      adjacent: [knowledge_domain.rocks_and_minerals, knowledge_domain.fossils, knowledge_domain.nocturnal_animals]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-ESS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.fossils
+    axis: knowledge_domain
+    label: fossils
+    display_name: "Fossils"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "stone footprints and bones from long-long-ago animals, hiding in rocks like surprises", vocabulary: [fossil, bone, dig]}
+      6: {depth: sensory, framing: "being a fossil finder — brushing away sand to uncover a creature no one has seen", vocabulary: [skeleton, imprint, discover]}
+      7: {depth: mechanism, framing: "how a buried bone slowly turns to stone; why only some creatures leave fossils", vocabulary: [preserved, sediment, cast]}
+      8: {depth: mechanism, framing: "deeper rock layers hold older fossils — reading time like pages in a book", vocabulary: [rock layer, amber, trace fossil]}
+      9: {depth: system, framing: "fossils as evidence — how paleontologists rebuild whole vanished worlds from fragments", vocabulary: [paleontologist, specimen, excavation]}
+      10: {depth: system, framing: "the fossil record and deep time; famous finds that changed what we thought we knew", vocabulary: [fossil record, era, transitional form]}
+    edges:
+      adjacent: [knowledge_domain.dinosaurs, knowledge_domain.rocks_and_minerals, knowledge_domain.the_stone_age]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS4-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.water_cycle
+    axis: knowledge_domain
+    label: water_cycle
+    display_name: "The Water Cycle"
+    region: nature_and_earth
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a raindrop's round trip — puddle, cloud, rain, puddle again", vocabulary: [raindrop, puddle, cloud]}
+      6: {depth: sensory, framing: "where puddles go when the sun comes out; steam from a kettle is water flying", vocabulary: [steam, mist, dew]}
+      7: {depth: mechanism, framing: "evaporation up, condensation into clouds, precipitation down — the loop that never stops", vocabulary: [evaporation, condensation, precipitation]}
+      8: {depth: mechanism, framing: "the same water keeps cycling — the drop in your glass may have rained on a dinosaur", vocabulary: [water vapor, groundwater, collection]}
+      9: {depth: system, framing: "the water cycle connects oceans, rivers, ice, and air into one planet-sized system", vocabulary: [hydrosphere, glacier, runoff]}
+      10: {depth: system, framing: "fresh water as a shared resource — droughts, reservoirs, and moving water to where people need it", vocabulary: [freshwater, drought, conservation]}
+    edges:
+      adjacent: [knowledge_domain.weather, knowledge_domain.rivers, knowledge_domain.oceans_and_tides]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-ESS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.plate_tectonics
+    axis: knowledge_domain
+    label: plate_tectonics
+    display_name: "Plate Tectonics"
+    region: nature_and_earth
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "Earth's crust is a jigsaw of slowly drifting plates — mountains, quakes, and volcanoes all trace their edges", vocabulary: [tectonic plate, continental drift, mantle]}
+      10: {depth: system, framing: "continents on the move — Pangaea, seafloor spreading, and the evidence that convinced scientists", vocabulary: [Pangaea, seafloor spreading, subduction]}
+    edges:
+      adjacent: [knowledge_domain.volcanoes, knowledge_domain.earthquakes, knowledge_domain.islands]
+      prerequisite: [knowledge_domain.volcanoes, knowledge_domain.earthquakes]
+    crosswalk:
+      ngss: ["4-ESS2-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

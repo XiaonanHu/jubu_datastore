@@ -1,0 +1,326 @@
+{
+  "id": "story.mercury.age7to8.d1.pregen.f3a606",
+  "title": "The Planet That Never Forgets Its Bumps",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.mercury",
+    "sel_theme": null,
+    "value_lesson": "Patience and careful looking: the mystery is solved by gathering small clues one at a time instead of guessing fast",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A curious child follows a trail of clues to discover why Mercury's craters never fade, learning that bare rock without air keeps every dent it ever got.",
+  "slots": {
+    "hero_name": {
+      "role": "The curious child hero",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Mina"
+    },
+    "robot_name": {
+      "role": "The friendly robot lander",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Zippy"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "{hero_name} is staring at the photo again. It is taped above the sink in Dr. Okafor's science room, big as a window, and it shows Mercury — a whole planet of bare rock, grey as dust on a shelf, and covered in dents. Not one or two dents. Hundreds. Thousands. Big dents with little dents inside them. \"It looks like the baking sheet at my house,\" {hero_name} says, \"after the muffins fought back.\" Dr. Okafor laughs — a big, warm laugh that fills the whole room. \"Those dents are called craters,\" she says. \"And now I have an idea.\" She pulls out a wide tray, fills it with flour, and sets down a bowl of marbles. Plop. One marble drops in. {hero_name} leans close. The dent sits there in the flour, sharp and perfect, not smoothing over, not fading — just staying. \"Dr. Okafor,\" {hero_name} asks, \"why does Mercury have so many craters? And why don't they ever go away?\" Dr. Okafor taps the photo, right on the biggest dent of all. \"That,\" she says, \"is a very good question. And I know a robot who can help us answer it.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "“The flour tray!” {hero_name} says. “Detectives test things.”\n\nDr. Okafor grins and pushes the tray over. “Then test away.”\n\n{hero_name} picks up a marble. It is cool and smooth and heavy for its size, like a tiny planet that fits in one hand. “Ready?”\n\n“Ready,” says Dr. Okafor.\n\nPlop.\n\nThe marble drops, and the flour jumps. A dent splashes out — round and deep, with a puffy rim all around it, and long pale rays shooting out like spokes on a bicycle wheel.\n\n“Whoa,” {hero_name} whispers. “It made rays. Like sunbeams, but flour.”\n\n“Craters do that,” says Dr. Okafor. “Rims and rays. The real ones on Mercury too.”\n\n{hero_name} leans in close, close enough to smell the flour, and pokes the dent with one finger. Poke. The dent just sits there. Poke poke. Still there. Sharp as the moment it happened.\n\n“It’s not filling back in,” {hero_name} says. “It’s not smoothing over. It’s just... staying.”\n\n“It will stay,” says Dr. Okafor, “until somebody shakes the tray.”\n\nThey both look at the tray. The dent looks back, perfectly kept.\n\n“But Dr. Okafor,” {hero_name} says slowly, “nobody shakes Mercury.”\n\nDr. Okafor’s eyes go wide and shiny. “Nobody,” she says, “shakes Mercury. And that, detective, is our very first clue.”",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "“The photo!” {hero_name} says. “The clues are already up there.”\n\n{hero_name} drags a chair to the sink, climbs up, and peers at Mercury, nose almost touching the biggest dent of all.\n\n“Look,” {hero_name} says. “This crater has a littler crater inside it. And that one has an even littler one inside that. They’re on top of each other.”\n\n“Layered,” says Dr. Okafor. “Like what?”\n\n{hero_name} thinks. “Like footprints. On a path that nobody ever sweeps. New footprints squish the old ones, but they don’t rub them out.”\n\n“Exactly,” says Dr. Okafor. “The new craters sit on the old ones, and the old ones are still there, still holding their shape, after... oh, a very long time.”\n\nThen the computer screen on the counter lights up all by itself. Beep! Beep-beep!\n\n“Did somebody say MYSTERY?” booms a bright, buzzy voice. “{robot_name} the robot lander, reporting for expedition duty! I have beeped on four planets and napped on one, and THIS is the greatest mystery I have ever beeped at!”\n\n“Hello, {robot_name},” {hero_name} giggles.\n\n“Greetings, detective! Now — a question from a robot who has rolled on that very rock. Those dents never fade. Never ever. So tell me...” The screen leans closer, the way a screen can. “What sweeps footprints away on Earth? And why doesn’t Mercury have any?”\n\n{hero_name} stares at the layered craters. The answer is hiding somewhere in that grey, dented rock.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back in the science room, a screen blinks on. Beep-boop-BEEP! \"Greetings, explorers!\" says {robot_name}, rolling in circles. \"I am {robot_name}, the greatest crater-climber in the whole solar system!\" Dr. Okafor grins. \"Show us your landing pictures, {robot_name}.\" The screen fills with grey dust. And there — footprints. Sharp little robot footprints, pressed into the ground years and years ago. \"They look brand new!\" {hero_name} says. \"But wait — what did you just find out there? Tell me everything!\" {hero_name} tells it, and {robot_name}'s lights blink fast. \"Correct! Correct!\" he chirps. \"And look at my flag!\" Sure enough, a tiny flag sticks up from the dust — frozen mid-flap, like it is still waving hello after all this time. \"On Earth,\" Dr. Okafor says, \"wind would blow those footprints away. Rain would wash them flat. But Mercury is bare rock, with almost no air at all.\" \"Airless!\" {robot_name} announces, striking a heroic pose. \"No wind. No rain. No weather. Nothing ever comes along to smooth anything away.\" {hero_name} looks at the footprints. Then at the tray of flour, where the marble's dent still sits, sharp and perfect. \"So the craters...\" {hero_name} begins slowly.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"...stay forever!\" {hero_name} bursts out. \"Mercury is bare rock with no air. So no wind ever blows. No rain ever falls. Nothing smooths the dents away — every crash from long ago is still written on its face!\"\n\nBeep-boop-BEEP! \"The detective has solved it!\" {robot_name} cheers, spinning in a circle. \"Case closed!\"\n\n\"One more thing,\" says Dr. Okafor. \"Mercury is the closest planet to the Sun. It zooms around faster than any other world — one whole trip in just eighty-eight days.\"\n\n\"The speediest planet!\" {robot_name} declares. \"Race you around the Sun! Ready — set —\" He rolls one quick lap around the science room and bumps gently into {hero_name}'s shoe. \"You win,\" he beeps. \"Rematch in eighty-eight days.\"\n\n{hero_name} laughs. Then Dr. Okafor lifts one marble from the flour tray and dusts it off — just a little — so a faint white smudge still clings to it. \"For the detective,\" she says.\n\n{hero_name} holds it up to the light. A tiny dent of flour sits on its side, sharp and perfect.\n\n\"The planet that never forgets its bumps,\" {hero_name} says, and puts it in their pocket, \"now has a detective who never forgets it back.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"...stay forever!\" {hero_name} bursts out. \"Mercury is bare rock with no air. So no wind ever blows. No rain ever falls. Nothing smooths the dents away — every crash from long ago is still written on its face!\"\n\nBeep-boop-BEEP! \"Correct, detective!\" {robot_name} chirps. Then his lights blink twice, sly and slow. \"But look closer. Between the craters.\"\n\nThe screen zooms in. And there, stretched flat between the dents, lie great dark patches — smooth as a tabletop, smooth as spilled chocolate that cooled on the counter.\n\n\"No bumps at all!\" {hero_name} says. \"What happened there?\"\n\n\"Long, long ago,\" says Dr. Okafor, \"hot melted rock bubbled up from inside Mercury. It flowed out, filled the low places, and hardened into flat plains.\"\n\n\"Mercury had a fiery youth!\" {robot_name} announces, striking his most heroic pose. \"Like a volcano! A whole planet of one!\"\n\n\"A bumpy old face,\" {hero_name} says, \"with smooth young patches hiding in between.\"\n\nDr. Okafor smiles and lifts one marble from the flour tray, dusting it off — just a little. \"For the detective,\" she says.\n\n{hero_name} rolls it in their palm, feeling the faint smudge of flour. \"Some dents stay,\" {hero_name} says softly. \"And some stories hide underneath.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Where shall we hunt for our first clue, detective—in the flour tray, or in the photo itself?\"",
+      "options": [
+        {
+          "say_word": "Flour",
+          "label": "Drop a marble in the flour tray to make a pretend crater",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Photo",
+          "label": "Look closely at the photo to spot overlapping craters",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The case is solved, detective! Shall we race around the Sun with speedy Mercury, or peek at the dark smooth patches where old melted rock once flowed?\"",
+      "options": [
+        {
+          "say_word": "Race",
+          "label": "Hear how Mercury, closest to the Sun, zooms fastest around it",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Peek",
+          "label": "Glimpse the smooth volcanic plains hiding between the craters",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.mercury",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core fact—bare rock keeping every dent because there's no air or weather to erase them—naturally poses a 'why does Mercury look so scratched up?' question that clues (craters, airlessness, no wind or rain) can answer satisfyingly for an 8-year-old.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Zippy the robot lander, who treats every crater like the start of a grand expedition and narrates his own beeps with heroic flair.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and careful looking: the mystery is solved by gathering small clues one at a time instead of guessing fast",
+      "why": "The mystery pattern naturally rewards a child who collects clues rather than jumping to answers, and the material explicitly offers this angle."
+    },
+    "cast": [
+      {
+        "role": "Mina, a curious child who collects clues like pebbles",
+        "reused": false,
+        "why": "The named hero who notices the odd thing, asks the opening question, and gathers each clue; her careful looking drives the mystery pattern."
+      },
+      {
+        "role": "Zippy, a friendly robot lander who has touched Mercury's dust",
+        "reused": false,
+        "why": "Carries the big_adventure accent with overblown expedition talk, shows close-up pictures, and reports that no wind has ever ruffled his landing spot."
+      },
+      {
+        "role": "Dr. Okafor, an astronomer with a kind laugh",
+        "reused": false,
+        "why": "Explains what air does on Earth and what its absence means on Mercury, delivering the satisfying answer in the classroom setting."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Mercury covered in craters from space-rock crashes",
+        "Almost no air, so no wind to smooth dust",
+        "No rain or snow to wash dents away",
+        "Bare rock keeps every dent it ever got",
+        "Marble dropped in flour makes a lasting dent",
+        "Robot footprints still sharp after years",
+        "Craters overlapping like footprints on an unswept path",
+        "Smooth dark patches of old volcanic plains (wider door glimpse)",
+        "Classroom with flour tray and Mercury photo",
+        "Mercury closest to the Sun, quickest orbit (light rotation)"
+      ],
+      "gathered_but_unused": [
+        "Mercury is covered in craters, which are round dents made long ago when space rocks crashed into it.",
+        "Mercury has almost no air, so there is no wind to blow dust over the craters and smooth them away.",
+        "Without air, there is no rain or snow on Mercury, so nothing washes the dents away or fills them in.",
+        "On Earth, wind and rain slowly wear down mountains and craters, but on Mercury the bare rock keeps every dent it ever got.",
+        "Mercury is the closest planet to the Sun, so it zooms around it faster than any other planet, finishing a year in just 88 Earth days.",
+        "Because Mercury has no blanket of air, its days are scorching hot and its nights are freezing cold.",
+        "Some craters on Mercury are named after famous artists, writers, and musicians, like a crater named Beethoven.",
+        "Deep shadows inside some craters near Mercury's poles never see sunlight, and ice hides there even though Mercury is the closest planet to the Sun."
+      ]
+    },
+    "safety_beat": "not needed: setting is not a real place a child could stand in",
+    "motif": "A dent that stays—whether in flour, in dust, or in rock—because nothing comes along to smooth it away.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a child's question is pursued with real agency through flour, photo, and robot, the science lands through the senses, and the marble-in-pocket ending pays off the mystery with warmth and a line worth saying aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and giggly, leaning in",
+        "s2a": "hands-on delight, a held breath at the dent that stays",
+        "s2b": "detective hush, then a buzzy burst of robot energy",
+        "s3": "wonder at the frozen footprints, puzzle pieces clicking",
+        "s4a": "triumphant shout, then a warm laugh and a pocket-sized glow",
+        "s4b": "triumphant shout, then a slower, softer awe at the hidden smooth places"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 15% of sentences carry speech or action; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] no voices: segment carries no spoken line; [s2b] narration heavy: only 12% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 15% of sentences carry speech or action",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 12% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 15% of sentences carry speech or action",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 12% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "02_mercury_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

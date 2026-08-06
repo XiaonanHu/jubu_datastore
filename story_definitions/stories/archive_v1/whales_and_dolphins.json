@@ -1,0 +1,131 @@
+{
+  "id": "story.whales_and_dolphins.problem_and_fix_001",
+  "title": "The Itch Nobody Could Reach",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.whales_and_dolphins",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "We help a young whale finally scratch the one itchy spot on his back that no flipper can reach.",
+  "slots": {
+    "whale_name": {
+      "role": "the young whale with the itchy spot",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pebble"
+    },
+    "first_try": {
+      "role": "the gadget we used for our first helping attempt",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "seaweed brush"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Our little round boat rocks gently on the warm blue sea. The sun makes sparkles on every small wave. We lean over the side and watch the water. Whoosh! A spout of misty spray shoots up beside us. A young whale rises, smooth and gray like a wet stone. It is our friend {whale_name}. But something is different today. {whale_name} is wiggling. He wiggles left. He wiggles right. He turns in a slow, squirmy circle. There is an itchy spot right in the middle of his back. His flippers cannot reach it. They are too far forward. His tail cannot reach it either. It is too far back. His pod tried to help this morning. His mama's flipper was too big. His little cousin's flipper was too small. So the itch just sits there, itching. {whale_name} looks at us with one big gentle eye. We know that look. It says, please help. Of course we will help! We look around our cozy boat. We have two ideas already. Which should we try first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "A seaweed brush sounds soft and just right. We reach into the cool water and gather long ribbons of seaweed. We braid them together, over and under, over and under. Then we tie the braid to our longest oar. There. One long, floppy, sea-green brush. {whale_name} floats close and holds still. Well, almost still. We stretch waaay out and brush the itchy spot. Swish, swish. His whole body shivers. Then he giggles a bubbly whale giggle. The brush does not scratch. It tickles! {whale_name} rolls over like a giant rolling pin. A wave of seawater splashes over our boat. Now our hair is dripping and our socks squelch. We laugh and wring out our hats. We look at our brush. The seaweed is too floppy and too tickly. But we learned something true. The itch is real, and soft swishing will not fix it. That spot needs a real rub, gentle but steady. {whale_name} sighs a big misty sigh from his blowhole. Do not worry, friend. Inventors of ideas never run out.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Bubbles! Our little boat has a bubble maker for exactly this kind of day. We turn the small brass crank. Brrrr. A silvery stream of bubbles rises under {whale_name}. Hundreds of them, round and shiny, wobbling up through the blue. They fizz along his tummy. They fizz along his sides. They pop softly all over his back. Pip, pip, pip. {whale_name} closes his eyes. He hums a low, happy hum that we feel in our toes. It looks wonderful. But wait. He is still wiggling. We crank faster. More bubbles! A whole silver cloud of them. They pop on the itchy spot, pip pip pip, and float away. And still the itch stays. Bubbles are too soft and too quick, gone before they can rub. {whale_name} blows a puff of spray from his blowhole, like a big sigh. We pat his smooth wet nose. We learned something true. Fizzing will not fix this itch. That spot needs a real rub, gentle but steady. Do not worry, friend. We never run out of ideas.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We sit back in our rocking boat and think. Our {first_try} made {whale_name} smile, but the itch is still there. That is all right. Every try teaches us something. Now we know just what the itch needs. Not tickly. Not fizzy. A gentle, steady rub, from something just the right size. We shade our eyes and look out at the wide, sparkling sea. Maybe the sea itself can help us. The sea is full of helpers, if you know where to look. Over there, a pod of dolphins is leaping. One, two, three, they flip through the air and splash down. Their clicks and whistles carry across the water like tiny songs. A dolphin flipper is small and smooth. Hmm. And over that way, we see something else. A sandbank, resting under shallow, sun-warmed water. The sand looks soft and ripply, like a big scratchy blanket. Hmm again. {whale_name} swims a slow circle around our boat, waiting. Two good ideas, and one itchy friend. We tap our chins. Who should help scratch the itch?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We cup our hands and call hello across the water. The smallest dolphin hears us first. She zips over, quick as a skipping stone. Her smiley face pops up beside our boat. We point to {whale_name} and the spot in the middle of his back. Click, whistle, click, she says, which surely means leave it to me. She circles once. Then, ever so gently, she lays her flipper on the itchy spot. She rubs in slow, small circles. Round and round. Steady and soft. {whale_name} goes still. His long flippers droop, all cozy. His eyes close. The wiggles melt away, one by one, until his whole body floats calm and happy. Then, whoosh! He blows the tallest, mistiest spout we have ever seen. The spray drifts down over everyone like warm sea rain. The itch is gone at last. The dolphin leaps and flips just for joy. {whale_name}'s pod glides over, and everyone rolls and splashes together. We rock in our boat and clap and clap. What a good sea this is, where friends fit exactly where they are needed.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We paddle slowly toward the sandbank, and {whale_name} glides along beside us. The water here is shallow, warm, and clear as glass. Below us, the sand lies in soft, wavy ripples. It looks like a giant scratchy blanket, spread out just for him. There is still plenty of water for swimming and wiggling. {whale_name} dips down and lets his tummy touch the sand. Then he wiggles forward. Wiggle, wiggle, wiggle. The ripply sand rubs his back, gentle and steady, exactly right. He rolls to one side. He rolls to the other. Little clouds of sand puff up around him like golden smoke. We can feel his happy rumble through the bottom of our boat. He wiggles one more long, slow wiggle. And then he stops. No more squirming. No more twisting. The itch is gone at last. Whoosh! He blows a tall, misty spout, and the spray sparkles in the sun. His pod comes to see, and soon every whale is wiggling happily across the sand. We rock in our boat and laugh. The sea had a scratchy blanket ready all along.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "How should we try to help first?",
+      "options": [
+        {
+          "say_word": "seaweed",
+          "label": "Make a long seaweed brush",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_try": "seaweed brush"
+          }
+        },
+        {
+          "say_word": "bubbles",
+          "label": "Tickle the itch with bubbles",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_try": "bubble tickler"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Who should help scratch the itch?",
+      "options": [
+        {
+          "say_word": "dolphin",
+          "label": "Ask a friendly dolphin",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "sandbank",
+          "label": "Wiggle over the soft sandbank",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,328 @@
+{
+  "id": "story.comets_and_meteors.age7to8.d1.pregen.ce5b29",
+  "title": "The Comet's Two Coats",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.comets_and_meteors",
+    "sel_theme": null,
+    "value_lesson": "patience",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We follow a comet's portrait from the library to the August sky, solving why it sometimes wears a tail and why the sky sprinkles dust on the same night every year.",
+  "slots": {
+    "comet_name": {
+      "role": "The comet in the library book, which we nickname and track all story",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Old Crumbtrail"
+    },
+    "wish_thing": {
+      "role": "The small silly thing Dad keeps wishing for on meteors",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a bottomless thermos of cocoa"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It is a summer afternoon, and we are at the library. Me, Dad, and my big sister, squeezed around one little table.\n\nDad is reading the newspaper upside down. He does not know it is upside down.\n\nMy sister is flipping through a big space book. Suddenly she stops. \"Whoa,\" she says. \"Look at this.\"\n\nIt is a comet. A lumpy, dirty snowball of ice and dust, zooming through space. The book says its real name is something long and boring, so we give it a better one. We call it {comet_name}.\n\n\"Here is the weird part,\" my sister says. She holds up two pages, side by side. \"Look.\"\n\nIn the first picture, {comet_name} wears a long, glowing tail. It streams out behind it like a scarf in the wind. Beautiful.\n\nIn the second picture, there is no tail at all. Just the same lumpy snowball, dark and plain, like a dirty sock someone left in space.\n\n\"Same comet,\" my sister says. She taps one page, then the other. \"Two coats.\"\n\nDad looks up from his upside-down newspaper. \"Maybe it got cold,\" he says, \"and took the fancy one off.\"\n\nMy sister rolls her eyes. But she is smiling. \"Seriously, though,\" she says. \"Why does it have a tail sometimes, and not other times?\"\n\nNobody at the table knows. Not even Dad.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Test one,\" my sister says. \"Us. Right now.\"\n\nSo we raid the kitchen. Ice from the freezer, dirt from Dad's plant, cracker crumbs from the bottom of the box. We pack it all into one lumpy snowball. It looks exactly like {comet_name}. If {comet_name} were dinner.\n\n\"To the porch,\" my sister says. \"The lamp can be the Sun.\"\n\nDad carries it on a plate like a fancy dessert. \"I shall miss him,\" he says.\n\nWe set our comet under the porch lamp and we wait.\n\nThen — wisps. Little curls of steam, lifting off the ice. The ice shrinks first. The dirt just sits there, exactly where we packed it.\n\n\"The tail,\" my sister breathes. \"It's the ice! Warmed up, turning to gas. That's the glowing coat.\"\n\n\"And the crumbs stay behind,\" I say. \"Like somebody snacking on the walk home.\"\n\nDad nods solemnly. \"I knew it. I always snack on the walk home.\"\n\nBut my sister has gone quiet. She is looking at the library book again, at that one strange drawing. The one where the tail streams out ahead of the comet. In front of it.\n\n\"Our steam went up,\" she says slowly. \"It didn't go backwards. And it definitely didn't go frontwards.\"\n\nShe taps the page. \"So why does {comet_name}'s tail sometimes point the wrong way?\"\n\nNobody knows. Not even Dad.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Planetarium,\" my sister says. \"They have a pretend comet. We can watch the whole trip.\"\n\nThe planetarium is dark and round and smells like old carpet. In the middle, on a long metal track, hangs a lump of dry ice. Above it, a lamp.\n\n\"That lamp,\" the planetarium lady says, \"is the Sun. Watch close.\"\n\nThe comet starts to move. Slow. It loops way out to the far end of the track, into the cold dark corner. Nothing happens. No tail. Just a plain lumpy snowball, like a dirty sock someone left in space.\n\n\"Years,\" the lady says. \"It spends years out there.\"\n\nThen the comet swings back. Closer to the lamp. Closer. And — steam. A long glowing tail blooms off the ice, right on cue.\n\n\"There!\" my sister grabs my arm. \"That's the coat! It only grows near the Sun!\"\n\n\"Ice, warming up,\" I say. \"Leaving crumbs behind.\"\n\nDad is squinting at the ceiling. \"I wish on that one,\" he whispers, pointing at a painted star, \"for {wish_thing}.\"\n\n\"Dad. That's paint.\"\n\n\"A moth once,\" he says sadly.\n\nBut my sister is frowning at the model. The comet is heading home now, back toward the dark — and its tail is leaning away from the lamp. Still pointing away. Even on the return trip.\n\n\"Wait,\" she says. \"If the tail is just melted ice, it should drag behind. But it doesn't. It points away from the Sun. Both ways.\"\n\nShe looks at me. \"Why?\"\n\nNobody knows. Not even the planetarium lady. Well — she knows. But she is smiling, and not telling.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "That night we drive to a hilltop field. Me, Dad, and my sister, with a blanket and a thermos of cocoa. The ranger shows us where to spread out, away from the path. \"Lie back,\" she says. \"Eyes up.\"\n\n\"What did you find?\" my sister whispers. I tell her about it. She nods, like she is filing it away.\n\nThen the ranger tells us the secret. \"Sunlight pushes,\" she says. \"Like wind. So a comet's tail always streams away from the Sun.\" She holds up her hand, fingers spread. \"When the comet is heading home, it chases its own tail.\"\n\nDad gasps. \"Like a dog!\"\n\n\"A very cold dog,\" my sister says.\n\n\"And the tail itself?\" the ranger says. \"Ice. Sun-warmed ice, turning to gas, blowing outward. The comet only grows its tail on the near part of the orbit. Close to the Sun.\" She smiles. \"Two coats. One for near, one for far.\"\n\nIt clicks. Both mysteries, solved at once.\n\nThen my sister opens her notebook. She goes quiet. \"Look,\" she says. Her tally marks from last year. Circled. This exact week. \"How did the sky know?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We lie flat on the blanket. The grass pokes my back. I don't care.\n\n\"Shh,\" the ranger says. \"Let your eyes learn the dark.\"\n\nSo we wait. We count slow minutes. One cocoa. Two cocoa. Three cocoa.\n\nThen, little by little, the sky fills in. Stars I couldn't see before just pop into place, like somebody turning up a lamp.\n\n\"There!\" Dad whispers. A streak. Quick as spilled salt.\n\n\"I wish,\" he says, very solemn, \"for {wish_thing}.\"\n\nThe ranger chuckles. \"You just wished on a grain of comet dust.\"\n\nDad sits up. \"A crumb?\"\n\n\"A crumb,\" she says. \"{comet_name} drops them, circling the Sun, visit after visit. And Earth plows right through the trail. Same dusty road. Same week. Every year.\"\n\nMy sister grabs her notebook. \"That's why my dates match!\"\n\nWe count eleven streaks before the cocoa runs out. Eleven crumbs, falling home.\n\nAt the car, my sister circles next August in the notebook. I fold the blanket. It smells like grass. And in my pocket, wrapped in a tissue, is one little crumb of dirt from our test comet.\n\n\"For luck,\" Dad says.\n\nLike we need it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Walk with me,\" the ranger says. So we do.\n\nThe field is dark and bumpy. Crickets everywhere. Dad keeps pointing. \"There! No, there!\"\n\n\"Watch where they start,\" the ranger says. \"Not where they go.\"\n\nWe trace the streaks backward, with our fingers, like following string. And here's the strange thing. They all spray out of one spot. One patch of sky, between two stars.\n\n\"That's the radiant,\" the ranger says. \"The crumbs all come from there.\"\n\n\"Crumbs?\" Dad says.\n\n\"{comet_name} sheds dust on every trip around the Sun. A whole ribbon of it, floating in space. Earth's orbit crosses that ribbon in the same place, every single year.\" She taps my sister's notebook. \"That's how your dates knew.\"\n\nDad stops walking. He spreads his arms. \"Then I wish,\" he says, \"for {wish_thing}!\"\n\nHe trips over absolutely nothing. He wishes anyway, from the ground.\n\nBack at the blanket, we split the last of the cocoa, three sips each. The ranger folds her star chart into my sister's hands. The shower's week is circled in red.\n\n\"Keep it,\" she says. \"For next year.\"\n\nDad brushes grass off his knees. \"Best wish I ever fell for.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Our sibling taps the two drawings and says, \"We could test a comet ourselves, or go watch one pretend to be a comet. Which do we do first?\"",
+      "options": [
+        {
+          "say_word": "Build it",
+          "label": "Make a dirty-snowball comet at home and warm it by the porch lamp",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Go see",
+          "label": "Visit the planetarium's steaming model comet under its pretend Sun",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The ranger clicks off her red flashlight and asks, \"Do you want to lie back and let the show come to you, or walk with me and chase where these streaks are coming from?\"",
+      "options": [
+        {
+          "say_word": "Lie back",
+          "label": "Stay on the blanket, wait for our eyes to adjust, and let the meteors surprise us",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Chase them",
+          "label": "Walk the field with the ranger and trace the streaks back to their constellation",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.comets_and_meteors",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 14
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core material—why a comet grows a tail near the sun and where meteor showers come from—is naturally a question with clues (ice, sunlight, orbit) that build to a satisfying answer, which fits an 8-year-old better than a forced dilemma or a contrived problem.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "Dad, who keeps solemnly wishing on 'falling stars' that turn out to be grains of space sand, and once wished on a moth",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "patience",
+      "why": "The material offers it naturally: eyes need fifteen minutes of dark, the sky rewards lying still, and the comet itself waits years on its long orbit. It rides along without a lecture because the mystery's payoff literally requires waiting."
+    },
+    "cast": [
+      {
+        "role": "A parent who once mistook a meteor for a falling star",
+        "reused": false,
+        "why": "Carries the silly accent through his ongoing mix-ups, and his funny wish story is the warm, human way into what a meteor really is."
+      },
+      {
+        "role": "An older sibling with a notebook",
+        "reused": false,
+        "why": "Her tally-marked notebook with the same dates circled is the mystery's central clue, and she voices the questions an 8-year-old would ask."
+      },
+      {
+        "role": "A night-watch park ranger",
+        "reused": false,
+        "why": "Delivers the second clue that changes the first (sunlight pushes the tail like wind) and anchors the real-place safety beat with quiet competence."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "comet is a dirty snowball of ice, dust, and rock that grows a tail only near the Sun",
+        "tail always points away from the Sun, so it streams in front on the way out",
+        "long stretched-out orbit, circling the far cold end for years",
+        "a meteor is a grain of comet dust burning up in our air, not a falling star",
+        "meteor shower = Earth plowing through a comet's old dust trail",
+        "showers return on the same dates each year",
+        "best watched lying on a blanket in the dark with patience",
+        "hilltop field in August with crickets and cocoa",
+        "library book with tail / no-tail drawings",
+        "sibling's notebook with the same dates circled"
+      ],
+      "gathered_but_unused": [
+        "A comet is a dirty snowball made of ice, dust, and rock, and it only grows a tail when it travels close enough to the Sun for the ice to warm up and turn into gas.",
+        "A comet's tail always points away from the Sun, blown by sunlight and solar wind, so on the way back out the tail actually streams in front of the comet.",
+        "Comets travel in long, stretched-out orbits around the Sun, which is why some comets only visit our skies once every few dozen or hundred years.",
+        "A meteor is not a falling star at all. It is a tiny bit of space dust or rock, often no bigger than a grain of sand, burning up in a flash as it slams into our air.",
+        "A meteor shower happens when Earth, in its orbit, plows through a trail of dust left behind by a comet, so many bits burn up in the same night and seem to spray out of one spot in the sky.",
+        "Meteor showers return on about the same dates every year because Earth crosses the same comet dust trail at the same point in its orbit each time.",
+        "The best way to watch a meteor shower is lying on a blanket in a dark place, looking up with patience, because your eyes need time to adjust and the streaks come in surprises.",
+        "The dust trails that make meteor showers were shed by comets long ago, so when you watch one, you are watching pieces of a comet that may have passed near the Sun before you were born."
+      ]
+    },
+    "safety_beat": "In s3, the ranger shows us once, lightly, where to spread the blanket — off the path, on flat open grass away from the road — pure competence with no warning and no tension.",
+    "motif": "A dirty snowball leaving crumbs behind it, like someone snacking on a long walk home",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs a clean engine of genuine questions that each pay off one segment later, the family is fond of each other in every line without ever saying so, and the sound of it read aloud — the dirty sock, the very cold dog, the falling Dad — lands exactly where a listening child wants it to."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in over the table",
+        "s2a": "gleeful kitchen-raid energy, then a held breath at the frontwards tail",
+        "s2b": "wide-eyed in the dark dome, giggling at Dad, then puzzled again",
+        "s3": "quiet cocoa-warm anticipation, then the satisfying double click",
+        "s4a": "still and counting, little pops of wonder, sleepy and lucky at the car",
+        "s4b": "bumpy crickety exploring, a snort-laugh at the trip, warm and tucked-in at the b"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 14 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.2); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 35% of sentences carry speech or action; [s1] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison); [s2a] flat rhythm: sentence lengths vary little (spread 3.2); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.3)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 35% of sentences carry speech or action",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 35% of sentences carry speech or action",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "15_comets_and_meteors_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

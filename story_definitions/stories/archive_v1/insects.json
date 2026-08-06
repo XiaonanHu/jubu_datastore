@@ -1,0 +1,301 @@
+{
+  "id": "story.insects.make_and_build_001",
+  "title": "The Grand Bug Hotel",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.insects",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We build a bug hotel in the garden, room by wobbly room, until the very first guests move in.",
+  "slots": {
+    "hotel_name": {
+      "role": "the bug hotel we are building",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Buzzy Inn"
+    },
+    "downstairs_rooms": {
+      "role": "the material we chose for the downstairs rooms",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "pinecone"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The garden is busy this morning. Look down, close to the grass. A line of ants marches by, each one carrying a crumb. A ladybug lands on our finger, red with tiny black spots. Her little antennae wave hello. Somewhere near the fence, a grasshopper boings out of sight. Buzz, hum, tick, chirp. So many tiny neighbors! Then a cool wind shakes the leaves. We wonder something big. Where do all the little ones go when the rain comes? Ants have their hills. But what about a sleepy ladybug far from home? That gives us a wonderful idea. Let us build a bug hotel! A cozy tower full of little rooms, one for every kind of guest. We find the old wooden crate beside the shed. We stand it on two flat bricks, nice and steady. We paint a small sign and name our hotel {hotel_name}. The empty crate has lots of space for rooms. We rub our hands together. The downstairs rooms come first. What should we build them with?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Pinecones! Under the big pine tree, the ground is covered with them. We gather a whole armful. Some are fat and some are skinny. One is so tiny it fits on our thumb. We carry them back and start stacking them in the bottom of the crate. Uh oh. The pinecones roll. Three tumble out and bounce across the grass like prickly little balls. We chase them, giggling. Take two. This time we pack them side by side, snug as eggs in a carton. Fat one, skinny one, fat one, skinny one. Now they hold still. We press them gently. Not one wobble. And look closely at a pinecone. Between its woody scales are dozens of tiny gaps. Each gap is a perfect little bed for a ladybug to snuggle in. A hotel with a hundred beds downstairs already! While we work, a real ladybug flies down and lands on the tallest pinecone. She walks all over it, antennae wiggling, like an inspector in tiny boots. We hold our breath. She seems to like it.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Bamboo! By the back fence stand the old bamboo canes from last summer's beans. We snip them into short pieces with our garden snippers. Snip, snip, snip. Each piece is a hollow tube, like a tiny tunnel. We peek through one with one eye. We can see the whole garden through it, round like a peephole. Now we gather the tubes into a bundle. Uh oh. The bundle squirts out of our arms! Bamboo pieces rain down and roll everywhere. We gather them up, giggling. Take two. This time we tie the bundle first with garden string, around and around, double knot. Now it holds together like a bunch of tiny flutes. We slide the bundle into the bottom of the crate, snug and tight. Dozens of little tunnels, all facing the morning sun. Shy bugs love a deep, dark hallway to sleep in. While we work, an ant wanders over. She climbs into the lowest tunnel, antennae first, and marches all the way in. We hold our breath. Our first visitor is looking around!",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The {downstairs_rooms} rooms downstairs look snug and ready. {hotel_name} is really taking shape! Now for upstairs. We stuff one corner with clean, dry straw for the beetles. We roll up soft leaves like tiny sleeping bags and tuck them in rows. We add a little twig ladder, in case anyone likes climbing. Then, boing! A grasshopper lands right on top of the crate. The whole hotel wobbles. Wibble, wobble, wibble. We gasp and hold the sides. Steady, steady. The grasshopper boings away, and the wobbling stops. Phew. A hotel full of sleeping bugs cannot wibble like that. So we tuck flat stones around the bottom, one at each corner. We push the crate gently. It does not budge. Solid as a boulder now. We step back and look at our almost-hotel. Downstairs, upstairs, straw, leaves, ladder. It is so close to finished that our tummies feel fizzy. But every grand hotel needs one last special something on top. What should the finishing touch be?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "A roof of moss, to keep every room dry! We find a mossy patch by the shady fence. The moss lifts up in soft green pieces, like little squares of carpet. We lay them across the top of the crate, edge to edge. We pat each piece down gently. Soon the whole roof is covered in springy green fluff. It looks like the hotel is wearing a fuzzy hat. But will it keep the rain out? A builder always tests. We fetch the watering can and sprinkle a pretend rain shower. Pit, pat, pit, pat. The drops roll right off the moss and drip harmlessly onto the grass. Downstairs, every room stays dry as toast. It works! We wiggle with joy. And then, just as the sky turns orange, the first guests arrive. A ladybug crawls into a downstairs room and folds her wings. A sleepy beetle trundles into the straw. Best of all, a firefly settles by the door. It glows there like a tiny porch light. {hotel_name} is open at last. We built it, wobbles and all. Goodnight, little guests.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "A welcome garden! Every grand hotel needs flowers by the door. We fetch our trowel and dig a little half-moon of earth. It curves right in front of the door. We plant tiny flowers all along it. Yellow ones, purple ones, and one white one shaped like a star. We sprinkle them with the watering can. The petals sparkle. It looks so friendly now, like the hotel is smiling. Then we hear it. Buzz. A fuzzy bee has found our flowers already! She dips into the yellow one and wiggles happily. Flowers are like a welcome sign that bugs can smell. And here come more. A ladybug lands on the white flower, then crawls up to a downstairs room. A grasshopper boings onto the roof. The hotel does not wobble one bit. Well built, us! As the sky turns orange, fireflies drift in, blinking on and off around the doorway. Our welcome garden glows like a party. {hotel_name} is open at last, and the guests keep coming. We built it, wobbles and all. We whisper goodnight and tiptoe away.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "What should we build the downstairs rooms with?",
+      "options": [
+        {
+          "say_word": "pinecones",
+          "label": "Stack snuggly pinecones",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "downstairs_rooms": "pinecone"
+          }
+        },
+        {
+          "say_word": "bamboo",
+          "label": "Bundle hollow bamboo tunnels",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "downstairs_rooms": "bamboo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "What should the finishing touch be?",
+      "options": [
+        {
+          "say_word": "moss",
+          "label": "A soft mossy roof",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "flowers",
+          "label": "A tiny flower garden by the door",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.insects",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Insects is the topic where the thing a story builds can still be standing in a real garden the next morning, which is the strongest version of the make_and_build pull at this age.",
+      "candidates": [
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "The only problem a bug story hands a five-year-old is bugs being in the way, which walks straight into the topic's avoid entry about insects framed as menacing."
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.22,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": false
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false
+        }
+      ],
+      "backup": "mystery"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the grasshopper who boings onto the crate and makes the whole hotel wibble and wobble",
+      "why": "Everything wondrous in this story is a true fact about a real guest, so the accent had to sit on one bystander who interrupts the work rather than on the insects being admired.",
+      "rejected": [
+        {
+          "recipe": "crazy_inventor dominant with a silly accent",
+          "because": "Contraption energy turns the hotel into a machine, and the machine would become the subject; the guests have to be the point of a bug hotel."
+        },
+        {
+          "recipe": "cozy dominant with a curious_wonder accent",
+          "because": "Cozy already owns the last two minutes of this story as it stands; as the dominant it would have flattened the middle, which is where the actual building work happens."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "Nobody wants to watch someone else build a bug hotel; the hands stacking the pinecones have to be ours for the finished tower to feel earned.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "A hero adds a person to track between the child and the crate, and there is no feeling here that needs the protective distance a named hero provides."
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "A remembered build announces its own success in the first line, which spends the wobble beats before they happen."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "Materials offered a caring-for-small-creatures angle, but the story already shows it in what our hands do all the way through. Naming it would turn the last segment into a lesson, and no parent value picks apply to a shared library story."
+    },
+    "cast": [
+      {
+        "role": "we, Buju and the child, as the builders",
+        "reused": false,
+        "why": "This is the first story in the insects topic family, so every role in it is an invention that later stories in the family can bring back; the ants deep dive already reuses this one."
+      },
+      {
+        "role": "the ladybug inspector",
+        "reused": false,
+        "why": "Invented here, and deliberately given a job, walking the pinecones like an inspector in tiny boots, rather than a walk-on part, so the family gains a recurring character worth returning to. She returns in the ants story, where she gets her naming slot."
+      },
+      {
+        "role": "the grasshopper who boings",
+        "reused": false,
+        "why": "Invented as the accent carrier. His single job is to land on the crate and make it wobble, so that steadying the hotel with flat stones is earned rather than announced."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "true fact: the gaps between pinecone scales are ladybug-sized places to shelter in",
+        "true fact: hollow stems are what shy solitary insects actually nest in",
+        "true fact: flowers by the door bring pollinators to a garden",
+        "a wooden crate on two flat bricks as the frame that can be named",
+        "straw, rolled leaves and a twig ladder as the upstairs rooms",
+        "moss as a roof that can be tested with a watering can"
+      ],
+      "gathered_but_unused": [
+        "the cutaway ant colony with its chambers, later used as the seed of the ants deep dive",
+        "a firefly as a whole scene rather than the porch-light image at the end",
+        "the six-legs and exoskeleton facts, which are the age-7 mechanism treatment",
+        "a wider door into knowledge_domain.flowers_and_pollination through the bee at the welcome garden"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "At the first building step, so the pick becomes a physical part of the hotel that the shared segment and both endings can keep pointing at through the downstairs_rooms slot.",
+        "criteria": {
+          "more_interesting": "Pinecones and bamboo fail differently, rolling away against a bundle squirting out of our arms, and they attract different first visitors, a ladybug on the scales against an ant marching into a tunnel.",
+          "more_engaging": "Both are objects a child can picture in their own hands, and both make a satisfying mess when dropped.",
+          "reveals_taste": "Gentle, packing snug pinecone beds, against bold, snipping canes and tying a bundle tight.",
+          "reveals_curiosity": "just_experience on the pinecones against how_it_works on the bamboo, which ends on why a deep dark hallway suits a shy insect.",
+          "reflects_mood": "A soft stacking evening or a busy snipping one."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "The final choice always splits, and a shelter honestly finishes in one of two ways: protect it from the weather, or invite the guests in.",
+        "criteria": {
+          "more_interesting": "One ending tests the build against a pretend rain shower, the other fills the doorway with arrivals; the moss path ends on a firefly porch light, the flower path on a bee.",
+          "more_engaging": "Moss you can pat down like carpet against flowers you can plant and water, both of them doable outdoors afterwards.",
+          "reveals_taste": "Gentle and protective against bold and welcoming.",
+          "reveals_curiosity": "what_its_for on the roof, which is tested to see whether it works, against just_experience on the flower garden.",
+          "reflects_mood": "Making a dry safe place, or throwing the doors open to visitors."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Six segments and two choices against the 5-6 shape; every make_and_build beat job placed, the thing being made in s1, the steps in s2, a wobble in each branch, a second wobble and its fix in s3, the moment it works in both endings; hotel_name is asked at the start and used in s1, s3 and both endings, downstairs_rooms is set at c1 and used in s3; the insects avoid entries about swarms and menacing stings never come near the page."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "Read aloud for breath length; s2a and s2b were written as one pair so their failures differ by design; vocabulary held to the age-5 list, ant, ladybug and buzz, with antenna and grasshopper arriving from the age-6 list inside a picture."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four reachable combinations read end to end, two downstairs materials by two endings, with hotel_name at its default and at a long silly child-given name; scripts/build_story_explorer.py --check is clean."
+      }
+    ],
+    "writers_notes": [
+      "Take two is the phrase that marks the wobble-and-retry beat, kept to exactly one per branch so it reads as a rhythm and not as a tic.",
+      "The crate is stood on two bricks in s1 specifically so the s3 wobble has something to be steadied against later.",
+      "No insect is ever caught, kept, or handled. Guests arrive under their own power and are free to leave, which is the house rule for every insects-family story.",
+      "The wibble-wobble sound belongs to this story; the sibling ants story was written with plop and clatter instead so two make_and_build stories in one topic family do not sound identical.",
+      "hotel_name is a naming slot, so it is keyed to the insects topic family and a child who names the hotel meets that name again in later stories here.",
+      "This build record was reconstructed after the story was hand-authored, in the pipeline's format. The weights are the topic leanings that justify the assignment rather than numbers a sampler produced, and the shelf nudge is 1.0 throughout because this was the first story on the topic."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

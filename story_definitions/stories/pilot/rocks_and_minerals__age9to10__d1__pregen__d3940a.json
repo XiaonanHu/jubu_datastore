@@ -1,0 +1,302 @@
+{
+  "id": "story.rocks_and_minerals.age9to10.d1.pregen.d3940a",
+  "title": "The Pebble's Long Road",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.rocks_and_minerals",
+    "sel_theme": null,
+    "value_lesson": "Transformation: what looks like destruction is actually the start of something new",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "We follow a single gray pebble from a crumbling mountain cliff down through river, delta, and deep earth to discover how every rock is slowly becoming another kind.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The wind up here smells like salt and pennies. We stand on the edge of a cliff that is slowly, slowly falling into the sea. Dr. Petra taps the rock with her hammer. Clink. Clink. \"Listen,\" she says. \"The mountain is talking.\"\n\nBelow us, waves chew at the cliff's ankles. Gulp. Gulp. A chunk of gray rock lets go. It tumbles down, knocks into other rocks, and lands on the beach with a rattle like teeth in a jar.\n\n\"That,\" says Dr. Petra, \"is erosion. The sea is eating the mountain, one bite at a time.\"\n\nShe picks up a pebble from the pile. It is sharp-edged and gray, still rough from its fall. \"This one just broke off,\" she says. \"Feel those corners. It hasn't been anywhere yet.\" She drops it into our hands. It is heavier than it looks, and cold from the shadow of the cliff.\n\n\"You think it's finished,\" she says. \"A pebble. Done. But this is just the beginning. Every rock is on its way to becoming another kind of rock. That is the rock cycle. This little one is about to take a very long trip.\"\n\nWe look at the pebble. It looks ordinary. It looks like nothing. But Dr. Petra is smiling like she knows a secret.\n\n\"What should we call it?\" we ask.\n\n\"You name it,\" she says. \"You're carrying it.\"\n\nWe turn the pebble over. It has a white stripe through the middle, like a road. \"Scout,\" we say. \"We'll call it Scout.\"\n\nDr. Petra nods. \"Good name for a traveler. Now hold tight. The first part of the journey is the wildest.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Captain Zed is waiting at the river mouth with his boat, which is painted blue and has a dent in the side shaped like Australia. \"Full speed to yesterday!\" he shouts, and we climb aboard. The engine goes chug-chug-chug, and the river turns from slow brown to quick white.\n\nWe are going upstream, against the current, toward the young river. The boat shakes. Our teeth shake. Scout is safe in our pocket, but we can feel the pebble bouncing.\n\n\"Feel that?\" Captain Zed shouts over the noise. \"The river is young here. It has not learned to be calm.\"\n\nThe water is the color of milk mixed with chalk. It is full of sand and tiny bits of mountain. We look over the side and see cobbles rolling along the bottom, knocking into each other, getting scraped smooth. The river is carrying them downhill, toward the sea, toward the beach where we found Scout.\n\n\"Erosion,\" we say.\n\n\"Fast erosion,\" says Captain Zed. \"The water is sandpaper. It is smoothing those stones right now.\"\n\nThe boat hits a rapid. We bounce. Spray hits our faces, cold and tasting like stone. Captain Zed laughs and shouts, \"Toot-toot!\" and we shout it too, because the river is loud and we are small and it is wonderful.\n\nBut the water is moving so fast. We cannot imagine it will ever slow down enough to drop these stones. We hold the rail and watch the white water rush past, carrying its load of mountains toward somewhere else.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Dr. Petra leads us away from the cliff, down a path that switches back and forth like a zipper. The air changes. It stops smelling like salt and starts smelling like dust and old bread.\n\nWe are going down into the canyon. The walls rise up on both sides, striped red and brown and yellow, stacked like pancakes.\n\n\"Limestone,\" says Dr. Petra, tapping a gray layer. \"Siltstone. Shale. Each one is a different time, pressed flat.\"\n\nWe walk deeper. The path gets narrow. The sun disappears, and the air gets warm. Not hot like summer, but warm like a cat sleeping in a patch of sun.\n\n\"Feel that?\" Dr. Petra puts her hand on the rock wall. We put ours next to hers. The stone is warm. It is not supposed to be warm, but it is.\n\n\"We are close to where the mountain is cooking,\" she says. \"Heat and pressure. Deep down, the limestone is changing. It is becoming marble. It happens slowly, over millions of years, but it is happening right now.\"\n\nWe look at the rock. It looks solid. It looks still. But Dr. Petra says it is twisting, changing, turning into something new.\n\n\"Scout could become this,\" she says. \"If the pebble gets buried deep enough, cooked enough, it could become marble. Or something else. The rock cycle does not stop.\"\n\nWe touch the warm stone again. Somewhere below us, the mountain is working. We cannot see it, but we can feel the heat, and we know the rocks are moving, even though they look like they are standing still.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "By sunset we reach the delta, where the river gives up and spreads into the sea. The water turns the color of hot chocolate, and it fans out in slow brown swirls, wider and wider, like someone spilled it on purpose.\n\nCaptain Zed stands at the wheel with his hat on sideways. \"Full speed to yesterday!\" he shouts, and the boat chugs forward. Toot-toot!\n\n\"Look there.\" He points with his chin. \"That sandbar wasn't here last spring. The river dropped it. Every bit of mud and sand and pebble the water carries, it puts down right here. That's called a deposit.\" He grins. \"The river is building, even when it looks like it's just wandering off.\"\n\nHe lets us take the wheel. It is warm from his hands and it hums through our palms. We steer around the sandbar, slow and careful, and the bottom of the boat slides past it with a soft shhhh.\n\n\"What did you find back there?\" Captain Zed asks, nodding at our pockets. We tell him, and he whistles. \"Good. Hold onto it. And hold onto Scout.\"\n\nWe look down at the pebble in our hand. The white stripe is smoother now. Rounder. It has been somewhere.\n\n\"This looks like the end,\" we say. \"The river's done.\"\n\nCaptain Zed laughs, but kindly. \"Done? Down under all that mud, the real work is just starting. Layer on layer, pressing down, squeezing tight. Give it a few million years and all that muck turns into proper rock. Sedimentary rock.\"\n\nHe pats the rail. \"The journey's not over. It's just gone underground.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Captain Zed points the boat toward the fire mountain. Steam curls from cracks in its side, white and slow, like the mountain is thinking. The ground feels warm through our boots. Warmer with every step.\n\n\"Easy now,\" he says. He knows the good ledge, flat and wide, where the heat cannot reach the boat's paint. We stand behind a hump of old black rock, and we watch.\n\nThe top of the mountain opens. Lava pours out, thick as tomato soup, as porridge, as the jam at the bottom of the jar. It glows orange. It moves like it has all day.\n\n\"Is it angry?\" we ask.\n\n\"Angry?\" Captain Zed laughs. \"No. It's just doing its work. Old rock melts down there, deep where it's hot. Then it comes up here and cools off. New rock. Igneous rock. The mountain is making it right in front of you.\"\n\nWe watch the lava slow down. It stops glowing. It turns black and ropey, coiled like a sleeping snake. Crack. A sharp sound splits the air. The new rock breaks into tall columns, straight as pencils in a box.\n\n\"Basalt,\" says Captain Zed. \"Hard stuff. Good stuff.\"\n\nWe reach out our hand. The air above the new rock shimmers. It is too hot to touch. We pull back.\n\n\"Not yet,\" says Captain Zed. \"It has to finish becoming.\"\n\nWe look at Scout in our palm. Smooth now. Patient. We put it back in our pocket.\n\n\"Come on,\" says Captain Zed. \"Yesterday is waiting.\"\n\nToot-toot!",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Captain Zed ties up the boat and leads us into the stone cave. It is quiet in here. Drip. Drip. Water falls from the ceiling, one drop at a time, slow as honey.\n\nThe walls glitter. Thin curtains of stone hang down, pale and rippled, like frosting on a cake that nobody cut. \"Calcite,\" Captain Zed whispers. He is different in here. Softer. Like the cave asked him to be.\n\nHe shines his light on a spike of stone hanging from the ceiling. \"That one,\" he says. \"I came here when I was a boy. It has grown a whole centimeter since then.\"\n\n\"A centimeter?\" we say. \"That's all?\"\n\n\"A centimeter is a lot,\" he says, \"when you're a mountain.\"\n\nHe shows us how it works. One drop of water slides down. It leaves behind a tiny bit of stone, smaller than a grain of sand. Then the next drop. Then the next. Ten thousand years of drops, and you get a stalactite.\n\n\"The water is hollowing out the mountain,\" he says. \"Making space. And in that space, new rock grows.\"\n\nWe touch the wall. It is cold and wet and very, very patient.\n\nWe take Scout out of our pocket. The white stripe glows faintly in Captain Zed's light. We hold it up to the stone curtain.\n\n\"Someday,\" we say, \"this could be part of a cave.\"\n\nCaptain Zed nods. \"Someday,\" he says. \"It could be part of anything.\"\n\nDrip. Drip.\n\nWe put Scout back. We walk out into the light.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do we chase the pebbles down the fast water, or do we duck into the deep earth to see what the mountain is cooking?\"",
+      "options": [
+        {
+          "say_word": "River",
+          "label": "Chase the pebbles down the fast water",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Canyon",
+          "label": "Duck into the deep earth to see the mountain cooking",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do we sail to the fire mountain to watch new rock being born, or do we walk into the stone cave to see the mountain being hollowed out?\"",
+      "options": [
+        {
+          "say_word": "Volcano",
+          "label": "Sail to the fire mountain to watch new rock being born",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Cave",
+          "label": "Walk into the stone cave to see the mountain being hollowed out",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.rocks_and_minerals",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 23
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The rock cycle is literally a journey of transformation — a rock being eroded, deposited, and changed into new kinds of rock over time — so the movement itself naturally becomes the plot.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.35,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Captain Zed, the riverboat captain who shouts 'Full speed to yesterday!' and treats the delta like a time machine",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Transformation: what looks like destruction is actually the start of something new",
+      "why": "The material naturally offers this when the crumbling cliff becomes the beach, the delta, and eventually new stone; the pebble's journey shows that breaking down is just another way of building up."
+    },
+    "cast": [
+      {
+        "role": "Captain Zed, the riverboat captain who has watched the delta grow for thirty years",
+        "reused": false,
+        "why": "His big-adventure energy carries the accent tone, and his boat is the perfect vehicle for the journey pattern, letting us steer through the waterways that connect mountain to sea."
+      },
+      {
+        "role": "Dr. Petra, a geologist with a rock hammer and a backpack full of labeled samples",
+        "reused": false,
+        "why": "She meets us at the cliff and later deep underground, showing us how to read the story in a rock's layers and giving us the pebble that becomes our traveling companion."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Every rock on Earth is slowly changing into a different kind of rock through the rock cycle",
+        "Erosion is when wind, rain, and ice scrape away bits of rock and carry them downhill",
+        "When rivers slow down, they deposit their load of sand, mud, and pebbles",
+        "Heat and pressure deep underground can cook and squeeze existing rocks into metamorphic rocks",
+        "Magma that cools and hardens becomes igneous rock",
+        "The edge of a crumbling sea cliff where waves chew at the base",
+        "A river delta at sunset where muddy water fans out into the sea",
+        "On the slope of an active volcano where steam curls from cracks",
+        "A geologist with a rock hammer",
+        "A riverboat captain who has watched the delta grow for thirty years",
+        "The order of the journey: first you see the mountain erode, then the river carries the pieces, then the delta deposits them",
+        "The change in rock under your feet: sharp granite chips at the summit, rounded cobbles in the stream, fine silt in the delta",
+        "The temperature shifts: cold wind on the exposed cliff, warm steam near the volcano"
+      ],
+      "gathered_but_unused": [
+        "Every rock on Earth is slowly changing into a different kind of rock through the rock cycle, which takes millions of years.",
+        "Erosion is when wind, rain, and ice scrape away bits of rock and carry them downhill, downstream, or across deserts.",
+        "When rivers slow down, they deposit their load of sand, mud, and pebbles, which pile up in layers that can harden into sedimentary rock.",
+        "Heat and pressure deep underground can cook and squeeze existing rocks into metamorphic rocks like marble or slate without melting them completely.",
+        "Magma that cools and hardens becomes igneous rock, whether it erupts from a volcano as lava or freezes slowly underground.",
+        "Some rocks contain fossils, which are the remains or traces of ancient plants and animals that were buried in sediment before it turned to stone.",
+        "Caves form when slightly acidic rainwater dissolves limestone, carving tunnels and rooms underground over thousands of years.",
+        "The oldest rocks on Earth are more than 4 billion years old, but most rocks you pick up are much younger and are still part of the cycle."
+      ]
+    },
+    "safety_beat": "In s1, Dr. Petra shows us exactly where to stand on the cliff edge, pointing to a solid gray boulder and saying 'This one has been here since my grandmother's time; it will hold us.'",
+    "motif": "the journey of one pebble",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder and information with a strong, consistent voice, using sound and rhythm to make the science feel like an adventure shared with fond, memorable companions."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "briny and curious, leaning in to a secret",
+        "s2a": "bouncing, thrilled, a little wild",
+        "s2b": "hushed and warm, feeling the mountain breathe",
+        "s3": "proud at the wheel, then quietly amazed",
+        "s4a": "wide-eyed and held-back, watching the earth make itself",
+        "s4b": "softened and reverent, a slow glow"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.3); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.1); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.0); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['boat_call', 'pebble_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "24_rocks_and_minerals_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

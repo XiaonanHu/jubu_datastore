@@ -1,0 +1,346 @@
+{
+  "id": "story.foods_around_the_world.age7to8.d1.pregen.8cd842",
+  "title": "The Compass of Steam",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.foods_around_the_world",
+    "sel_theme": null,
+    "value_lesson": "Respecting that there is no 'right' way to eat, only different clever ways that fit the food being served.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "Following a floating scent-map of steam around the world to discover how hands, chopsticks, and forks are all clever tools for the same job.",
+  "slots": {
+    "guide_name": {
+      "role": "The Traveling Chef",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Chef Marco"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It is night, and the market is wide awake. Paper lanterns glow above us like little moons, and everywhere — everywhere — steam is rising from a hundred stalls, curling up past our noses.\n\n\"Smell that?\" says {guide_name}, the Traveling Chef, walking beside us with a wooden box tucked under one arm. \"Noodles. Dumplings. Something with spice in it — ooh, that one's making my nose tingle.\"\n\nOurs too. It tingles in a nice way.\n\n{guide_name} stops and opens the box. Inside, on a folded cloth, lie three things: a fork, a spoon, and a pair of chopsticks, smooth and dark.\n\n\"My magic wands,\" {guide_name} says. \"Every place in the world eats with something clever. Hands, forks, chopsticks — all of them right, all of them smart. The trick is knowing which one the food is asking for.\"\n\n\"The food asks?\" we say.\n\n\"Oh yes. You just have to know how to listen.\"\n\nAnd that is when we see it. Above the nearest stall, a wisp of steam rises — but it does not drift away like the others. It curls. It bends. We hold our breath and watch. Slowly, slowly, it shapes itself into two long, thin lines, side by side, pointing down into the market like an arrow.\n\nFor a moment, nobody says anything. The steam waits.\n\n{guide_name} leans close, eyes bright. \"Well, well,\" the Chef whispers. \"The steam has chosen. Follow it!\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The steam curls into two long lines and drifts through the market, and we follow it, slow-slow, watching it bend and curl above the stalls, until we duck under a curtain into a noodle house. Low table. Floor cushions. A Street Vendor stands behind a sizzling pan, holding two metal chopsticks longer than our arms.\n\n\"Watch,\" the Vendor says. Click-click-click! The chopsticks flip little round takoyaki balls so fast our eyes cannot follow. \"Now you.\"\n\nWe sit. Our own chopsticks feel like two slippery sticks. We pinch a shiny noodle. It wiggles. It drops. Plop. We try a pea — ping! It shoots across the table and the Vendor catches it in a bowl without looking.\n\n\"Chopsticks are not for stabbing,\" the Vendor says, grinning. \"They are for pinching. Like a heron's beak. Gentle.\"\n\nWe try again. Gentle. The noodle lifts! It dangles. We slurp it up — slurp! — loud as we can, because here, slurping cools the noodles and tells the cook the meal is good. The Vendor slurps back, louder. It is a compliment, in noodle language.\n\nThe Vendor grins. Above us, the steam waits, curling slow.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "The steam curls into a soft round shape and leads us down a quiet street to a kitchen window glowing yellow. Inside, a grandmother is pressing dough between her hands. Pat-pat-pat. Pat-pat-pat.\n\n\"Come in, come in,\" she says, not stopping. Her hands rock back and forth, and the dough turns — a little flatter, a little rounder, every pat. \"The tortilla tells you when it is ready. Listen.\"\n\nWe listen. Pat-pat-pat. Like a slow heartbeat.\n\nShe puts a small ball of dough in our palms. It is warm, like a potato just out of its jacket. We pat. Back and forth, hand to hand. Ours goes lumpy. It goes lopsided. It looks more like a map than a moon.\n\n\"Again,\" she says, and her thumb smooths our edges. \"Soft hands. The dough likes soft hands.\"\n\nWe pat. Softer. Rounder. And there it is — a real tortilla, thin and pale gold. She lays it on the hot pan and it puffs up like it is taking a deep breath.\n\n\"Now the clever part,\" she says. She spoons beans into the middle. \"Fold it around them, like a little blanket. Then your fingers stay clean — and the food carries itself.\"\n\nWe fold. We bite. Warm beans, warm corn, warm everything.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The steam curls around us like a soft ribbon, and the market spins away. When it lets go, we are standing in a warm dining room where the air smells like toasted cumin, and a long table is crowded with people passing dishes and laughing.\n\n\"What did you find back there?\" {guide_name} asks, eyes bright. But before we can answer, an old grandmother at the table pats the seat beside her. \"Sit, sit!\" she says. \"You are just in time.\"\n\nIn the middle of the table waits a huge platter of rice, golden and steaming, with sauce pooled in the middle like a little lake. We look around for our tools. No forks. No chopsticks. No spoons.\n\n\"Ah,\" says {guide_name}, rubbing hands together. \"This food asks for something different.\"\n\nThe grandmother holds up her right hand and wiggles her fingers. \"Your hands,\" she says. \"The best tools of all. Here, we eat with our fingertips. You can feel if the rice is too hot. You can feel if the sauce is thick enough. Your fingers know before your tongue does.\"\n\nWe stare at our hands. After using tools, touching the food feels strange — like wearing shoes after going barefoot all summer.\n\n\"Try,\" she says gently. \"Mix a little ball. Rice and sauce together. Your fingers will learn.\"\n\nWe reach out. The rice is warm, the sauce smooth. It squishes between our fingers in a way that makes us laugh. The table goes quiet, watching us kindly. The warmth seeps into our palms.\n\n\"There,\" says {guide_name}. \"You are listening now.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The steam lifts us up and spins us around, and when it lets go, we are standing in a sunny courtyard where blue and green tiles cover the walls like a puzzle. In the middle of a low table sits a big clay pot with a pointy lid, and steam is curling out from under it, smelling like cinnamon and something smoky.\n\n\"A tagine,\" says {guide_name}, bowing to a woman with a kind smile and brass tins in her hands. \"Morocco. We eat together here, from the same dish.\"\n\nThe woman opens a tin. \"Smell,\" she says. We lean in. Sweet, like cookies. She opens another. This one is deep and red and makes our noses tingle.\n\n\"Cinnamon,\" says {guide_name}. \"And paprika. The tagine knows both.\"\n\nWe sit in a circle. There are no forks, no spoons — only baskets of crusty bread. The woman tears off a piece and dips it into the stew in front of her. \"Eat from what is before you,\" she says. \"The bread is your spoon.\"\n\nWe tear. We dip. The bread soaks up the sauce, warm and soft, and the spices dance on our tongues. {guide_name} grins. \"You are listening with your hands now.\"\n\nBefore we go, the woman presses a small scroll into our palms. It is a curl of cinnamon bark, brown and fragrant. \"For your journey,\" she says.\n\nThe woman waves from the courtyard. The steam curls around us one last time, and the cinnamon smell fades as it carries us home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The steam lifts us up and spins us around, and when it lets go, we are standing in a crowded dining room where the air smells like earth and pepper. A huge tray sits in the middle of the table, covered with a flat, spongy bread that looks like a pancake but feels like a cushion.\n\n\"Injera,\" says {guide_name}, nodding to a girl about our age who is already tearing a piece off the edge. \"Ethiopia. The bread is the plate, and the spoon, and everything.\"\n\nThe girl holds up her right hand. \"Use this one,\" she says. \"The clean hand. Tear like this — quick, like turning a page.\"\n\nWe try. The injera is soft and stretchy, and it sticks to our fingers at first. The girl laughs, not mean, but like she has done this a hundred times. \"Again,\" she says. \"Pinch and pull.\"\n\nWe pinch. We pull. The bread tears clean, and we scoop up a pile of spicy stew. It is warm and a little sour, and the injera soaks it up like a sponge. {guide_name} watches, eyebrows raised. \"You see? The food told you what it needed.\"\n\nWe eat until our fingers are tired and our bellies are full. Before we go, the girl tears off a small piece of injera and folds it into our hands. \"To remember,\" she says.\n\nThe girl's laugh follows us out. The steam curls around us one last time, and we eat the warm bread on the way home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The steam is splitting, little travelers! Shall we chase the clicking chopsticks to the noodle house, or follow the warm pat-pat-pat to the tortilla press?\"",
+      "options": [
+        {
+          "say_word": "Chopsticks",
+          "label": "Chase the clicking chopsticks to the noodle house",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Tortilla",
+          "label": "Follow the warm pat-pat-pat to the tortilla press",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The steam is calling us to our final feast! Do we follow the scent of cinnamon to the tagine, or chase the smell of earthy spice to the injera?\"",
+      "options": [
+        {
+          "say_word": "Cinnamon",
+          "label": "Follow the scent of cinnamon to the tagine",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Spice",
+          "label": "Chase the smell of earthy spice to the injera",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.foods_around_the_world",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 20
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's material—traveling across countries to see how hands, chopsticks, and forks each fit different foods—naturally feeds a journey where the movement from place to place is itself the plot.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "The Traveling Chef",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Respecting that there is no 'right' way to eat, only different clever ways that fit the food being served.",
+      "why": "The material naturally contrasts tools without ranking them, showing each as a perfect fit for its food's shape."
+    },
+    "cast": [
+      {
+        "role": "The Traveling Chef",
+        "reused": false,
+        "why": "Carries the curious_wonder accent with a wooden box of 'magic wands' (utensils) and guides the journey with playful expertise."
+      },
+      {
+        "role": "A Street Vendor in Japan",
+        "reused": false,
+        "why": "Demonstrates the lightning-fast chopstick flip and teaches the polite slurp."
+      },
+      {
+        "role": "A Grandmother in Mexico",
+        "reused": false,
+        "why": "Shows how to pat corn dough into tortillas and use them as edible scoops."
+      },
+      {
+        "role": "An Older Sister in Ethiopia",
+        "reused": false,
+        "why": "Teaches the 'clean hand' trick for tearing injera and scooping stew."
+      },
+      {
+        "role": "The Spice Merchant",
+        "reused": false,
+        "why": "Opens brass tins of cinnamon and cumin to reveal the final destination's scent."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "The Traveling Chef",
+        "A Street Vendor in Japan",
+        "A Grandmother in Mexico",
+        "An Older Sister in Ethiopia",
+        "The Spice Merchant",
+        "In Ethiopia, meals are often served on a large flatbread called injera",
+        "Chopsticks were invented in China over 3,000 years ago",
+        "In Mexico, a tortilla is often used as an edible scoop",
+        "In Japan, there is a special 'cat's tongue' way of eating hot noodles",
+        "A 'spice' like cinnamon or cumin can travel thousands of miles",
+        "A bustling night market in Taiwan",
+        "A cozy kitchen in Mexico City",
+        "A low wooden table in a Japanese home",
+        "The joy of trying something new even if it feels a little bit clumsy at first",
+        "Respecting that there is no 'right' way to eat",
+        "A child tries to use chopsticks for the first time and accidentally launches a pea",
+        "The moment the spice merchant opens a tin of bright yellow turmeric"
+      ],
+      "gathered_but_unused": [
+        "In Ethiopia, meals are often served on a large flatbread called injera that acts as both your plate and your spoon. You tear off a piece with your right hand and use it to scoop up spicy stews.",
+        "Chopsticks were invented in China over 3,000 years ago. Because the food was already cut into small pieces in the kitchen to save cooking fuel, people didn't need knives at the table.",
+        "In Mexico, a tortilla is often used as an edible scoop. Instead of using a fork, you can fold a warm tortilla around beans or meat to keep your fingers clean while you eat.",
+        "In Japan, there is a special 'cat's tongue' way of eating hot noodles: it is actually polite to slurp them loudly! Slurping helps cool the noodles down and shows the chef you are enjoying the meal.",
+        "Many people in India eat with their right hand. They use their fingertips to feel the temperature and texture of the food before it even touches their tongue, which makes the meal taste even better.",
+        "In Morocco, people often eat from one big communal dish called a tagine. Everyone sits in a circle and eats from the section of the dish directly in front of them using pieces of bread.",
+        "A 'spice' like cinnamon or cumin can travel thousands of miles. Some spices are actually dried tree bark, while others are seeds or even flower buds.",
+        "In Sweden, there is a tradition called 'Fika,' which is a special break during the day to have a sweet bun and a drink with friends. It is a time to slow down and talk."
+      ]
+    },
+    "safety_beat": "In the Taiwan night market, the Traveling Chef lightly guides us to stand where the steam rises but the lanterns don't drip, showing we know how to navigate the bustling stalls with ease.",
+    "motif": "Rising steam that curls into the shape of the tool needed next.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story is warm and well-made, but it treats wonder as a conveyor belt — each magical encounter is grabbed, consumed, and left behind, and the endings clutch souvenirs ('keep it forever') instead of letting the moment glow and pass.",
+          "editor_notes": [
+            "The steam itself is the most magical thing in the story, but it is only ever a delivery service ('pulls us through the market, quick-quick'). Let one transition slow down: a held breath where the steam curls and the child simply watches it shape itself before following.",
+            "s2b is the strongest segment because it already lingers (the dough 'puffs up like it is taking a deep breath'). Bring s2a up to that stillness: after 'It is a compliment, in noodle language,' give one quiet beat — the Vendor's grin, the steam waiting — instead of immediately 'Above us, the steam is curling again.'",
+            "The closing lines of s4a and s4b ('we know we will keep it forever') turn the encounter into a possession, which works against the story's own magic. Let the gift be smaller and the leaving do the work: the cinnamon's smell fading as the steam carries them home, or the injera eaten on the way — the glow, not the keeping.",
+            "s3 ends with 'You are listening now' — a lovely line, but the scene rushes past the actual sensation of the rice. One more sentence of stillness there (the warmth, the quiet of the table watching kindly) would let the child sit inside the strangeness before the lesson lands.",
+            "The repeated 'The steam curls around us one last time' arrives too fast after the gift. Give the farewell its own small sentence — the woman waving, the girl's laugh behind them — so the leaving is felt, not just stated."
+          ],
+          "segments_revised": 6,
+          "segments_rejected": 0
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is a warm, well-paced listening story with a clear ritual structure (steam chooses, food asks, hands learn), sound-words that land as their own small sentences, and a guide whose fond attention holds the big world open for the child."
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "tingly and curious, then a held breath as the steam points",
+        "s2a": "giggly, wiggly, trying hard, then proud and slurpy",
+        "s2b": "quiet and cozy, hands busy, small pride at the puff",
+        "s3": "welcomed and slightly nervous, then warm and brave",
+        "s4a": "snug in the circle, leaning in to smell, gently satisfied",
+        "s4b": "included and capable, full-bellied and fond"
+      },
+      "segments_revised": 6,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 37% of sentences carry speech or action; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 34% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polished (219 -> 235 words)",
+      "round 1: [s2a] polished (176 -> 190 words)",
+      "round 1: [s2b] polished (210 -> 210 words)",
+      "round 1: [s3] polished (247 -> 260 words)",
+      "round 1: [s4a] polished (256 -> 252 words)",
+      "round 1: [s4b] polished (253 -> 250 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 37% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "21_foods_around_the_world_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

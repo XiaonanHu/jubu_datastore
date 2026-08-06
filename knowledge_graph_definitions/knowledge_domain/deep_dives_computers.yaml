@@ -1,0 +1,142 @@
+axis: knowledge_domain
+pack: deep_dives_computers
+nodes:
+  - id: knowledge_domain.video_games
+    axis: knowledge_domain
+    label: video_games
+    display_name: "Video Games"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [game_rules, pixels_and_sprites, level_design, why_games_feel_fun]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "a game is a picture made of tiny squares plus a rulebook the computer follows, redrawn faster than your eye can blink", vocabulary: [pixel, sprite, rule], avoid: [violent game content, screen-time shaming or lecturing, calling games addictive]}
+      9: {depth: system, framing: "why a good level feels like a good story; designers tuning challenge and surprise so players stay curious instead of stuck", vocabulary: [level design, challenge, playtest], avoid: [violent game content, screen-time shaming or lecturing, calling games addictive]}
+      11: {depth: system, framing: "reading a game the way its makers do; spotting the tutorial hidden inside level one and the loops of goal, choice, and reward that keep play interesting", vocabulary: [mechanic, tutorial, reward loop], avoid: [violent game content, screen-time shaming or lecturing, calling games addictive]}
+    edges:
+      adjacent: [knowledge_domain.drawing_and_animation, knowledge_domain.robots]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.writing_programs
+    axis: knowledge_domain
+    label: writing_programs
+    display_name: "Writing Programs"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [instructions_in_order, loops, bugs_and_fixing_them, languages_computers_speak]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "a program is a recipe the computer follows exactly, one step at a time, and it never skips ahead or guesses what you meant", vocabulary: [instruction, order, loop]}
+      9: {depth: system, framing: "a bug is a puzzle the program left for you; programmers read the clues, test a guess, and enjoy the moment it finally runs", vocabulary: [bug, debug, programming language]}
+      11: {depth: system, framing: "beyond one screen of code; naming things so they explain themselves, splitting a program into parts, and reading someone else's code like a story", vocabulary: [function, refactor, readable]}
+    edges:
+      adjacent: [knowledge_domain.codes_and_ciphers, knowledge_domain.robots]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.making_apps
+    axis: knowledge_domain
+    label: making_apps
+    display_name: "Making Apps"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [from_idea_to_screen, buttons_and_taps, testing_with_people, updates]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "an app starts as a drawing on paper; every button you tap was sketched, argued over, and wired up by somebody", vocabulary: [app, button, tap]}
+      9: {depth: system, framing: "app makers watch real people get confused, fix what tripped them up, and ship an update; an app is never finished, only improved", vocabulary: [design, user, update]}
+      11: {depth: system, framing: "shipping something real; a small app in real hands, honest feedback, and the hard choice of what to build next and what to leave out", vocabulary: [feedback, version, release]}
+    edges:
+      adjacent: [knowledge_domain.jobs_people_do, knowledge_domain.inventions]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.game_design
+    axis: knowledge_domain
+    label: game_design
+    display_name: "Game Design"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [rules_that_make_fun, levels_and_difficulty, playtesting, idea_to_prototype]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "every game is a bundle of rules; change one rule of tag and you have invented a brand-new game on the spot", vocabulary: [rule, goal, fair], avoid: [violent game content, screen-time shaming or lecturing]}
+      9: {depth: system, framing: "designers watch playtesters get stuck or bored, then tune the game until tricky feels exciting instead of unfair", vocabulary: [playtest, difficulty, prototype], avoid: [violent game content, screen-time shaming or lecturing]}
+      11: {depth: system, framing: "the loop at the heart of every game — a goal, a choice, a consequence, the itch to try again — and how designers balance luck against skill", vocabulary: [game loop, balance, iteration], avoid: [violent game content, screen-time shaming or lecturing]}
+    edges:
+      adjacent: [knowledge_domain.video_games, knowledge_domain.making_apps]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.robots_and_sensors
+    axis: knowledge_domain
+    label: robots_and_sensors
+    display_name: "Robots and Sensors"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [sensing_the_world, if_this_then_that, wheels_and_arms, robots_you_can_build]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "a robot is a program with a body; its sensors feel the world and its code decides what the motors do next", vocabulary: [sensor, motor, react]}
+      9: {depth: system, framing: "sense, decide, move, repeat — the loop a line-following robot runs hundreds of times a second without ever getting bored", vocabulary: [loop, input, output]}
+      11: {depth: system, framing: "why driving itself is so hard for a machine; sensors disagree, the world surprises, and the code must still choose safely", vocabulary: [autonomous, edge case, fail-safe]}
+    edges:
+      adjacent: [knowledge_domain.writing_programs, knowledge_domain.robots]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "The code-side view of robots (sensing and deciding); the curriculum topic knowledge_domain.robots keeps the broad what-robots-are view.", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.pixels_and_screens
+    axis: knowledge_domain
+    label: pixels_and_screens
+    display_name: "Pixels and Screens"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [tiny_squares_of_light, red_green_blue, cameras_capture_pixels, screens_everywhere]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "lean close to a screen and the picture crumbles into tiny glowing squares; step back and they melt into one image", vocabulary: [pixel, screen, zoom], avoid: [screen-time shaming or lecturing]}
+      9: {depth: system, framing: "every color you have ever seen on a screen is just red, green, and blue light mixed in different amounts, millions of times over", vocabulary: [red green blue, resolution, display], avoid: [screen-time shaming or lecturing]}
+      11: {depth: system, framing: "from a number in memory to light in your eye; how a computer redraws every pixel sixty times a second without you ever noticing", vocabulary: [frame rate, refresh, graphics], avoid: [screen-time shaming or lecturing]}
+    edges:
+      adjacent: [knowledge_domain.video_games, knowledge_domain.drawing_and_animation]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.how_the_internet_works
+    axis: knowledge_domain
+    label: how_the_internet_works
+    display_name: "How the Internet Works"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.computers_and_code
+    facets: [messages_in_pieces, cables_under_the_sea, addresses_for_computers, servers_that_answer]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "your message is chopped into tiny pieces that race through wires and radio waves, then snap back together at your friend's house", vocabulary: [message, wire, deliver], avoid: [online strangers as menace, scary content warnings]}
+      9: {depth: system, framing: "undersea cables, addresses, and routers passing packets hand to hand; the internet is a postal service that never sleeps", vocabulary: [cable, router, packet], avoid: [online strangers as menace, scary content warnings]}
+      11: {depth: system, framing: "when a page loads, dozens of computers you will never see answer in a blink; servers, requests, and what happens when one link in the chain breaks", vocabulary: [server, request, network], avoid: [online strangers as menace, scary content warnings]}
+    edges:
+      adjacent: [knowledge_domain.making_apps, knowledge_domain.codes_and_ciphers]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

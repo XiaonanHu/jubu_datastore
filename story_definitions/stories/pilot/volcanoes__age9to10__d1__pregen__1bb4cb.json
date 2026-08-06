@@ -1,0 +1,316 @@
+{
+  "id": "story.volcanoes.age9to10.d1.pregen.1bb4cb",
+  "title": "The Island That Grew from Fire",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.volcanoes",
+    "sel_theme": null,
+    "value_lesson": "Appreciating how even something as powerful as a volcano can create beautiful new places for life to grow",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "Following the warmth of the Earth from a sleeping mountain's grassy slope down to the sea where new land is still being born.",
+  "slots": {
+    "travel_buddy": {
+      "role": "The child companion joining the expedition",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Explorer"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Let me tell you about the morning {travel_buddy} and I climbed a sleeping mountain.\n\nIt began with a postcard from Pip the Volcanologist — three words and a drawing of a thermometer: \"Come quickly. Warm.\" So we packed our boots and sailed to the Pacific, to a green island in the great ring of fire, where the sea meets mountains that once breathed flame.\n\nThe volcano rose out of the mist like a giant curled up under a grassy blanket. Dormant, Pip called it, bouncing on her heels at the trailhead. \"Not extinct — never extinct. Just... dozing.\" She pressed her palm flat to the ground, and we did too. The earth was warm. Not warm like sunshine. Warm like a cat that's been sitting in your spot and just got up.\n\n\"Feel that?\" Pip whispered. \"That's geothermal — heat rising from deep below. The mountain's still awake down there.\"\n\nA thin ribbon of steam curled from between the rocks, white against the green. Pip pulled out her brass thermometer, the one that rattles in its case, and held it over the vent. Her eyes went wide.\n\n\"Forty degrees! Oh, that's lovely. That's bathwater-warm.\"\n\nThe steam drifted up past our knees, and the whole hillside smelled faintly of minerals, like coins held in a hot hand. {travel_buddy} looked at me, and I looked at {travel_buddy}, and we both looked up the slope where more steam rose, thicker, waiting.\n\nPip grinned and tucked her thermometer away. \"The crater rim is where it gets interesting. Shall we?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Up we go,\" says Pip, and up we go, along a path that zigzags into the crater itself. The walls rise around us in stripes — rust-red, ash-grey, black as toast. Pip runs her hand along them. \"Each stripe is an old eruption,\" she says. \"This mountain has been building itself for thousands of years, one layer at a time.\"\n\nWe climb down into the bowl, and the air changes. It smells like rotten eggs — sharp and funny and impossible to ignore. {travel_buddy} pinches their nose. Pip laughs. \"That's sulfur! That's the mountain breathing. A dead volcano — an extinct one — smells like nothing at all.\"\n\nShe kneels by a crack in the rock and slides the brass thermometer in. We crouch close. The needle trembles, climbs, stops. \"Sixty degrees,\" Pip whispers, like she's telling a secret. \"Hot enough to cook an egg, right under our boots.\"\n\nThen she presses her palm to the crater floor, and we press ours beside hers. The rock hums with warmth, deep and slow, like something enormous turning over in its sleep. Pip picks up a small dark stone, pocked with holes, and drops it into my hand. It's still warm. \"Volcanic rock,\" she says. \"The mountain made that. Take it — a souvenir from a giant who's only dozing.\"\n\nI close my fingers around it. Below us, somewhere far down, the heat keeps rising.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Follow the steam,\" says Pip, and we do — down a narrow path where white ribbons curl between the rocks, thicker and thicker, until the air itself feels like a warm washcloth on our faces.\n\nThen the path turns, and there it is. A pool hidden in the stone, no bigger than a bathtub, bubbling at the edges like a pot that knows it has all day. Pip claps her hands. \"A hot spring! The mountain's own bathtub.\"\n\nWe sit on the warm rocks and pull off our boots. The water is bathwater-warm — no, warmer — and tiny bubbles tickle our toes. {travel_buddy} wiggles them, and the bubbles wiggle back. Pip dips her brass thermometer in and holds it up to the light. \"Forty-two degrees,\" she announces. \"Oh, that's splendid.\"\n\n\"How does it get so warm?\" we ask, and Pip taps the rock beneath her. \"Rainwater sinks down, down, down through cracks in the earth — deeper than any well — until it meets rock heated by the sleeping volcano. The rock warms the water, and the water rises back up, bringing the heat with it. Geothermal,\" she says, rolling the word like a marble. \"Earth-heat. In some places, people pipe this very warmth into their houses to heat their rooms and fill their baths.\"\n\nWe lean back on our elbows, toes in the warm water, steam rising all around us. Somewhere far below our feet, the mountain is quietly keeping the kettle on.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Pip tucked her thermometer away and pointed down the far slope, where a little white boat bobbed at a wooden pier. \"That's Kai,\" she said. \"He's been waiting for us.\"\n\nKai waved us aboard, and the boat hummed to life under our feet. We slipped along the coast, past green cliffs, past a round lake sunk into the mountain's top — water the color of turquoise, still as glass. \"The old crater,\" Kai said over his shoulder. \"The mountain sleeps up here. But out there?\" He nodded toward the open sea. \"Out there, it's still building.\"\n\n\"Building what?\" {travel_buddy} asked.\n\n\"New land,\" Pip whispered. \"Islands begin underwater, you know. A volcano erupts beneath the waves, lava meets cold sea, and hardens into rock. Layer after layer, year after year, until one day — the top breaks the surface.\"\n\nThen we saw it. Ahead, the ocean was steaming. Great white clouds rose off the water, and the surface bubbled like a pot left on the stove. Pip snatched up her brass thermometer and dangled it over the side on a string.\n\n\"Ninety-two degrees!\" she cried. \"Ninety-two! The sea is practically soup!\"\n\nKai cut the engine, and we drifted. The boat rocked gently. Bloop. Bloop. A bubble the size of a bathtub swelled up beside us and burst, sighing warm mist across our faces.\n\nPip gripped the rail, her eyes shining. \"Somewhere under this boat, right now, lava is meeting the sea. We might be watching an island being born.\"\n\n{travel_buddy} leaned close to me. \"Do you think we'll see it happen?\"\n\nThe water bubbled louder. Pip held her breath. So did we.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Hold tight,\" Kai says. He steers us close — close enough to feel the heat on our faces, but behind the big wave-breaker rocks where the water stays calm. \"This is where the mountain meets the sea.\"\n\nThen we see it. Orange lava, bright as the inside of a toaster, pours into the water. Sssssss. Steam explodes upward, white and roaring. The lava hits the cold sea and turns black instantly, hardening into jagged rock that tumbles and piles.\n\n\"Look!\" Pip shouts over the hiss. \"New rock! Brand new! The youngest rock on Earth!\"\n\nWe watch the island grow. Inch by inch. A black ledge extends where there was only water a moment ago. Pip dangles her thermometer on its string. \"One hundred degrees! Oh, it's cooking!\"\n\nThe steam drifts apart, and Kai noses the boat toward a beach of sand black as licorice. We hop out. The ground is warm through our shoes.\n\nPip picks up a gray stone, light as a sponge. \"Pumice,\" she says. \"It floats.\" She tosses it into a pool. It bobs like a cork.\n\n{travel_buddy} finds a smooth black pebble, still warm from the sun. We dig a small hole in the dark sand, rich as crumbled chocolate cake, and tuck a seed inside. \"For the island,\" Pip says softly.\n\nWe climb back aboard, pockets heavy with stone. The new rock steams behind us, cooling into land that will be here long after we're gone.\n\n\"We saw it born,\" {travel_buddy} whispers.\n\nKai smiles. \"And it'll keep growing. Come back in a hundred years — you won't recognize the place.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Kai beaches the boat on sand black as pepper. \"The geysers are just ahead,\" he says. \"Stay on the wooden path. The ground's thin here — like the crust on a pie.\"\n\nWe follow him past pools that bubble like pots of oatmeal. The air smells of minerals, sharp and warm. Then we see the field: white cones of stone, and from the biggest one, a rumble.\n\n\"She's building,\" Kai whispers. \"Count with me.\"\n\nWe crouch low. The pool in the cone's mouth swells, trembles. Pip grips her thermometer. \"Ninety-eight... ninety-nine...\"\n\n\"One,\" we say together. \"Two. Three—\"\n\nWhoosh. A column of water shoots straight up, taller than a house, glittering in the sun. It rains down warm as bathwater, and we shriek with laughter, soaked and steaming.\n\n\"Every island in this chain,\" Kai says, wiping his face, \"started like this. A volcano grows underwater, breaks the surface, then sleeps. That one there—\" he points to a green hump across the bay, \"—is dormant. The one beyond it? Extinct. Finished. But this field is still wide awake.\"\n\nWe explore the black sand, finding stones that glitter like dark glass — obsidian, Pip calls it, volcanic glass. And pumice, gray and holey, light as a cracker. {travel_buddy} drops one in a pool. It floats, bobbing like a toy boat.\n\nWe plant a seed in the dark soil, tucking it in deep. Pip presses her palm to the ground one last time. \"Warm,\" she says happily. \"Still rising.\"\n\nWe carry home a stone that floats, and the smell of the warm earth on our clothes.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The mountain is speaking to us through heat,\" Pip says, adjusting the brass thermometer. \"Shall we climb into the crater to see the sleeping volcano's rocky layers, or follow the warm steam to find the hot springs hidden in the rocks?\"",
+      "options": [
+        {
+          "say_word": "Crater",
+          "label": "Explore the crater's rocky heart",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Springs",
+          "label": "Soak in the geothermal hot springs",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The sea is building new land ahead,\" Kai says, gripping the boat's wheel. \"Do we sail close to watch the underwater volcano create new rock right before our eyes, or explore the black sand beach where geysers shoot water high into the sky?\"",
+      "options": [
+        {
+          "say_word": "Birth",
+          "label": "Watch the island being born",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Geysers",
+          "label": "Discover the geyser beach",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.volcanoes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Volcanoes offer a natural path from the Ring of Fire through islands, hot springs, and underwater eruptions, making the movement itself an exciting way to explore how they shape ecosystems.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip the Volcanologist, who carries a brass heat-measuring thermometer and exclaims over every degree of warmth",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Appreciating how even something as powerful as a volcano can create beautiful new places for life to grow",
+      "why": "The journey from dormant slopes to volcanic islands naturally demonstrates how destruction creates fertile soil and new land, showing the creative side of Earth's power without forcing a moral"
+    },
+    "cast": [
+      {
+        "role": "Storyteller",
+        "reused": true,
+        "why": "The frame narrator who establishes the memory and closes it warmly, speaking as 'I' only in the opening and closing beats"
+      },
+      {
+        "role": "Pip the Volcanologist",
+        "reused": false,
+        "why": "Carries the curious_wonder accent through constant measurement of Earth's heat and excitement about geological processes; provides expertise and choice-point questions"
+      },
+      {
+        "role": "Kai the Island Guide",
+        "reused": false,
+        "why": "Local expert who knows the safe paths and tells stories of the island's birth; leads the boat journey and shares cultural knowledge of living with volcanoes"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A grassy slope on a dormant volcano where you can see steam rising from the ground",
+        "A dormant volcano is sleeping; it hasn't erupted for a long time but could wake up again someday",
+        "The Pacific Ring of Fire is a huge horseshoe-shaped belt around the Pacific Ocean",
+        "Geothermal energy uses heat from deep inside the Earth to warm houses and make electricity",
+        "Volcanic islands are born when underwater volcanoes erupt so many times that the hardened lava piles up higher than the sea",
+        "Peering into a deep crater to see layers of red and yellow rock and smell the rotten-egg scent of sulfur",
+        "Dipping our toes into a warm, bubbly hot spring",
+        "Watching steam hiss where orange lava meets the ocean, building a brand-new piece of land",
+        "Volcanic soil is very rich and helps plants grow big and strong",
+        "Crater lakes form when rain or snow fills up the bowl-shaped hole at the top of a volcano",
+        "Counting the seconds between splashes as a geyser shoots hot water high into the air",
+        "Finding a piece of pumice rock that is so full of air holes it can float on water",
+        "Looking out at a chain of islands and learning that each one was made by a different volcano long ago",
+        "The deck of a boat sailing past an underwater volcano that is bubbling the surface of the sea",
+        "The rim of a wide crater looking down at a turquoise lake"
+      ],
+      "gathered_but_unused": [
+        "The Pacific Ring of Fire is a huge horseshoe-shaped belt around the Pacific Ocean where about 75% of the world's volcanoes live.",
+        "Volcanic ash is not soft like fireplace ash; it is made of tiny, sharp pieces of rock and glass.",
+        "Geothermal energy uses heat from deep inside the Earth to warm houses and make electricity.",
+        "A dormant volcano is sleeping; it hasn't erupted for a long time but could wake up again someday.",
+        "An extinct volcano will never erupt again because its supply of hot melted rock has cooled off completely.",
+        "Volcanic islands are born when underwater volcanoes erupt so many times that the hardened lava piles up higher than the sea.",
+        "Volcanic soil is very rich and helps plants grow big and strong, which is why many farms are near volcanoes.",
+        "Crater lakes form when rain or snow fills up the bowl-shaped hole at the top of a volcano."
+      ]
+    },
+    "safety_beat": "In s3, Kai demonstrates competence by pointing out the safe distance markers on the water and explaining how the boat stays just outside the steam zone while still offering a clear view of the underwater volcano.",
+    "motif": "Warmth rising—steam, heat, and life emerging from deep below",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, warmth, and information beautifully — Pip's fondness for the mountain is paid as attention (the palm pressed to warm ground, the thermometer readings whispered like secrets), the sound-words land as their own small sentences (Bloop. Bloop. / Whoosh. / Sssssss), and the similes stay concrete and kitchen-scaled (warm like a cat that's been sitting in your spot, black as toast, sand black as licorice) rather than stacking into decoration."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in at the warm-cat ground",
+        "s2a": "wide-eyed, a held breath at the humming crater floor",
+        "s2b": "deliciously cozy, toes in the mountain's own bathtub",
+        "s3": "leaning forward, heart quickening at the steaming sea",
+        "s4a": "awed and slightly solemn, watching something be born",
+        "s4b": "giggly and soaked, then satisfied and glowing"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.9); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "01_volcanoes_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

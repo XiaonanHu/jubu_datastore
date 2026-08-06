@@ -1,0 +1,5971 @@
+{
+  "age": 6,
+  "nodes": [
+    {
+      "id": "knowledge_domain.ancient_egypt",
+      "axis": "knowledge_domain",
+      "label": "ancient_egypt",
+      "display_name": "Ancient Egypt",
+      "region": "long_ago",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "who built the pyramids and what's inside them",
+        "vocabulary": [
+          "pharaoh",
+          "treasure",
+          "tomb"
+        ],
+        "avoid": [
+          "mummification details"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.animal_babies",
+      "axis": "knowledge_domain",
+      "label": "animal_babies",
+      "display_name": "Animal Babies",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "baby animal names and baby animal sounds — a joey rides, a piglet squeals, a chick peeps",
+        "vocabulary": [
+          "joey",
+          "piglet",
+          "foal"
+        ],
+        "avoid": [
+          "babies losing their parents permanently"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.animal_homes",
+      "axis": "knowledge_domain",
+      "label": "animal_homes",
+      "display_name": "Animal Homes",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "animal builders at work — beavers stacking sticks, spiders spinning, wasps making paper",
+        "vocabulary": [
+          "dam",
+          "web",
+          "lodge"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.ankylosaurus",
+      "axis": "knowledge_domain",
+      "label": "ankylosaurus",
+      "display_name": "Ankylosaurus",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "armour_plating",
+        "the_club_tail",
+        "low_wide_body",
+        "ground_level_grazing"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a walking castle, low and wide, covered in knobbly stone-hard plates from nose to tail",
+        "vocabulary": [
+          "armour",
+          "knobbly",
+          "plate"
+        ],
+        "avoid": [
+          "the tail club shown hurting another animal"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.ants",
+      "axis": "knowledge_domain",
+      "label": "ants",
+      "display_name": "Ants",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "tunnels_underground",
+        "carrying_heavy_things",
+        "following_trails",
+        "the_colony"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "tiny workers in a long line, carrying crumbs bigger than themselves",
+        "vocabulary": [
+          "ant",
+          "crumb",
+          "line"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.ash_clouds",
+      "axis": "knowledge_domain",
+      "label": "ash_clouds",
+      "display_name": "Ash Clouds",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "grey_sky",
+        "orange_sun",
+        "soft_falling_ash",
+        "ash_feeding_soil"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the sky goes soft grey and the sun turns orange, and grey dust drifts down like the quietest snow",
+        "vocabulary": [
+          "ash",
+          "cloud",
+          "grey"
+        ],
+        "avoid": [
+          "choking on ash",
+          "towns buried in ash",
+          "anyone needing to run away"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.astronauts_and_space_travel",
+      "axis": "knowledge_domain",
+      "label": "astronauts_and_space_travel",
+      "display_name": "Astronauts and Space Travel",
+      "region": "space",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "suiting up for a spacewalk; what an astronaut packs for a trip to space",
+        "vocabulary": [
+          "spacesuit",
+          "launch",
+          "spacewalk"
+        ],
+        "avoid": [
+          "astronauts lost or stranded in space",
+          "spacecraft in mortal danger"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.axolotls",
+      "axis": "knowledge_domain",
+      "label": "axolotls",
+      "display_name": "Axolotls",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.frogs_and_amphibians",
+      "facets": [
+        "the_permanent_smile",
+        "staying_a_water_baby",
+        "regrowing_legs",
+        "lake_home_in_mexico"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a pink water-puppy with a smiley face and feathery gills like a fancy collar, paddling softly along the bottom",
+        "vocabulary": [
+          "axolotl",
+          "smile",
+          "gills"
+        ],
+        "avoid": [
+          "endangered-status grief",
+          "axolotls as pets acquired casually"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.beaches_and_sand",
+      "axis": "knowledge_domain",
+      "label": "beaches_and_sand",
+      "display_name": "Beaches and Sand",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.oceans_and_tides",
+      "facets": [
+        "what_sand_is_made_of",
+        "what_the_tide_leaves",
+        "sandcastles",
+        "dunes"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "warm sand between your toes, a sun-creamed nose, and a moat that fills all by itself when a wave sneaks in",
+        "vocabulary": [
+          "sand",
+          "seashell",
+          "castle"
+        ],
+        "avoid": [
+          "rip currents",
+          "drowning"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.bees",
+      "axis": "knowledge_domain",
+      "label": "bees",
+      "display_name": "Bees",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "flower_visits",
+        "the_hive",
+        "waggle_dance",
+        "making_honey"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "fuzzy visitors who bump from flower to flower with fat yellow pockets on their back legs",
+        "vocabulary": [
+          "bee",
+          "buzz",
+          "pollen"
+        ],
+        "avoid": [
+          "stings described as painful",
+          "swatting or squashing bees"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.beetles",
+      "axis": "knowledge_domain",
+      "label": "beetles",
+      "display_name": "Beetles",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "hard_shells",
+        "wing_cases",
+        "so_many_kinds",
+        "digging_and_rolling"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a shiny armoured back, smooth as a polished bead, trundling steadily across a leaf",
+        "vocabulary": [
+          "beetle",
+          "shiny",
+          "shell"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.bicycles",
+      "axis": "knowledge_domain",
+      "label": "bicycles",
+      "display_name": "Bicycles",
+      "region": "how_things_work",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.engines_and_vehicles",
+      "facets": [
+        "learning_to_balance",
+        "chains_and_gears",
+        "going_uphill_and_down",
+        "fixing_a_flat"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the wobbly magic moment when the bike stays up all by itself and the wind rushes past your helmet",
+        "vocabulary": [
+          "pedal",
+          "balance",
+          "wheel"
+        ],
+        "avoid": [
+          "crash injuries",
+          "helmets framed through fear instead of everyday competence"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.birds",
+      "axis": "knowledge_domain",
+      "label": "birds",
+      "display_name": "Birds",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "beaks are tools — scoopers, crackers, tweezers; guessing what a bird eats from its beak",
+        "vocabulary": [
+          "beak",
+          "wing",
+          "peck"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.boats_and_floating",
+      "axis": "knowledge_domain",
+      "label": "boats_and_floating",
+      "display_name": "Boats and Floating",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "boats big and small; how a heavy ship can still float",
+        "vocabulary": [
+          "boat",
+          "sail",
+          "hull"
+        ],
+        "avoid": [
+          "characters drowning or ships sinking with people aboard"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.bones_and_skeleton",
+      "axis": "knowledge_domain",
+      "label": "bones_and_skeleton",
+      "display_name": "Bones and the Skeleton",
+      "region": "human_body",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "big bones and tiny bones; the built-in helmet that keeps your brain safe",
+        "vocabulary": [
+          "skull",
+          "rib",
+          "spine"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.brachiosaurus",
+      "axis": "knowledge_domain",
+      "label": "brachiosaurus",
+      "display_name": "Brachiosaurus",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "very_long_neck",
+        "treetop_meals",
+        "huge_footprints",
+        "walking_slowly"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a neck like a crane, munching leaves off the very top of the trees, with footprints big enough to sit in",
+        "vocabulary": [
+          "neck",
+          "tall",
+          "leaves"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.bridges_and_buildings",
+      "axis": "knowledge_domain",
+      "label": "bridges_and_buildings",
+      "display_name": "Bridges and Buildings",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "bridges carry you over rivers; the shapes that make buildings strong",
+        "vocabulary": [
+          "bridge",
+          "beam",
+          "base"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.butterflies",
+      "axis": "knowledge_domain",
+      "label": "butterflies",
+      "display_name": "Butterflies",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "wing_patterns",
+        "the_chrysalis",
+        "sipping_nectar",
+        "long_journeys"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "big soft wings opening and closing on a warm flower, painted the same on both halves",
+        "vocabulary": [
+          "wing",
+          "petal",
+          "flutter"
+        ],
+        "avoid": [
+          "how short a butterfly's life is",
+          "dead or torn butterflies"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.camouflage",
+      "axis": "knowledge_domain",
+      "label": "camouflage",
+      "display_name": "Camouflage",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "costume changers — chameleons shifting color, arctic foxes turning snow-white",
+        "vocabulary": [
+          "chameleon",
+          "stripes",
+          "disguise"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.cities_and_towns",
+      "axis": "knowledge_domain",
+      "label": "cities_and_towns",
+      "display_name": "Cities and Towns",
+      "region": "people_and_places",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "places a town shares; the library, the park, the market, and the fire station",
+        "vocabulary": [
+          "neighborhood",
+          "library",
+          "market"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.clothes_and_fashion",
+      "axis": "knowledge_domain",
+      "label": "clothes_and_fashion",
+      "display_name": "Clothes and Fashion",
+      "region": "arts_and_music",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "clothes with jobs to do; raincoats, aprons, helmets, and costumes for pretending",
+        "vocabulary": [
+          "costume",
+          "uniform",
+          "fabric"
+        ],
+        "avoid": [
+          "appearance as worth",
+          "comparing bodies or looks"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.colors_and_mixing",
+      "axis": "knowledge_domain",
+      "label": "colors_and_mixing",
+      "display_name": "Colors and Mixing",
+      "region": "arts_and_music",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "light colors and dark colors; adding white or black to change how a color feels",
+        "vocabulary": [
+          "shade",
+          "tint",
+          "bright"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.coral_reefs",
+      "axis": "knowledge_domain",
+      "label": "coral_reefs",
+      "display_name": "Coral Reefs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "tiny_builders",
+        "bright_colors",
+        "reef_neighbours",
+        "night_shift"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "an underwater city in every colour, built by animals smaller than a grain of rice",
+        "vocabulary": [
+          "coral",
+          "reef",
+          "colors"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.counting_and_big_numbers",
+      "axis": "knowledge_domain",
+      "label": "counting_and_big_numbers",
+      "display_name": "Counting and Big Numbers",
+      "region": "numbers_and_patterns",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "racing to a hundred; skip-counting by twos, fives, and tens",
+        "vocabulary": [
+          "skip counting",
+          "number line",
+          "thousand"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.crabs",
+      "axis": "knowledge_domain",
+      "label": "crabs",
+      "display_name": "Crabs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "sideways_walking",
+        "pincers",
+        "outgrowing_a_shell",
+        "borrowed_homes"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a little armoured walker that scuttles sideways across wet sand and waves two pincers hello",
+        "vocabulary": [
+          "pincer",
+          "shell",
+          "scuttle"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.craters",
+      "axis": "knowledge_domain",
+      "label": "craters",
+      "display_name": "Craters",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "bowl_shapes",
+        "crater_lakes",
+        "steam_vents",
+        "craters_on_other_worlds"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a giant bowl scooped into the top of a mountain, sometimes filled with the bluest lake you have ever seen",
+        "vocabulary": [
+          "crater",
+          "bowl",
+          "lake"
+        ],
+        "avoid": [
+          "falling into a crater",
+          "climbers in trouble"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.crickets",
+      "axis": "knowledge_domain",
+      "label": "crickets",
+      "display_name": "Crickets",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "night_chirps",
+        "strong_jumps",
+        "hiding_places",
+        "warm_evenings"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a tiny creaking song filling the dark garden, coming from somewhere under the leaves",
+        "vocabulary": [
+          "cricket",
+          "chirp",
+          "night"
+        ],
+        "avoid": [
+          "crickets dying off as the cold comes"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.dance_around_the_world",
+      "axis": "knowledge_domain",
+      "label": "dance_around_the_world",
+      "display_name": "Dance Around the World",
+      "region": "arts_and_music",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "dances from many lands; dragon dances, hula, and holding hands in a circle",
+        "vocabulary": [
+          "hula",
+          "folk dance",
+          "rhythm"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.day_and_night",
+      "axis": "knowledge_domain",
+      "label": "day_and_night",
+      "display_name": "Day and Night",
+      "region": "space",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "some animals wake up when you go to bed; the world keeps busy at night",
+        "vocabulary": [
+          "dusk",
+          "dawn",
+          "moonlight"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.deep_sea_fish",
+      "axis": "knowledge_domain",
+      "label": "deep_sea_fish",
+      "display_name": "Deep Sea Fish",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "own_light",
+        "cold_dark_water",
+        "strange_shapes",
+        "deepest_places"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "fish that carry their own little lanterns in the quiet cool water far below the waves",
+        "vocabulary": [
+          "glow",
+          "deep",
+          "lantern"
+        ],
+        "avoid": [
+          "frightening darkness",
+          "scary teeth close up"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.dinosaur_eggs",
+      "axis": "knowledge_domain",
+      "label": "dinosaur_eggs",
+      "display_name": "Dinosaur Eggs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "nests_in_the_sand",
+        "bumpy_shells",
+        "sitting_on_the_nest",
+        "hatching_day"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a ring of round bumpy eggs tucked in a warm sandy nest, waiting for hatching day",
+        "vocabulary": [
+          "egg",
+          "nest",
+          "shell"
+        ],
+        "avoid": [
+          "eggs being eaten or broken open",
+          "babies left alone"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.dinosaurs",
+      "axis": "knowledge_domain",
+      "label": "dinosaurs",
+      "display_name": "Dinosaurs",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "meet the famous ones — three-horned Triceratops, plated Stegosaurus, towering T. rex",
+        "vocabulary": [
+          "Triceratops",
+          "fossil",
+          "herd"
+        ],
+        "avoid": [
+          "graphic hunting and eating scenes"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.dragonflies",
+      "axis": "knowledge_domain",
+      "label": "dragonflies",
+      "display_name": "Dragonflies",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "four_wings",
+        "hovering",
+        "huge_eyes",
+        "pond_beginnings"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a stitch of blue and green that stops still in the air over the water, then flicks away",
+        "vocabulary": [
+          "dragonfly",
+          "pond",
+          "hover"
+        ],
+        "avoid": [
+          "dragonflies catching and eating other creatures"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.drums_and_rhythm",
+      "axis": "knowledge_domain",
+      "label": "drums_and_rhythm",
+      "display_name": "Drums and Rhythm",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.musical_instruments",
+      "facets": [
+        "steady_beat",
+        "patterns_to_clap",
+        "drums_around_the_world",
+        "your_body_as_a_drum"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "boom, tap, boom; the drum is the heartbeat of the music and your own hands can be drums too",
+        "vocabulary": [
+          "drum",
+          "beat",
+          "clap"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.earth_from_space",
+      "axis": "knowledge_domain",
+      "label": "earth_from_space",
+      "display_name": "Earth From Space",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "the_blue_marble",
+        "swirling_white_clouds",
+        "city_lights_at_night",
+        "thin_air_ring"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "our own home seen from far away: a blue marble with white swirls and green patches",
+        "vocabulary": [
+          "blue",
+          "home",
+          "clouds"
+        ],
+        "avoid": [
+          "the planet framed as fragile or in trouble"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.earthquakes",
+      "axis": "knowledge_domain",
+      "label": "earthquakes",
+      "display_name": "Earthquakes",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the earth stretches and jolts like a giant turning over in sleep; how people stay safe under sturdy tables",
+        "vocabulary": [
+          "tremor",
+          "jolt",
+          "safe spot"
+        ],
+        "avoid": [
+          "casualties",
+          "trapped people"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.electricity",
+      "axis": "knowledge_domain",
+      "label": "electricity",
+      "display_name": "Electricity",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "batteries hold little packets of power; things that need plugging in and things that do not",
+        "vocabulary": [
+          "plug",
+          "power",
+          "charge"
+        ],
+        "avoid": [
+          "characters playing with outlets, plugs, or wires",
+          "electric shock as a joke or plot event"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.engines_and_vehicles",
+      "axis": "knowledge_domain",
+      "label": "engines_and_vehicles",
+      "display_name": "Engines and Vehicles",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "what different vehicles are for; fire trucks, tractors, and trains at work",
+        "vocabulary": [
+          "vehicle",
+          "tractor",
+          "cargo"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.farms_and_food",
+      "axis": "knowledge_domain",
+      "label": "farms_and_food",
+      "display_name": "Farms and Food",
+      "region": "people_and_places",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a year on a farm; planting in spring and picking in fall",
+        "vocabulary": [
+          "crop",
+          "barn",
+          "orchard"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.feathered_dinosaurs",
+      "axis": "knowledge_domain",
+      "label": "feathered_dinosaurs",
+      "display_name": "Feathered Dinosaurs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "fuzzy_coats",
+        "feather_colours",
+        "arms_like_wings",
+        "dinosaur_cousins_of_birds"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "here is a surprise — some dinosaurs were fuzzy, wearing feathers like a fluffy coat",
+        "vocabulary": [
+          "feather",
+          "fluffy",
+          "wing"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.festivals_around_the_world",
+      "axis": "knowledge_domain",
+      "label": "festivals_around_the_world",
+      "display_name": "Festivals Around the World",
+      "region": "people_and_places",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "special foods for special days; mooncakes, latkes, and birthday noodles",
+        "vocabulary": [
+          "celebration",
+          "feast",
+          "tradition"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.fireflies",
+      "axis": "knowledge_domain",
+      "label": "fireflies",
+      "display_name": "Fireflies",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "blinking_lights",
+        "flash_patterns",
+        "cold_light",
+        "summer_dusk"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "little green lights blinking on over the grass as the sky goes dark, here then gone then here again",
+        "vocabulary": [
+          "firefly",
+          "blink",
+          "dusk"
+        ],
+        "avoid": [
+          "catching fireflies and keeping them in a jar overnight",
+          "the dark meadow framed as scary"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.five_senses",
+      "axis": "knowledge_domain",
+      "label": "five_senses",
+      "display_name": "The Five Senses",
+      "region": "human_body",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "guessing games with your senses; how a smell can carry you back to a place",
+        "vocabulary": [
+          "sense",
+          "taste bud",
+          "sniff"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.flight",
+      "axis": "knowledge_domain",
+      "label": "flight",
+      "display_name": "Flight",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "how big metal planes stay up; watching birds glide without flapping",
+        "vocabulary": [
+          "airplane",
+          "glide",
+          "pilot"
+        ],
+        "avoid": [
+          "plane crashes or characters in danger mid-flight"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.flowers_and_pollination",
+      "axis": "knowledge_domain",
+      "label": "flowers_and_pollination",
+      "display_name": "Flowers and Pollination",
+      "region": "plants_and_life",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the yellow dust on the bee's fuzzy legs — flowers giving out gifts to their visitors",
+        "vocabulary": [
+          "pollen",
+          "nectar",
+          "bud"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.foods_around_the_world",
+      "axis": "knowledge_domain",
+      "label": "foods_around_the_world",
+      "display_name": "Foods Around the World",
+      "region": "people_and_places",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.farms_and_food",
+      "facets": [
+        "breakfasts_of_the_world",
+        "eating_with_hands_chopsticks_forks",
+        "festival_foods",
+        "trying_something_new"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "somewhere right now a kid is eating warm rice for breakfast, and somewhere else it's flatbread with honey",
+        "vocabulary": [
+          "breakfast",
+          "rice",
+          "noodles"
+        ],
+        "avoid": [
+          "ranking cuisines",
+          "calling any food weird or gross"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.fossils",
+      "axis": "knowledge_domain",
+      "label": "fossils",
+      "display_name": "Fossils",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "being a fossil finder — brushing away sand to uncover a creature no one has seen",
+        "vocabulary": [
+          "skeleton",
+          "imprint",
+          "discover"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.frogs_and_amphibians",
+      "axis": "knowledge_domain",
+      "label": "frogs_and_amphibians",
+      "display_name": "Frogs and Amphibians",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the pond nursery through the year — jelly eggs, tadpoles sprouting tiny legs, and one day a small frog sitting on the bank",
+        "vocabulary": [
+          "egg",
+          "pond",
+          "croak"
+        ],
+        "avoid": [
+          "frogs dying",
+          "dissection"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.gardens_and_growing_food",
+      "axis": "knowledge_domain",
+      "label": "gardens_and_growing_food",
+      "display_name": "Gardens and Growing Food",
+      "region": "plants_and_life",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the waiting game — checking the tomato every day until it finally turns red",
+        "vocabulary": [
+          "tomato",
+          "ripe",
+          "harvest"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.germs_and_staying_healthy",
+      "axis": "knowledge_domain",
+      "label": "germs_and_staying_healthy",
+      "display_name": "Germs and Staying Healthy",
+      "region": "human_body",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "sneezes fly like tiny sprinklers; catching coughs in your elbow",
+        "vocabulary": [
+          "sneeze",
+          "tissue",
+          "clean"
+        ],
+        "avoid": [
+          "frightening illness, dying, or hospital peril",
+          "germs framed as unstoppable monsters"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.geysers",
+      "axis": "knowledge_domain",
+      "label": "geysers",
+      "display_name": "Geysers",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "underground_plumbing",
+        "eruption_timing",
+        "steam_clouds",
+        "mineral_terraces"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a quiet little puddle that whooshes a tall spout of warm water into the sky, then goes flat and calm again",
+        "vocabulary": [
+          "geyser",
+          "spout",
+          "steam"
+        ],
+        "avoid": [
+          "anyone stepping into scalding water",
+          "animals hurt by hot springs",
+          "geysers treated as traps or dangers"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.heart_and_blood",
+      "axis": "knowledge_domain",
+      "label": "heart_and_blood",
+      "display_name": "The Heart and Blood",
+      "region": "human_body",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "your heart keeps working even while you sleep; blood is the body's delivery river",
+        "vocabulary": [
+          "heart",
+          "blood",
+          "pulse"
+        ],
+        "avoid": [
+          "hearts stopping or heart attacks",
+          "life-threatening illness or death"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.hot_springs",
+      "axis": "knowledge_domain",
+      "label": "hot_springs",
+      "display_name": "Hot Springs",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "steaming_pools",
+        "rainbow_edges",
+        "animal_bathers",
+        "mineral_smells"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "warm pools that steam in the cold morning air, with rainbow rings painted around their edges",
+        "vocabulary": [
+          "steam",
+          "warm",
+          "pool"
+        ],
+        "avoid": [
+          "scalding water",
+          "falling into a hot pool",
+          "animals hurt in hot water"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.how_melodies_work",
+      "axis": "knowledge_domain",
+      "label": "how_melodies_work",
+      "display_name": "How Melodies Work",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.musical_instruments",
+      "facets": [
+        "notes_going_up_and_down",
+        "tunes_that_stick",
+        "same_tune_higher_or_lower",
+        "making_up_your_own"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a melody is a tiny journey of notes going up and down; hum three notes and you have already made one",
+        "vocabulary": [
+          "note",
+          "tune",
+          "hum"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.how_people_lived_long_ago",
+      "axis": "knowledge_domain",
+      "label": "how_people_lived_long_ago",
+      "display_name": "How People Lived Long Ago",
+      "region": "long_ago",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "what kids did long ago; chores, wooden toys, and one-room schools",
+        "vocabulary": [
+          "chore",
+          "schoolhouse",
+          "marbles"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.how_shows_are_made",
+      "axis": "knowledge_domain",
+      "label": "how_shows_are_made",
+      "display_name": "How Shows Are Made",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.theater_and_pretending",
+      "facets": [
+        "cameras_and_takes",
+        "sets_and_props",
+        "actors_pretending",
+        "editing_the_story"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a TV show is pretend you can watch; real people in costumes, painted sets, and a camera that follows the fun",
+        "vocabulary": [
+          "camera",
+          "actor",
+          "set"
+        ],
+        "avoid": [
+          "screen-time shaming or lecturing",
+          "frightening show content"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.in_the_kitchen",
+      "axis": "knowledge_domain",
+      "label": "in_the_kitchen",
+      "display_name": "In the Kitchen",
+      "region": "people_and_places",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.farms_and_food",
+      "facets": [
+        "mixing_and_measuring",
+        "heat_changes_food",
+        "following_a_recipe",
+        "cooking_for_someone"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "stirring a bowl of squishy dough, watching pancake bubbles pop, and the smell that says dinner is nearly ready",
+        "vocabulary": [
+          "stir",
+          "mix",
+          "bake"
+        ],
+        "avoid": [
+          "knives and burns as danger-drama",
+          "dieting or \"bad foods\""
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.insects",
+      "axis": "knowledge_domain",
+      "label": "insects",
+      "display_name": "Insects",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "insect superpowers — jumping like grasshoppers, glowing like fireflies, lifting like ants",
+        "vocabulary": [
+          "firefly",
+          "grasshopper",
+          "antenna"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.instruments_around_the_world",
+      "axis": "knowledge_domain",
+      "label": "instruments_around_the_world",
+      "display_name": "Instruments Around the World",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.musical_instruments",
+      "facets": [
+        "drums_of_every_land",
+        "strings_and_gourds",
+        "instruments_from_scraps",
+        "songs_that_travel"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "shakers made from gourds, pan flutes from reeds, steel drums from old barrels; people make music from whatever sings",
+        "vocabulary": [
+          "shaker",
+          "flute",
+          "drum"
+        ],
+        "avoid": [
+          "ranking cultures or calling any music strange"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.islands",
+      "axis": "knowledge_domain",
+      "label": "islands",
+      "display_name": "Islands",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "island life — ferries instead of buses, beaches instead of backyards",
+        "vocabulary": [
+          "ferry",
+          "harbor",
+          "coast"
+        ],
+        "avoid": [
+          "being shipwrecked and stranded alone"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.jellyfish",
+      "axis": "knowledge_domain",
+      "label": "jellyfish",
+      "display_name": "Jellyfish",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "drifting",
+        "glowing",
+        "see_through_bodies",
+        "pulsing_bell"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a see-through wobbly bell that drifts wherever the water goes, like a little floating umbrella",
+        "vocabulary": [
+          "drift",
+          "glow",
+          "wobble"
+        ],
+        "avoid": [
+          "stings described as pain or injury",
+          "touching or catching a jellyfish shown as a fine idea; keep it we look, we do not touch"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.jobs_people_do",
+      "axis": "knowledge_domain",
+      "label": "jobs_people_do",
+      "display_name": "Jobs People Do",
+      "region": "people_and_places",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a day at work with a baker, a vet, and a builder",
+        "vocabulary": [
+          "baker",
+          "veterinarian",
+          "uniform"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.journeys_around_the_world",
+      "axis": "knowledge_domain",
+      "label": "journeys_around_the_world",
+      "display_name": "Journeys Around the World",
+      "region": "people_and_places",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.maps_and_globes",
+      "facets": [
+        "ways_of_getting_there",
+        "packing_a_bag",
+        "sleeping_somewhere_new",
+        "postcards_home"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a train that rocks you like a cradle, a ship with a bed inside, and your own little bag packed with your favourite things",
+        "vocabulary": [
+          "journey",
+          "suitcase",
+          "ticket"
+        ],
+        "avoid": [
+          "getting lost as peril",
+          "strangers as threat"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.jupiter",
+      "axis": "knowledge_domain",
+      "label": "jupiter",
+      "display_name": "Jupiter",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "striped_clouds",
+        "the_great_red_spot",
+        "the_big_moons",
+        "giant_size"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the biggest planet of all, striped like a marble in cream and toffee",
+        "vocabulary": [
+          "biggest",
+          "stripes",
+          "swirl"
+        ],
+        "avoid": [
+          "storms framed as frightening or destructive"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.knights_and_castles",
+      "axis": "knowledge_domain",
+      "label": "knights_and_castles",
+      "display_name": "Knights and Castles",
+      "region": "long_ago",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a day inside a castle; feasts in the great hall and armor that clanks",
+        "vocabulary": [
+          "armor",
+          "moat",
+          "feast"
+        ],
+        "avoid": [
+          "battle violence"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.ladybugs",
+      "axis": "knowledge_domain",
+      "label": "ladybugs",
+      "display_name": "Ladybugs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.insects",
+      "facets": [
+        "spotted_shells",
+        "hidden_wings",
+        "aphid_hunting",
+        "winter_huddles"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a little red dome with black dots that walks up your finger, waits, then opens and lifts away",
+        "vocabulary": [
+          "ladybug",
+          "spot",
+          "red"
+        ],
+        "avoid": [
+          "ladybugs eating other insects"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.lava",
+      "axis": "knowledge_domain",
+      "label": "lava",
+      "display_name": "Lava",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "glowing_rivers",
+        "cooling_into_rock",
+        "different_speeds",
+        "lava_shapes"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a slow orange river that glows like a night light and creeps like honey",
+        "vocabulary": [
+          "lava",
+          "glow",
+          "slow"
+        ],
+        "avoid": [
+          "people or animals being burned",
+          "houses destroyed"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.life_cycles",
+      "axis": "knowledge_domain",
+      "label": "life_cycles",
+      "display_name": "Life Cycles",
+      "region": "plants_and_life",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "round and round — tadpole to frog, chick to hen, seed to sunflower to seed again",
+        "vocabulary": [
+          "tadpole",
+          "hatch",
+          "grow"
+        ],
+        "avoid": [
+          "dwelling on death as the end of the cycle"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.light_and_shadows",
+      "axis": "knowledge_domain",
+      "label": "light_and_shadows",
+      "display_name": "Light and Shadows",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "shadows grow long in the evening; light sneaks through some things and not others",
+        "vocabulary": [
+          "shadow puppet",
+          "glow",
+          "beam"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.magic_number_tricks",
+      "axis": "knowledge_domain",
+      "label": "magic_number_tricks",
+      "display_name": "Magic Number Tricks",
+      "region": "numbers_and_patterns",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.shapes_and_symmetry",
+      "facets": [
+        "always_lands_on_the_same_number",
+        "doubling",
+        "guessing_tricks",
+        "why_the_trick_works"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "pick any number, follow the silly steps, and it always lands on the same answer, like a rabbit that always finds its hat",
+        "vocabulary": [
+          "trick",
+          "number",
+          "surprise"
+        ],
+        "avoid": [
+          "framing math ability as fixed",
+          "right-answer pressure"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.magnets",
+      "axis": "knowledge_domain",
+      "label": "magnets",
+      "display_name": "Magnets",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the two ends of a magnet; sometimes they grab each other, sometimes they push away",
+        "vocabulary": [
+          "north pole",
+          "south pole",
+          "attract"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.maps_and_globes",
+      "axis": "knowledge_domain",
+      "label": "maps_and_globes",
+      "display_name": "Maps and Globes",
+      "region": "people_and_places",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "treasure-map skills; symbols, dotted paths, and which way is north",
+        "vocabulary": [
+          "symbol",
+          "north",
+          "compass rose"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.mars",
+      "axis": "knowledge_domain",
+      "label": "mars",
+      "display_name": "Mars",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "red_dust",
+        "the_rovers",
+        "giant_volcano",
+        "dust_storms"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a whole world the color of rusty orange sand",
+        "vocabulary": [
+          "red",
+          "dust",
+          "rocky"
+        ],
+        "avoid": [
+          "being stranded alone in space"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.measuring_things",
+      "axis": "knowledge_domain",
+      "label": "measuring_things",
+      "display_name": "Measuring Things",
+      "region": "numbers_and_patterns",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "rulers and kitchen scales; why everyone agreeing on units matters",
+        "vocabulary": [
+          "ruler",
+          "centimeter",
+          "weigh"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.mercury",
+      "axis": "knowledge_domain",
+      "label": "mercury",
+      "display_name": "Mercury",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "bare_rock",
+        "many_craters",
+        "closest_to_the_sun",
+        "quickest_orbit"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a small grey world dimpled all over, like a pebble that sits closest to the sun",
+        "vocabulary": [
+          "small",
+          "grey",
+          "dents"
+        ],
+        "avoid": [
+          "a planet described as deadly"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.moons",
+      "axis": "knowledge_domain",
+      "label": "moons",
+      "display_name": "Moons",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "icy_moons",
+        "moons_with_volcanoes",
+        "tiny_captured_moons",
+        "moon_families"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "little worlds that keep their planet company, going round and round like friends holding hands",
+        "vocabulary": [
+          "moon",
+          "round",
+          "follow"
+        ],
+        "avoid": [
+          "a moon framed as lonely or abandoned"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.musical_instruments",
+      "axis": "knowledge_domain",
+      "label": "musical_instruments",
+      "display_name": "Musical Instruments",
+      "region": "arts_and_music",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "loud and soft, high and low; trying out sounds from instruments around the world",
+        "vocabulary": [
+          "piano",
+          "violin",
+          "trumpet"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.neptune",
+      "axis": "knowledge_domain",
+      "label": "neptune",
+      "display_name": "Neptune",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "deep_blue",
+        "farthest_planet",
+        "fast_winds",
+        "faint_rings"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the deepest blue world, so far away it sits in soft twilight all the time",
+        "vocabulary": [
+          "blue",
+          "far",
+          "quiet"
+        ],
+        "avoid": [
+          "a planet described as deadly",
+          "the dark framed as scary or lonely"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.nocturnal_animals",
+      "axis": "knowledge_domain",
+      "label": "nocturnal_animals",
+      "display_name": "Nocturnal Animals",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "who's rustling out there? matching night sounds to the animals that make them",
+        "vocabulary": [
+          "bat",
+          "raccoon",
+          "rustle"
+        ],
+        "avoid": [
+          "night framed as scary"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.ocean_animals",
+      "axis": "knowledge_domain",
+      "label": "ocean_animals",
+      "display_name": "Ocean Animals",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "how sea creatures get around — jet-squirting squid, gliding rays, sticky starfish feet",
+        "vocabulary": [
+          "squid",
+          "ray",
+          "tentacle"
+        ],
+        "avoid": [
+          "shark attacks on people"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.oceans_and_tides",
+      "axis": "knowledge_domain",
+      "label": "oceans_and_tides",
+      "display_name": "Oceans and Tides",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the sea breathes in and out — tide pools appear when the water steps back",
+        "vocabulary": [
+          "tide",
+          "tide pool",
+          "shore"
+        ],
+        "avoid": [
+          "drowning",
+          "being stranded by the tide"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.octopus",
+      "axis": "knowledge_domain",
+      "label": "octopus",
+      "display_name": "Octopus",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "eight_arms",
+        "color_changing",
+        "squeezing_through_gaps",
+        "being_clever"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "eight curly arms and a squishy body that can pour through a tiny hole",
+        "vocabulary": [
+          "arms",
+          "suckers",
+          "squish"
+        ],
+        "avoid": [
+          "being eaten",
+          "frightening deep dark"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.orchestras",
+      "axis": "knowledge_domain",
+      "label": "orchestras",
+      "display_name": "Orchestras",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.musical_instruments",
+      "facets": [
+        "instrument_families",
+        "the_conductor",
+        "tuning_up_together",
+        "whisper_to_thunder"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a hundred instruments on one stage, from a piccolo you could pocket to a double bass taller than you",
+        "vocabulary": [
+          "orchestra",
+          "stage",
+          "conductor"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.patterns_in_nature",
+      "axis": "knowledge_domain",
+      "label": "patterns_in_nature",
+      "display_name": "Patterns in Nature",
+      "region": "numbers_and_patterns",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "nature repeats itself; flower petals, honeycombs, and zebra stripes",
+        "vocabulary": [
+          "pattern",
+          "petal",
+          "honeycomb"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.patterns_that_repeat",
+      "axis": "knowledge_domain",
+      "label": "patterns_that_repeat",
+      "display_name": "Patterns That Repeat",
+      "region": "numbers_and_patterns",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.shapes_and_symmetry",
+      "facets": [
+        "clap_stomp_clap",
+        "tiles_and_quilts",
+        "what_comes_next",
+        "patterns_that_grow"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "clap-stomp-clap-stomp; once you spot the pattern, your hands know what comes next before you do",
+        "vocabulary": [
+          "pattern",
+          "next",
+          "repeat"
+        ],
+        "avoid": [
+          "framing math ability as fixed",
+          "right-answer pressure"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.piano",
+      "axis": "knowledge_domain",
+      "label": "piano",
+      "display_name": "Piano",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.musical_instruments",
+      "facets": [
+        "keys_and_hammers",
+        "loud_and_soft",
+        "two_hands",
+        "practicing_a_piece"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "eighty-eight black and white keys in a row, deep growly ones on one end and tiny sparkly ones on the other",
+        "vocabulary": [
+          "key",
+          "high",
+          "low"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.planets",
+      "axis": "knowledge_domain",
+      "label": "planets",
+      "display_name": "Planets",
+      "region": "space",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "every planet is different; a red dusty one, a giant stormy one, an icy faraway one",
+        "vocabulary": [
+          "Mars",
+          "Jupiter",
+          "telescope"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.pterosaurs",
+      "axis": "knowledge_domain",
+      "label": "pterosaurs",
+      "display_name": "Pterosaurs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "leathery_wings",
+        "head_crests",
+        "fishing_over_water",
+        "hollow_light_bones"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "great leathery wings gliding over an ancient sea — cousins of the dinosaurs who ruled the sky",
+        "vocabulary": [
+          "wing",
+          "glide",
+          "crest"
+        ],
+        "avoid": [
+          "swooping down at people",
+          "anyone being carried off"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.puzzles_and_mazes",
+      "axis": "knowledge_domain",
+      "label": "puzzles_and_mazes",
+      "display_name": "Puzzles and Mazes",
+      "region": "numbers_and_patterns",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.shapes_and_symmetry",
+      "facets": [
+        "dead_ends",
+        "working_backwards",
+        "patterns_that_repeat",
+        "making_your_own_maze"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "trace the twisty path with your finger, bump into a wall, back up, and try another way until you pop out the other side",
+        "vocabulary": [
+          "maze",
+          "path",
+          "dead end"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.rainforests",
+      "axis": "knowledge_domain",
+      "label": "rainforests",
+      "display_name": "Rainforests",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a forest with floors like a treehouse — who lives up top, who lives down in the shade",
+        "vocabulary": [
+          "canopy",
+          "sloth",
+          "toucan"
+        ],
+        "avoid": [
+          "getting lost alone in the jungle"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.recycling_and_waste",
+      "axis": "knowledge_domain",
+      "label": "recycling_and_waste",
+      "display_name": "Recycling and Waste",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "old things become new things; a bottle's second life",
+        "vocabulary": [
+          "reuse",
+          "compost",
+          "litter"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.rivers",
+      "axis": "knowledge_domain",
+      "label": "rivers",
+      "display_name": "Rivers",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "following a river like a road — who lives beside it, what floats down it",
+        "vocabulary": [
+          "riverbank",
+          "current",
+          "ripple"
+        ],
+        "avoid": [
+          "drowning"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.robots",
+      "axis": "knowledge_domain",
+      "label": "robots",
+      "display_name": "Robots",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "robots do jobs people find boring or tricky; robot arms and robot vacuums",
+        "vocabulary": [
+          "robot arm",
+          "machine",
+          "task"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.rocks_and_minerals",
+      "axis": "knowledge_domain",
+      "label": "rocks_and_minerals",
+      "display_name": "Rocks and Minerals",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "rock collecting and sorting; some rocks glitter, some crumble, some hold secrets inside",
+        "vocabulary": [
+          "crystal",
+          "boulder",
+          "gritty"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.salamanders_and_newts",
+      "axis": "knowledge_domain",
+      "label": "salamanders_and_newts",
+      "display_name": "Salamanders and Newts",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.frogs_and_amphibians",
+      "facets": [
+        "under_wet_logs",
+        "tails_that_regrow",
+        "bright_warning_colors",
+        "newts_returning_to_ponds"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "lift a damp log and there it is — a shiny little dragon with a long tail, gone again in a blink",
+        "vocabulary": [
+          "salamander",
+          "log",
+          "damp"
+        ],
+        "avoid": [
+          "graphic predation",
+          "handling wild animals casually"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.saturn",
+      "axis": "knowledge_domain",
+      "label": "saturn",
+      "display_name": "Saturn",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "the_rings",
+        "ring_ice",
+        "many_moons",
+        "golden_clouds"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the planet that wears wide bright rings, like a hat with no top",
+        "vocabulary": [
+          "rings",
+          "golden",
+          "ice"
+        ],
+        "avoid": [
+          "falling forever with nowhere to land"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.sea_turtles",
+      "axis": "knowledge_domain",
+      "label": "sea_turtles",
+      "display_name": "Sea Turtles",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "shell_home",
+        "flipper_swimming",
+        "sandy_nests",
+        "ocean_crossings"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a slow gentle swimmer whose house is her own back, rowing along with flippers like wings",
+        "vocabulary": [
+          "flipper",
+          "shell",
+          "paddle"
+        ],
+        "avoid": [
+          "baby turtles snatched on the way to the water",
+          "plastic in the sea framed as sadness or as the child's fault"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.seahorses",
+      "axis": "knowledge_domain",
+      "label": "seahorses",
+      "display_name": "Seahorses",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "curly_tail",
+        "upright_swimming",
+        "fathers_carry_babies",
+        "hiding_in_seagrass"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a tiny horse-headed fish that stands up in the water and holds onto seagrass with a curly tail",
+        "vocabulary": [
+          "curly tail",
+          "seagrass",
+          "tiny"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.seasons",
+      "axis": "knowledge_domain",
+      "label": "seasons",
+      "display_name": "Seasons",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "how animals and trees get ready when a season is coming",
+        "vocabulary": [
+          "harvest",
+          "bloom",
+          "frost"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.seeds_and_plants",
+      "axis": "knowledge_domain",
+      "label": "seeds_and_plants",
+      "display_name": "Seeds and Plants",
+      "region": "plants_and_life",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "seeds on the move — helicopter seeds spinning, burrs hitchhiking, dandelion fluff sailing",
+        "vocabulary": [
+          "dandelion",
+          "pod",
+          "scatter"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.shapes_and_symmetry",
+      "axis": "knowledge_domain",
+      "label": "shapes_and_symmetry",
+      "display_name": "Shapes and Symmetry",
+      "region": "numbers_and_patterns",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "fold it in half and it matches; butterfly wings and paper snowflakes",
+        "vocabulary": [
+          "symmetry",
+          "fold",
+          "match"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.sharks",
+      "axis": "knowledge_domain",
+      "label": "sharks",
+      "display_name": "Sharks",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.ocean_animals",
+      "facets": [
+        "ancient_fish",
+        "sleek_shapes",
+        "sandpaper_skin",
+        "always_swimming"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a smooth grey fish shaped like a paper aeroplane, gliding quietly past and going on its way",
+        "vocabulary": [
+          "fin",
+          "glide",
+          "smooth"
+        ],
+        "avoid": [
+          "shark attacks on people",
+          "blood in the water",
+          "sharks framed as monsters",
+          "scary music or jaws-style suspense"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.simple_machines",
+      "axis": "knowledge_domain",
+      "label": "simple_machines",
+      "display_name": "Simple Machines",
+      "region": "how_things_work",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "playground machines are everywhere; how a slide and a wheelbarrow do work for you",
+        "vocabulary": [
+          "lever",
+          "wheel",
+          "slide"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.singing_voices",
+      "axis": "knowledge_domain",
+      "label": "singing_voices",
+      "display_name": "Singing Voices",
+      "region": "arts_and_music",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.musical_instruments",
+      "facets": [
+        "how_voices_work",
+        "high_and_low",
+        "singing_together",
+        "humming"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "your voice is an instrument you carry everywhere; hum with your hand on your throat and feel it buzz like a bee",
+        "vocabulary": [
+          "sing",
+          "hum",
+          "buzz"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.sleep_and_dreams",
+      "axis": "knowledge_domain",
+      "label": "sleep_and_dreams",
+      "display_name": "Sleep and Dreams",
+      "region": "human_body",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "dreams are stories your mind tells at night; waking up fresh for a new day",
+        "vocabulary": [
+          "dream",
+          "bedtime",
+          "rest"
+        ],
+        "avoid": [
+          "frightening nightmares or night terrors",
+          "monsters that come while children sleep"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.stars_and_constellations",
+      "axis": "knowledge_domain",
+      "label": "stars_and_constellations",
+      "display_name": "Stars and Constellations",
+      "region": "space",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "star pictures have names and old stories; finding the same stars every clear night",
+        "vocabulary": [
+          "constellation",
+          "Big Dipper",
+          "stargazing"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.stegosaurus",
+      "axis": "knowledge_domain",
+      "label": "stegosaurus",
+      "display_name": "Stegosaurus",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "the_back_plates",
+        "the_tail_spikes",
+        "tiny_head_big_body",
+        "low_leaf_browsing"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a row of big kite-shaped plates standing up along its back, and a tail with four long spikes",
+        "vocabulary": [
+          "plate",
+          "spike",
+          "tail"
+        ],
+        "avoid": [
+          "tail spikes shown hurting another animal"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.storms_and_lightning",
+      "axis": "knowledge_domain",
+      "label": "storms_and_lightning",
+      "display_name": "Storms and Lightning",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "counting seconds between flash and boom to tell how far the storm is",
+        "vocabulary": [
+          "thunderstorm",
+          "gust",
+          "downpour"
+        ],
+        "avoid": [
+          "people struck by lightning",
+          "destroyed homes"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.sweet_treats",
+      "axis": "knowledge_domain",
+      "label": "sweet_treats",
+      "display_name": "Sweet Treats",
+      "region": "people_and_places",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.farms_and_food",
+      "facets": [
+        "how_ice_cream_gets_creamy",
+        "bubble_tea_pearls",
+        "treats_around_the_world",
+        "saving_room_for_dessert"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "cold ice cream melting on your tongue, and chewy pearls hiding at the bottom of a bubble tea cup",
+        "vocabulary": [
+          "ice cream",
+          "cold",
+          "sweet"
+        ],
+        "avoid": [
+          "sugar-shaming",
+          "treats as rewards for behaviour"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.swimming_and_floating",
+      "axis": "knowledge_domain",
+      "label": "swimming_and_floating",
+      "display_name": "Swimming and Floating",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.oceans_and_tides",
+      "facets": [
+        "why_things_float",
+        "blowing_bubbles",
+        "kicking_and_gliding",
+        "floating_on_your_back"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "blowing bubbles that tickle your nose, and the first splashy kick where your feet leave the bottom while a grown-up watches from arm's reach",
+        "vocabulary": [
+          "float",
+          "bubble",
+          "splash"
+        ],
+        "avoid": [
+          "drowning",
+          "deep water as menace"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.tadpoles_to_frogs",
+      "axis": "knowledge_domain",
+      "label": "tadpoles_to_frogs",
+      "display_name": "Tadpoles to Frogs",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.frogs_and_amphibians",
+      "facets": [
+        "jelly_eggs",
+        "growing_legs",
+        "losing_the_tail",
+        "first_hop"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a blob of jelly eggs, then wiggly commas with tails, then — wait, where did those tiny legs come from?",
+        "vocabulary": [
+          "egg",
+          "tadpole",
+          "wiggle"
+        ],
+        "avoid": [
+          "frogs dying",
+          "dissection"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.the_moon",
+      "axis": "knowledge_domain",
+      "label": "the_moon",
+      "display_name": "The Moon",
+      "region": "space",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the moon changes shape night by night; footprints that never blow away",
+        "vocabulary": [
+          "crescent",
+          "full moon",
+          "crater"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.the_stone_age",
+      "axis": "knowledge_domain",
+      "label": "the_stone_age",
+      "display_name": "The Stone Age",
+      "region": "long_ago",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "making the very first tools; chipping stones and sewing with bone needles",
+        "vocabulary": [
+          "flint",
+          "spear",
+          "bone needle"
+        ],
+        "avoid": [
+          "graphic hunting scenes"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.the_sun",
+      "axis": "knowledge_domain",
+      "label": "the_sun",
+      "display_name": "The Sun",
+      "region": "space",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "shadows shrink and stretch as the sun crosses the sky",
+        "vocabulary": [
+          "sunrise",
+          "sunset",
+          "shadow"
+        ],
+        "avoid": [
+          "characters staring directly at the sun"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.theater_and_pretending",
+      "axis": "knowledge_domain",
+      "label": "theater_and_pretending",
+      "display_name": "Theater and Pretending",
+      "region": "arts_and_music",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "putting on a show; puppets, props, and taking a big bow",
+        "vocabulary": [
+          "puppet",
+          "prop",
+          "audience"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.trees",
+      "axis": "knowledge_domain",
+      "label": "trees",
+      "display_name": "Trees",
+      "region": "plants_and_life",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "trees through the year — blossoms, green shade, crunchy color piles, bare arms in winter",
+        "vocabulary": [
+          "blossom",
+          "acorn",
+          "trunk"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.triceratops",
+      "axis": "knowledge_domain",
+      "label": "triceratops",
+      "display_name": "Triceratops",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "three_horns",
+        "the_big_frill",
+        "plant_munching",
+        "walking_in_herds"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "three horns and a huge bony collar, like a shield made of face",
+        "vocabulary": [
+          "horn",
+          "frill",
+          "stomp"
+        ],
+        "avoid": [
+          "fighting scenes",
+          "being hunted"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.tyrannosaurus",
+      "axis": "knowledge_domain",
+      "label": "tyrannosaurus",
+      "display_name": "Tyrannosaurus",
+      "region": "animals",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.dinosaurs",
+      "facets": [
+        "enormous_size",
+        "the_amazing_nose",
+        "bird_like_body",
+        "thick_banana_teeth"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "as tall as a house and surprisingly bird-like, with a nose so good it could smell dinner from a mile away",
+        "vocabulary": [
+          "huge",
+          "smell",
+          "tooth"
+        ],
+        "avoid": [
+          "chase scenes",
+          "roaring at the listener"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.underwater_volcanoes",
+      "axis": "knowledge_domain",
+      "label": "underwater_volcanoes",
+      "display_name": "Underwater Volcanoes",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "pillow_lava",
+        "hot_vents",
+        "deep_dark_creatures",
+        "seafloor_mountains"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "mountains that puff warm water at the bottom of the dark sea, where lava cools into shapes like stacked pillows",
+        "vocabulary": [
+          "deep",
+          "warm water",
+          "mountain"
+        ],
+        "avoid": [
+          "drowning",
+          "anyone being burned by the vents"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.venus",
+      "axis": "knowledge_domain",
+      "label": "venus",
+      "display_name": "Venus",
+      "region": "space",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.planets",
+      "facets": [
+        "thick_clouds",
+        "evening_star",
+        "backwards_spin",
+        "rocky_twin"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the brightest little lamp in the evening sky, wrapped in creamy clouds",
+        "vocabulary": [
+          "bright",
+          "cloud",
+          "evening"
+        ],
+        "avoid": [
+          "a planet described as deadly"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.volcanic_islands",
+      "axis": "knowledge_domain",
+      "label": "volcanic_islands",
+      "display_name": "Volcanic Islands",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "island_birth",
+        "black_sand_beaches",
+        "first_life_arriving",
+        "hot_spot_chains"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "brand-new land poking up out of the sea, with warm black sand nobody has ever walked on",
+        "vocabulary": [
+          "island",
+          "black sand",
+          "new land"
+        ],
+        "avoid": [
+          "boats wrecked on the new island",
+          "being stranded alone at sea",
+          "islands sinking under people"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.volcanic_rocks",
+      "axis": "knowledge_domain",
+      "label": "volcanic_rocks",
+      "display_name": "Volcanic Rocks",
+      "region": "nature_and_earth",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.volcanoes",
+      "facets": [
+        "floating_pumice",
+        "shiny_obsidian",
+        "bubbly_holes",
+        "rock_collecting"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "a rock so full of bubbles it floats in the bath, and another as black and shiny as a mirror",
+        "vocabulary": [
+          "rock",
+          "bubble",
+          "shiny"
+        ],
+        "avoid": [
+          "sharp edges cutting hands",
+          "putting rocks in mouths"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.volcanoes",
+      "axis": "knowledge_domain",
+      "label": "volcanoes",
+      "display_name": "Volcanoes",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "why mountains sometimes explode; lava vs. smoke",
+        "vocabulary": [
+          "lava",
+          "erupt",
+          "ash"
+        ],
+        "avoid": [
+          "death tolls",
+          "destroyed towns with people in them"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.water_cycle",
+      "axis": "knowledge_domain",
+      "label": "water_cycle",
+      "display_name": "The Water Cycle",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "where puddles go when the sun comes out; steam from a kettle is water flying",
+        "vocabulary": [
+          "steam",
+          "mist",
+          "dew"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.weather",
+      "axis": "knowledge_domain",
+      "label": "weather",
+      "display_name": "Weather",
+      "region": "nature_and_earth",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "clouds come in shapes and moods; guessing what the sky will do next",
+        "vocabulary": [
+          "cloud",
+          "fog",
+          "drizzle"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "knowledge_domain.whales_and_dolphins",
+      "axis": "knowledge_domain",
+      "label": "whales_and_dolphins",
+      "display_name": "Whales and Dolphins",
+      "region": "animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "big breath in! whales hold their breath and blow rainbow spray when they surface",
+        "vocabulary": [
+          "blowhole",
+          "spout",
+          "pod"
+        ],
+        "avoid": [
+          "whaling",
+          "strandings"
+        ]
+      }
+    },
+    {
+      "id": "knowledge_domain.where_breakfast_comes_from",
+      "axis": "knowledge_domain",
+      "label": "where_breakfast_comes_from",
+      "display_name": "Where Breakfast Comes From",
+      "region": "people_and_places",
+      "tier": "deep_dive",
+      "subtopic_of": "knowledge_domain.farms_and_food",
+      "facets": [
+        "milk_to_butter",
+        "wheat_to_toast",
+        "eggs_from_hens",
+        "the_journey_to_your_table"
+      ],
+      "status": "draft",
+      "treatment": {
+        "depth": "sensory",
+        "framing": "the milk in your cup was inside a cow yesterday, and the toast in your hand began as a whole field of wheat",
+        "vocabulary": [
+          "milk",
+          "wheat",
+          "egg"
+        ],
+        "avoid": [
+          "dieting or \"bad foods\""
+        ]
+      }
+    },
+    {
+      "id": "sel_theme.anger",
+      "axis": "sel_theme",
+      "label": "anger",
+      "display_name": "Anger",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "being angry is okay; hurting people or things is not",
+        "vocabulary": [
+          "angry",
+          "safe hands",
+          "use words"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.asking_for_help",
+      "axis": "sel_theme",
+      "label": "asking_for_help",
+      "display_name": "Asking for Help",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "knowing who to ask for which kind of help",
+        "vocabulary": [
+          "helper",
+          "who to ask",
+          "try again"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.being_left_out",
+      "axis": "sel_theme",
+      "label": "being_left_out",
+      "display_name": "Being Left Out",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "words to join a game, and noticing who else is on the edge",
+        "vocabulary": [
+          "can I play",
+          "notice",
+          "invite"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.calming_down",
+      "axis": "sel_theme",
+      "label": "calming_down",
+      "display_name": "Calming Down",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "finding what works for your body: breathing, squeezing, a quiet corner",
+        "vocabulary": [
+          "breathe",
+          "squeeze",
+          "quiet corner"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.courage",
+      "axis": "sel_theme",
+      "label": "courage",
+      "display_name": "Courage",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "being scared and doing the thing anyway, one small step at a time",
+        "vocabulary": [
+          "brave",
+          "nervous",
+          "small step"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.empathy",
+      "axis": "sel_theme",
+      "label": "empathy",
+      "display_name": "Empathy",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "your friend can feel differently than you about the very same thing",
+        "vocabulary": [
+          "notice",
+          "imagine",
+          "care"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.excitement",
+      "axis": "sel_theme",
+      "label": "excitement",
+      "display_name": "Excitement",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "big excitement can spill everywhere; wiggles help let it out",
+        "vocabulary": [
+          "excited",
+          "wiggles",
+          "almost time"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.friendship",
+      "axis": "sel_theme",
+      "label": "friendship",
+      "display_name": "Friendship",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "making a new friend: joining in, asking names, taking turns",
+        "vocabulary": [
+          "join in",
+          "invite",
+          "take turns"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.frustration",
+      "axis": "sel_theme",
+      "label": "frustration",
+      "display_name": "Frustration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "spotting frustration in your body before it boils over",
+        "vocabulary": [
+          "frustrated",
+          "tight",
+          "deep breath"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.missing_someone",
+      "axis": "sel_theme",
+      "label": "missing_someone",
+      "display_name": "Missing Someone",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "ways to hold someone close from far away: photos, calls, drawings",
+        "vocabulary": [
+          "keep close",
+          "remember",
+          "call"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.sadness",
+      "axis": "sel_theme",
+      "label": "sadness",
+      "display_name": "Sadness",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "sadness is allowed; crying helps the feeling move through",
+        "vocabulary": [
+          "sad",
+          "cry",
+          "comfort"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.saying_sorry",
+      "axis": "sel_theme",
+      "label": "saying_sorry",
+      "display_name": "Saying Sorry",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "a real sorry names what you did, not just the word",
+        "vocabulary": [
+          "name it",
+          "mean it",
+          "sorry"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.sharing",
+      "axis": "sel_theme",
+      "label": "sharing",
+      "display_name": "Sharing",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "sharing feels hard first and good after; the fun gets bigger",
+        "vocabulary": [
+          "take turns",
+          "fair share",
+          "together"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.shyness",
+      "axis": "sel_theme",
+      "label": "shyness",
+      "display_name": "Shyness",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "shy isn't wrong; some people warm up slowly and that's fine",
+        "vocabulary": [
+          "slow to warm",
+          "quiet",
+          "ready when ready"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "sel_theme.worry",
+      "axis": "sel_theme",
+      "label": "worry",
+      "display_name": "Worry",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "naming_the_feeling",
+        "framing": "saying the worry out loud makes it smaller",
+        "vocabulary": [
+          "worry",
+          "tell someone",
+          "smaller"
+        ],
+        "avoid": [
+          "worry framed as babyish",
+          "worries left hanging at the story's end"
+        ]
+      }
+    },
+    {
+      "id": "story_element.arctic_adventures",
+      "axis": "story_element",
+      "label": "arctic_adventures",
+      "display_name": "Arctic Adventures",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.castles",
+      "axis": "story_element",
+      "label": "castles",
+      "display_name": "Castles",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.circus",
+      "axis": "story_element",
+      "label": "circus",
+      "display_name": "Circus",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.cooking_adventures",
+      "axis": "story_element",
+      "label": "cooking_adventures",
+      "display_name": "Cooking Adventures",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.desert_islands",
+      "axis": "story_element",
+      "label": "desert_islands",
+      "display_name": "Desert Islands",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.dinosaurs",
+      "axis": "story_element",
+      "label": "dinosaurs",
+      "display_name": "Dinosaurs",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.dolls_and_toys_come_alive",
+      "axis": "story_element",
+      "label": "dolls_and_toys_come_alive",
+      "display_name": "Dolls and Toys Come Alive",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "the secret lives of the toy shelf — midnight tea parties, borrowed buttons, and small brave expeditions across the rug",
+        "vocabulary": [
+          "secret",
+          "shelf",
+          "expedition"
+        ],
+        "avoid": [
+          "toys being broken or abandoned as grief",
+          "toys punishing children"
+        ]
+      }
+    },
+    {
+      "id": "story_element.dragons",
+      "axis": "story_element",
+      "label": "dragons",
+      "display_name": "Dragons",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "small friendly dragons; fire used for toasting marshmallows",
+        "vocabulary": [
+          "wings",
+          "sparkle",
+          "roar"
+        ],
+        "avoid": [
+          "scary fire",
+          "dragons eating anyone"
+        ]
+      }
+    },
+    {
+      "id": "story_element.enchanted_forests",
+      "axis": "story_element",
+      "label": "enchanted_forests",
+      "display_name": "Enchanted Forests",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.fairies",
+      "axis": "story_element",
+      "label": "fairies",
+      "display_name": "Fairies",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.flying_carpets",
+      "axis": "story_element",
+      "label": "flying_carpets",
+      "display_name": "Flying Carpets",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.friendly_aliens",
+      "axis": "story_element",
+      "label": "friendly_aliens",
+      "display_name": "Friendly Aliens",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.friendly_monsters",
+      "axis": "story_element",
+      "label": "friendly_monsters",
+      "display_name": "Friendly Monsters",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "fuzzy monsters who are shy and love snacks; the monster under the bed just wants a friend",
+        "vocabulary": [
+          "fuzzy",
+          "giggle",
+          "snack"
+        ],
+        "avoid": [
+          "monsters that are genuinely menacing",
+          "sharp teeth or claws used to scare"
+        ]
+      }
+    },
+    {
+      "id": "story_element.giants",
+      "axis": "story_element",
+      "label": "giants",
+      "display_name": "Giants",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.invisible_friends",
+      "axis": "story_element",
+      "label": "invisible_friends",
+      "display_name": "Invisible Friends",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.jungle_expeditions",
+      "axis": "story_element",
+      "label": "jungle_expeditions",
+      "display_name": "Jungle Expeditions",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.magic_doors",
+      "axis": "story_element",
+      "label": "magic_doors",
+      "display_name": "Magic Doors",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.mermaids",
+      "axis": "story_element",
+      "label": "mermaids",
+      "display_name": "Mermaids",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.pirates",
+      "axis": "story_element",
+      "label": "pirates",
+      "display_name": "Pirates",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "silly pirates hunting for treasure and snacks; parrots and singalongs on deck",
+        "vocabulary": [
+          "ship",
+          "parrot",
+          "treasure"
+        ],
+        "avoid": [
+          "real violence",
+          "weapons detail",
+          "walking the plank as a real threat"
+        ]
+      }
+    },
+    {
+      "id": "story_element.princesses_and_princes",
+      "axis": "story_element",
+      "label": "princesses_and_princes",
+      "display_name": "Princesses and Princes",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "grand balls, swishing gowns, and a secret passage hidden behind the throne-room curtain",
+        "vocabulary": [
+          "ball",
+          "gown",
+          "passage"
+        ],
+        "avoid": [
+          "beauty as worth",
+          "rescue as the girl's only role",
+          "marriage plots"
+        ]
+      }
+    },
+    {
+      "id": "story_element.race_cars",
+      "axis": "story_element",
+      "label": "race_cars",
+      "display_name": "Race Cars",
+      "region": "machines_and_vehicles",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.robots",
+      "axis": "story_element",
+      "label": "robots",
+      "display_name": "Robots",
+      "region": "machines_and_vehicles",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "a helpful beeping robot buddy who loves to tidy and dance",
+        "vocabulary": [
+          "beep",
+          "buttons",
+          "helper"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "story_element.school_stories",
+      "axis": "story_element",
+      "label": "school_stories",
+      "display_name": "School Stories",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.secret_clubs",
+      "axis": "story_element",
+      "label": "secret_clubs",
+      "display_name": "Secret Clubs",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.sibling_adventures",
+      "axis": "story_element",
+      "label": "sibling_adventures",
+      "display_name": "Sibling Adventures",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.sky_kingdoms",
+      "axis": "story_element",
+      "label": "sky_kingdoms",
+      "display_name": "Sky Kingdoms",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.space",
+      "axis": "story_element",
+      "label": "space",
+      "display_name": "Space",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "a cozy rocket trip to the moon and back; floating snacks and waving at planets",
+        "vocabulary": [
+          "rocket",
+          "moon",
+          "float"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "story_element.submarines",
+      "axis": "story_element",
+      "label": "submarines",
+      "display_name": "Submarines",
+      "region": "machines_and_vehicles",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.superheroes",
+      "axis": "story_element",
+      "label": "superheroes",
+      "display_name": "Superheroes",
+      "region": "everyday_heroes",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.talking_animals",
+      "axis": "story_element",
+      "label": "talking_animals",
+      "display_name": "Talking Animals",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.tiny_worlds",
+      "axis": "story_element",
+      "label": "tiny_worlds",
+      "display_name": "Tiny Worlds",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.trains",
+      "axis": "story_element",
+      "label": "trains",
+      "display_name": "Trains",
+      "region": "machines_and_vehicles",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.treasure_hunts",
+      "axis": "story_element",
+      "label": "treasure_hunts",
+      "display_name": "Treasure Hunts",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.underwater_cities",
+      "axis": "story_element",
+      "label": "underwater_cities",
+      "display_name": "Underwater Cities",
+      "region": "adventure_and_exploration",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.unicorns",
+      "axis": "story_element",
+      "label": "unicorns",
+      "display_name": "Unicorns",
+      "region": "creatures_and_companions",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft"
+    },
+    {
+      "id": "story_element.wizards",
+      "axis": "story_element",
+      "label": "wizards",
+      "display_name": "Wizards",
+      "region": "fantasy_and_magic",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "framing": "a kindly wizard whose spells go delightfully wrong; sparkles and silly transformations",
+        "vocabulary": [
+          "wand",
+          "sparkle",
+          "poof"
+        ],
+        "avoid": [
+          "curses on people",
+          "frightening dark magic"
+        ]
+      }
+    },
+    {
+      "id": "value_lesson.fairness",
+      "axis": "value_lesson",
+      "label": "fairness",
+      "display_name": "Fairness",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "playing by the rules even when you're losing",
+        "vocabulary": [
+          "the rules",
+          "same rules",
+          "fair play"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.forgiveness",
+      "axis": "value_lesson",
+      "label": "forgiveness",
+      "display_name": "Forgiveness",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "forgiving doesn't mean it didn't hurt; it means starting fresh",
+        "vocabulary": [
+          "fresh start",
+          "still friends",
+          "mend"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.generosity",
+      "axis": "value_lesson",
+      "label": "generosity",
+      "display_name": "Generosity",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "giving something you actually like, not just your leftovers",
+        "vocabulary": [
+          "really give",
+          "favorite",
+          "gift"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.gentle_with_animals",
+      "axis": "value_lesson",
+      "label": "gentle_with_animals",
+      "display_name": "Gentle with Animals",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "reading animal signals: a tucked tail means give me space",
+        "vocabulary": [
+          "signals",
+          "give space",
+          "careful"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.gratitude",
+      "axis": "value_lesson",
+      "label": "gratitude",
+      "display_name": "Gratitude",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "spotting three good things at bedtime, even on a scratchy day",
+        "vocabulary": [
+          "good things",
+          "notice",
+          "bedtime list"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.helping_at_home",
+      "axis": "value_lesson",
+      "label": "helping_at_home",
+      "display_name": "Helping at Home",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "helping before being asked feels like giving a surprise gift",
+        "vocabulary": [
+          "before asked",
+          "surprise",
+          "pitch in"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.honesty",
+      "axis": "value_lesson",
+      "label": "honesty",
+      "display_name": "Honesty",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "the truth comes out easier when it comes out first",
+        "vocabulary": [
+          "truth first",
+          "own up",
+          "trust"
+        ],
+        "avoid": [
+          "harsh punishment for confessing"
+        ]
+      }
+    },
+    {
+      "id": "value_lesson.keeping_promises",
+      "axis": "value_lesson",
+      "label": "keeping_promises",
+      "display_name": "Keeping Promises",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "only promise what you can really do",
+        "vocabulary": [
+          "really can",
+          "careful promise",
+          "keep"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.kindness_to_strangers",
+      "axis": "value_lesson",
+      "label": "kindness_to_strangers",
+      "display_name": "Kindness to Strangers",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "small kindnesses in public places: holding doors, saying please",
+        "vocabulary": [
+          "please",
+          "hold the door",
+          "polite"
+        ],
+        "avoid": [
+          "undermining stranger-safety rules",
+          "sharing personal information with strangers"
+        ]
+      }
+    },
+    {
+      "id": "value_lesson.perseverance",
+      "axis": "value_lesson",
+      "label": "perseverance",
+      "display_name": "Perseverance",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "big things get built one small piece at a time",
+        "vocabulary": [
+          "step by step",
+          "stick with it",
+          "almost there"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.respecting_differences",
+      "axis": "value_lesson",
+      "label": "respecting_differences",
+      "display_name": "Respecting Differences",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "asking friendly questions about what you don't know yet",
+        "vocabulary": [
+          "ask kindly",
+          "learn",
+          "curious"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "id": "value_lesson.responsibility",
+      "axis": "value_lesson",
+      "label": "responsibility",
+      "display_name": "Responsibility",
+      "tier": "curriculum",
+      "facets": [],
+      "status": "draft",
+      "treatment": {
+        "depth": "concrete_example",
+        "framing": "finishing your job before anyone has to remind you",
+        "vocabulary": [
+          "remember",
+          "on my own",
+          "done"
+        ],
+        "avoid": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "knowledge_domain.ancient_egypt",
+      "target": "knowledge_domain.rivers",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ancient_egypt",
+      "target": "knowledge_domain.the_stone_age",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.animal_babies",
+      "target": "knowledge_domain.animal_homes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.animal_babies",
+      "target": "knowledge_domain.birds",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.animal_babies",
+      "target": "knowledge_domain.life_cycles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.animal_homes",
+      "target": "knowledge_domain.birds",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.animal_homes",
+      "target": "knowledge_domain.insects",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ankylosaurus",
+      "target": "knowledge_domain.beetles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ankylosaurus",
+      "target": "knowledge_domain.stegosaurus",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ankylosaurus",
+      "target": "knowledge_domain.triceratops",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ankylosaurus",
+      "target": "knowledge_domain.volcanic_rocks",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ants",
+      "target": "knowledge_domain.coral_reefs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ants",
+      "target": "knowledge_domain.volcanic_islands",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ash_clouds",
+      "target": "knowledge_domain.jupiter",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ash_clouds",
+      "target": "knowledge_domain.venus",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.astronauts_and_space_travel",
+      "target": "knowledge_domain.flight",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.astronauts_and_space_travel",
+      "target": "knowledge_domain.the_moon",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.axolotls",
+      "target": "knowledge_domain.salamanders_and_newts",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.axolotls",
+      "target": "knowledge_domain.tadpoles_to_frogs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bees",
+      "target": "knowledge_domain.coral_reefs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.beetles",
+      "target": "knowledge_domain.volcanic_rocks",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.birds",
+      "target": "knowledge_domain.dinosaurs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.birds",
+      "target": "knowledge_domain.feathered_dinosaurs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.birds",
+      "target": "knowledge_domain.flight",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.boats_and_floating",
+      "target": "knowledge_domain.engines_and_vehicles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.boats_and_floating",
+      "target": "knowledge_domain.oceans_and_tides",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.boats_and_floating",
+      "target": "knowledge_domain.rivers",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bones_and_skeleton",
+      "target": "knowledge_domain.dinosaurs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bones_and_skeleton",
+      "target": "knowledge_domain.fossils",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bones_and_skeleton",
+      "target": "knowledge_domain.heart_and_blood",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.brachiosaurus",
+      "target": "knowledge_domain.trees",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bridges_and_buildings",
+      "target": "knowledge_domain.cities_and_towns",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bridges_and_buildings",
+      "target": "knowledge_domain.earthquakes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bridges_and_buildings",
+      "target": "knowledge_domain.knights_and_castles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bridges_and_buildings",
+      "target": "knowledge_domain.shapes_and_symmetry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.bridges_and_buildings",
+      "target": "knowledge_domain.simple_machines",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.butterflies",
+      "target": "knowledge_domain.dragonflies",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.butterflies",
+      "target": "knowledge_domain.feathered_dinosaurs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.butterflies",
+      "target": "knowledge_domain.pterosaurs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.camouflage",
+      "target": "knowledge_domain.insects",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.camouflage",
+      "target": "knowledge_domain.nocturnal_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.camouflage",
+      "target": "knowledge_domain.ocean_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.cities_and_towns",
+      "target": "knowledge_domain.jobs_people_do",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.cities_and_towns",
+      "target": "knowledge_domain.maps_and_globes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.cities_and_towns",
+      "target": "knowledge_domain.recycling_and_waste",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.clothes_and_fashion",
+      "target": "knowledge_domain.dance_around_the_world",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.clothes_and_fashion",
+      "target": "knowledge_domain.theater_and_pretending",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.colors_and_mixing",
+      "target": "knowledge_domain.five_senses",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.colors_and_mixing",
+      "target": "knowledge_domain.flowers_and_pollination",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.colors_and_mixing",
+      "target": "knowledge_domain.light_and_shadows",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.colors_and_mixing",
+      "target": "knowledge_domain.shapes_and_symmetry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.coral_reefs",
+      "target": "knowledge_domain.earth_from_space",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.coral_reefs",
+      "target": "knowledge_domain.underwater_volcanoes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.counting_and_big_numbers",
+      "target": "knowledge_domain.magic_number_tricks",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.counting_and_big_numbers",
+      "target": "knowledge_domain.measuring_things",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.counting_and_big_numbers",
+      "target": "knowledge_domain.stars_and_constellations",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.crabs",
+      "target": "knowledge_domain.octopus",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.crabs",
+      "target": "knowledge_domain.volcanic_islands",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.craters",
+      "target": "knowledge_domain.mercury",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.craters",
+      "target": "knowledge_domain.moons",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.crickets",
+      "target": "knowledge_domain.hot_springs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dance_around_the_world",
+      "target": "knowledge_domain.drums_and_rhythm",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dance_around_the_world",
+      "target": "knowledge_domain.festivals_around_the_world",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dance_around_the_world",
+      "target": "knowledge_domain.instruments_around_the_world",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dance_around_the_world",
+      "target": "knowledge_domain.musical_instruments",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dance_around_the_world",
+      "target": "knowledge_domain.theater_and_pretending",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.day_and_night",
+      "target": "knowledge_domain.light_and_shadows",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.day_and_night",
+      "target": "knowledge_domain.nocturnal_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.day_and_night",
+      "target": "knowledge_domain.seasons",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.day_and_night",
+      "target": "knowledge_domain.sleep_and_dreams",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.day_and_night",
+      "target": "knowledge_domain.the_sun",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.deep_sea_fish",
+      "target": "knowledge_domain.jellyfish",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.deep_sea_fish",
+      "target": "knowledge_domain.neptune",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.deep_sea_fish",
+      "target": "knowledge_domain.underwater_volcanoes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dinosaur_eggs",
+      "target": "knowledge_domain.sea_turtles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.fossils",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dragonflies",
+      "target": "knowledge_domain.pterosaurs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dragonflies",
+      "target": "knowledge_domain.seahorses",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.drums_and_rhythm",
+      "target": "knowledge_domain.festivals_around_the_world",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.drums_and_rhythm",
+      "target": "knowledge_domain.instruments_around_the_world",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.drums_and_rhythm",
+      "target": "knowledge_domain.orchestras",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.earth_from_space",
+      "target": "knowledge_domain.volcanic_islands",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.earthquakes",
+      "target": "knowledge_domain.volcanoes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.electricity",
+      "target": "knowledge_domain.magnets",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.electricity",
+      "target": "knowledge_domain.storms_and_lightning",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.engines_and_vehicles",
+      "target": "knowledge_domain.flight",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.engines_and_vehicles",
+      "target": "knowledge_domain.simple_machines",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.gardens_and_growing_food",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.how_people_lived_long_ago",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.jobs_people_do",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.seeds_and_plants",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.festivals_around_the_world",
+      "target": "knowledge_domain.musical_instruments",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.fireflies",
+      "target": "knowledge_domain.jellyfish",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.fireflies",
+      "target": "knowledge_domain.saturn",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.five_senses",
+      "target": "knowledge_domain.nocturnal_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.flowers_and_pollination",
+      "target": "knowledge_domain.gardens_and_growing_food",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.flowers_and_pollination",
+      "target": "knowledge_domain.insects",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.flowers_and_pollination",
+      "target": "knowledge_domain.patterns_in_nature",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.flowers_and_pollination",
+      "target": "knowledge_domain.seeds_and_plants",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.foods_around_the_world",
+      "target": "knowledge_domain.where_breakfast_comes_from",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.fossils",
+      "target": "knowledge_domain.rocks_and_minerals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.fossils",
+      "target": "knowledge_domain.the_stone_age",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.frogs_and_amphibians",
+      "target": "knowledge_domain.life_cycles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.frogs_and_amphibians",
+      "target": "knowledge_domain.ocean_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.gardens_and_growing_food",
+      "target": "knowledge_domain.seeds_and_plants",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.germs_and_staying_healthy",
+      "target": "knowledge_domain.heart_and_blood",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.geysers",
+      "target": "knowledge_domain.moons",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.geysers",
+      "target": "knowledge_domain.saturn",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.geysers",
+      "target": "knowledge_domain.water_cycle",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.heart_and_blood",
+      "target": "knowledge_domain.sleep_and_dreams",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.how_melodies_work",
+      "target": "knowledge_domain.piano",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.how_melodies_work",
+      "target": "knowledge_domain.singing_voices",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.how_people_lived_long_ago",
+      "target": "knowledge_domain.jobs_people_do",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.how_people_lived_long_ago",
+      "target": "knowledge_domain.knights_and_castles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.how_people_lived_long_ago",
+      "target": "knowledge_domain.the_stone_age",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.in_the_kitchen",
+      "target": "knowledge_domain.where_breakfast_comes_from",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.life_cycles",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.patterns_in_nature",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.rainforests",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.islands",
+      "target": "knowledge_domain.maps_and_globes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.islands",
+      "target": "knowledge_domain.oceans_and_tides",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.islands",
+      "target": "knowledge_domain.volcanic_islands",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.islands",
+      "target": "knowledge_domain.volcanoes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.jobs_people_do",
+      "target": "knowledge_domain.robots",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.jupiter",
+      "target": "knowledge_domain.moons",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ladybugs",
+      "target": "knowledge_domain.mars",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.lava",
+      "target": "knowledge_domain.mars",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.lava",
+      "target": "knowledge_domain.underwater_volcanoes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.life_cycles",
+      "target": "knowledge_domain.seeds_and_plants",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.life_cycles",
+      "target": "knowledge_domain.tadpoles_to_frogs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.light_and_shadows",
+      "target": "knowledge_domain.the_sun",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.magnets",
+      "target": "knowledge_domain.maps_and_globes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.maps_and_globes",
+      "target": "knowledge_domain.stars_and_constellations",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.measuring_things",
+      "target": "knowledge_domain.simple_machines",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.mercury",
+      "target": "knowledge_domain.volcanic_rocks",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.theater_and_pretending",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.nocturnal_animals",
+      "target": "knowledge_domain.sleep_and_dreams",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.oceans_and_tides",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.whales_and_dolphins",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.recycling_and_waste",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.rivers",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.storms_and_lightning",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.the_moon",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.water_cycle",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.orchestras",
+      "target": "knowledge_domain.piano",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.patterns_in_nature",
+      "target": "knowledge_domain.patterns_that_repeat",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.patterns_in_nature",
+      "target": "knowledge_domain.puzzles_and_mazes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.patterns_in_nature",
+      "target": "knowledge_domain.shapes_and_symmetry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.patterns_that_repeat",
+      "target": "knowledge_domain.puzzles_and_mazes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.stars_and_constellations",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.the_sun",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.pterosaurs",
+      "target": "knowledge_domain.sharks",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.rainforests",
+      "target": "knowledge_domain.trees",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.rivers",
+      "target": "knowledge_domain.water_cycle",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.rocks_and_minerals",
+      "target": "knowledge_domain.volcanoes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.salamanders_and_newts",
+      "target": "knowledge_domain.tadpoles_to_frogs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.sea_turtles",
+      "target": "knowledge_domain.volcanic_islands",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.seasons",
+      "target": "knowledge_domain.trees",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.seasons",
+      "target": "knowledge_domain.weather",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.seeds_and_plants",
+      "target": "knowledge_domain.trees",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.sharks",
+      "target": "knowledge_domain.tyrannosaurus",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.singing_voices",
+      "target": "knowledge_domain.theater_and_pretending",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.stars_and_constellations",
+      "target": "knowledge_domain.the_sun",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.storms_and_lightning",
+      "target": "knowledge_domain.weather",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.the_moon",
+      "target": "knowledge_domain.the_sun",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.the_sun",
+      "target": "knowledge_domain.weather",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.water_cycle",
+      "target": "knowledge_domain.weather",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.anger",
+      "target": "sel_theme.calming_down",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.anger",
+      "target": "sel_theme.frustration",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.asking_for_help",
+      "target": "sel_theme.courage",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.asking_for_help",
+      "target": "sel_theme.shyness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.being_left_out",
+      "target": "sel_theme.empathy",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.being_left_out",
+      "target": "sel_theme.friendship",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.being_left_out",
+      "target": "sel_theme.sadness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.being_left_out",
+      "target": "sel_theme.sharing",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.calming_down",
+      "target": "sel_theme.excitement",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.calming_down",
+      "target": "sel_theme.frustration",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.calming_down",
+      "target": "sel_theme.worry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.courage",
+      "target": "sel_theme.shyness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.courage",
+      "target": "sel_theme.worry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.empathy",
+      "target": "sel_theme.friendship",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.empathy",
+      "target": "sel_theme.sadness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.empathy",
+      "target": "sel_theme.saying_sorry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.excitement",
+      "target": "sel_theme.friendship",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.friendship",
+      "target": "sel_theme.saying_sorry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.friendship",
+      "target": "sel_theme.sharing",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.friendship",
+      "target": "sel_theme.shyness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.missing_someone",
+      "target": "sel_theme.sadness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "sel_theme.missing_someone",
+      "target": "sel_theme.worry",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.arctic_adventures",
+      "target": "story_element.jungle_expeditions",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.arctic_adventures",
+      "target": "story_element.submarines",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.arctic_adventures",
+      "target": "story_element.trains",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.castles",
+      "target": "story_element.dragons",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.castles",
+      "target": "story_element.giants",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.castles",
+      "target": "story_element.princesses_and_princes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.castles",
+      "target": "story_element.sky_kingdoms",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.castles",
+      "target": "story_element.wizards",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.circus",
+      "target": "story_element.cooking_adventures",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.circus",
+      "target": "story_element.superheroes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.circus",
+      "target": "story_element.talking_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.cooking_adventures",
+      "target": "story_element.school_stories",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.cooking_adventures",
+      "target": "story_element.sibling_adventures",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.desert_islands",
+      "target": "story_element.pirates",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.desert_islands",
+      "target": "story_element.treasure_hunts",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.dinosaurs",
+      "target": "story_element.jungle_expeditions",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.dolls_and_toys_come_alive",
+      "target": "story_element.fairies",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.dolls_and_toys_come_alive",
+      "target": "story_element.princesses_and_princes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.dragons",
+      "target": "story_element.enchanted_forests",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.dragons",
+      "target": "story_element.wizards",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.enchanted_forests",
+      "target": "story_element.fairies",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.enchanted_forests",
+      "target": "story_element.magic_doors",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.enchanted_forests",
+      "target": "story_element.talking_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.enchanted_forests",
+      "target": "story_element.unicorns",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.fairies",
+      "target": "story_element.princesses_and_princes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.fairies",
+      "target": "story_element.tiny_worlds",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.fairies",
+      "target": "story_element.unicorns",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.flying_carpets",
+      "target": "story_element.magic_doors",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.flying_carpets",
+      "target": "story_element.sky_kingdoms",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.flying_carpets",
+      "target": "story_element.treasure_hunts",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.friendly_aliens",
+      "target": "story_element.friendly_monsters",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.friendly_aliens",
+      "target": "story_element.robots",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.friendly_aliens",
+      "target": "story_element.space",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.friendly_monsters",
+      "target": "story_element.giants",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.friendly_monsters",
+      "target": "story_element.invisible_friends",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.giants",
+      "target": "story_element.sky_kingdoms",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.invisible_friends",
+      "target": "story_element.secret_clubs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.invisible_friends",
+      "target": "story_element.talking_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.invisible_friends",
+      "target": "story_element.tiny_worlds",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.jungle_expeditions",
+      "target": "story_element.talking_animals",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.magic_doors",
+      "target": "story_element.tiny_worlds",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.magic_doors",
+      "target": "story_element.trains",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.magic_doors",
+      "target": "story_element.wizards",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.mermaids",
+      "target": "story_element.pirates",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.mermaids",
+      "target": "story_element.submarines",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.mermaids",
+      "target": "story_element.underwater_cities",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.mermaids",
+      "target": "story_element.unicorns",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.pirates",
+      "target": "story_element.treasure_hunts",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.race_cars",
+      "target": "story_element.robots",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.race_cars",
+      "target": "story_element.superheroes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.race_cars",
+      "target": "story_element.trains",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.robots",
+      "target": "story_element.space",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.robots",
+      "target": "story_element.superheroes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.school_stories",
+      "target": "story_element.secret_clubs",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.school_stories",
+      "target": "story_element.sibling_adventures",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.school_stories",
+      "target": "story_element.superheroes",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.secret_clubs",
+      "target": "story_element.sibling_adventures",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.sky_kingdoms",
+      "target": "story_element.space",
+      "kind": "adjacent"
+    },
+    {
+      "source": "story_element.submarines",
+      "target": "story_element.underwater_cities",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.fairness",
+      "target": "value_lesson.forgiveness",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.fairness",
+      "target": "value_lesson.respecting_differences",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.generosity",
+      "target": "value_lesson.gratitude",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.generosity",
+      "target": "value_lesson.helping_at_home",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.generosity",
+      "target": "value_lesson.kindness_to_strangers",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.gentle_with_animals",
+      "target": "value_lesson.kindness_to_strangers",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.gentle_with_animals",
+      "target": "value_lesson.responsibility",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.gratitude",
+      "target": "value_lesson.helping_at_home",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.helping_at_home",
+      "target": "value_lesson.responsibility",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.honesty",
+      "target": "value_lesson.keeping_promises",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.keeping_promises",
+      "target": "value_lesson.perseverance",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.keeping_promises",
+      "target": "value_lesson.responsibility",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.kindness_to_strangers",
+      "target": "value_lesson.respecting_differences",
+      "kind": "adjacent"
+    },
+    {
+      "source": "value_lesson.perseverance",
+      "target": "value_lesson.responsibility",
+      "kind": "adjacent"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.ankylosaurus",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.brachiosaurus",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.dinosaur_eggs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.feathered_dinosaurs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.pterosaurs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.stegosaurus",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.triceratops",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.dinosaurs",
+      "target": "knowledge_domain.tyrannosaurus",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.engines_and_vehicles",
+      "target": "knowledge_domain.bicycles",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.foods_around_the_world",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.in_the_kitchen",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.sweet_treats",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.farms_and_food",
+      "target": "knowledge_domain.where_breakfast_comes_from",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.frogs_and_amphibians",
+      "target": "knowledge_domain.axolotls",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.frogs_and_amphibians",
+      "target": "knowledge_domain.salamanders_and_newts",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.frogs_and_amphibians",
+      "target": "knowledge_domain.tadpoles_to_frogs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.ants",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.bees",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.beetles",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.butterflies",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.crickets",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.dragonflies",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.fireflies",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.insects",
+      "target": "knowledge_domain.ladybugs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.maps_and_globes",
+      "target": "knowledge_domain.journeys_around_the_world",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.drums_and_rhythm",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.how_melodies_work",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.instruments_around_the_world",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.orchestras",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.piano",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.musical_instruments",
+      "target": "knowledge_domain.singing_voices",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.coral_reefs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.crabs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.deep_sea_fish",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.jellyfish",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.octopus",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.sea_turtles",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.seahorses",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.ocean_animals",
+      "target": "knowledge_domain.sharks",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.beaches_and_sand",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.oceans_and_tides",
+      "target": "knowledge_domain.swimming_and_floating",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.earth_from_space",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.jupiter",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.mars",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.mercury",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.moons",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.neptune",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.saturn",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.planets",
+      "target": "knowledge_domain.venus",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.shapes_and_symmetry",
+      "target": "knowledge_domain.magic_number_tricks",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.shapes_and_symmetry",
+      "target": "knowledge_domain.patterns_that_repeat",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.shapes_and_symmetry",
+      "target": "knowledge_domain.puzzles_and_mazes",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.theater_and_pretending",
+      "target": "knowledge_domain.how_shows_are_made",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.ash_clouds",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.craters",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.geysers",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.hot_springs",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.lava",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.underwater_volcanoes",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.volcanic_islands",
+      "kind": "subtopic"
+    },
+    {
+      "source": "knowledge_domain.volcanoes",
+      "target": "knowledge_domain.volcanic_rocks",
+      "kind": "subtopic"
+    }
+  ],
+  "regions": [
+    {
+      "id": "animals",
+      "axis": "knowledge_domain",
+      "display_name": "Animals",
+      "node_ids": [
+        "knowledge_domain.animal_babies",
+        "knowledge_domain.animal_homes",
+        "knowledge_domain.ankylosaurus",
+        "knowledge_domain.ants",
+        "knowledge_domain.axolotls",
+        "knowledge_domain.bees",
+        "knowledge_domain.beetles",
+        "knowledge_domain.birds",
+        "knowledge_domain.brachiosaurus",
+        "knowledge_domain.butterflies",
+        "knowledge_domain.camouflage",
+        "knowledge_domain.coral_reefs",
+        "knowledge_domain.crabs",
+        "knowledge_domain.crickets",
+        "knowledge_domain.deep_sea_fish",
+        "knowledge_domain.dinosaur_eggs",
+        "knowledge_domain.dinosaurs",
+        "knowledge_domain.dragonflies",
+        "knowledge_domain.feathered_dinosaurs",
+        "knowledge_domain.fireflies",
+        "knowledge_domain.frogs_and_amphibians",
+        "knowledge_domain.insects",
+        "knowledge_domain.jellyfish",
+        "knowledge_domain.ladybugs",
+        "knowledge_domain.nocturnal_animals",
+        "knowledge_domain.ocean_animals",
+        "knowledge_domain.octopus",
+        "knowledge_domain.pterosaurs",
+        "knowledge_domain.salamanders_and_newts",
+        "knowledge_domain.sea_turtles",
+        "knowledge_domain.seahorses",
+        "knowledge_domain.sharks",
+        "knowledge_domain.stegosaurus",
+        "knowledge_domain.tadpoles_to_frogs",
+        "knowledge_domain.triceratops",
+        "knowledge_domain.tyrannosaurus",
+        "knowledge_domain.whales_and_dolphins"
+      ]
+    },
+    {
+      "id": "arts_and_music",
+      "axis": "knowledge_domain",
+      "display_name": "Arts And Music",
+      "node_ids": [
+        "knowledge_domain.clothes_and_fashion",
+        "knowledge_domain.colors_and_mixing",
+        "knowledge_domain.dance_around_the_world",
+        "knowledge_domain.drums_and_rhythm",
+        "knowledge_domain.how_melodies_work",
+        "knowledge_domain.how_shows_are_made",
+        "knowledge_domain.instruments_around_the_world",
+        "knowledge_domain.musical_instruments",
+        "knowledge_domain.orchestras",
+        "knowledge_domain.piano",
+        "knowledge_domain.singing_voices",
+        "knowledge_domain.theater_and_pretending"
+      ]
+    },
+    {
+      "id": "how_things_work",
+      "axis": "knowledge_domain",
+      "display_name": "How Things Work",
+      "node_ids": [
+        "knowledge_domain.bicycles",
+        "knowledge_domain.boats_and_floating",
+        "knowledge_domain.bridges_and_buildings",
+        "knowledge_domain.electricity",
+        "knowledge_domain.engines_and_vehicles",
+        "knowledge_domain.flight",
+        "knowledge_domain.light_and_shadows",
+        "knowledge_domain.magnets",
+        "knowledge_domain.recycling_and_waste",
+        "knowledge_domain.robots",
+        "knowledge_domain.simple_machines"
+      ]
+    },
+    {
+      "id": "human_body",
+      "axis": "knowledge_domain",
+      "display_name": "Human Body",
+      "node_ids": [
+        "knowledge_domain.bones_and_skeleton",
+        "knowledge_domain.five_senses",
+        "knowledge_domain.germs_and_staying_healthy",
+        "knowledge_domain.heart_and_blood",
+        "knowledge_domain.sleep_and_dreams"
+      ]
+    },
+    {
+      "id": "long_ago",
+      "axis": "knowledge_domain",
+      "display_name": "Long Ago",
+      "node_ids": [
+        "knowledge_domain.ancient_egypt",
+        "knowledge_domain.how_people_lived_long_ago",
+        "knowledge_domain.knights_and_castles",
+        "knowledge_domain.the_stone_age"
+      ]
+    },
+    {
+      "id": "nature_and_earth",
+      "axis": "knowledge_domain",
+      "display_name": "Nature And Earth",
+      "node_ids": [
+        "knowledge_domain.ash_clouds",
+        "knowledge_domain.beaches_and_sand",
+        "knowledge_domain.craters",
+        "knowledge_domain.earthquakes",
+        "knowledge_domain.fossils",
+        "knowledge_domain.geysers",
+        "knowledge_domain.hot_springs",
+        "knowledge_domain.islands",
+        "knowledge_domain.lava",
+        "knowledge_domain.oceans_and_tides",
+        "knowledge_domain.rainforests",
+        "knowledge_domain.rivers",
+        "knowledge_domain.rocks_and_minerals",
+        "knowledge_domain.seasons",
+        "knowledge_domain.storms_and_lightning",
+        "knowledge_domain.swimming_and_floating",
+        "knowledge_domain.underwater_volcanoes",
+        "knowledge_domain.volcanic_islands",
+        "knowledge_domain.volcanic_rocks",
+        "knowledge_domain.volcanoes",
+        "knowledge_domain.water_cycle",
+        "knowledge_domain.weather"
+      ]
+    },
+    {
+      "id": "numbers_and_patterns",
+      "axis": "knowledge_domain",
+      "display_name": "Numbers And Patterns",
+      "node_ids": [
+        "knowledge_domain.counting_and_big_numbers",
+        "knowledge_domain.magic_number_tricks",
+        "knowledge_domain.measuring_things",
+        "knowledge_domain.patterns_in_nature",
+        "knowledge_domain.patterns_that_repeat",
+        "knowledge_domain.puzzles_and_mazes",
+        "knowledge_domain.shapes_and_symmetry"
+      ]
+    },
+    {
+      "id": "people_and_places",
+      "axis": "knowledge_domain",
+      "display_name": "People And Places",
+      "node_ids": [
+        "knowledge_domain.cities_and_towns",
+        "knowledge_domain.farms_and_food",
+        "knowledge_domain.festivals_around_the_world",
+        "knowledge_domain.foods_around_the_world",
+        "knowledge_domain.in_the_kitchen",
+        "knowledge_domain.jobs_people_do",
+        "knowledge_domain.journeys_around_the_world",
+        "knowledge_domain.maps_and_globes",
+        "knowledge_domain.sweet_treats",
+        "knowledge_domain.where_breakfast_comes_from"
+      ]
+    },
+    {
+      "id": "plants_and_life",
+      "axis": "knowledge_domain",
+      "display_name": "Plants And Life",
+      "node_ids": [
+        "knowledge_domain.flowers_and_pollination",
+        "knowledge_domain.gardens_and_growing_food",
+        "knowledge_domain.life_cycles",
+        "knowledge_domain.seeds_and_plants",
+        "knowledge_domain.trees"
+      ]
+    },
+    {
+      "id": "space",
+      "axis": "knowledge_domain",
+      "display_name": "Space",
+      "node_ids": [
+        "knowledge_domain.astronauts_and_space_travel",
+        "knowledge_domain.day_and_night",
+        "knowledge_domain.earth_from_space",
+        "knowledge_domain.jupiter",
+        "knowledge_domain.mars",
+        "knowledge_domain.mercury",
+        "knowledge_domain.moons",
+        "knowledge_domain.neptune",
+        "knowledge_domain.planets",
+        "knowledge_domain.saturn",
+        "knowledge_domain.stars_and_constellations",
+        "knowledge_domain.the_moon",
+        "knowledge_domain.the_sun",
+        "knowledge_domain.venus"
+      ]
+    },
+    {
+      "id": "adventure_and_exploration",
+      "axis": "story_element",
+      "display_name": "Adventure And Exploration",
+      "node_ids": [
+        "story_element.arctic_adventures",
+        "story_element.desert_islands",
+        "story_element.jungle_expeditions",
+        "story_element.pirates",
+        "story_element.space",
+        "story_element.treasure_hunts",
+        "story_element.underwater_cities"
+      ]
+    },
+    {
+      "id": "creatures_and_companions",
+      "axis": "story_element",
+      "display_name": "Creatures And Companions",
+      "node_ids": [
+        "story_element.dinosaurs",
+        "story_element.dolls_and_toys_come_alive",
+        "story_element.dragons",
+        "story_element.friendly_aliens",
+        "story_element.friendly_monsters",
+        "story_element.giants",
+        "story_element.invisible_friends",
+        "story_element.mermaids",
+        "story_element.talking_animals",
+        "story_element.unicorns"
+      ]
+    },
+    {
+      "id": "everyday_heroes",
+      "axis": "story_element",
+      "display_name": "Everyday Heroes",
+      "node_ids": [
+        "story_element.castles",
+        "story_element.circus",
+        "story_element.cooking_adventures",
+        "story_element.school_stories",
+        "story_element.secret_clubs",
+        "story_element.sibling_adventures",
+        "story_element.superheroes"
+      ]
+    },
+    {
+      "id": "fantasy_and_magic",
+      "axis": "story_element",
+      "display_name": "Fantasy And Magic",
+      "node_ids": [
+        "story_element.enchanted_forests",
+        "story_element.fairies",
+        "story_element.flying_carpets",
+        "story_element.magic_doors",
+        "story_element.princesses_and_princes",
+        "story_element.sky_kingdoms",
+        "story_element.tiny_worlds",
+        "story_element.wizards"
+      ]
+    },
+    {
+      "id": "machines_and_vehicles",
+      "axis": "story_element",
+      "display_name": "Machines And Vehicles",
+      "node_ids": [
+        "story_element.race_cars",
+        "story_element.robots",
+        "story_element.submarines",
+        "story_element.trains"
+      ]
+    }
+  ]
+}

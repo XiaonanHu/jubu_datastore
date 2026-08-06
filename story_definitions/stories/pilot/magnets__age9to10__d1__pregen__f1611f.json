@@ -1,0 +1,348 @@
+{
+  "id": "story.magnets.age9to10.d1.pregen.f1611f",
+  "title": "The Click That Opened the Clubhouse",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.magnets",
+    "sel_theme": null,
+    "value_lesson": "Sharing the discovery",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "Nina and her grandpa build a switchable magnetic latch for the clubhouse door, learning that a coil of wire becomes a magnet only when the current flows.",
+  "slots": {
+    "clubhouse_name": {
+      "role": "The name of Nina's clubhouse, painted on the door",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Acorn Den"
+    },
+    "button_press": {
+      "role": "The final button press that releases the latch, played out with sound",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "Poppy presses the big red button and everyone counts down from three"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The clubhouse door banged open for the third time that morning. Bang. Bang. Bang.\n\nNina caught it on the fourth swing and held it shut with her shoulder. \"Grandpa, this door will not stay closed. The wind just laughs at it.\"\n\nGrandpa sat on his stool in the garage, surrounded by jars of screws and coils of rope and one very dusty bicycle. He took a slow sip from his thermos. Cinnamon tea. He always drank it slowly, like the tea had all day.\n\n\"What you need,\" he said, \"is a latch that holds tight but opens when you say so. No key. Just a button.\"\n\nNina's eyes went wide. \"A button? Like a doorbell?\"\n\n\"Better.\" Grandpa set the thermos down on the workbench with a soft clink. He reached behind him and pulled out a jar of nails and a roll of copper wire, shiny and orange like a penny's insides. \"We're going to build an electromagnet. A magnet you can switch on and off.\"\n\nNina let go of the door. It banged open again. She didn't even flinch.\n\n\"A magnet that sleeps?\" she said.\n\n\"Exactly. When the current flows through the coil, it wakes up and grabs. When the current stops, it lets go.\" He tapped the wire. \"Patience, sparky. We'll make it behave.\"\n\nNina grinned. \"Let's build it.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Quick first,\" said Nina. \"I want to see it move.\"\n\nShe wrapped the wire around the nail the way you wrap a scarf when you're late for the bus — round and round, twenty loops, loose and springy, ends sticking out like two tails. Grandpa watched, sipping. He did not say a word.\n\nNina clipped the wire ends to the battery. \"Wake up, coil,\" she whispered.\n\nThe nail gave a tiny hum. Nina dangled a paperclip underneath it — and the paperclip jumped. It stuck. It wobbled. It hung on for one whole second, trembling like a leaf, and then — plip. It dropped onto the workbench and lay there, ordinary as anything.\n\n\"It grabbed!\" Nina shouted. \"Did you see? It grabbed and then it just — gave up.\"\n\nGrandpa chuckled into his thermos. Cinnamon steam curled up around his eyebrows. \"The current is flowing, sparky. But your coil is sleeping on the job.\"\n\n\"Sleeping? It was awake for a whole second.\"\n\n\"A loose coil is a lazy coil.\" He set the thermos down with its soft clink. \"All those gaps between the loops? The current wanders through them like a kid dawdling to school. It gets there, but it's too tired to hold anything.\"\n\nNina picked up the paperclip and held it to the nail again. Nothing. Not even a shiver.\n\n\"So how do we wake it up for real?\" she asked. \"The latch plate is a lot heavier than one paperclip.\"\n\nGrandpa smiled into his tea. \"Patience, sparky.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Slow and careful,\" said Nina. \"If we're building the latch for {clubhouse_name}, we're building it right.\"\n\nShe wrapped the wire around the nail one turn at a time, each loop snug against the last, neat as thread on a spool. Twenty turns. Thirty. Her tongue stuck out the corner of her mouth. Grandpa sipped and watched, and the garage went quiet except for the tiny squeak of wire on nail.\n\n\"There.\" Nina sat back. \"Forty turns. Tight as a hug.\"\n\nShe clipped the wire ends to the battery and held a paperclip underneath, ready for the jump.\n\nNothing happened.\n\nNot a twitch. Not a hum. The paperclip just dangled from her fingers, bored.\n\n\"Wake up,\" Nina said. She shook the battery. \"Wake up, coil. I did everything right.\"\n\nGrandpa leaned over and peered at the wire ends. Then he tapped one with a single finger. \"Ah. There's your trouble, sparky. See the shine?\"\n\nNina looked. The copper at the very tip gleamed, smooth and glossy.\n\n\"That shine is a coat,\" said Grandpa. \"An invisible jacket called enamel. Every bit of this wire is wearing one, so the turns don't short against each other. Very useful.\" He took a slow sip. \"But it also keeps the current out. Your battery is knocking on the door, and the jacket won't let it in.\"\n\n\"So my perfect coil can't even hear it?\"\n\n\"Not one knock.\" He handed her a small square of sandpaper. \"Rub the ends bare, sparky. Let the copper say hello.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Grandpa unscrewed the thermos and took a slow sip. \"So,\" he said. \"What did you find?\"\n\nNina told him, and he nodded the whole way through, like he was filing every word in a drawer.\n\n\"Good. Now we fix it properly.\" He held up the wire. \"See these ends? Dull. A current is shy, sparky. It won't jump through grime.\" He handed her a square of sandpaper, rough as a cat's tongue. \"Rub until it shines like a new penny.\"\n\nNina rubbed. Poppy rubbed too, mostly her own thumb, and Maya turned the nail so the light caught it. Bright. Brighter.\n\n\"Now the coil.\" Grandpa's fingers moved slow and sure, wrapping the copper around the nail in tight, tidy loops, each one snuggled against the last like cinnamon rolls in a pan. \"Loose loops make a lazy magnet. Tight loops make a strong one.\"\n\nNina wrapped the next ten herself. One slipped sideways and she started it over without being asked.\n\n\"Patience, sparky,\" Grandpa said, and winked, because she'd beaten him to it.\n\n\"How do we know it's really working?\" Maya asked, pencil ready.\n\nGrandpa pressed two fingers gently to the coil. \"Feel. When the current flows, the wire gets warm. Just a little. Like a pocket where a hamster's been sleeping.\"\n\nNina touched the coil. Warm. Truly warm.\n\n\"It's awake,\" she whispered.\n\nThe nail hummed — a tiny, furry sound — and the whole pile of paperclips leapt. Clack. They hung off the nail in a fat silver bunch, wiggling.\n\nPoppy squealed so loudly the screw jars rattled on the shelf. \"IT'S ALIVE!\"\n\n\"It's an electromagnet,\" Maya said, but she was grinning too, already sketching: nail, coil, battery, every part labelled in her neatest letters. \"So we can build it again. On the door.\"\n\nNina looked at the clubhouse door, hanging open, waiting. The magnet on the bench was strong. But a door was a bigger, heavier job.\n\nShe squeezed the coil. Still warm.\n\n\"Let's make it stronger.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "They bolted the magnet to the clubhouse door and pressed the button. Click. The magnet woke up and grabbed the metal plate. It grabbed so hard that the door would not budge. Nina pulled. Poppy pulled. Maya pushed from the side. Nothing. The door was stuck shut, and they were all outside. \"It's too strong,\" Nina said. Grandpa sipped his tea. \"Patience, sparky.\" Nina stared at the door. Then she ran to the recycling bin and came back with a piece of cardboard. She slid it between the magnet and the plate. The pull softened. She pressed the button again. Click. The latch popped open. \"Yes!\" Poppy shouted. Grandpa pointed across the valley. \"See that crane at the junkyard? It drops cars with the same kind of switch.\" Nina smiled and slipped the little sanded coil from the first wobble into her pocket. It was still warm. \"Let's go inside,\" she said. \"The {clubhouse_name} is open for business.\" {button_press}",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Before they bolted anything to the door, Nina held the humming electromagnet near Maya's compass. The needle twitched. It swung. It pointed right at the magnet. \"Whoa,\" Maya whispered. \"It's pulling the needle.\" Nina grinned. \"Let's find every magnetic thing in the yard.\" They tested the mailbox, the swing set, a old tin can, and Grandpa's toolbox. Maya drew a treasure map, marking every spot where the needle danced. By dusk, the latch was ready. Poppy pressed the button. Click. The door swung open. They cheered and tumbled inside. Maya taped the map to the wall, right next to the coil that started it all. Grandpa leaned in the doorway, sipping his tea. \"A magnet that sleeps and wakes,\" he said, \"can even steer you home.\" Nina looked at the map, then at the coil in her hand. \"We built that,\" she said softly. {button_press}",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Now, sparky, do we wrap this coil quick and see what happens, or do we go slow and careful from the very first turn?\"",
+      "options": [
+        {
+          "say_word": "Quick",
+          "label": "Wrap it fast and test it right away",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Careful",
+          "label": "Wrap it slowly and neatly, turn by turn",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The magnet works, little builder. Do we bolt it straight onto the door, or do we play with it first and see what else it can show us?\"",
+      "options": [
+        {
+          "say_word": "Build",
+          "label": "Mount it on the clubhouse door right now",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Explore",
+          "label": "Test it on the compass and hunt for magnetic surprises",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.magnets",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 34
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Electromagnets are inherently about construction—wrapping coils, connecting current, and watching the switchable magnetic force come alive—making the step-by-step building process the most natural way to showcase how this invisible force works inside machines.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3023,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2791,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1628,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Case of the Scooting Spoons)"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1395,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0698,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0349,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandpa's thermos of cinnamon tea, which he sips slowly while saying 'patience, sparky' whenever the wire misbehaves",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Sharing the discovery",
+      "why": "The material offers it naturally: the little sister pressing the button that makes it work is already in the value_angles, and it lands warmly without preaching"
+    },
+    "cast": [
+      {
+        "role": "Nina, the nine-year-old builder",
+        "reused": false,
+        "why": "Named hero for the third-person telling; her want to make something drives the make_and_build pattern"
+      },
+      {
+        "role": "Grandpa, the retired electrician",
+        "reused": false,
+        "why": "Carries the cozy accent, brings the wire and the know-how, and asks the choice questions in his own voice"
+      },
+      {
+        "role": "Maya, the best friend who draws",
+        "reused": false,
+        "why": "Sketches the design and labels the parts; she can carry the wider-door glimpse of Maps and Globes by drawing the clubhouse map"
+      },
+      {
+        "role": "Little sister Poppy",
+        "reused": false,
+        "why": "Holds the flashlight and gets to press the final button, giving the warm landing its shared moment"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "electromagnet is a coil of wire with current running through it",
+        "switching off the current stops the magnetism instantly",
+        "more coils or more current make it stronger",
+        "build one at home with a battery, insulated wire, and an iron nail",
+        "garage workshop setting with jars of screws and nails",
+        "magnetic door latch that releases with a button",
+        "loose messy coil barely picks up one paperclip",
+        "sanding the enamel off the wire ends",
+        "magnet too strong, fixed with a cardboard spacer",
+        "the satisfying click as the door swings open",
+        "junkyard crane dropping a car when the power is cut",
+        "compass needle twitching near the electromagnet",
+        "Maya drawing a map of the clubhouse and yard"
+      ],
+      "gathered_but_unused": [
+        "An electromagnet is just a coil of wire with electricity running through it, and it becomes magnetic the moment the current is switched on.",
+        "When you switch off the current, an electromagnet stops being magnetic instantly.",
+        "Electromagnets can be made stronger by wrapping more coils of wire around the core or by increasing the current.",
+        "Electric guitars use tiny electromagnets called pickups to sense the strings moving and turn it into music.",
+        "Huge electromagnets on cranes in junkyards can lift whole cars, then drop them with a loud clang when the power is cut.",
+        "Maglev trains float above the tracks using powerful electromagnets, so there is no friction and they can go incredibly fast.",
+        "An MRI machine in a hospital uses a giant electromagnet to take pictures of the inside of your body without touching you.",
+        "You can build your own working electromagnet at home using just a battery, some insulated wire, and an iron nail."
+      ]
+    },
+    "safety_beat": "In s1, Grandpa shows Nina how to hold the wire ends away from her fingers and to touch the battery only after he checks the coil, a light moment of competence with no warning or tension",
+    "motif": "A coil of copper wire that wakes up and sleeps again",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.magnets.mystery_001",
+        "title": "The Case of the Scooting Spoons",
+        "pattern": "mystery",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "busy_workshop",
+          "why": "The story is about building an electromagnet latch, but the actual making is skipped, summarized, or inconsistent, so a listening child never gets to watch the thing come together.",
+          "editor_notes": [
+            "s3 is the build scene and it is broken: it opens with Grandpa asking 'What did you find?' as if continuing a conversation that never happened, and Poppy and Maya appear with no introduction — a child hearing this aloud will ask who these people are. Either seed the friends in s1 or cut them from s3.",
+            "s3 contradicts the branch that feeds it: after s2a (loose coil) Grandpa says the wire ends are 'Dull' and need sanding, but s2a never mentions sanding; after s2b Nina already sanded the ends ('Rub the ends bare'), so Grandpa's instruction is a repeat. The fix-it steps need to match what actually went wrong in each branch.",
+            "The crucial making moment — the coil going from failed to working — happens offstage between s2 and s3. Let the listener hear the sanding, the re-wrapping, and the first successful grab in order; right now s3 opens with the problem already half-fixed.",
+            "s4a collapses the entire installation into one rushed summary: 'They bolted the magnet to the clubhouse door and pressed the button.' Bolting, wiring the button, and mounting the plate are the satisfying, legible steps this story exists for — give them sentences, not a clause.",
+            "s4a's solution (cardboard softening the magnet) is physically backwards — cardboard between magnet and plate weakens the hold but wouldn't make a stuck-shut latch pop open; a child who builds things will trip on this. Show Nina adjusting something real: fewer battery cells, a spring, or a gap she can measure.",
+            "s4b's compass-and-treasure-map detour is charming but it replaces the latch work rather than leading to it: 'By dusk, the latch was ready' skips the whole build. Keep the compass test as one beat, then let the listener hear the latch actually being made.",
+            "The {button_press} placeholder and {clubhouse_name} token will read as holes aloud; and in s4b 'a old tin can' trips the tongue — fix to 'an old tin can.'"
+          ],
+          "segments_revised": 2,
+          "segments_rejected": 4
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already shows the making step by step — the winding, the sanding, the failed grab, the warm coil — so the listener watches the latch come together and the world feel legible, with Grandpa's fondness paid as attention throughout."
+        }
+      ],
+      "cards_used": [
+        "busy_workshop"
+      ],
+      "listener_felt_arc": {
+        "s1": "bouncy and curious",
+        "s2a": "a quick spark, then a puzzled frown",
+        "s2b": "careful and proud, then deflated",
+        "s3": "warm hands, leaning in, a small cheer",
+        "s4a": "stuck, then triumphant and snug",
+        "s4b": "wondering and treasure-hunt glee, settling satisfied"
+      },
+      "segments_revised": 2,
+      "segments_rejected": 4
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polish rejected: grew 122% of the original, over the 115% limit",
+      "round 1: [s2a] polished (250 -> 250 words)",
+      "round 1: [s2b] polished (250 -> 250 words)",
+      "round 1: [s3] polish rejected: 382 words over the 360 ceiling",
+      "round 1: [s4a] polish rejected: grew 136% of the original, over the 115% limit",
+      "round 1: [s4b] polish rejected: grew 134% of the original, over the 115% limit",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "35_magnets_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

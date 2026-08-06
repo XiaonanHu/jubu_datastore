@@ -1,0 +1,330 @@
+{
+  "id": "story.seahorses.age9to10.d1.pregen.3ff1fa",
+  "title": "Pip and the Wandering Weed",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.seahorses",
+    "sel_theme": null,
+    "value_lesson": "Sometimes the brave thing is not fighting harder but holding on and staying still.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A newborn seahorse fry, swept from the meadow on his first day, must stop fighting the water and learn the seahorse arts of holding on and hiding before he can find his way home.",
+  "slots": {
+    "hero_name": {
+      "role": "The seahorse fry's name, spoken by Dad, Zephyr, and Grandmother Weed throughout",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Dad seahorse wrapped his curly tail around a blade of seagrass and held on tight. His body was swollen and glowing. Then he pumped. And jerked. And out burst a cloud of seahorse fry, smaller than grains of rice, tumbling like living confetti into the green water. One of them was {hero_name}. He spun head over tail, too tiny to steer, and stared at everything. Sunlight poured down in golden ribbons through the meadow. The seagrass swayed. Dad's tail gripped the grass like it was the safest thing in the world.\n\n\"What was that?\" a voice said. A pipefish zipped in, long and thin and curious. \"I'm Zephyr. How did you all fit in there? What's a brood pouch? Why do you curl?\"\n\n{hero_name} blinked. He didn't know anything yet. He just wanted to stay close to the grass where he was born, and see every single thing in this enormous world.\n\nFar above, a dragonfly skated across the bright skin of the water, quick as a skipped stone.\n\nBut the current was pulling. Quietly, gently, it tugged at the cloud of fry. Some drifted one way. Some drifted another. {hero_name} reached out his own small tail, but he did not know how to hold on.\n\n\"Where are you going?\" Zephyr called.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Fight it!\" {hero_name} squeaked. He stood tall in the water, the way Dad stood, and fluttered his tiny back fin as hard as it would buzz. Bzzzz. Bzzzz. He pushed toward the green meadow. He pushed with everything he had.\n\n\"Look at that fin go!\" Zephyr cried, arrowing alongside him. \"How does it move so fast? It is just a blur! Does it ever get tired?\"\n\n{hero_name} did not answer. He was too busy swimming. But the current was stronger than his little fin. It tugged him sideways. It tumbled him backward. He kicked and fluttered, but the seagrass grew smaller and smaller behind him.\n\n\"You are going the wrong way!\" Zephyr called, zipping in a circle. \"The water is winning! How can something so soft be so strong?\"\n\n{hero_name} stopped. He was breathing hard. His fin ached. He looked at the open blue water all around him, so big and so empty. He was farther from home than ever. And he was all alone.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Hide!\" {hero_name} whispered. He stopped fighting the current. He dropped down, down, down to the pale sand below. He went perfectly still, the way he somehow knew seahorses do. He did not move a muscle. He did not blink an eye.\n\n\"What are you doing?\" Zephyr asked, hovering above him. \"Why are you just lying there? Is this a game?\"\n\n{hero_name} stayed quiet. He waited for the sea to forget him. But the sand was white, and he was brown, and there was no green seagrass to hide him. His small shadow lay plain on the bright sand, dark as a drop of ink.\n\n\"I see you!\" a voice chirped. A young fish named Snapper darted toward him, quick as a blink.\n\n{hero_name} gasped. He fluttered his fin and shot up into the drifting murk, just as Snapper's mouth snapped shut on empty sand. He hung in the cloudy water, heart pounding. Stillness had not saved him. There was nothing here to match, nowhere to blend in. He was still out in the open, and still alone.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The water shoved. {hero_name} tumbled, and his tail lashed out and caught a strand of drifting weed. He held on with everything he had. But the weed was not holding on to anything. It was wandering, and now so was he, lost and moving at the same time. \"Where is this going?\" Zephyr cried, zipping alongside. \"Why are you riding it? Can you steer?\" {hero_name} could not steer. Then the weed brushed against something tattered and brown, and the tattered thing opened one ancient eye. \"Little fry,\" it said, slow as settling sand. \"You are holding a leaf that cannot hold you.\" It was Grandmother Weed, and she was not a leaf at all. She was a seahorse, her tail corkscrewed deep around a grass blade rooted in the meadow floor, her body the exact green of the swaying grass. Snapper glided past, close enough to touch, and did not see her at all. \"How did you vanish?\" Zephyr breathed. \"Is it camouflage? How does your skin know what colour to be?\" Grandmother Weed's eye crinkled. \"My tail holds what holds the earth. My colour wears what the meadow wears. That is the whole secret, and it is not a secret.\" {hero_name} looked at his own small tail, then at the rooted grass below. \"Will you show me?\" he asked. \"Show me everything you just found out,\" said Grandmother Weed, \"and then let us begin.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "{hero_name} stopped fighting. He let go of the wandering weed, and the current carried him gently down to the first rooted blade of grass. His tail corkscrewed around it, just like Dad's had. Then his skin did something wonderful. It turned slowly, slowly seagrass green.\n\n\"You're doing it!\" Zephyr whispered. \"How does your skin know?\"\n\nSnapper glided past. His eyes slid right over {hero_name}, over one more leaf in the green forest. {hero_name} held his breath and held on. Snapper was gone.\n\n\"Now,\" said Zephyr, \"blade by blade. Quiet as a leaf.\"\n\nThey moved through the meadow, tail to grass, grass to tail, until {hero_name} saw him. Dad. Still gripping the same stem, right where the world began.\n\n\"You came back,\" Dad said.\n\n\"I held on,\" said {hero_name}.\n\nAnd there, caught in the grass beside Dad's tail, was a tiny curled shell no bigger than a tear. {hero_name} tucked it close. His tail knew, at last, what to hold.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{hero_name} stopped fighting. He gripped the first rooted blade he reached, and his skin turned slowly, slowly seagrass green. Then he waited.\n\nWhile he waited, tiny shrimp drifted past his nose. His snout went slurp. Slurp-slurp-slurp. He was aiming like a straw, and the shrimp simply vanished inside. It was the first meal he had ever caught all by himself.\n\n\"Did you just drink a shrimp?\" Zephyr cried. \"Through your snout? Like a straw?\"\n\n\"Like a straw,\" said {hero_name}, and his belly felt warm and full.\n\nFed and steady, he worked his way home along the rooted blades, tail to grass, grass to tail, with Zephyr zipping beside him. And there was Dad, still gripping the same stem.\n\n\"You came back fed,\" Dad said.\n\n\"I learned the slurp,\" said {hero_name}.\n\nAs he spoke, one green scale-fleck drifted loose from his brand-new camouflage and caught in the grass. {hero_name} tucked it close. Proof he was a real meadow seahorse now.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Little cousin, the water is pulling you away! Will you fight it — flutter that fin and swim straight home? Or will you hide — drop down, go still, and let the sea forget you?\"",
+      "options": [
+        {
+          "say_word": "Fight",
+          "label": "Swim straight back against the current",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Hide",
+          "label": "Drop to the sand and stay perfectly still",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"You hold and hide like an old one now, little cousin. But home is far and the water is wide. Will you wait for the calm and slip home quiet as a leaf? Or will you stay and hunt — learn the slurp, fill your belly, and swim home fed and strong?\"",
+      "options": [
+        {
+          "say_word": "Wait",
+          "label": "Hold on, stay hidden, and slip home when the water calms",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Hunt",
+          "label": "Stay gripped and learn to slurp up drifting shrimp first",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.seahorses",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 16
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "A father seahorse guarding his brood pouch offers natural, gentle obstacles—like needing to camouflage in seagrass or anchor his curly tail against a current—that a 9-year-old can follow through a try-fail-solve arc.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2791,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2093,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1744,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1628,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Door in the Tide Pool)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.093,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0581,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Zephyr the pipefish, whose endless questions about how everything works carry the curious_wonder accent",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Sometimes the brave thing is not fighting harder but holding on and staying still.",
+      "why": "The material offers it directly: every failure comes from fighting the water, and the fix that works is gripping, blending, and letting the meadow hide him. It rides along naturally without preaching."
+    },
+    "cast": [
+      {
+        "role": "Pip, one brave seahorse fry smaller than a grain of rice",
+        "reused": false,
+        "why": "The named hero; small enough that the whole meadow is an adventure, and his try-fail-try journey carries the problem_and_fix pattern."
+      },
+      {
+        "role": "Dad, a father seahorse with a swollen brood pouch",
+        "reused": false,
+        "why": "Opens the story with the wonder of the pouch and the birth; his tail gripping the grass plants the motif Pip will copy."
+      },
+      {
+        "role": "Zephyr, a curious pipefish cousin",
+        "reused": false,
+        "why": "Carries the curious_wonder accent, asks the choice questions in his own quick, wondering voice, and can scout routes Pip cannot swim."
+      },
+      {
+        "role": "Grandmother Weed, an old seahorse camouflaged as a tattered bit of weed",
+        "reused": false,
+        "why": "The wiser one Pip can copy; teaches stillness, tail-gripping, and colour-changing after his own ideas fail."
+      },
+      {
+        "role": "Snapper, a hungry young fish patrolling the meadow's edge",
+        "reused": false,
+        "why": "The gentle danger that makes hiding matter; never graphic, just a reason to stay still and unseen."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "father carries eggs in a brood pouch",
+        "father pumps seahorse fry out like living confetti",
+        "fry smaller than a grain of rice, on their own from the first moment",
+        "upright swimming with a fluttering back fin",
+        "curly tail gripping seagrass like a hand",
+        "camouflage, turning seagrass green",
+        "hiding in seagrass as the main defence",
+        "sucking up tiny shrimp through a straw snout",
+        "sunlit seagrass meadow setting",
+        "failing by fighting the current",
+        "failing by hiding on open sand",
+        "failing by grabbing drifting weed",
+        "the fix: grip, turn green, let the meadow hide you",
+        "glimpse of dragonflies over the water's skin"
+      ],
+      "gathered_but_unused": [
+        "The father seahorse carries the eggs in a brood pouch on his belly until the babies are ready to swim away.",
+        "When the babies are ready, the father gives birth by squeezing and pumping his pouch, shooting out hundreds of tiny seahorse fry into the water.",
+        "Seahorse fry are smaller than a grain of rice when they are born, and they must swim and hunt all by themselves from the very first moment.",
+        "Seahorses swim upright, standing straight up in the water, using a tiny fin on their back that flutters like a hummingbird's wing.",
+        "A seahorse's curly tail works like a gripping hand, wrapping around seagrass blades or coral so the current cannot sweep it away.",
+        "Seahorses are masters of camouflage; they can change colour to match the seagrass or coral around them, and some even grow skin flaps that look like leaves.",
+        "Seahorses have no stomach and no teeth, so food passes through them very fast and they must eat almost constantly, sucking up tiny shrimp through their long snouts.",
+        "Because seahorses are such slow swimmers, hiding in seagrass and staying perfectly still is their main way of staying safe from predators."
+      ]
+    },
+    "safety_beat": "not needed: setting is not a real place a child could stand in — the whole story happens underwater in a seagrass meadow; the dragonfly glimpse stays at the water's surface, observed from below.",
+    "motif": "A curly tail gripping tight — first the father's tail around the grass, then the fry's own tail learning what to hold.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already pairs a clear want with a warm, watchful companion and a wise elder, lands its sound-words as their own small beats, and ends each branch on a held, satisfying image of belonging."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed wonder, then a small tug of worry",
+        "s2a": "rooting hard, then breathless and alone",
+        "s2b": "a held breath, then a gasp of fright",
+        "s3": "leaning in close to the slow old voice",
+        "s4a": "snug and safe, a happy lump in the throat",
+        "s4b": "a giggle at the slurp, then proud and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] narration heavy: only 27% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.7); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.7); [s2b] narration heavy: only 33% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['keepsake']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 27% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2b] narration heavy: only 33% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 27% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2b] narration heavy: only 33% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "17_seahorses_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

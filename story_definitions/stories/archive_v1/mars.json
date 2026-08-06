@@ -1,0 +1,313 @@
+{
+  "id": "story.mars.problem_and_fix_001",
+  "title": "The Wheel in the Soft Red Dust",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.mars",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "We get the little rover's buried wheel rolling again.",
+  "slots": {
+    "rover_name": {
+      "role": "the little six-wheeled rover with the buried wheel",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Rusty"
+    },
+    "first_try": {
+      "role": "the fix we built on our first attempt",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "rock ramp"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Our telescope is glowing again, so we climb through the little round door. Step, step, and here we are on Mars. The ground is red. Not fire-engine red. Rusty orange red, like cinnamon spilled everywhere. Even the sky is a soft butterscotch color. We take one hop and float up high, then come down slow as a feather. Everything is lighter here. Then we hear it. Beep. Beep beep. Over by a low ridge sits a little rover, about as big as a picnic table. It has six chunky wheels and a round glass eye on a stalk. The eye swivels toward us and blinks. This is {rover_name}, and {rover_name} is stuck. One front wheel has sunk deep into a patch of dust as soft and fine as flour. The wheel spins. The dust just swallows it. {rover_name} is not scared. {rover_name} is only stuck, and maybe a little embarrassed. We swing our backpack workshop onto a flat rock and unroll it. Springs. Sticky tape. A bicycle bell. Two shiny lunch tin lids. Wonderful. What should we build first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "A ramp. Of course. If the wheel cannot climb out, we will build it a road. So we go hunting for flat rocks, and hunting on Mars is the best job there is. One hop and we sail right over the ridge. Another hop and we drift down beside a pile of red slabs. We carry them back four at a time, because up here even the big ones feel like pillows. Clack. Clack. Clack. We lay them in a neat little slope in front of the buried wheel. We step back. It looks marvelous. We ring the bicycle bell. Ding! {rover_name} rolls forward. And the first rock sinks. Then the next one sinks. Our beautiful ramp slides down into the soft dust and disappears, one slab at a time, like biscuits dunked into milk. {rover_name} stops and lifts that round glass eye. It is looking past us at the butterscotch sky, where two tiny moons are chasing each other. We look too, and we forget to be disappointed. Then we dust off our knees. Now we know something new. Pushing down on this dust does not work.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "A fan. If the dust is soft, we will blow it out of the way. We build fast, the way inventors do. A pinwheel from one shiny tin lid. A squeezy rubber bulb from the side pocket. Tape, tape, tape, and then a bit more tape. We hold our puffer in front of the buried wheel and squeeze. Poof! A cloud of red dust jumps up. Squeeze, squeeze, squeeze. Poof, poof, poof! The dust rises in a swirling orange cloud, and then it just hangs there. The air on Mars is very thin, so dust floats for a long, slow time before it comes down. And then it comes down. All of it. On our boots. On our hair. On {rover_name}. Down in the hole there is now more dust than before. We look at each other, red from head to toe, and laugh until we have to sit down. {rover_name} swivels that round glass eye at us and beeps twice, which is definitely a giggle. Then we brush ourselves off. Now we know something new. Blowing this dust around does not work.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We sit down on a flat rock beside {rover_name} and think. Our {first_try} did not work, and that is fine. Every good invention starts with one that flops. We look hard at the dust. We poke one finger into it. In it goes, all the way down, easy as pudding. Then we press our whole hand flat and push. And our hand stays right on top. Oh! We try it again to be sure. One pointy finger sinks. One flat hand floats. The dust is too soft to hold something small. But something wide and flat? It holds that just fine. It is like deep snow at home. A boot sinks, but a snowshoe glides. {rover_name} lifts the round glass eye toward the ridge, where the wind has combed the dust into long soft ripples, and for a second we both go quiet, because it is so pretty. Then we open the backpack workshop again. We have two shiny lunch tin lids. We also have a long roll of strong sticky tape. Two very good ideas. Which one do we build?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Snowshoes for a rover. We love it. We take the two shiny lunch tin lids and bend their edges up, like little dishes. Then we tape them onto the buried wheel, one on each side, so the wheel is wearing wide flat boots. Tape, tape, tape. We add three more strips, because inventors always add three more strips. We stand back. {rover_name} looks silly and splendid. We ring the bicycle bell. Ding! The wheel turns. The lids press down on the dust, wide and flat, and they do not sink. They hold. The wheel climbs, slow at first, then up and out with a soft crunch. {rover_name} is free! It spins in a happy circle and beeps a little tune, and we hop up and float and cheer. Then we walk with our friend all the way to the top of the ridge and look out at a whole rusty world going gold in the low sun. {rover_name} points the round glass eye at us and takes our picture. We are covered in red dust, and we are grinning.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "A road. If the dust cannot hold the wheel up, we will lay something on top that can. We unroll our long strip of strong sticky tape, sticky side down, and press it flat across the soft patch. It makes a smooth silver path from the buried wheel all the way to the firm ground. Then we press small flat pebbles along it, so the road has some crunch for the wheel to grip. We pat it down with both hands. We step back and ring the bicycle bell. Ding! {rover_name} rolls forward, very slowly. The wheel finds the silver road. It grips. It climbs. And out it comes, with a soft pop and a puff of red powder. {rover_name} is free! It rolls back and forth on the firm ground, testing every wheel, and beeps a bright little tune. Then it pats its own flat back with one small arm, which means climb on. So we ride. We trundle over the ripples, past a low pink hill, while the sun sinks and the two tiny moons come out. It is the slowest, best ride we have ever had.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "What should we build first? Say ramp, or say fan.",
+      "options": [
+        {
+          "say_word": "ramp",
+          "label": "Build a little ramp out of flat rocks",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_try": "rock ramp"
+          }
+        },
+        {
+          "say_word": "fan",
+          "label": "Build a puffing fan to blow the dust away",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_try": "puffing fan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Which one do we build? Say lids, or say road.",
+      "options": [
+        {
+          "say_word": "lids",
+          "label": "Strap the wide tin lids onto the wheel like snowshoes",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "road",
+          "label": "Roll out a long tape road for the wheel to climb",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.mars",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "Mars at age five is a place, not a puzzle, so the story needed something to happen there, and a rover with one buried wheel gives a small concrete goal that the red dust itself creates.",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.20,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.19,
+          "sampled": true,
+          "rejected_because": "the parent planets story on the shelf is already a journey, and a second sky-boat tour would have been the same story with fewer planets in it"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.21,
+          "sampled": true,
+          "rejected_because": "the honest question here is why the dust swallows a wheel, which is a good question but a thin one; it works better as the turn inside the fix than as the whole story"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.10,
+          "sampled": false
+        }
+      ],
+      "backup": "mystery"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "the rover's round glass eye on its stalk — it is the one element that stops mid-mess to look at something beautiful, and every wonder beat in the story is routed through it",
+      "why": "problem_and_fix plus a backpack workshop wants sparks, tape and glorious flops, so crazy_inventor owns the opening, the failures and the landing; but Mars deserves one held breath per segment, and giving that job to the rover's eye keeps the awe from smearing into the clatter.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a crazy_inventor accent",
+          "because": "the parent planets story is already wonder-dominant; repeating it would make the shelf sound like one long story, and wonder-first would have made our failed attempts feel like interruptions rather than the fun part"
+        },
+        {
+          "recipe": "crazy_inventor dominant with a silly accent",
+          "because": "the robots pilot story already runs inventor plus silly, and silly would have pulled the flops toward slapstick, which makes the eventual fix feel less earned"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "the fix has to be built by somebody's hands, and 'we' puts the child's hands on it; it also keeps the child company on a world where being alone is exactly what the topic's avoid list rules out.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "a hero to watch over adds distance, which feelings stories need and a workshop story does not; the rover already gives the child someone to help"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered adventure puts the flops in the past tense, and the whole pleasure of this pattern is not knowing yet whether the ramp will hold"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "the materials offered persistence as a value angle, but naming it would turn the second failed attempt into a lesson; the story shows trying again and lets that be all it is. No parent value picks apply to a library story."
+    },
+    "cast": [
+      {
+        "role": "the round telescope door in the backyard",
+        "reused": true,
+        "why": "reused from the parent planets story, where the telescope opens like a little round door; reuse across a topic family is the preferred design, and a child who played that story walks in through a door they already know"
+      },
+      {
+        "role": "the little six-wheeled rover with the buried wheel",
+        "reused": false,
+        "why": "new, and it earns its place: the rovers are one of this topic's facets, and the pattern needs someone with a small concrete problem. Its name is a naming slot, so once a child names it, it can drive back into any later Mars story"
+      },
+      {
+        "role": "the two tiny moons chasing each other",
+        "reused": true,
+        "why": "reused from the parent story's Mars segment, where two moons play chase overhead; kept as scenery, not cast, so it costs no slot"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "the ground and the dust are rusty orange, and the daytime sky is butterscotch",
+        "Mars gravity is low, so a hop floats and heavy rocks feel like pillows",
+        "the fine dust behaves like flour and swallows anything narrow",
+        "the air is thin, so kicked-up dust hangs for a long time before settling",
+        "rovers are picnic-table sized, six-wheeled, with a camera on a mast",
+        "wind combs the dust into long ripples",
+        "Mars has two small moons",
+        "real rovers have been stuck in soft ground and worked free slowly"
+      ],
+      "gathered_but_unused": [
+        "Olympus Mons, the tallest volcano in the solar system",
+        "planet-wide dust storms",
+        "why the iron in the dust makes it red",
+        "sunsets on Mars look blue near the sun",
+        "a day on Mars is only a little longer than ours"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "it sits at the first beat of the fix, so the child owns the attempt that fails; the failure teaches the same lesson either way, which is why the paths can safely merge at s3",
+        "criteria": {
+          "more_interesting": "the ramp is a patient building job with hopping and rock hauling; the fan is a fast contraption that ends with everyone painted red. Different work, different mess, different joke",
+          "more_engaging": "one option is for the child who wants to build carefully, the other for the child who wants to press the squeezy thing and see what happens",
+          "reveals_taste": "ramp is the gentle lean, fan is the bold lean",
+          "reveals_curiosity": "ramp asks how the ground carries weight (how_it_works); fan is for the fun of the poof (just_experience)",
+          "reflects_mood": "a settled evening can build a ramp; a bouncy one can blow dust everywhere"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice must split, and by s3 the child knows the rule the dust obeys, so both options are genuine applications of it rather than guesses; neither is the clever answer while the other is wrong",
+        "criteria": {
+          "more_interesting": "the lids change the rover, the road changes the ground; the endings differ in kind too, one a photograph on the ridge, the other a slow ride at sunset",
+          "more_engaging": "wide silly boots for a robot against building a shining road are both things a five-year-old wants to see happen",
+          "reveals_taste": "lids is the bold lean, road is the gentle lean",
+          "reveals_curiosity": "lids asks how the snowshoe trick works (how_it_works); road asks what a road is for and who else can use it (what_its_for)",
+          "reflects_mood": "the lids ending is a cheer, the road ending is a wind-down, so the same story can end loud or end quiet"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "beats all present: problem stated in s1, first attempt fails in s2, the failure teaches the rule in s3, the fix is earned in s4. No antagonist, no peril, nothing on the topic's avoid list — the rover is never in danger and nobody is stranded. Six segments, two choices, ~700 words per path. Both say-word pairs are distinct and easy to echo, ramp/fan and lids/road. Slot check: rover_name is used in every segment, first_try is set by both c1 options and used once in the shared s3."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "sentences short and speakable, no ellipses, asterisks, parentheses or symbols. Vocabulary sits in the age-5 treatment (red, dust, rocky) with rover kept because the child names one. Sibling contrast on s2a/s2b written together and confirmed different in kind: one fails by sinking, the other by rebounding. The shared s3 was read with both first_try values, 'our rock ramp did not work' and 'our puffing fan did not work', and reads correctly for both."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "all four paths read end to end. Fixed on the read: s4b originally ended on the same ridge as s4a, so the two endings had one shape; the tape-road ending now ends with a slow ride at sunset instead. Also cut a second use of 'marvelous'. Tone recipe holds — crazy_inventor owns both landings, and every wonder beat is still carried by the rover's glass eye. Banned-language pass clean."
+      }
+    ],
+    "writers_notes": [
+      "The failed attempt must stay charming, never sad. Both flops end in laughing and in a fact the child now owns.",
+      "The rover has no face and says nothing in words. It beeps and it swivels. Keeping it wordless is what makes the glass eye able to carry the wonder.",
+      "Low gravity is used three times and never explained. It is felt, not taught.",
+      "The finger-versus-flat-hand test in s3 is the hinge of the whole story: it is the moment the fix becomes earned rather than lucky. Any regeneration of s3 must keep a physical demonstration, not a spoken explanation.",
+      "Watch the word 'dust' — it appears often by necessity. Alternatives used: powder, flour-soft ground, ripples.",
+      "Candidate for the next story on this topic: the giant volcano facet, which the materials sheet still holds unused."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

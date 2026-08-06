@@ -1,0 +1,326 @@
+{
+  "id": "story.birds.age5to6.d1.authored.320758",
+  "title": "Grandma Nell and the Dawn Chorus",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.birds",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A grandmother remembers the dawn a baby robin sang its first song outside her childhood window.",
+  "slots": {
+    "robin_name": {
+      "role": "the robin who sings first every morning",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandma Nell turns off the lamp beside her chair.\n\"Listen a minute,\" she says.\nWe are sitting on the rug at her feet, you and me, with the window open a hand's width and the evening coming in cool over the sill. Out in the hedge the birds are shuffling about, getting comfortable. One of them keeps saying the same short thing over and over. Then it stops.\n\"There,\" says Grandma Nell. \"That is them going to sleep. When I was your size, birds woke me up instead.\"\nShe has a lapful of yellow wool, needles crossed on top.\n\"My bed sat right under the window. Every morning, before the sun, the sky went the grey of dishwater. And then, from the fence post, one chirp. Always the same robin, round as an apple, red down his front, one black eye on me.\"\nWe call him {robin_name}.\n\"When {robin_name} started, the others woke and joined on, one and one and one, until the whole garden was singing. The dawn chorus. And then one morning there was something underneath it.\"\nShe pinches a thread of the wool and holds it up.\n\"A voice about that thick.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"So I watched him,\" says Grandma Nell. \"Nothing else. Just him.\"\nShe puts her needles down and does not pick them up for a while.\n\"He stood on the very tip of that post and puffed his red front out until he was nearly a ball. And when he sang, the whole of him shook with it. Beak to tail feather. Chirp, chirree, chirree.\"\n\"Then the blackbird came in off the chimney, low and easy, and then the sparrows all at once, arguing inside the hedge. Song landing on song, the way blankets go on a bed in winter.\"\n\"I pushed my window up a crack. Only a crack, because the cold came straight in off the wet grass. And then I did a bold thing. I hummed.\"\nShe hums it for us now. Two notes, hardly there.\n\"{robin_name} turned his head. One black eye, straight at me, and he did not go anywhere. That is the way with a robin. Keep your hands on the sill and keep still, and he will let you stay.\"\nShe picks her needles up again.\n\"And under all of it, that thin voice. Still going. Still waiting to be found.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"So I looked into the hedge,\" says Grandma Nell. \"Right in deep, where the leaves are thickest. That is where the robins kept their nest, and I had watched them build it in the spring.\"\n\"That is how I found out what a beak is for. A robin's beak is a tool, like a little pair of tweezers. He picked up one straw at a time, just so, and carried it in, and tucked it exactly where he wanted it. Round and round he went. Twigs. Moss. More moss. Until it was a bowl, a proper little bowl, lined inside with soft grey feathers.\"\nShe smooths the yellow wool flat over her knee.\n\"That morning I could just make out the rim of the nest through the leaves. And the rim was wobbling. Something in there was hopping about. Something small was trying out a pair of brand new wings.\"\n\"My tummy went fizzy with waiting. I did not go down the garden and I did not part the leaves to look, because whoever it was would come out when they were ready.\"\n\"And then the thin voice came again, straight out of that bowl of twigs.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"And then out he came,\" says Grandma Nell. \"Out of the hedge and onto a low branch. A fluffy scrap of a thing, soft as a dandelion, with wings too short to be any use yet.\"\n\"He hopped along that branch. Hop. Wobble. Hop. Then he flapped hard and got himself up onto the fence post, right beside {robin_name}.\"\nShe stops. Out in the hedge the birds have gone quiet.\n\"The whole garden hushed like that. Even the sparrows. And the baby opened his yellow beak as wide as it would go, and out came one small scratchy chirp. Not much of a song. Nothing like a song, if I am honest.\"\n\"But {robin_name} tipped his head back and answered him with the biggest chirree of his life.\"\n\"So the baby had another try, a bit stronger.\"\n\"Big song, small song. Big song, small song. Back and forth the two of them went, and behind them the sky was going pink along the bottom.\"\nShe holds up her thread of yellow wool again, and this time she pulls it out longer.\n\"You could hear it getting ready.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I stayed still as a stone,\" says Grandma Nell. \"Not a toe. Not a finger.\"\n\"That baby filled his chest right up. And out it came. His first whole song. Wobbly at the front, then all at once clear, and going up at the end like a question.\"\n\"{robin_name} sang the high parts and the baby sang the small parts, and the blackbird and the sparrows wrapped themselves round the pair of them. Then the sun came up over the hedge and poured itself gold all across my blanket.\"\n\"I clapped. Only with my fingertips, so as not to spoil it. And he fluffed himself up on that post, as pleased as anything.\"\nGrandma Nell picks up the yellow row where she left it.\n\"That was a great many mornings ago. But I still open this window before the sun, every day of my life. Some mornings there is a robin on that same post.\"\nShe nods at the dark garden.\n\"I like to think it is his family, still teaching the little ones the first song of the day. Open yours tomorrow. See if they got as far as your house.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"I went down to the kitchen on my toes,\" says Grandma Nell. \"I took the crusty end of yesterday's loaf and I crumbled it up small, small, small. Then I laid the crumbs along my windowsill and knelt down well back from the glass, because he would never come while I was leaning over it.\"\n\"{robin_name} saw them first. Down he came onto the sill, one little tap of his feet. Peck, peck, peck, quick as a needle going through cloth.\"\n\"And then he did the loveliest thing. He turned to the fence and chirped, the way you call somebody in for their dinner.\"\n\"Over flapped the baby, all wobble, and landed beside him with a bump. {robin_name} nudged a crumb along the sill towards him. And that baby had his first breakfast right there in front of my nose. Peck, peck, hop. Peck, peck, hop.\"\nGrandma Nell reaches over and taps a jar on the windowsill. It is half full of crumbs.\n\"I have kept one of these ever since,\" she says. \"They sing for their breakfast, and I get the best seat in the house.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Grandma Nell puts one needle down. \"Now then,\" she says. \"If it was you at that window, where would you look? At the robin up on the fence post, or into the hedge where the nest was? Robin, or nest?\"",
+      "options": [
+        {
+          "say_word": "robin",
+          "label": "The robin singing on the fence post",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "nest",
+          "label": "The nest hidden in the hedge",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The sun was nearly up,\" says Grandma Nell. \"And I had a think. Stay where I was, still as anything, and listen? Or go down to the kitchen and fetch the bread? Listen, or crumbs?\"",
+      "options": [
+        {
+          "say_word": "listen",
+          "label": "Stay still and listen to the baby's first song",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "crumbs",
+          "label": "Fetch the bread and lay crumbs along the windowsill",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.birds",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "prompt_version": "segment_writing_v2.1",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "The age-5 framing is feathered friends at the window and morning songs, which is a thing you can only get by holding still and waiting. quiet_hour is the one pattern that lets waiting be the plot, so the dawn chorus arrives as something we sit through rather than something we are told about.",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.13,
+          "sampled": true,
+          "rejected_because": "whose small voice is that under the chorus is a real question, and it survives inside this story as the one thing to wait for; as a full mystery it would have needed clue-hunting, and clue-hunting cannot be done sitting still"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true,
+          "rejected_because": "a bird journey at this band means migration, which is the adjacent topic and a much better story once the child is older"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false,
+          "rejected_because": "not drawn, and a nest-building story would have put a child's hands in a nest, which is the one thing this topic should never model"
+        }
+      ],
+      "backup": "mystery"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Grandma Nell herself. She is the one who still gets up before the sun after all these years, and the only wonder in the story is in her voice — the thread she holds up, the two notes she hums. Nothing else in the prose reaches for awe.",
+      "why": "A dark room, a chair, a window open a hand's width and a remembered morning: this is built to be heard by a nearly-asleep child, and cozy is the register that survives that. The wonder rides on top rather than replacing it.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "puts the bird facts first and the morning second, and the morning is the reason the story exists"
+        },
+        {
+          "recipe": "cozy with a silly accent",
+          "because": "a joke anywhere near the baby's first attempt would turn a small brave thing into a comedy about being bad at singing"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "A remembered morning is already over, which means nothing in it can go wrong, and that is exactly what lets the story hold almost perfectly still. It also gives us a grown-up who can show how to watch a wild bird simply by describing what she did, with no instruction anywhere.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "the we voice keeps turning corners, and this story needs to stay at one window for its whole length"
+        },
+        {
+          "teller": "named_hero",
+          "because": "a hero implies somebody to worry about, and there is nothing here to worry about"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No parent value picks on a library story, and the nearest thing to a lesson — that a robin stays if you keep still, that a baby comes out when it is ready — is an observation about birds, not an instruction about children. It stays that way on purpose."
+    },
+    "cast": [
+      {
+        "role": "the window-watching grandmother",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Deliberately distinct from the library's other storytellers: Old Finn owns the lighthouse frame in the moon story, Sabina the beach-nest frame in the sea turtle story, Old Nell the night-diving frame in the jellyfish story. Grandma Nell owns one window and one hedge, and she never leaves the chair."
+      },
+      {
+        "role": "the robin who sings first",
+        "reused": false,
+        "reused_from": null,
+        "slot": "robin_name",
+        "why": "A naming slot, so the bird the child names is the bird who leads the chorus and later feeds the baby. Stored per topic family, so a later bird story can bring the same name back."
+      },
+      {
+        "role": "the baby robin",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Unnamed on purpose. The one thing the story asks the listener to wait for is a voice, and a voice with no name attached stays a question for longer."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: the dawn chorus starts before sunrise, and robins are usually among the first to sing",
+        "wonder-fact: a beak is a tool, and a robin's works like a small pair of tweezers",
+        "wonder-fact: young birds have to practise their song, and the first attempts are scratchy",
+        "wonder-fact: a robin will stay close if you keep still, and comes to crumbs on a sill",
+        "sensory picture: a whole body shaking with one small song, beak to tail feather",
+        "sensory picture: song landing on song, the way blankets go on a bed in winter",
+        "sensory picture: the rim of a nest wobbling because something inside is hopping",
+        "setting: an evening chair, a lamp going off, a hedge, and one window remembered from a childhood bed"
+      ],
+      "gathered_but_unused": [
+        "hollow bones and how flight actually works — that is the age-7 treatment",
+        "birds as living dinosaurs — the age-9 pleasure, and it would have blown this story apart",
+        "why birds sing at dawn rather than at noon — a good fact with no picture in it at five",
+        "a robin's red front as a territory signal — true, and it makes the robin an owner rather than a friend",
+        "how many eggs are in a robin's clutch — counting was not the pleasure here"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "In the waiting, where a quiet_hour story has to earn its stillness. Neither option moves the morning along by a minute — the child only chooses where to look — and both leave us still at the window, so s3 opens identically from either side.",
+        "criteria": {
+          "more_interesting": "one branch is one bird shaking from beak to tail feather and a hummed note he does not fly away from; the other is a nest built one straw at a time and its rim starting to wobble",
+          "more_engaging": "looking hard at one small animal and looking into a hiding place are both things a five-year-old does in a garden",
+          "reveals_taste": "the robin is the gentle pick, watching what is already in plain sight; the hedge is the bolder pick, going after what is hidden",
+          "reveals_curiosity": "robin is just-experience; nest leans how-it-works, because it is the child who wants to know how the bowl of twigs got made",
+          "reflects_mood": "the robin branch is open and out in the air; the nest branch is close, secret and slower"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "On the last held breath, with the song nearly ready and the sun nearly up. Splitting here lets the child choose between hearing the thing they have waited the whole story for and doing one small kind thing instead, and neither is the better answer.",
+        "criteria": {
+          "more_interesting": "s4a is the first whole song, going up at the end like a question, and the sun arriving on the blanket; s4b is a father nudging a crumb along a windowsill towards a baby",
+          "more_engaging": "children divide cleanly between wanting the song and wanting to feed the birds, and both answers feel right to the child who gives them",
+          "reveals_taste": "listening is the gentle pick; going down to the kitchen is the bold one",
+          "reveals_curiosity": "listen is just-experience; crumbs leans what-its-for, because it is the child who wants to know what a person is good for on a morning like that",
+          "reflects_mood": "the song ending is the stiller of the two and finishes with an invitation to open a window tomorrow; the crumbs ending is busier and finishes on a jar you can see from the chair"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Quiet_hour beats present: a held moment, one small strange thing to wait for, a warm glow, and no problem anywhere. Braid held exactly from the v1 text: six segments, c1 after s1 rejoining at s3, c2 splitting to two endings with next null on both. The robin_name slot is asked before s1 and read in s1, s2a, s2b, s3, s4a and s4b. Say-words robin/nest and listen/crumbs are short and unalike. The birds node carries no avoid list, so the guards applied were the ones this task set: no nest is disturbed on any path, nobody is lost, no predator appears, and nothing frightening happens at any point. Vocabulary feather, nest, chirp, beak, wing and peck all appear with a picture built round them."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts against the 200 ceiling: s1 195, s2a 197, s2b 197, s3 187, s4a 192, s4b 187. Longest path 771, shortest 766, up from v1's 645-655 — the growth is all in Grandma Nell's voice, which now carries the story instead of the narrator summarising over it. All six segments carry speech; measured speech-or-action share 66 per cent, sentence-length spread 6.08. No abstract mood words: v1's cozy as a mitten is gone. Every object introduced is used — the yellow wool is a lapful in s1, a thread held up to measure the voice, a thread pulled longer in s3, and a row picked back up in s4a; the crumb jar on the sill in s4b is visible from the chair we are sitting in."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds because both branches finish on the thin voice still unfound and us still at the window, and s3 opens on it coming out. Cozy owns both landings and every piece of wonder is in Grandma Nell's mouth. Nothing was added to the middle: the story still contains exactly one event, a small bird coming out of a hedge. Both endings resolve fully and both are hers to close. Banned-language sweep clean."
+      }
+    ],
+    "writers_notes": [
+      "Near-stillness was the brief, so no event was added anywhere. The whole story is one bird leaving one hedge, and everything else is waiting. The one thing the listener is given to wait for is the thin voice under the chorus, planted in the last line of s1 and left unfound at the end of both middle segments.",
+      "The yellow wool is the motif, and it is doing the description's work physically instead of verbally. She pinches out a thread to show how thin the voice was, she smooths the wool flat while she thinks, she pulls the thread longer when the song is getting ready, and she picks the row back up when the morning is over. v1 had her knitting something yellow and then forgot about it.",
+      "Competence, never warning, once per branch and both inside her own memory: keep your hands on the sill and keep still and he will let you stay, and I did not part the leaves to look, because whoever it was would come out when they were ready. Both are reasons. Nobody is told off, nothing is called dangerous, and the s4b crumbs beat repeats the shape — she kneels well back from the glass because he would never come while she was leaning over it.",
+      "The frame is now in the present tense and the memory in the past, so the listener always knows which room they are in. v1 put both in the past and the two kept sliding into each other.",
+      "Open question for the psychologist: this story has one event in six segments. If a five-year-old drifts, the fault is quiet_hour as a pattern rather than this telling of it, and the same question is open on the sea turtle story."
+    ],
+    "craft_changes": [
+      "Opening now primes the room we are actually in before the memory starts: the lamp goes off, we are on the rug at her feet, the window is open a hand's width, and the pull is the hedge going quiet outside. v1 began with a summary of her chair and went straight into the tale.",
+      "Every choice question is now spoken by Grandma Nell. v1 had a narrator asking both of them from outside the frame (Little Nell knelt at her window. What should she watch more closely? / The sun was almost up. What should little Nell do?), which also broke the storyteller frame by naming her as a child in the third person.",
+      "The frame is now present tense and the memory past tense, and only Grandma Nell says I.",
+      "Cut: the tiny king simile, the flute simile on the blackbird, the trembling described twice, the whole garden seemed to hush followed by even the sparrows went quiet, the silver bell, getting ready for something big, and the closing summary about many many mornings ago that restated what the last paragraph had already said.",
+      "Cut the abstract mood word v1 leaned on, cozy as a mitten, and replaced it with what the lining actually is: soft grey feathers, and nothing else.",
+      "Replaced the weak comparison v1 used on the payoff — the first song being like a tiny silver bell, which is neither a child's object nor a sound a child has heard — with what the song actually does: wobbly at the front, then all at once clear, and going up at the end like a question.",
+      "Similes kept or rebuilt from a child's own day: round as an apple, the grey of dishwater, song landing on song the way blankets go on a bed in winter, soft as a dandelion, a beak like a little pair of tweezers, a needle going through cloth, and calling somebody in for their dinner.",
+      "One motif grown instead of one image per paragraph: the thread of yellow wool. Pinched out to show how thin the voice is in s1, smoothed flat in s2b, pulled longer in s3, and knitted back into its row in s4a.",
+      "Sentence rhythm now rises and falls: Just him. and Beak to tail feather. and Twigs. Moss. More moss. and Hop. Wobble. Hop. and Not a toe. Not a finger. land against her long remembering sentences, the longest of which run to twenty-two words. v1 ran at one steady mid-length hum, and the audit still had to be argued with twice before s2a stopped humming.",
+      "Grandma Nell now does something physical in every segment — puts the lamp out, pinches the wool, sets her needles down, hums two notes, smooths the wool, stops talking, pulls the thread longer, picks up the yellow row, taps the crumb jar — rather than smiling at the window between paragraphs of speech.",
+      "s4a now ends on an invitation rather than a summary: open yours tomorrow, see if they got as far as your house. That is what comes home with us on that branch, and the crumb jar is what comes home on the other."
+    ],
+    "authored_by": "hand-authored rewrite under prompt v2.1, replacing the v1 text of the same story (kept in story_definitions/stories/archive_v1/birds.json) for blind craft comparison",
+    "revision_of": {
+      "story_id": "story.birds.quiet_hour_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe, spine, title, the six-segment braid, both choice positions and their rejoin and split marks, the robin_name slot, the tone and curiosity leans, the cast, the window and hedge, and the say-words robin/nest and listen/crumbs. Only the prose, the tense of the frame, and who asks the choice questions changed.",
+      "why": "Paired deliberately with the two romp rewrites as the opposite register. If prompt v2.1 only improves loud stories it has not done its job, so the same rules were applied to the quietest story on the shelf to check that they do not push a still story into being an eventful one."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

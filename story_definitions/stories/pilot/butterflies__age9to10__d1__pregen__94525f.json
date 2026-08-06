@@ -1,0 +1,317 @@
+{
+  "id": "story.butterflies.age9to10.d1.pregen.94525f",
+  "title": "The Great-Grandchild's Map",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.butterflies",
+    "sel_theme": null,
+    "value_lesson": "Planting for strangers you will never meet is still worth doing",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A child follows one monarch family across four generations and a whole continent, discovering that the butterfly who finishes the journey never saw the meadow where it began.",
+  "slots": {
+    "child_name": {
+      "role": "The child protagonist",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "When I was nine, I spent the last week of summer in Abuela Rosa's garden, and that is where this story begins, so that is where we will begin too. Imagine you are there with me, {child_name}, kneeling in the dirt beside the milkweed, with grass stains on your knees and the whole garden humming around you.\n\nAbuela Rosa is on her knees too, because she says the best things in a garden happen down low. Her hat is too big. It slides over one eye every time she bends, and she bends a lot.\n\n\"Look,\" she whispers. \"Under the leaf. Always under.\"\n\nShe turns a milkweed leaf over, gentle as turning a page, and there it is. A tiny egg, no bigger than the head of a pin, cream-colored, sitting all alone on the soft green underside.\n\n\"One egg,\" she says. \"One butterfly. But not the one you think.\"\n\nShe taps the leaf with one brown finger. \"The caterpillar inside this egg will hatch, and eat, and make a chrysalis like a little green lantern. And the butterfly that comes out will lay eggs of her own, far north of here. And those eggs will make butterflies, and those butterflies will make a butterfly who flies all the way to Mexico. A whole continent, {child_name}. Three generations to cross it.\"\n\n\"But you'll never see that one,\" I say.\n\n\"Never,\" says Abuela Rosa, and she smiles like that is the whole point. \"I plant flowers for butterflies I will never meet. Somebody's great-grandchild has to eat on the road.\"\n\nAnd she points to the wooden sign at the garden gate, painted by hand, a little crooked: Monarch Waystation.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"We wait,\" you say, and Abuela Rosa grins like you have chosen the better treasure.\n\nSo we wait. Three days. Four. The chrysalis hangs under the leaf like a little green lantern, and every morning we kneel in the dirt and check it, and every morning it is just a lantern, until the fifth morning, when it is not.\n\nThe green has gone thin. Inside, something dark is moving.\n\n\"Now,\" whispers Abuela Rosa. \"Watch now.\"\n\nThe case splits. A line of black appears, and then a leg, and then the whole butterfly comes sliding out, slow as honey off a spoon, and she is a mess. Her wings are crumpled, like a letter somebody forgot in a pocket and washed.\n\n\"Is she broken?\" you ask.\n\n\"No,\" says Abuela Rosa. \"She is new. Watch.\"\n\nAnd the butterfly hangs there, and pumps. Her wings get bigger. Bigger. She is filling them up, like blowing up two orange balloons, and the crinkles smooth out as we watch.\n\n\"Inside that lantern,\" Abuela Rosa says, \"the caterpillar turned to soup. Real soup. And the soup built this. Wings where legs used to be.\"\n\nYou look at the wet, trembling butterfly, and you think about soup, and you cannot quite believe it, except there she is.\n\nBut her wings are still soft. Still dripping. She hangs from her empty lantern and does not fly.\n\n\"Will she?\" you whisper.\n\n\"She has to,\" says Abuela Rosa. \"She has eggs to lay up north.\"\n\nThe butterfly hangs. The garden hums. We wait.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Follow her,\" you say, and Abuela Rosa nods like you have chosen the braver thing.\n\nSo when the butterfly drops off her leaf, we go. She does not soar. She wobbles, low over the grass, dipping like a paper plane that nobody folded quite right, and we follow on our knees at first, then crouching, then tiptoeing, and Abuela Rosa's hat slides over her eye and she does not even fix it.\n\n\"She has never flown before,\" Abuela Rosa whispers. \"Imagine. Never once, and now this.\"\n\nThe butterfly bumps the air. She tilts. She catches herself, and lands on a zinnia, bright orange, the color of a pumpkin left in the sun.\n\n\"Watch her face,\" says Abuela Rosa.\n\nThe butterfly unrolls her tongue. It comes out long and thin and curled, like a garden hose uncoiling, and she dips it into the flower and drinks.\n\n\"Nectar,\" says Abuela Rosa. \"Sugar water. That is her gasoline, {child_name}. Every flower is a gas station.\"\n\nThe butterfly drinks. Her wings open and close, open and close, slow, like she is practicing being a butterfly.\n\n\"This one will fly north,\" Abuela Rosa says. \"Not far. Maybe to the next state. She will lay her eggs there, and her children will fly farther, and her grandchildren farther still, and her great-grandchildren will see Mexico.\"\n\nYou look at this wobbly, brand-new thing, tipping on a flower, and you try to picture her crossing a whole continent.\n\n\"She can't even fly straight,\" you say.\n\n\"Not yet,\" says Abuela Rosa. \"But she knows the way. She was born knowing.\"\n\nThe butterfly lifts off. Wobbles. Goes.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Whatever you found there, hold on to it, because summer turned, the way it does, and the milkweed went gold at the edges. Our butterfly — strong now, bright as a lit window — lifted off Abuela Rosa's hat one morning and did not come back. But she did not fly alone. All across the sky, others were drifting south too, orange as marigolds, a whole river of wings going one way.\n\n\"Migration,\" said Abuela Rosa, shading her eyes. \"Come on. I know where that river stops to drink.\"\n\nIt stopped at a rest stop in Kansas, of all places, where somebody had planted zinnias between the parking lot and the highway, and a crooked little sign said Monarch Waystation. The same promise. A thousand miles from her garden.\n\nA woman with a clipboard knelt in the zinnias. \"Tagger,\" Abuela Rosa whispered. \"Watch.\"\n\nThe woman held a butterfly like it was made of breath. On its wing she pressed a sticker lighter than an eyelash. \"This one is the supergeneration,\" she said. \"Eight months alive. She'll fly where her great-grandparents flew, with a compass in her antennae that reads the sun. Want to hold her? One second. That's all.\"\n\nOne second. Wings tickling your palm like a tiny heartbeat. Then the woman nodded, and you opened your hands, and up she went — south, south, carrying your one second with her.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Up,\" you say, and up we go.\n\nThe butterfly finds the wind the way you find a warm spot in a swimming pool — by feel. It is called a thermal, an invisible elevator of rising air, and she steps into it like she has done it a hundred times, though she never has. Her great-grandmother did it. That is almost the same thing.\n\nRound and round we spiral, and she does not flap once. She weighs less than a paperclip, {child_name}. The wind carries her like a dandelion seed with opinions.\n\nAnd then the land unrolls below us like Abuela Rosa's map come alive. Farms in squares, green and gold. A silver river stitching through. Cities that glint and give off their own warmth, which the butterflies feel from a mile up. Highways with trucks crawling along them like beetles in no hurry.\n\nWe stay aloft the whole day. Fifty miles, and her wings barely move. She glides. She trusts the air she cannot see, and after a while, so do you.\n\n\"She never learned this,\" you say.\n\n\"No,\" says Abuela Rosa, far below and somehow beside us all the same. \"Nobody taught her. The knowing came with the wings.\"\n\nBy evening the wind cools and lets us down gentle as an elevator reaching the ground floor, and there, ahead, blue against the sky: mountains. The last ridge before the forest. She rests on a thistle, sipping nectar, fueling up for morning.\n\nYou are lighter than you were this morning. Some of you is still up there, gliding.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The forest,\" you whisper, and we walk.\n\nThe last mile is uphill, into the oyamel forest, where the air turns cold and the mist hangs between the trees like breath. A guide named Elena meets us at the trailhead. She holds one finger to her lips.\n\n\"Listen first,\" she says. \"Then look.\"\n\nAt first you hear nothing. Then — a sound like soft rain on a roof, except the sky is clear. Elena smiles. \"Wings,\" she says. \"Millions of them, opening at once to catch the sun.\"\n\nAnd then you see. The branches are not branches. They are butterflies, clustered so thick the boughs bend under them, gray as bark with their wings closed. Then the sun touches them and the whole tree opens — orange, orange, orange — like someone struck a match inside the forest.\n\n\"Now,\" Elena says. \"Your butterfly. The one with the tag. Among all of these.\"\n\nMillions of wings. One sticker lighter than an eyelash.\n\nYou walk slow. You look the way Abuela Rosa taught you — under, always under. And there. On a low branch, third cluster from the trail, a fleck of white no bigger than a crumb.\n\n\"That's her,\" you breathe. \"That's Zigzag.\"\n\nElena kneels beside you. \"The great-grandchild,\" she says, \"of a butterfly from a garden very far away.\"\n\nYou think of Abuela Rosa, kneeling in the milkweed, planting flowers for a butterfly she would never meet. You are meeting her now.\n\nThe forest rains softly around you. Wings. Just wings.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do you want to wait and watch the chrysalis crack open, or follow her very first flight across the garden?\"",
+      "options": [
+        {
+          "say_word": "Wait",
+          "label": "Watch the chrysalis open",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Follow",
+          "label": "Follow the first flight",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do you want to soar with her on the wind, or walk quietly into the forest where she will land?\"",
+      "options": [
+        {
+          "say_word": "Soar",
+          "label": "Ride the thermals high above the land",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Walk",
+          "label": "Walk into the butterfly forest",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.butterflies",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.insects",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 32
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Monarch migration across a continent over generations is literally a journey, so the movement itself can carry the plot with nectar stops and new generations as natural beats.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2917,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1875,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1562,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0521,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0417,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Abuela Rosa, whose endless curiosity about 'butterflies she will never meet' carries the curious_wonder tone",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Planting for strangers you will never meet is still worth doing",
+      "why": "Abuela Rosa's garden and the farmer's wildflower strip both feed monarchs whose great-grandchildren will finish a journey the planters never see; the material offers this naturally without preaching"
+    },
+    "cast": [
+      {
+        "role": "The Storyteller (frame narrator)",
+        "reused": false,
+        "why": "Only the storyteller says 'I'; establishes the memory frame before the journey begins and closes it warmly at the end"
+      },
+      {
+        "role": "Abuela Rosa, the grandmother who planted a butterfly garden years ago",
+        "reused": false,
+        "why": "She is the guide for the northern meadow segment, shows the child where to look for eggs, and embodies the wonder that drives the whole trip"
+      },
+      {
+        "role": "The tagger, a volunteer who catches monarchs gently",
+        "reused": false,
+        "why": "Appears at the journey's turning point to give the child a concrete role — holding the butterfly for one second — and to mark the supergeneration's departure"
+      },
+      {
+        "role": "A guide in the Mexican mountain sanctuary",
+        "reused": false,
+        "why": "Leads the final ascent and delivers the marvel of the overwintering forest, showing quiet competence on the trail"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "No single monarch flies the whole way; the trip takes three to four generations",
+        "The supergeneration lives eight or nine months, long enough to fly south and survive winter",
+        "Monarchs find their way using the sun's position and an internal clock in their antennae",
+        "Inside the chrysalis the caterpillar breaks down into soup and rebuilds itself",
+        "A monarch weighs less than a paperclip but can ride thermals 50 to 100 miles a day",
+        "Monarchs sip nectar through a coiled proboscis like a garden hose",
+        "Millions cluster on oyamel firs until branches bend and wings sound like soft rain",
+        "A backyard flower garden in late summer with milkweed",
+        "A prairie rest stop in Kansas with goldenrod and blazing star",
+        "The cold, misty oyamel fir forest in central Mexico"
+      ],
+      "gathered_but_unused": [
+        "No single monarch butterfly flies the whole way from Canada to Mexico. The trip takes three to four generations, so the butterfly that lands in the mountain forest is the great-grandchild of the one that left the north.",
+        "The generation born in late summer is special. Instead of living only two to six weeks like their parents and grandparents, these 'supergeneration' monarchs can live up to eight or nine months, long enough to fly thousands of miles south and survive the winter.",
+        "Monarchs that have never been to Mexico still find their way to the exact same mountain forests their great-grandparents visited, using the sun's position in the sky and an internal clock in their antennae.",
+        "Monarch caterpillars can only eat milkweed leaves. The milkweed's toxins stay in their bodies forever, making the adult butterflies taste terrible to birds, and the bright orange and black wings are a warning sign that predators remember.",
+        "Inside a chrysalis, the caterpillar doesn't just grow wings. Its body breaks down into a soupy liquid, and special clusters of cells that were waiting inside it rebuild everything into a butterfly.",
+        "A monarch butterfly weighs less than a paperclip, yet it can fly 50 to 100 miles in a single day when the wind is right, riding columns of warm rising air called thermals so it barely has to flap.",
+        "Monarchs sip nectar through a proboscis, a straw-like tongue that stays coiled up under their head like a garden hose when they aren't drinking.",
+        "In the overwintering forests of Mexico, millions of monarchs cluster so thickly on oyamel fir trees that the branches bend under their weight, and when they all open their wings at once, the sound is like a soft rain."
+      ]
+    },
+    "safety_beat": "In the mountain sanctuary, the guide shows once, lightly, where to step on the trail and how to move quietly among the trees — competence, never warning, with no tension in the beat",
+    "motif": "A hand-painted garden sign that says 'Monarch Waystation' — the same promise of rest and fuel repeated in backyard, prairie, and mountain forest.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.insects.make_and_build_001",
+        "title": "The Grand Bug Hotel",
+        "pattern": "make_and_build",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already pays love as attention — kneeling, waiting, watching under leaves — and lands its wonder in held, unhurried moments (the soup, the one second, the forest of wings) with a voice that is warm, precise, and a pleasure to read aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, invited in",
+        "s2a": "a held breath, then slow amazement",
+        "s2b": "leaning in, wobbling alongside her",
+        "s3": "wide-eyed, a tickle of wonder in the palm",
+        "s4a": "lifted, gliding, quietly trusted",
+        "s4b": "hushed and glowing, a found-again ache"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 31% of sentences carry speech or action; [story] slots: declared but never used: ['butterfly_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['butterfly_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "33_butterflies_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

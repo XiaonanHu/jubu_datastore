@@ -1,0 +1,328 @@
+{
+  "id": "story.coral_reefs.age9to10.d1.pregen.562fbd",
+  "title": "The Great Reef Repair & The All-Night Cafe",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.coral_reefs",
+    "sel_theme": null,
+    "value_lesson": "Cooperation and patience: big structures are built through small, repeated acts of help.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "A child inventor, guided by a frantic Parrotfish, must build a limestone 'starter home' to repair a storm-broken reef, learning that construction requires both the right materials and the right timing.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Perfect,\" says Kit, spitting out the snorkel mouthpiece. \"Absolutely perfect.\"\n\nThe lagoon is flat and blue and full of promise. It smells like salt and sunscreen. Kit has a bucket, a toy hammer, and absolutely no idea how to build underwater. But today is the day. Today, Kit builds something magnificent.\n\nA noise comes from the water. Bloop. Bloop.\n\nThen, zoom. A bright green face pops out of the lagoon. It has big yellow eyes and a beak like a parrot.\n\n\"You look like a builder,\" says the fish. \"I am Pippin. And I have a problem.\"\n\nPippin is a parrotfish. His teeth go click-clack when he talks. Click-clack. Like a key turning in a lock.\n\n\"The storm broke it,\" says Pippin. \"Come see.\"\n\nKit puts on the mask. The water is warm as bathwater. Underneath, the reef is a whole neighbourhood. Purple fans wave. Orange fish dart. And there, on the sandy bottom, lies a broken coral head. It looks like a smashed cake.\n\n\"The polyps need a home,\" says Pippin. \"Tiny builders, like you. But they cannot start without a hard place to hold on to. A starter structure. Something that clicks together.\"\n\nKit looks at the broken pieces. They are heavy. They are covered in algae. They do not want to fit.\n\n\"We need a plan,\" says Pippin. He clicks his beak. \"And we need a name. What shall we call your invention?\"\n\nKit picks up a curved piece. It is rough and lumpy. It looks like a castle turret.\n\n\"The Click-Clack Castle,\" says Kit.\n\nPippin's eyes go wide. \"Oh,\" he says. \"That is a very good name. Now. How do we make it stay?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Pippin dives. His tail goes flip-flip-flip. \"Follow me,\" he says. \"We hunt for bones.\"\n\nUnderwater, the world turns blue and wavy. Kit swims down, down, to the sandy bottom. Pippin points with his beak. \"Not that one. Too soft. Not that one. Too wobbly. We want the strong ones. The clicky ones.\"\n\nKit picks up a flat white piece. Tap tap tap. It goes thud. Like a sponge. Pippin shakes his head. \"No good. That one is full of holes. The polyps would fall through.\"\n\nThey search. Flip flip. Dig dig. Kit finds a chunk of limestone. It is heavy and grey. Tap tap tap. Click. Like a key turning in a lock. Pippin's eyes go wide. \"Oh. That is the one.\"\n\nThey pile the good pieces up. Click. Click. Click. Each one locks against the next. Kit's fingers are wrinkly. Kit's back is tired. But the pile grows. A floor. A wall. A turret. The Click-Clack Castle has a skeleton.\n\nPippin clicks his beak. \"Strong bones,\" he says. \"Now we need the glue.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Forget the bones,\" says Pippin. \"We go straight to the good stuff.\"\n\nHe dives. His tail goes flip-flip-flip. Kit follows, down, down, to a rocky ledge. Pippin wiggles his eyebrows. \"Behold,\" he says. \"My secret stash.\"\n\nHe pulls out a sack. It is full of sand. White, fine, soft as flour. \"I made this myself,\" says Pippin. \"Parrotfish poop out sand. It is a gift.\"\n\nKit giggles. \"You pooped that?\"\n\n\"I did,\" says Pippin. \"And it is perfect. But watch.\" He opens the sack. The current grabs the sand. Whoosh. It drifts away like smoke. \"See? It will not stay. We need help.\"\n\nA tiny fish zooms over. Blue and yellow, no bigger than Kit's thumb. \"Cleaner wrasse,\" says Pippin. \"She makes the sticky stuff. Watch.\"\n\nThe wrasse spits. A blob of algae glue lands on the sand. Pippin mixes it with his fin. Squish squish. It turns into paste. \"Symbiosis,\" says Pippin. \"I give her a cleaning. She gives me cement. Everybody wins.\"\n\nKit pokes the paste. It sticks. \"Now,\" says Pippin, \"we build.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Kit picks up the first big piece. It is heavy and lumpy. \"Here goes,\" says Kit.\n\nThey set it on the sand. Kit stacks the next piece on top. Then another. The Click-Clack Castle grows taller. Taller. Kit grins. \"Look at it go!\"\n\nThen the water pushes. A slow, strong surge, like someone rocking the whole lagoon. The tower wobbles. Wobbles. And down it comes, clatter-clatter, into the sand.\n\n\"Oh no,\" says Kit.\n\nPippin blows a stream of bubbles. \"Hmm,\" he says. \"Hmm, hmm.\"\n\nThen, from a crack in the old reef, a tiny voice speaks. \"Too tall. Too fast.\"\n\nOut peeks a little creature, no bigger than Kit's thumb. She is soft and pink, with waving arms like tiny feathers. \"I am Polyp-ella,\" she says. \"I know about building. We polyps built this whole reef, you know. Bit by bit.\"\n\n\"What did we do wrong?\" asks Kit.\n\n\"You built up,\" says Polyp-ella. \"But the reef grows wide first. Low and snug. Like a hug.\" She waves her arms. \"And those broken bits? They are not rubbish. A piece of coral can grow again, if you tuck it into a crack where it fits just right. Snug as a tooth in a gum. Then it holds on. Then it builds.\"\n\nKit looks at the broken pieces. Kit looks at the cracks in the old reef.\n\n\"So we start low,\" says Kit slowly. \"And we click the pieces into the cracks.\"\n\n\"Click,\" says Polyp-ella, and her little arms snap together.\n\nPippin's eyes go round. \"Kit,\" he whispers. \"What did you just find out there? Because I think it changes everything.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The sun is high. The water is warm and bright. Kit and Pippin work low and slow. They tuck the broken pieces into the cracks. Click. Click. The Click-Clack Castle grows wide, like a hug. \n\nThen, a shadow. A big, grumpy shadow. It is Grouper Grumps. He is huge and brown and frowning. He stops right next to them. He opens his mouth wide. \n\n\"Do not mind him,\" whispers Pippin. \"He is at the cleaning station.\"\n\nTiny cleaner wrasses dart out. They swim right into Grouper Grumps' mouth. They pick and clean. Grouper Grumps stays very still. His big body blocks the pushing water. It makes a calm, quiet pocket. \n\n\"Quick,\" says Kit. \"While he is still.\"\n\nKit pushes the last piece into the crack. Click. It fits perfectly. The castle is done. It is low and wide and strong. \n\nThen, something wonderful. Tiny pink arms peek out of the new cracks. The polyps! They wave their little tentacles in the sunlight. They look like tiny flowers opening. \n\n\"They are moving in,\" says Pippin. His beak goes click-clack. \"They like it.\"\n\nGrouper Grumps closes his mouth. The cleaner wrasses swim away. He looks at the new castle. He gives a slow, grumpy nod. Then he swims off. \n\nKit smiles. The reef feels right. The sun shines down. The polyps wave. The Click-Clack Castle is home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The sun goes down. The lagoon turns dark blue. Then black. Kit waits. Pippin floats nearby. The water is quiet. Too quiet. \n\nThen, the moon rises. It is round and white. It fits into the night sky like a coin in a slot. Click. \n\nThe reef wakes up. Tiny lights glow. The coral polyps stretch out their arms. They reach for tiny bits of food floating by. They look like a garden of stars. \n\n\"The night shift,\" whispers Pippin. \n\nSomething moves. An octopus slides out of a crack. She is soft and grey. She changes color to match the sand. She wraps one arm around the castle. She holds it steady. \n\n\"Thank you,\" whispers Kit. \n\nThe octopus winks. \n\nKit takes the last piece. It is smooth and heavy. Kit fits it into the top crack. Click. The sound echoes in the quiet dark. \n\nThe polyps get to work. They wave their arms. They build. They are the real builders. \n\nKit watches. The moon shines down. The octopus holds on. The Click-Clack Castle stands strong in the dark. \n\n\"We did it,\" says Kit. \n\n\"We did,\" says Pippin. \"Now the reef can grow.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We've got a broken neighborhood and a lot of work to do, kid. Do we start by hunting for the strongest bones—the rocks and skeletons—or do we dive straight into my secret stash of reef cement?\"",
+      "options": [
+        {
+          "say_word": "Dig Deep",
+          "label": "Hunt for foundation stones and coral bones",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Mix Up",
+          "label": "Gather the sand and biological glue",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The wobble taught us to build low and slow. Now, do we finish this while the sun is high and the cleaning station is open for business, or do we wait for the moon when the real builders wake up?\"",
+      "options": [
+        {
+          "say_word": "Sun Shift",
+          "label": "Build now in the daylight with the fish neighbors",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Moon Crew",
+          "label": "Wait for the night shift and the hunting corals",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.coral_reefs",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 14
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "A coral reef is literally built step by step by tiny builders, and showing how the whole neighbourhood comes together naturally introduces ecosystem, symbiosis, and lagoon in a way a 9-year-old can follow.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2791,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2093,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1744,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1628,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Door in the Tide Pool)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.093,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0581,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "Pippin the Parrotfish",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Cooperation and patience: big structures are built through small, repeated acts of help.",
+      "why": "The material explicitly frames the reef as an ecosystem built on symbiosis, and the 'make_and_build' pattern naturally supports the theme of construction requiring collaboration."
+    },
+    "cast": [
+      {
+        "role": "Pippin the Parrotfish",
+        "reused": false,
+        "why": "A loud, energetic, sand-pooping demolition expert who wears a tool belt made of kelp; serves as the crazy inventor mentor who drives the plot forward."
+      },
+      {
+        "role": "The Player (Kit)",
+        "reused": false,
+        "why": "The named hero, a 9-year-old with a snorkel and a knack for building, who acts as the hands-on apprentice in the repair project."
+      },
+      {
+        "role": "Polyp-ella",
+        "reused": false,
+        "why": "A tiny, ancient coral polyp who speaks slowly and knows the secret of stacking limestone layers; represents the 'tiny builders' aspect."
+      },
+      {
+        "role": "Grouper Grumps",
+        "reused": false,
+        "why": "A large, grumpy fish who visits the cleaning station; provides the moment of symbiosis and comic relief during the night shift."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Parrotfish poops sand",
+        "Coral polyps build limestone skeletons",
+        "Cleaner wrasse symbiosis",
+        "Coral hunting at night",
+        "Storm breaks coral / fragments re-attach",
+        "Reef as ecosystem/neighborhood"
+      ],
+      "gathered_but_unused": [
+        "Corals are animals, not plants, and they build their own skeletons out of limestone.",
+        "Tiny algae live inside the coral's tissues and use sunlight to make food, sharing the energy with the coral animal.",
+        "The Great Barrier Reef is the largest living structure on Earth, so big it can be seen from space.",
+        "Parrotfish eat the coral rock, grind it up, and poop out the fine white sand that makes many tropical beaches.",
+        "Some reef fish, like the cleaner wrasse, set up 'cleaning stations' where bigger fish queue up to have their parasites nibbled off.",
+        "Many corals hunt at night, extending their tiny tentacles to catch floating plankton.",
+        "The bright, neon colors of many corals come from the special algae living inside them, and also from the coral's own proteins.",
+        "A reef is a bustling ecosystem where every creature, from the tiny shrimp to the giant clam, has a job that helps the whole neighborhood."
+      ]
+    },
+    "safety_beat": "In s1, Pippin briefly shows Kit how to clear the lagoon water with a gentle fin-flick before stepping onto the reef flat, demonstrating competence without warning.",
+    "motif": "The 'click' of things fitting together—whether it's a shell locking into a crack, a fish fitting into a cleaning station, or the moon fitting into the night sky.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already delivers a satisfying arc of agency and discovery, grounded in the tactile, step-by-step work of building that lets a child feel the world yielding to patient hands."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in",
+        "s2a": "busy and purposeful, a held breath",
+        "s2b": "a giggle, then wide-eyed wonder",
+        "s3": "a held breath, then the click of understanding",
+        "s4a": "warm and satisfied, a slow smile",
+        "s4b": "hushed and luminous, satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 16 warning. [s1] flat rhythm: sentence lengths vary little (spread 2.9); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 1.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 34% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 1.8); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.3)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 34% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 2.0)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 30% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.2)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 32% of sentences carry speech or action",
+      "[s1] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 34% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 2.0)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 30% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.2)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 32% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['hero_name', 'invention_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "15_coral_reefs_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

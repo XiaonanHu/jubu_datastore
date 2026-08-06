@@ -1,0 +1,305 @@
+{
+  "id": "story.fireflies.quiet_hour_001",
+  "title": "The Meadow Behind Grandpa Milo's House",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.fireflies",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A grandfather remembers the warm June dusk he sat still in the meadow and watched the first firefly lights come on, one by one.",
+  "slots": {
+    "firefly_name": {
+      "role": "the one firefly who always blinked late",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Blink"
+    },
+    "waiting_spot": {
+      "role": "where Grandpa Milo waited for the lights",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "warm stone wall"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandpa Milo sat on the back step with a cup of warm milk. The evening was soft and blue. Somewhere in the garden a cricket started up, then stopped, then started again. He patted the step beside him. \"Smell that,\" he said. \"Warm grass and wet leaves. That is a firefly smell if ever there was one. When I was small, there was a whole meadow behind our house. Let me tell you about my favorite evening in it. I will tell it just the way it happened. That June I had waited and waited. Every night I asked, are the fireflies here yet, and every night my mother said, not yet, soon. Then one evening the air went still and heavy and sweet. I ran out through the gate with my shoes half on. The meadow was gray green and quiet. No lights anywhere. Not one. But everything felt ready, the way a room feels ready before the birthday cake comes in. So I stood at the edge, wondering where a boy should wait.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The wall it was. An old stone wall ran along the top of the meadow, and those stones had been drinking sunshine all day long. I climbed up and sat down. The stone was warm right through my trousers, like a cat that had been sleeping there. From up on the wall I could see the whole meadow at once, all the way down to the black line of the woods. So I sat still. A moth went past my ear. The crickets got louder and louder. The sky turned from blue to gray to almost nothing at all. And then, far away by the woods, one small green light came on. Only one. It floated up, went out, and came on again a little higher, as if it had climbed two invisible stairs. I did not move a muscle. Another light answered near the pear tree. Then one came on just below the wall, close enough to touch, and I held my breath and let it drift right past my knee.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The grass it was. I waded down into the middle of the meadow, where the grass came up past my chest. It closed over behind me and made a little green room, all my own. I lay back and the grass held me up like a hand. Down there the world was very small. A snail asleep on a stem. A beetle climbing. The smell of warm hay all around my face. The meadow ticked and rustled with things I could not see. Then something switched on right beside my cheek. A small green light, so close that I could see the little dark body it belonged to, hanging on a grass stem. Its light did not flicker the way a candle does. It came on smooth, like a lamp, and went off again. I put my hand near it. The light was cool. Not one bit of heat in it. I stayed as still as a stone, and the little lantern climbed higher up the stem.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"From the {waiting_spot} I watched the whole meadow wake up. It did not happen all at once. It was one, then three, then twenty, then more than anybody could count. Green lights drifting and blinking, low over the grass and high around the pear tree. Some blinked quick and busy. Some floated a long slow line of light before going dark. My grandmother told me once that every kind of firefly has its own way of blinking, and that out there they are talking to each other. Hello. Hello. Here I am. Well, one of them was a terrible talker. There was a firefly who was always late. The whole meadow would blink together, and then, long after everyone had gone dark, up would come one small light all on its own. I called that one {firefly_name}. Every few seconds, there was {firefly_name} again, blinking after everybody else. I laughed out loud in the dark. Then, far away up the hill, I heard our kitchen door open.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I held out my hand. Flat and still, like a tiny landing field. My arm got tired. A mosquito hummed past my ear and I did not even swat it. And then, late as always, {firefly_name} came blinking along. The light went out. Something as light as a crumb landed on my finger. I did not breathe. And then, right there on my hand, the little lantern came on. My whole palm turned green. I could see the lines in my own skin, lit up from underneath. Cool light. It did not burn one bit. Three blinks, and {firefly_name} lifted off my finger and floated away over the grass, blinking late as ever. I never once put a firefly in a jar. My mother always said their light belongs to the meadow, and after I had held one on my own hand, I understood exactly what she meant.\" Grandpa Milo blew on his milk and smiled. \"That is the whole story. Nothing happened at all, and I have remembered it my entire life.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"I started home slowly. The path went up the hill through the long grass, and I walked it the way you walk when you do not want an evening to end. The lights came with me. One drifted along by my shoulder for a while. One blinked in the hedge, went out, and blinked again further along, like a small lamp being carried. Behind me the whole meadow kept going, on and off and on. Halfway up I turned around and looked at all of it one more time. Somewhere down there, {firefly_name} was still blinking late. My mother was standing in the doorway with the kitchen light warm behind her. She did not tell me to hurry. She just said, they came, then. And I said, they came. We stood in that doorway together and watched until the milk on the stove needed her.\" Grandpa Milo looked out at the dark garden a long moment. \"That meadow is still there. It blinks every single June. Some things wait for you your whole life.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Where should I wait, up on the warm stone wall or down in the tall grass?",
+      "options": [
+        {
+          "say_word": "wall",
+          "label": "Wait up on the warm stone wall",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "waiting_spot": "warm stone wall"
+          }
+        },
+        {
+          "say_word": "grass",
+          "label": "Wade down into the tall grass",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "waiting_spot": "tall grass"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Should I hold out my hand and stay very still, or start walking home along the path?",
+      "options": [
+        {
+          "say_word": "hand",
+          "label": "Hold out a hand and wait for the late one",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "path",
+          "label": "Walk home slowly with the lights coming along",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.fireflies",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.insects",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "Fireflies at dusk are the one insects subject where nothing needs to go wrong for a child to keep listening, so the pull is the lights coming on and the waiting itself.",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": true,
+          "rejected_because": "The obvious question, why do they blink, answers into signalling for a mate, which is the age-9 treatment; asking it at 5 either lands on a wrong answer or puts a puzzle exactly where this story wants stillness."
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": false
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.1,
+          "shelf_nudge": 0.25,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "the one late firefly, {firefly_name}, who is the only place the story stops and stares, and whose cool green light on a palm carries all of the wonder",
+      "why": "Cozy owns the frame, the warm milk, the warm stone, the doorway at the end, and the wonder is kept to one small creature so a bedtime register never tips into a nature lecture.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "Wonder-dominant pushes toward explaining the light, and the whole point of a Naoko Awa dusk is that the child is allowed to just be there while it happens."
+        },
+        {
+          "recipe": "cozy dominant with a silly accent",
+          "because": "A silly carrier would need a joker character in a meadow that works precisely because it is almost empty; the late firefly is funny enough without a comedian standing next to her."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "A remembered evening is allowed to be uneventful in a way a present-tense one is not, and a grandfather saying I keeps the child at exactly the right distance to be still with him.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "Putting us in the meadow turns it into an outing with things to do, and the parent insects story and the sibling ants story both already use we; the family shelf needs the rotation."
+        },
+        {
+          "teller": "named_hero",
+          "because": "A hero implies something to overcome, and nothing here is wrong; watching over a child character would also invent tension the quiet_hour beats are built to avoid."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "The nearest angle was leaving living things where they live, and the deep dive's avoid list already requires it. The story shows it in one remembered line from a mother rather than tagging a value topic, because a stated lesson would be the loudest thing in a story whose whole register is quiet."
+    },
+    "cast": [
+      {
+        "role": "Grandpa Milo, the rememberer",
+        "reused": false,
+        "why": "Newly invented. The insects topic family had no storyteller frame yet, and the two existing storyteller_tale pilots have their own rememberers, Grandma Nell for birds and Old Finn for the moon, so this family needed its own rather than borrowing one from another topic."
+      },
+      {
+        "role": "the one firefly who always blinks late",
+        "reused": false,
+        "why": "Newly invented, and given the naming slot on purpose so this topic family gains a recurring firefly character; the name the child gives her is keyed to the topic family and walks into every later fireflies story."
+      },
+      {
+        "role": "the mother in the lit doorway",
+        "reused": false,
+        "why": "Newly invented, and deliberately kept to a few lines; she exists to close the frame warmly and to carry the no-jar line as a memory instead of a rule."
+      },
+      {
+        "role": "the ladybug inspector from the parent insects story",
+        "reused": false,
+        "why": "Considered and left out. Reuse across a topic family is the preferred design, but this story is a memory of a childhood decades ago, and a present-day garden character walking into it would break the frame that makes the register work."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "true fact: firefly light is cool and gives off no heat, which is what a hand under one actually feels",
+        "true fact: different kinds of fireflies have their own blink rhythms and are signalling to each other",
+        "true fact: the lights come on gradually at dusk rather than all together",
+        "the two waiting spots, a sun-warmed stone wall with the whole meadow in view and the inside of the tall grass",
+        "the closing image of a green-lit palm with the skin lines showing through"
+      ],
+      "gathered_but_unused": [
+        "glow-worms and the cave ceilings full of them, saved for a later fireflies story and a wider door",
+        "the chemistry of the glow, which is age-9 system material and would have needed the word bioluminescence",
+        "fireflies flashing in synchrony across a whole hillside, too grand a spectacle for a story whose scale is one boy and one meadow",
+        "a wider door into knowledge_domain.nocturnal_animals through the crickets and the moth"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "Right after the setup, because in a quiet_hour the only real decision is where to be, and the answer sets the scale of everything the child sees next; it rides in the waiting_spot slot into the shared segment.",
+        "criteria": {
+          "more_interesting": "The wall gives the wide view where lights come on one at a time across a whole meadow; the grass gives one firefly close enough to see the body it belongs to. Different distances, different facts, different pictures.",
+          "more_engaging": "Both are the two things any child does in a field, climb up on something or disappear into the middle of it.",
+          "reveals_taste": "Gentle, sitting neatly on a warm wall, against bold, wading in over your head where you cannot see out.",
+          "reveals_curiosity": "just_experience on the wall against how_it_works in the grass, where the cool light is felt with a hand.",
+          "reflects_mood": "A settled watching evening or a burrowing hiding one."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "The final choice always splits, and a quiet hour ends in one of two honest ways: stay in it a moment longer, or walk home while it is still going.",
+        "criteria": {
+          "more_interesting": "One ending is the smallest possible event, a landing on a fingertip; the other is a walk home through drifting lights with a mother in a doorway. Both are warm, and neither is the other with different wallpaper.",
+          "more_engaging": "Holding out a hand and hoping is a thing a child will physically try; so is walking home slowly to make an evening last.",
+          "reveals_taste": "Patient and still against ready to move on while happy.",
+          "reveals_curiosity": "how_it_works on the hand, where the cool light is seen through skin, against just_experience on the path home.",
+          "reflects_mood": "Stay in the quiet, or take the quiet with you."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Six segments and two choices against the 5-6 shape; the quiet_hour beat jobs all placed, an atmosphere in s1, a small strange encounter in s3 with the late blinker, and one image left glowing in each ending; no antagonist and nothing goes wrong anywhere; the jar entry from the fireflies avoid list is answered on the page rather than merely dodged."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "Read aloud for breath length inside the quotation frame; s2a and s2b were written as one pair so one is wide and far and the other is close and small; vocabulary held to firefly, blink and dusk, with the cool-light fact carried by a hand rather than by a term."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four reachable combinations read end to end, two waiting spots by two endings, with the naming slot at its default and at a long child-style name; the s3 opening line was rewritten so it reads correctly for both warm stone wall and tall grass; the frame closes with Grandpa Milo speaking in both endings; scripts/build_story_explorer.py --check is clean."
+      }
+    ],
+    "writers_notes": [
+      "The frame must close. An earlier draft ended inside the memory, and the story felt dropped; both endings now come back out to the back step.",
+      "No jar, in either ending. The avoid entry is honoured as something a mother once said and a boy understood, never as a rule aimed at the listener.",
+      "Nothing chases, catches, or is lost. Every time a draft added a small worry, the register broke, which is exactly what the pattern-integrity check is for.",
+      "Say-words wall and grass are distinct; hand and home were rejected as a pair for sounding alike, and path replaced home.",
+      "The word bioluminescence stays out of the 5-6 band entirely; the story says the light was cool and did not burn.",
+      "This build record was written alongside a hand-authored story. The weights are the topic leanings that justify the pattern, not numbers a sampler produced; the make_and_build shelf nudge of 0.25 reflects the two make_and_build stories already on this topic family's shelf."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

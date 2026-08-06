@@ -1,0 +1,320 @@
+{
+  "id": "story.craters.age9to10.d1.pregen.85f234",
+  "title": "The Mountain That Holds a Piece of Sky",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.craters",
+    "sel_theme": null,
+    "value_lesson": "Destruction isn't the end: the mountain blew itself apart, and rain and seeds quietly turned the scar into a home.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A girl and her grandmother climb up, around, down into, and across a great crater, learning to read it as a record, until a night telescope shows the same round records written all over the Moon.",
+  "slots": {
+    "hero_name": {
+      "role": "The hero's name, spoken by Ora, Sable, and Ivo",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Wren"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Look at that mountain,\" says Grandmother Ora. \"It is holding a piece of sky.\"\n\nWren looks up. The mountain is big and green, and the top is cut off flat, like a giant took a bite out of it.\n\n\"It is a volcano,\" Ora says, \"but it is fast asleep. We are going to climb the outside, walk along the top edge, and go right down inside it.\" She points to a wooden sign with four pictures on it: the climb up, the walk along the rim, the way down inside, and a bright blue lake at the bottom.\n\n\"Is that real?\" Wren asks. \"That blue?\"\n\n\"It is real,\" says Ora, \"and it is hiding. You cannot see it from here. The rim of the mountain is in the way.\"\n\nThen Ora kneels down on the path. \"Look at this first.\" Right beside the path is a round hole in the ground, no bigger than a bathtub. Rainwater sits in the bottom of it.\n\n\"That is a crater,\" Ora says. \"A little one. A bowl. This mountain is full of bowls, Wren, and every bowl is holding something different. That one is holding rain. What do you think the big one is holding?\"\n\n\"The blue lake,\" Wren says.\n\n\"Maybe,\" says Ora. \"Maybe more.\"\n\nA ranger comes to the gate. Her name is Sable, and she carries a battered brass notebook that belonged to her own grandmother. She flips it open to a clean page.\n\n\"I draw every bowl I find,\" Sable says. \"Today you will add one drawing of your own. What do you say?\"\n\nWren says yes before Sable has finished asking.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Up,\" says Wren.\n\nSo they climb. The path is steep and the stones are sharp and dark, and Sable goes first, steady as a goat. \"These rocks were thrown,\" she says over her shoulder. \"When this mountain blew its top, it flung rock out in every direction, and the rock piled up all around the hole. That pile is what you are standing on. The rim is the mountain's own mess, frozen.\"\n\nThen Wren is at the top, and the whole world opens.\n\nOn one side, the land runs away flat and green, all the way to the far-off shine of the sea. On the other side, the ground falls away into an enormous bowl, and at the bottom of it sits the lake, so blue it does not look like water at all. It looks like the piece of sky Ora promised, tucked into the mountain's hands.\n\n\"Whoa,\" Wren says, because she cannot help it.\n\nSable stands beside her on the backbone of the rim. \"Now look at the edges. See how some are sharp and jagged? Those are young. And see how some are round and soft, with grass on them? Those are old. A crater keeps its own record, Wren. You just have to learn to read it.\"\n\nWren reads it. The whole shape at once: the ring, the bowl, the blue.\n\nSable opens the brass notebook. \"Your first drawing.\"\n\nWren draws the rim as a ring, a dark circle with the blue eye of the lake inside it. Sable nods slowly. \"My grandmother would have liked that one.\"\n\nFar below, the lake glints. The way down is steep, and thin white steam curls up from the inside wall like the mountain is thinking about something.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Down,\" says Wren. \"I want to feel it breathe.\"\n\nSo they take the zigzag path, down and down the inside wall, into the bowl itself. The air changes. It grows warm and damp, and white steam curls up from cracks between the stones, slow and quiet, like the mountain is sighing in its sleep.\n\nWren holds out her hand. The steam is warm on her palm, and it smells like matches just after they go out.\n\n\"Those are fumaroles,\" says Sable. \"Steam vents. Hot rock is still hiding down below, even now, long after the volcano stopped rumbling. The mountain is asleep, little one, but it is not cold.\"\n\nWren crouches beside a vent. The warmth comes up through the ground and into her knees. \"So it is pretending?\"\n\n\"It is resting,\" says Sable. \"There is a difference.\" She spreads her arms wide, at the whole enormous valley around them. \"And this, all of this, is a caldera. Once, the top of the mountain was hollow underneath, and the roof caved in, and left this. A bowl inside a bowl.\"\n\nOra points. Right up to the warm ground, where nothing should want to grow, small yellow flowers are blooming, bright as buttons. \"Look at that,\" she says softly. \"The brave ones always come first.\"\n\nSable opens the brass notebook. \"Your drawing.\"\n\nWren draws the steam rising in loops, and at the bottom of the loops she draws three yellow flowers, bigger than they really are. Sable smiles at that and says nothing at all.\n\nThe trail keeps dropping. Somewhere below them, past the warm stones, Wren can smell cold water.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The path ends at a shore of dark pebbles, and there it is. The lake. It lies so still that the whole rim floats upside down in it, a second mountain hanging under the first.\n\n\"Two bowls,\" Sable breathes, flipping open the brass notebook. \"One holding water. One holding sky.\"\n\nA man waits beside a wooden boat, coiling a long rope with a stone tied to the end. \"Captain Ivo,\" Ora says. \"He knows this lake better than anyone.\"\n\n\"Better than anyone alive,\" Ivo agrees. He helps us in, and the boat slides out without a ripple. \"Here is the strange thing, {hero_name}. No river runs into this lake, and none runs out. Only rain falls in, and snow melts down from the rim. Nothing stirs it. That is why it stays so clear.\"\n\nWren leans over the side. Far, far below, a sunken log hangs in the blue, not on the bottom, just hanging, as if the water were air and the log had never learned to fall.\n\n\"How deep does it go?\" she asks.\n\n\"That,\" says Ivo, patting the coil of rope at his feet, \"is the question.\"\n\nOra points back at the shore. From out here you can see it plainly: a ring of green trees hugging the rim all the way round. \"The rim holds the snow,\" she says. \"The snow feeds the soil. The plants came first, close to the water, and the rest followed. A scar that turned into a home.\"\n\nSable's pencil is already moving. \"Draw what you see, {hero_name}. Whatever this bowl is holding, it goes in the book.\"\n\nWren looks down into the blue eye of the lake, and the blue looks back.\n\nIvo stops the boat in the middle and takes up the weighted rope. \"So,\" he says. \"How shall we take this mountain's measure? Drop the line straight down and see if it touches bottom, or row to the far side and measure from the deep middle?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Drop it,\" says Wren. \"I want to know the number.\"\n\nIvo grins and lets the rope go. It slides over the side, fast, then faster, pulling the coil off the floor of the boat. The stone sinks, and the rope follows it down, and down, and down. Ivo feeds it through his hands. The coil shrinks. And still the rope keeps going.\n\n\"How much is left?\" Wren asks.\n\n\"Almost none,\" says Ivo. The last of the line slips over the side and vanishes into the blue. He holds up his empty hands. \"Four hundred metres of rope, shipmate. And it never touched the bottom.\"\n\nWren stares down where the rope went. No number. Just blue, going on.\n\n\"This bowl has been filling since the mountain fell in on itself,\" Ora says quietly. \"All that rain. All that snow. Some bowls hold water. This one holds time.\"\n\nIvo takes a small glass bottle from his pocket, dips it full of lake water, and presses it into Wren's hand. The water is so clear it looks like nothing at all. \"Then take some of the time home,\" he says.\n\nThat night, at the trailhead, an astronomer lets Wren look through her telescope. The Moon swims up huge and white, and it is covered in round bowls, dozens of them, every one sharp as the day it was made.\n\n\"No rain up there,\" the astronomer says. \"Nothing ever fills them in.\"\n\nWren opens Sable's brass notebook and draws a Moon-crater, small and sharp, beside the blue eye of the lake. Two bowls. One holding time. One holding stillness.\n\nThe bottle rides home in her pocket, cool against her leg, with four hundred metres of nothing at all inside it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Row,\" says Wren. \"I want to stand in the green ring.\"\n\nIvo pulls the oars, and the boat slides across the still water toward the far shore. The far wall of the caldera fades to blue with distance, as if the mountain were forgetting its own edges. The boat noses into the shallows, and Wren steps out into a meadow that rings the whole bottom of the bowl, green and humming with bees.\n\nOra walks beside her, touching the plants as they pass. \"The fireweed came first, after the mountain blew. Then the pines. Then everything else. Each ring you see is a year the mountain spent healing.\"\n\nWren crouches at the water's edge. A pale stone lies among the dark pebbles, light as a sponge and full of tiny holes. She picks it up and drops it in the shallows. It floats.\n\n\"Pumice,\" says Ora. \"The mountain made that, in the middle of the explosion. The bubbles are the blast, frozen. You are holding a piece of the worst day this mountain ever had.\"\n\nWren turns it over in her hand. It weighs almost nothing. She puts it in her pocket.\n\nThat night, at the trailhead, an astronomer swings her telescope from the Moon's sharp white craters to a tiny bright dot. \"Mercury,\" she says. \"A whole world of bowls. No rain, no air, nothing to soften a single one.\"\n\nWren opens Sable's brass notebook and draws the pumice stone, small and pocked, beside a Moon-crater. Two bowls. One holding green life. One holding only its scars.\n\nAll the way home, the stone rides in her pocket, light as the mountain's own breath.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two ways in, little one. We can climb straight up and stand on the rim's backbone, or we can slip down the inside trail where the mountain breathes. Which calls you?\"",
+      "options": [
+        {
+          "say_word": "Climb up",
+          "label": "Take the steep outer trail to stand on the high rim and see the whole crater at once",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Slip down",
+          "label": "Take the zigzag path down the inside wall to the warm steam vents",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Here's the choice, shipmate. I can drop the rope and we'll learn this lake's deep secret, or we can row to the far meadow where your grandmother's flowers keep the mountain's first story. What's it to be?\"",
+      "options": [
+        {
+          "say_word": "Drop it",
+          "label": "Stay at the rail and let the depth rope pay out toward the bottom of the lake",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Row over",
+          "label": "Row to the far meadow and walk the ring of first plants with Grandmother Ora",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.craters",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Craters naturally invite a journey story—traveling from a rain-filled crater lake on Earth, past steaming vents and calderas, up to the Moon and Mercury's rimmed plains—letting the same round shapes unfold as the child moves through them.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Ranger Sable's brass field notebook, a battered journal passed down from her own grandmother, into which she sketches every bowl they find and insists the hero add one drawing of her own at each stop.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Destruction isn't the end: the mountain blew itself apart, and rain and seeds quietly turned the scar into a home.",
+      "why": "The material offers it without forcing: the ring of trees, the lake in the wound, and the soft old rims all show time repairing what the explosion broke, and Grandmother Ora already speaks that way."
+    },
+    "cast": [
+      {
+        "role": "The hero, a nine-year-old girl visiting the volcano park for the first time",
+        "reused": false,
+        "why": "Third-person named hero fits the teller; her fresh eyes let every marvel land as discovery."
+      },
+      {
+        "role": "Grandmother Ora, who has hiked these rims her whole life",
+        "reused": false,
+        "why": "She supplies the journey's pull, the plant-ring knowledge, and the warm landing; she asks the first choice in her own weathered voice."
+      },
+      {
+        "role": "Ranger Sable, who grew up in the crater's shadow",
+        "reused": true,
+        "why": "The ranger-recurring figure from this topic family anchors the middle of the trip, reads the crater's shape aloud, and carries the curious_wonder accent through her sketching notebook."
+      },
+      {
+        "role": "Captain Ivo, who runs the boat on the crater lake",
+        "reused": false,
+        "why": "He owns the deepest marvel, the bottomless depth rope, and asks the second choice question from the boat rail."
+      },
+      {
+        "role": "An amateur astronomer camped at the trailhead",
+        "reused": false,
+        "why": "She delivers the mirror ending at night, swinging the telescope from Moon craters to battered Mercury, opening the wider door."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "rim higher than the land because thrown-out rock piled up",
+        "caldera as a collapsed roof over an emptied room",
+        "crater lake with no rivers in or out, sky-blue and deep",
+        "fumaroles hissing warm steam that smells like matches",
+        "plants ringing the rim first because it holds snow and rain",
+        "old craters worn soft versus young ones sharp and bare",
+        "Moon craters still sharp for billions of years, no air or water",
+        "Mercury even more battered, a wider-door glimpse",
+        "depth rope paying out over the boat rail",
+        "route climbs: outer slope, rim, down inside, across the water",
+        "small pit crater on the trail as a warm-up preview",
+        "collected keepsakes: floating pumice, a bottle of clear lake water",
+        "zigzag path down the inside wall with steam across the trail",
+        "meadow at the caldera bottom, far wall fading blue"
+      ],
+      "gathered_but_unused": [
+        "When rain falls into a crater and can't drain out, it slowly fills the bowl until it becomes a crater lake, sometimes hundreds of metres deep.",
+        "Crater Lake in Oregon has no rivers flowing in or out, so it stays incredibly clear because rain and snow are its only water.",
+        "The rim of a crater is often higher than the land around it, because the explosion threw rock out and it piled up around the edge.",
+        "A caldera is a giant crater that forms when a volcano empties itself and the ground above collapses downward, like a roof caving into an empty room.",
+        "Steam vents called fumaroles hiss out of the ground in old craters long after the volcano has quieted, because hot rock is still hiding below.",
+        "The Moon is covered in craters because it has no air or water to wear them away, so footprints and pits from billions of years ago are still sharp.",
+        "Some craters have plants growing in a ring around the rim first, because the rim holds snow longer and catches more rain, feeding the trees.",
+        "You can tell very old craters from new ones because old ones are worn soft, with rounded rims and lakes and forests inside, while young ones are sharp and bare."
+      ]
+    },
+    "safety_beat": "On the rim in s2a, Ranger Sable casually plants her boots on the marked platform boards and rests a hand on the rail before inviting Wren up beside her, and in s2b she tests the ground near the fumarole with one gloved hand and kneels at arm's length, showing where to stand by simply standing there.",
+    "motif": "The bowl: every crater is a cup holding something different, rain, trees, heat, or time, and the story keeps finding new bowls inside bowls.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already sustains a single luminous conceit — bowls holding things — through shared attention between Wren, Ora, Sable, and Ivo, with sound-rich lines ('bright as buttons', 'the mountain is asleep, little one, but it is not cold') that land cleanly aloud and endings that glow without grabbing."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning toward the hidden blue",
+        "s2a": "a held breath as the world opens",
+        "s2b": "warm-kneed wonder, a small giggle at 'pretending'",
+        "s3": "hushed, floating, eyes wide at the hanging log",
+        "s4a": "awe tipped with mystery, then satisfied and sleepy",
+        "s4b": "light-footed delight at the floating stone, then satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 2 warning. [s4a] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['keepsake', 'notebook_drawing']"
+      }
+    ],
+    "writers_notes": [
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake', 'notebook_drawing']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "08_craters_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

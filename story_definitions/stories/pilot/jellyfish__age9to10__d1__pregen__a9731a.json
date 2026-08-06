@@ -1,0 +1,330 @@
+{
+  "id": "story.jellyfish.age9to10.d1.pregen.a9731a",
+  "title": "The Lantern Under the Pier",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.jellyfish",
+    "sel_theme": null,
+    "value_lesson": "Patient watching: some answers only appear if you sit quietly in the dark and wait",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "Pip and the night-watch keeper follow a mysterious blue flash under the pier to discover how jellyfish make their own light in the dark.",
+  "slots": {
+    "keeper_name": {
+      "role": "The night-watch keeper's name",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Mrs. Tallow"
+    },
+    "lantern_word": {
+      "role": "What Pip calls the jellyfish's light (used in the final line)",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "living lantern"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Pip hurried down the wooden pier at dusk, hugging a borrowed notebook, and the boards went creak, creak, creak under their shoes.\n\n\"Careful!\" called {keeper_name}, the night-watch keeper, from the little hut at the end. \"That last board has opinions.\"\n\nPip stepped over it. \"I'm here to sketch the light,\" Pip said. \"If it comes back.\"\n\n\"Oh, it comes back,\" said {keeper_name}. \"The question is whether it lets you look.\"\n\nThe sea below was black as a cupboard with the door shut. Pip leaned over the rail, pencil ready.\n\nThen it happened.\n\nA small blue pulse bloomed in the dark water. A lantern switching on. Pip gasped and pressed the pencil to the page.\n\nGone.\n\n\"Did you see it?\" Pip whispered.\n\n\"I always see it,\" said {keeper_name}. \"I've just never seen what makes it.\"\n\nPip stared into the black. Nothing. Not a ripple.\n\nThen the whole sea exploded.\n\nSPLOOSH!\n\nSomething enormous burst up beside the pier, and the splash went up like a fountain and came down like rain. Pip got it full in the face.\n\n\"Sorry! Sorry!\" said a whiskery voice. A young harbour seal hauled his chin onto the lowest board, beaming. \"Barnacle,\" he said, by way of hello. His nose bumped the pier. The pier wobbled. Pip's pencil nearly went overboard.\n\nAnd all around Barnacle, the water glittered. Thousands of tiny lights, scattered by the splash, drifted and swirled like sparks off a bonfire.\n\n\"Plankton,\" breathed Pip, sketching fast. \"The plankton glows.\"\n\nBarnacle looked down at the shining water around his whiskers. Then he looked back up at Pip, and his eyes went round.\n\n\"Pip,\" he said slowly. \"The water is looking at you.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The deep end,\" said Pip. \"Where the big water hides.\"\n\nThey crept to the pier's end, where the boards stopped and the sea dropped away into black. Barnacle flopped along beside them, trying to tiptoe. A seal cannot tiptoe. Every step went thump.\n\nPip leaned over the edge, notebook ready.\n\n\"There!\" Pip whispered.\n\nBelow them, a jellyfish pulsed through the dark. Its bell squeezed and stretched, squeezed and stretched, pushing it along like an umbrella opening and closing. And it was see-through. Clear as a window. Clear as bathwater.\n\nPip squinted. Inside the jellyfish, right in the middle of its see-through tummy, a tiny green spark glowed.\n\n\"It's glowing!\" Pip said. \"But it's green, not blue. And it's inside.\"\n\n\"Maybe it ate a light bulb,\" said Barnacle.\n\n\"It ate plankton,\" said {keeper_name}, coming up behind them. \"A glowing one. The jellyfish swallowed it whole, and it's still shining in there. Like a lantern swallowed by a window.\"\n\nPip sketched fast. The jellyfish drifted past, green spark blinking inside its clear belly, and its bell kept pulsing. One squeeze pushed it forward. One squeeze scooped up dinner. One squeeze breathed. Three jobs, one squeeze.\n\nBut it did not flash blue.\n\n\"That's not our light,\" Pip said slowly. \"Something else made that blue flash. Something bigger.\"\n\nThe jellyfish pulsed away into the dark, carrying its little green lantern with it.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Under the pier,\" said Pip. \"Where the shadows keep secrets.\"\n\nThey ducked down the wooden steps and crouched between the pylons. The water here was still and dark, and the air smelled like salt and old rope. Barnacle squeezed in beside them, which meant there was suddenly much less room.\n\n\"Sorry,\" he whispered. His whiskers tickled Pip's ear.\n\nThen Pip saw them.\n\nJellyfish. Dozens. Hundreds. A whole jelly bloom, drifting past like slow snowfall. Moon jellies, pale and round, each one pulsing its bell in no hurry at all. They came in a silent parade, too many to count, tumbling gently over each other like bubbles in a bath.\n\n\"It's snowing jellyfish,\" Pip breathed.\n\nPip reached out one finger, slow as anything, toward the nearest one. The jellyfish felt the water move and pulsed away, quick and soft, like a soap bubble escaping.\n\nNo flash. No blue light. Nothing.\n\n\"Why won't they glow?\" Pip whispered.\n\nSPLOOSH.\n\nBarnacle had fallen in.\n\nHe surfaced a moment later, snorting water out of his nose, looking extremely pleased with himself. \"I'm fine!\" he announced.\n\nAnd then Pip saw it. Everywhere Barnacle had splashed, the jellyfish near him pulsed and flashed. A tiny blue blink. Then another. Then another.\n\n\"They glow when they're bumped!\" Pip said, grabbing the notebook. \"Not all the time. Only when something touches them!\"\n\nBarnacle looked at the jellies blinking around him. \"I did that?\"\n\n\"You did that,\" said Pip. \"But you didn't make the big flash. Something else did.\"\n\nThe bloom drifted on, dark and silent, keeping its secret.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find?\" Barnacle whispered, dripping on Pip's shoes.\n\nBefore Pip could answer, {keeper_name} clicked off the red torch. The dark came down like a lid. \"Now we wait,\" she said. \"Quiet as pebbles.\"\n\nThey sat. Pip hugged the notebook. Barnacle tried to sit quiet as a pebble, which for Barnacle meant wobbling like a jelly in a jar.\n\nThe black water gave nothing back. Not a ripple. Not a spark. Pip's eyes began to invent lights that were not there.\n\n\"I don't like waiting,\" Barnacle breathed, and his whiskers tickled Pip's ear. \"Waiting is just standing still with your hopes up.\"\n\nThen his stomach rumbled. Rumble. Rumble. Loud as a boat engine in the quiet.\n\n\"Sorry,\" he whispered. \"All this thinking about plankton.\"\n\nHe slid off the pier, meaning to be silent, and made the smallest splash of his entire life. It was still an enormous splash.\n\nPip held their breath. The sea settled. Nothing.\n\nThen, out in the black, Barnacle's nose bumped something soft and clear, something that had been drifting there all along, invisible as a held breath.\n\nFWOOSH.\n\nBlue fire bloomed under the water, silent and huge, a lantern switching on inside a cupboard the size of the sea. Barnacle yelped and spun, and every way he turned the dark lit up around him, ring after ring of cold blue flame.\n\n\"Pip!\" he shouted. \"The water found me back!\"\n\nAnd far below the light, something much larger turned, slow and curious, and looked up at them out of the deep.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The great shape turned once, slow as a moon, and slid away into the dark it had come from. The rings of blue flame folded in after it, smaller and smaller, until the last one winked out like a candle pinched between fingers.\n\n\"Come up,\" Pip called softly. \"Before you set it off again.\"\n\nBarnacle hauled himself onto the pier, streaming, and flumped down beside the notebook. \"I didn't touch it,\" he said. \"Much.\"\n\nPip opened the notebook flat on the boards. {keeper_name} clicked the red torch on, just a whisper of light, and held it over the page. Pip's pencil moved fast. A bell like a clear umbrella. Trailing arms. A bloom of blue in the middle.\n\n\"Label it properly,\" said {keeper_name}, leaning in. \"A discovery nobody can read is only half a discovery.\"\n\nSo Pip wrote, tongue between teeth. Bioluminescence — light made by a living thing. Plankton — the tiny drifters that sparkled when Barnacle splashed. And along the bottom, in Pip's best writing: a jelly bloom, when the jellies gather like lanterns at a window.\n\n\"There,\" Pip said. \"Pinned down. It can't be forgotten now.\"\n\n{keeper_name} took the pencil and, in the corner, drew a small round seal with enormous splashes and very surprised eyes. Barnacle inspected it, whiskers twitching.\n\n\"That's me,\" he said, pleased. \"I look brave.\"\n\n\"You look surprised,\" said Pip.\n\n\"Bravely surprised.\"\n\nThey walked home along the pier, boards going creak, creak, creak, the notebook tucked safe under Pip's arm. Out in the black water, one small blue pulse bloomed, far off, saying goodnight. Pip didn't need to sketch it. The page was warm in Pip's mind, a {lantern_word} small enough to fit in a pocket, and keep.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The great shape turned once, slow as a moon, and slid away into the dark it had come from. Barnacle watched it go with his chin on the boards.\n\n\"It has cousins,\" Pip said suddenly, closing the notebook. \"{keeper_name}, doesn't it? Things that carry light the same way.\"\n\n\"So they say,\" said {keeper_name}, eyes crinkling. \"Along the shore path, this time of year.\"\n\nThat was enough for Pip. \"Come on.\"\n\nThey left the pier, boards going creak, creak, creak behind them, and took the shore path where the grass grew tall and salty. Barnacle galumphed along the waterline beside them, because paths, he explained, were for creatures with no flair.\n\nThen Pip stopped.\n\nAbove the grass, a tiny green light blinked on. Off. On again. Then another. Then a dozen, drifting and winking over the dark field like slow sparks that had learned patience.\n\n\"Fireflies,\" Pip breathed.\n\nOne floated close, and Pip held still as a pebble while it pulsed, right beside Pip's ear. On. Off. A little lamp carried through the night, same as the jellyfish below — one in the black water, one in the black air, each making its own light out of nothing but being alive.\n\n\"You're doing it too,\" Pip whispered to it. \"Bioluminescence.\"\n\nThe firefly blinked, unimpressed, and wandered off.\n\nDown at the waterline, Barnacle reared up for a farewell. \"Tell it I said—\" he began, and overbalanced, and his goodbye splash went up like a fountain and came down like rain. The fireflies scattered, laughing in light, if light can laugh.\n\nPip laughed too, and wiped the drops off the notebook, and looked back once — at the sea, at the grass, at all those small lamps going on and off in the dark.\n\n\"Goodnight, {lantern_word},\" Pip said, and carried the glow of it all the way home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do we peer into the deep end where the big water hides, or duck under the pier where the shadows keep secrets?\"",
+      "options": [
+        {
+          "say_word": "Deep",
+          "label": "The deep water past the pier's end",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Under",
+          "label": "The shadowed pylons underneath the pier",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Shall we pin this night down in your notebook, or chase its cousins along the shore?\"",
+      "options": [
+        {
+          "say_word": "Notebook",
+          "label": "Sketch and label the discovery in the notebook",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Fireflies",
+          "label": "Walk the shore to look for fireflies",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.jellyfish",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 12
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "A nine-year-old can follow the gentle puzzle of how a creature glows in a sunless sea, with clues about bioluminescence, plankton, and jelly blooms accumulating to a satisfying answer.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3117,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1948,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1818,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Door in the Tide Pool)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1169,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1039,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0649,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Barnacle the harbour seal, a bumbling young seal whose enormous splashes, nose-bumps, and dramatic entrances turn the quiet night into a big adventure",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patient watching: some answers only appear if you sit quietly in the dark and wait",
+      "why": "The mystery pattern demands waiting for the flash, and the material explicitly offers it; it rides along naturally as Pip learns to stop splashing and start watching"
+    },
+    "cast": [
+      {
+        "role": "Pip, a curious nine-year-old visiting the harbour at dusk with a borrowed notebook",
+        "reused": false,
+        "why": "Named hero for the third-person telling; young enough to wonder, old enough to hold clues and connect them"
+      },
+      {
+        "role": "Mrs. Tallow, the night-watch aquarium keeper who walks the pier with a red torch",
+        "reused": false,
+        "why": "Knows which jellies hide under the pier and when to stand back; her calm questions carry the mystery beats and both choice questions"
+      },
+      {
+        "role": "Barnacle, a young harbour seal hunting plankton near the pier",
+        "reused": false,
+        "why": "Carries the big_adventure accent through clumsy splashes and one perfectly-timed nose-bump that triggers the solving flash"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "bioluminescence as a chemical reaction inside the jellyfish's own body",
+        "jellyfish flash blue when bumped or alarmed, startling predators or attracting bigger hunters",
+        "sunlight never reaches below 200 metres, yet glowing jellies live all the way down",
+        "jelly bloom gathering of moon jellies drifting like slow snowfall",
+        "see-through body revealing a swallowed glowing plankton inside the stomach",
+        "pulsing bell that moves, feeds, and breathes all at once",
+        "Barnacle the seal bumping the jelly to trigger the solving flash",
+        "wooden pier at dusk with sparkling water below",
+        "glimpse of fireflies on the shore as a wider door"
+      ],
+      "gathered_but_unused": [
+        "Many deep-sea jellyfish make their own light through a chemical reaction called bioluminescence, using a light-producing molecule and an enzyme inside their own bodies",
+        "Sunlight only reaches down about 200 metres in the ocean, and below that the water is completely dark, yet glowing jellyfish live all the way down",
+        "Some jellyfish flash bright blue light when something bumps or touches them, which can startle a predator or attract an even bigger hunter to chase the attacker away",
+        "A jellyfish's body is mostly water and almost completely see-through, so you can sometimes see its last meal glowing inside its stomach if that meal was a glowing creature",
+        "The crystal jellyfish, Aequorea victoria, gave scientists two glowing tools, aequorin and green fluorescent protein, which are now used in laboratories to make living cells light up so scientists can watch them work",
+        "When conditions are right, huge numbers of jellyfish can appear together in one place, and this gathering is called a jelly bloom",
+        "A jellyfish moves by squeezing its bell, the dome-shaped top of its body, pushing water out behind it, and this pulsing is also how it breathes and eats, since it has no heart, brain, or bones",
+        "Tiny drifting creatures called plankton are the main food of many jellyfish, and jellyfish trail long stinging tentacles through the water like fishing lines to catch them"
+      ]
+    },
+    "safety_beat": "Mrs. Tallow shows Pip where to stand on the pier, one plank back from the edge, and demonstrates how to lean without tipping, her competence quiet and unremarked",
+    "motif": "A small blue pulse of light blooming in black water, like a lantern switching on inside a cupboard",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.jellyfish.quiet_hour_001",
+        "title": "The Night the Bay Turned Into a Lamp",
+        "pattern": "quiet_hour",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      },
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, humor, and quiet companionship with strong read-aloud sound; each branch lands its own ending without leaving a gap a single revision could honestly improve."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "tingling curiosity with a sudden delighted splash",
+        "s2a": "hushed leaning-in, peering through a clear window",
+        "s2b": "soft snowfall wonder, then a snort of laughter",
+        "s3": "a held breath that bursts into cold blue awe",
+        "s4a": "warm, satisfied, tucked-in like a pocket lantern",
+        "s4b": "giggly and glowing, carrying the light home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.7); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.4); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 38% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 38% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 38% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "13_jellyfish_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

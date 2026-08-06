@@ -1,0 +1,345 @@
+{
+  "id": "story.tyrannosaurus.age9to10.d1.pregen.f4f09d",
+  "title": "The Dinosaur Detective Mystery",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.tyrannosaurus",
+    "sel_theme": null,
+    "value_lesson": "patient_observation",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A curious child becomes a detective to solve how we know what T. rex was really like when nobody ever saw one alive.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Sunlight pours through the tall museum windows and lands on the biggest skeleton we have ever seen. Sue. Forty feet of bone, with teeth as thick as bananas, grinning down at the marble floor.\n\n\"She does that to everyone,\" says a voice beside us.\n\nIt's Dr. Maya Chen, a real paleontologist, with a golden magnifying glass hanging on a cord around her neck. She looks up at Sue the way you look at an old friend.\n\n\"Here's a mystery,\" she says. \"Nobody ever saw a living T. rex. Not one person, ever. The last one died sixty-six million years before the first human stood up. So how do we know Sue was a teenager when she died? How do we know she gained kilos a day, like a growing kid? How do we know her cousins had feathers?\"\n\nWe stare at her. \"How?\"\n\nDr. Chen lifts the golden magnifying glass over her head and holds it out to us. \"The bones know,\" she whispers. \"Every secret is written right into them. You just have to learn to read.\"\n\nShe presses the glass into our hand. The warmth of her pocket spreads into our palm. The cord settles, soft and heavy, against our wrist. For a moment nobody speaks. The whole museum seems to hold its breath.\n\n\"Detectives,\" she says, \"your first case is waiting.\" She points up, up, up, to a dark line running through Sue's enormous leg bone. \"What do you see?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The dig site,\" we say.\n\nDr. Chen's eyes light up. \"Montana,\" she whispers. \"Wonder.\"\n\nShe leads us down a hallway and through a door, and suddenly the air smells like dust and sunshine. The floor is covered in red-brown rock and sand. A sign reads: Hell Creek Formation, Montana. Just like the real place where Sue was found.\n\n\"Sixty-six million years ago,\" Dr. Chen says, kneeling down, \"a T. rex died here. Mud covered her bones. More mud piled on top, year after year, until the weight pressed everything flat. Slowly, the bone turned to stone. That's a fossil.\"\n\nShe points to something sticking out of the rock. A bone, dark and heavy-looking, half-buried.\n\n\"Go on,\" she says. \"Touch it.\"\n\nWe kneel beside her. The bone is cool and rough under our fingers, like old tree bark. We don't move. Gritty sand presses into our knees. The room is so still we can hear the air conditioning hum. Under our fingertips, the bone's roughness is not smooth like a river stone but pitted, like a sponge made of rock.\n\n\"Now,\" Dr. Chen says, lifting the golden magnifying glass. \"Look closer.\"\n\nWe press the glass to the bone. The surface swells into view, and suddenly we see them: tiny lines, like the rings inside a tree trunk, stacked one on top of another.\n\n\"Growth rings,\" Dr. Chen breathes. \"Every year, this dinosaur added a new ring. Count them.\"\n\nWe count. Seven. Eight. Nine.\n\n\"Nine years old,\" Dr. Chen says. \"Just a kid. A teenager, really. Still growing.\"\n\nWe look up at her. \"How do you know?\"\n\nShe taps the glass. \"The rings are far apart. That means fast growth. This T. rex was gaining kilos every single day. Like you, after a growth spurt.\"\n\nWe stare at the bone. Nine years old. Still growing. Still hungry.\n\n\"But how did it live?\" we ask. \"What did it do all day?\"\n\nDr. Chen smiles. \"That's the next clue.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The workshop,\" we say.\n\nDr. Chen grins. \"Trix,\" she whispers. \"Wonder.\"\n\nShe leads us down a hallway and through a door marked Preparation Lab. Inside, the room is bright and quiet. Long tables stretch across the floor, covered in soft blue padding. And on the tables, bones. Dozens of them, each one wrapped in white cloth like a birthday present.\n\n\"This is Trix,\" Dr. Chen says. \"She came all the way from Montana in crates. Every bone was wrapped by hand and carried here like treasure.\"\n\nA woman in a white coat looks up from the nearest table. She's holding a bone the size of a baseball bat, unwrapping it slowly, carefully, like it might break.\n\n\"This is Dr. Patel,\" Dr. Chen says. \"She's a preparator. She puts dinosaurs back together.\"\n\nDr. Patel smiles at us. \"Want to see?\"\n\nWe nod. She lays the bone on the table and picks up another one. She turns them both in her hands, then fits them together with a soft click.\n\n\"Like a puzzle,\" we say.\n\n\"The world's biggest jigsaw,\" Dr. Patel says. \"And we don't have the picture on the box.\"\n\nDr. Chen lifts the golden magnifying glass. \"Look at this one,\" she says, pointing to a huge jawbone lying nearby.\n\nWe press the glass to it. The teeth swell into view, thick and curved, each one as big as a banana.\n\n\"Whoa,\" we breathe.\n\n\"Those teeth could crush bone,\" Dr. Chen says softly. \"But here's the mystery. Was she a hunter? A scavenger? Both?\"\n\nWe look up. \"How do we find out?\"\n\nDr. Chen taps the glass. \"We keep reading.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Well?\" Dr. Chen's eyes are shining. \"What did you find?\"\n\nWe tell her, and she listens with her whole face, the way grown-ups almost never do.\n\n\"That,\" she whispers, \"is a clue worth keeping.\" She taps the golden magnifying glass in our hand. \"Come on. The bones have more to say.\"\n\nWe follow her past Sue's great grinning skull, down a hallway, through a door that says STAFF ONLY. Her laboratory is small and quiet and smells like dust and coffee. A microscope waits on the counter like a silver robot.\n\n\"Sit.\" Dr. Chen pats a tall stool. \"You're going to read a bone.\"\n\nShe slides something under the microscope — a slice of T. rex bone, thin as a potato chip, glowing amber in the light.\n\n\"Look.\"\n\nWe press our eye to the lens. For a moment, there is only light, a warm golden glow that fills our whole eye. Then, the rings appear. Dozens of pale rings, curving through the bone like the rings inside a tree trunk. The world inside the lens is so small, and so complete.\n\n\"Growth rings,\" says Dr. Chen. \"One for every year of this dinosaur's life. Count them.\"\n\nWe count. Out loud. Slowly. \"Fourteen... fifteen... sixteen.\"\n\n\"Sixteen,\" Dr. Chen repeats. \"This T. rex was a teenager. And look how wide the rings are.\" Her finger traces the glass. \"Wide rings mean fast growing. This dinosaur gained two kilograms every single day. Like gaining a big bag of flour, every day, for years.\"\n\nWe pull back from the microscope and stare at her. \"Every day?\"\n\n\"Every day,\" she says. \"Young, healthy, and growing like a weed. The rings never lie.\"\n\nShe lifts the magnifying glass and turns it slowly in the light.\n\n\"But bones can tell us more than age,\" she whispers. \"Much more.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Dr. Chen leads us back through the museum, past Sue's grinning skull, to a side room with a glass case. Inside, something small and feathered hops from perch to perch.\n\n\"A chicken?\" we ask.\n\n\"A living relative,\" says Dr. Chen. She opens the case and gently lifts the bird out. It settles on her arm, warm and light, its tiny heart beating fast against her sleeve. We can feel the bird's warmth from where we stand, a little furnace of life. Its feathers are so soft they look like they might come apart if we breathed on them too hard. \"Watch its feet.\"\n\nThe chicken steps down onto the table. Three toes forward, one back. Scales on its legs. A funny little strut.\n\nDr. Chen holds up a photograph of a T. rex foot bone. \"Same shape,\" she whispers. \"Same number of toes. Same way of walking.\"\n\nWe look from the chicken to the photograph, then back to the chicken. \"So T. rex was like a giant chicken?\"\n\nDr. Chen laughs, delighted. \"Not quite. But birds are the closest living relatives of T. rex. And some of its cousins had feathers.\" She strokes the chicken's soft head. \"We know this because the bones match. The wishbone. The legs. The way the hips are built.\"\n\nThe chicken pecks at a button on her coat. We reach out and feel its feathers, soft as dandelion fluff.\n\n\"No human ever saw a living T. rex,\" Dr. Chen says. \"But the clues are everywhere. In the fossils. In the growth rings. In this little bird.\"\n\nShe lifts the golden magnifying glass and holds it over the chicken's foot. \"Detectives,\" she whispers, \"the mystery is solved. The bones were telling the truth all along.\"\n\nWe smile. The chicken clucks, as if it agrees.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Dr. Chen leads us back through the museum, past Sue's grinning skull, to a tall glass case. Inside, an enormous skull rests on a velvet cushion. Not Sue's — another T. rex, with a snout longer than our arm.\n\n\"Look at these spaces,\" says Dr. Chen, tapping the glass. Two huge openings in the skull, right where the nose would be. \"Room for smelling organs. T. rex had one of the most powerful noses of any animal ever.\"\n\nWe press our hands to the glass. It's cool under our palms, and we can smell the faint, musty scent of old velvet. The shadow of the huge skull looms over us, dark and still. \"How powerful?\"\n\n\"It could smell a dead dinosaur from miles away,\" she says. \"Like you smelling cookies baking, but from the other side of town.\"\n\nShe moves her finger down to the teeth. Thick as bananas, curved like steak knives. \"And these. Scientists measured the bite force by studying the skull shape and the tooth marks on fossil bones. T. rex could bite through bone like you bite through a carrot.\"\n\nWe stare at the teeth. \"Without ever seeing it happen?\"\n\n\"Without ever seeing it happen,\" Dr. Chen confirms. She lifts the golden magnifying glass and holds it over the skull. \"The bones tell us. The size of the nose holes. The shape of the jaw. The wear on the teeth. Every clue is written right there.\"\n\nShe turns to us, her eyes bright. \"No human ever saw a living T. rex. But we know it was a teenager. We know it grew fast. We know it smelled everything.\"\n\nShe presses the magnifying glass into our hand. \"Detectives,\" she whispers, \"the mystery is solved. The bones were telling the truth all along.\"\n\nWe look up at the skull and grin back.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Would you like to see where we find these ancient bones, or would you prefer to see how we put them together once they're found?\"",
+      "options": [
+        {
+          "say_word": "dig site",
+          "label": "Visit the dusty dig site where fossils are found",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "workshop",
+          "label": "See the museum workshop where skeletons are assembled",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now that we know it was a fast-growing teenager, would you like to meet its living relative, or would you rather discover its super-powered senses?\"",
+      "options": [
+        {
+          "say_word": "chicken",
+          "label": "Meet the live chicken and learn about bird connections",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "super nose",
+          "label": "Discover the amazing nose and powerful teeth",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.tyrannosaurus",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.dinosaurs",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 30
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic is literally about how we know things from clues—famous skeletons, growth rings, and feather evidence—so a clue-accumulating mystery structure is the most natural fit for a 9-year-old.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3182,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2045,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1705,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1364,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0909,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0568,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Dr. Maya Chen, the growth ring scientist who carries a pocket magnifying glass and whispers 'wonder' whenever she looks at bones",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "patient_observation",
+      "why": "The story naturally teaches that careful looking and patience reveal hidden truths, as scientists slowly read clues in bones over many years."
+    },
+    "cast": [
+      {
+        "role": "A curious child visiting the museum",
+        "reused": false,
+        "why": "The child asks the big question that opens the mystery and follows clues from room to room, putting pieces together at the end."
+      },
+      {
+        "role": "Dr. Maya Chen, the museum scientist who studies growth rings",
+        "reused": false,
+        "why": "She carries the curious_wonder accent, always amazed by what bones can tell us, and guides the child through the microscope work."
+      },
+      {
+        "role": "A paleontologist who helped dig up Sue",
+        "reused": false,
+        "why": "Shows the first clue about fossils and explains how bones turn to stone over millions of years."
+      },
+      {
+        "role": "A bird scientist who studies dinosaur-bird connections",
+        "reused": false,
+        "why": "Reveals the final clue about bird-like bodies and feathers, bringing the mystery to its satisfying answer."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Sue the most complete T. rex skeleton",
+        "Trix traveling from Montana to Netherlands",
+        "growth rings showing teenager gaining kilos daily",
+        "thick banana-sized teeth",
+        "amazing nose with huge smelling spaces",
+        "bird-like body and feather clues",
+        "fossil formation over millions of years",
+        "paleontologists as detectives reading clues"
+      ],
+      "gathered_but_unused": [
+        "The most famous T. rex skeleton is named Sue, and it is the most complete T. rex ever found, with about 90 percent of its bones.",
+        "A T. rex skeleton named Trix traveled all the way from Montana in the United States to a museum in the Netherlands, where it was carefully unpacked and put together.",
+        "Paleontologists can count growth rings inside a T. rex bone, just like counting rings in a tree trunk, to figure out how old the dinosaur was when it died.",
+        "Growth rings show that a teenage T. rex could gain around two kilograms every single day, which is like gaining the weight of a big bag of flour every twenty-four hours.",
+        "T. rex had teeth as thick and long as bananas, and some had bumpy ridges on them like a serrated knife.",
+        "T. rex had one of the most powerful noses of any animal ever. Its skull had huge spaces for smelling organs, and scientists think it could smell things from very far away.",
+        "Birds are the closest living relatives of T. rex. Chickens and other birds share many features with T. rex, including similar bones in their legs and feet.",
+        "Some of T. rex's close relatives had feathers, and scientists think T. rex itself may have had some feathers too, especially when it was young."
+      ]
+    },
+    "safety_beat": "In the museum workshop scene, the preparator shows us where to stand safely behind the padded tables, demonstrating competence without tension.",
+    "motif": "A magnifying glass that reveals hidden stories written in bone",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.dinosaurs.mystery_001",
+        "title": "The Mystery of the Enormous Footprint",
+        "pattern": "mystery",
+        "teller": "named_hero",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "big_adventure"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story treats wonder as a delivery system for facts, rushing past the moments a child would want to inhabit—the warmth of the glass, the smell of dust, the texture of bone—without letting them glow.",
+          "editor_notes": [
+            "In s1, when Dr. Chen presses the warm glass into the narrator's hand, hold the moment for two or three beats: describe the heat spreading into their palm, the weight of the cord, before she speaks again.",
+            "In s2a, when the narrator touches the half-buried bone ('cool and rough under our fingers'), stop the forward motion; let them notice the grit of the sand, the stillness of the room, and the specific roughness under their fingertips before Dr. Chen lifts the magnifying glass.",
+            "In s3, when the narrator looks through the microscope at the amber bone slice, slow down: describe the glow of the light, the shock of the rings appearing, the smallness of the world inside the lens, before the counting begins.",
+            "In s4a, when the chicken settles on Dr. Chen's arm, linger on the 'tiny heart beating fast against her sleeve'—let the narrator feel the bird's warmth and fragility for a full sentence or two before the scientific comparison begins.",
+            "In s4b, after 'We press our hands to the glass,' add a sensory beat: the coolness of the glass, the smell of old velvet, the shadow of the huge skull looming, before the dialogue resumes."
+          ],
+          "segments_revised": 6,
+          "segments_rejected": 0
+        },
+        {
+          "round": 2,
+          "verdict": "stopped",
+          "why": "editor chose 'still_and_luminous', which is already applied"
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "wide-eyed, then a held breath as the glass changes hands",
+        "s2a": "kneeling stillness, the hush of touching something ancient",
+        "s2b": "busy fascination, the click of pieces fitting",
+        "s3": "leaning into the golden glow, then a small gasp at 'every day'",
+        "s4a": "soft delight, the warm flutter of the living bird",
+        "s4b": "awed and slightly shivery under the looming skull"
+      },
+      "segments_revised": 6,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 12 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.7); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.4); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 5.0); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.7)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polished (217 -> 243 words)",
+      "round 1: [s2a] polished (283 -> 325 words)",
+      "round 1: [s2b] polished (269 -> 269 words)",
+      "round 1: [s3] polished (271 -> 301 words)",
+      "round 1: [s4a] polished (264 -> 298 words)",
+      "round 1: [s4b] polished (276 -> 304 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['child_name', 'magnifying_glass']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "31_tyrannosaurus_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

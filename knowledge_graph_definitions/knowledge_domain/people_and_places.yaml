@@ -1,0 +1,184 @@
+axis: knowledge_domain
+pack: people_and_places
+nodes:
+  - id: knowledge_domain.maps_and_globes
+    axis: knowledge_domain
+    label: maps_and_globes
+    display_name: "Maps and Globes"
+    region: people_and_places
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a map is a picture of a place from above; find your street on it", vocabulary: [map, globe, street]}
+      6: {depth: sensory, framing: "treasure-map skills; symbols, dotted paths, and which way is north", vocabulary: [symbol, north, compass rose]}
+      7: {depth: mechanism, framing: "how a map shrinks the world onto paper; scale, keys, and grids", vocabulary: [scale, key, grid]}
+      8: {depth: mechanism, framing: "reading a globe; the equator, the poles, continents, and oceans", vocabulary: [equator, continent, hemisphere]}
+      9: {depth: system, framing: "latitude and longitude; how every spot on Earth gets its own address", vocabulary: [latitude, longitude, coordinates]}
+      10: {depth: system, framing: "why flat maps always stretch the truth; projections and the choices mapmakers face", vocabulary: [projection, cartographer, distortion]}
+    edges:
+      adjacent: [knowledge_domain.cities_and_towns, knowledge_domain.explorers_and_voyages, knowledge_domain.islands]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.farms_and_food
+    axis: knowledge_domain
+    label: farms_and_food
+    display_name: "Farms and Food"
+    region: people_and_places
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "where breakfast comes from; cows, hens, and fields of wheat", vocabulary: [farm, harvest, tractor]}
+      6: {depth: sensory, framing: "a year on a farm; planting in spring and picking in fall", vocabulary: [crop, barn, orchard]}
+      7: {depth: mechanism, framing: "from wheat field to bread slice; every step food takes to reach your plate", vocabulary: [grain, mill, dairy]}
+      8: {depth: mechanism, framing: "how farmers help plants and animals grow; soil, water, and working with the seasons", vocabulary: [soil, livestock, greenhouse]}
+      9: {depth: system, framing: "how food travels the world; why bananas are everywhere even far from where they grow", vocabulary: [import, export, supply chain]}
+      10: {depth: system, framing: "feeding billions of people; irrigation, crop rotation, and farming's tradeoffs for the land", vocabulary: [irrigation, crop rotation, sustainable]}
+    edges:
+      adjacent: [knowledge_domain.gardens_and_growing_food, knowledge_domain.seeds_and_plants, knowledge_domain.jobs_people_do]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.cities_and_towns
+    axis: knowledge_domain
+    label: cities_and_towns
+    display_name: "Cities and Towns"
+    region: people_and_places
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the busy sounds of a city; buses, markets, and buildings that touch the clouds", vocabulary: [city, town, skyscraper]}
+      6: {depth: sensory, framing: "places a town shares; the library, the park, the market, and the fire station", vocabulary: [neighborhood, library, market]}
+      7: {depth: mechanism, framing: "what's hiding under the street; pipes, wires, and trains below the city", vocabulary: [subway, sewer, power line]}
+      8: {depth: mechanism, framing: "why cities grow where they do; rivers, harbors, and crossroads", vocabulary: [harbor, crossroads, settlement]}
+      9: {depth: system, framing: "how a city plans itself; deciding where parks, roads, homes, and shops should go", vocabulary: [city planning, public transport, district]}
+      10: {depth: system, framing: "a city as a living system; moving water, power, food, and millions of people every day", vocabulary: [infrastructure, metropolis, commute]}
+    edges:
+      adjacent: [knowledge_domain.bridges_and_buildings, knowledge_domain.jobs_people_do, knowledge_domain.maps_and_globes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.jobs_people_do
+    axis: knowledge_domain
+    label: jobs_people_do
+    display_name: "Jobs People Do"
+    region: people_and_places
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "hats and tools; who wears a helmet, who carries a stethoscope", vocabulary: [firefighter, doctor, tool]}
+      6: {depth: sensory, framing: "a day at work with a baker, a vet, and a builder", vocabulary: [baker, veterinarian, uniform]}
+      7: {depth: mechanism, framing: "jobs that fit together; everyone it takes to build one house", vocabulary: [architect, plumber, teamwork]}
+      8: {depth: mechanism, framing: "how people learn their jobs; apprentices, practice, and brand-new jobs being invented", vocabulary: [apprentice, skill, invention]}
+    edges:
+      adjacent: [knowledge_domain.cities_and_towns, knowledge_domain.farms_and_food, knowledge_domain.money_and_trade]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.festivals_around_the_world
+    axis: knowledge_domain
+    label: festivals_around_the_world
+    display_name: "Festivals Around the World"
+    region: people_and_places
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "lanterns, fireworks, and dancing dragons; parties the whole world throws", vocabulary: [festival, lantern, parade]}
+      6: {depth: sensory, framing: "special foods for special days; mooncakes, latkes, and birthday noodles", vocabulary: [celebration, feast, tradition]}
+      7: {depth: mechanism, framing: "why festivals land when they do; harvests, full moons, and new years", vocabulary: [harvest festival, lunar new year, calendar]}
+      8: {depth: mechanism, framing: "how a festival gets made; weeks of building floats, sewing costumes, and cooking", vocabulary: [costume, procession, preparation]}
+      9: {depth: system, framing: "what festivals are for; remembering, giving thanks, and welcoming light in the dark", vocabulary: [ritual, gratitude, heritage]}
+      10: {depth: system, framing: "how festivals travel and change; the same holiday celebrated differently across many countries", vocabulary: [custom, heritage, cultural exchange]}
+    edges:
+      adjacent: [knowledge_domain.dance_around_the_world, knowledge_domain.musical_instruments, knowledge_domain.languages_of_the_world]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.languages_of_the_world
+    axis: knowledge_domain
+    label: languages_of_the_world
+    display_name: "Languages of the World"
+    region: people_and_places
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "hello in ten languages; how writing looks different around the world", vocabulary: [language, greeting, alphabet]}
+      8: {depth: mechanism, framing: "how words hop between languages; borrowed words hiding in everyday speech", vocabulary: [bilingual, borrowed word, accent]}
+      9: {depth: system, framing: "language families; why Spanish and Italian sound like cousins", vocabulary: [language family, dialect, translation]}
+      10: {depth: system, framing: "languages being born and fading away; sign languages and the people saving rare ones", vocabulary: [sign language, endangered language, linguist]}
+    edges:
+      adjacent: [knowledge_domain.codes_and_ciphers, knowledge_domain.festivals_around_the_world, knowledge_domain.maps_and_globes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.money_and_trade
+    axis: knowledge_domain
+    label: money_and_trade
+    display_name: "Money and Trade"
+    region: people_and_places
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "before money there was trading; swapping shells, salt, and goats", vocabulary: [trade, barter, coin], avoid: [family finances anxiety]}
+      8: {depth: mechanism, framing: "what makes money money; why paper and coins are worth anything at all", vocabulary: [currency, value, bank], avoid: [family finances anxiety]}
+      9: {depth: system, framing: "how a lemonade stand works; ingredients cost something, prices cover costs, the rest is earned", vocabulary: [price, cost, earning], avoid: [family finances anxiety]}
+      10: {depth: system, framing: "money around the world; different currencies and how trade links faraway countries", vocabulary: [exchange rate, import, export], avoid: [family finances anxiety]}
+    edges:
+      adjacent: [knowledge_domain.the_silk_road, knowledge_domain.jobs_people_do, knowledge_domain.counting_and_big_numbers]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.governments_and_voting
+    axis: knowledge_domain
+    label: governments_and_voting
+    display_name: "Governments and Voting"
+    region: people_and_places
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "how a class or a town decides together; voting, fair rules, and taking turns leading", vocabulary: [vote, election, law], avoid: [partisan content, current political disputes]}
+      10: {depth: system, framing: "who does what in a government; leaders, lawmakers, and judges, and why the power is split up", vocabulary: [democracy, representative, constitution], avoid: [partisan content, current political disputes]}
+    edges:
+      adjacent: [knowledge_domain.cities_and_towns, knowledge_domain.ancient_rome, knowledge_domain.money_and_trade]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

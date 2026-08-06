@@ -1,0 +1,315 @@
+{
+  "id": "story.the_sun.age9to10.d1.pregen.f7a9e3",
+  "title": "The Long Way Round the Sun",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_sun",
+    "sel_theme": null,
+    "value_lesson": "Everything is connected",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "One day's journey chasing a single sunbeam from dawn beach to midnight polar light, discovering how the sun drives weather and seasons everywhere.",
+  "slots": {
+    "our_vessel": {
+      "role": "The small sailboat the kite surfer takes us out on",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the Swallow"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The tide is going out when we reach the beach, and the whole shore is shining. Puddles everywhere — long ones, round ones, one shaped almost exactly like a whale.\n\n\"Quick,\" says the kite surfer, and her name is Wren, which is a good name for someone who spends her life in the wind. \"Before the sun gets higher. Look.\"\n\nWe kneel beside the whale-shaped pool. And there it is — faint little wisps, rising off the water. Steam. From a puddle.\n\n\"Is it hot?\" we ask.\n\n\"Feel,\" says Wren.\n\nWe dip our fingers in. Warm as bathwater. Warm as the cat's spot on the sofa.\n\n\"The sun did that already,\" Wren says. \"And here's the part I love. The light warming this pool left the sun eight minutes ago. Eight whole minutes, flying through space, and then — plop — it lands here, in this puddle, on this beach, and gets straight to work.\"\n\n\"What work?\" we ask.\n\n\"Lifting.\" She points at the wisps. \"Solar energy, turning water into air. That's the water cycle starting, right under our noses. That steam will be a cloud by lunchtime.\"\n\nWe watch the little wisps rise and vanish. Rise and vanish.\n\nThen Wren's brass watch — battered, enormous, older than all of us put together — gives a tick so loud we both jump.\n\n\"Sea breeze,\" she says, grinning. \"Right on time. The sun heats the land, the land heats the air, and the air starts to move. That's my ride.\" She looks out at her little sailboat, {our_vessel}, bobbing at the end of the jetty. \"Want to see where the warmth goes next?\"\n\nYes. Yes, we do.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Wren pulls the sail tight, and {our_vessel} leans into the wind. We are flying across the bay, the water glittering so bright it makes us blink.\n\n\"Feel that?\" Wren shouts over the rushing air. \"That's the sun, pushing!\"\n\nWe laugh, because it sounds like a joke. But then we look at the sail — curved tight as a drum — and we feel the boat leap forward. The wind is invisible, but it is strong enough to carry us.\n\n\"The sun heated the land,\" Wren explains, her hands busy with the ropes. \"Warm air rose. Cool air rushed in to take its place. That's all wind is — the atmosphere moving, because the sun told it to.\"\n\nWe watch the steam from the pools drift up and become clouds. We watch the clouds cast shadows that race across the water. And we feel the same sun that warmed the puddles now filling our sail, pushing us toward the farmland shimmering on the horizon.\n\nWren's watch ticks, loud and important. She grins. \"Right on time,\" she says. \"The sun is never late.\"\n\nWe are small, and the bay is wide, and the wind is doing exactly what the sun wants. We hold on tight, and we let it carry us.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We kick off our shoes and wade into the warm shallows. The water is bathwater-warm, and the sand squishes between our toes.\n\n\"Watch,\" says Wren, and she runs back to her kite.\n\nWe stand at the tide line, the water lapping at our ankles, and we watch her go. The kite pulls her across the bay, fast and bright, a wedge of color against the blue. She is riding the very wind the sun has been stirring all morning.\n\nFrom here, we can see the whole thing at once. The steaming pools behind us. The moving air in front of us. Wren's sail, a bright triangle, catching the sun-built breeze.\n\n\"The sun heated the land,\" we say, remembering. \"The land heated the air. The air started to move.\"\n\nAnd there it is — the connection. The steam rises from the pools, becomes clouds, becomes wind. The wind pushes Wren's kite. The sun is doing all of it, all at once, all around us.\n\nWe walk up the coast path toward the farmland, the warm sand giving way to warm earth. Wren's watch ticks, loud and important, from her pocket. We don't need to look. We know the sun is right on time.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The farm sits in a wide green valley, and the farmer is waiting at the gate as if she knew we were coming. Maybe she did. Wren's watch has been ticking importantly for the last half mile.\n\n\"You made it,\" the farmer says. Her name is Lark, and her hands are rough as toast. \"Quick, before the light changes. Hold out your hands.\"\n\nWe hold them out. She drops one small wheat grain into our palms.\n\n\"Crush it,\" she says. \"Go on.\"\n\nWe press it between our thumbs and it cracks open, and the smell rises up — warm and golden, like bread just thinking about becoming bread.\n\n\"That,\" says Lark, \"is bottled sunshine. Green plants catch solar energy and turn it into food. Every stalk in this field is doing it right now, all day, all summer.\" She waves at the horizon, where the wheat glows and glows. \"The climate gives us the season. The sun does the rest.\"\n\nWe look at the little crushed grain. Warm. Small. Ordinary.\n\n\"But how?\" we ask. \"How can this be the same thing that steamed the sea and filled a sail?\"\n\nLark grins. \"That's the question, isn't it? The light goes higher from here, and stranger. Up through the pass, toward the top of the world.\" She points. \"Two ways up. The slow path through the meadow, or the steep one along the ridge. Which do you fancy?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The path climbs and climbs, and the air turns cold and thin, but the sun on our faces is hot as a held hand. At the pass, the weather scientist is waiting, wrapped in a red scarf. \"Quick,\" she says. \"Before the evening chill. Look at this rock.\"\n\nWe look. One side is bare and warm. The other wears a dusting of snow.\n\n\"Same rock,\" she says. \"Two different weathers. The sun hits one side straight on, and the other at a slant, and the angle changes everything.\" She presses a small dark panel into our hands — a solar panel, cool and smooth — and tips it toward the light. The dial leaps. We shout, because we cannot help it.\n\nInside her little station, wrapped in blankets, we study her graph: a whole year of temperature, climbing and falling like a slow wave. \"The Earth is tilted,\" she says. \"So one half gets its summer while the other gets winter. Same sun. Different lean.\"\n\nHer watch — no, Wren's watch, ticking in Wren's pocket all this time — gives its most important tick yet. Outside, on the ridge, a tiny beacon blinks, powered by nothing but daylight.\n\n\"It'll blink all winter,\" she says. \"On saved sunshine.\"\n\nBefore we go, she presses a stone into our hands, flat and grey and warm from the sun-side of a rock. We carry it down the mountain, and it holds its heat the whole way, like it doesn't want to let the day go either.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We ride north and north, until the snow starts, and the glaciologist meets us where the marker flags begin. The sun here never climbs. It hangs low all day, golden and tired, and our shadows stretch long and blue across the ice.\n\n\"Endless sunshine,\" she says, \"and the ice never melts. Feel it.\" We press our palms to the snow. Cold as the inside of a freezer, even at noon.\n\n\"The light arrives at such a slant up here,\" she says, \"that it spreads out thin, like butter scraped over too much bread. Same sun as your valley. Hardly any warmth per patch. That's why climates differ — the tilt of the whole planet, deciding who gets the straight light and who gets the slant.\"\n\nWe walk the flag line and back before dark, and the low sun skims the ice at its goldenest, and for a moment the whole white field glows like the top of a lantern.\n\nOn the dark sail home, Wren points at the moon, silvering the waves. \"That's the sun too,\" she says. \"Bounced off the moon, following us into the night.\"\n\nWe think about that. Wind, warmth, bread, snow — one sun, working on one atmosphere, all along. In our pocket, the wheat grain rides home, wrapped in its twist of paper. Sunshine, caught and kept.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The breeze is waking up, right on time. Do you want to feel it from my boat, or watch it work from the warm sand?\"",
+      "options": [
+        {
+          "say_word": "Set sail",
+          "label": "Ride out on the sailboat to feel the sun-built wind fill the sail",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "our_vessel": "the Swallow"
+          }
+        },
+        {
+          "say_word": "Stay ashore",
+          "label": "Walk the tide line and watch the kite and sail show the wind's shape from land",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"This grain's sunshine, caught and kept. But the light goes stranger from here — up into the thin cold air, or all the way to where it never sets. Which would you see?\"",
+      "options": [
+        {
+          "say_word": "Climb high",
+          "label": "Go up to the mountain pass to see how the angle of sunlight splits the world",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Go north",
+          "label": "Travel to the far north to see sunlight too slanted to melt the ice",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_sun",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 26
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "A journey pattern lets a child follow solar energy traveling through the atmosphere to drive weather and seasons across the planet, turning the topic's global cause-and-effect into movement that is the plot.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The lighthouse keeper's battered brass watch, which ticks with theatrical importance whenever the sun is about to do something",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Everything is connected",
+      "why": "The pattern material hands it over ready-made: the same sunshine becomes steam, wind, wheat, and long polar shadows. It needs no moralizing — the journey's structure proves it, and the night-ride realization lands it gently."
+    },
+    "cast": [
+      {
+        "role": "A kite surfer who reads the wind like a map",
+        "reused": false,
+        "why": "Owns the beach opening and the sailboat leg; her wind-reading makes the sun-to-wind connection physical, and she can reappear at the night landing for the moonlight wider-door moment."
+      },
+      {
+        "role": "A farmer whose fields stretch to the horizon",
+        "reused": false,
+        "why": "Carries the midday farmland marvel — wheat as bottled sunshine — and voices the first choice question in her own practical voice."
+      },
+      {
+        "role": "A weather-station scientist with sunburned cheeks",
+        "reused": false,
+        "why": "Bridges the journey at the mountain pass with instruments and the solar panel, showing competence in a real place and opening the climate-tracking deeper door."
+      },
+      {
+        "role": "A glaciologist guiding a snowmobile trip",
+        "reused": false,
+        "why": "Guides the far-north finale, demonstrating how slanted sunlight keeps the poles frozen, and shows where to stand on the ice with easy expertise."
+      },
+      {
+        "role": "An old lighthouse keeper on a rocky coast",
+        "reused": false,
+        "why": "His battered watch is the accent carrier; he appears at the shared midpoint to time the sea breeze and predict tomorrow's storm, opening the Weather wider door."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "dawn beach with steaming tide pools",
+        "sunlight takes eight minutes to reach Earth",
+        "sun powers evaporation and the water cycle",
+        "wind is the sun's energy pushing the atmosphere",
+        "wheat as bottled sunshine",
+        "angle of sunlight on the mountain pass",
+        "slanted polar sunlight stays weak",
+        "moonlight is bounced sunlight",
+        "lighthouse keeper times the sea breeze and predicts a storm",
+        "year-long temperature graph deeper door"
+      ],
+      "gathered_but_unused": [
+        "The sun is so big that more than a million Earths could fit inside it.",
+        "Sunlight takes about eight minutes to travel from the sun to Earth.",
+        "The sun's heat makes water evaporate from oceans and lakes, starting the water cycle that makes rain and snow.",
+        "The sun shines more directly on the half of Earth tilted toward it, and that's what makes summer there while the other half has winter.",
+        "Warm air rises and cool air rushes in to take its place, and that moving air is wind — which is really the sun's energy pushing the atmosphere around.",
+        "At the North and South Poles, sunlight arrives at such a slant that it spreads out weakly, which is why the poles stay freezing even under a midnight sun.",
+        "Deserts near the equator get so much direct solar energy that the ground can get hot enough to cook an egg.",
+        "Green plants catch solar energy and turn it into food, so almost every meal anyone eats started as sunshine."
+      ]
+    },
+    "safety_beat": "In s4a the scientist steers us behind the station's windbreak and onto the bare-rock side of the path with easy habit; in s4b the glaciologist walks the marker-flag line and has us follow her footsteps — competence shown lightly, no warning, no tension.",
+    "motif": "Warmth you can hold in your hands — pool water, a wheat grain, a sunlit stone — always slipping onward into the next form.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already carries its big idea in small, warm, sayable things — bathwater puddles, toast-rough hands, bread thinking about becoming bread — and each guide's fond attention makes the science feel shared rather than taught, with a ticking watch and a carried grain giving the branches a satisfying ritual spine."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "toes-in curiosity, a small gasp at the steam",
+        "s2a": "wind-in-hair exhilaration, held on tight",
+        "s2b": "standing still and watching, quietly proud of knowing",
+        "s3": "a giggle at the cracking grain, then wide-eyed at bottled sunshine",
+        "s4a": "a held breath at the leaping dial, snug in blankets",
+        "s4b": "hushed and golden, then satisfied and sleepy under the moon"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.9); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['grain_keepsake']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['grain_keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "27_the_sun_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

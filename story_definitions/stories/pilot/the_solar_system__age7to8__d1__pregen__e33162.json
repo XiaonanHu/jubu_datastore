@@ -1,0 +1,307 @@
+{
+  "id": "story.the_solar_system.age7to8.d1.pregen.e33162",
+  "title": "The Drifting Stone",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_solar_system",
+    "sel_theme": null,
+    "value_lesson": "Small nudges matter — you don't always need force; sometimes a gentle, patient push at the right moment changes everything",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A small asteroid has slipped into the shipping lane, and we must learn to move it without breaking it.",
+  "slots": {
+    "ship_name": {
+      "role": "Our small spaceship",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Pebble"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are asteroid mappers, you and I, on the bridge of our small ship. Out the window, the asteroid belt drifts past — a slow river of stones, tumbling between Mars and Jupiter. Every rock has its place, and our job is to write those places down, so every ship that comes after us knows the safe way through.\n\nPip, our little robot probe, buzzes at his launch pad. \"Can I go? Can I go? My camera eye is polished. I'm ready.\"\n\n\"Soon,\" we tell him. \"One more stretch to chart.\"\n\nOur dog, Biscuit, is curled asleep by the window, and the ship hums under our feet like a cat in a sunny spot. The map on our screen is nearly finished — a dotted line winding between a hundred grey boulders, each one circling the sun in its own slow orbit.\n\nThen Biscuit lifts his head.\n\nA low growl, soft and rumbling, rolls out of him. His ears point straight at the window.\n\n\"What is it, boy?\" we ask.\n\nPip's camera eye swivels. \"Looking,\" he whirs. \"Looking... oh. Oh! One of the rocks is drifting. It's not where the map says it should be.\"\n\nWe press our noses to the glass. There it is — a stone the size of a house, sliding slowly, quietly, sideways. Right toward the shipping lane.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"We can push it,\" we say. \"Easy.\"\n\nWe bring {ship_name} around, slow and careful, until our nose touches Wanderer's cold grey side. Biscuit stands at the window, tail low, watching.\n\n\"Pushing,\" we say. \"Now.\"\n\nThe engines whine. The whole ship shudders, and the floor hums hard under our boots. Wanderer does not move. Not even a pebble's width.\n\n\"Push harder!\" Pip calls from his pad. \"I'm bracing! I'm bracing!\"\n\nWe push harder. The engines whine higher, a thin sound like a kettle about to whistle. Still nothing. Wanderer just sits there, big as a house, in no hurry at all.\n\n\"Stop, stop,\" Pip says. His camera eye has gone very still. \"Look at it. Really look.\"\n\nWe look. The rock hangs there, quiet and slow.\n\n\"It's falling,\" Pip says softly. \"Toward the Sun. It's always falling. But it's moving sideways so fast it keeps missing. That's what an orbit is.\"\n\n\"So it's not stuck,\" we say.\n\n\"No. It's... busy.\" Pip's eye swivels to the map, where the freighter's dotted line grows closer. \"And it's very, very heavy.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The tow cable,\" we say. \"We'll pull it out.\"\n\nPip launches with a happy buzz, the cable spooling out behind him, thin and silver. He loops it around Wanderer's middle, once, twice, and clicks it fast. \"Got it! Got it! Pull away!\"\n\nWe ease {ship_name} forward. The cable goes tight. The engines grumble, the deck trembles, and Biscuit gets up to watch, ears high.\n\nFor one whole second, it works.\n\nThen — ping! A sharp little sound, like a plucked string. The cable snaps, and its loose end whips away into the dark. Biscuit barks — one short, surprised woof — and Wanderer tumbles slowly onward, still in the lane.\n\n\"Oh,\" says Pip, very small, drifting back to us with the broken end.\n\n\"It's all right,\" we tell him. \"You tied a good knot.\"\n\nHis camera eye lifts to the rock. And stays there. \"Wait,\" he whirs. \"Wait. Look at it. Really look.\"\n\nWe look. The stone hangs in the black, turning over and over, slow as a minute hand.\n\n\"It's falling,\" Pip says softly. \"Toward the Sun. Always falling — but moving sideways so fast it keeps missing. That's what an orbit is.\"\n\n\"So it isn't stuck,\" we say.\n\n\"No. It's busy.\" His eye swivels to the map. The freighter's dotted line is getting close.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Pip's camera eye is shining brighter than ever. \"What did you find?\" he whirs. \"Tell me, tell me!\"\n\nWe tell him. And everything changes.\n\n\"So Wanderer isn't lost,\" Pip says slowly. \"It's orbiting. Just like all the others. Around and around the Sun, like a ball on a string.\"\n\nHe unrolls our star chart across the floor, and we kneel beside it, Biscuit's chin warm on our knee. Pip's little light draws a circle on the map. \"The Sun pulls every rock inward,\" he says. \"Always inward. But the rocks keep whirling forward, so they never fall in. They just... swing. Forever.\"\n\nWe watch the dotted lines curve around and around. A hundred stones, all swinging.\n\n\"So we don't need to push Wanderer away,\" we breathe. \"We only need to bend its path.\"\n\n\"A nudge,\" Pip whispers. \"A tiny, gentle, sideways nudge, at exactly the right moment. Then its orbit curves all by itself, and it slides out of the lane like a marble rolling off a table edge.\"\n\nOur ship's radio crackles. The freighter's voice, far away but closer now: \"Asteroid mappers, we are approaching the lane. Is the way clear?\"\n\nBiscuit's ears go up. We look at the drifting stone, then at each other.\n\nWe know what to do. Now we have to do it gently.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I'll go,\" Pip says. \"I'm small. I'm quick. My thruster is ready.\"\n\nWe open the hatch, and out he zips — a spark of silver in the dark. Biscuit presses his nose to the glass. We hold our breath.\n\nPip flies to Wanderer's side, slow and careful, and plants his little thruster against the stone. \"Mapper,\" he calls over the radio, \"tell me when.\"\n\nWe watch the dotted line on our screen. Wanderer swings onward. Closer. Closer.\n\n\"Now!\" we shout.\n\nPip's thruster fires — one bright blink. The great stone shivers. Then, slow as a yawn, it slides sideways, tipping out of the shipping lane like a stone stepping over a stream.\n\n\"It worked!\" Pip cheers. \"It worked, it worked!\"\n\nThe freighter sails through, safe and sound, its lights blinking thank you.\n\nPip comes home buzzing, and tucked in his memory bank is a treasure — a close-up photograph of Ceres, the round dwarf planet, all pocked and pale and ancient. \"I saw it,\" he whispers, \"while I was out there.\"\n\nWe pin his picture above the map, where everyone can see.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"We'll do it together,\" we say. \"The whole ship. Softly.\"\n\nBiscuit stays asleep as we ease in beside Wanderer. Slow. Slower. We match its speed exactly, until stone and ship drift side by side, like two leaves on the same pond.\n\nOur hull touches its flank — the gentlest kiss of metal on rock. The ship hums. The stone hums back.\n\n\"Now,\" Pip whispers from the window.\n\nWe give the smallest push. So small Biscuit doesn't even stir. So small we barely feel it ourselves. But Wanderer feels it. Its orbit bends, just a whisper of a curve, and the great stone drifts clear of the lane, slow and graceful, turning in the starlight.\n\nThe freighter sails through, safe and sound.\n\nThen — clink. Something tiny bounces off our window. A chip of asteroid rock, no bigger than a button, broken free by our gentle push. We scoop it in with the net.\n\nIt sits in our palm, grey and ordinary-looking. But Pip's eye goes wide. \"That stone,\" he breathes, \"is older than the Earth.\"\n\nWe keep it in a little box by the window, where the sun can find it.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Wanderer is in the lane and the freighter is coming. Do we push it with the ship, or pull it with the tow cable?\"",
+      "options": [
+        {
+          "say_word": "Push",
+          "label": "Push the asteroid with the ship's engines",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Pull",
+          "label": "Pull the asteroid with a tow cable",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"We know the secret now—a small nudge at the right moment. Do we send Pip out to do it alone, or do we take the whole ship in close and do it together?\"",
+      "options": [
+        {
+          "say_word": "Send Pip",
+          "label": "Send the robot probe to nudge the asteroid",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Go together",
+          "label": "Take the ship in close and nudge it ourselves",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_solar_system",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 16
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The solar system's structure—gravity holding orbits, the asteroid belt as a 'failed' planet, dwarf planets like Pluto being reclassified—naturally provides a problem to investigate and solve, which suits an 8-year-old's curiosity better than a quiet mood piece or a building project.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip, the robot probe with a camera eye",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Small nudges matter — you don't always need force; sometimes a gentle, patient push at the right moment changes everything",
+      "why": "The material offers it naturally: pushing and pulling fail, but a tiny sideways nudge succeeds, mirroring how orbits actually work."
+    },
+    "cast": [
+      {
+        "role": "A young asteroid mapper who draws charts of the belt",
+        "reused": false,
+        "why": "We need someone who can read the orbits and show us how to find our way between the rocks."
+      },
+      {
+        "role": "A robot probe with a camera eye and a stubborn personality",
+        "reused": false,
+        "why": "Pip carries the curious_wonder accent—always flying closer, always asking what if, and noticing the one detail that saves the day."
+      },
+      {
+        "role": "A pet dog who came along on the spaceship",
+        "reused": false,
+        "why": "The dog notices things the humans miss—a flashing light, a strange sound, a rock drifting the wrong way."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "The Sun's gravity holds the whole solar system together, keeping every planet, asteroid, and icy rock in orbit around it.",
+        "The asteroid belt is a wide ring of millions of rocky chunks orbiting between Mars and Jupiter.",
+        "Asteroids in the belt are actually very far apart — a spaceship could fly between them without bumping into anything.",
+        "Ceres, the largest object in the asteroid belt, is a dwarf planet — round like a planet but too small to clear its orbit of other rocks.",
+        "Everything in the solar system orbits because it is always falling toward the Sun but moving sideways fast enough to keep missing it.",
+        "A small asteroid has drifted toward the shipping lane between Mars and Jupiter — first they try pushing it with the ship, but it's too heavy; then they try pulling it with a tow cable, but the cable snaps; finally they nudge it gently from the side, changing its orbit just enough.",
+        "The bridge of a small spaceship with blinking lights and a big round window looking out at the asteroid belt"
+      ],
+      "gathered_but_unused": [
+        "Beyond Neptune lies the Kuiper Belt, a ring of icy objects where the dwarf planet Pluto orbits.",
+        "Jupiter's enormous gravity acts like a big brother to the asteroid belt, tugging the rocks and keeping them from clumping into a planet.",
+        "Some asteroids are leftovers from when the solar system formed, about 4.6 billion years ago — older than any rock on Earth."
+      ]
+    },
+    "safety_beat": "not needed: setting is not a real place a child could stand in",
+    "motif": "A gentle sideways nudge that changes everything",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, agency, and companionship with a clear scientific heart, and its sound — the whirs, pings, and hums — lands beautifully for a listening child."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a held breath",
+        "s2a": "leaning in, then puzzled and thoughtful",
+        "s2b": "a giggle of effort, then a small oh of surprise",
+        "s3": "the quiet click of understanding, then bright resolve",
+        "s4a": "a held breath, then cheering relief and a soft glow",
+        "s4b": "deep calm, then a small pocket of wonder"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 11 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.0); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.5); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.9); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['asteroid_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "17_the_solar_system_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

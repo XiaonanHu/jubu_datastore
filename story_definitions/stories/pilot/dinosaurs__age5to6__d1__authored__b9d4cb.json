@@ -1,0 +1,299 @@
+{
+  "id": "story.dinosaurs.age5to6.d1.authored.b9d4cb",
+  "title": "The Mystery of the Enormous Footprint",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.dinosaurs",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A child explorer follows gentle clues to discover which dinosaur made an enormous rain-filled footprint.",
+  "slots": {
+    "hero_name": {
+      "role": "the child explorer solving the footprint mystery",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Milo"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "{hero_name} walked into the Green Valley with a yellow backpack, a magnifying glass, and a notebook that was only for mysteries.\nThe path was wet from last night's rain, and ferns leaned in over it, taller than doors.\nThen the ground went boom, and {hero_name} felt it come up through both boots.\n\"Something big,\" said {hero_name}. \"Something very big.\"\nBoom.\nAnd there in the path, where the mud was softest, lay a footprint. It was wider than the bath at home, with four huge round toes, and the rain had filled it to the brim. It looked just like the fossil prints in {hero_name}'s dinosaur book, only fresh.\n{hero_name} crouched at the edge and looked down into the water.\n\"Who made you?\" whispered {hero_name}.\n{hero_name} opened the notebook. Mystery number one, whose footprint is this?\nUp on the hill, the tallest treetops looked nibbled flat across the top. Down here beside the print, a long swishy line curved away through the mud.\nThen, down by the lake, something enormous put one more foot down.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Up the hill, then.\n{hero_name} climbed until the tall trees stood close enough to touch, and looked up.\nEvery one of them had a flat top. Above a certain line the leaves were gone. Below the line they hung on thick and green, without one bite out of them.\n\"Neat,\" said {hero_name}. \"Neat as the crusts cut off a sandwich.\"\nThe magnifying glass was no use up here, so {hero_name} put it away and thought instead.\nNothing had touched the low leaves. So whatever ate up here could not reach down there, and did not need to.\n{hero_name} leaned on the notebook and wrote it down. Clue one. Taller than a house. Maybe taller than two houses. Eats leaves.\nBoom.\n{hero_name} turned round and looked down through the ferns. The booms were coming from the lake, slow, with a long wait in between, the way somebody walks when nothing is hurrying them.\n\"Right,\" said {hero_name}, and pulled the backpack straps tight.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Down on hands and knees, then.\nThe swishy line curved off through the mud like a spoon dragged through porridge, and {hero_name} crouched low and went along beside it with one hand flat on the ground.\n\"A tail,\" said {hero_name}. \"A tail as long as a slide.\"\nThen footprints turned up on both sides of the line, and they were not all the same size. Some enormous, like the one back on the path. Some middle sized. Some small and round, no bigger than a dinner plate, wandering off the trail and back.\n{hero_name} pointed at each one in turn and counted. Big prints, middle prints, little prints, all walking the same way.\n\"A herd,\" said {hero_name}. \"A whole family out together, with one tail dragging down the middle.\"\nSomething pale lay in the mud. {hero_name} lifted it out: a fern leaf, snipped off flat across the top.\n\"Leaves,\" said {hero_name}. \"They stopped here to eat leaves.\"\nBoom.\nEvery toe on the trail pointed the same way, down towards the lake.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "{hero_name} crouched behind a fern as wide as an umbrella and watched the lake.\nThe booms were close now, and every one shook the puddles into rings, and {hero_name}'s heart went along with them, boom boom, only faster.\nThen the treetops opened and up came a neck.\nUp, and up, and up. {hero_name} leaned back to look at the top of it.\n\"Oh,\" said {hero_name}. \"Oh, hello.\"\nShe was enormous, grey green and slow, with sleepy eyes the colour of wet stone. She reached her neck out sideways, took hold of the very top of a tree, and stripped the leaves off flat across. Just like the treetops up on the hill. And behind her, sliding through the mud, came one long swishy line. Her tail.\n{hero_name} stayed put. The ground behind the fern was firm to stand on, and big animals like plenty of room. From back here you could see the whole of her at once.\n{hero_name} jumped up and down without a sound.\n\"It is you,\" whispered {hero_name}. \"I am almost sure it is you.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Down by the mama's legs stood a baby long neck, no taller than a pony.\nIt lifted one foot and stamped it into the mud, then the other. Stomp, stomp, stomp, and behind it a line of little round prints, the size of dinner plates.\n\"Little feet, little prints,\" said {hero_name}.\nThen the mama took one step.\nBoom.\nHer foot went down into the soft mud and lifted away again. Four huge round toes.\n{hero_name} put the notebook flat on the ground beside it and drew round the inside of one toe. One toe filled the whole page.\n\"Case closed,\" said {hero_name}. \"It was you all along.\"\nThe baby lifted its head and let out a small happy honk, like a party horn.\nThen the mama's neck came down, all the way down, until her nose touched the yellow backpack. Her breath smelled of fern leaves.\nOver at the water's edge, a Triceratops walked in to drink beside the herd. {hero_name} wrote three horns in the notebook, for tomorrow.\n\"See you tomorrow,\" said {hero_name}.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Back at the enormous footprint, {hero_name} crouched in the ferns and waited.\nBoom.\nThe herd was coming to drink. Out of the trees leaned the mama's long neck, and her front foot came down in the mud, right next to the old print.\nWhen she lifted it away, there was a brand new footprint. The same size, and the same four round toes.\n\"Case closed,\" whispered {hero_name}. \"It was you.\"\nThe old print had one more thing in it. Three tiny frogs looked up at {hero_name} out of the water. A small bird landed on the rim, put its beak in, and drank the way you test the bathwater with one finger.\nSomebody's step had turned into a swimming pool for frogs.\n{hero_name} put the notebook on one knee and drew the whole thing, frogs and bird and all.\nThe mama rumbled, like a lorry a long way off.\nSo {hero_name} stepped into the soft mud and pressed one small footprint next to hers.\n\"There,\" said {hero_name}. \"Now there are two of us.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "{hero_name} tapped the pencil on the page. \"Two clues,\" said {hero_name}. \"Flat treetops up the hill, or the swishy line down in the mud. Treetops, or mud?\"",
+      "options": [
+        {
+          "say_word": "treetops",
+          "label": "The nibbled treetops on the hill",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "mud",
+          "label": "The swishy line in the mud",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "{hero_name} counted on two fingers. \"One,\" said {hero_name}. \"There is a little one down by her feet, making little prints. Two. My enormous print is back along the trail, waiting. Baby, or puddle?\"",
+      "options": [
+        {
+          "say_word": "baby",
+          "label": "The little dinosaur by the mama's legs",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "puddle",
+          "label": "Back at the footprint puddle",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.dinosaurs",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "the age-6 treatment is meet the famous ones, and a mystery is the only pattern that lets a child identify a dinosaur from evidence instead of being told its name.",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3,
+          "sampled": true,
+          "rejected_because": "the highest-weighted candidate, but a tour of dinosaurs is a list with walking between the items; the shelf gets a journey later, from a topic that has a real route in it"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "the boom of the approaching footsteps. All the thrill lives in that one repeating sound, so the wonder can stay still and belong to the animal when she finally appears.",
+      "why": "the payoff of this story is a neck rising above the treetops, which is a stillness moment and therefore wonder. The accent exists to keep a young listener leaning forward through the clue-hunting middle.",
+      "rejected": [
+        {
+          "recipe": "big_adventure dominant with a curious_wonder accent",
+          "because": "adventure dominant would push the story toward being chased, and the age-5 avoid list rules out dinosaurs menacing children."
+        },
+        {
+          "recipe": "curious_wonder + silly",
+          "because": "nothing in the material is naturally funny except the baby's party-horn roar, which is one beat and cannot carry an accent for a whole story."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "this is the first story in the dinosaur topic family, so it is the right place to let the child name a hero who can walk into every later story in the family, including the deep dives. A detective also needs a person to be the detective.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "the we voice makes the clues ours to spot, which softens the pleasure of watching somebody else work them out, and it would have left the topic family with no named character to carry forward."
+        },
+        {
+          "teller": "storytellers_tale",
+          "because": "a remembered mystery gives away that it was solved, which drains the one thing this pattern is selling."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "no value angle turned up naturally, and the request carried no parent value picks. A discovery story that carries no value is a normal, good outcome."
+    },
+    "cast": [
+      {
+        "role": "the child explorer with the yellow backpack and mystery notebook",
+        "reused": false,
+        "why": "invented here, and invented to be reused. The hero_name slot is a naming slot keyed to (topic family, character role), so whatever the child calls this explorer is stored once and propagates down through the family, including into the triceratops deep-dive story. The prose carries no pronoun for the hero anywhere, deliberately, so any name the child gives fits."
+      },
+      {
+        "role": "the long neck mother and her baby",
+        "reused": false,
+        "why": "the mystery's answer has to be an animal, and a mother with a young one is the safest way to make an enormous dinosaur feel calm rather than threatening at this band."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "fossil footprints and what their size and toe shape reveal",
+        "flat-topped treetops as evidence of a very tall browser",
+        "a dragged tail leaving a swishy line",
+        "mixed print sizes meaning a herd travelling together",
+        "long-necked plant eaters stripping leaves from the tops of trees",
+        "a water-filled footprint becoming a tiny pond for small creatures"
+      ],
+      "gathered_but_unused": [
+        "teeth shapes telling diet, which belongs to the age-7 treatment",
+        "which dinosaurs became birds",
+        "stegosaurus plates, saved for that deep-dive topic",
+        "eggs and nests",
+        "how a fossil forms over millions of years"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "immediately after both clues are laid out, so the child picks the line of investigation. It rejoins because the two clues answer the same question from different angles and the herd has to be reached either way.",
+        "criteria": {
+          "more_interesting": "the treetops path is deduction on a hill and gives the long neck away; the mud path is tracking on hands and knees and gives the herd away. Different posture, different discovery.",
+          "more_engaging": "one option is climbing for a better view, the other is following a track. Both are things children already play at.",
+          "reveals_taste": "treetops is the bold pick, mud is the gentle pick.",
+          "reveals_curiosity": "treetops leans how_it_works because it is pure reasoning from evidence; mud leans just_experience because it is following a trail for the pleasure of following it.",
+          "reflects_mood": "the hill is the brisk version of the middle; the mud trail is the slow, close-up version."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice always splits, and it sits on the last-check beat, so the child decides what counts as proof and therefore which ending the story earns.",
+        "criteria": {
+          "more_interesting": "one ending stays with the family and matches a fresh print to the mystery print; the other walks back to the original print and finds it has become a pond full of frogs. One resolves the animal, the other resolves the footprint.",
+          "more_engaging": "a baby dinosaur and a puddle with frogs in it are both strong draws, and neither is the obviously correct answer.",
+          "reveals_taste": "baby is the gentle pick, puddle is the bold pick.",
+          "reveals_curiosity": "baby leans just_experience, since the pleasure is being near the herd; puddle leans what_its_for, since it asks what a giant footprint ends up being good for.",
+          "reflects_mood": "the baby ending is warm and close; the puddle ending is the curious, slightly wry one."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Structure deliberately identical to v1, so the braid checks carry over unchanged: mystery beat jobs all placed (the question asked out loud in s1, two clues that each support the answer, the near-answer sighting in s3, a confirming check on both endings), c1 rejoins at the lake from either branch, c2 splits into two warm endings, one slot set before s1 and used in every segment. Avoid-list sweep against knowledge_domain.dinosaurs at ages 5 and 6: nothing is hunted, nothing is eaten but leaves and ferns, no dinosaur menaces the child, and no extinction material appears anywhere."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts: s1 174, s2a 161, s2b 171, s3 178, s4a 174, s4b 173, all under the 200 ceiling for 5-6 and with no minimum applied. Paths measure 687 for treetops plus baby, 686 for treetops plus puddle, 697 for mud plus baby and 696 for mud plus puddle. The longest path is 22 words longer than v1's 675, which is the one number that did not improve: the added words are spoken lines and their tags replacing narration, and the description was cut hard in the other direction. All six segments carry speech, against one in v1. Speech or action carries 53 to 71 per cent of sentences. Sentence-length spread runs 5.4 to 6.8 with no run of four near-identical sentences. No abstract mood words. Every object introduced is used: the magnifying glass turns out to be no help on the hill and is put away, the notebook is drawn in on both endings, the rain-filled print becomes the frog pond, and the yellow backpack is the thing the mother sniffs."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches finish pointed at the lake and s3 opens crouched behind the fern, and s3 names both clues, the flat treetops and the swishy line, so it is true whichever branch was walked. The hero carries no pronoun anywhere, so any name the child gives reads correctly. Both endings say the mystery is solved out loud and both send the hero home with something drawn. Banned-language sweep clean; no ellipses, asterisks, parentheses or emoji; the narrator never addresses the listener."
+      }
+    ],
+    "writers_notes": [
+      "The boom is the story's spine made audible. It appears in every segment before the reveal and stops once she is on the page, which is what makes the reveal land without any danger in it.",
+      "The heart-thumping line in s3 says not scared, just excited on purpose. At this band an unexplained thumping heart can read as fear, and the excitement has to be named for it.",
+      "Triceratops walks into the s4a ending as one line. That is a deliberate deeper door: it plants the animal the triceratops deep-dive story then builds a whole story around.",
+      "This record was written after the story, as part of the pilot's decision-record pass. The reasoning is reconstructed honestly from the authoring notes, not invented to look tidy.",
+      "The hero has no companion here, so rule 9's spoken question had to come from the hero. Thinking out loud over a notebook is what a five- or six-year-old playing explorer does anyway, and it kept the cast exactly as v1 left it rather than inventing a talking animal to hold the question.",
+      "The boom was the best thing in the v1 text and the strategy was kept: the sound carries the whole adventure accent and it stops the moment she appears. What changed is that each boom now does something physical, up through the boots, then the puddles into rings, then one step making a print.",
+      "The Triceratops in s4a survives as this family's deeper door, but it now has a job. The hero writes three horns down for tomorrow, which turns a piece of unused scenery into the promise the ending goes home on, and 'See you tomorrow' answers it.",
+      "'Not scared, just excited' is gone. The heart is doing the boom too, only faster, and the hero jumps up and down without making a sound, which shows the same thing without naming a fear in order to deny it."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text; premise, cast, setting, the six-segment braid, the slot and both choice structures held constant, prose and the voices that ask the choices rewritten",
+    "prompt_version": "segment_writing_v2.1",
+    "craft_changes": [
+      "Opening primes before anything is discovered: the explorer, the yellow backpack and the notebook that is only for mysteries, then the wet Green Valley path, and only then the pull, which arrives at us as a boom coming up through both boots. v1 walked into the valley and hit the footprint with nothing pulling anybody towards it.",
+      "Both choice questions are now spoken. This story has no companion, so the hero asks them out loud over the notebook, which is what a child playing explorer actually does. v1 had a narrator asking 'Two clues, one explorer. Which clue should the hero follow first?'",
+      "The hero now speaks in all six segments. v1 had one whispered line in s1 and no voices at all in the other five, which is what made the clue-hunting middle read as a report.",
+      "Cut: 'thought like a detective', 'That made the mystery even more exciting', 'This was the best mystery ever', 'not scared, just excited', 'smiling the whole way', 'She looked like somebody's mama', the giant-slippers simile, the narrated hike down to the lake, and the second telling of clues s1 had already laid out.",
+      "Similes rebuilt from a five-year-old's own day and used once each: wider than the bath at home, leaves cut as neat as the crusts off a sandwich, a spoon dragged through porridge, prints the size of dinner plates, a tail as long as a slide, a bird dipping its beak the way you test the bathwater with one finger, a rumble like a lorry a long way off.",
+      "Kept the one v1 comparison that was already earning its place, the fossil prints in the hero's own dinosaur book, only fresh, because it puts the mystery on the child's own bookshelf.",
+      "One motif grown rather than replaced: the boom. It comes up through the boots in s1, walks nearer with a long wait between steps in s2, shakes the puddles into rings in s3, and becomes the single step that presses a fresh print in both endings. The reveal itself is still silent, which was right in v1 and was left alone.",
+      "Safety as competence, once per path, in s3: the ground behind the fern is firm to stand on, big animals like plenty of room, and from back there you can see the whole of her at once. A vantage point and a reason, with no warning, no scolding and no tension in the beat.",
+      "Rhythm now rises and falls. 'Boom.', 'Up the hill, then.', 'Her tail.' and 'Leaves,' land after long sentences, instead of the even run of mid-length sentences v1's 'mostly under 15 words' rule produced.",
+      "Both endings now hand over something made instead of a mood: the notebook laid flat in the mud with one toe drawn round until it fills the page and three horns written down for tomorrow, or the frogs and the bird drawn in the puddle and one small print pressed beside the enormous one."
+    ],
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

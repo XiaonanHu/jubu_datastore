@@ -1,0 +1,194 @@
+axis: knowledge_domain
+pack: deep_dives_planets
+nodes:
+  - id: knowledge_domain.mars
+    axis: knowledge_domain
+    label: mars
+    display_name: "Mars"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [red_dust, the_rovers, giant_volcano, dust_storms]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a whole world the color of rusty orange sand", vocabulary: [red, dust, rocky], avoid: ["being stranded alone in space"]}
+      7: {depth: mechanism, framing: "why Mars looks red, and how little rovers drive around taking pictures", vocabulary: [rover, crater, iron]}
+      9: {depth: system, framing: "the tallest volcano in the solar system, and what living on Mars would take", vocabulary: [Olympus Mons, habitat, orbit]}
+    edges:
+      adjacent: [knowledge_domain.lava, knowledge_domain.ladybugs]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.saturn
+    axis: knowledge_domain
+    label: saturn
+    display_name: "Saturn"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [the_rings, ring_ice, many_moons, golden_clouds]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the planet that wears wide bright rings, like a hat with no top", vocabulary: [rings, golden, ice], avoid: ["falling forever with nowhere to land"]}
+      7: {depth: mechanism, framing: "the rings are not solid; they are countless pieces of ice travelling side by side", vocabulary: [ring ice, orbit, gap], avoid: ["falling forever with nowhere to land"]}
+      9: {depth: system, framing: "a small system of its own: rings, gaps, and dozens of moons, mapped up close by the Cassini spacecraft", vocabulary: [Cassini, Enceladus, ring system], avoid: ["spacecraft being crushed or destroyed"]}
+    edges:
+      adjacent: [knowledge_domain.geysers, knowledge_domain.fireflies]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.jupiter
+    axis: knowledge_domain
+    label: jupiter
+    display_name: "Jupiter"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [striped_clouds, the_great_red_spot, the_big_moons, giant_size]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the biggest planet of all, striped like a marble in cream and toffee", vocabulary: [biggest, stripes, swirl], avoid: ["storms framed as frightening or destructive"]}
+      7: {depth: mechanism, framing: "a planet made of clouds with no ground to stand on; one orange swirl has been turning for hundreds of years", vocabulary: [gas giant, cloud band, Great Red Spot], avoid: ["storms framed as frightening or destructive", "falling forever with nowhere to land"]}
+      9: {depth: system, framing: "Jupiter as its own little system: dozens of moons, four big ones you can spot with binoculars, and the probes sent to watch them", vocabulary: [Galilean moons, probe, Io], avoid: ["storms framed as frightening or destructive", "spacecraft being crushed or destroyed"]}
+    edges:
+      adjacent: [knowledge_domain.moons, knowledge_domain.ash_clouds]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.venus
+    axis: knowledge_domain
+    label: venus
+    display_name: "Venus"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [thick_clouds, evening_star, backwards_spin, rocky_twin]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the brightest little lamp in the evening sky, wrapped in creamy clouds", vocabulary: [bright, cloud, evening], avoid: ["a planet described as deadly"]}
+      7: {depth: mechanism, framing: "why a blanket of clouds keeps Venus warm, and why it spins the other way round", vocabulary: [clouds, spin, warm], avoid: ["a planet described as deadly"]}
+      9: {depth: system, framing: "Earth's rocky twin that went another way, and the tough little landers we sent to look", vocabulary: [atmosphere, lander, greenhouse], avoid: ["a planet described as deadly", "spacecraft being crushed or destroyed"]}
+    edges:
+      adjacent: [knowledge_domain.ash_clouds]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.mercury
+    axis: knowledge_domain
+    label: mercury
+    display_name: "Mercury"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [bare_rock, many_craters, closest_to_the_sun, quickest_orbit]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a small grey world dimpled all over, like a pebble that sits closest to the sun", vocabulary: [small, grey, dents], avoid: ["a planet described as deadly"]}
+      7: {depth: mechanism, framing: "why bare rock keeps every dent it ever got, with no air and no weather to smooth them away", vocabulary: [crater, bare rock, airless], avoid: ["a planet described as deadly"]}
+      9: {depth: system, framing: "the speediest planet of all, racing round the sun in only eighty-eight days, mapped by orbiting probes", vocabulary: [orbit, probe, surface], avoid: ["a planet described as deadly", "spacecraft being crushed or destroyed"]}
+    edges:
+      adjacent: [knowledge_domain.volcanic_rocks]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.neptune
+    axis: knowledge_domain
+    label: neptune
+    display_name: "Neptune"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [deep_blue, farthest_planet, fast_winds, faint_rings]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the deepest blue world, so far away it sits in soft twilight all the time", vocabulary: [blue, far, quiet], avoid: ["a planet described as deadly", "the dark framed as scary or lonely"]}
+      7: {depth: mechanism, framing: "why the farthest planet looks blue, and how its winds hurry the clouds along", vocabulary: [wind, cloud, distance], avoid: ["storms framed as frightening or destructive", "the dark framed as scary or lonely"]}
+      9: {depth: system, framing: "a world found by arithmetic before anyone saw it, visited just once by a passing spacecraft", vocabulary: [Voyager, prediction, ice giant], avoid: ["the dark framed as scary or lonely", "spacecraft being crushed or destroyed"]}
+    edges:
+      adjacent: [knowledge_domain.deep_sea_fish]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.earth_from_space
+    axis: knowledge_domain
+    label: earth_from_space
+    display_name: "Earth From Space"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [the_blue_marble, swirling_white_clouds, city_lights_at_night, thin_air_ring]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "our own home seen from far away: a blue marble with white swirls and green patches", vocabulary: [blue, home, clouds], avoid: ["the planet framed as fragile or in trouble"]}
+      7: {depth: mechanism, framing: "what you can pick out from up there: coastlines, rivers, whirling cloud spirals, and city lights after dark", vocabulary: [coastline, satellite, orbit], avoid: ["the planet framed as fragile or in trouble"]}
+      9: {depth: system, framing: "the whole planet as one round world with a thin ring of air, and people who look after their small blue home", vocabulary: [atmosphere, continent, satellite image], avoid: ["the planet framed as fragile or in trouble", "warnings about the planet's future"]}
+    edges:
+      adjacent: [knowledge_domain.volcanic_islands, knowledge_domain.coral_reefs]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.moons
+    axis: knowledge_domain
+    label: moons
+    display_name: "Moons"
+    region: space
+    tier: deep_dive
+    subtopic_of: knowledge_domain.planets
+    facets: [icy_moons, moons_with_volcanoes, tiny_captured_moons, moon_families]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "little worlds that keep their planet company, going round and round like friends holding hands", vocabulary: [moon, round, follow], avoid: ["a moon framed as lonely or abandoned"]}
+      7: {depth: mechanism, framing: "why moons travel in circles around their planets, and how some are icy while others have volcanoes", vocabulary: [orbit, icy, volcano], avoid: ["a moon framed as lonely or abandoned"]}
+      9: {depth: system, framing: "moon families as small systems of their own, like the icy moon that puffs tall geysers of water into space", vocabulary: [Enceladus, geyser, moon system], avoid: ["a moon framed as lonely or abandoned", "spacecraft being crushed or destroyed"]}
+    edges:
+      adjacent: [knowledge_domain.geysers]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

@@ -1,0 +1,330 @@
+{
+  "id": "story.sea_turtles.age9to10.d1.pregen.a21f62",
+  "title": "The Ribbon Tied to Home",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sea_turtles",
+    "sel_theme": null,
+    "value_lesson": "Patience and trust in a long journey: some trips take years, and you grow into them one current at a time.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A grandmother sea turtle swims the longest commute in the sea, crossing a whole ocean to find the one beach where her life began.",
+  "slots": {
+    "hero_name": {
+      "role": "The grandmother sea turtle's name",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Maris"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Listen. The moon is up, the sand is cool, and something big is coming out of the sea. Wave after wave it comes — a turtle, an old, old grandmother turtle, as wide as your kitchen table, with silver barnacles winking on her shell. And riding on her back, flat as a pancake, is a little fish. That is Pip. Pip is a remora, which means Pip sticks on tight and never, ever stops talking.\n\n\"Did you see that? Did you see those eggs?\" Pip squeaks. \"One hundred eggs, buried in the warm sand! And now — now! — she is swimming home. Across the WHOLE ocean. Weeks and weeks of nothing but water. Want to come?\"\n\nOf course we want to come.\n\nThe turtle slides back into the waves, and we ride close beside her, where the water is calm. Her name — well, her name is {hero_name}. And here is the wonder Pip keeps whispering about: somewhere out there, past the horizon, past the next horizon, is a meadow of green seagrass where {hero_name} feeds. She has no map. She has no road. But Pip swears there is an invisible ribbon stretched across the whole ocean, tied at both ends to one small patch of sand — and {hero_name} can feel it humming, the way you feel a cat purring.\n\n\"How does she KNOW?\" Pip blurts. \"It's all just water!\"\n\n{hero_name} says nothing. She lifts one great flipper, slow as a falling leaf, and the ocean current takes her.\n\nThe ribbon pulls. We follow.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Fast river it is!\" Pip shouts. \"Hold on to your hats! If you have hats!\"\n\nWe swing wide — and there it is. A river inside the sea. Deeper blue than the water around it, running swift and sure, like a long blue road somebody poured into the ocean and forgot to take home.\n\n{hero_name} doesn't hesitate. She spreads her flippers wide, like wings, and slides into the current — and stops paddling. Just stops. The river takes her.\n\n\"She's not swimming!\" Pip gasps. \"She's RIDING! Like an escalator! Like a moving sidewalk! Why doesn't every fish know about this?!\"\n\nSeaweed streams past us like flags in a parade. The water hums under our knees. And far off, on the edge of everything, rises the green cone of a volcanic island.\n\n\"Green Top,\" says {hero_name} — the first words we've heard her say out at sea. \"That's my first landmark. Like a bus stop. I never miss it.\"\n\n\"But HOW?\" Pip begs. \"There's nothing out here! No signs! How do you know where to turn?\"\n\n{hero_name} is quiet a long moment. Then: \"I have a map, little fish. But it's not made of paper. It's printed inside my head — glowing lines only I can feel. The whole Earth hums, and the humming tells me where I am. I just follow the lines.\"\n\nPip goes very still. Then, in a whisper: \"A map... in her HEAD.\"\n\nThe current carries us on, swift and dark and blue. But ahead, where the river-in-the-sea ends, the open ocean waits — wide, and wide, and wide.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The golden island!\" Pip shouts. \"Trust me. Trust me. You're going to want to see this.\"\n\nWe turn away from the fast water, and there it is — a floating raft of golden sargassum, drifting far from any land. A whole island made of seaweed, bobbing and shining, thick as the jam at the bottom of the jar.\n\nAnd it is full of life. Tiny crabs no bigger than your fingernail. Seahorses curled like question marks. And tucked under a golden leaf — a baby turtle. A baby turtle no bigger than a walnut.\n\n\"That's Kelp,\" Pip breathes. \"He just got here. Just hatched. Just made his first scramble down the sand and into the waves — ALL BY HIMSELF.\"\n\nKelp looks up at {hero_name}, and his flippers are so small they look like flower petals. \"Is it true?\" he asks, in a voice like a squeak in a shell. \"Am I really supposed to cross all of... this?\"\n\n\"You are,\" says {hero_name}, gentle as low tide. \"But not today. Today you only need to find the current. Feel for it — the water that moves faster, that pulls a little. That's your road. Ride it, and it will carry you to the feeding grounds.\"\n\n\"But how will I know the way?\"\n\n\"The same way I do,\" says {hero_name}. \"The beach where you hatched already holds your name. It will call you back when you're grown. It always does.\"\n\nKelp blinks his small dark eyes. Then he paddles out from under the leaf, braver already.\n\n\"Every turtle starts this small,\" Pip whispers. \"Every single one. Even HER. Even the grandmother. The whole commute... begins with a walnut.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find back there?\" Pip asks, for the tenth time. But the question floats away behind us, because now there is nothing. Nothing but water. Water below, water beside, water piled on water all the way to the sky. Weeks of it.\n\n\"How can she stand it?\" Pip whispers. \"It's all just BLUE!\"\n\nBut {hero_name} swims on, steady as a heartbeat. She does not need to see the way. She feels it. Deep inside her head sits a map made of the earth's own pulling, and the stars wheel overhead like slow compass needles, and sometimes — Pip swears this is true — she lifts her head and smells the water, tasting for home.\n\nHigh above, a frigatebird wheels. Ferra, she calls herself, all sharp wings and gossip. \"You're still swimming?\" she shouts down. \"I've flown over three islands since breakfast!\"\n\n\"Tell us!\" Pip begs. \"Tell us everything!\"\n\nBut {hero_name} just swims. The ribbon hums.\n\nThen, one dusk, the water below us turns dark as ink. Down, down, down goes a shadow — a leatherback turtle, huge as a grand piano, sinking toward a cold canyon where jellyfish glow like slow lanterns. We watch her go, our mouths open.\n\n\"She's going DOWN there?\" Pip squeaks. \"On PURPOSE?\"\n\nThe ocean is deeper than we dreamed. And {hero_name} wears her home on her back, but she cannot hide inside it, not really. So she does the only thing there is to do.\n\nShe keeps swimming.\n\nThe ribbon pulls. We follow.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "And then, one bright morning, the blue runs out. The water turns green — green as grass, green as the inside of a lime, striped all over with ribbons of sunlight. Pip is the first to see it.\n\n\"Look! LOOK! The ribbon ends HERE!\"\n\nBelow us, swaying slow as dancers, lies the meadow. Seagrass, miles and miles of it, waving in the current. And {hero_name} — old, steady {hero_name}, who swam a whole ocean without one wrong turn — puts her head down and eats. Munch. Munch. Like a great slow cow with flippers, after the longest walk to lunch in the world.\n\n\"So THAT'S the secret,\" Pip says at last, very quiet, which for Pip is nearly shouting. \"The ribbon isn't tied to one place. It's tied to TWO. The nesting beach on one end, the meadow on the other — and she swims it. Again and again. Her whole life long.\"\n\nWe watch her graze, and the green light rocks us, and our bellies feel full just looking.\n\nBefore we go, {hero_name} noses down into the meadow sand and pushes up something small and smooth. A shell, white as the moon. She holds it out on one flipper.\n\n\"For you,\" Pip whispers. \"So you remember the way.\"\n\nWe tuck it close. The ribbon hums behind us, already pulling her home. And someday, when the water turns green and the light comes down in stripes, we will know exactly where she is.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "But the meadow can wait. Because the ribbon pulls the other way too — and one night, when the seasons have turned and the stars have wheeled all the way around, {hero_name} lifts her head and smells the water.\n\n\"She's going BACK,\" Pip breathes. \"Back, back, back — to the very same beach!\"\n\nThe shore rises out of the dark, and the sand is cool, and the moon is up, and the beach — Pip swears it — the beach remembers her. It whispers welcome in a voice like small waves, because this is the patch of sand where {hero_name} hatched, long, long ago.\n\nHigh above, Ferra circles down. \"Stay behind me,\" she says, sharp wings folding. \"Well above the tide line. That's where watchers stand.\"\n\nSo we stand where the sand is dry, and we watch. {hero_name} digs with her back flippers, slow and sure, scooping a nest shaped like a flask — narrow at the top, round at the bottom. And into it go the eggs. Pale. Round. Like the eggs the dinosaurs laid, long, long ago, on beaches not so different from this one.\n\n\"One hundred,\" Pip whispers. \"One hundred little commuters, dreaming of the sea.\"\n\nBefore we leave, the beach gives us a gift: a warm handful of sand, cupped in our hands, still holding the day's sun.\n\n\"Take it,\" says Pip. \"Both ends of the ribbon, tied to this one small place.\"\n\nWe carry it home. And under the sand behind us, the next crossing has already begun.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"First leg of the commute, friends! Do we catch the fast river-in-the-sea and ride it like an escalator — or do we swing by the floating golden island first? I hear the tiniest turtle in the whole ocean is hiding there!\"",
+      "options": [
+        {
+          "say_word": "Ride",
+          "label": "Catch the great ocean current and ride the river inside the sea",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Visit",
+          "label": "Detour to the floating sargassum island to meet a brand-new hatchling",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Here's the thing about the longest commute — it has TWO ends! Do we finish this leg and flop down in the green seagrass meadow for the biggest snack of our lives... or do we follow the ribbon the whole way back, back, back to the beach where Maris was born?\"",
+      "options": [
+        {
+          "say_word": "Meadow",
+          "label": "Arrive at the sunny seagrass feeding grounds and rest after the crossing",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Home",
+          "label": "Follow the ribbon all the way back to the nesting beach where Maris hatched",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sea_turtles",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 13
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic is literally about crossing an entire ocean and navigating back to the same beach, so the movement itself is the natural plot for a 9-year-old.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3117,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1948,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1818,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1169,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Night the Sand Went Soft)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1039,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0649,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip the remora, a talkative passenger fish who narrates every marvel with wide-eyed chatter and endless questions about how the turtle knows the way.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and trust in a long journey: some trips take years, and you grow into them one current at a time.",
+      "why": "The material offers it naturally — turtles ride currents for years before they are ready to return — so it rides along as Maris's steady example rather than being stated as a lesson."
+    },
+    "cast": [
+      {
+        "role": "Maris, the grandmother green sea turtle with barnacles on her shell like jewels",
+        "reused": false,
+        "why": "The named hero and journey guide; her age and many crossings let her name landmarks like a bus driver naming stops, carrying the big_adventure tone."
+      },
+      {
+        "role": "Pip, the talkative remora stuck to Maris's shell",
+        "reused": false,
+        "why": "Carries the curious_wonder accent single-handedly, asks both choice questions in his own chatty voice, and gives the listening child a stand-in for amazement."
+      },
+      {
+        "role": "Kelp, a newly hatched baby turtle no bigger than a walnut",
+        "reused": false,
+        "why": "Met at the sargassum raft; lets one branch show the journey beginning again, and makes the years-long commute feel enormous and brand-new."
+      },
+      {
+        "role": "Ferra the frigatebird, soaring overhead with forked tail",
+        "reused": false,
+        "why": "Sky-scout who calls down gossip and directions, and delivers the competence beat by showing where to stand on the nesting beach."
+      },
+      {
+        "role": "The nesting beach itself, a patient keeper of memories",
+        "reused": false,
+        "why": "The destination made into a character; it remembers Maris, welcomes her home, and gives the warm landing its voice."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Grandmother green turtle with barnacle jewels as guide",
+        "Talkative remora passenger",
+        "Frigatebird sky-scout",
+        "Personified nesting beach keeper of memories",
+        "Moonlit nesting beach setting",
+        "Open-ocean current like a river inside the sea",
+        "Floating sargassum nursery raft with baby turtle",
+        "Magnetic map inside the turtle's head",
+        "Seagrass meadow feeding grounds",
+        "Leatherback jellyfish dive glimpse",
+        "Shell as a home you wear but cannot hide in",
+        "Volcanic island and dinosaur egg wider-door glimpses"
+      ],
+      "gathered_but_unused": [
+        "A baby sea turtle no bigger than a cookie scrambles into the waves and someday swims thousands of miles across an entire ocean to come back and nest on the very same beach where it hatched.",
+        "Sea turtles can feel the Earth's magnetic field, the same invisible force that makes a compass needle point north, and they use it like a map printed inside their own heads.",
+        "Ocean currents are like giant moving rivers inside the sea, and young turtles ride these currents for years, letting the water carry them around entire ocean basins.",
+        "A mother sea turtle crawls up the beach at night, digs a deep flask-shaped hole with her back flippers, and lays around a hundred soft, leathery eggs the size of ping-pong balls.",
+        "Baby turtles hatch together under the sand, wait for the cooler darkness of night, then burst out all at once and race to the sea, drawn by the brighter horizon where the moon and stars shine on the water.",
+        "Leatherback turtles are the biggest of all, heavier than a grand piano, and they dive deeper than almost any other air-breathing animal to hunt jellyfish in the cold, dark water.",
+        "Sea turtles cannot pull their heads into their shells the way many land turtles can, so their shell is a home they wear but can never hide inside completely.",
+        "Some green sea turtles travel more than a thousand miles between the meadows of seagrass where they eat and the nesting beach where they lay eggs, and they arrive at exactly the right spot even after years away."
+      ]
+    },
+    "safety_beat": "In s4b, Ferra the frigatebird lightly shows the watchers where to stand — up on the dry sand above the tide line, behind Maris, where the view is best and the nest stays undisturbed — pure competence, no warning.",
+    "motif": "An invisible ribbon stretched across the ocean, tied at both ends to the same small patch of sand.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      },
+      {
+        "story_id": "story.sea_turtles.quiet_hour_001",
+        "title": "The Night the Sand Went Soft",
+        "pattern": "quiet_hour",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, information, and companionship with a strong read-aloud voice — Pip's chatter against the turtle's silence gives it an engine and a heartbeat, the ribbon motif returns like a ritual, and both endings land warmly without rushing their best images."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "hooked and giggling, invited aboard",
+        "s2a": "swept along, wide-eyed at the map in her head",
+        "s2b": "softened and protective over walnut-sized Kelp",
+        "s3": "a held breath in the vast blue, then awe at the diving shadow",
+        "s4a": "satisfied and glowing, full-bellied and sleepy",
+        "s4b": "hushed and reverent, then snug with the warm sand carried home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['keepsake']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "14_sea_turtles_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

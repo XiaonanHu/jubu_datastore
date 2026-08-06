@@ -1,0 +1,330 @@
+{
+  "id": "story.sleep_and_dreams.age7to8.d1.pregen.bf2396",
+  "title": "The Night Train to REM",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sleep_and_dreams",
+    "sel_theme": null,
+    "value_lesson": "Respecting rest",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "We board a magical sleep train that travels through the cycles of the night, witnessing how our brains ride the waves from light sleep to deep sleep to the busy dreaming of REM.",
+  "slots": {
+    "train_name": {
+      "role": "The name of the sleep train",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Moonlight Express"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are tucked in bed, you and I, under the glow of the nightlight, when the ceiling begins to change. It ripples like dark water. For a moment, that is all — we lie very still, listening to the quiet. Then the ceiling opens, slowly, into a map of stars, and they settle into place one by one, as if someone were lighting them. A low hum arrives, soft and far away, before anything else does. Outside the window, a train pulls up, glowing soft as moonlight. Its name shines in silver letters: {train_name}. The door slides open, and a figure in a long coat steps out. \"All aboard,\" says the Sleep Conductor, tipping a cap that sparkles like the sky. We climb aboard. The carriage hums beneath our feet, a gentle rhythm, like a heartbeat. The Conductor smiles. \"First stop, the spiral staircase. Every full turn is one sleep cycle. Ready?\" The train begins to move.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Observation deck,\" we say together. The Conductor grins and pulls a brass lever. The train tilts, climbing the spiral staircase inside your head. One full turn, one sleep cycle. We step out onto the deck just as the train slides into Light Sleep Station. The lanterns along the track dim to a warm amber, soft as the glow of toast in the oven. The world outside the windows slows down. It feels like drifting on a gentle river, the kind that rocks you without trying. \"Look,\" whispers Pippa the bushbaby, pointing with one tiny paw. \"Your eyelids.\" And there they are, reflected in the glass, fluttering like moth wings. We hold very still and watch them. Nobody says anything for a moment. The Conductor leans on the rail beside us, quiet, and tips their cap. The train hums under our feet, slower now. Pippa curls up on my shoulder, her heartbeat a tiny drum against my ear. Ahead, the track splits. One line rolls on toward Deep Sleep Station. The other curves away toward a glass dome gleaming in the dark. \"Brain Observatory,\" says the Conductor. \"But we can only visit one before the deepest sleep comes.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The Observatory,\" we say. The Conductor nods and flips a silver switch. The train hums, then slips onto a side track that curves away from the main line. We climb a narrow stair and step into a glass-domed car filled with soft blue light. Screens cover the walls, each one showing a different line. Some are quick and jittery, like ants racing across the glass. Others roll slow and smooth, like waves on a calm sea. \"Those are your brain waves,\" says a voice. A figure in a long scarf steps forward, holding a glowing pen. \"I'm the Wave-Maker. Watch.\" She draws in the air, and the lines appear, hanging like ribbons. We reach out and trace them with our fingers. The quick ones tickle. The slow ones feel like stroking a cat. We stand there a while, tracing, and she lets us. The train rocks gently. Pippa yawns, her tiny mouth opening wide. Outside the dome, the main line glows in the distance. \"Time to go back,\" says the Wave-Maker. \"The deepest sleep is coming.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The train slows. \"Deep Sleep Station,\" the Conductor says, soft as a finger to lips. We step out into air that is cool and blue, and the whole world feels tucked under a heavy blanket. Even our footsteps are quiet here. The Conductor points to a signpost carved with one word: Cycle 1. \"Listen,\" they say, and nothing more. We listen. Far off, something vast breathes in and out, in and out, and the floor rises and settles beneath us, gentle as a rocking chair. We stand there a long while. No one speaks. The Conductor watches the blue dark, hands folded, and lets the breathing be the only sound. Behind us, the train hums, ready to climb. The staircase spirals up through the blue dark, and somewhere at the top, eyes are beginning to flicker under closed lids. \"Next stop, REM,\" says the Conductor. \"How shall we go up?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The Control Room,\" we say together. The Conductor grins and pulls a brass lever. The staircase spirals up, and we step off into a round room full of soft lights. In the centre, a screen glows like a window. We lean close. It is our own face, asleep in bed. Our eyes dart left, then right, under closed lids. We watch. Nobody says anything. Back and forth, back and forth, quick as minnows under the skin. A figure with gentle hands waves from a desk covered in zigzag lines. \"I am the Wave-Maker,\" they say. \"See these busy brain waves? Sharp and quick, like city lights. Your body lies still as a statue, but your mind is dancing.\" We keep watching our own sleeping face. The Conductor touches our shoulder. \"The train is finishing its first full cycle,\" they say. \"Every turn of the staircase is one sleep cycle. And they all connect, like links in a chain. Shall we see where they meet?\" We nod, and the room begins to hum.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The Dream Library,\" we say. The Conductor smiles and opens a door stitched with stars. Inside, shelves stretch high, filled with glowing books. A figure with kind eyes and ink-stained fingers turns to us. \"Welcome,\" says the Brain Librarian. \"This is where your day gets sorted during REM.\" She pulls a book from the shelf. Its pages shimmer. We see bits of our own day inside: a joke we laughed at, a game we played, something new we learned. She points to a reading mirror. We look in. Our own eyes flicker under closed lids, left and right, quick as minnows. We watch them for a moment, and she lets us, saying nothing at all. We touch the glowing page, and it feels warm, like toast. The Conductor appears beside us. \"The train is finishing its first full cycle,\" they say. \"Every turn of the staircase is one sleep cycle. And they all connect, like beads on a string. Shall we see where they meet?\" We nod, and the books hum softly.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We can ride the observation deck and watch the world drift by as we fall into light sleep, or we can slip into the Brain Observatory to see the waves your mind is making right now. Which calls to you?\"",
+      "options": [
+        {
+          "say_word": "Watch",
+          "label": "Ride the observation deck to experience light sleep",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Peek",
+          "label": "Visit the Brain Observatory to see the brain waves",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"We're approaching REM—the busy dreaming time. Would you rather step into the Control Room to see your own eyes flicker and watch your brain light up like a city, or visit the Dream Library to discover what all that dreaming is for?\"",
+      "options": [
+        {
+          "say_word": "See",
+          "label": "Enter the Control Room to observe REM from outside",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Learn",
+          "label": "Enter the Dream Library to understand the purpose of REM",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sleep_and_dreams",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 17
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Sleep cycles naturally unfold as a journey through different stages, with REM's flickering eyes and busy brain waves offering vivid, wondrous stops along the way that an 8-year-old can ride through the night.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The Sleep Conductor",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Respecting rest",
+      "why": "The journey reveals sleep as an active, necessary adventure the brain takes to sort memories and restore itself, not merely 'shutting down.'"
+    },
+    "cast": [
+      {
+        "role": "The Sleep Conductor",
+        "reused": false,
+        "why": "Guides the journey with a cozy, rhythmic voice and a pocket watch that ticks like a heartbeat; carries the accent of quiet authority and wonder."
+      },
+      {
+        "role": "A wide-eyed bushbaby named Pippa",
+        "reused": false,
+        "why": "Pads alongside us, whispering questions about our flickering eyes and still bodies; represents the nocturnal world watching over sleep."
+      },
+      {
+        "role": "The Wave-Maker",
+        "reused": false,
+        "why": "Draws brain waves in the air with a silver stylus, showing the difference between slow deep-sleep swells and quick REM zigzags."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Sleep comes in cycles, like rounds of a game, each lasting about 90 minutes",
+        "During REM sleep, your eyes move quickly back and forth under closed eyelids",
+        "REM is when most dreaming happens, and your brain is almost as busy as when awake",
+        "Your brain makes different kinds of brain waves when awake, in deep sleep, and dreaming",
+        "You cycle through light sleep, deep sleep, and REM several times every night",
+        "The inside of a softly glowing 'sleep train' carriage",
+        "A dreamy control room full of gentle screens and dials that show brain waves",
+        "A small, curious nocturnal animal (bushbaby)",
+        "A sleepy wave-maker",
+        "The exact order of one sleep cycle: light sleep, deep sleep, REM, then starting over",
+        "Objects that mark each stage: a dimming lantern, a heavy blanket, a flickering film projector",
+        "Repeated glimpses of the child's own eyes in REM, flicking back and forth behind closed lids",
+        "Signposts marking Cycle 1, Cycle 2, Cycle 3"
+      ],
+      "gathered_but_unused": [
+        "Sleep comes in cycles, like rounds of a game, and each cycle lasts about 90 minutes.",
+        "During REM sleep, your eyes move quickly back and forth under your closed eyelids, even though you are asleep.",
+        "REM is the part of sleep when most dreaming happens, and your brain is almost as busy as when you are awake.",
+        "Your brain makes different kinds of brain waves when you are awake, in deep sleep, and dreaming.",
+        "You cycle through light sleep, deep sleep, and REM sleep several times every night.",
+        "Most people have about four to six sleep cycles each night, which means you visit dreamland several times, not just once.",
+        "Your body is very still during REM sleep, even though your brain is very busy, so you don't act out your dreams.",
+        "Babies spend much more time in REM sleep than grown-ups, which is one reason they sleep so much in their first year."
+      ]
+    },
+    "safety_beat": "The Sleep Conductor demonstrates competence by pointing out the handrail on the observation deck and the proper way to lean into the curve as the train rounds the bend into Deep Sleep Station, ensuring we know exactly where to stand to see the view without worry.",
+    "motif": "The spiral staircase inside the head, where every full turn completes one sleep cycle.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story is a well-built tour of sleep science, but it hurries past the very moments a child at bedtime would want to linger inside, and its wonder keeps getting converted into explanation.",
+          "editor_notes": [
+            "s1: The ceiling 'ripples like dark water, then opens into a map of stars' — this is the story's best image and it is gone in one sentence. Let the child sit in it: a beat of silence, the hum arriving before the train does, the stars settling into place one by one. Wonder should arrive before the invitation to board.",
+            "s1: 'Want to see where your mind goes when you close your eyes?' turns the mystery into a field trip immediately. Consider letting the Conductor say less — 'All aboard' and a tipped cap may be enough; the question can wait or go unasked.",
+            "s2a/s2b: The brain-wave explanations ('Your brain waves are still quick and jumpy, but they're starting to stretch out') are accurate but they talk over the moment. The eyelids 'fluttering like moth wings' in the glass is the thing a child wants to watch — give it a held breath before anyone names it.",
+            "s3: This is the strongest segment — 'soft as a finger to lips,' 'something vast breathes in and out' — but 'What did you find back there? Hold on to it' breaks the hush with logistics. Let Deep Sleep Station stay wordless a little longer; the breathing floor is doing the work.",
+            "s4a/s4b: Seeing our own sleeping face with darting eyes is genuinely strange and a little eerie — 'It is strange and wonderful' tells us instead of letting us feel it. Cut the label and let the watching itself carry the weight, the way the story already trusts silence in s3.",
+            "Throughout: every arrival is followed within a sentence or two by a figure explaining what we are seeing. Try letting one stop per branch pass with no explanation at all — the moth-wing eyelids, the breathing floor, the flickering eyes — so the glow is witnessed rather than taught."
+          ],
+          "segments_revised": 6,
+          "segments_rejected": 0
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it moves at the pace of sleep itself, lets wonder arrive and be witnessed without grabbing, and its sound-pictures (moth wings, minnows, toast-warm pages) land gently when read aloud."
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "snug and curious, a held breath as the ceiling opens",
+        "s2a": "drifting and drowsy, safe in company",
+        "s2b": "quiet wonder, fingers tingling",
+        "s3": "hushed and heavy, rocked by something vast",
+        "s4a": "still fascination, watching ourselves sleep",
+        "s4b": "warm and satisfied, the day tucked away"
+      },
+      "segments_revised": 6,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.0); [s2b] flat rhythm: sentence lengths vary little (spread 3.7); [s4a] flat rhythm: sentence lengths vary little (spread 4.4); [s4b] flat rhythm: sentence lengths vary little (spread 4.6); [story] slots: declared but never used: ['dream_object']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "round 1: [s1] polished (137 -> 157 words)",
+      "round 1: [s2a] polished (200 -> 197 words)",
+      "round 1: [s2b] polished (189 -> 176 words)",
+      "round 1: [s3] polished (167 -> 150 words)",
+      "round 1: [s4a] polished (186 -> 172 words)",
+      "round 1: [s4b] polished (194 -> 172 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[story] slots: declared but never used: ['dream_object']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "18_sleep_and_dreams_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

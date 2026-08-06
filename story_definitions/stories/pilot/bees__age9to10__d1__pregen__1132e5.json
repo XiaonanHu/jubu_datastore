@@ -1,0 +1,337 @@
+{
+  "id": "story.bees.age9to10.d1.pregen.1132e5",
+  "title": "The Humming Road to the Hive",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.bees",
+    "sel_theme": null,
+    "value_lesson": "No bee does the whole job alone; the colony only works because every bee does her small part, and a good keeper takes only what is spare.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A storyteller remembers the summer day her grandmother walked her from one clover flower all the way to the heart of a living hive, following a single bee's route home.",
+  "slots": {
+    "child_companion_name": {
+      "role": "The name Grandma June calls the child in the memory (the storyteller's younger self)",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    },
+    "favorite_flower": {
+      "role": "The flower the child picks at the very first choice, which Scout then visits and which returns at the ending as the carried-home discovery",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "clover"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "When I was nine, my Grandma June kept bees in wooden hives at the edge of a wildflower meadow, and she knew every one of them by name.\n\n\"Now, {child_companion_name},\" she said to me one early-summer morning, in her slow warm drawl. \"You want to know where honey really begins? It doesn't begin in a jar. It begins right here.\"\n\nShe pointed one knobby finger at a single {favorite_flower}, bending in the breeze. The air around it was humming — not loud, just a low, contented hum, like the meadow was purring.\n\nOn the flower sat a bee. A fuzzy, stripey, busy little worker, and her whole back was dusted gold with pollen, as if she'd rolled in it on purpose.\n\n\"That one's Scout,\" said Grandma June. \"She's been out since sunup. Watch her close, now.\"\n\nI watched. Scout buried her head in the petals, and the gold dust puffed up, and some of it drifted down and settled on the flower like powdered sugar on a cake. That dust, Grandma said, is how a flower makes seeds — and Scout was carrying it from bloom to bloom all over the meadow. That's called pollinating, and bees do it for whole fields, whole orchards, without ever being asked.\n\n\"Here's the thing about Scout,\" Grandma June murmured, crouching down beside me so we were eye to eye with the bee. \"She's headed home to the colony sooner or later. And if we're patient, and we're polite, and we don't go grabbing — she'll lead us the whole way. Flower to meadow to hive. The whole humming road.\"\n\nThen Scout lifted off.\n\nA bee is quick. Quicker than you'd think. She rose in a wobbly little spiral, gold dust trailing off her like a tiny comet, and hung in the air for one second — choosing.\n\n\"Easy,\" said Grandma June. \"Watch where she lands.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Scout dipped low, and we followed her into the meadow, where the clover grew thick as a carpet and the poppies nodded their red heads over it.\n\n\"Keep your feet soft,\" Grandma June murmured. \"We're guests at her breakfast table.\"\n\nWe crouched beside a clover head, and Scout landed right on it. Then something wonderful happened. Out of her mouth came a long, thin tongue, like a tiny straw unrolling, and it reached down deep into the flower where the nectar hides. She drank, and drank, and while she drank, the yellow pollen stuck to her fuzzy body in thick golden dust.\n\nThen she lifted, and the dust drifted, and some of it settled on the very next flower she touched.\n\n\"See that?\" said Grandma June, her voice low and slow. \"That's pollinating. Every flower Scout visits, she leaves a little gold behind. And that gold is how the flower makes seeds.\"\n\nI looked at the trail of dust behind her, marking every stop like footprints. \"How many flowers does she visit?\"\n\n\"Hundreds,\" said Grandma June. \"Every single day.\"\n\nWe followed. Clover, poppy, clover again. Scout worked them one by one, never hurrying, never skipping, and the gold trail grew longer behind her. The meadow widened around us, and the hum grew with it — not one bee now, but dozens, then hundreds, all working the same field, all dusted gold, all carrying the meadow's future on their backs.\n\n\"They're a team,\" I whispered.\n\n\"A colony,\" said Grandma June. \"One family, one job.\"\n\nThen Scout paused. Her pollen baskets — the little golden lumps on her back legs — were nearly full. She hung in the air, heavy with gold, and turned her head toward home.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Scout rose, and we chased her up into the orchard, where the apple trees stood in long straight rows, every branch dressed in white and pink blossom.\n\nThe petals were falling. Slow, soft, drifting down like snow that had forgotten it was winter. One landed on my sleeve, and I held it carefully, like something precious.\n\n\"Listen,\" said Grandma June.\n\nI listened. The whole orchard was humming — not one bee, but hundreds, working the blossoms from branch to branch. Standing in the middle of it, the trees seemed to hum like a struck tuning fork, a low steady music that you could feel in your chest.\n\nScout landed on a blossom near my shoulder, and Grandma June reached out one finger and lifted the branch gently, so we could see.\n\n\"Every apple you eat in autumn,\" she said, in her slow warm drawl, \"begins right here. Right now. A bee like Scout carries pollen from flower to flower, and the flower swells, and the petals drop, and an apple grows where the blossom used to be.\"\n\nI stared at the little white flower. \"This becomes an apple?\"\n\n\"This becomes an apple,\" said Grandma June. \"No bees, no apples. No cherries. No strawberries. The bees feed the trees, and the trees feed us.\"\n\nScout buried her head in the blossom, and the gold dust puffed up, and some of it drifted down onto the petals like powdered sugar. She was dusted head to toe now, heavy with nectar, her pollen baskets fat and gold.\n\nThen she lifted off, and flew straight — not wandering, not stopping — straight toward something we couldn't see.\n\nGrandma June smiled. \"She's headed home. And I know a shortcut.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Scout rose from where she'd been working, circled once overhead, and then flew a line so straight it looked drawn with a ruler. Home.\n\n\"Now we go see,\" said Grandma June, standing up slow, \"what she tells the others.\" She'd already pulled on her white suit and veil, and she handed me a smaller one that smelled like sunshine and old cotton. \"What did you find out there?\" she asked, and I told her as we walked, and she nodded like it was the most important news she'd heard all week.\n\nThe hives stood in a row at the meadow's edge, white boxes humming like a whole city behind a wall. Grandma June lifted the lid off the nearest one, gentle as opening a picture book, and the world turned warm and dark and gold.\n\nComb. Everywhere. Walls of it, hanging in perfect rows, and on every wall — bees. Thousands and thousands of them, all sisters, all working. The sound rose up around us like a song with no words.\n\n\"Nearly every one of these is a girl,\" Grandma June murmured. \"Each doing her own small job.\"\n\nAnd then — a small striped shape tumbled in past my ear. Scout. She landed on the comb, and she began to dance.\n\nRound and round in a figure eight, waggling her stripey behind with every step. The other bees crowded close, touching her with their feelers, reading her map.\n\n\"She's telling them,\" Grandma June whispered. \"How far. Which way. Watch.\"\n\nWe watched. And one by one, then ten by ten, the sisters lifted off the comb and poured out into the sunlight, all flying the same dead-straight line Scout had flown. Out over the meadow. Exactly the way she'd come.\n\n\"Well, I'll be,\" said Grandma June, soft and proud. \"They heard her.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Now then,\" said Grandma June, \"let's see what the sisters have been saving.\"\n\nShe lifted out a frame, slow and careful, and it was heavy — heavy with honey. Row after row of little wax cells, each one sealed with a tiny flat white lid, like jars lined up on a pantry shelf.\n\n\"This is the comb where the honey sleeps,\" she said. \"One bee brings home nectar in her honey tummy, and she passes it to a sister, and that sister passes it on, and every pass makes it thicker, until it's this.\"\n\nShe peeled back one little lid with her fingertip. Inside, the honey glowed dark gold. She touched it and held her finger out to me, and I tasted honey that had never once left the hive until that moment. It tasted like the whole meadow, warm and sweet and wild.\n\n\"Here's the humbling part, {child_companion_name},\" Grandma June said. \"One bee, in her whole life, makes about a twelfth of a teaspoon. That taste you just had? That's the life's work of many sisters, all together. So I only ever take the spare.\"\n\nWalking home through the meadow, she told me a coral reef is the same kind of wonder under the sea — thousands of tiny animals building something bigger than any of them.\n\nI carried home a little jar, and the smell of wax stayed on my fingers for days. And I still think of that one spoonful as a whole meadow, flying in formation.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Now then,\" said Grandma June, \"let's see if we can find the mother of everyone.\"\n\nShe lifted out a deeper frame, slow and careful, and she pointed one knobby finger. And there — walking calm and unhurried through her daughters — was the queen.\n\nLonger than any bee I'd seen. Slower, too, like she had all the time in the world. While we watched, she tucked an egg into a cell, and the workers hurried around her, feeding her, guarding her, smoothing her path.\n\n\"Every single bee in this humming city is her child,\" Grandma June whispered. \"Tens of thousands of daughters. And here's the secret of it, {child_companion_name}: the colony works because no bee does the whole job alone. Some gather. Some build comb. Some fan their wings all day to keep the hive cool. And the queen mothers them all. One team.\"\n\nI watched the queen walk on, patient as anything, and the whole frame seemed to breathe around her.\n\nAs we closed the hive, Grandma June pointed at the comb — all those perfect six-sided cells, fitted together without a gap. \"Coral builds the same patient way,\" she said. \"Tiny creatures, one small piece at a time.\"\n\nShe let me keep a chunk of empty comb, and I set it on my windowsill. It still smells faintly of summer. And of thousands of sisters.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Quick now, little one, Scout's lifting! Shall we follow her low through the meadow flowers, or chase her up into the apple orchard where the trees are all dressed in white?\"",
+      "options": [
+        {
+          "say_word": "Meadow",
+          "label": "Follow Scout low through the clover and poppies",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "favorite_flower": "clover"
+          }
+        },
+        {
+          "say_word": "Orchard",
+          "label": "Chase Scout up into the blossoming apple trees",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "favorite_flower": "apple blossom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now then, we've seen the map and the dancing. Which treasure do you want to find deeper in: the golden comb where the honey sleeps, or the queen herself, the mother of this whole humming city?\"",
+      "options": [
+        {
+          "say_word": "Honey",
+          "label": "Find the capped comb and taste honey straight from the hive",
+          "tone_lean": "cozy",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Queen",
+          "label": "Search the deeper frames for the queen bee",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.bees",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.insects",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 31
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "A bee's flight from hive to flower and back naturally carries a child through pollination, the waggle dance, and the hive-as-team, making the journey pattern the richest fit for this material.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3333,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1786,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (Somebody Told the Bees)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0595,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0476,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Grand Bug Hotel)"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Grandma June, the beekeeper, whose slow warm drawl and habit of naming every bee like an old friend carries the only accent in the story",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "No bee does the whole job alone; the colony only works because every bee does her small part, and a good keeper takes only what is spare.",
+      "why": "The material offers it naturally: the colony-as-team facts and the beekeeper who leaves plenty of honey both sit in the source list, and the journey structure lets the lesson be shown rather than told."
+    },
+    "cast": [
+      {
+        "role": "The storyteller, a grown woman remembering being nine at her grandmother's hives",
+        "reused": false,
+        "why": "The storyteller_tale frame requires one 'I' voice; she opens and closes the memory warmly."
+      },
+      {
+        "role": "Grandma June, the beekeeper in her white suit and veil",
+        "reused": false,
+        "why": "She is the guide who opens the hive gently, lifts out frames, and never takes too much; she also carries the accent."
+      },
+      {
+        "role": "Scout, a worker bee named for her job",
+        "reused": false,
+        "why": "Scout is the thread of the journey; we follow her flower route and later watch her waggle dance on the comb."
+      },
+      {
+        "role": "The queen bee",
+        "reused": false,
+        "why": "She is the marvel at the deepest point of the hive, the mother of every bee we have seen."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wildflower meadow in early summer, air humming with wings",
+        "apple orchard in blossom, petals drifting like slow snow",
+        "inside of a beehive, warm dark golden walls of wax comb",
+        "beekeeper in white suit and veil who opens the hive gently",
+        "worker bee named Scout who leads her flower route",
+        "the queen bee walking calmly through the colony",
+        "pollen sticking to fuzzy bodies and brushing onto the next flower (pollination)",
+        "waggle dance telling sisters direction and distance",
+        "nectar passed bee to bee, sealed in comb with a wax lid",
+        "one bee makes only a twelfth of a teaspoon; every spoonful is many bees together",
+        "apples and cherries grow only because bees pollinate the blossoms",
+        "journey starts at one flower, then meadow, then orchard, then hive",
+        "deeper door: watching the scout dance, then seeing bees lift off in exactly that direction",
+        "deeper door: peeling back one wax lid and tasting honey that never left the hive",
+        "wider door: a coral reef is like a meadow under the sea, tiny animals building together"
+      ],
+      "gathered_but_unused": [
+        "A honeybee colony can contain tens of thousands of bees, and nearly all of them are female worker bees who gather food, build wax comb, and guard the hive.",
+        "When a bee finds flowers, she returns to the hive and performs a waggle dance that tells her sisters exactly how far away the flowers are and in which direction to fly.",
+        "To make one jar of honey, bees may visit millions of flowers, drinking nectar from each one with their long straw-like tongues.",
+        "Bees carry nectar back to the hive in a special honey stomach, then pass it from bee to bee until it thickens, and finally seal it in a wax comb cell with a little lid.",
+        "As bees drink nectar, yellow pollen sticks to their fuzzy bodies and brushes off onto the next flower they visit, which is how pollination happens.",
+        "Many of the fruits we eat, like apples, cherries, and strawberries, can only grow because bees pollinate the blossoms first.",
+        "A single bee in her whole life makes only about one twelfth of a teaspoon of honey, so every spoonful is the life's work of many bees together.",
+        "Inside the hive, bees keep the temperature just right by fanning their wings to cool it down or huddling together to warm it up."
+      ]
+    },
+    "safety_beat": "In s3, before opening the hive, Grandma June suits and veils the child herself, shows her how to stand to the side of the hive entrance so the bees' flight path stays clear, and moves slowly; competence shown lightly, no warning language, no tension.",
+    "motif": "A trail of golden pollen-dust that marks each step of the journey, from flower to meadow to orchard to comb",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.bees.mystery_001",
+        "title": "Somebody Told the Bees",
+        "pattern": "mystery",
+        "teller": "named_hero",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      },
+      {
+        "story_id": "story.insects.make_and_build_001",
+        "title": "The Grand Bug Hotel",
+        "pattern": "make_and_build",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already moves with the quiet, observational warmth of a shared secret, balancing the grandmother's steady presence with the bee's purposeful work without rushing or over-explaining."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious",
+        "s2a": "leaning in close",
+        "s2b": "wide-eyed wonder",
+        "s3": "held breath",
+        "s4a": "satisfied and hushed",
+        "s4b": "sleepy and glowing"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "32_bees_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

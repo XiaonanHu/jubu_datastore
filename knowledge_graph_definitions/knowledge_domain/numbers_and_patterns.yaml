@@ -1,0 +1,178 @@
+axis: knowledge_domain
+pack: numbers_and_patterns
+nodes:
+  - id: knowledge_domain.counting_and_big_numbers
+    axis: knowledge_domain
+    label: counting_and_big_numbers
+    display_name: "Counting and Big Numbers"
+    region: numbers_and_patterns
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "counting everything in sight; steps, stars, and how high can you go", vocabulary: [count, dozen, hundred]}
+      6: {depth: sensory, framing: "racing to a hundred; skip-counting by twos, fives, and tens", vocabulary: [skip counting, number line, thousand]}
+      7: {depth: mechanism, framing: "how place value works; why the same digit can mean ten or ten thousand", vocabulary: [place value, digit, million]}
+      8: {depth: mechanism, framing: "getting a feel for huge numbers; a billion seconds is about thirty-two years", vocabulary: [billion, estimate, infinity]}
+    edges:
+      adjacent: [knowledge_domain.measuring_things, knowledge_domain.stars_and_constellations, knowledge_domain.money_and_trade]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.shapes_and_symmetry
+    axis: knowledge_domain
+    label: shapes_and_symmetry
+    display_name: "Shapes and Symmetry"
+    region: numbers_and_patterns
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "circles, squares, and triangles hiding all over your house", vocabulary: [circle, triangle, square]}
+      6: {depth: sensory, framing: "fold it in half and it matches; butterfly wings and paper snowflakes", vocabulary: [symmetry, fold, match]}
+      7: {depth: mechanism, framing: "why bees build hexagons; shapes that tile a floor without any gaps", vocabulary: [hexagon, tiling, angle]}
+      8: {depth: mechanism, framing: "solid shapes; how cubes, pyramids, and prisms are built from flat faces", vocabulary: [cube, prism, face]}
+      9: {depth: system, framing: "symmetry as a set of moves; flips, turns, and slides that leave a pattern unchanged", vocabulary: [reflection, rotation, tessellation]}
+      10: {depth: system, framing: "geometry as a builder's tool; how ancient builders made perfect right angles with knotted rope", vocabulary: [geometry, right angle, polygon]}
+    edges:
+      adjacent: [knowledge_domain.patterns_in_nature, knowledge_domain.bridges_and_buildings, knowledge_domain.colors_and_mixing]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.patterns_in_nature
+    axis: knowledge_domain
+    label: patterns_in_nature
+    display_name: "Patterns in Nature"
+    region: numbers_and_patterns
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "stripes, spots, and spirals; patterns painted on animals and shells", vocabulary: [stripe, spot, spiral]}
+      6: {depth: sensory, framing: "nature repeats itself; flower petals, honeycombs, and zebra stripes", vocabulary: [pattern, petal, honeycomb]}
+      7: {depth: mechanism, framing: "why spirals show up everywhere; sunflowers, snail shells, and hurricanes", vocabulary: [sunflower, snail shell, hurricane]}
+      8: {depth: mechanism, framing: "counting nature's patterns; Fibonacci numbers in pinecones and petals", vocabulary: [Fibonacci, pinecone, sequence]}
+      9: {depth: system, framing: "branching patterns; why rivers, trees, lightning, and lungs all look alike", vocabulary: [branching, fractal, network]}
+      10: {depth: system, framing: "how simple rules make rich patterns; a whole flock steered by three small rules", vocabulary: [fractal, self-similarity, flocking]}
+    edges:
+      adjacent: [knowledge_domain.shapes_and_symmetry, knowledge_domain.flowers_and_pollination, knowledge_domain.insects]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.measuring_things
+    axis: knowledge_domain
+    label: measuring_things
+    display_name: "Measuring Things"
+    region: numbers_and_patterns
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "how many hands tall; measuring with feet, hands, and blocks", vocabulary: [tall, heavy, measure]}
+      6: {depth: sensory, framing: "rulers and kitchen scales; why everyone agreeing on units matters", vocabulary: [ruler, centimeter, weigh]}
+      7: {depth: mechanism, framing: "measuring tricky things; time, temperature, and things far too big for a ruler", vocabulary: [thermometer, unit, distance]}
+      8: {depth: mechanism, framing: "measuring without touching; using a shadow to measure a tree, paces to measure a field", vocabulary: [estimate, height, pace]}
+    edges:
+      adjacent: [knowledge_domain.counting_and_big_numbers, knowledge_domain.fractions_in_cooking, knowledge_domain.simple_machines]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.fractions_in_cooking
+    axis: knowledge_domain
+    label: fractions_in_cooking
+    display_name: "Fractions in Cooking"
+    region: numbers_and_patterns
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "half a pizza, a quarter of a sandwich; fair shares you can eat", vocabulary: [half, quarter, share]}
+      8: {depth: mechanism, framing: "reading a recipe; half cups, quarter teaspoons, and doubling a batch of cookies", vocabulary: [recipe, half cup, double]}
+      9: {depth: system, framing: "why half of a half is a quarter; comparing and combining fractions in the kitchen", vocabulary: [numerator, denominator, equivalent]}
+      10: {depth: system, framing: "scaling a recipe up or down; cooking for four versus cooking for twenty", vocabulary: [scale, proportion, batch]}
+    edges:
+      adjacent: [knowledge_domain.measuring_things, knowledge_domain.ratios, knowledge_domain.gardens_and_growing_food]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.ratios
+    axis: knowledge_domain
+    label: ratios
+    display_name: "Ratios"
+    region: numbers_and_patterns
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "recipes as ratios; two parts flour to one part water keeps the dough right at any size", vocabulary: [ratio, part, mixture]}
+      10: {depth: system, framing: "ratios hiding everywhere; map scales, paint mixing, and speed as distance over time", vocabulary: [scale, rate, proportion]}
+    edges:
+      adjacent: [knowledge_domain.fractions_in_cooking, knowledge_domain.probability_and_chance, knowledge_domain.maps_and_globes]
+      prerequisite: [knowledge_domain.fractions_in_cooking]
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.probability_and_chance
+    axis: knowledge_domain
+    label: probability_and_chance
+    display_name: "Probability and Chance"
+    region: numbers_and_patterns
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "likely, unlikely, impossible; coin flips, dice rolls, and why surprises still happen", vocabulary: [probability, likely, coin flip]}
+      10: {depth: system, framing: "counting the ways; why rolling a seven with two dice happens more than rolling a two", vocabulary: [outcome, odds, random], avoid: [gambling encouragement]}
+    edges:
+      adjacent: [knowledge_domain.ratios, knowledge_domain.weather, knowledge_domain.patterns_in_nature]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.codes_and_ciphers
+    axis: knowledge_domain
+    label: codes_and_ciphers
+    display_name: "Codes and Ciphers"
+    region: numbers_and_patterns
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "secret messages; shifting every letter to hide what you wrote", vocabulary: [code, cipher, secret message]}
+      8: {depth: mechanism, framing: "cracking a code; counting which letters show up most to break a secret message", vocabulary: [decode, cipher wheel, clue]}
+      9: {depth: system, framing: "codes machines and hands can read; Morse, braille, and how patterns carry meaning", vocabulary: [Morse code, braille, binary]}
+      10: {depth: system, framing: "the codebreakers; how puzzle-solvers cracked famous ciphers and helped invent computers", vocabulary: [encryption, codebreaker, cryptography], avoid: [graphic wartime detail]}
+    edges:
+      adjacent: [knowledge_domain.computers_and_code, knowledge_domain.languages_of_the_world, knowledge_domain.patterns_in_nature]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

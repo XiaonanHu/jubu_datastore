@@ -1,0 +1,162 @@
+axis: knowledge_domain
+pack: deep_dives_volcanoes
+nodes:
+  - id: knowledge_domain.lava
+    axis: knowledge_domain
+    label: lava
+    display_name: "Lava"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [glowing_rivers, cooling_into_rock, different_speeds, lava_shapes]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a slow orange river that glows like a night light and creeps like honey", vocabulary: [lava, glow, slow], avoid: [people or animals being burned, houses destroyed]}
+      7: {depth: mechanism, framing: "why some lava races and some crawls, and how it hardens into black rock", vocabulary: [flow, harden, crust]}
+      9: {depth: system, framing: "lava as land-maker: new rock, new ground, whole islands built over time", vocabulary: [basalt, lava tube, new land]}
+    edges:
+      adjacent: [knowledge_domain.mars, knowledge_domain.underwater_volcanoes]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.geysers
+    axis: knowledge_domain
+    label: geysers
+    display_name: "Geysers"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [underground_plumbing, eruption_timing, steam_clouds, mineral_terraces]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a quiet little puddle that whooshes a tall spout of warm water into the sky, then goes flat and calm again", vocabulary: [geyser, spout, steam], avoid: [anyone stepping into scalding water, animals hurt by hot springs, geysers treated as traps or dangers]}
+      7: {depth: mechanism, framing: "rain and snowmelt sink into cracks, hot rock heats the trapped water, and up it comes all at once", vocabulary: [underground water, pressure, erupt], avoid: [scalding injuries, falling into a hot pool]}
+      9: {depth: system, framing: "geyser basins as a sign of heat close to the surface, and the stone terraces the mineral-rich water builds over centuries", vocabulary: [geothermal, mineral terrace, geyser basin]}
+    edges:
+      adjacent: [knowledge_domain.water_cycle, knowledge_domain.moons, knowledge_domain.saturn]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.volcanic_islands
+    axis: knowledge_domain
+    label: volcanic_islands
+    display_name: "Volcanic Islands"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [island_birth, black_sand_beaches, first_life_arriving, hot_spot_chains]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "brand-new land poking up out of the sea, with warm black sand nobody has ever walked on", vocabulary: [island, black sand, new land], avoid: [boats wrecked on the new island, being stranded alone at sea, islands sinking under people]}
+      7: {depth: mechanism, framing: "an underwater volcano piling up layer on layer of cooled lava until the top finally breaks the surface", vocabulary: [seafloor, layer, shoreline], avoid: [being stranded alone at sea]}
+      9: {depth: system, framing: "how bare rock slowly becomes a living island as seeds drift in and birds arrive, and how one hot spot builds a whole chain", vocabulary: [hot spot, colonize, archipelago]}
+    edges:
+      adjacent: [knowledge_domain.islands, knowledge_domain.sea_turtles, knowledge_domain.crabs, knowledge_domain.ants, knowledge_domain.earth_from_space]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.hot_springs
+    axis: knowledge_domain
+    label: hot_springs
+    display_name: "Hot Springs"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [steaming_pools, rainbow_edges, animal_bathers, mineral_smells]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "warm pools that steam in the cold morning air, with rainbow rings painted around their edges", vocabulary: [steam, warm, pool], avoid: [scalding water, falling into a hot pool, animals hurt in hot water]}
+      7: {depth: mechanism, framing: "rain sinks down through cracks, warms up against hot rock deep below, and comes back up as a hot bath", vocabulary: [mineral, spring, heat], avoid: [scalding injuries, falling into a hot pool]}
+      9: {depth: system, framing: "the tiny life that lives only in hot water, and how it paints the pools orange, green and blue", vocabulary: [microbe, terrace, sulphur]}
+    edges:
+      adjacent: [knowledge_domain.crickets]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.ash_clouds
+    axis: knowledge_domain
+    label: ash_clouds
+    display_name: "Ash Clouds"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [grey_sky, orange_sun, soft_falling_ash, ash_feeding_soil]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the sky goes soft grey and the sun turns orange, and grey dust drifts down like the quietest snow", vocabulary: [ash, cloud, grey], avoid: [choking on ash, towns buried in ash, anyone needing to run away]}
+      7: {depth: mechanism, framing: "how a volcano puffs out tiny bits of powdered rock that the wind carries far away before they settle", vocabulary: [particle, drift, settle], avoid: [choking on ash, planes in trouble]}
+      9: {depth: system, framing: "ash as a gardener: it dusts the land, breaks down over years, and makes the soil rich enough to grow forests", vocabulary: [fertile, mineral dust, plume]}
+    edges:
+      adjacent: [knowledge_domain.venus, knowledge_domain.jupiter]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.volcanic_rocks
+    axis: knowledge_domain
+    label: volcanic_rocks
+    display_name: "Volcanic Rocks"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [floating_pumice, shiny_obsidian, bubbly_holes, rock_collecting]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a rock so full of bubbles it floats in the bath, and another as black and shiny as a mirror", vocabulary: [rock, bubble, shiny], avoid: [sharp edges cutting hands, putting rocks in mouths]}
+      7: {depth: mechanism, framing: "why lava that cools fast turns glassy and lava full of trapped gas turns light and holey", vocabulary: [cool, harden, glassy], avoid: [sharp edges cutting hands]}
+      9: {depth: system, framing: "reading a rock like a story: its holes, colour and weight tell you how the lava that made it behaved", vocabulary: [pumice, obsidian, texture]}
+    edges:
+      adjacent: [knowledge_domain.mercury, knowledge_domain.beetles, knowledge_domain.ankylosaurus]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.craters
+    axis: knowledge_domain
+    label: craters
+    display_name: "Craters"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [bowl_shapes, crater_lakes, steam_vents, craters_on_other_worlds]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a giant bowl scooped into the top of a mountain, sometimes filled with the bluest lake you have ever seen", vocabulary: [crater, bowl, lake], avoid: [falling into a crater, climbers in trouble]}
+      7: {depth: mechanism, framing: "how the top of a volcano sinks in after the lava below empties out, leaving a wide hollow", vocabulary: [hollow, collapse, rim], avoid: [falling into a crater]}
+      9: {depth: system, framing: "craters as records: rain fills them, plants ring them, and the same round shapes show up on the Moon and other planets", vocabulary: [caldera, crater lake, rim]}
+    edges:
+      adjacent: [knowledge_domain.mercury, knowledge_domain.moons]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.underwater_volcanoes
+    axis: knowledge_domain
+    label: underwater_volcanoes
+    display_name: "Underwater Volcanoes"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.volcanoes
+    facets: [pillow_lava, hot_vents, deep_dark_creatures, seafloor_mountains]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "mountains that puff warm water at the bottom of the dark sea, where lava cools into shapes like stacked pillows", vocabulary: [deep, warm water, mountain], avoid: [drowning, anyone being burned by the vents]}
+      7: {depth: mechanism, framing: "why lava under all that cold water hardens almost instantly into round blobs instead of running far", vocabulary: [seafloor, vent, cool quickly], avoid: [drowning]}
+      9: {depth: system, framing: "whole neighbourhoods of animals crowding around hot vents in the dark, living on chemicals instead of sunlight", vocabulary: [hydrothermal vent, mid-ocean ridge, chemical energy]}
+    edges:
+      adjacent: [knowledge_domain.deep_sea_fish, knowledge_domain.coral_reefs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

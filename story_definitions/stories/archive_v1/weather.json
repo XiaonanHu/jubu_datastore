@@ -1,0 +1,125 @@
+{
+  "id": "story.weather.romp_001",
+  "title": "The Day the Sky Played Copycat",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.weather",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "Our cloud-shapes game gets wonderfully out of hand when the sky starts copying us, and we end the game our own way.",
+  "slots": {
+    "cloud_shape": {
+      "role": "the cloud shape we ask the sky to make, chosen at the first choice",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "dragon"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It is a warm, sunny afternoon, and we are lying on our big soft blanket in the yard. Our cups are full of lemonade. The sky is full of puffy white clouds. So we play our favorite game, cloud shapes. That one looks like a sock. That one looks like a pancake. Then we spot a cloud that looks almost like a bunny. All it needs is one more ear. We say so, right out loud. And the wind must be listening, because the cloud stretches, and pop, there is the ear! A perfect cloud bunny, hopping slowly across the blue. We sit straight up on the blanket. Did the sky just play along? We test it. We ask the bunny for a longer tail. The bunny grows a longer, fluffier tail! We look at each other with big round eyes. The sky wants to play cloud shapes with us. A whole sky, waiting for our next idea, like a giant blue page. We should ask for something really good this time. What shape should we call out next?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Dragon, we call, and the sky gets to work. Three clouds squish together. One becomes a long swishy tail. One becomes two floppy wings. One becomes a head with a curly snout. Our cloud dragon is finished, and it is the silliest dragon ever. It cannot breathe fire, because it is made of cloud. Instead, when it huffs, it puffs out tiny white cloud rings. When it sneezes, achoo, a sprinkle of drizzle tickles our noses. We giggle and stick out our tongues to catch the drops. The dragon chases its own tail, around and around, until it ties itself in a big fluffy knot. It has to wait for the wind to untie it. Then it plays peekaboo near the big oak tree, which does not work at all, because dragons are much bigger than oak trees. We clap and cheer from the blanket. The dragon takes a wobbly bow, and its wing bumps another cloud into a squashed pancake shape. The pancake cloud does not seem to mind. This game is getting good.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Whale, we call, and the sky gets to work. One giant cloud stretches long and round, like a pillow stuffed with more pillows. A wide flat tail puffs out at one end. A little cloud eye winks down at us. Our cloud whale is finished, and she is magnificent. She swims across the blue with slow, happy flips of her tail. Then, fwoosh, she spouts! A tall fountain of misty cloud sprays up from the top of her head, curls over, and turns into six tiny baby clouds. So that is where little clouds come from, at least in this game. The baby clouds line up after her, like ducklings after their mama. Wherever the whale swims, the wind makes soft rolling waves for her. We wave from the blanket, and she flaps her big tail back at us. Fwoosh, another spout, and now there are even more baby clouds. They are multiplying! One baby cloud looks exactly like our lemonade cup. We hold up our real cup to compare. It matches perfectly.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Then the game gets wonderfully out of hand. Our {cloud_shape} cloud starts copying us! We wave one arm. It waves back with a puffy cloud arm of its own. We hop on the blanket. It bounces in the sky. We do our silliest dance, wiggle, wiggle, spin, and the whole sky joins in. Now every cloud is copying every move we make. When we flop down, the clouds flop into flat cloud pancakes. When we jump up, they leap like popcorn. Soon the sky is crowded from corner to corner with copycat shapes. It is the funniest sky anyone has ever seen. But there is one small snag. All those crowding clouds have covered up the sun. Our cozy blanket sits in cool shade now, and a soft drizzle is sprinkling into our lemonade. The clouds hover and wait for our next move, jiggling like they are holding in a giggle. It is our game, so it needs our ending. Every good playtime needs a good goodnight. How should we end our cloud game?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Wind, we call. Big friendly wind! And here it comes, rolling over the fence and swishing through the grass. It lifts our hair. It flutters the corners of the blanket. Then it sweeps up into the crowded sky and gets to work. The wind tickles the clouds apart, one by one. The copycat shapes wobble, jiggle, and stretch into long white ribbons. That is the wind's real job, after all. Wind is the great cloud mover. It pushes clouds across the sky, the way we push toy boats across a puddle. Our {cloud_shape} cloud is the very last to go. It waves goodbye and lets the wind carry it away, off to play over some other lucky yard. Sunshine spills back over the blanket, warm as toast. The drizzle stops. The sky is wide and blue, with just three small puffs left, drifting like sleepy sheep. We flop back down with our lemonade and let the sun warm our toes. What a game. And far away, the wind is still humming.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We stand up on the blanket and give the sky a slow, gentle wave. Goodnight, clouds. Thank you for playing with us. The clouds copy us one last time, waving back with a thousand fluffy arms. Then, because they are copycats, they copy our quiet too. They stop bouncing. They spread out soft and thin, like a blanket being smoothed for bed. The sky turns the cozy golden color of almost-dinnertime. The drizzle gives one last tiny sprinkle and stops. Our {cloud_shape} cloud drifts down low to say goodbye. Slowly it stretches, and it yawns itself into one long white wisp, thin as a ribbon. We blow it a kiss. The sun peeks back out, low and golden, and warms the blanket just right for one last snuggle. We pour out the last of the lemonade and clink our cups to the sky. Tomorrow there will be brand-new clouds and a brand-new game. But tonight the sky is tucked in, and so is our game. Goodnight, sky. See you tomorrow.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "The sky is waiting for our next idea. What shape do we ask it to make?",
+      "options": [
+        {
+          "say_word": "dragon",
+          "label": "A huffing, puffing cloud dragon",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "cloud_shape": "dragon"
+          }
+        },
+        {
+          "say_word": "whale",
+          "label": "A spouting cloud whale, to see where her cloud-water goes",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "cloud_shape": "whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The clouds are waiting for our ending. How should we end our cloud game?",
+      "options": [
+        {
+          "say_word": "wind",
+          "label": "Call the friendly wind to tickle the clouds apart",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "goodnight",
+          "label": "Tuck the clouds in with a goodnight wave",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

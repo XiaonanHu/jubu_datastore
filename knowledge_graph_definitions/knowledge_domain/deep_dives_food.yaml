@@ -1,0 +1,82 @@
+axis: knowledge_domain
+pack: deep_dives_food
+nodes:
+  - id: knowledge_domain.in_the_kitchen
+    axis: knowledge_domain
+    label: in_the_kitchen
+    display_name: "In the Kitchen"
+    region: people_and_places
+    tier: deep_dive
+    subtopic_of: knowledge_domain.farms_and_food
+    facets: [mixing_and_measuring, heat_changes_food, following_a_recipe, cooking_for_someone]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "stirring a bowl of squishy dough, watching pancake bubbles pop, and the smell that says dinner is nearly ready", vocabulary: [stir, mix, bake], avoid: [knives and burns as danger-drama, dieting or "bad foods"]}
+      7: {depth: mechanism, framing: "how heat changes food for good: runny egg turns solid, pale dough turns golden, and why you can't un-bake a cake", vocabulary: [recipe, melt, ingredient], avoid: [knives and burns as danger-drama, dieting or "bad foods"]}
+      9: {depth: system, framing: "a recipe as instructions anyone can follow, and cooking as a gift: making something with your own hands for someone to eat", vocabulary: [measure, temperature, seasoning], avoid: [dieting or "bad foods"]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.foods_around_the_world
+    axis: knowledge_domain
+    label: foods_around_the_world
+    display_name: "Foods Around the World"
+    region: people_and_places
+    tier: deep_dive
+    subtopic_of: knowledge_domain.farms_and_food
+    facets: [breakfasts_of_the_world, eating_with_hands_chopsticks_forks, festival_foods, trying_something_new]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "somewhere right now a kid is eating warm rice for breakfast, and somewhere else it's flatbread with honey", vocabulary: [breakfast, rice, noodles], avoid: [ranking cuisines, calling any food weird or gross]}
+      7: {depth: mechanism, framing: "why hands, chopsticks and forks are all clever tools for the same job, and how the food shapes the way you eat it", vocabulary: [chopsticks, tortilla, spice], avoid: [ranking cuisines, calling any food weird or gross]}
+      9: {depth: system, framing: "food as how a family says who they are: festival dishes, recipes handed down, and what it means to be offered a taste", vocabulary: [tradition, festival, cuisine], avoid: [ranking cuisines, calling any food weird or gross]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.sweet_treats
+    axis: knowledge_domain
+    label: sweet_treats
+    display_name: "Sweet Treats"
+    region: people_and_places
+    tier: deep_dive
+    subtopic_of: knowledge_domain.farms_and_food
+    facets: [how_ice_cream_gets_creamy, bubble_tea_pearls, treats_around_the_world, saving_room_for_dessert]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "cold ice cream melting on your tongue, and chewy pearls hiding at the bottom of a bubble tea cup", vocabulary: [ice cream, cold, sweet], avoid: [sugar-shaming, treats as rewards for behaviour]}
+      7: {depth: mechanism, framing: "why ice cream is creamy instead of icy: stirring while freezing keeps the crystals tiny, and bubble tea pearls are chewy balls cooked from a stretchy root", vocabulary: [freeze, creamy, tapioca], avoid: [sugar-shaming, treats as rewards for behaviour]}
+      9: {depth: system, framing: "treats around the world and why sweet-and-cold feels special everywhere: mochi, gelato, kulfi, and the treats families save for celebrations", vocabulary: [gelato, dessert, celebration], avoid: [sugar-shaming, treats as rewards for behaviour]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.where_breakfast_comes_from
+    axis: knowledge_domain
+    label: where_breakfast_comes_from
+    display_name: "Where Breakfast Comes From"
+    region: people_and_places
+    tier: deep_dive
+    subtopic_of: knowledge_domain.farms_and_food
+    facets: [milk_to_butter, wheat_to_toast, eggs_from_hens, the_journey_to_your_table]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the milk in your cup was inside a cow yesterday, and the toast in your hand began as a whole field of wheat", vocabulary: [milk, wheat, egg], avoid: [dieting or "bad foods"]}
+      7: {depth: mechanism, framing: "flour is smashed wheat, butter is shaken cream, and an egg is a little breakfast a hen made overnight", vocabulary: [flour, churn, harvest], avoid: [dieting or "bad foods"]}
+      9: {depth: system, framing: "trace one breakfast backwards — the farm, the mill, the truck, the shop — and count the dozens of hands at work before your first bite", vocabulary: [farm to table, mill, deliver], avoid: [dieting or "bad foods"]}
+    edges:
+      adjacent: [knowledge_domain.in_the_kitchen, knowledge_domain.foods_around_the_world]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

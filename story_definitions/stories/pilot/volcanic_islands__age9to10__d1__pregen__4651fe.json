@@ -1,0 +1,319 @@
+{
+  "id": "story.volcanic_islands.age9to10.d1.pregen.4651fe",
+  "title": "Footprints Across the Sea",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.volcanic_islands",
+    "sel_theme": null,
+    "value_lesson": "Patience and slow work: bare rock becomes a forest one lichen, one seed, one bird at a time",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A boat journey island by island backward through time, from the oldest green island to the youngest steaming rock, following one patient hot spot's chain of footprints.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Look at Kolo,\" says Captain Nalei. \"He is doing something nobody taught him.\"\n\nThe little mynah bird hops across the path, a seed in his beak. He drops it into the dark soil. He pats it down with his foot. Then he tilts his head at you, as if to say, well?\n\n\"What is he doing?\" you ask.\n\n\"Planting,\" says Nalei. \"Every green thing on this island arrived by traveling. By wing, by wave, by wind. Kolo is just helping.\"\n\nYou look around. The jungle is so thick here you cannot see the ground, let alone rock. Vines hang like ropes. Birds you cannot see are shouting at each other in the canopy. It is hard to imagine this place as anything other than what it is.\n\nNalei crouches beside you. \"This island is the oldest of the whole chain,\" she says. \"An archipelago — that is the word for a family of islands. And this family has a secret. Under the sea, far below our boat, there is one hot spot in the earth. It never moves. But the sea floor slides over it, slow as a fingernail growing. So the hot spot builds an island, and the floor carries it away, and the hot spot builds another. One fire, making island after island after island.\"\n\nKolo hops closer, head tilted the other way now.\n\n\"The youngest island is bare black rock,\" Nalei says. \"Nothing alive on it at all. Not one leaf.\"\n\n\"Nothing?\" you say.\n\n\"Nothing yet.\"\n\nShe stands and looks out at the water, where other islands fade in a line toward the horizon.\n\n\"I could show you,\" she says. \"Sail the chain backward, oldest to youngest, and watch the jungle come off like a coat. By the end of the week you would stand on the newest rock in the world, and you would know exactly how it begins.\"\n\nKolo gives one short chirp, and flutters to the boat's rail.\n\n\"He wants to come,\" says Nalei. \"So. Shall we?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The anchor splashes down in water so clear you can see the shadow of the boat on the sand below. \"Toes off,\" says Nalei, and you wade ashore onto a beach that glitters like spilled pepper.\n\nThe sand is warm under your feet. Not warm like a beach at home, warm like bread just out of the oven. You dig your toes in and the warmth goes deeper.\n\nA green sea turtle sleeps at the high edge of the beach, flippers tucked, looking like a boulder somebody polished. Kolo hops toward it, stops a respectful hop away, and tilts his head.\n\n\"She knows something we don't,\" Nalei says. \"Sea turtles only rest where they feel safe.\" She scoops up a handful of sand and lets it fall through her fingers. The grains are sharp, not smooth like the sand at home. \"When the hot lava hit the cold ocean,\" she says, \"it cracked into a million pieces. The waves have been tumbling those pieces ever since, grinding them smaller and smaller.\"\n\nYou hold out your hand. The sand sticks to your wet palm, black and shining. Kolo pecks at a sparkle near your thumb, gentle as a question.\n\n\"So the beach is just the mountain,\" you say, \"crumbled up?\"\n\n\"The mountain, the waves, and a hundred years of patience,\" says Nalei. The turtle sighs in her sleep, a long breath that ruffles the sand beside her shell.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "The boat rolls over deep blue water, and Nalei taps a screen bolted beside the wheel. \"Look here,\" she says. \"The mountain's other half.\"\n\nThe screen shows a green slope dropping away under the boat. Down and down it goes, past numbers you have to count twice, until the line flattens into darkness.\n\n\"That is how tall the volcano really is,\" Nalei says. \"Taller than the biggest building you have ever seen. Taller than the hill behind your school. Most of it has been underwater the whole time.\"\n\nYou grip the rail. The island behind you suddenly looks like a hat on a giant's head.\n\nKolo balances on the bowsprit, feathers ruffled by the wind. Ahead, a splash of silver leaps from the water — flying fish, their wings catching the sun before they splash back. Kolo watches them go, head whipping from side to side.\n\n\"Travelers,\" says Nalei, pointing at a line of white birds wheeling toward the next island. \"Just like the first ones. Seeds stuck to their feathers, or in their bellies. They land on bare rock and leave life behind.\"\n\nThe next island rises ahead, green and cloudy at its peak. Kolo gives one short chirp, as if he recognizes it. The boat rises on a swell, and you feel the whole mountain moving beneath you, slow and steady as a sleeping breath.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Kolo flies ahead of us the whole way, island to island, as if he is checking his work.\n\nBy the third morning the jungle is thinning. The vines let go. The trees shrink. And then we step out onto bare black lava that clicks under our shoes, and the only green is pale crusty lichen spreading over the rock like the island's first freckles.\n\n\"Lichen,\" says Nalei. \"The first colonists. Anything that can live on bare rock and make soil for whoever comes next.\"\n\nIn the cracks, ferns are unrolling. A little ohia tree holds on sideways, its red flower the brightest thing for a mile. Kolo hops from crack to crack, inspecting every one. He drops his seed beside the ohia and pats it down.\n\n\"Same as before,\" you say. \"Every island, he plants.\"\n\n\"He is showing you the whole story,\" Nalei says. \"Look back.\"\n\nBehind us the islands stand in a line, green to grey to black, like footprints walking away across the sea.\n\n\"But why does the line go that way?\" you ask.\n\nNalei kneels. She lights a candle and holds a paper plate above the flame, and slides the plate slowly sideways. The flame never moves. The burn mark does.\n\n\"One hot spot,\" she says. \"The plate of earth slides over it, slow as a fingernail growing. The hot spot stays. It builds an island, the floor carries it off, it builds another.\"\n\nYou stare at the burn mark. Then at the line of islands.\n\n\"So the youngest one—\" you say.\n\n\"Is straight ahead,\" says Nalei. \"Still being built. What did you find back there? Keep it close. The new rock is where it all starts.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We climb into the clouds.\n\nMika the volcanologist leads, and Kolo rides her shoulder, feathers flat in the wind. The path is old lava, ropey and grey, and it crunches under our shoes. \"Feel that?\" Mika says. \"Sharp edges. Young rock. Up top it is older, smoother. The island has been sitting here longer.\"\n\nThen the cloud breaks, and we are standing on the crater rim.\n\nBelow us the bowl drops away, red-brown and enormous, quiet as a held breath. This is where it began. One hot spot, far below, pushing rock up through the sea until it broke the waves and became an island.\n\nMika crouches and touches the rim. \"You can read lava like a book,\" she says. \"Red-brown and rough, that is old. Black and shiny, that is young. This rim has been resting a long time.\"\n\nKolo hops to the very edge and tilts his head at the bowl, at us, at the sky. A gust takes one of his feathers. It spins, lands at my feet, and I tuck it into my pocket.\n\n\"Look out,\" Mika says softly.\n\nOn the horizon, beyond the haze, more islands stand in a line. Grey, green, ghostly. The chain keeps walking away across the sea, past what we can see, and every single one began in a bowl like this one.\n\n\"How far does it go?\" you ask.\n\n\"Further than anyone has ever followed it,\" Mika says. \"Footprints across the sea.\"\n\nKolo chirps once, sharp and bright, and flutters to your shoulder. In your pocket the feather lies light as a whisper. Somewhere far below, the hot spot is already building again.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The new shore is black and bare, and it hums.\n\nMika the volcanologist walks ahead, slow and careful, across ropey lava that looks like giant braids of dark taffy. \"Only a few years old,\" she says. \"The youngest land on Earth. Feel through your shoes.\"\n\nYou stop. The rock is warm. Not hot, just warm, like bread an hour out of the oven. The whole island is still cooling.\n\nKolo hops across the braids, feet quick, head tilting at every crack. Nothing grows here. No lichen, no ferns. Just black rock and the sea and us.\n\n\"Stay where I step,\" Mika says, easy as anything. \"The safe crust sounds hollow. The thin places sound different. Listen.\" She taps the rock with her stick. Tok. Tok. Solid and sure.\n\nThen the light begins to change.\n\nDusk comes down purple and soft, and where the lava meets the water, the sea glows faint orange. It hisses like a giant kettle. Plumes of steam rise and curl, and the glow pulses, slow, like something breathing.\n\n\"It is still going,\" you whisper.\n\n\"Always,\" says Mika. \"Look out there.\"\n\nShe points past the glowing water, out to the dark swells. \"Under those waves, a brand-new island is climbing toward the sunlight. It has been growing for thousands of years. Someday it will break the surface, and birds will come, and seeds, and it will be the youngest of the chain.\"\n\nKolo flutters to a warm rock and stands very still, watching the orange water.\n\nOn the black sand at your feet, something glints. A smooth piece of sand glass, the sea has already begun to polish. You pick it up. It is warm.\n\n\"The chain is still growing,\" Mika says. \"You are standing on the newest page.\"\n\nKolo gives one soft chirp, and the sea hisses back, and the glass in your pocket holds the warmth of a brand-new world.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"First stop, explorer. Do you want to dig your toes into the black sand beach and meet the turtle, or ride the deep water and see the mountain hiding under the sea?\"",
+      "options": [
+        {
+          "say_word": "The beach",
+          "label": "Stop at the middle island's black sand beach",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The deep",
+          "label": "Sail the deep water and watch the depth finder",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Here's the youngest island, and you get to choose how to meet it. Climb with me to the crater rim and look down into where it all began — or walk the new shore where the lava is still warm and the next island is growing under the waves?\"",
+      "options": [
+        {
+          "say_word": "The rim",
+          "label": "Climb to the crater rim above the clouds",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The shore",
+          "label": "Walk the warm youngest shore at dusk",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.volcanic_islands",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's core material—a hot spot building a chain of islands over time, with seeds drifting and birds arriving to colonize bare rock—is inherently about movement and transformation across space, making journey the most natural fit for showing how an archipelago grows.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3226,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2581,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2258,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0645,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0645,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0387,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Kolo the curious mynah bird, who follows the travelers everywhere, tilting his head at every marvel and asking the wordless questions a curious child would ask",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and slow work: bare rock becomes a forest one lichen, one seed, one bird at a time",
+      "why": "The material offers it naturally — the entire journey is a trip backward through millions of years of slow building, and the captain's photo-album way of reading the islands makes patience visible rather than preached."
+    },
+    "cast": [
+      {
+        "role": "Captain Nalei, a boat captain who grew up sailing the archipelago",
+        "reused": false,
+        "why": "The journey pattern needs a guide who can steer island to island and read the chain like a photo album; she carries the big_adventure tone with her easy seafaring confidence."
+      },
+      {
+        "role": "Mika, a young volcanologist studying the youngest island",
+        "reused": false,
+        "why": "Needed on the young islands to show how to read lava's age by color and texture, and to let the hero feel warm rock safely near a recent flow."
+      },
+      {
+        "role": "Kolo, a curious mynah bird",
+        "reused": false,
+        "why": "Carries the curious_wonder accent singlehandedly; also embodies the colonize theme by carrying seeds and feathers between islands, tying the whole chain together."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "oldest island where jungle is so thick you can't see the rock",
+        "boat sailing the archipelago from oldest island toward youngest",
+        "black sand beaches made when hot lava shatters in cold ocean water",
+        "lichen as the first living thing, breaking rock into beginnings of soil",
+        "seeds traveling hundreds of miles to colonize new islands",
+        "hot spot holding still while the plate slides over it like paper over a candle",
+        "Hawaiian chain growing older to the northwest, like footprints",
+        "Loihi, the new island growing underwater",
+        "seabirds fertilizing bare rock so plants can take hold",
+        "green sea turtles resting on black sand",
+        "depth finder revealing most of the island hidden beneath the sea",
+        "crater rim glimpse of other islands on the horizon"
+      ],
+      "gathered_but_unused": [
+        "When a volcanic island is born from the sea, it starts as bare black rock with no plants, no animals, and no soil at all.",
+        "Lichen is usually the first living thing to grow on bare volcanic rock, and it slowly breaks the rock down into the beginnings of soil.",
+        "Seeds can travel hundreds of miles across the ocean to colonize a new island, floating on the water, blowing on the wind, or sticking to a bird's feathers.",
+        "Black sand beaches are made when hot lava hits cold ocean water and shatters into tiny pieces, then waves grind those pieces into sand.",
+        "A hot spot is a place deep in the Earth where heat rises in one spot, and it can keep building volcano after volcano for millions of years.",
+        "The Hawaiian islands formed one at a time as the Pacific plate slid over a single hot spot, so the islands get older the farther northwest you go.",
+        "Seabirds arriving at a new island bring more than themselves: their droppings fertilize the ground and help plants take hold.",
+        "On the youngest part of Hawaii, a brand-new island called Loihi is already growing underwater and will rise above the waves in tens of thousands of years."
+      ]
+    },
+    "safety_beat": "On the youngest shore (s4b) and at the crater rim (s4a), Mika the volcanologist shows once, lightly, that she knows where to stand — picking the cooled ropey path and tapping the rock to test it before the hero steps — pure competence, no warning or tension.",
+    "motif": "The mynah bird's single seed, carried island to island, showing how every living thing arrived by traveling",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanic_islands.quiet_hour_001",
+        "title": "Old Marta and the Island That Was Not There",
+        "pattern": "quiet_hour",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      },
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already braids wonder, warmth, and real science into a single journey whose structure (sailing the chain backward in time) is itself the lesson, and the sound of it read aloud — the tok tok of the stick, the hissing sea, Kolo's single chirps — lands exactly as a bedtime voyage should."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and invited, a door opening",
+        "s2a": "barefoot wonder, toes in warm sand",
+        "s2b": "wide-eyed, small against a giant",
+        "s3": "leaning in as the pattern clicks into place",
+        "s4a": "held breath on the crater rim, then a kept feather",
+        "s4b": "hushed and glowing, satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "fail",
+        "notes": "1 blocking, 6 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.6); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] banned language: 'ahead of'; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['hero_name', 'keepsake']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] banned language: 'ahead of'",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] banned language: 'ahead of'",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['hero_name', 'keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "04_volcanic_islands_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

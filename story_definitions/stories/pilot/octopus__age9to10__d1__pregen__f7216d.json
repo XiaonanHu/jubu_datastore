@@ -1,0 +1,318 @@
+{
+  "id": "story.octopus.age9to10.d1.pregen.f7216d",
+  "title": "Ocho and the Sealed Jar",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.octopus",
+    "sel_theme": null,
+    "value_lesson": "Persistence pays off: each failed try teaches something new",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A clever octopus uses trial and error to open a stubborn jar, proving that being a problem solver beats using strength alone.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Ocho the octopus lived in a cozy den beneath a rocky ledge, where the tide pool shone like a coin in the sun. All around him sat his collection: jars of every shape, every one of them opened. Pickle jars. Jam jars. A jar that once held eighteen pickles and now held exactly one very proud octopus memory. Ocho was a problem solver, you see. Give him a lid, and his eight arms would get to work like a thinking machine—twisting, pulling, testing, until pop. Open.\n\nToday, something new gleamed at the edge of the pool. A glass jar, washed in by the morning tide. And inside it, the outline of something round and golden. A sleeping crab cake, still dreaming.\n\nNib the hermit crab scuttled sideways out from behind a shell, clicking his claws so fast they sounded like tiny castanets. Click-click-click. \"A jar! A jar! And it's sealed! Ocho, it's sealed!\"\n\n\"I see it,\" said Ocho.\n\nHe wrapped one tentacle around the glass. Cool. Smooth. He wrapped another around the lid and gave it a twist.\n\nNothing.\n\nHe tried the other way. Nothing again. His eight arms settled around the jar like a huddle of thinkers, each one holding a different part, waiting for a plan.\n\n\"Well?\" said Nib, practically vibrating inside his borrowed shell.\n\n\"This lid,\" Ocho said slowly, \"is not like the others.\"\n\nAnd that was when his eyes lit up—because a new kind of lid meant a new kind of puzzle, and a new kind of puzzle was Ocho's favorite thing in the whole tide pool.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Pull,\" said Ocho. \"Good old pull.\"\n\nHe planted himself on the sand and wrapped all eight arms around that lid—one over the top, two on the sides, the rest wherever they fit. A huddle of thinkers with one single idea. He pulled. He pulled harder. His suckers gripped, squeaked, and slipped. Squeak-slip. Squeak-slip. The smooth glass would not hold them, not even for a moment.\n\n\"Pull! Pull!\" clicked Nib, dancing sideways in a circle.\n\nOcho gave one last mighty tug, and his suckers popped off all at once—pop, pop, pop-pop-pop—like a row of little corks. He tumbled backward into the sand, arms over head over arms, and lay there blinking up at the tide pool sky.\n\nNib hurried over and peered down at him. \"Ocho. Your arms are all knotted.\"\n\n\"I noticed,\" said Ocho.\n\nHe sat up slowly, sand sliding off his head, and looked at the jar again. It had not moved even a whisker. But now, up close, he saw something. The lid had ridges—little bumps running round and round in a spiral.\n\nNib tapped one with his claw. Tink. \"These aren't for pulling,\" he said. \"These are for turning. See how they wind? Like my shell. Like a path that goes around and around.\"\n\nOcho ran one tentacle along the spiral ridge, following it with his sucker tips, and his eyes went wide and bright. \"It's not a pop-top,\" he whispered. \"It's a twist-top. And I tried to yank it straight off.\"\n\n\"We all make mistakes,\" said Nib kindly, patting Ocho's arm with one small claw. \"Even thinking machines.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Squeeze,\" said Ocho. \"Like a stubborn clam.\"\n\nHe wrapped his tentacles around the whole jar—around and around and around, the way he did with clamshells on good days, when one strong hug was all it took to pop them open. His eight arms settled over the glass like a net, and he began to press.\n\nThe jar pressed back.\n\n\"Tighter!\" clicked Nib, hopping from foot to foot. \"Tighter, Ocho!\"\n\nOcho squeezed tighter. And then he heard it. A tiny sound, so small he almost missed it. Tink. A thin, bright line had appeared in the glass, right where his strongest arm was pressing. A crack.\n\nOcho stopped. His whole body went still. Slowly, gently, he unwound his arms, one by one, and set the jar down on the sand as carefully as a mother setting down a sleeping baby.\n\n\"Did it open?\" said Nib, scuttling closer.\n\n\"No,\" said Ocho. \"And it very nearly broke. This jar is not a clam, Nib. It's fragile. It needs a gentler touch than that.\"\n\nHe sat back on his arms and looked at the jar, and the jar sat there looking back, still sealed, still whole, but only just. Nib crept up beside it and tapped the lid with one claw. Tink. Then he tapped the ridges—those little bumps running round and round in a spiral.\n\n\"Look at these,\" said Nib. \"They wind like my shell. Around and around. I don't think this lid wants squeezing. I think it wants turning.\"\n\nOcho touched one ridge with the tip of a tentacle, and his eyes lit up. \"A spiral,\" he breathed. \"It's a twist-top. And I nearly crushed it.\"\n\n\"But you didn't,\" said Nib. \"You listened. That's what thinking machines do.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Nib clicked his claws, quick as rain on a tin roof. \"Well? What did you find? Tell me everything.\" Ocho ran one tentacle along the lid, slow and sure, feeling every bump and groove. \"This lid doesn't want to be pulled,\" he said. \"And it doesn't want to be squeezed. It wants to turn. Like a wheel. Like the slowest, most patient wheel in the sea.\" He wrapped one strong arm around the lid itself, just for grip. His other seven arms settled around the glass below, holding the jar steady, each one doing its own quiet job. Eight arms, thinking together, like a thinking machine. \"Ready?\" said Ocho. \"Ready,\" said Nib, holding his breath inside his shell. Ocho turned. Not fast. Not hard. Just slowly, steadily, the way you turn a door handle when you're trying not to wake anyone. The lid resisted. Then it gave. Click. The tiniest sound, but Ocho felt it travel up his arm like a small spark of triumph. He kept turning. Click-click. And then, with a soft, satisfied pop, the lid came free. A smell rose out of the jar, warm and golden, and drifted through the tide pool like a invitation. Nib's eyes went wide. \"You did it,\" he whispered. \"You actually did it.\" Ocho held the open jar gently, like something precious. \"We did it,\" he said. \"Eight arms. One jar. And one very good clue.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Click-click-click. Nib froze. A shadow slid over the pool, wide and slow, turning the water gray. \"Shark,\" he whispered. Ocho didn't run. He dropped flat against the bottom, and his skin changed. The rusty red faded. Speckles of sand bloomed across his back, brown and gold and gray, until there was no octopus at all. Just sand. Just shadow. Just a jar sitting on the ocean floor like it had always been there. Nib tucked himself into his shell, one eye peeking out. The shadow circled. Once. Twice. Ocho stayed so still that a tiny fish landed on his arm, thinking he was a rock. He didn't even blink. Then the shadow grew thin, and thinner, and was gone. Nib burst out clicking. \"You vanished! You actually vanished!\" \"Eight arms,\" said Ocho, his color washing back like a sunrise, \"and one very patient octopus.\" They carried the jar home between them, and there in the den they split the crab cake, half for a crab, half for an octopus, and it tasted like triumph. Afterward, Ocho set the empty jar on the shelf with the others. \"That one,\" said Nib, curling up beside it, \"is my favorite.\" \"Mine too,\" said Ocho, and all eight arms settled in, like a thinking machine at rest.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Click-click-click. Nib froze. A shadow slid over the pool, wide and slow. \"Shark!\" Ocho grabbed the jar with two arms and looked at the rocks. There. A crack, narrow as a pencil. Too small for a shark. Just small enough for an octopus. He pushed one arm in. Then two. Then he poured himself through, soft as soup through a sieve, all eight arms pulling and folding and squeezing. His body flattened like dough under a rolling pin. Nib scuttled in sideways behind him, shell and all. Pop. They were through, into a hidden pocket of rock, dark and safe and barely big enough for two friends and a jar. Outside, the shadow cruised past. It circled the crack. It was much, much too wide. Nib pressed against Ocho in the dark, and they listened to the water go quiet. \"You fit,\" Nib whispered, amazed. \"No bones,\" said Ocho. \"It's my best trick.\" When the shadow was long gone, they squeezed back out and hurried home. They split the crab cake in the den, half for a crab, half for an octopus, and it tasted like a door only they could open. Ocho set the empty jar on the shelf. \"A tight squeeze and a good friend,\" he said. \"Best kind of day.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Click-click! The lid won't budge, Ocho. Will you pull it with all your might, or squeeze it like a stubborn clam?\"",
+      "options": [
+        {
+          "say_word": "Pull hard",
+          "label": "Try pulling the lid straight off with all eight arms",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Squeeze tight",
+          "label": "Try wrapping and squeezing the jar like a clamshell",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Click-click! A shark! Quick, Ocho—will you vanish into the sand, or slip through the rocks?\"",
+      "options": [
+        {
+          "say_word": "Vanish",
+          "label": "Change colors to blend into the sandy bottom",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Slip away",
+          "label": "Squeeze through a narrow gap in the rocks",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.octopus",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 10
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "Octopus cleverness is inherently about solving problems—opening jars, carrying shells, and navigating puzzles—so this pattern directly mirrors the topic's core material while giving a 9-year-old satisfying 'try, fail, try again' agency.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2432,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2027,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1892,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Door in the Tide Pool)"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1622,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (Now You See Her)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1081,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0676,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Nib the hermit crab, who scuttles sideways and clicks his claws when excited",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Persistence pays off: each failed try teaches something new",
+      "why": "The pattern material naturally shows failure as a teacher, and the octopus's problem-solving nature makes this feel earned rather than preachy"
+    },
+    "cast": [
+      {
+        "role": "Ocho the octopus",
+        "reused": false,
+        "why": "The named hero and problem solver whose eight arms and cleverness drive the story"
+      },
+      {
+        "role": "Nib the hermit crab",
+        "reused": false,
+        "why": "The helpful neighbor who asks the choice questions in his own clicking voice and carries the accent"
+      },
+      {
+        "role": "A shark shadow passing overhead",
+        "reused": false,
+        "why": "Brief tension that makes the jar-opening urgent without becoming scary"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "octopus unscrewing jar lids with twisting arms",
+        "eight arms with suckers that taste and grip",
+        "problem solver figuring out tricky containers",
+        "den built from rocks and shells",
+        "hermit crab neighbor sharing shells",
+        "squeezing through narrow gaps",
+        "color-changing to hide from predators"
+      ],
+      "gathered_but_unused": [
+        "An octopus can unscrew a jar lid from the inside or outside to reach food, using its arms to twist and pull.",
+        "Octopuses carry coconut shells or clamshells to build a portable shelter, hiding inside when danger passes.",
+        "Their color-changing skin lets them blend into coral, rocks, or sand in seconds to sneak past predators.",
+        "With no bones, an octopus can squeeze through gaps as narrow as a coin, thanks to its soft, stretchy body.",
+        "Octopuses solve mazes and puzzles in labs, remembering paths to find treats hidden at the end.",
+        "Each of their eight arms has thousands of suckers that taste and grip, helping them open tricky containers.",
+        "Octopuses build dens from rocks and shells, piling them up to create a safe home base.",
+        "Being a problem solver, an octopus figures out how to escape aquarium tanks by lifting lids or short-circuiting lights."
+      ]
+    },
+    "safety_beat": "not needed: setting is a tide pool but the story stays underwater with the octopus, never placing a child character in the scene",
+    "motif": "Eight arms working together like a thinking machine",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      },
+      {
+        "story_id": "story.octopus.mystery_001",
+        "title": "Now You See Her",
+        "pattern": "mystery",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already works as a read-aloud: the problem-solving is shown step by step with real setbacks, the sound-words (pop-pop-pop, tink, click-click, squeak-slip) land as their own small sentences, Nib and Ocho's fondness is paid in attention, and the endings rest in earned warmth."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a spark of challenge",
+        "s2a": "giggling effort, then a tumble and a small bright discovery",
+        "s2b": "leaning in, then a held breath at the crack, then relief",
+        "s3": "a held breath, then the satisfying pop of triumph",
+        "s4a": "wide-eyed stillness, then cozy and full",
+        "s4b": "a squeezed held breath, then safe and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 30% of sentences carry speech or action; [s1] abstract mood word: 'cozy' usually means a feeling was told, not given; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 30% of sentences carry speech or action; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [s4b] narration heavy: only 38% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 30% of sentences carry speech or action",
+      "[s1] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 30% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 38% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 30% of sentences carry speech or action",
+      "[s1] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 30% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 38% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['hero_name', 'jar_contents']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "11_octopus_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

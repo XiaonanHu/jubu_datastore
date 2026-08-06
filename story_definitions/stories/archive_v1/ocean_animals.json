@@ -1,0 +1,303 @@
+{
+  "id": "story.ocean_animals.journey_001",
+  "title": "The Door in the Tide Pool",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.ocean_animals",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "who is swimming around the next bend of the reef",
+  "slots": {
+    "companion_name": {
+      "role": "the grandmother sea turtle guide",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pearl"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "At the edge of the sea, we find a tide pool as round as a mirror. At the bottom shines a tiny door made of pearly shell. We push it open, and whoosh, the water pulls us gently in. Down we drift, wrapped in silver bubbles that let us breathe and talk. The water is warm as bathwater and blue as blueberries. Up swims an old sea turtle with a shell like a patchwork quilt. Hello, little bubbles, she hums, in a voice like a warm blanket. Her name is {companion_name}, and she has been swimming here for a hundred years. Settle in, she says, and pats her wide brown shell with one flipper. We climb on and hold the smooth edge. Below us glows a garden of coral, pink and orange and gold. A little crab hurries by, walking sideways, carrying something shiny in one claw. And off to the side, a wide flat ray glides past like a soft flying carpet. Who should we follow first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We slide off the shell and paddle after the little crab. He scoots sideways over the sand, tick tick tick, fast as a wind-up toy. So we turn sideways too and try it, giggle-swimming with sideways kicks. Crabs walk that way because their legs bend out to the sides, like ours do when we crab-dance. The shiny thing in his claw is a piece of green sea glass, smooth as a jellybean. He leads us into a forest of kelp, tall as trees, swaying slow. Little silver fish flicker between the leaves like spilled coins. At a sandy clearing, the crab stops and taps a rock, tap tap. Out peek his cousins, hermit crabs, each one wearing a borrowed shell like a backpack house. One has grown too big for his shell, so a friend passes him a bigger one. They swap homes right in front of us. The crab waves his claw goodbye and points it toward a warm glow up the path. The coral reef is waiting.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We slide off the shell and drift down beside the ray. She does not kick her tail the way fish do. Instead, her wide fins ripple like a blanket being shaken slowly. Up, down, up, down, and she glides without a sound. We stretch out our arms and try to ripple too. It works a little bit, and the ray tips one fin as if to say, not bad. Together we glide low over a meadow of soft sand. Shy garden eels peek up from their holes like little question marks, then duck back down. Suddenly the ray settles onto the sand and wiggles. Sand flutters over her wide flat back until only her two small eyes peek out. She is playing hide and seek, and she is very good at it. We pretend we cannot see her, and she wiggles happily. Then up she bursts, gliding again, and we follow her wing tips toward a warm glow up the path. The coral reef is waiting.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The coral reef glows like a city of nightlights at bedtime. {companion_name} paddles up beside us, slow and steady. Tuck in close, little bubbles, she hums, the reef is getting sleepy. Clown fish snuggle down into an anemone's wavy arms, like children wiggling under a blanket. A striped fish yawns. We yawn back. Then, from a cozy cave, out wiggles an octopus. He has eight curly arms, and every arm waves hello at a different time. His skin turns pink, then spotty, then pink again. That is how he talks, {companion_name} whispers. Squid zip past above us, whoosh, whoosh, squirting little jets of water to zoom along. A starfish inches up a rock on hundreds of tiny sticky feet, slower than slow. The water hums with wiggles and bubbles. Soon the moon will rise, says {companion_name}, and the reef will put on its nightlights. There is time for one more wonder before home.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We settle by the octopus's cave, quiet as two bubbles can be. His front yard is a little garden of pebbles and shells, all arranged just so. Octopuses love to collect shiny things, {companion_name} hums. The octopus looks at us with round golden eyes. Then he begins to paint himself goodnight. Pink ripples down his arms, which means hello, friends. Spots dance across his head, which means he is feeling giggly. Then a deep sleepy purple spreads over him, slow as sunset. One arm at a time curls up, like lamps switching off down a hallway. Before his last arm tucks in, he reaches into his garden. He holds out a tiny spiral shell, shiny as a button, just for us. We take it gently and wave with our whole arms, every which way, octopus style. {companion_name} carries us up, up, through the pearly door, back to the warm sand. The shell sits safe in our pocket. Now we know a secret. Some friends say goodnight in colors.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The squid squad gathers around us, five of them, sleek and shiny. Ready, says {companion_name}, hold on to my shell. The squid squirt their little water jets, whoosh, and up we all rise together. Bubbles spiral around us like silver ribbons. The squid zoom in loops while {companion_name} glides up slow and steady, like a warm elevator. Higher and higher, until the water above us turns from deep blue to silver. And there it is. The moon, floating on the ceiling of the sea, wobbling like a big silver coin. Moonlight slides down through the water in long soft beams. Fish drift through the beams and light up like tiny lanterns. Far below, the whole reef glimmers silver, tucked in for the night. The squid do one last happy loop, whoosh, and wave a tentacle each. {companion_name} carries us gently back to the pearly door. She presses a small white shell into our hands, round as the moon. So we remember, she hums, the sea keeps a moon of its own. Goodnight, reef. Goodnight, {companion_name}.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Should we follow the sideways crab with the shiny thing, or glide along with the ray? Say crab, or say ray.",
+      "options": [
+        {
+          "say_word": "crab",
+          "label": "Follow the sideways-walking crab",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "ray",
+          "label": "Glide along with the ray",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Should we watch the octopus paint his goodnight colors, or ride up with the squid to see the moon? Say octopus, or say moon.",
+      "options": [
+        {
+          "say_word": "octopus",
+          "label": "Watch the octopus paint his goodnight colors",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "moon",
+          "label": "Ride up with the squid to see the moon",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.ocean_animals",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Ocean animals is a place rather than a question, and at five the pleasure is being taken through it, so the movement itself is the plot and nothing needs to be wrong.",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "ocean_animals is too broad to hang one good question on; a mystery wants one creature, which is why the octopus deep dive got the mystery instead"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false
+        }
+      ],
+      "backup": "mystery"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "the grandmother sea turtle, whose hum, wide patchwork shell and warm-blanket voice hold all the cosiness while the reef holds the wonder",
+      "why": "A child's first trip underwater needs a wide-eyed reef and something safe to hold on to at the same time, and splitting those between the reef and the turtle keeps the awe from tipping into unease.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder + big_adventure",
+          "because": "motion would push the reef toward chase and danger, and the node's year-5 avoid list rules out the kind of thrill that implies"
+        },
+        {
+          "recipe": "silly + cozy",
+          "because": "the first story on a topic's shelf should show the reef as amazing; the jokes can have the second one, and the octopus story now does exactly that"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "A guided tour of a place is the definition of the we style, and it lets the reef be introduced by a companion swimming beside us instead of explained by a narrator above us.",
+      "rejected": [
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered reef puts glass between the child and the water on their very first visit to this topic"
+        },
+        {
+          "teller": "named_hero",
+          "because": "there is no feeling to work through here, so the protective distance a named hero buys would only cost intimacy"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "no natural value angle in the materials; the story is a first tour of a place, and the hermit crabs swapping shells is a fact of animal life rather than a lesson about sharing"
+    },
+    "cast": [
+      {
+        "role": "the grandmother sea turtle guide",
+        "reused": false,
+        "why": "invented here as this topic family's recurring guide; her name is a naming slot, so whatever the child calls her propagates down into every deep-dive story under ocean_animals"
+      },
+      {
+        "role": "the sideways crab",
+        "reused": false,
+        "why": "invented here and kept deliberately generic so he can come back; the octopus deep-dive story reuses a hermit crab from this same reef"
+      },
+      {
+        "role": "the hide-and-seek ray",
+        "reused": false,
+        "why": "the second branch needs its own animal so the two paths do not share a guide; she is a one-story character and that is fine"
+      },
+      {
+        "role": "the colour-talking octopus",
+        "reused": false,
+        "why": "introduced in the shared segment and in one ending as a taste of the reef, and he is the reason the octopus deep-dive node was the next thing written"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "a pearly shell door at the bottom of a tide pool",
+        "silver bubbles that let us breathe and talk underwater",
+        "crabs walk sideways because their legs bend out to the sides",
+        "hermit crabs swap into bigger empty shells",
+        "rays swim by rippling their fins instead of kicking",
+        "a ray buries herself in sand with only her eyes showing",
+        "garden eels peeking out of their holes like question marks",
+        "clown fish sleeping in an anemone's wavy arms",
+        "octopus skin changes colour, and that is how he talks",
+        "squid move by squirting little jets of water",
+        "a starfish walks on hundreds of tiny sticky feet",
+        "the moon seen from underneath the water"
+      ],
+      "gathered_but_unused": [
+        "gills, and how a fish breathes underwater",
+        "the swim bladder that keeps a fish floating without trying",
+        "coral is an animal, not a rock",
+        "cleaner shrimp working on a big fish's teeth",
+        "seahorse fathers carrying the eggs",
+        "why the tide goes out and comes back"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "one segment in, at the first fork in the route, which is where a journey's choices belong; both animals are already in sight from the turtle's shell, so neither option feels invented on the spot",
+        "criteria": {
+          "more_interesting": "the crab branch is a busy sideways scramble through kelp, the ray branch is a silent glide over open sand; different tempo and different landscape",
+          "more_engaging": "a funny fast animal or a big gentle one is a real preference at five",
+          "reveals_taste": "bold vs gentle",
+          "reveals_curiosity": "just_experience vs how_it_works",
+          "reflects_mood": "the crab is for a giggly evening, the ray for a slow one"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the last beat before bedtime, holding back the two best wonders so that the splitting choice buys two genuinely different final images",
+        "criteria": {
+          "more_interesting": "one ending stays down in a cave watching colours switch off one arm at a time, the other rises through the water to the moon; down and up",
+          "more_engaging": "both are treats and neither is the safe answer",
+          "reveals_taste": "gentle vs bold",
+          "reveals_curiosity": "what_its_for vs just_experience",
+          "reflects_mood": "the octopus ending is the quieter goodnight, the moon ride is the one that ends on a whoosh"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "journey beats present: departure through the shell door, marvels along the route, arrival at the reef, warm return. Both endings carry the traveller home through the same door, which is what stops a journey ending in the middle of the ocean."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "year-5 and year-6 vocabulary from the node both appear: octopus, crab, fin, squid, ray, tentacle. Sentences kept short and speakable. Avoid list honoured: no sharks anywhere, and nothing eats anything."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "the companion_name slot reads correctly in every segment on both paths, and both endings land warm. Recorded weakness rather than a failure: apart from the companion, s3 and the endings read the same whichever branch was taken, so the rejoin under-uses the c1 pick."
+      }
+    ],
+    "writers_notes": [
+      "reconstructed record: this story was hand-authored first and its decisions written down afterwards, so the weights here are the numbers that would have produced this choice, not a live sample",
+      "the shelf was empty when this was built, so every shelf_nudge here is 1.0; the later ocean stories carry 0.5 against journey because of this one",
+      "carry forward: give rejoining choices a playthrough slot, which the octopus and jellyfish stories now do",
+      "watch the repeated sentence shape 'we slide off the shell and' which opens both branch segments; the parallelism is deliberate, but one repeat is the limit",
+      "the word whoosh appears in three segments, kept because at five it works as a refrain rather than a tic"
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format, reconstructed after the story was written"
+  },
+  "status": "draft"
+}

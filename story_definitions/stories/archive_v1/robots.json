@@ -1,0 +1,131 @@
+{
+  "id": "story.robots.problem_and_fix_001",
+  "title": "The Great Sock Fling",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.robots",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "We fix our sock-flinging tidy-up robot by inventing our way to the bolt jammed in his elbow gears.",
+  "slots": {
+    "robot_name": {
+      "role": "the tidy-up robot we built and are fixing",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Bolty"
+    },
+    "first_gadget": {
+      "role": "the contraption we built for our first fix attempt",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "springy catcher"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Come on, into our invention shed! This is where we build our very best machines. Our favorite machine is {robot_name}, the tidy-up robot we built ourselves. {robot_name} has one big task. Every morning, his robot arm picks up socks and drops them in the basket. Plop, plop, plop. But listen. Today something is wrong. Whir, clunk, FLING! A sock zooms right past our ears. Another sock lands on the ceiling fan. It spins around and around like a stripy flag. A third sock splats onto our jam sandwich. {robot_name} beeps a small sorry beep. His arm flings when it should place. Our poor helper needs help! We put on our fix-it goggles. We open the toolbox with the squeaky lid. Inside are bolts and springs and rubber bands and one half-eaten cookie. The socks keep flying. One lands on our head like a floppy hat. We rub our chins the way great inventors do. We do not have one idea. We have two ideas! Which one should we try first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Springs it is! We grab the biggest spring in the shed. We add an old umbrella and a shiny colander. We bolt them all together. Ta-da! The springy catcher! It stands by the basket on three wobbly legs. When a sock flies, the catcher will boing up and catch it. That is the plan. We wind it up. We wait. {robot_name} whirs. Clunk, FLING! A sock zooms. BOING! The catcher leaps and catches it. We cheer! Then the spring boings again. The sock shoots back out. It bounces off the wall, off the lamp, and back onto {robot_name}'s head. Boing, boing, boing. Sock ping-pong! We laugh so hard our goggles slip. Our catcher catches, but it will not let go. Hmm. Wait. We notice something important. Every single fling sounds the same. Whir, clunk, FLING. That clunk comes from {robot_name}'s elbow. Every time, the same clunk, the same wobble, the same too-high throw. An inventor writes clues down. We grab our chalk and write CLUNK in big letters. Something inside that elbow is not right.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "A funnel! We drag out the old paddling pool. We roll a huge cardboard tube. We tape them into a giant swirly funnel over the basket. It looks like an ice cream cone for a giant. A sock will slide down, around and around, plop, into the basket. We step back proudly. {robot_name} whirs. Clunk, FLING! The sock sails up, up, up. It flies right over our funnel. It lands on the shed roof. Whir, clunk, FLING! Another sock. Over the funnel again. Onto the roof again. Soon our roof looks like it is growing socks. We flop into the funnel ourselves and slide down. Whee. At least the funnel works for us. Then we notice something important. Every fling sounds exactly the same. Whir, clunk, FLING. The clunk comes from {robot_name}'s elbow. The same clunk, the same wobble, the same too-high throw every time. An inventor writes clues down. We grab our chalk and write CLUNK in big letters. Something inside that elbow is not right.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Time to regroup at the workbench. Our {first_gadget} did not fix the flinging. But it gave us a clue, and clues are inventor treasure. The clunk lives inside {robot_name}'s elbow. We pat his shiny head. Beep, he says softly. We find our smallest screwdriver, the one with the red handle. Gently, gently, we open the little door on his elbow. We shine our flashlight inside. Two gears should be turning in there, smooth as bicycle wheels. But look! A little metal bolt is stuck between the gear teeth. It must have rolled in on tidy-up day. Every time the gears turn, they bump the bolt. Clunk! The arm jerks, and the sock goes flying. Mystery solved! We do a small victory wiggle. But there is one more problem. The bolt is jammed in deep. Our fingers are too big to reach it. Even our smallest finger will not fit. {robot_name} beeps a hopeful beep at us. We know that beep. It means, please invent something. So we shall! What should we invent to get the bolt out?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "A magnet! Bolts are made of metal, and magnets love metal. We find our strongest magnet, the round red one from the fridge. We tie it to the end of our bendy fishing pole with string. We name it the bolt-fisher. Steady now. We lower the magnet through the little elbow door. Down, down, down. {robot_name} holds very, very still. Even his fans stop humming. Then, CLICK! The bolt jumps onto the magnet like a frog onto a lily pad. We reel it up slowly. Got it! The gears start to turn, smooth and quiet. Whirrrr. No clunk at all. Time for the big test. We toss a sock on the floor. {robot_name} rolls over. His arm reaches down, picks it up, and places it in the basket. Plop. Perfect! We toss ten more socks. Plop, plop, plop, ten times in a row. {robot_name} beeps a happy little song and spins in a circle. We take a bow together. Our helper is fixed, and we fixed him ourselves. Best invention day ever. High five, robot arm! Gently, though.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "A wobble machine! If we jiggle {robot_name} just right, the bolt might shake itself loose. We stack our drum on the workbench. We strap an eggbeater to it with three rubber bands. When we crank the handle, the drum trembles like jelly. We roll {robot_name} on top. Ready? Crank, crank, crank! The drum wobbles. {robot_name} wobbles. Our tools wobble in their tin. Even our teeth wobble a tiny bit. We watch the little elbow door. Nothing yet. We crank a smidge faster. Wobble, wobble, wibble, wobble. Then, tink! The bolt hops out of the gears. It rolls out the elbow door, down the workbench, and lands in our hand. Caught it! The gears start turning, smooth and quiet. Time for the big test. We toss a sock on the floor. {robot_name} picks it up and places it in the basket. Plop. Then ten more. Plop, plop, plop, every single one. {robot_name} beeps a happy song and does a proud little spin. We do a wobble dance to celebrate. Our helper is fixed, and we fixed him ourselves. Best invention day ever.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "How should we try to fix the flinging first?",
+      "options": [
+        {
+          "say_word": "springs",
+          "label": "Build a springy catcher",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_gadget": "springy catcher"
+          }
+        },
+        {
+          "say_word": "funnel",
+          "label": "Build a giant funnel",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_gadget": "great funnel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "What should we invent to get the bolt out?",
+      "options": [
+        {
+          "say_word": "magnet",
+          "label": "A magnet on a fishing pole",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "wobble",
+          "label": "A great wobble machine",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

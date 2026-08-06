@@ -1,0 +1,324 @@
+{
+  "id": "story.plate_tectonics.age9to10.d1.pregen.58f802",
+  "title": "The Slowest Race on Earth",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.plate_tectonics",
+    "sel_theme": null,
+    "value_lesson": "patience — the biggest changes on Earth happen too slowly to watch, and that is okay",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A journey aboard a plate-crossing boat that follows the edges of Earth's jigsaw crust from a rift valley to a growing mountain to the place where new seafloor is born, carrying home one small stone that is still on the move.",
+  "slots": {
+    "boat_name": {
+      "role": "Captain Brio's glass-bottomed boat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the Slow Mackerel"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The wind in Iceland has cold fingers. It pokes them down our collars and flaps our maps like flags, but we are a crew of young field-trip helpers, and we do not mind. We are standing in a great rocky valley, and Dr. Petra Hammerfall is grinning at us.\n\n“Boots wide,” she says. “Wider. There.”\n\nWe look down. A long dark crack runs between our feet, deep and still. “Your left boot,” says Dr. Petra, “is on the North American tectonic plate. Your right boot is on the Eurasian one. Two enormous pieces of Earth’s crust — and you are standing on both.”\n\nWe wiggle our toes. Nothing. Not a wobble, not a hum.\n\n“I can’t feel it move,” we say.\n\n“No,” she says. “But it is moving. Right now, this second, those two plates are drifting apart — about as fast as your fingernails grow.” She holds up her hand and waggles her fingers. “That is the speed of continental drift. The slowest race on Earth, and it never, ever stops.”\n\nWe stare at our fingernails. Growing. Right now. So quietly we cannot hear a thing.\n\n“Far below us,” Dr. Petra goes on, “the hot, soft rock called the mantle creeps along like porridge in a pot, and it carries the plates on its back, the way soup carries a noodle.”\n\nThen, from down by the water, comes a voice like a wave with a laugh in it. “Ahoy the valley!”\n\nAn old sailor with a white beard waves from a jetty, beside a little boat with a glass bottom. “Captain Brio,” calls Dr. Petra, “and his great raft-pieces tour!”\n\n“All aboard!” booms the Captain. “The plates won’t wait! Well. They will. But the tide won’t!”",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Maps it is!\" Captain Brio thumps the wheel and {boat_name} swings out over the dark water. He spreads his old charts on the little table, one on top of the other, each one soft as a handkerchief from folding. \"This one,\" he says, tapping it, \"I drew on my first crossing, when my beard was black as tar. And this one last year. Lay your finger on the edge of Iceland, shipmates. Now the edge of Norway.\" We do. The gap between them is wider on the new map. Just a whisker. But wider. \"The sea has stretched,\" says Brio, \"a fingernail's width, every single year of my life. I have crossed this ocean forty times, and every time it was a little bigger.\" We look at our fingernails. Growing. Right now. Dr. Petra leans over the glass bottom. \"Down there is where the new width comes from. The mantle — that hot, slow rock, thick as treacle — rises up between the two plates and hardens into brand-new seafloor.\" \"A fellow named Wegener said the continents drift,\" Brio chuckles, \"and they laughed him out of the room. Now look.\" He points down. Through the glass, far below, a faint red glow pulses in the dark, like embers under ash. \"The ridge,\" whispers the Captain. \"The seam where the world makes more world.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The arrows, then!\" says Captain Brio, and Dr. Petra flips open her tablet on the little table. A map of the whole world glows up at us — and all over it, tiny arrows creep. Every tectonic plate has one, sliding its own slow way. \"It looks,\" we say, \"like a puzzle being nudged.\" \"That is exactly what it is,\" says Dr. Petra. \"Once, long ago, all the land huddled together in one giant piece called Pangaea. Then the pieces drifted apart — continental drift — and they are drifting still.\" She taps our home. A little arrow points away from Iceland, slow as slow. \"In 1915 a man named Wegener said this out loud, and everyone giggled at him. Continents, moving? Imagine.\" Captain Brio snorts into his beard. \"Who's giggling now?\" \"Nobody,\" grins Dr. Petra. \"These arrows are drawn by satellites. They prove him right, every day.\" We watch our arrow. Creeping. Fingernail speed. Through the glass bottom, the seafloor slides past below us, patient as porridge. \"So,\" says Dr. Petra, and her finger lands on two arrows pointing straight at each other, \"if all the raft-pieces are moving — what happens where they meet?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The boat chugs around a great grey headland, and there, high above the water, a wooden platform clings to the mountainside. Bright flags snap and flutter on their ropes — red, blue, yellow, white, green — cracking like whips in the wind.\n\n“Up we go,” says Captain Brio, tying the boat to a post that looks older than he is. “Someone here has been waiting to meet you.”\n\nA woman in a warm striped apron waves us onto the platform. Her name is Ama Dolkar, and her eyes crinkle when she smiles. “You came,” she says. “Good. The cloud comes this afternoon, and I want you to see my mountain first.” She points up. The peak soars over us, white and enormous. “When I was a girl, that mountain was lower than it is now. Truly. I have measured. India is pushing into Asia — slowly, slowly, fingernail speed — and the land has nowhere to go but up.”\n\nWe look at our fingernails. Growing. Right now. So is the mountain.\n\nAma Dolkar presses something small and cool into our hands. A shell, curled like a sleeping cat, turned entirely to stone. “I found it on the mountainside,” she says. “It lived on the seafloor once. Then two plates pushed together — like two rugs shoved against each other — and the seafloor crumpled up into the sky.”\n\nWe turn the shell over and over. A sea creature. Up here, where the flags snap and the wind has cold fingers.\n\nCaptain Brio leans on the rail, glass-bottomed boat bobbing below. “So,” he says, “where do the great raft-pieces take us next?”",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "“Down we go,” says Nix, and the submersible slips under the waves with a sound like a held breath. Down. Down. The blue turns to ink, and the ink turns to black, and Captain Brio’s voice crackles through the speaker: “Steady, little climbers. The great raft-pieces are pulling apart right beneath you.”\n\nThen we see it. A glow, faint and red, like the last coal in a campfire. Nix kills the lamp.\n\n“Look,” she whispers.\n\nThe glow grows. It is not fire. It is rock — hot, soft rock from the mantle, rising where the two plates tear away from each other. It bubbles up, slow as honey, and spreads out on the seafloor, and cools, and hardens, and becomes new land. Brand new. Black and shining and steaming in the cold water.\n\n“New seafloor,” Nix says. “Being born. Right now.”\n\nWe press our hands to the cold glass. Our fingernails are growing. The seafloor is growing. Same speed. Same quiet, patient push.\n\nThe lamp flickers. “Battery says home,” says Nix, and up we go, up through the black into the blue, and there is the boat, and there is dinner, warm and steaming in the little galley. Petra hands us something small. A grey pebble with a white stripe, one half from each plate, picked up at the rift valley where we stood with our boots wide.\n\n“It is riding a plate too,” she says. “Moving while you sleep.”\n\nWe put it in our pocket. It is still moving. So are we.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The boat noses onto a beach of black sand, and Captain Brio drops the anchor with a splash. “Mind your step, little climbers,” he says. “This island is younger than you are.”\n\nPetra is already off, striding up the beach, eyes on the ground. “The tide is coming,” she calls. “I want to find the youngest rock on Earth before it does.”\n\nWe follow. The sand is black because it is lava, ground up fine by the sea, and it is warm under our boots. Ahead, a crack in the ground breathes out steam that smells like struck matches. Petra stops us at the edge of a shallow crater, and we stand behind a ridge of old, hard rock, where the ground is steady, and look down.\n\n“Here,” she says, pointing. “The plate edge opened, and the mantle rose up, and the island built itself — grain by grain, flow by flow.”\n\nShe kneels. She brushes black sand aside with her hand, and there it is: a ribbon of rock so dark it drinks the light, smooth and sharp-edged, different from everything around it. “This,” she says. “This is the newest. It cooled last week. Maybe yesterday.”\n\nWe touch it. It is warm. Our fingernails are growing. The island is growing. Same slow race.\n\nBack on the boat, Captain Brio pours cocoa into thick mugs, and Petra gives us the pebble from the rift valley — grey with a white stripe, one half from each plate. “It is riding a plate too,” she says. “Moving while you sleep.”\n\nWe hold it tight. It is still moving. So are we.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Out the window or down through the glass, shipmates? Shall I show you my old maps and how the sea has stretched, or shall the doctor show you the dancing arrows that prove the great raft-pieces move?\"",
+      "options": [
+        {
+          "say_word": "The maps",
+          "label": "Captain Brio's worn maps and the widening Atlantic",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The arrows",
+          "label": "The satellite map of sliding plates and old Pangaea",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The plate edge runs two ways from here, little climbers. Down, where the ridge glows and new seafloor bubbles up — or across, to a young island still being built. Which shall it be?\"",
+      "options": [
+        {
+          "say_word": "Dive down",
+          "label": "Descend in the submersible to watch new seafloor born at the glowing ridge",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Walk ashore",
+          "label": "Stand on the black-sand island where a plate edge has torn open",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.plate_tectonics",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 19
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Plate tectonics is inherently about slow movement across vast distances and time, so a journey—perhaps riding a drifting plate or traveling along plate edges past volcanoes, quakes, and rising mountains—lets the topic's actual material carry the plot naturally.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.35,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Captain Brio, the old sailor, whose warm sea-dog lilt and habit of calling the plates 'the great raft-pieces' carries the accent.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "patience — the biggest changes on Earth happen too slowly to watch, and that is okay",
+      "why": "The material offers it everywhere: fingernail-speed plates, a grandmother watching a mountain grow, an ocean widening by one nail-width a year. It rides along without preaching because the whole journey is built on slowness."
+    },
+    "cast": [
+      {
+        "role": "Dr. Petra Hammerfall, geologist guide with a hammer and sunhat",
+        "reused": false,
+        "why": "She anchors the journey, cracks open rocks, and names the science words naturally — tectonic plate, mantle, continental drift — as we travel."
+      },
+      {
+        "role": "Captain Brio, old sailor who has crossed the Atlantic many times",
+        "reused": false,
+        "why": "His worn maps and his claim that the ocean is wider than on his first crossing give the journey its vehicle, its accent, and its heartbeat of slow change."
+      },
+      {
+        "role": "Ama Dolkar, a mountain climber's grandmother who grew up at the foot of the Himalayas",
+        "reused": false,
+        "why": "She meets us at the growing mountain and shows that the peak she knew as a girl has measurably risen in her lifetime — patience made personal."
+      },
+      {
+        "role": "Nix, a deep-sea submersible pilot",
+        "reused": false,
+        "why": "Pilots us down to the mid-ocean ridge for the story's destination beat, where new seafloor bubbles up from the mantle."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "rift valley in Iceland where you can stand with one foot on each plate",
+        "plates move about as fast as your fingernails grow",
+        "the mantle moves like extremely thick treacle",
+        "the Himalayas still growing as India pushes into Asia",
+        "the Atlantic getting a few centimetres wider every year",
+        "new seafloor born at mid-ocean ridges",
+        "fossil shell on a mountaintop, once seafloor",
+        "old sailor with worn maps",
+        "glass-bottomed boat over a mid-ocean ridge with a faint red glow",
+        "satellite map with tiny arrows showing plates sliding",
+        "Pangaea, the joined supercontinent",
+        "Wegener laughed at for continental drift"
+      ],
+      "gathered_but_unused": [
+        "Earth's outer shell is broken into about fifteen giant tectonic plates that fit together like a jigsaw puzzle",
+        "The plates move about as fast as your fingernails grow — just a few centimetres every year",
+        "Under the hard crust lies the mantle, rock so hot it moves like extremely thick treacle over millions of years",
+        "The Himalayas are still growing taller every year because India is slowly pushing into Asia",
+        "The Atlantic Ocean gets a few centimetres wider every year, so Europe and America are drifting apart",
+        "The idea that continents drift was once laughed at, but now we can measure it with satellites",
+        "New seafloor is born at ridges under the ocean, where hot rock rises and hardens",
+        "The same jigsaw pieces have been moving for hundreds of millions of years, and once all the land was joined in one supercontinent called Pangaea"
+      ]
+    },
+    "safety_beat": "In s1, Dr. Petra steps onto the rift valley floor first and pats a flat, sun-warmed slab — 'this is my favourite standing stone, right on the seam' — showing she knows exactly where to put her feet, lightly and without warning.",
+    "motif": "Fingernails growing — the quiet measure of how fast continents drift, returned to at every stop.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it teaches plate tectonics through a single, perfectly chosen sensory anchor — fingernail speed — that returns as ritual, and it closes with the pebble 'moving while you sleep,' which hands a child the vast, indifferent, beautiful slowness of the Earth as something to hold in a pocket."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "braced and giggling, then wide-eyed at the crack between the boots",
+        "s2a": "leaning over the glass, hushed at the red seam",
+        "s2b": "puzzle-click satisfaction, watching the arrows creep",
+        "s3": "wind-whipped wonder, turning the stone shell over and over",
+        "s4a": "a held breath in the dark, then warm and tucked-in with dinner",
+        "s4b": "warm sand under boots, then cocoa-warm and satisfied"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 12 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] no voices: segment carries no spoken line; [s1] narration heavy: only 18% of sentences carry speech or action; [s3] no voices: segment carries no spoken line; [s3] narration heavy: only 36% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] no voices: segment carries no spoken line; [s4a] narration heavy: only 28% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 18% of sentences carry speech or action",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 28% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 21% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 18% of sentences carry speech or action",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 28% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 21% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['pocket_stone']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "20_plate_tectonics_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

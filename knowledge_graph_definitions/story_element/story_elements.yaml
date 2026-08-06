@@ -1,0 +1,812 @@
+axis: story_element
+pack: story_elements
+nodes:
+  # ---------------------------------------------------------------- fantasy_and_magic
+  - id: story_element.magic_doors
+    axis: story_element
+    label: magic_doors
+    display_name: "Magic Doors"
+    region: fantasy_and_magic
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.enchanted_forests, story_element.tiny_worlds, story_element.time_travel]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.wizards
+    axis: story_element
+    label: wizards
+    display_name: "Wizards"
+    region: fantasy_and_magic
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {framing: "a kindly wizard whose spells go delightfully wrong; sparkles and silly transformations", vocabulary: [wand, sparkle, poof], avoid: [curses on people, frightening dark magic]}
+      7: {framing: "apprentice wizards learning spells step by step; magic that takes practice", vocabulary: [apprentice, spellbook, potion]}
+      9: {framing: "wizard schools with rival houses and magic that has rules and costs", vocabulary: [incantation, enchantment, rival]}
+    edges:
+      adjacent: [story_element.dragons, story_element.castles, story_element.magic_doors]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.fairies
+    axis: story_element
+    label: fairies
+    display_name: "Fairies"
+    region: fantasy_and_magic
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.enchanted_forests, story_element.tiny_worlds, story_element.unicorns]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.flying_carpets
+    axis: story_element
+    label: flying_carpets
+    display_name: "Flying Carpets"
+    region: fantasy_and_magic
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.sky_kingdoms, story_element.magic_doors, story_element.treasure_hunts]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.enchanted_forests
+    axis: story_element
+    label: enchanted_forests
+    display_name: "Enchanted Forests"
+    region: fantasy_and_magic
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.fairies, story_element.talking_animals, story_element.unicorns]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.sky_kingdoms
+    axis: story_element
+    label: sky_kingdoms
+    display_name: "Sky Kingdoms"
+    region: fantasy_and_magic
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.flying_carpets, story_element.castles, story_element.giants]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.tiny_worlds
+    axis: story_element
+    label: tiny_worlds
+    display_name: "Tiny Worlds"
+    region: fantasy_and_magic
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.fairies, story_element.magic_doors, story_element.invisible_friends]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.time_travel
+    axis: story_element
+    label: time_travel
+    display_name: "Time Travel"
+    region: fantasy_and_magic
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {framing: "a friendly time machine for field trips to dinosaurs and knights; always home by dinner", vocabulary: [machine, past, future], avoid: ["distressing paradoxes about parents not existing", getting stranded forever]}
+      9: {framing: "clever time loops and small changes with funny ripple effects; fixing yesterday's mix-up", vocabulary: [timeline, loop, ripple], avoid: ["distressing paradoxes about parents not existing", erasing loved ones]}
+    edges:
+      adjacent: [story_element.dinosaurs, story_element.lost_civilizations, story_element.magic_doors]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.shape_shifters
+    axis: story_element
+    label: shape_shifters
+    display_name: "Shape-Shifters"
+    region: fantasy_and_magic
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {framing: "a friend who can turn into animals; picking the right shape for each adventure", vocabulary: [transform, disguise, shape], avoid: [painful or scary transformations]}
+      9: {framing: "shape-shifters keeping their gift secret; mistaken identities and clever reveals", vocabulary: [identity, reveal, morph], avoid: [body horror, sinister impostors of family members]}
+    edges:
+      adjacent: [story_element.wizards, story_element.friendly_monsters, story_element.mild_spookiness]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  # ---------------------------------------------------------------- creatures_and_companions
+  - id: story_element.dragons
+    axis: story_element
+    label: dragons
+    display_name: "Dragons"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {framing: "small friendly dragons; fire used for toasting marshmallows", vocabulary: [wings, sparkle, roar], avoid: [scary fire, dragons eating anyone]}
+      7: {framing: "dragon riders and dragon eggs; earning a dragon's trust", vocabulary: [hatch, soar, bond]}
+      9: {framing: "dragon lore and uneasy truces; dragons with their own points of view", vocabulary: [lore, truce, hoard]}
+    edges:
+      adjacent: [story_element.wizards, story_element.enchanted_forests, story_element.castles]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.unicorns
+    axis: story_element
+    label: unicorns
+    display_name: "Unicorns"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.fairies, story_element.enchanted_forests, story_element.mermaids]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.mermaids
+    axis: story_element
+    label: mermaids
+    display_name: "Mermaids"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.underwater_cities, story_element.unicorns, story_element.pirates]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.talking_animals
+    axis: story_element
+    label: talking_animals
+    display_name: "Talking Animals"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.enchanted_forests, story_element.jungle_expeditions, story_element.invisible_friends]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.friendly_monsters
+    axis: story_element
+    label: friendly_monsters
+    display_name: "Friendly Monsters"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {framing: "fuzzy monsters who are shy and love snacks; the monster under the bed just wants a friend", vocabulary: [fuzzy, giggle, snack], avoid: [monsters that are genuinely menacing, sharp teeth or claws used to scare]}
+      7: {framing: "a misunderstood monster who becomes the best teammate; looks scary but is a softie", vocabulary: [misunderstood, teammate, gentle], avoid: [monsters that are genuinely menacing]}
+      9: {framing: "monsters with their own monster world and customs; kids and monsters teaming up as equals", vocabulary: [creature, custom, alliance], avoid: [monsters that are genuinely menacing, monsters turning on their friends]}
+    edges:
+      adjacent: [story_element.invisible_friends, story_element.giants, story_element.mild_spookiness]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.friendly_aliens
+    axis: story_element
+    label: friendly_aliens
+    display_name: "Friendly Aliens"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.space, story_element.robots, story_element.friendly_monsters]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.giants
+    axis: story_element
+    label: giants
+    display_name: "Giants"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.sky_kingdoms, story_element.castles, story_element.friendly_monsters]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.invisible_friends
+    axis: story_element
+    label: invisible_friends
+    display_name: "Invisible Friends"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.friendly_monsters, story_element.tiny_worlds, story_element.secret_clubs]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.dinosaurs
+    axis: story_element
+    label: dinosaurs
+    display_name: "Dinosaurs"
+    region: creatures_and_companions
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.jungle_expeditions, story_element.time_travel, story_element.lost_civilizations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  # ---------------------------------------------------------------- adventure_and_exploration
+  - id: story_element.pirates
+    axis: story_element
+    label: pirates
+    display_name: "Pirates"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {framing: "silly pirates hunting for treasure and snacks; parrots and singalongs on deck", vocabulary: [ship, parrot, treasure], avoid: [real violence, weapons detail, walking the plank as a real threat]}
+      7: {framing: "a pirate crew racing rivals to the X on the map; riddles and daring escapes", vocabulary: [crew, voyage, map], avoid: [real violence, weapons detail]}
+      9: {framing: "pirate codes and double-crossing rival captains; outwitting rather than outfighting", vocabulary: [captain, mutiny, code], avoid: [real violence, weapons detail, cruelty played straight]}
+    edges:
+      adjacent: [story_element.treasure_hunts, story_element.desert_islands, story_element.mermaids]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.treasure_hunts
+    axis: story_element
+    label: treasure_hunts
+    display_name: "Treasure Hunts"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.pirates, story_element.desert_islands, story_element.lost_civilizations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.jungle_expeditions
+    axis: story_element
+    label: jungle_expeditions
+    display_name: "Jungle Expeditions"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.talking_animals, story_element.dinosaurs, story_element.lost_civilizations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.arctic_adventures
+    axis: story_element
+    label: arctic_adventures
+    display_name: "Arctic Adventures"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.submarines, story_element.jungle_expeditions, story_element.survival_challenges]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.desert_islands
+    axis: story_element
+    label: desert_islands
+    display_name: "Desert Islands"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.pirates, story_element.treasure_hunts, story_element.survival_challenges]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.underwater_cities
+    axis: story_element
+    label: underwater_cities
+    display_name: "Underwater Cities"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.mermaids, story_element.submarines, story_element.lost_civilizations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.space
+    axis: story_element
+    label: space
+    display_name: "Space"
+    region: adventure_and_exploration
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {framing: "a cozy rocket trip to the moon and back; floating snacks and waving at planets", vocabulary: [rocket, moon, float]}
+      7: {framing: "a young crew exploring new planets; strange moons and first-contact picnics", vocabulary: [orbit, planet, crew]}
+      9: {framing: "long voyages between star systems; clever fixes when the ship acts up", vocabulary: [galaxy, mission, gravity]}
+    edges:
+      adjacent: [story_element.friendly_aliens, story_element.robots, story_element.sky_kingdoms]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.lost_civilizations
+    axis: story_element
+    label: lost_civilizations
+    display_name: "Lost Civilizations"
+    region: adventure_and_exploration
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {framing: "finding a hidden city with picture-puzzles on the walls; friendly guardians and secret gardens", vocabulary: [ruins, hidden, explorer]}
+      9: {framing: "decoding an ancient people's story from clues they left behind; who were they and where did they go", vocabulary: [ancient, artifact, decipher], avoid: [graphic depictions of how a people perished]}
+    edges:
+      adjacent: [story_element.treasure_hunts, story_element.time_travel, story_element.jungle_expeditions]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.survival_challenges
+    axis: story_element
+    label: survival_challenges
+    display_name: "Survival Challenges"
+    region: adventure_and_exploration
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {framing: "resourceful kids building shelter and signaling for help; every problem has a solvable fix and rescue always comes", vocabulary: [shelter, resourceful, signal, rescue], avoid: [starvation, death, "peril that feels hopeless or high-stakes", serious injury detail]}
+    edges:
+      adjacent: [story_element.desert_islands, story_element.arctic_adventures, story_element.jungle_expeditions]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  # ---------------------------------------------------------------- machines_and_vehicles
+  - id: story_element.robots
+    axis: story_element
+    label: robots
+    display_name: "Robots"
+    region: machines_and_vehicles
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {framing: "a helpful beeping robot buddy who loves to tidy and dance", vocabulary: [beep, buttons, helper]}
+      7: {framing: "building your own robot and teaching it new tricks; funny malfunctions", vocabulary: [invent, gears, program]}
+      9: {framing: "robots that learn and surprise their inventors; robot contests and clever upgrades", vocabulary: [circuit, upgrade, prototype]}
+    edges:
+      adjacent: [story_element.space, story_element.friendly_aliens, story_element.race_cars]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.race_cars
+    axis: story_element
+    label: race_cars
+    display_name: "Race Cars"
+    region: machines_and_vehicles
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.robots, story_element.trains, story_element.superheroes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.trains
+    axis: story_element
+    label: trains
+    display_name: "Trains"
+    region: machines_and_vehicles
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.race_cars, story_element.magic_doors, story_element.arctic_adventures]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.submarines
+    axis: story_element
+    label: submarines
+    display_name: "Submarines"
+    region: machines_and_vehicles
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.underwater_cities, story_element.arctic_adventures, story_element.mermaids]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  # ---------------------------------------------------------------- everyday_heroes
+  - id: story_element.school_stories
+    axis: story_element
+    label: school_stories
+    display_name: "School Stories"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.secret_clubs, story_element.sibling_adventures, story_element.superheroes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.sibling_adventures
+    axis: story_element
+    label: sibling_adventures
+    display_name: "Sibling Adventures"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.school_stories, story_element.secret_clubs, story_element.cooking_adventures]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.cooking_adventures
+    axis: story_element
+    label: cooking_adventures
+    display_name: "Cooking Adventures"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.sibling_adventures, story_element.circus, story_element.school_stories]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.circus
+    axis: story_element
+    label: circus
+    display_name: "Circus"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.cooking_adventures, story_element.superheroes, story_element.talking_animals]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.superheroes
+    axis: story_element
+    label: superheroes
+    display_name: "Superheroes"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.school_stories, story_element.robots, story_element.circus]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.castles
+    axis: story_element
+    label: castles
+    display_name: "Castles"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.dragons, story_element.wizards, story_element.giants]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.secret_clubs
+    axis: story_element
+    label: secret_clubs
+    display_name: "Secret Clubs"
+    region: everyday_heroes
+    age_bands: ["5-6", "7-8", "9-10"]
+    edges:
+      adjacent: [story_element.school_stories, story_element.detectives, story_element.invisible_friends]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  # ---------------------------------------------------------------- mystery_and_shivers
+  - id: story_element.detectives
+    axis: story_element
+    label: detectives
+    display_name: "Detectives"
+    region: mystery_and_shivers
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {framing: "a kid detective solving the case of the missing cookies; magnifying glasses and muddy footprints", vocabulary: [clue, suspect, mystery], avoid: ["violent crimes — missing cookies, not missing people"]}
+      9: {framing: "a junior detective agency piecing together clues that don't add up; red herrings and a satisfying reveal", vocabulary: [evidence, alibi, deduce], avoid: ["violent crimes — missing cookies, not missing people", menacing criminals]}
+    edges:
+      adjacent: [story_element.secret_clubs, story_element.mild_spookiness, story_element.treasure_hunts]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.mild_spookiness
+    axis: story_element
+    label: mild_spookiness
+    display_name: "Mild Spookiness"
+    region: mystery_and_shivers
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {framing: "a creaky old house where every strange noise turns out to be something funny or friendly", vocabulary: [creaky, shadow, giggle], avoid: [real horror, gore, "spooky things that don't resolve warmly"]}
+      9: {framing: "goosebumpy legends and midnight mysteries with a cozy explanation; shivers that end in laughter", vocabulary: [legend, eerie, midnight, twist], avoid: [real horror, gore, "spooky things that don't resolve warmly", lingering dread]}
+    edges:
+      adjacent: [story_element.friendly_monsters, story_element.detectives, story_element.shape_shifters]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.princesses_and_princes
+    axis: story_element
+    label: princesses_and_princes
+    display_name: "Princesses and Princes"
+    region: fantasy_and_magic
+    age_bands: ["3-4", "5-6", "7-8"]
+    age_treatments:
+      3: {framing: "sparkly crowns, twirly capes, and a little princess or prince lovingly tucked in for the night", vocabulary: [crown, sparkle, twirl], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+      5: {framing: "grand balls, swishing gowns, and a secret passage hidden behind the throne-room curtain", vocabulary: [ball, gown, passage], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+      7: {framing: "royals with real jobs to do — settling disputes fairly, planning the harvest festival, and making hard choices well", vocabulary: [royal, kingdom, duty], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+    edges:
+      adjacent: [story_element.fairies, story_element.castles]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.dolls_and_toys_come_alive
+    axis: story_element
+    label: dolls_and_toys_come_alive
+    display_name: "Dolls and Toys Come Alive"
+    region: creatures_and_companions
+    age_bands: ["3-4", "5-6"]
+    age_treatments:
+      3: {framing: "teddy stretches and the blocks tiptoe about the moment you look away — then freeze, right back in place", vocabulary: [teddy, tiptoe, peek], avoid: [toys being broken or abandoned as grief, toys punishing children]}
+      5: {framing: "the secret lives of the toy shelf — midnight tea parties, borrowed buttons, and small brave expeditions across the rug", vocabulary: [secret, shelf, expedition], avoid: [toys being broken or abandoned as grief, toys punishing children]}
+    edges:
+      adjacent: [story_element.princesses_and_princes, story_element.fairies]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.alien_worlds
+    axis: story_element
+    label: alien_worlds
+    display_name: "Alien Worlds"
+    region: adventure_and_exploration
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {framing: "strange skies with two suns and purple clouds, and a friendly first hello with whoever lives below them", vocabulary: [planet, explorer, greeting], avoid: [invasion, war-of-the-worlds menace, abduction]}
+      9: {framing: "a whole ecosystem and language to puzzle out — what the floating trees eat, and what three whistles mean", vocabulary: [ecosystem, translate, terrain], avoid: [invasion, war-of-the-worlds menace, abduction]}
+      11: {framing: "first contact as a puzzle of translation and trust — how do you say 'we come as friends' on a world where even a wave means something else", vocabulary: [first contact, civilization, diplomacy], avoid: [invasion, war-of-the-worlds menace, abduction]}
+    edges:
+      adjacent: [story_element.time_travel, story_element.lost_civilizations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: story_element.hero_quests
+    axis: story_element
+    label: hero_quests
+    display_name: "Hero Quests"
+    region: adventure_and_exploration
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {framing: "a band of friends, a hand-drawn map, and a far-off goal worth every muddy mile", vocabulary: [quest, map, companion], avoid: [combat as killing, permanent character death, demonic imagery]}
+      9: {framing: "an adventuring party where each member's different skill saves the day in turn — and a roll of luck can twist the road at any moment", vocabulary: [party, skill, twist of luck], avoid: [combat as killing, permanent character death, demonic imagery]}
+      11: {framing: "a campaign whose choices carry forward — an alliance spared at the crossroads returns at the gates, and the party must live with the road it picked", vocabulary: [campaign, consequence, alliance], avoid: [combat as killing, permanent character death, demonic imagery]}
+    edges:
+      adjacent: [story_element.wizards, story_element.dragons, story_element.alien_worlds]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

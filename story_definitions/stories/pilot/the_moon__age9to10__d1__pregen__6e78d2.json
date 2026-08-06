@@ -1,0 +1,339 @@
+{
+  "id": "story.the_moon.age9to10.d1.pregen.6e78d2",
+  "title": "The Long Line of Earths",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_moon",
+    "sel_theme": null,
+    "value_lesson": "Courage and calm under pressure, held by steady teamwork across distance",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A retired astronaut takes us from a moonlit beach all the way to the Sea of Tranquility to leave one small bootprint beside the ones that never blow away, and to bring one small thing home.",
+  "slots": {
+    "rocket_name": {
+      "role": "The name of the rocket that carries us",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Silver Kestrel"
+    },
+    "eclipse_snack": {
+      "role": "The treat shared on blankets during the lunar eclipse ending",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "cocoa with extra marshmallows"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The tide is coming in, and Dr. Okafor is kneeling at the edge of it, shining a small red light into a rock pool. \"Look,\" she whispers. \"The anemones open when the Moon pulls the water high. The crabs know it too. The whole beach keeps the Moon's time.\"\n\nWe crouch beside her. The water creeps up the sand in a scalloped line, like the hem of a dress being lifted, and the full Moon hangs over the sea, enormous and yellow.\n\n\"Beautiful, isn't it,\" says a voice behind us. \"I still can't get over it.\"\n\nIt's Commander Ruth. Retired astronaut. She has been to that Moon, and she sits down in the sand with us like it's her favourite chair.\n\n\"How far away is it?\" we ask.\n\n\"Watch.\" She tips a bag of marbles into her palm. \"If the Earth were this big,\" she says, holding up one blue marble, \"the Moon would be this big.\" A small grey one. \"And the distance between them would be...\" She lays the blue marble down, then paces along the beach, setting marbles in the sand one by one. Thirty of them, in a long gleaming line. \"Thirty Earths away. That's how far I flew.\"\n\nWe stare down the line of marbles. Thirty Earths.\n\n\"Here's the thing,\" Ruth says, and her voice drops to a half-whisper, like she's telling us a secret she still half doesn't believe. \"My rocket is fueled. She's waiting at the pad, right now, tonight. Nobody goes anymore. But I could. We could.\" She looks at us, eyes wide. \"The tide turns in an hour. If we're going, we go before it does.\"\n\nThe Moon shines down on the long line of marbles, and waits.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Ruth leads us up the beach to where the rocket waits, tall and silver in the moonlight. \"What do we call her?\" she asks. We tell her. \"{rocket_name},\" she repeats, grinning. \"Perfect. Climb in.\"\n\nWe strap into seats that smell of metal and old leather. Ruth counts down, her voice steady. \"Three. Two. One.\"\n\nThe rocket shakes awake beneath us. It is not loud. It is deep, a rumble that starts in our toes and climbs up our spines. Then, suddenly, silence. Earth falls away.\n\nFor three days we float. Ruth shows us how to drink from bubbles that wobble in the air, how to sleep strapped to the wall. We watch our planet shrink. First it is a blue marble, then a thumbprint, then a bright coin behind us. Ahead, the Moon grows. It fills the window until we can see the grey seas, dark and smooth.\n\n\"That one,\" Ruth whispers, pointing. \"The Sea of Tranquility. That's where we're going.\"\n\nShe touches the glass. \"I still can't believe we did this. Thirty Earths away, and we just... went.\"\n\nThe Moon waits, enormous and grey and close enough to touch.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Ruth shakes her head. \"Not yet. First, you need to hear how it really sounded.\"\n\nShe drives us to Houston, to a room full of glowing buttons and a screen as big as a house. A man named Gene meets us there. He has kind eyes and a vest covered in pins.\n\n\"This is where we sat,\" he says, \"when Eagle landed. Listen.\"\n\nHe plays a tape. It crackles. A voice counts down fuel. \"Sixty seconds.\" An alarm blares. \"Thirty seconds.\" The voice is calm, but we hear the tightness underneath. \"Contact light. Okay, engine stop.\"\n\nThen, crackling across thirty Earths: \"Houston, Tranquility Base here. The Eagle has landed.\"\n\nGene wipes his eyes. \"We almost ran out of fuel. Almost had to call it off. But we didn't.\"\n\nWe board the rocket with those voices in our ears. Launch shakes us loose from Earth, and for three days we coast. Gene's steady voice comes over the radio sometimes, checking in. We watch Earth shrink to a blue marble, then a thumbprint. The Moon grows until it fills the window, grey seas spreading out below us.\n\n\"Now you're ready,\" Ruth whispers. \"Now you know what it took.\"\n\nThe Sea of Tranquility waits below, dark and smooth and real.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Whatever you just found,\" Ruth whispers, \"hold onto it. Because where we're going, nothing changes. Ever.\"\n\nThe lunar module detaches with a soft, mechanical clunk. We are falling toward the grey. Suddenly, yellow lights flash across the console. Alarms beep, sharp and fast. \n\n\"Program alarm,\" a voice crackles in our headsets. It is Gene, from mission control, on the old tape. \"Fuel at sixty seconds.\"\n\nRuth's eyes go wide. Her hands fly over the switches. \"Just like my first time,\" she breathes. She grips the joystick. The computer stops flying. Ruth flies.\n\nGrey dust swirls beneath the triangular windows, kicked up by our engine. It billows like flour spilled across a dark counter. \n\n\"Thirty seconds,\" Gene counts.\n\nThe dust settles. We touch down with a gentle, bouncing thump. \n\nSilence. Total, absolute silence.\n\nRuth unbuckles her straps. Her hands are shaking, but she is grinning. \"Welcome to the Sea of Tranquility.\"\n\nWe open the hatch. We climb down the ladder and step out. The ground is soft, a deep grey powder. We do not walk here. We bounce. Slow, floating kangaroo hops. \n\nRuth points to a patch of undisturbed dust. \"Look.\"\n\nBootprints. Crisp, sharp, and perfect. \n\n\"Apollo,\" Ruth whispers. \"Those prints will last a million years. There is no wind to blow them away. No rain to wash them flat.\"\n\nWe look at our own feet. We have left prints too, right beside theirs. \n\nRuth turns to us, her helmet reflecting the blue Earth. \"We have time for one moonwalk. What should we do with it?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The laser,\" we say. \"Let's measure it.\"\n\nRuth grins, wide and bright. \"Good choice.\"\n\nWe bounce across the grey dust to a small, portable station. Ruth unfolds a tripod and aims a thin tube toward the Apollo mirrors, left behind years ago. \"The mirrors are still there,\" she whispers. \"Waiting.\"\n\nShe presses a button. A green beam shoots out, thin as a thread. We watch it race across the black sky, strike the Moon, and bounce back. A timer on the console blinks: 2.5 seconds.\n\n\"There and home again,\" Ruth says, her voice full of wonder. \"The Moon is drifting away from us, crew. A few centimeters every year. But tonight, we measured it. We caught it in the act.\"\n\nWe fly home. The Pacific Ocean rises to meet us, moonlit and silver. We splash down with a great, soft whoosh, and the waves rock us gently.\n\nLater, on a hilltop, Dr. Okafor meets us. She hands us a small card. It shows the time our laser took: 2.5 seconds.\n\n\"Proof,\" she says, smiling. \"You measured the Moon's slow goodbye.\"\n\nWe hold the card tight. The Moon is leaving, centimeter by centimeter. But tonight, we reached it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The bootprint,\" we say. \"And a stone.\"\n\nRuth nods, her eyes shining. \"Then let's make it count.\"\n\nWe bounce over to the Apollo prints, crisp and perfect in the dust. Carefully, we lift our boot and press it down beside theirs. One new print, sharp and clear, next to the old ones.\n\nThen we kneel and pick up one small, smooth grey pebble. It fits in our palm, cool and heavy.\n\n\"A piece of the Moon,\" Ruth whispers. \"To carry home.\"\n\nWe fly back. The Earth grows big and blue in the window. We splash down in the Pacific, and the waves rock us gently.\n\nWeeks later, we are in a backyard, wrapped in blankets. The full Moon hangs overhead. Slowly, Earth's shadow creeps across it, turning it a deep, coppery red.\n\n\"An eclipse,\" Ruth breathes.\n\nWe hold up our grey pebble. In the red moonlight, it glows almost the same color.\n\n\"You brought the Moon home,\" Ruth says softly.\n\nWe sip our {eclipse_snack}, warm and sweet, and watch the red Moon shine. The journey is over. But the Moon is still with us.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Here's the thing, crew — a rocket ride is only half the story. Do you want to climb straight aboard and feel her wake up under you, or stop at mission control first and hear how the landing really sounded, alarms and all?\"",
+      "options": [
+        {
+          "say_word": "Blast off",
+          "label": "Climb straight aboard the rocket and launch immediately",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "rocket_name": "Silver Kestrel"
+          }
+        },
+        {
+          "say_word": "Houston",
+          "label": "Visit mission control first to hear the real landing tapes and meet the ground crew",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "rocket_name": "Silver Kestrel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"One moonwalk, crew, and then we go home. We can aim the laser at the mirrors Apollo left behind and measure the Moon itself — or we can add one bootprint next to theirs and pick one small stone to carry back. Which is it?\"",
+      "options": [
+        {
+          "say_word": "The laser",
+          "label": "Fire the laser at the Apollo mirrors and measure the Moon's slow drift",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "A keepsake",
+          "label": "Leave one bootprint beside the Apollo prints and bring one grey pebble home to an eclipse night",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "eclipse_snack": "cocoa with extra marshmallows"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_moon",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 25
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The moon landings are inherently a journey story—traveling to an amazing place—and at age 9, the Apollo missions' actual voyage (lunar module descent, walking on the surface, returning home) provides natural plot movement that problem_and_fix or dilemma would need to manufacture artificially.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3404,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2128,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1915,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0851,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0638,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Fox Who Watched the Moon)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0638,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Commander Ruth, the retired astronaut, who narrates every stage with wide-eyed, half-whispered wonder — the fuel gauge, the red Moon, the blue marble — as if she still can't quite believe any of it happened.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Courage and calm under pressure, held by steady teamwork across distance",
+      "why": "The Apollo 11 landing material offers it without forcing: alarms flash, fuel runs low, and the day is saved by clear voices and steady hands — Ruth in the cockpit, Gene on the ground — so the value rides the events rather than a lecture."
+    },
+    "cast": [
+      {
+        "role": "Commander Ruth, a retired astronaut who walked on the Moon",
+        "reused": false,
+        "why": "She is the guide the journey pattern needs: she can carry us physically from beach to launch pad to lunar surface while carrying the curious_wonder accent in her voice, and she lightly demonstrates where to stand and how to move in each real place."
+      },
+      {
+        "role": "Gene, the flight director at mission control in Houston",
+        "reused": false,
+        "why": "His calm radio voice during the alarm-lit descent lets the landing's tension live in the story without ever feeling unsafe, and he gives the second choice its asker."
+      },
+      {
+        "role": "Dr. Okafor, a marine biologist studying tide pools",
+        "reused": false,
+        "why": "She opens the story on the beach, showing how the Moon already reaches us here through the tides, which sets up the pull that takes us in."
+      },
+      {
+        "role": "An astronomer at the hilltop observatory (unnamed, cameo)",
+        "reused": false,
+        "why": "She lets us fire the laser at the Moon's mirrors in the gentle branch and hands us the small discovery that comes home."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Apollo 11's lunar module Eagle landing with alarms flashing and seconds of fuel left",
+        "The Moon's one-sixth gravity and slow bouncing kangaroo hops",
+        "No air on the Moon: footprints stay sharp for millions of years",
+        "The Moon pulling Earth's oceans into tides, the blue blanket tug",
+        "A lunar eclipse turning the full Moon coppery red",
+        "Laser mirrors left on the Moon, measuring its slow drift away",
+        "The three-day coast: Earth shrinking to a blue marble, the Moon growing to fill the window",
+        "Thirty Earths fitting in the space between Earth and Moon",
+        "Settings: night beach, lunar module interior, dusty lunar surface, eclipse backyard, observatory"
+      ],
+      "gathered_but_unused": [
+        "The Moon is about 384,000 kilometers from Earth, so far that you could fit about 30 Earths in the space between us.",
+        "Apollo 11's lunar module, called Eagle, landed on the Moon in 1969 while its computer alarms flashed, and Armstrong flew the last stretch by hand with less than half a minute of fuel to spare.",
+        "On the Moon there is no air, so there is no wind or sound; footprints left by astronauts can stay sharp for millions of years.",
+        "The Moon's gravity is only about one-sixth of Earth's, so a person who weighs 60 kilograms on Earth would feel as light as 10 kilograms there.",
+        "The Moon's gravity pulls on Earth's oceans and creates tides, bulging the water toward it on one side of the planet and away from it on the other.",
+        "A lunar eclipse happens when Earth slides between the Sun and the Moon, and Earth's shadow turns the full Moon a deep coppery red.",
+        "The same side of the Moon always faces Earth because the Moon spins exactly once for every trip it makes around us, so nobody saw its far side until a spacecraft photographed it in 1959.",
+        "Astronauts left mirrors on the Moon, and scientists still bounce laser beams off them to measure the Moon drifting about 3.8 centimeters farther away each year."
+      ]
+    },
+    "safety_beat": "On the night beach in s1, Dr. Okafor casually shows us where to stand — above the tide line she has marked with her lantern — as she points out the tide pools, a light touch of competence with no warning and no tension; on the lunar surface in s3, Ruth demonstrates the slow, knees-soft bounce-step before we try it, the way she was taught.",
+    "motif": "Footprints — the tide's scalloped edge on sand, bootprints in grey powder that last a million years, the one print we add and the one pebble we carry back.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.the_moon.quiet_hour_001",
+        "title": "The Fox Who Watched the Moon",
+        "pattern": "quiet_hour",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already holds a child inside each wonder long enough to feel it — the marble line, the crackling tape, the bootprints, the glowing pebble — and its sound is built for reading aloud, with short landing sentences like 'Thirty Earths' and 'Ruth flies' doing real work."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and pulled in by a delicious secret",
+        "s2a": "thrumming lift-off thrill settling into floating awe",
+        "s2b": "leaning in close to the crackly voices, a held breath of history",
+        "s3": "a held breath through the alarms, then hushed, bouncy wonder",
+        "s4a": "the small triumph of catching the Moon in the act, then satisfied and sleepy",
+        "s4b": "tender and glowing, a keepsake held warm under a red moon"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 10 warning. [s1] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.3); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 2.7); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 3.8); [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 2.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 2.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "26_the_moon_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

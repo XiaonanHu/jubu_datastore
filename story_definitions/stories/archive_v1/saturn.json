@@ -1,0 +1,314 @@
+{
+  "id": "story.saturn.journey_001",
+  "title": "The Lane Between the Rings",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.saturn",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We follow Saturn's rings outward to see what is waiting at the next bend.",
+  "slots": {
+    "boat_name": {
+      "role": "the little silver sky-boat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Comet"
+    },
+    "first_marvel": {
+      "role": "the marvel we stopped at first",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "the glittering lane"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The telescope in the backyard is glowing, so we climb through the little round door and out onto the soft dark of the sky. And there she is, rocking on the starlight. The little silver sky-boat, {boat_name}, with a sail made of shimmer. We climb aboard and off we go. Stars slide past us like slow lanterns. Then the sky in front turns gold. Saturn is coming up, huge and round and creamy, wearing wide bright rings around its middle, like a hat with no top. From here the rings look painted on, smooth as a plate. But as we sail closer, the smooth silver hoop breaks into pieces. Millions of pieces. The rings are made of ice, tumbling along side by side, some as small as peas and some as big as houses. Every chunk catches the sun and winks at us. Now we can see two things at once. Right in front, the ice opens into a wide dark lane, like a river running through a glittering field. And just below, one huge slab of ice turns slowly, flat on top like a floating island. Where should {boat_name} stop first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "{boat_name} tips her sail and slides down into the lane. Oh. It is like sailing through a canyon made of sparkles. On our left, a wall of tumbling ice. On our right, another one. Both walls are moving, turning over and over, and there is no sound at all up here. Only glitter, going by. Tiny ice crumbs tap the sail. Tick. Tick. Tick. It is the smallest snow in the whole sky. We lie on our backs in the boat and watch Saturn's golden stripes slide along above us. Then something comes trundling down the wall of ice toward us. It is a little round moon, no bigger than a hill, rolling along the edge of the ring and bumping stray ice chunks back into line. Excuse me, it says to a chunk. Pardon me. Coming through. Whoops. Sorry. So sorry. It nudges one lumpy piece back where it belongs and tips its hat, which is really just a patch of frost. Then it trundles off, apologizing to everything it passes. We wave. It apologizes to us too.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "{boat_name} drifts down and settles on the flat top of the great ice slab, gentle as a leaf landing on a pond. We step out. We are standing on a floating island, and the island is turning, slow and steady, so the stars swing by above us. The ice is clear as a window. We kneel down and look into it and see bubbles trapped inside, tiny and round, frozen there for a very long time. We knock on it. Tock, tock. It is harder than any ice at home and colder than anything, so we keep our mittens on. Up here we hardly weigh a thing. We hop, and we go up and up, and we come down slow, and we land with a soft crunch of ice sand. So we hop again. Then we stand still and look out. The ring stretches away in both directions, a glittering road with no end, and thousands of ice islands roll along it beside us, all going the same way. It is a parade that never stops. We watch our parade go by.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We wave goodbye to {first_marvel}, and {boat_name} lifts up and up, over the top of the rings. Now we can see them whole. Flat bright circles, one inside the other, like ripples in a pond that stopped in the middle of spreading. Right through the middle of them runs a dark gap so wide you could sail a whole town through it. Below the rings, Saturn turns. Golden stripes of cream and butterscotch and honey slide slowly past each other. Saturn is not a world with a ground. It is a giant ball of clouds, so there is nowhere to put your feet, and that is fine, because we have a boat. Then the little round moon comes trundling over the top of the ring, quite out of breath. Sorry, it puffs. Sorry. But you must see the moons. Saturn has so many moons. Dozens and dozens of them. It points one frosty bump at a small white moon that is puffing snow up into the sky. Then it points at a big orange one wrapped in a thick fuzzy blanket of air. Excuse me, it says, but you really must pick one.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "{boat_name} sails out to the small white moon, and it is the whitest thing we have ever seen. It is smooth and bright, with long blue cracks near the bottom, like the lines inside a marble. And out of those cracks come fountains. Real fountains, made of ice crystals, puffing up and up higher than any mountain, and silent the whole way. We sail right into one. Snow drifts all around us, slow and sparkling. It does not fall down, because out here there is no down. It just floats and turns. We spin in circles with our arms out. Snow settles on our sleeves, on the sail, in our hair. And here is the best part. This snow never comes back to the little moon. It drifts up and out and joins the rings, and it makes one of the softest, fluffiest rings of all. That small white moon has been snowing its own ring for a very long time. We sail home with the fountain shining at our backs. Through the round telescope door, onto the cool backyard grass, and we shake real ring snow out of our hair.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{boat_name} turns toward the big orange moon, and it grows until it fills the whole sky like a giant apricot. Its air is thick and fuzzy, and we cannot see the ground at all. So down we go, right through the haze, slow and gentle. And then the world opens underneath us. There are hills. There are rivers, winding and dark, and lakes lying flat and still, and a soft orange light over everything, like the inside of a paper lantern. It is raining here. Not fast rain. The drops are fat and they drift down as slowly as feathers, so we can watch one all the way from the clouds to the ground. The air is heavy and thick, and we are light as paper, and that means something wonderful. We hold out our arms and flap. And we fly. We really fly, flapping in slow circles under an orange sky, over rivers on a moon. We flap until our arms are tired and happy. Then we climb back into {boat_name} and sail home. Through the round telescope door, onto the cool backyard grass, still waving our arms like wings.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Where should we go first? Say lane, or say island.",
+      "options": [
+        {
+          "say_word": "lane",
+          "label": "Sail down the wide lane between the rings",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_marvel": "the glittering lane"
+          }
+        },
+        {
+          "say_word": "island",
+          "label": "Land on the floating island of ice",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_marvel": "the floating island of ice"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Which moon should we visit? Say snow, or say orange.",
+      "options": [
+        {
+          "say_word": "snow",
+          "label": "Fly to the little moon that puffs snow into the sky",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "orange",
+          "label": "Fly to the big moon with the thick orange sky",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.saturn",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Saturn's rings are literally a route — a lane, an island, a rim, a moon — so the movement outward is the plot, and nothing has to be wrong for a five-year-old to want to see what is around the next bend.",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "the shelf nudge had pushed mystery just above journey, and the question 'what are the rings really made of' is a genuinely good one — but it answers itself in one look, in the second minute, and then the story has nowhere left to go"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.16,
+          "sampled": true,
+          "rejected_because": "the rings would make a beautiful bedtime mood piece, and one should be written; but the_moon and birds already hold the quiet_hour slots on this pilot shelf"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.20,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false
+        }
+      ],
+      "backup": "quiet_hour"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the little shepherd moon that trundles along the rim of the ring nudging ice chunks back into line and apologizing to every single one of them",
+      "why": "the rings want stillness and held breath, so curious_wonder owns the opening, the rim view and both landings; the silly lives entirely in the apologetic little moon, which keeps the awe from tipping into solemn without ever making the ice itself a joke.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder alone, no accent",
+          "because": "that is exactly the parent planets story's recipe, and eighteen minutes of pure awe across two stories starts to feel like a museum; the child needs somebody to laugh at"
+        },
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "the ocean_animals pilot story already runs wonder plus cozy, and cozy would soften the vast scale that is the whole point of standing on an ice island"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "journey defaults to 'we' in policy §6, and it matters more than usual here: the rings are enormous and empty, and going together is what keeps that thrilling rather than lonely, which the topic's avoid list also asks for.",
+      "rejected": [
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered voyage would suit the rings beautifully at 7-8, but at five the 'was it real' frame costs more than it gives, and the boat's name slot works best when the child is in the boat"
+        },
+        {
+          "teller": "named_hero",
+          "because": "there is no one to worry about here; a hero with nothing at stake is just a tour guide with a name"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "no natural value angle appeared in the materials. The shepherd moon's endless apologising could have been bent toward manners, and bending it would have turned the story's one joke into a lesson. No parent value picks apply to a library story."
+    },
+    "cast": [
+      {
+        "role": "the little silver sky-boat",
+        "reused": true,
+        "why": "reused from the parent planets story, and this is the reuse that matters most: the role string is identical, so the naming slot resolves against the same (topic family, character role) key. A child who christened the boat in the planets story sails Saturn in a boat that still has their name on it, with no second naming prompt"
+      },
+      {
+        "role": "the round telescope door in the backyard",
+        "reused": true,
+        "why": "reused from the parent planets story as the way in and the way home; it is becoming the frame device of the whole planets family, which is deliberate"
+      },
+      {
+        "role": "the little shepherd moon that apologises to the ice",
+        "reused": false,
+        "why": "new, and needed: the tone recipe requires a single carrier for the silly accent, and real shepherd moons do herd ring ice, so the joke is also a true fact. Left unnamed to stay inside the two-slot budget — flagged as the first candidate for a naming slot if it comes back in a later Saturn story"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "from far off the rings look solid; up close they are countless separate ice chunks from pea sized to house sized",
+        "the ring ice is bright because it is mostly clean water ice",
+        "there are wide gaps between the rings, big enough to fly through",
+        "shepherd moons travel along ring edges and keep the ice in line",
+        "the rings are enormously wide but remarkably thin",
+        "Saturn is a ball of gas and clouds with no surface to stand on",
+        "Saturn has dozens of moons",
+        "Enceladus sprays ice fountains from cracks near its south pole, and that spray feeds one of the rings",
+        "Titan has a thick orange haze, rivers and lakes, slow fat raindrops, and air thick enough plus gravity low enough that a person could fly by flapping"
+      ],
+      "gathered_but_unused": [
+        "the six-sided cloud pattern at Saturn's north pole",
+        "Saturn's day is only about ten and a half hours long",
+        "the rings may be much younger than the planet",
+        "Cassini's seven-year voyage to get there",
+        "Iapetus, the moon that is dark on one side and bright on the other"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "it sits at the arrival, the first moment there is more than one true thing to look at; both options are the same fact seen two ways, which is why the paths can merge at the rim view in s3 without either child feeling skipped",
+        "criteria": {
+          "more_interesting": "one path is motion — walls of glitter rushing past, no sound; the other is stillness — standing on a turning island, knocking on ancient ice. Different bodies, different speed, different sense",
+          "more_engaging": "flying down a sparkling canyon and standing on a house-sized ice cube are both irresistible, and neither is obviously the better prize",
+          "reveals_taste": "lane is the bold lean, island is the gentle lean",
+          "reveals_curiosity": "lane is for the thrill of being there (just_experience); island stops to look inside the ice and test how the ring is built (how_it_works)",
+          "reflects_mood": "a lively evening takes the lane, a slow one steps out onto the island"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice must split, and the moons are where the journey naturally opens into two real destinations; the shepherd moon offers them out loud, so the fork is set up in the story rather than announced by the narrator",
+        "criteria": {
+          "more_interesting": "the snow moon is weightless drifting and a fact that loops back to the rings; the orange moon is a landing, a landscape and flying. The two endings share nothing but the way home",
+          "more_engaging": "catching snow that never lands against flapping your arms and actually flying — a five-year-old wants both, which is what makes the choice hard in the good way",
+          "reveals_taste": "snow is the gentle lean, orange is the bold lean",
+          "reveals_curiosity": "snow explains where a ring comes from (how_it_works); orange is pure being-there (just_experience)",
+          "reflects_mood": "the snow ending settles down toward bedtime, the orange ending sends the child off waving their arms"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "journey beats all present: the route is real and always forward — approach, ring, rim, moon — with a marvel at every stop and nothing wrong anywhere. Six segments, two choices, ~700 words per path. Say-words distinct and easy, lane/island and snow/orange. Slot check: boat_name is used in five of six segments, first_marvel is set by both c1 options and used once in the shared s3. Avoid list respected: no crushing, no falling forever, and the no-ground fact in s3 is answered in the same breath by 'we have a boat'."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "short speakable sentences, no ellipses, asterisks, parentheses or symbols. Age-5 vocabulary from the treatment (rings, golden, ice) used naturally. Sibling contrast on s2a/s2b written together and confirmed different in kind: motion versus stillness. The shared s3 read with both first_marvel values, 'the glittering lane' and 'the floating island of ice', and reads correctly for both. Caught and removed a banned phrase in the s1 draft: 'ahead of us' rewrote to 'right in front'."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "all four paths read end to end. The shepherd moon reaches every path because it is introduced in s2a and returns in the shared s3; on the island path it arrives fresh at s3, which reads fine. Tone recipe holds: wonder owns both landings and the accent never leaves the moon. Both endings resolve fully and come home through the telescope door — checked that they are not the same ending twice, since one lands in silence and snow and the other lands still flapping."
+      }
+    ],
+    "writers_notes": [
+      "The whole story is only three or four true facts, each one given a body. Resist adding a fifth; the rings are worth dwelling on.",
+      "The scale must never become frightening. Every enormous thing is answered by a small comfortable one — the boat, the mittens, the apologising moon.",
+      "There is no sound in space, and the silence is used as a pleasure rather than a lack, twice.",
+      "'Ahead of' is banned language; two natural sentences wanted it. Use 'in front of us' or 'up in front'.",
+      "The rings appear in the parent planets story too. The overlap is intentional but the treatment is deliberately different: there we glided above them, here we go inside them and then look down at them whole.",
+      "Titan's rivers are not water rivers. At age five we simply do not say what they are made of; nothing false is stated. At 7-8 that is the fact worth telling."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

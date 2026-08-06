@@ -1,0 +1,326 @@
+axis: knowledge_domain
+pack: animals
+nodes:
+  - id: knowledge_domain.ocean_animals
+    axis: knowledge_domain
+    label: ocean_animals
+    display_name: "Ocean Animals"
+    region: animals
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "who swims down there — wiggly octopuses, clown fish, crabs walking sideways", vocabulary: [octopus, crab, fin], avoid: [shark attacks on people, animals eating each other graphically]}
+      6: {depth: sensory, framing: "how sea creatures get around — jet-squirting squid, gliding rays, sticky starfish feet", vocabulary: [squid, ray, tentacle], avoid: [shark attacks on people]}
+      7: {depth: mechanism, framing: "breathing underwater — gills vs. holding your breath; how fish float without trying", vocabulary: [gills, swim bladder, scales]}
+      8: {depth: mechanism, framing: "built for the sea — streamlined bodies, blubber for cold, ink and armor for defense", vocabulary: [streamlined, blubber, invertebrate]}
+      9: {depth: system, framing: "coral reefs as underwater cities — who cleans, who guards, who builds", vocabulary: [coral reef, symbiosis, plankton]}
+      10: {depth: system, framing: "life by depth — sunlit reef to glowing deep-sea creatures no sunlight ever reaches", vocabulary: [bioluminescence, deep sea, marine biologist]}
+    edges:
+      adjacent: [knowledge_domain.oceans_and_tides, knowledge_domain.whales_and_dolphins, knowledge_domain.camouflage]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-LS4-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.insects
+    axis: knowledge_domain
+    label: insects
+    display_name: "Insects"
+    region: animals
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "tiny neighbors everywhere — busy ants, tickly ladybugs, crickets singing at night", vocabulary: [ant, ladybug, buzz], avoid: [swarm attacks, frightening stings framed as menacing]}
+      6: {depth: sensory, framing: "insect superpowers — jumping like grasshoppers, glowing like fireflies, lifting like ants", vocabulary: [firefly, grasshopper, antenna]}
+      7: {depth: mechanism, framing: "what makes an insect an insect — six legs, three body parts, a skeleton on the outside", vocabulary: [thorax, abdomen, exoskeleton]}
+      8: {depth: mechanism, framing: "insect teamwork — how a hive or an ant colony works like one big body", vocabulary: [colony, hive, worker bee]}
+      9: {depth: system, framing: "insects run the world — pollinating crops, recycling leaves, feeding nearly everyone", vocabulary: [pollinator, decomposer, larva]}
+      10: {depth: system, framing: "insect engineering and insect trouble — termite towers, locust swarms, and why bees matter to farms", vocabulary: [entomologist, metamorphosis, swarm]}
+    edges:
+      adjacent: [knowledge_domain.flowers_and_pollination, knowledge_domain.camouflage, knowledge_domain.animal_homes]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-LS2-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.birds
+    axis: knowledge_domain
+    label: birds
+    display_name: "Birds"
+    region: animals
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
+    age_treatments:
+      3: {depth: sensory, framing: "birdies at the window — hop hop, flap flap, and a cheery chirp to copy back", vocabulary: [bird, chirp, flap]}
+      4: {depth: sensory, framing: "duck says quack and owl says hoo — matching each bird to its own little song", vocabulary: [duck, quack, hoot]}
+      5: {depth: sensory, framing: "feathered friends at the window — morning songs, hopping robins, ducks in a row", vocabulary: [feather, nest, chirp]}
+      6: {depth: sensory, framing: "beaks are tools — scoopers, crackers, tweezers; guessing what a bird eats from its beak", vocabulary: [beak, wing, peck]}
+      7: {depth: mechanism, framing: "how flying works — hollow bones, wing shapes, and flapping vs. gliding", vocabulary: [hollow bones, glide, flock]}
+      8: {depth: mechanism, framing: "from egg to fledgling — nest building, egg warming, first flight", vocabulary: [hatch, fledgling, incubate]}
+      9: {depth: system, framing: "birds are living dinosaurs — the feathered fossil trail that connects them", vocabulary: [species, plumage, birds of prey]}
+      10: {depth: system, framing: "bird intelligence and bird watching — tool-using crows, mimicking parrots, citizen scientists counting flocks", vocabulary: [ornithologist, mimicry, habitat range]}
+    edges:
+      adjacent: [knowledge_domain.migration, knowledge_domain.animal_homes, knowledge_domain.dinosaurs]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-LS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.dinosaurs
+    axis: knowledge_domain
+    label: dinosaurs
+    display_name: "Dinosaurs"
+    region: animals
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
+    age_treatments:
+      3: {depth: sensory, framing: "enormous friendly stompers — big big feet, looong necks, and ROAR is the funnest sound to make together", vocabulary: [dinosaur, stomp, roar], avoid: [scary chasing, teeth and claws as threat, extinction]}
+      4: {depth: sensory, framing: "dinosaur sizes and shapes — a long-neck as tall as a house, and tiny ones too", vocabulary: [huge, tiny, long neck], avoid: [scary chasing, teeth and claws as threat, extinction]}
+      5: {depth: sensory, framing: "giant stompers of long ago — long necks munching treetops, tiny arms, mighty roars", vocabulary: [dinosaur, roar, stomp], avoid: [graphic hunting and eating scenes, dinosaurs menacing children, scary extinction imagery]}
+      6: {depth: sensory, framing: "meet the famous ones — three-horned Triceratops, plated Stegosaurus, towering T. rex", vocabulary: [Triceratops, fossil, herd], avoid: [graphic hunting and eating scenes]}
+      7: {depth: mechanism, framing: "how we know what dinosaurs were like — teeth tell diet, legs tell speed, bones tell size", vocabulary: [herbivore, carnivore, skeleton]}
+      8: {depth: mechanism, framing: "dinosaur family tree — which walked on two legs, which had feathers, which became birds", vocabulary: [theropod, predator, hatchling]}
+      9: {depth: system, framing: "the Mesozoic world — dinosaurs in their ecosystems across millions of years", vocabulary: [Mesozoic, Jurassic, ecosystem]}
+      10: {depth: system, framing: "the asteroid and after — the extinction event as evidence-based science, and who survived", vocabulary: [extinction event, asteroid impact, paleontology], avoid: [dwelling on mass death in frightening detail]}
+    edges:
+      adjacent: [knowledge_domain.fossils, knowledge_domain.reptiles, knowledge_domain.birds]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS4-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.animal_babies
+    axis: knowledge_domain
+    label: animal_babies
+    display_name: "Animal Babies"
+    region: animals
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "wobbly, fuzzy, brand-new — kittens, ducklings, and foals finding their feet", vocabulary: [kitten, duckling, cub], avoid: [babies losing their parents permanently, babies taken by predators]}
+      6: {depth: sensory, framing: "baby animal names and baby animal sounds — a joey rides, a piglet squeals, a chick peeps", vocabulary: [joey, piglet, foal], avoid: [babies losing their parents permanently]}
+      7: {depth: mechanism, framing: "how animal parents care for their young — feeding, carrying, teaching, guarding", vocabulary: [offspring, litter, protect]}
+      8: {depth: mechanism, framing: "born ready or born helpless — why a fawn walks in an hour but a baby bird can't", vocabulary: [newborn, instinct, nurture]}
+    edges:
+      adjacent: [knowledge_domain.animal_homes, knowledge_domain.life_cycles, knowledge_domain.birds]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-LS3-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.animal_homes
+    axis: knowledge_domain
+    label: animal_homes
+    display_name: "Animal Homes"
+    region: animals
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "everyone has a cozy spot — nests up high, burrows down low, shells carried along", vocabulary: [nest, burrow, den]}
+      6: {depth: sensory, framing: "animal builders at work — beavers stacking sticks, spiders spinning, wasps making paper", vocabulary: [dam, web, lodge]}
+      7: {depth: mechanism, framing: "why a home is built where it is — hidden from danger, close to food, warm and dry", vocabulary: [shelter, territory, hideout]}
+      8: {depth: mechanism, framing: "homes as engineering — tunnels with escape exits, mounds with air conditioning", vocabulary: [tunnel system, termite mound, insulation]}
+    edges:
+      adjacent: [knowledge_domain.animal_babies, knowledge_domain.birds, knowledge_domain.insects]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-ESS3-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.camouflage
+    axis: knowledge_domain
+    label: camouflage
+    display_name: "Camouflage"
+    region: animals
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "animal hide-and-seek — can you spot the stick bug on the stick?", vocabulary: [hide, blend in, spots]}
+      6: {depth: sensory, framing: "costume changers — chameleons shifting color, arctic foxes turning snow-white", vocabulary: [chameleon, stripes, disguise]}
+      7: {depth: mechanism, framing: "how blending in works — matching colors, breaking up outlines, staying still", vocabulary: [pattern, outline, mimic]}
+      8: {depth: mechanism, framing: "camouflage both ways — hiders hiding from hunters, hunters hiding from lunch", vocabulary: [predator, prey, countershading]}
+      9: {depth: system, framing: "how camouflage gets better over generations — the best-hidden survive and pass it on", vocabulary: [adaptation, natural selection, generation]}
+      10: {depth: system, framing: "beyond blending — warning colors, copycat mimics, and octopus skin that thinks for itself", vocabulary: [mimicry, warning coloration, camouflage strategy]}
+    edges:
+      adjacent: [knowledge_domain.predators_and_prey, knowledge_domain.insects, knowledge_domain.ocean_animals]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS4-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.migration
+    axis: knowledge_domain
+    label: migration
+    display_name: "Migration"
+    region: animals
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "animals with two homes — flying, swimming, or walking huge distances when seasons change", vocabulary: [journey, flock, route], avoid: [animals dying of exhaustion on the journey, babies left behind]}
+      8: {depth: mechanism, framing: "how travelers find the way — sun, stars, landmarks, and a built-in compass", vocabulary: [navigate, landmark, magnetic sense]}
+      9: {depth: system, framing: "record-breaking journeys — arctic terns pole to pole, monarchs across generations", vocabulary: [migration route, monarch butterfly, stopover]}
+      10: {depth: system, framing: "tracking migrations with tags and satellites; what happens when a route gets blocked", vocabulary: [satellite tracking, flyway, wildlife corridor]}
+    edges:
+      adjacent: [knowledge_domain.birds, knowledge_domain.whales_and_dolphins, knowledge_domain.seasons]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.predators_and_prey
+    axis: knowledge_domain
+    label: predators_and_prey
+    display_name: "Predators and Prey"
+    region: animals
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "the chase — sharp senses and speed on one side, alarm calls and quick escapes on the other", vocabulary: [predator, prey, pounce], avoid: [graphic kills or eating scenes, prey suffering described in detail, predators framed as evil]}
+      8: {depth: mechanism, framing: "hunting tools and escape tools — night vision, pack teamwork, playing dead, safety in numbers", vocabulary: [ambush, herd, keen senses], avoid: [graphic kills or eating scenes, predators framed as evil]}
+      9: {depth: system, framing: "the balance — predators keep herds healthy; when wolves vanish, everything shifts", vocabulary: [population, balance, apex predator], avoid: [graphic kill descriptions]}
+      10: {depth: system, framing: "the evolutionary arms race — faster prey breeds faster hunters, and cleverness answers cleverness", vocabulary: [arms race, co-evolution, defense strategy], avoid: [graphic kill descriptions]}
+    edges:
+      adjacent: [knowledge_domain.camouflage, knowledge_domain.food_chains, knowledge_domain.nocturnal_animals]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-LS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.nocturnal_animals
+    axis: knowledge_domain
+    label: nocturnal_animals
+    display_name: "Nocturnal Animals"
+    region: animals
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the night shift wakes up — hooting owls, blinking fireflies, raccoons on tiptoe", vocabulary: [owl, hoot, moonlight], avoid: [night framed as scary, creatures lurking to frighten the child]}
+      6: {depth: sensory, framing: "who's rustling out there? matching night sounds to the animals that make them", vocabulary: [bat, raccoon, rustle], avoid: [night framed as scary]}
+      7: {depth: mechanism, framing: "night equipment — giant eyes, swiveling ears, whiskers that feel the dark", vocabulary: [night vision, whiskers, keen hearing]}
+      8: {depth: mechanism, framing: "seeing with sound — how bats and their echoes map the dark", vocabulary: [echolocation, ultrasonic, nocturnal]}
+      9: {depth: system, framing: "why work the night shift? cooler air, fewer rivals, and a whole hidden economy after dark", vocabulary: [niche, crepuscular, competition]}
+      10: {depth: system, framing: "when night gets bright — how city lights confuse night animals and what dark-sky towns do about it", vocabulary: [light pollution, circadian rhythm, dark-sky reserve]}
+    edges:
+      adjacent: [knowledge_domain.sleep_and_dreams, knowledge_domain.camouflage, knowledge_domain.caves]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.reptiles
+    axis: knowledge_domain
+    label: reptiles
+    display_name: "Reptiles"
+    region: animals
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "the scaly crew — why lizards sunbathe, how snakes move without legs, turtle shell basics", vocabulary: [scales, cold-blooded, bask], avoid: [venomous bites harming people, snakes framed as villains]}
+      8: {depth: mechanism, framing: "reptile tricks — shedding skin, dropping tails, eggs with leathery shells", vocabulary: [shed, hatchling, gecko], avoid: [venomous bites harming people]}
+      9: {depth: system, framing: "reptiles across habitats — desert tortoises, river crocodiles, sea turtles crossing oceans", vocabulary: [ectotherm, habitat, crocodilian]}
+      10: {depth: system, framing: "ancient survivors — reptile lineages older than dinosaurs, and how venom became medicine", vocabulary: [lineage, venom, herpetologist]}
+    edges:
+      adjacent: [knowledge_domain.dinosaurs, knowledge_domain.deserts, knowledge_domain.camouflage]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS4-3"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.whales_and_dolphins
+    axis: knowledge_domain
+    label: whales_and_dolphins
+    display_name: "Whales and Dolphins"
+    region: animals
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "gentle giants and splashy acrobats — spouts, flips, and dolphin giggles", vocabulary: [whale, dolphin, splash], avoid: [whaling, strandings, dolphins trapped in nets]}
+      6: {depth: sensory, framing: "big breath in! whales hold their breath and blow rainbow spray when they surface", vocabulary: [blowhole, spout, pod], avoid: [whaling, strandings]}
+      7: {depth: mechanism, framing: "not fish at all — warm blood, milk for babies, and coming up for air", vocabulary: [mammal, blubber, calf]}
+      8: {depth: mechanism, framing: "talking underwater — whale songs that travel for miles, dolphin clicks that see", vocabulary: [echolocation, whale song, sonar]}
+      9: {depth: system, framing: "ocean societies — dolphin pods with names for each other, orca families with their own dialects", vocabulary: [pod culture, dialect, social bond]}
+      10: {depth: system, framing: "giants and the ocean food web — whale falls, ocean noise, and how protection brought some species back", vocabulary: [baleen, marine sanctuary, population recovery], avoid: [graphic whaling history detail]}
+    edges:
+      adjacent: [knowledge_domain.ocean_animals, knowledge_domain.migration, knowledge_domain.sound_and_echoes]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.food_chains
+    axis: knowledge_domain
+    label: food_chains
+    display_name: "Food Chains"
+    region: animals
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "who eats whom — sun feeds grass, grass feeds rabbit, and energy passes along the line", vocabulary: [food chain, energy, plant eater], avoid: [graphic eating scenes, dwelling on prey animals' fear]}
+      8: {depth: mechanism, framing: "links in the chain — producers make food, consumers eat it, decomposers clean up", vocabulary: [producer, consumer, decomposer], avoid: [graphic eating scenes]}
+      9: {depth: system, framing: "chains weave into webs — most animals eat many things, so every link touches many others", vocabulary: [food web, herbivore, omnivore]}
+      10: {depth: system, framing: "pull one thread — what removing or adding one species does to the whole web", vocabulary: [trophic level, keystone species, ripple effect]}
+    edges:
+      adjacent: [knowledge_domain.predators_and_prey, knowledge_domain.ecosystems, knowledge_domain.ocean_animals]
+      prerequisite: [knowledge_domain.predators_and_prey]
+    crosswalk:
+      ngss: ["5-LS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.endangered_animals
+    axis: knowledge_domain
+    label: endangered_animals
+    display_name: "Endangered Animals"
+    region: animals
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "animals running low — why pandas, tigers, and sea turtles need help, and the helpers helping them", vocabulary: [endangered, habitat loss, wildlife refuge], avoid: [hopeless extinction doom, blaming the child, graphic poaching scenes]}
+      10: {depth: system, framing: "comeback stories and open cases — bald eagles returned, others still on the list; how conservation actually works", vocabulary: [conservation, species recovery, poaching], avoid: [hopeless extinction doom, graphic poaching scenes]}
+    edges:
+      adjacent: [knowledge_domain.ecosystems, knowledge_domain.whales_and_dolphins, knowledge_domain.rainforests]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS4-4"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

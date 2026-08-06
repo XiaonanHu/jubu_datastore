@@ -1,0 +1,310 @@
+axis: knowledge_domain
+pack: how_things_work
+nodes:
+  - id: knowledge_domain.simple_machines
+    axis: knowledge_domain
+    label: simple_machines
+    display_name: "Simple Machines"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "ramps, seesaws, and pulleys; little helpers that make heavy things feel light", vocabulary: [ramp, seesaw, pulley]}
+      6: {depth: sensory, framing: "playground machines are everywhere; how a slide and a wheelbarrow do work for you", vocabulary: [lever, wheel, slide]}
+      7: {depth: mechanism, framing: "the six simple machines; trading a longer push for an easier one", vocabulary: [lever, inclined plane, axle]}
+      8: {depth: mechanism, framing: "how machines multiply your force; spotting simple machines hidden inside big ones", vocabulary: [force, effort, load]}
+      9: {depth: system, framing: "combining simple machines into compound ones; how ancient builders moved giant stones", vocabulary: [compound machine, mechanical advantage, gear]}
+      10: {depth: system, framing: "designing your own machine to solve a problem; efficiency and trade-offs", vocabulary: [efficiency, design, prototype]}
+    edges:
+      adjacent: [knowledge_domain.bridges_and_buildings, knowledge_domain.engines_and_vehicles, knowledge_domain.inventions]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-PS2-1", "3-PS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.magnets
+    axis: knowledge_domain
+    label: magnets
+    display_name: "Magnets"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the mystery pull; some things stick to a magnet and some do not", vocabulary: [magnet, stick, pull]}
+      6: {depth: sensory, framing: "the two ends of a magnet; sometimes they grab each other, sometimes they push away", vocabulary: [north pole, south pole, attract]}
+      7: {depth: mechanism, framing: "invisible magnetic fields; why magnets work without ever touching", vocabulary: [magnetic field, repel, iron]}
+      8: {depth: mechanism, framing: "the Earth itself is a giant magnet; how a compass needle finds north", vocabulary: [compass, needle, magnetize]}
+      9: {depth: system, framing: "electromagnets you can switch on and off; magnets doing quiet work inside machines", vocabulary: [electromagnet, coil, current]}
+      10: {depth: system, framing: "maglev trains floating on magnetic force; magnets in speakers, motors, and hospital scanners", vocabulary: [maglev, motor, magnetic levitation]}
+    edges:
+      adjacent: [knowledge_domain.electricity, knowledge_domain.maps_and_globes, knowledge_domain.inventions]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-PS2-3", "3-PS2-4"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.electricity
+    axis: knowledge_domain
+    label: electricity
+    display_name: "Electricity"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "flip a switch and light appears; the invisible helper inside the walls", vocabulary: [switch, light, battery], avoid: ["characters playing with outlets, plugs, or wires", "electric shock as a joke or plot event"]}
+      6: {depth: sensory, framing: "batteries hold little packets of power; things that need plugging in and things that do not", vocabulary: [plug, power, charge], avoid: ["characters playing with outlets, plugs, or wires", "electric shock as a joke or plot event"]}
+      7: {depth: mechanism, framing: "electricity flows in loops called circuits; a break anywhere stops the whole flow", vocabulary: [circuit, wire, current], avoid: ["characters playing with outlets, plugs, or wires", "electric shock as a joke or plot event"]}
+      8: {depth: mechanism, framing: "conductors and insulators; how a battery pushes current through a bulb", vocabulary: [conductor, insulator, voltage], avoid: ["characters playing with outlets, plugs, or wires", "electric shock as a joke or plot event"]}
+      9: {depth: system, framing: "where electricity comes from; the long journey from power plant to your lamp", vocabulary: [generator, power grid, turbine], avoid: ["characters touching power lines or exposed wires", "electric shock as a joke or plot event"]}
+      10: {depth: system, framing: "making electricity from sun, wind, and water; storing power for later", vocabulary: [solar panel, wind turbine, renewable], avoid: ["characters touching power lines or exposed wires", "electric shock as a joke or plot event"]}
+    edges:
+      adjacent: [knowledge_domain.magnets, knowledge_domain.storms_and_lightning, knowledge_domain.computers_and_code]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-PS3-2", "4-PS3-4"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.light_and_shadows
+    axis: knowledge_domain
+    label: light_and_shadows
+    display_name: "Light and Shadows"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "making shadow puppets; your shadow copies everything you do", vocabulary: [shadow, light, dark]}
+      6: {depth: sensory, framing: "shadows grow long in the evening; light sneaks through some things and not others", vocabulary: [shadow puppet, glow, beam]}
+      7: {depth: mechanism, framing: "light travels in straight lines; blocking it is all it takes to make a shadow", vocabulary: [ray, block, transparent]}
+      8: {depth: mechanism, framing: "bouncing and bending light; mirrors, shiny spoons, and straws that look broken in water", vocabulary: [reflect, mirror, bend]}
+      9: {depth: system, framing: "white light hides a rainbow; prisms and why the sky looks blue", vocabulary: [prism, spectrum, wavelength]}
+      10: {depth: system, framing: "lenses that bend light on purpose; telescopes, microscopes, and cameras", vocabulary: [lens, focus, magnify]}
+    edges:
+      adjacent: [knowledge_domain.the_sun, knowledge_domain.colors_and_mixing, knowledge_domain.day_and_night]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-PS4-2", "1-PS4-3"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.sound_and_echoes
+    axis: knowledge_domain
+    label: sound_and_echoes
+    display_name: "Sound and Echoes"
+    region: how_things_work
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "sound is wiggling air; feel your throat buzz when you hum", vocabulary: [vibration, hum, buzz]}
+      8: {depth: mechanism, framing: "echoes are sound bouncing back; why thunder rumbles long after lightning flashes", vocabulary: [echo, sound wave, pitch]}
+      9: {depth: system, framing: "bats and dolphins seeing with sound; sonar mapping the deep sea", vocabulary: [echolocation, sonar, frequency]}
+      10: {depth: system, framing: "how ears turn waves into hearing; concert halls built to shape sound", vocabulary: [acoustics, eardrum, amplitude]}
+    edges:
+      adjacent: [knowledge_domain.musical_instruments, knowledge_domain.caves, knowledge_domain.whales_and_dolphins]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-PS4-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.bridges_and_buildings
+    axis: knowledge_domain
+    label: bridges_and_buildings
+    display_name: "Bridges and Buildings"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "building tall towers with blocks; why wide bottoms keep them from tipping", vocabulary: [tower, block, sturdy]}
+      6: {depth: sensory, framing: "bridges carry you over rivers; the shapes that make buildings strong", vocabulary: [bridge, beam, base]}
+      7: {depth: mechanism, framing: "triangles are the strongest shape; how arches carry heavy loads", vocabulary: [triangle, arch, support]}
+      8: {depth: mechanism, framing: "the pushes and pulls hiding inside a bridge; testing small designs before building big", vocabulary: [tension, compression, blueprint]}
+      9: {depth: system, framing: "skyscrapers that sway safely in the wind; foundations reaching deep underground", vocabulary: [skyscraper, foundation, steel frame]}
+      10: {depth: system, framing: "engineering wonders around the world; designing buildings to stand through earthquakes and storms", vocabulary: [suspension bridge, engineer, load-bearing]}
+    edges:
+      adjacent: [knowledge_domain.simple_machines, knowledge_domain.cities_and_towns, knowledge_domain.shapes_and_symmetry]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-2-ETS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.engines_and_vehicles
+    axis: knowledge_domain
+    label: engines_and_vehicles
+    display_name: "Engines and Vehicles"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "cars, trains, and diggers; the busy sounds and spinning wheels of things that go", vocabulary: [wheel, engine, truck]}
+      6: {depth: sensory, framing: "what different vehicles are for; fire trucks, tractors, and trains at work", vocabulary: [vehicle, tractor, cargo]}
+      7: {depth: mechanism, framing: "engines turn fuel into motion; gears pass the spin along to the wheels", vocabulary: [fuel, gear, motor]}
+      8: {depth: mechanism, framing: "inside an engine; tiny controlled pushes moving pistons up and down", vocabulary: [piston, cylinder, exhaust]}
+      9: {depth: system, framing: "from steam engines to electric motors; how vehicles reshaped the world", vocabulary: [steam engine, electric motor, locomotive]}
+      10: {depth: system, framing: "designing cleaner and faster vehicles; batteries, streamlining, and self-driving ideas", vocabulary: [aerodynamics, electric vehicle, sensor]}
+    edges:
+      adjacent: [knowledge_domain.flight, knowledge_domain.boats_and_floating, knowledge_domain.simple_machines]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-PS3-4"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.flight
+    axis: knowledge_domain
+    label: flight
+    display_name: "Flight"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "birds, kites, and planes in the sky; feeling the wind lift a kite from your hands", vocabulary: [wing, kite, sky], avoid: ["plane crashes or characters in danger mid-flight"]}
+      6: {depth: sensory, framing: "how big metal planes stay up; watching birds glide without flapping", vocabulary: [airplane, glide, pilot], avoid: ["plane crashes or characters in danger mid-flight"]}
+      7: {depth: mechanism, framing: "wings shaped to ride the air; the pushes and pulls on everything that flies", vocabulary: [lift, wing shape, air], avoid: ["plane crashes or characters in danger mid-flight"]}
+      8: {depth: mechanism, framing: "lift, thrust, drag, and weight; why planes need runways and helicopters do not", vocabulary: [thrust, drag, propeller], avoid: ["plane crashes or characters in danger mid-flight"]}
+      9: {depth: system, framing: "the Wright brothers' first flight; a single century from gliders to jets", vocabulary: [Wright brothers, glider, jet engine], avoid: ["plane crashes or characters in danger mid-flight"]}
+      10: {depth: system, framing: "designing aircraft for a purpose; supersonic speed and flying farther on less fuel", vocabulary: [airfoil, supersonic, wind tunnel], avoid: ["plane crashes or characters in danger mid-flight"]}
+    edges:
+      adjacent: [knowledge_domain.birds, knowledge_domain.engines_and_vehicles, knowledge_domain.gravity, knowledge_domain.astronauts_and_space_travel]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.boats_and_floating
+    axis: knowledge_domain
+    label: boats_and_floating
+    display_name: "Boats and Floating"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "bath toys that bob; why some things float and some things sink", vocabulary: [float, sink, splash], avoid: ["characters drowning or ships sinking with people aboard"]}
+      6: {depth: sensory, framing: "boats big and small; how a heavy ship can still float", vocabulary: [boat, sail, hull], avoid: ["characters drowning or ships sinking with people aboard"]}
+      7: {depth: mechanism, framing: "water pushes up while weight pulls down; shape decides what floats", vocabulary: [buoyancy, hull shape, weight], avoid: ["characters drowning or ships sinking with people aboard"]}
+      8: {depth: mechanism, framing: "displacement; why a steel ship floats but a steel ball sinks", vocabulary: [displacement, density, cargo ship], avoid: ["characters drowning or ships sinking with people aboard"]}
+      9: {depth: system, framing: "submarines that sink and surface on purpose; how ballast tanks work", vocabulary: [submarine, ballast, pressure], avoid: ["characters drowning or ships sinking with people aboard"]}
+      10: {depth: system, framing: "designing hulls for speed and stability; sailing ships that ride the wind around the world", vocabulary: [keel, stability, naval architect], avoid: ["characters drowning or ships sinking with people aboard"]}
+    edges:
+      adjacent: [knowledge_domain.oceans_and_tides, knowledge_domain.engines_and_vehicles, knowledge_domain.rivers]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-PS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.robots
+    axis: knowledge_domain
+    label: robots
+    display_name: "Robots"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "friendly machine helpers; robots that beep, roll, and tidy up", vocabulary: [robot, beep, helper]}
+      6: {depth: sensory, framing: "robots do jobs people find boring or tricky; robot arms and robot vacuums", vocabulary: [robot arm, machine, task]}
+      7: {depth: mechanism, framing: "robots follow instructions exactly; sensors are their eyes and ears", vocabulary: [sensor, instruction, program]}
+      8: {depth: mechanism, framing: "how a robot decides; sensing, thinking, and moving in a loop", vocabulary: [programming, motor, feedback]}
+      9: {depth: system, framing: "robots exploring where people cannot go; the deep sea, volcanoes, and Mars", vocabulary: [rover, remote control, autonomous]}
+      10: {depth: system, framing: "teaching robots to learn; what robots still cannot do that kids find easy", vocabulary: [artificial intelligence, machine learning, humanoid]}
+    edges:
+      adjacent: [knowledge_domain.computers_and_code, knowledge_domain.inventions, knowledge_domain.jobs_people_do]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.inventions
+    axis: knowledge_domain
+    label: inventions
+    display_name: "Inventions"
+    region: how_things_work
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "problems spark ideas; the story of everyday things someone once dreamed up", vocabulary: [invention, idea, problem]}
+      8: {depth: mechanism, framing: "inventors try, fail, and try again; sketches, models, and happy accidents", vocabulary: [inventor, prototype, patent]}
+      9: {depth: system, framing: "inventions that changed everything; the wheel, the printing press, the lightbulb", vocabulary: [printing press, lightbulb, breakthrough]}
+      10: {depth: system, framing: "how inventions build on each other; imagining what needs inventing next", vocabulary: [innovation, engineering, design process]}
+    edges:
+      adjacent: [knowledge_domain.robots, knowledge_domain.simple_machines, knowledge_domain.explorers_and_voyages]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-5-ETS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.computers_and_code
+    axis: knowledge_domain
+    label: computers_and_code
+    display_name: "Computers and Code"
+    region: how_things_work
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "computers follow recipes called programs; exact steps, in order, every time", vocabulary: [computer, program, step]}
+      8: {depth: mechanism, framing: "code is a language for machines; loops and ifs that let programs make choices", vocabulary: [code, loop, command]}
+      9: {depth: system, framing: "everything becomes numbers inside a computer; zeros and ones carrying pictures and songs", vocabulary: [binary, data, algorithm]}
+      10: {depth: system, framing: "how the internet moves messages around the world; writing programs that solve real problems", vocabulary: [internet, network, debug]}
+      11: {depth: system, framing: "how big programs stay understandable; breaking a problem into small named pieces that each do one job", vocabulary: [function, variable, logic]}
+      12: {depth: system, framing: "algorithms as recipes with trade-offs; why one way of searching is quick and another is slow, and how programmers find out which is which", vocabulary: [algorithm, efficiency, trade-off]}
+    edges:
+      adjacent: [knowledge_domain.codes_and_ciphers, knowledge_domain.robots, knowledge_domain.the_brain, knowledge_domain.drawing_and_animation]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.recycling_and_waste
+    axis: knowledge_domain
+    label: recycling_and_waste
+    display_name: "Recycling and Waste"
+    region: how_things_work
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "where trash goes after the bin; sorting cans, paper, and peels", vocabulary: [recycle, bin, sort]}
+      6: {depth: sensory, framing: "old things become new things; a bottle's second life", vocabulary: [reuse, compost, litter]}
+      7: {depth: mechanism, framing: "how a recycling plant sorts mountains of material; what compost worms do all day", vocabulary: [recycling plant, material, decompose]}
+      8: {depth: mechanism, framing: "why some things rot fast and plastic lasts; choosing to reduce, reuse, recycle", vocabulary: [plastic, landfill, biodegradable]}
+      9: {depth: system, framing: "following waste around the world; landfills, ocean plastic, and clever fixes", vocabulary: [pollution, ocean plastic, conservation]}
+      10: {depth: system, framing: "designing a world without waste; materials that loop around forever", vocabulary: [circular economy, sustainable, raw material]}
+    edges:
+      adjacent: [knowledge_domain.cities_and_towns, knowledge_domain.oceans_and_tides, knowledge_domain.ecosystems]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-ESS3-3", "5-ESS3-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

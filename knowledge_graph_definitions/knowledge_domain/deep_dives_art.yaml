@@ -1,0 +1,82 @@
+axis: knowledge_domain
+pack: deep_dives_art
+nodes:
+  - id: knowledge_domain.painting_pictures
+    axis: knowledge_domain
+    label: painting_pictures
+    display_name: "Painting Pictures"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.drawing_and_animation
+    facets: [mixing_colors, brushes_and_strokes, painting_what_you_feel, happy_accidents]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "how two colors on a palette become a brand-new third one, and why a fat brush and a skinny brush leave such different marks", vocabulary: [palette, brushstroke, blend], avoid: ["talent you either have or don't", comparing children's art]}
+      9: {depth: system, framing: "painters plan a picture but stay ready for surprises; a drip or a smudge can become the best part if you let it", vocabulary: [composition, texture, happy accident], avoid: ["talent you either have or don't", comparing children's art]}
+      11: {depth: system, framing: "painters argue with their own picture; stepping back, scraping off, layering over — a finished painting is many paintings stacked up", vocabulary: [layer, underpainting, revise], avoid: ["talent you either have or don't", comparing children's art]}
+    edges:
+      adjacent: [knowledge_domain.colors_and_mixing, knowledge_domain.light_and_shadows]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.comics_and_cartoons
+    axis: knowledge_domain
+    label: comics_and_cartoons
+    display_name: "Comics and Cartoons"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.drawing_and_animation
+    facets: [panels_in_order, speech_bubbles, drawing_the_same_character_twice, flipbooks]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "a comic tells a story in little boxes read in order, with speech bubbles doing the talking; flip the pages fast and drawings start to move", vocabulary: [panel, speech bubble, flipbook]}
+      9: {depth: system, framing: "the quiet skill of comics is drawing the same character again and again so readers know her anywhere, and choosing what happens between the boxes", vocabulary: [character, sequence, gutter]}
+      11: {depth: system, framing: "page design as storytelling; big panels slow time down, small ones speed it up, and the page turn is the comic's drumbeat", vocabulary: [layout, pacing, reveal]}
+    edges:
+      adjacent: [knowledge_domain.theater_and_pretending]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.sculpture_and_clay
+    axis: knowledge_domain
+    label: sculpture_and_clay
+    display_name: "Sculpture and Clay"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.drawing_and_animation
+    facets: [squishing_and_shaping, statues_that_last, sculpting_what_you_see, clay_to_bronze]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "clay remembers every squeeze; how patient hands and a few simple tools turn a lump into a curled-up cat", vocabulary: [clay, shape, tool], avoid: ["talent you either have or don't", comparing children's art]}
+      9: {depth: system, framing: "sculptors think all the way around; walking circles as they work, and the old trick of turning soft clay into lasting bronze", vocabulary: [sculpture, cast, bronze], avoid: ["talent you either have or don't", comparing children's art]}
+      11: {depth: system, framing: "carving takes away and modelling adds on — two opposite roads to the same statue — and why marble never forgives a mistake but clay always does", vocabulary: [carve, model, marble], avoid: ["talent you either have or don't", comparing children's art]}
+    edges:
+      adjacent: [knowledge_domain.painting_pictures, knowledge_domain.comics_and_cartoons]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.how_animation_moves
+    axis: knowledge_domain
+    label: how_animation_moves
+    display_name: "How Animation Moves"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.drawing_and_animation
+    facets: [one_drawing_at_a_time, squash_and_stretch, the_pause_before_the_leap, puppets_and_stop_motion]
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "flip the corner of a notebook and your ball drawing bounces; movies are just flipbooks with thousands and thousands of pages", vocabulary: [flipbook, frame, bounce]}
+      9: {depth: system, framing: "the secret rules of lively drawings; squash, stretch, and the little pause before the leap that makes a jump feel real", vocabulary: [squash and stretch, timing, pose]}
+      11: {depth: system, framing: "twenty-four frames a second, but not all frames are equal; animating on ones or twos, and how stop-motion moves a puppet a millimetre at a time", vocabulary: [stop motion, frame rate, in-between]}
+    edges:
+      adjacent: [knowledge_domain.comics_and_cartoons, knowledge_domain.pixels_and_screens]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

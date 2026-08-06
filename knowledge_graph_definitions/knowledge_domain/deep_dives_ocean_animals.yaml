@@ -1,0 +1,162 @@
+axis: knowledge_domain
+pack: deep_dives_ocean_animals
+nodes:
+  - id: knowledge_domain.octopus
+    axis: knowledge_domain
+    label: octopus
+    display_name: "Octopus"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [eight_arms, color_changing, squeezing_through_gaps, being_clever]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "eight curly arms and a squishy body that can pour through a tiny hole", vocabulary: [arms, suckers, squish], avoid: [being eaten, frightening deep dark]}
+      7: {depth: mechanism, framing: "how an octopus changes color in a blink and tastes with its arms", vocabulary: [camouflage, sucker, ink]}
+      9: {depth: system, framing: "octopus cleverness: opening jars, carrying shells, solving puzzles", vocabulary: [problem solver, den, tentacle]}
+    edges:
+      adjacent: [knowledge_domain.crabs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.sea_turtles
+    axis: knowledge_domain
+    label: sea_turtles
+    display_name: "Sea Turtles"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [shell_home, flipper_swimming, sandy_nests, ocean_crossings]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a slow gentle swimmer whose house is her own back, rowing along with flippers like wings", vocabulary: [flipper, shell, paddle], avoid: ["baby turtles snatched on the way to the water", "plastic in the sea framed as sadness or as the child's fault"]}
+      7: {depth: mechanism, framing: "a turtle breathes air like we do, so every swim is a long held breath and every nap needs a trip to the surface", vocabulary: [lungs, hatchling, glide], avoid: ["baby turtles snatched on the way to the water", "plastic in the sea framed as sadness or as the child's fault"]}
+      9: {depth: system, framing: "the longest commute in the sea: crossing a whole ocean and still finding the same beach again", vocabulary: [navigate, nesting beach, ocean current], avoid: ["hopeless framing of turtles in trouble"]}
+    edges:
+      adjacent: [knowledge_domain.volcanic_islands, knowledge_domain.dinosaur_eggs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.jellyfish
+    axis: knowledge_domain
+    label: jellyfish
+    display_name: "Jellyfish"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [drifting, glowing, see_through_bodies, pulsing_bell]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a see-through wobbly bell that drifts wherever the water goes, like a little floating umbrella", vocabulary: [drift, glow, wobble], avoid: ["stings described as pain or injury", "touching or catching a jellyfish shown as a fine idea; keep it we look, we do not touch"]}
+      7: {depth: mechanism, framing: "squeeze and glide: how a jellyfish swims with no bones, no heart, and no brain at all", vocabulary: [bell, tentacle, pulse], avoid: ["stings described as pain or injury", "touching or catching a jellyfish shown as a fine idea"]}
+      9: {depth: system, framing: "living lanterns: jellyfish that make their own light in water the sunlight never reaches", vocabulary: [bioluminescence, plankton, jelly bloom]}
+    edges:
+      adjacent: [knowledge_domain.fireflies, knowledge_domain.deep_sea_fish]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.coral_reefs
+    axis: knowledge_domain
+    label: coral_reefs
+    display_name: "Coral Reefs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [tiny_builders, bright_colors, reef_neighbours, night_shift]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "an underwater city in every colour, built by animals smaller than a grain of rice", vocabulary: [coral, reef, colors], avoid: []}
+      7: {depth: mechanism, framing: "how coral animals build stone houses and share their food with tiny algae living inside them", vocabulary: [polyp, limestone, algae]}
+      9: {depth: system, framing: "a reef as a whole neighbourhood: who cleans, who hides, who visits, and who works the night shift", vocabulary: [ecosystem, symbiosis, lagoon], avoid: ["coral bleaching framed as hopeless or already lost"]}
+    edges:
+      adjacent: [knowledge_domain.ants]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.seahorses
+    axis: knowledge_domain
+    label: seahorses
+    display_name: "Seahorses"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [curly_tail, upright_swimming, fathers_carry_babies, hiding_in_seagrass]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a tiny horse-headed fish that stands up in the water and holds onto seagrass with a curly tail", vocabulary: [curly tail, seagrass, tiny], avoid: []}
+      7: {depth: mechanism, framing: "swimming upright with one small fluttering fin, and sipping up dinner through a snout like a straw", vocabulary: [snout, fin, hover]}
+      9: {depth: system, framing: "the father seahorse carries the eggs in a pouch until the babies are ready to swim off", vocabulary: [brood pouch, camouflage, seahorse fry]}
+    edges:
+      adjacent: [knowledge_domain.dragonflies]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.crabs
+    axis: knowledge_domain
+    label: crabs
+    display_name: "Crabs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [sideways_walking, pincers, outgrowing_a_shell, borrowed_homes]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a little armoured walker that scuttles sideways across wet sand and waves two pincers hello", vocabulary: [pincer, shell, scuttle], avoid: []}
+      7: {depth: mechanism, framing: "a crab wears its skeleton on the outside, so growing means stepping right out of the old one", vocabulary: [exoskeleton, moult, claw]}
+      9: {depth: system, framing: "crabs as beach settlers: hermit crabs swapping borrowed shells, and the first crabs to arrive on brand new sand", vocabulary: [hermit crab, tide pool, colonise]}
+    edges:
+      adjacent: [knowledge_domain.volcanic_islands]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.sharks
+    axis: knowledge_domain
+    label: sharks
+    display_name: "Sharks"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [ancient_fish, sleek_shapes, sandpaper_skin, always_swimming]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a smooth grey fish shaped like a paper aeroplane, gliding quietly past and going on its way", vocabulary: [fin, glide, smooth], avoid: ["shark attacks on people", "blood in the water", "sharks framed as monsters", "scary music or jaws-style suspense"]}
+      7: {depth: mechanism, framing: "how a shark's body is built for gliding: no bones, only bendy cartilage, and skin that feels like soft sandpaper", vocabulary: [cartilage, gill, streamlined], avoid: ["shark attacks on people", "blood in the water", "sharks framed as monsters"]}
+      9: {depth: system, framing: "ancient survivors: sharks were already swimming long before the dinosaurs, and mostly they ignore us completely", vocabulary: [ancient, sense of smell, ocean patrol], avoid: ["shark attacks on people", "blood in the water", "sharks framed as monsters", "close-up teeth as menace"]}
+    edges:
+      adjacent: [knowledge_domain.pterosaurs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.deep_sea_fish
+    axis: knowledge_domain
+    label: deep_sea_fish
+    display_name: "Deep Sea Fish"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.ocean_animals
+    facets: [own_light, cold_dark_water, strange_shapes, deepest_places]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "fish that carry their own little lanterns in the quiet cool water far below the waves", vocabulary: [glow, deep, lantern], avoid: ["frightening darkness", "scary teeth close up"]}
+      7: {depth: mechanism, framing: "when sunlight cannot reach you, you make your own light: how a fish switches on a glow to see and to be seen", vocabulary: [bioluminescence, pressure, sunless]}
+      9: {depth: system, framing: "the deep sea as the biggest, coldest, darkest neighbourhood on Earth, and how we send robots down to visit it", vocabulary: [deep sea trench, submersible, adaptation], avoid: ["frightening darkness", "scary teeth close up", "deep sea animals called nightmare creatures"]}
+    edges:
+      adjacent: [knowledge_domain.neptune, knowledge_domain.jellyfish]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

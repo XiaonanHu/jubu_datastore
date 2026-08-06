@@ -1,0 +1,121 @@
+{
+  "id": "story.the_moon.quiet_hour_001",
+  "title": "The Fox Who Watched the Moon",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_moon",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "An old lighthouse keeper remembers the full-moon night a silver fox came to share the quiet.",
+  "slots": {
+    "cat_name": {
+      "role": "the lighthouse keeper's cat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pearl"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Old Finn lived at the top of the winding cliff path, in a small stone cottage beside a white lighthouse. Every evening he sat on his porch with a blanket and a cup of tea. Tonight the sky was clear, and he patted the bench beside him. \"Ah,\" he said. \"A full moon. That reminds me of my favorite night. I will tell it just the way it happened.\" He wrapped his hands around his cup and began. \"I was the lighthouse keeper then, young and quick on the stairs. One autumn night the sea went flat and still. The full moon rose fat and golden, then slowly turned to silver. My cat {cat_name} hopped onto the windowsill to watch it with me. Then I heard a sound on the outside steps. Tap, tap, soft as rain. A little fox stood on the bottom step. Her fur was tipped with silver in the moonlight. She was not looking at me. She was looking up at the moon.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Old Finn smiled into his tea. \"I stayed by the window and looked where the fox looked,\" he said. \"The moon had laid a road across the sea. A long, shining, silver road, from the edge of the sky right up to my rocks. The water rocked, and the road rocked with it, but it never broke. I stepped out onto the high gallery to see it better. And here is the funny thing. When I walked left, the moonlight came left with me. When I walked right, it followed me right. My mother always said the moon likes company. Wherever you go, she said, its glow will walk beside you. Far below, a fish rose and made a ring of ripples. The ring caught the moonlight and wore it like a crown. The little fox padded down to the rocks to watch it too. {cat_name} purred against my sleeve, warm as a loaf of bread. I wondered if the fox would still be there when I came down.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Old Finn chuckled. \"I fetched my long brass spyglass down from its hook,\" he said. \"I rested it on the window ledge and found the moon. Oh, what a sight. The moon was covered in round dips, like cups pressed into bread dough. Craters, they are called. Some looked small as freckles. Some were wide enough to hold a whole town. I called {cat_name} over and let her look too. She twitched her whiskers at the glass. Now, here is a secret about the moon. No wind ever blows up there. Not one puff. So if you ever walked on the moon and left a footprint, it would stay. It would sit in the quiet dust for always, neat as the day you made it. I liked that very much. A place where every step is remembered. Down on the bottom stair, the little fox had not moved. Her silver fur shone. I wondered what a fox thinks about, watching craters she can never touch.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"The night grew late,\" said old Finn, \"but I was not one bit sleepy. I lit my small lantern and started down the spiral stairs. At every little window, the moon was waiting for me. Down one turn, there it was. Down another turn, there it was again. It followed me the whole way, like a friendly light keeping watch. I opened the heavy door, slow and soft. The fox was still on the bottom step. I sat down on the cold stone, three steps up, and held my breath. {cat_name} slipped out and sat beside me, tail wrapped around her toes. The fox looked at me. I looked at the fox. Then she came one step closer, and one step more. She stretched out her nose toward my lantern and sniffed its warm glow. The waves went hush, hush against the rocks. The moon held us all in one big circle of silver. Nobody moved. It was the quietest, fullest moment of my whole life.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Old Finn set down his cup and closed his eyes. \"I hummed,\" he said. \"A little tune my mother used to hum, slow and round like the moon itself. The fox tipped her head one way, then the other. Her ears turned toward me like two soft cups. {cat_name} purred along, deep and rumbly, and the waves kept time below us. When the tune was done, the fox blinked at me, calm and slow. Then she trotted away down the rocks, her tail floating behind her like a silver brush. And here is the best part of the whole story. The next full moon, tap tap, she came back. She came back every full moon after that, and I hummed for her every single time.\" Old Finn opened his eyes and smiled up at the big bright moon. \"And that is why I still hum on nights like this. The moon remembers, and maybe somewhere a fox remembers too. Warm blankets now. The moonlight will keep watch till morning.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Old Finn reached slowly into his pocket. \"On my windowsill I kept a white shell,\" he said. \"It was smooth as soap, and in moonlight it glowed like a tiny moon of its own. I fetched it and set it down on the bottom step. Then I sat back and waited. The fox crept close. She sniffed it once, twice. Then she picked it up, gentle as a mother carrying a kit, and trotted away over the rocks. I like to think it sits in her den to this day. A little moon for cloudy nights, when the real one hides. And listen to this. From then on, I sometimes found small gifts waiting on my step. A smooth gray pebble. A gull feather. Once, a very fine acorn.\" Old Finn opened his hand. On his palm sat a smooth gray pebble, worn soft with years. \"We traded moons, that fox and I,\" he said. \"Time for sleep now. The moon is watching over us, warm as a lamp.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Old Finn wanted to look closer at the moonlit night. What should he look at?",
+      "options": [
+        {
+          "say_word": "water",
+          "label": "The moonlight shining on the water",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "spyglass",
+          "label": "The moon's craters through the spyglass",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The night was nearly over. What should the keeper share with the fox?",
+      "options": [
+        {
+          "say_word": "hum",
+          "label": "Hum the quiet moon song",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "shell",
+          "label": "Give the fox the glowing shell",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

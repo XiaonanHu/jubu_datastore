@@ -1,0 +1,322 @@
+{
+  "id": "story.ants.age5to6.d1.authored.f72b04",
+  "title": "The Great Puddle Bridge",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.ants",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We build a bridge across a rain puddle, wobble by wobble, until the whole ant line marches over it.",
+  "slots": {
+    "ladybug_name": {
+      "role": "the ladybug who inspects everything we build",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Dot"
+    },
+    "bridge_deck": {
+      "role": "what we laid across the water",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "leaf"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The rain has stopped. We are out on the path in our boots, you and me, and the whole garden smells of wet stone.\nDown by our left boot an ant goes past. Then another. Then a whole line of them, marching along a crack in the paving, every one carrying something. A crumb. A seed. A piece of petal three times her size.\n\"They have a road,\" we say. \"Look. Every one of them goes exactly the same way.\"\nThen the road runs straight into the puddle.\nTo us it is a splash of silver. To an ant it is a lake with no far side. The front of the line stops dead. Ants hurry up and down the edge, bumping into each other, turning back, trying again.\nTheir road is gone.\nA ladybug lands beside our knee, red with tiny black dots. It is {ladybug_name}, who inspects everything we build, and she taps her feet and waits.\n\"All right,\" we say. \"We are building them a bridge.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "A leaf. The fig tree has one as wide as our two hands, and we carry it back flat in front of us like a tray.\nDown it goes. One end on the near shore, one end on the far shore.\nIt reaches.\nThen it slides. The wet stone lets go, and one end drops in with a plop.\n\"Take two,\" we say.\nWe fish it out and shake it off. This time we hold the near end down under a flat pebble and press another onto the far end. We push the leaf with one finger. It stays exactly where we put it.\n{ladybug_name} climbs on. Out she walks to the middle on her tiny feet, without a sound. She turns round once. She walks back.\nThe bridge held her.\nAnd our leaf is so wide that six ants could cross it side by side.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Twigs. Two of them lie by the flowerpot, and we pick the two that match.\nWe lay the first one across the puddle like a rail. We lay the second right beside it, close as two fingers.\nThen they roll. Both twigs turn over at once and clatter down into the water.\n\"Take two,\" we say.\nWe pull them out and wipe off the mud. This time we press each end deep into the soft ground until it grips. We wiggle them. They hold.\nNow there is a tiny railway over the lake.\n{ladybug_name} climbs up and walks out along one twig, all the way to the middle. She stops. She taps twice with her feet. She comes back.\nThe bridge held her.\nAnd here is the clever part. Between our two twigs runs a narrow gap, just wide enough for an ant to walk down inside, out of the wind.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Our {bridge_deck} bridge goes right across the water and does not wobble one bit.\nNow the ants will cross.\nWe watch. We wait. The first ant reaches the bridge, touches it with her antennae, and turns straight round. The next one does the same.\n\"Why not?\" we say. \"It is right there in front of you.\"\nAn ant does not follow a road with her eyes. She follows a smell. Every ant who walked that crack left a little smell behind, and following that smell road is like following toast up the stairs to the kitchen.\nOur bridge does not smell of anything at all.\nThen one small ant does a brave thing. She steps on. Two steps, stop. Three more steps. Now she is out in the middle, all on her own above the water.\nOur fingers itch to help. We press them flat on the stones instead, because a finger the size of her street is no help to anybody.\nShe reaches the far side, and now her smell is on the bridge.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "A wall of grass. We pull the tall blades from the edge of the lawn and stand them in the soft ground all along the windy side. Now there is a green fence as high as our hand.\nThe wind pushes. The grass leans right over and springs back up. The {bridge_deck} bridge does not shiver at all now.\nBehind that little wall, the crossing is as still as a hallway.\n\"Come on,\" we whisper. \"Come on.\"\nAnd the line starts. One ant, then two, then a whole marching row, antennae tapping the smell road the brave one left behind. One carries a crumb bigger than her own head and does not slow down for a second.\n{ladybug_name} sits at the end of the bridge like an inspector at a gate, watching every ant go by.\nThe sun comes out and turns the puddle gold. We lie on our elbows and watch the road cross the water, and cross, and cross.\n\"We built that,\" we say. \"Plops and pebbles and wobbles and all.\"\nWell done, us. Well done, ants.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Ramps. We scoop dry sand from under the flowerpot, pour a slope at the near end, and pat it smooth. Then another slope at the far end.\nNow the bridge starts gently, like the ramp up to the library door.\nThe next ant walks straight up it without stopping once.\nAnd here they come. The whole line pours up the sand and onto the {bridge_deck} bridge, tap tap tap, over the water and away.\nThen the most surprising thing of the whole morning. At a gap in the stones, three ants take hold of one another's legs, and a fourth one walks over the top of them.\n\"They are doing it too,\" we say. \"They are building a bridge out of ants.\"\n{ladybug_name} spreads her wings and flies one slow circle above the crossing, like an inspector saying yes.\n\"We built that,\" we say. \"Plops and sand and wobbles and all.\"\nWell done, us. Well done, ants.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "We look round for something long enough to reach the whole way over. \"It has to touch both shores,\" we say. \"One big flat leaf off the fig tree, or two straight twigs laid down like rails. Leaf, or twigs?\"",
+      "options": [
+        {
+          "say_word": "leaf",
+          "label": "Lay one big flat leaf across",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "bridge_deck": "leaf"
+          }
+        },
+        {
+          "say_word": "twigs",
+          "label": "Lay two twigs down like rails",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "bridge_deck": "twig"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The wind keeps shivering the water, and both ends of the bridge stand up like little cliffs. \"One more thing and the whole line can come,\" we say. \"A wall of grass along the side to stop the wind, or two sandy ramps so they can walk straight on. Grass, or sand?\"",
+      "options": [
+        {
+          "say_word": "grass",
+          "label": "A wall of grass to stop the wind",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "sand",
+          "label": "Two sandy ramps up onto the bridge",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.ants",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.insects",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "The ants facets that a five-year-old can actually see are carrying_heavy_things and following_trails, and a build is the only pattern that turns both into something happening in front of the child rather than a fact being told.",
+      "candidates": [
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.22,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.27,
+          "sampled": true,
+          "rejected_because": "A journey through an ant nest is the obvious ants story, but the tunnel chambers and the queen are the age-9 system picture; at 5 the trip would be scenery with nothing for the child to do."
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": false
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.16,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the ladybug inspector, {ladybug_name}, who marches the bridge end to end on her tiny feet and taps her approval before any ant is allowed on",
+      "why": "The wonder has to belong to the ants themselves, because everything wondrous here is true, so the giggles are parked entirely on one bystander with an important job and no actual authority.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a big_adventure accent",
+          "because": "A puddle is already a lake at ant scale; adding motion-tone turns a backyard build into a rescue with stakes, which is over the age band's excitement ceiling for no gain."
+        },
+        {
+          "recipe": "silly dominant with a curious_wonder accent",
+          "because": "Silly-dominant makes the ants the joke. The one thing this story must not do is invite a child to laugh at the small creatures it wants them to admire."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "A make_and_build story pays off in the moment the thing holds, and the hands that made it wobble have to be ours for that moment to land.",
+      "rejected": [
+        {
+          "teller": "storyteller_tale",
+          "because": "A remembered build gives away that it worked before the first pebble goes down, and the wobble beats need to be happening now."
+        },
+        {
+          "teller": "named_hero",
+          "because": "The protective distance of a named hero is for feelings stories; here it just adds a person to keep track of between the child and the puddle."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "Materials turned up a helpfulness angle, but the whole story is already an act of help shown through hands and pebbles. Naming it would put a lesson on top of something the child can see, and no parent value picks apply to a shared library story."
+    },
+    "cast": [
+      {
+        "role": "the ladybug inspector",
+        "reused": true,
+        "why": "She is the ladybug from the parent insects story who walked the pinecones like an inspector in tiny boots. Reuse across a topic family is the preferred design, and she earns her naming slot here, so the name the child gives her now travels to every later insects-family story."
+      },
+      {
+        "role": "we, Buju and the child, as the builders",
+        "reused": true,
+        "why": "The we_adventure teller carries over from the parent insects story, which is deliberate: the recurring thing in this topic family is a pair of hands that build."
+      },
+      {
+        "role": "the ant scout who crosses first",
+        "reused": false,
+        "why": "The parent story has an ant, but she is a walk-on visitor who wanders into a bamboo tube. A deep dive about ants needs one ant with a job the child can watch her do, so this role is new and is registered to the family for reuse."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "true fact: ants follow a scent trail, so a brand-new bridge smells of nothing and the line stalls at the edge",
+        "true fact: some ants link their legs and make bridges out of their own bodies",
+        "true fact: an ant carries food far heavier than herself",
+        "a rain puddle across the path as the obstacle, ordinary to us and a lake to them",
+        "two decks that fail differently: a fig leaf that slides, twig rails that roll",
+        "pebble anchors, soft ground, grass blades and dry sand as the finishing materials"
+      ],
+      "gathered_but_unused": [
+        "the cutaway anthill with nursery chambers and the queen, which belongs to the tunnels_underground facet and to the age-9 system treatment",
+        "ants farming aphids, which needs a predator-and-prey frame this age does not want",
+        "a wider door into knowledge_domain.animal_homes through the anthill, left for a later ants story",
+        "leftover roof and drainage material from the parent bug-hotel story, kept off this sheet so the two builds do not rhyme"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "At the first real building step, so the pick becomes a physical thing the child chose, rides in the bridge_deck slot, and is still visible in both endings.",
+        "criteria": {
+          "more_interesting": "The two decks fail in genuinely different ways, sliding versus rolling, and they are fixed with different tricks, pebbles versus pressing into the ground.",
+          "more_engaging": "Both are things a five-year-old has already done at a puddle, so both options are immediately tempting rather than abstractly different.",
+          "reveals_taste": "Gentle, the soft wide leaf, against bold, two twigs pressed into mud and wiggled to test.",
+          "reveals_curiosity": "just_experience on the leaf, which ends with a wide green road, against how_it_works on the twigs, which ends with the sheltered gap between the rails.",
+          "reflects_mood": "A quiet floating build or a clattering rattling one, so the same story fits a calm evening or a lively one."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "The final choice always splits, and a bridge honestly finishes in one of two ways: shelter what crosses it, or make it easier to get onto.",
+        "criteria": {
+          "more_interesting": "One ending is about weather held off, the other is about a crowd arriving, and only the ramp ending has room for the living-ant-bridge fact.",
+          "more_engaging": "A wall of grass you can plant in a minute against sand you can pour and pat, both doable in a real garden afterwards.",
+          "reveals_taste": "Careful and protective against eager and welcoming.",
+          "reveals_curiosity": "what_its_for on the wind wall against how_it_works on the ramps.",
+          "reflects_mood": "Making a calm sheltered place, or opening the gate and watching everybody pour through."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Braid unchanged from v1 so the comparison is about prose: six segments, s1 to c1 which rejoins, s2a or s2b to the shared s3, c2 which splits, both endings next null. ladybug_name is asked before s1 and used in five segments; bridge_deck is set at c1 and read in s3 and both endings. Say-words leaf/twigs and grass/sand unchanged. Nothing from the inherited knowledge_domain.insects age 5 avoid list reaches the page: no swarm, nothing menacing, nobody stung, squashed or picked up."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts: s1 169, s2a 146, s2b 151, s3 175, s4a 179, s4b 157 against the 200 ceiling for 5-6, a range of 146 to 179. Paths measure 669 for leaf plus grass, 647 for leaf plus sand, 674 for twigs plus grass and 652 for twigs plus sand, against 693 for the longest v1 path. Every segment carries spoken lines. Sentence lengths alternate in all six and each has at least one short landing sentence. No abstract mood words. Every object introduced is used: the pebbles anchor the leaf, the soft ground grips the twigs, the crack in the paving is the smell road the scout copies onto the bridge, the flowerpot supplies both the twigs and the dry sand."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four reachable combinations read aloud end to end, both decks by both endings, with the naming slot at its default and at a long child-given name. The rejoin holds: both branches end on 'The bridge held her' plus the branch's own payoff, so s3 opens on a finished bridge either way, and 'Our {bridge_deck} bridge' and 'The {bridge_deck} bridge' read correctly for leaf and for twig. Both endings keep the v1 landing the founder liked, 'We built that' and 'Well done, us. Well done, ants.' Banned-language sweep clean; no ellipses, asterisks, parentheses or emojis. No ant is picked up, carried or kept; everything we do is done to the ground."
+      }
+    ],
+    "writers_notes": [
+      "The scent-trail fact stays sensory at this age: the ants follow a smell road, and the word pheromone never appears.",
+      "First draft sank the leaf. Changed to sliding, because a sinking build reads as loss, and the wobble beat is supposed to be funny and fixable.",
+      "The parent insects story owns the wibble-wobble sound. This story uses plop and clatter instead so two make_and_build stories in one topic family do not sound identical.",
+      "No ant is ever picked up, carried, or kept. Everything we do here is done to the ground, not to the animals.",
+      "Say-words were checked for sound-alikeness. Reeds was rejected against leaf for being too close; twigs and leaf share no vowel.",
+      "This build record was written alongside a hand-authored story. The weights are the topic leanings that justify the pattern, not numbers a sampler produced, and the next ants story should carry a make_and_build shelf nudge of 0.25.",
+      "v2.1 rewrite. Premise, cast, braid, slots, say-words and both endings held constant; the prose, the two choice questions and the option labels changed.",
+      "The toast simile is the one new piece of material. The scent trail was the fact v1 explained best and showed worst, and a smell you follow up the stairs is the version a five-year-old already owns.",
+      "The brave scout's crossing used to be cheered from outside by the narrator. It is now watched with our hands pressed flat on the stones, which puts the safety beat and the suspense in the same sentence and needs no encouragement line.",
+      "s2a is deliberately the shortest segment at 146 words. The leaf beat is a slide, a fix, a test and a wide green road, and it was finished; v1 padded the same beat to 178 with a second description of the leaf."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text; premise, cast, braid and choices held constant, prose rewritten under prompt v2.1",
+    "prompt_version": "segment_writing_v2.1",
+    "craft_changes": [
+      "Opening primes before the puddle exists: the rain has stopped, we are out on the path in our boots, and the ants arrive at us past our own left boot before we ever look for them. v1 began with weather and an instruction, 'Look down by the path'.",
+      "Cut: 'like someone who has arrived to watch the work', 'Well then', both 'Oh no' beats, 'What is wrong?', the free-standing 'Hmm', 'Come on, little one', 'left over from the winter storm' (nobody in the story cares where the twigs came from), and 'They cannot find their road anymore', which the plainer 'Their road is gone' now does in four words.",
+      "Both choice questions are now spoken by us with the actual constraint in them, 'It has to touch both shores' and 'One more thing and the whole line can come', instead of the narrator asking 'What should we lay across the water?' and 'What should we add to finish the bridge?'.",
+      "The scent-trail fact now lands on an image from a child's own day rather than an explanation: following that smell road is like following toast up the stairs to the kitchen. The word pheromone still never appears.",
+      "One motif grown all the way through: the road. 'They have a road' in s1, 'Their road is gone' when the line stalls, 'now her smell is on the bridge' when the scout crosses, and in the grass ending we lie on our elbows and watch the road cross the water, and cross, and cross.",
+      "The ladybug's foot-tapping went from three times to two so it reads as a character rather than a tic, and the 'Hmm' that used to follow it went with it. She keeps the inspection walk, the gate and the slow approving circle, which are the jokes worth keeping.",
+      "Safety reads as competence once per path, in the shared segment, and it is about our hands rather than about the ants: 'Our fingers itch to help. We press them flat on the stones instead, because a finger the size of her street is no help to anybody.' The two branch versions of the same beat were cut as duplicates.",
+      "Similes kept to a child's day and used once each: carried flat in front of us like a tray, close as two fingers, a tiny railway, the smell road and the toast, as still as a hallway, like the ramp up to the library door, like an inspector at a gate.",
+      "Sentence length rises and falls, with 'It reaches.', 'We watch. We wait.', 'They hold.' and 'Two steps, stop.' landing against sentences of twenty-five. The longest path fell from 693 words in v1 to 674, and s2a is now the shortest segment at 146 words because that beat was finished. The sand ending no longer restates the cliffs the choice question had just described."
+    ],
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "status": "draft",
+  "depth": 1
+}

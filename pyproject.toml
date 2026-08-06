@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 jubu_datastore = "."
 
 [tool.setuptools]
-packages = ["jubu_datastore", "jubu_datastore.dto", "jubu_datastore.common", "jubu_datastore.logging", "jubu_datastore.models", "jubu_datastore.loaders"]
+packages = ["jubu_datastore", "jubu_datastore.dto", "jubu_datastore.common", "jubu_datastore.logging", "jubu_datastore.models", "jubu_datastore.loaders", "jubu_datastore.knowledge_graph"]
 
 [project]
 name = "jubu_datastore"

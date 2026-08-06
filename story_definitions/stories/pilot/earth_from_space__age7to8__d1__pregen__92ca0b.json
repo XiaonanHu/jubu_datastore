@@ -1,0 +1,314 @@
+{
+  "id": "story.earth_from_space.age7to8.d1.pregen.92ca0b",
+  "title": "Ravi and the Blue Marble Ride",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.earth_from_space",
+    "sel_theme": null,
+    "value_lesson": "Looking carefully helps small details turn into big wonders.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A curious boy rides a friendly satellite through one full orbit, watching Earth's coastlines, cloud spirals, rivers, and city lights appear in turn, and carries one small glowing discovery home.",
+  "slots": {
+    "hero_name": {
+      "role": "the child hero riding with Pip",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Ravi"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Ravi! Come quick.\" Astronaut Bea is waving from the big round window, the one at the end of the space station corridor. {hero_name} runs. Socks on a metal floor, so it's more of a slide, really. Bea catches him by the shoulders and points. \"Look. Right there.\"\n\nOutside the glass, the whole Earth hangs below them. Blue. Huge. The kind of blue that makes you forget what you were about to say. A long coastline curves along the edge of a continent, and a river winds across the land like a silver ribbon someone dropped.\n\n\"It's like a marble,\" {hero_name} whispers. \"A giant blue marble rolling in sunlight.\"\n\nBea grins. \"Wait till you see it from out there.\"\n\nSomething small and silver zips past the window. It loops back. It hovers right outside the glass, blinking a tiny green light.\n\n\"That's Pip,\" says Bea. \"A satellite. He orbits the whole planet, and he has been asking all morning if someone wants to ride along.\"\n\nA crackly little voice pipes through the speaker on the wall. \"Ooh, look at THAT one! That is a very good coastline. You should see it from my side. Hop in, hop in!\"\n\nA small hatch opens on Pip's side. A pod, just the right size for one kid.\n\n{hero_name} looks at Bea. Bea looks at {hero_name}. \"Well?\"\n\nHe climbs in.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Clouds! Good pick!\" Pip tips his whole silver side, and the pod tips with him, and the world swings up to meet them.\n\nBelow, the ocean is dark blue and busy. And there — a giant pinwheel of cloud, spinning slow over the water. Arms of white curl around and around, like the swirl on top of a milkshake, only bigger than a country.\n\n\"Ooh, look at THAT one!\" Pip chirps. \"That is a storm doing its exercises. Round and round. It never gets dizzy. I get dizzy just watching, and I do not even have a tummy.\"\n\n{hero_name} laughs, and then he sees it. Where the deep blue stops, there is a wiggly border — tan sand, then white foam, then blue again. A coastline, curving like a line someone drew with a very good pencil.\n\n\"The line,\" he breathes. \"It's like the river. It bends the same way.\"\n\nHe presses his finger to the glass and traces it, up and around and down. The glass is cold. The line slides away under his fingertip, because Pip's orbit never stops, not for anyone.\n\n\"Wait — I'm not done!\"\n\n\"No taking it home!\" says Pip. \"But hold on. I know a trick.\"\n\nHe slows, just a little, just enough, and the coastline lingers one more long lovely second while {hero_name}'s finger finishes the curve.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Islands! Excellent!\" Pip flips his silver nose toward the open ocean, and the pod glides after, smooth as a spoon through pudding.\n\nAt first there is only blue. Then — dots. One, two, three, a whole scatter of dark green islands rising out of the water, and they are not sprinkled any old way. They make a line. A long, curved line, like the dots on a dot-to-dot page.\n\n\"Count them, count them!\" Pip chirps. \"I always lose count. I get to nine and then I see a good cloud and have to start again.\"\n\n{hero_name} counts, slow, out loud. \"Ten. Eleven. Twelve.\" Around each island the water turns pale turquoise, soft and milky, like someone stirred cream into the blue.\n\n\"Ooh, look at THAT!\" says Pip. \"Those pale bits are the shallows. Down under there are coral reefs — whole underwater gardens, busy with fish. We are too high to see the fish. But the reef shows itself anyway, if you know where to look.\"\n\n{hero_name} leans close to the glass. \"Pip. The islands make the same line as the coastline. The same bendy one.\"\n\n\"They DO,\" Pip says, delighted. \"The Earth draws that line everywhere.\"\n\nThe turquoise shapes fade behind them. The orbit pulls on.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Pip's orbit swings them over land now, and the light is turning slow and golden.\n\n\"Ooh, ooh, look down!\" Pip chirps. \"What did you find back there? Tell me everything.\"\n\nBefore {hero_name} can answer, Pip gasps. \"Wait. Look at THAT one first.\"\n\nBelow them, a big river winds across the land like a shiny brown ribbon, curling from the mountains all the way toward the sea. It bends. It loops. It never once goes straight.\n\n\"Another curvy line,\" {hero_name} breathes. \"It's like the coastline. It's collecting them.\"\n\n\"Everything curvy is my favourite,\" says Pip, spinning a happy little loop. \"Where does it end? Where does it end?\"\n\n\"The sea,\" says {hero_name}. \"Can we follow it? All the way?\"\n\n\"Hold on to your socks.\"\n\nPip tips, and the river slides beneath them, bend after bend after bend. Then the edge of night rolls over the land — and one by one, golden lights begin to blink on below. Clusters of them. Long strings of them, like someone spilled a jar of stars along the ground.\n\n\"City lights,\" Pip whispers, suddenly quiet. \"Every dot is a home.\"\n\n{hero_name} presses his forehead to the glass. The river ribbon glints ahead, heading for the dark coastline — and the lights keep multiplying, sparkling awake as night spreads.\n\n\"So,\" says Pip, his green light blinking. \"Do we chase the river to the sea, or go count those lights?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The lights,\" says {hero_name}. \"Let's find the brightest clump.\"\n\n\"Ooh, yes. Hold on to your socks.\"\n\nPip tips, and they dive their eyes down toward the dark. Below, whole cities are switching on. Golden dots sprinkle across the black, then clump, then glow — bright clusters where a million homes hum at once.\n\n\"That one!\" Pip chirps. \"Look at THAT one!\"\n\nIt spreads like spilled honey, thick and shining, with thin bright strings running out of it — roads, {hero_name} realizes. Roads made of light.\n\n\"Every dot is somebody's kitchen,\" he whispers. \"Somebody's cat. Somebody's cocoa.\"\n\nPip goes very quiet, the way he does when something is beautiful. Then: click. \"Got it. A photo. I'm signing it.\"\n\n\"You don't have hands.\"\n\n\"I'm signing it in my heart.\"\n\nThe station swings around the curve of the world, growing bigger, and there is Bea at the round window, holding two mugs. Pip docks with a soft bump.\n\n\"Well?\" says Bea.\n\n{hero_name} climbs out, the photo warm in his pocket — a curving coastline of light, signed by a satellite. \"Pip,\" he says, \"everything curvy is my favourite too.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The edge,\" says {hero_name}. \"Let's race the edge.\"\n\n\"Ooh, fast one. Hold on to your socks.\"\n\nPip tilts, and they chase the line where night meets day. It slides beneath them, slow as a page turning — and then, right along the curve of the world, something appears.\n\nA skinny blue halo. Glowing. Hugging the planet all the way around, thin as the skin on warm milk.\n\n\"The air,\" {hero_name} breathes. \"That's the air. All of it.\"\n\n\"All of it,\" Pip whispers. \"Every breath everybody ever breathed, in one thin curvy line.\"\n\nIt shimmers — blue fading to gold where the sun catches it. Another curving line, the curviest one yet, wrapped around everything.\n\n\"It's going,\" says Pip. \"The edge is moving.\"\n\nClick. \"Got it. A photo. For your pocket.\"\n\nThe halo slips away behind them, and the station swings around the curve of the world, growing bigger. There is Bea at the round window, holding two mugs. Pip docks with a soft bump.\n\n\"Well?\" says Bea.\n\n{hero_name} climbs out, the photo warm in his pocket — one thin glowing line, holding the whole world. \"Bea,\" he says, \"the air is a ribbon too.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Pip chirps, \"Quick, Ravi — shall we chase the giant spinning clouds, or hop over to the island dots?\"",
+      "options": [
+        {
+          "say_word": "Clouds",
+          "label": "Chase the giant white cloud spiral over the ocean",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Islands",
+          "label": "Glide over the volcanic island chain and turquoise reef hints",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Pip hums, \"Last look before home, Ravi — do we hunt the brightest city lights, or race to the glowing edge of the air?\"",
+      "options": [
+        {
+          "say_word": "Lights",
+          "label": "Hunt the brightest clusters of city lights in the dark",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The Edge",
+          "label": "Race to the thin glowing rim of air along Earth's edge",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.earth_from_space",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's material is inherently about sweeping movement through orbit, letting a child travel past coastlines, rivers, cloud spirals, and city lights in one continuous amazing ride, which is exactly what a journey pattern feeds on.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip the satellite, whose delighted running commentary ('Ooh, look at THAT one!') carries the curious wonder.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Looking carefully helps small details turn into big wonders.",
+      "why": "The material offers it directly as a value angle, and Ravi's pattern-spotting (the curving line motif) pays it off without preaching."
+    },
+    "cast": [
+      {
+        "role": "Ravi, a curious child who spots patterns in the view from the window",
+        "reused": false,
+        "why": "Gives the third-person hero a name and a job: he keeps asking what he is seeing, which drives the journey forward."
+      },
+      {
+        "role": "Pip, a small chatty satellite who carries Ravi around its orbit",
+        "reused": false,
+        "why": "Serves as both the way in (the vehicle) and the accent carrier; a satellite guide is in the material and naturally explains orbits and pictures."
+      },
+      {
+        "role": "Astronaut Bea, a friendly astronaut in the space station observation room",
+        "reused": false,
+        "why": "Anchors the opening and the warm landing, points out coastlines and lights, and shows lightly where to stand at the big window."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Earth looks mostly blue from space — the blue marble",
+        "a satellite travels in a path called an orbit",
+        "clouds spin into huge spiral shapes",
+        "a coastline looks like a curving line from above",
+        "big rivers look like long winding ribbons",
+        "city lights glow in clusters at night",
+        "Earth's air is a thin glowing rim",
+        "space station room with a big observation window",
+        "ring of volcanic islands rising from the ocean (wider door)",
+        "pale turquoise shapes hinting at coral reefs (wider door)"
+      ],
+      "gathered_but_unused": [
+        "From space, Earth looks mostly blue because oceans cover most of the planet.",
+        "A satellite travels around Earth in a path called an orbit.",
+        "Clouds can spin into huge spiral shapes that are easy to see from above.",
+        "A coastline is the edge where land meets the sea, and from space it can look like a curving line.",
+        "Big rivers can be seen from space as long ribbons winding across the land.",
+        "At night, city lights glow in clusters and lines, showing where many people live.",
+        "Earth’s air is a thin layer around the planet, and from orbit it can look like a glowing rim.",
+        "Some satellites take pictures of Earth that help people study weather, oceans, and land."
+      ]
+    },
+    "safety_beat": "In s1, Astronaut Bea casually shows Ravi the rail by the big observation window — 'this is the best spot to stand' — a light competence beat with no warning or tension.",
+    "motif": "The curving line — coastlines, river ribbons, island chains, and the thin glowing rim of air all echo the same wiggly, winding line.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: Pip's chatter and the accumulating 'curvy line' motif give a listening child both a companion and a ritual, the sound-words land cleanly aloud, and both endings pay off the wonder without grabbing at it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a delighted whoosh of invitation",
+        "s2a": "wide-eyed, finger pressed to the glass, a small held breath when the line almost",
+        "s2b": "counting-along pleasure, leaning in as the pattern clicks",
+        "s3": "settling into golden quiet, the hush of lights coming on",
+        "s4a": "warm and full, a giggle at the heart-signature, then cocoa-soft satisfaction",
+        "s4b": "a held breath at the thin blue halo, then glowy and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['keepsake']"
+      }
+    ],
+    "writers_notes": [
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "04_earth_from_space_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

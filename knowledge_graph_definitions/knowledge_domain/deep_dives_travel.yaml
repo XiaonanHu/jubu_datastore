@@ -1,0 +1,42 @@
+axis: knowledge_domain
+pack: deep_dives_travel
+nodes:
+  - id: knowledge_domain.journeys_around_the_world
+    axis: knowledge_domain
+    label: journeys_around_the_world
+    display_name: "Journeys Around the World"
+    region: people_and_places
+    tier: deep_dive
+    subtopic_of: knowledge_domain.maps_and_globes
+    facets: [ways_of_getting_there, packing_a_bag, sleeping_somewhere_new, postcards_home]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a train that rocks you like a cradle, a ship with a bed inside, and your own little bag packed with your favourite things", vocabulary: [journey, suitcase, ticket], avoid: [getting lost as peril, strangers as threat]}
+      7: {depth: mechanism, framing: "picking the way to go: planes leap over oceans in hours, ships take days, trains show you everything out the window", vocabulary: [route, luggage, passport], avoid: [getting lost as peril, strangers as threat]}
+      9: {depth: system, framing: "a journey as a plan: connecting trains and time zones, sleeping somewhere new, and sending word home from far away", vocabulary: [itinerary, time zone, postcard], avoid: [getting lost as peril, strangers as threat]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.bicycles
+    axis: knowledge_domain
+    label: bicycles
+    display_name: "Bicycles"
+    region: how_things_work
+    tier: deep_dive
+    subtopic_of: knowledge_domain.engines_and_vehicles
+    facets: [learning_to_balance, chains_and_gears, going_uphill_and_down, fixing_a_flat]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the wobbly magic moment when the bike stays up all by itself and the wind rushes past your helmet", vocabulary: [pedal, balance, wheel], avoid: [crash injuries, helmets framed through fear instead of everyday competence]}
+      7: {depth: mechanism, framing: "how the chain carries your pedalling to the back wheel, and why spinning wheels don't want to tip over", vocabulary: [chain, gear, brake], avoid: [crash injuries]}
+      9: {depth: system, framing: "gearing as a trade: easy little pushes uphill or big fast ones on the flat, and how a rider with a pump and patch kit fixes a flat and rolls on", vocabulary: [gear ratio, momentum, puncture], avoid: [crash injuries]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

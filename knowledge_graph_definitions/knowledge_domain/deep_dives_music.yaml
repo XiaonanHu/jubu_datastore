@@ -1,0 +1,122 @@
+axis: knowledge_domain
+pack: deep_dives_music
+nodes:
+  - id: knowledge_domain.piano
+    axis: knowledge_domain
+    label: piano
+    display_name: "Piano"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.musical_instruments
+    facets: [keys_and_hammers, loud_and_soft, two_hands, practicing_a_piece]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "eighty-eight black and white keys in a row, deep growly ones on one end and tiny sparkly ones on the other", vocabulary: [key, high, low]}
+      7: {depth: mechanism, framing: "press a key and a little felt hammer inside jumps up and taps a string; press softly and the whole sound goes soft too", vocabulary: [hammer, string, soft]}
+      9: {depth: system, framing: "two hands doing different jobs at once, and how a tricky piece turns easy when you practice it in small slow pieces", vocabulary: [melody, chord, practice]}
+    edges:
+      adjacent: [knowledge_domain.sound_and_echoes]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.drums_and_rhythm
+    axis: knowledge_domain
+    label: drums_and_rhythm
+    display_name: "Drums and Rhythm"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.musical_instruments
+    facets: [steady_beat, patterns_to_clap, drums_around_the_world, your_body_as_a_drum]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "boom, tap, boom; the drum is the heartbeat of the music and your own hands can be drums too", vocabulary: [drum, beat, clap]}
+      7: {depth: mechanism, framing: "a rhythm is a pattern of long and short sounds that repeats; once you can clap it, you can play it on anything", vocabulary: [rhythm, pattern, repeat]}
+      9: {depth: system, framing: "how drummers keep a whole band together, and how the djembe, the tabla, and the taiko each speak their own rhythm language", vocabulary: [tempo, djembe, taiko]}
+    edges:
+      adjacent: [knowledge_domain.dance_around_the_world, knowledge_domain.festivals_around_the_world]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.singing_voices
+    axis: knowledge_domain
+    label: singing_voices
+    display_name: "Singing Voices"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.musical_instruments
+    facets: [how_voices_work, high_and_low, singing_together, humming]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "your voice is an instrument you carry everywhere; hum with your hand on your throat and feel it buzz like a bee", vocabulary: [sing, hum, buzz]}
+      7: {depth: mechanism, framing: "two tiny bands in your throat wobble when air rushes past, and stretching them tighter makes your voice climb higher", vocabulary: [vocal cords, breath, pitch]}
+      9: {depth: system, framing: "how a choir splits into high and low parts that fit together like puzzle pieces, making a sound no single voice could", vocabulary: [choir, harmony, part]}
+    edges:
+      adjacent: [knowledge_domain.sound_and_echoes, knowledge_domain.theater_and_pretending]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.how_melodies_work
+    axis: knowledge_domain
+    label: how_melodies_work
+    display_name: "How Melodies Work"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.musical_instruments
+    facets: [notes_going_up_and_down, tunes_that_stick, same_tune_higher_or_lower, making_up_your_own]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a melody is a tiny journey of notes going up and down; hum three notes and you have already made one", vocabulary: [note, tune, hum]}
+      7: {depth: mechanism, framing: "why some tunes stick in your head; patterns that repeat, then change just enough to surprise you", vocabulary: [melody, repeat, surprise]}
+      9: {depth: system, framing: "the same melody can wear different clothes — sung high or low, fast or slow, cheerful or wistful — and still be the same tune underneath", vocabulary: [key, tempo, variation]}
+    edges:
+      adjacent: [knowledge_domain.piano, knowledge_domain.singing_voices]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.orchestras
+    axis: knowledge_domain
+    label: orchestras
+    display_name: "Orchestras"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.musical_instruments
+    facets: [instrument_families, the_conductor, tuning_up_together, whisper_to_thunder]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a hundred instruments on one stage, from a piccolo you could pocket to a double bass taller than you", vocabulary: [orchestra, stage, conductor]}
+      7: {depth: mechanism, framing: "four families — strings, woodwinds, brass, and percussion — and how the conductor's hands tell every one of them when and how", vocabulary: [strings, brass, baton]}
+      9: {depth: system, framing: "how a hundred players become one sound; sheet music, listening sideways to your neighbors, and rehearsing until the whole room breathes together", vocabulary: [rehearsal, harmony, ensemble]}
+    edges:
+      adjacent: [knowledge_domain.piano, knowledge_domain.drums_and_rhythm]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.instruments_around_the_world
+    axis: knowledge_domain
+    label: instruments_around_the_world
+    display_name: "Instruments Around the World"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.musical_instruments
+    facets: [drums_of_every_land, strings_and_gourds, instruments_from_scraps, songs_that_travel]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "shakers made from gourds, pan flutes from reeds, steel drums from old barrels; people make music from whatever sings", vocabulary: [shaker, flute, drum], avoid: [ranking cultures or calling any music strange]}
+      7: {depth: mechanism, framing: "the sitar, the kora, and the erhu are all strings that buzz; each land shapes the buzz its own way", vocabulary: [sitar, kora, string], avoid: [ranking cultures or calling any music strange]}
+      9: {depth: system, framing: "instruments carry stories; how the steel drum was born from oil barrels, and how instruments hop borders and join brand-new bands", vocabulary: [steel drum, tradition, borrow], avoid: [ranking cultures or calling any music strange]}
+    edges:
+      adjacent: [knowledge_domain.drums_and_rhythm, knowledge_domain.dance_around_the_world]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

@@ -1,0 +1,288 @@
+{
+  "id": "story.volcanoes.journey_001",
+  "title": "The Mountain That Breathes",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.volcanoes",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "what is around the next bend inside the mountain",
+  "slots": {
+    "companion_name": {
+      "role": "the lava-lizard guide",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Ember"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "At the bottom of the tallest mountain, we find a little round door. It is warm, like bread fresh from the oven. We push open the door and step inside together. A tunnel glows orange, as if someone left a nightlight on inside the whole mountain. Then we hear it. Rumble. Rumble. The sound rolls under our feet like a giant humming in its sleep. Out from under a rock ledge pops a small lizard with pebbly orange skin. It is {companion_name}, the lava-lizard, and a tiny hat of grey ash sits on its head. {companion_name} bows so low the hat falls off, plops back on upside down, and stays that way. We try not to giggle. We giggle anyway. The lizard puffs out a proud little smoke ring shaped like a doughnut. Follow me, says {companion_name}, the mountain is awake and it wants to show us everything. The tunnel splits in two. One path runs beside a glowing orange river. The other climbs twisty stone stairs, up toward the rumbling sound.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We take the path beside the glowing river. The river is lava, melted rock from deep inside the earth. It moves slower than honey poured on a cold morning. Our path is made of cool black stone, smooth under our feet. The lava glows brightest at the middle, orange as a tiger, gold at the edges. Little bubbles rise up and pop with a soft bloop. Each pop sends up one tiny spark, like a firefly waking up. {companion_name} balances on a floating stone and rides it like a surfboard. The stone spins in a slow circle. The lizard spins with it, hat and all, waving both front feet. We clap, and the echo claps back from the tunnel walls. Where the river bends, the light grows bigger and rounder. The rumble is louder here, but it is a friendly loudness, like a purring cat the size of a hill. Around the last bend, the tunnel opens wide. A giant glowing room waits for us, and the whole river pours gently into it.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We take the twisty stone stairs, up and up. Each step hums a tiny bit under our shoes. We press our ears against the warm wall and listen. Rumble. Rumble. Deep below, hot melted rock is slowly stretching and turning over, the way we stretch in bed before waking up. That is what makes the mountain's big sleepy song. {companion_name} presses one ear to the wall too, then tries to copy the sound. The lizard's rumble comes out as a squeaky squeak, like a mouse pretending to be thunder. The squeak echoes all the way up the stairs. We pass little round windows carved in the rock. Through them we watch puffs of smoke drift up into the sky, one soft grey pillow after another. The mountain is breathing out, slow and easy. At the top, the stairs turn and spiral down again, deeper than before. The steps grow warmer and the light grows golden. At the very bottom, a giant glowing room opens up and waits for us.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "This is the heart room of the mountain. In the middle glows a wide pool of lava, round as the sun. Slow bubbles rise, swell, and pop, bloop, bloop, bloop. Sparks float up from every pop and drift around like lazy fireflies. Soft grey ash floats down at the same time, like warm snow that never gets cold enough to shiver. One spark lands right on {companion_name}'s nose. The lizard crosses both eyes to look at it, and the ash hat slides down over one eye. We laugh so hard the pool ripples. Then the whole room takes a big, slow breath. The lava pool rises, just a little, like dough puffing up in a warm kitchen. {companion_name} whispers that the mountain is getting ready to erupt. Not a scary erupt. A happy one, the kind where the mountain throws its own firework party of sparks from the top. We can hardly wait. But where should we be when it happens?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "A warm wind rises through a wide stone chimney, and it wants to help us up. We spread our arms, and the gentle wind carries us like two leaves, up, up, up. {companion_name} rides along on our shoulder, holding the ash hat with one foot. We pop out at the very top of the mountain, under a sky full of stars. Then it happens. The mountain erupts. Orange sparks fountain into the night like a thousand tiny shooting stars. Soft ash drifts down around us like grey confetti. A thin ribbon of lava glows down the far side, slow and bright, writing gold squiggles on the dark. {companion_name} cheers and throws the little hat in the air, then misses catching it three times. The mountain rumbles, low and happy. When the show is done, we find a tiny pebble of cooled lava by our feet, still warm as toast. We tuck it in our pocket to carry home. Goodnight, mountain. Thank you for breathing us a firework.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We stay in the glowing heart room, close and cozy warm. {companion_name} leads us to a window made of clear shiny crystal. Through it we can see the green hillsides outside the mountain. Watch the ash, whispers {companion_name}. Above us, the mountain lets out a happy puff. Soft grey ash floats out of the top and drifts down onto the hills like a blanket. And everywhere the ash lands, the plants stand up taller. Ash is full of good things that hungry soil loves to eat. It makes the dirt soft and rich, so flowers and trees grow big and strong. That is what the puffing is for. The mountain is feeding its own gardens. Sunflowers on the far hill stretch so tall they seem to wave at us. {companion_name} digs in the hat and pulls out a present, one sunflower seed and a pinch of ash. Plant it at home, the lizard says, and the mountain will be growing in our garden too. We hold it carefully all the way back through the little round door. Goodnight, mountain. Grow well.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Should we follow the glowing river, or climb the stairs toward the rumble? Say river, or say stairs.",
+      "options": [
+        {
+          "say_word": "river",
+          "label": "Follow the glowing lava river",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "stairs",
+          "label": "Climb the stairs toward the rumble",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Should we climb to the very top to watch the spark show, or stay below and learn what the soft ash is for? Say top, or say ash.",
+      "options": [
+        {
+          "say_word": "top",
+          "label": "Climb to the very top to watch the sparks fly",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "ash",
+          "label": "Stay below and find out what the ash is for",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.volcanoes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The inside of a volcano is a place a child has never been and cannot go, so simply being taken through it is enough plot; nothing has to be wrong for the story to move.",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.35,
+          "sampled": true
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "a good question was available (why does the mountain rumble) but it is answered in one sentence at age five; the question was saved and later became the geysers story, where the answer is worth six segments"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "every volcano problem a five-year-old can picture is a town in trouble, and the topic's avoid list at this age rules out destroyed towns and people fleeing"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false
+        }
+      ],
+      "backup": "mystery"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the lava-lizard guide — the ash hat that falls off and lands upside down, the doughnut smoke ring, the surfing on a floating stone, the squeaky rumble. Nothing else in the story is funny; the glowing river, the heart room and the eruption stay in pure wonder.",
+      "why": "An erupting mountain is the definition of look-at-THAT stillness, so wonder is the dominant. The silly accent exists to keep a five-year-old certain that nothing here is frightening, and it does that job better than any reassuring line of narration could.",
+      "rejected": [
+        {
+          "recipe": "big_adventure dominant with a silly accent",
+          "because": "motion and daring inside a volcano means outrunning something, which is the exact framing the age-5 avoid list forbids"
+        },
+        {
+          "recipe": "cozy dominant with a curious_wonder accent",
+          "because": "the topic deserves a cozy story eventually, but cozy cannot carry an eruption in the final segment; the landing would fight the tone"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The pull of this story is what is around the next bend, and 'we' is the telling that keeps turning corners with the listener. It also lets the child be inside the mountain without anyone being in danger there.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "watching a child-aged hero inside a volcano invites worry about that hero, and worry is the one thing this story is engineered not to produce"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered trip is over and safe already, which sounds appealing but flattens the around-the-next-bend pull that is the whole engine here"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "None of the three conditions in policy 3e are met. The materials produced no natural value angle, this is a library story with no parent value picks attached, and the story has no interpersonal moment to hang one on. Nothing is taught about how to behave, and that is the correct outcome for a wonder story."
+    },
+    "cast": [
+      {
+        "role": "the lava-lizard guide",
+        "reused": false,
+        "reused_from": null,
+        "slot": "companion_name",
+        "why": "first appearance, and invented here to be reused. The volcanoes topic family needed one guide who can plausibly stand anywhere hot — inside the mountain, in a geyser valley, on a new island — so later stories can reuse instead of inventing. Defined by role, never by name: the name is a naming slot, so whatever the child calls it walks into every later story in this family."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: lava is melted rock and it can flow slower than honey",
+        "wonder-fact: the rumbling of a volcano comes from hot rock moving deep below",
+        "wonder-fact: volcanic ash makes soil rich, so plants grow well on volcano slopes",
+        "wonder-fact: some eruptions are fountains of sparks rather than explosions",
+        "sensory picture: a tunnel lit orange like a nightlight left on inside a mountain",
+        "sensory picture: bubbles surfacing in a lava pool with a soft bloop and one spark each",
+        "sensory picture: warm ash falling like snow that never gets cold",
+        "setting: a warm little round door at the foot of the tallest mountain"
+      ],
+      "gathered_but_unused": [
+        "magma versus lava as different words for the same rock in different places — a clean idea, but it is the age-7 treatment",
+        "the ring of fire and why volcanoes cluster — age-9 system material, kept for a later story",
+        "volcanologists in silver heat suits — genuinely thrilling, but the suits raise the danger question the story is avoiding",
+        "lava tubes you can walk through once they cool — strong candidate for the lava deep-dive story",
+        "obsidian, the black volcanic glass — kept on the sheet; the cooled pebble in s4a is its small cousin"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "At the first fork in the tunnel, one segment in, so the child learns immediately that this story does what they say. Both branches are ways deeper into the same mountain and neither changes anything except what was seen, so s3 can open in the heart room either way.",
+        "criteria": {
+          "more_interesting": "one path walks beside a glowing river of lava; the other climbs through the dark listening to the mountain breathe. Different light, different sound, different fact learned.",
+          "more_engaging": "a river made of fire and a staircase inside a mountain are both things a five-year-old would pick without hesitating",
+          "reveals_taste": "walking beside the lava is bold; climbing the stairs and listening at the wall is gentle",
+          "reveals_curiosity": "river is just-experience, watching the sparks and the surfing lizard; stairs is how-it-works, finding out what is actually making the rumble",
+          "reflects_mood": "the river branch is bright and eventful; the stairs branch is dim, slow and quiet, which suits a tireder evening"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "Just before the eruption, the one moment in the story with real anticipation in it. Splitting here means the child chooses which kind of ending an eruption gets, and both are true: the spectacle above and the reason for the ash below.",
+        "criteria": {
+          "more_interesting": "s4a is a firework fountain under the stars; s4b is a crystal window and hillsides going green. Opposite ends of the mountain and opposite kinds of pleasure.",
+          "more_engaging": "watching the sparks fly and finding out what the ash is secretly for are both strong pulls, and children split cleanly between them",
+          "reveals_taste": "riding the warm wind to the summit is bold; staying in the glowing room is gentle",
+          "reveals_curiosity": "top is just-experience, the show itself; ash is what-its-for, the payoff of the puffing",
+          "reflects_mood": "the summit ending is loud and celebratory; the ash ending is warm, indoor and ends with a seed in the pocket, which lands better at bedtime"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Journey beats all land: a threshold to cross (the warm round door), a guide met at the start, a marvel in every stretch, and an arrival that is worth the trip. Slot check: companion_name is set before s1 and used in every segment, so no path reads a blank. Avoid-list sweep clean at age 5 and 6 — no destroyed town, nobody fleeing, no casualties anywhere, and the eruption is explicitly framed as a firework party rather than a disaster. Say-words river and stairs, top and ash are short, concrete and unlike each other in sound."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "Word counts run 161 to 181 per segment, inside the 150 to 200 band; 673 words on the shortest path and 687 on the longest. Sentences are short and speakable, with the sound effects (rumble, bloop) placed as their own sentences so a reader lands them. No ellipses, asterisks, parentheses or emojis. The s2a and s2b pair was written together and contrasts properly — s2a is bright and visual, s2b is dark and auditory. Vocabulary matches the age-5 treatment: lava, rumble, smoke, plus erupt and ash from the age-6 line."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read end to end aloud. The rejoin holds because both branches arrive at a giant glowing room in their last sentence and s3 opens by naming it the heart room. Wonder owns both landings and every silly beat is on the lizard, never on the mountain. Both endings say goodnight to the mountain and send the child home holding something, one a warm pebble and one a sunflower seed. Banned-language sweep clean."
+      }
+    ],
+    "writers_notes": [
+      "The word explode was cut everywhere in favour of erupt, and the eruption is named a firework party in s3 before it happens, so the child knows in advance that the loud part is a happy one.",
+      "Warning carried forward from s1: 'giggle' was used twice in two sentences on purpose, as a small joke, and then never again anywhere in the story.",
+      "s3 is the shortest segment at 161 words, deliberately. It is the hinge that has to read correctly after either branch, so it stays close to the pool and the lizard and adds no scenery that only one branch would have set up.",
+      "The rumble is described as a purring cat the size of a hill and a giant humming in its sleep. Both similes make the mountain alive and asleep rather than angry, which is the whole safety strategy of this story.",
+      "s4b nearly became a lesson about soil. Fixed by giving the fact to the lizard as a present of one seed and a pinch of ash, so the child leaves holding the idea instead of being told it.",
+      "The lava-lizard's name is a slot rather than a fixed name because this character is meant to recur across the volcanoes family. Later stories in the family reuse the role and inherit the child's name for it.",
+      "This build record was written after the fact, when the record format was fixed. The decisions are the real ones taken while authoring; the weights are the hand-authored numbers from the pattern library, applied to an empty shelf."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

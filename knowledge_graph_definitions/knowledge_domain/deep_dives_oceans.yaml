@@ -1,0 +1,42 @@
+axis: knowledge_domain
+pack: deep_dives_oceans
+nodes:
+  - id: knowledge_domain.beaches_and_sand
+    axis: knowledge_domain
+    label: beaches_and_sand
+    display_name: "Beaches and Sand"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.oceans_and_tides
+    facets: [what_sand_is_made_of, what_the_tide_leaves, sandcastles, dunes]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "warm sand between your toes, a sun-creamed nose, and a moat that fills all by itself when a wave sneaks in", vocabulary: [sand, seashell, castle], avoid: [rip currents, drowning]}
+      7: {depth: mechanism, framing: "sand is smashed-up rock and shell that waves have been grinding for ages, and why damp sand builds the best castle walls", vocabulary: [grain, tide line, driftwood], avoid: [rip currents, drowning]}
+      9: {depth: system, framing: "the beach as a place the sea keeps redrawing: dunes piled by wind, treasure stranded along the tide line, and builders who check the tide chart before starting their castle where the grown-ups can see", vocabulary: [dune, erosion, tide chart], avoid: [rip currents, drowning]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.swimming_and_floating
+    axis: knowledge_domain
+    label: swimming_and_floating
+    display_name: "Swimming and Floating"
+    region: nature_and_earth
+    tier: deep_dive
+    subtopic_of: knowledge_domain.oceans_and_tides
+    facets: [why_things_float, blowing_bubbles, kicking_and_gliding, floating_on_your_back]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "blowing bubbles that tickle your nose, and the first splashy kick where your feet leave the bottom while a grown-up watches from arm's reach", vocabulary: [float, bubble, splash], avoid: [drowning, deep water as menace]}
+      7: {depth: mechanism, framing: "why the water holds you up: air in your lungs makes you a little boat, and a big breath makes floating easier", vocabulary: [float, breath, kick], avoid: [drowning, deep water as menace]}
+      9: {depth: system, framing: "putting it together like a swimmer does: streamlined glides, steady breathing, resting on your back, and swimming alongside others as the ordinary way it's done", vocabulary: [buoyancy, glide, streamline], avoid: [drowning, deep water as menace]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

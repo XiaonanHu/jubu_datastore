@@ -1,0 +1,308 @@
+{
+  "id": "story.the_moon.age5to6.d1.authored.ba4d52",
+  "title": "The Fox Who Watched the Moon",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_moon",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "An old lighthouse keeper remembers the full-moon night a silver fox came to share the quiet.",
+  "slots": {
+    "cat_name": {
+      "role": "the lighthouse keeper's cat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pearl"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The lighthouse light goes round over our heads, on, off, on, off.\nOld Finn brings out two cups and a blanket and squeezes onto the bench between us.\n\"There,\" he says. \"Now watch the sea.\"\nThe moon is coming up out of the water. Fat and gold at first, sitting on the water like a coin on a table, and then slowly going silver.\nOld Finn puts his hands round his cup.\n\"A full moon,\" he says. \"Then I will tell you my favourite night, just as it happened.\n\"I was the keeper here. Young, and quick on the stairs. The sea went flat and still, exactly like tonight. My cat {cat_name} hopped up on the windowsill to watch it with me.\n\"Then I heard something out on the steps. Tap. Tap. Soft as rain starting.\n\"A little fox was standing on the bottom step, her fur tipped with silver all along her back. And she was not looking at me at all. She was looking straight up at the moon.\n\"I thought, if I keep still enough, she might come up a step.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"I stayed at the window and looked where the fox was looking,\" said old Finn. \"And the moon had put a road down on the sea. A long shining road, from the sky right up to my rocks. The water rocked, and the road rocked with it. It never once broke.\n\"I went out onto the high gallery to see it better. And here is the funny thing. When I walked to the left end of the gallery the shine came left with me, and when I walked right it came right along too. My mother always said the moon likes company. Wherever you go, she said, it will walk beside you.\n\"Far below, a fish came up and left a ring of ripples, and the ring wore the moonlight like a crown.\n\"{cat_name} pushed her head against my sleeve and purred, warm as a bun in a paper bag.\n\"The fox came down off the steps and out onto the rocks to watch the road too. And I wanted, very much, to go down there with her.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"I fetched down my long brass spyglass,\" said old Finn. \"I rested it on the window ledge and hunted about until I found the moon.\n\"Oh. What a thing to see.\n\"The whole of it was covered in round dips, like the hollows a teaspoon leaves in a tub of ice cream. Craters, they are called. Some were small as freckles. Some were wide enough to hold this whole village.\n\"I lifted {cat_name} up and let her have a look. She twitched her whiskers at the glass and looked away.\n\"Now. Here is the thing about the moon that I love best. No wind blows up there. Not one puff, ever. So if you walked about on the moon and left a footprint, it would stay. It would sit in the quiet grey dust, as neat as the minute you made it, for always.\n\"A place where every step you take is kept.\n\"Down on the bottom step the fox had not moved a whisker. Her silver back shone. And she was still looking up at the same moon I had just been staring into.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"It got very late,\" said old Finn, \"and I was not one bit sleepy. So I lit my lantern and started down the spiral stairs.\n\"There is a window at every turn. Down one turn, and there was the moon, waiting for me. Down another turn, there it was again. It came all the way down with me, like somebody holding a light at the top of the steps.\n\"I opened the heavy door slowly, so it would not bang.\n\"The fox was still on the bottom step. I did not go down onto the rocks, because they stay wet all night, and three steps up is the best seat anyway. So I sat on the cold stone and held my breath.\n\"{cat_name} slipped out and sat beside me, tail wrapped round her toes.\n\"The fox looked at me. I looked at the fox. Then she came up one step. Then one more.\n\"She stretched her nose towards my lantern and sniffed the warm air above it.\n\"Nobody moved. The waves went hush against the rocks, and the moon held all of us in one big circle of silver.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I hummed,\" said old Finn. \"A tune my mother used to hum, slow and round.\n\"The fox tipped her head one way. Then the other. Her ears turned round towards me like two soft cups.\n\"{cat_name} joined in with her purring, low and rumbly, and the waves kept time underneath the both of us.\n\"When the tune ran out, the fox blinked at me, slow and calm, the way a cat blinks when it likes you. Then she trotted off down over the rocks with her tail floating out behind her like a silver brush.\n\"And here is the best of it. The next full moon, tap, tap, she came back. She came back every full moon after that, and I hummed for her every single time.\"\nOld Finn looks up at the big bright moon over the water. He hums four notes of it for us, and stops.\n\"That is why I still hum on nights like this,\" he says. \"Blankets now. The moon will walk you home and then it will sit up and keep watch.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"On my windowsill I kept a white shell,\" said old Finn. \"Smooth as soap, and in moonlight it glowed like a small moon of its own.\n\"I fetched it down and put it on the bottom step, and then I sat back up on my own step and waited.\n\"The fox came close. She sniffed it once. Twice. Then she picked it up as gently as a mother carrying her kit, and away she went over the rocks.\n\"I like to think it is in her den to this day. A moon for cloudy nights, when the clouds have got the real one.\n\"And listen to this. After that, I kept finding things left on my step. A smooth grey pebble. A gull feather. And once, a very fine acorn.\"\nOld Finn turns his hand over. On his palm is a grey pebble, gone soft and round with all those years.\n\"We swapped moons, that fox and I,\" he says. \"Here. You keep this one beside you tonight. The moon will find it through the window.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Old Finn stops with his cup halfway up. \"You tell me what I did next,\" he says. \"Did I stay at the window and watch what the moon was doing to the water? Or did I fetch down my spyglass and look at the moon itself? Water, or spyglass?\"",
+      "options": [
+        {
+          "say_word": "water",
+          "label": "Stay at the window and watch the moonlight on the water",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "spyglass",
+          "label": "Fetch the spyglass and look at the moon's craters",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now you choose,\" says old Finn, and he sets his cup down on the boards. \"I could hum her the tune my mother used to hum. Or I could fetch the white shell off my windowsill and put it down in front of her. Hum, or shell?\"",
+      "options": [
+        {
+          "say_word": "hum",
+          "label": "Hum his mother's slow round tune",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "shell",
+          "label": "Give the fox the shell that glows like a small moon",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "record_note": "The v1 pilot file for this story shipped without a build record. The decision sections below were reconstructed from the v1 text during this v2.1 rewrite and carry no sampling weights, because no draw was ever recorded. Everything they describe was already true of v1 and was held constant; the gates, craft_changes and writers_notes are new and were measured against this text.",
+    "request": {
+      "topic": "knowledge_domain.the_moon",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "prompt_version": "segment_writing_v2.1",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "Nothing about the moon can be visited, chased or fixed by a five-year-old, and the true age-five framing of the topic — the friendly light that seems to follow you — is a thing you notice while sitting still. A quiet hour is the only pattern that lets the story be about noticing.",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "sampled": true,
+          "rejected_because": "a trip to the moon is the obvious move and the wrong one at this age: it needs a rocket, a suit and a reason, and it trades the moon a child can actually see out of the window for a place nobody in the story could get to"
+        },
+        {
+          "pattern": "mystery",
+          "sampled": true,
+          "rejected_because": "the good question here (why does the moon follow you) has an answer a five-year-old cannot yet hold, so the mystery would either lie or stop dead"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "sampled": false,
+          "rejected_because": "nothing about the moon is broken, and the only problems available would have to be invented for the fox, which is the one character the story needs to leave alone"
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": null,
+      "why": "A full moon on a flat sea at the end of the day is warm all the way through, and this story is built to be the last thing a child hears. It is the one pilot story with no accent at all: no second register, no joke, nothing pulling against the warmth. The two facts it carries, craters and footprints that never blow away, arrive inside that warmth rather than beside it.",
+      "rejected": [
+        {
+          "recipe": "cozy dominant with a silly accent",
+          "because": "the fox is the whole story, and a joke anywhere near her breaks the stillness she is standing in"
+        },
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "puts the craters first and the fox second, and a child who came for the fox would be waiting through the science"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "The story needs a grown-up who has sat on a night shore hundreds of times, because that is how the safe way to be there gets shown instead of taught. It also needs someone who can say the fox came back every full moon for years, which no present-tense telling could reach.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "'we' wants the next thing, and this story's whole movement is a fox coming up two steps"
+        },
+        {
+          "teller": "named_hero",
+          "because": "a hero implies someone to worry about, and there is nothing here to worry about"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "None of the three conditions in policy 3e hold. The materials produced no natural value angle, this is a library story with no parent value picks, and the nearest thing to a lesson — hold still and the wild thing comes closer — works as an event and dies as an instruction. The story carries no value, which is the right outcome for a bedtime wonder story."
+    },
+    "cast": [
+      {
+        "role": "the lighthouse keeper who remembers",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Old Finn owns the lighthouse frame in the library, and the other storytellers are deliberately kept off his ground: Grandma Nell has the window frame in the birds story, Sabina the beach-nest frame in the sea turtles story, Old Marta the fishing step in the volcanic islands story. His name is fixed, not a slot, because the child is listening to him rather than adopting him."
+      },
+      {
+        "role": "the keeper's cat",
+        "reused": false,
+        "reused_from": null,
+        "slot": "cat_name",
+        "why": "the one nameable character, and deliberately the least important one, so that naming is a pleasure rather than a weight. She is present in five of the six segments and always doing something small and cat-shaped."
+      },
+      {
+        "role": "the fox who watches the moon",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "not a slot on purpose. She is a wild animal who does not belong to anybody in the story, and giving the child a name for her would quietly turn her into a pet."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: the moon seems to follow you wherever you go",
+        "wonder-fact: moonlight lays a road of light across water and the road never breaks",
+        "wonder-fact: the round dips all over the moon are craters, some tiny and some enormous",
+        "wonder-fact: no wind blows on the moon, so a footprint left there stays as it was made",
+        "sensory picture: a moon coming up fat and gold and slowly turning silver",
+        "sensory picture: the moon waiting in every window of a spiral stair",
+        "sound picture: a fox's feet on stone steps, soft as rain starting",
+        "setting: a lighthouse porch above a flat sea on a full-moon night"
+      ],
+      "gathered_but_unused": [
+        "the phases, and why the moon changes shape night by night — the age-6 treatment, and it needs its own story rather than a paragraph in this one",
+        "tides, and the moon pulling the sea about — beautiful and true, but it is the age-8 treatment and it would have hijacked a story set beside the water",
+        "the Apollo landings and the real footprints in the dust — the footprint fact survived; the astronauts did not, because a rocket in this story would wake everybody up",
+        "the moon having no air to breathe — true, and it makes the moon somewhere you could not be, which is the wrong feeling for this hour"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "One segment in, while the fox is still on the bottom step and nothing can be hurried. Both options are ways of looking, neither moves the night along, and both leave Finn upstairs with the fox still waiting, so s3 can start down the stairs either way.",
+        "criteria": {
+          "more_interesting": "one branch is a road of light on the water that follows you along the gallery; the other is the moon itself, close up and full of holes",
+          "more_engaging": "walking about to see whether the moonlight follows you is something a child can try tonight, and looking through a spyglass is something every child wants a turn at",
+          "reveals_taste": "staying at the window is gentle; fetching the spyglass down and hunting the moon with it is bold",
+          "reveals_curiosity": "water is just-experience; spyglass is how-it-works, the child who wants to know what the moon is actually like",
+          "reflects_mood": "the water branch is slow and floating; the spyglass branch is a little more awake and has a fact to chew on"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "At the closest the fox ever comes, when Finn has one small thing he can offer her. Splitting here means the child chooses what is given, and both gifts are returned in kind, so both endings land on a trade rather than a goodbye.",
+        "criteria": {
+          "more_interesting": "one ending is a tune and a fox who comes back every full moon for years; the other is a glowing shell carried off to a den and small gifts appearing on a step",
+          "more_engaging": "humming to a wild animal and putting a present down for one are both irresistible, and children divide cleanly between them",
+          "reveals_taste": "humming is gentle and stays where it is; giving the shell means standing up and handing something over, which is bolder",
+          "reveals_curiosity": "hum is just-experience; shell is what-its-for, the child who wants to know what the fox did with it",
+          "reflects_mood": "the hum ending ends on four notes and a blanket; the shell ending ends with something real in the listener's hand"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Quiet-hour beats present: the frame and the place established before the memory starts, one small strange arrival (a fox that came to look at the moon, not at us), and one image left glowing at the end. Nothing that must be absent is present: no problem, no villain, no peril, nobody lost, nothing broken. Braid correct — c1 rejoins at s3 from either branch, c2 splits into two endings, both next null. Slot check: cat_name is asked before s1 and used in s1, s2a, s2b, s3 and s4a, and s4b is the one segment without her, which reads fine because Finn is holding out his own hand there. The topic node carries no avoid list at this age; the story still keeps every frightening reading of a night shore off the page. Say-words water and spyglass, hum and shell are short and unalike."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts: s1 184, s2a 178, s2b 185, s3 189, s4a 178, s4b 176, against a 200 ceiling with no minimum. Paths run 727 to 736 words, against 667 to 671 in v1. This is the one story in the family that got longer rather than shorter, and the reason is recorded rather than hidden: v1 had no opening frame at all, so the priming v2.1 asks for in the first stretch had to be paid for in words. Every segment carries speech and the dialogue-or-action share measures 62 to 83 per cent, averaging 69 against v1's 55. Sentence-length spread is 5.2 to 5.9 per segment with no run of four near-identical sentences, against a v1 mean of 4.11. No abstract mood words: v1's 'the quietest, fullest moment of my whole life' and 'warm as a lamp' are both gone."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end at 727 to 736 words each. The rejoin holds because both branches leave Finn upstairs with the fox still on the bottom step, and s3 opens by starting down the stairs. Warmth owns both landings, and both end on Finn's voice with something small handed over — four hummed notes, or a pebble to keep beside you. The moon motif closes both: it walks you home and sits up to keep watch, or it finds the pebble through the window. Banned-language sweep clean, and the craft audit reports zero blocking findings."
+      }
+    ],
+    "craft_changes": [
+      "The opening now primes before the memory begins. v1 opened with a paragraph of biography about where Old Finn lived and what he did every evening; we are now on the bench between him and the sea, holding a cup, with the lighthouse light going round overhead and the moon coming up out of the water, and only then does he start talking.",
+      "Both choice questions are spoken by Finn and he is doing something while he asks: stopping his cup halfway up at c1, setting it down on the boards at c2. v1 had a narrator asking 'What should he look at?' and 'What should the keeper share with the fox?', which is the weakest of the three ways to pose a choice.",
+      "Cut: 'It was the quietest, fullest moment of my whole life', 'warm as a lamp', 'like a friendly light keeping watch', 'I wondered what a fox thinks about, watching craters she can never touch', the tour of the winding cliff path, and the line explaining that the moonlight would keep watch till morning, which said the ending twice.",
+      "One motif grown rather than replaced: the moon keeps you company. Finn's mother says it walks beside you (s2a), it waits in every window of the spiral stair (s3), and at the end it either walks you home and sits up to keep watch (s4a) or finds the pebble through your window (s4b). In v1 the following-moon idea appeared once in s2a and was never used again.",
+      "Similes rebuilt from a child's own day: a moon sitting on the water like a coin on a table, craters like the hollows a teaspoon leaves in a tub of ice cream, a cat warm as a bun in a paper bag, feet on stone soft as rain starting, a shell smooth as soap, ears like two soft cups. v1's 'like cups pressed into bread dough' was swapped for the ice cream because the dough image already belongs to the volcanoes story on the same shelf.",
+      "Safety as competence, once, in the shared segment so every path gets it exactly once: Finn does not go down onto the rocks, because they stay wet all night and three steps up is the best seat anyway. A reason and a better vantage point, no warning, no fear, and the beat carries no tension at all.",
+      "The cat now does something in every segment she appears in — hops onto the sill, pushes her head into a sleeve, gets lifted up to the spyglass, comes out and sits with her tail round her toes, purrs in time with the waves. In v1 she was mostly mentioned.",
+      "Rhythm now alternates. 'Oh. What a thing to see.' and 'Tap. Tap.' and 'Then the other.' and 'Nobody moved.' and 'Twice.' land immediately after the longest sentence in their segment; the measured sentence-length spread rose from 4.11 to 5.62, the largest rhythm gain of the three rewrites in this batch.",
+      "The last line belongs to Finn on both endings, and something small comes home either way: four notes of the tune hummed out loud for us, or the grey pebble put into our hand to keep beside us."
+    ],
+    "writers_notes": [
+      "The fox never gets a name and never becomes tame. She looks at the moon rather than at us, comes up exactly two steps, sniffs the air above the lantern rather than the lantern, and leaves on her own. Everything she does is something a real fox might do.",
+      "The footprint fact was kept and the astronauts were cut. A child hears that a footprint on the moon stays as it was made, without a rocket arriving in the middle of the quiet.",
+      "The hum in s4a is now actually hummed inside the frame — Finn gives us four notes of it and stops. That was the one place the story could hand the listener something to hear rather than imagine.",
+      "This is the only pilot story with no tone accent, and the rewrite protected that hard. There is no joke anywhere in it, including in the cat beats, where one would have been easy.",
+      "Open question for the psychologist: the whole plot is a fox climbing two steps. If a five-year-old needs more than that, the problem is the quiet_hour pattern rather than this text — the same question the sea turtles story raises."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text, alongside the volcanoes family rewrites; the v1 file carried no build record, so this record is new",
+    "revision_of": {
+      "story_id": "story.the_moon.quiet_hour_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe (cozy with no accent), spine, cast, setting, the six-segment braid, both choice positions and their rejoin/split marks, the cat_name slot, the say-words water/spyglass and hum/shell, and which option carries which tone and curiosity lean. Only the prose, the choice-question voices and the option labels changed.",
+      "why": "v1 was written under a 150-200 word quota with no opening rule, a narrator asking both choice questions, and adult mood words allowed. This is the craft pass under prompt v2.1."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

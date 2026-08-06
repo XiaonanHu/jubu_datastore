@@ -1,0 +1,144 @@
+axis: knowledge_domain
+pack: arts_and_music
+nodes:
+  - id: knowledge_domain.musical_instruments
+    axis: knowledge_domain
+    label: musical_instruments
+    display_name: "Musical Instruments"
+    region: arts_and_music
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "bang, pluck, and blow; the drum, the guitar, and the flute", vocabulary: [drum, flute, guitar]}
+      6: {depth: sensory, framing: "loud and soft, high and low; trying out sounds from instruments around the world", vocabulary: [piano, violin, trumpet]}
+      7: {depth: mechanism, framing: "how instruments make sound; strings that shake and air that buzzes", vocabulary: [vibration, string, reed]}
+      8: {depth: mechanism, framing: "instrument families in an orchestra; strings, woodwinds, brass, and percussion", vocabulary: [orchestra, percussion, brass]}
+      9: {depth: system, framing: "how a hundred players sound like one; the conductor, the sheet music, and tuning up together", vocabulary: [conductor, sheet music, harmony]}
+      10: {depth: system, framing: "instruments across cultures; what the sitar, the kora, and the taiko drum share", vocabulary: [sitar, taiko, acoustics]}
+    edges:
+      adjacent: [knowledge_domain.sound_and_echoes, knowledge_domain.dance_around_the_world, knowledge_domain.festivals_around_the_world]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.colors_and_mixing
+    axis: knowledge_domain
+    label: colors_and_mixing
+    display_name: "Colors and Mixing"
+    region: arts_and_music
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "red and yellow make orange; mixing paints to discover new colors", vocabulary: [red, mix, orange]}
+      6: {depth: sensory, framing: "light colors and dark colors; adding white or black to change how a color feels", vocabulary: [shade, tint, bright]}
+      7: {depth: mechanism, framing: "why mixing works; primary colors and finding your way around the color wheel", vocabulary: [primary color, color wheel, blend]}
+      8: {depth: mechanism, framing: "paint versus light; why screens mix colors differently than paintbrushes do", vocabulary: [pigment, spectrum, hue]}
+    edges:
+      adjacent: [knowledge_domain.light_and_shadows, knowledge_domain.drawing_and_animation, knowledge_domain.flowers_and_pollination]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.dance_around_the_world
+    axis: knowledge_domain
+    label: dance_around_the_world
+    display_name: "Dance Around the World"
+    region: arts_and_music
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "stomp, spin, and clap; music that tells your feet to move", vocabulary: [dance, spin, clap]}
+      6: {depth: sensory, framing: "dances from many lands; dragon dances, hula, and holding hands in a circle", vocabulary: [hula, folk dance, rhythm]}
+      7: {depth: mechanism, framing: "how dancers learn a dance; counting beats, patterns of steps, and lots of practice", vocabulary: [beat, step, choreography]}
+      8: {depth: mechanism, framing: "how a dance tells a story without words; gestures, costumes, and the music underneath", vocabulary: [ballet, gesture, costume]}
+      9: {depth: system, framing: "why people dance; celebration, remembering, and passing traditions from old to young", vocabulary: [tradition, ceremony, heritage]}
+      10: {depth: system, framing: "how dances travel and mix; hip-hop's journey from block parties to stages worldwide", vocabulary: [hip-hop, fusion, cultural exchange]}
+    edges:
+      adjacent: [knowledge_domain.musical_instruments, knowledge_domain.festivals_around_the_world, knowledge_domain.theater_and_pretending]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.drawing_and_animation
+    axis: knowledge_domain
+    label: drawing_and_animation
+    display_name: "Drawing and Animation"
+    region: arts_and_music
+    age_bands: ["7-8", "9-10", "11-12"]
+    age_treatments:
+      7: {depth: mechanism, framing: "making pictures move; flipbooks where your drawings come alive", vocabulary: [flipbook, sketch, frame]}
+      8: {depth: mechanism, framing: "one second of cartoon takes a pile of drawings; frames, timing, and the trick of motion", vocabulary: [cartoon, animation, motion]}
+      9: {depth: system, framing: "from first sketch to the screen; storyboards, character designs, and a studio full of jobs", vocabulary: [storyboard, animator, character design]}
+      10: {depth: system, framing: "how computers joined the drawing table; digital animation, stop motion, and mixing the old with the new", vocabulary: [computer animation, stop motion, render]}
+      11: {depth: system, framing: "an animation pipeline up close; keyframes and in-betweens, and why timing makes twelve drawings feel smoother than twenty-four", vocabulary: [keyframe, in-between, timing]}
+      12: {depth: system, framing: "style as a set of choices; the line, color, and movement rules a whole team follows so one film feels drawn by a single hand", vocabulary: [style guide, palette, motion]}
+    edges:
+      adjacent: [knowledge_domain.colors_and_mixing, knowledge_domain.computers_and_code, knowledge_domain.light_and_shadows]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.clothes_and_fashion
+    axis: knowledge_domain
+    label: clothes_and_fashion
+    display_name: "Clothes and Fashion"
+    region: arts_and_music
+    age_bands: ["5-6", "7-8", "9-10", "11-12"]
+    age_treatments:
+      5: {depth: sensory, framing: "soft, scratchy, stripy, sparkly; dressing up and choosing what feels like you today", vocabulary: [dress up, pattern, sparkly], avoid: [appearance as worth, comparing bodies or looks]}
+      6: {depth: sensory, framing: "clothes with jobs to do; raincoats, aprons, helmets, and costumes for pretending", vocabulary: [costume, uniform, fabric], avoid: [appearance as worth, comparing bodies or looks]}
+      7: {depth: mechanism, framing: "how clothes get made; thread spun into cloth, cloth cut from a paper pattern, and sewn into something you can wear", vocabulary: [thread, weave, sew], avoid: [appearance as worth, comparing bodies or looks]}
+      8: {depth: mechanism, framing: "face paint and stage makeup as costume for your face; turning an actor into a lion, a robot, or a hundred-year-old sailor", vocabulary: [stage makeup, face paint, transform], avoid: [appearance as worth, comparing bodies or looks, makeup as fixing your face]}
+      9: {depth: system, framing: "why people dress differently across the world and across time; kimonos, kilts, saris, and what an outfit can celebrate", vocabulary: [tradition, sari, style], avoid: [appearance as worth, comparing bodies or looks, ranking cultures]}
+      10: {depth: system, framing: "inside a designer's sketchbook; drawing an idea, choosing fabrics, and fitting a garment on a real moving person", vocabulary: [designer, sketch, garment], avoid: [appearance as worth, comparing bodies or looks, brand or price status]}
+      11: {depth: system, framing: "fashion as a chain of hands; who grows the cotton, who dyes it, who sews it, and choosing clothes made to last", vocabulary: [textile, dye, durable], avoid: [appearance as worth, comparing bodies or looks, brand or price status]}
+      12: {depth: system, framing: "costume design tells a story before anyone speaks; how designers use color, shape, and wear-and-tear to say who a character is", vocabulary: [costume design, silhouette, character], avoid: [appearance as worth, comparing bodies or looks, brand or price status]}
+    edges:
+      adjacent: [knowledge_domain.dance_around_the_world, knowledge_domain.theater_and_pretending, knowledge_domain.drawing_and_animation]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: "Covers the fashion + makeup parent requests. Makeup is framed strictly as costume and transformation (stage makeup, face paint), never as appearance improvement."
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.theater_and_pretending
+    axis: knowledge_domain
+    label: theater_and_pretending
+    display_name: "Theater and Pretending"
+    region: arts_and_music
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "let's pretend; dressing up and becoming a pirate or a dragon", vocabulary: [pretend, costume, stage]}
+      6: {depth: sensory, framing: "putting on a show; puppets, props, and taking a big bow", vocabulary: [puppet, prop, audience]}
+      7: {depth: mechanism, framing: "how a play comes together; scripts, rehearsals, and remembering your lines", vocabulary: [script, rehearsal, actor]}
+      8: {depth: mechanism, framing: "behind the curtain; sets, spotlights, and sound effects that make the magic", vocabulary: [set, spotlight, sound effect]}
+    edges:
+      adjacent: [knowledge_domain.dance_around_the_world, knowledge_domain.musical_instruments, knowledge_domain.drawing_and_animation]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

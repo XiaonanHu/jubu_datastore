@@ -1,0 +1,321 @@
+{
+  "id": "story.magnets.age5to6.d1.authored.588f73",
+  "title": "The Case of the Scooting Spoons",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.magnets",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We follow clues from scooting spoons and sticky robot boots until we find the hidden magnet whose pull reaches right through the counter.",
+  "slots": {
+    "robot_name": {
+      "role": "the little wind-up tin robot companion the child names",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Beep"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Three spoons,\" says Grandma. \"One each. Middle of the counter.\"\nWe are at Grandma's, laying the table for lunch, and her counter is so high we have to go up on our toes. We put the three shiny spoons in a row. Then we go for the napkins.\nScrape. Scrape.\nWe turn round. All three spoons have slid away down the counter into the same corner, by the big drawer, and they are lying there nose to nose.\nWe carry them back to the middle. Down go our chins on the cold counter to watch them.\nSlowly, slowly, the spoons scoot back to the corner.\n\"Grandma,\" we say. \"Your spoons are going somewhere.\"\nGrandma says spoons do not go anywhere, and goes on stirring the soup.\nSo we wind up our little tin robot {robot_name} and stand him on the counter. Click, clack, click, clack. Then his boots reach that corner and stop dead. He waves both arms about. He cannot lift a foot.\n\"Bzzt,\" says {robot_name}.\nSomething in that corner is pulling.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Spoons first,\" we say.\nWe go round the kitchen and collect every spoon there is. The shiny metal one goes down in the middle of the counter. Scoot, scoot, scoot. Off it goes to the corner and lands with a tiny click.\n\"Wooden one next,\" we say, and down goes Grandma's big spoon, the one she stirs the soup with. We wait. We wait a bit longer. It lies there like a dropped sock.\nThen we stand the bendy plastic spoon from our picnic box in the same spot. Nothing. Not one wobble.\n\"It is picky,\" we say.\n{robot_name} taps his own tin head, which is what he does instead of thinking.\nOne more test. We hold one finger out over the corner and keep it there, right where every spoon stops.\nNo tug. No tickle. Nothing at all.\n\"It does not want fingers,\" we say. \"It wants shiny metal, and it wants it hard.\"\nWe cannot see it. But now we know what it likes.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Boots,\" we say. \"Follow the boots.\"\nWe wind {robot_name} up and stand him at the far end of the counter. Click, clack, click, clack. Off he goes, happy as anything.\nThen he comes near the corner and his boots swerve. He did not turn. His feet turned for him. He does a wobbly dance on the spot and sticks fast.\n\"Bzzt,\" says {robot_name}, which means come and get me.\nWe pick him up and start him again from the other side. Near the corner, grabbed. Far away, nothing.\nSo we lay him flat in our hand and slide him slowly across, like a little sled, and this time we feel it ourselves. A soft strong tug, right through our fingers. It is the tug the fridge door gives when it takes the last bit shut all by itself.\nWe look at the counter. Bare wood. Nothing on it at all.\n\"It is not up here,\" we say. \"It is underneath.\"\nSomething under there is reaching up through the wood.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The corner. The big drawer under it.\n\"Go on, then,\" says Grandma, kneeling down beside us. \"Hold the handle and pull straight. Then it comes out slowly and nothing tips over.\"\nSo we pull straight, and the drawer slides open. Rubber bands. Birthday candles. A ball of string. And stuck to the shiny metal rail along the inside, holding on with both of its ends, a big red horseshoe magnet.\n\"That!\" says Grandma. \"That has been lost since Easter.\"\nShe puts it into our hands. It is heavier than it looks. We bring one spoon slowly towards it, and the last little bit the spoon does by itself. Tug! It clacks on.\n\"A magnet attracts anything with iron in it,\" says Grandma. \"Spoons, yes. Robot boots, oh yes. Not wood, though, and not plastic, and not one single finger.\"\nShut in that drawer, it was pulling straight up through the counter, the way the smell of toast comes up through a whole house.\nThat is why the spoons scooted. That is why the boots stuck.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Grandma ties the ball of string onto the magnet. We take the big wooden spoon for a rod, because the magnet will never once grab that.\nThe three metal spoons go out on the kitchen rug. Those are the fish.\nWe swing the magnet down low over them. Lower. Lower.\nTug! A spoon comes up off the rug and clacks on.\n\"One,\" says Grandma.\nWe catch the second. We catch the third. Then {robot_name} waddles over and stands right underneath the magnet with both arms up.\n\"Bzzt,\" he says, which means me next.\nUp he swings, boots first, buzzing his giggly buzz. We lower him gently back onto the rug, and he comes round and asks again.\nGrandma brings the cookies over and sits down on the rug with us, and we hold the magnet above one cookie, just to be sure. Cookies have no iron in them. Cookies stay put.\n\"Three spoons and a robot,\" says Grandma. \"Nobody has ever fished this kitchen better.\"\nWe leave the string tied on. Tomorrow the rug will be full of fish again.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"A pull that strong needs a job,\" we say.\nWe carry the magnet across the kitchen, and before we even get there it jumps out of our hand and lands on the fridge door. Thunk. Under all that white paint, the fridge is metal too.\n{robot_name} salutes it with one tin arm.\nGrandma digs out our drawing from yesterday, the one with the purple dinosaur. We slide the paper under the magnet and let go. The magnet holds it flat against the door, like a thumb that never gets tired. It is pulling straight through the paper, the way it pulled straight up through the counter.\nThe shopping list goes up next. Then the photo of us in our rain boots.\n\"That is my whole kitchen sorted,\" says Grandma.\nBefore dinner we go back to the corner where it all started. We put a spoon down, get our chins on the counter, and watch.\nIt does not move. Not one scrape.\nOur magnet has better things to do now. It is holding a purple dinosaur, and it will still be holding it in the morning.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two clues, then,\" says Grandma, wiping her hands. \"You can put things down on that counter and see which ones run away. Or you can send that robot in again and follow his boots. Spoons, or boots?\"",
+      "options": [
+        {
+          "say_word": "spoons",
+          "label": "Put things down and see which ones run away",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "boots",
+          "label": "Send the robot in again and follow his boots",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Well, it is yours until dinner,\" says Grandma. \"You could tie it on that string and go fishing on the rug. Or you could give it a proper job on the fridge door. Fishing, or helper?\"",
+      "options": [
+        {
+          "say_word": "fishing",
+          "label": "Tie the magnet on the string and fish the rug",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "helper",
+          "label": "Give the magnet a job on the fridge door",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.magnets",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "how_things_work shelf; the robots pilot story shares the tin-robot idea but nothing else"
+    },
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "A magnet hidden under a counter is the one piece of kitchen science that behaves exactly like a culprit: it acts at a distance, it leaves clues a five-year-old can see from chin height, and it is genuinely invisible until somebody opens the right drawer. The question asks itself the moment a spoon moves on its own, and the clues stack in the right order: which things it wants, where the pull comes from, what it is.",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.2,
+          "final_weight": 0.31,
+          "sampled": true
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.21,
+          "sampled": true,
+          "rejected_because": "building a fishing game or a fridge robot is a good half-hour, but it starts from knowing what a magnet is, and the whole pleasure at five is not knowing yet; the build survives as one of the two endings instead"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.6,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": true,
+          "rejected_because": "the honest journey here is shrinking down to travel along a magnetic field, which is the age-7 mechanism treatment wearing a costume, and it throws away the best thing this topic owns: it happens on a real counter in a real kitchen"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": "everything metal in the house flying to one magnet is funny for one page and then there is no question left to answer"
+        }
+      ],
+      "backup": "make_and_build"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the wind-up tin robot. Every light beat belongs to him: boots stopping dead in mid-waddle, the wobbly stuck dance, tapping his own head instead of thinking, saluting the fridge, and queueing up to be caught on the fishing line. The spoons, the drawer and the moment the magnet is named stay in straight wonder with no jokes in them.",
+      "why": "An invisible pull that reaches through solid wood deserves to be astonishing, so wonder leads. The silly accent has one job: to keep a machine that grabs things reading as friendly rather than spooky, and a tin robot who gets caught by his own boots does that better than any line of reassurance.",
+      "rejected": [
+        {
+          "recipe": "silly dominant with a curious_wonder accent",
+          "because": "if the whole kitchen is funny then the magnet is just another gag, and the reveal in the drawer needs a beat where nobody is being funny"
+        },
+        {
+          "recipe": "crazy_inventor dominant with a silly accent",
+          "because": "that is the recipe of the robots story on the same shelf, and an inventor tone would push this toward building things instead of noticing things"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The clue that matters most is felt rather than seen: the tug coming up through your own fingers as you slide the robot across the counter. 'We' puts the child's hand on the counter for that. It also keeps a grown-up in the room without making the story hers.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "the bees story already gives the named-hero treatment to a mystery at this age, and a hero we watch cannot hand the listener the tug through the fingers"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered afternoon puts the spoons in the past tense, and a mystery wants the clue lying on the counter right now"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No condition for including a value lesson is met. The materials produced no natural value angle, this is a library story with no parent value picks attached, and there is no interpersonal moment to hang one on. Grandma's line about the drawer handle is competence, not virtue, and reading it as good behaviour would turn the one safety beat into a lesson."
+    },
+    "cast": [
+      {
+        "role": "the little wind-up tin robot",
+        "reused": false,
+        "reused_from": null,
+        "slot": "robot_name",
+        "why": "Kept from the v1 text, where he was already the accent carrier. He earns his place twice over: his metal boots are the second clue, and he is the one who can be picked up and slid across the counter as an instrument. Named by slot, so a child's own name for him can walk into any later how_things_work story."
+      },
+      {
+        "role": "Grandma, in her own kitchen",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Kept from the v1 text and given far more to do in the rewrite: she sets the table task that starts the story, she asks both choice questions, she names the word attracts, and she carries the one competence beat. A grown-up who is unbothered by the thing under the counter is the whole safety argument made without a sentence about safety."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: a magnet pulls things that have iron in them, and ignores wood, plastic and skin",
+        "wonder-fact: a magnet does not have to touch a thing to pull it, and the pull passes straight through wood and paper",
+        "wonder-fact: a fridge door is steel under the paint, which is why fridge magnets work at all",
+        "wonder-fact: the closer a magnet gets, the harder the pull, so the last little gap is crossed by the spoon itself",
+        "sensory picture: three spoons lying nose to nose in the same corner of a counter",
+        "sensory picture: a wind-up robot's boots swerving before he does",
+        "sensory picture: the tug felt through your own fingers as a metal toy crosses a hidden magnet",
+        "setting: a grandmother's kitchen, a high counter, a junk drawer with a metal rail"
+      ],
+      "gathered_but_unused": [
+        "two poles, and how one end grabs while the other pushes away: this is the age-6 treatment and it is a second mechanism; putting it beside the iron rule would blur both",
+        "the word magnetic field: the age-7 vocabulary, and unnecessary here because the pull can simply be felt",
+        "a compass needle finding north, and the Earth as a giant magnet: the age-8 treatment, saved whole",
+        "electromagnets you can switch off: age 9, and it needs electricity, which this story deliberately never touches",
+        "which metals are not magnetic, such as aluminium foil and copper coins: true and tempting, but it turns a clean rule into an exception list at five",
+        "magnets in speakers and motors: the age-10 system material"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "One segment in, at the moment both clues are lying in plain sight and Grandma has finally looked up. Both branches investigate the same corner and neither invents anything s3 needs, so s3 opens at the drawer whichever was chosen. Both branches also close on the same shape: we still cannot see it, but we know one true thing about it.",
+        "criteria": {
+          "more_interesting": "one branch is a line-up of test objects and a rule emerging; the other is a robot being steered into the pull twice and then a hand feeling the tug for itself. Sorting against handling.",
+          "more_engaging": "putting things down to see what happens and driving a toy into the trap are both things a five-year-old does on a real counter without being asked",
+          "reveals_taste": "the spoon tests are bold and experimental, the child taking charge of the counter; following the robot is gentler, and it is about rescuing him as much as testing him",
+          "reveals_curiosity": "spoons is how-it-works, the rule about which things it wants; boots is just-experience, the swerve and the wobble and the tug in the fingers",
+          "reflects_mood": "the spoons branch is orderly and patient; the boots branch has slapstick in it and a robot who needs picking up"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "Right after the answer is spoken and the magnet is in our hands, at the only moment in the story with a whole afternoon in front of it. Splitting here means the child chooses what a new true fact is for: play, or work. Both endings use the same science, the pull reaching through something, so no path leaves without it.",
+        "criteria": {
+          "more_interesting": "s4a is a fishing rod over a rug and a robot queueing to be caught; s4b is the biggest metal thing in the house and a drawing that stays up. Game against job.",
+          "more_engaging": "catching things on a string and sticking your own drawing on the fridge are both immediately doable, and children split cleanly between them",
+          "reveals_taste": "fishing is bold and noisy, on the floor, with cookies; the fridge job is gentle and tidy and ends with the kitchen calm",
+          "reveals_curiosity": "fishing is just-experience, the clack and the swing; helper is what-its-for, the point of a pull that never lets go",
+          "reflects_mood": "the fishing ending is a game still going at bedtime; the helper ending returns to the corner, finds it quiet, and settles the house"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Six segments, two choice points, wired s1 to c1 to s2a or s2b to s3 to c2 to s4a or s4b, both endings next null. c1 rejoins and both branches converge on s3, which the explorer validator confirms. s3 depends on nothing either branch invented: the corner, the drawer, Grandma and the robot are all established in s1. The knowledge_domain.magnets node carries no avoid list at 5-6, so the general age-5 rules govern: no electricity anywhere in the story, no shock, nothing swallowed, no small magnets loose, nothing pinched, no peril. Say-words spoons and boots, fishing and helper: one or two syllables, no shared onset or rhyme inside a pair. Slot robot_name appears in five of six segments."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts against the 200 ceiling for 5-6: s1 173, s2a 166, s2b 169, s3 175, s4a 180, s4b 185. Paths measure 694 words for spoons plus fishing, 699 for spoons plus helper, 697 for boots plus fishing and 702 for boots plus helper, all at or under the 700 the age table allows for one path. Every segment carries at least one spoken line, and speech or physical action runs from 48 to 74 per cent of sentences, 56 per cent across the story. Sentence-length spread runs 5.1 to 6.2 in the six segments, with one-word and two-word sentences (Scrape. Scrape. Lower. Thunk. Tug!) set against sentences of twenty-five. No abstract mood words anywhere. Every object introduced is used: the ball of string in the drawer becomes the fishing line, the wooden spoon tested in s2a becomes the rod that a magnet cannot grab, the fridge-door tug in s2b is paid off on the fridge door in s4b, and the corner that started it is revisited at the end of s4b."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches end pointing under the counter with one true thing learned, and s3 opens on the corner and the drawer without a seam. The motif runs the same on every path: something in that corner is pulling, a soft strong tug through the fingers, tug as the spoon crosses the last gap, and the pull given a job or a game at the end. The competence beat happens exactly once per path, in s3, spoken by Grandma as positioning with a reason attached and no caution in it. Banned-language sweep clean: no assessment, mastery, score, milestone, is or are behind, ahead of, delayed, gifted, grade level. No ellipses, asterisks, parentheses or emojis anywhere, and no stage directions. Grandma is never made to explain twice, and the narrator never addresses the listener."
+      }
+    ],
+    "writers_notes": [
+      "The robot never speaks in words, only in buzzes that we translate. That keeps him a machine, which is the point of him, and it means his one clue, the boots, stays physical rather than reported.",
+      "Grandma disbelieving the spoons in s1 is doing structural work: it makes the mystery ours to prove, and it earns her turning round with two clues at the choice point.",
+      "The story states the iron rule and stops there. It does not mention that some metals are not magnetic, because a five-year-old with a magnet and a coin will find that out with their hands, and a story that opens the exception list has to close it.",
+      "Electricity is absent on purpose. Magnets and electricity are adjacent nodes and every adult explanation reaches for the link; at five it introduces a hazard the story has no use for.",
+      "The one competence beat is about a drawer, not about the magnet, because the magnet in this story is a big red horseshoe nobody could swallow. A small-magnet line would have had to invent a hazard in order to be safe about it."
+    ],
+    "craft_changes": [
+      "Opening now primes before the pull arrives, per rule 3: we are at Grandma's laying the table, the counter is too high for us, and the spoons move while our back is turned. v1 opened on the narrator announcing that something funny was happening.",
+      "Six segments had no spoken line at all in v1; every segment now carries voices. Grandma speaks in four of them, we speak in five, and the robot buzzes in three.",
+      "Both choice questions are now spoken by Grandma in her own voice, with the two say-words in her mouth. v1 had the narrator ask both.",
+      "Cut: the whole opening line about something funny happening, 'How strange and wonderful', 'Every good mystery needs a plan', the summary sentence 'Mystery solved!', the restatement of Grandma's explanation in our own voice, the proud beep-beep dance 'a safe step away this time', and the closing moral 'Invisible pulls are real'.",
+      "Cut the second comic bit per beat: the confused buzz plus arm-waving plus head-tapping in s1 became one stuck robot with two waving arms, and s4a lost the boat-horn beep so the giggly buzz could land.",
+      "New similes, all from a five-year-old's own day and each used once: a plastic spoon lying there like a dropped sock, the tug the fridge door gives when it takes the last bit shut by itself, the smell of toast coming up through a whole house, a thumb that never gets tired.",
+      "One motif, developed rather than replaced: the pull you cannot see. It runs from 'something in that corner is pulling' through the tug felt in our own fingers, to the spoon crossing the last little gap by itself, to the same pull holding a drawing on a fridge door.",
+      "Sentence rhythm now rises and falls: one-word and two-word sentences (Scrape. Scrape. Lower. Thunk. That!) land after long flowing ones, where v1 ran at a steady eight to ten words for whole segments.",
+      "Real-place safety as competence, once and lightly, in s3: 'Hold the handle and pull straight. Then it comes out slowly and nothing tips over.' A reason, not a rule, spoken by a grown-up who is already kneeling down beside us, and no beat in the story says anything could hurt anybody.",
+      "The finger test in s2a was kept but rewritten as a real experiment with a result, not as reassurance: no tug, no tickle, nothing at all. It is a clue about iron, not a promise about safety.",
+      "Length came down from 709 words on the longest v1 path to 702, and the words that stayed changed job: roughly a third of every segment is now speech, and every description left standing invites, involves, advances or ignites.",
+      "Cut on the trimming pass, after the craft audit: the robot waddling past the sugar bowl (narrated travel), the bread bin nobody uses, 'The same thing happens' before the evidence that shows it, 'And it never has to touch a thing' where the toast sentence already says it, and the fishing rod being stood in the corner at the end."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text, from the knowledge_domain.magnets age-5 and age-6 treatments. The v1 file carried no build_record, so the design fields here are written down for the first time from the story as it stands.",
+    "prompt_version": "segment_writing_v2.1",
+    "revision_of": {
+      "story_id": "story.magnets.mystery_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe, spine, title, the six-segment braid, both choice positions and their rejoin and split marks, the slot, the say-words spoons/boots and fishing/helper, the tone and curiosity leans on all four options, and the premise, cast and kitchen setting. Only the prose craft, the option labels and who speaks the choice questions changed.",
+      "why": "The v1 text was written under the archived prompt, whose known failures show up here in concentrated form: no opening priming, no spoken lines in any of the six segments, narrator-asked choices, and a flat eight-to-ten-word sentence rhythm throughout."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

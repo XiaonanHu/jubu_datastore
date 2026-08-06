@@ -1,0 +1,302 @@
+{
+  "id": "story.sound_and_echoes.age9to10.d1.pregen.fcc6c8",
+  "title": "The Echo Voyage",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sound_and_echoes",
+    "sel_theme": null,
+    "value_lesson": "Listening carefully can show us things that looking cannot",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "We travel from a bat cave to the deep ocean floor, following sound as it reveals what eyes cannot see.",
+  "slots": {
+    "submarine_name": {
+      "role": "The submarine we descend in",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Ping"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Quick,\" says Pip. \"They're waking up.\"\n\nWe are standing at the mouth of a limestone cave, and the dusk is coming down soft and grey around us. Pip is a bat researcher, which means she spends her evenings listening to sounds most people never hear. She has a microphone in one hand and a little speaker in the other, and she is grinning like someone who knows a secret.\n\n\"Look up,\" she whispers.\n\nShe clicks on a red torch and points it at the cave ceiling. The light is dim and rosy, and it does not bother the bats. Hundreds of them hang upside down up there, folded into their wings like little parcels. Some of them are starting to wiggle.\n\n\"They sleep all day,\" Pip says. \"And when it gets dark, they fly out to catch moths and mosquitoes. But here is the amazing part. They do it in complete darkness. They see with sound.\"\n\nWe stare at her. \"With sound?\" we ask.\n\n\"With sound.\" She bounces on her toes. \"It's called echolocation. A bat shouts, and the shout bounces off a moth, and the echo comes back and tells the bat exactly where that moth is. The shouts are too high for our ears. That highness is called frequency. Bat calls are such high frequency that we cannot hear them at all.\"\n\nThen she lifts the microphone. \"But this can.\"\n\nA bat drops from the ceiling and swoops past us into the night. Pip presses a button, and her speaker plays the bat's shout slowed right down, so our ears can catch it.\n\n\"Chip! Chip-chip!\"\n\nIt sounds like a tiny, speedy bird. Pip laughs. \"That's him saying, where's dinner? Come on. Let's go listen properly.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The cave it is,\" says Pip. \"Stay close.\"\n\nWe follow her in, and the dark wraps around us like a blanket. Pip's red torch makes the stalactites glow dim and rosy above our heads. They hang down like stone icicles, slow-growing and patient.\n\n\"Now,\" Pip whispers, \"watch this.\"\n\nShe lifts her microphone. All around us, the cave fills with a sound like soft rain on leaves. It is the flutter of hundreds of wings. We cannot see the bats, but we can hear them everywhere.\n\n\"Listen to this,\" Pip says. She presses a button, and her speaker plays a bat's shout slowed down. \"Chip! Chip-chip-chip!\" Then, a moment later, a fainter echo: \"chip-chip.\"\n\n\"That echo tells the bat everything,\" Pip says. Her voice is quick and chirpy, like the bats themselves. \"How far away the wall is. Whether that flutter is a moth or a mosquito. A bat can catch an echo from something as thin as a human hair.\"\n\nWe stand very still. The air moves with wings we cannot see. A bat swoops close, and we feel the tiny wind of it on our cheeks.\n\n\"Their ears,\" Pip whispers, \"are like satellite dishes. They catch sounds we cannot even imagine.\"\n\nWe close our eyes. The cave is full of invisible music, and for a moment, we almost see it too.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"To the bay!\" says Pip. \"Quick, before they go!\"\n\nWe hurry down the path to a quiet cove where the water is grey and still. A woman in a yellow jacket is waiting by a small boat. This is Dr. Marina. She has a microphone on a long pole, and she lowers it gently into the dusk-dark water.\n\n\"Listen,\" she says.\n\nAt first, there is only the soft lap of waves. Then, from the speaker, comes a sound like a creaky door. \"Click-click-click.\" Then a whistle, long and sliding, like a flute.\n\n\"Dolphins,\" Dr. Marina says. \"They see with sound too. They send out clicks, and the echoes come back and paint a picture in their minds.\"\n\nWe watch the water. It is too murky to see anything below the surface. But the dolphins know exactly where everything is.\n\nA silver shape leaps. Then another. Dr. Marina points. \"That one just found a fish. Watch.\"\n\nA dolphin surfaces, ignores a grey rock, and dives after something we cannot see. A moment later, it comes up with a silver flash in its mouth.\n\n\"The rock gives one echo,\" Dr. Marina says. \"The fish gives another. The dolphin knows the difference.\"\n\nWe listen to the clicks and whistles, and the dark water seems full of secrets.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Pip listens to what we found, and her eyes go wide. \"That settles it,\" she says. \"You have to see this.\"\n\nShe hurries us down to the harbour, where a research ship floats dark and quiet on the night water. We climb aboard, and the deck hums under our feet.\n\nInside, the cabin is dim. One screen glows green, like a little patch of pond weed lit from below. A technician named Marisol sits in front of it, and she waves us over without taking her eyes off the light.\n\n\"Pip says you were out listening,\" Marisol says. \"What did you find?\"\n\nWe tell her, and she grins. \"Then you're ready for this. Watch.\"\n\nShe taps a key. From somewhere under the ship, a sound goes down into the black water.\n\nPing.\n\nWe wait. The green screen holds still.\n\nPing.\n\n\"That's sonar,\" Marisol says. \"The ship shouts, just like a bat. The shout travels down, hits the ocean floor, and the echo comes back up. The screen listens, and it draws what the echo saw.\"\n\nAnd it does. A bright line creeps across the green, bending and rising. It draws a hill. Then a valley. Then something tall, with a peak like a sleeping giant's shoulder.\n\n\"Down there, sunlight never reaches,\" Marisol says softly. \"Not ever. But sound doesn't need light. Sound sees in the dark.\"\n\nThe peak keeps growing on the screen. Pip leans in so close her nose nearly touches the glass.\n\n\"That mountain,\" she whispers, \"isn't on any map. Nobody has named it. Nobody even knew it was there.\"\n\nWe stare at the glowing green shape, a whole mountain drawn by a shout and its echo, rising out of water that has never once seen the sun.\n\nPing. The line moves on. The mountain stays.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"In we go,\" says Pip, and we climb down into {submarine_name}. It is snug inside, all round walls and little lights. Pip buckles in beside us, and her knee bounces against ours. The hatch shuts with a soft thunk.\n\nDown we slide, into water black as the inside of a pocket. Out the window there is nothing. Nothing at all. Then the pilot taps a key.\n\nPing.\n\nOn the screen, the canyon wall blooms green, close enough to touch. Ping. A ledge. Ping. A crack so deep the line just falls and falls.\n\n\"The canyon is deeper than any mountain is tall,\" the pilot says. \"And we are driving through it with our eyes closed. The pings are our eyes now.\"\n\nShe steers by the glowing map, slow and careful, the way you walk across a dark bedroom with your arms out. Ping. The wall swings away. Ping. Open water.\n\nThen the screen draws something that is not rock. Straight lines. A square edge. Things the sea does not make.\n\n\"Shipwreck,\" the pilot breathes. \"Three hundred years down here in the dark. Nobody has seen it since the day it sank.\"\n\nWe hold very still. The wreck sits on the green screen, drawn by sound, sleeping where it has always slept.\n\nOn the way up, Pip presses something small and cold into our hands. A shell, pale as porridge, from the canyon floor. \"Found it on an earlier dive,\" she says. \"Keep it.\"\n\nWhen we surface, the stars are out. We hold the shell to our ear, and it hums, soft and steady, like a far-off sea remembering itself.\n\n\"That's your echo now,\" Pip says. \"It goes where light can't. And it comes back.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Best seats in the house,\" says Marisol, and she pulls up chairs beside the glowing screen. The ship hums under us, sailing slow over water black as the space between stars.\n\nPing.\n\nWe watch the line crawl across the green. Ping. Each shout takes ages to come back, because the trench below is so deep the sound has a long, long way to fall.\n\n\"Every ping is the ship asking a question,\" Marisol says. \"And the dark answers. We just have to wait for it.\"\n\nSo we wait, all four of us, leaning toward the light. Pip's chin rests on our shoulder. The line bends, dips, and then shoots up into a peak with a crater at the top, like a bowl.\n\n\"That,\" Marisol whispers, \"is a volcano. An underwater one, sleeping at the bottom of the sea.\"\n\nPing. The line moves on, and draws something strange. Straight edges. A mast. The sea does not make straight edges.\n\n\"A shipwreck,\" Pip breathes. \"Ghost of the trench.\"\n\nAll night the map grows, line by glowing line, a whole hidden world drawn by shouts and echoes. We name the mountain together, the four of us, arguing happily, and Marisol types the name in so it stays.\n\nAt dawn the sky turns the colour of peach jam, and Marisol presses a button. A printer whirs. Out comes our map, the mountain and the volcano and the wreck, in green on white.\n\n\"A picture drawn by sound,\" she says, and rolls it up for us to carry home.\n\nWe hold it tight on the deck, in the new light. \"Nobody else has this,\" says Pip. \"Nobody else has ever heard this mountain.\"\n\n\"We have,\" we say. And we unroll it one more time, just to look.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Pip asks, \"Do you want to follow me into the deep cave to hear the bats up close, or shall we hurry to the bay to catch the dolphins before they swim out to sea?\"",
+      "options": [
+        {
+          "say_word": "Cave",
+          "label": "Follow Pip into the bat cave",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Bay",
+          "label": "Go to the bay for dolphins",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The sonar technician asks, \"Should we climb into the submarine and dive down into the canyon itself, or stay up here on deck and watch the sonar map the trench from above?\"",
+      "options": [
+        {
+          "say_word": "Dive",
+          "label": "Descend in the submarine",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "submarine_name": "The Ping"
+          }
+        },
+        {
+          "say_word": "Map",
+          "label": "Stay and watch the sonar map",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sound_and_echoes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 35
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's material naturally supports a journey pattern, as a child can travel alongside a bat or dolphin using sound to explore and map their world, encountering caves, the deep sea, and musical instruments along the way.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.26,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Pip the bat researcher, whose quick, chirpy excitement about high frequencies adds a light, bouncy energy",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Listening carefully can show us things that looking cannot",
+      "why": "The material naturally contrasts darkness with sound-based sight, making this value emerge from the journey itself"
+    },
+    "cast": [
+      {
+        "role": "Pip the bat researcher",
+        "reused": false,
+        "why": "Carries the accent with lively, rapid-fire wonder; introduces the concept of hearing the inaudible"
+      },
+      {
+        "role": "Dr. Marina the marine biologist",
+        "reused": false,
+        "why": "Guides the dolphin encounter and the transition to the sea; calm and knowledgeable"
+      },
+      {
+        "role": "Captain Sonar the submarine pilot",
+        "reused": false,
+        "why": "Steady, reassuring presence for the deep descent; shows competence in the dark"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Bats shout and listen in total darkness",
+        "Dolphins click to find fish in murky water",
+        "Sonar maps the ocean floor from a ship",
+        "Submarine descends into dark canyon",
+        "Bat ears like satellite dishes",
+        "Dolphin tells fish from rock by echo",
+        "Sonar reveals hidden mountains and shipwrecks",
+        "The deeper we go, the darker it gets, but sound keeps working"
+      ],
+      "gathered_but_unused": [
+        "Bats shout with their mouths and listen with their ears to find tiny insects in total darkness.",
+        "Dolphins make clicking sounds that travel through water and bounce off fish, telling the dolphin exactly where dinner is hiding.",
+        "Sonar on ships sends sound waves down to the ocean floor, and the echoes that return draw a map of mountains and valleys no eye has ever seen.",
+        "Some bats can hear echoes from something as thin as a human hair.",
+        "Dolphins can tell the difference between a fish and a rock just by listening to the echo that comes back.",
+        "The deep ocean is so dark that sunlight never reaches it, but sonar lets us see the floor by listening.",
+        "A bat's ears are shaped like satellite dishes to catch the faintest echo.",
+        "Sonar has mapped underwater volcanoes and shipwrecks that have been hidden for hundreds of years."
+      ]
+    },
+    "safety_beat": "In s2a, Pip shows us where to stand on the flat rock away from the drip line, demonstrating she knows the cave's safe spots without any warning or tension",
+    "motif": "A glowing screen or listening moment where sound paints a picture in the dark",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is warm, sonically alive, and built on the deep reassurance that sound can see what light cannot, with a companionable guide and a satisfying arc from bats to dolphins to a hidden mountain."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in",
+        "s2a": "a held breath, wrapped in dark",
+        "s2b": "alert and delighted, listening hard",
+        "s3": "awe rising like the green line",
+        "s4a": "hushed and brave, then tender",
+        "s4b": "satisfied and sleepy, holding the map"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.1); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.9)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.9)"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "36_sound_and_echoes_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

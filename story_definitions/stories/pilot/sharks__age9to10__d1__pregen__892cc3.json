@@ -1,0 +1,310 @@
+{
+  "id": "story.sharks.age9to10.d1.pregen.892cc3",
+  "title": "The Case of the Vanishing Bones",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sharks",
+    "sel_theme": null,
+    "value_lesson": "Patience with not knowing and careful looking beats loud guessing",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A young detective investigates how sharks could be older than dinosaurs when they left no bones behind.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The museum after closing time is a different place. The lights are low, the floors shine, and everything is very, very quiet. Dr. Amara, the paleontologist, walks with soft shoes and a softer voice, as if the whole building is asleep and she does not want to wake it. Beside her walks Riley, the detective she called in for a very strange case. \"This way,\" Dr. Amara whispers. They stop in front of a glass case taller than a door. Above it hangs the dark silhouette of an enormous shark, long as a bus, painted on the wall. Inside the case, on a bed of blue velvet, lie rows of teeth. Small ones. Big ones. All dark, all triangular, all shining under a single spotlight. \"Ancient shark teeth,\" says Dr. Amara. \"Older than the dinosaurs. Older than the mountains.\" Riley leans close. The glass fogs a little. \"So where is the rest of it?\" Dr. Amara smiles the way people smile when the mystery is about to begin. \"That,\" she says, \"is the case. Dinosaurs left bones everywhere. Legs like tree trunks. Skulls like bathtubs. But sharks?\" She taps the glass gently. \"Teeth. Only teeth. The whole skeleton... vanished.\" Riley looks at the painted shadow on the wall, then at the little dark teeth in the case. A body that big, gone. A smile left behind. \"Tell me everything,\" says the detective.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The teeth, please,\" Riley says. \"A good detective always checks the evidence first.\" Dr. Amara nods, her eyes twinkling like a kid sharing a secret. She pulls a small drawer from the cabinet. It slides open with a soft wooden sound. Inside, on a bed of dark velvet, sits a single tooth. It is small, dark, and triangular, with edges sharp enough to slice through time itself. \"This one,\" Dr. Amara whispers, \"is older than the mountain outside.\" She places it in Riley's palm. It is cool and hard, like a stone that has been sleeping for a million years. \"But here is the problem,\" Dr. Amara says. She reaches up and touches the tip of her own nose. \"Press here. Gently.\" Riley presses. The nose bends. It is soft. It is bendy. \"That,\" says Dr. Amara, \"is cartilage. The stuff that made up the ancient shark's whole body.\" Riley looks at the tooth, then at her own nose. The tooth is stone. The nose is soft. \"So the sharks didn't vanish,\" Riley says slowly. \"They just... left only their hardest parts behind.\" Dr. Amara smiles. \"Exactly. The ocean patrol has been swimming for four hundred million years. They simply don't bother with bones.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The timeline,\" Riley says. \"I want to see when.\" Dr. Amara's eyes light up. She reaches under the counter and pulls out a long, rolled scroll of thick paper. It is heavier than it looks. Together they carry it to the open floor, where the moonlight falls in silver squares through the tall windows. \"Now,\" Dr. Amara whispers, \"we unroll the past.\" The paper unfurls across the floor, longer than the rug, longer than the hallway. At the far left, almost at the edge of the world, are the first sharks. Then, much later, the dinosaurs appear, stomping through the middle. And way, way at the end, so close to the edge it makes you dizzy, are the humans. \"Look,\" says Dr. Amara. She places the small dark tooth right beside a dinosaur bone. The tooth is small, dark, and triangular, and it sits there like a stone that remembers the deep. Riley stares. The tooth is older. Much older. \"They were here first,\" Riley says. \"The sharks were swimming on their ocean patrol long before the dinosaurs even learned to walk.\" Dr. Amara nods. \"Ancient survivors,\" she says softly. \"They watched the mountains grow.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find?\" asks Dr. Amara, leaning in.\n\nRiley holds it out, and her eyes go wide. \"Oh,\" she whispers. \"This changes things. We need to see a living one. We need to see how a shark actually behaves.\"\n\nWhich is why, just before sunrise, they are standing on the deck of a small research boat, the sky turning the color of a pale peach. The sea is flat and gray-green, and the only sounds are the soft slap of water and the gulls arguing overhead.\n\nBeside them stands Dr. Reyes, a marine biologist with a thermos in one hand and a laptop in the other. \"We call this the ocean patrol,\" she says. \"We follow the sharks we've tagged and see where they go.\"\n\n\"There,\" says Dr. Reyes, pointing. \"Fin.\"\n\nA dark triangle slips through the water, smooth and unhurried. It passes the boat without a glance. The shark does not turn. It does not circle. It simply keeps going, as if they are not there at all.\n\n\"It's ignoring us,\" says Riley.\n\n\"It always does,\" says Dr. Reyes. \"That's the thing nobody tells you. Sharks are busy. They have somewhere to be.\"\n\nShe turns the laptop around. On the screen, a small dot moves along a glowing line, steady as a heartbeat. \"This shark has been swimming for three days without stopping. It doesn't sleep the way we do. It just keeps cruising.\"\n\nRiley watches the dot glide across the map, slow and sure, as if the ocean were a road and the shark knew every turn.\n\n\"Ancient,\" says Dr. Amara softly. \"That's how they've always been. Swimming. Patrolling. Not interested in us at all.\"\n\nRiley looks from the screen to the water, where the fin has already vanished into the gray-green distance.\n\n\"So the bones vanished,\" says Riley, \"but the shark didn't. It just kept going.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Riley taps the laptop screen. \"How does it work? The skin. The nose. Everything.\"\n\nDr. Reyes smiles and reaches into a bucket by her feet. \"I thought you'd ask.\" She pulls out a small square of grey leather, dried and stiff. \"Sharkskin. Preserved. Go on.\"\n\nRiley takes it. One way, it slides smooth, like the worn arm of a favourite sofa. The other way...\n\n\"Whoa.\"\n\n\"Sandpaper,\" says Dr. Reyes. \"Rub your hand the wrong way on a shark and you'd know about it.\"\n\nRiley turns the square over. \"Why would a shark need to be sandpaper?\"\n\n\"It doesn't,\" says Dr. Reyes. \"That's just what happens when you're covered in tiny teeth instead of scales.\"\n\n\"Tiny teeth?\"\n\n\"Everywhere. Even on its eyeballs.\"\n\nRiley stares at the little grey square. Even its skin is made of teeth. Even its skin is a weapon.\n\nDr. Reyes pulls out a folded diagram, a shark drawn in careful pencil, its snout dotted with small dark freckles. \"And these,\" she says, tapping the freckles, \"these are how it hears dinner from a mile away.\"\n\n\"Freckles?\"\n\n\"Sensing freckles. They feel the tiniest heartbeat in the water. A flounder hiding under sand. A fish with a limp.\"\n\nRiley looks from the diagram to the empty grey-green sea. The fin is long gone. But suddenly the water feels different. Fuller. Watched.\n\n\"So that's the answer,\" says Riley slowly. \"They never changed because they never had to. They were already perfect.\"\n\nDr. Amara nods, once, her eyes bright. \"Case closed,\" she whispers.\n\nRiley slips the sharkskin into a pocket. Small. Rough. Older than mountains.\n\n\"Ancient,\" says Riley. \"And still on patrol.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Riley points at the moving dot. \"Where is it going?\"\n\nDr. Reyes leans over the laptop and zooms in. The coastline appears, a pale curve, and along it, small blue shapes. Swimmers. Dozens of them, speckled along the beach like sprinkles on a cake.\n\n\"It's heading right for them,\" says Riley.\n\n\"Watch,\" says Dr. Reyes.\n\nThe dot glides closer. Closer. It passes the first blue shape. It does not stop. It passes the second. It does not turn. It slides along the whole dotted line of swimmers, steady as a tram on rails, and keeps going.\n\n\"It didn't even look,\" says Riley.\n\n\"It never does,\" says Dr. Reyes. \"Three days of tracking. It has passed swimmers, surfers, a very unfortunate beach ball, and one dog that fell off a paddleboard. It ignored all of them.\"\n\n\"What does it care about?\"\n\nDr. Reyes taps the screen. A smaller dot, orange, flickers far ahead. \"That. A school of mackerel, two miles north. It smelled them an hour ago.\"\n\nRiley watches the dark dot cruise on, unhurried, unbothered, the swimmers shrinking behind it. The shark has somewhere to be. The shark has always had somewhere to be.\n\n\"It swam past dinosaurs,\" says Dr. Amara softly. \"It swam past everything. It just keeps swimming.\"\n\nRiley thinks of the little dark tooth in the museum case, sitting on blue velvet under its spotlight. A smile with no body. A mystery with a very simple answer.\n\n\"The bones vanished,\" says Riley, \"because sharks don't stop long enough to leave any.\"\n\nDr. Reyes laughs. Dr. Amara closes the laptop gently, like a book at bedtime.\n\n\"Case closed,\" says Riley, and puts both hands on the rail, watching the water where the shark is still, somewhere, swimming.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We have two ways to solve this mystery,\" Dr. Amara says, holding up a dark fossil tooth. \"We could examine these ancient teeth closely to learn what they're made of, or we could unroll the great timeline and see exactly when sharks first appeared. Which evidence calls to you?\"",
+      "options": [
+        {
+          "say_word": "Examine",
+          "label": "Study the fossil teeth in the drawer",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Unroll",
+          "label": "Look at the timeline on the floor",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The screen shows where our shark is swimming,\" the biologist says, looking up from the tracker. \"We could focus on how its body works, its sandpaper skin and sensing freckles, or we could follow its path to see what it actually cares about. What should we investigate?\"",
+      "options": [
+        {
+          "say_word": "Body",
+          "label": "Learn about the shark's special skin and senses",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Journey",
+          "label": "Follow where the shark is swimming",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sharks",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 11
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core hook—that sharks are ancient survivors older than dinosaurs who mostly ignore us—naturally unfolds as a gentle puzzle where clues about their age, senses, and quiet patrols accumulate toward a satisfying reveal, fitting a 9-year-old's curiosity better than a static mood piece or a simple travelogue.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2791,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2093,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1744,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1628,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.093,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0581,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Dr. Amara, the paleontologist, whose precise, hushed museum voice carries the wonder.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience with not knowing and careful looking beats loud guessing",
+      "why": "The mystery pattern naturally rewards accumulating clues slowly rather than jumping to conclusions."
+    },
+    "cast": [
+      {
+        "role": "Dr. Amara the paleontologist",
+        "reused": false,
+        "why": "Anchors the museum setting and explains the cartilage and fossil evidence with gentle authority."
+      },
+      {
+        "role": "The marine biologist on ocean patrol",
+        "reused": false,
+        "why": "Provides the living shark perspective and the modern tracking technology that solves the final piece."
+      },
+      {
+        "role": "The child detective",
+        "reused": false,
+        "why": "Named hero who notices the odd absence of bones and drives the investigation."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A darkened museum hall with a glass case of fossil shark teeth and a life-size silhouette",
+        "Sharks were already swimming hundreds of millions of years before dinosaurs",
+        "A shark's skeleton is made of cartilage, the same bendy stuff as your nose",
+        "We know about ancient sharks mostly from their teeth",
+        "A shark's skin feels like sandpaper with tiny tooth-like scales",
+        "Special sensing pores around their snouts pick up electric flickers",
+        "Most sharks pay no attention to people at all",
+        "A marine biologist on an ocean patrol checking tagged sharks",
+        "The deck of a research boat at dawn"
+      ],
+      "gathered_but_unused": [
+        "Sharks were already swimming in the oceans hundreds of millions of years before the first dinosaurs appeared on land.",
+        "A shark's skeleton is made of cartilage, the same bendy stuff as the tip of your nose and your ears, which is why ancient sharks left few bones behind.",
+        "We know about many ancient sharks mostly from their teeth, because teeth are hard and fossilize while the soft cartilage body disappears.",
+        "A shark's sense of smell is so fine-tuned that it can notice tiny amounts of certain scents drifting in the water from far away.",
+        "Sharks also have special sensing pores around their snouts that can pick up the faint electric flickers made by the muscles of other animals.",
+        "A shark's skin feels like sandpaper because it is covered in tiny tooth-like scales called denticles, and stroking it one way is smooth while the other way is rough.",
+        "Many sharks must keep swimming so water flows over their gills, which means some sharks never truly stop moving their whole lives.",
+        "Most sharks pay no attention to people at all, and of the hundreds of shark kinds, almost all are small, shy, or busy with their own fishy business."
+      ]
+    },
+    "safety_beat": "On the research boat deck, the biologist casually shows the hero where to stand behind the railing before they begin watching for fins, demonstrating competence without tension.",
+    "motif": "The fossil tooth, small, dark, and triangular, older than the mountain it was found in.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the mystery engine pulls forward, the science lands through touchable props (the bendy nose, the sandpaper skin, the unrolled scroll), and the closing image of the shark still swimming somewhere lands with quiet, satisfying weight."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "hushed and hooked, leaning into the dark museum",
+        "s2a": "delighted little shiver of discovery, pressing a nose",
+        "s2b": "wide-eyed at the long scroll of time",
+        "s3": "cool morning air, calm wonder at the passing fin",
+        "s4a": "gleeful 'whoa' at the sandpaper, settling into satisfied awe",
+        "s4b": "a giggle at the beach ball, then a long contented exhale"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 38% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.5); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['fossil_find', 'hero_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['fossil_find', 'hero_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "12_sharks_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

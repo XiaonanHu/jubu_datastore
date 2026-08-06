@@ -1,0 +1,321 @@
+{
+  "id": "story.geysers.age9to10.d1.pregen.b4aee0",
+  "title": "The Ground That Breathes",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.geysers",
+    "sel_theme": null,
+    "value_lesson": "Pressure that builds honestly and is let out honestly leaves something beautiful behind, the way eruptions build mineral terraces",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "inner_weather",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A fizzy, building feeling in a young visitor rises and bursts alongside a small unpredictable geyser, then settles into something slow and stone-growing.",
+  "slots": {
+    "small_geyser_name": {
+      "role": "The small unpredictable geyser Wren's family waits beside",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Little Gulp"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Feel that,\" says Ranger Bea. She presses her flat palm to the boardwalk rail and waits.\n\nWren presses hers down too. The wood is warm. Not sun-warm, because the sun is barely up. Warm from underneath.\n\n\"Rock down there is still hot,\" Bea says. \"Hot from deep inside the earth. Geothermal, we call it. The ground here sits right on top of it, like a pot on a stove that never quite turns off.\"\n\nWren looks out. Steam rises off every pool in the geyser basin, so the whole valley looks half-erased, like somebody took a soft eraser to the hills. Theo stands on his toes to see over the rail. Grandma Sela breathes in slow, the way she does at the bakery before the door even opens.\n\n\"Smells like boiled eggs,\" Theo says.\n\n\"That's the minerals talking,\" says Bea. \"You'll get used to it.\"\n\nThey walk on, and the boardwalk ticks under their boots. Twenty years Bea has walked this path, and she still stops at every rail like it's the first time. Wren likes that about her.\n\n\"We're going to the little one,\" Grandma Sela says. \"The one that blows when it feels like it. Nobody can tell you when. You just have to be there.\"\n\n\"Before the sun burns the steam off,\" Bea adds, \"is when it's prettiest. So. No dawdling.\" She says it flat, without hurry, and somehow that makes Wren's feet go faster.\n\nAnd low in Wren's belly, so quiet she doesn't notice it yet, something small begins to fizz. Like water at the bottom of a deep, twisty tube. Just starting to warm.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The warm patch,\" Wren says.\n\nBea leads them off the boardwalk, six steps, no more, to a bare circle of ground where the snow melted first. \"Kneel if you like,\" she says. \"Everybody does.\"\n\nWren kneels. The warmth comes up through her knees, through her palms, slow and steady, like bathwater that hasn't cooled yet. Steam curls around her ankles and wraps her shins, and for a second she is just a head and shoulders sitting in a cloud.\n\n\"Now,\" says Bea, unfolding a painted diagram from her jacket, \"here's what's under you.\" Her finger traces a long crooked straw of cracks, down and down into dark rock. \"Rain sinks in. Down there it sits on the hot stone and bubbles hotter and hotter, until it can't sit any longer. Then up it comes, all at once.\" She taps the bottom of the drawing. \"A geyser is just water that got too warm to stay.\"\n\nWren traces the twisty tube with one finger. Down, around the bend, down again. The ground hums faintly under her shins, and something hums back, low in her belly. The fizz from this morning is climbing. It rises up her neck the way warmth rises through the planks, into her cheeks, hot as soup steam.\n\n\"Wren?\" Theo holds out his notebook. \"You said you'd write the times.\"\n\nShe looks at the page and the numbers swim. Her eyes sting, and she cannot say why.\n\n\"Give it a minute,\" says Grandma Sela, settling down beside her on the warm ground, close enough that their shoulders touch. \"Some things come up on their own schedule.\"\n\nWren grips the edge of the notebook. The fizz is still rising.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The bench,\" Wren says. \"I want to see the big one keep its promise.\"\n\nThey climb the boardwalk to where a crowd already waits, jackets zipped to chins, breath puffing white. Ranger Bea takes a stub of chalk and writes on a little board: next eruption, plus or minus ten minutes. She underlines it twice.\n\n\"Twenty years I've chalked that board,\" she says, \"and it's been wrong maybe four times. That geyser keeps its word better than most people.\"\n\nGrandma Sela finds them a spot on the bench. The slats are cold through Wren's jeans, a shock after the warm rail. Theo clicks his pen, ready. Everyone faces the pool, which sits quiet and round, steaming gently, like soup somebody set down to cool.\n\n\"Any minute,\" somebody whispers.\n\nWren waits. The pool gulps, once, a deep swallow from far underground, and settles back to quiet. And low in Wren's belly, the fizz from this morning swells. Her chest starts to rise and fall the way the pool does. In, out. In, out. Faster.\n\nThe pool gulps again. So does Wren.\n\nShe grips the bench slats with both hands. The chalk says ten minutes. Her own feeling has no chalkboard, no schedule, no twenty-year ranger to say when it will blow. It is coming anyway.\n\nGrandma Sela says nothing at all. She just scoots closer along the bench, slow and quiet, until her shoulder is warm against Wren's arm, and stays there.\n\n\"Watch the water, love,\" she murmurs. \"I'm right here.\"\n\nThe pool holds its breath. Wren holds hers too.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The round pool is quiet when they reach it. Quiet on top, anyway.\n\n\"This is {small_geyser_name},\" says Ranger Bea. \"It keeps its own schedule. What did you find out there?\" She asks it like someone asking the weather, and Wren tells her, and Bea just nods, slow, like it all belongs to the same story.\n\nThen the pool swells. The whole surface lifts, like something underneath taking a deep breath, and sloshes back down. Wren's chest heaves with it before she can stop it.\n\nGrandma Sela notices first. She kneels down on the boardwalk, right there, and takes Wren's hand. \"I stood here when I was nine,\" she says. \"With a feeling exactly this size.\"\n\n\"Watch the water,\" Bea says quietly. \"It breathes before it blows. Big pools, small pools — they all fill up, hold, and let go. You can breathe with it if you want. In. Out. It helps.\"\n\nSo they do. In, while the pool swells and gulps. Out, while it settles. In. Out. Theo breathes so loud his cheeks puff, and nobody minds.\n\nThe fizz low in Wren's belly rises, the way water rises in a deep, twisty tube, warming and warming until it has to come out.\n\nThe geyser bursts upward, taller than Bea, taller than the trees, a huge white cloud of steam that wraps warm around their legs and smells faintly of boiled eggs. And Wren's tears come out with the burst, all at once, exactly the same.\n\nAfterward everything is soft and blurry and slow, the way a body feels after crying hard. Grandma Sela keeps hold of her hand. The steam drifts. The pool goes quiet again, settling, and somewhere below, the water begins, patiently, to warm once more.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Slow feet,\" says Wren, and Grandma Sela nods like that was the only answer.\n\nThey walk to where the terraces begin, and Wren stops. The ground here is made of steps. Wide, shallow, creamy-orange steps, each one holding a thin sheet of water that slides over its edge, slow as honey. \n\n\"Mineral terraces,\" says Grandma Sela. \"The water carries stone dissolved in it. When it cools, the stone stays. One crust at a time, over years and years.\"\n\nWren kneels and puts her fingers in the trickle. Warm. The edge of the step is rough under her thumb, like the rim of a pie crust.\n\nGrandma Sela pulls a photo from her pocket, soft at the corners. A small girl stands on these same steps, squinting at the sun. \"Me,\" she says. \"Nine years old.\"\n\nWren looks from the photo to the stone. The steps in the picture are thinner. Lower. Since then, spill after spill, the water has built them up, slow and steady, into something new that was there all along.\n\n\"See?\" says Grandma Sela. \"It doesn't hurry. It just keeps coming up warm, and letting go, and what it leaves behind stays.\"\n\nWren's shoulders drop. She hadn't known they were up so high.\n\nGrandma Sela presses something into her palm. A warm flat pebble, the color of the terrace steps. \"It was warm from the water,\" she says. \"Carry it home.\"\n\nWren closes her fingers around it. It fits exactly.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"One more watch,\" says Wren, and Theo's notebook is already open.\n\nThey sit by {small_geyser_name} while the sky goes deep blue. The little geyser doesn't burst big again. It does smaller things. A gulp. A slosh. A sudden spit of steam, like it's clearing its throat.\n\n\"After-bursts,\" says Ranger Bea. \"Write them down.\"\n\nTheo writes the first one. Wren writes the second, in her own handwriting, pressing hard so the numbers stay. 6:14. 6:31. 6:49. She stares at the column. \"There's a rhythm,\" she says slowly. \"Not a clock rhythm. A breathing rhythm.\"\n\nBea sets up a small telescope on the boardwalk and aims it at a bright steady light. \"Saturn,\" she says. \"Rings and all. It has a frozen moon, and out of cracks in the ice, water shoots straight into space. A geyser basin, on another world.\"\n\nWren lies back on the warm planks. The heat from the ground comes up through the wood into her shoulder blades. She looks at the little ringed dot and thinks about ice holding water under pressure, somewhere out there, letting it go into the dark.\n\nEven Saturn's moon fills up, holds, and lets go. Her feeling doesn't seem strange anymore. It seems like the size of things.\n\nGrandma Sela kneels beside her and presses a warm flat pebble, the color of the terrace steps, into her palm. \"From the warm ground,\" she says. \"To take home.\"\n\nWren slips it into her pocket. Around her ankles, the last steam goes thin, and the fizz goes thin with it, and the night is wide and ordinary and good.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The basin's got two kinds of mornings, Wren. Do you want to stand on the warm patch where the snow melted first and feel what the ground's up to, or walk up to the bench and wait for the big one that keeps its promises?\"",
+      "options": [
+        {
+          "say_word": "Warm patch",
+          "label": "Stand on the warm ground and learn what the earth is doing underfoot",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Big one",
+          "label": "Go wait on the bench for the famous geyser that erupts on schedule",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now that the basin's had its say and you've had yours, what does this evening need? Slow feet and old stone with me at the terraces, or one more watch beside Little Gulp while the stars come out?\"",
+      "options": [
+        {
+          "say_word": "Old stone",
+          "label": "Walk with Grandma Sela to the mineral terraces and see what slow water builds",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Star watch",
+          "label": "Stay with Theo timing the small geyser until the telescope comes out",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.geysers",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "inner_weather",
+      "why": "A geyser basin's slow build of underground heat, the swelling steam, and the patient growth of mineral terraces over centuries maps naturally onto a feeling that arrives, swells, and softens rather than a problem to fix.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2857,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred inner_weather"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Mountain That Sings)"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1786,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Puddle That Kept a Secret)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred inner_weather"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0429,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Ranger Bea, the twenty-year ranger, whose chalk-dry humor and flat-brimmed patience carry the only dry wit in an otherwise cozy story",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Pressure that builds honestly and is let out honestly leaves something beautiful behind, the way eruptions build mineral terraces",
+      "why": "The material offers it directly in the value angles and pattern material: the geyser's gulp-burst-steam arc maps exactly onto the inner_weather beats, and Grandma Sela's photo makes the slow-stone payoff visible. It rides as image, not lecture."
+    },
+    "cast": [
+      {
+        "role": "Wren, a nine-year-old visiting the geyser basin with family",
+        "reused": false,
+        "why": "The named hero whose inner weather the story tracks; third-person limited lets the feeling live in her body, mirrored by the basin's plumbing."
+      },
+      {
+        "role": "Ranger Bea, a park ranger who has watched this basin for twenty years",
+        "reused": false,
+        "why": "The noticing adult and voice of both choice questions; she knows which geyser keeps promises and which erupts when it pleases, and she knows where to stand."
+      },
+      {
+        "role": "Grandma Sela, visiting the terraces for the first time since she was nine herself",
+        "reused": false,
+        "why": "Carries the long view: her childhood photo of the mineral terraces shows that slow overflow, over years, becomes something beautiful. She is the warm landing."
+      },
+      {
+        "role": "Theo, a patient older cousin with a notebook",
+        "reused": false,
+        "why": "Models watching carefully as its own fun; his eruption-timing notes give the second branch its how-it-works texture without taking over the story."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "twisty underground plumbing heating water until it has to shoot up",
+        "the pool gulping and sloshing before it erupts, like a deep breath",
+        "the huge white steam cloud after the burst, soft and blurry",
+        "the quiet dawn basin path with steam rising off every pool",
+        "the warm patch of ground where snow melted first",
+        "mineral-rich water cooling into stone crusts, layer by layer over centuries",
+        "terraces like frozen waterfalls and stacked stone bathtubs",
+        "Grandma's childhood photo showing the terraces have grown",
+        "the boardwalk bench at Old Faithful with the ranger's chalkboard time",
+        "lying on the boardwalk at night glimpsing Saturn's rings through a telescope (deeper door, branch only)"
+      ],
+      "gathered_but_unused": [
+        "A geyser basin sits above rock that is still hot from deep inside the Earth, so the ground there is warm in a way most ground never is.",
+        "Under a geyser there is a twisty plumbing of cracks and tubes, and water down there gets hotter and hotter until it has to shoot up.",
+        "Some geysers erupt on a schedule so steady that park rangers can write the next eruption time on a chalkboard, and others keep everyone guessing.",
+        "Right before a geyser erupts, the pool often swells and gulps, sloshing like something taking a deep breath.",
+        "When a geyser bursts upward, the white cloud around it is mostly steam, and on a cold morning the steam drifts low and wraps around people's legs.",
+        "The hot water in a geyser basin carries dissolved minerals, and when the water spills out and cools, the minerals settle and harden into stone.",
+        "Layer by layer, over hundreds of years, those minerals build mineral terraces that look like frozen waterfalls or stack after stack of shallow stone bathtubs.",
+        "The bright colors on the terraces and around the pools often come from tiny living things, heat-loving microbes, each kind living in the exact warmth it likes best."
+      ]
+    },
+    "safety_beat": "In s1, Ranger Bea presses her own palm to the boardwalk edge first and shows Wren the exact spot, on the wood, behind the rail, where the warmth can be felt safely; competence shown once, lightly, no warning language.",
+    "motif": "Water warming at the bottom of a deep, twisty tube, rising until it has to come out, then settling into stone that stays",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.geysers.mystery_001",
+        "title": "The Puddle That Kept a Secret",
+        "pattern": "mystery",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      },
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it braids the geyser's fill-hold-release with a child's rising feeling so that the science, the body, and the quiet companionship all land together, and the sound of it reads aloud cleanly."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, feet already hurrying",
+        "s2a": "warm and held, with a small rising worry",
+        "s2b": "a held breath, braced but not alone",
+        "s3": "the burst and the cry, relief washing through",
+        "s4a": "soft and steady, shoulders coming down",
+        "s4b": "wide and ordinary and good, pleasantly sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['keepsake_stone']"
+      }
+    ],
+    "writers_notes": [
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake_stone']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "03_geysers_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

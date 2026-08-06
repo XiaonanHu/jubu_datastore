@@ -1,0 +1,312 @@
+{
+  "id": "story.ash_clouds.age9to10.d1.pregen.7d374b",
+  "title": "The Grey Snow Summer",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.ash_clouds",
+    "sel_theme": null,
+    "value_lesson": "Gratitude for what seems bad at first: the frightening ashfall turned out to be a gift to the land",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A curious child solves the mystery of why her grandmother's garden grows taller and greener than any other in the village.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The summer I turned nine, the sky over Grandma Basil's village snowed grey. Not cold snow. Warm, soft, floaty snow that landed on your nose and tasted like nothing at all. Every grown-up in the village grumbled and swept their steps. But not Grandma Basil. I found her marching between her bean rows with her dented tin flask, the one she calls her expedition flask, like an explorer crossing a jungle. \"Cocoa?\" she said, and shoved a cup into my hands before I'd even said hello. And then I looked up. Properly up. The beans. Oh, the beans. They didn't grow like normal beans. They towered. They twisted up past the fence, past the apple tree, past the roof of her shed, thick as my arm and greener than green. Every garden in the village had beans. I'd seen them. They came up to your knee, maybe, on a good year. These came up to the sky. \"Grandma,\" I said, slowly, \"why is your garden so much taller than everybody else's?\" Grandma Basil went very still. Then she crouched down beside me, scooped up a pinch of dark, crumbly earth, and held it up to the light like a jewel. \"That,\" she whispered, \"is exactly the right question.\" She tipped it into her pocket and clicked the flask shut like a detective closing a case. \"Pip,\" she said, \"this is now an official expedition. And that is evidence.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The evidence, Captain,\" I said. \"We dig in.\"\n\n\"Excellent choice.\" Grandma Basil struck the flask against her knee like a gavel. \"Interrogate the soil.\"\n\nWe knelt right down between the bean rows, and the earth smelled like rain and something darker. Something secret. I pushed my fingers in.\n\nIt was almost black. It crumbled soft as cake between my fingers, soft as the inside of a brownie, nothing like the pale dusty dirt at the schoolyard that poofs up and makes you sneeze. This stuff clung. This stuff held on like it had a job to do.\n\n\"Feel that,\" Grandma Basil said. \"That is fertile ground. Richest dirt on the hillside. But why?\" She tapped her chin. \"Why here and not there?\"\n\nThen she marched me to the porch, where grey dust still sat on the railing in a thin line, like pepper nobody had swept. She dripped water on it from her flask cup. Tap. Tap. Tap.\n\nThe grey went dark. It slumped. It melted down into the crack between the boards like sugar melting into warm cocoa.\n\n\"Rain does that,\" she whispered. \"Every shower. The grey falls, the rain taps it, and down it goes, into the ground, into the beans.\" She leaned so close her eyebrows nearly touched mine. \"Something grey is disappearing into this earth, Pip. It falls. It vanishes. And the beans get taller.\"\n\nI looked at my black-cake fingers. I looked at the railing. I wrote it in my notebook, in big letters: CLUE NUMBER ONE.\n\n\"Grandma,\" I said. \"The garden is eating something.\"\n\nShe grinned like I'd just found buried treasure. \"Now you're detecting.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Mr. Fen,\" I said. \"The oldest witness on the hillside. We squeeze.\"\n\n\"Bold move, Captain.\" Grandma Basil saluted me with the flask. \"Witnesses first. Evidence doesn't run away, but old men do take naps.\"\n\nOld Mr. Fen sat on the next porch over, in a chair that creaked like a ship, and grey dust lay on his railings in soft drifts, like flour in a bakery nobody had tidied. He saw our notebooks and his eyes went bright.\n\n\"You're asking about the grey,\" he said. It wasn't a question.\n\n\"Please, Mr. Fen,\" I said. \"Tell us everything.\"\n\nHe rocked. Creak. Creak. \"I was about your size. Summer it was, middle of summer, and the sky snowed. Warm snow. Grey as porridge, soft as anything, falling and falling.\" He held his hands out, cupped, like he could still catch it. \"And the sun, Pip, the sun hung up there at noon like a great glowing orange behind a bedsheet. All day. Weeks.\"\n\n\"Weeks,\" I breathed.\n\n\"Everybody swept their rooftops,\" he said. \"Swept and grumbled, grumbled and swept. And the strangest thing.\" He leaned forward, and his voice dropped to a whisper, and Grandma Basil leaned in so far she nearly fell off the steps. \"The next spring, everything grew like mad. The whole hillside. Green like you'd never seen.\"\n\nI scribbled so fast my pencil squeaked. CLUE NUMBER ONE: the sky once snowed grey, warm, in summer, and it fell RIGHT HERE.\n\n\"Mr. Fen,\" I said slowly, \"what was it?\"\n\nHe smiled, gappy and mysterious. \"That's for your expedition to find out.\"\n\nGrandma Basil clicked her flask open and poured him cocoa, grave as a judge. \"Witness rewarded,\" she said. But outside, the grey kept falling, and nobody had answered my question at all.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Well?\" said Grandma Basil, scooping me up a fresh cocoa. \"What did the expedition turn up?\" I told her, and her eyes went round as dinner plates. \"Then it's time,\" she said, \"for the photograph.\" From her shed she pulled a frame wrapped in an old tea towel. Inside was her house, and behind it the mountain, wearing a huge grey plume on its head like a feather hat. Below it, the whole village sat dusted grey, every roof, every street, every hat. \"It snowed grey here once before,\" she said. \"Long before I was born. The grey came out of the mountain itself. And that funny orange sun you get on dusty days? That's the dust, scattering the light about.\" Before I could even whistle, somebody knocked. It was Dr. Loom, the soil scientist, with a backpack full of little jars that clinked when she walked. Grandma Basil nearly burst with pride. \"Show her!\" she said. I held out what I'd found, and Dr. Loom put one grey speck under her magnifying glass. \"Look,\" she said. I looked. It wasn't a soft flake at all. It was a jagged little mountain of rock, sharp-edged and glittery, packed with minerals. \"Mineral dust,\" said Dr. Loom, beaming. \"Volcano dust. It lands, it breaks down over years and years, and it feeds the soil until the soil turns fertile. Rich enough to grow a forest.\" I looked at the dark earth under my shoes. I looked at the young woods behind the garden. I looked up at the beans, towering past the roof. \"So the mountain,\" I said slowly, \"fed your garden?\" Grandma Basil clicked her flask shut like a detective closing a case. But she didn't smile. Not quite.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The garden,\" I said. \"Let's toast the garden.\" Grandma Basil's eyebrows shot up like two startled caterpillars. Then she did something I'd never seen her do. She sat down, right in the dirt, between the bean rows. \"My own grandmother called it the ash year,\" she said quietly. \"She swept that roof every single day, and she cried while she swept. All that grey, falling and falling, and nobody knew when it would stop.\" She twisted the lid off the expedition flask and poured three thimbles of cocoa, one for her, one for me, one for the earth. \"But the next spring,\" she said, and her voice got big again, \"she planted beans. And Pip. They were the best beans of her whole life. She said the mountain had paid its rent.\" I laughed, and then I looked up, way up, at the tallest bean of all, twisting past the shed roof like it was trying to tickle the sky. \"That one needs a name,\" I said. \"An explorer's name.\" Grandma Basil clapped dust off her hands. \"Go on then.\" \"Sir Climbsalot,\" I said. \"Knight of the Ash Year.\" Grandma Basil toasted him with her thimble. Then Dr. Loom held out one of her little jars, and together we pressed in a pinch of the dark, crumbly soil, the secret slow kind, grey dust turned living. I screwed the lid on tight. That evening the sunset went blindingly bright, all orange and rose, because of the dust still floating high up. \"Look there,\" said Grandma Basil, pointing at the first star. \"Venus. She's wrapped in thick clouds too, but hers never rain ash.\" I walked home with the jar heavy in my pocket and grey dust on my boots, and every step felt like walking on a mountain's slow gift.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The sky,\" I said. \"Let's follow it off the planet.\" Dr. Loom made a noise like a kettle getting excited. That evening she spread her star chart across Grandma Basil's porch table and pinned down the corners with cocoa cups. \"First stop,\" she said, and pulled out a photograph. It was a blotchy yellow ball with a great red spot on it. \"Jupiter's moon. It's called Io. And right now, this very minute, it is erupting. Volcanoes shooting plumes straight up into space. Higher than anything on Earth.\" I stared at it. A whole moon, snowing grey onto itself, forever. \"So our mountain,\" I said slowly, \"is not the only one doing this?\" \"Doing what?\" said Grandma Basil, eyes twinkling over her flask. \"Feeding things,\" I said. \"Dusting. Building. Planets do it. Moons do it.\" Dr. Loom tapped the chart. \"Everywhere, Pip. Everywhere.\" Then Grandma Basil pointed up, past the porch roof, to where the sunset was blazing orange and rose. \"And that sky up there? Same trick as the dusty days. Light getting scattered about.\" She pointed again, at the first bright star hanging in the glow. \"That's Venus. She's wrapped in thick clouds of her own. But hers never rain ash.\" I looked at the orange sky, and the bright planet, and I thought about our grey summer, and it wasn't strange anymore. It was just something worlds do, the way gardens grow and beans climb. Before I left, Dr. Loom gave me a strip of tape, and I fixed one grey speck into my notebook, right on the first page. Underneath I wrote: tiny mountain, future garden. I carried it home under the bright scattered sky, and the whole way, the dust on my boots glittered.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Every expedition needs a first move, Captain. Do we dig into the evidence ourselves, or do we go squeeze a story out of old Mr. Fen?\"",
+      "options": [
+        {
+          "say_word": "Dig in",
+          "label": "Examine the dark soil up close",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Ask around",
+          "label": "Visit the neighbor who remembers",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Mystery solved, but an explorer always picks the last trail. Do we stay and toast the garden that ate a volcano, or do we follow this thing clear off the planet?\"",
+      "options": [
+        {
+          "say_word": "Stay",
+          "label": "Celebrate in the garden and name the tallest bean",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Blast off",
+          "label": "Look at the stars and other worlds with Dr. Loom",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.ash_clouds",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Ash clouds offer a natural mystery for a 9-year-old: why does grey dust falling from the sky eventually make forests grow, with clues in the orange sun, the soft falling ash, and the slow enrichment of soil.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Mountain That Sings)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Grandma Basil, who treats every clue like a daring expedition and carries a dented tin 'expedition flask' of cocoa into the garden",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Gratitude for what seems bad at first: the frightening ashfall turned out to be a gift to the land",
+      "why": "The material offers it naturally through the neighbor's frightening memory resolving into the garden's richness; it rides along as the emotional payoff of the mystery answer rather than a stated lesson"
+    },
+    "cast": [
+      {
+        "role": "Pip, a curious child who notices everything",
+        "reused": false,
+        "why": "The named hero; her noticing drives the mystery pattern, and her pockets full of grey specks carry the clues"
+      },
+      {
+        "role": "Grandma Basil, who has farmed the volcanic slope all her life",
+        "reused": false,
+        "why": "Carries the big_adventure accent with explorer flair, asks both choice questions in her own voice, and holds the family memory of the ash year"
+      },
+      {
+        "role": "Old Mr. Fen, the elderly neighbor who remembers the ashfall",
+        "reused": false,
+        "why": "Delivers the second clue that changes the first: grey snow in summer and an orange sun"
+      },
+      {
+        "role": "Dr. Loom, a soil scientist with a backpack of little jars",
+        "reused": false,
+        "why": "Confirms the answer with the magnifying-glass moment and opens the wider door to other worlds"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Opening question: why Grandma's garden grows tallest",
+        "Dark crumbly soil clue",
+        "Neighbor remembers grey snow in summer and orange sun",
+        "Photograph of the mountain wearing a plume like a feather hat",
+        "Magnifying glass reveals ash is tiny rock shards full of minerals",
+        "Ash breaks down over years and feeds the soil",
+        "Old ash soils are the most fertile, growing thick forests",
+        "Ash scatters sunlight making the sun look orange",
+        "Wider door: Jupiter's moon Io erupting plumes into space",
+        "Wider door: Venus wrapped in thick clouds",
+        "Setting: garden on the green slope of a sleeping volcano",
+        "Setting: farmhouse porch with grey dust on railings"
+      ],
+      "gathered_but_unused": [
+        "Volcanic ash is made of tiny pieces of rock and minerals, not burned wood or paper.",
+        "Ash can drift so high and far that it dusts land hundreds of miles away from the volcano.",
+        "A thin layer of ash on the ground slowly breaks down over years and feeds the soil with minerals.",
+        "Soils made from old volcanic ash are some of the most fertile soils on Earth, growing rich farms and thick forests.",
+        "Ash in the sky can make the sun look orange or red, because the dust scatters the sunlight.",
+        "After a big eruption, sunsets around the world can turn extra bright and colorful for months.",
+        "Forests buried by ash long ago can grow back thicker than before, because the ash made the ground richer.",
+        "Scientists can read old ash layers in the ground like pages in a book, each one telling of an ancient eruption."
+      ]
+    },
+    "safety_beat": "In s1, Grandma Basil lightly shows she knows her ground: she walks the garden rows on the packed path and hands Pip a kneeling pad by the beds, a quiet bit of competence on a real farmable slope, with no warning or tension.",
+    "motif": "Grey dust turning, slowly and secretly, into dark living soil",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already braids a real detective engine, warm companionship, and true science into a voice that is delicious to read aloud, and each branch lands its own distinct ending without waste."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then eyes widening upward",
+        "s2a": "hands-in-the-dirt glee, leaning in",
+        "s2b": "porch-creak hush, a held breath at the old man's memory",
+        "s3": "the satisfying click of a puzzle piece, with a small frown at the unsmiling flas",
+        "s4a": "a lump in the throat melting into a giggle, then glowing and sleepy",
+        "s4b": "head tipped back, wonder widening off the planet, then quiet glitter"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['bean_name', 'hero_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['bean_name', 'hero_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "06_ash_clouds_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

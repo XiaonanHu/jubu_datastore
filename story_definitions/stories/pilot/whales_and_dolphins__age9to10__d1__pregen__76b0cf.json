@@ -1,0 +1,340 @@
+{
+  "id": "story.whales_and_dolphins.age9to10.d1.pregen.76b0cf",
+  "title": "The Whistle That Came Home",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.whales_and_dolphins",
+    "sel_theme": null,
+    "value_lesson": "Loyalty and remembering: a social bond can last across years and wide ocean, because a name kept is a friend kept.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "A mysterious whistle heard at dawn and dusk leads a young listener to discover that dolphins carry their names in sound, and that one old friend has been called home by name.",
+  "slots": {
+    "dolphin_name": {
+      "role": "What Nico names the mysterious whistler in the notebook before learning its real 'name' is its whistle",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Bentfin"
+    },
+    "playback_moment": {
+      "role": "How the hydrophone playback happens in s3 — slow and careful, or loud and splashy — set by c1's branch choice",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "slow and careful, one note at a time"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "When I was younger, I ran a little research boat in a calm bay, with a hydrophone trailing in the water and headphones that smelled of salt. The summer Nico came to help, we heard something odd on the very first dawn.\n\nThe bay was still dark. The water went plip, plip against the hull. Nico had the headphones on, both hands pressed over them, tongue stuck out in listening.\n\nThen it came. Weee-ooo-weee.\n\nA sliding whistle, up and down and up again, like someone drawing one long curly line with sound.\n\nNico's eyes went round. \"Did you hear that?\"\n\n\"I heard it,\" I said.\n\nAnd then — from far away, so far it was barely a thread — the exact same tune came back. Weee-ooo-weee. Same slide. Same curl. Same everything.\n\nNico grabbed the notebook and wrote it down, with a question mark so big it fell off the bottom of the page.\n\nWe listened all that day. We heard squeaks and clicks and one long burp that was probably a seal. But the sliding whistle did not come back.\n\nThen, at dusk, when the water turned the colour of weak tea — weee-ooo-weee. And again, far off, the answer. Weee-ooo-weee.\n\nNico pulled the headphones off slow, like the sound might spill.\n\n\"Out of all the whistles in the whole sea,\" Nico said, \"how does one dolphin find its one best friend?\"\n\nI did not know. But I knew we were going to fill that notebook finding out.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We spent the whole next day being detectives, which mostly meant sitting on the deck with our ears sweating inside the headphones.\n\n\"Detectives need hats,\" Nico said.\n\n\"Detectives need snacks,\" I said, and passed the biscuits.\n\nI keep my old recordings in biscuit tins, labeled in pencil. Summer of the Slapping Tail. The Month of Seal Burps. We played them one by one, slow and careful, one note at a time, and Nico checked each whistle against the notebook.\n\nClick-click-click. No. Squeeeak. No. A long farting sound.\n\n\"Seal,\" we said together.\n\nThen Nico sat up so fast the biscuits slid. \"Wait. Wait. Back one.\"\n\nThe recording hissed. It was five summers old, from a tin labeled Rain, Rain, Rain. And out of the rain came: weee-ooo-weee. Same slide. Same curl. Same everything.\n\n\"That's IT,\" Nico whispered. \"That's the one. Five years ago!\"\n\n\"Five years,\" I said. \"Songs don't last five years, Nico. Somebody has been keeping that whistle.\"\n\nNico wrote it down, and underlined it three times, and the pencil snapped.\n\nThat was when something splashed beside the boat. A young dolphin, barely bigger than Nico, popped up and whistled at us — a short, cheeky pip-pip-pip! Then it did it again. Pip-pip-pip! Then it spun in a circle and did it again.\n\n\"It's showing off,\" Nico said.\n\n\"Mm,\" I said. \"Or it's saying its name. Dolphins do that. They carry their whistle like a name tag, and the whole pod knows them by it.\"\n\nNico looked at the notebook. At the dolphin. At the notebook.\n\n\"Then our whistler isn't singing a song,\" Nico said slowly. \"It's calling somebody.\"\n\nPip-pip-pip! went the little dolphin, like a doorbell that had figured itself out.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We rowed over to Old Sal at the harbor dock, where he mends nets and drinks tea strong enough to stand a spoon in. Sal has watched this bay for forty summers, and he swears he knows every dolphin in it by face.\n\n\"He does not,\" I said.\n\n\"I do so,\" said Sal, not looking up from his net.\n\nNico climbed onto the dock, took a big breath, and whistled it. Weee-ooo-weee. The whole tune, slide and curl and all.\n\nSal's mug stopped halfway to his mouth. Tea went over the side. He did not notice.\n\n\"Where,\" he said, very quietly, \"did you hear that?\"\n\n\"On the hydrophone,\" I said. \"Dawn and dusk. Every day this week.\"\n\nSal set the mug down like it was made of eggshells. \"I knew a dolphin who whistled exactly that. Young one, with a fin bent over like a folded corner of a page. Used to follow the boats and whistle that tune at everything. Gulls. Buoys. Me.\" He shook his head slowly. \"Then one spring, gone. Just gone. Years back now.\"\n\nNico had gone very still. \"Gone where?\"\n\n\"Nobody knows. Pods travel. Dolphins have their own ways of talking, their own dialects, family to family — and sometimes a family moves on, and takes its voices with it.\" Sal picked up his net again, but his hands weren't mending. \"But here's the thing, Nico. If that whistle is back in my bay...\"\n\n\"It's not back,\" I said. \"It's being answered. Every dawn. Every dusk. Somebody here has been calling it all along.\"\n\nNico opened the notebook and wrote, in letters that wobbled: the whistler used to LIVE here.\n\n\"Then somebody in this bay,\" Nico said, \"is still waiting for their friend to come home.\"\n\nSal looked out at the water for a long moment. \"Forty summers,\" he said, \"and that is the saddest and the best thing I have ever heard on this dock.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back on the boat, Nico held the notebook so tight the pages bent. \"Play it,\" Nico said. \"Play what we heard.\"\n\nSo we did. {playback_moment}.\n\nWeee-ooo-weee. Out into the bay it went.\n\nThen — quiet. The whole bay held its breath. No plip against the hull. No gulls. Just us, listening so hard my ears hurt.\n\n\"Maybe nobody's home,\" I whispered.\n\nAnd the water beside the boat went WEEP — and up leapt a dolphin, high as the mast, with a fin bent like a folded corner of a page.\n\n\"Look at that fin!\" Nico shouted. \"That's — that's got to be —\" Nico grabbed the pencil. \"I'm calling you {dolphin_name}!\"\n\nThe dolphin whistled. Weee-ooo-weee. Our tune. Our exact curly line, answered from ten feet away.\n\nAnd right at that moment, round the point, came Grandma Riptide and her whole family — big black backs, white eye-patches, fins like sails. They were talking the whole time, loud and fast: click-click-buzz, whaa-whaa-whaa. Nothing like dolphin talk. Same ocean, different family language.\n\nBut tucked inside Grandma Riptide's slow calls — weee-ooo-weee.\n\nNico's mouth fell open. \"She knows it too!\"\n\n\"It's a name,\" I said, and it clicked together like a puzzle box. \"A name you invent when you're young, and keep your whole life. They've been calling their friend by name, all these years. And the friend heard. And came home.\"\n\nGrandma Riptide glided close, slow and certain, and looked at us with one dark eye, as if to say: took you long enough.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Let's just listen,\" Nico whispered, and tucked the pencil behind one ear. So we did. We sat on the deck with our knees up, and the dusk came down soft as a blanket.\n\nThen — there. Two fins, side by side, sliding past the boat. One bent like a folded page-corner, one straight as a ruler. Old friends, swimming close enough to touch.\n\nWeee-ooo-weee, went one. Weee-ooo-weee, the other answered. Back and forth, back and forth, like a catch-song — my turn, your turn, my turn, your turn. Saying each other's names the way you'd say hello, hello, hello, it's really you.\n\nAnd Pip — oh, Pip. Pip the gull had been sitting on the mast all week, listening. Pip fluffed up, took an enormous breath, and went: \"WEEE-OOO-SQUAWK.\"\n\nNico clapped both hands over their mouth. The dolphins did not even pause. They just kept trading names, slow and sure, like a pot that knows it has all day.\n\nPip tried again. \"WEE-SQUAWK-WEE.\" Worse. Somehow worse.\n\nThen Grandma Riptide rose beside the boat, slow and certain, and gave one long, low call. Her whole family answered — whaa-whaa-whaa, click-click-buzz — their own family language, singing the bay goodnight. The sound rolled over the water and through our chests, and Nico pressed a hand flat against the deck to feel it hum.\n\n\"They're singing them home,\" Nico whispered.\n\nI still have that notebook. On the last page, in Nico's wiggly writing, it says: a name you keep is a friend you keep.\n\nAnd somewhere on an old tape, there's one more whistle — the one Nico invented that summer, just for keeping. Weee-ooo-weee.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"I want my own,\" Nico said, and grabbed the pencil. \"If a dolphin can invent a name, so can I.\"\n\nSo all that dusk, Nico practiced. First try: \"Wooo-weee-wooo.\" Too wobbly. Second try: \"Weee-weee-weee.\" Too squeaky — Pip the gull copied it perfectly, which Nico said was cheating. Nico changed it a tiny bit each time, the way young dolphins do, sliding the middle note lower, stretching the end out longer.\n\nThen, just as the water turned the colour of weak tea, Nico whistled one that settled. \"Weee-ah-weee.\" Down in the middle, like a swing at the bottom of its swoop.\n\n\"That's it,\" Nico said. \"That's me.\"\n\nWe played it out into the bay. Weee-ah-weee. Once. Then we waited, both of us holding our breath without meaning to.\n\nThe water went still. Plip, went the hull. Nothing else.\n\nAnd then — from out by the point, clear as a bell — came one answer. Weee-ah-weee. Our bent-finned friend, saying it back, once, polite and pleased. The way you'd answer a new friend who says hello in your language.\n\n\"It worked,\" Nico breathed. \"The bay knows my name.\"\n\nGrandma Riptide rose then, slow and certain, and gave one long wailing call — a sound from her own family's dialect, old as the tides. We couldn't translate a word of it. We didn't need to. It rumbled through the deck and up into our ribs, and it was plainly, warmly approving.\n\nThen she turned toward the dark channel, where the salmon run, and her whole family fell in behind her — following her memory, the way they always have.\n\nI still have the notebook. On the last page, Nico's name whistle is drawn in wiggly ink, with a star beside it.\n\nThat whistle is still in the bay somewhere, I like to think. Names travel.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Well, detective,\" I said, tapping the notebook, \"do we hunt through my old recordings to see how long that whistle's been around — or do we row over to Old Sal, who swears he knows every dolphin in this bay by face?\"",
+      "options": [
+        {
+          "say_word": "Recordings",
+          "label": "Dig through the boxes of old tapes on the boat",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "playback_moment": "slow and careful, one note at a time, the way you test an old tape"
+          }
+        },
+        {
+          "say_word": "Old Sal",
+          "label": "Row to the dock and ask the fisherman who remembers every dolphin",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "playback_moment": "one bold clear call, the way Sal would hail an old friend"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"So,\" I said, as the bent-fin dolphin's whistle faded into the dusk, \"do we just sit quiet and listen to the two old friends talk — or do you want to invent a name whistle of your very own and offer it to the bay?\"",
+      "options": [
+        {
+          "say_word": "Listen",
+          "label": "Sit quiet at dusk and hear the two friends call each other by name",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Invent",
+          "label": "Practice and settle your own name whistle, then play it to the bay",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.whales_and_dolphins",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 22
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Dolphin signature whistles and orca dialects are naturally clue-like — a child can follow sounds and behaviors to solve who's calling whom or why one pod hunts differently, which fits a 9-year-old's love of piecing things together.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3027,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2595,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1946,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0865,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0811,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Itch Nobody Could Reach)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0541,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma Riptide, the old orca with the notched fin, whose slow, certain way of speaking and swimming carries all the cozy warmth of the story.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Loyalty and remembering: a social bond can last across years and wide ocean, because a name kept is a friend kept.",
+      "why": "The satisfying answer in the pattern material IS this value — the pod called the friend by name for years and the friend came home — so it rides along naturally without preaching."
+    },
+    "cast": [
+      {
+        "role": "The storyteller — an old marine scientist who once ran the bay research station, now telling this as a memory",
+        "reused": false,
+        "why": "The storyteller_tale frame requires a teller who says 'I'; making her the scientist lets the frame and the mystery share one voice."
+      },
+      {
+        "role": "Nico, the young listener with a notebook of every whistle and click",
+        "reused": false,
+        "why": "The child stand-in whose patient listening drives the mystery; the notebook makes clue-collecting physical and silly."
+      },
+      {
+        "role": "Grandma Riptide, the old orca grandmother with a notched dorsal fin",
+        "reused": false,
+        "why": "Named explicitly as the cozy accent carrier; her calls hold the final clue and her pod's dialect teaches the science."
+      },
+      {
+        "role": "Old Sal, the harbor fisherman who has watched the same dolphin pod for forty summers",
+        "reused": false,
+        "why": "Delivers the second clue that changes the first — he remembers a bent-finned youngster who whistled exactly that tune."
+      },
+      {
+        "role": "Pip, a playful young dolphin who keeps whistling its own name near the boat",
+        "reused": false,
+        "why": "The silly engine: Pip introduces itself over and over like an annoying doorbell, and accidentally reveals how name whistles work."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Each bottlenose dolphin invents its own name whistle and others use it to call them",
+        "Dolphins remember name whistles even after years apart",
+        "Orca pods each have their own family dialect",
+        "Baby orcas learn the dialect from mothers and grandmothers",
+        "Orca grandmothers lead the pod and remember where the salmon run",
+        "Setting: small research boat with hydrophone and headphones in a calm bay",
+        "Setting: harbor dock where the old fisherman mends nets",
+        "Opening question: how does one dolphin find its one best friend?",
+        "Clue: same sliding whistle at dawn and dusk, always answered by the same second whistle",
+        "Clue: a five-year-old recording holds the very same whistle",
+        "Clue: the fisherman remembers a bent-finned young dolphin who whistled exactly like that",
+        "Clue: when the whistle is played back, a bent-finned dolphin leaps once, high",
+        "Answer: the whistle is a name, invented young and kept for life; the pod called the friend home",
+        "Deeper door: two pods 'say hello' completely differently — a real dialect difference"
+      ],
+      "gathered_but_unused": [
+        "Each bottlenose dolphin invents its own special whistle, like a name, and other dolphins use that whistle to call to it.",
+        "Dolphins can call each other's 'name whistles' even when they have been apart for years, and they remember them for a very long time.",
+        "Orca families — called pods — each have their own dialect: a set of calls that their family uses and other families don't.",
+        "Baby orcas learn their family's dialect from their mothers and grandmothers, and they keep speaking it their whole lives.",
+        "Some orca grandmothers lead their whole pod, and scientists have found that pods with grandmothers find more food, because the grandmothers remember where the salmon run.",
+        "Dolphins and whales 'see' with sound: they send out clicks and listen to the echoes bouncing back, which is called echolocation.",
+        "Sperm whales make patterns of clicks called codas, and different sperm whale families have different coda patterns — like accents.",
+        "Dolphins sometimes help each other when one is sick or hurt, holding the hurt one up at the surface so it can breathe."
+      ]
+    },
+    "safety_beat": "In s2b, Old Sal shows Nico once, lightly, where to sit on the dock — 'on the flat stone, not the green slippery one, that's the rule of my dock' — pure competence, no warning, no tension; the boat scenes keep Nico seated with headphones on as the storyteller handles the hydrophone cable.",
+    "motif": "A single sliding whistle — weee-ooo-weee — that travels through years of recordings and across the bay until it is answered in person.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.whales_and_dolphins.problem_and_fix_001",
+        "title": "The Itch Nobody Could Reach",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances mystery, warmth, and wonder with a strong read-aloud voice — its sound-words land as their own beats, its emotional logic (names as friendship kept) is clear and earned, and both endings close the arc without leaving anything the draft lacks."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "leaning in, ears pricked / a held breath at the far-off answer",
+        "s2a": "giggles and detective-pleasure, then a small electric jolt at the five-year-old ",
+        "s2b": "wide-eyed and tender, the mystery turning personal and a little aching",
+        "s3": "breath held hard, then a burst of joy at the leap, settling into warm awe",
+        "s4a": "snug and hushed, a giggle at Pip, then satisfied and sleepy",
+        "s4b": "proud and fizzy at Nico's own name, then warm and settled as the whales depart"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 33% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 29% of sentences carry speech or action; [story] slots: declared but never used: ['listener_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 33% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 29% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 33% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 29% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['listener_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "23_whales_and_dolphins_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,332 @@
+{
+  "id": "story.crabs.age9to10.d1.pregen.47742d",
+  "title": "Pip and the Too-Tight Shell",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.crabs",
+    "sel_theme": null,
+    "value_lesson": "Patience and paying attention beat grabbing the first thing that looks right.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "A hermit crab who has outgrown its borrowed shell tries three wrong fixes before learning that the right shell comes from waiting, watching, and trading — and that its soft back end is the very reason it can fit into the best hiding places.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Pip was squeezed. Not hugged. Squeezed. Her shell had been a fine shell once, roomy as a big coat. Now it pinched like a shoe one size too small, and her soft curled back end, the part that went round and round like a question mark, had nowhere left to go. “Scritch-scritch-scritch,” went the shell, dragging across the rock of the tide pool. Scritch. Scritch. It was low tide. The water sat still and clear, and Pip tugged her too-tight shell sideways past a starfish who was doing absolutely nothing, and doing it very well. Then something came wobbling around a stone. It was a hermit crab wearing a bright red bottle cap. It tipped. It righted itself. It beamed. “Behold,” said the Bottle-Cap Crab, “the Cap House! Light! Stylish! Nearly waterproof!” It tipped over again. Pip watched it wobble past, pincers waving like a tiny inventor taking a bow. On the warm flat rock, the shore crab lay stretched out in the sun, lazy as a cat in a window. “Why the fuss?” it yawned. “A shell’s a shell. Or a cap.” Pip did not answer. Because just then, a shadow swept over the tide pool. Wide wings. A gull. It circled once, then flapped off toward the far end of the beach. It would be back. Pip tucked her question-mark tail in as far as it would go, which was not far at all. “Right,” she said, mostly to herself. “I need a bigger shell. Now.”",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Pip went sideways, fast as her too-tight shell would drag her. Scritch-scritch-scritch. On the far side of the tide pool, half-buried in sand, sat a shell so beautiful she stopped moving just to look at it. It curled round and round like a question mark, striped cream and brown, big as a teacup. \"That one,\" Pip whispered. \"That is the one.\" The Bottle-Cap Crab tipped over with excitement. \"A palace!\" it announced. \"Try it! Try it!\" Pip backed out of her old shell. The cool water touched her soft curled tail. She wiggled backward into the new shell, round and round, deeper and deeper. It fit. It fit perfectly. \"It fits!\" she shouted. She took one sideways step. The shell did not move. She pulled harder. The shell tipped, slow as a falling tree, and rolled her onto the sand. Her soft belly flashed up at the sky. Above the pool, a wide shadow swept across the water. The gull. Back already. Pip kicked her legs in the air. \"Not now,\" she squeaked. \"Not now!\" The Bottle-Cap Crab pushed at her with both pincers. \"Out! Out!\" Pip popped free, scrambled sideways, and squeezed back into her old too-tight shell just as the shadow slid past. The gull circled once. It flapped off. Pip lay very still, her heart going thump-thump-thump against the rock. \"The palace,\" said the Bottle-Cap Crab sadly, \"is too heavy.\" \"The palace,\" said Pip, \"is a terrible palace.\" But her tail still pinched. And the gull would be back.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Pip went sideways, quick as she could. Scritch-scritch-scritch. Behind a flat green stone she found it: a pale shell, light as a leaf, sitting open like a little boat. \"Light!\" said the Bottle-Cap Crab, tapping it with one pincer. \"You could run in that!\" Pip backed out of her old shell. Cool water touched her soft curled tail. She wiggled backward, round and round, and the new shell slid on easy as a sock. She took a sideways step. Then another. She was fast. She was nearly skipping. \"Look at me!\" she shouted. \"I am a racing crab!\" She zigged. She zagged. The Bottle-Cap Crab cheered and fell over. Then Pip felt it. A thin line of cold water, trickling down her soft belly. She twisted her eye-stalks around. There, right down the side of her beautiful light shell, ran a crack. Long as a blade of grass. Wide as her own leg. Above the pool, a shadow swept the water. The gull. Back already. Pip froze. Through the crack, her soft question-mark tail showed pink against the pale shell. The shadow circled. \"Out!\" squeaked the Bottle-Cap Crab. Pip popped free and scrambled under the flat green stone, her heart going thump-thump-thump. The gull landed on the rock above them. It looked at the Bottle-Cap Crab. It looked at the ridiculous red cap. It looked away. The cap had no crack. The gull flapped off. Pip breathed out, long and slow. \"The light shell,\" she said, \"has a hole in it.\" \"A window,\" said the Bottle-Cap Crab. \"Very stylish. Very nearly waterproof.\" Pip did not laugh. Her tail was bare. And the gull would be back.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Pip ducked under the ledge of the warm flat rock, heart going thump-thump-thump like a tiny drum. She thought. The heavy shell had been the right size, but far too heavy. The cracked shell had been the right weight, but broken. Nothing on this beach was right. \"You worry too much,\" said the shore crab, still stretched out in the sun. \"Just pick one and stop fussing.\" \"Easy for you,\" said Pip. \"Your shell grows with you.\" Then she saw it. Across the tide pool sat a big hermit crab in a beautiful spiral shell, roomy as a house with an extra room. And at the shell's opening, the big crab's soft curled back end was poking out, squeezed tight, tucked away like a question mark with no room to finish its curve. Pip knew that feeling. She scuttled sideways over, scritch-scritch-scritch, and tapped gently on the spiral shell with one pincer. Tap-tap. That was how hermit crabs asked to trade. The big crab pinched back. Not hard. Just firmly. No. \"Worth a try,\" said Pip, backing away sideways. But she was not squashed. Not even a little. Because now she knew something worth knowing. That big crab was outgrowing its shell too. And a crab who is outgrowing a shell will not keep it forever. Somewhere behind her, the Bottle-Cap Crab tipped over with a clatter. \"Did it work?\" it called. \"What did you find?\" \"Patience,\" said Pip, and she settled in to watch.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Pip tucked herself into the crack beside the big crab. It was a thin crack, a nothing crack, and her soft curled back end folded into it like it had been made for exactly this. The question mark had a hiding place after all. \"Scritch,\" went her shell, once, and then she held still. The big crab did not look at her. It was busy. It had found a shell half-buried in the sand, a wide pale shell, and it was turning it over, tapping it, peering inside. \"Come on,\" Pip whispered. \"Come on, come on.\" The big crab slid out of its spiral shell, quick as a wink, and into the new one. Gone. And there it sat. The old shell. Empty. Roomy. Waiting. Pip did not wait one second more. She scooted out of the crack, sideways, fast, and backed straight into the spiral shell. It was a little tight. It was a little lopsided. It was whole, and it was light, and it was hers. Then the shadow came. Wide wings, sweeping over the tide pool. The gull. Pip pulled herself in, every leg, every pincer, and the gull's shadow passed over a shell on a rock, nothing more, and moved on. Around the stone came a wobble and a clatter. The Bottle-Cap Crab tipped, righted itself, and stood very still, staring at Pip in her new shell. \"Behold,\" it said softly, like an inventor whose terrible machine had finally, finally worked. \"The waiting machine. You sit. You hide. You win.\" It tapped the spiral shell with one pincer. \"Finest engineering I have ever seen. And I have seen a bottle cap.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Pip tucked herself into the crack beside the big crab. It was a thin crack, a nothing crack, and her soft curled back end folded into it like it had been made for exactly this. The question mark had a hiding place after all. \"Scritch,\" went her shell, once, and then she held still. The big crab did not look at her. It was busy, turning over a wide pale shell half-buried in the sand, tapping it, peering inside. \"Come on,\" Pip whispered. \"Come on, come on.\" The big crab slid out of its spiral shell, quick as a wink, and into the new one. Gone. And there it sat. The old shell. Empty. Roomy. Waiting. Pip scooted out of the crack, sideways, fast, and backed straight in. A little tight. A little lopsided. Whole, and light, and hers. Then the shadow came. Wide wings, sweeping over the tide pool. The gull. Pip pulled in every leg, every pincer, and the shadow passed over a shell on a rock, nothing more, and moved on. On the warm flat rock, the shore crab was watching. It had not moved all day, but it had seen everything. \"Hm,\" it said. \"What?\" said Pip. \"That crack,\" said the shore crab slowly. \"I could not have fit in that crack. Too hard. Too wide.\" It stretched, lazy as ever, but its eyes stayed on her. \"So. A soft back end.\" A pause. \"Has its uses.\" Pip felt her question-mark tail curl, deep inside her new shell, all the way to the end of its curve for the very first time. On the way home she picked up a scrap of seaweed in one pincer and carried it sideways, like a sandwich, for later.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two shells, little crab!\" the Bottle-Cap Crab announces, tapping one with each pincer. \"This one is big and beautiful. This one is light as a feather. Which do you try first?\"",
+      "options": [
+        {
+          "say_word": "The big one",
+          "label": "Try the big beautiful spiral shell",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The light one",
+          "label": "Try the light easy-to-drag shell",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The big crab will move soon,\" the shore crab says, clicking its hard shell. \"Do you want to wait right here where you can see it, or tuck into that crack and wait where the gull can't see you?\"",
+      "options": [
+        {
+          "say_word": "Wait here",
+          "label": "Wait in the open where you can watch the bigger crab",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Hide and wait",
+          "label": "Tuck into the crack and wait where the gull can't see you",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.crabs",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 15
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "A hermit crab outgrowing its borrowed shell and needing to find a new one is a natural try-fail-try-again arc, with the colonising of new sand giving a satisfying solution.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2791,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2093,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1744,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1628,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Door in the Tide Pool)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.093,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0581,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "The Bottle-Cap Crab — a small hermit crab who has already given up on finding a proper shell and drags a bright plastic bottle cap behind it, wobbling and tipping with every sideways step, delivering every line like a proud inventor unveiling a terrible machine.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and paying attention beat grabbing the first thing that looks right.",
+      "why": "The material offers it naturally: the two failed tries are both cases of grabbing what looks right (too heavy, cracked) and the fix only works because Pip waits, watches the bigger crab, and is ready when the shell is left behind. The value rides on the plot, not on a lecture."
+    },
+    "cast": [
+      {
+        "role": "Pip, a hermit crab who has outgrown its shell",
+        "reused": false,
+        "why": "The named hero. Its soft back end is pinched and cramped, giving the problem a body. Its sideways walk and tapping pincer carry the action."
+      },
+      {
+        "role": "A bigger hermit crab with a good shell that is also starting to pinch",
+        "reused": false,
+        "why": "Holds the solution without knowing it. Its refusal to trade in the first act becomes the key that unlocks the fix in the third."
+      },
+      {
+        "role": "A shore crab with hard shell all over",
+        "reused": false,
+        "why": "The contrast character. It doesn't need a borrowed home and says so, which lets the story explain why Pip's soft back end matters — and later lets Pip discover what a soft back end is good for."
+      },
+      {
+        "role": "A gull patrolling the beach at low tide",
+        "reused": false,
+        "why": "The pressure that makes the problem real. Its shadow is the reason a wrong shell is dangerous, not just uncomfortable."
+      },
+      {
+        "role": "The Bottle-Cap Crab",
+        "reused": false,
+        "why": "The accent carrier. A comic neighbor who has already made the worst possible housing choice and is weirdly proud of it, keeping the tone silly even when the stakes are real."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Hermit crabs don't grow their own shells; they find empty snail shells and move in",
+        "A hermit crab's back end is soft and squishy, which is why it needs a borrowed shell",
+        "The shell that looks perfect but is too heavy to drag — right size, wrong weight",
+        "The light shell that is cracked down the side — right weight, broken wall",
+        "Tapping on a shell with a pincer to ask to trade, and being pinched back no",
+        "The bigger crab moving up to a new shell, leaving its old one behind",
+        "The gull that spots a soft belly through a crack",
+        "Tide pools refill twice a day and hold whatever is in them until the sea comes back",
+        "The bottle cap as a wrong-shell substitute",
+        "Sideways walking because of how the legs bend",
+        "Pincers used to tap, carry, and wave messages"
+      ],
+      "gathered_but_unused": [
+        "Hermit crabs don't grow their own shells. They find empty snail shells and move in, and when they grow too big, they have to find a bigger one.",
+        "Sometimes hermit crabs line up in a row, biggest to smallest, and trade shells one after another. The big one takes a new shell, the next one takes the big one's old shell, and so on down the line.",
+        "A hermit crab's back end is soft and squishy, not hard like the rest of its body. That's why it needs a borrowed shell — to keep the soft part safe.",
+        "When a brand new island forms from a volcano, the first crabs to arrive often come as tiny floating babies carried by ocean currents. They drift for weeks before they find sand to land on.",
+        "Crabs walk sideways because of how their legs bend. Their knees point outward, so stepping sideways is easier than stepping forward.",
+        "A crab's pincers are not just for pinching. They use them to carry food, dig in sand, fight off other crabs, and even wave at each other to send messages.",
+        "Tide pools are like tiny neighborhoods that refill with ocean water twice a day. When the tide goes out, whatever is in the pool stays there until the sea comes back.",
+        "If a hermit crab can't find a shell that's the right size, it might use something else — a bottle cap, a piece of broken shell, anything hollow. But these don't fit right and don't protect it well."
+      ]
+    },
+    "safety_beat": "In s3, when the shore crab tells Pip to stop worrying, it does so while sitting safely in the open on dry rock — a light, competent beat showing it knows exactly where it can and cannot be, with no warning and no tension.",
+    "motif": "The soft curled back end tucked away like a question mark — what looks like a weakness turns out to be the reason the crab survives.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a true engine of want and pursuit — Pip states her need, tries, fails, learns, and wins by patience — while the sound-words land as their own small sentences and the Bottle-Cap Crab's voice gives a listening child a reliable giggle without ever undercutting the real stakes of the gull."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "pinched and worried, then a giggle, then a held breath at the shadow",
+        "s2a": "leaning in with hope, then a tumble and a gasp",
+        "s2b": "delighted and speedy, then cold trickle of dread, then relief with a wry edge",
+        "s3": "quiet thinking, a spark of an idea, settling in with purpose",
+        "s4a": "held breath, then triumph, then a warm satisfied giggle",
+        "s4b": "held breath, then triumph, then snug and proud and a little bit hungry"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 13 warning. [s1] no voices: segment carries no spoken line; [s1] narration heavy: only 9% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2b] flat rhythm: sentence lengths vary little (spread 4.5); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 39% of sentences carry speech or action; [s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 9% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 39% of sentences carry speech or action",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] narration heavy: only 30% of sentences carry speech or action",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 9% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 39% of sentences carry speech or action",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] narration heavy: only 30% of sentences carry speech or action",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['hero_name', 'shell_sound']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "16_crabs_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

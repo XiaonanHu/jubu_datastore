@@ -1,0 +1,316 @@
+{
+  "id": "story.mars.age7to8.d1.pregen.a9231e",
+  "title": "The Rusty Secret of Mars",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.mars",
+    "sel_theme": null,
+    "value_lesson": "Patience: the rover goes slowly and carefully, and that is exactly why it discovers things a rushing machine would miss",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A little rover follows clues across the red planet to discover why Mars glows red like an ember.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Look what just came in,\" says Dr. Maya. She turns her screen toward you, and there it is — a brand-new picture from Mars.\n\nThe whole planet glows red. Not gray like the Moon. Not blue like Neptune. Red, like the last ember in a campfire.\n\n\"Every night, the other planets send pictures too,\" Dr. Maya says. \"Gray rocks. Blue ice. But Mars?\" She taps the screen. \"Mars is red all over. The ground, the hills, even the sky is pinkish. And nobody has ever taken a picture that shows us why.\"\n\nFar away on that red world, a little rover is waking up. His name is Rusty. He has six wheels, one long neck, and two camera eyes that swivel like an owl's.\n\nRusty looks left. Red dust. He looks right. Red rocks. He looks down at his own wheels — red! He is coated in the stuff, and it never washes off, because it never rains on Mars.\n\n\"Trundle, trundle,\" go his wheels across the rusty plain, and a speck of red dust lifts off the ground and rides the wind beside him.\n\nToday, Dr. Maya has a job for Rusty. \"Take a picture,\" she says, \"that tells us the rusty secret of Mars.\"\n\nRusty's camera eyes blink. Where does a little rover even begin?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The tracks,\" you say. Dr. Maya grins. \"Tracks it is.\"\n\nTrundle, trundle. Rusty rolls to the rim of Thumbprint Crater, and there they are — wheel tracks, pressed into the red dust long, long ago.\n\n\"Another rover made these,\" Dr. Maya says softly. \"It stopped working before you were built.\"\n\nRusty follows the tracks down, down, down, and the speck of red dust rides the wind after him. At the bottom sits the old rover, still and dusty, its camera eyes closed.\n\nBut its last pictures are still inside. Rusty plugs in a cable — click — and the pictures fly home to Earth.\n\nDr. Maya looks at the first one. Then the next. Her eyes go wide.\n\n\"These pictures are years and years old,\" she says. \"Before the big dust storm. Before everything.\" She turns the screen toward you. \"And look — the ground is red in every single one.\"\n\nYou lean in close. Red ground. Red rocks. Red, red, red.\n\n\"So the dust storm didn't make Mars red,\" you say.\n\n\"No,\" says Dr. Maya. \"Mars was already red. The rusty secret is older than we thought.\"\n\nThe little speck of dust settles on the old rover's back, and stays.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The volcano,\" you say. Dr. Maya whistles. \"Olympus Mons. The biggest volcano anybody knows.\"\n\nTrundle, trundle. Rusty climbs the long, gentle slope — so gentle it takes all morning — and the speck of red dust rides the wind beside him, up and up.\n\nAt last, Rusty's camera eyes blink at something new. Dark rock, ropy and swirled, like thick porridge poured out and frozen mid-plop.\n\n\"Lava,\" Dr. Maya breathes. \"It flowed here once, hot as soup on the stove. Now it's stone. Take the picture, Rusty.\"\n\nRusty lifts his long neck. Click.\n\nBut the picture comes back red. The lava rock is dark — the picture shows it red!\n\n\"Something's on your lens,\" Dr. Maya says. Rusty swivels one camera eye and looks at the other. There it is: one tiny speck of red dust, stuck to the glass. He wipes it with his little brush. Click again.\n\nNow the rock is dark and true.\n\nDr. Maya taps her chin. \"The dust isn't just on the ground. It floats in the air. It lands on everything — even a camera.\"\n\nYou look at the first red picture, then the clean dark one.\n\n\"Is that the secret?\" you ask. \"Is Mars red because the dust is everywhere?\"\n\n\"Maybe,\" says Dr. Maya. \"Maybe.\" And the little speck of dust rides the wind away, looking for somewhere new to settle.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Come and see,\" says Dr. Maya. She lays the new picture on the table, right beside the ones from before. \"What did you two find out there?\"\n\nYou tell her. All of it.\n\nShe listens. She nods. Then she reaches into her desk drawer and pulls out something small and ordinary — an old nail, the kind you might find in a garden shed. It is not shiny. It is not gray. It is red.\n\n\"Watch,\" she says.\n\nShe holds the rusty nail up to the screen, right next to the red dust of Mars. You lean in close.\n\nThey are the same color. Exactly the same.\n\n\"The nail is made of iron,\" says Dr. Maya. \"When iron sits out in the air long enough, it rusts — and rust is red.\" Her eyes go wide and bright. \"And Mars is covered in iron. Every rock. Every hill. The whole planet rusted, long, long ago.\"\n\nThe rusty secret of Mars.\n\nFar away, a little rover's camera eyes blink. The speck of red dust settles softly on his shoulder, like it has heard the answer too, and is glad somebody finally said it out loud.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Then let's wait,\" you say. \"Let's see what story the storm leaves.\"\n\nFar away on Mars, the wind begins to blow. It starts as a whisper, then a whoosh, then a great rumbling tumble of red dust that swallows Rusty whole. The sky turns orange. The sun shrinks to a pale coin, then vanishes completely.\n\nRusty does not panic. Rusty hunkers down. He tucks his camera eyes close, folds his solar wings, and waits, quiet as a stone. The dust storm whirls around him for one day, two days, three.\n\nThen, slowly, the wind grows tired. The sky opens like a curtain. The pale coin of sun comes back, and Rusty shakes himself — dust flying off in red puffs.\n\n\"Look at his panels,\" Dr. Maya says, pointing. The dust has settled in swirls and stripes, like the lines in a fingerprint. \"The wind painted a map on him. It shows us exactly where the storm blew.\"\n\nYou lean in. The red dust on Rusty's back tells the story of the whole storm, written in rust.\n\n\"Even the storm carries the secret,\" Dr. Maya says softly. \"It's all the same red.\"\n\nAnd far away, a little rover lifts his camera eyes to the sky, and takes a picture of the sun coming back.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Then let's look here,\" you say. \"Let's find something on Earth that wears the same red.\"\n\nYou turn from the screen, and there — on the windowsill, small as your smallest fingernail — sits a ladybug. Red shell. Dark dots. She has been there the whole time, quiet as a secret.\n\n\"Look,\" you whisper.\n\nDr. Maya looks. She smiles, and picks up the picture of Mars — the red dust, the red hills, the whole rusty planet — and holds it right beside the windowsill.\n\nYou lean in close.\n\nThey are almost the same red. Not exactly — the ladybug is brighter, shinier, alive — but close enough to make you gasp. Mars, the biggest red thing you know, and a ladybug, the smallest, wearing nearly matching coats.\n\n\"Rust is red,\" Dr. Maya says softly. \"And so is she.\"\n\nThe ladybug opens her wings — one tiny flick — and flies away into the garden. But Dr. Maya does not put the picture down. She pins it to the wall, right beside a photo of a ladybug she took last summer.\n\n\"There,\" she says. \"Now the secret has a friend.\"\n\nFar away, Rusty's camera eyes blink. He turns them around — all the way around — and takes a picture of himself, the red plain stretching behind him like a great rusty blanket. A selfie.\n\nSomething small and red to take home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Rusty can only visit one place next,\" Dr. Maya says, leaning toward the screen. \"Should we follow the old rover's tracks into the crater, or climb the giant volcano to see the frozen lava?\"",
+      "options": [
+        {
+          "say_word": "crater",
+          "label": "Follow the old rover's tracks into the crater",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "volcano",
+          "label": "Climb the giant volcano to see the frozen lava",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The mystery is solved,\" Dr. Maya says, smiling. \"But Mars has one more gift for us. Should we wait for the dust storm to pass and see what story it leaves, or look for something here on Earth that wears the same red?\"",
+      "options": [
+        {
+          "say_word": "storm",
+          "label": "Wait for the dust storm to pass and read its story",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "ladybug",
+          "label": "Look for something on Earth that wears the same red",
+          "tone_lean": "cozy",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.mars",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The question of why Mars looks red is a natural gentle mystery for an 8-year-old, with clues like iron in the dust and rover photos accumulating toward a satisfying answer.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2432,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2162,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Night the Telescope Opened)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1622,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1351,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1081,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0811,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The speck of red iron dust who rides the wind and settles on everything",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience: the rover goes slowly and carefully, and that is exactly why it discovers things a rushing machine would miss",
+      "why": "The material naturally offers this through the rover's slow movement and the way it must wait out dust storms and examine small clues; it fits the cozy mystery tone without forcing a lesson."
+    },
+    "cast": [
+      {
+        "role": "A curious Mars rover with camera eyes",
+        "reused": false,
+        "why": "The perfect named hero for a mystery about Mars; it can physically follow clues, take pictures, and carry the child through the landscape."
+      },
+      {
+        "role": "A scientist back on Earth who reads the rover's pictures",
+        "reused": false,
+        "why": "Provides the human voice for the mystery pattern, asks the opening question, and helps interpret clues with warmth."
+      },
+      {
+        "role": "A speck of red iron dust",
+        "reused": false,
+        "why": "Carries the accent tone; it is the secret-keeper who accidentally reveals the answer by being everywhere."
+      },
+      {
+        "role": "An older rover who got caught in a dust storm long ago",
+        "reused": false,
+        "why": "Offers the second clue that changes the first—old tracks and pictures that prove the red dust has been there a very long time."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Mars looks red because its dust and rocks contain iron that has rusted",
+        "Rovers on Mars are robots that drive around on wheels, take pictures, and send them back to Earth",
+        "The red dust on Mars is so fine and powdery that it can float in the air and settle on everything",
+        "Mars is home to the biggest volcano we know of, called Olympus Mons",
+        "Sometimes the whole planet Mars gets wrapped up in a giant dust storm",
+        "A crater is a round bowl-shaped dent in the ground",
+        "Rovers move very slowly, slower than a walking person",
+        "An older rover who got caught in a dust storm long ago",
+        "A child watching the rover pictures notices a ladybug on the windowsill",
+        "On the slopes of the giant volcano, the rover photographs dark, ropey rock that once flowed as glowing hot lava"
+      ],
+      "gathered_but_unused": [
+        "Mars looks red because its dust and rocks contain iron that has rusted, just like an old bike left in the rain turns reddish-brown.",
+        "The red dust on Mars is so fine and powdery that it can float in the air and settle on everything, even on the rovers' cameras.",
+        "Rovers on Mars are robots that drive around on wheels, take pictures, and send them all the way back to Earth.",
+        "Mars is home to the biggest volcano we know of, called Olympus Mons, which is about as tall as three Mount Everests stacked up.",
+        "Sometimes the whole planet Mars gets wrapped up in a giant dust storm that can last for weeks and blot out the sun.",
+        "A crater is a round bowl-shaped dent in the ground, made long ago when a rock from space crashed into Mars.",
+        "Rovers move very slowly, slower than a walking person, because they have to be careful not to get stuck in sand or bump into rocks.",
+        "Long ago, Mars had rivers and maybe lakes, and the rovers have found clues like dried-up riverbeds and pebbles rounded by flowing water."
+      ]
+    },
+    "safety_beat": "In s2a, when Rusty approaches the crater rim, Dr. Maya lightly notes that Rusty knows to keep its wheels back from the edge and use its long camera arm to peek over—competence shown once, no warning or tension.",
+    "motif": "The color red—shifting from dust to rust to a ladybug's shell.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.mars.problem_and_fix_001",
+        "title": "The Wheel in the Soft Red Dust",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      },
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already pairs a real scientific mystery with a warm, shared investigation — the speck of dust as a recurring witness, the 'trundle, trundle' sound ritual, and the nail held beside the planet give a listening child both a thing to hold and someone to hold it with."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and curious, leaning toward the screen",
+        "s2a": "a held breath, gently solemn at the sleeping rover",
+        "s2b": "busy and pleased, a small detective's satisfaction",
+        "s3": "the click of an answer landing, cozy triumph",
+        "s4a": "snug through the storm, then relief like sun coming back",
+        "s4b": "a gasp of delight, then warm and tuckered-out"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['crater_name', 'rover_name', 'scientist_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['crater_name', 'rover_name', 'scientist_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "05_mars_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,315 @@
+{
+  "id": "story.astronauts_and_space_travel.age7to8.d1.pregen.1f6839",
+  "title": "The Great Space Station Sock Chase",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.astronauts_and_space_travel",
+    "sel_theme": null,
+    "value_lesson": "The crew succeeds because each person's small job holds up everyone else's big job — teamwork as the real spacesuit",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A new crew of astronauts turns their first day on the space station into an escalating game of catch, learning that teamwork holds them together even when everything else floats apart.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are the newest crew on the space station, and today we get our first real job. Yesterday we were still in the underwater training pool, where Coach Dex taught us to tighten bolts while floating upside down. \"Slow hands,\" Coach Dex burbled through the water. \"Space likes slow hands.\"\n\nNow Commander Rosa floats beside us in the kitchen corner, with her boots hooked under a rail so she does not drift away. \"Crew,\" she says, \"unpack the kitchen. Make it ours.\"\n\nWe unzip the lunch pouch. We are careful. We are so careful.\n\nBut out pops a pea.\n\nIt does not fall. Down here, nothing falls. The pea just floats, slow and green and serious, right past Commander Rosa's ear.\n\n\"Oh,\" says Commander Rosa.\n\nThe pea bumps the window and turns, like a tiny green moon that forgot where moons go.\n\nThen the speaker crackles. \"Station, this is mission control.\" It is Flight Director Bea, and we can hear her smile. \"You have a visitor up there.\"\n\nCommander Rosa looks at us. We look at the pea. The pea looks at nobody, because it is a pea.\n\n\"Crew,\" says Commander Rosa, \"what do we call him?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Chase it!\" we shout, because we cannot help it.\n\nThe pea bobs past the sleeping bags, which are stuck to the ceiling like bats in pyjamas. We push off after it.\n\nHere is the secret nobody told us: there is no up and no down here. The ceiling is a floor if you want it to be. We bounce. We tumble. We bump the wall with our knees and laugh.\n\n\"Wait,\" says Commander Rosa, unhooking her boots. \"New game. Catch General Pea without touching any wall.\"\n\nWe reach. The pea drifts. We stretch out one long arm, and the pea turns, slow and green and serious, just past our fingertips.\n\n\"He is winning,\" says Commander Rosa, bumping the ceiling with her head. \"He has trained for this.\"\n\nThe speaker crackles. \"Station, how is the visitor?\" asks Flight Director Bea.\n\n\"Undefeated,\" says Commander Rosa. \"Mission control, why does juice climb straws?\"\n\n\"Ask Coach Dex,\" says Bea. \"And crew? He says: slow hands.\"\n\nSlow hands. We stop reaching. We wait. The pea floats closer, closer —\n\nand bumps our open palm like it meant to all along.\n\n\"Gotcha,\" we whisper.\n\n\"Now,\" says Commander Rosa, grinning, \"who wants to let him go again?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Let him go,\" we say. \"He has places to be.\"\n\nGeneral Pea drifts toward the window, slow and green and serious, like a tiny moon on important business.\n\nThe speaker crackles. \"Station, this is mission control.\" It is Coach Dex this time, and we can hear the training pool in his voice. \"If you want a real game, start bigger. One sock. Slow hands.\"\n\nOne sock. We toss it. It turns over and over like a sleepy fish, and Commander Rosa catches it against her chest.\n\n\"Too easy,\" she says. \"Next.\"\n\nA shoe. Then two socks. Then — somebody shouts it — the commander's lunchbox.\n\n\"My lunchbox,\" says Commander Rosa, delighted. \"Fine. But if we lose it, we eat toothpaste for dinner.\"\n\nThe lunchbox sails. Three of us bounce off the walls to intercept it, and Commander Rosa hooks her boots under the rail and leans out like a goalkeeper.\n\n\"Mine!\" we shout.\n\n\"Mine!\" she shouts back.\n\nThe lunchbox spins past us all, heading for the kitchen wall — the Velcro wall, where everything sticks to everything and spoons go to be lost forever.\n\n\"Oh no,\" says Commander Rosa. \"My pudding is in there.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back in the kitchen corner, the pea is still floating, slow and green and serious. But now it has company. A wobbly ball of orange juice is drifting right beside it, and both of them are heading for the control panel.\n\n\"Oh no,\" says Commander Rosa. \"My lunchbox!\"\n\nBut it is too late. The lunchbox bumps a switch. The juice ball bumps another. And suddenly the whole station is playing music — loud, bouncy, terrible music.\n\n\"My playlist!\" says Commander Rosa. \"Isn't it wonderful?\"\n\nIt is not wonderful. But Coach Dex's voice crackles over the speaker. \"Crew, time for your two hours of space exercise!\"\n\n\"Can we exercise to the music?\" we ask.\n\n\"Slow hands,\" says Coach Dex, \"but fast feet!\"\n\nSo we dance. We bounce off the walls. We spin like slow tops. The pea bobs past us, and we could swear it is dancing too.\n\nThen the Velcro chaos begins. The checklist sticks to the sock. The sock sticks to Commander Rosa. And Commander Rosa sticks to the wall.\n\n\"Crew,\" she says, wiggling one boot, \"I appear to be stuck.\"\n\nThe music plays on. The pea floats by, looking very pleased with itself.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"A chain!\" says Commander Rosa. \"Pass me down, one hand at a time.\"\n\nSo we build a chain of us. I grab the rail. You grab my ankle. The next hand grabs yours. We stretch down the module, wobbling like a slow banner, and the last hand grabs Commander Rosa's boot.\n\n\"Pull!\" we shout.\n\nWe pass her along, hand over hand, and every small handhold matters. My job is just to hold on. But my holding holds you, and your holding holds her. Rip! The Velcro lets go, and the whole chain sproings into a giggling knot.\n\n\"Crew,\" says Commander Rosa, peeling a sock off her shoulder, \"that is exactly how a crew works.\"\n\nThen she goes quiet. \"Look.\"\n\nOutside the window, the Earth is sliding into its ninth sunrise of the day. And there hangs the Moon, close and bright and round.\n\n\"Some crews are training right now,\" she says softly, \"to walk on that.\"\n\nWe press our noses to the glass. Behind us, the pea bumps gently against the window, turning slow and green and serious.\n\n\"He wants to be a moon too,\" we say.\n\nSo we tuck him into a pouch, safe and snug, our very own tiny green moon to take home.\n\n\"Slow hands,\" says Commander Rosa, smiling. \"Good work, crew.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"A race!\" says Commander Rosa, wiggling her stuck boot. \"Far end of the station. No touching anything. And the winner is whoever crashes the softest.\"\n\n\"You're stuck,\" we point out.\n\n\"Then you'd better crash into me very, very softly.\"\n\nWe push off. We float. No hands, no feet, just us drifting down the whole long module like slow dandelion fluff. The terrible music plays. The pea bobs alongside us, racing too, in its solemn pea way.\n\n\"Don't touch the walls!\" calls Commander Rosa.\n\nToo late. You bonk a rail. I spin like a top. We are not winning on style.\n\nBut ahead of us, the sleeping bags wait, fat and puffy and strapped to the wall right beside the commander. We aim for the softest one. We tuck. We land.\n\nFloof.\n\nIt is the softest crash in the history of crashing. The whole wall of sleeping bags puffs out, and the Velcro lets go with a happy rip, and Commander Rosa tumbles into the pile with us, laughing so hard she can't talk.\n\nThe speaker crackles. \"Station, this is mission control.\" Flight Director Bea is laughing too. \"We've been watching. You are officially the silliest crew in orbit.\"\n\nWe unstrap a Moon dust sticker from the care package and press it on our sleeve. And past the window, slow and green and serious, General Pea sails on, orbiting his station, keeping an eye on his crew.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do we chase that runaway pea right now, or do we start the game of catch with something bigger?\"",
+      "options": [
+        {
+          "say_word": "Chase it",
+          "label": "Chase the pea through the station",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Bigger game",
+          "label": "Start with a sock and escalate",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do we build a human chain to pass me down, or do we race to see who can float the farthest without touching anything?\"",
+      "options": [
+        {
+          "say_word": "Human chain",
+          "label": "Build a human chain to free the commander",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Float race",
+          "label": "Race to float without touching anything",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.astronauts_and_space_travel",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 12
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "romp",
+      "why": "Astronaut training and crew teamwork are full of inherently silly, escalating physical comedy—floating weightless, bumping into each other, chasing drifting snacks—so the romp's playful escalation is naturally fed by this material for an 8-year-old.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": true,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Commander Rosa, whose terrible playlist and earnest questions about why juice climbs straws carry the curious wonder",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "The crew succeeds because each person's small job holds up everyone else's big job — teamwork as the real spacesuit",
+      "why": "The material naturally offers this through the human chain resolution and the way the crew's mistakes are met with help and laughter, not blame"
+    },
+    "cast": [
+      {
+        "role": "The newest crew member (we, first person plural)",
+        "reused": false,
+        "why": "We are the newest crew member, floating feet-first and learning that catching runaway objects is the first step to belonging"
+      },
+      {
+        "role": "Commander Rosa",
+        "reused": false,
+        "why": "Keeps the small crew working as one team, assigns the jobs, and carries the accent of curious wonder through her questions about weightlessness"
+      },
+      {
+        "role": "Flight Director Bea",
+        "reused": false,
+        "why": "Mission control voice on the headset, calm and funny, who calls up about the escaped pea and suggests which button to press when things get strange"
+      },
+      {
+        "role": "Coach Dex",
+        "reused": false,
+        "why": "Ground crew fitness coach who insists on the two hours of space-exercise and invents the game that escalates"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "underwater training pool with sunken pretend space station",
+        "mission control with glowing screens and lucky peanuts",
+        "space station kitchen corner with Velcro",
+        "space station gym with harness treadmill",
+        "the game of catch that escalates",
+        "Velcro chaos — everything sticks to everything",
+        "exercise hour escalates with pen bonking switch",
+        "mission control calls up about the escaped pea",
+        "packing for home with human chain",
+        "a race to float without touching anything",
+        "sixteen sunrises and sunsets every day",
+        "the Moon hangs close and bright at the window",
+        "juice climbing the straw and becoming a floating orange ball",
+        "sleeping bag stuck to the ceiling like a bat in pyjamas"
+      ],
+      "gathered_but_unused": [
+        "Astronauts train underwater in a giant pool because floating in water feels a lot like floating in space.",
+        "There is no up or down in space, so astronauts sleep strapped to walls, ceilings, wherever there's room.",
+        "In orbit, a dropped spoon doesn't fall — it just hangs in the air waiting for you to come back.",
+        "Astronauts' food has to be sticky or in pouches, because crumbs float into noses and equipment.",
+        "On the space station, the sun rises and sets sixteen times every single day.",
+        "Weightlessness makes astronauts' spines stretch, so they come home a few centimetres taller for a little while.",
+        "Mission control is a room full of people on the ground whose whole job is helping the crew do theirs.",
+        "Astronauts exercise about two hours a day in space, or their muscles get lazy in weightlessness."
+      ]
+    },
+    "safety_beat": "In the underwater training pool flashback, the astronaut trainer shows once, lightly, that she knows where to stand by placing her hand on the pool edge rail before giving the signal — competence, never warning.",
+    "motif": "The escaped pea, drifting solemnly through the story and finally becoming a tiny green moon in the crew's window",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances mischief, warmth, and wonder with a strong read-aloud voice: the repeated 'slow and green and serious' pea, the fond crew dynamic, and the two distinct endings (one snug, one giggly) each land their own satisfaction without needing a fix."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "bubbly anticipation, then a giggle at the runaway pea",
+        "s2a": "gleeful chase, then the held-breath hush of 'slow hands' paying off",
+        "s2b": "escalating giggles as the game grows, ending on a comic uh-oh",
+        "s3": "chaotic, bouncy delight with everything sticking to everything",
+        "s4a": "teamwork triumph melting into quiet awe at the window, then snug and sleepy",
+        "s4b": "silly suspense, a soft floof of a landing, and satisfied laughter"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 10 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.7); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.2); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 33% of sentences carry speech or action; [s4b] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 33% of sentences carry speech or action",
+      "[s4b] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 33% of sentences carry speech or action",
+      "[s4b] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['chase_object', 'crew_name', 'landing_style', 'pea_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "13_astronauts_and_space_travel_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

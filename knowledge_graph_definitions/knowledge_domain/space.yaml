@@ -1,0 +1,230 @@
+axis: knowledge_domain
+pack: space
+nodes:
+  - id: knowledge_domain.the_moon
+    axis: knowledge_domain
+    label: the_moon
+    display_name: "The Moon"
+    region: space
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the friendly light in the night sky; why it seems to follow you", vocabulary: [moonlight, glow, crater]}
+      6: {depth: sensory, framing: "the moon changes shape night by night; footprints that never blow away", vocabulary: [crescent, full moon, crater]}
+      7: {depth: mechanism, framing: "why the moon has phases; orbiting the Earth", vocabulary: [orbit, phase, reflect]}
+      8: {depth: mechanism, framing: "gravity holds the moon in orbit; tides tug on the sea", vocabulary: [gravity, tide, lunar]}
+      9: {depth: system, framing: "the moon landings; how the moon shapes life on Earth", vocabulary: [Apollo, lunar module, eclipse]}
+      10: {depth: system, framing: "returning to the moon; moon bases and what living there would take", vocabulary: [regolith, lunar orbit, mission]}
+    edges:
+      adjacent: [knowledge_domain.the_sun, knowledge_domain.astronauts_and_space_travel, knowledge_domain.oceans_and_tides]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-ESS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.the_sun
+    axis: knowledge_domain
+    label: the_sun
+    display_name: "The Sun"
+    region: space
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the big warm light that wakes up the day; sunshine on your skin", vocabulary: [sunshine, warm, bright], avoid: ["characters staring directly at the sun"]}
+      6: {depth: sensory, framing: "shadows shrink and stretch as the sun crosses the sky", vocabulary: [sunrise, sunset, shadow], avoid: ["characters staring directly at the sun"]}
+      7: {depth: mechanism, framing: "the sun is a star; Earth spins, so the sun only seems to move", vocabulary: [star, spin, sunlight], avoid: ["characters staring directly at the sun"]}
+      8: {depth: mechanism, framing: "sunlight carries energy that warms land and sea and feeds plants", vocabulary: [energy, solar, ray], avoid: ["characters staring directly at the sun"]}
+      9: {depth: system, framing: "the sun drives weather and seasons across the whole planet", vocabulary: [solar energy, atmosphere, climate], avoid: ["characters staring directly at the sun"]}
+      10: {depth: system, framing: "our nearest star up close; sunspots, solar flares, and how scientists study it safely", vocabulary: [sunspot, solar flare, corona], avoid: ["characters staring directly at the sun"]}
+    edges:
+      adjacent: [knowledge_domain.the_moon, knowledge_domain.day_and_night, knowledge_domain.weather]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-ESS1-1", "5-ESS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.planets
+    axis: knowledge_domain
+    label: planets
+    display_name: "Planets"
+    region: space
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "there are other worlds in the sky; some big, some small, some with rings", vocabulary: [planet, rings, sky]}
+      6: {depth: sensory, framing: "every planet is different; a red dusty one, a giant stormy one, an icy faraway one", vocabulary: [Mars, Jupiter, telescope]}
+      7: {depth: mechanism, framing: "planets circle the sun on paths called orbits; why they shine steadily instead of twinkling", vocabulary: [orbit, rocky planet, gas giant]}
+      8: {depth: mechanism, framing: "what makes each planet the way it is; distance from the sun changes everything", vocabulary: [atmosphere, surface, temperature]}
+      9: {depth: system, framing: "comparing planets as whole worlds; moons, rings, and the robot probes that visit them", vocabulary: [probe, moon, ring system]}
+      10: {depth: system, framing: "exoplanets around other stars; how astronomers find worlds they cannot see directly", vocabulary: [exoplanet, astronomer, transit]}
+    edges:
+      adjacent: [knowledge_domain.the_sun, knowledge_domain.the_solar_system, knowledge_domain.stars_and_constellations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.stars_and_constellations
+    axis: knowledge_domain
+    label: stars_and_constellations
+    display_name: "Stars and Constellations"
+    region: space
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "tiny lights that come out at night; making pictures by connecting the dots", vocabulary: [star, twinkle, night sky]}
+      6: {depth: sensory, framing: "star pictures have names and old stories; finding the same stars every clear night", vocabulary: [constellation, Big Dipper, stargazing]}
+      7: {depth: mechanism, framing: "stars are faraway suns; why we only see them when our side of Earth faces away from the sun", vocabulary: [starlight, distant, sunlike]}
+      8: {depth: mechanism, framing: "sailors and travelers steering by the stars; the North Star that stays put while others wheel around it", vocabulary: [North Star, navigate, horizon]}
+      9: {depth: system, framing: "stars have life stories; born in glowing clouds, changing slowly over unimaginable ages", vocabulary: [nebula, red giant, light-year]}
+      10: {depth: system, framing: "our sun is one star among billions in the Milky Way; how astronomers map the galaxy", vocabulary: [galaxy, Milky Way, astronomer]}
+    edges:
+      adjacent: [knowledge_domain.planets, knowledge_domain.the_sun, knowledge_domain.maps_and_globes]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-ESS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.astronauts_and_space_travel
+    axis: knowledge_domain
+    label: astronauts_and_space_travel
+    display_name: "Astronauts and Space Travel"
+    region: space
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "floating inside a spaceship; astronauts eat, sleep, and play upside down", vocabulary: [astronaut, rocket, float], avoid: ["astronauts lost or stranded in space", "spacecraft in mortal danger"]}
+      6: {depth: sensory, framing: "suiting up for a spacewalk; what an astronaut packs for a trip to space", vocabulary: [spacesuit, launch, spacewalk], avoid: ["astronauts lost or stranded in space", "spacecraft in mortal danger"]}
+      7: {depth: mechanism, framing: "how a rocket pushes itself up; daily life aboard the space station", vocabulary: [rocket engine, space station, orbit], avoid: ["astronauts lost or stranded in space", "spacecraft in mortal danger"]}
+      8: {depth: mechanism, framing: "training to be an astronaut; how a crew works as a team far from home", vocabulary: [mission control, crew, weightless], avoid: ["astronauts lost or stranded in space", "spacecraft in mortal danger"]}
+      9: {depth: system, framing: "the story of human spaceflight, from the first orbit to walking on the moon", vocabulary: [Apollo, cosmonaut, launch pad], avoid: ["astronauts lost or stranded in space", "spacecraft disasters"]}
+      10: {depth: system, framing: "planning a trip to Mars; the hard problems of long journeys through space", vocabulary: [Mars mission, life support, rover], avoid: ["astronauts lost or stranded in space", "spacecraft disasters"]}
+    edges:
+      adjacent: [knowledge_domain.the_moon, knowledge_domain.gravity, knowledge_domain.flight]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.day_and_night
+    axis: knowledge_domain
+    label: day_and_night
+    display_name: "Day and Night"
+    region: space
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "the sky changes from bright to dark; hello sun, hello stars", vocabulary: [daytime, nighttime, sunset]}
+      6: {depth: sensory, framing: "some animals wake up when you go to bed; the world keeps busy at night", vocabulary: [dusk, dawn, moonlight]}
+      7: {depth: mechanism, framing: "the Earth spins like a top; your home turns away from the sun at night", vocabulary: [spin, rotate, Earth]}
+      8: {depth: mechanism, framing: "one full spin takes a day; why it is morning here and bedtime on the other side of the world", vocabulary: [rotation, time zone, hemisphere]}
+    edges:
+      adjacent: [knowledge_domain.the_sun, knowledge_domain.nocturnal_animals, knowledge_domain.seasons]
+      prerequisite: []
+    crosswalk:
+      ngss: ["1-ESS1-1", "1-ESS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.comets_and_meteors
+    axis: knowledge_domain
+    label: comets_and_meteors
+    display_name: "Comets and Meteors"
+    region: space
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "shooting stars are space pebbles burning up; comets are dusty snowballs with glowing tails", vocabulary: [meteor, comet, tail], avoid: ["comets or asteroids destroying Earth", "doomsday impact scenarios"]}
+      8: {depth: mechanism, framing: "why a comet grows a tail near the sun; meteor showers you can watch from a blanket", vocabulary: [meteor shower, orbit, ice], avoid: ["comets or asteroids destroying Earth", "doomsday impact scenarios"]}
+      9: {depth: system, framing: "comets loop through the solar system on long orbits; famous visitors like Halley that return on schedule", vocabulary: [Halley, asteroid, orbit path], avoid: ["comets or asteroids destroying Earth", "doomsday impact scenarios"]}
+      10: {depth: system, framing: "space rocks as time capsules from when the planets formed; missions that landed on comets", vocabulary: [asteroid belt, spacecraft, sample], avoid: ["comets or asteroids destroying Earth", "doomsday impact scenarios"]}
+    edges:
+      adjacent: [knowledge_domain.the_solar_system, knowledge_domain.gravity, knowledge_domain.rocks_and_minerals]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.gravity
+    axis: knowledge_domain
+    label: gravity
+    display_name: "Gravity"
+    region: space
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "the invisible pull that brings a thrown ball back down every single time", vocabulary: [pull, fall, weight]}
+      8: {depth: mechanism, framing: "everything pulls on everything; the bigger something is, the stronger its pull", vocabulary: [gravity, force, mass]}
+      9: {depth: system, framing: "gravity holds moons to planets and planets to the sun; the glue of the whole sky", vocabulary: [orbit, attraction, weightless]}
+      10: {depth: system, framing: "why astronauts float; falling around the Earth and what it takes to escape its pull", vocabulary: [free fall, escape velocity, microgravity]}
+    edges:
+      adjacent: [knowledge_domain.flight, knowledge_domain.the_solar_system, knowledge_domain.black_holes]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-PS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.the_solar_system
+    axis: knowledge_domain
+    label: the_solar_system
+    display_name: "The Solar System"
+    region: space
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "the sun and its family of planets; putting our neighborhood in order from hot to cold", vocabulary: [solar system, inner planet, outer planet]}
+      8: {depth: mechanism, framing: "what holds the solar system together; belts of rock and ice tucked between the planets", vocabulary: [asteroid belt, dwarf planet, orbit]}
+      9: {depth: system, framing: "the solar system as one big machine shaped by the sun's pull, out to its icy far edges", vocabulary: [Kuiper Belt, Pluto, astronomical]}
+      10: {depth: system, framing: "how the whole solar system formed from a spinning cloud of dust and gas", vocabulary: [formation, dust cloud, protoplanet]}
+    edges:
+      adjacent: [knowledge_domain.planets, knowledge_domain.the_sun, knowledge_domain.gravity, knowledge_domain.comets_and_meteors]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.black_holes
+    axis: knowledge_domain
+    label: black_holes
+    display_name: "Black Holes"
+    region: space
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "places where gravity is so strong that not even light escapes; how astronomers find what they cannot see", vocabulary: [black hole, event horizon, telescope], avoid: ["black holes swallowing Earth or the sun", "characters pulled into a black hole", "black holes framed as monsters that hunt"]}
+      10: {depth: system, framing: "what falls in never comes back out; the giant black holes at the hearts of galaxies", vocabulary: [singularity, galaxy center, gravity well], avoid: ["black holes swallowing Earth or the sun", "characters pulled into a black hole", "black holes framed as monsters that hunt"]}
+    edges:
+      adjacent: [knowledge_domain.gravity, knowledge_domain.stars_and_constellations, knowledge_domain.the_solar_system]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

@@ -1,0 +1,298 @@
+{
+  "id": "story.the_sun.age7to8.d1.pregen.cf57d2",
+  "title": "The Chocolate That Wouldn't Melt",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_sun",
+    "sel_theme": null,
+    "value_lesson": "Persistence feels different when you understand WHY the fix failed, not just that it failed",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "We want to throw a solar-oven snack party in the school garden, but the chocolate won't melt until we learn, failure by failure, how the Sun's rays really carry their energy into the box.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The garden club meets after school, between the raised beds, where the sundial points its long shadow across the path. Granny Rosa is waiting for us, holding a cardboard box lined with foil. \"This, cariños, is a little sun-trap,\" she says. \"A solar oven.\" Pip leans in so close his nose nearly touches it. \"Does it work?\" \"Sunlight is energy,\" says Granny Rosa. \"It travels eight whole minutes to reach us. Aim it right, and it warms land and sea, feeds every plant in this garden — and melts chocolate.\" She says the party is Friday. A melty-snack party, if we can make the oven work. Nobody in our club has ever made one work. Pip licks the spoon anyway, before we've even started. \"Just checking,\" he says. Miso the cat is already asleep in the brightest patch of path, purring like a tiny engine. Granny Rosa sets the box on the sundial's stone. \"One sunbeam,\" she says. \"That's all we need to catch.\" We look at the box. We look at the sky. Friday is very soon.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Feel first,\" we say. \"Where is the warmth hiding?\"\n\nGranny Rosa presses her palm flat on the sundial stone. \"Here,\" she says. We press ours down beside hers. The stone is warm as toast. \"The sunbeam left its energy right here.\"\n\nWe try the sunny path. Warm. We try the soil under the big shady leaves. Cool as bathwater gone cold. \"The sunny spots keep the rays,\" says Pip, hopping from one to the other. \"The shady ones never got them.\"\n\nAnd Miso the cat? She has moved. She was asleep by the gate this morning. Now she is stretched out on the warm stone, purring like a tiny engine, right where the sunbeam landed. \"She follows it,\" we whisper. \"All afternoon, she follows it.\"\n\nThen we peek inside the oven. The chocolate is still hard as a coin.\n\nPip groans. \"Impossible.\"\n\nBut wait. We look closer at the foil. It is dull. Pale. Not shiny at all. \"Granny Rosa,\" we say slowly. \"The foil is backwards. The dull side is out.\"\n\nShe taps it with one finger. \"The sunbeam knocked, cariños,\" she says. \"But we did not let it in.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"A race,\" we say. \"Make the sunbeam prove it.\"\n\nGranny Rosa brings two squares of paper — one black, one white — and lays them side by side on the sunny path. On each one, she sets an ice cube. \"Same sun,\" she says. \"Same rays. Now we watch.\"\n\nWe crouch down. We wait.\n\nThe black paper's cube slumps first. It goes soft, then flat, then it is a puddle soaking into the paper. The white paper's cube just sits there, barely sweating, like it has all day.\n\n\"The black one drank the rays!\" Pip shouts. \"The white one bounced them away!\"\n\n\"Dark things hold the energy,\" says Granny Rosa. \"Pale shiny things send it back.\"\n\nAnd that is when we see it. We look at our oven. We look at the foil. It is dull. Pale. Not shiny at all. \"Granny Rosa,\" we say slowly. \"The foil is backwards. We glued it dull side out.\"\n\nShe taps it with one finger. \"This side says go away,\" she says. \"The shiny side says come in.\"\n\nPip stares at the oven. Then at the puddle. Then at the oven again. \"So the sunbeam came,\" he says, \"and we told it to leave?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Pip is still turning his discovery over in his hands when Granny Rosa claps once. \"So,\" she says. \"Tell me what you found.\" We tell her, both of us talking at once, and she listens the way she listens to seedlings — all the way to the end. \"Then we know the rule,\" she says. \"A ray carries energy. We must catch it, not bounce it.\" We peel the foil off, flip it shiny side out, and smooth it down with our thumbs. Granny Rosa props the lid open with a stick. \"Now we wait.\" We wait. Miso waits too, curled in his bright patch, purring. When we lift the lid, the chocolate is soft only at the very edges. The middle sits there, hard as a button. Pip sags. \"We fixed it,\" he says. \"Why isn't it fixed?\" Then I see it. The sunbeam isn't in the box at all. It's lying on the path, bright as spilled honey, a whole step to the left. \"The lid's tilted wrong,\" I say. \"We aimed it and the light walked away.\" Pip groans. But Granny Rosa just points at Miso, who has moved three times this afternoon, each time into the sun. \"The cat does not give up when the light walks,\" she says. \"He walks with it.\" We look at the seedlings, all leaning the same way. We turn the oven like a face toward the light.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We out-wait it,\" we say. \"Like the cat.\" So we wedge the stick lower, and the foil lid tilts until the sunbeam slides off the path and lands inside the box, right on the chocolate. \"There,\" whispers Pip. \"We invited it in.\" Granny Rosa sets a stone where the oven's shadow falls. \"The Sun walks,\" she says. \"Every twenty minutes, we walk the box after it.\" And we do. All afternoon we turn our little sun-trap like a sunflower turning its face. Then Pip shouts. \"It's moving! The chocolate is moving!\" It bubbles. It shines. The whole garden smells like a candy shop. At Friday's party, Granny Rosa raises her cup. \"To the sunbeam we finally invited in.\" We each take home a seedling pot for our own sunny sills. That night, Pip watches moonlight lie on his windowsill, pale and cold, with no energy in it at all. He opens his garden journal and writes: the Sun is a stove.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"We out-smart the sky,\" we say. Because the forecast has turned. Grey clouds are coming, and Friday looks doomed. But Granny Rosa taps the sundial. \"The Sun keeps banker's hours, cariño. My mother taught me. Catch it early, and save it.\" So all week we watch the clouds and chase the bright mornings. On Thursday, the sky opens wide and blue. We aim the sun-trap, and the sunbeam lands square on a whole tray of chocolate. It bubbles. It shines. We fill a dark coiled hose with water, and the Sun warms it through, just like Granny's old baths. Friday dawns grey as dishwater. But our saved solar snacks are ready, and the whole class eats sun-cooked chocolate under a cloudy sky. \"We caught the sunshine before the grey even got here,\" says Pip, grinning. We take home a chart of clouds-versus-sun, and Pip titles it: We Outsmarted the Weather. One seedling pot each, too — for the first sunny windowsill we can find.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The chocolate is still hard as a coin, and Pip wants to quit. So — do we go feel where the sun's warmth is hiding in this garden, or do we make the sunbeam prove itself with a little race?\"",
+      "options": [
+        {
+          "say_word": "Go feel",
+          "label": "Walk the garden pressing palms to stone, soil, and path to feel where the Sun's energy lands — and follow Miso the cat",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Race it",
+          "label": "Set up the black-paper vs white-paper ice cube race to see which one soaks up more solar energy",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Two ways to catch this sunbeam, cariño. Do we out-wait it — aim the oven like a sunflower and follow the light all afternoon? Or do we out-smart the sky — watch the clouds and harvest the sunshine before the grey days come?\"",
+      "options": [
+        {
+          "say_word": "Out-wait it",
+          "label": "Angle the flap just right and keep re-aiming the oven as the Sun moves, melting the chocolate the patient way",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Out-smart it",
+          "label": "Track clouds against the sundial, catch one bright morning, and pre-cook the party snacks with stored solar energy",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_sun",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 10
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The topic of sunlight carrying energy that warms and feeds plants naturally supports a problem-and-fix structure where a child character might try to help a cold garden or struggling plant by understanding how solar energy works, with clear obstacles and solutions that fit an 8-year-old's reasoning.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Granny Rosa, the garden volunteer who remembers sun-dried tomatoes and warm hose-water baths, and who calls the solar oven 'a little sun-trap, cariño'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Persistence feels different when you understand WHY the fix failed, not just that it failed",
+      "why": "The pattern material is literally built on diagnosing failures (dull foil, tilted lid), so the value rides along naturally without preaching; Pip's arc carries it."
+    },
+    "cast": [
+      {
+        "role": "Granny Rosa, grandmother and garden volunteer who remembers old sun tricks",
+        "reused": false,
+        "why": "She carries the accent tone and the grandmother character from the material; her old tricks (dark hoses warming water, herbs drying in the sun) seed the clues that solve the problem."
+      },
+      {
+        "role": "Pip, a younger kid in our garden club who gives up quickly",
+        "reused": false,
+        "why": "The younger-sibling material; his wobble after the first flop creates the emotional stake that makes trying again feel earned."
+      },
+      {
+        "role": "Miso the garden cat who always finds the warmest sunny spot",
+        "reused": false,
+        "why": "The cat material; he comically demonstrates that warmth follows the Sun's rays, quietly teaching the clue that fixes the oven."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "solar oven that won't melt the chocolate: dull foil, tilted lid, then angled flap",
+        "sunlight is energy that travels far and warms ground, sand, sea",
+        "plants catch sunlight with leaves to make food; seedlings lean toward light",
+        "shade feels cooler because rays are blocked",
+        "grandmother's old tricks: drying herbs in sun, warming water in dark hoses",
+        "cat who always finds the warmest sunny spot",
+        "school garden with raised beds and a sundial",
+        "ray catcher race: black paper vs white paper with ice cubes",
+        "Moon moment: moonlight weak and cold compared to sunshine",
+        "Weather moment: cloudy week delays the party, tracking clouds vs sun"
+      ],
+      "gathered_but_unused": [
+        "Sunlight is energy that travels a very long way from the Sun and warms up the ground, the sand, and the sea when it lands.",
+        "Plants catch sunlight with their leaves and use that energy to make their own food out of air and water.",
+        "The sea takes longer than land to warm up, so in spring the sand can feel toasty while the water is still freezing.",
+        "You can use sunlight to cook a snack in a cardboard solar oven, just by letting the Sun's rays do all the work.",
+        "Plants lean and stretch toward the light, because catching more rays means more food for them.",
+        "The Sun's energy is what makes water rise from puddles and seas and later fall as rain, so sunlight moves all the water on Earth.",
+        "Shade feels cooler because something is blocking the Sun's rays, so the energy lands on the umbrella instead of on you.",
+        "Without the Sun's energy, there would be no food at all, because every fruit, vegetable, and slice of bread started as a plant catching light."
+      ]
+    },
+    "safety_beat": "In s1, as we crowd around the oven, Granny Rosa casually positions us: 'We look at the box, not at the big lamp in the sky — the chocolate tells us everything the Sun is doing.' Competence shown once, lightly, with no warning language and no tension.",
+    "motif": "A single sunbeam we keep chasing and finally catch — first bouncing wrong off dull foil, then missing the box entirely, then angled perfectly into bubbling chocolate.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a real problem is pursued through patient, legible steps, the science lands in felt images (warm as toast, hard as a coin, bright as spilled honey), and Granny Rosa's fond attention plus Miso's quiet sun-chasing give the competence a warm companionable floor."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and invited, with a giggle at Pip licking the spoon",
+        "s2a": "hands-on discovery, then a small satisfying click",
+        "s2b": "crouched-down suspense, then a triumphant shout",
+        "s3": "a held breath of almost-failure turning into resolve",
+        "s4a": "leaning in, then bubbling delight and a sleepy glow",
+        "s4b": "scheming excitement, then cozy victory under grey skies"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s2a] flat rhythm: sentence lengths vary little (spread 3.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.2); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['oven_name', 'party_snack']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['oven_name', 'party_snack']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "11_the_sun_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

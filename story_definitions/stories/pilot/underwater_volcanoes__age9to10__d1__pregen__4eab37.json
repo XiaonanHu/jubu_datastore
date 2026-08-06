@@ -1,0 +1,326 @@
+{
+  "id": "story.underwater_volcanoes.age9to10.d1.pregen.4eab37",
+  "title": "The Tangle in the Hot Water",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.underwater_volcanoes",
+    "sel_theme": null,
+    "value_lesson": "Observe before you force",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "A storyteller recalls helping a crazy-inventor crab unclog a deep-sea vent to save his bacterial garden, learning that sometimes you must work with the water, not against it.",
+  "slots": {
+    "submersible_name": {
+      "role": "The deep-sea submersible the storyteller pilots",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Bubble"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Down, down, down we go, in my trusty submersible, {submersible_name}. It's a good ship, mostly. The lights are bright, the buttons beep, and the kettle usually works. Outside the window, the water gets darker and darker, until it's blacker than the bottom of a well. But we are not alone. Look! A little fish with a light on its head, like a tiny reading lamp. It blinks at us. We blink back.\n\nWe're heading for the mid-ocean ridge, a long, long mountain range at the bottom of the sea. There are no trees, no snow, just stone pillows, soft when new, hard when cold, and always in the way. That's where my friend lives: Professor Pincers, the yeti crab. He's very clever. He wears a diving helmet made from a giant clam shell and carries three wrenches, even though he only has two claws. I never asked about the third wrench. It seemed rude.\n\nSuddenly, the radio crackles. \"Mayday! Mayday! Is that you?\" It's the Professor. His voice is wobbly. \"My garden! My beautiful, fuzzy garden is fading!\" His garden is not flowers. It's a field of bacteria, tiny living specks that he farms on his own claws. They live on chemical energy, not sunshine. It's the only snack bar for miles. \"Come quickly!\" he squeaks. \"Bring your biggest brain!\"\n\nWe push the lever. {submersible_name} hums a little faster. Ahead, a shimmery glow rises from the seafloor, like heat rising from a hot road. The hydrothermal vent field. Whole neighborhoods of animals crowd around the hot vents in the dark, a bustling underwater city. But something is wrong. The tube worms are droopy. The water is cloudy. And there, on a pillow of stone, is Professor Pincers, waving all three wrenches in a panic.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Follow my claw! Follow my claw!\" shouts Professor Pincers, waving it so hard his helmet wobbles. \"It's doing the wiggling!\" We steer {submersible_name} after his pointing claw, bumping over the stone pillows. Bump. Bump. \"Pardon me,\" I say to one particularly lumpy pillow. The water here is cloudy and thick, like soup left too long on the stove. The Professor scuttles ahead, his three wrenches clanking against his shell. We turn a corner, and there it is. A black smoker chimney, big as a house, has toppled over. It lies across the vent opening like a giant dropped a stone log across a doorway. The hot water that should be bubbling up is trapped underneath. \"My bacteria!\" the Professor wails. \"They're starving! No chemical energy means no food!\" The tube worms nearby are drooping, their red plumes pale as old socks. The water feels cold. Very cold. And getting colder.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Quick! The thermometer!\" Professor Pincers cries, tapping the glass of his helmet with a wrench. \"We must know how much chemical energy we've lost!\" I grab the long probe and stick it out the window of {submersible_name}. The numbers flash. Twenty degrees. Then fifteen. Then ten. \"It's dropping fast,\" I say, my stomach doing a little flip. \"Like a bathtub when the plug is pulled.\" The Professor scuttles over, his claws clicking on the seafloor. He points a wrench at the gauge. \"Without the hot water, the chemical energy stops flowing,\" he says, his voice very small. \"My bacteria can't make food. And if they can't make food...\" He doesn't finish. He doesn't have to. We both look at the tube worms. Their red plumes are pale and droopy, like flowers that haven't been watered in a week. The whole neighborhood is hungry. And the water is getting colder by the minute. We have to fix this. Now.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Right,\" says Professor Pincers, tapping his clam-shell helmet. \"Time for brute force. Rosie, fetch!\"\n\nI push the lever. {submersible_name} glides forward, and out swings Rosie, my trusty robotic arm. She is very strong. She is not very clever. I aim her right at the lump of pillow lava blocking the vent, the one we need to move. \"Grab it,\" I whisper. \"Gently.\"\n\nRosie grabs. And squishes. The pillow is still hot and soft, like dough that has not finished baking. It oozes between her metal fingers and sticks there in long grey strings. \"Oh, Rosie,\" I sigh. She looks embarrassed, or as embarrassed as a robotic arm can look.\n\n\"Plan B!\" shouts the Professor, waving a wrench. \"Blast it with water! Cold water! That will loosen it!\"\n\nI aim the thruster hose. Whoosh! The cold water hits the hot pillow, and we both watch it happen: the doughy rock freezes solid in an instant, harder than before, a great stone plug sitting smack on top of the vent. \n\nThunk. That is the sound of two plans failing.\n\nThe Professor's claws droop. His fuzzy garden droops too. But then I notice something. The water above the vent is shimmering, wiggling, like the air over a hot road. The heat is still down there, pushing, shoving, trying to get out. The current itself is nudging at that plug, again and again, like a shoulder against a stuck door.\n\n\"Professor,\" I say slowly. \"What did you just find out there? Because I think the water wants to help us.\" His eyes go wide. The third wrench twitches. \"Tell me everything,\" he whispers. \"And then... we stop pushing. And we let the mountain push for us.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "“Thrusters!” I shout. “Rosie, hold tight!”\n\nI swing {submersible_name} around until our nose points with the shimmer, not against it. The water is already pushing, a warm river in the dark. We just have to add our voice to its song.\n\n“On three,” says Professor Pincers, climbing onto the window ledge. His eyes are bright. “One. Two. THREE!”\n\nI push the lever. WHOOSH! Our thrusters blast, and the shimmer current catches us, lifts us, carries us forward like a giant invisible hand. We are surfing on hot water! The Professor whoops and waves a wrench.\n\nThe current hits the plug. Pebbles and grey strings of hard lava tumble away like crumbs off a table. Smaller stones dance. And then—\n\nPOP!\n\nThe plug spins free, and hot water bursts up in a shimmering column, black and glittering. The vent is open!\n\nThe tube worms shoot up like red fireworks. The Professor leaps from the ledge and lands smack in the warm flow, claws waving, his fuzzy garden drinking in the chemical energy. He does a little dance, right there on the seafloor, three wrenches jingling.\n\nLater, when the celebrating is done, he presses something into my hand. A small stone, cool and smooth, shaped like a lumpy pillow. “For your shelf,” he says. “Soft when new, hard when cold. Like all the best ideas.”\n\nWe wave goodbye and rise, rise, rise through the dark. In my pocket, the stone pillow sits warm against my leg. Or maybe that’s just me, still smiling.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "“Rosie’s turn,” I whisper. “Slow and steady.”\n\nI ease {submersible_name} closer. Professor Pincers crouches by the window, one claw raised, ready to guide.\n\n“Easy,” he murmurs. “Easy does it.”\n\nRosie’s metal fingers reach out, slow as syrup, and touch the first loose stone. Nudge. It rolls an inch. The shimmer current catches it, and whoosh—away it goes, tumbling into the dark.\n\n“Again,” says the Professor.\n\nNudge. Whoosh. Another stone spins free. Nudge. Whoosh. One by one, the pebbles and grey strings drift off, carried away by the water that wants to help. The plug gets smaller. Lighter. The shimmer grows stronger, pushing harder, until—\n\nPOP!\n\nThe last chunk shoots upward, and hot water explodes out in a glittering black fountain! The vent is clear!\n\nThe tube worms stretch tall, tall, taller, their red plumes waving like flags at a parade. Professor Pincers throws both claws in the air and clicks them together so hard his helmet rattles. His fuzzy garden drinks deep, and I swear I see it grow fuzzier right before my eyes.\n\nHe disappears for a moment, down to the vent’s edge, and comes back holding something that glitters. A tiny crystal, clear as ice, formed in the hot water’s breath. “For you,” he says, dropping it into my hand. “Proof that gentle wins.”\n\nWe rise through the dark, the crystal cool in my pocket. Behind us, the vent shimmers and hums. Ahead, the whole ocean waits. But tonight, one small corner of it is warm and fed and dancing.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"My garden is fading! Should we follow my wiggling claw to see what is blocking the hot water, or measure the temperature to see how much chemical energy we have lost?\"",
+      "options": [
+        {
+          "say_word": "Follow claw",
+          "label": "Follow the Professor's pointing claw to find the blockage",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Measure heat",
+          "label": "Use the sub's sensors to check the water temperature and chemical levels",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The water wants to push the rocks loose! Should we ride the shimmer current with our thrusters, or gently nudge the stones with Rosie's arm?\"",
+      "options": [
+        {
+          "say_word": "Ride it",
+          "label": "Ride the natural current and boost it with the sub's thrusters",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Nudge them",
+          "label": "Carefully push the stones into the current using the robotic arm",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.underwater_volcanoes",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 8
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "Hydrothermal vents give a natural problem-and-fix engine—creatures must solve the puzzle of living in total darkness without sunlight by discovering chemical energy—so the first-drawn pattern is well fed by the material.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Mountain That Sings)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "Professor Pincers, the yeti crab who wears a diving helmet made from a giant clam shell and carries three wrenches",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Observe before you force",
+      "why": "The material offers this naturally: two forceful attempts (grabbing, blasting) fail, while observing the shimmering water currents reveals the solution."
+    },
+    "cast": [
+      {
+        "role": "The Storyteller (deep-sea pilot)",
+        "reused": false,
+        "why": "Established as the 'I' voice in the frame, guiding the submersible and narrating the memory of the vent field."
+      },
+      {
+        "role": "Professor Pincers (curious yeti crab)",
+        "reused": false,
+        "why": "The crazy inventor who farms bacteria on his claws; his frantic, silly energy carries the accent tone, and his garden is the ordinary thing we care about."
+      },
+      {
+        "role": "Rosie (ROV with cameras)",
+        "reused": false,
+        "why": "The Professor's loyal but literal-minded assistant who attempts the physical fixes, providing the charming failed attempts."
+      },
+      {
+        "role": "The Tube Worm Colony",
+        "reused": false,
+        "why": "Neighbors whose red plumes wilt when the chemical energy stops flowing, raising the stakes beyond just the Professor's garden."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "hydrothermal vent",
+        "mid-ocean ridge",
+        "chemical energy",
+        "pillow lava",
+        "yeti crab farming bacteria",
+        "black smoker chimney collapse",
+        "shimmering heat curtain"
+      ],
+      "gathered_but_unused": [
+        "Hydrothermal vents are like underwater geysers that shoot out water hot enough to melt lead, but the surrounding ocean is so cold that the hot and cold water meet in a swirling, shimmering curtain.",
+        "Pillow lava forms when molten rock oozes out of the seafloor and hits the near-freezing ocean water, instantly hardening into round, pillow-shaped blobs that pile up like a giant's discarded cushions.",
+        "The mid-ocean ridge is the longest mountain range on Earth, stretching over 40,000 miles around the globe, but almost all of it is hidden deep beneath the ocean waves.",
+        "Giant tube worms near hydrothermal vents can grow taller than a human and have no mouth, no stomach, and no gut; instead, they absorb chemicals through their bright red plumes, which are filled with blood.",
+        "Some bacteria living at hydrothermal vents use chemical energy from hydrogen sulfide—a chemical that is poisonous to most land animals—to make food, just like plants use sunlight.",
+        "The water shooting out of a hydrothermal vent can reach 750 degrees Fahrenheit, but because of the crushing pressure of the deep ocean, it doesn't boil; it stays liquid and can instantly cook anything that touches it.",
+        "Deep-sea creatures like the yeti crab farm their own food by waving their hairy claws in the chemical-rich water, growing bacteria on their bodies that they then scrape off and eat.",
+        "New hydrothermal vents can appear suddenly after an underwater volcanic eruption, and entire communities of animals—clams, crabs, and fish—can colonize the hot, toxic rocks within just a few years."
+      ]
+    },
+    "safety_beat": "not needed: setting is the deep ocean floor, not a real place a child could stand in",
+    "motif": "Stone pillows—soft when new, hard when cold, and always in the way.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a strong engine of want and fix-it momentum while landing its sound-words, jokes, and warm ending beats cleanly for a read-aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a delighted giggle at the third wrench, then a quickening",
+        "s2a": "bumpy and urgent, leaning in",
+        "s2b": "a held breath, stomach-flip worry",
+        "s3": "a giggle at Rosie, then the thunk of plans failing, then a slow dawning grin",
+        "s4a": "whooshing exhilaration, then satisfied and smiling",
+        "s4b": "patient, hushed anticipation, then a fizzy pop of joy and a warm sleepy glow"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 11 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 24% of sentences carry speech or action; [s1] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] no voices: segment carries no spoken line; [s4a] narration heavy: only 27% of sentences carry speech or action; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 24% of sentences carry speech or action",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 27% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 15% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 24% of sentences carry speech or action",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 27% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 15% of sentences carry speech or action",
+      "[story] slots: declared but never used: ['crab_companion']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "09_underwater_volcanoes_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

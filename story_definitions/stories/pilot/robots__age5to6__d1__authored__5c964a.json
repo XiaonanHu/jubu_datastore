@@ -1,0 +1,331 @@
+{
+  "id": "story.robots.age5to6.d1.authored.5c964a",
+  "title": "The Great Sock Fling",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.robots",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "We fix our sock-flinging tidy-up robot by inventing our way to the bolt jammed in his elbow gears.",
+  "slots": {
+    "robot_name": {
+      "role": "the tidy-up robot we built and are fixing",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Bolty"
+    },
+    "first_gadget": {
+      "role": "the contraption we built for our first fix attempt",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "springy catcher"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Our invention shed stands at the bottom of the garden, and the best thing in it is {robot_name}, who we built ourselves out of tins and springs.\n{robot_name} has one job. Every morning his arm reaches down, takes a sock off the floor, and drops it in the basket. Plop. Plop. Plop.\nThat is the morning we like.\nThis morning: whir, clunk, fling!\nA sock goes past our ear like popcorn out of a pan with the lid off. The next one lands on the ceiling fan and rides round and round up there like a stripy flag. The third one comes down on our jam sandwich.\n\"Sorry,\" says {robot_name}. \"Sorry. Sorry.\"\nHe is not doing it on purpose. His arm flings when it should place.\nWhir, clunk, fling!\nDown come our goggles, because inventors do not stand about while socks are in the air. We drag the toolbox over and open the squeaky lid. Bolts. Springs. Rubber bands.\nTwo ideas turn up at once, and both of them are excellent.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Springs!\" we say.\nOut comes the biggest spring in the shed. We bolt it to an old umbrella and wire a colander on top, upside down, to hold whatever lands in it. Three wobbly legs. One winder.\nTa-da. The springy catcher, standing guard beside the sock basket.\nWe wind it up and step back. {robot_name} whirs.\nClunk, fling! Boing! The catcher jumps and grabs the sock right out of the air.\n\"Caught it!\" we shout.\nThen the spring boings again. The sock shoots straight back out, off the wall, off the lamp, and lands on {robot_name}'s head.\nBoing. Boing. Sock ping-pong.\nOur catcher catches everything and lets go of nothing.\nWe laugh so hard our goggles slide off.\nThen we listen, because every single fling sounds exactly the same. Whir, clunk, fling. Whir, clunk, fling. The same clunk, the same wobble, the same too-high throw.\n\"That clunk,\" we say. \"That clunk is in your elbow.\"\nWe write CLUNK on the shed wall in chalk letters as big as our hands.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Funnel!\" we say.\nOut comes the old paddling pool. We roll a cardboard tube as tall as we are, tape the pool on top, and lean it all over the sock basket. It stands there like an ice cream cone built for a giant.\nWe fold our arms and wait. {robot_name} whirs.\nClunk, fling! The sock sails up and straight over the top of our funnel. It lands on the shed roof.\nClunk, fling! Over the funnel, onto the roof, next to the first one.\nBy the time the basket should be full, the roof is growing socks.\nSo we climb into the pool ourselves and slide down the tube, because somebody ought to get some use out of it. Wheee.\nThen we sit still and listen, because every single fling sounds exactly the same. Whir, clunk, fling. Whir, clunk, fling. The same clunk, the same wobble, the same too-high throw.\n\"That clunk,\" we say. \"That clunk is in your elbow.\"\nWe write CLUNK on the shed wall in chalk letters as big as our hands.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back to the workbench.\nOur {first_gadget} did not fix the flinging, and we would build it again tomorrow, because it handed us the clue. A machine does everything the same way every time. That is why one clunk was enough.\n{robot_name} comes over and lays his arm on the bench like somebody at the doctor.\n\"Switch first,\" he says, and clicks his own switch off, the way he always does before anybody opens a door in him. His fans wind down to nothing. Now the gears will hold still while we look.\nWe take the smallest screwdriver, open the little door on his elbow, and shine the flashlight in.\nTwo gears sit in there with their teeth laced together, like two hands with the fingers laced. And jammed between the teeth is one small metal bolt.\n\"Bolt,\" says {robot_name}. \"In my elbow.\"\nIt must have rolled in on tidy-up day. Round come the gears, bump goes the bolt, clunk goes the elbow, and up flies the sock.\nWe jump up and do a victory wiggle.\nThen we stop. That bolt is deep in there, and our smallest finger is far too fat.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Magnet,\" we say. \"Metal wants metal, and a magnet has no fingers.\"\nWe tie the round red magnet from the shed fridge onto a string, and the string onto our bendy fishing rod. The bolt-fisher. Everything needs a name.\nSwitch off, fans quiet. {robot_name} holds stiller than he has ever held anything.\nWe hold the string and let the magnet down through the little elbow door. Down. Down.\nClick.\nThe bolt jumps up onto the magnet like a letter finding the fridge door. We wind the string round our hand and lift it out slowly, and there it is, riding home on the end.\n\"Got you,\" we say.\nWe close the little door and click his switch back on. His gears turn. Whirrr. Not one clunk anywhere in him.\nNow the big test. We put one sock on the floor. {robot_name} rolls over, reaches down, and puts it in the basket.\nWhir. Plop.\nWe take ten more socks, and he plops all ten.\nThen we put the bolt on his front, like a medal.\n\"Mine,\" says {robot_name}, who is extremely pleased with himself.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Wobble,\" we say. \"Shake it out of him.\"\nWe stand our drum on the workbench and strap the eggbeater to it with three rubber bands. Turn the handle, and the drum shivers like jelly on a spoon. Perfect.\nWe lift {robot_name} up on top of the drum, switch off and fans quiet.\n\"Ready?\" we ask.\n\"Ready,\" says {robot_name}.\nCrank, crank, crank! The drum wobbles, and {robot_name} wobbles with it. The chalk hops off the shelf, and our own teeth wobble a bit as well.\nWe watch the little elbow door. Nothing yet. We crank a smidge faster.\nWobble, wibble, wobble. Tink!\nOut hops the bolt, and it rolls off down the workbench, over the end, and lands in our two cupped hands.\n\"Caught it,\" we say.\nWe click his switch back on. The gears turn. Whirrr. Not one clunk anywhere in him.\nNow the big test. We put one sock on the floor. {robot_name} rolls over, reaches down, and puts it in the basket.\nWhir. Plop.\nTen more socks, and he plops all ten.\nThe bolt goes in our pocket. Tomorrow we are building something out of it.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "{robot_name} rolls to the toolbox and holds up the biggest spring in one hand and the old paddling pool in the other. \"Springs,\" he says. \"Or funnel. You pick.\"",
+      "options": [
+        {
+          "say_word": "springs",
+          "label": "Build a springy catcher",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_gadget": "springy catcher"
+          }
+        },
+        {
+          "say_word": "funnel",
+          "label": "Build a giant funnel",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_gadget": "great funnel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "{robot_name} clicks his own switch on again for a moment. \"I am full of metal,\" he says. \"And I am extremely good at wobbling. Magnet, or wobble? You pick.\"",
+      "options": [
+        {
+          "say_word": "magnet",
+          "label": "Fish the bolt out with a magnet on a string",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "wobble",
+          "label": "Shake the bolt out with a great wobble machine",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.robots",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "how_things_work shelf; the magnets pilot story also has a tin robot in it, and the mars story reuses the inventor tone for a rover"
+    },
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "A robot at five is a helper with one job, so the interesting thing is the day the job goes wrong. A tidy-up arm that flings instead of placing is a problem a child can see, hear and laugh at, and the cause is a real robot fact underneath: a machine repeats itself exactly, which is precisely why one repeated clunk is enough to find the fault.",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.2,
+          "family_nudge": 1.0,
+          "final_weight": 0.29,
+          "sampled": true
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "building the robot from scratch spends the whole story on assembly and never gets to the good part, which is what a built thing does when it misbehaves; the building survives inside the two failed contraptions instead"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.6,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "the magnets story on the same shelf is already the mystery, and here the question (why does he fling) is answered by opening one little door, which is a beat rather than a story"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": "socks everywhere is already the funniest thing in the story; a romp would keep it going and never let anybody fix anything, which wastes a robot who wants to be useful"
+        }
+      ],
+      "backup": "make_and_build"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "the shed and everything we bolt together in it: the colander wired on upside down, the paddling pool on a cardboard tube, sock ping-pong off the wall and the lamp, the drum with an eggbeater strapped to it. The diagnosis at the workbench and the fix itself are played straight, with no jokes in them at all.",
+      "why": "crazy_inventor is the right dominant because the story is a workshop and the failures are the fun; the silly accent keeps the first flop reading as a delight rather than a setback, which is the whole difference between a five-year-old laughing and a five-year-old wincing. Keeping the workbench beat serious is what makes the fix feel earned.",
+      "rejected": [
+        {
+          "recipe": "silly dominant with a crazy_inventor accent",
+          "because": "if silliness leads, the elbow door and the jammed bolt become another gag and the fix stops meaning anything"
+        },
+        {
+          "recipe": "crazy_inventor dominant with a curious_wonder accent",
+          "because": "that is the mars recipe on this shelf, and a shed at the bottom of a garden has nothing in it worth holding your breath at; the wonder would have to be imported"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The fix has to be built by somebody's hands, and 'we' puts the child's hands on the screwdriver. It also means the robot can be the one who is helped, which is the friendliest possible shape for a story about machines.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "a hero we watch invent is a hero we watch; the pleasure here is holding the flashlight yourself"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered invention day is over already, and the point of a first failed attempt is not knowing yet that it will fail"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No condition for including a value lesson is met. The materials offered persistence, but naming it would turn the failed contraption into a lesson about trying again, and this story would rather have the failure be genuinely funny and genuinely useful. No parent value picks apply to a library story."
+    },
+    "cast": [
+      {
+        "role": "the tidy-up robot we built",
+        "reused": false,
+        "reused_from": null,
+        "slot": "robot_name",
+        "why": "Kept from the v1 text. In the rewrite he gains a small clipped voice of his own, three words at a time, so that the companion can participate instead of only beeping: he apologises, he offers the two ideas at the first choice, he tells us what he is made of at the second, and he switches himself off before we open him. Named by slot, so a child's own name for him carries into any later robots story."
+      },
+      {
+        "role": "the invention shed and its toolbox",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Kept from the v1 text and treated as cast rather than scenery, because every object in it gets used: the squeaky toolbox supplies the spring and the rubber bands, the shed fridge supplies the magnet, the chalk writes the clue on the wall, and the wall keeps it there for the workbench scene."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: a robot does the same thing the same way every time, which is what makes a fault easy to hear",
+        "wonder-fact: a robot arm is driven by gears whose teeth fit into each other",
+        "wonder-fact: one small thing caught in the gear teeth changes what the whole arm does",
+        "wonder-fact: a robot has one job it does over and over, and being useful is the point of it",
+        "wonder-fact: bolts are metal, so a magnet can reach where a finger cannot",
+        "sensory picture: a sock riding round on a ceiling fan like a stripy flag",
+        "sensory picture: two gears with their teeth laced together, seen down a flashlight beam",
+        "sensory picture: a drum with an eggbeater strapped to it, shivering",
+        "setting: an invention shed at the bottom of a garden, with a workbench, a squeaky toolbox and a sock basket"
+      ],
+      "gathered_but_unused": [
+        "sensors as a robot's eyes and ears: the age-7 treatment, and it would give the story a second mechanism to explain",
+        "programming and instructions followed exactly: age 7 to 8, though the repeatability fact borrowed from it is stated in plain words with no vocabulary attached",
+        "the sense-think-move loop: the age-8 framing, too much machinery for a shed at five",
+        "rovers on Mars and in the deep sea: age 9, and already used by the mars story on this shelf",
+        "robot vacuums, which a child may actually own: strong candidate for a make_and_build or quiet_hour robots story",
+        "anything with a plug, a wire or a battery in it: cut on purpose, so that no fix in this story involves electricity"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "At the first beat of the fix, so the child owns the attempt that flops. Both contraptions fail differently and both fail funnily, and both leave exactly the same clue behind, which is why the paths can merge at the workbench. s3 names the contraption back through the first_gadget slot and needs nothing else from either branch.",
+        "criteria": {
+          "more_interesting": "the catcher is a machine that fights back, boinging the sock round the shed; the funnel is a machine the socks simply fly over, and then a slide for us. Too much bounce against not enough height.",
+          "more_engaging": "bolting a colander onto an umbrella and taping a paddling pool onto a tube are both things a five-year-old would attempt given the parts",
+          "reveals_taste": "springs is the bold lean, all leaping and ping-pong; the funnel is gentler, and its best beat is sliding down it ourselves",
+          "reveals_curiosity": "springs is how-it-works, a catcher aimed at the moment of the throw; funnel is just-experience, a big swirly thing to watch socks miss",
+          "reflects_mood": "the catcher branch is loud and fast; the funnel branch is slower and ends with a whee, which suits a tireder evening"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "Straight after the diagnosis, when the child knows the bolt is deep and fingers are too fat, so both options are real applications of what we just found out rather than guesses. Neither is the clever answer and the other the silly one: the bolt is metal, and the bolt is loose, and each option uses one of those facts.",
+        "criteria": {
+          "more_interesting": "s4a is a whole shed holding its breath while a magnet goes down a hole; s4b is a robot on a drum with an eggbeater strapped to it and everybody's teeth rattling. Precision against uproar.",
+          "more_engaging": "fishing something out and shaking something out are the two things any child would try, in that order or the other one",
+          "reveals_taste": "the magnet is the gentle lean, slow and careful; the wobble machine is the bold lean",
+          "reveals_curiosity": "magnet is how-it-works, using what the bolt is made of; wobble is just-experience, cranking the handle to see what happens",
+          "reflects_mood": "the magnet ending is quiet and ends on a medal; the wobble ending is a dance, and ends with a bolt in the pocket and a plan for tomorrow"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Six segments, two choice points, wired s1 to c1 to s2a or s2b to s3 to c2 to s4a or s4b, both endings next null. c1 rejoins and both branches converge on s3, which the explorer validator confirms. problem_and_fix beats all present: the problem in s1, a funny failed attempt in s2, the failure teaching the rule in s3, a fix earned by the clue in s4. The knowledge_domain.robots node carries no avoid list at 5-6, so the general age-5 rules govern: nothing electrical anywhere, no wires, no shock, nobody trapped in a machine, no part of the robot damaged or hurting, no scolding and nothing broken beyond repair. Slots: robot_name appears in all six segments, first_gadget is set by both c1 options and read once in the shared s3, and it reads correctly as both 'Our springy catcher did not fix the flinging' and 'Our great funnel did not fix the flinging'. Say-words springs and funnel, magnet and wobble: two syllables at most, no shared onset or rhyme inside a pair."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts against the 200 ceiling for 5-6: s1 171, s2a 170, s2b 176, s3 192, s4a 183, s4b 188. Paths measure 716 words for springs plus magnet, 721 for springs plus wobble, 722 for funnel plus magnet and 727 for funnel plus wobble. That is above the 700 the age table suggests for one path, and every segment was re-read line by line for padding rather than trimmed to a number: what is left is that this pattern has to build a contraption, break it funnily, diagnose the real fault and then fix it, and the diagnosis segment is the longest at 192 because it carries the competence beat as well. Every segment carries spoken lines, and speech or physical action runs from 43 to 54 per cent of sentences. Sentence-length spread runs 5.1 to 7.2, with one-word and two-word sentences (Plop. Click. Boing. Ta-da. Wheee. Tink!) set against sentences of thirty. No abstract mood words. Every object introduced is used: the spring and rubber bands come out of the toolbox that squeaks in s1, the chalk clue stays on the wall until the workbench scene and hops off the shelf in s4b, the shed fridge holds the magnet that s4a needs, and the bolt itself becomes either a medal or tomorrow's project."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches close on the same two beats, the identical clunk heard over and over and the word CLUNK written on the wall, so the workbench scene opens the same way from either side. The sound motif runs the whole length of every path: whir, clunk, fling in s1 and s2, the clunk located in s3, and whir, plop at the end, which is the fix heard rather than announced. The competence beat happens exactly once per path, in s3, and it is the robot doing it to himself with a reason attached: gears that have stopped hold still while you look. No character says anything could hurt anybody. Banned-language sweep clean: no assessment, mastery, score, milestone, is or are behind, ahead of, delayed, gifted, grade level. No ellipses, asterisks, parentheses or emojis, and no stage directions. Nothing in the story blames the robot, and the failed contraption is defended out loud rather than apologised for."
+      }
+    ],
+    "writers_notes": [
+      "The robot now speaks, in three-word pieces. That is the biggest single change from v1, where he only beeped and we translated for him, and it is what let a character rather than the narrator ask both choice questions. His voice is deliberately flat and short so that it reads as a machine being helpful, not a person being cute.",
+      "We defend the failed contraption out loud: we would build it again tomorrow, because it handed us the clue. That one line is the whole difference between a funny failure and a frustrating one, and it is the reason no beat in s2 needs to be sad.",
+      "The fix is earned by the same fact on both branches. What the flop revealed is not where the bolt is, but that a machine repeats itself exactly, so a fault repeats too. The bolt is then found by the smallest screwdriver and a flashlight, which are tools a child has watched a grown-up use.",
+      "Nothing in the shed has a plug in it. The magnet, the drum, the eggbeater, the spring and the colander are all hand-powered on purpose, so no fix in this story can be copied into a socket.",
+      "Open question for the psychologist: {robot_name} apologising three times in s1 is meant as a machine repeating itself, which is funny. If it reads as a small helper feeling bad about himself, it should come out."
+    ],
+    "craft_changes": [
+      "Opening now primes before the first sock flies: the shed at the bottom of the garden, who built the robot, what his one job is, and the plop, plop, plop of the morning we like. v1 opened with the narrator ordering us into the shed.",
+      "Every segment now carries voices; not one of the six had a spoken line in v1. The robot speaks in four segments and asks both choice questions, and we speak in five.",
+      "Both choice questions are now spoken by the robot in his own voice, holding up the two things he is offering. v1 had the narrator ask both, and the robot standing by.",
+      "Cut: 'Come on, into our invention shed', 'Our poor helper needs help', 'We rub our chins the way great inventors do', 'An inventor writes clues down', 'Mystery solved', 'clues are inventor treasure', 'Best invention day ever' from both endings, and the whole closing pair 'Our helper is fixed, and we fixed him ourselves'.",
+      "Cut the second and third comic bit per beat: the sock that lands on our head like a floppy hat, the half-eaten cookie in the toolbox, the frog-onto-a-lily-pad simile, 'We take a bow together', and the 'High five, robot arm! Gently, though' tag that turned the ending into a safety joke.",
+      "New similes, all from a five-year-old's own day and each used once: popcorn out of a pan with the lid off, a stripy flag on the ceiling fan, an ice cream cone built for a giant, two hands with the fingers laced, jelly on a spoon, a letter finding the fridge door.",
+      "One motif, developed instead of replaced: the sound of the arm. Whir, clunk, fling in s1, the same three sounds heard over and over in s2 until the clunk is the clue, the clunk written on the wall in chalk, and then whir, plop at the end of both branches. The fix is heard rather than announced.",
+      "The failure was rewritten to be instructive as well as funny: in v1 the clue arrived because 'an inventor writes clues down', which is a slogan. Now the clue is a real robot fact, a machine does everything the same way every time, and the repeated clunk is what a repeating machine gives you for free.",
+      "Sentence rhythm now rises and falls: one-word and two-word sentences (Plop. Click. Boing. Ta-da. Wheee. Whir. Plop.) land after long flowing ones, where v1 ran at a steady seven to nine words for whole segments.",
+      "Real-place safety as competence, once and lightly, in s3: the robot reaches up and clicks his own switch off before anybody opens a door in him, and his fans wind down, so the gears will hold still while we look. A reason, not a rule; it is the robot's own habit, nobody is warned, and switching him back on is how the big test starts.",
+      "Length is 727 words on the longest path against 703 in v1, every segment under the 200-word ceiling; the trimming pass took out the bicycle bell nobody rings, the jar of washers, the red screwdriver handle, one of the two 'over the funnel, onto the roof' refrains and the tools rattling in their tin, and what the story spent the words on instead is speech and hands."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text, from the knowledge_domain.robots age-5 and age-6 treatments. The v1 file carried no build_record, so the design fields here are written down for the first time from the story as it stands.",
+    "prompt_version": "segment_writing_v2.1",
+    "revision_of": {
+      "story_id": "story.robots.problem_and_fix_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe, spine, title, the six-segment braid, both choice positions and their rejoin and split marks, both slots and their defaults, which option sets first_gadget to which value, the say-words springs/funnel and magnet/wobble, the tone and curiosity leans on all four options, and the premise, cast and shed setting. Only the prose craft, the option labels and who speaks the choice questions changed.",
+      "why": "The v1 text shows the archived prompt's known failures in concentrated form: no opening priming, no spoken line in any of the six segments, narrator-asked choices, gags stacked in place of story movement, and a flat seven-to-nine-word sentence rhythm."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

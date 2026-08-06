@@ -1,0 +1,320 @@
+{
+  "id": "story.day_and_night.age7to8.d1.pregen.e4540a",
+  "title": "The Great Spinning Breakfast",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.day_and_night",
+    "sel_theme": null,
+    "value_lesson": "The world is big but connected; far-away family members are living their own days while we sleep, and we share the same spinning planet",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "A video call with a pajama-clad grandmother sparks a morning mystery that reveals how Earth's rotation creates day and night across the hemispheres.",
+  "slots": {
+    "grandmother_name": {
+      "role": "The grandmother in Japan",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Obachan"
+    },
+    "stuffed_owl": {
+      "role": "The cozy companion on the windowsill",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Hoot"
+    },
+    "breakfast_food": {
+      "role": "What Maya is eating when the mystery begins",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "pancakes"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Maya is eating {breakfast_food} at the kitchen table, and I am sitting right beside her, because that is where I always sit when something smells this good. Sunlight is pouring through the window, all over the table, all over the plate. {stuffed_owl} the stuffed owl is on the windowsill, watching us with his big round eyes, the way he does every morning. \"Morning, {stuffed_owl},\" Maya says, with her mouth full. The tablet rings. Brrring! Brrring! It is {grandmother_name}, calling from Japan, and Maya answers fast, because talking to {grandmother_name} while eating {breakfast_food} is the best kind of breakfast. \"Good morning!\" we shout together. But on the screen, {grandmother_name} is not eating breakfast. She is in her pajamas. She is brushing her teeth. Behind her, the window is dark. \"Good night,\" she says, with toothpaste foam on her lip. Maya stops chewing. I stop too. We look at our sunny window. We look at her dark one. \"Wait,\" Maya says slowly. \"How is it bedtime THERE when it is breakfast HERE?\" {stuffed_owl} says nothing. He just stares, like he knows something we do not.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The globe!\" Maya shouts. She grabs it off the shelf and thumps it onto the table, right between the {breakfast_food} and the syrup. \"And Dad's flashlight,\" I say, already pulling open the drawer. We click it on. The beam hits the globe, and half of it lights up bright as our window. The other half stays dark. \"Look at that line,\" Maya whispers. We lean in close. There it is, right down the middle, where the bright stops and the dark begins. Not a straight line, but a soft, fuzzy edge. \"Now spin it,\" I say. Maya turns the globe slowly, slowly. The line does not move. But the countries do. We watch Japan slide out of the light and into the shadow. We watch our own town come around into the sun. \"One side is always lit,\" Maya breathes. \"And one side is always dark. And the spin carries us from one to the other.\" {stuffed_owl} stares from the windowsill. He knew all along.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The map,\" Maya says. \"Dad, show us the time zone map.\" Dad pulls out his phone and taps the screen. The world appears, covered in stripes, twenty four of them, like the slices of an orange. \"Each slice is one hour,\" Dad says. We find our slice, right where we live. Then we count over to Japan. Seven slices away. \"So when the sun is here,\" Maya says, pointing at our stripe, \"it is already night there?\" \"Watch,\" Dad says. He spins the map with his finger. The stripes slide past, west to east. We see our slice move into the light. We see Japan's slice move into the dark. \"The Earth spins under the sun,\" Dad says. \"Each time zone gets its turn in the light.\" Maya looks at the phone, then at the window. \"So {grandmother_name} is just waiting for her turn?\" \"Exactly,\" Dad says. {stuffed_owl} blinks, slow and wise.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Maya looks at me, and her eyes go wide, the way they do when a puzzle piece clicks into place. \"So that is it,\" she says slowly. \"The Earth is spinning. Like a giant top, but slower. One whole turn takes a whole day.\" \"Rotation,\" I say, because it is a good word, round and rolling in my mouth. \"And that is why the Sun looks like it is moving across the sky. It is not moving. We are.\" On the screen, {grandmother_name} nods, toothpaste foam still on her lip. \"So right now,\" Maya says, \"we are on the sunny side, and you are on the dark side.\" \"Two hemispheres,\" {grandmother_name} says. \"Half the world is having breakfast. The other half is brushing its teeth.\" Maya giggles. \"And the line between them is always moving, isn't it? Creeping across the Earth, bringing morning to some people and bedtime to others.\" \"Like a wave,\" I say, \"but made of light.\" {stuffed_owl} stares at us from the windowsill, and I could swear he looks pleased. \"But wait,\" Maya says, and her forehead wrinkles. \"If the Earth is spinning that fast, why don't we feel it? Why don't we fall off?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Let's show her,\" Maya says, and she is already off her chair, pulling the globe from the shelf. It is heavy and round and cool in our hands. We hold it up to the tablet camera, and Maya gives it a slow spin. \"See?\" she says. \"Here is Japan, turning toward the dark. And here we are, turning toward the light.\" {grandmother_name} leans close to her screen, her eyes wide. \"I see it!\" she says. \"I am spinning right into bedtime!\" We put {stuffed_owl} on the windowsill, right where the sun hits, so he can watch the night side for us. \"He will keep an eye on the dark half,\" Maya says. {grandmother_name} laughs, a warm, sleepy sound. \"Then I will dream of you,\" she says, \"spinning toward tomorrow.\" We finish the last bites of {breakfast_food}, and the syrup is sweet, and the day is ours. The Earth will keep turning. It always does. And tonight, when it is our turn for dark, {stuffed_owl} will be awake, watching the light creep toward someone else's morning.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Let's draw it,\" Maya says, and she grabs the big pad of paper and the fat markers. We draw the Earth, a great blue circle, and right down the middle we draw the line. On one side we write MORNING, and on the other side we write NIGHT. We hold it up to the camera. \"This is us,\" Maya says, pointing. \"And this is you.\" {grandmother_name} claps her hands. \"That is exactly right!\" she says. \"You are in the light, and I am in the dark.\" \"When the Sun comes up here tomorrow,\" Maya says, \"we will wave at it for you.\" \"And when the Moon comes out here tonight,\" {grandmother_name} says, \"I will wave at it for you.\" We put {stuffed_owl} right on top of the globe, on the dark half, a tiny guardian of the night. He looks very serious. He looks very important. We are all spinning together, under the same sky, and somehow that makes the kitchen feel bigger, and cozier, and full of light.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Should we spin the globe to see the light move, or should we check the map on Dad's phone to see the time zones?\"",
+      "options": [
+        {
+          "say_word": "Spin",
+          "label": "Use the globe and flashlight to recreate day and night",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Map",
+          "label": "Look at the time zone map on the phone",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Should we show Grandmother how the Earth spins using our globe, or should we draw her a picture of the day and night line?\"",
+      "options": [
+        {
+          "say_word": "Show",
+          "label": "Demonstrate with the globe and flashlight",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Draw",
+          "label": "Create a drawing to hold up to the camera",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.day_and_night",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 13
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "sampled from the hand-authored weights for space; the shelf already holds 0 story(ies) for this family",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Hoot the stuffed owl (a small toy who sits on the windowsill and is always 'awake' when the child sleeps, providing cozy continuity and gentle humor)",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "The world is big but connected; far-away family members are living their own days while we sleep, and we share the same spinning planet",
+      "why": "The grandmother video call naturally demonstrates that love and family persist across time zones, making the science emotionally resonant rather than abstract"
+    },
+    "cast": [
+      {
+        "role": "Maya",
+        "reused": false,
+        "why": "The curious 8-year-old protagonist who asks big questions and physically investigates by spinning globes and observing shadows"
+      },
+      {
+        "role": "Grandmother (Obachan)",
+        "reused": false,
+        "why": "Lives in Japan, appears via video call in her pajamas to provide the inciting mystery and explain time zones from the other side of the world"
+      },
+      {
+        "role": "Dad",
+        "reused": false,
+        "why": "Points to the time zone map on his phone and helps Maya understand why clocks show different numbers for the same moment"
+      },
+      {
+        "role": "Hoot",
+        "reused": false,
+        "why": "The small stuffed owl who serves as the cozy accent carrier, always present on the windowsill as a silent witness to the investigation"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "The Earth is a giant ball that spins like a top, and one full spin takes exactly 24 hours",
+        "When it is daytime for us, it is nighttime for people on the other side of the world",
+        "One half of the Earth is always lit by the Sun, while the other half is in shadow",
+        "The world is divided into 24 time zones",
+        "The Sun does not actually move across the sky; it only looks that way because our Earth is turning",
+        "We cannot feel the Earth spinning because everything around us moves with it",
+        "A living room with a computer open for a video call to a grandparent",
+        "A kitchen table at breakfast with sunlight streaming through the window and a globe sitting next to a bowl of oranges",
+        "Grandmother who lives in Japan",
+        "A small stuffed owl toy",
+        "The child's father"
+      ],
+      "gathered_but_unused": [
+        "The Earth is a giant ball that spins like a top, and one full spin takes exactly 24 hours.",
+        "When it is daytime for us, it is nighttime for people on the other side of the world.",
+        "We cannot feel the Earth spinning, even though it moves very fast, because everything around us moves with it.",
+        "The Sun does not actually move across the sky; it only looks that way because our Earth is turning.",
+        "The world is divided into 24 time zones, so different places have different times on their clocks.",
+        "One half of the Earth is always lit by the Sun, while the other half is in shadow.",
+        "The Earth spins from west to east, which is why the Sun seems to rise in the east and set in the west.",
+        "It takes exactly one day for the Earth to make one complete rotation, which is how we get a full cycle of day and night."
+      ]
+    },
+    "safety_beat": "not needed: setting is a home interior with kitchen and living room, not a hazardous real place requiring specific competence",
+    "motif": "The line between light and shadow creeping across a sphere (first seen on a globe, then understood as the edge of morning and night)",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a real question is discovered, tested with hands-on experiments, and answered in warm company, with the owl's silent knowingness and the grandmother's toothpaste foam giving it both humor and tenderness."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a delighted puzzle",
+        "s2a": "leaning in close, a held breath at the fuzzy line",
+        "s2b": "counting along, satisfied clicks of understanding",
+        "s3": "wide-eyed, the giggle of a big idea landing",
+        "s4a": "proud showing-off, then warm and sleepy-sweet",
+        "s4b": "busy and pleased, then cozy and full of light"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "14_day_and_night_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

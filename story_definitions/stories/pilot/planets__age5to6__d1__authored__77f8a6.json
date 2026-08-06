@@ -1,0 +1,338 @@
+{
+  "id": "story.planets.age5to6.d1.authored.77f8a6",
+  "title": "The Night the Telescope Opened",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.planets",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": null
+  },
+  "spine": "which world is waiting around the next turn of the sky path",
+  "slots": {
+    "boat_name": {
+      "role": "the little silver sky-boat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Comet"
+    },
+    "first_world": {
+      "role": "the first world we visited",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "the red dusty world"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It is late, and we are allowed to be outside.\nWe sit on the cool grass, you and me, with our jar of marbles between us. Red ones here. Swirly ones there.\nThe telescope stands on the flat paving stones, where its three thin legs never wobble.\nThen a light slides across our hands.\n\"Look,\" we say.\nThe telescope’s round glass eye is glowing. We lean in close, and the glass opens like a little round door.\nWe climb through, one, two, and step out onto the soft dark of the sky.\nStars hang everywhere. A little silver boat rocks on the starlight, waiting for us, her sail a patch of shimmer, and her name is {boat_name}.\nWe climb aboard, and off she slides down a river of light.\nThen she slows. The sky path splits in two. One way glows warm and red, with a small dusty world turning at the end.\n\"Mars,\" we say. \"That one is Mars.\"\nThe other way shimmers, where a giant world wears wide bright rings, like a hat with no top.\nBoth are planets. Other worlds. Right here in the sky.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "{boat_name} lands soft on the red ground, and the dust puffs up over our boots like flour off a counter.\nWe hop out. And oh, we keep going up. High as a swing, then down slow, and we land without a sound.\n\"Again,\" we say.\nSo we hop again. Boing. Boing.\nEverything here is rusty red. The rocks, the hills, the little stones by our boots. Even the sky is a soft butterscotch color.\nTwo tiny moons cross over us, one quick and one slow, playing chase.\nA whirl of dust comes twirling past, spins twice, and goes.\nWe crouch down and draw a big smiling face in the dust with one finger. Wide eyes. Wide smile.\n\"For whoever comes next,\" we say.\nThen {boat_name} rings her bell. Ding. Time to sail.\nWe climb aboard with red dust still on our sleeves, and Mars shrinks below us to a red marble rolling through the dark.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "{boat_name} sails toward the rings, and they widen and widen until they fill the whole sky.\n\"No marble in our jar wears a hat like that,\" we say.\nFrom far away they looked painted on, one smooth silver hoop. Up close we can see the secret.\nPieces. Millions of separate pieces of ice, tumbling side by side, all going the same way. Small as peas. Big as snowballs. A few as big as a house, and every single one catches the sun and winks at us.\nWe lean over the side and hold a hand out flat above them. They pour past underneath, turning over and over, and there is no sound at all.\nOne tiny bead of ring ice hops up into the boat. We hold it up. Round, cold, clear as a windowpane.\n\"Back you go,\" we say, and we put it over the side, and off it goes with the parade.\nBehind us the ringed planet turns, slow and golden. Then the sail fills with starlight. We ride on.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We wave goodbye to {first_world} and follow the river of light onward.\nThen something enormous comes up out of the dark in front of us.\nJupiter. The biggest planet there is. Every other planet could fit inside it with room left over.\n\"That is the big marble,\" we say. \"The one nobody ever trades away.\"\nJupiter is striped all over, cream and orange and toffee brown. Down in the stripes one huge orange swirl turns round and round, and it has been turning in that same spot for hundreds of years.\n{boat_name} is a ladybug sailing past a beach ball.\nLittle moons zip everywhere around us, dozens of them.\n\"Nine,\" we count. \"Ten. Eleven. Twelve.\" Then we run out of numbers and start giggling instead.\nFar off at the edge of the dark, two more lights wait for us. One is small and blue and icy, the farthest of them all. The other is a blue and white marble, and looking at it makes us go quiet, because we are almost sure we know it.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "{boat_name} sails on, out past the last of the firefly moons. The dark gets deeper. The quiet gets bigger.\nAnd there it is. The farthest world, blue as the deep end of the swimming pool, with long white wisps of cloud combed sideways by the wind.\n\"That is the marble that rolls under the sofa,\" we whisper.\nWe look back for the sun, and it is only one more bright star. There is not much light out here, so the little blue world keeps what it gets and shines with it.\nWe tuck our hands under the warm shimmer sail and watch until our eyes are full.\nThen {boat_name} swings around and takes us home. Past the striped giant. Past the rings. Past red Mars.\nOut through the round telescope door, onto the cool grass, where the jar is still open.\nWe dig out our darkest blue marble and put it down on the paving stone, a long way from all the others.\n\"That one is yours,\" we say to the sky. \"Goodnight, farthest world. Keep shining.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{boat_name} turns toward the blue and white marble, and it grows until it fills the whole sky.\nWhite clouds curl across it like cream stirred into blueberry milk. Under them lie wide blue seas, and green land, and brown land.\nThen we both gasp, because we know it.\n\"That is ours,\" we say. \"That is home.\"\nEarth is a planet too. A world in the sky, sailing along with Mars and Jupiter and all the rest. Down under those clouds is our garden, our telescope, our own bed with the covers pulled back.\n{boat_name} glides down through the soft clouds, slow as a leaf, and slips through the round telescope door.\nWe hop out onto the grass. It is cool. The night is quiet.\nWe dig in the jar for the blue and white swirly one, the one we never trade, and hold it up against the sky.\n\"We live on one of you,\" we whisper to the planets. \"We live on this one.\"\nThen we carry the best secret in the world off to bed.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "{boat_name} holds still between the two ways, her sail gone loose. \"Red dust, or bright rings?\" we say. \"Mars, or rings?\"",
+      "options": [
+        {
+          "say_word": "Mars",
+          "label": "Land on the red dusty world",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_world": "the red dusty world"
+          }
+        },
+        {
+          "say_word": "rings",
+          "label": "Sail out over the shining rings",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_world": "the world with shining rings"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "{boat_name} turns her sail one way, then the other, and waits for us. \"Out to the icy one, or over to the swirly one?\" we say. \"Ice, or marble?\"",
+      "options": [
+        {
+          "say_word": "ice",
+          "label": "Sail out to the farthest icy world",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "marble",
+          "label": "Turn toward the blue and white marble",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.planets",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "planets are a set of separate worlds, and the only honest way to show a five-year-old that they are different from each other is to take them to more than one.",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": true
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "nothing is wrong with the planets; a problem would have to be invented and bolted on, and it would pin the story to one world when the topic is about how many there are"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "the good planet mysteries are why-questions about orbits, which belong to 7-8; at five there is no question the child is already holding"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false
+        }
+      ],
+      "backup": "quiet_hour"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": null
+      },
+      "accent_carrier": "none — this story deliberately runs on a single tone, so there is no accent and nothing carries one",
+      "why": "the whole story is looking at big true things and going quiet, which is the definition of curious_wonder; as the first story on an empty shelf it was written as the clean reference note, so later planets stories have something plain to depart from.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a silly accent",
+          "because": "a silly carrier would have needed to ride along in the boat, and the boat is where the child sits; the accent was saved for the Saturn deep-dive story instead, where the shepherd moon can carry it"
+        },
+        {
+          "recipe": "big_adventure dominant with a curious_wonder accent",
+          "because": "adventure is motion and racing, and the sights here are not chases; a bedtime telescope night is stillness, and the tone palette draws that boundary explicitly"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "journey defaults to 'we', and the space topics' avoid list rules out being alone out there; going together is what makes an empty sky exciting instead of lonely, and it makes the choices naturally ours.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "a hero to watch over adds protective distance, which this topic does not need — there is nothing here to be afraid of"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "the pilot shelf already gives the storyteller's tale to the_moon and birds, and a remembered voyage puts the wonder in the past tense"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "the materials offered no natural value angle, and the Earth ending is already carrying one large idea; adding a value would have given the last segment two jobs. No parent value picks apply to a library story."
+    },
+    "cast": [
+      {
+        "role": "the little silver sky-boat",
+        "reused": false,
+        "why": "invented here, because this is the first story in the planets family and the family had no cast yet. Its name is a naming slot keyed to (topic family, character role), so it is built to be reused — the Mars and Saturn deep-dive stories now take the same boat, and the Saturn story reads the same name back without asking again"
+      },
+      {
+        "role": "the round telescope door in the backyard",
+        "reused": false,
+        "why": "invented here as the way in and the way home. It has since become the frame device the whole planets family shares, which is why it was kept ordinary and repeatable rather than elaborate"
+      },
+      {
+        "role": "the twirling dust dancer on Mars",
+        "reused": false,
+        "why": "a one-beat character invented for the Mars segment. Kept as scenery rather than cast so it costs no slot; it returns as scenery in the Mars deep-dive story"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Mars is rusty red, with dust like flour and a butterscotch sky",
+        "Mars gravity is low, so hopping floats",
+        "Mars has two small moons that cross the sky at different speeds",
+        "Saturn's rings look solid from far away but are countless ice pieces, pea to house sized",
+        "Jupiter is the largest planet, and all the others would fit inside it",
+        "Jupiter is striped in cream and orange cloud bands",
+        "the Great Red Spot is a swirl that has been turning for hundreds of years",
+        "Jupiter has dozens of moons",
+        "Neptune is the farthest planet, blue, with white cloud streaks and a very faint sun",
+        "Earth is a planet too — the idea the whole story is built to land"
+      ],
+      "gathered_but_unused": [
+        "Venus is the hottest planet and spins backward",
+        "Mercury is closest to the sun and covered in craters",
+        "Uranus rolls along on its side",
+        "Olympus Mons on Mars",
+        "Jupiter's moon Io has erupting volcanoes",
+        "Saturn would float in a big enough bathtub"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "it sits at the first fork of the sky path, so the child picks which world they meet first; both worlds are on the route anyway, which is why the paths can merge at Jupiter without either child missing anything",
+        "criteria": {
+          "more_interesting": "Mars is a landing — boots in dust, hopping, drawing a face in the ground. The rings are a sail-past — no landing, no ground, just glitter passing underneath. Different bodies and different distances",
+          "more_engaging": "bouncing on a red world against flying over a sparkling hoop; both are things a five-year-old would pick, and neither is the sensible option",
+          "reveals_taste": "Mars is the bold lean, rings is the gentle lean",
+          "reveals_curiosity": "Mars is for the joy of being there (just_experience); the rings segment opens up what they are actually made of (how_it_works)",
+          "reflects_mood": "the Mars path is bouncy and physical, the rings path is calm and floating, so the same story can suit a wound-up evening or a winding-down one"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice must split, and this one is the story's real question wearing a fork: keep going outward, or turn around and look at where we live. Two endings that mean genuinely different things",
+        "criteria": {
+          "more_interesting": "one ending is the farthest quiet place in the solar system, the other is the recognition that home is one of the worlds we have been visiting all night",
+          "more_engaging": "the pull outward and the pull homeward are both strong at bedtime, and children reliably want one of them badly",
+          "reveals_taste": "ice is the bold lean, marble is the gentle lean",
+          "reveals_curiosity": "ice is pure being-there (just_experience); marble asks what a planet is and whether ours counts (what_its_for)",
+          "reflects_mood": "the ice ending is a whisper, the marble ending is a homecoming"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Structure deliberately identical to v1, so the braid checks carry over unchanged: journey beats present with a marvel at every stop and nothing wrong anywhere, six segments, c1 rejoins at Jupiter from either branch, c2 splits into two warm endings. Slot check: boat_name appears in all six segments; first_world is set by both c1 options and read once in the shared s3, which was read aloud with both values, 'the red dusty world' and 'the world with shining rings'. Say-words short and unalike, Mars/rings and ice/marble. Space avoid-list sweep clean: nobody is stranded, nothing falls, no spacecraft is in trouble."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts s1 188, s2a 155, s2b 172, s3 175, s4a 177, s4b 176 against a 200 ceiling with no minimum; longest path 712 words, shortest 694. All six segments carry a spoken line, and the measured speech-or-action share is 51 percent (v1: 31 percent). Sentence-length spread 6.22 (v1: 3.87), with a short landing sentence in every segment. No abstract mood words (cozy, magical, wondrous, serene, beautiful). Every object introduced is used: the marble jar returns in both endings, the paving stones return in s4a, the shimmer sail warms our hands in s4a, and the ring-ice bead is put back over the side in the same beat it arrives."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches close on leaving one world behind, and s3 opens by waving that world goodbye by name. Single tone held throughout, with no accent creeping in; the counting beat in s3 is delight rather than comedy. Both endings resolve fully and come home through the same round telescope door, and they land differently, one on a dark blue marble set apart on the stone and one on the swirly marble held up at the sky. Banned-language sweep clean, including 'ahead of' and 'behind'."
+      }
+    ],
+    "writers_notes": [
+      "This build record was reconstructed after the story was hand-authored, so the weights are the profile the pipeline will use rather than numbers a sampler actually drew. Everything else — the rejected recipes, the cast reasoning, the branch criteria — is the reasoning as it happened.",
+      "First story in the planets family, so every invention here is a commitment: the telescope door, the sky-boat and its naming slot are now inherited by the Mars and Saturn deep dives.",
+      "Jupiter sits in the shared segment on purpose. It is the biggest thing in the story, so both paths must pass it.",
+      "The Earth ending is the spine paying out. The story never says 'Earth is a planet' as a fact up front; the whole braid exists so the child can arrive at it themselves.",
+      "Deliberately no accent tone. Later planets stories should not copy that — variety on this shelf comes from the recipe first.",
+      "Unused materials left on the sheet for the next story here: Venus, Mercury, Uranus.",
+      "The jar of marbles is the v2.1 rewrite's one invention, and it does three jobs at once: it primes the backyard before the door, it gives every planet a comparison a five-year-old has actually held, and it gives both endings an object instead of a feeling. Any regeneration should keep it or replace it with something equally handleable.",
+      "The sky-boat still does not talk, and should not. The voice split across this family is deliberate: the parent story speaks in our voice only, and each deep dive owns one speaking character (the shepherd moon on Saturn, the beeping rover on Mars). The boat is where the child sits.",
+      "The telescope legs on the flat paving stones are the story's only safety beat and it belongs to the backyard. Skipping it everywhere in the sky is the point, not an omission.",
+      "s2a is the shortest segment at 155 words and stops there because the beat was done. Under v1 the same beat ran longer on a soap-bubble simile and a dust devil that bowed."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the prose only; the original v1 text was hand-authored for the pilot with decisions recorded in the pipeline's format, and every structural decision above is unchanged",
+    "prompt_version": "segment_writing_v2.1",
+    "craft_changes": [
+      "Opening now primes before any threshold: it is late, we are on the cool grass with our jar of marbles, you and me, and the pull arrives at us as a light sliding across our hands, all before the telescope opens. v1 opened on backyard scenery with no us, no reason to go and nothing coming toward us.",
+      "One motif grown all the way through instead of a fresh image per paragraph: the jar of marbles. Mars shrinks to a red marble, no marble in the jar wears a hat like the rings, Jupiter is the big one nobody trades away, the farthest world is the marble that rolls under the sofa, and Earth is the blue and white swirly one we never trade. It opens s1 and lands both endings.",
+      "Every segment now carries spoken lines, and they are ours, because the sky-boat sails rather than talks: 'Look.' 'Mars. That one is Mars.' 'Again.' 'Back you go.' 'That one is yours.' 'We live on one of you.' v1 had no quoted speech in any of the six segments.",
+      "Both choice questions are now spoken and handed over rather than announced: the boat goes still with her sail loose and we ask 'Mars, or rings?'; she swings her sail one way then the other and we ask 'Ice, or marble?'. v1 used 'Should we sail to red dusty Mars, or...' in the narrator's voice.",
+      "Real-place safety as competence, once and lightly, in the one earthbound beat: the telescope stands on the flat paving stones, where its three thin legs never wobble. No warning, no fear, and it gives the backyard a floor. Nothing in the sky gets a safety beat, because no child can imitate Neptune.",
+      "Cut: the lanterns 'hung by someone very tall', the soap bubble, the dust devil that danced and bowed, 'like sailing above a slow, glittering parade of snow', 'like fireflies circling a lamp', 'a library made of night', 'glitter shaken in slow motion', 'like a slow, patient pinwheel' (a simile stacked on something already vivid), 'We whisper, because this feels like a place for whispering', and 'we carry the little blue light home in our heads'.",
+      "Comparisons rebuilt from a child's own day: flour off a counter, as high as a swing, peas, snowballs, a windowpane, a ladybug past a beach ball, cream stirred into blueberry milk, the deep end of the swimming pool, and a jar of marbles throughout.",
+      "Both endings now send the child home holding a real thing instead of a feeling: a dark blue marble set down on the paving stone a long way from the others, or the blue and white swirl held up against the sky. v1 ended on 'the little blue light in our heads' and 'the best secret to carry to bed'.",
+      "Sentence length now rises and falls. Measured spread went from 3.87 to 6.22, with short landings ('Pieces.' 'Jupiter.' 'We ride on.' 'That is home.') after long flowing sentences; speech-or-action share went from 31 percent to 51 percent.",
+      "Length is essentially unchanged (longest path 698 to 712 words) and that is deliberate: the words freed by cutting nine similes and the restatements went into spoken lines and physical action, not into new description. No segment exceeds the 200-word ceiling and nothing was added to reach a number."
+    ],
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "status": "draft",
+  "depth": 1
+}

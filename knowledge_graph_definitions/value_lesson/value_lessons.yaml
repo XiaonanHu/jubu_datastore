@@ -1,0 +1,413 @@
+axis: value_lesson
+pack: value_lessons
+nodes:
+  - id: value_lesson.honesty
+    axis: value_lesson
+    label: honesty
+    display_name: "Honesty"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "telling the truth about the broken vase even when your tummy flips", vocabulary: [truth, honest, brave], avoid: ["snitching or tattling dilemmas", "harsh punishment for confessing"]}
+      6: {depth: concrete_example, framing: "the truth comes out easier when it comes out first", vocabulary: [truth first, own up, trust], avoid: ["harsh punishment for confessing"]}
+      7: {depth: concrete_example, framing: "little lies grow legs; one fib needs ten more to carry it", vocabulary: [fib, cover up, come clean]}
+      8: {depth: gray_areas, framing: "is keeping a surprise party secret a lie? truth versus good secrets", vocabulary: [secret, surprise, trust]}
+      9: {depth: gray_areas, framing: "kind and honest at the same time: saying the true thing gently", vocabulary: [tact, gentle truth, honest answer]}
+      10: {depth: gray_areas, framing: "telling the truth when it costs you something real", vocabulary: [the cost, courage, character]}
+    edges:
+      adjacent: [value_lesson.keeping_promises, value_lesson.earning_trust, value_lesson.admitting_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.perseverance
+    axis: value_lesson
+    label: perseverance
+    display_name: "Perseverance"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "trying the monkey bars again tomorrow with stronger hands", vocabulary: [keep trying, again, practice]}
+      6: {depth: concrete_example, framing: "big things get built one small piece at a time", vocabulary: [step by step, stick with it, almost there]}
+      7: {depth: concrete_example, framing: "the messy middle: every big project has a part where you want to quit", vocabulary: [messy middle, keep going, take a break]}
+      8: {depth: gray_areas, framing: "the difference between giving up and choosing to stop", vocabulary: [give up, choose, worth it]}
+      9: {depth: gray_areas, framing: "sticking with the boring practice because the goal still matters", vocabulary: [long haul, routine, the goal]}
+      10: {depth: gray_areas, framing: "when persevering means changing the plan, not just pushing harder", vocabulary: [adjust, stubborn, smart effort]}
+    edges:
+      adjacent: [value_lesson.responsibility, value_lesson.keeping_promises, value_lesson.humility]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.kindness_to_strangers
+    axis: value_lesson
+    label: kindness_to_strangers
+    display_name: "Kindness to Strangers"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "smiling and saying thank you to the bus driver, with a grown-up right there", vocabulary: [kind, thank you, wave], avoid: ["undermining stranger-safety rules", "going anywhere with a stranger"]}
+      6: {depth: concrete_example, framing: "small kindnesses in public places: holding doors, saying please", vocabulary: [please, hold the door, polite], avoid: ["undermining stranger-safety rules", "sharing personal information with strangers"]}
+      7: {depth: concrete_example, framing: "noticing someone new or lost and getting a trusted adult to help", vocabulary: [notice, trusted adult, welcome], avoid: ["undermining stranger-safety rules", "a child helping an unknown adult alone"]}
+      8: {depth: gray_areas, framing: "being kind to strangers while keeping your safety rules switched on", vocabulary: [kind and careful, boundaries, safe distance], avoid: ["undermining stranger-safety rules"]}
+      9: {depth: gray_areas, framing: "kindness to people who can never pay you back", vocabulary: [goodwill, no reward, dignity], avoid: ["undermining stranger-safety rules"]}
+      10: {depth: gray_areas, framing: "one kind stranger can change someone's whole day; staying wise about safety while being that person", vocabulary: [ripple, wise, generous], avoid: ["undermining stranger-safety rules"]}
+    edges:
+      adjacent: [value_lesson.generosity, value_lesson.respecting_differences, value_lesson.giving_back_to_community]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [social_awareness]
+    milestones:
+      note: "Is there any age in this range where depicting a child helping a stranger without an adult present is acceptable, or never?"
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.gratitude
+    axis: value_lesson
+    label: gratitude
+    display_name: "Gratitude"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "saying thank you and meaning it, right when the nice thing happens", vocabulary: [thank you, mean it, notice]}
+      6: {depth: concrete_example, framing: "spotting three good things at bedtime, even on a scratchy day", vocabulary: [good things, notice, bedtime list]}
+      7: {depth: concrete_example, framing: "thanking the invisible helpers: who made your dinner and washed your socks", vocabulary: [invisible helpers, appreciate, thanks]}
+      8: {depth: gray_areas, framing: "wanting more and being thankful can live in the same heart", vocabulary: [enough, wish list, thankful]}
+      9: {depth: gray_areas, framing: "being grateful for hard things after they've passed", vocabulary: [looking back, grew from it, thankful]}
+      10: {depth: gray_areas, framing: "showing gratitude with actions, not just words", vocabulary: [give back, show it, appreciate]}
+    edges:
+      adjacent: [value_lesson.generosity, value_lesson.helping_at_home, value_lesson.giving_back_to_community]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.responsibility
+    axis: value_lesson
+    label: responsibility
+    display_name: "Responsibility"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "your job, every day: the fish gets fed because of you", vocabulary: [my job, feed the fish, every day]}
+      6: {depth: concrete_example, framing: "finishing your job before anyone has to remind you", vocabulary: [remember, on my own, done]}
+      7: {depth: concrete_example, framing: "being responsible means people can count on you for your part", vocabulary: [count on me, my part, reliable]}
+      8: {depth: gray_areas, framing: "when it's half your fault: owning your share of a group mess", vocabulary: [my share, own it, the group]}
+      9: {depth: gray_areas, framing: "taking on a responsibility nobody assigned you", vocabulary: [step up, notice, take charge]}
+      10: {depth: gray_areas, framing: "being responsible for how your choices land on other people", vocabulary: [consequences, think ahead, choices]}
+    edges:
+      adjacent: [value_lesson.helping_at_home, value_lesson.keeping_promises, value_lesson.admitting_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.generosity
+    axis: value_lesson
+    label: generosity
+    display_name: "Generosity"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "giving your friend the bigger half of the cookie", vocabulary: [give, bigger half, happy]}
+      6: {depth: concrete_example, framing: "giving something you actually like, not just your leftovers", vocabulary: [really give, favorite, gift]}
+      7: {depth: concrete_example, framing: "being generous with time: helping when you'd rather be playing", vocabulary: [give time, pitch in, willing]}
+      8: {depth: gray_areas, framing: "giving quietly, without waiting for applause", vocabulary: [quiet giving, no applause, glad]}
+      9: {depth: gray_areas, framing: "being generous with credit: pointing at the people who helped", vocabulary: [share credit, shine the light, team]}
+      10: {depth: gray_areas, framing: "how much is mine to give? generosity with limits that keep it kind", vocabulary: [limits, keep some, openhanded]}
+    edges:
+      adjacent: [value_lesson.gratitude, value_lesson.kindness_to_strangers, value_lesson.giving_back_to_community]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.forgiveness
+    axis: value_lesson
+    label: forgiveness
+    display_name: "Forgiveness"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "letting the mad feeling go after a real sorry", vocabulary: [forgive, let it go, friends again]}
+      6: {depth: concrete_example, framing: "forgiving doesn't mean it didn't hurt; it means starting fresh", vocabulary: [fresh start, still friends, mend]}
+      7: {depth: concrete_example, framing: "forgiving someone who keeps doing the same thing starts with talking", vocabulary: [talk first, change, another chance]}
+      8: {depth: gray_areas, framing: "forgiving and forgetting are two different jobs", vocabulary: [remember, boundary, forgive]}
+      9: {depth: gray_areas, framing: "forgiving someone who never said sorry, for your own peace", vocabulary: [peace, let go, unspoken]}
+      10: {depth: gray_areas, framing: "second chances: when to give one and when to protect yourself", vocabulary: [second chance, trust again, protect yourself]}
+    edges:
+      adjacent: [value_lesson.fairness, value_lesson.humility, value_lesson.admitting_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.fairness
+    axis: value_lesson
+    label: fairness
+    display_name: "Fairness"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "everyone gets a turn and the cake gets cut evenly", vocabulary: [fair, even, turns]}
+      6: {depth: concrete_example, framing: "playing by the rules even when you're losing", vocabulary: [the rules, same rules, fair play]}
+      7: {depth: concrete_example, framing: "calling it fair even when the fair call goes against you", vocabulary: [fair call, against me, honest]}
+      8: {depth: gray_areas, framing: "equal isn't always fair: the shorter kid needs the taller stool", vocabulary: [equal, what's needed, fair]}
+      9: {depth: gray_areas, framing: "noticing when the rules themselves are unfair", vocabulary: [unfair rules, question it, change it]}
+      10: {depth: gray_areas, framing: "being fair to someone you don't even like", vocabulary: [even-handed, set it aside, honest]}
+    edges:
+      adjacent: [value_lesson.forgiveness, value_lesson.respecting_differences, value_lesson.standing_up_for_others]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.respecting_differences
+    axis: value_lesson
+    label: respecting_differences
+    display_name: "Respecting Differences"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "different lunches, different homes, different games, all okay", vocabulary: [different, okay, curious]}
+      6: {depth: concrete_example, framing: "asking friendly questions about what you don't know yet", vocabulary: [ask kindly, learn, curious]}
+      7: {depth: concrete_example, framing: "different doesn't mean wrong; it means new to you", vocabulary: [new to me, respect, open]}
+      8: {depth: gray_areas, framing: "liking someone and disagreeing with them at the same time", vocabulary: [disagree, still friends, respect]}
+      9: {depth: gray_areas, framing: "sticking up for someone teased for being different", vocabulary: [stick up, teasing, ally]}
+      10: {depth: gray_areas, framing: "listening to understand a view you'll never share", vocabulary: [understand first, listen, common ground]}
+    edges:
+      adjacent: [value_lesson.fairness, value_lesson.kindness_to_strangers, value_lesson.thinking_for_yourself]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [social_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.keeping_promises
+    axis: value_lesson
+    label: keeping_promises
+    display_name: "Keeping Promises"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "a promise is glue: if you say it, you do it", vocabulary: [promise, keep it, do it]}
+      6: {depth: concrete_example, framing: "only promise what you can really do", vocabulary: [really can, careful promise, keep]}
+      7: {depth: concrete_example, framing: "a promise still counts when something more fun comes along", vocabulary: [still counts, tempted, kept it]}
+      8: {depth: gray_areas, framing: "when you can't keep a promise: telling early beats hiding", vocabulary: [tell early, can't anymore, make it right]}
+      9: {depth: gray_areas, framing: "promises you make to yourself count too", vocabulary: [self-promise, follow through, habit]}
+      10: {depth: gray_areas, framing: "a promise to keep a harmful secret is a promise to break", vocabulary: [harmful secret, break it, trusted adult]}
+    edges:
+      adjacent: [value_lesson.honesty, value_lesson.responsibility, value_lesson.earning_trust]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.helping_at_home
+    axis: value_lesson
+    label: helping_at_home
+    display_name: "Helping at Home"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "little hands set the table: everyone in a family has a job", vocabulary: [set the table, my job, helper]}
+      6: {depth: concrete_example, framing: "helping before being asked feels like giving a surprise gift", vocabulary: [before asked, surprise, pitch in]}
+      7: {depth: concrete_example, framing: "the boring jobs count double: dishes, laundry, taking out the trash", vocabulary: [chores, count on me, done well]}
+      8: {depth: gray_areas, framing: "helping when it's not your mess and not your turn", vocabulary: [not my mess, team, family]}
+      9: {depth: gray_areas, framing: "noticing what needs doing without waiting for a list", vocabulary: [notice, just do it, lighten the load]}
+      10: {depth: gray_areas, framing: "pulling real weight at home as you grow, not just token jobs", vocabulary: [real jobs, pull weight, dependable]}
+    edges:
+      adjacent: [value_lesson.responsibility, value_lesson.gratitude, value_lesson.generosity]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.gentle_with_animals
+    axis: value_lesson
+    label: gentle_with_animals
+    display_name: "Gentle with Animals"
+    age_bands: ["5-6"]
+    age_treatments:
+      5: {depth: concrete_example, framing: "soft hands and quiet voices; the cat decides when petting starts", vocabulary: [gentle, soft hands, quiet voice]}
+      6: {depth: concrete_example, framing: "reading animal signals: a tucked tail means give me space", vocabulary: [signals, give space, careful]}
+    edges:
+      adjacent: [value_lesson.kindness_to_strangers, value_lesson.responsibility]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.humility
+    axis: value_lesson
+    label: humility
+    display_name: "Humility"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: concrete_example, framing: "being great at something without making others feel small", vocabulary: [brag, humble, lift others]}
+      8: {depth: gray_areas, framing: "confident and humble can be the same kid", vocabulary: [confident, humble, both at once]}
+      9: {depth: gray_areas, framing: "saying I don't know and asking is stronger than pretending", vocabulary: [I don't know, ask, learn]}
+      10: {depth: gray_areas, framing: "taking feedback without wilting and without arguing", vocabulary: [feedback, listen, improve]}
+    edges:
+      adjacent: [value_lesson.perseverance, value_lesson.forgiveness, value_lesson.admitting_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.earning_trust
+    axis: value_lesson
+    label: earning_trust
+    display_name: "Earning Trust"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: concrete_example, framing: "trust is built in small deliveries: doing what you said, again and again", vocabulary: [reliable, again and again, count on]}
+      8: {depth: gray_areas, framing: "trust breaks fast and rebuilds slowly", vocabulary: [rebuild, slowly, patient]}
+      9: {depth: gray_areas, framing: "being trusted with more because you handled the small stuff", vocabulary: [track record, trusted with more, steady]}
+      10: {depth: gray_areas, framing: "keeping a friend's secret, and knowing which secrets shouldn't be kept", vocabulary: [confide, safe secret, tell an adult]}
+    edges:
+      adjacent: [value_lesson.honesty, value_lesson.keeping_promises, value_lesson.quiet_integrity]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.standing_up_for_others
+    axis: value_lesson
+    label: standing_up_for_others
+    display_name: "Standing Up for Others"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: concrete_example, framing: "saying that's not kind when someone is being teased", vocabulary: [speak up, not kind, brave]}
+      8: {depth: gray_areas, framing: "standing up without becoming the new bully", vocabulary: [firm, fair, calm]}
+      9: {depth: gray_areas, framing: "doing the right thing when your friends want you to look away", vocabulary: [look away, backbone, right thing]}
+      10: {depth: gray_areas, framing: "small stands count: the quiet no, the seat offered, the name corrected", vocabulary: [quiet no, small stands, everyday courage]}
+    edges:
+      adjacent: [value_lesson.fairness, value_lesson.respecting_differences, value_lesson.thinking_for_yourself]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [responsible_decision_making]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.quiet_integrity
+    axis: value_lesson
+    label: quiet_integrity
+    display_name: "Integrity When No One Is Watching"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: gray_areas, framing: "returning the extra change when nobody would ever know", vocabulary: [nobody knows, still counts, honest]}
+      10: {depth: gray_areas, framing: "you are what you do when no one is watching; the private self and the public self match", vocabulary: [private self, match up, character]}
+    edges:
+      adjacent: [value_lesson.honesty, value_lesson.earning_trust, value_lesson.admitting_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.admitting_mistakes
+    axis: value_lesson
+    label: admitting_mistakes
+    display_name: "Admitting Mistakes"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: gray_areas, framing: "saying it was me before anyone asks", vocabulary: [it was me, own it, say it first]}
+      10: {depth: gray_areas, framing: "admitting you were wrong in an argument, not just in an accident", vocabulary: [I was wrong, changed my mind, bigger person]}
+    edges:
+      adjacent: [value_lesson.honesty, value_lesson.humility, value_lesson.quiet_integrity]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.giving_back_to_community
+    axis: value_lesson
+    label: giving_back_to_community
+    display_name: "Giving Back to Community"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: gray_areas, framing: "your street, your park, your library: taking care of shared places", vocabulary: [community, shared, take care]}
+      10: {depth: gray_areas, framing: "finding the kind of helping that fits you and doing it regularly", vocabulary: [volunteer, regular, my way of helping]}
+    edges:
+      adjacent: [value_lesson.generosity, value_lesson.gratitude, value_lesson.kindness_to_strangers]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: value_lesson.thinking_for_yourself
+    axis: value_lesson
+    label: thinking_for_yourself
+    display_name: "Thinking for Yourself"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: gray_areas, framing: "checking whether everyone says so is actually true", vocabulary: [everyone says, check it, my own answer]}
+      10: {depth: gray_areas, framing: "disagreeing with the group politely and staying friends", vocabulary: [own opinion, politely, stand alone]}
+    edges:
+      adjacent: [value_lesson.standing_up_for_others, value_lesson.respecting_differences, value_lesson.quiet_integrity]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [responsible_decision_making]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

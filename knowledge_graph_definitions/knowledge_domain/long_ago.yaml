@@ -1,0 +1,182 @@
+axis: knowledge_domain
+pack: long_ago
+nodes:
+  - id: knowledge_domain.ancient_egypt
+    axis: knowledge_domain
+    label: ancient_egypt
+    display_name: "Ancient Egypt"
+    region: long_ago
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "giant pyramids in the sand; cats treated like royalty", vocabulary: [pyramid, pharaoh, desert], avoid: [mummification details, curses]}
+      6: {depth: sensory, framing: "who built the pyramids and what's inside them", vocabulary: [pharaoh, treasure, tomb], avoid: [mummification details]}
+      7: {depth: mechanism, framing: "how pyramids were built without machines; life on the Nile", vocabulary: [Nile, ramp, scribe]}
+      8: {depth: mechanism, framing: "hieroglyphs as a writing system; farming by the flood", vocabulary: [hieroglyph, papyrus, flood season]}
+      9: {depth: system, framing: "how a whole civilization organized itself around one river", vocabulary: [civilization, dynasty, irrigation]}
+      10: {depth: system, framing: "archaeology; how we know what we know about Egypt", vocabulary: [archaeologist, artifact, excavation]}
+    edges:
+      adjacent: [knowledge_domain.the_stone_age, knowledge_domain.deserts, knowledge_domain.rivers]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.knights_and_castles
+    axis: knowledge_domain
+    label: knights_and_castles
+    display_name: "Knights and Castles"
+    region: long_ago
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "drawbridges, moats, and towers you could live inside", vocabulary: [castle, knight, drawbridge], avoid: [battle violence, scary sieges]}
+      6: {depth: sensory, framing: "a day inside a castle; feasts in the great hall and armor that clanks", vocabulary: [armor, moat, feast], avoid: [battle violence]}
+      7: {depth: mechanism, framing: "how castles were built to keep people safe; thick walls, gates, and lookout towers", vocabulary: [portcullis, blacksmith, squire], avoid: [glorified battles, graphic weaponry outcomes]}
+      8: {depth: mechanism, framing: "how someone became a knight; training as a page, codes of honor, and tournaments", vocabulary: [chivalry, page, tournament], avoid: [glorified battles]}
+      9: {depth: system, framing: "the village around the castle; who farmed, who ruled, and how they depended on each other", vocabulary: [medieval, lord, peasant], avoid: [glorified warfare]}
+      10: {depth: system, framing: "castles as defensive technology; why cannons ended the age of castles", vocabulary: [fortification, siege, cannon], avoid: [graphic weaponry outcomes]}
+    edges:
+      adjacent: [knowledge_domain.bridges_and_buildings, knowledge_domain.ancient_rome, knowledge_domain.how_people_lived_long_ago]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.the_stone_age
+    axis: knowledge_domain
+    label: the_stone_age
+    display_name: "The Stone Age"
+    region: long_ago
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "life in caves; firelight, furry mammoths, and tools made of stone", vocabulary: [cave, mammoth, stone tool], avoid: [graphic hunting scenes]}
+      6: {depth: sensory, framing: "making the very first tools; chipping stones and sewing with bone needles", vocabulary: [flint, spear, bone needle], avoid: [graphic hunting scenes]}
+      7: {depth: mechanism, framing: "how people made fire and why it changed everything; cooking, warmth, and light", vocabulary: [firestarter, tinder, hearth]}
+      8: {depth: mechanism, framing: "cave paintings; what stone age artists drew and how they made their paints", vocabulary: [cave painting, charcoal, ochre]}
+      9: {depth: system, framing: "from hunting and gathering to farming; one of the biggest changes in human history", vocabulary: [hunter-gatherer, agriculture, settlement]}
+      10: {depth: system, framing: "how archaeologists read stone tools and old bones to piece together daily life", vocabulary: [prehistoric, artifact, excavation]}
+    edges:
+      adjacent: [knowledge_domain.fossils, knowledge_domain.caves, knowledge_domain.ancient_egypt]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.ancient_rome
+    axis: knowledge_domain
+    label: ancient_rome
+    display_name: "Ancient Rome"
+    region: long_ago
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "roads, aqueducts, and arches; how Roman builders made things that still stand", vocabulary: [aqueduct, arch, forum], avoid: [glorified battles, graphic gladiator violence]}
+      8: {depth: mechanism, framing: "daily life in Rome; markets, public baths, school, and chariot races", vocabulary: [toga, chariot, mosaic], avoid: [graphic gladiator violence]}
+      9: {depth: system, framing: "how one city ran a huge empire; shared laws, roads, coins, and language", vocabulary: [empire, senate, Latin], avoid: [glorified conquest]}
+      10: {depth: system, framing: "why Rome rose and why it fell; what the empire left behind in our words and cities", vocabulary: [republic, citizen, legacy], avoid: [glorified conquest]}
+    edges:
+      adjacent: [knowledge_domain.ancient_egypt, knowledge_domain.knights_and_castles, knowledge_domain.bridges_and_buildings]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.vikings
+    axis: knowledge_domain
+    label: vikings
+    display_name: "Vikings"
+    region: long_ago
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "longships that could cross oceans and slip up rivers; life in a Viking village", vocabulary: [longship, fjord, voyage], avoid: [glorified raids, graphic weaponry outcomes]}
+      8: {depth: mechanism, framing: "how Vikings found their way without maps; sun, stars, birds, and landmarks", vocabulary: [navigation, rune, sail], avoid: [glorified raids]}
+      9: {depth: system, framing: "Vikings as traders and settlers; routes reaching from Greenland to Baghdad", vocabulary: [trade route, settlement, saga], avoid: [glorified raids]}
+      10: {depth: system, framing: "how sagas and archaeology tell different stories about who the Vikings really were", vocabulary: [Norse, saga, archaeology], avoid: [glorified violence]}
+    edges:
+      adjacent: [knowledge_domain.boats_and_floating, knowledge_domain.explorers_and_voyages, knowledge_domain.oceans_and_tides]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.explorers_and_voyages
+    axis: knowledge_domain
+    label: explorers_and_voyages
+    display_name: "Explorers and Voyages"
+    region: long_ago
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "months at sea on a wooden ship; hard biscuits, storms, and shouting land ho", vocabulary: [voyage, compass, crew], avoid: [conquest glorification]}
+      8: {depth: mechanism, framing: "how sailors found their way; compasses, stars, and drawing coastlines onto maps", vocabulary: [navigation, expedition, chart], avoid: [conquest glorification]}
+      9: {depth: system, framing: "voyages connected continents; foods and ideas traveled both ways, and so did harm to people already living there", vocabulary: [continent, trade, encounter], avoid: [conquest glorification, minimizing harm to indigenous peoples]}
+      10: {depth: system, framing: "who explorers met when they arrived; telling the story from both sides of the shore", vocabulary: [indigenous peoples, colonization, perspective], avoid: [conquest glorification]}
+    edges:
+      adjacent: [knowledge_domain.vikings, knowledge_domain.maps_and_globes, knowledge_domain.oceans_and_tides, knowledge_domain.stars_and_constellations]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: "Is the ages 9-10 treatment of colonization honest enough without being frightening? Would value a check on the encounter framing."
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.how_people_lived_long_ago
+    axis: knowledge_domain
+    label: how_people_lived_long_ago
+    display_name: "How People Lived Long Ago"
+    region: long_ago
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "no light switches, no cars; candles, horses, and water carried from a well", vocabulary: [candle, well, wagon]}
+      6: {depth: sensory, framing: "what kids did long ago; chores, wooden toys, and one-room schools", vocabulary: [chore, schoolhouse, marbles]}
+      7: {depth: mechanism, framing: "how homes worked before electricity; fires for cooking and ice blocks for keeping food cold", vocabulary: [hearth, icebox, lantern]}
+      8: {depth: mechanism, framing: "how news traveled before phones; messengers on horseback, ships, and the telegraph", vocabulary: [messenger, telegraph, printing press]}
+    edges:
+      adjacent: [knowledge_domain.the_stone_age, knowledge_domain.jobs_people_do, knowledge_domain.farms_and_food]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.the_silk_road
+    axis: knowledge_domain
+    label: the_silk_road
+    display_name: "The Silk Road"
+    region: long_ago
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "a chain of trade routes linking China to Rome; silk, spices, and ideas riding with the caravans", vocabulary: [trade route, caravan, silk]}
+      10: {depth: system, framing: "how inventions and stories moved along the route; oasis towns, busy markets, and paper's long journey west", vocabulary: [oasis, merchant, cultural exchange]}
+    edges:
+      adjacent: [knowledge_domain.money_and_trade, knowledge_domain.deserts, knowledge_domain.ancient_rome, knowledge_domain.maps_and_globes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

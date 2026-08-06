@@ -1,0 +1,121 @@
+{
+  "id": "story.birds.quiet_hour_001",
+  "title": "Grandma Nell and the Dawn Chorus",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.birds",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A grandmother remembers the dawn a baby robin sang its first song outside her childhood window.",
+  "slots": {
+    "robin_name": {
+      "role": "the robin who sings first every morning",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandma Nell sat in her big soft chair by the window, knitting something yellow. Outside, the evening birds were settling into the hedge. She put down her needles and smiled. \"Do you hear them?\" she said. \"Birds getting sleepy. That reminds me of when I was a girl, when the birds woke me instead. Let me tell you about it. My little bed sat right under the window. Every morning, before the sun came up, the sky turned a soft gray blue. And then, from the fence post, came the very first song of the whole day. Chirp, chirree. It was always the same robin. Round as an apple, with a red chest and bright black eyes. I named him {robin_name}. When {robin_name} sang, the other birds woke up one by one and joined in. We called it the dawn chorus. But one morning, I heard something new. Under all the big songs was a tiny, wobbly voice. Thin as a thread. Whose little voice was that?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Grandma Nell's eyes went soft. \"I watched {robin_name},\" she said. \"He stood on the tip of the fence post like a tiny king. He puffed up his red chest until he was almost a ball. His whole body trembled when he sang, from beak to tail feather. Chirp, chirree, chirree. Then the blackbird joined in from the chimney, low and sweet like a flute. The sparrows started up inside the hedge, chattery and quick. Song landed on top of song, like blankets piled on a bed. I opened my window one small crack to hear it better. Cold morning air slipped in, smelling of wet grass. I hummed along, very quietly, so only the birds could hear me. {robin_name} turned his head. One bright black eye looked right at me. He did not fly away. He just kept singing, and I kept listening. But under it all, that tiny wobbly voice was still there. Still waiting for me to find it.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Grandma Nell leaned in close. \"I looked at the hedge,\" she said. \"Deep inside it, where the leaves grew thick, the robins kept a nest. I had watched them build it in the spring. That is how I learned that a robin's beak is a tool. It is like a tiny pair of tweezers. {robin_name} would pick up one straw at a time, just so. He carried twigs and moss and tucked each piece into place. Round and round he worked, until the nest was a perfect little bowl. Inside, it was lined with soft gray feathers, cozy as a mitten. Now, in the gray morning light, I could just see the edge of that nest. And the edge was wobbling. Something in there was hopping. Something small was flapping brand new wings, getting ready for something big. My tummy went fizzy with waiting. The tiny thread of a voice came again, right from that little bowl of twigs. Whoever it was, they were about to come out.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Then it happened,\" said Grandma Nell. \"Out of the hedge, where the robins kept their nest, popped a baby bird. A fluffy little thing, soft as a dandelion, with stubby short wings. It hopped along a low branch, one bounce at a time. Hop. Wobble. Hop. Then it flapped hard and landed on the fence post, right beside {robin_name}. The whole garden seemed to hush. Even the sparrows went quiet in the hedge. The baby opened its yellow beak wide. Out came one small, scratchy, wobbly chirp. It was not much of a song yet. But {robin_name} tipped back his head and answered with his biggest, proudest chirree. The baby tried again. A little stronger this time. Back and forth they went, big song, small song, big song, small song. The sky behind them was turning pink at the edges. Morning was almost here, and the baby's first real song was almost ready too.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Grandma Nell folded her hands in her lap. \"I stayed as still as a stone,\" she said. \"I did not even wiggle my toes. The baby bird filled up its little chest. And out came its first whole song. Wobbly at the start, then suddenly clear and sweet, like a tiny silver bell. {robin_name} sang the high parts. The baby sang the small parts. The blackbird and the sparrows wrapped their songs around them both. Then the sun came up over the hedge and poured gold across my blanket. I clapped, very softly, with just my fingertips. The baby fluffed its feathers, proud as anything.\" Grandma Nell picked up her knitting again and smiled at the window. \"That was many, many mornings ago. But I still open my window at dawn, every single day. Some mornings a robin sings on that same fence post. I like to think it is {robin_name}'s family, still teaching their little ones the first song of the day.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Grandma Nell laughed softly. \"I tiptoed to the kitchen,\" she said. \"I took the crusty end of yesterday's bread and crumbled it up small. Then I spread the crumbs along my windowsill and knelt down to wait. {robin_name} saw them first. He landed on the sill with a little tap. Peck, peck, peck went his beak, quick as a sewing needle. Then he did the loveliest thing. He chirped toward the fence, as if to say, breakfast is ready. The baby flapped over, wobbly, and landed beside him with a bump. {robin_name} nudged a crumb toward it. The baby pecked its very first breakfast, right there in front of me. Peck, peck, hop. Peck, peck, hop. The sun rose and warmed the glass, and the whole chorus sang around us.\" Grandma Nell pointed to a little jar on her windowsill, full of crumbs. \"I have kept a crumb jar ever since. The birds sing for their breakfast, and I get the best seat in the house.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Little Nell knelt at her window. What should she watch more closely?",
+      "options": [
+        {
+          "say_word": "robin",
+          "label": "The robin singing on the fence post",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "nest",
+          "label": "The nest hidden in the hedge",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The sun was almost up. What should little Nell do?",
+      "options": [
+        {
+          "say_word": "listen",
+          "label": "Stay still and listen to the baby's first song",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "crumbs",
+          "label": "Scatter breakfast crumbs on the windowsill",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

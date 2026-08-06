@@ -1,0 +1,325 @@
+{
+  "id": "story.in_the_kitchen.age7to8.d1.pregen.d36165",
+  "title": "The Cake That Couldn't Go Back",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.in_the_kitchen",
+    "sel_theme": null,
+    "value_lesson": "cooking something for another person as a way of saying something words can't",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We bake a cake for Grandpa and follow the mystery of how a pourable puddle became something that stands up on its own, discovering that heat builds tiny walls around tiny bubbles that can never be un-built.",
+  "slots": {
+    "cake_flavor": {
+      "role": "the flavor of Grandpa's birthday cake",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "lemon sunshine cake"
+    },
+    "bubble_name": {
+      "role": "the name Pip gives to the biggest bubble hole in the cut cake",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "Bubble Mayor"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Saturday morning, and Grandma's kitchen smells like {cake_flavor}. Sunlight pours through the window, and the flour dust hangs in it like slow, tiny snow.\n\nWe are helping our cousin bake Grandpa's birthday cake. Our little sibling Pip is helping too, in Pip's own way.\n\n\"Fffzzz!\" says Pip, as the baking soda hits the bowl. \"Fffzzz! The bubbles are waking up!\"\n\nWe measure. We stir. The recipe says three eggs, and the shells go crack, crack, crack. Butter slides into the sugar and melts into yellow swirls. Every ingredient goes in, and the spoon goes round and round, and the batter turns thick and glossy, like a blanket you could pour.\n\n\"Into the pan,\" says our cousin. \"Into the oven. Now we wait.\"\n\nSo we wait. And the kitchen gets warmer. And the smell gets bigger and bigger, until it fills the whole house like a hug.\n\nThen the timer rings. Ding!\n\nOur cousin opens the oven, and there it is. Golden. Puffed up. Standing tall all by itself.\n\nOur cousin slides a toothpick into the middle and pulls it out. Clean. Not one drip.\n\nPip stares at it. Pip's eyes go wide.\n\n\"Wait,\" says Pip. \"Wait. An hour ago it was soup. Soup! You could pour it!\"\n\nPip pokes the top gently, and it springs back.\n\n\"Why is it a house now?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The list,\" we say. \"Interrogate the list.\"\n\nOur cousin spreads the recipe card on the counter like a treasure map, and we lean over it, three detectives in a row. Pip climbs onto a stool to see.\n\n\"Milk,\" our cousin reads. \"Went in pourable.\" We cross it off.\n\n\"Eggs. Went in runny.\" Crossed off.\n\n\"Flour. Soft as dust.\" Crossed off.\n\n\"Butter.\" Pip giggles. \"Butter went in like a sleepy stick.\"\n\nAnd that reminds us. This morning, the butter sat on the counter waiting its turn, and by the time we reached for it, it had gone slump-shouldered and shiny, sliding sideways all by itself. No oven. Just a warm kitchen.\n\n\"So warmth was already changing things,\" our cousin says, tapping the card. \"Before the oven even got a turn.\"\n\nThen Pip does something brilliant. Pip takes the practice egg, the extra one, and cracks it into the little pan. Crack. We watch the clear part slowly, slowly turn snowy white, like frost spreading across a window.\n\n\"It's not runny anymore,\" Pip whispers. \"And it can't go back.\"\n\nWe stare at each other. Every single ingredient started soft, or pourable, or runny. But something in that oven built a house out of soup.\n\n\"The oven did it,\" we say. \"But how?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The window,\" we say. \"Stake out the window.\"\n\nOur cousin grins and sets the timer. \"Detectives, take your positions.\"\n\nSo we kneel down in front of the oven, three in a row, with Pip squished in the middle. The oven light glows like a little sunrise, and through the glass we can see the pan, and the batter, pale and shiny and perfectly still.\n\n\"It's not doing anything,\" says Pip.\n\n\"Wait for it,\" our cousin says.\n\nAnd then we see it. The batter is climbing. Slowly, so slowly, up the sides of the pan, like dough waking up and stretching after a long nap. The middle rises in a soft, round hill.\n\n\"It's growing!\" Pip shouts. \"It's growing right now!\"\n\n\"Fffzzz,\" Pip whispers, remembering. \"The bubbles. The bubbles are doing something in there.\"\n\nWe watch and watch. The timer ticks. Our tummies rumble, but the timer decides, not our hunger, so we wait. And slowly, slowly, the pale top turns golden, like toast, like sunshine, like the crust of warm bread.\n\n\"It's changing right in front of us,\" we breathe.\n\nBut the glass keeps the secret. We can see the cake rising and turning gold, but we cannot see how. What is happening inside that golden hill? What are the bubbles building in there?\n\n\"We have to get inside that cake,\" says Pip.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Ding! The timer rings, and the whole kitchen seems to lean in. Our cousin opens the oven and out it comes, golden and tall, and Grandpa arrives at that exact moment, the way grandpas do when cake is close. He leans over the pan. He looks a long time. \"Well,\" he says. \"Look at that.\"\n\nWe crowd around. \"What did you find?\" our cousin asks, and we tell it, and Pip tells it too, louder, with extra fffzzz. Whatever we each saw, the clues click together like two puzzle pieces. The toothpick came out clean, so no soup is left hiding in the middle. And along the top edge, where the crust meets the pan, we can see them: tiny holes. Tiny rooms.\n\n\"The bubbles!\" shouts Pip. \"They got stuck! The Bubble Mayor lives here now!\"\n\nOur cousin nods, slow and sure. \"That's the answer. Heat built a million little walls around a million little bubbles. It turned a puddle into a sponge.\"\n\nGrandpa taps the golden top, and it springs back under his finger. \"So nobody can un-bake it,\" he says. \"Not ever. Just like nobody can un-white an egg.\"\n\n\"You can't un-cake a cake,\" says Pip, very seriously.\n\nBut the cake is still whole. The proof is hiding inside, in the crumb, in all those bubble rooms waiting to be found. Our cousin picks up the knife, and looks at us, and smiles.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "“Cut it,” says Pip. “I have to see the Bubble Mayor.”\n\nOur cousin slides the knife through, slow and careful, and the cake opens like a book. We lean in close. The inside is soft and pale gold, and it is full of holes. Tiny ones, smaller than peas. Big ones, fat as marbles. Each one is a little room where a bubble stood, right up until the heat froze the walls around it.\n\n“That one,” says Pip, pointing at the biggest hole. “That is {bubble_name}. That is the whole house.”\n\nGrandpa bends down and looks through his glasses. “Well, would you look at that,” he says. “You made me a sponge.”\n\nWe laugh, and then the doorbell rings. The neighbor is here, right on time, and our cousin cuts the first slice and puts it on a plate, and Grandpa holds it like it is treasure. Because it is.\n\nPip leans over and whispers to the cake. “You can’t go back,” Pip says. “You’re a cake now, forever.”\n\nAnd we know it is true. Some changes are one-way doors. That is exactly what makes a cake a cake.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "“Wait,” we say. “Let’s keep it whole.”\n\nSo our cousin puts the knife down, and we swirl the frosting on top, thick and smooth, hiding every secret underneath. The cake sits on the plate like a treasure chest, and nobody walking by would ever guess what is locked inside.\n\nWe carry it to the table, very slowly, the way you carry something that matters. Grandpa follows us, and Pip walks backward in front of the cake, watching it the whole time, like it might get away.\n\nThen the doorbell rings. The neighbor is here, right on time. We light the candle, and the flame wiggles, and Grandpa closes his eyes and blows. Everyone claps. And then, only then, our cousin picks up the knife and cuts the first slice.\n\nThe cake opens, and there they are. All the tiny holes. All the little rooms. The neighbor gasps, and Grandpa leans in close.\n\n“That one,” Pip announces to the whole room, pointing at the biggest hole, “is {bubble_name}.”\n\nWe already knew. We were the only ones who knew, and now everyone does. Heat built something that can never go back, and we built it for someone we love.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Our cousin taps the recipe card and says, 'Detectives, we can interrogate the ingredient list, or we can stake out the oven window and catch the cake in the act. Which is it?'",
+      "options": [
+        {
+          "say_word": "Interrogate",
+          "label": "read the recipe card and question every ingredient",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Stake out",
+          "label": "kneel at the oven window and watch the cake change",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Grandpa rubs his hands together and asks, 'Do we cut it open right now and show everyone the bubble rooms, or keep it whole and let the secret wait until the candle is lit?'",
+      "options": [
+        {
+          "say_word": "Cut it",
+          "label": "slice it open now and reveal the tiny holes",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "bubble_name": "Bubble Mayor"
+          }
+        },
+        {
+          "say_word": "Keep it",
+          "label": "carry it whole to the table and save the reveal",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "bubble_name": "Bubble Mayor"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.in_the_kitchen",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 19
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core material—why runny egg turns solid, why pale dough turns golden, why you can't un-bake a cake—is a natural chain of clues and satisfying answers, which feeds a gentle mystery better than a journey or romp.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "Little sibling Pip, who narrates the baking soda fizz with sound effects ('fffzzz!') and names the bubbles things like 'Bubble Mayor'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "cooking something for another person as a way of saying something words can't",
+      "why": "The neighbor and Grandpa material both point here, and the mystery ends with giving the cake away, so the value rides the plot rather than stopping it"
+    },
+    "cast": [
+      {
+        "role": "Pip, the curious little sibling",
+        "reused": false,
+        "why": "Asks 'but WHY can't you un-bake it?' and carries the silly accent through bubble-narration; age 8 readers love a younger kid who keeps pushing"
+      },
+      {
+        "role": "Grandpa",
+        "reused": false,
+        "why": "The cake is for his birthday; he watches the egg turn white and says only 'look at that,' modeling wonder without lecturing"
+      },
+      {
+        "role": "an older cousin who bakes",
+        "reused": false,
+        "why": "Owns the recipe card, teaches leveling flour, and gives the science clues in kid-sized pieces; her voice can ask choice questions naturally"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Grandma's kitchen with a scratched wooden spoon that is older than Dad",
+        "a cake cannot be un-baked because heat has already turned liquid batter into a spongy solid full of tiny air bubbles",
+        "baking soda makes batter rise by releasing tiny bubbles of gas when it gets wet and warm",
+        "egg white is runny and see-through until heat makes the tiny proteins link together, turning it white and solid",
+        "once an egg is cooked, you cannot make it runny again",
+        "opening question: the batter was a pourable puddle an hour ago, so why is the birthday cake standing up on its own?",
+        "clue: the recipe card shows the cake started as milk, eggs, and flour, all things that pour",
+        "clue: a toothpick poked in the middle comes out clean, because there is no liquid left inside to stick to it",
+        "clue: the little sibling remembers the baking soda fizzing, and someone connects the fizz to the holes in the sponge",
+        "satisfying answer: heat built a million tiny walls around a million tiny bubbles, turning a puddle into a soft, solid sponge",
+        "cutting the cake open to find the crumb full of tiny holes, realizing each hole is where a bubble of gas stood until heat froze the walls around it",
+        "watching a clear egg white turn white in the pan and learning the proteins folded into a new shape forever",
+        "leaving butter on the counter and finding it has gone slump-shouldered and shiny before you even turned on the stove",
+        "a neighbor who smells the baking and knocks on the door right as the timer rings",
+        "patience: the timer decides, not your hunger, and waiting is part of the recipe"
+      ],
+      "gathered_but_unused": [
+        "Egg white is runny and see-through until heat makes the tiny proteins in it link together, turning it white and solid.",
+        "Once an egg is cooked, you cannot make it runny again, because heat has permanently changed the shape of its proteins.",
+        "Pale bread dough turns golden brown in the oven because heat makes the sugars and proteins on the surface react together, creating new flavors and that toasted color.",
+        "A cake cannot be un-baked because heat has already turned liquid batter into a spongy solid full of tiny air bubbles, and those changes cannot be undone.",
+        "Baking powder or baking soda makes batter rise by releasing tiny bubbles of gas when it gets wet and warm, and those bubbles puff the cake up like a balloon.",
+        "Butter melts from a hard stick to a shiny golden liquid at just a little warmer than body temperature, which is why it softens on the counter before it ever sees a pan.",
+        "Sugar melts into a clear syrup when heated, and if you keep heating it, the syrup turns amber and smells like caramel, a brand-new flavor that did not exist before.",
+        "Steam is water turned into an invisible gas by heat, and you can see it again as tiny droplets when it touches something cool, like a lid."
+      ]
+    },
+    "safety_beat": "In s2b, our cousin shows us where to kneel at the oven window, on the folded dish towel she keeps on the floor 'for watchers,' a light competence beat with no warning and no tension.",
+    "motif": "tiny bubbles trapped forever, each one a small room that heat built",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it shows the doing of baking step by step with named materials and real sensory detail, lets the mystery of transformation drive the middle, and lands the wonder of irreversible change in a warm family scene without decoration or rush."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, hands already in the flour",
+        "s2a": "leaning in like a detective, delighted by the egg trick",
+        "s2b": "a held breath at the oven window, watching something grow",
+        "s3": "the click of clues falling into place, a small triumph",
+        "s4a": "a giggle and a satisfied awe at the bubble rooms",
+        "s4b": "proud and hushed, carrying treasure to someone loved"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] no voices: segment carries no spoken line; [s4a] narration heavy: only 35% of sentences carry speech or action; [s4b] no voices: segment carries no spoken line; [c1] narrator asks the choice: no spoken line; a character should pose the question"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 35% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 35% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[c1] narrator asks the choice: no spoken line; a character should pose the question",
+      "[c2] narrator asks the choice: no spoken line; a character should pose the question"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "20_in_the_kitchen_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

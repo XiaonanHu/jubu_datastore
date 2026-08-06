@@ -1,0 +1,304 @@
+{
+  "id": "story.pterosaurs.journey_001",
+  "title": "The Flock at the End of the Ridge",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.pterosaurs",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "We fly the whole ancient coastline beside a young flying reptile to reach the bay where her enormous flock gathers at sunset.",
+  "slots": {
+    "wing_friend": {
+      "role": "the young pterosaur who flies beside us the whole way",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Skye"
+    },
+    "sky_gift": {
+      "role": "the small treasure we pick up on the first half of the flight and carry to the end",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "a small white pebble"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We stood together on a grassy hilltop with the sun just coming up. This was long, long ago. The sea came much further in than it does now, and the air smelled of salt and warm pine. Then something crossed the sun. A shadow slid over the grass, wide as a rowing boat, and down she came in front of us with a soft thump. She folded her wings up like an umbrella. She had a long beak, eyes the color of honey, and a bright crest on her head standing up like a paper sail. She was a pterosaur. Not a dinosaur, though. A cousin of the dinosaurs, one of the great flying reptiles who ruled the sky while the dinosaurs stomped about below. We called her {wing_friend}. {wing_friend} tipped her head toward the sea and made a sound like a creaky gate. Then the morning wind came rushing up the hill and lifted us off our feet, gentle as two leaves, and we were flying beside her. Somewhere past the far ridge was a place where her whole flock meets. So off we went.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Down we swooped, so low that our toes nearly touched the water. The sea flashed silver underneath us. All along the shallows, pterosaurs were fishing. Some had beaks as thin as chopsticks. Some had a little hook at the tip. One flew with the very end of its beak cutting the water, leaving a long line like a zip opening. {wing_friend} came in close and turned her wing so we could see how it worked. It was not made of feathers at all. It was skin, smooth and strong and stretchy, held out from her ankle all the way to the tip of one enormously long finger. One finger. That was the whole wing. We put our own hand out into the wind and tried it, and we laughed. Then a wave rolled over a sandbar and left something shining there. Down we went, we grabbed, we wobbled, we nearly tumbled, and we got it. A smooth pink shell, polished by the sea. The salt wind bounced us back up, and now the far ridge looked close.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Up we went, along a tall wall of red cliffs. And we did not have to flap once. The sun had been warming that rock all morning, so the warm air came sliding up the cliff face like an invisible staircase. {wing_friend} spread her wings out wide, tilted a little, and we all rose together in one slow circle. On the ledges, pterosaurs were resting. Some had their wings folded away, and those ones walked about on all fours, using their folded wings like front legs. It looked wobbly and funny, like walking on your knuckles. In a hollow sat two fuzzy babies, gray as dandelion clocks, peeping at everything. One of them nudged something over the edge with its beak, and we caught it. A small white pebble, still warm from the rock. The baby peeped again, which we decided meant keep it. Round and round we climbed on the warm air, higher and higher, until the whole coast lay below us like a map, and the far ridge stood right in front.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We came over the ridge, and we both said oh at exactly the same moment. Below us lay a bay shaped like a horseshoe, and the whole sky above it was full of wings. Hundreds of them. Pterosaurs of every size, sliding and turning and crossing in the golden light. Little ones no bigger than seagulls darted right past our ears. And down on the sand stood the giants. Standing up, their heads were as high as a giraffe's, and when one of them opened its wings, the shadow covered half the beach. {wing_friend} called out in her creaky gate voice, and a hundred creaky gates called back to her. We held on tight with one hand, and with the other hand we held {sky_gift}. The sun was sinking now and turning everything orange, and the air was warm and loud and busy. Then {wing_friend} looked at us. She looked up at the last high sunlight. Then she looked down at a wide flat ledge where the flock was starting to settle. She was asking us something, without any words at all.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We climbed. {wing_friend} found a tall column of warm air and we went round and round inside it, up and up and up, until the bay was only a little horseshoe far below. The noise faded away. The air turned cold and clean and very quiet. Then we came out above a long bank of pink clouds, and it looked like a second sea, a soft one you could almost land on. The sun sat right on the edge of the world and painted {wing_friend} gold from her beak to her wingtips. One at a time, the stars came out. We did not say anything for a long while. There was nothing that needed saying. When the first star was properly bright, {wing_friend} tipped her wings over, and we came down the whole sky in one long slow glide, all the way back to our own grassy hilltop. She thumped down. She folded her wings up like an umbrella. Then she touched her beak to our hands, very softly, and we found we still had {sky_gift} safe in our pocket. We kept it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Down we came onto the wide flat ledge, with the whole flock arriving all around us. It was like watching a hundred umbrellas close, one after another after another. Wings folded away. Feet shuffled about. Everybody found their own spot on the warm rock. One big one settled so near that we could hear the air going in and out of it, slow and steady. The little ones tucked their heads along their shoulders. The creaky gate voices went quieter and quieter, until all we could hear was the sea washing in and washing out, far below. {wing_friend} made a low humming sound and lay down with her wings tucked in like a folded tent. We sat beside her with our backs against the warm rock and watched the last light go out of the water. The stars came out over the bay, one, and then hundreds, and the whole flock breathed together in the dark. We put {sky_gift} safe in our pocket. Then we said goodnight to {wing_friend}, and we walked home the soft way, the way you always can in a story.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Two ways along the ancient coast. Which way should we fly with {wing_friend}?",
+      "options": [
+        {
+          "say_word": "waves",
+          "label": "Down low over the shining water",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "sky_gift": "a smooth pink shell"
+          }
+        },
+        {
+          "say_word": "cliffs",
+          "label": "Up the red cliffs on the warm air",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "sky_gift": "a small white pebble"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The sun is going down over the bay. Where should we go with {wing_friend}?",
+      "options": [
+        {
+          "say_word": "higher",
+          "label": "Up to the very top of the sky",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "ledge",
+          "label": "Down to the ledge where the flock sleeps",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.pterosaurs",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.dinosaurs",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "the whole subject is flying, so the only pattern whose movement matches the animal is one where the route itself is the story and the pull is what lies over the next ridge.",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.30,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.38,
+          "sampled": true
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.19,
+          "sampled": true,
+          "rejected_because": "a fix needs something to go wrong, and at this band the obvious wrongs for a flying animal are a fall or a hunt, both of which the pterosaurs avoid list rules out"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.10,
+          "sampled": true,
+          "rejected_because": "it would spend the topic's best material, an enormous flock in motion, on almost nothing happening; kept as the backup because the settling-ledge ending shows it could work"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.15,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.09,
+          "sampled": false
+        }
+      ],
+      "backup": "quiet_hour"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "{wing_friend} herself — every time she slows, turns a wing toward us, or looks at us, the story stops moving and starts looking. The wind and the swooping carry the adventure; she carries the wonder.",
+      "why": "flying is motion, so adventure has to be dominant or the prose fights the subject. But the true facts here are stillness facts, one finger holding up a whole wing, a head as high as a giraffe's, and they need a carrier who can pause mid-flight to show them.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a big_adventure accent",
+          "because": "that is the parent dinosaurs story's recipe, and the shelf wants contrast. It also mismatches a story where we are airborne for every single segment."
+        },
+        {
+          "recipe": "big_adventure + silly",
+          "because": "the only silly material on the sheet is pterosaurs walking on their folded wings. That is one funny image, not a carrier, and leaning on it would make the flock comic instead of awesome."
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "policy default for journey, and here it does real work: the child is never alone in the sky, and every choice is naturally ours rather than someone else's. Being carried by the wind beside her only feels safe in the we voice.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "the topic family already used it for the dinosaurs and triceratops stories, and the rotation rule says do not serve the same telling style again. It would also put a small child alone in the air, which is the one thing the we voice fixes."
+        },
+        {
+          "teller": "storytellers_tale",
+          "because": "a remembered flight cools the wind down; big_adventure needs the wind happening now."
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "no value angle appeared naturally in Stage 2 material, and the story is deliberately one where nothing goes wrong, which is exactly the setting that offers a value nothing to bite on. Adding one would be decoration."
+    },
+    "cast": [
+      {
+        "role": "the young pterosaur who flies beside us",
+        "reused": false,
+        "why": "new, and new on purpose. She becomes this topic family's flying companion, and her name is a naming slot keyed to (topic family, character role), so a child who names her here hears the same name in any later pterosaurs or dinosaurs story."
+      },
+      {
+        "role": "the child explorer with the notebook",
+        "reused": false,
+        "why": "explicitly not reused, and this is the one place we broke the reuse-before-invent preference. The we_adventure teller has no third-person hero to be; bringing the family's named explorer in as a bystander would split the point of view between that character and us. The hero_name slot is untouched and still waiting in the family records for the next named_hero story in this family."
+      },
+      {
+        "role": "the two fuzzy babies on the nest ledge",
+        "reused": false,
+        "why": "one-scene extras on the cliffs path, not cast. They exist to hand us the pebble and to make the ledge a home rather than a rock."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "pterosaurs were flying reptiles, cousins of the dinosaurs, not dinosaurs themselves",
+        "the wing is skin stretched from the ankle to one enormously long finger",
+        "head crests, drawn here as a paper sail",
+        "skim fishing with the beak tip cutting the water",
+        "folded wings used as front legs for walking on all fours",
+        "rising warm air off sun-heated cliffs lets a glider climb without flapping",
+        "the largest pterosaurs stood as tall as a giraffe",
+        "nest ledges with fuzzy young"
+      ],
+      "gathered_but_unused": [
+        "hollow bones, thin as drinking straws",
+        "pterosaur footprints preserved in mudstone",
+        "the sparrow-sized species at the small end of the range",
+        "launching by vaulting off the front limbs",
+        "the fuzzy body covering and what it was probably for",
+        "how pterosaur fossils are usually found squashed flat"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "at the fork in the route, which is where a journey's choices belong. It also splits the topic's two best mechanism facts between the paths, so each path teaches something the other does not, and hands the rejoined middle a carried object through the {sky_gift} slot.",
+        "criteria": {
+          "more_interesting": "the water path is fast, low and splashy and shows how the wing is built; the cliff path is slow, spiralling and quiet and shows how a glider climbs for free. Different speed, different altitude, different fact.",
+          "more_engaging": "skimming the sea and climbing a red cliff are both things a child would pick out of a picture without any prompting.",
+          "reveals_taste": "waves is the bold pick, cliffs is the gentle pick.",
+          "reveals_curiosity": "waves leans how_it_works because {wing_friend} turns her wing to show the one long finger; cliffs leans just_experience because the pleasure there is rising and looking.",
+          "reflects_mood": "a wound-up evening wants the swoop and the near-tumble; a tired evening wants the slow circle upward."
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice always splits, and it lands on the journey's arrival beat: we have reached the place, so the only question left is what kind of ending the arrival earns.",
+        "criteria": {
+          "more_interesting": "one ending goes up and empties out into cold quiet air and stars above the clouds; the other goes down into a crowded warm ledge full of settling animals. Opposite directions, opposite sounds, no shared imagery.",
+          "more_engaging": "climb higher than everything or sleep in the middle of the whole flock are both strong wants at this age, and neither one is the sensible option.",
+          "reveals_taste": "higher is bold, ledge is gentle.",
+          "reveals_curiosity": "higher leans just_experience, since nothing is explained up there; ledge leans what_its_for, since it answers what the flock actually does with the bay when the day ends.",
+          "reflects_mood": "the ledge ending is built as a bedtime landing; the higher ending is for a child who is not ready to be done yet."
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "journey beat jobs all placed: the setting out in s1, a marvel on every stretch, a real route with a named destination past the ridge, arrival in s3, and a landing on both endings. Nothing goes wrong at any point on any path, which was the request. Two slots, under the cap of five. Deep-dive avoid list checked: nobody swoops at anyone and nobody is carried off. The inherited parent avoid list rules out graphic hunting and eating, so the fishing pterosaurs are shown skimming and never shown swallowing."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "each segment 175 to 200 words; short speakable sentences throughout; no ellipses, asterisks, parentheses or emoji. Year-5 vocabulary present with a picture attached: wing, glide, crest. The truthfulness line is placed once, early, in three short sentences, and never repeated or explained again, so it reads as a fact about a friend rather than a correction. Banned words checked: none of assessment, mastery, score, milestone, behind, ahead of, delayed, gifted or grade level appears anywhere in the prose."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "all four paths read end to end. s3 and both endings were read twice, once with each value of {sky_gift}, and the shell and the pebble both read naturally in every sentence that holds them. Both endings resolve fully, with the flight finished and the companion said goodbye to; no cliffhanger and no invitation to come back for more."
+      }
+    ],
+    "writers_notes": [
+      "The not-a-dinosaur fact is the hardest thing in this story to get right. It is stated in three plain sentences in s1 and then dropped forever, because the moment it is repeated it becomes a correction, and corrections are the lecture voice the policy forbids.",
+      "The word flock is used for pterosaurs throughout, which is loose but readable at this age. If a reviewer objects, colony is the swap, and it costs one word in four places.",
+      "Both endings had to work with either carried object, so {sky_gift} is always in a pocket or a hand and never described again after the segment that gives it. That was the cheapest way to keep the rejoin honest.",
+      "This story deliberately spends none of the fossil material. The whole how-we-know facet is still on the sheet, and it is the obvious spine for a second pterosaurs story at 7-8, told as a mystery, with the fossil-dig cast from the triceratops story."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  }
+}

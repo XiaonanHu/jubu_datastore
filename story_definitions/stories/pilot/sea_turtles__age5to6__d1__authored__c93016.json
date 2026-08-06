@@ -1,0 +1,318 @@
+{
+  "id": "story.sea_turtles.age5to6.d1.authored.c93016",
+  "title": "The Night the Sand Went Soft",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sea_turtles",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "waiting in the dark for a nest to open",
+  "slots": {
+    "turtle_name": {
+      "role": "the one hatchling slower than all the others",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pebble"
+    },
+    "first_watch": {
+      "role": "what we were watching while we waited",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "the stars"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Sabina puts out her last lamp before she begins.\n\"There,\" she says. \"Now we can see properly.\"\nWe are sitting on her back step, you and me, with the warm dark all around us and the sea making its slow sound at the bottom of the garden. Sabina has been watching this beach since she was smaller than you are.\n\"Forty years,\" she says, \"and I still get out of bed for it.\"\nShe points with her chin, down the sand, at a low ring of stones.\n\"A nest. Ninety days it has been down there, quiet as a loaf rising under a cloth. Tonight it is ready. I can tell, because the top of the sand has gone soft.\"\nWe walk down and sit where the sand is cool, well back from the stones. Sabina clicks off her torch and puts it in her pocket.\n\"No lights now,\" she says. \"When they come up, the water must be the brightest thing they can see.\"\nAnd the water is bright. A long pale road of it, running from the sand all the way out to the sky.\nWe wait.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We lie back and look up.\nThere are so many stars that the sky looks spilled, like sugar knocked off a table.\n\"Keep half an eye on the stones,\" Sabina whispers, \"and half an eye up there.\"\nThe pale road on the water is still the brightest thing on the whole beach. Brighter than the houses. Brighter than the stars.\n\"That is how they know,\" she says. \"They come up out of the dark sand and they run at the brightest place they can find. Which is the sea. It has worked for a very long time.\"\nA little wind comes off the water and goes across our faces, cool on top and warm underneath.\nSabina does not move at all. Only her eyes move, back to the ring of stones.\nWe keep half an eye up and half an eye down, exactly as she said.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We lay one hand flat on the sand.\nIt is warm. Warmer than the air, the way a bath stays warm after you have let some of it out.\n\"That warmth is doing the work,\" Sabina whispers. \"Ninety days of sun, cooking them slowly, down where nothing can reach them.\"\nWe keep our hand still.\nAnd then, under our palm, something goes tick.\nVery small. Once, and then twice, and then a soft busy scratching, like somebody turning over under a heavy blanket.\n\"Ah,\" says Sabina, and she says nothing else for a long moment.\nThe scratching comes again, closer to the top.\nWe take our hand away, gently, and sit back on our heels, and neither of us says a word.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We forget all about {first_watch}.\nThe sand inside the ring of stones is moving.\nFirst it only shivers. Then the middle sinks down into a little dish, the way porridge sinks when you press it with a spoon.\nA flipper comes up. Then a head, no bigger than a bottle cap, black and wet and shining.\n\"Here they come,\" breathes Sabina. \"Watch now. Watch.\"\nAnd out they pour. Ten, then twenty, then more turtles than we can count, tumbling over each other and sorting themselves out and setting off down the sand, all of them pointed the same way, at the pale road on the water.\nTheir flippers make a sound like rain starting on a roof.\nOne is slower than the rest. It comes up last, at the back of everybody, and stops to have a think.\n\"That one,\" says Sabina softly. \"There is always one.\"\nWe call that one {turtle_name}.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We walk down beside them, slowly, keeping well out of their way.\nNobody carries anybody. Nobody helps. That is the rule, and Sabina says the crawl is good for them anyway, like a stretch first thing in the morning.\nThe sand is a river of small dark backs, all going one way.\nAt the edge, the first wave comes up to meet them and takes about thirty of them at once, lifting them off their feet, and suddenly they are not clumsy any more. They are swimmers. They were swimmers all along and nobody told them.\n{turtle_name} arrives last, thinks about it, and goes in on the second wave.\nThen the beach is empty and quiet and the pale road is just a road again.\nSabina lets out a breath she has been holding for a while.\n\"Off they go,\" she says. \"Some of them will come back to this exact beach one day and do the whole thing again.\"\nWe walk home very slowly.\n\"Goodnight, small ones,\" says Sabina, at the top of the steps. \"Swim well.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We stay where we are and keep our eyes on {turtle_name}.\nEverybody else has gone. It is only this one now, at the top of the sand, working away.\nOne flipper. Then the other flipper. Then a rest.\n\"No hurrying,\" Sabina says, to us or to the turtle, we are not sure which.\nIt goes crooked for a bit and then finds the bright water again and straightens itself out. It climbs over a shell twice its own size. It stops once more, right at the wet part, as if the cold has surprised it.\nThen a wave comes in and lifts {turtle_name} up as easily as picking up a leaf, and turns it around, and takes it away.\nThe sea does the rest.\nSabina puts her hands on her knees and gets up.\n\"Slow ones get there too,\" she says. \"That is the whole thing, really.\"\nWe walk back up to the house without our torch, because our eyes have got good at the dark by now.\n\"Goodnight, small one. Swim well.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Sabina keeps her eyes on the stones. \"While we wait,\" she whispers, \"you can look up at the sky, or you can put your hand flat on the sand. Sky, or sand?\"",
+      "options": [
+        {
+          "say_word": "sky",
+          "label": "Look up at the stars while we wait",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_watch": "the stars"
+          }
+        },
+        {
+          "say_word": "sand",
+          "label": "Put a hand flat on the warm sand",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_watch": "the warm sand under our hand"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now,\" says Sabina, getting slowly to her feet. \"You can walk down beside them to the water. Or you can stay up here with {turtle_name}. Walk, or stay?\"",
+      "options": [
+        {
+          "say_word": "walk",
+          "label": "Walk down beside them to the water",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "stay",
+          "label": "Stay up here with the slow one",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sea_turtles",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "prompt_version": "segment_writing_v2.1",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "A hatching night is already a story about waiting: something is coming and nobody can hurry it. That is exactly what quiet_hour is for, and it means the true science (ninety days of warm sand, then a run at the brightest water) arrives as a thing we watch rather than a thing we are told.",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.16,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "the parent ocean_animals story on the shelf is already a journey, and a hatching is not a trip anywhere"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.19,
+          "sampled": true,
+          "rejected_because": "the octopus story took the family's mystery slot, and the good question here (how do they know which way the sea is) answers in one sentence"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": false,
+          "rejected_because": "outweighed everything but was not drawn, and just as well: every hatching problem a five-year-old could picture is a hatchling in trouble, which the topic's avoid list rules out"
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Sabina herself. Forty years in and she still gets out of bed for it; the wonder in the story is hers, spoken aloud, and we catch it from her. Nothing else reaches for awe.",
+      "why": "Warm dark, a step to sit on, a sea making its slow sound: the story is built to be heard at bedtime, and cozy is the register that survives being read to a tired child. Wonder rides on top of it rather than replacing it.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "puts the science first and the night second; the beach and the waiting are the reason this story exists"
+        },
+        {
+          "recipe": "cozy with a silly accent",
+          "because": "a joke anywhere near the nest would break the held breath the whole story is made of"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "A grown-up who has done this for forty years can model how to behave on a real beach at night without a single word of warning, simply by doing it. She also lets the story hold still: a narrator would have to keep moving, but Sabina can just wait with us.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "would have made us the experts on a beach we have never visited, and there would be nobody to switch the torch off"
+        },
+        {
+          "teller": "named_hero",
+          "because": "a hero implies someone to worry about, and the only tension here is a nest taking its time"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No natural value angle in the materials, no parent picks attached to a library story, and nothing interpersonal to hang one on. The nearest thing to a lesson is Sabina's line about slow ones getting there too, which is an observation about turtles, not an instruction about children — and it stays that way deliberately."
+    },
+    "cast": [
+      {
+        "role": "the beach-watching storyteller",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "New, and deliberately not one of the storytellers already in the library. Old Finn owns the lighthouse frame in the moon story, Grandma Nell the window frame in the birds story, Old Nell the night-diving frame in the jellyfish story. Sabina is a beach-nest watcher, which is a different job and a different night."
+      },
+      {
+        "role": "the slow hatchling",
+        "reused": false,
+        "reused_from": null,
+        "slot": "turtle_name",
+        "why": "A naming slot so the child picks the one turtle the story ends on. Stored per topic family, so a later sea-turtle story can bring the same name back."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: a nest sits under the sand about ninety days, warmed by the sun",
+        "wonder-fact: hatchlings find the sea by running at the brightest horizon",
+        "wonder-fact: the crawl down the beach is good for them; they should not be carried",
+        "wonder-fact: turtles that survive may return to the same beach to nest",
+        "sensory picture: the top of the sand going soft when a nest is ready",
+        "sensory picture: sand sinking into a dish before they surface",
+        "sensory picture: many flippers on dry sand sounding like rain starting on a roof",
+        "setting: a back step above a beach, all lamps out, a pale road of light on the water"
+      ],
+      "gathered_but_unused": [
+        "temperature decides whether hatchlings are male or female — true and astonishing, but it is the age-9 treatment",
+        "the long open-ocean years nobody can observe, the lost years — a whole story on its own",
+        "how a mother turtle digs and covers the nest before dawn — the obvious sequel, and it would have split this story's attention in two",
+        "tracks in the morning sand that tell you what happened overnight — kept for a mystery story about the same beach"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "In the waiting, where a quiet_hour story has to earn its stillness. Neither option advances the plot by a second, which is the point: the child chooses how to spend the wait, and both answers make the wait feel longer in the good way. Both branches leave us in the same place, watching the stones, so s3 opens identically.",
+        "criteria": {
+          "more_interesting": "one branch is the whole sky and why the bright water matters; the other is one hand on warm sand and the first tick of something moving underneath it",
+          "more_engaging": "looking up at stars and putting a hand on warm sand are both things a five-year-old can feel in their own body while listening",
+          "reveals_taste": "hand on the sand is the bolder, more physical pick; lying back to watch the sky is the gentler one",
+          "reveals_curiosity": "sky is just-experience with the explanation arriving as a bonus; sand is how-it-works, the child who wants to feel the mechanism",
+          "reflects_mood": "the sky branch is open and calm; the sand branch is close and secret, and lands better with a child who is nearly asleep"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "At the only moment this story has two genuinely different endings in it: the hundred going in together, or the one still working. Splitting here lets the child choose between spectacle and patience, and both are true to the night.",
+        "criteria": {
+          "more_interesting": "s4a is a river of turtles meeting the first wave and turning into swimmers; s4b is one small creature crossing a shell twice its size",
+          "more_engaging": "children divide cleanly here, and both answers feel like the right answer to the child who gives it",
+          "reveals_taste": "walking down beside them is bold and outward; staying with the slow one is gentle and loyal",
+          "reveals_curiosity": "walk is just-experience; stay is what-its-for, the child interested in why the slow one still gets there",
+          "reflects_mood": "the water ending is bigger and brighter; the slow-one ending is smaller and quieter and finishes on a single turtle, which is the better bedtime landing"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Quiet_hour beats present: a held moment, a small strange thing, a warm glow, and no problem anywhere. Braid correct: c1 rejoins at s3 from either branch, c2 splits to two endings, both next null. Slots: turtle_name asked before s1 and used in s3, s4a and s4b; first_watch set by both c1 options and read in the first line of s3, and it reads correctly either way. Avoid list clean at ages 5 and 6: no predators on the page, no hatchling in trouble, no plastic, no grief. Inherited ocean_animals avoid entries also clear. Say-words sky/sand and walk/stay are short and unalike."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Segments 118 to 176 words, well under ceiling, and s2b stops at 118 because the beat is finished. Every segment carries speech. Sentence length alternates hard: 'We wait.' after a long one, 'One flipper. Then the other flipper. Then a rest.' No abstract mood words anywhere in the prose. Every object introduced is used: the torch goes in the pocket in s1 and stays off through both endings, the pale road returns in s2a and s4a, the ring of stones frames s3."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud. The rejoin holds because both branches end with us still and watching, and s3 opens by dropping whatever we were watching. Cozy owns both landings; Sabina carries all the wonder. Both endings say goodnight and send the turtles off rather than us. Banned-language sweep clean."
+      }
+    ],
+    "writers_notes": [
+      "Competence, never warning, in one place: Sabina clicks the torch off and pockets it, and says the water must be the brightest thing they can see. It is a reason, not a rule, and nobody is told anything is dangerous. In s4a the no-carrying habit gets the same treatment — Sabina explains that the crawl is good for them, so the child learns hands-off as a kindness rather than a prohibition.",
+      "The pale road on the water is the story's one motif: laid down at the end of s1, explained in s2a, still the thing every turtle runs at in s3, and gone again in the last lines of s4a. It carries the only piece of science the story insists on.",
+      "s3 deliberately does not use a simile for the hatchlings themselves. The sand gets porridge and the flippers get rain on a roof, but the turtles are just described, because that is the moment the child should be looking straight at them.",
+      "s2b holds nine words of silence in it: 'Ah, says Sabina, and she says nothing else for a long moment.' Under the old prompt that space would have been filled.",
+      "Open question for the psychologist: this story has almost no event in it for its first two thirds. If a five-year-old drifts, quiet_hour needs rethinking as a pattern, not just this story rewriting."
+    ],
+    "craft_notes": [
+      "Opening primes before anything happens: Sabina puts out her lamp, we are on her back step with the sea sounding below, and the pull is her chin pointing at a ring of stones. No threshold is crossed until we know who we are and why we are out here.",
+      "Both choice questions are spoken by Sabina in her own voice, not announced by a narrator.",
+      "Similes come from a child's day: a loaf rising under a cloth, sugar knocked off a table, a bath that stays warm after some has run out, somebody turning over under a heavy blanket, porridge pressed with a spoon, rain starting on a roof, picking up a leaf.",
+      "Rhythm alternates on purpose. Long sentence, then 'We wait.' Long sentence, then 'The sea does the rest.' The three-beat 'One flipper. Then the other flipper. Then a rest.' is the slowest passage in the story and is meant to be read slowly.",
+      "Dialogue and physical action carry roughly half of every segment; Sabina is doing something in each one — pointing, clicking off the torch, whispering, breathing out, getting up.",
+      "The storyteller frame opens and closes the story, and only Sabina says I.",
+      "Deliberately not written: any predator, any hatchling that does not make it, any plastic, any character being told off, any joke near the nest, and any sentence explaining what the night meant."
+    ],
+    "authored_by": "hand-authored under prompt v2.1, for expert review alongside the volcano rewrite and the bees story",
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

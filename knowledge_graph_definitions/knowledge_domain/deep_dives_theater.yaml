@@ -1,0 +1,21 @@
+axis: knowledge_domain
+pack: deep_dives_theater
+nodes:
+  - id: knowledge_domain.how_shows_are_made
+    axis: knowledge_domain
+    label: how_shows_are_made
+    display_name: "How Shows Are Made"
+    region: arts_and_music
+    tier: deep_dive
+    subtopic_of: knowledge_domain.theater_and_pretending
+    facets: [cameras_and_takes, sets_and_props, actors_pretending, editing_the_story]
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "a TV show is pretend you can watch; real people in costumes, painted sets, and a camera that follows the fun", vocabulary: [camera, actor, set], avoid: [screen-time shaming or lecturing, frightening show content]}
+      7: {depth: mechanism, framing: "one minute of a show takes a whole day to film; takes and retakes, moving cameras, and an editor who picks the best bits and glues them in order", vocabulary: [take, scene, editor], avoid: [screen-time shaming or lecturing, frightening show content]}
+    edges:
+      adjacent: [knowledge_domain.pixels_and_screens, knowledge_domain.drawing_and_animation]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "Covers the live-action TV parent request; framed as how shows get made, per the screen-topics standing rule.", reviewed_by: null}
+    status: draft

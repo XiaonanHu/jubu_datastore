@@ -1,0 +1,311 @@
+{
+  "id": "story.the_brain.age9to10.d1.pregen.da12bd",
+  "title": "The Wobbly Wire",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_brain",
+    "sel_theme": null,
+    "value_lesson": "Persistence reframed: failing isn't proof you can't — it's the feeling of your brain mid-construction",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "We set out to build a light-up brain for the school science fair, but our model's messages keep failing — until we learn that brains (and model brains) get stronger not by force, but by building one small path at a time.",
+  "slots": {
+    "model_brain_name": {
+      "role": "The name we give our fairy-light brain model",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Sparkleworks 3000"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The week before the science fair, Grandpa Joss and I are crouched under the desks after school with a shoebox of tangled fairy lights. We are building a brain. A real brain has eighty-six billion neurons, which is too many, so we are doing a very impressive hundred.\n\n\"It needs a name,\" Joss says, holding up two bulbs like a doctor. \"Something with pizzazz.\"\n\nWe call it {model_brain_name}.\n\nThe door bangs open. In bursts Professor Pippa Volt, the visiting brain scientist, with pipe-cleaner neurons sticking out of her satchel like a mad bouquet.\n\n\"Show me a reflex!\" she cries, and before we can blink she taps my knee with a little rubber hammer she built herself. My leg kicks. I did not tell it to. It just kicked.\n\n\"See?\" Pippa beams. \"The signal jumped a gap called a synapse before you even decided anything. Your wrinkly cortex\" — she flaps her hands at her own head — \"is a whole sheet crumpled to fit the box.\"\n\nOur model is meant to do the same thing: pass one spark down a chain of lights, leaping each gap, all the way to the end. Joss presses the big red button.\n\nFlick. The first bulb lights. The spark reaches the first gap — and dies.\n\nPippa clasps her hands. \"Recalculating!\" she says, delighted. \"How wonderful.\"\n\nThe fair opens in five days.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"A great big SHOVE!\" we shout together.\n\nPippa rubs her hands. \"Excellent. Terrible. Let's begin.\"\n\nWe empty the science cupboard. Every battery in school — rectangle ones, fat ones, the bumpy one from the weather station. Joss wires them in a row, tongue stuck out in concentration, while I hold the ends and Pippa hums a tune that sounds like lightning.\n\n\"More power!\" cries Pippa. \"The spark won't jump? We'll give it a shove it can't refuse!\"\n\nJoss presses the big red button.\n\nFIZZ.\n\nOne enormous fizz, blue-white and beautiful, and a smell like warm plastic, like a hot water bottle left too near the radiator. Every single light blinks on at once — a hundred tiny suns — and then, pop. All out. The whole {model_brain_name}, dark as a pocket.\n\n\"Oh,\" says Joss.\n\nPippa is delighted. She is actually clapping. \"Recalculating! How wonderful!\" She picks up a dead bulb and holds it to her ear like a seashell. \"You see, my brilliant builders, your real brain never shouts louder at a synapse. Never. It practises. It sends the signal again and again, and each time the gap gets a tiny bit easier to cross — like a path worn through grass. You cannot bully a synapse. You have to build it.\"\n\nOutside the window the sky is going plum-coloured. We have a hundred fried lights, four days left, and no idea what building a path looks like in wire.\n\n\"So,\" says Joss, brushing plastic off his sleeve. \"Not louder.\"\n\n\"Not louder,\" Pippa agrees. \"Cleverer.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The dome!\" we shout together. \"Skip the boring bits!\"\n\n\"Magnificent instinct,\" says Pippa. \"Catastrophic. Proceed.\"\n\nWe drag out the tinfoil. The cortex, Pippa told us, is a whole sheet crumpled to fit inside your head, so we crumple — great silver folds and valleys, squashed and patted and squashed again until it sits on top of our shoebox like a crinkly metal turban. Joss crowns it with the best bulbs, the swirly ones. It looks spectacular. It looks like a brain that has already won the fair.\n\n\"Behold,\" breathes Joss, \"the thinking part.\"\n\n\"Press the button,\" says Pippa, eyes shining.\n\nJoss presses the big red button.\n\nFlick. Bulb number one lights. The spark reaches the first gap — and dies. The glorious dome sits there, silver and splendid, doing absolutely nothing. Not one of its fancy bulbs so much as flickers.\n\n\"It's not thinking,\" I say.\n\n\"It is a very beautiful hat,\" says Pippa. She taps the tinfoil gently, almost fondly. \"Here is the thing, my brilliant builders. A brain cannot wire the fancy bit before the path leading to it exists. You wire what you repeat — and you have repeated nothing yet. Not one signal has ever crossed that first gap. So the dome has nothing to think with.\"\n\nJoss slowly takes off the tinfoil turban and holds it like a sad cake.\n\nOutside, the sky is going plum-coloured. Four days to the fair, one spark still stuck at gap one, and we don't know what building a path looks like in wire and lights.\n\n\"So,\" says Joss. \"The boring bits first.\"\n\n\"The boring bits,\" Pippa agrees, \"are the whole trick.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "That evening we end up at Grandpa Joss's kitchen table, where he is dropping juggling balls for what must be the fortieth time. Plop. Plop. Plop-plop. And laughing every single time, which is not like him at all.\n\n\"What did you find out there?\" he asks, scooping a ball off the floor. \"Anything useful?\"\n\n\"Maybe,\" I say. But I'm watching his hands. He throws all three balls at once, the same way, every time, only harder. Like if he just throws harder, his hands will get it.\n\nAnd it clicks.\n\n\"You're doing what we did,\" I say. \"Trying the whole thing at once.\"\n\nPippa, who has been quiet for a whole minute, which is a record, leans forward. \"A brain laying track just ahead of a moving train is wobbly,\" she says, \"because it is building as it goes. So. We build one piece. Then the next.\"\n\nSo we try the fix on both projects at once. One synapse, one ball.\n\nJoss and I wire a single gap in {model_brain_name} and pulse it gently, again and again, until the spark leaps it every time. Then Joss picks up one ball. Just one. He throws it hand to hand, slow as syrup, until his hands stop thinking about it.\n\n\"Wearing the path smooth,\" Pippa says, almost softly. \"Every throw tells the synapse exactly what to adjust. Mistakes too. Especially mistakes.\"\n\nThen she shoos us upstairs, because, she says with a mad gleam, \"Sleep is when the brain tidies its new paths. The builders work the night shift.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Morning, and something odd. Joss picks up one ball to show me the slow throw, and it goes hand to hand, smooth as pouring tea. He stares at his own hands. \"I wasn't even trying,\" he says.\n\n\"The night shift,\" I say. Pippa was right. Sleep tidied the path.\n\nSo all week we build, slow piece by slow piece. One synapse a day on {model_brain_name}, wired and pulsed until the spark leaps it every time. One ball a day for Joss. Two balls, hand to hand, plop, plop, until his hands stop thinking about it.\n\nThen it's the fair. Our table has a crowd. Pippa is wearing a hat shaped like a neuron, which tells you everything about Pippa.\n\n\"Ready?\" Joss says.\n\nI press the big red button.\n\nFlick. The first bulb lights. The spark reaches the first gap — and leaps. Then the next. Then the next, gap after gap after gap, faster and faster, all the way up to the cortex dome, and the whole hundred bulbs blaze at once. The crowd gasps.\n\nAnd at that exact moment, Joss gasps too — but not at the lights. At his hands. While his mind was on the spark, his hands picked up three balls and started juggling all by themselves. Up, across, catch. Up, across, catch. No thinking. Just doing.\n\n\"Reflex!\" Pippa shrieks, nearly falling off her stool. \"The path fired on its own!\"\n\nBefore we leave, she presses something into my hand. One pipe-cleaner neuron, bent and a bit wobbly.\n\n\"For the path you built yourselves,\" she says.\n\nIt lives on my windowsill now. And every time Joss juggles — which is constantly, show-off that he is — I look at it and think: that little spark learned to jump. So did we.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Morning, and something odd. Joss picks up one ball to show me the slow throw, and it goes hand to hand, smooth as pouring tea. He stares at his own hands. \"I wasn't even trying,\" he says.\n\n\"The night shift,\" I say. Sleep tidied the path.\n\nThen it's the fair. Our table has {model_brain_name} on it, half-lit, half-dark, with gaps still waiting. Pippa says it looks distinguished. Joss says it looks like a hedgehog with a fringe.\n\nAnd that's when I see her. A little kid, standing at our table, poking one of the dead gaps with her finger. Her own project is under her arm — a cardboard volcano, slightly squashy. Her eyes are doing the shiny thing that means tears are thinking about it.\n\n\"It just won't work,\" she says. \"I tried and tried.\"\n\nAnd before I even think, I hear myself say it. \"Your brain is building it right now. You just can't feel it yet.\"\n\nShe looks up. \"Really?\"\n\n\"Really,\" says Joss, pulling out a chair. \"Watch this.\"\n\nWe spend the whole fair showing her the one-synapse trick. One gap. Pulse it gently. Again. Again. Joss juggles one ball beside her, slow as syrup, to show her what wearing the path smooth looks like. Pippa keeps leaning over to whisper \"recalculating, how wonderful\" every time the spark dies, which makes the kid giggle every single time.\n\nAnd then — flick. Her first spark crosses its first gap.\n\nHer face lights up brighter than our whole model.\n\n\"I felt it!\" she says. \"I actually felt it!\"\n\nWe never do light the whole brain. Nobody gives us a prize. But when we pack up, the kid presses something into my hand — one single fairy-light bulb, twisted off her volcano.\n\n\"So you remember where the spark started,\" she says.\n\nIt sits on my windowsill now, next to a photo of Joss mid-juggle. One bulb. One gap. One leap.\n\nThat's where every spark starts.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The spark won't jump, my brilliant builders! So — do we give it a great big SHOVE, or do we skip the boring bits and build the glorious cortex dome first?\"",
+      "options": [
+        {
+          "say_word": "Shove it",
+          "label": "Wire in every battery we can find and force the spark across",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Dome first",
+          "label": "Skip ahead and build the beautiful crumpled cortex ending",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Friday's the fair, and our chain is only half-grown. Do we race to light the WHOLE brain for the big red-button moment — or do we stop and help that small scientist whose own spark is stuck at gap one?\"",
+      "options": [
+        {
+          "say_word": "Light it all",
+          "label": "Spend the week finishing the chain for the grand button-press",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Help her",
+          "label": "Leave our model half-built and teach the one-synapse trick to the stuck kid",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_brain",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 33
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The brain's core material—learning rewiring billions of cells through synapses—naturally feeds a story where a child struggles with a skill, fails, practices, and literally feels their brain building new connections until the problem clicks.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Professor Pippa Volt, the visiting neurologist, who treats every neuron like a tiny mad invention and every mistake as 'recalculating, how wonderful'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Persistence reframed: failing isn't proof you can't — it's the feeling of your brain mid-construction",
+      "why": "The problem_and_fix pattern and the wonder fact about mistakes helping synapses adjust make this value grow out of the plot itself; we never state it as a lesson, we live it through Grandpa Joss's juggling."
+    },
+    "cast": [
+      {
+        "role": "Narrator-voice 'we' — two classmates building the science fair entry together",
+        "reused": false,
+        "why": "The we_adventure teller needs a shared project; a pair of kids building a model brain lets 'we' ask 'but HOW does my brain know?' while physically snapping connections together."
+      },
+      {
+        "role": "Professor Pippa Volt, friendly neurologist and crazy inventor of cardboard brain machines",
+        "reused": false,
+        "why": "Carries the curious_wonder accent and delivers the science (synapse, cortex, reflex) through pipe-cleaner neurons and a knee-tap hammer she built herself."
+      },
+      {
+        "role": "Grandpa Joss, who is learning to juggle at the kitchen table",
+        "reused": false,
+        "why": "Provides the comic failing-and-trying companion and the living proof that brains rewire at every age; his wobbly juggling becomes our test subject for the fix."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "86 billion neurons, each connecting to thousands",
+        "synapse — messages jump as sparks of chemicals and electricity",
+        "practise strengthens synapses like a worn path",
+        "cortex folds — crumpled sheet fitting in a small box",
+        "reflex — knee-tap, faster than thinking",
+        "learning feels clumsy because the brain is laying track ahead of the train",
+        "mistakes help synapses adjust — sat-nav recalculating",
+        "school science fair with model brain of tangled fairy lights",
+        "neurologist with pipe-cleaner neurons and knee-tap reflex demo",
+        "grandparent learning something new alongside the child",
+        "failed attempt: same way harder, then skipping to the fancy version",
+        "turning point: break the skill into tiny slow pieces",
+        "earned fix: weeks later it happens almost by itself",
+        "wider door: sleep tidies and strengthens new brain paths overnight"
+      ],
+      "gathered_but_unused": [
+        "Your brain has about 86 billion cells called neurons, and each one can connect to thousands of others.",
+        "The place where two brain cells almost touch is called a synapse, and messages jump across it as tiny bursts of chemicals and electricity.",
+        "Every time you practise something, the synapses for that skill get stronger and faster, like a path worn smooth by many feet.",
+        "The wrinkly outer layer of your brain is called the cortex, and its folds let a lot of brain surface fit inside your skull.",
+        "A reflex is a super-fast message that doesn't wait for the thinking part of your brain — it zips through your spinal cord and back before you even notice.",
+        "When you learn something brand new, your brain feels clumsy and slow because it is literally building the connections as you try.",
+        "Your brain uses about a fifth of all your energy even though it's only a small part of your body's weight.",
+        "Making mistakes while learning actually helps your brain — the 'oops' moment tells your synapses exactly what to adjust."
+      ]
+    },
+    "safety_beat": "In s3, at the kitchen table, Grandpa Joss clears the breakables to the sideboard and moves the juggling to over the rug 'so the drops land soft' — competence shown lightly, no warning, no tension.",
+    "motif": "A spark leaping across a gap — synapses in a real brain, fairy-light bulbs in our model, and finally the moment a new skill fires on its own.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already pairs a clear, funny science lesson with a warm grandparent relationship, lands its sound-words as their own small sentences, and earns both endings — the triumphant blaze and the quieter gift of passing the trick on — without any segment sitting dead."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "giggly and hooked, then a held breath when the spark dies",
+        "s2a": "delighted crescendo, then a comedic fizzle and a small oh",
+        "s2b": "proud and shiny, then deflated with a fond smile",
+        "s3": "snug kitchen-table calm, then the quiet click of an idea",
+        "s4a": "leaning in, then a whoosh of triumph and a warm glow",
+        "s4b": "soft-hearted and attentive, then a lump-in-throat satisfied"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "fail",
+        "notes": "1 blocking, 6 warning. [s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s3] banned language: 'ahead of'; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 22% of sentences carry speech or action; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['the_trick']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] banned language: 'ahead of'",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 22% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] banned language: 'ahead of'",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 22% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['the_trick']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "34_the_brain_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

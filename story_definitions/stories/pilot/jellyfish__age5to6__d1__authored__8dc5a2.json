@@ -1,0 +1,331 @@
+{
+  "id": "story.jellyfish.age5to6.d1.authored.8dc5a2",
+  "title": "The Night the Bay Turned Into a Lamp",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.jellyfish",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "An old night diver remembers the summer night the whole bay filled with drifting lights.",
+  "slots": {
+    "boat_name": {
+      "role": "the night diver's little wooden boat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Moth"
+    },
+    "first_sight": {
+      "role": "what the diver looked at first when the bay lit up",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "the little ones opening and shutting like tiny umbrellas"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Old Nell keeps her diving mask on a nail by her door. It is scratched and salty and older than you are.\nOn warm evenings she sits at the end of the dock with her feet over the water, and if you sit beside her she tells you about the sea.\nTonight she reaches up and taps the mask twice. That means a good one is coming.\n\"There was a night,\" she says, \"when this whole bay turned into a lamp.\"\nShe points out past the moorings with one bare foot.\n\"I had a little wooden boat then. {boat_name}, with one oar that squeaked. No wind that night, and the water lay flat and black, like a floor somebody had just washed.\"\n\"So out I rowed. Squeak. Squeak.\"\n\"And then I stopped rowing.\" Nell holds up a hand and keeps it there. \"Because something under my boat was pale.\"\n\"Not the moon. The moon was still behind the hill.\"\n\"A soft round glow, deep down. Then another one beside it. Then another.\"\nNell turns and looks at us.\n\"Jellyfish. Hundreds of them, drifting in on the tide.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"I held my lantern right down at the water,\" said Nell, \"and up they came to it. The little ones.\"\n\"Small as plums. Small as buttons.\"\n\"And see-through, every one of them, so I could look straight through a jellyfish and watch my own lantern shining out the other side.\"\nShe holds her fingers apart to show how small.\n\"Mostly water, you know. Almost all water, in a thin round coat.\"\n\"And the way they swim.\" Her hand opens and shuts. \"Squeeze, and glide. Squeeze, and glide. Like a little umbrella in the rain. Every squeeze pushes it up a bit, then it rests and sinks back down again, all night long, going nowhere in particular.\"\n\"One of them wobbled along beside my oar and did not mind me one bit.\"\nNell pats the boards of the dock.\n\"I kept my fingers in the boat, mind. We look at jellyfish. We do not touch them. It is a friendly rule. It lets you sit as close as you please.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"I blew my lantern out,\" said Nell. \"Puff.\"\n\"And then I could not see a thing, and the dark came up to my chin. So I sat still and counted slow. One. Two. Three.\"\nShe counts on her fingers.\n\"And bit by bit my eyes learned the dark. And then the bay came on.\"\n\"Not one glow. Thousands.\" Nell opens both arms wide. \"Pale green and pale blue, all the way out to the black cliffs. Some deep down and blurry. Some hanging just under the top, bright as dropped coins.\"\n\"A little wave rolled through, and every light rolled with it, and the whole bay wobbled and shone.\"\n\"So I put one oar in. Slow as I could.\"\n\"And the water lit up round it in a ring.\"\nShe draws the ring in the air.\n\"Then I did it again. Ring after ring after ring, off into the dark. And I laughed out loud, all on my own in the middle of the water, with nobody to hear me but {boat_name} and that squeaky oar.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"I still remember {first_sight},\" said Nell. \"But that is not the part I tell people.\"\nShe leans in.\n\"Here is that part. Something big came up beside my boat. Slow. So slow.\"\n\"A pale white bell, as wide across as a dinner plate, turning over and over as it rose, until it hung just under the top of the water, close enough to lean out and put my hand on.\"\n\"I did not.\" Nell lays both hands flat on her knees and leaves them there. \"Like this. We look, and we do not touch, and that way the sea and I stay friends.\"\n\"It floated along beside {boat_name}, opening and closing, opening and closing. Like something breathing in its sleep.\"\n\"And it had no face to look back at me with. It did not need one.\"\n\"It only drifted. The way its kind have drifted since long before there were boats, or oars, or people to be amazed at them.\"\nNell is quiet for a moment.\n\"And the tide was getting ready to turn.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I let the oars rest,\" said Nell, \"and I went wherever she went. Nothing about that night was in a hurry.\"\n\"Past the old post with the mussels on it.\"\n\"And then the tide turned. You can feel a tide turn, if you are sitting still enough. The water sighs and starts off the other way.\"\nNell tips her hand slowly over.\n\"Down she went. Turning as she sank, going dimmer and rounder and smaller, until she was one little coin of light. Then a smudge. Then nothing.\"\n\"And all round her the thousands of small ones were sinking too, back to the deep water where they spend the day.\"\n\"The bay went dark and ordinary again. So I rowed home. Squeak. Squeak.\"\n\"I tied {boat_name} up and stood about on this dock with wet feet for a long while.\"\nNell reaches up and taps her old mask twice.\n\"Some nights the sea puts its lamps on,\" she says. \"You do not have to do a single thing about it. You only have to be out there, looking.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"I rowed in,\" said Nell, \"and tied {boat_name} up with glowing fingers. Truly. The shine faded off my hands while I climbed the headland path in the dark, and my feet know every root of that path, so I took it slow.\"\n\"And I sat down on the flat rock at the top, and there it was. The whole bay at once, below me, like a bowl of milk with a light left on inside it.\"\n\"Out at the mouth, three fishing boats were coming home, each with a small yellow lamp at the front. People made those lamps, so people could find their way home.\"\n\"And underneath those boats the whole sea was shining pale green, and nobody made that at all. It has been at it far longer than there have been people to watch.\"\n\"The little lamps came in one by one and went out. The big one stayed on till the tide turned.\"\nNell looks out at the dark water.\n\"That is why I sit here every evening,\" she says. \"Not waiting for anything. Keeping the sea company.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Nell taps the mask again. \"Two things I could have done,\" she says. \"Hold my lantern right down at the water, or blow it out and let my eyes learn the dark. Which would you have done? Lantern, or dark?\"",
+      "options": [
+        {
+          "say_word": "lantern",
+          "label": "Hold the lantern down close to the water",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_sight": "the little ones opening and shutting like tiny umbrellas"
+          }
+        },
+        {
+          "say_word": "dark",
+          "label": "Blow the lantern out and let her eyes learn the dark",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_sight": "the whole bay glowing at once, all the way out to the cliffs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Nell holds up two fingers. \"I could drift along beside her and see where she went,\" she says. \"Or row in and climb the headland and look down at the whole lot of it. Drift, or climb?\"",
+      "options": [
+        {
+          "say_word": "drift",
+          "label": "Drift along beside the big jellyfish",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "climb",
+          "label": "Climb the headland and look down at the whole bay",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.jellyfish",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "A jellyfish cannot want anything, chase anything or solve anything, so the only honest story is one where almost nothing happens beautifully and the drifting itself is the event.",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.26,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.25,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.16,
+          "sampled": true,
+          "rejected_because": "sampled second, but a drifting tour would repeat the ocean_animals journey already on this topic family's shelf, which is exactly what the shelf nudge exists to prevent"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.13,
+          "sampled": false
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "the water itself: every wonder line is something Nell sees over the side of the boat, while the cozy belongs to the dock, the old mask and her voice",
+      "why": "This is a bedtime register, so the blanket tone has to own the opening and both landings, and the awe stays underwater where it can come up in flashes without waking anybody.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder + cozy",
+          "because": "swapping the pair puts awe in charge of the ending, and a quiet_hour story has to land soft rather than wide-eyed"
+        },
+        {
+          "recipe": "cozy + silly",
+          "because": "a joke carrier needs a second character in the boat, and the whole point of that night is that Nell is alone and the bay is silent"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "When almost nothing happens, the story needs a voice that makes almost-nothing sound like a treasure, and a remembered night does that while keeping the word I safely with the diver instead of the narrator.",
+      "rejected": [
+        {
+          "teller": "we_adventure",
+          "because": "we is already the default on eight of the twelve pilot stories, and it would put a child alone in a small boat at night; hearing it from a dock is warmer"
+        },
+        {
+          "teller": "named_hero",
+          "because": "there is no problem to solve and no feeling to move through, so a hero would stand in the boat with nothing to do"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "the only candidate angle was 'we look, we do not touch', and that belongs in the story as a rule of the sea inside the materials; tagging it as a value would dress a safety habit up as a lesson"
+    },
+    "cast": [
+      {
+        "role": "the old night diver",
+        "reused": false,
+        "why": "the topic family had no storyteller-teller character yet; the obvious candidate, a lighthouse keeper, is already Old Finn in the_moon story, so a diver keeps the two tellers from sounding like the same person"
+      },
+      {
+        "role": "the little wooden boat",
+        "reused": false,
+        "why": "the naming slot, because a boat is far easier for a five-year-old to name than a jellyfish, and she can be rowed into any later story in this topic family"
+      },
+      {
+        "role": "the big pale jellyfish",
+        "reused": false,
+        "why": "deliberately left unnamed and faceless; giving her a name would turn her into a friend with feelings, and the wonder here is that she is nothing like us"
+      },
+      {
+        "role": "the grandmother sea turtle guide",
+        "reused": false,
+        "why": "considered and dropped, though reuse is the default: she is the parent topic's recurring guide, but sea turtles eat jellyfish and a look-only, no-touch night would read strangely to an adult reading it aloud"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "jellyfish are mostly water and see-through",
+        "squeeze and glide swimming, like a tiny umbrella opening and shutting",
+        "bays where the water glows when something stirs it",
+        "a moon jelly as wide across as a dinner plate",
+        "a jellyfish has no face and no bones",
+        "we look, we do not touch",
+        "the tide turning, felt from a boat that is sitting still",
+        "the glow left on wet hands, fading as it dries"
+      ],
+      "gathered_but_unused": [
+        "no heart and no brain either",
+        "a jelly bloom that fills a whole harbour",
+        "the upside-down jellyfish that lies on the sea floor like a flower",
+        "jellyfish drifted the seas long before there were dinosaurs",
+        "the tiny fish that ride along underneath a jelly's bell"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "the moment the bay first lights up, because closer or wider is the only real decision this night offers; each option sets first_sight, which Nell says back out loud in s3, so the rejoin keeps the pick",
+        "criteria": {
+          "more_interesting": "one branch is a close-up of one small animal, the other is the whole bay at once; near and far, not two versions of near",
+          "more_engaging": "blowing out your only light in a boat at night is a delicious, slightly daring thing to pick, and holding the lantern over the side is the snug one",
+          "reveals_taste": "bold vs gentle",
+          "reveals_curiosity": "how_it_works vs just_experience",
+          "reflects_mood": "the lantern branch suits the end of a long day, the dark branch suits a child who still has some evening in them"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the tide turn is the natural last beat, and both options are ways of watching the lights leave, so neither ending has to invent a problem to justify itself",
+        "criteria": {
+          "more_interesting": "one ending sinks into the dark with a single jellyfish, the other climbs above the bay and sees the whole thing from outside",
+          "more_engaging": "staying with the one you met, or going up to see everything at once, is a real fork for a five-year-old",
+          "reveals_taste": "gentle vs bold",
+          "reveals_curiosity": "just_experience vs what_its_for",
+          "reflects_mood": "the drift ending is nearly a lullaby, the climb ending leaves a picture to lie there and think about"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "quiet_hour beats all present and unmoved: an atmosphere, a small strange encounter, one image left glowing. Nothing was given a problem to solve — the leaking boat cut before v1 was written stayed cut, and no substitute was invented. The node's avoid entries are honoured on every path: no sting, no pain, and no suggestion that touching or catching one would be a fine idea."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Word counts measured after rewriting: s1 187, s2a 169, s2b 176, s3 174, s4a 178, s4b 182, against a 200 ceiling with no minimum; longest path 719 words. Every segment carries speech and Nell does something physical in every segment. Mean sentence-length spread 6.54 against 6.89 in v1 — slightly lower because several long sentences were split into spoken runs — while the speech-or-action share more than doubled, 79% against 36%. No abstract mood words. The node's year-5 vocabulary, drift and glow and wobble, all appear."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. Both first_sight values still read correctly in the opening sentence of s3. cozy still owns the opening and both landings and wonder still only arrives over the side of the boat. Both endings resolve, neither withholds anything, and the closing lines are unchanged in substance: 'You only have to be out there, looking' and 'Keeping the sea company'. No exclamation-driven excitement anywhere, which this pattern cannot survive."
+      }
+    ],
+    "writers_notes": [
+      "cozy owns the opening and both landings; wonder only ever arrives over the side of the boat",
+      "watch adjective stacking in the dark branch, where three colour words in one sentence were cut back to two",
+      "the word 'suddenly' has no business in a quiet_hour story and never appears",
+      "keep Nell's hands in the boat in every draft; look-do-not-touch is shown by what she does, never warned about",
+      "no exclamation-driven excitement anywhere, because this pattern dies the moment the prose gets loud",
+      "v2.1 rewrite: prose only. Held constant were the title, the six-segment braid, both choice positions, both slots and the exact first_sight values, the say-words lantern/dark and drift/climb, and the cast.",
+      "The main change is that Nell now has a body. Every gesture was chosen to be something a person on a dock actually does while telling a story, so none of them cost the pattern its stillness.",
+      "For the expert reviewer: breaking one long remembered paragraph into short quoted runs is what fixed the narration-heavy reading, but it can make a storyteller sound clipped. Please read s2b aloud and say whether Nell still sounds like one continuous voice.",
+      "Also for review: the no-touch rule is now spoken on the lantern branch and shown again in s3, so a child on that path meets it twice. That was judged a refrain rather than a repetition, but it is a judgement call."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format. The prose in this file is a hand-authored v2.1 rewrite of that pilot text — the recorded decisions are unchanged.",
+    "prompt_version": "segment_writing_v2.1",
+    "craft_changes": [
+      "The frame now moves. Nell taps the mask, points out past the moorings with one bare foot, holds up a hand and keeps it there, opens both arms wide, counts on her fingers, draws the ring in the air, lays both hands flat on her knees, tips her hand slowly over, and taps the mask again at the close. In v1 she tapped it once in s1 and then talked for six segments.",
+      "Her monologue was broken into short spoken runs with those gestures between them, so each segment rises and falls instead of arriving as one long paragraph. Speech-or-action share rose from 36% to 79%, and the two segments v1 flagged as narration-heavy (s1 at 18%, s2b at 15%) are gone.",
+      "Both choice questions moved into Nell's own voice and are handed to us rather than announced: 'Which would you have done? Lantern, or dark?' v1 had the narrator set up the fork — 'Nell could look at the glowing water two ways that night. Should she hold her lantern down close...'.",
+      "One motif grown rather than replaced: the lamp. The mask on the nail, 'this whole bay turned into a lamp', the lantern held right down at the water, the lantern blown out, the three fishing boats' little yellow lamps against the sea's own, and the closing 'Some nights the sea puts its lamps on.' v1 reached the lamp idea only in its last line.",
+      "Comparisons kept where they came from a child's day — small as plums, small as buttons, bright as dropped coins, a floor somebody had just washed, a bowl of milk with a light left on inside it — and the weaker ones tightened: 'wearing a thin round coat' became 'in a thin round coat', and 'as wide across as a dinner plate' was left alone because the plain true thing is stronger than any simile stacked on it.",
+      "Cut: 'and oh, the little ones came up to it'; 'That is how clear they are'; the separate restatement 'Up a bit, down a bit, all night long' now folded into the squeeze it was repeating; 'and for a moment I could not see one thing'; 'It was in no hurry. Nothing about that night was in a hurry' halved; and 'We went past the mooring buoy together. We went past the old post with the mussels on it' cut to the one landmark worth keeping.",
+      "The no-touch rule is unchanged in substance and still played as competence rather than warning: 'I kept my fingers in the boat, mind' in s2a, and 'Nell lays both hands flat on her knees and leaves them there' in s3, each followed by why she likes the rule — 'It lets you sit as close as you please' — and never by anything that could hurt anyone.",
+      "A second competence beat was added for the headland climb, the other real place a child could stand: 'my feet know every root of that path, so I took it slow.' One clause, no fear, and it gives the climb a reason to be unhurried.",
+      "Rhythm: 'Puff.' 'Squeak. Squeak.' 'Slow. So slow.' 'Then a smudge. Then nothing.' now land after long flowing sentences, and no run of four near-identical sentence lengths remains in any segment. Mean spread 6.54.",
+      "Length: longest path 719 words against v1's 720, every segment 169 to 187 against the 200 ceiling. This was the least padded of the pilot three, so the rewrite bought voice and rhythm rather than words; nothing was added anywhere to reach a length.",
+      "Late fix: the c2 question began by repeating s3's closing line word for word ('The tide was getting ready to turn'), which is the restatement suspect in v2.1 §5. Nell now holds up two fingers and offers the two nights she could have had, so the fork is a gesture and an offer rather than an echo."
+    ],
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "status": "draft",
+  "depth": 1
+}

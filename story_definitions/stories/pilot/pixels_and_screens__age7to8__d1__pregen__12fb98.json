@@ -1,0 +1,303 @@
+{
+  "id": "story.pixels_and_screens.age7to8.d1.pregen.12fb98",
+  "title": "The Night We Shrunk the Whale",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.pixels_and_screens",
+    "sel_theme": null,
+    "value_lesson": "things that seem like magic have real, understandable parts, and learning them makes the magic bigger, not smaller",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "A journey following one picture from a single glowing square all the way to a whale the size of a room, learning that zooming is just stretching and squeezing tiny lights.",
+  "slots": {
+    "cousin_name": {
+      "role": "the older cousin who repairs phones",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Mika"
+    },
+    "whale_photo": {
+      "role": "the single photo that travels from the cousin's phone to the giant museum screen",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "a whale leaping out of the ocean, frozen mid-splash"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Down in the basement, past the laundry baskets, our cousin {cousin_name} fixes phones at a workbench. It is nearly bedtime, and the whole room is dark except for one thing: an old monitor with a cracked corner, glowing with a single white square. Just one. It hangs there like a tiny window with the light left on. \"Come look at this,\" {cousin_name} says, \"before it goes to recycling tomorrow.\" She hands us a jeweler's loupe — a little glass eye on a handle. We lean in close. Closer. The square fills our whole eye, soft and warm and humming. \"That,\" she whispers, \"is a pixel. The smallest thing a screen can say.\" The smallest thing. We look at her. She is grinning. \"And tonight,\" she says, \"we're going to follow it all the way to the biggest. Want to?\" We nod so hard the loupe nearly falls off our nose. She lifts the monitor's lid like the top of a treasure chest. The little pixel twinkles, as if it heard its name. And then — it winks.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"First,\" says {cousin_name}, \"we look inside.\" She clicks the loupe into a stand and twists a knob on her bench lamp. The light gets brighter, and brighter, and — whoa. The white square splits. Right down the middle. It is not one light at all. It is three skinny bars, standing shoulder to shoulder: one red, one green, one blue. Like a tiny striped scarf, glowing. \"Every pixel is really three little lights,\" {cousin_name} says. \"Red, green, blue. Watch.\" She twists the knob the other way, and the three bars glow brighter and brighter until they smear together — and the square is white again. Just like that. Three colors, holding hands so tight you cannot see the fingers. Something wiggles in our pocket. Pip pops out, puffed up with pride. \"That's me!\" he squeaks. \"Three little lights! I've been carrying them the whole time!\" He glows red. Then green. Then blue. Then a wobbly, show-off white. We laugh. But {cousin_name} is looking at the screen, thoughtful. \"So if one square hides three lights,\" she says slowly, \"what do you suppose a whole picture is hiding?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Or,\" says {cousin_name}, \"we find out where a square comes from.\" She pulls out her phone. \"I took this on the ferry this morning.\" It is {whale_photo}. Water everywhere. It is the best photo we have ever seen. \"The camera didn't draw this,\" she says. \"It chopped it. The second that whale jumped, the camera sliced the whole splash into millions of tiny numbered squares. Millions. Each one a pixel, each one with a number that says exactly what color to glow.\" She pinches the screen and zooms. In. In. The whale's smile stretches into giant soft blocks — gray ones, white ones, one surprising pink one where the splash catches the sun. In our pocket, Pip groans. \"Ooooh,\" he says, stretching wide as a pancake. \"I feel it every time. Zooming is very stretchy work.\" {cousin_name} zooms back out, and the blocks melt into a whale again, just like that. \"Cameras and screens speak the same language,\" she says. \"One catches the squares. One shows them.\" She taps the phone, and her eyes go bright. \"So what happens when we send these numbers somewhere enormous?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back upstairs, {cousin_name} is already holding our coats. \"What did you find?\" she asks. We tell her, all in a tumble, and she listens like it's the best news all week. \"Then there's one place left,\" she says. \"Buckle up.\" We drive through the dark, and Pip rides in our pocket, glowing softly, like a night-light that got to come along. The museum is closed, but a side door opens, and a guide with a silver remote smiles at us like she's been waiting all night. \"Your whale came,\" she says. \"It's loaded.\" She leads us into a room so dark it feels like being underwater. And there, on the wall, glows a screen bigger than a real whale — and on it, our whale, frozen mid-splash, enormous and still. Pip trembles in our pocket. He can feel it: millions of his cousins, all glowing at once. The guide holds out the remote. \"How close should the whale get?\" she says. \"You decide.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Dive closer,\" we say. \"Zoom in.\" The guide presses the button. The whale shivers — and falls apart. The whole room gasps. Where one enormous animal hung a second ago, now there are a million glowing tiles, like a kitchen floor made of light. We walk right up, close enough to feel the warmth of the screen on our cheeks. Up close, every tile has three tiny stripes inside it: one red, one green, one blue. \"Every pixel is really three little lamps,\" the guide says, \"holding hands.\" In our pocket, Pip stretches wide with a happy squeak, suddenly as big as a sandwich. \"Find the nose,\" we whisper. So we hunt along the glowing wall until — there. One tile, brighter than the rest, right where the whale's nose-tip used to be. We press one finger to its warm light. \"Hello, you,\" we say. On our way out we peek through an open door, where an artist nudges single pixels with a pen, making a cartoon eyebrow twitch. At home, {cousin_name} gives us the loupe to keep. We press it to our own TV and whisper hello. We know their secret now. And Pip glows in our pocket all the way home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Drift back,\" we say. \"Zoom out.\" The guide presses the button. The tiles shiver — and melt. Millions of little squares let go of their edges, all at once, like sugar dissolving in warm milk. And then the room goes very quiet. Because there, turning slowly in the dark, is one whole whale. Enormous. Mid-splash. So real we hold our breath without deciding to. \"That's their favorite trick,\" the guide says softly. \"Disappearing together, to become something bigger than any of them.\" In our pocket, Pip squeezes down small again, sighing a tiny, contented glow. On our way out, we pass a lobby screen where a video game is paused — a whole world of castles and clouds, and now we know: it's all the same tiny squares, agreeing. The guide tucks a postcard of the whale into our hand. \"So you remember,\" she says. At home, we prop it beside the TV. Every picture we ever see will have a secret in it now, and we carry that secret home. Pip settles into our pocket, small and warm, and the whale goes on leaping, quietly, forever.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two ways in, explorers. Do you want to look INSIDE the square — or see where a square comes from?\"",
+      "options": [
+        {
+          "say_word": "Look inside",
+          "label": "peer through the loupe into the pixel's three hidden lights",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Catch one",
+          "label": "see how the camera chopped a real whale into numbered squares",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The remote is yours now. So — do we dive closer, until the whale falls apart into light? Or drift back, and watch a million little lights become one whale?\"",
+      "options": [
+        {
+          "say_word": "Dive in",
+          "label": "zoom closer until the whale becomes a mosaic of glowing squares",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Drift back",
+          "label": "zoom out and watch the squares melt into one enormous whale",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.pixels_and_screens",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 27
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's core magic is the physical act of leaning close and stepping back—zooming in until the picture crumbles into glowing squares and out until it melts whole—so a journey that moves a child through those scales turns the material itself into the plot.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.26,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Pip, a friendly pixel character imagined as a tiny glowing square with a face, who rides in our pocket and gets comically stretched or squeezed every time anyone zooms.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "things that seem like magic have real, understandable parts, and learning them makes the magic bigger, not smaller",
+      "why": "The material offers it naturally: every reveal (pixels, RGB stripes, zoom-as-stretching) deepens the wonder instead of explaining it away, and the whale at the end is MORE amazing once we know it's made of tiny squares."
+    },
+    "cast": [
+      {
+        "role": "an older cousin who repairs phones",
+        "reused": false,
+        "why": "She owns the magnifying loupe and the cracked-open old monitor, making her the natural guide for the first half of the journey — she can show the red-green-blue stripes hands-on."
+      },
+      {
+        "role": "a museum guide with a remote control",
+        "reused": false,
+        "why": "She commands the enormous whale screen, the story's destination; her remote makes the zoom magic happen at a scale no living room can match."
+      },
+      {
+        "role": "Pip, a friendly pixel character imagined as a tiny glowing square with a face",
+        "reused": false,
+        "why": "Carries the cozy accent — a small warm companion who reacts to every zoom, turning abstract facts into a friendship."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "every picture on a screen is made of tiny glowing squares called pixels",
+        "each pixel is made of three even tinier lights: red, green, blue",
+        "red, green, and blue at full brightness together make white light",
+        "zoom really means the computer is stretching pixels bigger or squeezing them smaller",
+        "cameras chop the world into millions of pixels and save each color as numbers",
+        "grandpa's basement workbench with a cracked-open old monitor",
+        "a museum's dark room where one enormous screen shows a whale slowly turning",
+        "the journey begins with a single pixel glowing alone in the dark",
+        "a magnifying loupe that reveals smaller and smaller pixel secrets",
+        "a drawing tablet where a stylus paints with light, and zooming shows the brushstroke is a chain of pixels",
+        "a paused video game built from the same tiny squares"
+      ],
+      "gathered_but_unused": [
+        "Every picture on a screen is made of thousands or millions of tiny glowing squares called pixels, each one just a single color",
+        "Each pixel is made of three even tinier lights: one red, one green, one blue, and mixing their brightness makes every color you can see",
+        "When red, green, and blue lights all shine at full brightness together, they make white light",
+        "Cameras work in reverse of screens: they chop the world into millions of pixels and save the color of each one as numbers",
+        "The word 'zoom' on a screen really means the computer is stretching pixels bigger or squeezing them smaller",
+        "Old TVs and monitors had huge pixels you could easily see; today's screens pack pixels so small and tight your eye can't find the gaps",
+        "Screens refresh their pictures many times per second, faster than your eye can catch, which is why videos look smooth instead of flickery",
+        "There are screens hiding everywhere: in car dashboards, refrigerators, watches, even some shoes and jackets"
+      ]
+    },
+    "safety_beat": "In the museum's dark whale room, the guide lightly shows us where to stand — 'this square of carpet is the best spot, close enough to touch the light but where the whole whale still fits in your eyes' — pure competence, no warning, no tension.",
+    "motif": "One single pixel, glowing alone in the dark, that keeps reappearing — first as a mystery, then as a friend, then as the secret inside everything.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, warmth, and real explanation: the cousin's fond attention, Pip's comic glow, and the pixel-to-whale journey each land, and the two endings offer a child a genuine choice between touching the secret up close and holding still for the whole."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "leaning in, eyes wide, a held breath at the wink",
+        "s2a": "delighted surprise, a giggle at Pip's show-off white",
+        "s2b": "stretchy, giggly wonder at the zooming whale",
+        "s3": "buckle-up anticipation, hushed arrival in the underwater-dark room",
+        "s4a": "gasping, then close and tender, a finger on warm light",
+        "s4b": "breath-held awe melting into quiet, satisfied sleepiness"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 1 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "28_pixels_and_screens_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

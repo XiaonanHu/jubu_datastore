@@ -1,0 +1,334 @@
+{
+  "id": "story.dinosaurs.age9to10.d1.pregen.401799",
+  "title": "The Compass That Points to Wonder",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.dinosaurs",
+    "sel_theme": null,
+    "value_lesson": "Everything belongs to a web",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A time-traveling field guide leads us along the whole Mesozoic timeline in one day, following a clockwork compass that points only to the next wonder, until the biggest giants give way to the smallest new beginning.",
+  "slots": {
+    "shiny_thing": {
+      "role": "The small shiny object from our pocket that the troodontid steals",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "a silver button"
+    },
+    "fossil_keepsake": {
+      "role": "The small thing the scientist lets us carry home at the end",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "a piece of fossil eggshell"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The compass ticks in my pocket before we even see the scientist.\n\nShe is waiting for us at the trailhead, kneeling beside a long line painted on the ground. It runs the whole length of the clearing, disappears into the trees, and comes out the other side. \"That's the Mesozoic,\" she says. \"The whole age of dinosaurs, start to finish. We're going to walk it.\"\n\nWe walk. The painted ground is warm under our shoes. We pass a Stegosaurus, painted small, its plates like a row of kite shields. We keep walking. We walk past ferns and horsetails and a painted dragonfly as big as a seagull. We walk and we walk and we walk, and still the scientist says, \"Not yet. Tyrannosaurus is way up at the far end. The Mesozoic is enormous. It goes on for millions and millions of years.\"\n\nMy legs are tired. That is the point, I think.\n\nThen the compass in my pocket goes wild. It ticks, it whirs, it spins around and around, and then it stops dead. CLUNK. The needle is pointing off the painted line, toward a place in the air that looks like heat rising off a road, or mist that has forgotten to be anywhere.\n\n\"Ah,\" says the scientist. \"It's found the way in.\"\n\nShe stands up and brushes the dust off her knees. \"Before we go through, I'll teach you the trick. When we get to the other side, don't run around looking for dinosaurs. Stand still. Listen. The sound always comes first — a footprint filling with water, a groove dragged in the dust, eggshells cracking. The ecosystem comes to you if you let it.\"\n\nWe step through the mist.\n\nOn the other side it is dawn, and the light is the colour of weak tea. Horsetails crowd the path, thin and green and jointed like bamboo. Something small darts across our feet — a little early dinosaur, no bigger than a chicken, gone before we can see it properly. Another one follows. Then another.\n\nThe scientist holds a finger to her lips. We stand still. We listen.\n\nAnd the Triassic comes to us.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The boom comes first. Boom. Boom. The ground hums under our shoes, and then the treetops part and a neck rises through them like a periscope, higher and higher, until a head the size of a horse looks down at us from the clouds. \"Brachiosaurus,\" the scientist whispers. \"Eating the leaves nobody else can reach.\" Scraps of green rain down through the branches, and below, a crowd of little dinosaurs darts about catching them, like children under a piñata.\n\nThen we hear it. A long, low note, sad as a foghorn. Off the trail, half hidden in the ferns, stands a calf — small for a Brachiosaurus, which means only the size of a bus. It calls again. The note rolls out across the miles. Nothing answers.\n\n\"Lost its herd,\" says the scientist. \"The herd will call back. They always do. We just have to help it listen.\"\n\nThe calf looks at us with an eye like a dinner plate, and then it follows us, boom, boom, boom, like an enormous lost puppy. Its breath comes down warm on my hair.\n\nIn my pocket the compass ticks and whirs and spins. CLUNK. The needle points toward the river. \"The herd may have crossed there,\" the scientist says. \"Come on, little one.\"\n\nThe calf calls once more. We all hold still and listen.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "The rustle comes first. Then the thump. Thump. Thump. The ferns shiver, and out of them ambles something low and wide, plated like a knight, dragging a groove in the dust behind it with a club on the end of its tail.\n\n\"Ankylosaurus,\" the scientist breathes. \"Our lucky day.\"\n\nIt walks beside us like it has decided to. Its armor is studded and ridged, like the bottom of a boot, and its eye, small and calm, watches us the way a dog watches from a doorstep. Where its tail drags, it writes a long line in the dust, and little lizards come to sun themselves in the groove.\n\nThen the light changes. A shadow slides across the open ground — wide-winged, silent, gone as fast as it came. The Ankylosaurus stops. It plants its feet. And it thumps its tail, once, so hard the thump goes through the ground and up into my ribs. Thump. The shadow does not come back.\n\n\"See that?\" the scientist whispers. \"Armor is just another way of belonging. Everything here fits into everything else. That's the ecosystem.\"\n\nThe Ankylosaurus walks on, and we walk in its shadow, which is the safest place in the whole Jurassic noon.\n\nIn my pocket the compass ticks, whirs, spins. CLUNK. The needle points ahead, to the river crossing. The Ankylosaurus stops at the edge of the ferns. It will not come further. It thumps its tail once more, gently, like a door closing, like goodbye.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The compass ticks again, and we follow it down to a wide river, brown and slow. The scientist kneels at the muddy edge. Three-toed footprints, each one bigger than a dinner plate, and every one of them filling slowly with water. Plip. Plip. \"Whatever made these,\" she says, \"is very close.\"\n\nThen the bushes part, and she is there. A Triceratops, old and grey, one horn chipped short, standing right in our path. She studies us for a long moment. We stand very still. Then she snorts, turns, and walks on — and somehow we understand we are meant to follow.\n\nShe leads us through her whole herd at dawn, and the sunrise comes up behind a row of huge frills and lights them like stained-glass windows, every one patterned differently. \"Each frill tells the others who she is,\" the scientist whispers. \"A whole family, watching out for each other.\"\n\nWe splash across into the Cretaceous evening — and something small and feathered darts in, snatches {shiny_thing} right out of my pocket, and runs. \"Hey!\" we shout, and chase it, the compass spinning madly, over a rise and onto a warm volcanic plain.\n\nWe stop. Eggs. Arranged in careful circles, as far as we can see. The little thief is gone somewhere among them, and the compass spins faster than it ever has, unable to pick just one wonder among thousands.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Shh,\" the scientist whispers. \"This one.\"\n\nOne circle of eggs, close enough to touch. We stand the way she taught us at the very start — still, listening. My legs want to fidget. I don't let them.\n\nAn egg rocks. Stops. Rocks again.\n\n\"Hatching takes patience,\" she breathes. \"We're good at patience. We practiced.\"\n\nSo we wait. The plain is quiet except for wind in the ferns, and somewhere far off a herd calling, low and slow. The egg rocks. Stops. My heart thumps so hard I'm sure the egg can hear it.\n\nThen — a crack. A hole. A tiny beak, peeping. A damp little head pushes through, covered in fluff, and the chick tumbles out onto the dust, no bigger than my two hands. Peep. Peep.\n\nAfter all the giants, the biggest moment of the whole day is the smallest thing in it.\n\nA shadow falls over us, gentle as a curtain. A Maiasaura — enormous, duck-billed, careful. She bends her huge head down and nudges her chick toward the soft ferns, and the chick peeps and wobbles and goes.\n\nSomething tickles my shoe. The little feathered thief is back. It drops {shiny_thing} at my feet — then picks up a curved piece of broken eggshell instead, and is gone. A trade. Fair enough.\n\nThe scientist smiles and opens the misty door, and we step through into our own time, where a fossil hunter is brushing dust from a stone. \"Look,\" she says. \"A fossil eggshell, from a nest just like that one. Here — you can keep a small piece.\"\n\nSo {fossil_keepsake} comes home in my pocket, next to the compass.\n\nThe compass ticks. Whirs. Spins once, slowly — and CLUNK.\n\nFor the first time all day, it is pointing home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Quick,\" the scientist says, \"before it lands.\"\n\nThe shadow glides ahead of us down the cliff path, wide as a classroom, never hurrying. We hurry. Down, down, around a bend of warm rock — and out onto a beach where the wind smells of salt and fish.\n\nThe sky is full of them. Pterosaurs, wheeling over the waves, long crests catching the light. And here comes our shadow, sinking lower, lower — and the biggest one of all folds its leathery wings like an umbrella closing, and lands on four feet, light as a kite set down.\n\n\"Not dinosaurs,\" the scientist whispers. \"Their cousins. They share the Mesozoic skies.\"\n\nOut past the waves, dark shapes slide under the water — long necks, slow flippers. The whole ecosystem, above and below, all at once.\n\nSomething taps my shoe. The little feathered thief followed us all the way to the sea. It drops {shiny_thing} at my feet, snatches up a shining fish scale from the sand instead, and is gone. A trade. Fair enough.\n\nThe scientist opens the misty door, and we step through into our own time, where a fossil hunter is brushing dust from a stone. \"Look,\" she says. \"A real fossil feather.\"\n\nThen she points at the fence. A sparrow sits there, bright-eyed, feet gripping the wood. Scaly feet. A hunter's feet.\n\n\"Birds,\" the scientist says, \"are living dinosaurs. The Mesozoic never really ended.\"\n\nSo {fossil_keepsake} comes home in my pocket, next to the compass.\n\nThe compass ticks. Whirs. Spins once, slowly — and CLUNK.\n\nFor the first time all day, it is pointing home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two trails into the Jurassic noon, friends. The compass likes them both. Do we follow the boom — the big footsteps up into the conifer forest? Or the thump — something low and armored out on the fern prairie?\"",
+      "options": [
+        {
+          "say_word": "The Boom",
+          "label": "Follow the giant footsteps into the conifer forest to meet Brachiosaurus and the lost calf",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The Thump",
+          "label": "Follow the low ground-shaking thump onto the fern prairie to walk beside Ankylosaurus",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The compass has gone quite silly — it can't choose. So you must. Do we stay right here, very still, beside this one circle of eggs... or do we follow that enormous shadow down to the sea?\"",
+      "options": [
+        {
+          "say_word": "Stay",
+          "label": "Stay quietly beside the nest and wait for one egg to hatch",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "fossil_keepsake": "a piece of fossil eggshell"
+          }
+        },
+        {
+          "say_word": "Follow",
+          "label": "Follow the huge gliding shadow down to the rocky coast to meet the pterosaurs",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "fossil_keepsake": "a small fossil feather"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.dinosaurs",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 29
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The Mesozoic spans millions of years and multiple ecosystems, so a journey through different time periods and habitats lets a 9-year-old experience the sheer scale and variety of dinosaur life as the adventure itself.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3182,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2045,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1705,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1364,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0909,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0568,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The clockwork compass, which ticks, whirs, spins dramatically, and then CLUNKS as it locks onto each new wonder — the story's one playful, excitable element in an otherwise cozy telling.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Everything belongs to a web",
+      "why": "The material offers it naturally at every stop: Brachiosaurus rains leaves down to smaller dinosaurs waiting below, the lost calf's calls travel miles to its herd, and the final hatchling depends on the whole nesting plain. It rides along lightly through what we watch, never through a lecture."
+    },
+    "cast": [
+      {
+        "role": "The time-traveling field guide with a battered notebook and a clockwork compass",
+        "reused": false,
+        "why": "The journey pattern needs a leader who knows the route; she carries the 'quick, you have to see this before it moves on' energy and voices the choice questions naturally."
+      },
+      {
+        "role": "A young Brachiosaurus separated from its herd",
+        "reused": false,
+        "why": "Gives the Jurassic noon stop an emotional anchor and a reason to move deeper; its longing calls teach how herds communicate across miles."
+      },
+      {
+        "role": "A feathered troodontid, small and clever, with eyes like dark beads",
+        "reused": false,
+        "why": "The thief who steals something shiny and leads the chase into the Cretaceous — the perfect engine for the 'deeper, and stranger' beat and the feathered-dinosaurs door."
+      },
+      {
+        "role": "An old Triceratops matriarch with a chipped horn and a scarred frill",
+        "reused": false,
+        "why": "She blocks the river crossing and then escorts the travelers, carrying the Cretaceous evening stop and one branch of the first choice."
+      },
+      {
+        "role": "A fossil-hunting scientist from our own time, met at the journey's end",
+        "reused": false,
+        "why": "Stitches the two worlds together at the landing, showing a real fossil of a creature we just met alive — the discovery carried home."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Mesozoic lasted 186 million years; T. rex closer to us than to Stegosaurus",
+        "Route unfolds in time order: Triassic dawn, Jurassic noon, Cretaceous evening",
+        "Compass needle points to 'next wonder', spinning then locking on",
+        "Footprints appear before animals do",
+        "Each ecosystem has its own weather",
+        "Wonders escalate in size then reverse to a tiny hatching chick",
+        "Brachiosaurus browses treetops like a living ladder, leaves raining down",
+        "Triceratops herd frills lit like stained-glass windows",
+        "Ankylosaurus tail club thumps the ground as warning",
+        "Dinosaur eggs in careful circles; parents like Maiasaura care for hatchlings",
+        "Pterosaurs shared the Mesozoic skies, wings wide as a small plane",
+        "Many dinosaurs had feathers; birds are living dinosaurs",
+        "Jurassic air warm, no polar ice caps, forests near the poles"
+      ],
+      "gathered_but_unused": [
+        "The Mesozoic Era lasted about 186 million years, so long that Tyrannosaurus lived closer in time to humans than to Stegosaurus.",
+        "In the Jurassic period, the air was warmer and there were no polar ice caps, so forests grew near the poles.",
+        "Brachiosaurus was so tall it could browse leaves from treetops that no other dinosaur could reach, like a living ladder.",
+        "Many dinosaurs, including Velociraptor, had feathers, and birds are living dinosaurs today.",
+        "Triceratops lived in herds and its frill may have been brightly colored, used to show off to friends and rivals.",
+        "Pterosaurs were flying reptiles, not dinosaurs, but they shared the Mesozoic skies, and the biggest had wings as wide as a small plane.",
+        "Ankylosaurus had a tail club made of fused bone that could swing hard enough to break the leg of a predator.",
+        "Dinosaurs laid eggs in nests, and some parents, like Maiasaura, stayed to care for their babies after hatching."
+      ]
+    },
+    "safety_beat": "At the river crossing in s3, the matriarch blocks the path and the guide shows, lightly and without tension, exactly where to stand — on the flat stones, behind her own shoulder, where the herd can see us — pure competence, no warning.",
+    "motif": "Footprints and tracks appearing before the animals that made them — three-toed prints filling with water, a groove dragged in dust, a ring of eggshells — each trace a promise of the creature about to arrive.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.dinosaurs.mystery_001",
+        "title": "The Mystery of the Enormous Footprint",
+        "pattern": "mystery",
+        "teller": "named_hero",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "big_adventure"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it teaches a child how to stand still and receive wonder rather than grab it, with a clean ritual structure (sound first, then the animal, then the compass CLUNK), sound-words that land as their own small sentences, and a warm, unforced ending that points the compass home."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and game, legs pleasantly tired, then a held breath at the mist",
+        "s2a": "neck craned, mouth open, then soft-hearted for the lost calf",
+        "s2b": "cozy and safe in the ankylosaur's shadow, a small lump at the goodbye thump",
+        "s3": "hushed awe at the frills, then a burst of chase, then wide-eyed at the eggs",
+        "s4a": "a long held breath, then the giggle and melt of the chick, then satisfied and sl",
+        "s4b": "wind-in-hair excitement, then the small click of a true fact landing, then snug "
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "fail",
+        "notes": "1 blocking, 3 warning. [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 34% of sentences carry speech or action; [s4b] banned language: 'ahead of'"
+      }
+    ],
+    "writers_notes": [
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 34% of sentences carry speech or action",
+      "[s4b] banned language: 'ahead of'",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 34% of sentences carry speech or action",
+      "[s4b] banned language: 'ahead of'"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "30_dinosaurs_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

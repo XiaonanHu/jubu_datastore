@@ -1,0 +1,121 @@
+{
+  "id": "story.magnets.mystery_001",
+  "title": "The Case of the Scooting Spoons",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.magnets",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "We follow clues from scooting spoons and sticky robot boots until we find the hidden magnet whose pull reaches right through the counter.",
+  "slots": {
+    "robot_name": {
+      "role": "the little wind-up tin robot companion the child names",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Beep"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Something funny is happening in Grandma's kitchen. We are helping set the table. We put three shiny spoons on the counter. Then we turn around to fetch the napkins. Scrape. Scrape. Scrape. The spoons have moved! All three slid to the same corner, right by the big drawer. We line them up again in the middle. We watch with our chins on the counter. Slowly, slowly, the spoons scoot back to that corner. Our little tin robot {robot_name} is watching too. We wind him up and he waddles across the counter. Click, clack, click, clack. Then his little metal boots stop. Right at that same corner! His feet are stuck tight. He waves his arms and buzzes a confused buzz. We pick him up and his boots pop free. How strange and wonderful. Something in that corner is pulling. We cannot see it. We cannot hear it. But now we have two clues, the sliding spoons and the sticky boots. Every good mystery needs a plan. Which clue should we follow first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We decide to be spoon scientists. First we try the shiny metal spoon. We set it down in the middle of the counter. Scoot, scoot, scoot. It slides right to the corner and stops with a tiny click. Next we try Grandma's big wooden spoon. We set it down. We wait. We wait some more. It does not move one bit. Then we try the bendy plastic spoon from our picnic set. Nothing. It just lies there like it is napping. {robot_name} taps his tin head like he is thinking very hard. So the pulling thing is picky! It only wants some things. It grabs the metal spoon, but not wood, and not plastic. We test one more thing, just to be sure. We hold our own finger near the corner. We feel nothing at all. No tug, no tickle. Whatever hides there does not pull fingers. It does not pull wood. It pulls shiny metal things, and it pulls them hard. That is a very good clue. Now we need to find out where the pull is hiding.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We follow the boots. We wind up {robot_name} and set him down far from the corner. Click, clack, click, clack. He waddles along, happy as can be. Then he gets close to the corner, and whoa! His boots swerve all by themselves. It looks like an invisible hand is tugging his feet. He does a silly wobble dance, then sticks tight. Bzzt, says {robot_name}, which probably means help. We rescue him and try again from the other side. Same thing! Near the corner, his metal boots get grabbed. Far away, nothing. So we slide him gently across the counter like a little sled. When he crosses the corner, we feel it in our own hands. A soft, strong tug, like the counter is holding a secret. But here is the strangest part. The counter top is smooth and bare. There is nothing sitting on it. Nothing at all! So the pull must be coming from underneath. Something under there is reaching right up through the wood. What kind of thing can pull through wood?",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We tiptoe to the corner like detectives. Under the counter top there is the big kitchen drawer. We pull it open, slow and careful. Inside we find rubber bands, birthday candles, and a ball of string. And there, clinging to the drawer's shiny metal rail, is a big red horseshoe magnet! It must have tumbled out of the junk jar and grabbed on. Grandma laughs from the doorway. Her missing magnet! We hold it near a spoon and feel the pull for ourselves. Tug! Grandma teaches us the fancy word. The magnet attracts the spoon. A magnet loves metal things with iron inside, like spoons and tin robot boots. It does not care about wood or plastic or fingers. And its pull is so strong it reaches right up through the counter. That is why the spoons scooted and the boots stuck. Mystery solved! {robot_name} does a proud beep-beep dance, a safe step away this time. Grandma says the magnet is ours for the whole afternoon. A real magnet of our very own. What should we do with it?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We make a fishing game! Grandma ties the string from the drawer to the magnet. We tie the other end to the wooden spoon. Now the wooden spoon is our fishing pole, and the magnet is our hook. We lay the metal spoons on the kitchen rug. Those are our silvery fish. We dangle the magnet down low. Closer, closer. Tug! A spoon jumps up and sticks. We caught one! {robot_name} beeps like a happy little boat horn. We catch the second spoon, then the third. Then {robot_name} waddles over and taps his boot on the magnet. He wants a turn to be caught! Up he swings, boots first, buzzing his giggly buzz. Gently, gently, we lower him back down. When the game is done, we count our catch. Three spoons and one silly robot. Grandma brings warm cookies, and no, cookies do not stick to magnets. We check anyway, just to be sure. Then we sit on the rug and munch, our fishing pole across our knees. Best fishing trip ever, and we never even left the kitchen.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We decide our magnet needs a job. A pull that strong should be a helper. We carry it to the refrigerator, and thunk, it grabs the fridge door all by itself. The fridge is metal too! Grandma hands us our drawing from yesterday, the one with the purple dinosaur. We slide the paper under the magnet. The magnet holds it flat and proud, like a tiny hand that never gets tired. It can pull right through paper, just like it pulled through the counter. {robot_name} salutes the magnet with one tin arm. We add Grandma's shopping list next. Then a photo of us in our rain boots. The magnet holds them all afternoon, and it never drops a single one. Before dinner, we visit the corner where the mystery began. We set a spoon down and watch. It stays perfectly still. No more scooting. The kitchen is back to normal, and our helper is hard at work. We know an amazing secret now. Invisible pulls are real. And ours has the best job in the house.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Two clues are waiting. Which clue do we follow first?",
+      "options": [
+        {
+          "say_word": "spoons",
+          "label": "Test the sliding spoons to learn what the pull likes",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "boots",
+          "label": "Follow the robot's sticky boots and feel where the pull hides",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The magnet is ours for the afternoon. What should we do with it?",
+      "options": [
+        {
+          "say_word": "fishing",
+          "label": "Make a magnet fishing game with string and spoons",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "helper",
+          "label": "Give the magnet a job holding pictures on the fridge",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

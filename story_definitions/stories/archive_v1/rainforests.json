@@ -1,0 +1,125 @@
+{
+  "id": "story.rainforests.romp_001",
+  "title": "The Great Jungle Parade",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.rainforests",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "We lead a jungle parade that grows bigger and sillier with every friend, until we make sure the slow sloth gets to join too.",
+  "slots": {
+    "parade_move": {
+      "role": "the parade's one special move, chosen at the first choice",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "stomp"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Deep in the dripping green jungle, rain patters on the roof of leaves. Drip, drop, plip, plop. We are snug and dry under a leaf as big as an umbrella. Then we hear it. Boom. Boom. Boom. A toucan with a giant rainbow beak is tapping a hollow log. A parrot squawks along. Peep, peep, sing the tiny frogs. Our toes start tapping all by themselves. This jungle is starting a parade! The toucan bows to us with his big beak. He needs our help. Every great parade needs one special move, and nobody here can pick. The monkeys shout for something big and mighty. The frogs peep for something bouncy and small. The parrot just squawks at everybody. So we climb onto a mossy log where everyone can see us. The whole jungle goes quiet, waiting. Even the raindrops seem to slow down and listen. It is up to us now. We get to choose the parade's one special move. Should it be a mighty stomp, or a wiggly wiggle?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We stomp! We lift our knees up high and bring our feet down. Stomp! Stomp! Puddles jump and splash our knees. The monkeys copy us on the branches above. Stomp, stomp, wobble, stomp. The whole branch bounces like a trampoline. A family of little tapirs trots in and stomps too, all in a row from biggest to smallest. Every stomp shakes raindrops off the leaves, so it sprinkles sparkles everywhere we go. The toucan taps the beat faster. We stomp faster. Boom, boom, boom! Now even the butterflies are stomping, or trying to. Butterflies are not very good at stomping. They just bounce in the air like tiny popcorn, and that might be even better. We march past a waterfall and stomp so grandly that the frog chorus starts a stomp of its own, a hundred tiny plips. Our parade line grows longer and longer, and louder and louder. We lead it around the biggest tree in the jungle. Once, twice, three times around, laughing all the way.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We wiggle! We stretch our arms up like vines and wiggle from our fingers all the way to our toes. The parrot wiggles his rainbow tail feathers. The frogs wiggle so hard they bounce right off their lily pads. Even the vines seem to wiggle along in the breeze. And this is the best part about a wiggle. Everybody can do it, even the littlest ants. The caterpillars are the champions, of course. They have been training their whole lives. A line of them wiggles past like a fuzzy green ribbon, showing off. So we make a wiggle train, hands on shoulders and wings on tails. The toucan taps a wiggly beat, tap-a-tap-a-tap. We wiggle under a low vine. We wiggle around a puddle shaped like a smile. A butterfly lands on our head and wiggles her wings, like a hat doing a dance. Down the train, the giggles spread like ripples in a pond. Soon the whole jungle floor is one long, happy, wiggling ribbon of friends, winding between the trees.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Our parade is enormous now. Monkeys, frogs, parrots, butterflies, and us out in the very front. Every creature in the jungle is doing the {parade_move}, each in its own silly way. The toucan booms the log. The rain taps along on the leaf roof, right on the beat. Then we hear a small, slow voice from way up high. Wait. For. Meeee. We look up into the canopy, the leafy upstairs of the jungle. A sloth is hanging there, smiling her sleepy smile. She has been coming to join the parade since breakfast. But sloths move slower than dripping honey. By the time she climbs all the way down, the parade will be far across the jungle. Her long arms droop. The parrot stops squawking. The frogs stop peeping. A parade is not a parade if a friend misses it. The toucan looks at us. The monkeys look at us. Even the sloth looks at us, very slowly. We are the parade leaders, so it is our call. How do we get our sloth into this parade?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "A vine slide! The monkeys cheer and get to work. They tie the longest vine in the jungle from the sloth's branch down to a squishy pile of soft leaves. We test the leaf pile by flopping into it ourselves. Perfectly squishy. The sloth hooks her long arms over the vine. Ready, she says, very slowly. Then, whoosh! For the first time in her whole life, the sloth goes fast. Her fur flutters. Her sleepy smile stretches into a great big grin. Wheee, she says, and going this fast, it only takes her one second to say it. She lands in the leaves with a soft floomp, right at the front of the parade. Everyone cheers. The parrot squawks so hard he tumbles off his branch and has to flap back up. We lift the sloth onto our shoulders so she never misses a step again. The parade does one last giant loop around the jungle, with the sloth waving her long arm like a queen. Best parade ever, booms the toucan. And every single friend was in it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We raise our hands, and the toucan taps the beat slower. And slower. And slooooower. Now the whole parade moves at sloth speed. We take one step, then count three raindrops before the next. The monkeys move like they are swimming through honey. The frogs do the slowest bounces in jungle history. It feels funny at first, and then it feels wonderful. Moving slowly, we notice things we zoomed past before. A snail wearing a raindrop like a little hat. A flower shaped like a trumpet. The sloth climbs down, arm over arm, and now she fits right in. In fact, she is the fastest one here! She takes the lead, smiling her sleepy smile the whole way. This is how I see the jungle every day, she tells us slowly. It is beautiful, we say back, and we mean it. The parade drifts on like a happy dream, until the rain stops and the sun peeks through the leaf roof. The slowest parade in the whole world. And not one single friend was left out.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "The jungle is waiting. What is our parade's one special move?",
+      "options": [
+        {
+          "say_word": "stomp",
+          "label": "A mighty puddle-splashing stomp",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "parade_move": "stomp"
+          }
+        },
+        {
+          "say_word": "wiggle",
+          "label": "A wiggly wiggle that even the littlest creatures can do",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "parade_move": "wiggle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "How do we get our sloth into the parade?",
+      "options": [
+        {
+          "say_word": "zip",
+          "label": "Build a vine slide so she can zip down to us",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "slow",
+          "label": "Turn the whole parade sloth-speed and move the way she moves",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft"
+}

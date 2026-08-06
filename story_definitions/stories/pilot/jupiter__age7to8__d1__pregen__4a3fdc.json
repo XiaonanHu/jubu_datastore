@@ -1,0 +1,329 @@
+{
+  "id": "story.jupiter.age7to8.d1.pregen.4a3fdc",
+  "title": "The Balloon That Sailed the Stripes",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.jupiter",
+    "sel_theme": null,
+    "value_lesson": "Carrying something forward: each generation of watchers adds a page to the sketchbook, and we get to add ours",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A grandmother's old family sketchbook carries us on a cloud-balloon journey down Jupiter's bands, around the Great Red Spot, and out to the big moons, so we can add our own page before sailing home.",
+  "slots": {
+    "child_name": {
+      "role": "What Grandma Sef and Nix call the child listening, inside the memory",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    },
+    "spot_drawing": {
+      "role": "What the child draws on their sketchbook page at the end",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "the Great Red Spot with a tiny smiling balloon beside it"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "This book is older than me, and older than my grandma, and maybe older than the hills. Feel the cover. Soft as a dog's ear, isn't it? Every page is a drawing of the same place, added by somebody in our family. And this page at the back is blank. It's waiting.\n\nLet me tell you about the night it nearly got its drawing.\n\nI was about your age, and Grandma Sef finally said I was old enough to sail the whole route with her. Her balloon was called the Stripe, and it floated at the thin, fuzzy edge of space, right above Jupiter.\n\nJupiter is a gas giant, {child_name}. That means it's all clouds, top to bottom. No ground anywhere. Nothing to stand on, ever. Just cloud bands, stripes of cream and rust and gold, sliding past each other slow as honey.\n\nNix was there too, counting moons in his tally notebook. \"Seventy-nine! Eighty!\" he kept saying. And Stir the robot was cooking something that smelled like tomato soup.\n\nGrandma Sef patted the sketchbook. \"One full route,\" she said, \"and the page is yours.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Up we go!\" Grandma Sef said, and the Stripe lifted to the very top of the highest cloud band. We sailed the stripes like a train on tracks. \"Cream station!\" Grandma Sef called. \"Tan station! Rust station!\" Nix pressed his nose to the glass. \"What comes after rust? I want to guess right.\" \"Guess,\" said Grandma Sef. Nix squeezed his eyes shut. \"Blue?\" \"Pale blue-grey,\" Grandma Sef announced, \"next station!\" Nix whooped. \"I nearly said grey!\" Grandma Sef pointed at the stripes sliding past each other. \"The light ones blow one way, the dark ones blow back, side by side, like two rivers running opposite ways.\" Stir dinged a little bell. \"Soup! Stripe-swirled soup!\" It was swirled cream and rust, just like the clouds. \"Jupiter's whole day is only ten hours,\" said Grandma Sef. \"So it's breakfast again already.\" Nix counted on his fingers. \"Again?\" We drank our soup while the stripes hurried past, faster and faster. \"Wait,\" said Nix, leaning forward. \"What's after rust? I forgot already!\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Down we go,\" Grandma Sef said softly, and the Stripe sank toward the deep orange mist. We hovered above it. The fog turned slowly, thick as tomato soup, as porridge, as the jam at the bottom of the jar. Grandma Sef pressed her hand flat to the bubble window. \"Feel, {child_name}. No floor out there. Just fog turning to soup, all the way down.\" Nix leaned so far out his nose nearly touched the glass. \"But if there's no ground anywhere, what's holding us up?\" Stir handed us cocoa, warm in our hands. \"The balloon floats on Jupiter's breath,\" Stir said, \"the way a leaf floats on a pond.\" Nix looked at his cocoa, then at the mist. \"So we're a leaf?\" \"A very cozy leaf,\" said Grandma Sef. I watched the fog curl far below, slow and orange, and wondered what it would feel like to dip a finger in. \"Would it feel like bathwater?\" I asked. \"Warm,\" said Grandma Sef, \"and thick, and it would hold you like soup holds a spoon.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back on the route, something is growing over the curve of the world. A dot. A coin. A dinner plate. Until it fills the whole round window, edge to edge.\n\n\"There she is,\" says Grandma Sef. \"The Great Red Spot.\"\n\nIt isn't red, really. It's orange, deep and warm, turning slow as syrup. A swirl bigger than the whole Earth, just turning and turning in the clouds.\n\nGrandma Sef opens the sketchbook, soft as a dog's ear, to a page near the front. \"My great-grandmother drew this. The very same swirl. It's been turning for hundreds of years, {child_name}. Since long before anyone we know was born.\"\n\n\"Hundreds?\" says Nix, looking up from his tally notebook. \"That's more than all my moons.\"\n\nWe drift along the rim, where the orange clouds curl like the top of tomato soup. Stir says the soup is ready, and nobody answers, because nobody wants to look away.\n\n\"Watch,\" Grandma Sef whispers. \"It moves. But only if you're patient.\"\n\nSo we watch. And the Spot turns, slow and sure, like it has all the time in the world.\n\nThen Nix sits up straight. \"Dots! Bright dots, ahead!\" His pencil is already moving. \"Moons, {child_name}. Big ones. Waiting to be counted.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The Stripe bumps, soft as a kiss, against the moon-hopper station. \"Out we hop,\" says Grandma Sef.\n\nWe step onto the big moon, and the ground is real and still and dusty under our boots. And there, filling half the black sky, hangs Jupiter. Striped. Enormous. Close enough to touch, almost.\n\n\"Moons!\" shouts Nix, notebook already open. \"Count with me, {child_name}. Io, with its orange volcano fountains, fizzing like a pot that boils over. Europa, white and cracked as old ice on a pond. Ganymede. Callisto. Four!\" He presses a sticker into my hand. \"For your tally.\"\n\n\"Europa looks like a skating pond,\" I say.\n\n\"Under the ice?\" Nix grins. \"A whole secret ocean. Hiding.\"\n\nThe radio operator waves us past her window. \"Before you go — look.\" She points. On her fingertip, a tiny blue dot. \"Earth. That's home, that is.\"\n\nHome. That little.\n\nBack aboard, Grandma Sef opens the sketchbook, soft as a dog's ear, to the blank page at the back. \"Yours,\" she says.\n\nSo I draw. {spot_drawing}. Nix sticks my sticker in the corner. Stir brings soup.\n\nAnd that, my love, is the end of the remembering. Because this book on your lap — this very one, soft as a dog's ear — is that book. And this page, still warm from my hand, is the page I drew that night, when I was about your age.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Stay aboard it is,\" says Grandma Sef, and the Stripe turns its nose toward the dark.\n\nThe map room is at the back, where the windows go black as bedtime. Nix flips a switch. And the whole room blooms — seventy-nine tiny lights, one for every moon, glowing like fireflies in a jar.\n\n\"Seventy-nine,\" Nix breathes. \"All of them. But which line is the way home?\"\n\nThen a golden dotted line draws itself through the lights, curving between the moons, slow and sure. \"That one,\" says Grandma Sef. \"It always knows.\"\n\n\"Breakfast!\" calls Stir. \"Timed to the minute. Jupiter spins so fast, a whole day there is ten hours. Eat slow, and the sunrise comes back around before you've finished.\"\n\nSo we eat tomato soup, and watch the light creep over the cloud bands, gold on cream on rust. A whole sunrise, before the bowls are empty. Nix licks his spoon. \"Best timed breakfast ever,\" he says.\n\nWe lay our souvenirs in a row on the table. A jar of cloud-banded light. My drawing of the Spot. Nix's moon stickers. The whole trip, in a row.\n\nThen Grandma Sef opens the sketchbook, soft as a dog's ear, to the blank page at the back. \"Yours,\" she says.\n\nSo I draw. {spot_drawing}.\n\nAnd that, my love, is the end of the remembering. Because this book on your lap is that book. And the page you're looking at right now — that's the page I drew, when I was about your age.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Well, {child_name}, the stripes are calling from up top, but the deep orange mist is humming down below. Do we ride the cloud bands like a train, or sink down and peek into the fog?\"",
+      "options": [
+        {
+          "say_word": "Ride",
+          "label": "Sail along the colored cloud bands and count them like train stations",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Sink",
+          "label": "Drop lower to hover above the deep mist where there is no ground at all",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Last stop before home, {child_name}. We can hop out onto the big moon and stand under all those stripes, or stay cozy aboard and watch the whole moon-map light our way back. Which sounds like yours?\"",
+      "options": [
+        {
+          "say_word": "Hop out",
+          "label": "Dock at the moon station, collect the last stickers, and see Earth on a fingertip",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "spot_drawing": "the Great Red Spot with four bright moon buttons beside it"
+          }
+        },
+        {
+          "say_word": "Stay cozy",
+          "label": "Sail to the map room, watch 79 moons glow, and catch one last ten-hour sunrise",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "spot_drawing": "the striped balloon sailing a golden dotted line through tiny glowing moons"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.jupiter",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Jupiter's swirling cloud bands, the Great Red Spot, and its giant moons naturally invite a journey where a child can travel through and explore these wonders, making the movement itself the adventure.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Nix, the young moon-counter, whose tally notebook, sticker tin, and endless curious questions carry the wonder",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Carrying something forward: each generation of watchers adds a page to the sketchbook, and we get to add ours",
+      "why": "The material offers it unprompted through the astronomer's family book and the Great Red Spot's hundreds of years of turning; it resolves naturally in the endings when the child adds a drawing, so it never needs to be stated as a lesson"
+    },
+    "cast": [
+      {
+        "role": "The storyteller, speaking as 'I', remembering a childhood trip",
+        "reused": false,
+        "why": "The storyteller_tale frame requires an 'I' voice that opens before the memory and closes warmly after it"
+      },
+      {
+        "role": "Grandma Sef, the ship's grandmotherly astronomer and balloon pilot combined",
+        "reused": false,
+        "why": "Merging pilot and astronomer keeps the cast small for age 8 while keeping both the stripe-naming and the family sketchbook; she is the natural keeper of the value thread"
+      },
+      {
+        "role": "Nix, the young moon-counter who lives aboard the ship",
+        "reused": false,
+        "why": "Peer character for the child listener; his tally notebook and sticker tin make the moons countable and playful, and his questions carry the curious_wonder accent"
+      },
+      {
+        "role": "Stir, the gentle robot cook",
+        "reused": false,
+        "why": "Times meals to Jupiter's ten-hour day, giving the story its cozy rhythm of surprising breakfasts and stripe-swirled soup"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "gas giant with no solid ground, clouds all the way down like fog turning to soup",
+        "cloud bands as winds blowing in opposite directions, announced like train stations",
+        "Great Red Spot bigger than Earth, turning for hundreds of years",
+        "the astronomer's great-grandmother's drawings of the Spot",
+        "Jupiter's ten-hour day and surprising breakfasts",
+        "79 moons, four big ones visible as bright dots",
+        "Io's volcanoes and Europa's hidden ocean under ice",
+        "more than a thousand Earths could fit inside",
+        "observation bubble on a slow cloud-balloon above the cloud bands",
+        "round window the Great Red Spot fills edge to edge",
+        "snack room with floating cups and floor window",
+        "moon-hopper dock where Jupiter fills half the sky",
+        "collecting souvenirs in a row that retells the journey"
+      ],
+      "gathered_but_unused": [
+        "Jupiter is a gas giant, which means it has no solid ground — it is clouds and gas all the way down, getting thicker and thicker like fog turning into soup.",
+        "Jupiter is so big that more than a thousand Earths could fit inside it.",
+        "The stripes on Jupiter are called cloud bands, and the light ones and dark ones are winds blowing in opposite directions, side by side.",
+        "The Great Red Spot is a single swirling storm bigger than the whole Earth, and it has been turning for hundreds of years.",
+        "The Great Red Spot has been spinning since before your great-great-great-grandparents were born — astronomers have watched it through telescopes for hundreds of years.",
+        "Jupiter spins faster than any other planet — one whole day on Jupiter is only about ten hours long.",
+        "Jupiter has at least 79 moons, and four of them are so big you could see them from your backyard with just binoculars.",
+        "One of Jupiter's big moons, Io, is covered in volcanoes, and another, Europa, hides an ocean of liquid water under its smooth icy shell."
+      ]
+    },
+    "safety_beat": "In s4a at the moon-hopper dock, Grandma Sef lightly shows she knows the place: she clips our tether ribbon to the dock rail 'the way my grandmother taught me' before we step out, a calm competence beat with no warning or tension. Everywhere else we remain inside the balloon or ship, which is not a real place a child could stand in.",
+    "motif": "The family sketchbook, added to page by page across generations, until our own drawing goes in",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already braids warmth, wonder, and sound together — the frame of the inherited sketchbook gives the child a place in a family chain, the soup-and-dog's-ear refrains land as ritual, and the closing reveal pays off the setup without needing anything added."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning toward the page",
+        "s2a": "giggly and game, riding the stations",
+        "s2b": "hushed and floaty, a held breath over the fog",
+        "s3": "wide-eyed, sitting very still inside the watching",
+        "s4a": "small and amazed, then warm and proud at the drawing",
+        "s4b": "glowy and drowsy, satisfied at the row of souvenirs"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s1] narration heavy: only 25% of sentences carry speech or action; [s2b] abstract mood word: 'cozy' usually means a feeling was told, not given; [s3] flat rhythm: sentence lengths vary little (spread 4.7); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 25% of sentences carry speech or action",
+      "[s2b] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 25% of sentences carry speech or action",
+      "[s2b] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "06_jupiter_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

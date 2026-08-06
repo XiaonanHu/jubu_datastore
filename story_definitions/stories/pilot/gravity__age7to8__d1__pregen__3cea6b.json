@@ -1,0 +1,301 @@
+{
+  "id": "story.gravity.age7to8.d1.pregen.3cea6b",
+  "title": "The Pull That Carried Us",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.gravity",
+    "sel_theme": null,
+    "value_lesson": "Even small things matter because everything pulls on everything else, no matter how tiny",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A journey upward from a midnight playground swing to a hollow asteroid, discovering how gravity's invisible pull holds us, releases us, and brings us home.",
+  "slots": {
+    "dog_name": {
+      "role": "The small dog in the red bandana",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Comet"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It is midnight, and the playground belongs to us. Just us, two swings, and a sky full of stars.\n\nWe pump our legs. Higher. Higher. The chains creak, the wind pushes our hair back, and then, right at the very top, it happens. That little float. For one whole second, nothing pulls us. We hang there, light as dandelion fluff.\n\nThen gravity tugs us back down. It always does.\n\n\"Again!\" we shout, and we pump harder, chasing that floaty moment. But the swing always pulls us home.\n\n\"You felt it,\" says a voice. \"That little hang at the top.\"\n\nA woman stands by the slide, silver-haired, wearing a flight jacket covered in patches. Behind her sits a bus with painted planets on the side. And at her feet, a small dog in a red bandana is bouncing on his hind legs, yipping at a firefly like it owes him something.\n\n\"I'm Reyes,\" she says. \"Retired astronaut. And that menace is {dog_name}.\"\n\n{dog_name} barks twice, spins in a circle, and stares at us like we are the most exciting thing that has ever happened.\n\n\"Here's the thing,\" Reyes says, leaning in. \"That floaty second at the top of the swing? Up there, it lasts.\" She points at the stars. \"Everything pulls on everything. That's gravity. The bigger something is, the stronger it pulls. Earth is big, so it pulls you back down. But somewhere smaller...\"\n\nShe grins. {dog_name} grins too, somehow.\n\n\"Want to feel it stretch?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The elevator,\" we say, and {dog_name} yips like we chose steak.\n\nInside, it's all glass. The operator, a woman with silver stars on her collar, points to a big red button. \"Press it.\"\n\nWe press. The floor pushes up against our feet, and suddenly we feel heavy, like we're wearing a backpack full of rocks. Then lighter. Lighter. Our stomachs float up into our chests.\n\n\"That's gravity changing,\" the operator says. \"The higher we go, the less Earth pulls.\"\n\nOutside, blue sky turns purple, then black. Stars pop out in the middle of the day. We step onto the station's glass floor and look down. Earth swirls below us, blue and white, small enough to cover with our thumb.\n\n\"Our house,\" we whisper. It's a postage stamp. It's a dot.\n\nThen {dog_name} barks. His red ball is floating away, drifting toward the ceiling, and he's paddling the air with his paws, swimming after it, but he can't reach. He looks at us, eyes wide, floating in place.\n\n\"Help,\" his face says. \"Help, help, help.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The rocket bus,\" we say, and Reyes grins. \"Good choice. {dog_name} loves the juice.\"\n\nInside, there are no seats, just handholds. Reyes squeezes a pouch, and a perfect orange blob floats out, wobbling like jelly. {dog_name} launches himself, mouth open, but the blob drifts left. He twists in the air, paws grabbing nothing.\n\n\"We're falling,\" Reyes says, steering with one hand. \"Falling around Earth so fast we keep missing it. That's an orbit.\"\n\nWe look out. The Moon fills the window, close enough to see shadows inside the craters, gray and deep.\n\n\"Everything pulls,\" Reyes says. \"The Moon pulls on us. We pull on the Moon. But Earth's pull is stronger because Earth has more mass.\"\n\nWe squeeze our own juice. It floats, a perfect sphere. {dog_name} barks, spinning, but the blob drifts just past his nose. He snaps at air. Again. Again.\n\n\"He'll get it,\" Reyes says, laughing. \"Or he won't. Either way, he's happy.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The bus hums down to a stop, and the stars outside turn into grey rock. An asteroid, hollow as a pumpkin, with a doorway waiting for us.\n\nInside, the floor barely holds us. Reyes steps off the bus and floats up, slow as a bubble. {dog_name} pushes off with all four paws and tumbles, bandana flapping, chasing a blob of juice from his open pack. He snaps. He misses. He barks at it like it cheated.\n\n\"Small rock, small pull,\" Reyes says. \"Watch this.\"\n\nWe bend our knees and jump, and we fly. Across the whole cavern. We land on the far wall with our feet and bounce back, laughing, because we cannot help it. For one long breath at the top of the arc, we hang there. The swing moment, stretched like taffy.\n\n{dog_name} has found a bone somewhere. He digs at the grey dust with his front paws, but the dust just sighs up around him, and the bone floats out of the hole and bumps his nose. He sneezes. The dust goes everywhere.\n\n\"Even here,\" Reyes says, catching him gently, \"everything still pulls on everything. This rock pulls on you. You pull on it. Even {dog_name} pulls, a tiny bit. It is just that Earth is so much bigger, its pull wins.\"\n\nAhead, the cavern splits into two tunnels, and the dog's ears go up.\n\n\"So,\" Reyes says, turning to us. \"What did you find back there? And which way now?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We take the tunnel with the soft blue light, and it opens into a round room where a scientist in grey coveralls is dropping things. Two balls, one big, one small, and they fall together, slow as snow, and bump the floor at the exact same time. \"Ha!\" she says, like she has won a bet. \"Same pull, same fall. Watch.\" She holds out a stone the size of a plum and a grey feather. \"Here. Feel.\" The stone sits heavy in our palm, pulling down like it wants the floor. The feather just lies there, tickling. \"Mass,\" she says. \"The stone has more of it, so it pulls harder on your hand. And your hand pulls back.\" We weigh them, stone, feather, stone again, while {dog_name} floats past upside down, still hunting that juice blob. The feather drifts off and lands on his nose, and he goes cross-eyed trying to bark at it. Time to go. Reyes tucks a small smooth stone from the asteroid's core into our pocket. \"So you remember what light feels like.\" Then the bus, and the growing pull, and Earth rising up to meet us, and our legs settling heavy and safe onto the playground grass. Home. We stand in our own two shoes, and the stone is in our pocket, and the whole Earth is holding us gently in place.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We take the tunnel with the warm orange light, and it ends at a cavern with a window. Not glass. Crystal, grown right out of the rock, clear as ice, and through it hangs Earth, blue and white and enormous. \"Oh,\" we say, because we cannot help it. {dog_name} plants his front paws on the window ledge and stares, ears up, tail going. Then something moves between us and the planet. A bird. A real bird, out here, wings beating, beating, beating, working against the pull with every stroke. It soars past the window so close we see its eye, bright and busy, and then it is gone, falling and flying and falling and flying toward home. \"She is fighting the same force that holds us,\" Reyes says quietly. \"Everything pulls on everything. She just pushes back.\" We watch until the bird is a speck, and the speck is nothing, and there is only Earth, pulling us gently even from here. On the way back, {dog_name} trots up with something in his mouth. His red bandana, the one he buried in the dust. It is grey now with asteroid grit, and he drops it in our lap like a present. We tie it around our neck on the bus ride home, and when Earth rises up to meet us, and our legs turn heavy and safe, the grit is still there, a tiny bit of somewhere else, holding on.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do we take the glass elevator that climbs through the sky, or the rocket bus that falls around the world?\"",
+      "options": [
+        {
+          "say_word": "elevator",
+          "label": "Ride the glass elevator straight up",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "rocket",
+          "label": "Board the rocket bus that falls around Earth",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Which tunnel calls to you—the one glowing soft blue like deep water, or the one shining warm orange like sunset?\"",
+      "options": [
+        {
+          "say_word": "blue",
+          "label": "Enter the tunnel with soft blue light",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "orange",
+          "label": "Enter the tunnel with warm orange light",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.gravity",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 15
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Gravity's material—everything pulling on everything, bigger things pulling harder—naturally fuels a journey where a child travels from Earth past the Moon and toward Jupiter, feeling the pull change with each mass, with flight and the solar system as built-in scenery.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "The small dog with the red bandana, who barks at floating juice blobs and treats zero gravity as a game of catch",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Even small things matter because everything pulls on everything else, no matter how tiny",
+      "why": "The asteroid setting and the dog's tiny mass tugging on the child naturally demonstrates that mass and pull are universal, not reserved for planets"
+    },
+    "cast": [
+      {
+        "role": "The retired astronaut who now drives a tour bus",
+        "reused": false,
+        "why": "Grounds the cosmic scale in cozy, practical competence; his juice-squeezing and steady hands make the strange safe"
+      },
+      {
+        "role": "A small dog wearing a red bandana",
+        "reused": false,
+        "why": "Carries the curious_wonder accent through physical comedy and instinctive joy at floating objects"
+      },
+      {
+        "role": "A scientist with wild gray hair and pockets full of bouncing balls",
+        "reused": false,
+        "why": "Embodies the playful experimentation of gravity without lecturing; her dropping balls make the abstract visible"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A playground swing set at midnight, pumping higher and higher",
+        "The moment of liftoff when your stomach feels like it's dropping",
+        "The glass floor of a space station looking down at Earth",
+        "Inside a hollowed-out asteroid with tunnels where you can bounce off walls",
+        "Astronauts float because they are falling around Earth so fast they keep missing it",
+        "The more mass something has, the stronger its gravity pulls",
+        "Gravity gets weaker as you move farther away, but never completely disappears",
+        "Watching a bird soar overhead and understanding that it fights gravity",
+        "A small dog wearing a red bandana who barks at floating objects"
+      ],
+      "gathered_but_unused": [
+        "Everything in the universe pulls on everything else, even you and your dog",
+        "Astronauts float in space stations not because there is no gravity, but because they are falling around Earth so fast they keep missing it",
+        "The Moon has much less mass than Earth, so gravity there is weaker and you could jump six times higher",
+        "Jupiter is so massive that its gravity could hold more than a thousand Earths inside it",
+        "Even though you cannot see it, gravity is a force that keeps your feet on the floor and the oceans in their basins",
+        "A black hole has so much mass packed into a small space that its gravity can trap even light",
+        "Gravity gets weaker as you move farther away, but it never completely disappears"
+      ]
+    },
+    "safety_beat": "In the space station (s2a), the astronaut shows us where to stand on the glass floor by placing his feet on the marked circles first, demonstrating balance without mentioning danger.",
+    "motif": "The moment of hanging weightless at the top of a swing's arc—repeated in space, on the asteroid, and in memory.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, warmth, and physics with a strong read-aloud rhythm — the dog's running juice-blob gag, the recurring 'everything pulls on everything' refrain, and the swing-to-asteroid callback all land, and both endings earn their keepsake moment without overstaying."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "tingly and invited — the floaty swing moment hooks, then a stranger's question l",
+        "s2a": "wide-eyed and giggly — Earth shrinking to a postage stamp, then the paddling dog",
+        "s2b": "delighted and weightless — juice blobs, a spinning dog, and the Moon filling the",
+        "s3": "pure bounce — flying across the cavern, the swing moment stretched like taffy",
+        "s4a": "busy and satisfied — the feather-on-nose gag, then heavy legs and a pocket stone",
+        "s4b": "hushed and glowing — the bird working against the pull, then a gritty bandana gi"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.8); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['asteroid_tunnel']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['asteroid_tunnel']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "16_gravity_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

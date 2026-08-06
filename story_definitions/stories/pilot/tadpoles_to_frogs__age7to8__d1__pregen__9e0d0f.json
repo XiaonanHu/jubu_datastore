@@ -1,0 +1,300 @@
+{
+  "id": "story.tadpoles_to_frogs.age7to8.d1.pregen.9e0d0f",
+  "title": "The Slowest Magic Trick in the Pond",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.tadpoles_to_frogs",
+    "sel_theme": null,
+    "value_lesson": "Nothing is wasted — even the tail has a job, feeding the frog it helped to build",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "We travel station by station along the tadpole's road from jelly egg to first hop, measuring the journey by a tail that shrinks like a pencil being eaten from the eraser end.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are standing at the warm, shallow edge of Grandfather Shell's pond, just us and the mist, when the old snail slides out from under his lily pad. \"Come and see,\" he says. \"Quickly, before the sun drinks the mist.\"\n\nHe points one long eye-stalk at a wobbling blob of jelly eggs. Inside, little black dots are uncurling, one by one, like commas waking up.\n\n\"That,\" says Grandfather Shell, \"is where the whole road starts. Jelly to hop, all along this one pond edge. But you have to walk it slowly. One square of the pond-calendar at a time.\"\n\nSomething pops up beside us. Bloop.\n\nA froglet — all legs and stubby tail, half finished and twice as bouncy. \"Did somebody say expedition?\" he says. \"I'm Pippin. Legs: done. Tail: still loading. I am the greatest guide in the pond, and I have been waiting for recruits all morning.\"\n\nHe pats his little tail with one foot. \"Don't mind this. It's not falling off. It's my lunch for later.\"\n\nWe look at the tiny black commas. We look at Pippin. How does something that small ever hop?\n\n\"One station at a time,\" says Pippin. \"Follow me.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Nix is waiting by the weed, quick as a blink. \"Down here,\" she says. \"Quietly now.\"\n\nWe slip below the surface, and the pond turns green and cool and full of little lives. Tadpoles hang in the weed like commas that never woke all the way up. Beside each small head, two feathery tufts wave and wave.\n\n\"Gills,\" whispers Nix. \"Like a fish. They fan the water and breathe it. Watch.\"\n\nWe watch. The tufts flutter, flutter, flutter, and every wriggler hangs there drinking the pond through them.\n\n\"I hide in this weed too,\" Nix says, showing us a curled leaf, a hollow stem. \"Because I'm mid-journey as well. One day I trade all this water for sky.\" She says it like a secret she's proud of.\n\n\"Will the gills go?\" we ask.\n\n\"They go,\" says Nix, and her eyes shine. \"The station closes early on this road. What replaces them?\" She only smiles. \"Next square. You'll see.\"\n\nWe come up dripping, with the green light still in our eyes, and Grandfather Shell chalks one more square on the pond-calendar: gills, seen, just in time.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Pippin leads us along the warm stones, where the sun has made the shallow water bathwater-warm. \"This,\" he says, \"is my favourite station. The leg queue.\"\n\nAll along the stones, tadpoles are sprouting legs. Back legs first. Always back legs first. Then front. Nothing jumps the queue.\n\nOne tadpole pushes past us with two new back legs dangling, tail still doing all the work. It goes along like a boat with an engine and no oars, wobbling, determined, and we have to press our lips together not to laugh with delight.\n\n\"I remember that bit,\" says Pippin softly. \"You have the legs, but nobody's told them what to do yet.\"\n\nHe plants himself on a stone. \"Watch the order. Back legs.\" He waggles them. \"Front legs.\" He waves one at us. \"In the right order, every time. The pond doesn't rush.\" He wobbles, proud as anything, and nearly tips off the stone.\n\nGrandfather Shell slides up beside us, slow as a cloud, and chalks two new squares on the pond-calendar. \"Legs,\" he says. \"Twice.\"\n\nBut the legged tadpoles still trail long tails, and not one of them can hop. Pippin taps his own stubby tail and grins. \"Something has to happen first,\" he says. \"Guess what's on the menu.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We scramble up the lily pad, and Grandfather Shell is waiting, slow and smiling. \"Well?\" he says. \"What did you find?\" We tell him, and he nods like he already knew.\n\n\"Now for the heart of the trick,\" he says. \"Gather close.\" He taps Pippin's stubby tail with one eye-stalk. \"This never falls off. Never. It melts back into the body — absorbed, like soup soaking into bread. A packed lunch a tadpole carries behind it. That is why a changing tadpole hardly eats. It is busy digesting its own tail.\"\n\nWe stare. Pippin pats his little tail with one foot, gently this time. \"Thank you for the ride,\" he says to it. \"You were delicious.\" Then he puffs out his chest — and keeps it puffed. \"Feel that? Lungs. Two of them. Still loading, but nearly there. One more square and I breathe actual air.\"\n\nGrandfather Shell sighs a happy snail sigh. \"I have a cousin in Mexico,\" he says, \"an axolotl, who keeps her feathery gills forever and never finishes the trick. That is one way to be.\" He looks at Pippin. \"This is another.\"\n\nBloop. Pippin bounces. \"Last square, recruits. Where should we watch it from?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Down here!\" Pippin shouts, leading us along the muddy rim where the water laps at our toes. He plants his feet at the very edge, tail stub quivering, and turns to face us with an expression of utmost seriousness. \"Witness positions, please. This is it.\" He opens his mouth wide, wider, widest — and gulps. His throat bobs. His sides swell like two balloons filling for the first time ever. Air. Actual air. \"It tastes like outside!\" he wheezes, delighted. Then he gathers himself: legs bent, lungs full, tail nearly gone, everything the whole journey was building. He springs. A wobbly, splashy arc through the air — and lands smack on a lily pad, arms windmilling, one foot dangling. \"I meant to do that!\" We cheer so loudly a dragonfly rattles off its reed. Grandfather Shell slides up beside us, and we pull out our smooth pond pebble. One chalk notch for every square, every stage, every small change — and now the last one, for the hop. Pippin hops down into our cupped hands, damp and warm and thrumming. \"Same tadpole,\" he says softly, looking back at the jelly eggs glistening in the shallows. \"Different page.\" We carry the pebble home in a pocket, heavy as a whole pond, light as a first breath.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Up! Up!\" Pippin cries, and we scramble onto Grandfather Shell's broad lily pad, which dips under our weight like a green trampoline. The old snail settles beside us, eye-stalks pointed down at the water. \"Best view in the pond,\" he says. \"I've watched a thousand first hops from this front step.\" Below us, Pippin takes position. We hold our breath. He opens his mouth — gulps — his throat bobs, his sides swell, air going in for the very first time. Then he launches. Up, up, legs kicking, lungs full, tail a memory — and he lands right beside us on the pad, which boings like a drum. The whole pond seems to wobble with applause. \"Told you I'd make it,\" Pippin pants, grinning. Grandfather Shell reaches into his shell and pulls out the pond-calendar — squares of jelly, nubs of leg, shrinking tails — and turns to the last page. Blank. \"For next spring's eggs,\" he says. \"The road is a circle, not a line.\" We notch our pebble one final time — one mark for every stage we visited — and tuck it safe away. Grandfather Shell raises one slow eye-stalk in a slower wave. Pippin waves back with a foot. \"Same time next year, recruits,\" he says. \"I'll be the one with no tail at all.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The road has two lanes from here, little travellers,\" says Grandfather Shell, slow as a cloud. \"Will you slip below with Nix to see how the wrigglers breathe, or walk the warm stones with our bouncy friend and watch the legs come in?\"",
+      "options": [
+        {
+          "say_word": "Dive down",
+          "label": "Go underwater with Nix to see the gills at work",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Walk along",
+          "label": "Stroll the sunny ledge with Pippin to watch legs sprout in order",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"It's nearly hop o'clock!\" Pippin squeaks, quivering. \"Where should my expedition stand for the big moment — down at the muddy water's edge, right in the splash zone, or up on Grandfather Shell's lily pad with the bird's-eye view?\"",
+      "options": [
+        {
+          "say_word": "Splash zone",
+          "label": "Crouch at the muddy water's edge for the first breath and first hop",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Lookout pad",
+          "label": "Watch from the lily pad beside the snail and see the hop land beside you",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.tadpoles_to_frogs",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.frogs_and_amphibians",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 23
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The tadpole-to-frog transformation is itself a literal journey through stages (eggs, gills, legs, absorbing tail, first hop), so the movement-as-plot pattern is fed directly by the material.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Pippin the froglet, a bouncy half-finished frog who treats every stage of the change like a leg of a grand expedition and narrates his own stubby tail as 'still loading'.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Nothing is wasted — even the tail has a job, feeding the frog it helped to build",
+      "why": "The material's central wonder fact (the tail is absorbed as food, the tadpole's packed lunch) is itself a value lesson; it needs no moralising, just Pippin patting his shrinking tail and thanking it for the ride."
+    },
+    "cast": [
+      {
+        "role": "Pippin the froglet — mid-change guide with back legs, front legs, and a stubby tail he's proud of",
+        "reused": false,
+        "why": "The froglet character from the material is the perfect journey companion: he has already finished some stations and is still waiting on others, so he can point backward and forward along the route, and his bounce carries the big_adventure accent."
+      },
+      {
+        "role": "Grandfather Shell, the old pond snail under the lily pad",
+        "reused": false,
+        "why": "The patient commentator who has watched hundreds of tadpoles change; he anchors the order of events, asks the first choice question in his slow voice, and opens the deeper door to Life Cycles and Axolotls."
+      },
+      {
+        "role": "Nix the dragonfly nymph, living underwater among the weed",
+        "reused": false,
+        "why": "Shows the underwater half of the journey (gills, jelly, hiding places) and embodies the Life Cycles deeper door: she will one day trade water for sky, another mid-journey life."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "tail absorbed back as food, never falls off",
+        "gills like a fish, then lungs grown inside before first breath",
+        "froglet = tail plus legs at once",
+        "jelly eggs like clear bubble bath with comma dots",
+        "back legs first, front legs second, fixed order",
+        "shrinking tail as packed lunch",
+        "stations: egg, comma, wriggler, back legs, front legs, froglet, frog",
+        "first hop needs legs, lungs, almost no tail",
+        "snail commentator under lily pad",
+        "dragonfly nymph underwater guide",
+        "axolotl cousin who never finishes the trick",
+        "Life Cycles: jelly eggs and last summer's frog are the same story"
+      ],
+      "gathered_but_unused": [
+        "A tadpole's tail never drops off — it is slowly absorbed back into the body and used as food while the legs grow.",
+        "Tadpoles breathe underwater with gills, like fish do, before they grow lungs.",
+        "A frog in the middle of changing, with both a tail and legs, is called a froglet.",
+        "Frog eggs are laid in a clear jelly that keeps them moist and a little bit safer from hungry mouths.",
+        "Back legs grow first, then front legs — always in that order.",
+        "While the tail shrinks, the tadpole hardly eats — the tail is its packed lunch.",
+        "A froglet's lungs grow inside its body before it ever takes its first breath of air.",
+        "The whole change from egg to frog takes weeks — nature's slowest magic trick, happening one tiny bit every day."
+      ]
+    },
+    "safety_beat": "In s1, Grandfather Shell shows us the flat warm stones along the pond edge 'where my watchers always sit' — dry, steady, and back from the drop — a light competence beat before any leaning over the water happens.",
+    "motif": "A pond-calendar of small changes: each stop on the journey is one square showing a nub of leg, a shorter tail, a wider mouth — the magic trick happening one tiny bit every day.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, factual clarity, and warm companionship with a strong read-aloud voice; its science is made playful without losing accuracy, and its emotional through-line lands cleanly in both endings."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then delighted by Pippin's bounce",
+        "s2a": "hushed and wide-eyed, with a secretive glow",
+        "s2b": "amused and leaning in, proud of the queue",
+        "s3": "cozy and amazed, with a small lump of tenderness",
+        "s4a": "held breath, then cheering and satisfied",
+        "s4b": "held breath, then glowing and gently sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.9); [s3] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['froglet_name', 'keepsake']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['froglet_name', 'keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "24_tadpoles_to_frogs_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

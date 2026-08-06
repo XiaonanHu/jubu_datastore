@@ -1,0 +1,318 @@
+{
+  "id": "story.islands.age9to10.d1.pregen.710447",
+  "title": "The Island That Took Its Time",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.islands",
+    "sel_theme": null,
+    "value_lesson": "Difference as treasure — each island's creatures are different, and that difference is exactly what makes them worth protecting.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A boat journey from the youngest, barest island to the misty highlands, collecting differences island by island until we reach the giant tortoises who have been here longest of all.",
+  "slots": {
+    "tortoise_name": {
+      "role": "The ancient saddle-shell tortoise we finally meet in the highlands",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Old Slow-Mountain"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The boat engine coughs, and stops. \"Listen,\" says Captain Belen. \"That's the Humboldt Current. She brought the first travellers here, millions of years ago.\"\n\nWe stand on a beach made of black glass. The rock is sharp enough to cut your eyes just looking, and nothing grows here but one green shoot, thin as a hair, sticking out of a crack.\n\n\"This is the youngest island,\" says Ranger Luz. She picks up a stone, turns it over. \"The volcanoes built it from the sea floor. Everything alive had to arrive somehow. Swim, fly, or float.\"\n\nCaptain Belen laughs. It sounds exactly like a seal barking. \"The currents are my old friends,\" she says. \"That one, the Cromwell, she carries turtles sometimes.\"\n\nThen the dark stones move.\n\nNot stones. Iguanas. A heap of them, black as the rock, piled together for warmth. One lifts its head and sneezes — two jets of salt spray, like a tiny whale spouting.\n\n\"Marine iguanas,\" says Luz. \"Endemic. That means they live here, and nowhere else on Earth.\"\n\nWe crouch down. The iguana looks at us with one golden eye. Its claws are long, made for gripping rock in rough water.\n\n\"But why here?\" Luz asks. She looks at us, really asks. \"Why did they become swimmers here, and nowhere else?\"\n\nThe green shoot trembles in the wind. The island waits.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Up we go,\" says Ranger Luz. \"Step where I step.\"\n\nThe lava trail is crunchy, like walking on burnt toast. Luz shows us the good rock — the flat, dull pieces that don't wobble. \"The shiny ones are tricky,\" she says. \"They look solid, but they're thin as eggshells.\"\n\nWe climb and climb. The wind gets bigger. And then — the rim.\n\nThe crater opens below us, huge and quiet. Thin wisps of steam curl up from cracks, like the volcano is dreaming about breakfast.\n\n\"It's sleeping,\" Luz says. \"Not done. Just resting.\"\n\nWe look out. The whole island chain spreads below us — one, two, three dark humps in the blue sea, each one smaller and greener than the last.\n\n\"They're still growing,\" Luz says. \"The youngest one is barely born. The oldest has had time to collect things.\"\n\nShe tells us about a tiny lizard, long ago, clinging to a drifting branch. \"The branch floated for weeks. The lizard held on. When it washed up here, it was alone — so it changed. It became something new.\"\n\nSomething black moves on the rocks below. A bird — but what a bird. It spreads its wings, and they are stubby, useless little things, like a child's drawing of wings.\n\n\"Flightless cormorant,\" says Luz. \"Its ancestors flew here. But there was nothing to escape from, and the fishing was good. So the wings shrank.\"\n\nThe cormorant waddles to the edge. Then — torpedo. It vanishes into the sea, faster than a thrown stone.\n\n\"It gave up the sky,\" Luz says softly, \"for the water.\"\n\nWe stand very still. The steam curls. The islands wait, each one holding its own secret shapes.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Shoes off,\" says Captain Belen. \"Feet on the wet rock. The crabs won't bite — much.\"\n\nWe wade. The water is cold and warm at the same time, cold where the waves splash, warm where the sun sits in the pools. Sally Lightfoot crabs scuttle sideways, red as stop signs, quick as dropped marbles.\n\n\"Watch,\" says Belen. She points at a heron, standing so still it might be made of wire. \"He's waiting for the pool to forget he's there.\"\n\nThen — a flash of black and white. A penguin. A penguin, here, where the sun is hot enough to fry an egg on the black rock. It squints at us, unimpressed, then folds itself into the water and is gone.\n\n\"Galapagos penguin,\" says Belen. \"The Cromwell Current carried its great-great-grandparents here from the cold south. They liked the fish. They stayed.\"\n\n\"But it's hot,\" we say. \"Penguins are supposed to be cold.\"\n\nBelen laughs, that seal-bark laugh. \"The current keeps the water cold enough. They live nowhere else on Earth. Endemic. Like the iguanas.\"\n\nA blue-footed booby lands on a rock beside us. It looks at us. We look at it. Then it lifts one foot — electric blue, bright as a fresh marker — and sets it down. Lifts the other. Sets it down. A slow, silly dance.\n\n\"The bluer the feet,\" Belen says, \"the healthier the bird. They're showing off.\"\n\nThe booby stares at us, one blue foot raised, waiting.\n\nWe hold our breath and stay.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The boat engine coughs, and stops. \"Santa Cruz,\" says Captain Belen. \"The island that took its time.\"\n\nRanger Luz is waiting on the dock, and beside her stands a woman with a tortoise shell badge on her shirt. \"Dr. Amara,\" says Luz. \"She raises the babies.\"\n\n\"Tell me,\" says Dr. Amara, kneeling so her eyes are level with ours. \"What did you find out there?\"\n\nWe tell her, all of it tumbling out, and she listens the way grown-ups rarely do — all the way to the end. Then she opens a wooden box.\n\nInside, on a bed of sand, sits a tortoise the size of your fist. Its shell is soft-looking, like a leather coin purse. It blinks at us. It is so small we hold our breath without meaning to.\n\n\"This one hatched last week,\" says Dr. Amara. She turns it gently, and there on its shell is a tiny tag. \"This tells me which island it belongs to. When it is big enough, it goes home. Only home. Each island grows its own tortoises.\"\n\nShe sets down two old shells, empty and light. One is round as a helmet. One rises up in front, like a saddle.\n\n\"Touch them,\" she says.\n\nWe do. The dome is smooth all over. The saddle curves up like a wave about to break.\n\n\"On islands where the grass grows low, tortoises wear the dome. On islands where food grows high, they wear the saddle — it lets them stretch their necks up.\" She looks at us. \"The island shapes the shell. Every single time.\"\n\nLuz asks her question one more time, quietly. \"So why here, and nowhere else?\"\n\nAnd now we know the answer ourselves. \"Isolation,\" we say. \"The islands are cut off. So each one made its own animals.\"\n\n\"Endemic,\" says Dr. Amara, smiling. \"Here, and nowhere else in the universe.\"\n\nThe baby tortoise stretches its neck toward the sun. Somewhere on these islands are the giants it will become — tortoises as heavy as three grown-ups. We came all this way to meet one.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Up,\" says Ranger Luz, and we climb while the sky is still grey.\n\nThe salty shore falls away. Then comes the dry scrub, all cactus and dust, and then — just like that — mist. Cool, green mist that touches our faces. Three worlds, stacked like pancakes.\n\n\"Shhh,\" says Luz. \"Look at the boulders.\"\n\nWe look. The boulders are dark and round, scattered through the grass. Then one of them lifts its head.\n\nNot boulders. Tortoises. Giants, grazing in the mist, slow as clouds.\n\nWe stand very still. One is close — so close we can hear the grass tearing, slow and steady, between its jaws. Its shell rises up in front like a saddle. Its neck stretches out, wrinkly and long, like an old man reaching for his glasses.\n\n\"That's {tortoise_name},\" whispers Luz. \"A saddle-shell. Some of these giants were born before your great-grandparents. Before cars. Before airplanes.\"\n\nA hundred years of slowness. We watch it chew. We watch it blink. Nothing about it hurries, and nothing needs to.\n\nOn the trail down, Luz stops and picks something up — a small curved piece of shell, shed from a growing tortoise, smooth as a skipped stone. \"Here,\" she says, pressing it into our hand. \"One island made this shape. Now it's yours.\"\n\nOn the boat, Captain Belen cuts the engine one last time. The sea lions bark. The misty hill fades behind us.\n\n\"Slow ones,\" says Belen, laughing her seal laugh. \"They took their time. And look how far it got them.\"\n\nWe hold the piece of shell, and we understand.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The afternoon is gold when we climb into the highlands, and someone is already there.\n\nShe sits on a folding stool beside a giant tortoise, a pencil in her hand. She has silver braids and boots older than we are.\n\n\"Abuela Pilar,\" says Ranger Luz, softly. \"My grandmother.\"\n\n\"Shhh,\" says Abuela Pilar, not unkindly. \"He is eating.\"\n\nSo we sit in the grass and watch. The tortoise tears the grass slowly, its saddle shell rising in front like a wave about to break. When it finally rests, Abuela Pilar opens an old notebook, fat and soft as bread.\n\n\"Look.\"\n\nPage after page of drawings. The same tortoise. The same shell. 1965. 1975. 1985. Every decade, drawn again — a little bigger, a little more worn, always him.\n\n\"I was younger than you when I first saw him,\" she says. \"I have watched him my whole life. And do you know why we watch?\"\n\nWe shake our heads.\n\n\"Because he lives here and nowhere else. Not anywhere in the universe. If he is gone from here, he is gone forever. So someone must always be watching.\" She looks at us a long moment. Then she tears one page from her notebook — a drawing of him, saddle shell and all — and presses it into our hands. \"Now you have watched him too.\"\n\nOn the sail home, Captain Belen cuts the engine. The sea lions bark across the gold water. We hold the page carefully, flat on our knees, so the wind cannot take it.\n\n\"Sixty years,\" says Belen, shaking her head in wonder.\n\n\"Sixty-one,\" we say.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two ways to meet this island, shipmates,\" says Captain Belen, spinning the wheel. \"Do we climb up to the volcano's rim and see how the islands were born — or do we poke around the tidepools and meet whoever the sea delivered?\"",
+      "options": [
+        {
+          "say_word": "Climb",
+          "label": "Hike the lava trail to the crater rim with Ranger Luz",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Poke",
+          "label": "Explore the tidepool shore with Captain Belen",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The giants are up in the mist,\" says Ranger Luz, tapping two times on the map. \"We can rise with the sun and watch the highlands wake — or go at golden hour and meet my grandmother, who has watched one tortoise for sixty years. Which visit shall it be?\"",
+      "options": [
+        {
+          "say_word": "Sunrise",
+          "label": "Climb at dawn to find the giant tortoises waking in the mist",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Grandmother",
+          "label": "Visit Abuela Pilar and the tortoise she has watched for sixty years",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.islands",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 20
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Islands as nature's experiments naturally invite a voyage—arriving at the Galapagos and moving from island to island to meet endemic species gives a 9-year-old the wonder of discovery through movement itself.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.35,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Captain Belen, the boat captain with a laugh like a seal bark, who cuts the engine so we can hear sea lions and shouts the name of every current like an old friend's name.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Difference as treasure — each island's creatures are different, and that difference is exactly what makes them worth protecting.",
+      "why": "The material offers it naturally: every stop shows the same animal shaped differently by its island, so the lesson rides along without being preached."
+    },
+    "cast": [
+      {
+        "role": "Ranger Luz, a park ranger guide who grew up on the islands",
+        "reused": false,
+        "why": "She leads the journey island to island, points out animals we would walk right past, and asks the recurring question 'Why here and nowhere else?' — the story's engine."
+      },
+      {
+        "role": "Captain Belen, a boat captain with a laugh like a seal bark",
+        "reused": false,
+        "why": "Carries the big_adventure accent: steers between islands, names the currents that carried the first animals, and turns every crossing into a small voyage of its own."
+      },
+      {
+        "role": "Dr. Amara, a young scientist tagging baby tortoises at the breeding centre",
+        "reused": false,
+        "why": "Hosts one branch and the shared s3 beat: lets us hold the smallest shell in the story and explains how each baby returns to its own island."
+      },
+      {
+        "role": "Abuela Pilar, a grandmother who has watched the same tortoise for sixty years",
+        "reused": false,
+        "why": "Hosts the other branch: her long watching embodies patience and gives the journey its deepest time-scale before the highland ending."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Youngest island of bare black lava, almost nothing alive, journey adds green and strangeness at each stop",
+        "Volcanic islands still growing, new lava, a single green shoot in a crack",
+        "Animals arrived by floating, flying, or swimming, then changed into species found nowhere else — isolation",
+        "Marine iguanas sneezing salt, the only sea-swimming lizards on Earth",
+        "Blue-footed boobies with painted-blue feet, the bluer the healthier",
+        "Flightless cormorant with stubby wings, expert diver instead",
+        "Each island has its own tortoise shell shape — dome where grass is low, saddle where food grows high",
+        "Galapagos tortoises weigh as much as three grown-ups and live over 100 years",
+        "Penguins on the equator, the only penguins naturally this far north",
+        "Misty green highland meadow on Santa Cruz where giant tortoises graze like slow boulders",
+        "Boat deck crossings with frigatebirds overhead and sea spray",
+        "Young scientist tagging baby tortoises at a breeding centre",
+        "Grandmother who has watched the same tortoise for sixty years",
+        "Guide's recurring question: why is this animal here and nowhere else?"
+      ],
+      "gathered_but_unused": [
+        "Galapagos tortoises can weigh as much as three grown-ups and live for more than 100 years — some alive today were born before your great-grandparents were.",
+        "The Galapagos Islands sit right on the equator, yet penguins live there — the only penguins in the world found naturally this far north.",
+        "Marine iguanas in the Galapagos are the only lizards on Earth that swim in the sea to eat algae, and they sneeze salty water out of their noses.",
+        "Because the islands are so isolated, animals there arrived by floating on logs, being blown by storms, or swimming — and then changed over thousands of years into species found nowhere else.",
+        "The blue-footed booby has feet so bright blue they look painted, and the bluer the feet, the healthier the bird.",
+        "Each Galapagos island can have its own kind of tortoise with a shell shaped for its island — dome shells where grass is low, saddle shells where food grows high.",
+        "The Galapagos Islands were made by volcanoes rising from the sea, and the youngest islands are still growing — new lava still flows there.",
+        "Flightless cormorants on the Galapagos lost the ability to fly because, with no land predators, wings weren't needed — instead they became expert divers."
+      ]
+    },
+    "safety_beat": "In s2a, at the crater rim, Luz lightly shows which solid, ropey rock to walk on and where the steam wisps mean 'look, don't step' — competence in one easy beat, no warning, no tension. In s2b, Belen demonstrates stepping only on the dry dark rocks, not the wet bright ones, as she leads the tidepool walk.",
+    "motif": "Shells and their shapes — from a baby tortoise the size of a fist to saddle shells and dome shells, each one a puzzle piece shaped by its own island.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is a Galápagos field trip that pays love as attention — crouching, watching, holding breath, staying — and its wonder is witnessed rather than grabbed, with a warm human chain (Luz, Belen, Amara, Abuela Pilar) keeping a small listener company in a very old, very large world."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and leaning in, with one delighted snort at the sneezing iguana",
+        "s2a": "tingly and brave on the climb, then hushed at the crater's edge",
+        "s2b": "giggly and barefoot-curious, ending in a held breath at the booby's raised foot",
+        "s3": "proud and breath-held, the small fist of understanding closing around the word '",
+        "s4a": "slowed down and reverent, then snug and treasure-holding on the boat home",
+        "s4b": "quietly awed at sixty years of watching, then warm and entrusted, carrying the p"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['boat_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['boat_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "21_islands_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

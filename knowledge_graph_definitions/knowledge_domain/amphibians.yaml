@@ -1,0 +1,83 @@
+axis: knowledge_domain
+pack: amphibians
+nodes:
+  - id: knowledge_domain.frogs_and_amphibians
+    axis: knowledge_domain
+    label: frogs_and_amphibians
+    display_name: "Frogs and Amphibians"
+    region: animals
+    tier: curriculum
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "wiggly black tadpoles in the pond, and the springy plop of a frog jumping off a lily pad", vocabulary: [frog, tadpole, hop], avoid: [frogs dying, dissection]}
+      6: {depth: sensory, framing: "the pond nursery through the year — jelly eggs, tadpoles sprouting tiny legs, and one day a small frog sitting on the bank", vocabulary: [egg, pond, croak], avoid: [frogs dying, dissection]}
+      7: {depth: mechanism, framing: "two lives in one animal — a water-baby breathing with gills becomes a land-grown-up breathing with lungs", vocabulary: [gills, lungs, amphibian]}
+      8: {depth: mechanism, framing: "the makeover step by step — metamorphosis rebuilds the body, and skin that must stay damp because frogs drink and breathe through it", vocabulary: [metamorphosis, moist skin, froglet]}
+      9: {depth: system, framing: "amphibians as animals of two worlds — newts, toads and salamanders timing their return to spring ponds to lay eggs", vocabulary: [salamander, newt, breeding season]}
+      10: {depth: system, framing: "amphibians as pond health-checkers — their thin skin notices water quality first, which is why scientists count them", vocabulary: [habitat, indicator species, amphibian survey]}
+    edges:
+      adjacent: [knowledge_domain.ocean_animals, knowledge_domain.life_cycles]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.axolotls
+    axis: knowledge_domain
+    label: axolotls
+    display_name: "Axolotls"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.frogs_and_amphibians
+    facets: [the_permanent_smile, staying_a_water_baby, regrowing_legs, lake_home_in_mexico]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a pink water-puppy with a smiley face and feathery gills like a fancy collar, paddling softly along the bottom", vocabulary: [axolotl, smile, gills], avoid: [endangered-status grief, axolotls as pets acquired casually]}
+      7: {depth: mechanism, framing: "the salamander that never grows up — it keeps its gills and stays in the water its whole life, and if it loses a leg it simply grows a new one", vocabulary: [salamander, regrow, water-baby], avoid: [endangered-status grief, axolotls as pets acquired casually]}
+      9: {depth: system, framing: "at home in one place on Earth — the canals of Lake Xochimilco in Mexico — and studied by scientists who want to learn its regrowing trick", vocabulary: [Xochimilco, regeneration, habitat], avoid: [axolotls as pets acquired casually]}
+    edges:
+      adjacent: []
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.tadpoles_to_frogs
+    axis: knowledge_domain
+    label: tadpoles_to_frogs
+    display_name: "Tadpoles to Frogs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.frogs_and_amphibians
+    facets: [jelly_eggs, growing_legs, losing_the_tail, first_hop]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a blob of jelly eggs, then wiggly commas with tails, then — wait, where did those tiny legs come from?", vocabulary: [egg, tadpole, wiggle], avoid: [frogs dying, dissection]}
+      7: {depth: mechanism, framing: "the tail never falls off; it melts back into the body as food while legs and lungs grow — nature's slowest magic trick", vocabulary: [absorb, gills, froglet], avoid: [frogs dying, dissection]}
+      9: {depth: system, framing: "timing is everything; eggs laid in a spring puddle must become frogs before the puddle dries, so some tadpoles hurry and some wait for better rain", vocabulary: [metamorphosis, pond, timing], avoid: [dissection]}
+    edges:
+      adjacent: [knowledge_domain.axolotls, knowledge_domain.life_cycles]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.salamanders_and_newts
+    axis: knowledge_domain
+    label: salamanders_and_newts
+    display_name: "Salamanders and Newts"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.frogs_and_amphibians
+    facets: [under_wet_logs, tails_that_regrow, bright_warning_colors, newts_returning_to_ponds]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "lift a damp log and there it is — a shiny little dragon with a long tail, gone again in a blink", vocabulary: [salamander, log, damp], avoid: [graphic predation, handling wild animals casually]}
+      7: {depth: mechanism, framing: "lose a tail to a hungry bird, grow a brand-new one; salamanders rebuild legs, tails, and even bits of their heart", vocabulary: [regrow, newt, hide], avoid: [graphic predation, handling wild animals casually]}
+      9: {depth: system, framing: "bright orange means 'don't eat me'; how newts advertise their bad taste, and march back each spring to the very pond where they hatched", vocabulary: [warning colors, toxin, homing], avoid: [graphic predation, handling wild animals casually]}
+    edges:
+      adjacent: [knowledge_domain.axolotls, knowledge_domain.tadpoles_to_frogs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

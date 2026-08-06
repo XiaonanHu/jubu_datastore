@@ -1,0 +1,342 @@
+{
+  "id": "story.axolotls.age7to8.d1.pregen.c87708",
+  "title": "The Leg That Drew Itself Back",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.axolotls",
+    "sel_theme": null,
+    "value_lesson": "patience and working with your own nature instead of against it",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "A young axolotl loses a leg to a heron, tries wrong fixes, and discovers that its water-baby body already knows how to draw the leg back — if it finds the right safe place to wait.",
+  "slots": {
+    "axolotl_name": {
+      "role": "the young hero axolotl",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pinky"
+    },
+    "hideout_name": {
+      "role": "the root-tangle hideout under the floating garden",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the Curtain Castle"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "“Wake up, water-babies!”\n\nThat is {axolotl_name}, our hero, swimming upside down under a lily pad. “Breakfast time! Follow me!”\n\nWe are water-babies too, you and me. We live in the green canals of Xochimilco, where we never grow up. We keep our feathery gills forever. We keep our smiles forever. And we spend every day gliding between the brown root-curtains of the floating gardens.\n\n{axolotl_name} swishes ahead with Shade, a speckled sibling who hides in the shadows. “Watch this!” our hero calls. Slurp! A water bug vanishes into that wide, smiling mouth. “The vacuum-gulp! Family trick!”\n\nShade wiggles its gills. They wave like pink underwater flowers. “And these,” Shade says proudly, “are our breathing-plumes.”\n\nA wooden boat poles past. It is Professor Puddlejump in the Question Mark, asking the water questions out loud. “Good morning, feathery ones!”\n\nUp on her floating garden, Doña Marisol waves a trowel. “Careful near the tall reeds, little ones. The heron likes to fish there today.”\n\nBut {axolotl_name} is already chasing a bug. “I am too fast for—”\n\nA shadow crosses the water. A snatch! A twist! A splash!\n\nWe tumble into the reeds. {axolotl_name} pops up, grinning that built-in grin.\n\nBut one front leg is gone.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "“Easy,” says Shade. “Legs pop back by morning. Like a whale spout — up it comes!”\n\nSo we tuck deep into the reeds, where the roots hang down like brown spaghetti. Shade shows us the softest mud. “Best hiding spot in the canal. Nothing finds us here.”\n\nWe wait. The water goes dark, then silver, then pink.\n\n“Morning!” {axolotl_name} wakes us with a tail-wiggle. “Watch this!”\n\nWe look. We lean closer. We look again.\n\nWhere the leg was, there is only a smooth pink nub. No toes. No bones. Just a soft little bump, like the eraser end of a pencil.\n\n“But — it was supposed to pop!” says Shade. “Whale spout! By morning!”\n\nA shadow slides over the reeds. It is Professor Puddlejump, peering down through a glass-bottomed bucket. Her eye fills the whole circle, huge and blinking.\n\n“Ah!” she says. “The leg is drawing itself back in! Slowly, slowly — like a pencil line sketching toes. That takes weeks, little ones. Not one night.”\n\nWeeks. The reeds suddenly feel very open. A heron could look straight down here.\n\n“A slow-growing leg,” says the Professor, “needs a slow, safe, well-fed wait.” She taps the bucket. “And this, I am afraid, is not it.”",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "“Who needs four legs?” Shade flicks its speckled tail. “I declare a one-legged hunting contest! Fastest slurper wins!”\n\nThe water bugs line up on a lily stem. They look very small and very quick.\n\n“Go!”\n\n{axolotl_name} lunges. The bug zips left. Our hero spins in a wobbly circle — three legs paddle, one side pushes, round and round like a leaf in a drain.\n\n“Round one to the bug!” says Shade.\n\nRound two: zip, gone. Round three: the bug actually waves goodbye.\n\n“One more!” {axolotl_name} cries. “The fish-leap!”\n\nOur hero coils, springs — and tumbles in a silly somersault, mouth wide, catching nothing but a long green ribbon of weed. It hangs from that smiling face like a moustache.\n\nWe cannot help it. We laugh. Even Shade laughs.\n\n“All right,” Shade admits, wiping a tear from its gills. “That contest was a stinker of an idea.”\n\nProfessor Puddlejump poles past in the Question Mark, watching through her bucket. “Axolotls are not fast hunters, little ones. They are still hunters. Hold perfectly quiet — then slurp at exactly the right moment.”\n\nStill. Our hero looks at the wobbly water, at the three paddling legs, at the empty stomach we can all feel.\n\n“But I cannot hold still,” {axolotl_name} says quietly. “Not without somewhere steady to perch.”",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find out there?\" Shade asks, wiggling close.\n\nBefore we can answer, a voice floats down from above. \"Little ones!\" It is Doña Marisol, leaning over the edge of her floating garden. \"I know the perfect spot. Look — under my chinampa, where the roots hang down like brown curtains. Safe and shady, with bugs drifting through all day long.\"\n\nA hideout! Just what a growing axolotl needs.\n\nWe swim for the garden. But the way in is a narrow reed tunnel, and {axolotl_name} squeezes — wiggles — and stops.\n\nStuck. Properly stuck.\n\n\"My gills are squashed!\" our hero gasps.\n\nShade grabs hold of that wiggly tail and pulls. Pop! Out comes {axolotl_name}, tumbling into the root-tangle. \"No more tunnels for me,\" our hero says. \"A stuck axolotl cannot hunt!\"\n\nInside, the curtains sway. Bugs drift past, slow and dreamy. Slurp. Slurp. {axolotl_name} learns the rhythm: hold still, wait, gulp.\n\nEvery day, Professor Puddlejump poles over in the Question Mark with her bucket. \"Look here!\" she whispers. \"A pale little bud!\" Then, days later: \"Bumps! Those are bones, sketching themselves in!\" Then: \"Toes! Tiny toes, drawing themselves back!\"\n\nThe heron's shadow glides overhead once more.\n\nThis time, {axolotl_name} simply vanishes into the curtains. Smiling.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"While we wait,\" says Professor Puddlejump, tapping her waterproof notebook, \"we become students of this little castle.\"\n\nAnd we do. We name it the {hideout_name}, because the roots hang down like brown theatre curtains. We learn that breakfast-bugs drift through at sunrise, and sleepy beetles at noon. Shade, who knows every shadow, declares one corner \"the thinking spot.\"\n\nEvery day, the Professor sketches. \"Look,\" she whispers. \"The leg is drawing itself back in. First the pale bud, then the bones, then — see? — tiny toes, one by one.\"\n\nWe watch the pencil line grow. It is slow, and it is perfect.\n\nWhen the last toe finishes, {axolotl_name} hosts a graduation gulp. One perfect still-slurp, right in the middle of the {hideout_name}. Shade claps its gills. \"Even handsomer than the old one,\" Shade says.\n\nWe glide home under the flower rafts. In our hero's pocket of root-curtain, tucked safe, is the Professor's sketch: the leg, half-drawn, becoming whole.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"While we wait,\" says Professor Puddlejump, \"we could open the doors.\"\n\nSo we do. Shade, won over completely, brings other young axolotls to the {hideout_name}. They come wiggling through the reeds, nervous and quick. \"Watch,\" Shade tells them. \"The still-slurp works.\"\n\nAnd who teaches them? Our hero, who was once the wobbliest hunter in the canal. {axolotl_name} floats, patient as a stone, while little ones practice holding still. \"Feel the water,\" our hero says. \"Let the bugs come to you.\"\n\nProfessor Puddlejump sketches it all in her notebook. \"A school of stillness,\" she chuckles.\n\nWhen the last toe finishes drawing itself in, the hero leads the first class in a synchronized graduation gulp. Six little mouths, one perfect slurp. Shade brings a gift: a fallen scarlet gill-frond feather, pressed into the roots. It reads, in axolotl, \"safe water here.\"\n\nWe glide home under the flower rafts, carrying that feather in our pocket of root-curtain.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Shade flicks his speckled tail and says, \"A leg's a leg, little one — do we tuck into the reeds and wait for it to pop back, or do we show this canal that three legs are plenty?\"",
+      "options": [
+        {
+          "say_word": "Wait it out",
+          "label": "Hide in the reeds and wait for the leg to come back",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Prove it",
+          "label": "Hold a one-legged hunting contest to show nothing is wrong",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Professor Puddlejump taps his notebook and asks, \"The leg knows its job now — but what will you do with the waiting? Study this little castle of yours, or open its doors?\"",
+      "options": [
+        {
+          "say_word": "Study it",
+          "label": "Become students of the hideout and watch the leg finish itself",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Share it",
+          "label": "Turn the hideout into a school for other young axolotls",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.axolotls",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.frogs_and_amphibians",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 22
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The axolotl's ability to regrow a lost leg is a natural problem-and-fix engine — a character loses something, worries, and the body quietly solves it — which fits the first-drawn pattern without forcing it.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Professor Puddlejump, the scientist who poles a wooden boat through the canal and asks the water questions out loud",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "patience and working with your own nature instead of against it",
+      "why": "The material offers it naturally: regrowing takes weeks, not one night, and the fixes that fail are all attempts to be something the axolotl isn't (fast, hidden-by-force, out of the water). The fix that works is the axolotl way — stillness, shelter, and time. No lecture needed; the pattern teaches it."
+    },
+    "cast": [
+      {
+        "role": "The young axolotl (hero) — a pinkish-white salamander with scarlet gill-fronds, living in the canals of Xochimilco",
+        "reused": false,
+        "why": "Carries the water-baby theme and the regrowth arc; the listener shares the adventure through the we-voice alongside this hero."
+      },
+      {
+        "role": "Shade, the hero's older sibling — a dark olive axolotl with speckles",
+        "reused": false,
+        "why": "Delivers the confident-but-wrong advice that powers the charming failures, then gracefully concedes when the better fix appears."
+      },
+      {
+        "role": "Professor Puddlejump, a scientist who studies regrowing legs from a wooden boat",
+        "reused": false,
+        "why": "The explicit accent carrier for curious_wonder — narrates the limb-bud's progress like a delighted detective, asking the questions the listener is thinking."
+      },
+      {
+        "role": "Doña Marisol, a canal farmer tending the floating gardens (chinampas)",
+        "reused": false,
+        "why": "Owns the safety beat — she knows the water, notices the heron first, and guides the hero to the root-tangle that makes the fix possible."
+      },
+      {
+        "role": "The heron, a tall grey shadow passing overhead",
+        "reused": false,
+        "why": "Creates the inciting disruption — the snapped leg — and a mid-story shadow that tests the hideout, without lingering menace."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "keeps feathery outside gills for life, never climbs onto land",
+        "regrows a whole leg — toes, bones, and all — again and again",
+        "wild home is only the canals of Xochimilco near Mexico City",
+        "colors: pinkish-white with red gills, dark olive with speckles",
+        "eats by gulping — a sudden vacuum-slurp",
+        "stays a water-baby forever: tail, fins, underwater breathing",
+        "mouth curves up so it always seems to smile",
+        "green canal with floating flower rafts and reeds",
+        "the underside of a floating garden — roots hanging like brown curtains",
+        "pattern material: heron snatch, hide-and-wait fail, too-small reed tunnel fail, root-tangle fix",
+        "pattern material: missing-food, hold-still-and-slurp fix"
+      ],
+      "gathered_but_unused": [
+        "An axolotl keeps its feathery outside gills for its whole life and never climbs out onto land like other salamanders.",
+        "If an axolotl loses a leg, it can regrow a whole new one — toes, bones, and all — and it can do this again and again.",
+        "Axolotls can regrow more than legs — parts of their heart, spine, and even bits of their brain can be repaired.",
+        "The wild axolotl's only real home is one place: the cool canals and lakes around Mexico City, especially Lake Xochimilco.",
+        "Axolotls come in different colors — pinkish-white with red gills, dark brown or grey with speckles, and golden.",
+        "An axolotl eats by suddenly opening its mouth and gulping — sucking in worms and little water bugs like a vacuum.",
+        "Because axolotls stay water-babies forever, they keep their tails and fins and breathe underwater their whole lives, never needing to come to the surface for air.",
+        "The axolotl's mouth curves up at the corners so it looks like it is always smiling, even when it's just resting."
+      ]
+    },
+    "safety_beat": "In s1, Doña Marisol calmly tells us which stretch of canal the heron fishes and where the current runs gentle — she reads the water the way we read a familiar street. Competence shown once, lightly, no warning language, no tension in the beat.",
+    "motif": "A pencil line drawing itself back in — the pale limb-bud slowly sketching toes, bones, and all.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it has a real want pursued with comic persistence, a patient wonder-sequence where the leg 'draws itself back in,' warm companionship in Shade and the Professor, and read-aloud sound that lands — the slurps, pops, and zips are their own small sentences and the names are fun to say."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "delighted and busy, then a sudden held breath at the snatch",
+        "s2a": "snug in the spaghetti roots, then a small worry that grows",
+        "s2b": "giggles at the weed-moustache, then a quiet, honest admission",
+        "s3": "relief and settling-in, with a proud little shiver when the heron is outwaited",
+        "s4a": "slow, satisfied wonder watching the toes arrive, then warm and sleepy",
+        "s4b": "proud and generous, a cozy glow at the feather gift"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 16 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.7); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] no voices: segment carries no spoken line; [s1] narration heavy: only 3% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 3.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 29% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 3% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 29% of sentences carry speech or action",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 21% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4a] narration heavy: only 39% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 3% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 29% of sentences carry speech or action",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 21% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4a] narration heavy: only 39% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['boat_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "23_axolotls_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

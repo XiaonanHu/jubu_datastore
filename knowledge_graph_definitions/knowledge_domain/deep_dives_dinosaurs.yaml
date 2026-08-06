@@ -1,0 +1,162 @@
+axis: knowledge_domain
+pack: deep_dives_dinosaurs
+nodes:
+  - id: knowledge_domain.triceratops
+    axis: knowledge_domain
+    label: triceratops
+    display_name: "Triceratops"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [three_horns, the_big_frill, plant_munching, walking_in_herds]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "three horns and a huge bony collar, like a shield made of face", vocabulary: [horn, frill, stomp], avoid: [fighting scenes, being hunted]}
+      7: {depth: mechanism, framing: "what the frill and horns were really for, and a beak built for snipping plants", vocabulary: [beak, herd, plant eater]}
+      9: {depth: system, framing: "how we know: skulls in the rock, growth rings, whole herds found together", vocabulary: [fossil, skull, paleontologist]}
+    edges:
+      adjacent: [knowledge_domain.ankylosaurus]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.stegosaurus
+    axis: knowledge_domain
+    label: stegosaurus
+    display_name: "Stegosaurus"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [the_back_plates, the_tail_spikes, tiny_head_big_body, low_leaf_browsing]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a row of big kite-shaped plates standing up along its back, and a tail with four long spikes", vocabulary: [plate, spike, tail], avoid: [tail spikes shown hurting another animal]}
+      7: {depth: mechanism, framing: "a head no bigger than a horse's on a body the size of a bus, a mouth kept low for ferns, and guesses about what the plates were for", vocabulary: [bony plate, browse, plant eater], avoid: [blow-by-blow fights with meat eaters]}
+      9: {depth: system, framing: "how we know: the plates were found lying loose beside the skeleton, so paleontologists still argue about how they stood and whether they carried blood to catch the sun", vocabulary: [fossil, evidence, paleontologist]}
+    edges:
+      adjacent: [knowledge_domain.ankylosaurus]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.pterosaurs
+    axis: knowledge_domain
+    label: pterosaurs
+    display_name: "Pterosaurs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [leathery_wings, head_crests, fishing_over_water, hollow_light_bones]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "great leathery wings gliding over an ancient sea — cousins of the dinosaurs who ruled the sky", vocabulary: [wing, glide, crest], avoid: [swooping down at people, anyone being carried off]}
+      7: {depth: mechanism, framing: "a wing made of skin stretched from one enormously long finger, bones hollow as drinking straws, and folded wings used as front legs for walking", vocabulary: [wingspan, hollow bones, flying reptile]}
+      9: {depth: system, framing: "not dinosaurs and not birds but their own flying reptile family, from sparrow-sized to a wingspan wider than a small plane, known from squashed-flat fossils and preserved footprints", vocabulary: [pterosaur, fossil, reptile]}
+    edges:
+      adjacent: [knowledge_domain.dragonflies, knowledge_domain.sharks, knowledge_domain.butterflies]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.tyrannosaurus
+    axis: knowledge_domain
+    label: tyrannosaurus
+    display_name: "Tyrannosaurus"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [enormous_size, the_amazing_nose, bird_like_body, thick_banana_teeth]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "as tall as a house and surprisingly bird-like, with a nose so good it could smell dinner from a mile away", vocabulary: [huge, smell, tooth], avoid: [chase scenes, roaring at the listener]}
+      7: {depth: mechanism, framing: "a nose and brain built mostly for smelling, teeth as thick as bananas for crunching, and legs made for long steady walking rather than sprinting", vocabulary: [skull, jaw, stride], avoid: [attack or kill scenes, blood or wound detail]}
+      9: {depth: system, framing: "how we know: famous skeletons like Sue and Trix, growth rings showing a teenager that gained kilos a day, and the feather-and-bird clues that place it close to today's birds", vocabulary: [fossil, growth rings, paleontologist], avoid: [gory reconstructions, predator-and-prey drama]}
+    edges:
+      adjacent: [knowledge_domain.sharks]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.brachiosaurus
+    axis: knowledge_domain
+    label: brachiosaurus
+    display_name: "Brachiosaurus"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [very_long_neck, treetop_meals, huge_footprints, walking_slowly]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a neck like a crane, munching leaves off the very top of the trees, with footprints big enough to sit in", vocabulary: [neck, tall, leaves], avoid: []}
+      7: {depth: mechanism, framing: "how such a long neck reached food nobody else could, front legs longer than the back ones tipping it upward, and a mouth that had to keep eating nearly all day", vocabulary: [herd, browse, ton]}
+      9: {depth: system, framing: "how we know: bones show us the way it stood, walked and breathed, with air sacs and hollow spaces keeping that giant neck light enough to lift", vocabulary: [vertebra, fossil, air sacs]}
+    edges:
+      adjacent: [knowledge_domain.trees]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.dinosaur_eggs
+    axis: knowledge_domain
+    label: dinosaur_eggs
+    display_name: "Dinosaur Eggs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [nests_in_the_sand, bumpy_shells, sitting_on_the_nest, hatching_day]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a ring of round bumpy eggs tucked in a warm sandy nest, waiting for hatching day", vocabulary: [egg, nest, shell], avoid: [eggs being eaten or broken open, babies left alone]}
+      7: {depth: mechanism, framing: "why a shell has to be strong enough to hold a hatchling and thin enough to let air through, and how some parents curled over the nest to keep it warm", vocabulary: [hatch, clutch, shell], avoid: [eggs eaten or crushed, lonely hatchlings]}
+      9: {depth: system, framing: "how we know: fossil nests found in rings, eggshell studied under a microscope, and rare eggs with tiny curled skeletons still inside", vocabulary: [fossil, embryo, microscope], avoid: [nests raided, eggs destroyed]}
+    edges:
+      adjacent: [knowledge_domain.sea_turtles]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.ankylosaurus
+    axis: knowledge_domain
+    label: ankylosaurus
+    display_name: "Ankylosaurus"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [armour_plating, the_club_tail, low_wide_body, ground_level_grazing]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a walking castle, low and wide, covered in knobbly stone-hard plates from nose to tail", vocabulary: [armour, knobbly, plate], avoid: [the tail club shown hurting another animal]}
+      7: {depth: mechanism, framing: "plates of bone grown right into its skin like a beetle's shell, a heavy knot of bone at the tail tip, and a wide beak for grazing plants close to the ground", vocabulary: [bony plate, club, graze], avoid: [blow-by-blow fights]}
+      9: {depth: system, framing: "how we know: armour found still in place across the back, tail bones fused stiff into a handle, and curled nose passages that may have cooled the air it breathed", vocabulary: [fossil, fused, paleontologist]}
+    edges:
+      adjacent: [knowledge_domain.beetles, knowledge_domain.volcanic_rocks]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.feathered_dinosaurs
+    axis: knowledge_domain
+    label: feathered_dinosaurs
+    display_name: "Feathered Dinosaurs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.dinosaurs
+    facets: [fuzzy_coats, feather_colours, arms_like_wings, dinosaur_cousins_of_birds]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "here is a surprise — some dinosaurs were fuzzy, wearing feathers like a fluffy coat", vocabulary: [feather, fluffy, wing], avoid: []}
+      7: {depth: mechanism, framing: "feathers that started out as fuzz for staying warm and showing off long before anybody used them to fly", vocabulary: [feather, warm, glide]}
+      9: {depth: system, framing: "how we know: feathers pressed into fine stone, tiny colour-carrying blobs that hint at ginger and black stripes, and the family line that leads from these dinosaurs to the birds outside the window", vocabulary: [fossil, pigment, ancestor]}
+    edges:
+      adjacent: [knowledge_domain.birds, knowledge_domain.butterflies]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

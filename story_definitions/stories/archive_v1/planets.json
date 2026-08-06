@@ -1,0 +1,316 @@
+{
+  "id": "story.planets.journey_001",
+  "title": "The Night the Telescope Opened",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.planets",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": null
+  },
+  "spine": "which world is waiting around the next turn of the sky path",
+  "slots": {
+    "boat_name": {
+      "role": "the little silver sky-boat",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Comet"
+    },
+    "first_world": {
+      "role": "the first world we visited",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "the red dusty world"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "In the backyard, the night is quiet and the grass is cool. Our telescope stands on its three thin legs, pointed at the sky. Tonight, its round glass eye is glowing. We look closer, and the telescope opens like a little round door. We climb through together, one, two, and step out onto the soft dark of the sky. Stars float everywhere, near and far, like lanterns hung by someone very tall. A little silver boat rocks gently on the starlight, waiting just for us. It is called {boat_name}, and its sail is a patch of shimmer. We climb aboard, and the boat glides off down a river of light. Up here, the sky path splits in two. One way glows warm and red, and we can see a small dusty world spinning there. That one is called Mars. The other way shimmers silver, where a giant world wears wide bright rings, like a hat with no top. Both are planets, other worlds in the sky. Which way should {boat_name} sail first?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "{boat_name} lands soft as a feather on the red dusty ground. We hop out, and the dust puffs up around our boots like red flour. Everything here is rusty red, the rocks, the hills, even the sky is a gentle butterscotch color. We take one hop, and oh, we float. Up we go, high as a swing, and drift back down slow as a soap bubble. So we hop again. Boing. Boing. Two tiny moons sail overhead, one fast and one slow, playing chase across the sky. A little whirl of dust twirls past us like a dancer, spins twice, and bows away. We kneel down and draw a big smiling face in the red dust with one finger. Maybe a robot visitor will find it someday and smile back. Then the boat's little bell rings, ding, time to sail on. We climb aboard with red dust still sparkling on our sleeves. {boat_name} lifts off gently, and Mars grows small below us, a red marble rolling through the dark.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "{boat_name} sails toward the shining rings, and they grow wider and wider. From far away, the rings looked like one smooth silver hoop. But up close, we see the secret. The rings are not solid at all. They are made of countless little pieces of ice, tumbling along together, side by side. Some bits are small as peas. Some are big as snowballs, and a few are big as houses. Every single piece catches the light and sparkles. It is like sailing above a slow, glittering parade of snow. We glide {boat_name} right along the top of the ring, gentle and careful. The ice pieces tumble under us, turning over and over without a sound. One tiny bead of ring ice drifts up and lands in the boat, glinting like a little star. We cup it in our hands. It is cold and perfectly round. The great ringed planet turns slowly beside us, calm and golden. Then the sail fills with starlight, and we ride on.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We wave goodbye to {first_world} and follow the river of light onward. Up in front of us, something enormous is rising out of the dark. It is Jupiter, the biggest planet of all. It is so big that all the other planets could fit inside it with room to spare. Jupiter is striped like a giant marble, swirls of cream, orange, and toffee brown. {boat_name} feels tiny as a ladybug sailing past a beach ball. Down in the stripes, one big orange swirl turns round and round, like a slow, patient pinwheel. It has been spinning that same swirl for hundreds of years. Little moons zip everywhere around us, dozens of them, like fireflies circling a lamp. We count until we run out of numbers and start giggling instead. Then, far off at the very edge of the dark, we spot two more lights. One is a small blue world, icy and far, the farthest of all. The other is a blue and white marble that looks strangely familiar. The sky path forks one last time.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "{boat_name} sails on and on, past the last of the firefly moons. The dark grows deeper and quieter, like a library made of night. And there it is, the faraway icy world, blue as the deepest sea. Its winds comb white wisps of cloud into long soft ribbons. Tiny ice sparkles drift around it like glitter shaken in slow motion. It is so far from the sun that the sun looks like just one more bright star. We whisper, because this feels like a place for whispering. The little blue world does not mind being far away. It sails its wide circle calmly, shining to itself in the dark. We warm our hands under the boat's shimmer sail and watch until our eyes are full. Then {boat_name} swings around and carries us home, past the striped giant, past the rings, past red Mars. We climb back out through the telescope door onto the cool grass. We carry the little blue light home in our heads, quiet and bright. Now we know a wonderful secret. Even the farthest world is still shining.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{boat_name} turns toward the blue and white marble, and it begins to grow. Soon it fills the whole sky in front of us. White clouds swirl across it like cream stirred into blueberry milk. Below the clouds we see wide blue seas, and patches of green and brown land. Then we both gasp, because we know this place. It is Earth. It is home. Home is a planet too, a world in the sky, sailing along with Mars and Jupiter and all the rest. Somewhere down there is our backyard, our telescope, our own small bed. Of all the worlds we saw tonight, this one is wearing our favorite colors. {boat_name} glides down through the soft clouds, gentle as a falling leaf. It slips through the round telescope door, and we hop out onto the backyard grass. The grass is cool. The night is quiet. We look up at the sky and wave at all the planets, one by one. We live on one of you, we whisper. And that is the best secret to carry to bed.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Should we sail to red dusty Mars, or to the planet with shining rings? Say Mars, or say rings.",
+      "options": [
+        {
+          "say_word": "Mars",
+          "label": "Sail to the red dusty planet",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_world": "the red dusty world"
+          }
+        },
+        {
+          "say_word": "rings",
+          "label": "Sail to the planet with rings",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_world": "the world with shining rings"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Should we sail out to the faraway icy world, or turn toward the blue and white marble? Say ice, or say marble.",
+      "options": [
+        {
+          "say_word": "ice",
+          "label": "Sail to the faraway icy world",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "marble",
+          "label": "Turn toward the blue and white marble",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.planets",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "planets are a set of separate worlds, and the only honest way to show a five-year-old that they are different from each other is to take them to more than one.",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.32,
+          "sampled": true
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.20,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.20,
+          "sampled": true,
+          "rejected_because": "nothing is wrong with the planets; a problem would have to be invented and bolted on, and it would pin the story to one world when the topic is about how many there are"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "the good planet mysteries are why-questions about orbits, which belong to 7-8; at five there is no question the child is already holding"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false
+        }
+      ],
+      "backup": "quiet_hour"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": null
+      },
+      "accent_carrier": "none — this story deliberately runs on a single tone, so there is no accent and nothing carries one",
+      "why": "the whole story is looking at big true things and going quiet, which is the definition of curious_wonder; as the first story on an empty shelf it was written as the clean reference note, so later planets stories have something plain to depart from.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a silly accent",
+          "because": "a silly carrier would have needed to ride along in the boat, and the boat is where the child sits; the accent was saved for the Saturn deep-dive story instead, where the shepherd moon can carry it"
+        },
+        {
+          "recipe": "big_adventure dominant with a curious_wonder accent",
+          "because": "adventure is motion and racing, and the sights here are not chases; a bedtime telescope night is stillness, and the tone palette draws that boundary explicitly"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "journey defaults to 'we', and the space topics' avoid list rules out being alone out there; going together is what makes an empty sky exciting instead of lonely, and it makes the choices naturally ours.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "a hero to watch over adds protective distance, which this topic does not need — there is nothing here to be afraid of"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "the pilot shelf already gives the storyteller's tale to the_moon and birds, and a remembered voyage puts the wonder in the past tense"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "the materials offered no natural value angle, and the Earth ending is already carrying one large idea; adding a value would have given the last segment two jobs. No parent value picks apply to a library story."
+    },
+    "cast": [
+      {
+        "role": "the little silver sky-boat",
+        "reused": false,
+        "why": "invented here, because this is the first story in the planets family and the family had no cast yet. Its name is a naming slot keyed to (topic family, character role), so it is built to be reused — the Mars and Saturn deep-dive stories now take the same boat, and the Saturn story reads the same name back without asking again"
+      },
+      {
+        "role": "the round telescope door in the backyard",
+        "reused": false,
+        "why": "invented here as the way in and the way home. It has since become the frame device the whole planets family shares, which is why it was kept ordinary and repeatable rather than elaborate"
+      },
+      {
+        "role": "the twirling dust dancer on Mars",
+        "reused": false,
+        "why": "a one-beat character invented for the Mars segment. Kept as scenery rather than cast so it costs no slot; it returns as scenery in the Mars deep-dive story"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Mars is rusty red, with dust like flour and a butterscotch sky",
+        "Mars gravity is low, so hopping floats",
+        "Mars has two small moons that cross the sky at different speeds",
+        "Saturn's rings look solid from far away but are countless ice pieces, pea to house sized",
+        "Jupiter is the largest planet, and all the others would fit inside it",
+        "Jupiter is striped in cream and orange cloud bands",
+        "the Great Red Spot is a swirl that has been turning for hundreds of years",
+        "Jupiter has dozens of moons",
+        "Neptune is the farthest planet, blue, with white cloud streaks and a very faint sun",
+        "Earth is a planet too — the idea the whole story is built to land"
+      ],
+      "gathered_but_unused": [
+        "Venus is the hottest planet and spins backward",
+        "Mercury is closest to the sun and covered in craters",
+        "Uranus rolls along on its side",
+        "Olympus Mons on Mars",
+        "Jupiter's moon Io has erupting volcanoes",
+        "Saturn would float in a big enough bathtub"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "it sits at the first fork of the sky path, so the child picks which world they meet first; both worlds are on the route anyway, which is why the paths can merge at Jupiter without either child missing anything",
+        "criteria": {
+          "more_interesting": "Mars is a landing — boots in dust, hopping, drawing a face in the ground. The rings are a sail-past — no landing, no ground, just glitter passing underneath. Different bodies and different distances",
+          "more_engaging": "bouncing on a red world against flying over a sparkling hoop; both are things a five-year-old would pick, and neither is the sensible option",
+          "reveals_taste": "Mars is the bold lean, rings is the gentle lean",
+          "reveals_curiosity": "Mars is for the joy of being there (just_experience); the rings segment opens up what they are actually made of (how_it_works)",
+          "reflects_mood": "the Mars path is bouncy and physical, the rings path is calm and floating, so the same story can suit a wound-up evening or a winding-down one"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "the final choice must split, and this one is the story's real question wearing a fork: keep going outward, or turn around and look at where we live. Two endings that mean genuinely different things",
+        "criteria": {
+          "more_interesting": "one ending is the farthest quiet place in the solar system, the other is the recognition that home is one of the worlds we have been visiting all night",
+          "more_engaging": "the pull outward and the pull homeward are both strong at bedtime, and children reliably want one of them badly",
+          "reveals_taste": "ice is the bold lean, marble is the gentle lean",
+          "reveals_curiosity": "ice is pure being-there (just_experience); marble asks what a planet is and whether ours counts (what_its_for)",
+          "reflects_mood": "the ice ending is a whisper, the marble ending is a homecoming"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "journey beats present: a real route with a marvel at every stop, movement always forward, nothing wrong anywhere. Six segments, two choices, ~700 words per path. Say-words distinct and easy, Mars/rings and ice/marble. Slot check: boat_name is used in every segment, first_world is set by both c1 options and used once in the shared s3. Space avoid list respected — nobody is stranded, nothing is in danger."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "short speakable sentences, no ellipses, asterisks, parentheses or symbols. Age-5 vocabulary from the treatment (planet, rings, sky) used naturally, with Mars and Jupiter named because the age-6 treatment names them. Sibling contrast on s2a/s2b confirmed different in kind: a landing versus a fly-over. The shared s3 was read with both first_world values, 'the red dusty world' and 'the world with shining rings', and reads correctly for both."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "all four paths read end to end. Both endings resolve fully and return through the telescope door; checked that they land differently, one on a faraway light and one on home. Single tone held throughout — no stray silliness crept in. Banned-language pass clean. Structural validation by scripts/build_story_explorer.py --check."
+      }
+    ],
+    "writers_notes": [
+      "This build record was reconstructed after the story was hand-authored, so the weights are the profile the pipeline will use rather than numbers a sampler actually drew. Everything else — the rejected recipes, the cast reasoning, the branch criteria — is the reasoning as it happened.",
+      "First story in the planets family, so every invention here is a commitment: the telescope door, the sky-boat and its naming slot are now inherited by the Mars and Saturn deep dives.",
+      "Jupiter sits in the shared segment on purpose. It is the biggest thing in the story, so both paths must pass it.",
+      "The Earth ending is the spine paying out. The story never says 'Earth is a planet' as a fact up front; the whole braid exists so the child can arrive at it themselves.",
+      "Deliberately no accent tone. Later planets stories should not copy that — variety on this shelf comes from the recipe first.",
+      "Unused materials left on the sheet for the next story here: Venus, Mercury, Uranus."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

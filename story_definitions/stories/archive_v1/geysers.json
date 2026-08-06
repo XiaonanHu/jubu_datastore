@@ -1,0 +1,292 @@
+{
+  "id": "story.geysers.mystery_001",
+  "title": "The Puddle That Kept a Secret",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.geysers",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "why one little puddle whooshes a tall spout of water and then goes quiet again, over and over, on a timetable",
+  "slots": {
+    "companion_name": {
+      "role": "the lava-lizard guide",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Ember"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The valley smells like warm stone and wet grass. Little threads of steam drift up all around us, thin and white, as if the whole valley just climbed out of a hot bath. On a flat rock sits a small lizard with pebbly orange skin and a tiny hat of grey ash. It is {companion_name}, our lava-lizard guide from inside the mountain. The hat slides down over one eye. {companion_name} flicks it back up with a tail and pretends that never happened. Then the lizard points a claw at a puddle. It is a plain little puddle, round as a dinner plate, sitting inside a ring of crusty pale stone. Nothing about it looks exciting. Watch, says {companion_name}. So we watch. The puddle burps one bubble. Then another. Then the water begins to wobble. Whoosh. A tall spout of hot water shoots straight up, higher than a house, with steam curling off the top. Then it falls back down. The puddle goes flat and quiet, as if nothing ever happened. And then it waits. Why would a puddle do that?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We kneel down on the crusty pale stone. It is warm under our knees, like the floor above a bakery. We press one ear flat to the ground and hold very still. At first there is nothing. Then we hear it. Glug. Glug. Somewhere far below us, water is moving. Not a little water. A lot of water, sliding along through cracks we cannot see. Then comes a long hiss, the sound a kettle makes just before it is ready. Then a low knock, like someone tapping a pipe deep down in the dark. {companion_name} presses one ear down too and uses the ash hat as a pillow. The lizard listens with both eyes crossed, very seriously, and then whispers that the ground is full of soup. We whisper back that it is water, not soup. {companion_name} says soup would be more exciting. Now we know two things. There is water under our knees. And down there in the dark, something is making that water very, very hot.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We follow a skinny little stream that runs down the hillside toward the puddle. The water in it is cold. It comes from snow up on the mountain, melting in the sun. We walk beside it, hopping over tufts of yellow grass. {companion_name} races ahead, slips on a wet stone, and sits down in the stream with a splash. The ash hat floats away like a small grey boat. We fish it out. Then the stream does something strange. It reaches a crack in the pale rock, and it goes in. It does not go around. It goes down. We drop a leaf in to be sure. The leaf spins once and vanishes into the dark crack. We wait for it to come out somewhere else. It never does. We hold our hands over the crack. Warm damp air puffs up into our palms. Cold water goes down, says {companion_name}, and warm air comes back up. So now we know something. The water is not staying here with us. It is going down there.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the puddle, {companion_name} says we should count. So we count. The puddle lies flat and shiny and does absolutely nothing. We count slowly, together. {companion_name} counts along, but the lizard's counting goes one, two, three, seven, banana, and we have to start over twice. Then the puddle changes. First it steams a little more. Then the water lifts, like a bowl being filled from underneath. Small bubbles hurry up and pop. The wobble grows bigger and faster. Whoosh. Up goes the spout, higher than the trees, white and roaring. Warm rain sprinkles down on our faces and on the ash hat. Then it is over, and the puddle lies flat and quiet again. {companion_name} looks up at us with round eyes. That was almost the same number as last time, says the lizard. Almost exactly the same wait. So this puddle is not whooshing whenever it feels like it. It is whooshing on a timetable. We have clues now. Cold water going down. Hot water coming up. Always the same wait in between.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We step back to where the ground is dry and cool, and we wait for the next whoosh. {companion_name} hands us the little ash hat. Hold it up high, says the lizard. So we hold the hat up into the drifting steam. Whoosh goes the puddle. White steam rolls over us, warm as breath on a cold morning. When we bring the hat down, it is covered in tiny shining drops. We touch one. It is water. Only water, warm on our fingertip. The steam was never smoke. It was water flying. And now the whole puzzle clicks together like a lid on a pot. Rain and melting snow trickle down through the cracks in the rock. Far below, the rock is still warm from the sleeping mountain, and it heats that trapped water hotter and hotter and hotter, until the water cannot hold still one second longer. Then up it all comes at once. Whoosh. Then the crack quietly fills with new water, and the waiting begins again. We tip the drops off the hat and hand it back. Goodbye, whooshing puddle. Thank you for the question.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{companion_name} smooths a patch of soft grey ash flat and begins to draw with the tip of a tail. Here is the sky, says the lizard, and here is the rain. Here is the crack where the water goes down. The tail draws a long crooked line, down and down and down. Here is the deep rock, says {companion_name}, and the deep rock stays warm, because the mountain is sleeping just below with all its old heat. The tail draws water pooling in that warm place at the bottom. It gets hotter and hotter, says the lizard. It wants to jump up and turn into steam. But all the water above it lies on top like a heavy blanket, so it has to wait its turn. Then one bubble goes first. And after that first bubble, the whole thing simply cannot wait one more second. The tail draws a big arrow shooting up. Whoosh, says {companion_name}. Right then the real puddle whooshes behind us, exactly on time, as if it had been listening the whole while. We laugh so hard we sit down in the warm grass. Goodbye, clever puddle. We know your secret now.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "The puddle is quiet again. Should we put an ear to the warm ground and listen, or follow the little stream to see where its water goes? Say listen, or say stream.",
+      "options": [
+        {
+          "say_word": "listen",
+          "label": "Put an ear to the ground and listen underneath",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "stream",
+          "label": "Follow the little stream to see where its water goes",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "We are close to the answer. Should we catch the steam and find out what it really is, or watch our lizard guide draw the underground path in the ash? Say steam, or say draw.",
+      "options": [
+        {
+          "say_word": "steam",
+          "label": "Catch the steam and find out what it really is",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "draw",
+          "label": "Watch the lizard draw the underground path in the ash",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.geysers",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "A geyser hands you a real question a five-year-old can hold in their head — why does the same puddle whoosh and then go quiet on a timetable — and the true answer is satisfying enough to carry the whole ending.",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3,
+          "sampled": true
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "nothing is wrong with a geyser; inventing a problem would mean inventing danger, and the topic's avoid list rules out scalding and hot-pool peril"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.21,
+          "sampled": true,
+          "rejected_because": "the parent volcanoes story on the shelf is already a journey, so the shelf nudge halved it; a second tour of the same topic family would blur into the first"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false
+        }
+      ],
+      "backup": "journey"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "the lava-lizard guide — the ash hat that keeps sliding, the soup theory, the counting that goes one, two, three, seven, banana. Every silly beat in the story belongs to the lizard; the steaming valley and the spout stay in pure wonder.",
+      "why": "A mystery needs stillness so the question can hang in the air, which is exactly what curious_wonder is. The silly accent gives a five-year-old somewhere to release the tension of not knowing yet, so the waiting stays fun instead of tense.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "cozy would settle the child down at the very moment the story wants them leaning forward asking why"
+        },
+        {
+          "recipe": "silly dominant with a curious_wonder accent",
+          "because": "with silliness in charge the question stops mattering, and the answer at the end lands as a punchline instead of a discovery"
+        },
+        {
+          "recipe": "big_adventure dominant",
+          "because": "a geyser is a thing you stand back and watch; motion and daring would push a child toward the hot water, which the avoid list forbids outright"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The clues have to be gathered in front of the child, in order, so the answer feels found rather than told. 'We' puts an ear on the ground and drops the leaf in the crack together with the listener.",
+      "rejected": [
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered tale already knows its ending; the teller would be sitting on the answer for six segments, which is the one thing a mystery cannot afford"
+        },
+        {
+          "teller": "named_hero",
+          "because": "no protective distance is needed here — there is no feeling to survive and no dilemma to live with, so a hero would only add a person between the child and the puddle"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No value goes in unless all three of policy 3e hold. The materials offered no natural value angle, the request carries no parent value pick, and this is a library story with no family context to welcome one. A curiosity story with nothing to teach about behaviour is a normal, good outcome."
+    },
+    "cast": [
+      {
+        "role": "the lava-lizard guide",
+        "reused": true,
+        "reused_from": "story.volcanoes.journey_001",
+        "slot": "companion_name",
+        "why": "recurring character of this topic family; the child's name for it propagates. A child who named the lizard inside the mountain meets the same friend out in the geyser valley, and the ash hat carries the continuity without a word of explanation."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: geyser water comes from rain and snowmelt that sinks into cracks in the rock",
+        "wonder-fact: the water is heated by rock kept warm from below, then pushed out all at once when it can no longer stay put",
+        "wonder-fact: many geysers erupt on a fairly regular interval, so you can count the wait",
+        "wonder-fact: the white plume is steam, which is water, and it condenses back to droplets on a cool surface",
+        "sensory picture: crusty pale mineral crust ringing the pool, warm underfoot",
+        "sensory picture: warm rain of spray falling back on your face after the spout",
+        "sound picture: glug, hiss, and a low knock heard through the ground",
+        "setting: a steaming valley on a cool morning, yellow grass, a cold snowmelt stream running in"
+      ],
+      "gathered_but_unused": [
+        "mineral terraces built up over centuries in colored steps — beautiful, but it is a nine-year-old's timescale and it pulled the story away from the question",
+        "hot springs where animals bathe in winter — a lovely image that risks modelling getting into hot water, so it never left the sheet",
+        "the word geyser comes from an Icelandic word meaning to gush — word-origin facts do not land at five",
+        "mud pots that plop like porridge — kept on the sheet for the next geysers story",
+        "a park ranger character who predicts the next eruption — a new character with no job the lizard could not do better"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "Right after the question is asked, before any clue exists. The two options are the two honest ways to investigate a hidden thing: listen to it, or trace where its water comes from. Both branches deliver one real clue, and s3 needs only that a clue was found, not which one.",
+        "criteria": {
+          "more_interesting": "one path is dark, muffled and underground; the other is bright, wet and downhill. Different senses, different pictures, different clue.",
+          "more_engaging": "putting your ear to the ground and dropping a leaf into a crack are both things a five-year-old immediately wants to do",
+          "reveals_taste": "listening still and low is gentle; running downhill after the stream is bold",
+          "reveals_curiosity": "listen is pure experience — what does it sound like down there; stream is how-it-works — where does the water actually go",
+          "reflects_mood": "a sleepy evening can kneel and listen; a wound-up evening can go splashing after the stream"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "At the moment all the clues are on the table and only the explanation is missing. The final choice is how the child wants the answer delivered, so both endings carry the same true answer in two genuinely different registers.",
+        "criteria": {
+          "more_interesting": "s4a is an experiment you can feel — steam turning to drops on a hat; s4b is a diagram drawn in ash by a lizard's tail",
+          "more_engaging": "catching steam and watching someone draw in the dirt are both irresistible at this age, for different children",
+          "reveals_taste": "reaching into the steam is bold; sitting down to watch a drawing is gentle",
+          "reveals_curiosity": "steam is just-experience, proving it with your own finger; draw is how-it-works, wanting the whole path from sky to spout",
+          "reflects_mood": "the steam ending stands up and does something; the drawing ending sits down and gets quiet before the last whoosh"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "All mystery beats land: the question opens in s1 and is asked out loud, a clue arrives on each c1 branch, s3 adds the timetable clue and restates all three clues so both branches converge cleanly, and both endings give the complete answer rather than half of it. Slot check: companion_name is set before s1 and used in every segment, so no path reads a blank. Avoid-list sweep found nothing about scalding, falling in, or anyone being hurt. Say-words listen and stream, steam and draw are distinct in sound and easy for a five-year-old to echo."
+      },
+      {
+        "gate": "per-segment checks",
+        "result": "pass",
+        "notes": "Word counts run 168 to 195 per segment, inside the 150 to 200 band; 711 words on the shortest path and 724 on the longest. Sentences are short and speakable; no ellipses, asterisks, parentheses or emojis anywhere. The s2a and s2b pair was written in one call and contrasts properly — s2a is still and dark and auditory, s2b is moving and wet and visual. Vocabulary is inside the age-5 treatment: geyser, spout, steam, plus everyday words. The word boiling was cut in favour of hotter and hotter and hotter, which is more speakable and less pot-on-the-stove."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read end to end. s3 opens with 'Back at the puddle', which is true whether we came from kneeling at the rim or from up the stream, so the rejoin has no seam. Wonder holds the landing on both endings and the silliness stays on the lizard throughout. Both endings say goodbye warmly and resolve the question completely. Banned-language sweep clean."
+      }
+    ],
+    "writers_notes": [
+      "s1 first draft opened with the whoosh. Moved it to the end of the segment: the puddle has to be boring first, or there is no mystery.",
+      "'Nothing about it looks exciting' is doing a lot of work — it is the line that makes the whoosh a surprise. Kept deliberately flat.",
+      "Warning carried forward from s1: the word 'suddenly' was used once and then cut. It appears nowhere in the story; the whoosh is announced by the word Whoosh instead.",
+      "The lizard's counting gag (one, two, three, seven, banana) is the accent's whole job in s3. It also quietly teaches that the wait is countable, which is the clue that segment exists for.",
+      "Both endings had to contain the full answer, because a child who picks steam never hears the drawing. Checked: s4a and s4b each state rain going down, hot rock below, and the push back up.",
+      "s4a's phrase 'the rock is still warm from the sleeping mountain' replaced an earlier 'fire down there', which was scarier than it needed to be and slightly untrue.",
+      "Kept the child physically back from the water in s4a ('where the ground is dry and cool') without ever naming a danger. Safety by staging, not by warning."
+    ],
+    "authored_by": "hand-authored pilot (pipeline not yet built); decisions recorded in the pipeline's format"
+  },
+  "status": "draft"
+}

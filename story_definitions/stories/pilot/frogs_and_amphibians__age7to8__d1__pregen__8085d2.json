@@ -1,0 +1,334 @@
+{
+  "id": "story.frogs_and_amphibians.age7to8.d1.pregen.8085d2",
+  "title": "The Great Tail Mystery",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.frogs_and_amphibians",
+    "sel_theme": null,
+    "value_lesson": "patience",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "Following the trail of a pond creature who keeps changing its body until we discover how it becomes a frog and why it must stay wet.",
+  "slots": {
+    "guide_frog_name": {
+      "role": "the small green tree frog who appears at each stage",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Puddles"
+    },
+    "treasure_name": {
+      "role": "the small smooth stone or shell found at the pond's edge",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a speckled pond pebble"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Maya's boots squelched in the mud. Biscuit's nose was already down, sniffing the shallow pond behind Grandpa Joe's garden, his tail going thump-thump-thump against her leg.\n\n\"Biscuit, wait,\" Maya said, but Biscuit did not wait. Biscuit never waited.\n\nGrandpa Joe pointed with his stick. \"Look there. In that puddle.\"\n\nMaya crouched low. Floating in the brown water was a cluster of clear jelly beads, like someone had spilled a jar of tiny glass marbles. Each bead had a black dot inside. And each dot was wiggling.\n\nWiggle. Wiggle.\n\n\"Grandpa,\" Maya whispered. \"They're moving.\"\n\n\"They are,\" said Grandpa Joe.\n\nBiscuit shoved his wet nose right up to the water's edge. Sniff. Sniff. He sneezed, and the beads bobbed.\n\nMaya pulled out her notebook. \"What are they?\"\n\n\"That,\" said Grandpa Joe, \"is a very good question.\"\n\nThe dots kept wiggling. Wiggle. Wiggle. Like they had somewhere to be.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We waited. And we waited. Biscuit did not wait well. He flopped in the mud with a sigh that blew bubbles in the pond.\n\nThen, one sunny morning, the jelly beads were gone. In their place swam a hundred tiny black tadpoles, wiggling like commas with somewhere to be. They darted and zipped, just like little fish.\n\n\"Grandpa Joe!\" Maya shouted, because she could not help it. \"They hatched!\"\n\nGrandpa Joe settled beside her, his knees going squelch in the mud. \"Look at the sides of their heads,\" he said. \"See those feathery bits?\"\n\nMaya leaned in close. Fluttering at the sides of each round head were tiny, frilly gills, soft as dandelion fluff.\n\n\"They breathe underwater,\" Grandpa Joe said, \"just like fish do.\"\n\nBiscuit could not stand it anymore. He lunged forward to lick the water. His tongue splashed. His nose went under. He snorted, shook his head, and sneezed so hard his ears flapped.\n\nAchoo!\n\nRipples raced everywhere. The tadpoles scattered, then zipped right back, wiggling and fluttering.\n\n\"They still don't look like frogs,\" Maya said, writing in her notebook. \"Not one bit.\"\n\n\"Not yet,\" said Grandpa Joe, and he stayed, watching them dart.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Biscuit's nose hit the ground. His tail went thump-thump-thump. Then he took off into the damp woods behind the pond, crashing through the ferns.\n\n\"Biscuit, wait!\" Maya called. But Biscuit never waited.\n\nWe followed him under the trees, where the ground was soft and dark and smelled like rain. Moss squished under our boots. Biscuit stopped beside a rotten log, barking at a puddle no bigger than a dinner plate.\n\n\"What is it, boy?\" Maya asked.\n\nGrandpa Joe caught up, puffing, and put a hand on Maya's shoulder. He looked into the puddle and smiled. \"Well, look at that.\"\n\nSwimming in the little puddle was a tadpole with two tiny legs sprouting near its tail. And the tail was much shorter than before.\n\n\"Where did its tail go?\" Maya asked.\n\n\"The tail is shrinking away,\" said Grandpa Joe. \"The body is using it up, like food, to grow those legs.\"\n\n\"It eats its own tail?\" Maya said. \"That's amazing. And a little bit yucky.\"\n\nBiscuit barked at the log again, then turned around three times and nearly sat down right on the moss.\n\n\"Biscuit!\" Maya laughed. \"You'll squash it!\"\n\nThe little tadpole kicked its new legs and hid under a leaf. Its tail kept shrinking. But how? And why?",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Biscuit froze. His ears shot straight up. Splash! Something small and green had landed right on a lily pad, wobbling like a bowl of jelly. It had legs, proper legs, but behind them hung a stubby little tail, wiggling like it hadn't got the message yet. \"Grandpa,\" Maya breathed. \"Is that a frog?\" \"Almost,\" said Grandpa Joe, his eyes crinkling. \"That's a froglet. Right in the middle of metamorphosis. Its body is rebuilding itself, bit by bit.\" \"Rebuilding?\" Maya whispered. The froglet's skin gleamed, wet and shining, like it was wearing the pond itself. \"It has to stay moist,\" Grandpa Joe said. \"Frogs drink and breathe right through their skin.\" Biscuit leaned in for a sniff. The froglet leapt, a clumsy, splashing hop, and landed with a plop. Maya flipped open her notebook and drew a circle: egg, tadpole, froglet, frog, and back to eggs again. \"So what happens next?\" she asked. Grandpa Joe smiled. \"Let's find out.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Biscuit splashed straight into the sunny puddle, his tail going thump-thump-thump against the water. Maya crouched beside him, and there it was. Their frog. All grown up, no tail at all, sitting in the shallows with its green skin glistening like a wet sponge.\n\n\"It's not drinking,\" Maya whispered. \"But it's sitting in water.\"\n\n\"Watch close,\" said Grandpa Joe.\n\nThe frog sat perfectly still. It did not sip. It did not gulp. It just soaked, right through its skin, like the puddle was seeping into its whole body.\n\n\"Frogs don't drink with their mouths,\" Grandpa Joe said. \"They soak up water through their moist skin. They breathe through it too.\"\n\nMaya's eyes went wide. \"Through their skin?\"\n\n\"Every bit of it,\" said Grandpa Joe.\n\nBiscuit leaned in for one last sniff. The frog gave a small, satisfied blink. They watched it blink. It watched them back.\n\n\"We should name it,\" Maya said. \"Something that fits.\"\n\nGrandpa Joe smiled. \"What do you think?\"\n\nMaya looked at the frog, sitting proud in its puddle, skin shining like it had swallowed the whole pond. \"{guide_frog_name},\" she said.\n\nAt the puddle's edge, something smooth caught her eye. {treasure_name}, cool and speckled, waiting to be picked up. Maya slipped it into her pocket, where it sat warm and small, like a secret.\n\nGrandpa Joe's hand rested on her shoulder. Biscuit's tail went soft.\n\n\"Come on, Biscuit,\" she said. \"Let's go home.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Biscuit's nose went straight to the ground, sniffing hard, his tail going thump-thump-thump against Maya's leg. He stopped at a fallen log and barked once, sharp and sure.\n\nMaya knelt down. Tucked into a cool, muddy crack beneath the log was their frog. Fully grown now, no tail at all, its skin shining wet even in the shade.\n\n\"Why is it hiding?\" Maya whispered. \"The sun is out. It could be hopping anywhere.\"\n\n\"Feel the air,\" said Grandpa Joe.\n\nMaya held out her hand. The air was warm and dry. But under the log, the mud was cool and damp, like a wet flannel pressed to the earth.\n\n\"That frog has to stay moist,\" Grandpa Joe said. \"It breathes and drinks right through its skin. If it dries out, it cannot breathe properly. So it finds the cool, wet places and waits.\"\n\n\"Like us finding shade on a hot day,\" Maya said.\n\n\"Exactly like that,\" said Grandpa Joe.\n\nBiscuit wagged his tail so hard his whole back end wobbled. The frog blinked at them from its muddy crack, calm as anything. They watched it blink. It watched them back.\n\n\"We should name it,\" Maya said. She looked at the frog, tucked safe in its cool, dark pocket of earth. \"{guide_frog_name}.\"\n\nBeside the log, half-buried in the mud, something smooth and cool caught her fingers. {treasure_name}. Maya slipped it into her pocket, where it sat small and certain, like a promise kept.\n\nGrandpa Joe's hand rested on her shoulder. Biscuit's tail went soft.\n\n\"Come on, Biscuit,\" she said. \"Let's go home.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Should we wait by the pond to see what hatches, or follow Biscuit's nose into the damp woods to find a bigger clue?\"",
+      "options": [
+        {
+          "say_word": "Wait here",
+          "label": "Stay by the pond to watch the jelly beads hatch",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Follow him",
+          "label": "Follow Biscuit into the damp forest floor",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do we look for our froglet in the sunny puddle, or check the cool mud under the log?\"",
+      "options": [
+        {
+          "say_word": "Sunny puddle",
+          "label": "Search the sunny puddle where the frog sits out in the open",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Cool mud",
+          "label": "Peek under the log into the cool, muddy crack",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.frogs_and_amphibians",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 25
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Metamorphosis is a natural step-by-step puzzle — a creature that rebuilds itself from tadpole to froglet, with damp skin as a clue to how it drinks and breathes — so a gentle accumulating-clues structure fits the material better than a romp or a mood piece.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Biscuit the dog, who sniffs out every wet clue with a wet nose and a wagging tail.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "patience",
+      "why": "The mystery unfolds over weeks of watching slow changes, teaching that good things take time without ever lecturing."
+    },
+    "cast": [
+      {
+        "role": "Maya, a curious 8-year-old with a notebook",
+        "reused": false,
+        "why": "She notices the odd things and asks the questions that drive the mystery forward."
+      },
+      {
+        "role": "Grandpa Joe, a retired biology teacher",
+        "reused": false,
+        "why": "He knows the pond's secrets and explains the science with simple, silly comparisons."
+      },
+      {
+        "role": "Biscuit, Maya's dog",
+        "reused": false,
+        "why": "He carries the big adventure accent by sniffing out wet spots and leading us to the next clue."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "frog eggs in jelly",
+        "tadpole gills",
+        "tail shrinking into food",
+        "froglet with stubby tail",
+        "drinking through moist skin",
+        "breathing through skin",
+        "shallow pond with lily pads",
+        "damp forest floor",
+        "Life Cycles circle drawing"
+      ],
+      "gathered_but_unused": [
+        "Frog eggs are covered in jelly that keeps them damp and safe while they grow into tadpoles.",
+        "A tadpole breathes underwater with gills, just like a fish, before it grows lungs.",
+        "During metamorphosis, a tadpole's tail doesn't fall off—it shrinks away as the body absorbs it for food.",
+        "A froglet is a young frog that still has a bit of tail left while it learns to hop on land.",
+        "Frogs don't drink water with their mouths; they soak it up through their moist skin.",
+        "A frog's moist skin also helps it breathe by letting air pass right through.",
+        "If a frog's skin dries out, it can get sick, so frogs stay near water or damp places.",
+        "Some frogs lay eggs in wet places like puddles, ponds, or even water-filled leaves."
+      ]
+    },
+    "safety_beat": "In s1, Grandpa Joe shows Maya where to stand on the flat stones at the pond's edge, saying, 'We keep our feet on the dry stones so the mud stays on the pond and not on our socks.'",
+    "motif": "A shining, shrinking drop of water that moves from jelly eggs to skin.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "warm_companion",
+          "why": "The draft is a competent, well-sounded nature documentary, but nobody in it is fond of anyone — Grandpa Joe answers questions like a textbook, and the frog is observed rather than accompanied, so the story informs without ever warming.",
+          "editor_notes": [
+            "Grandpa Joe's replies are all information and no fondness: 'That is a very good question,' 'Not yet,' 'Let's find out.' Give him one moment of shared attention instead of a lesson — e.g. in s1, after 'They are,' let him sit down in the mud beside her without being asked, so the watching becomes something they do together.",
+            "The frog is met, named, and left in the same breath. In s4a/s4b, before 'We should name it,' let Maya or Grandpa Joe simply stay a moment — 'They watched it blink. It watched them back.' One beat of mutual noticing turns the naming from a label into a farewell to someone known.",
+            "The endings pivot instantly to the treasure in the pocket, which is a taking, not a keeping-company. Consider letting the last image of the frog be warm rather than acquisitive: the frog 'sitting proud in its puddle' could get one small fond gesture — Biscuit's tail going soft, or Grandpa Joe's hand on Maya's shoulder — before 'Let's go home.'",
+            "Biscuit is the most alive character and already pays attention in his dog way; let Grandpa Joe notice that once ('He knew before we did') so the dog's devotion is seen, not just used as a plot engine.",
+            "The 'we' narration in s2a/s2b ('We waited. And we waited.') is the warmest thing in the draft — it implies togetherness. Carry that 'we' feeling into s3 and s4, where the prose slips back into Maya acting alone while Grandpa Joe lectures."
+          ],
+          "segments_revised": 5,
+          "segments_rejected": 1
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already balances warm companionship (Grandpa Joe's hand on the shoulder, the shared watching), clear metamorphosis facts, and read-aloud sound-play ('Wiggle. Wiggle.', 'thump-thump-thump', 'Achoo!'), and its mutual-blink ending lands the wonder without grabbing at it."
+        }
+      ],
+      "cards_used": [
+        "warm_companion"
+      ],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning over the puddle",
+        "s2a": "delighted surprise, then a giggle at the sneeze",
+        "s2b": "trotting-along excitement, a small gasp at the leg-sprouting tadpole",
+        "s3": "a held breath as the froglet lands and gleams",
+        "s4a": "quiet, satisfied glow; a secret in the pocket",
+        "s4b": "cool and calm, tucked-in safe; a promise kept"
+      },
+      "segments_revised": 5,
+      "segments_rejected": 1
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.4); [s4a] flat rhythm: sentence lengths vary little (spread 4.6); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.6); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polish rejected: grew 122% of the original, over the 115% limit",
+      "round 1: [s2a] polished (184 -> 196 words)",
+      "round 1: [s2b] polished (202 -> 209 words)",
+      "round 1: [s3] polished (158 -> 158 words)",
+      "round 1: [s4a] polished (217 -> 236 words)",
+      "round 1: [s4b] polished (241 -> 260 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "26_frogs_and_amphibians_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,329 @@
+{
+  "id": "story.rainforests.age5to6.d1.authored.a8b5db",
+  "title": "The Great Jungle Parade",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.rainforests",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "We lead a jungle parade that grows bigger and sillier with every friend, until we make sure the slow sloth gets to join too.",
+  "slots": {
+    "parade_move": {
+      "role": "the parade's one special move, chosen at the first choice",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "stomp"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are sitting under a leaf as big as an umbrella, you and me, keeping dry.\nThe rain does not land on us. It lands on the roof of leaves over our heads and runs down to the edges and drips off, plip, plop, into the mud.\nThen something comes through the trees at us.\nBoom. Boom. Boom.\nA toucan is standing on a hollow log, thumping it with a beak as long as a banana. Every boom shakes the leaves above him, and every shake tips a little of yesterday's rain onto our heads.\n\"You two,\" he booms. \"Good. We need a leader.\"\nThe monkeys arrive upside down. The frogs arrive by bouncing. A parrot lands on the log and shouts one word.\n\"Parade!\"\n\"A parade,\" says the toucan, \"has one move. One. Everybody does the same one. And nobody here will agree.\"\n\"Big and mighty!\" shout the monkeys from the branches.\n\"Small and bouncy!\" peep the frogs.\n\"Parade!\" shouts the parrot, who is only interested in the one word.\nEverybody looks at us.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We stomp.\nWe lift our knees high and put our feet down hard. Stomp! A puddle jumps and lands on our knees, warm as bathwater.\nThe monkeys stomp on the branches over our heads instead of the ground, and down comes a whole cupful of yesterday's rain on top of us. We look up and shout. We stomp harder.\n\"Louder!\" booms the toucan.\nFour tapirs come trotting in, biggest to smallest. They keep to the wide flat root that crosses the mud, so we put our feet exactly where they put theirs, and nobody slides.\n\"Louder!\"\nNow the frogs are stomping, a hundred small plips down at ankle height. Now the butterflies are stomping, or trying to, which is not really what butterflies are for. They bounce about in the air instead, like popcorn going off in a pan.\nEvery stomp shakes the roof of leaves, and every shake sends more rain down onto the parade. We are marching through rain that we made ourselves.\n\"Louder still!\" booms the toucan, and thumps his log.\nWe go three times round the biggest tree in the jungle.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We wiggle.\nFingers first, then arms, then all the way down to our toes.\nThe parrot wiggles his tail feathers. The frogs wiggle so hard they slide off their lily pads and have to climb back on.\n\"This one is fair,\" says the toucan. \"Everybody can do this one. Even the ants.\"\nThe ants are already doing it. So are the caterpillars, who have been practising all their lives, and who come past in a line like one long fuzzy green ribbon.\nWe make a wiggle train, hands on shoulders and wings on tails, and wiggle in and out between the trunks. Vines hang low across the path. When we wiggle under them we wiggle them too, and the vines wiggle the branches, and the branches wiggle the roof of leaves, and the whole roof lets go of its rain at once.\nWarm rain, straight down the back of our necks. We wiggle harder.\n\"Wigglier!\" booms the toucan.\nA butterfly comes down and sits on our head and wiggles her wings up there. We do not reach for her. We wiggle very carefully instead, so she can stay as long as she likes.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The parade is enormous now. Monkeys, frogs, tapirs, caterpillars, a parrot, one butterfly, and us out in front, all doing the {parade_move}.\n\"More!\" booms the toucan. The roof of leaves lets go of another warm shower. Nobody minds.\nThen, from a long way up, a voice.\n\"Waaaait. For. Meeee.\"\nWe look up into the canopy, the leafy upstairs of the jungle where all the light comes in. A sloth is hanging there by four long arms, upside down, smiling at us.\n\"How long have you been coming?\" we shout.\n\"Since. Breakfast,\" says the sloth.\nShe has got about as far as our arm is long. Sloths do everything slowly. Even hurrying.\nThe frogs stop peeping and the parrot stops shouting. The toucan lays one wing flat on his log to hush it, and the jungle goes so quiet that we can hear the rain again, plip, plop, on the leaves.\nA parade with a friend missing is not a parade.\nEverybody looks at us.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Zip,\" we say, and the monkeys are gone before we finish the word.\nThey come back hauling the longest vine in the jungle. They tie one end high, up beside the sloth, and the other end low, over a heap of soft wet leaves. We flop into the heap first to test it. Deep, squishy, smells like the bottom of the compost bin. Perfect.\nThe sloth hooks both arms over the vine.\n\"Reeeady,\" she says. It takes her a while.\nThen, whoosh.\nFor the first time in her whole life, the sloth goes fast. Her fur blows backwards. Her sleepy smile stretches out flat.\n\"Wheeee,\" she says, and at this speed she gets the whole word out in one second.\nShe lands in the leaf heap with a floomp, right at the front of the parade, and the heap throws one last shower of rain over everybody.\n\"More!\" booms the toucan.\nSo we go round the biggest tree one last time with the sloth up on our shoulders, waving an arm as long as a broom.\n\"Again tomorrow?\" says the sloth.\n\"Start now,\" says the toucan.\n\"I am,\" says the sloth.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Slow,\" we say, and we hold up one hand.\nThe toucan thumps his log. Then he waits. Then he thumps it again. Boom. Boom.\nThe whole parade goes sloth speed. We take one step and count three raindrops before the next one. The monkeys move as if they are swimming through porridge. The frogs do the slowest bounces in the history of frogs, and one of them falls asleep in the middle of his.\nNow the roof of leaves hardly shakes at all, so the rain comes down on us one fat warm drop at a time, and we can watch each one all the way in.\nSlow is where the small things are. A snail with a raindrop sitting on his shell like a hat. A frog no bigger than our thumbnail, yellow as butter, on a leaf we would have stomped straight past.\nThe sloth arrives, arm over arm, and takes her place at the front, and now she is the fastest one here.\n\"This,\" she says, \"is how the jungle looks. Every day.\"\n\"More,\" says the toucan, who means less.\nSo we go slower.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"One move,\" says the toucan, and thumps the log once. \"A mighty stomp, or a wiggly wiggle? Say it loud and the whole jungle does it.\"",
+      "options": [
+        {
+          "say_word": "stomp",
+          "label": "A mighty puddle-splashing stomp",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "parade_move": "stomp"
+          }
+        },
+        {
+          "say_word": "wiggle",
+          "label": "A wiggly wiggle that even the ants can do",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "parade_move": "wiggle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The toucan lays his beak down on the log and looks at us. \"Two ways,\" he says. \"The monkeys build her a vine slide and she zips down to us. Or the whole parade goes sloth speed and she catches us up. Zip, or slow?\"",
+      "options": [
+        {
+          "say_word": "zip",
+          "label": "Build a vine slide so she can zip down to us",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "slow",
+          "label": "Turn the whole parade sloth-speed so she can catch us up",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.rainforests",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "5-6",
+      "family_context": "none — library story for everyone"
+    },
+    "prompt_version": "segment_writing_v2.1",
+    "pattern_choice": {
+      "chosen": "romp",
+      "why": "The age-5 framing of this topic is pure sensation — parrots squawking, frogs peeping, rain drumming on a roof of leaves — and a romp is the only pattern that turns that noise into the plot instead of the backdrop. Nothing has to be wrong; the jungle simply gets louder.",
+      "candidates": [
+        {
+          "pattern": "romp",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.3,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3,
+          "sampled": true,
+          "rejected_because": "the highest weight, but a walk through a rainforest at age five is a list of animals with travel in between, and the topic's avoid list rules out the one thing that would give a jungle journey stakes"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true,
+          "rejected_because": "building something in the canopy is a good story, but the shelf already has two make_and_build stories at this age and this topic's best material is sound, not construction"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false
+        }
+      ],
+      "backup": "make_and_build"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "the toucan and his log. He is the parade's bandleader, and the whole thrill of the story is his one escalating instruction — louder, wigglier, more — which makes the jungle bigger every time he says it.",
+      "why": "A parade is silly by construction, and silly is the register a five-year-old will physically join in with: stomping and wiggling are things they can do on the rug while listening. The adventure accent stops the silliness from going soft.",
+      "rejected": [
+        {
+          "recipe": "big_adventure dominant with a silly accent",
+          "because": "adventure dominant in a jungle pulls straight toward being chased or being lost, and both are on the topic's avoid list at this age"
+        },
+        {
+          "recipe": "silly with a cozy accent",
+          "because": "cozy would have muffled the noise, and the noise is the story"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The child is the parade leader, so every choice in the story is genuinely an instruction the jungle obeys. That only works in the we voice, where the say-word is a thing we shout rather than a thing we decide about somebody else.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "watching a hero lead a parade is watching a party from the window; the pleasure here is being at the front of it"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered parade is over, and a romp needs the escalation to be happening now"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "Tempting to bolt one on, because the sloth beat looks like a lesson about including people. It is deliberately left as an event rather than a moral: nobody says anything about kindness, the toucan simply asks how we get her in, and both endings solve it. A value tag here would flatten the funniest beat in the story into an instruction."
+    },
+    "cast": [
+      {
+        "role": "the toucan bandleader with the hollow log",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "The romp needs one voice that can keep raising the stakes without any of it becoming a threat, and a bandleader can do that with a single word. He is defined by his job and his log, so he can be reused in any later rainforest story."
+      },
+      {
+        "role": "the sloth in the canopy",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "The age-6 vocabulary asks for sloth and canopy, and a creature who cannot hurry is the natural engine of the second half. She is not a problem to be fixed; she is a friend the parade rearranges itself around."
+      },
+      {
+        "role": "the parade — monkeys, frogs, a parrot, tapirs, caterpillars, one butterfly",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Each joiner exists to make the parade one step bigger and louder, which is what shakes the next shower of rain out of the leaves. None of them is introduced without doing that job."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: rain in a rainforest mostly lands on the canopy and drips down afterwards, so the forest floor gets rained on twice",
+        "wonder-fact: the canopy is the leafy top layer where nearly all the light is caught",
+        "wonder-fact: sloths move very slowly, all the time, at everything",
+        "wonder-fact: toucans have beaks longer than their own heads",
+        "sensory picture: warm jungle rain shaken loose by noise",
+        "sensory picture: a snail with one raindrop balanced on its shell",
+        "sensory picture: a frog small enough to sit on a thumbnail",
+        "setting: the forest floor under a leaf the size of an umbrella, with a hollow log for a drum"
+      ],
+      "gathered_but_unused": [
+        "the four named layers of a rainforest — that is the age-8 treatment",
+        "how much of the world's rain the great forests make — age-9 system material",
+        "poison dart frogs and why they are bright — bright colour as a warning is a whole story, and warnings are the wrong register for a romp",
+        "leafcutter ants carrying their own body weight — strong candidate for an insects story, and it would have stolen the parade's thunder",
+        "howler monkeys being the loudest land animal — cut reluctantly; the toucan already owns the noise"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "One segment in, at the moment the jungle asks us to decide something, so the child learns immediately that the story does what they say. Both moves are ways of making the same parade, so s3 can open on an enormous parade either way and read correctly with either word in the slot.",
+        "criteria": {
+          "more_interesting": "stomping is the loud, heavy, puddle-splashing version and brings the tapirs and the shaken-loose rain; wiggling is the version that lets ants and caterpillars in and travels up the vines into the roof",
+          "more_engaging": "both are moves a five-year-old will do with their own body while listening, which is the point of a romp",
+          "reveals_taste": "stomp is the bold pick, wiggle is the gentle pick",
+          "reveals_curiosity": "stomp is just-experience, the pleasure of the noise; wiggle leans what-its-for, because the child who picks it is choosing the move that includes everybody",
+          "reflects_mood": "the stomp branch is the louder evening; the wiggle branch is sillier and closer to the ground"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "On the only beat in the story where the parade stops. Splitting here means the child chooses how a friend who cannot hurry gets included, and both answers are generous rather than one being right.",
+        "criteria": {
+          "more_interesting": "s4a is the fastest a sloth has ever gone; s4b is the whole jungle slowing down until the small things become visible. Opposite directions, same kindness.",
+          "more_engaging": "a vine slide and a whole parade moving in slow motion are both irresistible, and children divide cleanly between them",
+          "reveals_taste": "zip is bold; slow is gentle",
+          "reveals_curiosity": "zip is just-experience, the ride itself; slow leans how-it-works, because it is the child who wants to know what the jungle looks like at sloth speed",
+          "reflects_mood": "the vine slide is the loud finish; sloth speed winds all the way down and lands better at bedtime"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Structure held exactly from the v1 text so a blind reader compares prose only: six segments, c1 after s1 rejoining at s3, c2 splitting to two endings with next null on both. The parade_move slot is set by both c1 options and read once in s3, and s3 reads correctly with stomp or wiggle in it. Say-words stomp/wiggle and zip/slow are short and unalike. Avoid-list sweep clean at ages 5 and 6: no predator anywhere on any path, nobody alone, nobody lost, nobody frightened. Vocabulary jungle, vine, parrot, canopy, sloth, toucan all present with a picture built round each."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts against the 200 ceiling: s1 175, s2a 185, s2b 193, s3 164, s4a 191, s4b 187. Longest path 723 words, shortest 711. Segment lengths are close to v1's 171-179, but the words are doing different work: v1 spent them on scenery and stacked gags, and these spend them on nine to twelve spoken lines per segment plus the escalation. s3 is deliberately the shortest, because the parade stops there and the beat is finished. All six segments carry speech; measured speech-or-action share 53 per cent, sentence-length spread 7.4. No abstract mood words: v1's wonderful and beautiful are both gone. Every object introduced is used — the hollow log is thumped in five segments, the roof of leaves delivers rain in all six, and the leaf heap we flop into to test is the heap the sloth lands in."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches finish with the parade at full volume and rain coming down on us, and s3 opens on exactly that. Silly owns both landings and the toucan carries every escalation. Nobody is the butt of any joke: the butterflies that cannot stomp are charming rather than incompetent, and the sloth is never hurried or teased. Both endings resolve fully — the sloth is in the parade in both — and both close on a spoken line. Banned-language sweep clean."
+      }
+    ],
+    "writers_notes": [
+      "The whole romp runs on one escalating joke rather than a stack of gags: noise shakes rain out of the leaf roof, so the louder the parade gets, the harder it rains on the parade. It starts as a few drops on our heads in s1, becomes a cupful from the monkeys, then a whole roof letting go at once, and in s4b it reverses into one fat drop at a time. The v1 text changed gag every three sentences and none of them grew.",
+      "The toucan's one word is the engine. Louder, louder, louder still, wigglier, more — and in the last line of s4b he says more and means less, which is the only joke in the story that depends on knowing him.",
+      "Competence, never warning, once per branch and both light: the tapirs keep to the wide flat root across the mud, so we put our feet exactly where they put theirs and nobody slides; and when the butterfly lands on our head we do not reach for her, we just wiggle more carefully so she can stay. Both are reasons rather than rules, neither carries any tension, and nobody is told that anything is dangerous.",
+      "s4a ends on three short spoken lines rather than a summary, and the sloth's Again tomorrow is the promise that comes home with us in place of an object.",
+      "Open question for the psychologist: the running joke depends on a child noticing that the rain is caused by the parade. If that connection does not land, the escalation reads as random weather and the romp loses its spine."
+    ],
+    "craft_changes": [
+      "Opening now primes before the parade exists: us under a leaf as big as an umbrella, dry, with the rain landing on the roof of leaves above us, and the pull arriving at us as three booms through the trees. v1 opened on scenery and did not mention us until its third sentence.",
+      "The toucan now speaks. v1 contained no quoted dialogue at all in any of its six segments; every segment now carries speech, and the monkeys, frogs, parrot, sloth and we all have lines.",
+      "Both choice questions are now asked by the toucan in his own voice. v1 had a narrator announcing them (What is our parade's one special move? / How do we get our sloth into the parade?).",
+      "Cut: the leaf roof described twice, the waterfall nobody used, the puddle shaped like a smile, the giggles spreading like ripples in a pond, the butterfly hat doing a dance, the parrot tumbling off his branch, the flower shaped like a trumpet, the parade drifting on like a happy dream, and every instance of the narrator telling us the parade was enormous straight after showing it.",
+      "Cut the two abstract mood words v1 leaned on: then it feels wonderful, and It is beautiful, we say back. The s4b version now shows what slow gets you instead — a snail with a raindrop on his shell, a frog the size of a thumbnail.",
+      "Similes rebuilt from a child's own day: a puddle warm as bathwater, a beak as long as a banana, popcorn going off in a pan, monkeys swimming through porridge, a frog yellow as butter, an arm as long as a broom, a heap that smells like the bottom of the compost bin.",
+      "One motif grown instead of one image per paragraph: the roof of leaves holding yesterday's rain and letting it go whenever the parade gets louder. Present in all six segments, and inverted in s4b.",
+      "Sentence rhythm now rises and falls: Boom. Boom. Boom. and Perfect. and Even hurrying. and So we go slower. land after long flowing sentences, where v1 ran ten mid-length sentences in a row per segment.",
+      "The sloth's slowness is now funny in her dialogue rather than described by the narrator — Since. Breakfast, Reeeady, and Wheeee said fast enough to fit in one second — instead of v1's explanation that sloths move slower than dripping honey.",
+      "Safety as competence added in two light touches that did not exist in v1: the tapirs' flat root as dry footing across the mud, and not reaching for the butterfly who lands on us.",
+      "Length is roughly unchanged on paper — v1 ran 171 to 179 words a segment, this runs 164 to 193 — but the composition is not. Roughly a third of every segment is now spoken lines, where v1 had none, and what was cut to make room was scenery and duplicate gags rather than story."
+    ],
+    "authored_by": "hand-authored rewrite under prompt v2.1, replacing the v1 text of the same story (kept in story_definitions/stories/archive_v1/rainforests.json) for blind craft comparison",
+    "revision_of": {
+      "story_id": "story.rainforests.romp_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe, spine, title, the six-segment braid, both choice positions and their rejoin and split marks, the parade_move slot and which option sets it, the tone and curiosity leans, the cast, the setting, and the say-words stomp/wiggle and zip/slow. Only the prose and who asks the choice questions changed.",
+      "why": "The craft audit scored this story worst on the shelf: no spoken line anywhere, narrator-asked choices, gags stacked instead of escalated, and two abstract mood words. It is one of the two romps used to test whether prompt v2.1 can make the highest-energy register genuinely funnier rather than merely tidier."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,355 @@
+{
+  "id": "story.deep_sea_fish.age9to10.d1.pregen.26bf93",
+  "title": "The Lantern in the Deep",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.deep_sea_fish",
+    "sel_theme": null,
+    "value_lesson": "Patience and paying attention — waiting quietly and watching carefully is how small clues become big discoveries",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A storyteller remembers the night a tiny blue flash in the black ocean led a ship full of watchers to discover how fish live where the sun never reaches.",
+  "slots": {
+    "listener_name": {
+      "role": "The child being told the story, whom the storyteller addresses in the frame",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "little night-owl"
+    },
+    "submersible_name": {
+      "role": "The name of the submersible robot, painted on its side",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Firefly"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Come close, {listener_name}, and I will tell you something true. When I was young, I worked on a ship that sent robots down to visit the deepest, coldest, darkest neighbourhood on Earth. The deep sea trench. A place with no streetlights, no moon, no sun at all.\n\nThat night, young Dr. Okafor sat in the control room, warm cocoa in hand, eyes on the screen. Outside, the submersible {submersible_name} sank slowly down, down, down, past the very last reach of sunlight. Its robot arm, Pico, waved gently at the passing water. Pico waved at everything. It could not help itself.\n\nThe water turned black as the inside of a pocket.\n\nThen — flash.\n\nOne tiny blue light blinked on the screen, far below. Then it was gone.\n\nDr. Okafor leaned in. \"Did you see that?\"\n\n\"See what?\" said the pilot.\n\n\"A light. Down there. Where no light should be.\"\n\nThey rewound the camera. There it was again. Flash. One small spark of blue in all that dark, like a firefly at the bottom of the world. And then nothing.\n\nNobody on the ship could say what made it.\n\nDr. Okafor checked the clock. The {submersible_name} could only stay down so long before its batteries called it home. If they wanted to find that light, they had to look now.\n\n\"Take us down,\" said Dr. Okafor. \"Slowly.\"\n\nAnd down they went, into the dark, looking for the little light that had already vanished.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"After it,\" said the pilot. \"Hold on.\"\n\nThe {submersible_name} tipped its nose down, and down went the light trail with it. The seafloor broke open beneath them — a deep sea trench, a canyon in the dark, dropping away to nowhere.\n\n\"Look at the depth counter,\" whispered Dr. Okafor.\n\nThe numbers climbed and climbed. Past the tallest mountains on land. Past the deepest valleys. And still the trench went down.\n\n\"And the temperature?\"\n\n\"Sinking toward freezing,\" said the pilot. \"Colder than anywhere on Earth up top. And that little flash is down here somewhere.\"\n\nOutside, Pico the robot arm waved into the black. Slowly. Gently. Hello out there, it seemed to say. Pico waved at everything. It could not help itself.\n\nThe water pressed black as the inside of a pocket.\n\nThen — blink.\n\nTwo tiny lights, far down in the trench. Not one. Two.\n\n\"Did it just—\" the pilot started.\n\n\"It answered,\" breathed Dr. Okafor. \"It saw Pico wave. And it waved back.\"\n\nThe two lights hung there in the dark, small and steady, watching them. Whatever made that flash was alive. And it knew they were here.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Wait,\" said Dr. Okafor. \"Kill the headlights. Let's see what the dark does on its own.\"\n\nThe pilot hesitated. \"All of them?\"\n\n\"All of them. Just for a minute.\"\n\nClick. The {submersible_name} went dark. Outside, the black pressed in close as a held breath.\n\nAt first, nothing. Then — faint glimmers. Here and there, along the trench wall, tiny white lights began to show. Dozens of them. Hundreds. A whole hidden world clinging to the rock in the deepest place on Earth.\n\n\"Look at them all,\" whispered the pilot.\n\n\"An ecosystem,\" said Dr. Okafor softly. \"Down here. Where nothing should grow.\"\n\nPico the robot arm held very still. Even Pico knew not to wave now.\n\nAnd then — one light moved.\n\nNot white. Blue. It did not cling to the rock like the others. It swam. Slow and sure, it drifted away from the wall, out into the open dark, heading their way.\n\n\"It's an animal,\" breathed Dr. Okafor. \"It's alive. And it's coming closer.\"\n\nThe blue glow grew. Bigger now. Brighter. Right toward the window.\n\nNobody moved. Nobody spoke. The little light came on.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Down and down went {submersible_name}, with Pico waving at the cold black water. Then Dr. Okafor pointed at the screen. \"There. What did you just find?\"\n\nA small fish drifted into the lights. It carried its own glowing blue lantern, right there on its body. Flash. Flash.\n\n\"It makes its own light,\" whispered Dr. Okafor. \"Special chemicals inside it. That is called bioluminescence.\"\n\nBeside it floated a stranger thing. A barreleye fish, with a head you could see clean through. Its eyes swivelled up inside its own clear skull, watching for food above.\n\n\"Look at that,\" said the pilot. \"Nobody expected a window for a head.\"\n\nDr. Okafor smiled into the cocoa. \"So that is the answer. Fish live where there is no sunlight because their bodies are built for it. They carry their own light. They bear the near-freezing water. They wear strange shapes that help them find food where almost nothing grows.\"\n\nAn adaptation, {listener_name}. A body built for the dark.\n\nPico reached out, slow and gentle, and waved at the little lantern fish. The fish flashed back, once, as if to say hello.\n\nThen the clock chimed. Soft but sure.\n\n\"Batteries,\" said the pilot. \"Time to rise.\"\n\nDr. Okafor looked at the screen, at the small blue light bobbing in the biggest, darkest neighbourhood on Earth. \"We came for a mystery. We found it. Now — what proof do we carry home?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The picture,\" said Dr. Okafor. \"One good picture.\"\n\nBut the lantern fish was busy. It darted left. It darted right. Flash. Flash. It did not know it was supposed to hold still.\n\n\"Easy, Pico,\" whispered Dr. Okafor. \"Slow.\"\n\nPico moved out, gentle as falling snow. The robot arm hovered near the little fish, not grabbing, not chasing. Just waiting. The fish turned. Its blue lantern glowed bright against the black water.\n\nClick.\n\nOne perfect photograph. The fish's light caught mid-flash, a tiny blue star in the deepest dark.\n\n\"Got it,\" said the pilot.\n\nUp they rose, up and up, until the stars came out and the deck rocked gentle beneath their feet. Dr. Okafor held the printed photograph in both hands. It was the first light she ever brought back from the deep.\n\nAnd here is the true part, {listener_name}. That photograph still hangs by my bed. The little lantern fish glows blue against the black, right beside my night-light. Two small lights, keeping each other company.\n\nWe have explored only five percent of the ocean. Five percent. That means more lights are waiting down there, in the biggest, darkest neighbourhood on Earth. More little lanterns, blinking in the cold.\n\nMaybe one night, you will go down and find one.\n\n\"Goodnight, little fish,\" I say to the photograph. And sometimes, I think it flashes back.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The water,\" said Dr. Okafor. \"Bring me a bottle of the deep.\"\n\nPico reached out, slow and careful, toward the trench wall where the white creatures clung. The robot arm dipped a small glass vial into the cold black water. It filled up, dark and plain, looking like nothing at all.\n\n\"Just water?\" said the pilot.\n\n\"Wait,\" said Dr. Okafor. \"Wait and see.\"\n\nUp they rose, up and up, until the ship rocked gentle beneath them and the laboratory lights glowed warm. Dr. Okafor carried the vial to the microscope. She added one drop of a special chemical. She turned off the lights.\n\nAnd there it was. Faint, but true. A tiny blue glow, right there in the water. The same light-chemical the fish carried in their bodies. The whole neighbourhood glowed, even the water itself, so faint that eyes could not see it. But the machine could.\n\n\"The dark is not empty,\" whispered Dr. Okafor. \"It is full of light we cannot see.\"\n\nAnd here is the true part, {listener_name}. That little glass vial sits on my shelf to this day. It looks like plain dark water. But I know what hides inside. The ocean is mostly unexplored, which is exciting, because it means there is always more to find. More lights waiting in the cold, more secrets in the deep.\n\n\"Goodnight, little vial,\" I say. And sometimes, I think it glows back.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"That flash is down there somewhere, friends. Do we chase it into the trench, or do we sit quiet in the dark and let it come to us?\"",
+      "options": [
+        {
+          "say_word": "Chase it",
+          "label": "Follow the flash down toward the deep sea trench",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Wait quietly",
+          "label": "Turn off the headlights and watch what the darkness does",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"We can only bring one thing home from this dive. A picture of our glowing friend — or a bottle of the deep water itself?\"",
+      "options": [
+        {
+          "say_word": "The picture",
+          "label": "Have Pico take a close-up photograph of the lantern fish",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The water",
+          "label": "Have Pico collect a sample of the deep trench water",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.deep_sea_fish",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 17
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The deep sea's darkness, strange glowing fish, and robots descending into trenches naturally build a clue-by-clue question ('what lives down there and how do we even know?') that a 9-year-old can follow to a satisfying answer.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2791,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2093,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1744,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1628,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Door in the Tide Pool)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.093,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0581,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Pico, the submersible's remotely operated robot arm, whose gentle, slightly clumsy waving at passing fish carries the playful accent.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and paying attention — waiting quietly and watching carefully is how small clues become big discoveries",
+      "why": "The mystery pattern already runs on accumulating clues, so the value rides along naturally through Pil's careful piloting and the scientists' quiet waiting, never needing to be stated as a lesson."
+    },
+    "cast": [
+      {
+        "role": "The storyteller, an old marine biologist telling this as a memory from her first deep sea expedition",
+        "reused": false,
+        "why": "The storyteller_tale frame requires one voice that says 'I'; making her a retired marine biologist lets her explain each clue from lived experience and close the frame warmly at the end."
+      },
+      {
+        "role": "Dr. Okafor, the young marine biologist the storyteller once was, watching the live feed in the control room",
+        "reused": false,
+        "why": "She is the self inside the memory; her excitement at every new shape on the screen pulls the listener into the mystery."
+      },
+      {
+        "role": "Pil, the submersible pilot, who steers the robot through the dark and notices tiny lights and shadows others would miss",
+        "reused": false,
+        "why": "He voices the choice questions in his own calm pilot's voice and models patient, careful watching."
+      },
+      {
+        "role": "Pico, the remotely operated robot arm on the submersible",
+        "reused": false,
+        "why": "Pico collects the proof — a close-up photo, a gentle sample — and carries the story's single playful accent with its waving."
+      },
+      {
+        "role": "The lantern fish, a deep sea fish with its own blue light who appears and vanishes, leaving clues behind",
+        "reused": false,
+        "why": "It is the mystery itself: a flash, a shape, a shadow, and finally the answer swimming in full view."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "bioluminescence — fish making their own light with special chemicals",
+        "sunlight only reaches about 200 meters down; the deep sea starts far below",
+        "deep sea water is nearly freezing all year round",
+        "the Mariana Trench goes down almost 11,000 meters, deeper than Everest is tall",
+        "submersibles are special robots built so the pressure cannot crush them",
+        "the barreleye fish's see-through head as an unexpected adaptation",
+        "we have explored only about five percent of the ocean",
+        "control room of a research ship with glowing blue screens",
+        "inside the cramped round-walled submersible with one small window",
+        "the edge of a deep sea trench dropping away into a dark canyon",
+        "a whole hidden ecosystem of tiny white creatures clinging to the trench wall",
+        "opening question: how do fish live where there is no sunlight at all?",
+        "clue one: a tiny blue flash in the darkness",
+        "clue two: the temperature gauge dropping lower and lower",
+        "clue three: a fish with a see-through head",
+        "clue four: the depth counter climbing past the tallest mountains",
+        "satisfying answer: bodies built for the cold dark — own light, cold tolerance, strange shapes"
+      ],
+      "gathered_but_unused": [
+        "Some deep sea fish make their own light using special chemicals in their bodies, a process called bioluminescence.",
+        "The deep sea is completely dark because sunlight can only reach about 200 meters down, and the deep sea starts far below that.",
+        "Deep sea creatures live in water that is nearly freezing, just a few degrees above zero, all year round.",
+        "The Mariana Trench is the deepest place on Earth, going down almost 11,000 meters — deeper than Mount Everest is tall.",
+        "Scientists send special robots called submersibles down to the deep sea because the pressure down there would crush an ordinary submarine.",
+        "Many deep sea fish have huge mouths and stretchy stomachs so they can eat whenever food floats by, because meals are rare in the deep.",
+        "The barreleye fish has a see-through head with its eyes inside, which is an adaptation that lets it look up through its own skull to spot food above.",
+        "No one has ever seen every kind of deep sea creature — scientists estimate we have only explored about five percent of the ocean."
+      ]
+    },
+    "safety_beat": "On the night deck after the dive, Pil shows the listener where to stand — one hand on the rail, feet on the yellow line painted by the hatch — a light, matter-of-fact moment of competence with no warning and no tension.",
+    "motif": "A small light moving through darkness — first a mysterious flash on a screen, then a fish's own lantern, finally the glow of a night-light at home.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.journey_001",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances wonder, factual clarity, and warm companionship, with a strong read-aloud rhythm and a satisfying bedtime landing."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then leaning in",
+        "s2a": "a held breath of discovery",
+        "s2b": "wide-eyed hush as the dark fills with lights",
+        "s3": "delighted wonder at strange real creatures",
+        "s4a": "tender satisfaction, then sleepy and glowing",
+        "s4b": "quiet amazement, then safe and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 15 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 34% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.0); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.7); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 37% of sentences carry speech or action; [s3] flat rhythm: sentence lengths vary little (spread 4.3)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 34% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 37% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 34% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 37% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['keepsake']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "18_deep_sea_fish_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

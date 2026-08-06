@@ -1,0 +1,178 @@
+axis: knowledge_domain
+pack: deep_dives_insects
+nodes:
+  - id: knowledge_domain.ants
+    axis: knowledge_domain
+    label: ants
+    display_name: "Ants"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [tunnels_underground, carrying_heavy_things, following_trails, the_colony]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "tiny workers in a long line, carrying crumbs bigger than themselves", vocabulary: [ant, crumb, line], avoid: []}
+      7: {depth: mechanism, framing: "how ants leave scent trails so the whole line knows the way", vocabulary: [trail, scent, tunnel]}
+      9: {depth: system, framing: "a colony as one big team: nurses, diggers, foragers, and the queen", vocabulary: [colony, forager, chamber]}
+    edges:
+      adjacent: [knowledge_domain.coral_reefs, knowledge_domain.volcanic_islands]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.butterflies
+    axis: knowledge_domain
+    label: butterflies
+    display_name: "Butterflies"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [wing_patterns, the_chrysalis, sipping_nectar, long_journeys]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      # Deep dives inherit the parent's avoid list; these entries are the extra
+      # ones this subtopic needs. At 5 a butterfly is a beautiful moving thing,
+      # not a lesson in how briefly it lives.
+      5: {depth: sensory, framing: "big soft wings opening and closing on a warm flower, painted the same on both halves", vocabulary: [wing, petal, flutter], avoid: [how short a butterfly's life is, dead or torn butterflies]}
+      7: {depth: mechanism, framing: "the whole change: a chewing caterpillar, a still chrysalis, then wings that pump open and dry in the sun", vocabulary: [caterpillar, chrysalis, metamorphosis], avoid: [the chrysalis described as dying or being buried]}
+      9: {depth: system, framing: "monarchs crossing a continent over several generations, and the flower gardens people plant to feed them on the way", vocabulary: [migration, nectar, generation]}
+    edges:
+      adjacent: [knowledge_domain.pterosaurs, knowledge_domain.dragonflies]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.fireflies
+    axis: knowledge_domain
+    label: fireflies
+    display_name: "Fireflies"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [blinking_lights, flash_patterns, cold_light, summer_dusk]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      # Extra avoid entries on top of the inherited insects list: the jar is the
+      # first thing a child thinks of, and it ends with a dead firefly by
+      # morning, so stories show the lights left where they live.
+      5: {depth: sensory, framing: "little green lights blinking on over the grass as the sky goes dark, here then gone then here again", vocabulary: [firefly, blink, dusk], avoid: [catching fireflies and keeping them in a jar overnight, the dark meadow framed as scary]}
+      7: {depth: mechanism, framing: "how a firefly makes light inside its own body, a glow so cool it never burns", vocabulary: [glow, lantern, signal], avoid: [catching fireflies and keeping them in a jar overnight]}
+      9: {depth: system, framing: "flashes as a language across a meadow, each kind with its own rhythm, and why dark summer fields matter to them", vocabulary: [bioluminescence, flash pattern, habitat]}
+    edges:
+      adjacent: [knowledge_domain.jellyfish, knowledge_domain.saturn]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.bees
+    axis: knowledge_domain
+    label: bees
+    display_name: "Bees"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [flower_visits, the_hive, waggle_dance, making_honey]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      # Extra avoid entries on top of the inherited insects list: a sting is the
+      # first thing a child hears about bees, and it turns a friendly visitor
+      # into something to fear, so it stays off-page until 9.
+      5: {depth: sensory, framing: "fuzzy visitors who bump from flower to flower with fat yellow pockets on their back legs", vocabulary: [bee, buzz, pollen], avoid: [stings described as painful, swatting or squashing bees]}
+      7: {depth: mechanism, framing: "how a bee carries pollen home, then dances on the comb to tell the hive which way the flowers are", vocabulary: [hive, nectar, waggle], avoid: [stings described as painful]}
+      9: {depth: system, framing: "a hive working as one team, and how bees keep whole meadows and orchards growing", vocabulary: [colony, pollinate, comb]}
+    edges:
+      adjacent: [knowledge_domain.coral_reefs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.ladybugs
+    axis: knowledge_domain
+    label: ladybugs
+    display_name: "Ladybugs"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [spotted_shells, hidden_wings, aphid_hunting, winter_huddles]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      # Extra avoid entry at 5: the hunting facet is a 9-year-old's idea. At 5 a
+      # ladybug is a small bright visitor on a fingertip, not a hunter.
+      5: {depth: sensory, framing: "a little red dome with black dots that walks up your finger, waits, then opens and lifts away", vocabulary: [ladybug, spot, red], avoid: [ladybugs eating other insects]}
+      7: {depth: mechanism, framing: "the hard spotted shell that lifts like a lid so thin flying wings can unfold from underneath", vocabulary: [wing case, unfold, hinge]}
+      9: {depth: system, framing: "why gardeners are glad to see ladybugs, and how crowds of them tuck into cracks together to wait out the cold months", vocabulary: [aphid, garden, cluster]}
+    edges:
+      adjacent: [knowledge_domain.mars]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.dragonflies
+    axis: knowledge_domain
+    label: dragonflies
+    display_name: "Dragonflies"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [four_wings, hovering, huge_eyes, pond_beginnings]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      # Extra avoid entries at 5 and 7: a dragonfly hunts on the wing and its
+      # nymph hunts underwater. Both are true and both wait — at 5 the wonder is
+      # the stillness in mid-air.
+      5: {depth: sensory, framing: "a stitch of blue and green that stops still in the air over the water, then flicks away", vocabulary: [dragonfly, pond, hover], avoid: [dragonflies catching and eating other creatures]}
+      7: {depth: mechanism, framing: "four wings that each move on their own, so a dragonfly can hover, slide sideways, and fly backward", vocabulary: [wing, hover, dart], avoid: [nymphs catching and eating other creatures underwater]}
+      9: {depth: system, framing: "seasons spent underwater as a nymph, then one climb up a reed and a first flight on wing shapes older than the dinosaurs", vocabulary: [nymph, molt, ancient]}
+    edges:
+      adjacent: [knowledge_domain.seahorses, knowledge_domain.pterosaurs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.beetles
+    axis: knowledge_domain
+    label: beetles
+    display_name: "Beetles"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [hard_shells, wing_cases, so_many_kinds, digging_and_rolling]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a shiny armoured back, smooth as a polished bead, trundling steadily across a leaf", vocabulary: [beetle, shiny, shell], avoid: []}
+      7: {depth: mechanism, framing: "two hard wing cases that snap open to let the real wings out, then shut again like a lid", vocabulary: [wing case, armour, unfold]}
+      9: {depth: system, framing: "more kinds of beetle than any other animal, and the jobs they hold down: rolling, tunnelling, and tidying the forest floor", vocabulary: [species, scarab, decompose]}
+    edges:
+      adjacent: [knowledge_domain.volcanic_rocks]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.crickets
+    axis: knowledge_domain
+    label: crickets
+    display_name: "Crickets"
+    region: animals
+    tier: deep_dive
+    subtopic_of: knowledge_domain.insects
+    facets: [night_chirps, strong_jumps, hiding_places, warm_evenings]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      # Extra avoid entry: the chirping stopping for the year is a sad ending a
+      # child does not need at bedtime, and this is a bedtime-shaped topic.
+      5: {depth: sensory, framing: "a tiny creaking song filling the dark garden, coming from somewhere under the leaves", vocabulary: [cricket, chirp, night], avoid: [crickets dying off as the cold comes]}
+      7: {depth: mechanism, framing: "how a cricket sings by drawing one wing across the other, the way a thumb runs across a comb", vocabulary: [wing, rub, song]}
+      9: {depth: system, framing: "chirps as messages travelling between crickets, quicker when the evening air is warm and slower as it cools", vocabulary: [rhythm, temperature, call]}
+    edges:
+      adjacent: [knowledge_domain.hot_springs]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft

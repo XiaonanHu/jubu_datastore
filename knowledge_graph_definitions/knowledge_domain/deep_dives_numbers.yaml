@@ -1,0 +1,62 @@
+axis: knowledge_domain
+pack: deep_dives_numbers
+nodes:
+  - id: knowledge_domain.puzzles_and_mazes
+    axis: knowledge_domain
+    label: puzzles_and_mazes
+    display_name: "Puzzles and Mazes"
+    region: numbers_and_patterns
+    tier: deep_dive
+    subtopic_of: knowledge_domain.shapes_and_symmetry
+    facets: [dead_ends, working_backwards, patterns_that_repeat, making_your_own_maze]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "trace the twisty path with your finger, bump into a wall, back up, and try another way until you pop out the other side", vocabulary: [maze, path, dead end]}
+      7: {depth: mechanism, framing: "the sneaky trick of starting a maze at the finish and walking it backwards, and why being stuck is the fun part", vocabulary: [backwards, clue, solve]}
+      9: {depth: system, framing: "maze makers think like solvers in reverse, hiding one true path inside a tangle of tempting wrong turns you can design yourself", vocabulary: [strategy, design, shortcut]}
+    edges:
+      adjacent: [knowledge_domain.patterns_in_nature, knowledge_domain.codes_and_ciphers]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.magic_number_tricks
+    axis: knowledge_domain
+    label: magic_number_tricks
+    display_name: "Magic Number Tricks"
+    region: numbers_and_patterns
+    tier: deep_dive
+    subtopic_of: knowledge_domain.shapes_and_symmetry
+    facets: [always_lands_on_the_same_number, doubling, guessing_tricks, why_the_trick_works]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "pick any number, follow the silly steps, and it always lands on the same answer, like a rabbit that always finds its hat", vocabulary: [trick, number, surprise], avoid: [framing math ability as fixed, right-answer pressure]}
+      7: {depth: mechanism, framing: "how doubling runs away so fast that one grain of rice becomes a mountain, and how a few steps let you guess anyone's number", vocabulary: [doubling, pattern, secret], avoid: [framing math ability as fixed, right-answer pressure]}
+      9: {depth: system, framing: "every number trick hides a machine inside; undo the steps one by one and you can see why it works and invent your own", vocabulary: [undo, rule, invent], avoid: [framing math ability as fixed, right-answer pressure]}
+    edges:
+      adjacent: [knowledge_domain.counting_and_big_numbers, knowledge_domain.codes_and_ciphers]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "", reviewed_by: null}
+    status: draft
+
+  - id: knowledge_domain.patterns_that_repeat
+    axis: knowledge_domain
+    label: patterns_that_repeat
+    display_name: "Patterns That Repeat"
+    region: numbers_and_patterns
+    tier: deep_dive
+    subtopic_of: knowledge_domain.shapes_and_symmetry
+    facets: [clap_stomp_clap, tiles_and_quilts, what_comes_next, patterns_that_grow]
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "clap-stomp-clap-stomp; once you spot the pattern, your hands know what comes next before you do", vocabulary: [pattern, next, repeat], avoid: [framing math ability as fixed, right-answer pressure]}
+      7: {depth: mechanism, framing: "quilts, tiles, and wallpaper; one little block repeated by sliding, flipping, and turning until it fills the whole wall", vocabulary: [tile, flip, slide], avoid: [framing math ability as fixed, right-answer pressure]}
+      9: {depth: system, framing: "patterns that repeat versus patterns that grow; wallpaper stays the same forever, but doubling gets enormous fast — telling the two apart lets you predict the future", vocabulary: [repeat, grow, predict], avoid: [framing math ability as fixed, right-answer pressure]}
+    edges:
+      adjacent: [knowledge_domain.puzzles_and_mazes, knowledge_domain.patterns_in_nature]
+      prerequisite: []
+    crosswalk: {ngss: [], casel: []}
+    milestones: {note: "The handoff also listed a measuring_things deep dive, but knowledge_domain.measuring_things already exists as a curriculum topic — that request is covered by the existing node.", reviewed_by: null}
+    status: draft

@@ -1,0 +1,299 @@
+{
+  "id": "story.earthquakes.age9to10.d1.pregen.b27ade",
+  "title": "The Tower That Learned to Wobble",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.earthquakes",
+    "sel_theme": null,
+    "value_lesson": "Courage through understanding, braided with patience and iteration",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "We visit a crazy inventor's earthquake lab to figure out why her seismograph keeps hiccuping after a quake, and end up building a tower that survives the shake table by learning to move with the ground instead of fighting it.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Did you feel it?\" Ren whispers, before we've even knocked. \"Last night. My whole bed went wobble, wobble, wobble.\"\n\nWe're standing outside Professor Zinnia Bolt's lab, which used to be a garage, halfway up a hill in Japan. The door is painted with wiggly lines. The doorbell goes ding-rumble-ding.\n\nThe door flies open. \"Investigators!\" cries Professor Zinnia Bolt. Her lab coat is covered in patches, and every patch is a wiggly line. \"Come in, come in. The mountain has been talking all night.\"\n\nInside, the lab is crammed with homemade gadgets — springs, pendulums, a machine with a pen that scratches away at a long strip of paper. Scratch. Scratch-scratch. The pen is drawing wobbly lines right now, small ones, wobbling along like it's had too much fizzy drink.\n\n\"Last night,\" Zinnia says, tapping the paper, \"a real earthquake shook this whole neighbourhood. The pen went wild! Look at these zigzags.\" The lines leap and jolt across the strip like a heartbeat gone bonkers. \"But here's the magnificent mystery. The big shake stopped hours ago. So why is my pen still wobbling?\"\n\nRen is very quiet. He stares at the wiggly lines. \"I barely slept,\" he admits. \"Does it mean another big one is coming?\"\n\n\"A fine question!\" Zinnia beams. \"And you two are exactly the junior investigators I need.\"\n\nThen she shows us something. By the doorframe there's a worn spot on the floor. \"When the ground trembles, this is where I stand. Doorways are strong.\" She says it like it's the most ordinary thing in the world, and somehow that makes us feel steadier.\n\nThe pen wobbles on. Scratch-scratch. Wobble, wobble.\n\nThe mystery is waiting.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Interrogate the seismograph!\" we shout, and Zinnia spins around like she's been waiting for exactly those words. \"Excellent choice, investigators. The machine remembers everything.\"\n\nShe pulls the long paper strip from last night off the machine and spreads it across a table, weighting the corners with teacups. We lean in close. The strip is covered in one enormous zigzag mountain — the pen must have gone completely wild.\n\n\"That's the earthquake,\" Zinnia says, tracing it with one finger. \"But look what comes after.\"\n\nAfter the big mountain, the line settles into little bumps. Bump. Bump-bump. Smaller and smaller, like a heartbeat calming down.\n\n\"Those are aftershocks,\" she says. \"The ground settling. Like hiccups after a sneeze — one big achoo, then hic, hic, hic, while everything finds its place again.\"\n\nRen stares at the little bumps. \"So the hiccups aren't... a countdown? To something worse?\"\n\n\"No,\" Zinnia says gently. \"Aftershocks get smaller and fade away. And nobody — not me, not anyone — can predict exactly when one will come. So instead of guessing, we measure. We prepare. That's the whole job.\"\n\nShe crosses the room and pulls a giant rolled-up map from a cardboard tube. It unfurls across the floor with a fwump. \"Now look at this. The Earth's outside shell is cracked into enormous pieces, called plates. They creep along about as fast as your fingernails grow.\"\n\n\"That's so slow,\" Ren breathes.\n\n\"Slow, but they never stop. And where two plates grind past each other — a plate boundary — the rock sticks, and strains, and then suddenly slips. That's an earthquake.\" She taps the map. \"And here is Japan, sitting right where several plate boundaries meet. We live on the crack, investigators!\"\n\nRen looks at the map, then at the little hiccup bumps on the strip. He's still quiet, but it's a different kind of quiet now — the thinking kind.\n\n\"We should keep this,\" we say, pointing at the strip.\n\n\"Take it,\" Zinnia says, rolling it up and pressing it into our hands. \"A clue for your pocket.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The shake table!\" we shout, and Zinnia actually applauds. \"Follow the wobble-o-meter!\"\n\nThe wobble-o-meter is a brass arrow bolted to the wall, wobbling back and forth, pointing down a corridor. We follow it — past a shelf of springs, under a hanging pendulum — into a room the size of a garage, where an enormous metal platform fills the floor.\n\n\"My shake table,\" Zinnia says proudly. Along the wall sit shelves of towers built from wooden blocks, and one beautiful model skyscraper with tiny windows. \"Every tower I build, I test right here.\"\n\nShe pulls a lever. The whole platform starts to rumble, side to side, and the block towers tremble and sway. Rumble. Rumble-rumble.\n\nRen grabs our sleeve. \"Whoa.\"\n\n\"Now — how mighty was last night?\" Zinnia lifts a glass jar off a shelf. Inside are firecrackers. \"This is how I think about magnitude. Magnitude is the size we measure a quake with. Imagine one firecracker — pop — that's about a magnitude five. But a magnitude six isn't a little bit bigger. It's about thirty firecrackers. Every whole number up, thirty times the energy.\"\n\n\"Thirty?\" Ren's eyes go wide.\n\n\"Thirty. Last night's rumble was a modest pop, as pops go.\" She sets the jar down and her voice goes a little rueful. \"But it knocked my best tower completely flat. Look.\"\n\nOn the end of the table sits a heap of scattered blocks. Zinnia pokes it with one finger. \"Every design I've tried, the table beats it eventually. I need a tower that survives. And I need investigators to help me build it.\"\n\nThe table rumbles on beneath our feet. Ren watches the towers sway, and then he asks the question that changes everything.\n\n\"Wait,\" he says slowly. \"Why does the ground shake here at all?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find?\" Zinnia asks, peering at us like we're specimens. \"Show me.\"\n\nWe tell her. She listens, nodding so hard her goggles slip down her nose. \"Yes! Yes, exactly!\" she cries, and sweeps an arm toward the corner where a big map of the world hangs beside a low table. \"Come. Time you saw the whole picture.\"\n\nThe map is covered in wiggly lines, of course. Zinnia taps one that runs right under Japan. \"The Earth's shell isn't one solid piece,\" she says. \"It's cracked into giant plates, like a jigsaw puzzle that's too big to see. And they move. Slowly. About as fast as your fingernails grow.\"\n\nRen leans over the map. \"That's it? That's what made my bed wobble?\"\n\n\"Not quite.\" Zinnia rummages in a drawer and pulls out two foam puzzle pieces. She presses them together, edge to edge. \"Watch. The plates creep along, but their edges catch. They stick.\" She pushes harder. The foam bends. Strains. We hold our breath.\n\nSNAP. The pieces jolt past each other, and the whole table rattles.\n\n\"That!\" Zinnia shouts, delighted. \"Stuck edges suddenly slipping. That's an earthquake. Last night's quake happened on a plate boundary right under us.\"\n\nRen's shoulders drop. He lets out a long breath. \"So it has a reason,\" he says. \"It's not just... angry.\"\n\n\"Never angry,\" Zinnia says. \"Just stuck.\"\n\nThen her seismograph pen gives a fresh hiccup. Scratch-scratch-WOBBLE. Zinnia grins. \"But knowing why the ground shakes is one thing. My towers still fall down. So now—\" she spins toward a strange platform in the corner, bristling with springs and clamps— \"we build.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We build!\" we shout, because we cannot help it.\n\nZinnia heaves a box of wooden blocks onto the shake table. \"One tower. My table, full rumble. Build!\"\n\nOur first tower is tall and skinny, a proper skyscraper. Zinnia presses the big red button. Rumble. RUMBLE. The tower topples before the table even gets going. Ren snorts, then claps a hand over his mouth. \"Sorry,\" he says, grinning. \"It fell over SO fast.\"\n\n\"Splendid data!\" Zinnia cries. \"Again!\"\n\nSo we build low and wide and stiff, every block wedged tight. Rumble. RUMBLE. This one holds for three whole seconds — then cracks right down the middle and collapses in two sad heaps.\n\n\"Too wobbly, then not wobbly enough,\" Ren groans. \"What does this table WANT?\"\n\nThen he stops. On the shelf behind Zinnia sits a little model skyscraper, and its bottom isn't stuck down at all. It rests on bendy joints, like ankles. Ren touches it, and it sways, and sways back.\n\n\"Professor. Your tower wobbles.\"\n\nZinnia's eyes go huge. \"It does, doesn't it.\"\n\nWe rebuild one more time, with wobble room in the base — loose joints, give in them, room to move. \"Full rumble!\" Zinnia roars, and slams the button.\n\nThe table shakes. The floor hums under our shoes. And our tower sways like a tree in wind, this way, that way, this way —\n\n—and stands.\n\n\"IT WOBBLED AND IT STOOD!\" Zinnia stamps our design into her notebook, WHUMP, like a passport. \"Buildings survive by moving WITH the shake, not fighting it!\"\n\nAs we leave, she snips the zigzag strip off the seismograph roll and presses it into our hands. \"Last night's quake. You earned it.\"\n\nRen folds it carefully into his pocket. \"Can I come back and help test the next one?\" he asks. His voice doesn't wobble at all.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The hiccups!\" Ren says. \"I want to catch one in the act.\"\n\n\"Aftershock detectives!\" Zinnia flings open a drawer and tosses us magnifying glasses. \"The little shakes that follow a big one. Camp by the seismograph. Watch the pen.\"\n\nWe pull up stools. We watch. The pen scratches along, calm, calm, calm — then WOBBLE. Ren grabs my arm. \"One! Write down the time!\"\n\nWe wait. And wait. Nothing. Then two hiccups, bang-bang, right on top of each other.\n\n\"Seven minutes, then forty seconds, then... no pattern,\" Ren mutters, staring at our list of times. \"Come ON. Pick a schedule.\"\n\nThe pen does not pick a schedule. It hiccups whenever it likes, like the ground has the giggles and won't say why.\n\n\"Nobody can predict them,\" Zinnia says gently, peering over our shoulders. \"Not me, not anyone. The wiggles refuse all schedules. So scientists do something better. We measure. We prepare.\" She taps the strip. \"Every wobble tells us how big, how deep, how the ground moved. We call the size of a quake its magnitude. And then—\" she spins around— \"we build for it. Watch.\"\n\nShe sets her little model skyscraper on the shake table, the one standing on bendy joints like ankles. Beside it she plonks a stiff block tower. \"Full rumble!\"\n\nRumble. RUMBLE. The stiff tower cracks down the middle and collapses. The skyscraper sways like a tree in wind — and stands.\n\n\"It wobbled and it STOOD,\" Ren breathes. \"That's the trick. Move with the shake.\"\n\n\"That's the trick,\" Zinnia agrees.\n\nRen looks at the wiggly lines for a long moment. \"You know what?\" he says. \"Knowing why the ground shakes makes it way less scary.\"\n\nZinnia snips the zigzag strip off the roll and presses it into our hands. \"The planet's heartbeat,\" she says, \"drawn in ink. Take it home.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Junior investigators, two trails of clues! Do we interrogate my seismograph and read what the wiggles are telling us — or do we fire up the shake table and measure just how mighty last night's rumble really was?\"",
+      "options": [
+        {
+          "say_word": "Wiggles",
+          "label": "Examine the seismograph and its wiggly paper strip",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Rumble",
+          "label": "Power up the shake table and the firecracker jar",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"So the ground snaps and the ground hiccups — splendid! Now, do we build a tower that can out-wobble the shake table, or do we hunt those aftershock hiccups and catch them in the act?\"",
+      "options": [
+        {
+          "say_word": "Build",
+          "label": "Build and rebuild a tower until it survives the shake table",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Hunt",
+          "label": "Track the aftershocks on the seismograph like detectives",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.earthquakes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 18
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "A 9-year-old can naturally engage with the real-world puzzle of how to measure earthquakes and build safer structures near plate boundaries, which fits the try-fail-solve structure of problem_and_fix.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.35,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Professor Zinnia Bolt, the crazy inventor seismologist whose lab coat is covered in wiggly-line patches and who treats every rumble as a thrilling clue.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Courage through understanding, braided with patience and iteration",
+      "why": "Ren's fear shrinks as he learns WHY the ground shakes, and each failed tower collapse teaches something the next build needs — both values rise straight from the pattern material without preaching."
+    },
+    "cast": [
+      {
+        "role": "Professor Zinnia Bolt, a seismologist-inventor who built her own seismograph and a garage-sized shake table",
+        "reused": false,
+        "why": "Carries both the dominant crazy_inventor tone and the curious_wonder accent in one voice; she can explain plate boundaries, magnitude, and aftershocks through her wild gadgets and firecracker comparisons."
+      },
+      {
+        "role": "Ren, a classmate who is scared of earthquakes and comes along with us",
+        "reused": false,
+        "why": "Asks the worried-kid questions that let the story explain why quakes happen; his growing calm carries the courage-through-understanding value naturally."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Earth's outer shell is cracked into huge moving plates creeping as fast as fingernails grow",
+        "Most earthquakes happen at a plate boundary where edges get stuck and suddenly slip",
+        "Magnitude measures how big an earthquake is; each whole number up means about thirty times more energy",
+        "Aftershocks rumble for days or weeks as the ground settles",
+        "Scientists use seismographs with needles drawing wiggly lines",
+        "The child tries to predict the next aftershock but learns scientists measure and prepare rather than predict",
+        "Block tower topples instantly on shake table — tall and skinny is wrong",
+        "Wide and short rigid rebuild still cracks — stiff is not the answer either",
+        "Skyscraper model with flexible joints inspires wobble room in the foundation",
+        "Tower sways like a tree but stands — the fix is moving with the shake",
+        "Japan sits where several plates meet, so it has more earthquakes than almost anywhere",
+        "Wider door: the same plate boundaries that shake the ground also melt rock deep below (Volcanoes)"
+      ],
+      "gathered_but_unused": [
+        "Earth's outer shell is cracked into huge moving pieces called tectonic plates, and they creep along about as fast as your fingernails grow",
+        "Most earthquakes happen where two plates meet, called a plate boundary, because the edges get stuck and then suddenly slip",
+        "Magnitude measures how big an earthquake is, and each whole number up means about thirty times more energy released",
+        "After the main earthquake, smaller shakes called aftershocks can rumble for days or even weeks as the ground settles into its new position",
+        "Some plate boundaries slide sideways past each other, like the San Andreas Fault in California, instead of crashing head-on",
+        "During an earthquake the ground can roll in waves, almost like the surface of the ocean, even though it is solid rock",
+        "Japan sits where several plates meet, so it has more earthquakes than almost anywhere else on Earth",
+        "Scientists use seismographs — machines with needles that draw wiggly lines — to record exactly how much the ground shakes"
+      ]
+    },
+    "safety_beat": "In s1, as the ground gives a small tremble on our arrival, Zinnia casually shows us the spot by the lab's sturdy doorframe where she always stands during a shake — competence shown lightly, no warning, no tension.",
+    "motif": "Wobbling — wobbly lines on the seismograph, wobbly ground, a wobbly tower that finally stands because it wobbles.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it takes a child's real nighttime fear, answers it with agency and understanding rather than empty reassurance, and lands the emotional turn ('So it has a reason... It's not just angry') inside genuinely fun, read-aloud-friendly prose."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, with a small worry tucked inside",
+        "s2a": "leaning in, worry loosening into relief",
+        "s2b": "wide-eyed and fizzy, a question bubbling up",
+        "s3": "a held breath, then a long letting-out",
+        "s4a": "giggles and suspense, ending in a triumphant whoop",
+        "s4b": "patient detective hush, then a satisfied glow"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s3] flat rhythm: sentence lengths vary little (spread 4.8); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.1); [s4b] flat rhythm: 4 sentences in a row of near-identical length; [story] slots: declared but never used: ['quake_recording', 'tower_name']"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['quake_recording', 'tower_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "19_earthquakes_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,305 @@
+{
+  "id": "story.sweet_treats.age7to8.d1.pregen.1d4ca9",
+  "title": "The Cranky Freezer and the Dancing Pearls",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sweet_treats",
+    "sel_theme": null,
+    "value_lesson": "Good things take time and patience",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "We want to make sweet treats for the backyard picnic, but first we must fix a rock-hard ice cream disaster and rescue a sticky blob of pearls.",
+  "slots": {
+    "cousin_name": {
+      "role": "The smart older cousin",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Maya"
+    },
+    "dog_name": {
+      "role": "The family's energetic dog",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Biscuit"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandpa's backyard is hot enough to make the picnic table sticky under our elbows. The dog flops in the one patch of shade, watching us like we might drop something good. In the middle of the table sits the old ice cream machine, a wooden bucket with a crank on top, and Grandpa pats it like an old friend. \"This one's cranky,\" he says. \"But it makes the creamiest ice cream in the world. If we do our jobs right.\" He pours ice into the bucket, then reaches for the big bag of chunky salt. \"Now here's a curious thing,\" Grandpa says. \"Why would we put salt on ice?\" We don't know. \"Because salt makes ice colder,\" he says, sprinkling it in. \"So cold it drips and sizzles and turns to slush. And that slush is what freezes our cream.\" The dog's ears go up. The ice pops and crackles in the bucket, and Grandpa grins. \"Listen to that,\" he says. \"It sounds like it's working already.\" We lean in close. The wooden bucket is sweating, and the dog is licking his lips, and we haven't even started cranking yet.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Right now!\" we shout. Grandpa laughs and pours the cream into the metal canister. \"Then we stir,\" he says. \"That's the secret. Stirring keeps the ice crystals tiny. Tiny crystals make creamy ice cream.\" He sets the canister deep in the salty slush. Sizzle. Drip. The bucket is already working. But {dog_name} grabs the rope toy, and {cousin_name} shouts, \"Tag, you're it!\" and we run. We run and run, and the crank sits still. Nobody stirs. When we come back, panting, Grandpa lifts the lid. \"Uh oh,\" he says. Inside is one frozen brick. {cousin_name} presses the spoon into it, and the spoon bends like it's made of rubber. \"The crystals grew big,\" Grandpa says. \"Big crystals make ice, not ice cream.\" The bucket sizzles and drips, and our spoon is bent, and the brick does not care.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The night market!\" we say, and Grandpa pockets some coins. The market is all lanterns and noise, and {dog_name} pulls us straight to the bubble tea shop, where steam fogs the windows. The owner waves us close. \"Want to see the pearls?\" she asks. She lifts the pot lid, and a hundred dark pearls tumble and dance in the boiling water. \"They're tapioca,\" Grandpa says. \"A stretchy root, cooked till it's chewy.\" \"Why do they wiggle?\" {cousin_name} asks. \"The heat makes them dance,\" says the owner. They bounce and bob, and they look so squishy that we cannot help it. We poke one with a fork. Then another. Then we squash down, and the pearls burst and stick, flattening into one shiny blob at the bottom of the pot. \"Oh,\" we say. The owner peers in. \"That,\" she says, \"is not bubble tea.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the picnic table, our cousin {cousin_name} is waiting, and {dog_name} is dancing around her feet. \"So,\" she says, wiping her hands on her shorts. \"What did you find?\" We tell her, and she listens all the way through, nodding slowly. \"I know what went wrong,\" she says. \"And I know how to fix it.\" She taps the wooden bucket, where the salty slush is still sizzling and dripping down the sides. \"Ice cream is fussy,\" {cousin_name} says. \"If cream freezes without moving, it grows big, crunchy ice crystals. Like a frozen brick. But if we keep stirring while it freezes, the crystals stay tiny. Too tiny to feel. That's what makes it creamy instead of icy.\" Grandpa leans on the crank. \"So the cranking isn't just for fun?\" \"The cranking is everything,\" she says. Then she grins. \"And the pearls? They need to dance. If the water isn't swirling, they stick together in one big blob. Keep them moving, and they stay separate and chewy.\" {dog_name} barks once, like he agrees. \"So we stir, and we swirl,\" Grandpa says. \"Shall we?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I'll crank first,\" Grandpa says, gripping the handle. \"Then you two.\" He turns it, slow and steady, and the wooden bucket sizzles and drips, sizzles and drips, like it's cheering us on. My turn next. The handle is harder than it looks. It pulls my arms down, and the salty slush sloshes against the sides. \"Why does it fight so much?\" I ask. \"Because the cream is freezing,\" {cousin_name} says. \"It's getting thick. That's the crystals staying tiny.\" {dog_name} watches the drips hit the grass. His tail thumps. My arms ache, but I keep going, round and round, until Grandpa says, \"Now.\" We pull out the paddle. The cream is smooth and pale, soft as a cloud. No crunch. No ice. Just creamy. We eat it at the picnic table, and {dog_name} gets his own tiny scoop in his bowl. The bucket drips quiet now, like it's resting too.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Fresh water,\" {cousin_name} says, and Grandpa fills the pot. We wait for the bubbles, then she tips the pearls in. \"Now stir. Fast. In a circle.\" I take the spoon and swirl. The pearls tumble and spin, brown little balls dancing in the water. \"Why do they stick if we stop?\" Grandpa asks, leaning in. \"Because they're made from tapioca,\" {cousin_name} says. \"A stretchy root. It gets sticky when it cooks. Keep them moving, and they stay separate.\" I stir faster. My wrist aches, but the pearls keep dancing, turning clear at the edges, bouncy and dark. \"Done,\" she says. We scoop them into cold milk tea. The pearls sink, then rise, chewy and soft. Grandpa takes a sip. \"In Japan,\" he says, \"they make mochi, chewy rice cakes. In Mexico, paletas, frozen fruit bars.\" {dog_name} licks a drop from the table. The pearls bounce in my cup, and I chew, and chew, and smile.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Should we start cranking this ice cream right now, or walk to the night market to get those chewy pearls first?\"",
+      "options": [
+        {
+          "say_word": "Crank",
+          "label": "Make the ice cream right away",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Market",
+          "label": "Visit the night market for pearls",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now that we know the secret, do you want to churn the ice cream until it's smooth, or boil a fresh pot of pearls until they bounce?\"",
+      "options": [
+        {
+          "say_word": "Churn",
+          "label": "Fix the ice cream by stirring while it freezes",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Boil",
+          "label": "Fix the pearls by swirling the water",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sweet_treats",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 18
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The science of keeping ice crystals tiny by stirring while freezing is naturally a trial-and-error fix story (icy batch, then creamy batch), which gives an 8-year-old a concrete problem to solve while using freeze, creamy, and tapioca.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Grandpa's curious questions about why things wiggle, freeze, or stretch",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Good things take time and patience",
+      "why": "The material naturally offers the waiting required for proper freezing and the gentle cooking needed for chewy pearls, so the lesson rides along without forcing a moral."
+    },
+    "cast": [
+      {
+        "role": "Grandpa who loves old-fashioned machines",
+        "reused": false,
+        "why": "He owns the hand-crank ice cream maker and knows how to pack the ice and salt, providing the cozy anchor and the real-world knowledge of the backyard setting."
+      },
+      {
+        "role": "Smart older cousin",
+        "reused": false,
+        "why": "She explains the science of why the ice cream turned icy and helps us figure out the stirring fix, carrying the problem-solving energy."
+      },
+      {
+        "role": "Friendly bubble tea shop owner",
+        "reused": false,
+        "why": "Appears in the branch where we visit the night market to get tapioca pearls, showing us how to boil them without making a blob."
+      },
+      {
+        "role": "Family's energetic dog",
+        "reused": false,
+        "why": "Provides gentle comic relief and a reason to keep the treats safe on the picnic table."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "ice cream freezes into icy brick if not stirred",
+        "stirring every fifteen minutes breaks up crystals",
+        "tapioca pearls stick together in a blob",
+        "stirring boiling water in a circle keeps pearls separate",
+        "salt makes ice colder for the bucket",
+        "hand-crank ice cream maker",
+        "tapioca comes from cassava root",
+        "mochi and paletas as world treats"
+      ],
+      "gathered_but_unused": [
+        "If you just freeze cream in a still bowl, it turns into one giant icy brick. But if you stir it while it freezes, the ice crystals stay tiny and it becomes smooth and creamy!",
+        "Bubble tea pearls are chewy little balls made from tapioca starch, which comes from the root of a plant called cassava.",
+        "To make tapioca pearls, cooks mix the starch with water, roll it into tiny dough balls, and boil them until they turn bouncy, clear, and chewy.",
+        "A long time ago, before refrigerators, people had to put ice and salt in a bucket around a metal bowl to get the ice cream cold enough to freeze.",
+        "In Japan, a sweet treat called mochi is made by pounding sticky rice until it becomes stretchy and soft.",
+        "In Mexico, there is a frozen treat called paletas, which are popsicles made with chunks of real fruit like mango, strawberries, or coconut.",
+        "Salt makes ice much colder than normal ice. It actually melts the ice into freezing cold water that pulls the heat away from the cream faster.",
+        "The tiny bubbles you sometimes see in bubble tea pearls happen because the hot starch traps little pockets of air when it cooks."
+      ]
+    },
+    "safety_beat": "In the backyard segment, Grandpa casually mentions that the salt-and-ice mixture gets much colder than regular ice, showing he knows to keep it in the bucket and not touch it with bare hands, demonstrating quiet competence without alarm.",
+    "motif": "The wooden bucket of slushy, salty ice that sizzles and drips while we work.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the science is delivered through hands and senses rather than lecture, the failures are shown physically (the bent spoon, the burst pearls), and the sound-words land as their own small sentences for a listening child."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "sweaty and curious, leaning in",
+        "s2a": "gleeful dash, then a small uh-oh",
+        "s2b": "wide-eyed at the dancing pearls, then caught in the act",
+        "s3": "satisfied click of things making sense",
+        "s4a": "arms aching, then creamy triumph",
+        "s4b": "busy stirring, then chewy contentment"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 1 warning. [s4b] flat rhythm: sentence lengths vary little (spread 4.1)"
+      }
+    ],
+    "writers_notes": [
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "19_sweet_treats_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

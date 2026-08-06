@@ -1,0 +1,324 @@
+{
+  "id": "story.volcanic_rocks.age9to10.d1.pregen.733efb",
+  "title": "The Rock That Wouldn't Sink",
+  "age_band": "9-10",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.volcanic_rocks",
+    "sel_theme": null,
+    "value_lesson": "Slowing down and looking closely: the mystery is solved by patient observation, not luck.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A floating stone on a black-sand beach leads a young storyteller and a rock-collecting friend to read the holes, colour, and weight of volcanic rocks as the lava's own handwriting.",
+  "slots": {
+    "child_name": {
+      "role": "The storyteller's childhood self in the tale — the name Nina calls across the beach",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    },
+    "rock_name": {
+      "role": "The nickname Nina gives the floating pumice, used playfully through the story and written on its egg-carton label at the end",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Captain Cork"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "On my windowsill there is a row of stones, and every one of them is a story. There is a flat grey skipping stone, a pebble with a stripe clean around its middle, and at the end, in its own egg-carton box, a pale rock so light it feels like a trick. That one is called {rock_name}. Here is how it got its name.\n\nI was nine that summer, and I spent it on a black-sand beach with Nina, who collected rocks the way other people collect stickers, and her dog Biscuit, who collected sticks the way other people collect absolutely everything. Biscuit charged driftwood. Biscuit charged seaweed. Biscuit charged his own shadow once, and won.\n\nThe sand was black because the whole beach was old volcano, Nina told me, crushed up fine as pepper.\n\nWe were squatting at a rock pool, dropping pebbles in. Plip. Plip. Every single one went straight to the bottom, the way rocks do. Then Biscuit came galloping up with a pale stone in his mouth, dropped it at my feet, and nose-bopped it into the pool. Bonk.\n\nIt bobbed.\n\nIt sat on top of the water like a cork in a bath, and Biscuit barked at it, and it bobbed some more.\n\n\"No,\" said Nina, in the voice she saved for excellent things. \"Rocks sink. Everybody knows rocks sink. {child_name}, why is that rock floating?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Closely,\" I said. \"Really, really closely.\"\n\nNina marched us down the beach to the family with the windbreak and the big umbrella, the ones who always had everything. She came back holding a magnifying glass the size of a dinner plate.\n\n\"Borrowed,\" she said, and flopped down on the sand. \"Look.\"\n\nI held the glass over the pale stone. And we both went very quiet.\n\nIt was covered in holes. Hundreds of them. Tiny pinprick holes, so small you could not fit a crumb in one, squashed up against each other until the whole rock looked like a sponge that had turned to stone.\n\n\"Bubbles,\" Nina breathed. \"Somebody put bubbles in a rock.\"\n\nI rubbed it with my thumb. It was scratchy, like a stiff dry sponge, the kind that scrapes the porridge pot. Scratch, scratch.\n\nBiscuit wanted a look too. He shoved his nose right up against the holes, sniffed hard, and sneezed so violently he blew the rock clean off my knee. Then he sneezed again. Then he sneezed at his own sneeze, and we laughed so much we had to lie down on the peppery sand.\n\nWhen we sat up, Nina opened her notebook and wrote, in big letters: CLUE ONE. HOLES.\n\n\"A rock full of holes would be light,\" she said slowly. \"Like a sponge. Like bread.\" She tapped her pencil. \"But {child_name}. Holes mean bubbles. And bubbles mean air. How does air get inside a hot melted rock?\"\n\nBiscuit sneezed at the rock again, as if to say, exactly.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Weigh it,\" I said. \"Properly. With numbers.\"\n\nNina's eyes went round with delight, because Nina brings a kitchen scale everywhere. To the beach. To birthdays. Once, famously, to the dentist. She dug it out of the picnic basket from under the sandwiches and set it on a flat rock like a scientist in a film.\n\n\"First, a normal rock,\" she said.\n\nShe picked up a black pebble, the same size as our floater, and plopped it on the scale. The numbers spun and settled.\n\n\"Now the mystery.\"\n\nShe lifted the pebble off and put the pale stone on. We leaned in. The numbers wobbled, thought about it, and stopped.\n\n\"Half,\" Nina whispered. \"{child_name}, it's barely half the weight. A rock this big should feel like a potato, and it feels like a bread roll.\"\n\nBiscuit decided this was his moment to help. He put one paw firmly on the scale, and the numbers shot up and went wild, and he looked at us as if to say, you're welcome.\n\n\"Biscuit. Off.\"\n\nOff he got, extremely pleased with himself.\n\nNina opened her notebook and wrote, in big letters: CLUE ONE. LIGHT. Suspiciously light.\n\nShe underlined suspiciously three times.\n\n\"So it's true,\" she said. \"It's not a trick. It's really, properly light.\" She tapped her pencil, frowning. \"But that doesn't tell us why. Rocks don't go on diets. Something made this one light, and I want to know what.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Biscuit, who had been watching all this with his head on one side, decided that science was taking far too long. He trotted to a bare patch of sand and began to dig. Sand flew. Sand fountained. Biscuit dug like a tiny furry excavator with somewhere important to be, and Nina and I leaned in, because when Biscuit dug, he usually found something, even if it was only a bigger hole.\n\n\"Woof,\" said Biscuit, in the voice he saved for excellent things.\n\nThere, at the bottom of the hole, sat a second stone. Nina lifted it out and whistled. It was black as the inside of a pocket, glassy and cold, without a single hole in it, and so shiny I could see my own face in it, all smudged and wobbly, like a reflection in a spoon.\n\n\"No holes,\" Nina said. \"Not one. Feel how heavy.\"\n\nShe was right. It sat in my hand like it meant it. Nina took the pale rock in her other hand and held both arms out like a balance scale. Up went one side, down went the other. Up, down. Up, down.\n\n\"Same beach,\" she said slowly. \"Total opposites. One floats and fizzes with holes. One's a lump of black glass.\"\n\n\"What did you two find over there?\" called a voice. Ranger Jo, who led the lava-flow walk, came crunching across the sand in her big boots. She crouched, turned the black stone over, tapped the pale one with a fingernail, and grinned the way grown-ups grin when they know something delicious.\n\n\"Well, well,\" she said. \"Obsidian and pumice. Here's the funny part, rock hunters. These two came from the very same eruption. Same volcano. Same blast of lava.\"\n\nNina's mouth fell open. Mine too. Biscuit barked at both rocks, just to be thorough.\n\n\"But they disagree about everything,\" Nina said. \"How can one eruption make two rocks that don't even act like cousins?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Up,\" said Nina. \"Definitely up. I want to stand where it happened.\"\n\nRanger Jo led us up the cinder path, which crunched under our boots like breakfast cereal. Biscuit charged every switchback. \"Firm trail here,\" said Ranger Jo, tapping it with her boot. \"Step where I step.\"\n\nAt the top, she stopped. \"Now then. You two just found something on this beach. This is where it started.\" She pointed at a pale, frothy cap of rock along the rim. \"Lava fizzes, like a shaken fizzy drink. All that gas got trapped as bubbles, and then the lava cooled and froze the fizz mid-pop. That's pumice. The holes are the bubbles.\"\n\nNina held {rock_name} up beside it. Same froth. Same pinprick holes, like the bubbles at the top of a glass of lemonade, only stone.\n\n\"And your obsidian?\" Ranger Jo pointed to the flow's edge, where the lava had met air and sea. \"Cooled so fast it turned to glass. No time for bubbles. No time for anything.\"\n\n\"So the rock tells you,\" I said slowly, \"how the lava behaved.\"\n\n\"The holes, the colour, the weight,\" said Ranger Jo. \"That's the lava's handwriting.\"\n\nBiscuit barked at the whole volcano, just to be thorough.\n\nBack home, Nina wrote the label for the egg-carton box: {rock_name} — the rock that floats. And it sits on my windowsill still, pale and holey and full of frozen fizz, next to a stone so light it feels like a trick. Because it is one. The lava's best one.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The museum,\" said Nina. \"I want to test them properly.\"\n\nThe museum room was small and cool and smelled of old wood. A volunteer named Fern brought out a tank of water, and her eyes twinkled. \"Drop it in, then.\"\n\nNina lowered {rock_name} into the water. It floated. It bobbed gloriously on the surface like the tiniest boat, and Biscuit barked at it so hard his ears flapped.\n\n\"Now this,\" said Fern, and she brought out a piece of obsidian in two careful hands. \"Glass, this one. Hold it flat in your palm, like me.\" She showed us, and we did, and the black stone lay in Nina's hand, heavy as a secret, shining like a dark mirror.\n\nThen Fern slid a big magnifier over the pumice, and we leaned in. The holes swam up huge — hundreds of tiny bubbles, frozen mid-fizz, like the top of a fizzy drink stopped in time. \"The lava fizzed,\" said Fern, \"and the gas got trapped as bubbles before it could pop. Light, holey pumice. But lava that cools in a flash has no time for bubbles at all. Heavy, shiny obsidian.\"\n\nNina wrote in her notebook, her tongue between her teeth: \"The texture, the colour, the weight — that's the lava's own handwriting.\"\n\nFern set one more stone beside them with a wink. \"This one fell from the sky. Do you think it tells its story the same way?\"\n\nBut that is another story. On my windowsill, {rock_name} still floats in its egg-carton box, keeping its secrets politely.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Every good mystery needs a first clue,\" Nina says, flipping her notebook open. \"Do we look at this rock really, really closely — or do we measure how heavy it actually is?\"",
+      "options": [
+        {
+          "say_word": "Look close",
+          "label": "Inspect the stone with a magnifying glass",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Weigh it",
+          "label": "Test it on Nina's trusty kitchen scale",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Ranger Jo taps the two stones in Nina's palms. \"The answer to this is written in two places. Shall we climb up to where the lava actually did it — or would you rather test these two properly at the museum table?\"",
+      "options": [
+        {
+          "say_word": "Climb up",
+          "label": "Walk the old lava flow with Ranger Jo",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Test them",
+          "label": "Head to the museum's geology table",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.volcanic_rocks",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.volcanoes",
+      "age_band": "9-10",
+      "age": 9,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Volcanic rocks are naturally read like clues—holes, colour, weight, and texture each hint at how the lava behaved—so a gentle mystery where a child decodes what a found rock is telling them fits the material perfectly.",
+      "backup": "dilemma",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Mountain That Sings)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Biscuit, the beach dog, whose big-adventure energy (charging driftwood, nose-bopping the floating pumice, parading the obsidian find like buried treasure) carries the silly-epic swagger.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Slowing down and looking closely: the mystery is solved by patient observation, not luck.",
+      "why": "The mystery pattern already rewards accumulated clues, and the material's 'read a rock like a story' frame makes careful looking the engine of the plot rather than a pasted-on lesson."
+    },
+    "cast": [
+      {
+        "role": "The storyteller — a grown-up telling the tale of one childhood summer day, the only voice that says 'I'",
+        "reused": false,
+        "why": "The storyteller_tale frame requires a teller whose memory the story lives inside; the frame opens on their windowsill of kept stones and closes back there."
+      },
+      {
+        "role": "Nina, a young rock collector with an egg-carton display box and a clue notebook",
+        "reused": false,
+        "why": "She drives the mystery's method — holding, weighing, comparing — and her notebook gives the accumulating clues a physical home; she asks both choice questions in her own brisk, delighted voice."
+      },
+      {
+        "role": "Ranger Jo, who leads walks on the old lava flow",
+        "reused": false,
+        "why": "She delivers the mystery-deepening clue (both rocks came from the same eruption) and carries the satisfying answer, turning the whole hillside into the biggest clue of all."
+      },
+      {
+        "role": "Biscuit, a friendly beach dog",
+        "reused": false,
+        "why": "Accidentally demonstrates the strangest clue by nudging the floating pumice, and carries the big_adventure accent so the silliness and the swagger have one clear owner."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "floating pumice in a rock pool while every other pebble sinks",
+        "holes as frozen bubbles of gas locked in cooling lava",
+        "obsidian as natural glass cooled too fast for crystals, shiny enough to see your face",
+        "two rocks from the same lava feeling totally different in the hand",
+        "pumice's rough, scratchy, stiff-sponge texture",
+        "rock colours from black to rusty red hinting at minerals and air",
+        "black-sand beach setting with a rock pool",
+        "egg-carton collector with clue notebook",
+        "park ranger on the old lava flow",
+        "beach dog nudging floating pumice",
+        "opening question: why did one rock float while all others sank",
+        "ranger's same-eruption clue that deepens the mystery",
+        "satisfying answer: holes, colour, and weight are the lava's handwriting",
+        "obsidian sharp-edge care handled with two careful hands"
+      ],
+      "gathered_but_unused": [
+        "Some pumice stones can float on water because they are so full of tiny air holes that they are lighter than the water they push aside.",
+        "The holes in a volcanic rock are frozen bubbles: gas was fizzing in the hot lava, and when the lava cooled quickly, the bubbles were locked in place forever.",
+        "Obsidian is a natural glass that forms when lava cools so fast that its atoms never get time to stack themselves into crystals.",
+        "A sharp flake of obsidian can have an edge thinner than a steel razor blade, which is why people long ago used it for cutting tools.",
+        "Two rocks made from the very same lava can feel completely different in your hand — one light and holey, one heavy and glassy — depending only on how the lava cooled and how much gas was in it.",
+        "Pumice feels rough and scratchy, almost like a stiff sponge, because it is mostly holes with only thin walls of rock between them.",
+        "Lava that oozes slowly, like thick honey, lets gas escape gently, so the rock it makes has few bubbles; lava that froths up violently traps lots of gas and makes holey rock.",
+        "Volcanic rocks come in many colours — black, grey, rusty red, even pale cream — and the colour hints at what minerals were in the lava and how much air touched it while it cooled."
+      ]
+    },
+    "safety_beat": "In s4a, Ranger Jo lightly shows competence on the real volcano slope — choosing the firm cinder trail and demonstrating the crunchy, steady way to walk it — as a matter-of-fact moment with no warning tone and no tension; in s4b the obsidian is passed with two careful hands as simple know-how.",
+    "motif": "Bubbles frozen mid-fizz — the floating pumice's pinprick holes, echoed in fizzy drinks, sponge textures, and finally the moment the whole mystery 'pops' into sense.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.journey_001",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a real want pursued immediately (why does this rock float?), clues that build in order, a dog whose comedy lands as sound, and an ending that pays the mystery off as wonder rather than lecture — revision would only change it, not improve it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a held breath when the rock bobs",
+        "s2a": "leaning in close, then a giggle at the triple sneeze",
+        "s2b": "delighted suspense over the spinning numbers, a giggle at Biscuit's paw",
+        "s3": "digging excitement widening into real astonishment",
+        "s4a": "climbing energy settling into quiet awe, then satisfied and warm",
+        "s4b": "hushed museum wonder, a final twinkle, sleepy and content"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s1] narration heavy: only 14% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 14% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 14% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run",
+      "source_file": "07_volcanic_rocks_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

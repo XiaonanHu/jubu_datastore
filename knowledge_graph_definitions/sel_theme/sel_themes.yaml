@@ -1,0 +1,577 @@
+axis: sel_theme
+pack: sel_themes
+nodes:
+  - id: sel_theme.courage
+    axis: sel_theme
+    label: courage
+    display_name: "Courage"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the brave, wobbly feeling of trying something even though it feels scary", vocabulary: [brave, scared, try]}
+      6: {depth: naming_the_feeling, framing: "being scared and doing the thing anyway, one small step at a time", vocabulary: [brave, nervous, small step]}
+      7: {depth: navigating_the_feeling, framing: "borrowing courage from a plan; practicing the scary part first", vocabulary: [practice, plan, first try]}
+      8: {depth: navigating_the_feeling, framing: "the difference between brave and reckless; courage means the risk is worth it", vocabulary: [risk, worth it, careful]}
+      9: {depth: understanding_others, framing: "quiet courage: speaking up, telling the truth, being the first to be kind", vocabulary: [speak up, stand by, quiet courage]}
+      10: {depth: understanding_others, framing: "noticing courage in people who don't look brave from the outside", vocabulary: [admire, unseen, steady]}
+    edges:
+      adjacent: [sel_theme.worry, sel_theme.asking_for_help, sel_theme.shyness]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, self_management]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.sharing
+    axis: sel_theme
+    label: sharing
+    display_name: "Sharing"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "taking turns with the toy both friends want at the same time", vocabulary: [share, my turn, wait]}
+      6: {depth: naming_the_feeling, framing: "sharing feels hard first and good after; the fun gets bigger", vocabulary: [take turns, fair share, together]}
+      7: {depth: navigating_the_feeling, framing: "working out a fair split when there isn't enough for everyone", vocabulary: [split, plan, compromise]}
+      8: {depth: navigating_the_feeling, framing: "sharing things that aren't objects: time, attention, the spotlight", vocabulary: [spotlight, attention, make room]}
+      9: {depth: understanding_others, framing: "why sharing is easy with some people and hard with others", vocabulary: [trust, generous, comfortable]}
+      10: {depth: understanding_others, framing: "sharing credit in a group without tallying who did what", vocabulary: [credit, teamwork, fairness]}
+    edges:
+      adjacent: [sel_theme.friendship, sel_theme.being_left_out, sel_theme.jealousy]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.frustration
+    axis: sel_theme
+    label: frustration
+    display_name: "Frustration"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "that hot, stuck feeling when the tower keeps falling down", vocabulary: [frustrated, stuck, grr], avoid: [shaming the feeling, adults dismissing it]}
+      6: {depth: naming_the_feeling, framing: "spotting frustration in your body before it boils over", vocabulary: [frustrated, tight, deep breath]}
+      7: {depth: navigating_the_feeling, framing: "tricks that actually help; taking a break and coming back", vocabulary: [cool down, retry, pause]}
+      8: {depth: navigating_the_feeling, framing: "frustration as a signal the thing is worth learning", vocabulary: [challenge, signal, practice]}
+      9: {depth: understanding_others, framing: "noticing when a friend is frustrated and what helps them", vocabulary: [patience, support, perspective]}
+      10: {depth: understanding_others, framing: "why the same setback frustrates one person and not another", vocabulary: [temperament, empathy, self-talk]}
+    edges:
+      adjacent: [sel_theme.anger, sel_theme.calming_down, sel_theme.handling_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.empathy
+    axis: sel_theme
+    label: empathy
+    display_name: "Empathy"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "guessing how a friend feels from their face and what just happened", vocabulary: [feelings, sad face, notice]}
+      6: {depth: naming_the_feeling, framing: "your friend can feel differently than you about the very same thing", vocabulary: [notice, imagine, care]}
+      7: {depth: navigating_the_feeling, framing: "asking instead of guessing; small things that show a friend you get it", vocabulary: [check in, listen, comfort]}
+      8: {depth: navigating_the_feeling, framing: "stepping into someone's shoes even when you disagree with them", vocabulary: [perspective, in their shoes, understand]}
+      9: {depth: understanding_others, framing: "empathy for someone who is hard to like or very different from you", vocabulary: [compassion, benefit of the doubt, patience]}
+      10: {depth: understanding_others, framing: "how stories let you practice living someone else's life for a while", vocabulary: [point of view, imagine, connect]}
+    edges:
+      adjacent: [sel_theme.sadness, sel_theme.friendship, sel_theme.being_left_out]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [social_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.sadness
+    axis: sel_theme
+    label: sadness
+    display_name: "Sadness"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the heavy, rainy feeling when something you loved is over", vocabulary: [sad, tears, hug]}
+      6: {depth: naming_the_feeling, framing: "sadness is allowed; crying helps the feeling move through", vocabulary: [sad, cry, comfort]}
+      7: {depth: navigating_the_feeling, framing: "things that help when you're sad: telling someone, resting, time", vocabulary: [talk it out, rest, gentle]}
+      8: {depth: navigating_the_feeling, framing: "sadness fades in waves and can share space with okay moments", vocabulary: [waves, comes and goes, better]}
+      9: {depth: understanding_others, framing: "sitting with a sad friend without rushing to fix it", vocabulary: [listen, stay close, space]}
+      10: {depth: understanding_others, framing: "why sadness and caring are connected; you're sad because it mattered", vocabulary: [it mattered, caring, tender]}
+    edges:
+      adjacent: [sel_theme.empathy, sel_theme.missing_someone, sel_theme.loss]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.anger
+    axis: sel_theme
+    label: anger
+    display_name: "Anger"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the hot volcano feeling when something is unfair or broken", vocabulary: [angry, hot, stomp]}
+      6: {depth: naming_the_feeling, framing: "being angry is okay; hurting people or things is not", vocabulary: [angry, safe hands, use words]}
+      7: {depth: navigating_the_feeling, framing: "catching anger early and letting the steam out safely", vocabulary: [cool off, steam, walk away]}
+      8: {depth: navigating_the_feeling, framing: "finding the feeling underneath the anger, like hurt or embarrassment", vocabulary: [underneath, hurt, name it]}
+      9: {depth: understanding_others, framing: "staying steady when someone else is angry at you", vocabulary: [steady, calm voice, listen]}
+      10: {depth: understanding_others, framing: "how anger about unfairness can be turned into fixing the problem", vocabulary: [channel, stand up, problem-solving]}
+    edges:
+      adjacent: [sel_theme.frustration, sel_theme.calming_down]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management, self_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.worry
+    axis: sel_theme
+    label: worry
+    display_name: "Worry"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the butterfly feeling before something new, like the first day somewhere", vocabulary: [worried, butterflies, brave], avoid: ["the feared thing actually happening in the story", "grown-ups laughing at the worry"]}
+      6: {depth: naming_the_feeling, framing: "saying the worry out loud makes it smaller", vocabulary: [worry, tell someone, smaller], avoid: ["worry framed as babyish", "worries left hanging at the story's end"]}
+      7: {depth: navigating_the_feeling, framing: "sorting worries into ones you can do something about and ones you can't", vocabulary: [sort, plan, let go], avoid: ["piling on new scary possibilities", "unresolved cliffhanger worries"]}
+      8: {depth: navigating_the_feeling, framing: "worry's favorite trick: shouting about things that mostly never happen", vocabulary: [what if, likely, check the facts], avoid: ["mocking a worried character", "worry solved by pretending it isn't there"]}
+      9: {depth: understanding_others, framing: "noticing when a friend is quietly worried and how to help", vocabulary: [reassure, check in, calm], avoid: ["worry treated as weakness", "clinical or diagnostic wording"]}
+      10: {depth: understanding_others, framing: "some worry is useful fuel; too much needs to be set down", vocabulary: [useful worry, balance, set it down], avoid: ["clinical or diagnostic wording", "worry that only an adult rescue can fix"]}
+    edges:
+      adjacent: [sel_theme.courage, sel_theme.calming_down, sel_theme.big_changes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management, self_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.excitement
+    axis: sel_theme
+    label: excitement
+    display_name: "Excitement"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the fizzy jumping feeling when something wonderful is coming", vocabulary: [excited, fizzy, bounce]}
+      6: {depth: naming_the_feeling, framing: "big excitement can spill everywhere; wiggles help let it out", vocabulary: [excited, wiggles, almost time]}
+      7: {depth: navigating_the_feeling, framing: "holding excitement while you wait; the fun of counting down", vocabulary: [countdown, patience, savor]}
+      8: {depth: navigating_the_feeling, framing: "keeping your excitement from steamrolling quieter friends", vocabulary: [volume, make space, notice others]}
+      9: {depth: understanding_others, framing: "cheering for a friend's good news like it's your own", vocabulary: [celebrate, happy for, share the joy]}
+      10: {depth: understanding_others, framing: "why the looking-forward part is sometimes the best part", vocabulary: [anticipation, savor, memory]}
+    edges:
+      adjacent: [sel_theme.calming_down, sel_theme.friendship, sel_theme.winning_and_losing]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management, self_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.friendship
+    axis: sel_theme
+    label: friendship
+    display_name: "Friendship"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "a friend is someone you have fun with and who is kind to you", vocabulary: [friend, play, kind]}
+      6: {depth: naming_the_feeling, framing: "making a new friend: joining in, asking names, taking turns", vocabulary: [join in, invite, take turns]}
+      7: {depth: navigating_the_feeling, framing: "friends can argue and still be friends; repairing after a fight", vocabulary: [make up, repair, listen]}
+      8: {depth: navigating_the_feeling, framing: "being a good friend when it costs you something, like time or turns", vocabulary: [loyal, effort, show up]}
+      9: {depth: understanding_others, framing: "friendships change; old friends drift and new ones arrive", vocabulary: [drift, grow, keep in touch]}
+      10: {depth: understanding_others, framing: "what makes a friendship feel safe: trust, honesty, and being yourself", vocabulary: [trust, honesty, be yourself]}
+    edges:
+      adjacent: [sel_theme.sharing, sel_theme.empathy, sel_theme.being_left_out, sel_theme.belonging]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.asking_for_help
+    axis: sel_theme
+    label: asking_for_help
+    display_name: "Asking for Help"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "it's brave to say the words: can you help me?", vocabulary: [help please, ask, brave]}
+      6: {depth: naming_the_feeling, framing: "knowing who to ask for which kind of help", vocabulary: [helper, who to ask, try again]}
+      7: {depth: navigating_the_feeling, framing: "trying first, then asking; help works best with a clear question", vocabulary: [try first, stuck, clear question]}
+      8: {depth: navigating_the_feeling, framing: "asking for help is a skill, not a defeat", vocabulary: [skill, resourceful, teammate]}
+      9: {depth: understanding_others, framing: "offering help so it's easy to accept, without taking over", vocabulary: [offer, side by side, respect]}
+      10: {depth: understanding_others, framing: "why asking gets harder as you get older, and doing it anyway", vocabulary: [pride, honest, reach out]}
+    edges:
+      adjacent: [sel_theme.courage, sel_theme.shyness, sel_theme.handling_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [relationship_skills, self_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.saying_sorry
+    axis: sel_theme
+    label: saying_sorry
+    display_name: "Saying Sorry"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "sorry means I see that hurt you and I wish I hadn't", vocabulary: [sorry, oops, gentle]}
+      6: {depth: naming_the_feeling, framing: "a real sorry names what you did, not just the word", vocabulary: [name it, mean it, sorry]}
+      7: {depth: navigating_the_feeling, framing: "a good apology has three parts: sorry, what I did, how I'll fix it", vocabulary: [apology, fix it, make it right]}
+      8: {depth: navigating_the_feeling, framing: "apologizing for your part even when it was partly their fault too", vocabulary: [my part, first move, pride]}
+      9: {depth: understanding_others, framing: "accepting an apology takes time; sorry doesn't erase it instantly", vocabulary: [accept, patience, rebuild]}
+      10: {depth: understanding_others, framing: "apologies that change behavior versus apologies that just end the conversation", vocabulary: [follow through, sincere, actions]}
+    edges:
+      adjacent: [sel_theme.empathy, sel_theme.friendship, sel_theme.handling_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [relationship_skills, responsible_decision_making]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.being_left_out
+    axis: sel_theme
+    label: being_left_out
+    display_name: "Being Left Out"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the empty feeling when everyone is playing and you aren't", vocabulary: [left out, lonely, join]}
+      6: {depth: naming_the_feeling, framing: "words to join a game, and noticing who else is on the edge", vocabulary: [can I play, notice, invite]}
+      7: {depth: navigating_the_feeling, framing: "what to do when you're left out: ask, find another game, tell someone", vocabulary: [options, ask, regroup]}
+      8: {depth: navigating_the_feeling, framing: "sometimes it's an accident and sometimes it isn't; telling the difference", vocabulary: [on purpose, accident, speak up]}
+      9: {depth: understanding_others, framing: "being the includer when you're safely inside the group", vocabulary: [include, notice, make room]}
+      10: {depth: understanding_others, framing: "why groups close their doors, and choosing not to be that group", vocabulary: [circle, welcome, open door]}
+    edges:
+      adjacent: [sel_theme.friendship, sel_theme.sadness, sel_theme.belonging]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [social_awareness, relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.calming_down
+    axis: sel_theme
+    label: calming_down
+    display_name: "Calming Down"
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "blowing out birthday candles: the slow breath that shrinks big feelings", vocabulary: [breathe, slow, candle breath]}
+      6: {depth: naming_the_feeling, framing: "finding what works for your body: breathing, squeezing, a quiet corner", vocabulary: [breathe, squeeze, quiet corner]}
+      7: {depth: navigating_the_feeling, framing: "building your own calm-down toolkit and using it before the boil-over", vocabulary: [toolkit, early, reset]}
+      8: {depth: navigating_the_feeling, framing: "noticing your body's warning lights and pulling over in time", vocabulary: [warning signs, pause, pull over]}
+      9: {depth: understanding_others, framing: "helping someone else cool down without telling them to calm down", vocabulary: [steady voice, give space, patience]}
+      10: {depth: understanding_others, framing: "what calms you is personal: finding your reset and respecting other people's", vocabulary: [reset, personal, respect]}
+    edges:
+      adjacent: [sel_theme.anger, sel_theme.frustration, sel_theme.worry]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.shyness
+    axis: sel_theme
+    label: shyness
+    display_name: "Shyness"
+    age_bands: ["5-6"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the hiding-behind-a-leg feeling around new people", vocabulary: [shy, warm up, watch first]}
+      6: {depth: naming_the_feeling, framing: "shy isn't wrong; some people warm up slowly and that's fine", vocabulary: [slow to warm, quiet, ready when ready]}
+    edges:
+      adjacent: [sel_theme.courage, sel_theme.asking_for_help, sel_theme.friendship]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.missing_someone
+    axis: sel_theme
+    label: missing_someone
+    display_name: "Missing Someone"
+    age_bands: ["5-6"]
+    age_treatments:
+      5: {depth: naming_the_feeling, framing: "the achy feeling when someone you love is far away", vocabulary: [miss you, far away, soon]}
+      6: {depth: naming_the_feeling, framing: "ways to hold someone close from far away: photos, calls, drawings", vocabulary: [keep close, remember, call]}
+    edges:
+      adjacent: [sel_theme.sadness, sel_theme.worry]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, self_management]
+    milestones:
+      note: "Should missing_someone extend into 7-8 for long-distance moves and family separations, or does big_changes cover that later?"
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.jealousy
+    axis: sel_theme
+    label: jealousy
+    display_name: "Jealousy"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: navigating_the_feeling, framing: "the green pinch when a friend gets the thing you wanted", vocabulary: [jealous, pinch, wish]}
+      8: {depth: navigating_the_feeling, framing: "jealousy points at what you want; it doesn't get to drive", vocabulary: [signal, want, steer]}
+      9: {depth: understanding_others, framing: "being jealous of a friend and happy for them at the same time", vocabulary: [mixed feelings, happy for, honest]}
+      10: {depth: understanding_others, framing: "comparing yourself to others less, and what enough feels like", vocabulary: [comparison, enough, own path]}
+    edges:
+      adjacent: [sel_theme.sharing, sel_theme.friendship, sel_theme.disappointment]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, social_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.disappointment
+    axis: sel_theme
+    label: disappointment
+    display_name: "Disappointment"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: navigating_the_feeling, framing: "the deflating feeling when the plan falls through", vocabulary: [disappointed, deflated, plan B]}
+      8: {depth: navigating_the_feeling, framing: "letting yourself feel the miss before moving on to what's next", vocabulary: [hoped for, feel it, move on]}
+      9: {depth: understanding_others, framing: "handling disappointment without spoiling it for everyone else", vocabulary: [good sport, keep it in, regroup]}
+      10: {depth: understanding_others, framing: "when people disappoint you: talking it out versus quietly expecting less", vocabulary: [expectations, talk it out, forgive]}
+    edges:
+      adjacent: [sel_theme.sadness, sel_theme.handling_mistakes, sel_theme.winning_and_losing]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.embarrassment
+    axis: sel_theme
+    label: embarrassment
+    display_name: "Embarrassment"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: navigating_the_feeling, framing: "the hot-cheeks moment when everyone saw you mess up", vocabulary: [blush, oops, shake it off]}
+      8: {depth: navigating_the_feeling, framing: "embarrassment shrinks fast when you can laugh at yourself first", vocabulary: [laugh at yourself, shrink it, shrug]}
+      9: {depth: understanding_others, framing: "the spotlight feels bigger to you than to anyone watching", vocabulary: [spotlight, move on, perspective]}
+      10: {depth: understanding_others, framing: "helping someone past an embarrassing moment instead of piling on", vocabulary: [piling on, grace, change the subject]}
+    edges:
+      adjacent: [sel_theme.handling_mistakes, sel_theme.saying_sorry, sel_theme.self_doubt]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, self_management]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.handling_mistakes
+    axis: sel_theme
+    label: handling_mistakes
+    display_name: "Handling Mistakes"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: navigating_the_feeling, framing: "mistakes are how learning looks from the inside", vocabulary: [mistake, retry, learn]}
+      8: {depth: navigating_the_feeling, framing: "fixing what you can, owning what you can't undo", vocabulary: [own it, fix, can't undo]}
+      9: {depth: understanding_others, framing: "big mistakes need repair plans, not just apologies", vocabulary: [repair, plan, responsibility]}
+      10: {depth: understanding_others, framing: "watching how people you admire handle being wrong", vocabulary: [admit it, role model, grow]}
+    edges:
+      adjacent: [sel_theme.frustration, sel_theme.saying_sorry, sel_theme.disappointment]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management, responsible_decision_making]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.winning_and_losing
+    axis: sel_theme
+    label: winning_and_losing
+    display_name: "Winning and Losing"
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: navigating_the_feeling, framing: "losing stings; playing again anyway is the real win", vocabulary: [good game, sting, play again]}
+      8: {depth: navigating_the_feeling, framing: "winning without gloating and losing without blaming", vocabulary: [gloat, blame, grace]}
+      9: {depth: understanding_others, framing: "caring more about how you played than the final result", vocabulary: [effort, sportsmanship, result]}
+      10: {depth: understanding_others, framing: "why beating a strong opponent feels different from an easy win", vocabulary: [challenge, respect, worthy rival]}
+    edges:
+      adjacent: [sel_theme.disappointment, sel_theme.excitement, sel_theme.handling_mistakes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management, relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.peer_pressure
+    axis: sel_theme
+    label: peer_pressure
+    display_name: "Peer Pressure"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "the pull to go along when the whole group is watching", vocabulary: [go along, the pull, pause], avoid: ["framing all groups as bad", "adult lectures inside the story", "high-stakes danger scenarios"]}
+      10: {depth: understanding_others, framing: "deciding your line before the moment arrives, and planning your exit", vocabulary: [my line, exit plan, backbone], avoid: ["shaming characters who gave in once", "instant hero endings with no cost"]}
+    edges:
+      adjacent: [sel_theme.courage, sel_theme.belonging, sel_theme.rumors_and_gossip]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [responsible_decision_making, relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.self_doubt
+    axis: sel_theme
+    label: self_doubt
+    display_name: "Self-Doubt"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "the whisper that says you can't, and learning to talk back to it", vocabulary: [inner voice, talk back, not yet], avoid: ["negative self-talk left unresolved", "tying a character's worth to winning"]}
+      10: {depth: understanding_others, framing: "even the most confident-looking people hear the same whisper", vocabulary: [everyone has it, courage, keep going], avoid: ["negative self-talk left unresolved", "a character fixed forever by one pep talk"]}
+    edges:
+      adjacent: [sel_theme.courage, sel_theme.handling_mistakes, sel_theme.embarrassment]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, self_management]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.loss
+    axis: sel_theme
+    label: loss
+    display_name: "Loss"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "saying goodbye to a pet or a grandparent, and keeping the love", vocabulary: [goodbye, remember, keep the love], avoid: ["graphic death details", "dying parents as a plot device", "rushing the character past grief"]}
+      10: {depth: understanding_others, framing: "grief comes in waves and looks different for everyone", vocabulary: [grief, waves, remember together], avoid: ["graphic death details", "dying parents as a plot device", "tidy endings that erase the missing"]}
+    edges:
+      adjacent: [sel_theme.sadness, sel_theme.big_changes, sel_theme.calming_down]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_awareness, self_management]
+    milestones:
+      note: "Should loss open earlier, around 7, with pets-only stories, or is 9 the right starting age?"
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.belonging
+    axis: sel_theme
+    label: belonging
+    display_name: "Belonging"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "finding your people versus squeezing yourself to fit", vocabulary: [fit in, your people, belong]}
+      10: {depth: understanding_others, framing: "belonging to several groups at once without losing yourself", vocabulary: [identity, welcome, whole self]}
+    edges:
+      adjacent: [sel_theme.being_left_out, sel_theme.friendship, sel_theme.peer_pressure]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [social_awareness, relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.rumors_and_gossip
+    axis: sel_theme
+    label: rumors_and_gossip
+    display_name: "Rumors and Gossip"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "what to do when a rumor reaches you: let it stop at your ears", vocabulary: [rumor, pass it on, stop it here], avoid: ["gossip framed as harmless fun", "rumor content targeting real-world identity traits"]}
+      10: {depth: understanding_others, framing: "why gossip feels good to share and what it costs the person", vocabulary: [grapevine, the cost, trust], avoid: ["gossip framed as harmless fun", "romantic rumor plots"]}
+    edges:
+      adjacent: [sel_theme.friendship, sel_theme.peer_pressure, sel_theme.being_left_out]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [responsible_decision_making, relationship_skills]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.big_changes
+    axis: sel_theme
+    label: big_changes
+    display_name: "Big Changes"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "moving, new schools, new family shapes: riding a change you didn't choose", vocabulary: [change, adjust, anchor], avoid: ["blaming a parent for divorce or moving", "promising nothing will change"]}
+      10: {depth: understanding_others, framing: "what stays the same when everything else moves", vocabulary: [what stays, roots, adapt], avoid: ["blaming a parent for divorce or moving", "framing the old life as ruined"]}
+    edges:
+      adjacent: [sel_theme.worry, sel_theme.loss, sel_theme.sadness]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [self_management, self_awareness]
+    milestones:
+      note: "Comfortable including divorce storylines directly at 9, or keep to moves and new schools until reviewed?"
+      reviewed_by: null
+    status: draft
+
+  - id: sel_theme.independence
+    axis: sel_theme
+    label: independence
+    display_name: "Independence"
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: navigating_the_feeling, framing: "doing more on your own: routes, plans, and backup plans", vocabulary: [on my own, backup plan, trusted]}
+      10: {depth: understanding_others, framing: "independence grows in steps, and asking for help still counts", vocabulary: [step by step, earn it, good judgment]}
+    edges:
+      adjacent: [sel_theme.courage, sel_theme.asking_for_help, sel_theme.self_doubt]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: [responsible_decision_making, self_awareness]
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

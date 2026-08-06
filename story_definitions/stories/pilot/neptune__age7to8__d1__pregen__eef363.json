@@ -1,0 +1,317 @@
+{
+  "id": "story.neptune.age7to8.d1.pregen.eef363",
+  "title": "The Blue Marble at the End of the Road",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.neptune",
+    "sel_theme": null,
+    "value_lesson": "Patience pays off: the best clues come from looking a second time, more slowly",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A child detective follows clues about Neptune's color and weather to solve the mystery of the distant blue world.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Do you remember the smell of cut grass at dusk? I do. It was the summer I turned eight, and Grandpa set up his old brass telescope in the backyard.\n\nClick. Whirr. The telescope moved like it was waking up.\n\n\"Take a look,\" Grandpa said. \"Tell me what you see.\"\n\nI pressed my eye to the eyepiece. At first, just darkness. Then — there. A tiny blue marble at the very end of a long, dark road of space.\n\n\"I see it!\" I said. \"It's so blue.\"\n\nGrandpa leaned close. \"That's Neptune. The farthest planet from the Sun.\"\n\nI looked again. The blue was deep, like the bottom of a swimming pool. And something else — a thin white ribbon stretched across it. A cloud.\n\n\"But Grandpa,\" I said, pulling back from the telescope. \"If it's so far away, why does it look so bright?\"\n\nHe smiled. \"That's the mystery, isn't it?\"\n\nClick. Whirr. The telescope shifted, keeping the blue marble in view.\n\nI looked through again. The ribbon of cloud seemed to move, just a little. Like something was pushing it along.\n\n\"What pushes a cloud that far away?\" I whispered.\n\nGrandpa tapped the brass tube. \"Let's find out.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Look again,\" Grandpa said. \"Tell me if that blue reminds you of anything.\"\n\nI pressed my eye to the eyepiece. Click. Whirr. The brass tube settled.\n\n\"It's like the deep ocean,\" I said slowly. \"The part where the sunlight gives up.\"\n\nGrandpa nodded. \"Down there, fish make their own light. Little lanterns swimming in the dark.\"\n\nI pictured them — tiny glowing fish, drifting where the blue goes black. Then something else caught my eye. A thin, faint ring around the planet. Like the ghost of a hula hoop.\n\n\"Grandpa! It has a ring!\"\n\n\"Does it now?\"\n\n\"Barely. Like it's shy.\" I pulled back, blinking. \"So the blue isn't just a trick of being far away.\"\n\n\"No,\" Grandpa said. \"It's something else. Something the planet is doing all by itself.\"\n\nI looked again. The white ribbon of cloud stretched across that deep blue, and the faint ring held it all like a secret.\n\n\"What makes a planet glow like that?\" I whispered.\n\nGrandpa tapped the telescope. \"That's what detectives are for.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Grandpa,\" I said, \"how far away is it? Really?\"\n\nHe leaned against the fence. \"So far that sunlight takes more than four hours to get there.\"\n\n\"Four hours?\" I pulled back from the eyepiece. \"That's longer than a car ride to Grandma's.\"\n\n\"Much longer.\" He pointed up. \"The Sun is way behind us, like a warm lamp on a porch. By the time its light reaches Neptune, it's tired and thin.\"\n\nI looked through again. Click. Whirr. The telescope held steady.\n\nThe blue marble hung there, glowing. The white ribbon of cloud drifted across it, slow and sure.\n\n\"But Grandpa — if the Sun is that far away, the blue can't be borrowed light. Not bright like that.\"\n\n\"No,\" he said. \"It can't.\"\n\n\"So where does it come from?\"\n\nHe smiled. \"The planet must be making its own color somehow. Mixing it deep inside, where we can't see.\"\n\nI pressed my eye close again. The blue seemed to pulse, just a little. Like it knew something.\n\n\"What kind of planet makes its own blue?\" I whispered.\n\n\"Let's find out.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Grandpa unfolded a big piece of paper on the grass. It was covered in dots and lines, like a map of the sky.\n\n\"Look here,\" he said, pointing to a drawing of the Sun. \"Sunlight looks white, but it's really made of all the colors mixed together. Red, orange, yellow, green, blue.\"\n\nI nodded. \"Like a rainbow.\"\n\n\"Exactly. Now, Neptune is wrapped in a gas called methane.\" Grandpa tapped the paper. \"Methane acts like a sieve.\"\n\n\"A sieve? Like for flour?\"\n\n\"Just like that. When the sunlight hits Neptune, the methane catches the red light. It holds onto it. But the blue light?\" Grandpa wiggled his fingers. \"The blue light bounces right back off. It travels all the way across that long, dark distance, through the cold, and right into our telescope.\"\n\nI looked through the eyepiece again. Click. Whirr. The blue marble was still there, glowing.\n\n\"So the blue is the light that escaped,\" I said.\n\n\"That's it. The methane let the blue go free.\"\n\nI smiled. It was a good trick. But then I noticed the white ribbon again. It wasn't just floating. It was stretched into a long, thin line. And below it, I saw another one. And another. They were all combed into stripes, all pointing the same way.\n\n\"Grandpa,\" I said. \"The clouds. They're all lined up. Like something is combing them.\"\n\nGrandpa leaned in. \"Something is pushing them. Something fast.\"\n\n\"What is it?\" I asked.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"What pushes them?\" Grandpa said. \"Wind. The fastest wind in the whole solar system.\" He held up one finger. \"Over a thousand miles an hour. Faster than anything on Earth.\"\n\nI blinked. \"A thousand?\"\n\n\"That wind hurries the clouds along,\" Grandpa said. \"It stretches them into ribbons, all combed the same way. Like the stripes you see.\"\n\nI looked through the eyepiece again. Click. Whirr. The white ribbon raced across the blue, thin and fast.\n\n\"It's like someone combed the whole sky,\" I whispered.\n\nGrandpa nodded. \"The wind does the combing. Every day. Every night. It never gets tired.\"\n\nI pulled out my notebook and wrote it down. Neptune. Fastest wind. Clouds in ribbons. My pencil scratched quick across the page.\n\nWhen I looked up, Grandpa was holding something small and round. A blue marble, deep as Neptune itself.\n\n\"For you,\" he said. \"A little piece of the faraway world.\"\n\nI held it up to the sky. The marble glowed, just like the planet. I slipped it into my pocket, where it sat cool and smooth against my leg.\n\n\"Thank you,\" I said.\n\nGrandpa smiled. \"Keep it close. The farthest things aren't so far when you carry them home.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"But Grandpa,\" I said, still watching the clouds. \"Does the wind ever stop?\"\n\nHe shook his head. \"No. Neptune makes its own weather, deep inside. It doesn't need much sunlight. The wind just keeps going.\"\n\n\"Always?\"\n\n\"Always. Like a engine that never runs out.\"\n\nI thought about that. A wind that never rests, hurrying clouds across a world so far away.\n\n\"Let's draw it,\" Grandpa said. He pulled out crayons from his pocket. Blue, white, a little gray.\n\nWe sat on the grass and drew together. I made the deep blue circle. Grandpa added the white ribbons, streaky and fast. We drew line after line, all pointing the same way, all racing.\n\n\"There,\" Grandpa said. \"A map of the wind.\"\n\nI held up the drawing. The clouds looked like they were moving, even on paper.\n\n\"Can I take it home?\"\n\n\"Of course. Tape it to the refrigerator. Every time you see it, you'll remember. The wind is still blowing out there. Right now.\"\n\nI folded the drawing careful and held it tight. The farthest planet, with its racing clouds, was coming home with me.\n\n\"Thanks, Grandpa,\" I said.\n\nHe winked. \"The wind never stops. Neither does a good mystery.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do you want to look at the color first, or shall we measure how far away it is?\"",
+      "options": [
+        {
+          "say_word": "Color",
+          "label": "Look at the deep blue color",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Distance",
+          "label": "Measure the long road of light",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do you want to know what pushes those clouds, or do you want to know if the wind ever stops?\"",
+      "options": [
+        {
+          "say_word": "Push",
+          "label": "Find out what pushes the clouds",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Rest",
+          "label": "Ask if the wind ever stops",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.neptune",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.planets",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The question of why Neptune looks blue is a natural gentle mystery for an 8-year-old, with clues about distance, gas, and sunlight accumulating toward a satisfying answer, while the fast winds can hurry the cloud clues along.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The brass telescope that clicks and whirs when it moves",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience pays off: the best clues come from looking a second time, more slowly",
+      "why": "The mystery structure requires the kid to look twice at the clouds to see the wind pattern, and Grandpa explicitly models slowing down to notice details"
+    },
+    "cast": [
+      {
+        "role": "The Storyteller (I)",
+        "reused": false,
+        "why": "Frame narrator who establishes the memory and closes it warmly"
+      },
+      {
+        "role": "The Kid Detective",
+        "reused": false,
+        "why": "Curious observer who notices the odd blue dot and asks the questions"
+      },
+      {
+        "role": "Grandpa",
+        "reused": false,
+        "why": "Patient guide who compares sky colors to sea colors and knows how to use the telescope"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "farthest planet distance fact",
+        "methane gas absorbing red light",
+        "fastest winds in solar system",
+        "winds stretching clouds into streaks",
+        "faint thin rings",
+        "backyard at dusk setting",
+        "grandparent who watched sky from fishing boat",
+        "kid who collects questions",
+        "deep sea fish comparison",
+        "patience value angle"
+      ],
+      "gathered_but_unused": [
+        "Neptune is the farthest planet from the Sun, so far that sunlight takes more than four hours to reach it.",
+        "Neptune looks deep blue because its air has a gas called methane, which soaks up red light and lets blue light bounce back to our eyes.",
+        "Neptune has the fastest winds in the whole solar system, blowing over a thousand miles per hour.",
+        "The fast winds push Neptune's white clouds into long streaks and bands that wrap around the planet.",
+        "Because Neptune is so far from the Sun, it gets very little sunlight, yet its winds still hurry along powerfully.",
+        "Neptune has faint, thin rings made of dust and ice that are hard to see.",
+        "Neptune was found with math before anyone saw it through a telescope; scientists noticed something tugging on a neighboring planet.",
+        "One year on Neptune lasts about 165 Earth years, so no person has ever lived through a whole Neptunian year."
+      ]
+    },
+    "safety_beat": "Grandpa shows the Kid Detective how to stand on the blanket and lean into the telescope eyepiece without grabbing the tube, demonstrating where to put feet and hands.",
+    "motif": "A ribbon of white cloud stretching across deep blue",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.planets.journey_001",
+        "title": "The Night the Telescope Opened",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already pairs a warm, attentive grandparent-child companionship with a genuine mystery that is pursued, answered, and carried home, and its sound-words and images land cleanly when read aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in toward the eyepiece",
+        "s2a": "hushed wonder at the shy ring",
+        "s2b": "wide-eyed at the bigness, then cozy again",
+        "s3": "the satisfying click of an answer",
+        "s4a": "a small gasp at the wind, then a warm pocket-sized gift",
+        "s4b": "content and proud, carrying the drawing home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 11 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.1); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.0); [s2b] flat rhythm: sentence lengths vary little (spread 3.9); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.0); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 3.6)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.0)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.0)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[story] slots: declared but never used: ['detective_name']"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "08_neptune_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

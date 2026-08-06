@@ -1,0 +1,184 @@
+axis: knowledge_domain
+pack: human_body
+nodes:
+  - id: knowledge_domain.five_senses
+    axis: knowledge_domain
+    label: five_senses
+    display_name: "The Five Senses"
+    region: human_body
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "seeing, hearing, smelling, tasting, touching; the five ways you meet the world", vocabulary: [see, hear, touch]}
+      6: {depth: sensory, framing: "guessing games with your senses; how a smell can carry you back to a place", vocabulary: [sense, taste bud, sniff]}
+      7: {depth: mechanism, framing: "eyes and ears are collectors; they gather clues and send them along nerves to the brain", vocabulary: [signal, nerve, eardrum]}
+      8: {depth: mechanism, framing: "how the senses team up; why food tastes dull when your nose is blocked", vocabulary: [receptor, vision, hearing]}
+    edges:
+      adjacent: [knowledge_domain.the_brain, knowledge_domain.colors_and_mixing, knowledge_domain.nocturnal_animals]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-LS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.bones_and_skeleton
+    axis: knowledge_domain
+    label: bones_and_skeleton
+    display_name: "Bones and the Skeleton"
+    region: human_body
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the strong frame hiding inside you; wiggle your fingers and feel the bones move", vocabulary: [bone, skeleton, wiggle]}
+      6: {depth: sensory, framing: "big bones and tiny bones; the built-in helmet that keeps your brain safe", vocabulary: [skull, rib, spine]}
+      7: {depth: mechanism, framing: "joints are the body's hinges; how bones and muscles team up to move you", vocabulary: [joint, muscle, hinge]}
+      8: {depth: mechanism, framing: "bones are alive and growing; how a mended bone quietly knits itself back together", vocabulary: [marrow, calcium, heal], avoid: ["graphic injury or painful fracture scenes"]}
+      9: {depth: system, framing: "the skeleton as scaffolding for the whole body; 206 bones working as one team", vocabulary: [vertebrae, cartilage, ligament]}
+      10: {depth: system, framing: "comparing skeletons across animals; what bones tell scientists about how a creature lives", vocabulary: [femur, joint socket, anatomy]}
+    edges:
+      adjacent: [knowledge_domain.heart_and_blood, knowledge_domain.dinosaurs, knowledge_domain.fossils]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.heart_and_blood
+    axis: knowledge_domain
+    label: heart_and_blood
+    display_name: "The Heart and Blood"
+    region: human_body
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the gentle drumbeat in your chest; feel it thump faster when you run", vocabulary: [heartbeat, thump, chest], avoid: ["hearts stopping or heart attacks", "life-threatening illness or death"]}
+      6: {depth: sensory, framing: "your heart keeps working even while you sleep; blood is the body's delivery river", vocabulary: [heart, blood, pulse], avoid: ["hearts stopping or heart attacks", "life-threatening illness or death"]}
+      7: {depth: mechanism, framing: "the heart is a pump; blood loops around the body carrying oxygen to every corner", vocabulary: [pump, oxygen, vein], avoid: ["hearts stopping or heart attacks", "life-threatening illness or death"]}
+      8: {depth: mechanism, framing: "a two-sided pump with one-way doors; why your heart speeds up when you play hard", vocabulary: [artery, valve, circulation], avoid: ["hearts stopping or heart attacks", "life-threatening illness or death"]}
+      9: {depth: system, framing: "the circulatory system as the body's delivery network; blood cells with different jobs", vocabulary: [red blood cell, circulatory system, capillary], avoid: ["hearts stopping or heart attacks", "life-threatening illness or death"]}
+      10: {depth: system, framing: "how exercise trains the heart; doctors listening to the story a heartbeat tells", vocabulary: [cardiac, stethoscope, blood pressure], avoid: ["hearts stopping or heart attacks", "life-threatening illness or death"]}
+    edges:
+      adjacent: [knowledge_domain.bones_and_skeleton, knowledge_domain.sleep_and_dreams, knowledge_domain.germs_and_staying_healthy]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.digestion
+    axis: knowledge_domain
+    label: digestion
+    display_name: "Digestion"
+    region: human_body
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "the journey of a bite of food; a long twisty tube from mouth to exit", vocabulary: [stomach, swallow, intestine]}
+      8: {depth: mechanism, framing: "how the stomach churns and juices break food down into fuel", vocabulary: [digest, saliva, nutrient]}
+      9: {depth: system, framing: "the digestive system as a factory line; each organ with its own job in order", vocabulary: [digestive system, esophagus, enzyme]}
+      10: {depth: system, framing: "the helpful microbes living in your gut; how food becomes energy for every cell", vocabulary: [gut bacteria, absorption, fiber]}
+    edges:
+      adjacent: [knowledge_domain.heart_and_blood, knowledge_domain.germs_and_staying_healthy, knowledge_domain.farms_and_food]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-PS3-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.germs_and_staying_healthy
+    axis: knowledge_domain
+    label: germs_and_staying_healthy
+    display_name: "Germs and Staying Healthy"
+    region: human_body
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "invisible tiny critters; why we wash our hands before snacks", vocabulary: [germ, soap, wash], avoid: ["frightening illness, dying, or hospital peril", "germs framed as unstoppable monsters"]}
+      6: {depth: sensory, framing: "sneezes fly like tiny sprinklers; catching coughs in your elbow", vocabulary: [sneeze, tissue, clean], avoid: ["frightening illness, dying, or hospital peril", "germs framed as unstoppable monsters"]}
+      7: {depth: mechanism, framing: "germs are living things too small to see; how soap sweeps them off your skin", vocabulary: [bacteria, virus, microscope], avoid: ["frightening illness, dying, or hospital peril", "germs framed as unstoppable monsters"]}
+      8: {depth: mechanism, framing: "your body's inside defenders; why rest and good food help you feel better", vocabulary: [immune system, white blood cell, vaccine], avoid: ["frightening illness, dying, or hospital peril", "germs framed as unstoppable monsters"]}
+      9: {depth: system, framing: "how scientists first discovered germs; vaccines teach the body to recognize invaders", vocabulary: [Pasteur, microbe, antibody], avoid: ["frightening illness, dying, or hospital peril", "pandemic fear or overwhelming outbreak scenarios"]}
+      10: {depth: system, framing: "outsmarting germs together; how communities keep sickness from spreading", vocabulary: [immunity, hygiene, antibiotic], avoid: ["frightening illness, dying, or hospital peril", "pandemic fear or overwhelming outbreak scenarios"]}
+    edges:
+      adjacent: [knowledge_domain.heart_and_blood, knowledge_domain.digestion, knowledge_domain.mushrooms_and_fungi]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.sleep_and_dreams
+    axis: knowledge_domain
+    label: sleep_and_dreams
+    display_name: "Sleep and Dreams"
+    region: human_body
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "getting sleepy, yawning, and drifting off; the cozy job of bedtime", vocabulary: [yawn, cozy, dream], avoid: ["frightening nightmares or night terrors", "monsters that come while children sleep"]}
+      6: {depth: sensory, framing: "dreams are stories your mind tells at night; waking up fresh for a new day", vocabulary: [dream, bedtime, rest], avoid: ["frightening nightmares or night terrors", "monsters that come while children sleep"]}
+      7: {depth: mechanism, framing: "what the body fixes and grows while you sleep; why sleepy brains get grumpy", vocabulary: [energy, routine, recharge], avoid: ["frightening nightmares or night terrors", "monsters that come while children sleep"]}
+      8: {depth: mechanism, framing: "sleep comes in cycles; the busy dreaming part where eyes flick under closed lids", vocabulary: [sleep cycle, REM, brain wave], avoid: ["frightening nightmares or night terrors", "monsters that come while children sleep"]}
+      9: {depth: system, framing: "how sleep files away the day's memories; animals that sleep in surprising ways", vocabulary: [memory, hibernate, circadian], avoid: ["frightening nightmares or night terrors", "worry about being unable to sleep"]}
+      10: {depth: system, framing: "scientists studying sleep in special labs; why bodies keep a built-in clock", vocabulary: [sleep lab, body clock, melatonin], avoid: ["frightening nightmares or night terrors", "worry about being unable to sleep"]}
+    edges:
+      adjacent: [knowledge_domain.the_brain, knowledge_domain.nocturnal_animals, knowledge_domain.day_and_night]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.the_brain
+    axis: knowledge_domain
+    label: the_brain
+    display_name: "The Brain"
+    region: human_body
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "the body's control room; messages zipping along nerves like tiny wires", vocabulary: [brain, nerve, message], avoid: ["brain injuries or characters losing their memories or minds"]}
+      8: {depth: mechanism, framing: "different brain parts with different jobs; practice makes their pathways stronger", vocabulary: [neuron, memory, signal], avoid: ["brain injuries or characters losing their memories or minds"]}
+      9: {depth: system, framing: "billions of brain cells wired into networks; how learning rewires the brain", vocabulary: [synapse, cortex, reflex], avoid: ["brain injuries or characters losing their memories or minds"]}
+      10: {depth: system, framing: "the brain compared with computers; the puzzles scientists still cannot solve", vocabulary: [neuroscience, cerebellum, perception], avoid: ["brain injuries or characters losing their memories or minds"]}
+    edges:
+      adjacent: [knowledge_domain.five_senses, knowledge_domain.sleep_and_dreams, knowledge_domain.computers_and_code]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-LS1-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.genes_and_heredity
+    axis: knowledge_domain
+    label: genes_and_heredity
+    display_name: "Genes and Heredity"
+    region: human_body
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "why kittens look like cats and you look a bit like your family; recipes written inside every cell", vocabulary: [gene, inherit, trait], avoid: ["ranking inherited traits as better or worse", "genetic illness or predicting a person's future from genes"]}
+      10: {depth: system, framing: "DNA as an instruction book copied into every cell; how traits mix and pass down through generations", vocabulary: [DNA, chromosome, heredity], avoid: ["ranking inherited traits as better or worse", "genetic illness or predicting a person's future from genes"]}
+    edges:
+      adjacent: [knowledge_domain.life_cycles, knowledge_domain.endangered_animals, knowledge_domain.fossils]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS3-1"]
+      casel: []
+    milestones:
+      note: "Families vary widely (adoption, blended families); is the year-9 framing about family resemblance okay as written?"
+      reviewed_by: null
+    status: draft

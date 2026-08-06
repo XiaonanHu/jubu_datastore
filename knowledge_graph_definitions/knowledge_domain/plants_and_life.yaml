@@ -1,0 +1,184 @@
+axis: knowledge_domain
+pack: plants_and_life
+nodes:
+  - id: knowledge_domain.seeds_and_plants
+    axis: knowledge_domain
+    label: seeds_and_plants
+    display_name: "Seeds and Plants"
+    region: plants_and_life
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "a whole plant sleeping inside a tiny seed — plant it, water it, watch it wake up", vocabulary: [seed, sprout, soil]}
+      6: {depth: sensory, framing: "seeds on the move — helicopter seeds spinning, burrs hitchhiking, dandelion fluff sailing", vocabulary: [dandelion, pod, scatter]}
+      7: {depth: mechanism, framing: "what a seed needs to wake up — water, warmth, and a place to put down roots", vocabulary: [germinate, root, shoot]}
+      8: {depth: mechanism, framing: "plant plumbing — roots drink, stems carry, leaves catch light; each part has a job", vocabulary: [stem, nutrients, seedling]}
+      9: {depth: system, framing: "seed strategies — why one oak makes thousands of acorns, and who plants forests by accident", vocabulary: [dispersal, dormant, germination rate]}
+      10: {depth: system, framing: "seeds people depend on — crop varieties, seed banks, and saving seeds for the future", vocabulary: [seed bank, variety, cultivate]}
+    edges:
+      adjacent: [knowledge_domain.trees, knowledge_domain.gardens_and_growing_food, knowledge_domain.life_cycles]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-LS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.trees
+    axis: knowledge_domain
+    label: trees
+    display_name: "Trees"
+    region: plants_and_life
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the biggest plants of all — rough bark to touch, branches to climb under, leaves that whisper", vocabulary: [bark, branch, leaf]}
+      6: {depth: sensory, framing: "trees through the year — blossoms, green shade, crunchy color piles, bare arms in winter", vocabulary: [blossom, acorn, trunk]}
+      7: {depth: mechanism, framing: "how a tree drinks — water climbing from roots to the highest leaf without a pump", vocabulary: [roots, sap, evergreen]}
+      8: {depth: mechanism, framing: "tree rings as a diary — counting years, spotting good summers and hard winters", vocabulary: [tree rings, growth, deciduous]}
+      9: {depth: system, framing: "a tree is a village — hundreds of creatures live on one oak from root to crown", vocabulary: [canopy, habitat, old-growth]}
+      10: {depth: system, framing: "the wood wide web — trees sharing food and signals underground through fungal threads", vocabulary: [fungal network, seedling nursery, forest ecology]}
+    edges:
+      adjacent: [knowledge_domain.seeds_and_plants, knowledge_domain.rainforests, knowledge_domain.seasons]
+      prerequisite: []
+    crosswalk:
+      ngss: ["4-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.flowers_and_pollination
+    axis: knowledge_domain
+    label: flowers_and_pollination
+    display_name: "Flowers and Pollination"
+    region: plants_and_life
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "flowers are invitations — bright colors, sweet smells, and bees stopping by for a sip", vocabulary: [petal, bee, smell]}
+      6: {depth: sensory, framing: "the yellow dust on the bee's fuzzy legs — flowers giving out gifts to their visitors", vocabulary: [pollen, nectar, bud]}
+      7: {depth: mechanism, framing: "the flower deal — nectar for the visitor, pollen delivery for the plant, seeds as the payoff", vocabulary: [pollination, pollinator, bloom]}
+      8: {depth: mechanism, framing: "matchmaking by design — why some flowers pick bees, others pick hummingbirds or moths", vocabulary: [petal shape, hummingbird, fragrance]}
+      9: {depth: system, framing: "no pollinators, no apples — how flowers and their visitors keep farms and meadows running", vocabulary: [crop pollination, wildflower meadow, hive]}
+      10: {depth: system, framing: "flowers and pollinators shaped each other over millions of years — a partnership written in petal and wing", vocabulary: [co-evolution, orchid, pollinator decline], avoid: [hopeless doom framing about bee decline]}
+    edges:
+      adjacent: [knowledge_domain.insects, knowledge_domain.seeds_and_plants, knowledge_domain.gardens_and_growing_food]
+      prerequisite: []
+    crosswalk:
+      ngss: ["2-LS2-2"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.mushrooms_and_fungi
+    axis: knowledge_domain
+    label: mushrooms_and_fungi
+    display_name: "Mushrooms and Fungi"
+    region: plants_and_life
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "not plants at all — mushrooms are the fruit of a hidden underground web", vocabulary: [mushroom, spore, mold], avoid: [characters eating wild mushrooms, poisoning scenes]}
+      8: {depth: mechanism, framing: "nature's recyclers — fungi turning fallen logs and leaves back into soil", vocabulary: [fungus, decompose, mycelium], avoid: [characters eating wild mushrooms]}
+      9: {depth: system, framing: "the underground internet — fungal threads connecting tree roots across a whole forest", vocabulary: [fungal network, symbiosis, lichen], avoid: [encouraging foraging without an expert]}
+      10: {depth: system, framing: "fungi at work for people — yeast raising bread, molds making medicine, fungi cleaning up pollution", vocabulary: [yeast, penicillin, fermentation], avoid: [encouraging foraging without an expert]}
+    edges:
+      adjacent: [knowledge_domain.ecosystems, knowledge_domain.trees, knowledge_domain.food_chains]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-LS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.life_cycles
+    axis: knowledge_domain
+    label: life_cycles
+    display_name: "Life Cycles"
+    region: plants_and_life
+    age_bands: ["5-6", "7-8", "9-10"]
+    age_treatments:
+      5: {depth: sensory, framing: "the caterpillar's big surprise — munch, wrap up, rest, and out come wings", vocabulary: [caterpillar, butterfly, egg], avoid: [dwelling on death as the end of the cycle]}
+      6: {depth: sensory, framing: "round and round — tadpole to frog, chick to hen, seed to sunflower to seed again", vocabulary: [tadpole, hatch, grow], avoid: [dwelling on death as the end of the cycle]}
+      7: {depth: mechanism, framing: "same animal, different stages — what changes at each step and why each stage has a job", vocabulary: [life cycle, stage, larva]}
+      8: {depth: mechanism, framing: "total makeover vs. growing up gradually — metamorphosis compared with just getting bigger", vocabulary: [metamorphosis, chrysalis, nymph]}
+      9: {depth: system, framing: "life cycles in sync — frogs timed to spring ponds, cicadas counting seventeen years underground", vocabulary: [reproduction, seasonal timing, generation]}
+      10: {depth: system, framing: "fast lives and slow lives — why a mayfly gets a day and a tortoise gets a century", vocabulary: [lifespan, maturity, survival strategy]}
+    edges:
+      adjacent: [knowledge_domain.animal_babies, knowledge_domain.seeds_and_plants, knowledge_domain.insects]
+      prerequisite: []
+    crosswalk:
+      ngss: ["3-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.ecosystems
+    axis: knowledge_domain
+    label: ecosystems
+    display_name: "Ecosystems"
+    region: plants_and_life
+    age_bands: ["9-10"]
+    age_treatments:
+      9: {depth: system, framing: "a pond, a forest, a tide pool — every living thing plus its home working as one connected system", vocabulary: [ecosystem, habitat, interdependence]}
+      10: {depth: system, framing: "balance and change — invasive newcomers, keystone species, and how scientists restore a broken ecosystem", vocabulary: [invasive species, restoration, biome], avoid: [hopeless doom framing about environmental damage]}
+    edges:
+      adjacent: [knowledge_domain.food_chains, knowledge_domain.rainforests, knowledge_domain.endangered_animals]
+      prerequisite: [knowledge_domain.food_chains]
+    crosswalk:
+      ngss: ["5-LS2-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.photosynthesis
+    axis: knowledge_domain
+    label: photosynthesis
+    display_name: "Photosynthesis"
+    region: plants_and_life
+    age_bands: ["7-8", "9-10"]
+    age_treatments:
+      7: {depth: mechanism, framing: "leaves are food factories — sunlight in, plant food made; that's why plants lean toward windows", vocabulary: [sunlight, leaf, energy]}
+      8: {depth: mechanism, framing: "the recipe — air plus water plus light makes sugar, and oxygen comes out as the leftover", vocabulary: [carbon dioxide, oxygen, chlorophyll]}
+      9: {depth: system, framing: "every breath traces back to a leaf — plants and algae as the planet's oxygen makers", vocabulary: [algae, glucose, atmosphere]}
+      10: {depth: system, framing: "photosynthesis powers almost every food chain on Earth — and engineers are still trying to copy it", vocabulary: [solar energy, carbon cycle, artificial photosynthesis]}
+    edges:
+      adjacent: [knowledge_domain.trees, knowledge_domain.seeds_and_plants, knowledge_domain.the_sun]
+      prerequisite: []
+    crosswalk:
+      ngss: ["5-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.gardens_and_growing_food
+    axis: knowledge_domain
+    label: gardens_and_growing_food
+    display_name: "Gardens and Growing Food"
+    region: plants_and_life
+    age_bands: ["5-6", "7-8"]
+    age_treatments:
+      5: {depth: sensory, framing: "dirt under your fingernails — planting, watering, and pulling a real carrot out of the ground", vocabulary: [garden, carrot, dig]}
+      6: {depth: sensory, framing: "the waiting game — checking the tomato every day until it finally turns red", vocabulary: [tomato, ripe, harvest]}
+      7: {depth: mechanism, framing: "what gardens need — sun hours, good soil, the right season for each vegetable", vocabulary: [compost, planting season, weed]}
+      8: {depth: mechanism, framing: "garden problem-solving — helpful worms, hungry slugs, and why farmers rotate their crops", vocabulary: [earthworm, crop rotation, greenhouse]}
+    edges:
+      adjacent: [knowledge_domain.seeds_and_plants, knowledge_domain.farms_and_food, knowledge_domain.flowers_and_pollination]
+      prerequisite: []
+    crosswalk:
+      ngss: ["K-LS1-1"]
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft

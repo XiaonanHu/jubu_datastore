@@ -1,0 +1,358 @@
+{
+  "id": "story.where_breakfast_comes_from.age7to8.d1.pregen.e6ac86",
+  "title": "The Great Breakfast Detective Agency",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.where_breakfast_comes_from",
+    "sel_theme": null,
+    "value_lesson": "Appreciating the farmers and animals who worked to make your breakfast",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "We follow three small clues (feather, wheat dust, butter smell) backward from our morning table to discover how wheat becomes flour, cream becomes butter, and hens make eggs.",
+  "slots": {
+    "farm_dog_name": {
+      "role": "The Farm Dog",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Scout"
+    },
+    "egg_description": {
+      "role": "The speckled egg we find",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "still warm with brown spots like freckles"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The kitchen table is set for breakfast, but our plates are empty. Completely, mysteriously empty.\n\n\"Something's wrong here,\" we say.\n\n{farm_dog_name} thinks so too. The scruffy little dog is already sniffing along the tabletop, tail going like a wind-up toy.\n\nThen we spot them. Three clues, hiding in plain sight.\n\nA soft brown feather, curled by the salt shaker. A dusting of white powder, like someone sneezed snow. And a yellow smear, right where the butter dish should be.\n\n\"Look at this,\" we whisper, picking up the feather. It tickles our palm. Somebody's breakfast was wearing this.\n\n{farm_dog_name} sneezes in the white powder. It puffs up like a tiny cloud, and we laugh. Flour, maybe? But how did it get here?\n\nThe yellow smear shines in the morning light. We touch it. Slippery. Rich. Like sunshine you can spread.\n\n\"Three clues,\" we say, \"and no breakfast.\"\n\n{farm_dog_name} barks sharp and sudden, making us jump. The dog is at the window now, paws on the sill, barking at something outside.\n\nWe look at each other. The question pops out before we can stop it.\n\n\"Where does breakfast actually come from?\"\n\n{farm_dog_name} barks again, louder. The adventure is calling.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We follow the feather out the back door, across the yard, toward the big red barn. {farm_dog_name} bounds ahead, barking at every clump of grass like it might be hiding treasure.\n\nInside, the barn smells like warm straw and sunshine. Something rustles in the nesting boxes.\n\n\"Shh,\" we whisper. \"Listen.\"\n\nRustle. Rustle.\n\nA hen pokes her head up, feathers puffed, blinking at us. She clucks softly, then hops down and struts away like she's late for a meeting.\n\nWe peek inside the box. At first it looks empty. Just straw. But then we see it, tucked in the corner like a secret.\n\nAn egg. {egg_description}.\n\n\"She sat right here,\" we breathe. \"Day after day, keeping it warm under her feathers.\"\n\n{farm_dog_name} whines softly, nose twitching, but doesn't bark. Even the dog knows this is a moment for quiet.\n\nWe pick up the egg. It's warm. Actually warm, like it's still holding onto the hen's body heat.\n\n\"Breakfast,\" we say, \"was being made all along.\"\n\nThe hen clucks from the doorway, as if to say, \"Of course it was.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We follow the trail of white dust across the yard, past the garden, toward the old stone mill. {farm_dog_name} zigzags ahead, sniffing the ground, sneezing every few steps.\n\nThe miller waves from the doorway. \"Looking for something, detectives?\"\n\n\"This,\" we say, showing her the powder on our fingers.\n\nShe grins. \"Come see.\"\n\nInside, golden wheat stalks lean in bundles, tall as our shoulders. The air smells like toast before it's toast.\n\n\"This is wheat,\" the miller says. \"We harvest it in summer, when the grains are fat and dry.\"\n\nShe picks up a handful of grains. They're hard. Like tiny pebbles.\n\n\"How does this become flour?\" we ask.\n\nThe miller points to two enormous stones, round as wagon wheels. \"Watch.\"\n\nThe stones turn. Slow. Heavy. The wheat falls between them and comes out the other side as soft white powder, drifting down like snow.\n\n\"It's just wheat,\" we say, amazed. \"Smashed into flour.\"\n\n{farm_dog_name} barks once, sharp and delighted.\n\nThe miller laughs. \"Your dog gets it.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back in the farmhouse kitchen, something is shaking. Rattle. Rattle. {farm_dog_name} hears it first and skids around the doorframe, claws clicking on the floorboards.\n\nA farmer stands at the counter, rolling a glass jar back and forth between their palms. Inside, white cream sloshes and swishes. \"You're just in time,\" the farmer says. \"The butter's nearly here.\"\n\n\"Butter?\" we ask. \"That's just cream.\"\n\n\"Here,\" the farmer says, pressing the jar into our hands. \"Feel it happen.\"\n\nSo we shake. The cream sloshes thin and splashy at first, like water. Then the sound goes thick—glug, glug—like the jar is stirring porridge. Then the rattle turns heavy, and suddenly—thump. A golden lump knocks against the glass, sitting in a pool of white. The farmer lifts it out and it gleams, soft as morning sunshine, and suddenly the yellow smear on our empty table makes perfect sense.\n\n{farm_dog_name} barks once, sharp and proud, tail thumping the floor. The farmer laughs and cuts a thick slice.\n\n\"So,\" the farmer says, holding it out to us. \"What did you two find out there? Tell me everything.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We'll churn it!\" we say, and grab the jar.\n\nThe cream is heavier than we thought. We shake and shake. Shake and shake. Our arms get tired, but we don't stop. \"Almost there,\" says the farmer.\n\n{farm_dog_name} pushes the jar with their nose, helping. Rattle. Rattle. Then—thump. The lump of butter lands against the glass.\n\n\"We did it!\" we shout.\n\nThe farmer spreads our butter on toast made from the wheat we saw. We add the egg, {egg_description}, right on top. It shines like a small sun.\n\nWe bite. Crunch. The toast is warm, the butter is rich, and the egg tastes like morning.\n\n{farm_dog_name} curls up at our feet, sighing a happy sigh, tail thumping once. The table isn't empty anymore. It's full of everything we found, and everything we made.\n\n\"Best detective work ever,\" we say, mouth full.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The truck!\" we say. \"We want to see where it goes!\"\n\nWe run outside just as the farmer loads the last crate. Eggs, packed careful as treasure. Bags of flour, stacked high. {farm_dog_name} leaps up beside the driver, barking goodbye, then jumps down to race alongside us as the truck rumbles down the lane.\n\nWe watch it grow smaller and smaller, dust rising behind it like a golden cloud. \"Where's it going?\" we ask.\n\n\"To the store,\" the farmer says. \"Then to kitchens everywhere. Breakfast travels far before it reaches your plate.\"\n\nWe walk back to the farmhouse slowly, thinking about fields and roads and stores. When we open the door, the table is waiting. Toast from the wheat we saw. Butter we watched form. And the egg, {egg_description}, sitting in a blue bowl.\n\n{farm_dog_name} flops down, panting and proud. We sit, and everything makes sense now—every bite came from somewhere, worked hard to get here.\n\n\"Breakfast detectives,\" we say, raising our toast. \"Case closed.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We have two clues, detectives. Do we follow the feather to the barn, or track the white dust to the mill?\"",
+      "options": [
+        {
+          "say_word": "barn",
+          "label": "Follow the feather to the chicken coop",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "mill",
+          "label": "Track the white dust to the grinding stones",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"We know where everything comes from now. Do we stay and churn the butter ourselves, or follow the truck to see how breakfast travels to tables everywhere?\"",
+      "options": [
+        {
+          "say_word": "churn",
+          "label": "Stay in the kitchen and shake the cream jar",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "journey",
+          "label": "Follow the truck toward the store",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.where_breakfast_comes_from",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 21
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's material—flour is smashed wheat, butter is shaken cream, eggs come from hens—is naturally a set of 'wait, really?' revelations, so a mystery structure lets an 8-year-old trace each breakfast item back to its surprising origin clue by clue.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "The Farm Dog (a scruffy terrier mix who bounds ahead, barking at every discovery and treating each clue like a buried treasure)",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Appreciating the farmers and animals who worked to make your breakfast",
+      "why": "The mystery structure naturally reveals the labor behind each food, making gratitude for the journey from farm to table an organic outcome rather than a lesson"
+    },
+    "cast": [
+      {
+        "role": "The Farm Dog",
+        "reused": false,
+        "why": "Carries the big_adventure accent with boundless energy, leading us from clue to clue across the farm"
+      },
+      {
+        "role": "The Miller",
+        "reused": false,
+        "why": "Shows us the grinding stones and explains how wheat becomes flour; demonstrates competence by standing on the wooden platform, not the moving stones"
+      },
+      {
+        "role": "The Dairy Farmer",
+        "reused": false,
+        "why": "Demonstrates the churning process and explains how cream transforms into butter"
+      },
+      {
+        "role": "The Hen",
+        "reused": false,
+        "why": "Provides the egg clue and shows us the nest where breakfast begins"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wheat_to_toast",
+        "milk_to_butter",
+        "eggs_from_hens",
+        "the_journey_to_your_table",
+        "flour is smashed wheat",
+        "butter is shaken cream",
+        "an egg is a little breakfast a hen made overnight",
+        "A sunny wheat field in late summer",
+        "A cozy barn with wooden walls",
+        "A farmhouse kitchen with a wooden table",
+        "A miller operates the grinding stones",
+        "A dairy farmer wakes up before sunrise",
+        "A hen sat in a nest and laid the egg yesterday",
+        "Peeking into a kitchen cabinet to find a bag of flour",
+        "Following a recipe card that says 'churn the cream'",
+        "Visiting a neighbor's kitchen where they are baking bread"
+      ],
+      "gathered_but_unused": [
+        "Flour is made from wheat grains that have been crushed and ground until they turn into soft, powdery dust.",
+        "Butter is made by churning or shaking cream until the fat globules stick together and separate from the liquid.",
+        "Hens usually lay one egg per day, and the egg is already fully formed inside the hen before she sits in the nest.",
+        "Wheat is harvested in late summer when the stalks turn from green to golden yellow and the grains are hard and dry.",
+        "To make toast, bread dough is baked first, then sliced and heated again until the sugars in the bread turn brown and crisp.",
+        "Eggs have a protective shell made of calcium that keeps the inside clean, even though the shell looks fragile.",
+        "Cows eat grass and hay, and their bodies turn that plant food into milk that farmers collect every morning.",
+        "Breakfast foods travel from farms to stores in trucks, trains, or ships before they reach your kitchen table."
+      ]
+    },
+    "safety_beat": "At the mill, the Miller stands firmly on the wooden platform beside the grinding stones, gesturing for us to stand on the safe viewing area while keeping hands away from the moving parts—showing competence through positioning, not warning.",
+    "motif": "The empty breakfast table that slowly fills with understanding",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "busy_workshop",
+          "why": "The story is about where breakfast comes from, but the making steps are mostly watched rather than done, and the doing is where this story's pleasure lives.",
+          "editor_notes": [
+            "In s2b, the milling is the story's best transformation and it goes by in three sentences: 'The stones turn. Slow. Heavy. The wheat falls between them and comes out the other side as soft white powder.' Give the child the steps in order — the miller pouring grain into the hole in the top stone, the stone's weight doing the work, the flour coming out warm at the edges — so the listener sees it come together instead of being told it happened.",
+            "In s3, the churning is narrated as a summary ('The cream goes cloudy, then thick, then clumpy') while the child only watches. Since s4a exists, the child does get to churn there — but s3 is the branch every listener hears, so let the farmer hand the jar over here too, or at least slow the transformation into felt stages: the slosh changing sound, the rattle going thick, the sudden thump of the lump.",
+            "s4a has the right instinct ('We shake and shake. Shake and shake. Our arms get tired') — keep that, and consider letting one thing not fit the first time: the butter won't come, arms ache, the farmer shows the slower rhythm that works. A piece that resists once makes the 'We did it!' land as earned rather than quick.",
+            "The toast in s4a appears already made ('toast made from the wheat we saw') — one line of the bread's own steps (dough, rise, oven heat) would close the loop the story opened, since wheat-to-flour was shown but flour-to-bread is skipped.",
+            "The egg in s2a is found but its becoming is skipped entirely — a single plain line about the hen sitting warm on the nest day after day would give the third ingredient the same legible making the other two get."
+          ],
+          "segments_revised": 4,
+          "segments_rejected": 2
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already makes breakfast legible through patient, sensory steps — the egg warm in the hand, the wheat falling as snow, the cream thickening glug-glug to a thump — and the sound-words land as their own small sentences, so a listening child both understands and feels how the world yields to attention."
+        }
+      ],
+      "cards_used": [
+        "busy_workshop"
+      ],
+      "listener_felt_arc": {
+        "s1": "snug and puzzled, leaning in",
+        "s2a": "hushed wonder, a held breath",
+        "s2b": "wide-eyed, amazed at the big slow stones",
+        "s3": "giggly anticipation building to a satisfying thump",
+        "s4a": "proud, mouth full, warm and settled",
+        "s4b": "thoughtful and big-feeling, then content and full"
+      },
+      "segments_revised": 4,
+      "segments_rejected": 2
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 12 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.7); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 27% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 36% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 4.8); [s2b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 28% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 38% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s4a] narration heavy: only 23% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "round 1: [s1] polished (192 -> 197 words)",
+      "round 1: [s2a] polished (175 -> 178 words)",
+      "round 1: [s2b] polish rejected: grew 119% of the original, over the 115% limit",
+      "round 1: [s3] polished (162 -> 181 words)",
+      "round 1: [s4a] polish rejected: grew 128% of the original, over the 115% limit",
+      "round 1: [s4b] polished (165 -> 165 words)",
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 27% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 36% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s4a] narration heavy: only 23% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.9)"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_girl",
+      "source_file": "22_where_breakfast_comes_from_kimik3_demo.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

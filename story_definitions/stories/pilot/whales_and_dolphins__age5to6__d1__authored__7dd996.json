@@ -1,0 +1,338 @@
+{
+  "id": "story.whales_and_dolphins.age5to6.d1.authored.7dd996",
+  "title": "The Itch Nobody Could Reach",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.whales_and_dolphins",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "We help a young whale finally scratch the one itchy spot on his back that no flipper can reach.",
+  "slots": {
+    "whale_name": {
+      "role": "the young whale with the itchy spot",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pebble"
+    },
+    "first_try": {
+      "role": "the gadget we used for our first helping attempt",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "seaweed brush"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Our little round boat is out on the warm blue sea, just us, rocking. The water is as warm as a bath somebody ran an hour ago.\nWe lean over the side and watch the water.\nWhoosh!\nA spout of spray goes up beside us and comes down on our heads. Up he comes, smooth and gray like a wet stone. Our friend.\nBut today {whale_name} cannot keep still. He wiggles left. He wiggles right. He turns a slow squirmy circle, the way you squirm when a label in your shirt is scratching your neck.\nThe itch sits right in the middle of his back. His flippers are too far forward to get at it. His tail is too far back.\n\"Nobody can reach it,\" we say.\nHis pod tried all morning. His mama's flipper was too big, his cousin's too small.\nSo the itch stays where it is, itching.\nWe hold on to the boat and let him come to us, because he is the one who knows how close is close. He puts one eye out of the water and looks at us.\nWe know that look.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Seaweed,\" we say. \"Soft is what an itch wants.\"\nWe reach down into the cool water for long ribbons of it, and braid them the way you braid three bits of string. Over and under. Over and under. Then we take our longest oar and tie the fat green braid onto the end.\nOne brush. Enormous.\n{whale_name} floats up close and holds still. Almost still.\nWe lean out over the water and swish the brush along the middle of his back. Swish. Swish.\nHis whole body shivers. Then he giggles, a bubbly whale giggle, like the last of the bathwater going down.\n\"That is not a scratch,\" we say. \"That is a tickle.\"\nHe rolls right over, and half the sea comes into the boat and into our socks.\nWe wring out our hats and take another look at our brush. Too floppy. Too swishy. Now too wet.\n\"It does not want swishing,\" we say. \"It wants a proper rub.\"\n\"Not finished yet,\" we tell him.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Bubbles,\" we say. \"Fizz it out of him.\"\nOur boat keeps a bubble maker under the seat. We turn the little brass crank. Brrrr.\nUp comes a silver stream of bubbles, right under {whale_name}, hundreds of them, shining as they climb.\nThey fizz along his tummy. They fizz up his sides. They pop all over his back. Pip, pip, pip.\n{whale_name} shuts his eyes and hums, low and long, and the hum comes up through the floor of the boat into our feet.\nThen we look again. He is still wiggling.\n\"Faster!\" we say, and we crank until the whole sea round him is a silver cloud.\nPip, pip, pip. Every bubble touches the itchy spot, pops, and is gone, like the fizz on the top of lemonade.\n{whale_name} blows a puff of spray out of his blowhole, which is how a whale sighs.\n\"It does not want fizzing,\" we say. \"It wants a proper rub.\"\n\"Not finished yet,\" we tell him.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We sit down in the bottom of the boat and let it rock while we think.\nOur {first_try} did not reach the itch, but it told us one thing.\n\"Not tickly,\" we say. \"Not fizzy. A slow steady rub, from something exactly the right size and exactly the right rough.\"\nWe have nothing like that in the boat. So we shade our eyes and look at the sea instead, because the sea is full of things, if you know what you are looking at.\nOut that way, a pod of dolphins is leaping. One, two, three, up and over and down. Their clicks and whistles come across the water like somebody tapping a spoon on a cup. A dolphin flipper is small and smooth, about the size of our two hands together.\nAnd over the other way the water goes pale, where a sandbank lies under the shallows with the sun on it. Ripple, ripple, ripple, all the way across. It looks like the scratchiest blanket in the world.\n{whale_name} swims one slow circle round the boat and waits. He is being very patient about it.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We cup our hands round our mouths and call across the water.\nThe smallest dolphin comes first, quick as a stone skipping. Her face pops up beside the boat, smiling whether she means it or not.\nWe point at {whale_name}. We point at the middle of his back.\n\"Click, whistle, click,\" she says, which can only mean leave it to me.\nShe swims one circle round him. Then she lays her flipper flat on the itchy spot and rubs, round and round, small slow circles, the way somebody rubs your back when you cannot get to sleep.\n{whale_name} stops wiggling. His long flippers droop. His eyes close. He goes soft and heavy in the water, floating like a boat with nobody in it.\nThen, whoosh! Up goes the tallest, mistiest spout we have ever seen, and it comes down on all of us like warm rain.\nThe itch is gone.\nThe little dolphin leaps and flips twice, for no reason except that she can. Dolphins rub each other like that all day long, it turns out. His pod comes over, and soon the whole sea is splashing.\n\"Tomorrow,\" we tell {whale_name}. \"Same spot. Bring your dolphin.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We turn the boat for the pale water, and {whale_name} comes along beside us.\nThe water here is clear as glass. We look down and see the sand in long ripples, with deep water all round it and plenty of room over it for a whale to roll.\n\"Down you go,\" we say. \"Have a proper scratch.\"\n{whale_name} turns over and puts his back against the ripples. Then he wiggles. Wiggle, wiggle, wiggle.\nThe sand rubs him, slow and steady and exactly the right rough. He rolls one way. He rolls back the other. Little clouds of sand puff up round him like flour off a counter.\nHis rumble comes up through the floor of the boat, the way a cat's purr comes up through your knees.\nOne more long wiggle, and he stops.\nNo squirming. No twisting. Just a whale, holding still in the clear water, grinning at nobody.\nWhoosh! Up goes a tall misty spout.\nHis pod comes over to see, and one by one every whale in it comes down onto the sand and wiggles too.\n\"The sea had a brush the whole time,\" we say. \"It was just the size of a beach.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Hold on, friend,\" we say. \"We could braid you a brush out of seaweed. Or we could crank up the bubble maker and fizz you all over. Seaweed, or bubbles?\"",
+      "options": [
+        {
+          "say_word": "seaweed",
+          "label": "Braid a long seaweed brush",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "first_try": "seaweed brush"
+          }
+        },
+        {
+          "say_word": "bubbles",
+          "label": "Fizz the itch with the bubble maker",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "first_try": "bubble tickler"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Look at those two things,\" we say to {whale_name}. \"A dolphin flipper is exactly the right size for your back. That sandbank is exactly the right rough. Dolphin, or sandbank?\"",
+      "options": [
+        {
+          "say_word": "dolphin",
+          "label": "Call the dolphins over",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "sandbank",
+          "label": "Wiggle on the ripply sandbank",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.whales_and_dolphins",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.ocean_animals",
+      "age_band": "5-6",
+      "family_context": "animals shelf; the ocean_animals parent story is a journey and the sea_turtles and jellyfish stories are both quiet_hour"
+    },
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "This is deliberately the mildest problem in the library, and it is here to set the floor. A whale's flippers really are too far forward and his tail really is too far back, so an itch in the middle of his back is a problem made entirely of true anatomy, with nobody frightened, nothing at stake and no clock running. It gives a five-year-old the whole shape of a fix, wrong size, wrong size, exactly right, at the gentlest temperature that shape can be played at.",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.2,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "two stories on this shelf are already quiet_hour, and a whale asleep gives the listener nothing to do; the cozy tone was kept instead and asked to carry a problem, which is the more interesting experiment"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.6,
+          "family_nudge": 1.0,
+          "final_weight": 0.25,
+          "sampled": true,
+          "rejected_because": "the parent ocean_animals story is the journey, and following a pod out to sea at this age heads straight toward the topic's avoid list, which rules out strandings and nets"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": false,
+          "rejected_because": "the honest mystery here is how whale song travels for miles, which is the age-8 treatment; it would be a fine story later and a thin one now"
+        }
+      ],
+      "backup": "mystery"
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "the sea itself, and what we notice in it: the hum coming up through the floor of the boat, the flipper the size of our two hands together, a sandbank rippled like a blanket, the tallest spout coming down as warm rain. The boat, the socks and the whale's own wiggling stay in the warm register with no awe imported into them.",
+      "why": "The gentlest problem in the library needs the gentlest tone, so cozy leads: warm water, a small boat, wet socks, somebody rubbing your back. The wonder accent is what stops it going soft, because two of the true facts here are genuinely surprising, that dolphins rub each other with their flippers and that whales scratch themselves on sand.",
+      "rejected": [
+        {
+          "recipe": "curious_wonder dominant with a cozy accent",
+          "because": "wonder-first turns the whale into a specimen to be marvelled at, and this story wants him to be a friend with an itch"
+        },
+        {
+          "recipe": "cozy dominant with a silly accent",
+          "because": "a comic whale would make the itch a joke, and the itch has to be taken completely seriously for the fix to feel like a kindness"
+        }
+      ]
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "The helping has to be done by somebody's hands: braiding the seaweed, turning the crank, calling across the water, patting a wet nose. 'We' also makes the boat the listener's own vantage point, which is what lets the story sit beside a very large animal without anybody being anywhere they should not be.",
+      "rejected": [
+        {
+          "teller": "named_hero",
+          "because": "a hero we watch leaning out of a boat invites worry about that hero, and this is the one story in the library engineered to have no worry in it at all"
+        },
+        {
+          "teller": "storyteller_tale",
+          "because": "a remembered afternoon at sea is finished already, and the pleasure of this pattern is not yet knowing which try will work"
+        }
+      ]
+    },
+    "value_decision": {
+      "included": false,
+      "why": "No condition for including a value lesson is met. There is an obvious helpfulness angle and it is deliberately left unnamed: the story shows two people helping a friend for an hour and never once says that helping is good. Letting the big animal come to us is competence, not virtue. No parent value picks apply to a library story."
+    },
+    "cast": [
+      {
+        "role": "the young whale with the itch",
+        "reused": false,
+        "reused_from": null,
+        "slot": "whale_name",
+        "why": "Kept from the v1 text. He never speaks, and that is the point of him: he wiggles, hums, rolls, sighs out of his blowhole and looks at us with one eye, so everything we know about him we read off his body. Named by slot, so a child's own name for him carries into any later whales story."
+      },
+      {
+        "role": "his pod, including his mama and his little cousin",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Kept from v1, where they had already tried and failed before the story starts. They do two jobs: they establish that the wrong size is the whole problem, and they arrive at the end so that no ending leaves him on his own."
+      },
+      {
+        "role": "the smallest dolphin",
+        "reused": false,
+        "reused_from": null,
+        "slot": null,
+        "why": "Kept from v1. She carries the surprising true fact of the story, that dolphins really do rub each other with their flippers, and she is small on purpose, because the fix depends on a flipper being exactly the right size rather than a big one being better."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "wonder-fact: a whale's flippers sit far forward and his tail far back, so the middle of his own back is the one place he cannot reach",
+        "wonder-fact: whales really do scratch themselves by rubbing against sand and gravel on the sea floor",
+        "wonder-fact: dolphins really do rub each other with their flippers, over and over, for no reason but that they like it",
+        "wonder-fact: a whale breathes out through a blowhole on top of his head, and the spray hangs in the air as a spout",
+        "wonder-fact: dolphins talk in clicks and whistles that carry a long way through water",
+        "sensory picture: a rippled sandbank under sunlit shallow water",
+        "sensory picture: a whale's hum felt through the floor of a small boat",
+        "sensory picture: a silver stream of bubbles climbing under a floating whale",
+        "setting: a little round boat on warm calm sea, with a sandbank one paddle away"
+      ],
+      "gathered_but_unused": [
+        "whales are mammals, warm-blooded, with milk for their calves: the age-7 treatment and a second idea this story has no room for",
+        "echolocation, and how a dolphin sees with clicks: age 8, and it would take the story away from touch, which is what an itch is about",
+        "whale song carrying for miles: age 8, saved whole for a sound_and_echoes or migration story",
+        "barnacles, which are the real reason a whale rubs on sand: true, and cut because it needs animals attached to a friend's skin, which is more than this age wants to picture",
+        "how deep a whale can dive and how long he holds his breath: strong candidate for a later story, and here it would pull him away from the surface where we are",
+        "whaling, strandings and nets: on the topic's avoid list at 5-6, and the sandbank ending is written specifically to stay clear of the second one"
+      ]
+    },
+    "branch_design": [
+      {
+        "choice": "c1",
+        "rejoins": true,
+        "why_here": "One segment in, as soon as the itch is established and we have said out loud that we will help. Both attempts fail in the same instructive direction, too soft to rub, so the paths can merge in the boat at s3, which names the attempt back through the first_try slot and needs nothing else from either branch.",
+        "criteria": {
+          "more_interesting": "one branch is our own hands braiding a brush and a wave of sea in our socks; the other is a crank and a silver cloud of bubbles under a floating whale. Making a thing against running a machine.",
+          "more_engaging": "braiding and cranking are both things a five-year-old wants to do with their hands, and both end with a whale reacting immediately",
+          "reveals_taste": "the seaweed brush is the gentle lean, slow and handmade; cranking the bubble maker faster and faster is the bold one",
+          "reveals_curiosity": "seaweed is just-experience, the swish and the giggle and the soaking; bubbles is how-it-works, watching what a bubble actually does when it reaches skin",
+          "reflects_mood": "the seaweed branch is busy and gets us wet; the bubble branch is quieter and has a whale humming in it"
+        }
+      },
+      {
+        "choice": "c2",
+        "rejoins": false,
+        "why_here": "Right after we have worked out exactly what the itch needs and looked up to find two things in the sea that match. Splitting here means the child chooses who does the scratching, a friend or the sea floor, and both answers are real animal behaviour rather than inventions.",
+        "criteria": {
+          "more_interesting": "s4a is a dolphin arriving at a call and rubbing small circles; s4b is a whole whale lying down on a rippled sandbank and every other whale copying him. One helper against a place.",
+          "more_engaging": "calling an animal over and watching an enormous animal wriggle on the bottom are both immediate, and children split cleanly between them",
+          "reveals_taste": "calling the dolphins is the bold lean; paddling quietly to the sandbank is gentle",
+          "reveals_curiosity": "dolphin is what-its-for, what a flipper turns out to be good for; sandbank is just-experience, sand clouds and a rumble through the boat",
+          "reflects_mood": "the dolphin ending is a party with a promise for tomorrow in it; the sandbank ending winds down to a whale lying still in clear water, which lands better at bedtime"
+        }
+      }
+    ],
+    "gates": [
+      {
+        "gate": "outline check",
+        "result": "pass",
+        "notes": "Six segments, two choice points, wired s1 to c1 to s2a or s2b to s3 to c2 to s4a or s4b, both endings next null. c1 rejoins and both branches converge on s3, which the explorer validator confirms. problem_and_fix beats all present, and the problem stays as mild as it was designed to be: an itch, no clock, nobody frightened. Avoid-list sweep against knowledge_domain.whales_and_dolphins age 5 and 6 and the inherited knowledge_domain.ocean_animals list: no whaling, no nets, no boats hunting anything, nothing eats anything, and no stranding, which s4b guards against explicitly with deep water all round the sandbank and plenty of room over it for a whale to roll. Slots: whale_name appears in all six segments, first_try is set by both c1 options and read once in the shared s3, where it reads correctly as both 'Our seaweed brush made him laugh' and 'Our bubble tickler made him laugh'. Say-words seaweed and bubbles, dolphin and sandbank: two syllables, no shared onset or rhyme inside a pair."
+      },
+      {
+        "gate": "per-segment checks (v2.1 craft rules)",
+        "result": "pass",
+        "notes": "Measured word counts against the 200 ceiling for 5-6: s1 189, s2a 166, s2b 162, s3 186, s4a 196, s4b 197. Paths measure 737 words for seaweed plus dolphin, 738 for seaweed plus sandbank, 733 for bubbles plus dolphin and 734 for bubbles plus sandbank. That is above the 700 the age table suggests for one path, and the trimming pass took out padding rather than cutting to a number: what remains long is structural, because this pattern needs a failed attempt written out in full and this story also has to establish five wrong sizes, flippers, tail, mama, cousin and our own gadget, before the right one arrives. Every segment carries spoken lines. Speech or physical action runs from 43 to 57 per cent of sentences, 50 per cent across the story. Sentence-length spread runs 5.6 to 7.0, with one-word and two-word sentences (Whoosh! Enormous. Brrrr. Swish. Swish.) set against sentences of thirty. No abstract mood words: cozy was removed from s1 and s4a, and wonderful from s2b. Every object introduced is used: the longest oar becomes the brush handle, the brass crank is cranked twice, the dolphin flipper measured in s3 does the rubbing in s4a, and the sandbank seen in s3 is where we turn the boat in s4b."
+      },
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "All four paths read aloud end to end. The rejoin holds: both branches close on the same two beats, the thing we now know and 'Not finished yet', so s3 opens in the boat the same way from either side, and the first_try line is grammatical in both readings. The motif runs the length of every path: too far forward, too far back, too big, too small, too floppy or too quick, and then exactly the right size and exactly the right rough, landing on a brush the size of a beach or a flipper the size of our two hands. The competence beat happens exactly once per path, in s1, and it is positioning with a reason attached: we hold the side of the boat and let him come to us, because he is the one who knows how close is close. Nothing anywhere says a whale could hurt anybody, nobody is warned, and the beat carries no tension. Banned-language sweep clean: no assessment, mastery, score, milestone, is or are behind, ahead of, delayed, gifted, grade level. No ellipses, asterisks, parentheses or emojis, and no stage directions."
+      }
+    ],
+    "writers_notes": [
+      "The whale never speaks and never will. Everything he communicates is body: the squirmy circle, the bubbly giggle, the hum through the boat floor, the puff out of the blowhole, one eye up out of the water. That is what keeps the gentlest story in the library from turning into a cartoon, and it is why both choice questions are spoken by us to him rather than by him to us.",
+      "This story is the floor for how mild a problem can be at this age, so it was checked in the other direction too: nothing was added to raise the stakes, no weather turns, nobody gets tired of trying, and the pod never doubts us.",
+      "The sandbank ending was written with the topic's avoid list open. A whale near shallow water is exactly the picture the word stranding attaches to, so the segment states the depth before he goes down, keeps deep water all round him, and has him roll rather than rest on the bottom. His pod joining in is the last piece of reassurance: this is a thing whales do on purpose.",
+      "Barnacles are the real reason whales rub on sand and are deliberately absent. The itch needs no cause at this age, and giving it one made of small animals living on his skin costs more than it buys.",
+      "Open question for the psychologist: the label scratching the back of your neck in s1 is the one image in the story that asks the listener to feel an itch on their own body. It is doing a lot of work, and if it makes a child scratch instead of listen it should move to s2."
+    ],
+    "craft_changes": [
+      "Opening now primes before the whale arrives: our own boat, the sea as warm as a bath somebody ran an hour ago, and us leaning over the side of the place he always comes to. v1 opened on sparkles on the waves and told us the boat was cozy.",
+      "Not one of the six segments had a spoken line in v1. Every segment now carries speech, we speak in all six, and the dolphin speaks in clicks in s4a.",
+      "Both choice questions are now spoken aloud by us to {whale_name}, with the two say-words in the line, so the question is handed over rather than announced. v1 had the narrator ask both.",
+      "Cut: 'The sun makes sparkles on every small wave', 'our cozy boat', 'It looks wonderful', 'That is all right. Every try teaches us something', 'Inventors of ideas never run out', 'What a good sea this is, where friends fit exactly where they are needed', 'Do not worry, friend', and the chin-tapping beat that was there to fill a pause. 'The sea is full of helpers, if you know where to look' was rewritten as 'the sea is full of things, if you know what you are looking at', because helpers announces the answer a paragraph early.",
+      "Cut the abstract mood words the audit flags: cozy in s1 and in s4a, where 'His long flippers droop, all cozy' became 'His long flippers droop. His eyes close. He goes soft and heavy in the water.'",
+      "New similes, all from a five-year-old's own day and each used once: a bath somebody ran an hour ago, the label in your shirt scratching the back of your neck, the last of the bathwater going down, the fizz on the top of lemonade, somebody tapping a spoon on a cup, somebody rubbing your back when you cannot get to sleep, flour off a counter, a cat's purr coming up through your knees. The one weak abstract image in v1, dolphin clicks carrying 'like tiny songs', was replaced by the spoon on the cup.",
+      "One motif, developed instead of replaced: the wrong size. Flippers too far forward, tail too far back, mama's flipper too big, cousin's too small, the brush too floppy or the bubbles too quick, then exactly the right size and exactly the right rough, and finally a flipper the size of our two hands or a brush the size of a beach. v1 stated the idea once at the end; now the story is built on it.",
+      "Sentence rhythm now rises and falls: one-word and two-word sentences (Whoosh! Enormous. Brrrr. Wiggle. Wiggle.) land after long flowing ones, where v1 ran at a steady eight or nine words for whole segments.",
+      "Real-place safety as competence, once and lightly, in s1: we hold on to the side of the boat and let him come to us, because he is the one who knows how close is close. It replaces v1's leaning out over the water, it is a reason rather than a rule, and nothing in the story suggests a whale could do anything to anybody.",
+      "The failed attempts were rewritten to teach rather than to fail, and the discovery is now split in two so that nothing is restated: each branch ends on the small half of it, spoken, 'It does not want swishing. It wants a proper rub', and the full specification is assembled once in s3, exactly the right size and exactly the right rough. That is what makes the dolphin and the sandbank feel earned instead of lucky.",
+      "Cut on the trimming pass, after the craft audit: 'Now we know something' from both branches, the second half of the discovery from both branches where s3 says it better, the pat on the wet nose in favour of the blowhole sigh that carries a real fact, and the boat's sparkling-sea description in s3."
+    ],
+    "authored_by": "hand-authored v2.1 rewrite of the v1 pilot text, from the knowledge_domain.whales_and_dolphins age-5 and age-6 treatments and the inherited knowledge_domain.ocean_animals avoid list. The v1 file carried no build_record, so the design fields here are written down for the first time from the story as it stands.",
+    "prompt_version": "segment_writing_v2.1",
+    "revision_of": {
+      "story_id": "story.whales_and_dolphins.problem_and_fix_001",
+      "prompt_version": "segment_writing_v1 (archived)",
+      "what_was_held_constant": "topic, age, pattern, teller, tone recipe, spine, title, the six-segment braid, both choice positions and their rejoin and split marks, both slots and their defaults, which option sets first_try to which value, the say-words seaweed/bubbles and dolphin/sandbank, the tone and curiosity leans on all four options, and the premise, cast and sea setting. Only the prose craft, the option labels and who speaks the choice questions changed.",
+      "why": "The v1 text shows the archived prompt's known failures: no opening priming, no spoken line in any of the six segments, narrator-asked choices, adult mood words doing the work of feeling, and a flat eight-to-nine-word sentence rhythm. It is also the library's floor for problem mildness, so it was worth checking that better craft did not make the problem bigger."
+    },
+    "library_ingest": {
+      "provenance": "hand_authored",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}
