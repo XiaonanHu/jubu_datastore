@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Buju Story Explorer</title>
+<style>
+  :root {
+    --blue:#0A5CD1; --blue-soft:#5C9BE9; --blue-pale:#CAE0F8;
+    --orange:#F66700; --orange-soft:#FF9F58; --orange-pale:#FFD9BD;
+    --green:#0BA671; --green-soft:#42CDA6; --green-pale:#C8ECE2;
+    --black:#1A1A1A; --almond:#FFF3EA; --line:#ece6e0;
+  }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body { margin:0; height:100%; }
+  body { display:flex; overflow:hidden; color:var(--black);
+    background:var(--almond);
+    font-family:Poppins,Quicksand,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  h1,h2,h3,h4 { font-family:Quicksand,Poppins,sans-serif; font-weight:700; }
+  #left { flex:1 1 56%; position:relative;
+    background:radial-gradient(circle at 42% 38%, #ffffff 0%, #fdf6ef 52%, #f6ece2 100%); }
+  #right { flex:1 1 44%; overflow-y:auto; padding:22px 26px 70px;
+    background:var(--almond); border-left:1px solid var(--line); }
+  svg#map { width:100%; height:100%; display:block; cursor:grab; touch-action:none; }
+  svg#map.drag { cursor:grabbing; }
+  #maptop { position:absolute; top:16px; left:20px; pointer-events:none; }
+  #maptop h1 { font-size:20px; margin:0; letter-spacing:-.2px; }
+  #maptop .tag { font-size:11.5px; color:#8d857a; margin-top:2px; }
+  .float { position:absolute; background:rgba(255,255,255,.86);
+    backdrop-filter:blur(6px); border:1px solid rgba(0,0,0,.05);
+    border-radius:14px; font-size:11.5px; color:#7f776c; padding:8px 12px;
+    pointer-events:none; }
+  .float.clickable { pointer-events:auto; cursor:pointer; }
+  #maphint { left:20px; bottom:16px; }
+  #legend { right:20px; bottom:16px; line-height:1.7; }
+  #legend .sw { display:inline-block; width:10px; height:10px; border-radius:50%;
+    margin-right:5px; vertical-align:-1px; }
+  #resetview { right:20px; top:16px; cursor:pointer; font-weight:600; color:var(--blue); }
+  h2 { font-size:21px; margin:0 0 6px; }
+  .chip { display:inline-block; border-radius:20px; padding:3px 11px; font-size:11.5px;
+    margin:0 5px 5px 0; background:#fff; border:1px solid var(--line);
+    color:#5b544b; font-weight:600; }
+  .chip.tier { background:var(--green-pale); border-color:transparent; color:#065c40; }
+  .chip.warn { background:var(--orange-pale); border-color:transparent; color:#8a3b00; }
+  .chip.vocab { background:var(--blue-pale); border-color:transparent; color:#0b3d84; }
+  .framing { background:#fff; border:1px solid var(--line); border-left:5px solid var(--blue);
+    border-radius:12px; padding:13px 16px; font-size:14.5px; margin:12px 0 16px;
+    box-shadow:0 2px 10px rgba(26,26,26,.04); }
+  .lab { font-size:10.5px; text-transform:uppercase; letter-spacing:.09em;
+    color:#a29a8e; margin:16px 0 7px; font-weight:700; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:16px;
+    padding:15px 17px; margin-bottom:11px; cursor:pointer;
+    box-shadow:0 2px 10px rgba(26,26,26,.04); transition:transform .12s, box-shadow .12s; }
+  .card:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(10,92,209,.12); }
+  .card h3 { margin:0 0 8px; font-size:16.5px; }
+  .empty-note { color:#a29a8e; font-size:13.5px; font-style:italic; }
+  #tabs { display:flex; gap:8px; margin:6px 0 16px; }
+  .tab { border:1.5px solid var(--line); background:#fff; border-radius:20px;
+    padding:7px 16px; font-size:13px; cursor:pointer; font-weight:600; color:#6b645b;
+    font-family:inherit; }
+  .tab.on { background:var(--blue); border-color:var(--blue); color:#fff; }
+  .seg { background:#fff; border:1px solid var(--line); border-radius:16px;
+    padding:19px 21px; font-size:16.5px; line-height:1.72; margin-bottom:12px;
+    box-shadow:0 2px 10px rgba(26,26,26,.04); }
+  .question { font-size:16px; font-weight:700; margin:16px 0 11px;
+    font-family:Quicksand,Poppins,sans-serif; }
+  .opt { display:block; width:100%; text-align:left; background:#fff; font-family:inherit;
+    border:2px solid var(--blue); color:var(--black); border-radius:16px; padding:13px 17px;
+    font-size:15.5px; margin-bottom:9px; cursor:pointer; }
+  .opt:hover { background:var(--blue-pale); }
+  .opt .say { color:#8d857a; font-size:12.5px; }
+  #sayrow { display:flex; gap:8px; margin-top:4px; }
+  #saybox { flex:1; border:1.5px solid #ded6cd; border-radius:14px; padding:11px 14px;
+    font-size:14.5px; font-family:inherit; }
+  #saygo { border:none; background:var(--green); color:#fff; border-radius:14px;
+    padding:0 20px; font-size:14px; cursor:pointer; font-family:inherit; font-weight:600; }
+  .namebox { background:#fff; border:1px solid var(--orange-soft);
+    border-left:5px solid var(--orange); border-radius:14px; padding:15px 17px;
+    margin-bottom:14px; }
+  .namebox input { border:1.5px solid var(--orange-soft); border-radius:10px;
+    padding:9px 12px; font-size:15px; margin-right:8px; font-family:inherit; }
+  .btn { border:none; background:var(--blue); color:#fff; border-radius:14px;
+    padding:11px 19px; font-size:14.5px; cursor:pointer; margin:4px 8px 0 0;
+    font-family:inherit; font-weight:600; }
+  .btn.ghost { background:#f1ebe4; color:var(--black); }
+  .ending { background:var(--green-pale); border:1px solid var(--green-soft);
+    border-radius:16px; padding:17px 19px; margin-top:6px; }
+  .recap { color:#3f6d5b; font-size:13.5px; margin-top:8px; }
+  #back { color:var(--blue); cursor:pointer; font-size:13.5px; margin-bottom:12px;
+    display:none; font-weight:600; }
+  .dec { background:#fff; border:1px solid var(--line); border-radius:16px;
+    padding:15px 18px; margin-bottom:12px; box-shadow:0 2px 10px rgba(26,26,26,.04); }
+  .dec h4 { margin:0 0 10px; font-size:14.5px; }
+  .dec p { margin:5px 0; font-size:14px; line-height:1.55; }
+  .kv { font-size:13.5px; margin:5px 0; }
+  .kv b { color:#5b544b; font-weight:600; }
+  .bar { display:flex; align-items:center; gap:9px; margin:5px 0; font-size:12.5px; }
+  .bar .nm { width:122px; color:#5b544b; }
+  .bar .track { flex:1; background:#f2ece5; border-radius:7px; height:16px; }
+  .bar .fill { background:var(--blue-soft); height:100%; border-radius:7px; }
+  .bar.win .fill { background:linear-gradient(90deg,var(--blue),var(--blue-soft)); }
+  .bar.out .fill { background:#e2dad1; }
+  .bar .val { width:40px; text-align:right; color:#8d857a; }
+  .why { color:#7f776c; font-size:12.5px; margin:2px 0 8px 0; font-style:italic; }
+  .why.ind { margin-left:131px; }
+  ul.tight { margin:5px 0; padding-left:20px; font-size:13.5px; line-height:1.58; }
+  .braid { background:#fff; border:1px solid var(--line); border-radius:16px; padding:17px; }
+  .pass { color:#065c40; font-weight:700; }
+  .alltopics { display:flex; flex-direction:column; gap:10px; }
+  .tgroup-name { font-size:11.5px; font-weight:700; margin-bottom:4px;
+    font-family:Quicksand,Poppins,sans-serif; }
+  .tpill { display:inline-block; border:1.5px solid var(--line); background:#fff;
+    border-radius:20px; padding:3px 10px; font-size:11.5px; margin:0 5px 5px 0;
+    cursor:pointer; color:#8d857a; }
+  .tpill.has { font-weight:700; }
+  .tpill:hover { background:var(--blue-pale); }
+  .tpill.on { background:var(--black); border-color:var(--black); color:#fff; }
+  @media (max-width:820px) {
+    body { flex-direction:column; }
+    #left { flex:0 0 52vh; }
+    #right { flex:1 1 auto; border-left:none; border-top:1px solid var(--line); }
+    #legend { display:none; }
+  }
+</style>
+</head>
+<body>
+<div id="left">
+  <svg id="map" viewBox="-575 -410 1150 820"></svg>
+  <div id="maptop"><h1>Buju Story Explorer</h1>
+    <div class="tag">drag to orbit &middot; scroll or pinch to zoom &middot; tap a topic</div></div>
+  <div class="float clickable" id="resetview">reset view</div>
+  <div class="float" id="maphint">click a disc &middot; numbered discs have stories</div>
+  <div class="float" id="legend"></div>
+</div>
+<div id="right">
+  <div id="back">&larr; back to the shelf</div>
+  <div id="browse"></div>
+  <div id="player" style="display:none"></div>
+</div>
+<script src="./explorer.js" defer></script>
+</body>
+</html>

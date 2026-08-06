@@ -254,6 +254,34 @@ PILOT_CATEGORIES = [
     "knowledge_domain.oceans_and_tides",
     "knowledge_domain.frogs_and_amphibians",
     "knowledge_domain.theater_and_pretending",
+    # 2026-08 pregen batch: new standalone top-level topics (no parent in the
+    # graph yet). Listed here so their stories appear; the sphere layout
+    # handles any count. Space & sky:
+    "knowledge_domain.the_solar_system",
+    "knowledge_domain.the_moon",
+    "knowledge_domain.the_sun",
+    "knowledge_domain.stars_and_constellations",
+    "knowledge_domain.black_holes",
+    "knowledge_domain.comets_and_meteors",
+    "knowledge_domain.gravity",
+    "knowledge_domain.astronauts_and_space_travel",
+    "knowledge_domain.day_and_night",
+    # Earth science:
+    "knowledge_domain.earthquakes",
+    "knowledge_domain.plate_tectonics",
+    "knowledge_domain.rocks_and_minerals",
+    "knowledge_domain.islands",
+    "knowledge_domain.weather",
+    "knowledge_domain.magnets",
+    # Living world & body:
+    "knowledge_domain.whales_and_dolphins",
+    "knowledge_domain.birds",
+    "knowledge_domain.rainforests",
+    "knowledge_domain.the_brain",
+    "knowledge_domain.sleep_and_dreams",
+    "knowledge_domain.sound_and_echoes",
+    # Machines:
+    "knowledge_domain.robots",
 ]
 # The map is drawn in 3D and orbited by the viewer, so positions are points
 # on nested spheres: categories on a big one, their deep dives on small ones.
