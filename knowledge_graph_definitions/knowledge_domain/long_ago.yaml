@@ -168,10 +168,12 @@ nodes:
     label: the_silk_road
     display_name: "The Silk Road"
     region: long_ago
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "a chain of trade routes linking China to Rome; silk, spices, and ideas riding with the caravans", vocabulary: [trade route, caravan, silk]}
       10: {depth: system, framing: "how inventions and stories moved along the route; oasis towns, busy markets, and paper's long journey west", vocabulary: [oasis, merchant, cultural exchange]}
+      11: {depth: system, framing: "more than silk — how paper, noodles, music, and ideas hitchhiked along the caravan routes", vocabulary: [caravan, trade route, exchange]}
+      12: {depth: system, framing: "cities built on crossroads — Samarkand and Chang'an, and why controlling a route meant wealth and risk", vocabulary: [oasis city, merchant, empire]}
     edges:
       adjacent: [knowledge_domain.money_and_trade, knowledge_domain.deserts, knowledge_domain.ancient_rome, knowledge_domain.maps_and_globes]
       prerequisite: []

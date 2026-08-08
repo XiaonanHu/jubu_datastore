@@ -6,8 +6,10 @@ nodes:
     label: musical_instruments
     display_name: "Musical Instruments"
     region: arts_and_music
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "boom boom taps the drum, ting ting sings the bell — making sounds and copying them back", vocabulary: [drum, bell, boom], avoid: [loud noises as scary]}
+      4: {depth: sensory, framing: "shake, tap, and strum — maracas that rattle, a piano's high and low notes, a triangle's ting", vocabulary: [shake, piano, note], avoid: [loud noises as scary]}
       5: {depth: sensory, framing: "bang, pluck, and blow; the drum, the guitar, and the flute", vocabulary: [drum, flute, guitar]}
       6: {depth: sensory, framing: "loud and soft, high and low; trying out sounds from instruments around the world", vocabulary: [piano, violin, trumpet]}
       7: {depth: mechanism, framing: "how instruments make sound; strings that shake and air that buzzes", vocabulary: [vibration, string, reed]}
@@ -128,8 +130,10 @@ nodes:
     label: theater_and_pretending
     display_name: "Theater and Pretending"
     region: arts_and_music
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "let's pretend — roaring like a lion, tiptoeing like a mouse, and taking a big bow at the end", vocabulary: [pretend, roar, bow], avoid: [masks as scary, being laughed at]}
+      4: {depth: sensory, framing: "dressing up and putting on a show — a cape, a crown, and everyone clapping at the end", vocabulary: [costume, show, clap], avoid: [masks as scary, being laughed at]}
       5: {depth: sensory, framing: "let's pretend; dressing up and becoming a pirate or a dragon", vocabulary: [pretend, costume, stage]}
       6: {depth: sensory, framing: "putting on a show; puppets, props, and taking a big bow", vocabulary: [puppet, prop, audience]}
       7: {depth: mechanism, framing: "how a play comes together; scripts, rehearsals, and remembering your lines", vocabulary: [script, rehearsal, actor]}

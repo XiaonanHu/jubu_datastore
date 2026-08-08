@@ -124,10 +124,12 @@ nodes:
     label: ecosystems
     display_name: "Ecosystems"
     region: plants_and_life
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "a pond, a forest, a tide pool — every living thing plus its home working as one connected system", vocabulary: [ecosystem, habitat, interdependence]}
       10: {depth: system, framing: "balance and change — invasive newcomers, keystone species, and how scientists restore a broken ecosystem", vocabulary: [invasive species, restoration, biome], avoid: [hopeless doom framing about environmental damage]}
+      11: {depth: system, framing: "pulling one thread — how bringing wolves back changed Yellowstone's rivers, and other ripple effects", vocabulary: [keystone species, ripple effect, food web]}
+      12: {depth: system, framing: "ecosystems as budgets — energy in, energy out, and why so little passes up each link of the chain", vocabulary: [energy flow, trophic level, biomass]}
     edges:
       adjacent: [knowledge_domain.food_chains, knowledge_domain.rainforests, knowledge_domain.endangered_animals]
       prerequisite: [knowledge_domain.food_chains]

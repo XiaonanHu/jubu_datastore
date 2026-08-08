@@ -7,8 +7,10 @@ nodes:
     display_name: "Frogs and Amphibians"
     region: animals
     tier: curriculum
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "little green friends go hop, hop, hop — ribbit ribbit sings the frog on its lily pad", vocabulary: [frog, hop, ribbit], avoid: [frogs being eaten, slimy framed as yucky]}
+      4: {depth: sensory, framing: "splash and hop — a frog's sticky tongue zips out, and tiny tadpoles wiggle in the pond", vocabulary: [tadpole, pond, splash], avoid: [frogs being eaten, slimy framed as yucky]}
       5: {depth: sensory, framing: "wiggly black tadpoles in the pond, and the springy plop of a frog jumping off a lily pad", vocabulary: [frog, tadpole, hop], avoid: [frogs dying, dissection]}
       6: {depth: sensory, framing: "the pond nursery through the year — jelly eggs, tadpoles sprouting tiny legs, and one day a small frog sitting on the bank", vocabulary: [egg, pond, croak], avoid: [frogs dying, dissection]}
       7: {depth: mechanism, framing: "two lives in one animal — a water-baby breathing with gills becomes a land-grown-up breathing with lungs", vocabulary: [gills, lungs, amphibian]}

@@ -6,7 +6,7 @@ nodes:
     label: volcanoes
     display_name: "Volcanoes"
     region: nature_and_earth
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["5-6", "7-8", "9-10", "11-12"]
     age_treatments:
       5: {depth: sensory, framing: "big mountains that go BOOM; hot orange rivers", vocabulary: [lava, rumble, smoke], avoid: [death tolls, Pompeii casualties, people fleeing in terror]}
       6: {depth: sensory, framing: "why mountains sometimes explode; lava vs. smoke", vocabulary: [lava, erupt, ash], avoid: [death tolls, destroyed towns with people in them]}
@@ -14,6 +14,8 @@ nodes:
       8: {depth: mechanism, framing: "plate boundaries; why volcanoes cluster", vocabulary: [tectonic plates, vent]}
       9: {depth: system, framing: "ring of fire; volcanoes shaping ecosystems and islands", vocabulary: [geothermal, dormant, extinct]}
       10: {depth: system, framing: "prediction, monitoring, living near volcanoes; historical eruptions handled factually", vocabulary: [seismology, eruption column]}
+      11: {depth: system, framing: "forecasting an eruption — swelling ground, swarms of tiny quakes, and the scientists who read the signs", vocabulary: [magma chamber, seismometer, forecast], avoid: [dwelling on casualties]}
+      12: {depth: system, framing: "volcanoes as world-shapers — new islands, rich farm soil, and the year without a summer", vocabulary: [fertile soil, climate, eruption column], avoid: [dwelling on casualties]}
     edges:
       adjacent: [knowledge_domain.earthquakes, knowledge_domain.rocks_and_minerals, knowledge_domain.islands]
       prerequisite: []
@@ -30,7 +32,7 @@ nodes:
     label: earthquakes
     display_name: "Earthquakes"
     region: nature_and_earth
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["5-6", "7-8", "9-10", "11-12"]
     age_treatments:
       5: {depth: sensory, framing: "the ground gives a big wobble; dishes rattle and dogs bark first", vocabulary: [shake, wobble, rumble], avoid: [collapsing buildings with people inside, casualties, a child's own home being destroyed]}
       6: {depth: sensory, framing: "the earth stretches and jolts like a giant turning over in sleep; how people stay safe under sturdy tables", vocabulary: [tremor, jolt, safe spot], avoid: [casualties, trapped people]}
@@ -38,6 +40,8 @@ nodes:
       8: {depth: mechanism, framing: "energy travels out in waves from the slipping point; why shaking is stronger nearby", vocabulary: [seismic waves, epicenter], avoid: [graphic disaster aftermath]}
       9: {depth: system, framing: "why earthquakes happen along plate edges; measuring quakes and comparing their sizes", vocabulary: [magnitude, plate boundary, aftershock]}
       10: {depth: system, framing: "engineering buildings to sway instead of snap; early-warning systems that race the waves", vocabulary: [seismometer, retrofit, tsunami warning]}
+      11: {depth: system, framing: "buildings that ride the shaking — base isolators, flexible frames, and why some towers sway on purpose", vocabulary: [base isolation, retrofit, magnitude], avoid: [dwelling on casualties]}
+      12: {depth: system, framing: "the waiting game of faults — how strain builds for centuries, and how early-warning seconds are won", vocabulary: [fault line, strain, early warning], avoid: [dwelling on casualties]}
     edges:
       adjacent: [knowledge_domain.volcanoes, knowledge_domain.plate_tectonics, knowledge_domain.bridges_and_buildings]
       prerequisite: []
@@ -340,10 +344,12 @@ nodes:
     label: plate_tectonics
     display_name: "Plate Tectonics"
     region: nature_and_earth
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "Earth's crust is a jigsaw of slowly drifting plates — mountains, quakes, and volcanoes all trace their edges", vocabulary: [tectonic plate, continental drift, mantle]}
       10: {depth: system, framing: "continents on the move — Pangaea, seafloor spreading, and the evidence that convinced scientists", vocabulary: [Pangaea, seafloor spreading, subduction]}
+      11: {depth: system, framing: "the puzzle that took a century — matching coastlines, fossils across oceans, and the scientist nobody believed", vocabulary: [continental drift, plate boundary, evidence]}
+      12: {depth: system, framing: "reading Earth's future — where mountains are still rising, oceans widening, and supercontinents reforming", vocabulary: [subduction, rift, supercontinent]}
     edges:
       adjacent: [knowledge_domain.volcanoes, knowledge_domain.earthquakes, knowledge_domain.islands]
       prerequisite: [knowledge_domain.volcanoes, knowledge_domain.earthquakes]

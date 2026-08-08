@@ -172,10 +172,12 @@ nodes:
     label: genes_and_heredity
     display_name: "Genes and Heredity"
     region: human_body
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "why kittens look like cats and you look a bit like your family; recipes written inside every cell", vocabulary: [gene, inherit, trait], avoid: ["ranking inherited traits as better or worse", "genetic illness or predicting a person's future from genes"]}
       10: {depth: system, framing: "DNA as an instruction book copied into every cell; how traits mix and pass down through generations", vocabulary: [DNA, chromosome, heredity], avoid: ["ranking inherited traits as better or worse", "genetic illness or predicting a person's future from genes"]}
+      11: {depth: system, framing: "the recipe book in every cell — how traits travel from parents to kids and why siblings differ", vocabulary: [gene, trait, inherited], avoid: [genetic superiority framing]}
+      12: {depth: system, framing: "same recipe, different dishes — how genes and environment work together, and what twins teach scientists", vocabulary: [DNA, environment, variation], avoid: [genetic superiority framing]}
     edges:
       adjacent: [knowledge_domain.life_cycles, knowledge_domain.endangered_animals, knowledge_domain.fossils]
       prerequisite: []

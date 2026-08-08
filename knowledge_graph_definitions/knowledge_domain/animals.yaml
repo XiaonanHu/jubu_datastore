@@ -318,10 +318,12 @@ nodes:
     label: endangered_animals
     display_name: "Endangered Animals"
     region: animals
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "animals running low — why pandas, tigers, and sea turtles need help, and the helpers helping them", vocabulary: [endangered, habitat loss, wildlife refuge], avoid: [hopeless extinction doom, blaming the child, graphic poaching scenes]}
       10: {depth: system, framing: "comeback stories and open cases — bald eagles returned, others still on the list; how conservation actually works", vocabulary: [conservation, species recovery, poaching], avoid: [hopeless extinction doom, graphic poaching scenes]}
+      11: {depth: system, framing: "the numbers game of survival — how small a population can get before it can't bounce back, and the great comeback stories", vocabulary: [population, extinction, recovery], avoid: [hopelessness about extinction, graphic animal death]}
+      12: {depth: system, framing: "who decides what gets saved — red lists, habitat corridors, and the trade-offs conservationists weigh", vocabulary: [conservation, habitat corridor, red list], avoid: [hopelessness about extinction, graphic animal death]}
     edges:
       adjacent: [knowledge_domain.ecosystems, knowledge_domain.whales_and_dolphins, knowledge_domain.rainforests]
       prerequisite: []
