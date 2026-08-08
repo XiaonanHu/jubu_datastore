@@ -30,8 +30,10 @@ nodes:
     label: farms_and_food
     display_name: "Farms and Food"
     region: people_and_places
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "animal sounds on the farm — moo says the cow, baa says the sheep, and warm eggs from the hens", vocabulary: [cow, moo, egg], avoid: [where meat comes from, animals being taken away]}
+      4: {depth: sensory, framing: "yummy things grow on the farm — crunchy carrots out of the dirt, red apples off the tree", vocabulary: [carrot, apple, grow], avoid: [where meat comes from, animals being taken away]}
       5: {depth: sensory, framing: "where breakfast comes from; cows, hens, and fields of wheat", vocabulary: [farm, harvest, tractor]}
       6: {depth: sensory, framing: "a year on a farm; planting in spring and picking in fall", vocabulary: [crop, barn, orchard]}
       7: {depth: mechanism, framing: "from wheat field to bread slice; every step food takes to reach your plate", vocabulary: [grain, mill, dairy]}
@@ -78,8 +80,10 @@ nodes:
     label: jobs_people_do
     display_name: "Jobs People Do"
     region: people_and_places
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "helpers all around — the firefighter's big red truck, the doctor's gentle checkup, the baker's warm bread", vocabulary: [helper, truck, bread], avoid: [emergencies as frightening, sirens as scary]}
+      4: {depth: sensory, framing: "what helpers wear and carry — the builder's hard hat, the mail carrier's big bag, the chef's tall white hat", vocabulary: [builder, mail, chef], avoid: [emergencies as frightening, sirens as scary]}
       5: {depth: sensory, framing: "hats and tools; who wears a helmet, who carries a stethoscope", vocabulary: [firefighter, doctor, tool]}
       6: {depth: sensory, framing: "a day at work with a baker, a vet, and a builder", vocabulary: [baker, veterinarian, uniform]}
       7: {depth: mechanism, framing: "jobs that fit together; everyone it takes to build one house", vocabulary: [architect, plumber, teamwork]}
@@ -146,12 +150,14 @@ nodes:
     label: money_and_trade
     display_name: "Money and Trade"
     region: people_and_places
-    age_bands: ["7-8", "9-10"]
+    age_bands: ["7-8", "9-10", "11-12"]
     age_treatments:
       7: {depth: mechanism, framing: "before money there was trading; swapping shells, salt, and goats", vocabulary: [trade, barter, coin], avoid: [family finances anxiety]}
       8: {depth: mechanism, framing: "what makes money money; why paper and coins are worth anything at all", vocabulary: [currency, value, bank], avoid: [family finances anxiety]}
       9: {depth: system, framing: "how a lemonade stand works; ingredients cost something, prices cover costs, the rest is earned", vocabulary: [price, cost, earning], avoid: [family finances anxiety]}
       10: {depth: system, framing: "money around the world; different currencies and how trade links faraway countries", vocabulary: [exchange rate, import, export], avoid: [family finances anxiety]}
+      11: {depth: system, framing: "why money works at all — from barter to coins to numbers on a screen, money as shared trust", vocabulary: [currency, value, trust]}
+      12: {depth: system, framing: "supply, demand, and price — why strawberries cost more in winter and concert tickets sell out", vocabulary: [supply, demand, market]}
     edges:
       adjacent: [knowledge_domain.the_silk_road, knowledge_domain.jobs_people_do, knowledge_domain.counting_and_big_numbers]
       prerequisite: []
@@ -168,10 +174,12 @@ nodes:
     label: governments_and_voting
     display_name: "Governments and Voting"
     region: people_and_places
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "how a class or a town decides together; voting, fair rules, and taking turns leading", vocabulary: [vote, election, law], avoid: [partisan content, current political disputes]}
       10: {depth: system, framing: "who does what in a government; leaders, lawmakers, and judges, and why the power is split up", vocabulary: [democracy, representative, constitution], avoid: [partisan content, current political disputes]}
+      11: {depth: system, framing: "how a law is actually made — ideas, debates, compromises, and the long path from proposal to rule", vocabulary: [legislation, debate, compromise], avoid: [partisan positions, named current politicians]}
+      12: {depth: system, framing: "designing fair systems — why election rules matter, and how different countries count votes differently", vocabulary: [ballot, majority, representation], avoid: [partisan positions, named current politicians]}
     edges:
       adjacent: [knowledge_domain.cities_and_towns, knowledge_domain.ancient_rome, knowledge_domain.money_and_trade]
       prerequisite: []

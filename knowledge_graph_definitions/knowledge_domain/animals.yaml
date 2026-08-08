@@ -6,8 +6,10 @@ nodes:
     label: ocean_animals
     display_name: "Ocean Animals"
     region: animals
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "splish splash friends — a wiggly octopus waves hello and a little fish goes blub blub", vocabulary: [fish, octopus, splash], avoid: [sharks as scary, deep dark water, animals eating each other]}
+      4: {depth: sensory, framing: "counting legs and fins — eight wiggly octopus arms, sideways-walking crabs, starfish with five points", vocabulary: [crab, starfish, fin], avoid: [sharks as scary, deep dark water, animals eating each other]}
       5: {depth: sensory, framing: "who swims down there — wiggly octopuses, clown fish, crabs walking sideways", vocabulary: [octopus, crab, fin], avoid: [shark attacks on people, animals eating each other graphically]}
       6: {depth: sensory, framing: "how sea creatures get around — jet-squirting squid, gliding rays, sticky starfish feet", vocabulary: [squid, ray, tentacle], avoid: [shark attacks on people]}
       7: {depth: mechanism, framing: "breathing underwater — gills vs. holding your breath; how fish float without trying", vocabulary: [gills, swim bladder, scales]}
@@ -106,8 +108,10 @@ nodes:
     label: animal_babies
     display_name: "Animal Babies"
     region: animals
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "baby animals and their mamas — a wobbly little duckling following along, peep peep peep", vocabulary: [baby, duckling, peep], avoid: [babies separated from parents, predators near babies]}
+      4: {depth: sensory, framing: "matching babies to mamas — a puppy for the dog, a kitten for the cat, a chick for the hen", vocabulary: [puppy, kitten, chick], avoid: [babies separated from parents, predators near babies]}
       5: {depth: sensory, framing: "wobbly, fuzzy, brand-new — kittens, ducklings, and foals finding their feet", vocabulary: [kitten, duckling, cub], avoid: [babies losing their parents permanently, babies taken by predators]}
       6: {depth: sensory, framing: "baby animal names and baby animal sounds — a joey rides, a piglet squeals, a chick peeps", vocabulary: [joey, piglet, foal], avoid: [babies losing their parents permanently]}
       7: {depth: mechanism, framing: "how animal parents care for their young — feeding, carrying, teaching, guarding", vocabulary: [offspring, litter, protect]}
@@ -128,8 +132,10 @@ nodes:
     label: animal_homes
     display_name: "Animal Homes"
     region: animals
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "cozy homes for sleepy animals — a nest for the bird, a hole for the bunny, night night", vocabulary: [nest, home, cozy], avoid: [homes being destroyed, animals lost far from home]}
+      4: {depth: sensory, framing: "who lives where — bees in the hive, fish in the pond, bears snug in a den", vocabulary: [hive, den, pond], avoid: [homes being destroyed, animals lost far from home]}
       5: {depth: sensory, framing: "everyone has a cozy spot — nests up high, burrows down low, shells carried along", vocabulary: [nest, burrow, den]}
       6: {depth: sensory, framing: "animal builders at work — beavers stacking sticks, spiders spinning, wasps making paper", vocabulary: [dam, web, lodge]}
       7: {depth: mechanism, framing: "why a home is built where it is — hidden from danger, close to food, warm and dry", vocabulary: [shelter, territory, hideout]}
@@ -264,8 +270,10 @@ nodes:
     label: whales_and_dolphins
     display_name: "Whales and Dolphins"
     region: animals
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "a great big gentle whale goes whoosh — water sprays up from its blowhole like a fountain", vocabulary: [whale, splash, whoosh], avoid: [whales as frightening because of size, getting lost at sea]}
+      4: {depth: sensory, framing: "dolphins love to play — leaping out of the waves, clicking and squeaking hello to their friends", vocabulary: [dolphin, leap, squeak], avoid: [whales as frightening because of size, getting lost at sea]}
       5: {depth: sensory, framing: "gentle giants and splashy acrobats — spouts, flips, and dolphin giggles", vocabulary: [whale, dolphin, splash], avoid: [whaling, strandings, dolphins trapped in nets]}
       6: {depth: sensory, framing: "big breath in! whales hold their breath and blow rainbow spray when they surface", vocabulary: [blowhole, spout, pod], avoid: [whaling, strandings]}
       7: {depth: mechanism, framing: "not fish at all — warm blood, milk for babies, and coming up for air", vocabulary: [mammal, blubber, calf]}

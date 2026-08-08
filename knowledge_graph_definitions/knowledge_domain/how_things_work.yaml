@@ -220,7 +220,7 @@ nodes:
     label: robots
     display_name: "Robots"
     region: how_things_work
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["5-6", "7-8", "9-10", "11-12"]
     age_treatments:
       5: {depth: sensory, framing: "friendly machine helpers; robots that beep, roll, and tidy up", vocabulary: [robot, beep, helper]}
       6: {depth: sensory, framing: "robots do jobs people find boring or tricky; robot arms and robot vacuums", vocabulary: [robot arm, machine, task]}
@@ -228,6 +228,8 @@ nodes:
       8: {depth: mechanism, framing: "how a robot decides; sensing, thinking, and moving in a loop", vocabulary: [programming, motor, feedback]}
       9: {depth: system, framing: "robots exploring where people cannot go; the deep sea, volcanoes, and Mars", vocabulary: [rover, remote control, autonomous]}
       10: {depth: system, framing: "teaching robots to learn; what robots still cannot do that kids find easy", vocabulary: [artificial intelligence, machine learning, humanoid]}
+      11: {depth: system, framing: "sense, think, act — the loop every robot runs, and why a warehouse robot differs from a Mars rover", vocabulary: [sensor, actuator, feedback]}
+      12: {depth: system, framing: "what robots still can't do — folding laundry is harder than chess, and what that says about human skill", vocabulary: [automation, dexterity, algorithm]}
     edges:
       adjacent: [knowledge_domain.computers_and_code, knowledge_domain.inventions, knowledge_domain.jobs_people_do]
       prerequisite: []
@@ -244,12 +246,14 @@ nodes:
     label: inventions
     display_name: "Inventions"
     region: how_things_work
-    age_bands: ["7-8", "9-10"]
+    age_bands: ["7-8", "9-10", "11-12"]
     age_treatments:
       7: {depth: mechanism, framing: "problems spark ideas; the story of everyday things someone once dreamed up", vocabulary: [invention, idea, problem]}
       8: {depth: mechanism, framing: "inventors try, fail, and try again; sketches, models, and happy accidents", vocabulary: [inventor, prototype, patent]}
       9: {depth: system, framing: "inventions that changed everything; the wheel, the printing press, the lightbulb", vocabulary: [printing press, lightbulb, breakthrough]}
       10: {depth: system, framing: "how inventions build on each other; imagining what needs inventing next", vocabulary: [innovation, engineering, design process]}
+      11: {depth: system, framing: "inventions as remixes — how the steam engine, telephone, and internet each combined older ideas", vocabulary: [patent, prototype, innovation]}
+      12: {depth: system, framing: "unintended consequences — inventions that changed the world in ways their inventors never guessed", vocabulary: [consequence, adoption, trade-off]}
     edges:
       adjacent: [knowledge_domain.robots, knowledge_domain.simple_machines, knowledge_domain.explorers_and_voyages]
       prerequisite: []

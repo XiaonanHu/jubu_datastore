@@ -6,8 +6,10 @@ nodes:
     label: the_moon
     display_name: "The Moon"
     region: space
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "the moon says good night — a soft white light in the sky watching over sleepy houses", vocabulary: [moon, night, glow], avoid: [darkness as scary, the moon disappearing forever]}
+      4: {depth: sensory, framing: "the moon changes shape — sometimes a big round circle, sometimes a little banana sliver", vocabulary: [round, sliver, sky], avoid: [darkness as scary, the moon disappearing forever]}
       5: {depth: sensory, framing: "the friendly light in the night sky; why it seems to follow you", vocabulary: [moonlight, glow, crater]}
       6: {depth: sensory, framing: "the moon changes shape night by night; footprints that never blow away", vocabulary: [crescent, full moon, crater]}
       7: {depth: mechanism, framing: "why the moon has phases; orbiting the Earth", vocabulary: [orbit, phase, reflect]}
@@ -30,8 +32,10 @@ nodes:
     label: the_sun
     display_name: "The Sun"
     region: space
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "the warm friendly sun — it makes the day bright and feels cozy on your cheeks", vocabulary: [sun, warm, bright], avoid: [sunburn scares, the sun ever going out]}
+      4: {depth: sensory, framing: "what the sun helps do — drying puddles, growing flowers, making shadows to dance with", vocabulary: [shine, shadow, grow], avoid: [sunburn scares, the sun ever going out]}
       5: {depth: sensory, framing: "the big warm light that wakes up the day; sunshine on your skin", vocabulary: [sunshine, warm, bright], avoid: ["characters staring directly at the sun"]}
       6: {depth: sensory, framing: "shadows shrink and stretch as the sun crosses the sky", vocabulary: [sunrise, sunset, shadow], avoid: ["characters staring directly at the sun"]}
       7: {depth: mechanism, framing: "the sun is a star; Earth spins, so the sun only seems to move", vocabulary: [star, spin, sunlight], avoid: ["characters staring directly at the sun"]}
@@ -126,8 +130,10 @@ nodes:
     label: day_and_night
     display_name: "Day and Night"
     region: space
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "good morning sun, good night moon — the sky gets bright, then the sky gets sleepy", vocabulary: [sun, moon, night], avoid: [darkness as scary, being alone at night]}
+      4: {depth: sensory, framing: "who is awake when — birds sing in the morning, owls wake up when the stars come out", vocabulary: [morning, star, owl], avoid: [darkness as scary, being alone at night]}
       5: {depth: sensory, framing: "the sky changes from bright to dark; hello sun, hello stars", vocabulary: [daytime, nighttime, sunset]}
       6: {depth: sensory, framing: "some animals wake up when you go to bed; the world keeps busy at night", vocabulary: [dusk, dawn, moonlight]}
       7: {depth: mechanism, framing: "the Earth spins like a top; your home turns away from the sun at night", vocabulary: [spin, rotate, Earth]}
@@ -170,12 +176,14 @@ nodes:
     label: gravity
     display_name: "Gravity"
     region: space
-    age_bands: ["7-8", "9-10"]
+    age_bands: ["7-8", "9-10", "11-12"]
     age_treatments:
       7: {depth: mechanism, framing: "the invisible pull that brings a thrown ball back down every single time", vocabulary: [pull, fall, weight]}
       8: {depth: mechanism, framing: "everything pulls on everything; the bigger something is, the stronger its pull", vocabulary: [gravity, force, mass]}
       9: {depth: system, framing: "gravity holds moons to planets and planets to the sun; the glue of the whole sky", vocabulary: [orbit, attraction, weightless]}
       10: {depth: system, framing: "why astronauts float; falling around the Earth and what it takes to escape its pull", vocabulary: [free fall, escape velocity, microgravity]}
+      11: {depth: system, framing: "gravity as curved space — why the falling apple and the orbiting Moon are doing the same thing", vocabulary: [orbit, mass, curvature]}
+      12: {depth: system, framing: "gravity's extremes — tides, slingshot maneuvers, and the ripples two colliding black holes send across space", vocabulary: [gravitational wave, tide, slingshot]}
     edges:
       adjacent: [knowledge_domain.flight, knowledge_domain.the_solar_system, knowledge_domain.black_holes]
       prerequisite: []
@@ -192,12 +200,14 @@ nodes:
     label: the_solar_system
     display_name: "The Solar System"
     region: space
-    age_bands: ["7-8", "9-10"]
+    age_bands: ["7-8", "9-10", "11-12"]
     age_treatments:
       7: {depth: mechanism, framing: "the sun and its family of planets; putting our neighborhood in order from hot to cold", vocabulary: [solar system, inner planet, outer planet]}
       8: {depth: mechanism, framing: "what holds the solar system together; belts of rock and ice tucked between the planets", vocabulary: [asteroid belt, dwarf planet, orbit]}
       9: {depth: system, framing: "the solar system as one big machine shaped by the sun's pull, out to its icy far edges", vocabulary: [Kuiper Belt, Pluto, astronomical]}
       10: {depth: system, framing: "how the whole solar system formed from a spinning cloud of dust and gas", vocabulary: [formation, dust cloud, protoplanet]}
+      11: {depth: system, framing: "the solar system's leftovers — asteroid belts, comets, and what they remember about the beginning", vocabulary: [asteroid belt, comet, formation]}
+      12: {depth: system, framing: "is anyone out there — ocean moons, Goldilocks zones, and how missions hunt for signs of life", vocabulary: [habitable zone, probe, exoplanet]}
     edges:
       adjacent: [knowledge_domain.planets, knowledge_domain.the_sun, knowledge_domain.gravity, knowledge_domain.comets_and_meteors]
       prerequisite: []
@@ -214,10 +224,12 @@ nodes:
     label: black_holes
     display_name: "Black Holes"
     region: space
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "places where gravity is so strong that not even light escapes; how astronomers find what they cannot see", vocabulary: [black hole, event horizon, telescope], avoid: ["black holes swallowing Earth or the sun", "characters pulled into a black hole", "black holes framed as monsters that hunt"]}
       10: {depth: system, framing: "what falls in never comes back out; the giant black holes at the hearts of galaxies", vocabulary: [singularity, galaxy center, gravity well], avoid: ["black holes swallowing Earth or the sun", "characters pulled into a black hole", "black holes framed as monsters that hunt"]}
+      11: {depth: system, framing: "what falling in would look like — stretched light, time slowing at the edge, and why nothing escapes", vocabulary: [event horizon, singularity, spacetime]}
+      12: {depth: system, framing: "photographing the invisible — linking telescopes across Earth to catch a black hole's glowing shadow", vocabulary: [telescope array, accretion disk, evidence]}
     edges:
       adjacent: [knowledge_domain.gravity, knowledge_domain.stars_and_constellations, knowledge_domain.the_solar_system]
       prerequisite: []

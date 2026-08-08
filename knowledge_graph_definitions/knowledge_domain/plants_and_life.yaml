@@ -166,8 +166,10 @@ nodes:
     label: gardens_and_growing_food
     display_name: "Gardens and Growing Food"
     region: plants_and_life
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "digging in the garden — patting the dirt, sprinkling water, and a tiny green sprout says hello", vocabulary: [dirt, water, sprout], avoid: [bugs as yucky or scary, plants dying]}
+      4: {depth: sensory, framing: "watching our plant get bigger — a seed, then a sprout, then a flower, then a strawberry to taste", vocabulary: [seed, flower, strawberry], avoid: [bugs as yucky or scary, plants dying]}
       5: {depth: sensory, framing: "dirt under your fingernails — planting, watering, and pulling a real carrot out of the ground", vocabulary: [garden, carrot, dig]}
       6: {depth: sensory, framing: "the waiting game — checking the tomato every day until it finally turns red", vocabulary: [tomato, ripe, harvest]}
       7: {depth: mechanism, framing: "what gardens need — sun hours, good soil, the right season for each vegetable", vocabulary: [compost, planting season, weed]}

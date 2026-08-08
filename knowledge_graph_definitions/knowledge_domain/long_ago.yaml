@@ -30,8 +30,10 @@ nodes:
     label: knights_and_castles
     display_name: "Knights and Castles"
     region: long_ago
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "a big friendly castle — knock knock on the great big door, and a smiling knight who waves hello", vocabulary: [castle, knight, door], avoid: [battle violence, scary sieges, dark dungeons]}
+      4: {depth: sensory, framing: "peeking around the castle — over the drawbridge, up the twisty stairs, flags flapping on top", vocabulary: [drawbridge, tower, flag], avoid: [battle violence, scary sieges, dark dungeons]}
       5: {depth: sensory, framing: "drawbridges, moats, and towers you could live inside", vocabulary: [castle, knight, drawbridge], avoid: [battle violence, scary sieges]}
       6: {depth: sensory, framing: "a day inside a castle; feasts in the great hall and armor that clanks", vocabulary: [armor, moat, feast], avoid: [battle violence]}
       7: {depth: mechanism, framing: "how castles were built to keep people safe; thick walls, gates, and lookout towers", vocabulary: [portcullis, blacksmith, squire], avoid: [glorified battles, graphic weaponry outcomes]}
@@ -172,6 +174,28 @@ nodes:
       10: {depth: system, framing: "how inventions and stories moved along the route; oasis towns, busy markets, and paper's long journey west", vocabulary: [oasis, merchant, cultural exchange]}
     edges:
       adjacent: [knowledge_domain.money_and_trade, knowledge_domain.deserts, knowledge_domain.ancient_rome, knowledge_domain.maps_and_globes]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.princesses_and_princes
+    axis: knowledge_domain
+    label: princesses_and_princes
+    display_name: "Princesses and Princes"
+    region: long_ago
+    age_bands: ["3-4", "5-6"]
+    age_treatments:
+      3: {depth: sensory, framing: "sparkly crowns and twirly capes — a little princess or prince twirls, waves, and bows good night", vocabulary: [crown, twirl, wave], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+      4: {depth: sensory, framing: "getting ready for the castle party — choosing a cape, practicing a bow, welcoming every guest", vocabulary: [cape, bow, party], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+      5: {depth: sensory, framing: "a day of royal jobs — greeting visitors, tasting the royal soup, checking on the castle garden", vocabulary: [royal, castle, greet], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+      6: {depth: sensory, framing: "kind rulers in the making — a princess or prince learns to listen to the whole kingdom", vocabulary: [kingdom, listen, fair], avoid: [beauty as worth, rescue as the girl's only role, marriage plots]}
+    edges:
+      adjacent: [knowledge_domain.knights_and_castles, knowledge_domain.fairy_tales]
       prerequisite: []
     crosswalk:
       ngss: []

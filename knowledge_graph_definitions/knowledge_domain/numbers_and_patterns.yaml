@@ -120,10 +120,12 @@ nodes:
     label: ratios
     display_name: "Ratios"
     region: numbers_and_patterns
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "recipes as ratios; two parts flour to one part water keeps the dough right at any size", vocabulary: [ratio, part, mixture]}
       10: {depth: system, framing: "ratios hiding everywhere; map scales, paint mixing, and speed as distance over time", vocabulary: [scale, rate, proportion]}
+      11: {depth: system, framing: "ratios that run the world — map scales, recipe doubling, gear ratios, and screen sizes", vocabulary: [scale, proportion, rate]}
+      12: {depth: system, framing: "the golden ratio and its myths — where proportion really appears in nature and where it's wishful thinking", vocabulary: [golden ratio, evidence, claim]}
     edges:
       adjacent: [knowledge_domain.fractions_in_cooking, knowledge_domain.probability_and_chance, knowledge_domain.maps_and_globes]
       prerequisite: [knowledge_domain.fractions_in_cooking]
@@ -140,10 +142,12 @@ nodes:
     label: probability_and_chance
     display_name: "Probability and Chance"
     region: numbers_and_patterns
-    age_bands: ["9-10"]
+    age_bands: ["9-10", "11-12"]
     age_treatments:
       9: {depth: system, framing: "likely, unlikely, impossible; coin flips, dice rolls, and why surprises still happen", vocabulary: [probability, likely, coin flip]}
       10: {depth: system, framing: "counting the ways; why rolling a seven with two dice happens more than rolling a two", vocabulary: [outcome, odds, random], avoid: [gambling encouragement]}
+      11: {depth: system, framing: "thinking in odds — why rare things happen somewhere every day, and why the house always wins", vocabulary: [odds, random, expected value], avoid: [gambling as exciting or rewarding]}
+      12: {depth: system, framing: "probability traps — streaks, coincidences, and the birthday surprise that fools almost everyone", vocabulary: [coincidence, sample, simulation], avoid: [gambling as exciting or rewarding]}
     edges:
       adjacent: [knowledge_domain.ratios, knowledge_domain.weather, knowledge_domain.patterns_in_nature]
       prerequisite: []
@@ -160,12 +164,14 @@ nodes:
     label: codes_and_ciphers
     display_name: "Codes and Ciphers"
     region: numbers_and_patterns
-    age_bands: ["7-8", "9-10"]
+    age_bands: ["7-8", "9-10", "11-12"]
     age_treatments:
       7: {depth: mechanism, framing: "secret messages; shifting every letter to hide what you wrote", vocabulary: [code, cipher, secret message]}
       8: {depth: mechanism, framing: "cracking a code; counting which letters show up most to break a secret message", vocabulary: [decode, cipher wheel, clue]}
       9: {depth: system, framing: "codes machines and hands can read; Morse, braille, and how patterns carry meaning", vocabulary: [Morse code, braille, binary]}
       10: {depth: system, framing: "the codebreakers; how puzzle-solvers cracked famous ciphers and helped invent computers", vocabulary: [encryption, codebreaker, cryptography], avoid: [graphic wartime detail]}
+      11: {depth: system, framing: "the arms race of secrets — code makers versus code breakers, from Caesar shifts to the Enigma machine", vocabulary: [cipher, decode, frequency]}
+      12: {depth: system, framing: "the mathematics of secrecy — why some codes crack in minutes and modern ones would take computers centuries", vocabulary: [encryption, key, pattern]}
     edges:
       adjacent: [knowledge_domain.computers_and_code, knowledge_domain.languages_of_the_world, knowledge_domain.patterns_in_nature]
       prerequisite: []

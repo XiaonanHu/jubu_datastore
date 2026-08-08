@@ -54,8 +54,10 @@ nodes:
     label: weather
     display_name: "Weather"
     region: nature_and_earth
-    age_bands: ["5-6", "7-8", "9-10"]
+    age_bands: ["3-4", "5-6", "7-8", "9-10"]
     age_treatments:
+      3: {depth: sensory, framing: "what the sky is doing today — pitter-patter rain, warm sunshine, and puddles to stomp in", vocabulary: [rain, sun, puddle], avoid: [storms as dangerous, thunder as frightening]}
+      4: {depth: sensory, framing: "dressing for the weather — boots for rain, a sunhat for sunshine, mittens for fluffy snow", vocabulary: [cloud, snow, wind], avoid: [storms as dangerous, thunder as frightening]}
       5: {depth: sensory, framing: "what the sky is doing today — sun on your face, rain on your boots, wind in your hair", vocabulary: [sunny, rainy, windy]}
       6: {depth: sensory, framing: "clouds come in shapes and moods; guessing what the sky will do next", vocabulary: [cloud, fog, drizzle]}
       7: {depth: mechanism, framing: "where rain actually comes from; warm air rises and carries water up", vocabulary: [evaporate, water vapor, air pressure]}
@@ -102,8 +104,10 @@ nodes:
     label: seasons
     display_name: "Seasons"
     region: nature_and_earth
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "the world changes outside — crunchy leaves, fluffy snow, new flowers, warm summer grass", vocabulary: [leaf, snow, flower], avoid: [cold as dangerous, storms as frightening]}
+      4: {depth: sensory, framing: "what we do each season — splashing in summer, leaf piles in fall, snowmen in winter, planting in spring", vocabulary: [summer, winter, spring], avoid: [cold as dangerous, storms as frightening]}
       5: {depth: sensory, framing: "the year's four costumes — crunchy leaves, snowmen, puddles, ice cream days", vocabulary: [spring, summer, autumn, winter]}
       6: {depth: sensory, framing: "how animals and trees get ready when a season is coming", vocabulary: [harvest, bloom, frost]}
       7: {depth: mechanism, framing: "days grow longer and shorter through the year; more sunlight means warmer months", vocabulary: [daylight, temperature, sunrise]}

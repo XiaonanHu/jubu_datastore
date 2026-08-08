@@ -30,8 +30,10 @@ nodes:
     label: colors_and_mixing
     display_name: "Colors and Mixing"
     region: arts_and_music
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "colors everywhere — a red ball, a yellow duck, a blue cup; naming each one out loud", vocabulary: [red, yellow, blue], avoid: [making a mess framed as naughty]}
+      4: {depth: sensory, framing: "mixing surprise — blue and yellow finger paint swirl together and green appears!", vocabulary: [mix, green, paint], avoid: [making a mess framed as naughty]}
       5: {depth: sensory, framing: "red and yellow make orange; mixing paints to discover new colors", vocabulary: [red, mix, orange]}
       6: {depth: sensory, framing: "light colors and dark colors; adding white or black to change how a color feels", vocabulary: [shade, tint, bright]}
       7: {depth: mechanism, framing: "why mixing works; primary colors and finding your way around the color wheel", vocabulary: [primary color, color wheel, blend]}
@@ -134,6 +136,28 @@ nodes:
       8: {depth: mechanism, framing: "behind the curtain; sets, spotlights, and sound effects that make the magic", vocabulary: [set, spotlight, sound effect]}
     edges:
       adjacent: [knowledge_domain.dance_around_the_world, knowledge_domain.musical_instruments, knowledge_domain.drawing_and_animation]
+      prerequisite: []
+    crosswalk:
+      ngss: []
+      casel: []
+    milestones:
+      note: ""
+      reviewed_by: null
+    status: draft
+
+  - id: knowledge_domain.fairy_tales
+    axis: knowledge_domain
+    label: fairy_tales
+    display_name: "Fairy Tales"
+    region: arts_and_music
+    age_bands: ["3-4", "5-6"]
+    age_treatments:
+      3: {depth: sensory, framing: "once upon a time — a friendly fairy with sparkly wings flutters by to say hello", vocabulary: [fairy, wings, sparkle], avoid: [wicked witches, curses, anyone getting eaten]}
+      4: {depth: sensory, framing: "little doors and tiny wishes — fairies who live inside flowers and grant one small kind wish", vocabulary: [wish, tiny, magic], avoid: [wicked witches, curses, anyone getting eaten]}
+      5: {depth: sensory, framing: "into the storybook — magic beanstalks, gingerbread trails, and helpful talking animals", vocabulary: [storybook, magic, giant], avoid: [gruesome fates for villains, frightening witches]}
+      6: {depth: sensory, framing: "spotting what fairy tales share — a hero, a problem, three tries, and a happy ending", vocabulary: [hero, wish, ending], avoid: [gruesome fates for villains, frightening witches]}
+    edges:
+      adjacent: [knowledge_domain.princesses_and_princes, knowledge_domain.knights_and_castles, knowledge_domain.theater_and_pretending]
       prerequisite: []
     crosswalk:
       ngss: []

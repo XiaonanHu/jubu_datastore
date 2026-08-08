@@ -6,8 +6,10 @@ nodes:
     label: five_senses
     display_name: "The Five Senses"
     region: human_body
-    age_bands: ["5-6", "7-8"]
+    age_bands: ["3-4", "5-6", "7-8"]
     age_treatments:
+      3: {depth: sensory, framing: "eyes see, ears hear, nose smells — a peekaboo game with all the things a body notices", vocabulary: [eyes, ears, nose], avoid: [loud noises as scary, doctor visits as frightening]}
+      4: {depth: sensory, framing: "guessing games with senses — what's that sound, what's that smell, is it soft or bumpy?", vocabulary: [listen, smell, touch], avoid: [loud noises as scary, doctor visits as frightening]}
       5: {depth: sensory, framing: "seeing, hearing, smelling, tasting, touching; the five ways you meet the world", vocabulary: [see, hear, touch]}
       6: {depth: sensory, framing: "guessing games with your senses; how a smell can carry you back to a place", vocabulary: [sense, taste bud, sniff]}
       7: {depth: mechanism, framing: "eyes and ears are collectors; they gather clues and send them along nerves to the brain", vocabulary: [signal, nerve, eardrum]}
@@ -146,12 +148,14 @@ nodes:
     label: the_brain
     display_name: "The Brain"
     region: human_body
-    age_bands: ["7-8", "9-10"]
+    age_bands: ["7-8", "9-10", "11-12"]
     age_treatments:
       7: {depth: mechanism, framing: "the body's control room; messages zipping along nerves like tiny wires", vocabulary: [brain, nerve, message], avoid: ["brain injuries or characters losing their memories or minds"]}
       8: {depth: mechanism, framing: "different brain parts with different jobs; practice makes their pathways stronger", vocabulary: [neuron, memory, signal], avoid: ["brain injuries or characters losing their memories or minds"]}
       9: {depth: system, framing: "billions of brain cells wired into networks; how learning rewires the brain", vocabulary: [synapse, cortex, reflex], avoid: ["brain injuries or characters losing their memories or minds"]}
       10: {depth: system, framing: "the brain compared with computers; the puzzles scientists still cannot solve", vocabulary: [neuroscience, cerebellum, perception], avoid: ["brain injuries or characters losing their memories or minds"]}
+      11: {depth: system, framing: "the brain as a prediction machine — how it guesses what comes next and updates when it's surprised", vocabulary: [neuron, signal, prediction], avoid: [framing brains as smart or broken]}
+      12: {depth: system, framing: "attention, memory, and habit — why practice rewires the brain and sleep locks learning in", vocabulary: [synapse, habit, memory], avoid: [framing brains as smart or broken]}
     edges:
       adjacent: [knowledge_domain.five_senses, knowledge_domain.sleep_and_dreams, knowledge_domain.computers_and_code]
       prerequisite: []
