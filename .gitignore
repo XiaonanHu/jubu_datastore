@@ -43,3 +43,7 @@ capability_definitions/developmental/developmental_age_5.yaml
 .DS_Store
 _to_delete/
 story_definitions/preview/*.html
+
+# local narration clips awaiting review/upload (generate_story_audio.py)
+story_definitions/preview/pilot_audio/
+story_definitions/preview/audio_auditions/

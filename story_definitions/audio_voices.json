@@ -1,17 +1,17 @@
 {
-  "_readme": "Voice mapping for pilot story narration (generate_story_audio.py). Xia's decided narration voice (2026-08): the Buju child voice from jubu_backend (ENG-337), used for all three tellers; storyteller_tale is slightly slower for a cozier pace. To try alternatives later: `python scripts/generate_story_audio.py --audition <voice_id>…`, listen in story_definitions/preview/audio_auditions/, then swap voice_id per teller here and regenerate with --force.",
+  "_readme": "Voice mapping for pilot story narration (generate_story_audio.py). Narration voice picked by Xia 2026-08 (v2 — the ENG-337 Buju child voice sounded wrong for story narration and was replaced after a live listen); storyteller_tale is slightly slower for a cozier pace. To try alternatives: `python scripts/generate_story_audio.py --audition <voice_id>…`, listen in story_definitions/preview/audio_auditions/, then swap voice_id per teller here and regenerate with --force.",
   "model_id": "sonic-3",
   "tellers": {
     "we_adventure": {
-      "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
       "speed": 1.0
     },
     "named_hero": {
-      "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
       "speed": 1.0
     },
     "storyteller_tale": {
-      "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
       "speed": 0.95
     }
   }
