@@ -35,7 +35,9 @@ logs characters sent to Cartesia, the cost driver.
 
 Outputs:
     <site_audio_dir>/<story_id>/<segment_or_choice_id>_<chunk_index>.mp3
-        default: ../buju_website/pilot/audio (override --site-audio-dir)
+        default: story_definitions/preview/pilot_audio (local review copies;
+        --upload rsyncs them to the private gs://buju-pilot-audio bucket the
+        site serves from — listen BEFORE uploading, that's the QA gate)
     story_definitions/audio_manifest.json
         {story_id: {voice_id, model_id, segments: {seg_id: [
             {"i": 0, "file": "s1_00.mp3", "has_slot": false, "chars": 123}]}}}
@@ -61,7 +63,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 VOICE_CONFIG_PATH = REPO_ROOT / "story_definitions" / "audio_voices.json"
 MANIFEST_PATH = REPO_ROOT / "story_definitions" / "audio_manifest.json"
 AUDITION_DIR = REPO_ROOT / "story_definitions" / "preview" / "audio_auditions"
-DEFAULT_SITE_AUDIO_DIR = REPO_ROOT.parent / "buju_website" / "pilot" / "audio"
+# Local clips land here for review-by-ear, then --upload rsyncs them to the
+# private GCS bucket the site serves from (api/pilot-audio.js signs URLs).
+# Deliberately NOT inside buju_website anymore, so mp3s can't sneak into
+# that repo's git history.
+DEFAULT_SITE_AUDIO_DIR = REPO_ROOT / "story_definitions" / "preview" / "pilot_audio"
+DEFAULT_AUDIO_BUCKET = "buju-pilot-audio"  # override with BUJU_PILOT_AUDIO_BUCKET
 
 CARTESIA_TTS_BYTES_URL = "https://api.cartesia.ai/tts/bytes"
 # Must match the Cartesia-Version jubu_backend pins (see cartesia_tts.py).
@@ -263,6 +270,34 @@ def run_audition(candidate_voice_ids: list[str], voice_config: dict[str, Any]) -
     return 0
 
 
+def upload_stories_to_bucket(site_audio_dir: Path, story_ids: list[str]) -> None:
+    """rsync each voiced story's clips to the private serving bucket via the
+    gcloud CLI (uses your logged-in gcloud auth; no extra Python deps)."""
+    import subprocess
+
+    bucket = os.getenv("BUJU_PILOT_AUDIO_BUCKET", DEFAULT_AUDIO_BUCKET)
+    for story_id in story_ids:
+        story_dir = site_audio_dir / story_id
+        destination = f"gs://{bucket}/{story_id}"
+        print(f"uploading {story_id} -> {destination}")
+        try:
+            subprocess.run(
+                ["gcloud", "storage", "rsync", str(story_dir), destination],
+                check=True,
+            )
+        except FileNotFoundError:
+            raise SystemExit(
+                "gcloud CLI not found — install the Google Cloud SDK or run "
+                f"manually: gcloud storage rsync {story_dir} {destination}"
+            )
+        except subprocess.CalledProcessError as error:
+            raise SystemExit(
+                f"upload failed for {story_id} (exit {error.returncode}); "
+                "clips are still on disk — fix gcloud auth/bucket and re-run "
+                "with --upload"
+            )
+
+
 def merge_manifest(new_entries: dict[str, Any]) -> None:
     manifest: dict[str, Any] = {}
     if MANIFEST_PATH.is_file():
@@ -284,8 +319,11 @@ def main() -> int:
                         help="generate teller samples for candidate voice ids")
     parser.add_argument("--force", action="store_true",
                         help="regenerate mp3s that already exist")
+    parser.add_argument("--upload", action="store_true",
+                        help="after generating, rsync each story's clips to "
+                             "the serving bucket (gcloud auth required)")
     parser.add_argument("--site-audio-dir", type=Path, default=DEFAULT_SITE_AUDIO_DIR,
-                        help=f"where mp3s land (default: {DEFAULT_SITE_AUDIO_DIR})")
+                        help=f"where mp3s land locally (default: {DEFAULT_SITE_AUDIO_DIR})")
     args = parser.parse_args()
 
     voice_config = load_voice_config()
@@ -323,9 +361,16 @@ def main() -> int:
         f"{total_chars} chars sent to Cartesia (its cost driver; 0 chars = all "
         f"clips already existed). Manifest: {MANIFEST_PATH.relative_to(REPO_ROOT)}"
     )
+    if args.upload:
+        upload_stories_to_bucket(args.site_audio_dir, sorted(new_manifest_entries))
+    else:
+        print(
+            "NOT uploaded — listen to the clips locally, then re-run the same "
+            "command with --upload to push them to the serving bucket."
+        )
     print(
         "Next: python scripts/build_pilot_site.py  (stamps audio info into "
-        "stories.json), then copy outputs to buju_website per PILOT_DEPLOY.md"
+        "stories.json), then copy stories.json to buju_website per PILOT_DEPLOY.md"
     )
     return 0
 
