@@ -205,18 +205,23 @@ PARENT_MAP_GROUPS: list[tuple[str, list[str]]] = [
 # Front-hemisphere disc layout: flat enough that nothing hides behind
 # anything under the map's clamped "fake" rotation, with a gentle z bulge
 # for parallax. y is compressed to suit the wide viewBox.
-CAT_RING_INNER = 178.0      # categories alternate between two rings so
-CAT_RING_OUTER = 256.0      # neighbouring clusters never share a ring
-Y_SQUASH = 0.72
-BULGE_RADIUS = 380.0
+# Each similarity group owns a pie wedge (angle proportional to how many
+# nodes it holds). Inside its wedge a group's categories are spread from
+# near the centre out to the rim — so the disc is filled edge to edge with
+# no hollow middle, while every group still reads as one contiguous slice.
+R_MIN = 46.0
+R_MAX = 268.0
+Y_SQUASH = 0.74
+BULGE_RADIUS = 390.0
+GOLDEN = 0.6180339887498949
 
 
 def _child_ring(count: int) -> float:
     """Deep-dive ring radius, scaled so siblings keep ~30px spacing."""
-    return min(64.0, max(40.0, 5.0 * count))
+    return min(62.0, max(38.0, 4.8 * count))
 
 
-def _disc_positions() -> dict[str, tuple[float, float, float]]:
+def _disc_positions(child_counts: dict[str, int]) -> dict[str, tuple[float, float, float]]:
     grouped = [(g, cats) for g, cats in PARENT_MAP_GROUPS]
     listed = [c for _, cats in grouped for c in cats]
     expected = sorted(bse.PILOT_CATEGORIES)
@@ -227,21 +232,29 @@ def _disc_positions() -> dict[str, tuple[float, float, float]]:
             f"PARENT_MAP_GROUPS out of sync with PILOT_CATEGORIES: "
             f"missing={sorted(missing)} extra={sorted(extra)}"
         )
-    total = len(listed)
+    # Wedge angle follows how much stuff a group actually holds (its
+    # categories plus their deep dives), so dense groups get room and
+    # sparse ones don't leave a gap.
+    weights = [
+        sum(1 + child_counts.get(_KD + c, 0) for c in cats) for _, cats in grouped
+    ]
+    total_w = float(sum(weights))
     pos: dict[str, tuple[float, float, float]] = {}
     theta = 0.0
-    ring_flip = 0
-    for _, cats in grouped:
-        wedge = 2.0 * math.pi * (len(cats) / total)
-        inner_span = wedge * 0.80
-        start = theta + (wedge - inner_span) / 2.0
+    for (_, cats), w in zip(grouped, weights):
+        wedge = 2.0 * math.pi * (w / total_w)
+        k = len(cats)
         for i, cat in enumerate(cats):
-            frac = 0.5 if len(cats) == 1 else i / (len(cats) - 1)
-            a = start + inner_span * frac
-            # global inner/outer alternation: consecutive categories land on
-            # different rings, so clusters interleave instead of colliding
-            r = CAT_RING_INNER if ring_flip % 2 == 0 else CAT_RING_OUTER
-            ring_flip += 1
+            frac = (i + 0.5) / k
+            # radius walks centre -> rim across the group's categories, so
+            # every wedge covers the whole radius and the middle stays full
+            r = R_MIN + (R_MAX - R_MIN) * (frac ** 0.78)
+            if k == 1:
+                a = theta + wedge * 0.5
+            else:
+                # golden-ratio stagger inside the wedge: even angular fill
+                # without categories lining up on one spoke
+                a = theta + wedge * (0.12 + 0.76 * ((i * GOLDEN) % 1.0))
             x = r * math.cos(a)
             y = r * math.sin(a) * Y_SQUASH
             pos[_KD + cat] = (round(x, 2), round(y, 2), a)
@@ -264,8 +277,11 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
     Ships ONLY parent-safe fields — no framing / vocabulary / avoid lists.
     """
     expl = bse.build_explorer_data(stories)  # reuse counts, names, edges
-    by_id = {t["id"]: t for t in expl["topics"]}
-    cat_pos = _disc_positions()
+    child_counts: dict[str, int] = {}
+    for t in expl["topics"]:
+        if t["parent"]:
+            child_counts[t["parent"]] = child_counts.get(t["parent"], 0) + 1
+    cat_pos = _disc_positions(child_counts)
 
     nodes: list[dict[str, Any]] = []
     for t in expl["topics"]:
@@ -298,7 +314,7 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
             }
         )
 
-    _relax(nodes)
+    _relax(nodes, {cid: (p[0], p[1]) for cid, p in cat_pos.items()})
 
     kept = {n["id"] for n in nodes}
     edges = [
@@ -309,13 +325,24 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
     return {"nodes": nodes, "edges": edges}
 
 
-MIN_NODE_SPACING = 33.0
+MIN_NODE_SPACING = 34.0
+CATEGORY_DRIFT = 0.35   # how freely a category may shift while packing
+ANCHOR_SPRING = 0.22    # ...and how hard it is pulled back to its wedge slot
 
 
-def _relax(nodes: list[dict[str, Any]], rounds: int = 60) -> None:
-    """Push overlapping nodes apart. Categories stay pinned so the wedge
-    structure holds; only deep dives drift. Deterministic (no randomness)."""
-    for _ in range(rounds):
+def _relax(
+    nodes: list[dict[str, Any]],
+    anchors: dict[str, tuple[float, float]],
+    rounds: int = 90,
+) -> None:
+    """Push overlapping nodes apart, then spring categories back toward the
+    wedge slot they were assigned. Deep dives move freely; categories only
+    drift a little, so groups stay contiguous while the disc packs evenly.
+    Fully deterministic — no randomness (positions must be stable builds)."""
+    for step in range(rounds):
+        # anneal the spring to zero so the last rounds are pure separation —
+        # groups are already settled by then, and spacing wins at the end
+        spring = ANCHOR_SPRING * max(0.0, 1.0 - step / (rounds * 0.6))
         moved = False
         for i in range(len(nodes)):
             for j in range(i + 1, len(nodes)):
@@ -329,20 +356,31 @@ def _relax(nodes: list[dict[str, Any]], rounds: int = 60) -> None:
                     dx, dy, d = 1.0, 0.5, 1.118
                 push = (MIN_NODE_SPACING - d) / 2.0
                 ux, uy = dx / d, dy / d
-                a_pinned = a["parent"] is None
-                b_pinned = b["parent"] is None
-                if a_pinned and b_pinned:
-                    continue
-                if not a_pinned:
-                    a["x"] = round(a["x"] - ux * (push * (2 if b_pinned else 1)), 2)
-                    a["y"] = round(a["y"] - uy * (push * (2 if b_pinned else 1)), 2)
-                if not b_pinned:
-                    b["x"] = round(b["x"] + ux * (push * (2 if a_pinned else 1)), 2)
-                    b["y"] = round(b["y"] + uy * (push * (2 if a_pinned else 1)), 2)
+                wa = CATEGORY_DRIFT if a["parent"] is None else 1.0
+                wb = CATEGORY_DRIFT if b["parent"] is None else 1.0
+                a["x"] -= ux * push * wa
+                a["y"] -= uy * push * wa
+                b["x"] += ux * push * wb
+                b["y"] += uy * push * wb
                 moved = True
-        if not moved:
+        if spring > 0.0:
+            for n in nodes:
+                anchor = anchors.get(n["id"])
+                if anchor is None:
+                    continue
+                n["x"] += (anchor[0] - n["x"]) * spring
+                n["y"] += (anchor[1] - n["y"]) * spring
+        if not moved and spring <= 0.0:
             break
+    # Centre the finished layout on its own bounding box, so the map sits in
+    # the middle of the frame instead of drifting toward the heavy wedges.
+    xs = [n["x"] for n in nodes]
+    ys = [n["y"] for n in nodes]
+    cx = (min(xs) + max(xs)) / 2.0
+    cy = (min(ys) + max(ys)) / 2.0
     for n in nodes:
+        n["x"] = round(n["x"] - cx, 2)
+        n["y"] = round(n["y"] - cy, 2)
         n["z"] = _bulge(n["x"], n["y"])
 
 
