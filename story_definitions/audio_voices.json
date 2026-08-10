@@ -1,18 +1,27 @@
 {
-  "_readme": "Voice mapping for pilot story narration (generate_story_audio.py). Narration voice picked by Xia 2026-08 (v2 — the ENG-337 Buju child voice sounded wrong for story narration and was replaced after a live listen); storyteller_tale is slightly slower for a cozier pace. To try alternatives: `python scripts/generate_story_audio.py --audition <voice_id>…`, listen in story_definitions/preview/audio_auditions/, then swap voice_id per teller here and regenerate with --force.",
+  "_readme": "Narration delivery for the pilot (generate_story_audio.py). Voice + speed come from the story's teller; emotion comes from its tone.dominant via tone_emotions (a per-teller \"emotion\" key overrides). sentence_pause_ms inserts an SSML <break/> at each sentence boundary inside a paragraph — paragraph-to-paragraph gaps are NOT here, they're a player setting (BujuPilot.narration in pilot/js/stories.js), so they can be tuned without regenerating. Cartesia's most reliable emotions are neutral, calm, content, sad, scared, angry; happy/excited/triumphant and ~50 more exist but are less predictable — an emotion Cartesia rejects is dropped for that clip with a warning. Changing speed/emotion/sentence_pause_ms makes existing mp3s stale: regenerate with --force (the script warns you).",
   "model_id": "sonic-3",
+  "speed": 0.96,
+  "sentence_pause_ms": 350,
   "tellers": {
     "we_adventure": {
       "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 1.0
+      "speed": 0.96
     },
     "named_hero": {
       "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 1.0
+      "speed": 0.96
     },
     "storyteller_tale": {
       "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 0.95
+      "speed": 0.94
     }
+  },
+  "tone_emotions": {
+    "cozy": "content",
+    "curious_wonder": "excited",
+    "silly": "happy",
+    "crazy_inventor": "excited",
+    "big_adventure": "triumphant"
   }
 }

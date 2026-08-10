@@ -89,6 +89,13 @@ def load_voice_config() -> dict[str, Any]:
 
 
 def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict[str, Any]:
+    """Resolve the full delivery settings for one story.
+
+    Voice + speed come from the story's `teller`; the emotion that makes
+    delivery animated comes from its `tone.dominant` (a per-teller
+    "emotion" key wins if set). Sentence pacing is global unless the teller
+    overrides it.
+    """
     teller = story.get("teller")
     teller_voices = voice_config["tellers"]
     if teller not in teller_voices:
@@ -96,7 +103,36 @@ def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict
             f"story {story['id']} has teller '{teller}' with no entry in "
             f"{VOICE_CONFIG_PATH.name} — add one before generating"
         )
-    return teller_voices[teller]
+    teller_voice = teller_voices[teller]
+    tone = (story.get("tone") or {}).get("dominant")
+    emotion = teller_voice.get("emotion") or (
+        voice_config.get("tone_emotions") or {}
+    ).get(tone)
+    return {
+        "voice_id": teller_voice["voice_id"],
+        "speed": float(teller_voice.get("speed", voice_config.get("speed", 1.0))),
+        "emotion": emotion,
+        "sentence_pause_ms": int(
+            teller_voice.get(
+                "sentence_pause_ms", voice_config.get("sentence_pause_ms", 0)
+            )
+        ),
+    }
+
+
+# Delivery settings baked into every clip. When these change, existing mp3s
+# are stale and must be regenerated with --force — the script says so
+# rather than silently leaving a half-updated library.
+BAKED_IN_SETTINGS = ("voice_id", "model_id", "speed", "emotion", "sentence_pause_ms")
+
+
+def settings_drift(manifest_entry: dict[str, Any], current: dict[str, Any]) -> list[str]:
+    """Names of baked-in settings that differ from the clips on disk."""
+    return [
+        key
+        for key in BAKED_IN_SETTINGS
+        if manifest_entry.get(key) != current.get(key)
+    ]
 
 
 # Where to look for CARTESIA_API_KEY when it isn't exported: the sibling
@@ -144,20 +180,37 @@ class CartesiaBatchClient:
         )
 
     def synthesize_mp3(
-        self, text: str, voice_id: str, model_id: str, speed: float
+        self,
+        text: str,
+        voice_id: str,
+        model_id: str,
+        speed: float,
+        emotion: str | None = None,
     ) -> bytes:
-        response = self._session.post(
-            CARTESIA_TTS_BYTES_URL,
-            json={
-                "model_id": model_id,
-                "transcript": text,
-                "voice": {"mode": "id", "id": voice_id},
-                "language": "en",
-                "output_format": MP3_OUTPUT_FORMAT,
-                "generation_config": {"speed": speed},
-            },
-            timeout=120,
-        )
+        generation_config: dict[str, Any] = {"speed": speed}
+        if emotion:
+            generation_config["emotion"] = emotion
+        payload = {
+            "model_id": model_id,
+            "transcript": text,
+            "voice": {"mode": "id", "id": voice_id},
+            "language": "en",
+            "output_format": MP3_OUTPUT_FORMAT,
+            "generation_config": generation_config,
+        }
+        response = self._session.post(CARTESIA_TTS_BYTES_URL, json=payload, timeout=120)
+        if response.status_code == 400 and emotion:
+            # An emotion label Cartesia doesn't accept shouldn't sink a whole
+            # batch — drop it and keep the run going, loudly.
+            print(
+                f"  WARNING: Cartesia rejected emotion '{emotion}' "
+                f"(400); regenerating this clip without it. Fix "
+                f"tone_emotions in {VOICE_CONFIG_PATH.name}."
+            )
+            payload["generation_config"] = {"speed": speed}
+            response = self._session.post(
+                CARTESIA_TTS_BYTES_URL, json=payload, timeout=120
+            )
         response.raise_for_status()
         return response.content
 
@@ -179,13 +232,30 @@ def generate_story(
     voice_config: dict[str, Any],
     site_audio_dir: Path,
     force: bool,
+    previous_manifest: dict[str, Any],
 ) -> tuple[dict[str, Any], int, int]:
     """Generate all chunks for one story. Returns (manifest_entry,
     chars_sent, files_written)."""
     voice = voice_for_story(story, voice_config)
     voice_id = voice["voice_id"]
-    speed = float(voice.get("speed", 1.0))
+    speed = voice["speed"]
+    emotion = voice["emotion"]
+    sentence_pause_ms = voice["sentence_pause_ms"]
     model_id = voice_config["model_id"]
+    current_settings = {
+        "voice_id": voice_id,
+        "model_id": model_id,
+        "speed": speed,
+        "emotion": emotion,
+        "sentence_pause_ms": sentence_pause_ms,
+    }
+    drift = settings_drift(previous_manifest.get(story["id"], {}), current_settings)
+    if drift and not force:
+        print(
+            f"  NOTE: {', '.join(drift)} changed since these clips were made, "
+            f"but existing mp3s are kept. Re-run with --force to hear the "
+            f"new settings."
+        )
     slots = story.get("slots") or {}
 
     story_dir = site_audio_dir / story["id"]
@@ -201,17 +271,22 @@ def generate_story(
             spoken_text = story_audio_chunks.substitute_slot_values(
                 chunk_text, slots, {}
             )
+            transcript = story_audio_chunks.to_transcript(
+                spoken_text, sentence_pause_ms
+            )
             file_name = f"{unit_id}_{index:02d}.mp3"
             file_path = story_dir / file_name
             if force or not file_path.is_file():
                 started = time.monotonic()
                 file_path.write_bytes(
-                    client.synthesize_mp3(spoken_text, voice_id, model_id, speed)
+                    client.synthesize_mp3(
+                        transcript, voice_id, model_id, speed, emotion
+                    )
                 )
-                chars_sent += len(spoken_text)
+                chars_sent += len(transcript)
                 files_written += 1
                 print(
-                    f"  {story['id']}/{file_name}: {len(spoken_text)} chars "
+                    f"  {story['id']}/{file_name}: {len(transcript)} chars "
                     f"in {time.monotonic() - started:.1f}s"
                 )
             chunk_entries.append(
@@ -219,16 +294,12 @@ def generate_story(
                     "i": index,
                     "file": file_name,
                     "has_slot": bool(slot_tokens),
-                    "chars": len(spoken_text),
+                    "chars": len(transcript),
                 }
             )
         manifest_segments[unit_id] = chunk_entries
-    manifest_entry = {
-        "voice_id": voice_id,
-        "model_id": model_id,
-        "speed": speed,
-        "segments": manifest_segments,
-    }
+    manifest_entry = dict(current_settings)
+    manifest_entry["segments"] = manifest_segments
     return manifest_entry, chars_sent, files_written
 
 
@@ -298,11 +369,15 @@ def upload_stories_to_bucket(site_audio_dir: Path, story_ids: list[str]) -> None
             )
 
 
+def load_manifest() -> dict[str, Any]:
+    if not MANIFEST_PATH.is_file():
+        return {}
+    with open(MANIFEST_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def merge_manifest(new_entries: dict[str, Any]) -> None:
-    manifest: dict[str, Any] = {}
-    if MANIFEST_PATH.is_file():
-        with open(MANIFEST_PATH, encoding="utf-8") as f:
-            manifest = json.load(f)
+    manifest = load_manifest()
     manifest.update(new_entries)
     MANIFEST_PATH.write_text(
         json.dumps(manifest, indent=1, ensure_ascii=False) + "\n", encoding="utf-8"
@@ -343,13 +418,22 @@ def main() -> int:
             raise SystemExit(f"no story ids match {args.stories}")
 
     client = CartesiaBatchClient()
+    previous_manifest = load_manifest()
     new_manifest_entries: dict[str, Any] = {}
     total_chars = 0
     total_files = 0
     for story in sorted(stories, key=lambda s: s["id"]):
-        print(f"{story['id']} ({story['teller']}):")
+        settings = voice_for_story(story, voice_config)
+        print(
+            f"{story['id']} ({story['teller']} / "
+            f"{(story.get('tone') or {}).get('dominant')} → "
+            f"emotion={settings['emotion'] or 'none'}, "
+            f"speed={settings['speed']}, "
+            f"pause={settings['sentence_pause_ms']}ms):"
+        )
         manifest_entry, chars_sent, files_written = generate_story(
-            story, client, voice_config, args.site_audio_dir, args.force
+            story, client, voice_config, args.site_audio_dir, args.force,
+            previous_manifest,
         )
         new_manifest_entries[story["id"]] = manifest_entry
         total_chars += chars_sent

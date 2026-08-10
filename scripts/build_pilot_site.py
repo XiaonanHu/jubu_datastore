@@ -105,14 +105,19 @@ def story_audio_field(
             }
             for chunk_entry in manifest_chunks
         ]
-    return {
-        # voice_id / model_id / speed ride along so the read-time
-        # name-narration endpoint re-voices chunks with the same voice.
+    audio_field = {
+        # Delivery settings ride along so the read-time name-narration
+        # endpoint re-voices chunks to match the pre-generated clips
+        # exactly — same voice, pace, emotion and sentence pauses.
         "voice_id": manifest_entry["voice_id"],
         "model_id": manifest_entry["model_id"],
         "speed": manifest_entry.get("speed", 1.0),
+        "sentence_pause_ms": manifest_entry.get("sentence_pause_ms", 0),
         "segments": stamped_segments,
     }
+    if manifest_entry.get("emotion"):
+        audio_field["emotion"] = manifest_entry["emotion"]
+    return audio_field
 
 
 def build_parent_data(stories: list[dict[str, Any]]) -> dict[str, Any]:

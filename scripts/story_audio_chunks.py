@@ -16,12 +16,30 @@ substituted — anything else is left literally.
 Used by generate_story_audio.py (batch mp3 generation) and by
 build_pilot_site.py (stamping per-chunk audio info into stories.json).
 The runtime name-audio endpoint (buju_website/api/pilot-name-audio.js)
-re-implements the same two functions in JS; keep all three in sync.
+re-implements the same functions in JS; keep all of them in sync.
 """
 
 from __future__ import annotations
 
 from typing import Any
+
+# ---------------------------------------------------------------------
+# Sentence pacing
+# ---------------------------------------------------------------------
+# Sonic-3 reads a paragraph without much of a beat between sentences, which
+# is too brisk for a bedtime read-aloud, so we insert SSML break tags at
+# sentence boundaries (docs: build-with-cartesia/sonic-3/ssml-tags).
+# Cartesia warns that break tags segment generation and that several in
+# quick succession can make the model hallucinate — hence one per boundary
+# at most, and never after a very short exclamation.
+SENTENCE_FINAL = ".!?…"
+SENTENCE_CLOSERS = "\"'”’)»"
+SENTENCE_OPENERS = "\"'“‘(«—"
+# Don't mistake "Mr. Whiskers" for a sentence boundary.
+ABBREVIATIONS = {"mr", "mrs", "ms", "dr", "st", "prof", "sgt", "mt", "vs"}
+# Skip the pause after very short sentences ("Beep." / "Yes.") so a burst of
+# them can't stack up break tags.
+MIN_SENTENCE_CHARS_FOR_PAUSE = 10
 
 
 def paragraph_chunks(text: str) -> list[str]:
@@ -45,6 +63,70 @@ def declared_slot_tokens(chunk_text: str, slots: dict[str, Any]) -> list[str]:
             found.append(token)
         rest = rest[close_brace + 1 :]
     return found
+
+
+def _is_abbreviation(text: str, terminal_index: int) -> bool:
+    """True when the '.' at terminal_index closes a known abbreviation."""
+    start = terminal_index
+    while start > 0 and (text[start - 1].isalpha() or text[start - 1] == "."):
+        start -= 1
+    word = text[start:terminal_index].replace(".", "").lower()
+    return word in ABBREVIATIONS
+
+
+def _opens_sentence(char: str) -> bool:
+    return char.isupper() or char in SENTENCE_OPENERS
+
+
+def to_transcript(chunk_text: str, sentence_pause_ms: int) -> str:
+    """The text actually sent to Cartesia: prose with a <break/> at each
+    sentence boundary so the narrator takes a breath mid-paragraph.
+
+    Boundary rule: sentence-final punctuation (plus any closing quotes),
+    then whitespace, then something that starts a new sentence — a capital
+    or an opening quote. That deliberately leaves dialogue attribution
+    alone: in `"What is he doing?" you ask.` the lowercase "you" means no
+    break, so the line still reads as one thought.
+    """
+    if not sentence_pause_ms or sentence_pause_ms <= 0:
+        return chunk_text
+    tag = f'<break time="{int(sentence_pause_ms)}ms"/>'
+    pieces: list[str] = []
+    segment_start = 0
+    index = 0
+    length = len(chunk_text)
+    while index < length:
+        if chunk_text[index] not in SENTENCE_FINAL:
+            index += 1
+            continue
+        terminal_index = index
+        after = index + 1
+        while after < length and chunk_text[after] in SENTENCE_FINAL:
+            after += 1
+        while after < length and chunk_text[after] in SENTENCE_CLOSERS:
+            after += 1
+        next_start = after
+        while next_start < length and chunk_text[next_start].isspace():
+            next_start += 1
+        sentence_long_enough = (
+            after - segment_start >= MIN_SENTENCE_CHARS_FOR_PAUSE
+        )
+        if (
+            next_start > after
+            and next_start < length
+            and _opens_sentence(chunk_text[next_start])
+            and sentence_long_enough
+            and not _is_abbreviation(chunk_text, terminal_index)
+        ):
+            pieces.append(chunk_text[segment_start:after])
+            pieces.append(tag)
+            # The break replaces the inter-sentence whitespace.
+            segment_start = next_start
+            index = next_start
+            continue
+        index = after
+    pieces.append(chunk_text[segment_start:])
+    return "".join(pieces)
 
 
 def substitute_slot_values(
