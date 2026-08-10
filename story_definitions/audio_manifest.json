@@ -1,6 +1,6 @@
 {
  "story.mars.age5to6.d1.authored.e9025d": {
-  "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+  "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
   "speed": 1.0,
   "segments": {
@@ -443,7 +443,7 @@
   }
  },
  "story.mercury.age7to8.d1.pregen.f3a606": {
-  "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+  "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
   "speed": 1.0,
   "segments": {
@@ -736,7 +736,7 @@
   }
  },
  "story.volcanoes.age9to10.d1.pregen.1bb4cb": {
-  "voice_id": "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4",
+  "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
   "speed": 0.95,
   "segments": {
