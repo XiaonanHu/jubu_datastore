@@ -1,22 +1,30 @@
 {
-  "_readme": "Narration delivery for the pilot (generate_story_audio.py). CURRENT STATE (2026-08): deliberately conservative while we track down an artifact — a faint blip between clips plus a nasal/watery quality that isn't there when the same voice is auditioned on Cartesia's own site. Speed adjustment and emotion are OFF and the mp3 bitrate is up from 96k to 128k, so this config should sound like the plain voice. Run `python scripts/generate_story_audio.py --diagnose 1bb4cb` to hear each knob isolated, then switch the safe ones back on here: set speed (0.94-0.96 reads nicely if it's artifact-free), and flip emotions_enabled to true for per-tone expressiveness. Note that unhurried pacing does NOT depend on speed — most of it comes from sentence_pause_ms here plus the paragraph/segment gaps in the player (BujuPilot.narration in pilot/js/stories.js), which need no regeneration. Cartesia's most reliable emotions are neutral, calm, content, sad, scared, angry; a rejected label is dropped for that clip with a warning. Anything in this file is baked into the mp3s: change it and regenerate with --force (the script warns when clips are stale).",
+  "_readme": "Narration delivery for the pilot (generate_story_audio.py). Settled by ear 2026-08: the plain voice at 128k mp3 with no speed adjustment and no emotion sounded clean, while 96k / a speed adjustment / the emotion parameter (in some combination) made it nasal and watery — so those stay off until re-tested one at a time with --diagnose. Sentence pauses at 250ms were picked from --pause-test. Resolution order for every setting is age_bands > tellers > top level, so a band can override pace or even voice while tellers still choose who is telling. Younger bands get longer pauses rather than slower speech, because pauses cost nothing in audio quality and a speed adjustment is exactly what we suspect of the artifacts — revisit with `--diagnose` at 128k before adding speed back. Paragraph and segment gaps are NOT here: they're player-side (BujuPilot.narration in pilot/js/stories.js) and are themselves scaled per age band, so they retune without regenerating. Anything in this file is baked into the mp3s: change it and regenerate with --force.",
   "model_id": "sonic-3",
   "speed": 1.0,
   "sentence_pause_ms": 250,
   "mp3_bit_rate": 128000,
   "emotions_enabled": false,
+  "age_bands": {
+    "5-6": {
+      "sentence_pause_ms": 400
+    },
+    "7-8": {
+      "sentence_pause_ms": 300
+    },
+    "9-10": {
+      "sentence_pause_ms": 250
+    }
+  },
   "tellers": {
     "we_adventure": {
-      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 1.0
+      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793"
     },
     "named_hero": {
-      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 1.0
+      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793"
     },
     "storyteller_tale": {
-      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 1.0
+      "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793"
     }
   },
   "tone_emotions": {

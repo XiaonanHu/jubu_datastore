@@ -110,21 +110,28 @@ def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict
             f"{VOICE_CONFIG_PATH.name} — add one before generating"
         )
     teller_voice = teller_voices[teller]
+    band_settings = (voice_config.get("age_bands") or {}).get(story.get("age_band"), {})
+
+    def resolve(key: str, fallback: Any) -> Any:
+        # Age band wins: "for the little ones, read it like THIS" is the more
+        # specific intent than "this kind of teller sounds like this".
+        if key in band_settings:
+            return band_settings[key]
+        if key in teller_voice:
+            return teller_voice[key]
+        return voice_config.get(key, fallback)
+
     tone = (story.get("tone") or {}).get("dominant")
     emotion = None
     if voice_config.get("emotions_enabled", True):
-        emotion = teller_voice.get("emotion") or (
+        emotion = resolve("emotion", None) or (
             voice_config.get("tone_emotions") or {}
         ).get(tone)
     return {
-        "voice_id": teller_voice["voice_id"],
-        "speed": float(teller_voice.get("speed", voice_config.get("speed", 1.0))),
+        "voice_id": resolve("voice_id", None),
+        "speed": float(resolve("speed", 1.0)),
         "emotion": emotion,
-        "sentence_pause_ms": int(
-            teller_voice.get(
-                "sentence_pause_ms", voice_config.get("sentence_pause_ms", 0)
-            )
-        ),
+        "sentence_pause_ms": int(resolve("sentence_pause_ms", 0)),
     }
 
 
