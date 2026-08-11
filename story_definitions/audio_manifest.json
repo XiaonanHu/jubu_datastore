@@ -3,6 +3,9 @@
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
   "speed": 1.0,
+  "emotion": null,
+  "sentence_pause_ms": 400,
+  "mp3_bit_rate": 128000,
   "segments": {
    "s1": [
     {
@@ -15,7 +18,7 @@
      "i": 1,
      "file": "s1_01.mp3",
      "has_slot": false,
-     "chars": 77
+     "chars": 97
     },
     {
      "i": 2,
@@ -39,7 +42,7 @@
      "i": 5,
      "file": "s1_05.mp3",
      "has_slot": false,
-     "chars": 121
+     "chars": 181
     },
     {
      "i": 6,
@@ -57,7 +60,7 @@
      "i": 8,
      "file": "s1_08.mp3",
      "has_slot": false,
-     "chars": 139
+     "chars": 159
     },
     {
      "i": 9,
@@ -69,7 +72,7 @@
      "i": 10,
      "file": "s1_10.mp3",
      "has_slot": false,
-     "chars": 153
+     "chars": 213
     },
     {
      "i": 11,
@@ -81,7 +84,7 @@
      "i": 12,
      "file": "s1_12.mp3",
      "has_slot": false,
-     "chars": 97
+     "chars": 157
     }
    ],
    "s2a": [
@@ -101,13 +104,13 @@
      "i": 2,
      "file": "s2a_02.mp3",
      "has_slot": false,
-     "chars": 211
+     "chars": 231
     },
     {
      "i": 3,
      "file": "s2a_03.mp3",
      "has_slot": false,
-     "chars": 20
+     "chars": 40
     },
     {
      "i": 4,
@@ -119,13 +122,13 @@
      "i": 5,
      "file": "s2a_05.mp3",
      "has_slot": false,
-     "chars": 54
+     "chars": 74
     },
     {
      "i": 6,
      "file": "s2a_06.mp3",
      "has_slot": true,
-     "chars": 194
+     "chars": 234
     },
     {
      "i": 7,
@@ -137,7 +140,7 @@
      "i": 8,
      "file": "s2a_08.mp3",
      "has_slot": true,
-     "chars": 130
+     "chars": 170
     },
     {
      "i": 9,
@@ -149,7 +152,7 @@
      "i": 10,
      "file": "s2a_10.mp3",
      "has_slot": false,
-     "chars": 81
+     "chars": 101
     }
    ],
    "s2b": [
@@ -163,31 +166,31 @@
      "i": 1,
      "file": "s2b_01.mp3",
      "has_slot": false,
-     "chars": 121
+     "chars": 161
     },
     {
      "i": 2,
      "file": "s2b_02.mp3",
      "has_slot": false,
-     "chars": 25
+     "chars": 45
     },
     {
      "i": 3,
      "file": "s2b_03.mp3",
      "has_slot": false,
-     "chars": 150
+     "chars": 210
     },
     {
      "i": 4,
      "file": "s2b_04.mp3",
      "has_slot": false,
-     "chars": 160
+     "chars": 180
     },
     {
      "i": 5,
      "file": "s2b_05.mp3",
      "has_slot": true,
-     "chars": 96
+     "chars": 156
     },
     {
      "i": 6,
@@ -211,7 +214,7 @@
      "i": 9,
      "file": "s2b_09.mp3",
      "has_slot": false,
-     "chars": 81
+     "chars": 101
     }
    ],
    "s3": [
@@ -225,13 +228,13 @@
      "i": 1,
      "file": "s3_01.mp3",
      "has_slot": true,
-     "chars": 90
+     "chars": 130
     },
     {
      "i": 2,
      "file": "s3_02.mp3",
      "has_slot": false,
-     "chars": 115
+     "chars": 135
     },
     {
      "i": 3,
@@ -249,25 +252,25 @@
      "i": 5,
      "file": "s3_05.mp3",
      "has_slot": false,
-     "chars": 26
+     "chars": 46
     },
     {
      "i": 6,
      "file": "s3_06.mp3",
      "has_slot": false,
-     "chars": 73
+     "chars": 113
     },
     {
      "i": 7,
      "file": "s3_07.mp3",
      "has_slot": false,
-     "chars": 96
+     "chars": 136
     },
     {
      "i": 8,
      "file": "s3_08.mp3",
      "has_slot": false,
-     "chars": 60
+     "chars": 100
     },
     {
      "i": 9,
@@ -279,7 +282,7 @@
      "i": 10,
      "file": "s3_10.mp3",
      "has_slot": false,
-     "chars": 85
+     "chars": 105
     },
     {
      "i": 11,
@@ -293,7 +296,7 @@
      "i": 0,
      "file": "s4a_00.mp3",
      "has_slot": false,
-     "chars": 33
+     "chars": 53
     },
     {
      "i": 1,
@@ -305,25 +308,25 @@
      "i": 2,
      "file": "s4a_02.mp3",
      "has_slot": false,
-     "chars": 82
+     "chars": 102
     },
     {
      "i": 3,
      "file": "s4a_03.mp3",
      "has_slot": true,
-     "chars": 46
+     "chars": 66
     },
     {
      "i": 4,
      "file": "s4a_04.mp3",
      "has_slot": false,
-     "chars": 24
+     "chars": 44
     },
     {
      "i": 5,
      "file": "s4a_05.mp3",
      "has_slot": false,
-     "chars": 166
+     "chars": 226
     },
     {
      "i": 6,
@@ -373,7 +376,7 @@
      "i": 1,
      "file": "s4b_01.mp3",
      "has_slot": false,
-     "chars": 164
+     "chars": 184
     },
     {
      "i": 2,
@@ -385,13 +388,13 @@
      "i": 3,
      "file": "s4b_03.mp3",
      "has_slot": false,
-     "chars": 24
+     "chars": 44
     },
     {
      "i": 4,
      "file": "s4b_04.mp3",
      "has_slot": true,
-     "chars": 147
+     "chars": 207
     },
     {
      "i": 5,
@@ -403,19 +406,19 @@
      "i": 6,
      "file": "s4b_06.mp3",
      "has_slot": false,
-     "chars": 162
+     "chars": 182
     },
     {
      "i": 7,
      "file": "s4b_07.mp3",
      "has_slot": false,
-     "chars": 118
+     "chars": 138
     },
     {
      "i": 8,
      "file": "s4b_08.mp3",
      "has_slot": false,
-     "chars": 36
+     "chars": 56
     },
     {
      "i": 9,
@@ -429,7 +432,7 @@
      "i": 0,
      "file": "c1_00.mp3",
      "has_slot": false,
-     "chars": 125
+     "chars": 165
     }
    ],
    "c2": [
@@ -437,7 +440,7 @@
      "i": 0,
      "file": "c2_00.mp3",
      "has_slot": false,
-     "chars": 115
+     "chars": 155
     }
    ]
   }
@@ -446,13 +449,16 @@
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
   "speed": 1.0,
+  "emotion": null,
+  "sentence_pause_ms": 300,
+  "mp3_bit_rate": 128000,
   "segments": {
    "s1": [
     {
      "i": 0,
      "file": "s1_00.mp3",
      "has_slot": true,
-     "chars": 994
+     "chars": 1334
     }
    ],
    "s2a": [
@@ -460,19 +466,19 @@
      "i": 0,
      "file": "s2a_00.mp3",
      "has_slot": true,
-     "chars": 54
+     "chars": 94
     },
     {
      "i": 1,
      "file": "s2a_01.mp3",
      "has_slot": false,
-     "chars": 60
+     "chars": 80
     },
     {
      "i": 2,
      "file": "s2a_02.mp3",
      "has_slot": true,
-     "chars": 120
+     "chars": 160
     },
     {
      "i": 3,
@@ -490,31 +496,31 @@
      "i": 5,
      "file": "s2a_05.mp3",
      "has_slot": false,
-     "chars": 172
+     "chars": 192
     },
     {
      "i": 6,
      "file": "s2a_06.mp3",
      "has_slot": true,
-     "chars": 64
+     "chars": 104
     },
     {
      "i": 7,
      "file": "s2a_07.mp3",
      "has_slot": false,
-     "chars": 82
+     "chars": 122
     },
     {
      "i": 8,
      "file": "s2a_08.mp3",
      "has_slot": true,
-     "chars": 178
+     "chars": 258
     },
     {
      "i": 9,
      "file": "s2a_09.mp3",
      "has_slot": true,
-     "chars": 87
+     "chars": 127
     },
     {
      "i": 10,
@@ -526,7 +532,7 @@
      "i": 11,
      "file": "s2a_11.mp3",
      "has_slot": false,
-     "chars": 64
+     "chars": 84
     },
     {
      "i": 12,
@@ -538,7 +544,7 @@
      "i": 13,
      "file": "s2a_13.mp3",
      "has_slot": false,
-     "chars": 119
+     "chars": 159
     }
    ],
    "s2b": [
@@ -546,7 +552,7 @@
      "i": 0,
      "file": "s2b_00.mp3",
      "has_slot": true,
-     "chars": 57
+     "chars": 97
     },
     {
      "i": 1,
@@ -558,37 +564,37 @@
      "i": 2,
      "file": "s2b_02.mp3",
      "has_slot": true,
-     "chars": 144
+     "chars": 204
     },
     {
      "i": 3,
      "file": "s2b_03.mp3",
      "has_slot": false,
-     "chars": 40
+     "chars": 60
     },
     {
      "i": 4,
      "file": "s2b_04.mp3",
      "has_slot": true,
-     "chars": 131
+     "chars": 191
     },
     {
      "i": 5,
      "file": "s2b_05.mp3",
      "has_slot": false,
-     "chars": 158
+     "chars": 178
     },
     {
      "i": 6,
      "file": "s2b_06.mp3",
      "has_slot": false,
-     "chars": 81
+     "chars": 101
     },
     {
      "i": 7,
      "file": "s2b_07.mp3",
      "has_slot": true,
-     "chars": 218
+     "chars": 258
     },
     {
      "i": 8,
@@ -600,13 +606,13 @@
      "i": 9,
      "file": "s2b_09.mp3",
      "has_slot": false,
-     "chars": 258
+     "chars": 398
     },
     {
      "i": 10,
      "file": "s2b_10.mp3",
      "has_slot": true,
-     "chars": 93
+     "chars": 113
     }
    ],
    "s3": [
@@ -614,7 +620,7 @@
      "i": 0,
      "file": "s3_00.mp3",
      "has_slot": true,
-     "chars": 1133
+     "chars": 1693
     }
    ],
    "s4a": [
@@ -622,37 +628,37 @@
      "i": 0,
      "file": "s4a_00.mp3",
      "has_slot": true,
-     "chars": 203
+     "chars": 303
     },
     {
      "i": 1,
      "file": "s4a_01.mp3",
      "has_slot": true,
-     "chars": 97
+     "chars": 157
     },
     {
      "i": 2,
      "file": "s4a_02.mp3",
      "has_slot": false,
-     "chars": 166
+     "chars": 206
     },
     {
      "i": 3,
      "file": "s4a_03.mp3",
      "has_slot": true,
-     "chars": 215
+     "chars": 315
     },
     {
      "i": 4,
      "file": "s4a_04.mp3",
      "has_slot": true,
-     "chars": 175
+     "chars": 215
     },
     {
      "i": 5,
      "file": "s4a_05.mp3",
      "has_slot": true,
-     "chars": 88
+     "chars": 108
     },
     {
      "i": 6,
@@ -666,37 +672,37 @@
      "i": 0,
      "file": "s4b_00.mp3",
      "has_slot": true,
-     "chars": 203
+     "chars": 303
     },
     {
      "i": 1,
      "file": "s4b_01.mp3",
      "has_slot": true,
-     "chars": 134
+     "chars": 234
     },
     {
      "i": 2,
      "file": "s4b_02.mp3",
      "has_slot": false,
-     "chars": 168
+     "chars": 188
     },
     {
      "i": 3,
      "file": "s4b_03.mp3",
      "has_slot": true,
-     "chars": 52
+     "chars": 92
     },
     {
      "i": 4,
      "file": "s4b_04.mp3",
      "has_slot": false,
-     "chars": 153
+     "chars": 173
     },
     {
      "i": 5,
      "file": "s4b_05.mp3",
      "has_slot": true,
-     "chars": 117
+     "chars": 177
     },
     {
      "i": 6,
@@ -708,13 +714,13 @@
      "i": 7,
      "file": "s4b_07.mp3",
      "has_slot": false,
-     "chars": 122
+     "chars": 142
     },
     {
      "i": 8,
      "file": "s4b_08.mp3",
      "has_slot": true,
-     "chars": 136
+     "chars": 176
     }
    ],
    "c1": [
@@ -730,7 +736,7 @@
      "i": 0,
      "file": "c2_00.mp3",
      "has_slot": false,
-     "chars": 152
+     "chars": 172
     }
    ]
   }
@@ -738,7 +744,10 @@
  "story.volcanoes.age9to10.d1.pregen.1bb4cb": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 0.95,
+  "speed": 1.0,
+  "emotion": null,
+  "sentence_pause_ms": 250,
+  "mp3_bit_rate": 128000,
   "segments": {
    "s1": [
     {
@@ -751,43 +760,43 @@
      "i": 1,
      "file": "s1_01.mp3",
      "has_slot": false,
-     "chars": 270
+     "chars": 290
     },
     {
      "i": 2,
      "file": "s1_02.mp3",
      "has_slot": false,
-     "chars": 357
+     "chars": 497
     },
     {
      "i": 3,
      "file": "s1_03.mp3",
      "has_slot": false,
-     "chars": 117
+     "chars": 177
     },
     {
      "i": 4,
      "file": "s1_04.mp3",
      "has_slot": false,
-     "chars": 197
+     "chars": 237
     },
     {
      "i": 5,
      "file": "s1_05.mp3",
      "has_slot": false,
-     "chars": 58
+     "chars": 98
     },
     {
      "i": 6,
      "file": "s1_06.mp3",
      "has_slot": true,
-     "chars": 241
+     "chars": 261
     },
     {
      "i": 7,
      "file": "s1_07.mp3",
      "has_slot": false,
-     "chars": 101
+     "chars": 141
     }
    ],
    "s2a": [
@@ -795,31 +804,31 @@
      "i": 0,
      "file": "s2a_00.mp3",
      "has_slot": false,
-     "chars": 319
+     "chars": 399
     },
     {
      "i": 1,
      "file": "s2a_01.mp3",
      "has_slot": true,
-     "chars": 271
+     "chars": 391
     },
     {
      "i": 2,
      "file": "s2a_02.mp3",
      "has_slot": false,
-     "chars": 235
+     "chars": 315
     },
     {
      "i": 3,
      "file": "s2a_03.mp3",
      "has_slot": false,
-     "chars": 372
+     "chars": 492
     },
     {
      "i": 4,
      "file": "s2a_04.mp3",
      "has_slot": false,
-     "chars": 82
+     "chars": 102
     }
    ],
    "s2b": [
@@ -833,25 +842,25 @@
      "i": 1,
      "file": "s2b_01.mp3",
      "has_slot": false,
-     "chars": 216
+     "chars": 296
     },
     {
      "i": 2,
      "file": "s2b_02.mp3",
      "has_slot": true,
-     "chars": 300
+     "chars": 400
     },
     {
      "i": 3,
      "file": "s2b_03.mp3",
      "has_slot": false,
-     "chars": 464
+     "chars": 564
     },
     {
      "i": 4,
      "file": "s2b_04.mp3",
      "has_slot": false,
-     "chars": 156
+     "chars": 176
     }
    ],
    "s3": [
@@ -859,61 +868,61 @@
      "i": 0,
      "file": "s3_00.mp3",
      "has_slot": false,
-     "chars": 166
+     "chars": 206
     },
     {
      "i": 1,
      "file": "s3_01.mp3",
      "has_slot": false,
-     "chars": 363
+     "chars": 483
     },
     {
      "i": 2,
      "file": "s3_02.mp3",
      "has_slot": true,
-     "chars": 32
+     "chars": 52
     },
     {
      "i": 3,
      "file": "s3_03.mp3",
      "has_slot": false,
-     "chars": 224
+     "chars": 284
     },
     {
      "i": 4,
      "file": "s3_04.mp3",
      "has_slot": false,
-     "chars": 219
+     "chars": 279
     },
     {
      "i": 5,
      "file": "s3_05.mp3",
      "has_slot": false,
-     "chars": 75
+     "chars": 115
     },
     {
      "i": 6,
      "file": "s3_06.mp3",
      "has_slot": false,
-     "chars": 172
+     "chars": 232
     },
     {
      "i": 7,
      "file": "s3_07.mp3",
      "has_slot": false,
-     "chars": 147
+     "chars": 187
     },
     {
      "i": 8,
      "file": "s3_08.mp3",
      "has_slot": true,
-     "chars": 64
+     "chars": 84
     },
     {
      "i": 9,
      "file": "s3_09.mp3",
      "has_slot": false,
-     "chars": 57
+     "chars": 97
     }
    ],
    "s4a": [
@@ -921,49 +930,49 @@
      "i": 0,
      "file": "s4a_00.mp3",
      "has_slot": false,
-     "chars": 198
+     "chars": 238
     },
     {
      "i": 1,
      "file": "s4a_01.mp3",
      "has_slot": false,
-     "chars": 241
+     "chars": 301
     },
     {
      "i": 2,
      "file": "s4a_02.mp3",
      "has_slot": false,
-     "chars": 84
+     "chars": 144
     },
     {
      "i": 3,
      "file": "s4a_03.mp3",
      "has_slot": false,
-     "chars": 186
+     "chars": 286
     },
     {
      "i": 4,
      "file": "s4a_04.mp3",
      "has_slot": false,
-     "chars": 138
+     "chars": 178
     },
     {
      "i": 5,
      "file": "s4a_05.mp3",
      "has_slot": false,
-     "chars": 126
+     "chars": 206
     },
     {
      "i": 6,
      "file": "s4a_06.mp3",
      "has_slot": true,
-     "chars": 192
+     "chars": 232
     },
     {
      "i": 7,
      "file": "s4a_07.mp3",
      "has_slot": false,
-     "chars": 137
+     "chars": 157
     },
     {
      "i": 8,
@@ -975,7 +984,7 @@
      "i": 9,
      "file": "s4a_09.mp3",
      "has_slot": false,
-     "chars": 99
+     "chars": 139
     }
    ],
    "s4b": [
@@ -983,55 +992,55 @@
      "i": 0,
      "file": "s4b_00.mp3",
      "has_slot": false,
-     "chars": 161
+     "chars": 221
     },
     {
      "i": 1,
      "file": "s4b_01.mp3",
      "has_slot": false,
-     "chars": 183
+     "chars": 223
     },
     {
      "i": 2,
      "file": "s4b_02.mp3",
      "has_slot": false,
-     "chars": 48
+     "chars": 68
     },
     {
      "i": 3,
      "file": "s4b_03.mp3",
      "has_slot": false,
-     "chars": 121
+     "chars": 181
     },
     {
      "i": 4,
      "file": "s4b_04.mp3",
      "has_slot": false,
-     "chars": 37
+     "chars": 57
     },
     {
      "i": 5,
      "file": "s4b_05.mp3",
      "has_slot": false,
-     "chars": 172
+     "chars": 192
     },
     {
      "i": 6,
      "file": "s4b_06.mp3",
      "has_slot": false,
-     "chars": 285
+     "chars": 385
     },
     {
      "i": 7,
      "file": "s4b_07.mp3",
      "has_slot": true,
-     "chars": 226
+     "chars": 286
     },
     {
      "i": 8,
      "file": "s4b_08.mp3",
      "has_slot": false,
-     "chars": 145
+     "chars": 205
     },
     {
      "i": 9,
@@ -1045,7 +1054,7 @@
      "i": 0,
      "file": "c1_00.mp3",
      "has_slot": false,
-     "chars": 236
+     "chars": 256
     }
    ],
    "c2": [
@@ -1053,7 +1062,7 @@
      "i": 0,
      "file": "c2_00.mp3",
      "has_slot": false,
-     "chars": 241
+     "chars": 261
     }
    ]
   }
