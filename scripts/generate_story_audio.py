@@ -322,6 +322,62 @@ def generate_story(
     return manifest_entry, chars_sent, files_written
 
 
+PAUSE_TEST_MS = (0, 150, 250, 350, 500)
+
+
+def run_pause_test(story_substring: str, voice_config: dict[str, Any]) -> int:
+    """Same passage, same voice settings, one pause length per file.
+
+    Sentence pauses are the one setting you can't judge from a single clip:
+    too short and the read runs together, too long and it drags. This holds
+    everything else at the shipped config and varies only the pause, so the
+    choice is a straight listen-and-pick.
+    """
+    client = CartesiaBatchClient()
+    stories = [s for s in bse.load_stories() if story_substring in s["id"]]
+    if not stories:
+        raise SystemExit(f"no story id contains {story_substring!r}")
+    story = stories[0]
+    settings = voice_for_story(story, voice_config)
+    bit_rate = int(voice_config.get("mp3_bit_rate", DEFAULT_MP3_BIT_RATE))
+
+    opening = next(
+        seg for seg in story["segments"] if seg["id"] == story["start_segment"]
+    )
+    # Several paragraphs, so there are plenty of sentence boundaries to judge.
+    paragraphs = story_audio_chunks.paragraph_chunks(opening["text"])[:3]
+    plain = story_audio_chunks.substitute_slot_values(
+        " ".join(paragraphs), story.get("slots") or {}, {}
+    )
+
+    DIAGNOSE_DIR.mkdir(parents=True, exist_ok=True)
+    print(
+        f"pause test on {story['id']}\n"
+        f"  holding voice={settings['voice_id']}, speed={settings['speed']}, "
+        f"emotion={settings['emotion'] or 'none'}, mp3={bit_rate // 1000}k\n"
+    )
+    for pause_ms in PAUSE_TEST_MS:
+        transcript = story_audio_chunks.to_transcript(plain, pause_ms)
+        out_path = DIAGNOSE_DIR / f"pause_{pause_ms:03d}ms.mp3"
+        out_path.write_bytes(
+            client.synthesize(
+                transcript,
+                settings["voice_id"],
+                voice_config["model_id"],
+                settings["speed"],
+                settings["emotion"],
+                mp3_format(bit_rate),
+            )
+        )
+        print(f"  wrote {out_path.name} ({transcript.count('<break')} breaks)")
+    print(
+        f"\nListen in {DIAGNOSE_DIR} and put the winner in "
+        f"{VOICE_CONFIG_PATH.name} as sentence_pause_ms, then regenerate "
+        f"with --force. (pause_000ms is the no-breaks reference.)"
+    )
+    return 0
+
+
 def run_diagnose(story_substring: str, voice_config: dict[str, Any]) -> int:
     """Render one passage under a matrix of settings, one variable at a time.
 
@@ -342,10 +398,18 @@ def run_diagnose(story_substring: str, voice_config: dict[str, Any]) -> int:
     settings = voice_for_story(story, voice_config)
     model_id = voice_config["model_id"]
     voice_id = settings["voice_id"]
-    speed = settings["speed"]
-    emotion = settings["emotion"]
-    pause_ms = settings["sentence_pause_ms"]
     bit_rate = int(voice_config.get("mp3_bit_rate", DEFAULT_MP3_BIT_RATE))
+    # Probe values, NOT the live config: once a knob has been turned off in
+    # audio_voices.json its trial would otherwise collapse into the
+    # reference and the matrix would silently stop testing anything.
+    speed = settings["speed"] if abs(settings["speed"] - 1.0) > 1e-9 else 0.94
+    tone = (story.get("tone") or {}).get("dominant")
+    emotion = (
+        settings["emotion"]
+        or (voice_config.get("tone_emotions") or {}).get(tone)
+        or "content"
+    )
+    pause_ms = settings["sentence_pause_ms"] or 250
 
     opening = next(
         seg for seg in story["segments"] if seg["id"] == story["start_segment"]
@@ -495,6 +559,9 @@ def main() -> int:
     parser.add_argument("--diagnose", metavar="ID_SUBSTRING",
                         help="render one passage under a matrix of settings to "
                              "find what is making a voice sound wrong")
+    parser.add_argument("--pause-test", metavar="ID_SUBSTRING",
+                        help="render one passage at several sentence-pause "
+                             "lengths so you can pick one by ear")
     parser.add_argument("--force", action="store_true",
                         help="regenerate mp3s that already exist")
     parser.add_argument("--upload", action="store_true",
@@ -505,6 +572,8 @@ def main() -> int:
     args = parser.parse_args()
 
     voice_config = load_voice_config()
+    if args.pause_test:
+        return run_pause_test(args.pause_test, voice_config)
     if args.diagnose:
         return run_diagnose(args.diagnose, voice_config)
     if args.audition:
