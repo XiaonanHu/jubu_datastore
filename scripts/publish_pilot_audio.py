@@ -107,6 +107,29 @@ def upload_clips(bucket: str, dry_run: bool) -> None:
         raise Failed(
             f"no clips at {LOCAL_AUDIO_DIR} — run generate_story_audio.py first"
         )
+    # rsync mirrors the directory verbatim, so macOS's .DS_Store would ride
+    # along into the bucket as a stray object. Drop them first (Finder just
+    # recreates them locally); the bucket should hold nothing but clips.
+    junk = sorted(LOCAL_AUDIO_DIR.rglob(".DS_Store"))
+    for path in junk:
+        if dry_run:
+            print(f"    would remove junk file {path.relative_to(REPO_ROOT)}")
+        else:
+            path.unlink()
+            print(f"    removed junk file {path.relative_to(REPO_ROOT)}")
+    # Anything else that isn't a clip is unexpected and shouldn't be
+    # published silently. (.DS_Store is excluded because a real run just
+    # deleted it above; in a dry run it is only reported.)
+    strays = [
+        path
+        for path in LOCAL_AUDIO_DIR.rglob("*")
+        if path.is_file() and path.suffix != ".mp3" and path.name != ".DS_Store"
+    ]
+    if strays:
+        raise Failed(
+            f"{len(strays)} non-mp3 file(s) under {LOCAL_AUDIO_DIR.name}, e.g. "
+            f"{strays[0].name} — remove them so they don't reach the bucket"
+        )
     run(
         ["gcloud", "storage", "rsync", "--recursive",
          str(LOCAL_AUDIO_DIR), f"gs://{bucket}"],
@@ -222,8 +245,12 @@ def run_website_tests(website_root: Path, dry_run: bool) -> None:
         if dry_run:
             continue
         if "Cannot find module 'jsdom'" in output:
-            print("    jsdom not installed (`npm i jsdom`) — skipping tests")
-            return
+            # Don't quietly publish with the safety net down.
+            raise Failed(
+                "the pilot suites can't run because jsdom isn't installed. "
+                f"Run `npm i jsdom` in {website_root}, or pass --skip-tests "
+                "to publish without them."
+            )
         lines = [line for line in output.splitlines() if line.strip()]
         summary = lines[-1].strip() if lines else "(no output)"
         if "PASSED" not in summary:
