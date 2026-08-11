@@ -196,6 +196,33 @@ class CartesiaBatchClient:
             }
         )
 
+    def _post_with_retry(self, payload: dict[str, Any], attempts: int = 4):
+        """POST to Cartesia, retrying transient failures.
+
+        A batch run is hours long and unattended; a single network blip or
+        5xx should not end it. Client errors (4xx) are returned as-is —
+        those are our fault and retrying won't help.
+        """
+        delay = 2.0
+        for attempt in range(1, attempts + 1):
+            try:
+                response = self._session.post(
+                    CARTESIA_TTS_BYTES_URL, json=payload, timeout=120
+                )
+            except requests.RequestException as exc:
+                if attempt == attempts:
+                    raise
+                print(f"    network error ({type(exc).__name__}); "
+                      f"retry {attempt}/{attempts - 1} in {delay:.0f}s")
+            else:
+                if response.status_code < 500 or attempt == attempts:
+                    return response
+                print(f"    Cartesia {response.status_code}; "
+                      f"retry {attempt}/{attempts - 1} in {delay:.0f}s")
+            time.sleep(delay)
+            delay *= 2
+        raise RuntimeError("unreachable")
+
     def synthesize(
         self,
         text: str,
@@ -220,7 +247,7 @@ class CartesiaBatchClient:
             "output_format": output_format or mp3_format(DEFAULT_MP3_BIT_RATE),
             "generation_config": generation_config,
         }
-        response = self._session.post(CARTESIA_TTS_BYTES_URL, json=payload, timeout=120)
+        response = self._post_with_retry(payload)
         if response.status_code == 400 and emotion:
             # An emotion label Cartesia doesn't accept shouldn't sink a whole
             # batch — drop it and keep the run going, loudly.
@@ -231,9 +258,7 @@ class CartesiaBatchClient:
             )
             generation_config.pop("emotion", None)
             payload["generation_config"] = generation_config
-            response = self._session.post(
-                CARTESIA_TTS_BYTES_URL, json=payload, timeout=120
-            )
+            response = self._post_with_retry(payload)
         response.raise_for_status()
         return response.content
 
@@ -619,6 +644,9 @@ def main() -> int:
             previous_manifest,
         )
         new_manifest_entries[story["id"]] = manifest_entry
+        # Persist per story: an 80-story run that dies at story 70 must not
+        # throw away the manifest for the 69 that succeeded.
+        merge_manifest({story["id"]: manifest_entry})
         total_chars += chars_sent
         total_files += files_written
 

@@ -1,11 +1,14 @@
 {
-  "_readme": "Narration delivery for the pilot (generate_story_audio.py). Settled by ear 2026-08: the plain voice at 128k mp3 with no speed adjustment and no emotion sounded clean, while 96k / a speed adjustment / the emotion parameter (in some combination) made it nasal and watery — so those stay off until re-tested one at a time with --diagnose. Sentence pauses at 250ms were picked from --pause-test. Resolution order for every setting is age_bands > tellers > top level, so a band can override pace or even voice while tellers still choose who is telling. Younger bands get longer pauses rather than slower speech, because pauses cost nothing in audio quality and a speed adjustment is exactly what we suspect of the artifacts — revisit with `--diagnose` at 128k before adding speed back. Paragraph and segment gaps are NOT here: they're player-side (BujuPilot.narration in pilot/js/stories.js) and are themselves scaled per age band, so they retune without regenerating. Anything in this file is baked into the mp3s: change it and regenerate with --force.",
+  "_readme": "Narration delivery for the pilot (generate_story_audio.py). Settled by ear 2026-08: the plain voice at 128k mp3 with no speed adjustment and no emotion sounded clean, while 96k / a speed adjustment / the emotion parameter (in some combination) made it nasal and watery — so those stay off until re-tested one at a time with --diagnose. Sentence pauses at 250ms were picked from --pause-test. Resolution order for every setting is age_bands > tellers > top level, so a band can override pace or even voice while tellers still choose who is telling. Every band the library may contain has an entry, including 3-4 and 11-12 which have no stories yet — otherwise a new band would silently inherit the 9-10 pacing. Younger bands get longer pauses rather than slower speech, because pauses cost nothing in audio quality and a speed adjustment is exactly what we suspect of the artifacts — revisit with `--diagnose` at 128k before adding speed back. Paragraph and segment gaps are NOT here: they're player-side (BujuPilot.narration in pilot/js/stories.js) and are themselves scaled per age band, so they retune without regenerating. Anything in this file is baked into the mp3s: change it and regenerate with --force.",
   "model_id": "sonic-3",
   "speed": 1.0,
   "sentence_pause_ms": 250,
   "mp3_bit_rate": 128000,
   "emotions_enabled": false,
   "age_bands": {
+    "3-4": {
+      "sentence_pause_ms": 550
+    },
     "5-6": {
       "sentence_pause_ms": 400
     },
@@ -14,6 +17,9 @@
     },
     "9-10": {
       "sentence_pause_ms": 250
+    },
+    "11-12": {
+      "sentence_pause_ms": 200
     }
   },
   "tellers": {
