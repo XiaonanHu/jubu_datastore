@@ -63,6 +63,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 VOICE_CONFIG_PATH = REPO_ROOT / "story_definitions" / "audio_voices.json"
 MANIFEST_PATH = REPO_ROOT / "story_definitions" / "audio_manifest.json"
 AUDITION_DIR = REPO_ROOT / "story_definitions" / "preview" / "audio_auditions"
+DIAGNOSE_DIR = REPO_ROOT / "story_definitions" / "preview" / "audio_diagnose"
 # Local clips land here for review-by-ear, then --upload rsyncs them to the
 # private GCS bucket the site serves from (api/pilot-audio.js signs URLs).
 # Deliberately NOT inside buju_website anymore, so mp3s can't sneak into
@@ -75,7 +76,12 @@ CARTESIA_TTS_BYTES_URL = "https://api.cartesia.ai/tts/bytes"
 CARTESIA_API_VERSION = "2026-03-01"
 # Speech-only clips for phone playback: mp3 keeps files ~10x smaller than
 # wav; 44.1 kHz / 96 kbps is transparent for a single voice.
-MP3_OUTPUT_FORMAT = {"container": "mp3", "sample_rate": 44100, "bit_rate": 96000}
+DEFAULT_MP3_BIT_RATE = 128000  # override with "mp3_bit_rate" in audio_voices.json
+WAV_OUTPUT_FORMAT = {"container": "wav", "encoding": "pcm_s16le", "sample_rate": 44100}
+
+
+def mp3_format(bit_rate: int) -> dict[str, Any]:
+    return {"container": "mp3", "sample_rate": 44100, "bit_rate": int(bit_rate)}
 # How many paragraphs of a story's opening segment an audition sample uses —
 # enough to judge a voice, short enough to stay cheap across candidates.
 AUDITION_PARAGRAPH_COUNT = 2
@@ -105,9 +111,11 @@ def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict
         )
     teller_voice = teller_voices[teller]
     tone = (story.get("tone") or {}).get("dominant")
-    emotion = teller_voice.get("emotion") or (
-        voice_config.get("tone_emotions") or {}
-    ).get(tone)
+    emotion = None
+    if voice_config.get("emotions_enabled", True):
+        emotion = teller_voice.get("emotion") or (
+            voice_config.get("tone_emotions") or {}
+        ).get(tone)
     return {
         "voice_id": teller_voice["voice_id"],
         "speed": float(teller_voice.get("speed", voice_config.get("speed", 1.0))),
@@ -123,7 +131,9 @@ def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict
 # Delivery settings baked into every clip. When these change, existing mp3s
 # are stale and must be regenerated with --force — the script says so
 # rather than silently leaving a half-updated library.
-BAKED_IN_SETTINGS = ("voice_id", "model_id", "speed", "emotion", "sentence_pause_ms")
+BAKED_IN_SETTINGS = (
+    "voice_id", "model_id", "speed", "emotion", "sentence_pause_ms", "mp3_bit_rate",
+)
 
 
 def settings_drift(manifest_entry: dict[str, Any], current: dict[str, Any]) -> list[str]:
@@ -179,15 +189,20 @@ class CartesiaBatchClient:
             }
         )
 
-    def synthesize_mp3(
+    def synthesize(
         self,
         text: str,
         voice_id: str,
         model_id: str,
         speed: float,
         emotion: str | None = None,
+        output_format: dict[str, Any] | None = None,
     ) -> bytes:
-        generation_config: dict[str, Any] = {"speed": speed}
+        generation_config: dict[str, Any] = {}
+        # Omit speed entirely at 1.0: a speed of exactly 1.0 should mean
+        # "whatever the model does natively", not "apply a 1.0 adjustment".
+        if abs(speed - 1.0) > 1e-9:
+            generation_config["speed"] = speed
         if emotion:
             generation_config["emotion"] = emotion
         payload = {
@@ -195,7 +210,7 @@ class CartesiaBatchClient:
             "transcript": text,
             "voice": {"mode": "id", "id": voice_id},
             "language": "en",
-            "output_format": MP3_OUTPUT_FORMAT,
+            "output_format": output_format or mp3_format(DEFAULT_MP3_BIT_RATE),
             "generation_config": generation_config,
         }
         response = self._session.post(CARTESIA_TTS_BYTES_URL, json=payload, timeout=120)
@@ -207,7 +222,8 @@ class CartesiaBatchClient:
                 f"(400); regenerating this clip without it. Fix "
                 f"tone_emotions in {VOICE_CONFIG_PATH.name}."
             )
-            payload["generation_config"] = {"speed": speed}
+            generation_config.pop("emotion", None)
+            payload["generation_config"] = generation_config
             response = self._session.post(
                 CARTESIA_TTS_BYTES_URL, json=payload, timeout=120
             )
@@ -242,12 +258,14 @@ def generate_story(
     emotion = voice["emotion"]
     sentence_pause_ms = voice["sentence_pause_ms"]
     model_id = voice_config["model_id"]
+    mp3_bit_rate = int(voice_config.get("mp3_bit_rate", DEFAULT_MP3_BIT_RATE))
     current_settings = {
         "voice_id": voice_id,
         "model_id": model_id,
         "speed": speed,
         "emotion": emotion,
         "sentence_pause_ms": sentence_pause_ms,
+        "mp3_bit_rate": mp3_bit_rate,
     }
     drift = settings_drift(previous_manifest.get(story["id"], {}), current_settings)
     if drift and not force:
@@ -279,8 +297,9 @@ def generate_story(
             if force or not file_path.is_file():
                 started = time.monotonic()
                 file_path.write_bytes(
-                    client.synthesize_mp3(
-                        transcript, voice_id, model_id, speed, emotion
+                    client.synthesize(
+                        transcript, voice_id, model_id, speed, emotion,
+                        mp3_format(mp3_bit_rate),
                     )
                 )
                 chars_sent += len(transcript)
@@ -301,6 +320,87 @@ def generate_story(
     manifest_entry = dict(current_settings)
     manifest_entry["segments"] = manifest_segments
     return manifest_entry, chars_sent, files_written
+
+
+def run_diagnose(story_substring: str, voice_config: dict[str, Any]) -> int:
+    """Render one passage under a matrix of settings, one variable at a time.
+
+    When a voice sounds wrong (nasal, watery, clicky) after several knobs
+    were turned at once, guessing is expensive. This renders the SAME text
+    with each knob isolated, into numbered files whose names say what they
+    are — play them in order and the culprit announces itself.
+
+    01 is the reference: no speed adjustment, no emotion, no break tags,
+    lossless WAV. If 01 already sounds wrong, it's the voice or the model,
+    not us. Whichever numbered file first sounds wrong names the cause.
+    """
+    client = CartesiaBatchClient()
+    stories = [s for s in bse.load_stories() if story_substring in s["id"]]
+    if not stories:
+        raise SystemExit(f"no story id contains {story_substring!r}")
+    story = stories[0]
+    settings = voice_for_story(story, voice_config)
+    model_id = voice_config["model_id"]
+    voice_id = settings["voice_id"]
+    speed = settings["speed"]
+    emotion = settings["emotion"]
+    pause_ms = settings["sentence_pause_ms"]
+    bit_rate = int(voice_config.get("mp3_bit_rate", DEFAULT_MP3_BIT_RATE))
+
+    opening = next(
+        seg for seg in story["segments"] if seg["id"] == story["start_segment"]
+    )
+    paragraphs = story_audio_chunks.paragraph_chunks(opening["text"])[:2]
+    plain = story_audio_chunks.substitute_slot_values(
+        " ".join(paragraphs), story.get("slots") or {}, {}
+    )
+    broken = story_audio_chunks.to_transcript(plain, pause_ms)
+
+    # (label, transcript, speed, emotion, output_format, extension)
+    trials: list[tuple[str, str, float, str | None, dict[str, Any], str]] = [
+        ("01_reference_wav_nospeed_noemotion_nobreaks",
+         plain, 1.0, None, WAV_OUTPUT_FORMAT, "wav"),
+        (f"02_mp3_{bit_rate // 1000}k_nospeed_noemotion_nobreaks",
+         plain, 1.0, None, mp3_format(bit_rate), "mp3"),
+        ("03_mp3_96k_nospeed_noemotion_nobreaks",
+         plain, 1.0, None, mp3_format(96000), "mp3"),
+        ("03b_mp3_192k_nospeed_noemotion_nobreaks",
+         plain, 1.0, None, mp3_format(192000), "mp3"),
+        (f"04_mp3_{bit_rate // 1000}k_speed{speed}_noemotion_nobreaks",
+         plain, speed, None, mp3_format(bit_rate), "mp3"),
+        (f"05_mp3_{bit_rate // 1000}k_nospeed_emotion-{emotion or 'none'}_nobreaks",
+         plain, 1.0, emotion, mp3_format(bit_rate), "mp3"),
+        (f"06_mp3_{bit_rate // 1000}k_nospeed_noemotion_breaks{pause_ms}ms",
+         broken, 1.0, None, mp3_format(bit_rate), "mp3"),
+        ("07_everything_on_current_settings",
+         broken, speed, emotion, mp3_format(bit_rate), "mp3"),
+    ]
+
+    DIAGNOSE_DIR.mkdir(parents=True, exist_ok=True)
+    print(
+        f"diagnosing {story['id']}\n"
+        f"  current settings: speed={speed}, emotion={emotion or 'none'}, "
+        f"pause={pause_ms}ms, mp3={bit_rate // 1000}k\n"
+    )
+    for label, transcript, trial_speed, trial_emotion, fmt, ext in trials:
+        out_path = DIAGNOSE_DIR / f"{label}.{ext}"
+        out_path.write_bytes(
+            client.synthesize(
+                transcript, voice_id, model_id, trial_speed, trial_emotion, fmt
+            )
+        )
+        print(f"  wrote {out_path.name}")
+    print(
+        f"\nPlay them in order from {DIAGNOSE_DIR}.\n"
+        "  01 bad            -> the voice/model itself, not our settings\n"
+        "  02 bad, 01 fine   -> mp3 encoding; raise mp3_bit_rate\n"
+        "  04 bad            -> the speed adjustment; set speed to 1.0\n"
+        "  05 bad            -> the emotion; drop it from tone_emotions\n"
+        "  06 bad            -> break tags; lower/zero sentence_pause_ms\n"
+        "then set the winning values in audio_voices.json and regenerate "
+        "with --force."
+    )
+    return 0
 
 
 def run_audition(candidate_voice_ids: list[str], voice_config: dict[str, Any]) -> int:
@@ -328,7 +428,7 @@ def run_audition(candidate_voice_ids: list[str], voice_config: dict[str, Any]) -
         for voice_id in candidate_voice_ids:
             out_path = AUDITION_DIR / f"{teller}__{voice_id}.mp3"
             out_path.write_bytes(
-                client.synthesize_mp3(
+                client.synthesize(
                     sample_text, voice_id, voice_config["model_id"], 1.0
                 )
             )
@@ -392,6 +492,9 @@ def main() -> int:
                         help="voice the whole library (only after samples are approved)")
     parser.add_argument("--audition", nargs="+", metavar="VOICE_ID",
                         help="generate teller samples for candidate voice ids")
+    parser.add_argument("--diagnose", metavar="ID_SUBSTRING",
+                        help="render one passage under a matrix of settings to "
+                             "find what is making a voice sound wrong")
     parser.add_argument("--force", action="store_true",
                         help="regenerate mp3s that already exist")
     parser.add_argument("--upload", action="store_true",
@@ -402,10 +505,14 @@ def main() -> int:
     args = parser.parse_args()
 
     voice_config = load_voice_config()
+    if args.diagnose:
+        return run_diagnose(args.diagnose, voice_config)
     if args.audition:
         return run_audition(args.audition, voice_config)
     if not args.stories and not args.all:
-        parser.error("pick stories with --stories, or use --all / --audition")
+        parser.error(
+            "pick stories with --stories, or use --all / --audition / --diagnose"
+        )
 
     stories = bse.load_stories()
     if args.stories:

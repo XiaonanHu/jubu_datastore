@@ -1,20 +1,22 @@
 {
-  "_readme": "Narration delivery for the pilot (generate_story_audio.py). Voice + speed come from the story's teller; emotion comes from its tone.dominant via tone_emotions (a per-teller \"emotion\" key overrides). sentence_pause_ms inserts an SSML <break/> at each sentence boundary inside a paragraph — paragraph-to-paragraph gaps are NOT here, they're a player setting (BujuPilot.narration in pilot/js/stories.js), so they can be tuned without regenerating. Cartesia's most reliable emotions are neutral, calm, content, sad, scared, angry; happy/excited/triumphant and ~50 more exist but are less predictable — an emotion Cartesia rejects is dropped for that clip with a warning. Changing speed/emotion/sentence_pause_ms makes existing mp3s stale: regenerate with --force (the script warns you).",
+  "_readme": "Narration delivery for the pilot (generate_story_audio.py). CURRENT STATE (2026-08): deliberately conservative while we track down an artifact — a faint blip between clips plus a nasal/watery quality that isn't there when the same voice is auditioned on Cartesia's own site. Speed adjustment and emotion are OFF and the mp3 bitrate is up from 96k to 128k, so this config should sound like the plain voice. Run `python scripts/generate_story_audio.py --diagnose 1bb4cb` to hear each knob isolated, then switch the safe ones back on here: set speed (0.94-0.96 reads nicely if it's artifact-free), and flip emotions_enabled to true for per-tone expressiveness. Note that unhurried pacing does NOT depend on speed — most of it comes from sentence_pause_ms here plus the paragraph/segment gaps in the player (BujuPilot.narration in pilot/js/stories.js), which need no regeneration. Cartesia's most reliable emotions are neutral, calm, content, sad, scared, angry; a rejected label is dropped for that clip with a warning. Anything in this file is baked into the mp3s: change it and regenerate with --force (the script warns when clips are stale).",
   "model_id": "sonic-3",
-  "speed": 0.96,
-  "sentence_pause_ms": 350,
+  "speed": 1.0,
+  "sentence_pause_ms": 250,
+  "mp3_bit_rate": 128000,
+  "emotions_enabled": false,
   "tellers": {
     "we_adventure": {
       "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 0.96
+      "speed": 1.0
     },
     "named_hero": {
       "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 0.96
+      "speed": 1.0
     },
     "storyteller_tale": {
       "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
-      "speed": 0.94
+      "speed": 1.0
     }
   },
   "tone_emotions": {
