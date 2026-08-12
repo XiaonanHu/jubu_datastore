@@ -1,0 +1,394 @@
+{
+  "id": "story.black_holes.age11to12.d1.pregen.3186fa",
+  "title": "The Wave at the Edge of Forever",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.black_holes",
+    "sel_theme": null,
+    "value_lesson": "Understanding that some thresholds, once crossed, change us permanently—but the view from the edge is worth the journey",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A stowaway's journey to the edge of a black hole to witness how light and time stretch, returning with the understanding that some boundaries transform everything that crosses them.",
+  "slots": {
+    "explorer_name": {
+      "role": "The name of the previous explorer frozen at the event horizon",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Captain Elena"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The first thing Sam ever did on The Long Fall was wave. It was a small wave, the kind you give when you are not sure anyone is looking, and Sam gave it to the black hole. Through the observation deck viewport, Abyss-7 burned like a ring of fire that had forgotten to burn out. The accretion disk, Horizon called it, the ship's AI, who spoke from the walls in a voice like slow honey. All that light, Horizon said, is falling. It has been falling for a million years, and it will never arrive. Sam pressed closer to the glass. Under their jacket, pinned flat so it would not crinkle, were the star charts they had drawn by hand, every station between home and here. The charts were the reason Sam was hiding in the dark behind a supply crate, and the charts were the reason, when Commander Yuki's boots stopped right in front of that crate, Sam did not run. You made these, Yuki said, holding one up to the light. Sam nodded. Yuki crouched down until her eyes were level with Sam's. She smoothed the crinkled corner of the chart with her thumb, gently, the way you might smooth a bird's ruffled feathers, and handed it back. Then you already know, she said, that we are going down. Behind her, Dr. Thorne held up two watches, ticking side by side, perfectly in step. One stays with the ship, he said. One goes to the edge. And when they come back together, they will not agree. Sam looked at the burning ring. Looked at the charts. Looked at the wave still fading on the glass. I want to see it, Sam said. Not read it. See it. Horizon hummed, pleased. Then welcome aboard, little stowaway. The geometry of forever is waiting.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The Long Fall climbed, and Sam watched the universe bend. We are entering the photon sphere, Horizon said, her voice rippling through the walls like rings in a pond. Here, light itself is trapped in circles. Sam pressed both hands to the viewport. Outside, the stars did something impossible. They smeared. They stretched into slow arcs of red and gold, curving around the darkness below like water circling a drain. And then Sam gasped. There, in the glass, was the back of their own head. Horizon, Sam whispered. I can see myself. From behind. Horizon was quiet for a moment. Yes, she said at last, and she sounded pleased. Oh, Sam whispered. Below them, the blackness was perfect and total, a hole punched out of the sky. But all around its edge, starlight poured over in a glowing waterfall, endless and silent. It is beautiful, Sam said. It is geometry, Horizon said. The geometry of forever. The ship trembled. Engines burning, Horizon said softly. We must not stop. Not here. Sam did not answer. They watched the waterfall of light fall, and fall, and fall, into the dark that never filled.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "The Long Fall dropped, and everything began to stretch. Down we go, said Dr. Thorne, and his voice was calm, but his knuckles were white on the railing. Sam felt it first in their stomach, a pull like an elevator dropping too fast. Then the ship groaned. A long, low sound, like a cello string being pulled tight. Spaghettification, Dr. Thorne said. The gravity below us is stronger than the gravity above us. It is pulling the ship apart, atom by atom, like taffy. A pencil rolled off the console and hit the floor with a thud that sounded too heavy. Then a wrench. Then Sam's own boots felt glued to the deck. Watch this, Dr. Thorne said. He lowered a watch on a long cable, down toward the floor, toward the black hole. It ticked. Then it ticked slower. Then slower still. Sam listened to the spaces between the ticks grow wide. Time is stretching, he said. Down there, a second takes longer than a second up here. Sam stared at the two watches on the console. The one on the cable was falling behind. The one on the ship ticked on, ordinary and quick. They will never agree again, Dr. Thorne said. Not ever. The ship groaned again, deeper this time. Horizon spoke from the walls, gentle as ever. Window for return is narrowing, she said. But oh, little stowaway. Look how the light bends. Dr. Thorne put a hand on Sam's shoulder, steadying them against the pull. Feel that? he said. That's the universe pulling. Sam nodded, and did not step away.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The Long Fall trembled as its engines burned at maximum thrust, fighting to hold position against the pull of the void. Sam gripped the railing, feeling the vibration in their teeth. We are at the edge, Horizon whispered, the AI's voice soft with awe. The event horizon. Sam looked out the viewport. There, suspended in the dark, was a figure made of stretched red light. {explorer_name}, Horizon said. They crossed years ago. To us, they are still falling, frozen forever at the threshold. The explorer's arm was raised, caught mid-wave, the gesture pulled into a long, crimson arc that spanned the darkness like a brushstroke. Sam said nothing. They pressed a hand to the cold glass and looked. The arc did not move. It did not fade. It simply hung there, patient as a held note, glowing red against the black. Somewhere below it, the engines hummed, and the ship trembled, and the dark went down and down. Are they okay? Sam asked at last. They are beyond our reach now, Horizon said gently. We cannot go closer. Sam watched the wave a while longer. What did they find? Sam whispered. What were they trying to tell us? Horizon did not answer. On the glass, the crimson arc hung in the dark, still waving.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We skim it, Sam said. Yuki's hands moved across the controls, and The Long Fall tipped forward into the dark. The engines screamed. Sam felt their body stretch, not painfully, but like dough pulled thin, and through the viewport the universe outside began to spin faster. Stars bloomed and died in seconds. Decades burned away like morning mist. Then they crossed. Inside the event horizon, there was no up, no down, only the singularity pulling every path toward its heart. Sam looked back and saw the entire future of the universe rushing toward them like a film running too fast. Look, Horizon whispered. The grid of spacetime projected across the glass showed every line converging. There is no direction that leads out. Every road ends at the center. Sam reached out and touched the cold glass where {explorer_name} still waved, frozen in red. They weren't trapped, Sam realized. They were greeting us. Across all that time. Yuki fired the engines, a precise burn that tore them away from the edge, and suddenly they were falling up, back toward the station. But when they docked, the station had changed. New faces. New children. Decades had passed outside. Sam stepped onto the deck, holding the recording of that endless wave. They looked for a face they knew. They did not find one. A small child approached, staring at the screen. What is that? the child asked. Sam smiled, feeling the weight of years in their pocket. It's a wave, Sam said. From someone who fell further than anyone. See how the light stretches red? That's time, bending. The child reached out, touching the screen where the crimson arc hung frozen. Were they scared? the child whispered. No, Sam said. They were saying hello. Horizon hummed from the wall, soft and warm. Hello, little stowaway, she said.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Turn back, Sam said. Yuki slammed the engines to maximum thrust. The Long Fall groaned, fighting the pull, and Sam felt their body stretch like taffy, thin and long, as the ship fought to escape. Hold on, Yuki shouted. The viewport showed the edge burning red, the frozen wave of {explorer_name} still hanging there, eternal. The ship shuddered. Metal creaked. Then, with a sound like a held breath released, they broke free. They fell up, away from the abyss, back toward the station where the lights were warm and familiar. When they docked, only hours had passed. Dr. Thorne met them, holding up the two watches. Look, he said. The watch that went to the edge ticked slower. It was permanently behind, out of sync with station time. Sam took the watch, feeling its weight. It was proof. Time itself had bent for them. That night, Sam stood at the observation deck, watching the black hole burn. Horizon hummed softly. You went to the edge, the AI said. And you came back. Sam held up the watch. Its second hand moved slower than the station clocks. Sam pressed the watch to their chest, and stood very still, feeling the slow tick against their heart. Dr. Thorne stood beside them, watching the watch tick against Sam's shirt. It ticks with you now, he said. Horizon hummed, pleased. Welcome home, little stowaway.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We can take the high road through the photon sphere where light bends in circles, or dive straight down to feel the stretching—what's your call, stowaway?\"",
+      "options": [
+        {
+          "say_word": "Photon sphere",
+          "label": "Take the upper path to see light orbit the black hole",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Deep dive",
+          "label": "Descend immediately to feel gravity's pull",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"This is it—the point of no return. We can skim the edge and cross just enough to see every path lead to the center, or we can turn back now while we still can. What do we do?\"",
+      "options": [
+        {
+          "say_word": "Touch it",
+          "label": "Skim the event horizon to experience the point of no return",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Turn back",
+          "label": "Escape now and return to the station",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.black_holes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Falling into a black hole is inherently a journey—the material of stretched light, time slowing at the event horizon, and approaching the singularity maps perfectly onto a narrative of movement through an amazing and terrifying place.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3516,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2198,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1319,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0989,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Star That Danced with Nothing)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0879,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0659,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Horizon, the ship's AI, who projects holographic spacetime grids and speaks with gentle, poetic curiosity about the 'geometry of forever'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Understanding that some thresholds, once crossed, change us permanently—but the view from the edge is worth the journey",
+      "why": "The material naturally offers this through the event horizon's 'point of no return' and the frozen explorer who stayed too long; it emerges from the physics rather than being imposed"
+    },
+    "cast": [
+      {
+        "role": "Sam, the young stowaway",
+        "reused": false,
+        "why": "Provides the child-accessible viewpoint; naturally asks the questions an 11-year-old would ask about lasers, escape, and what happens next"
+      },
+      {
+        "role": "Commander Yuki, pilot",
+        "reused": false,
+        "why": "Embodies competence and safety; steers the vessel and demonstrates exactly where the point of no return lies without creating panic"
+      },
+      {
+        "role": "Horizon, the ship's AI",
+        "reused": false,
+        "why": "Carries the curious_wonder accent through holographic visualizations of spacetime curvature and calculations of light-stretching"
+      },
+      {
+        "role": "Dr. Aris Thorne, theoretical physicist",
+        "reused": false,
+        "why": "Demonstrates time dilation with synchronized watches, making the abstract concrete through the 'two clocks' experiment"
+      },
+      {
+        "role": "The Frozen Explorer (holographic ghost)",
+        "reused": false,
+        "why": "Provides the emotional anchor at the event horizon—a previous traveler whose wave is preserved in stretched red light"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "event horizon point of no return",
+        "time dilation with two synchronized watches",
+        "spaghettification stretching like dough",
+        "light stretching to red then infrared",
+        "singularity where physics breaks down",
+        "spacetime warping like a rubber sheet",
+        "every path leads to singularity inside",
+        "frozen image at event horizon",
+        "observation deck with accretion disk view",
+        "glass-bottomed shuttle cockpit",
+        "photon sphere where light orbits",
+        "stars blue-shifting behind while darkness grows ahead",
+        "ghostly red-shifted hologram of previous explorer"
+      ],
+      "gathered_but_unused": [
+        "The event horizon is the point of no return where gravity becomes so strong that not even light can escape.",
+        "Time moves slower near a black hole than it does far away, so a clock near the event horizon ticks more slowly than one on a distant spaceship.",
+        "Spaghettification happens because gravity pulls much harder on your feet than your head when you fall toward a black hole, stretching you like dough.",
+        "Light from objects falling into a black hole gets stretched to longer, redder wavelengths until it fades from view entirely.",
+        "The singularity at the center is a point where matter is crushed to infinite density and our current understanding of physics breaks down.",
+        "Black holes warp spacetime itself, bending the fabric of the universe so that straight lines become curves.",
+        "Once you cross the event horizon, every possible path leads toward the singularity—there is no direction you can move that leads back out.",
+        "To someone watching from far away, an object falling into a black hole appears to slow down and freeze at the event horizon, its image lingering there forever."
+      ]
+    },
+    "safety_beat": "In s3, Commander Yuki demonstrates competence by pointing out the 'safe line' on the viewport where the ship must remain, showing Sam exactly where the gravity becomes inescapable without creating alarm—just quiet professional knowledge of where to stand",
+    "motif": "The stretched wave—beginning as a normal hand gesture, becoming a slow arc of red light, and finally a warm greeting carried home",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.black_holes.age9to10.d1.pregen.63b518",
+        "title": "The Star That Danced with Nothing",
+        "pattern": "mystery",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story has a genuinely luminous premise — a child waving at a black hole and finding that wave returned across time — but it rushes through every moment of wonder, explaining the physics aloud instead of letting the child stand in it, and the ending declares its meaning rather than letting the glow remain.",
+          "editor_notes": [
+            "s2a: 'I can see myself. From behind.' is the most quietly strange gift in the whole draft — the light of your own hair traveling all the way around to meet your eyes — and Horizon immediately explains it to death ('You are looking at yourself looking at yourself'). Let the seeing sit unexplained for one held beat; a whispered 'Oh' from Sam is enough. The explanation can come later or not at all.",
+            "s2a: 'felt very small, and very lucky' tells the listener the feeling instead of letting them have it. The waterfall of light falling forever into the dark already does that work — end the segment on the watching, not on the label.",
+            "s3: The frozen explorer mid-wave is the story's heart, and the draft spends it on exposition — singularity, spacetime rules, 'we cannot go closer.' Cut the lecture and give Sam one long, quiet look at that crimson arc before anyone speaks. The child listener wants to stand at the cold glass too.",
+            "s3: Horizon's closing line — 'it is written in the geometry of forever. And it is waiting for you to read it' — grabs at the moment and turns it into an assignment. The explorer's wave is more beautiful if it is not waiting for anyone; it simply is. Let the segment end on the wave itself, unanswered.",
+            "s4b: The last three sentences ('It was a small thing... But it was theirs. And it told the truth.') explain the watch's meaning after the slow tick against Sam's heart has already said everything. End on the tick. The lesson 'some boundaries are meant to be witnessed, not crossed' should stay implicit — the story has already shown it.",
+            "Throughout: Horizon's 'geometry of forever' refrain appears three times and curdles from mysterious to slogan. Keep it once — at the first wave — and let silence do the later work. The sound of the phrase is lovely; scarcity will keep it so."
+          ],
+          "segments_revised": 6,
+          "segments_rejected": 0
+        },
+        {
+          "round": 2,
+          "verdict": "revise",
+          "card": "warm_companion",
+          "why": "The story is scientifically wondrous and structurally sound, but Sam moves through it largely alone — the crew are lecturers, not companions, and the emotional payoff of the wave depends on a warmth the draft never quite builds between the living people.",
+          "editor_notes": [
+            "In s1, Commander Yuki catches a stowaway and responds only with plot ('Then you already know... we are going down'). Give her one small fond gesture — crouching to Sam's level, or smoothing the crinkled chart before handing it back — so the crew feels like people who will keep Sam safe on the way down.",
+            "Dr. Thorne in s2b is a textbook with white knuckles. Let him address Sam directly once ('Feel that? That's the universe pulling,' said while steadying Sam's shoulder) so the science arrives through a person, not a PA system.",
+            "s3 is the story's heart — Sam asking 'Are they okay?' about the frozen explorer — and Horizon's answer is factual. Let someone human answer instead, or let Yuki stand beside Sam at the glass in silence for a beat, so the grief and wonder are shared rather than witnessed solo.",
+            "In s4a, Sam returns decades later to strangers, which should ache, but the draft skips the feeling. One line of Sam looking for a familiar face and not finding one would let the listener feel the cost before the small child arrives.",
+            "In s4b, the final image — the slow-ticking watch pressed to Sam's heart — is lovely but solitary. Let Dr. Thorne or Horizon notice the gesture ('It ticks with you now') so the story ends in company, matching the wave's message of hello.",
+            "Horizon's 'little stowaway' is the warmest thread in the draft; consider letting her use it once more near the end of either branch so the companionship completes its arc."
+          ],
+          "segments_revised": 4,
+          "segments_rejected": 2
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous",
+        "warm_companion"
+      ],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and a little daring",
+        "s2a": "dizzy with wonder",
+        "s2b": "gripped, slightly queasy, listening hard",
+        "s3": "a held breath, hushed and aching",
+        "s4a": "bittersweet, tender, quietly full",
+        "s4b": "relieved, then still and thoughtful"
+      },
+      "segments_revised": 10,
+      "segments_rejected": 2
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 18 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] no voices: segment carries no spoken line; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 12% of sentences carry speech or action; [s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2b] evaluation-ish phrase: 'falling behind' (usually literal; check it isn't a developmental comparison); [s2b] flat rhythm: sentence lengths vary little (spread 4.4)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 20% of sentences carry speech or action",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] evaluation-ish phrase: 'falling behind' (usually literal; check it isn't a developmental comparison)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 25% of sentences carry speech or action",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 35% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 19% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 39% of sentences carry speech or action",
+      "round 1: [s1] polished (268 -> 268 words)",
+      "round 1: [s2a] polished (201 -> 191 words)",
+      "round 1: [s2b] polished (227 -> 237 words)",
+      "round 1: [s3] polished (210 -> 214 words)",
+      "round 1: [s4a] polished (279 -> 279 words)",
+      "round 1: [s4b] polished (235 -> 204 words)",
+      "round 2: [s1] polished (268 -> 303 words)",
+      "round 2: [s2a] polish rejected: grew 123% of the original, over the 115% limit",
+      "round 2: [s2b] polished (237 -> 265 words)",
+      "round 2: [s3] polish rejected: grew 120% of the original, over the 115% limit",
+      "round 2: [s4a] polished (279 -> 304 words)",
+      "round 2: [s4b] polished (204 -> 230 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 12% of sentences carry speech or action",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] evaluation-ish phrase: 'falling behind' (usually literal; check it isn't a developmental comparison)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 31% of sentences carry speech or action",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 27% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 20% of sentences carry speech or action",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 37% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "01_black_holes_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,345 @@
+{
+  "id": "story.pixels_and_screens.age11to12.d1.pregen.98c091",
+  "title": "The Rolling Bands",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.pixels_and_screens",
+    "sel_theme": null,
+    "value_lesson": "Curiosity as its own reward",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A kid who spots weird dark bands rolling across a screen in slow-motion video pulls the thread until the whole trick of pixels, speed, and light unspools.",
+  "slots": {
+    "hero_name": {
+      "role": "The kid narrator's first name, used by Bex, the sibling, and the teacher throughout",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Mika"
+    },
+    "case_number": {
+      "role": "The dramatic case number Bex assigns the mystery, recurring as a running joke",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "Case 60-B"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Rain on the window. Nowhere to go. So I did what any genius does on a Saturday: I made a movie.\n\nI sprawled on the bed, propped the phone against a lamp, and hit record. My little sister Jun was already laughing, because the plan was stupid. The plan was this: film the tablet in slow motion while it played her favourite cartoon, then watch it back and laugh at how the characters moved like sleepy snails.\n\n\"Action!\" I shouted.\n\nJun made the tablet dance. The cartoon bounced. We cracked up.\n\nThen we watched the video.\n\n\"Wait,\" Jun said. \"Go back.\"\n\nI rewound. We watched again.\n\nThere. Rolling across the screen, slow and dark, like waves made of shadow. Bands. Big ones. Moving from top to bottom, steady as a heartbeat.\n\n\"Is that on the tablet?\" I asked.\n\nJun looked at the real screen. \"No. It's just the cartoon.\"\n\nShe was right. The tablet looked totally normal. Bright, smooth, no bands anywhere.\n\nBut in the video? Bands. Clear as anything.\n\n\"Film it again,\" Jun said.\n\nI did. Same thing. Dark stripes rolling through the picture, like the screen was hiding something and the camera caught it.\n\n\"Try my phone,\" Jun said.\n\nI filmed her phone. Bands.\n\nI filmed the laptop. Bands.\n\nEvery screen in the room had them. But only on camera. Not in real life. Not when we just looked.\n\nJun sat up very straight. \"Okay,\" she said. \"Why can the camera see something we can't?\"\n\nI stared at her.\n\nShe stared at me.\n\nI grabbed the phone and shoved it in my pocket. \"Come on,\" I said. \"We're going to see Bex.\"\n\nBecause when something weird happens, and nobody has an answer, there's only one person who treats it like a case. Cousin Bex. Repair shop. Detective of broken things.\n\nAnd this? This was definitely a case.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The repair shop smelled like warm plastic and bubble gum. Bex was already waiting, feet up on the counter, chewing like a detective in an old movie.\n\n\"{hero_name},\" they said, twirling a screwdriver. \"You look like you found a ghost in your sandwich.\"\n\n\"Worse,\" I said. \"Bands. On every screen. But only on camera.\"\n\nBex's boots hit the floor. Thunk. \"Jun, get the evidence bag. {hero_name}, you're officially on the case. This is now {case_number}. The Rolling Bands.\"\n\nThey stamped it on a sticky note. THWACK. Then they swung the big magnifying lamp over a cracked-open monitor, the kind with its guts hanging out. The lens was round as a dinner plate.\n\n\"You want to know what a screen is made of?\" Bex said. \"Look.\"\n\nI leaned in. Jun squished beside me. Under the glass, a plain white patch of screen was not white at all. It was stripes. Tiny stripes, crammed shoulder to shoulder. Red. Green. Blue. Red. Green. Blue. Like a million miniature Popsicles lined up in the world's tidiest freezer.\n\n\"Whoa,\" Jun whispered.\n\n\"Three little lights,\" Bex said. \"That's the whole trick. Your eye mushes them together from far away, so you see white. But up close?\" They tapped the glass. \"A tiny light parade.\"\n\nThey grabbed a dial on the lamp's control box and turned it. The red stripes dimmed. The green and blue got brighter. The white patch turned purple. Then orange. Then a green so bright it looked like alien grass.\n\n\"Millions of colors,\" Bex said, \"from three tiny flashlights. That's graphics for you. It's not paint. It's not ink. It's light, pretending.\"\n\nJun's eyes went huge. \"So the bands... they're made of light too?\"\n\nBex froze. Slowly, they tapped the sticky note. \"Clue one, detective. Screens are tiny lights. But your bands are moving. And lights don't move unless something tells them to.\"\n\nThey handed me the magnifying glass. It was heavier than it looked.\n\n\"So,\" Bex said. \"What's telling them?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Monday morning, I cornered Ms. Okafor in the computer lab before the bell even rang. She was wiping fingerprint smudges off a monitor with a cloth that looked older than me.\n\n\"Ms. Okafor,\" I said, \"can a camera see something your eyes can't?\"\n\nShe didn't even blink. \"Finally,\" she said, \"a good question.\"\n\nShe dug through a drawer full of tangled cables and dried-out markers, then pulled out two things: a little flipbook with a corner chewed by time, and a round plastic drum with slits cut in the side.\n\n\"Watch,\" she said.\n\nShe flipped the book slow. A stick figure lifted one arm. Page. Page. Page. Obviously just drawings. Boring.\n\nThen she flipped it fast.\n\nThe stick figure waved at me. Smooth as anything. Like it was alive and glad to see me.\n\n\"Whoa,\" I said.\n\n\"Your eyes and your brain,\" Ms. Okafor said, \"are lazy. In a good way. Show them still pictures fast enough, and they mush everything together into motion. They can't help it. They fill in the gaps.\"\n\nShe spun the drum. It was a zoetrope, she said. Inside, tiny horses galloped in a circle, legs blurring into a smooth run, over and over, forever.\n\n\"So the bands,\" I said slowly, \"maybe they're not on the screen at all. Maybe they're a speed thing.\"\n\nMs. Okafor pointed at me like I'd just won a prize. \"Now you're thinking. Your eyes blend fast things. A camera doesn't blend the same way. It catches slices. Freezes them. So if the screen is doing something fast enough to trick your eyes...\"\n\n\"...the camera might catch it in the act,\" I finished.\n\nShe grinned and spun the zoetrope again. The little horses ran and ran.\n\n\"Clue one,\" I said, mostly to myself. \"The bands aren't a thing. They're a speed.\"\n\nMs. Okafor flipped the book one more time. The stick figure waved goodbye.\n\n\"Go find out what your screen is doing,\" she said, \"when it thinks nobody's watching.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The repair shop smelled like hot solder and lemon wipes. Bex had the lab table cleared, magnifying glass on a string, the works. Ms. Abernathy from school was there too, because Bex had phoned her and said, quote, bring the kid who pays attention.\n\n\"{case_number},\" Bex announced, tapping a clipboard. \"Status update. Tell me what you found.\"\n\nSo we told her. All of it. Jun waved the magnifying glass while I talked, and Ms. Abernathy nodded like she'd been waiting for this exact Saturday her whole life.\n\n\"Good,\" Bex said. \"So we've got two facts. Fact one.\" She held up one finger. \"Every screen is a grid. Millions of tiny squares, and each square is three even tinier lights. Red, green, blue. Mix those three, you get every color there is.\"\n\nShe passed the magnifying glass to Ms. Abernathy, who held it over her own phone. \"Fact two,\" the teacher said. \"A screen isn't one steady picture. It's still pictures, flipped fast. Sixty complete redraws every second. That's the frame rate. Your eye mashes them together and calls it motion.\"\n\n\"The camera catches the in-between,\" Bex said. \"We don't. That's the whole trick.\"\n\nI felt the answer getting close, the way you feel a sneeze coming.\n\nThen Jun, who had been quietly poking the magnifying glass at a paused cartoon on the counter tablet, looked up.\n\n\"Okay but,\" she said. \"How does each little light know what color to be?\"\n\nNobody answered.\n\nBex froze. Ms. Abernathy froze. The shop's ancient clock ticked.\n\n\"Millions of lights,\" Jun went on, \"sixty times a second, and they all just... know?\"\n\nBex slowly set down the clipboard. \"{hero_name},\" she said, very serious, \"the case is half-solved. We know what the screens are doing. We do not know who's giving the orders.\"\n\n\"There's one witness left,\" Ms. Abernathy said. \"Someone who makes screens draw things for a living.\"\n\nBex was already grabbing her coat. \"A graphics programmer. And I know exactly which one.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The graphics programmer lived above a bakery, and her name was Paz. Bex knocked twice, then once more, like a code.\n\n\"{case_number},\" Paz said, opening the door. \"Bex texted me. I've been waiting all afternoon to show off.\"\n\nHer living room was one enormous desk. On it: a racing game, frozen mid-turn. A red car hung in the air over a jump, perfectly still.\n\n\"One frame,\" Paz said. \"Caught like a bug in amber. Look closer.\"\n\nShe handed me the magnifying glass. I pressed it to the monitor. There they were. Three tiny lights, red, green, blue, hiding inside every shadow, every tire, every speck of dust the car was kicking up. The whole world of the game, made of the same three lights.\n\n\"Now the fun part.\" Paz tapped a key. Numbers filled a side window, long columns, scrolling. \"Every pixel has numbers in memory. Red, how much. Green, how much. Blue, how much. The graphics system reads them, sets the lights, done. One frame.\"\n\nShe tapped again. The car moved. Barely. A nudge forward.\n\n\"New numbers. New frame.\" Tap. Nudge. Tap. Nudge. \"Sixty of these every second. Your eyes can't catch the swap, so your brain shouts motion.\"\n\n\"Sixty?\" Jun whispered. \"That's not fast. That's showing off.\"\n\n\"And my camera?\" I asked.\n\n\"Your camera has its own grid of light-catchers, and it snitched. It caught the screen mid-repaint, top to bottom. That's your rolling bands. Case closed, Bex.\"\n\nBex clicked her pen like a gavel. \"{case_number}: closed.\" She pressed something small into my hand. A pin. One salvaged pixel tile, three dead lights under a coat of glue. \"For the witness who asked the right question.\"\n\nThat night, Jun filmed the TV in slow motion on purpose, just to watch the secret bands roll by. \"Wave,\" she told the screen. \"We see you.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Back to the shop,\" Bex said. \"We're doing this the fun way.\"\n\nSaturday night, lights low, rain on the windows. Bex pulled a salvaged screen from a crate, hooked it to a test board with a fat silver dial, and set the magnifying glass on the table like a surgeon's tool.\n\n\"{case_number}, final experiment. This dial controls the refresh. How fast the screen repaints itself. Watch.\"\n\nThe screen glowed with a cartoon sunset, smooth and ordinary. Bex turned the dial one click.\n\nNothing.\n\nAnother click.\n\n\"There,\" Jun breathed.\n\nA line of light crawled down the glass. Slow. Visible. The top of the sunset lit first, then the next row, then the next, each line of pixels waking up in order, red, green, blue, over and over. The bands. Our bands. Rolling down the screen in real life, no camera needed, because Bex had made the screen too slow to lie.\n\n\"Numbers come in from the board,\" Bex said, tapping it. \"The screen reads them, sets each little light, row by row. At full speed it does the whole glass sixty times a second. Faster than your eyes. Faster than anyone's eyes.\"\n\n\"But not faster than my camera,\" I said.\n\n\"Your camera snitched,\" Bex said. \"That's the whole case. The bands were never on the cartoon. They were the screen, caught red-handed, repainting.\"\n\nShe spun in her chair, pulled out a rubber stamp, and slammed it on the clipboard. \"{case_number}: closed.\" Then she took one dead pixel tile from the salvaged screen, dabbed it with glue, and stuck it on a pin. \"Wear it. You earned it.\"\n\nWe walked home through the rain, and every glowing window on the street looked different now. A million tiny lights, keeping one enormous secret, sixty times a second.\n\nJun held the magnifying glass up to a shop window and grinned. \"We see you,\" she said.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two doors, detective. We can go look at what a screen is made of, up close under my lamp, or we can go find out whether your own eyes are the ones playing the trick. Which thread do we pull first?\"",
+      "options": [
+        {
+          "say_word": "Magnify",
+          "label": "Go to Bex's repair shop and put a broken screen under the magnifying lamp",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Flip",
+          "label": "Go to the school lab and test the flipbook and zoetrope with the media teacher",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Okay, but there's one thingy left. Do you want to see a game freeze like a statue so you can catch it being painted, or do you want Bex to slow a whole screen down until it can't hide anymore?\"",
+      "options": [
+        {
+          "say_word": "Freeze",
+          "label": "Visit the game-designer parent and catch a single frozen frame, then watch sixty frames a second run",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Slow down",
+          "label": "Stay at the shop while Bex slows a salvaged screen's refresh until the repaint is visible",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.pixels_and_screens",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core material—how a number in memory becomes light in your eye sixty times a second without you noticing—is naturally a hidden-process question with clues (tiny squares, red-green-blue, refresh) that accumulate into a satisfying reveal, which fits a 12-year-old better than a build or a romp.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3457,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2963,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1605,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Loop That Wouldn't Stop)"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0741,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Night We Shrunk the Whale)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0741,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.037,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Cousin Bex, who treats the repair shop like a detective agency and every broken screen like a case file with a dramatic case number.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Curiosity as its own reward",
+      "why": "The mystery pattern is literally built from one kid refusing to shrug off one weird thing; the value rides along without ever being stated as a lesson."
+    },
+    "cast": [
+      {
+        "role": "The kid narrator, about twelve, who notices things",
+        "reused": false,
+        "why": "The mystery pattern needs a hero whose curiosity drives every beat; the slow-motion band sighting is their inciting observation."
+      },
+      {
+        "role": "Cousin Bex, who repairs phones and laptops at a little shop",
+        "reused": false,
+        "why": "Hands over the magnifying glass and broken screen for clue one, answers questions with questions, and carries the big_adventure accent by narrating the investigation like a noir detective, which also supplies the silly."
+      },
+      {
+        "role": "The school media teacher",
+        "reused": false,
+        "why": "Supplies the flipbook and zoetrope for clue two, the clue that changes the first, and runs the slow-motion camera tests hands-on."
+      },
+      {
+        "role": "A younger sibling who asks blunt questions",
+        "reused": false,
+        "why": "Delivers 'but how does the light know what color to be?' at the exact moment the mystery needs to go deeper, and asks one of the choice questions in a blunt kid voice."
+      },
+      {
+        "role": "A game-designer parent of a friend",
+        "reused": false,
+        "why": "Freezes a single game frame and lets it run, revealing the sixty-times-a-second redraw, and opens the wider door toward Video Games."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "slow-motion video shows dark rolling bands invisible to the naked eye",
+        "white screen patch under magnification is red, green, and blue stripes",
+        "flipbook: still pictures flipped fast become motion",
+        "paused video game is one frozen frame; unpaused, sixty new frames a second",
+        "pictures start as numbers in memory; the graphics system turns numbers into colored dots",
+        "mixing red, green, blue brightness makes millions of colors",
+        "camera sensor is a grid of tiny light-catchers",
+        "electronics repair shop with cracked-open monitor and magnifying lamp",
+        "school computer lab with drifting screensavers",
+        "rainy-afternoon bedroom with tablet, phone, and old digital camera"
+      ],
+      "gathered_but_unused": [
+        "Every image on a screen is made of tiny squares called pixels, and each pixel is made of three even tinier lights: one red, one green, one blue.",
+        "By mixing different brightnesses of red, green, and blue light, a single pixel can show millions of different colors.",
+        "A typical screen redraws its entire picture sixty times every second, and this speed is called the refresh rate or frame rate.",
+        "Your eyes and brain blend a rapid sequence of still images into smooth motion, which is why a fast flipbook or a screen refreshing many times a second looks like things are actually moving.",
+        "Inside a computer, a picture starts as numbers in memory, and the graphics system reads those numbers and turns each one into a colored dot of light.",
+        "A camera also works in pixels: its sensor is a grid of millions of tiny light-catchers, each one recording how much light landed on it.",
+        "When a video game runs, the graphics processor draws a whole new picture, called a frame, for every refresh, calculating where every object and shadow should be.",
+        "If a screen refreshes too slowly, or a game can't finish its frames in time, motion looks jerky or flickery, because your eyes start to notice the gaps between pictures."
+      ]
+    },
+    "safety_beat": "In the repair shop, Bex casually moves the hero's stool back from the workbench edge and parks the soldering iron in its stand before swinging the magnifying lamp over, a quick bit of shop competence with no warning tone.",
+    "motif": "A magnifying glass passed hand to hand, each time revealing the same three tiny lights hiding inside something bigger.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      },
+      {
+        "story_id": "story.pixels_and_screens.age7to8.d1.pregen.12fb98",
+        "title": "The Night We Shrunk the Whale",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a real want pursued immediately, lands its explanations as hands-on demonstrations rather than lectures, and pays off the mystery with a visible, audible experiment that lets the listener feel the answer arrive."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "delighted suspicion, leaning in",
+        "s2a": "wide-eyed, nose against the glass",
+        "s2b": "a small gasp as the trick clicks",
+        "s3": "a held breath, the sneeze coming",
+        "s4a": "satisfied, a little proud, tucking the pin away",
+        "s4b": "hushed wonder, then walking home glowing"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 33% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 3.9); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.4); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.3)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 33% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 33% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "07_pixels_and_screens_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,325 @@
+{
+  "id": "story.how_animation_moves.age11to12.d1.pregen.00cce1",
+  "title": "The Millimetre Walk",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.how_animation_moves",
+    "sel_theme": null,
+    "value_lesson": "The unseen work matters: the in-betweens nobody remembers are what actually make things move, and the week-long millimetre walk shows that wonderful things are built one small careful step at a time.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "We follow a palm-sized wire puppet across a studio, from a wall of drawings to the projector room, learning that motion is really a thousand tiny stillnesses stacked together.",
+  "slots": {
+    "puppet_name": {
+      "role": "Our small wire-armature travelling companion",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    },
+    "nudge_direction": {
+      "role": "The tiny movement we give the puppet on the stop-motion set, which we later watch become motion on screen",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a wave of his arm, the width of a pencil line"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are the new crew at the animation studio, and our first job is to stand very still in a very long corridor. The walls are covered in pencil drawings, floor to ceiling, hundreds of them, each one pinned up beside its neighbour. Each drawing shows the same tiny wire puppet. In the first, he is crouched down low. In the next, he is crouched down low, but his foot is a whisker further forward. In the next, the whisker is two whiskers.\n\n\"They're the same drawing,\" we say. \"Over and over.\"\n\n\"Count them,\" says a voice. A woman with a pencil behind her ear is watching us from the floor, where she sits with a stack of paper. \"I'm the in-betweener. I draw the ones in between.\"\n\nSo we count as we walk. Ten. Fifty. A hundred. And slowly we see it: the crouch becomes a spring, the spring becomes a stretch, and drawing by drawing, whisker by whisker, the little puppet is climbing into the air. Nobody moves him. He just moves.\n\nAt the very end of the corridor, the last drawing shows him mid-leap, arms flung wide, frozen at the top of the world.\n\nAnd there, sitting on the doorframe beside it, is the puppet himself. Real. Wire and all. Posed exactly like the drawing, mid-leap, as if he has hopped clean out of the paper and is waiting for us to notice.\n\n\"That's {puppet_name},\" says the in-betweener, gathering up her pages. \"He's always one step ahead. He knows the way in.\"\n\nShe pushes the door open, and cool air smells of clay and dust and old wood.\n\n\"Coming?\"\n\n{puppet_name} tips forward off the frame, lands on the floor beyond without a sound, and we follow.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Sit,\" says the in-betweener, and she pulls out a second stool for {puppet_name}, though he is already posed on the corner of her desk, one wire foot pointing at the lightbox like he has been waiting all morning.\n\nHer desk glows. Under the glass is a bright white light, and on top, two drawings lie side by side. In the first, a cat is crouched low, belly nearly touching the ground. In the second, that same cat is mid-leap, paws out, tail flying. Between them: nothing. Empty paper.\n\n\"Two poses,\" she says. \"The crouch and the leap. The leap needs to get from here to there. Watch.\"\n\nShe slides a thin stack of drawings onto the lightbox and flips them with her thumb. The pages ripple. And there it is: a wave travels across the paper, the cat stretching up, up, up from crouch to leap in a dozen tiny steps.\n\n\"Those are the in-betweens,\" she says. \"The stepping-stone frames. Nobody cheers for them, but they do the heavy lifting.\"\n\nThen she puts the stack in our hands. \"Your turn. Slow first.\"\n\nWe flip slowly, and the cat stutters — crouch, hover, hover, leap — like a film tripping over its own feet.\n\n\"Now fast.\"\n\nWe flip fast, and the cat flows. One smooth spring, crouch to sky, right there under our thumbs.\n\n\"Feel that?\" she says. \"That's frame rate. Twenty-four frames every second, and your thumb just decided how many the cat got. Fast moments want a brand-new drawing each frame. Slow ones can hold one drawing for two.\"\n\n{puppet_name} taps the desk, once, impatient.\n\n\"He's right,\" she says, standing. \"The drawings are only half of it. Come see the other half.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "{puppet_name} is already through the side door, and we chase him into a room the size of a warehouse — except it is not a room. It is a film strip, stretched out wide, and each frame along it is big enough to walk into. A whole corridor of frozen instants, waiting.\n\nWe step into the first frame. Inside, a clay ball hangs in the air, stretched long like a teardrop, mid-fall. We walk all the way around it. It does not move. It cannot. This is one frame, one instant, and the ball is stuck being exactly this shape forever.\n\nThe next frame over, the ball is flat. A pancake. Squashed against the ground for exactly one frame.\n\n\"Why is it a pancake?\" we ask.\n\n\"One frame of squash,\" says the in-betweener, catching up behind us, \"makes the bounce feel heavy. You'd never see it on screen — but you'd feel it was missing.\"\n\nThen we come to a whole shelf of frames that are exactly the same. The same rabbit, mid-crouch, in room after room after room. Five of them. Identical.\n\n\"The pause before the leap,\" she says. \"The rabbit holds still so the jump, when it comes, means something. Slow moments hold one drawing for two frames, sometimes more. Fast moments get a brand-new drawing every single frame.\"\n\nAnd in the last room, {puppet_name} is waiting. Posed mid-spring, wire arms flung wide, one step ahead of us as always — but frozen, like the rabbit, like the ball, one millimetre of movement at a time.\n\n\"He's not ahead of us,\" we say slowly. \"He's just been posed that way.\"\n\n\"Now you're getting it,\" she says. \"Nothing here moves. Things are moved. Somebody has to decide how far, and how often. Somebody like you.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The door lets us out into a room that is mostly table. On the table sits a whole village, small enough to hold in your arms. Houses with crooked chimneys. Lampposts the size of crayons. And over it all hang real studio lamps, big as dinner plates, pouring down daylight.\n\nA woman with paint on her sleeves is bent over the tiny street, and beside her, on the corner of a cobbled lane, stands {puppet_name}. One step ahead of us. Again.\n\n\"You found something,\" she says, without looking up. \"Good. Keep hold of it.\" She straightens. \"Want to see inside him?\"\n\nShe flicks a switch and a panel on the wall lights up white. On it, dark and delicate, is {puppet_name}'s skeleton: not bones, but a metal armature, all little ball-and-socket joints, like tiny bicycle chains strung into a person. Every joint turns. Every joint holds a pose.\n\n\"That's how he can stand on one toe and wait,\" she says. \"He's been crossing this street since morning.\" She holds up her finger. \"He's come about that far.\"\n\n\"Since morning?\" we say.\n\n\"The whole walk takes a week. Every second of him is twenty-four photographs. Twenty-four little nudges.\" She taps the table beside his foot. \"That's the frame rate. It's not a walk at all, really. It's a stop motion. Hundreds of frozen moments, one after another, and the screen does the moving.\"\n\nWe look at the lampposts. We look at the long, long lane. A week of whiskers.\n\n\"So,\" she says, and her hand hovers over him, open and steady. \"One of you gets to move him. Once. And it has to be less than a millimetre.\"\n\nThe lamps hum. The village waits.\n\n\"What did you find, back there?\" she asks softly. \"Because whatever it was — bring it with you. He'll need it.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Now,\" we say. \"Move him now.\"\n\nThe animator grins and steps back. \"He's all yours. Remember — less than a millimetre.\"\n\nWe lean over the village until our noses nearly touch the lampposts. {puppet_name} stands on the cobbles, mid-step, patient as a comma. We take his little wire arm between finger and thumb, and we give him {nudge_direction}. It is barely anything. It is almost nothing at all.\n\n\"Perfect,\" she whispers. \"Hold your breath.\"\n\nClick. The camera blinks. One photograph, one frozen instant, and our millimetre is inside it forever.\n\n\"Can we see?\" we ask. \"Can we see it move?\"\n\nShe carries the camera's card to a screen, and the day's few seconds play. There — the lampposts, the lane, and {puppet_name}, walking. And right there, in the middle, his arm lifts. Small. Smooth. Alive. Ours. He is waving at us from inside the film.\n\nWe shout, because we cannot help it.\n\n\"Come on,\" she says. \"One more thing.\"\n\nThe screening room is dark and smells of warm dust. The projectionist, an old man with rolled sleeves, threads the film. \"Normal speed, your eyes glue the pictures together,\" he says. \"So we'll go slow.\"\n\nThe projector clatters, then slows. Clack. Clack. Clack. And now we see it: between each bright picture, a blink of dark. A gap. Our eyes have been erasing that gap our whole lives, stitching stillness into motion without ever telling us.\n\n\"Twenty-four of those every second,\" he says. \"Twenty-four little darknesses you never noticed.\"\n\nBefore we leave, he snips one frame from the reel and presses it into our hand. One tiny printed picture of a wire puppet, arm raised, mid-wave.\n\n\"That one's yours,\" he says. \"You made it move.\"\n\nAll the way home, we hold it up to the light. It does not move. It never will again. But we saw it move, and we know the secret now: motion is just stillness that believes in the next frame.\n\n\"One millimetre,\" we whisper, \"and he waved.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The whole route first,\" we say. \"We want to know every step.\"\n\n\"Good choice,\" says the animator, and she lifts the lamp so the light falls along the lane. \"Walk it with your eyes. He starts here.\"\n\nWe tiptoe our gaze down the cobbled street, past the crayon lampposts, each one no taller than our little finger. Past a bakery with a door that really opens. Over a bridge the size of a shoebox, where a painted river waits, silver and still.\n\n\"Here,\" she says, and her finger stops at a tiny fountain, \"he pauses. Two whole frames. The pause before the leap — that's what makes the leap feel like a leap. Stillness is part of the motion.\"\n\nWe picture it: {puppet_name} gathering himself, springing, clearing the fountain by a whisker, landing on the far side of the village a week from now.\n\n\"How many photographs?\" we ask.\n\n\"Hundreds. Thousands, maybe. One nudge at a time.\" She hands us the pointer. \"Go on. Give him his first.\"\n\nWe take his little wire arm between finger and thumb, and we give him {nudge_direction}. Click. The camera blinks. Frame one of a very long walk.\n\n\"Now come and see what you're part of,\" she says.\n\nThe screening room is dark and smells of warm dust. The projectionist, an old man with rolled sleeves, threads a reel of finished film. \"Normal speed, your eyes glue the pictures together,\" he says. \"So we'll go slow.\"\n\nThe projector clatters, then slows. Clack. Clack. Clack. And there it is: between each bright picture, a blink of dark. A gap our eyes have been erasing all our lives, stitching stillness into motion and never telling us.\n\n\"Your frame will have one of those gaps on each side,\" he says. \"Hundreds of frames, hundreds of little darknesses — and the walk will look like one smooth thing.\"\n\nBefore we go, the animator unrolls a tiny map of the village, the route drawn in pencil, small numbers marked along it. Frame one. Frame two. All the way to the fountain, and beyond.\n\n\"Take it,\" she says. \"So you know where he's going.\"\n\nWe carry it home like a treasure. Somewhere in that studio, {puppet_name} is standing very still, one millimetre into his journey, and every day somebody will move him one millimetre more.\n\n\"Walk well,\" we whisper. \"We know the way.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"He's already slipped ahead of us, that puppet. Do you want to sit at my desk and learn how the drawings between the poses do the moving, or would you rather chase him through the door where the frames are big enough to stand inside?\"",
+      "options": [
+        {
+          "say_word": "The desk",
+          "label": "Stay at the lightbox desk and learn how in-betweens work",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The door",
+          "label": "Chase the puppet into the walk-in film strip",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"One nudge is all a frame gets. Do you want to move him right now and watch your millimetre turn into motion, or walk his whole route across the village first so you know every step his week will take?\"",
+      "options": [
+        {
+          "say_word": "Move him",
+          "label": "Nudge the puppet now and see the playback",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {
+            "nudge_direction": "a wave of his arm, the width of a pencil line"
+          }
+        },
+        {
+          "say_word": "Walk it",
+          "label": "Tiptoe the puppet's week-long route through the village first",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {
+            "nudge_direction": "his first step off the mark, toward the fountain"
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.how_animation_moves",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.drawing_and_animation",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The material is inherently about movement itself—how a drawing or puppet travels from one pose to the next—so a journey structure lets the child ride along frame by frame, feeling the pause before the leap and the millimetre-by-millimetre crawl of stop motion as the plot's own motion.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Pip, the wire-armature puppet, who is always posed one step ahead of us in every scene, as if he has already made the journey and is daring us to catch up.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "The unseen work matters: the in-betweens nobody remembers are what actually make things move, and the week-long millimetre walk shows that wonderful things are built one small careful step at a time.",
+      "why": "The material offers this naturally through the in-betweener's quiet stepping-stone drawings and the stop-motion animator's day of work producing only seconds of film; it rides along as something we witness, never a lecture."
+    },
+    "cast": [
+      {
+        "role": "Pip, the wire-armature puppet small enough to sit in a palm",
+        "reused": false,
+        "why": "Carries the big_adventure accent as our companion who is somehow always slightly ahead, posed mid-leap or mid-climb in each new room, and gives the journey its pull."
+      },
+      {
+        "role": "The in-betweener at the lightbox desk",
+        "reused": false,
+        "why": "Guides the drawing side of the studio, shows us key poses and the stepping-stone frames between them, and asks the first choice question in her own quiet, pencil-stub voice."
+      },
+      {
+        "role": "The stop-motion animator with paint on her sleeves",
+        "reused": false,
+        "why": "Guides the miniature village set, lets us nudge Pip a millimetre ourselves, and asks the second choice question with her hands still dusty from the set."
+      },
+      {
+        "role": "The projectionist who has run the same film a thousand times",
+        "reused": false,
+        "why": "Hosts the destination: the dark screening room where he slows the projector so we can see the dark gap between frames that our eyes normally erase."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "animating on twos: twelve drawings held for two frames each",
+        "switching to ones for fast motion",
+        "in-betweens as stepping stones between key poses",
+        "squash and stretch with volume staying the same",
+        "the held pose: the pause before the leap",
+        "stop-motion puppet moved less than a millimetre per frame, a day for a few seconds",
+        "metal armature skeleton with ball-and-socket joints",
+        "corridor of pinned-up pencil drawings",
+        "lightbox desk with two key poses glowing through",
+        "miniature village stop-motion set with crayon-sized lampposts",
+        "dark screening room with slowed projector showing the gap between frames",
+        "warehouse-sized film strip where each frame is a room you can stand in"
+      ],
+      "gathered_but_unused": [
+        "Most films show twenty-four pictures every second, but animators often draw only twelve of them and hold each drawing for two frames, which is called animating on twos.",
+        "When something moves very fast, animators switch to ones, drawing a brand-new picture for every single frame, because fast motion needs more drawings to look smooth.",
+        "In stop motion, a real puppet is moved a tiny amount, sometimes less than a millimetre, then photographed, then moved again, and a whole day of work might produce only a few seconds of film.",
+        "The drawings between the important poses are called in-betweens, and the people who draw them are called in-betweeners; the key poses come first, and the in-betweens fill the gaps.",
+        "Squash and stretch means a character's body squashes flat when it lands and stretches long when it jumps, and as long as the total volume stays roughly the same, it still looks believable.",
+        "Animators often hold a character completely still for a few frames right before a big movement, and that tiny pause makes the leap that follows feel much more powerful.",
+        "Stop-motion puppets often have metal skeletons inside called armatures, with ball-and-socket joints, so they can hold any pose without wilting under the hot studio lights.",
+        "Some stop-motion animators use replacement faces, swapping a whole mouth or head piece for each expression, and a single character can have hundreds of tiny faces stored in trays."
+      ]
+    },
+    "safety_beat": "On the miniature village set, the stop-motion animator shows us lightly where to stand: hands behind the taped line on the table's edge, leaning in from the waist so our sleeves never brush the set, and she moves the camera cable aside with her foot before we begin. Competence, no warning, no tension.",
+    "motif": "The single frame: one frozen instant, growing from one pinned drawing, to a wall of hundreds, to a walkable room-sized film strip, to the flicker on the screen.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already makes the invisible labor of animation legible and wondrous through patient, concrete steps — the corridor of whisker-differences, the walk-in frames, the single millimetre nudge — and lands its closing image ('motion is just stillness that believes in the next frame') with earned warmth."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and leaning in",
+        "s2a": "delighted, hands itching to try",
+        "s2b": "hushed wonder, a small vertigo of understanding",
+        "s3": "held breath before something precious",
+        "s4a": "a shout of joy, then snug and glowing",
+        "s4b": "tender and proud, carrying a treasure home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.8); [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "05_how_animation_moves_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

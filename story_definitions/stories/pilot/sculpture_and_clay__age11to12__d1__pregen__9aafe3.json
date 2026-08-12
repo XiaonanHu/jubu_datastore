@@ -1,0 +1,306 @@
+{
+  "id": "story.sculpture_and_clay.age11to12.d1.pregen.9aafe3",
+  "title": "The Studio with Two Doors",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sculpture_and_clay",
+    "sel_theme": null,
+    "value_lesson": "Patience and rehearsal: doing the slow, forgiving practice first (clay model) before the unforgiving performance (marble) is what careful craftspeople actually do",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A mystery about why one studio has a clay door and a stone door leads us to discover that carving takes away while modelling adds on, and marble never forgives while clay always does.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Quick — she's about to start,\" says Theo, waving us down the street. Theo is the sculptor's apprentice, twelve years old, with grey dust on his eyelashes, and he has promised us something worth hurrying for: today, a statue gets born.\n\nThe street smells of rain and chalk. Our shoes tick on the pavement. And then we see it — a tall old workshop with windows the size of doors, and two doors the size of... well, doors.\n\nTwo of them. Side by side.\n\nThe first has a little wooden sign, spattered and finger-smudged with clay. It says: THIS WAY. COME AND GET MUDDY.\n\nThe second door is painted white, and its sign has no smudges at all. Just four words, carved deep into the wood: NO SECOND CHANCES.\n\n\"Why would one studio need two doors?\" we ask.\n\nTheo grins — but he doesn't answer. Not yet. He just pushes the clay door open, and the smell that rolls out is cool and earthy, like digging in the garden after a storm.\n\nInside, the studio is enormous. Shelves of tools. Lumps of grey clay wrapped in wet cloth. And in the far corner — something that makes us stop walking.\n\nA block of white marble, taller than a grown-up, taller than two grown-ups, sitting on a wooden cradle. Nobody goes near it. Even Theo's voice drops.\n\n\"That,\" he whispers, \"is the giant. It's been sleeping there all winter. Signora Alba says you don't wake a giant until you know exactly what you're doing.\"\n\nThe marble glows faintly in the morning light, smooth and pale and very, very patient.\n\n\"Wake it?\" we say. \"You mean she's going to carve it?\"\n\n\"This morning,\" says Theo. \"One chip at a time. And every chip that comes off—\" he points at a bin by the door, brimming with pale stone flakes, \"—can never, ever go back. That's what the white door means.\"\n\nHe picks up a lump of clay and presses it into our hands. It's cool. It's soft. It squishes between our fingers like it wants to become something.\n\n\"But this door,\" Theo says, \"this door forgives everything. Watch.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We push the muddy door wide.\n\n\"Good choice,\" says Theo. \"This is where things get squishy.\"\n\nInside, Signora Alba is standing at a long table, sleeves rolled up, grey clay streaked across her apron like stripes on a badger. She doesn't say hello. She just holds out a lump of clay, cool and damp, and presses it into our hands.\n\n\"Squish it,\" she says. \"That's the first rule.\"\n\nWe squish. It gives way between our fingers, soft as bread dough, and it feels wonderful.\n\n\"Now watch.\"\n\nShe takes a small lump and rolls it between her palms. Then — pinch — a nose. Press — a chin. A tiny squeeze with her thumbnail, and suddenly there's an ear. She isn't cutting anything away. She's adding on, bit by bit, building a little face out of nothing.\n\n\"That's modelling,\" says Theo. \"You add. Clay always lets you add.\"\n\nHe points at a shelf behind him. On it sits a lumpy, cracked little figure with one arm much longer than the other.\n\n\"My first try,\" he says proudly. \"Terrible, right?\"\n\nThen he picks up a dented figure from the table, squashes it flat with both hands, rolls it into a ball, adds a splash of water, and starts again. Just like that.\n\n\"See?\" he grins. \"Nothing wasted. Nothing ruined.\"\n\nAnd we notice — the bin by this door is completely empty. Not one scrap of clay in it. Because every bit goes back. Every mistake gets another chance.\n\nSignora Alba squints at our hand. Then at the clay. Then back at our hand. She's copying the exact bend of our fingers, one knuckle at a time.\n\n\"Hold still,\" she murmurs. \"Your hand is teaching me.\"\n\nWe hold very still. Our clay is warm now, and it feels like it's waiting.\n\nBut through the wall — faint, sharp — we hear it. Tap. Tap. Tap.\n\nThe other door. The white one.\n\n\"What's happening in there?\" we whisper.\n\nTheo's smile goes quiet. \"The giant,\" he says. \"She's waking it up.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We pull the white door open.\n\nIt's heavier than we expected. The hinges don't creak — they hum, low and serious, like the door itself is thinking about whether to let us in.\n\nInside, everything is pale. Pale floor, pale dust, pale light falling through a high window. And there, in the middle of it all, stands the giant.\n\nUp close, the marble block is even bigger. Taller than the door we just walked through. Its surface is smooth and cold-looking, like the side of a river stone, but enormous.\n\nSignora Alba stands beside it with a chisel in her hand.\n\n\"Feel this,\" she says, and holds it out.\n\nWe take it. It's heavier than it looks — the metal cool, the wooden handle worn smooth. A serious tool. Not a toy.\n\n\"Now watch.\"\n\nShe places the chisel against the marble. One tap with the mallet. Tink. A small white chip spins off and lands on the floor.\n\nShe picks it up and holds it in her palm.\n\n\"That chip,\" she says, \"can never go back. Not with glue. Not with wishing. It's off. It's done.\"\n\nShe points at the bin by the door. It's brimming — overflowing with pale stone flakes, hundreds of them, thousands, each one a decision that can't be unmade.\n\n\"That's why the sign says what it says,\" Theo whispers behind us.\n\nSignora Alba walks slowly around the block. One hand trailing along its cool surface. She stops. Tilts her head.\n\n\"There's someone inside,\" she says quietly. \"There always is. My job is to find them — and not take away one chip too many.\"\n\nWe stare at the marble. And for a moment — just a moment — we think we can see it too. A shape. Waiting.\n\nThe whole studio feels like it's holding its breath.\n\nThen, through the wall, we hear something completely different. A wet, happy squelch. Laughter.\n\n\"That's the other room,\" says Theo. \"Want to know why it sounds so cheerful?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We follow Theo across the studio, under a low stone arch hung with damp cloths, into a room we have not seen yet.\n\nAnd there it is. The giant — right here, close enough to touch, glowing like snow that never got cold. And the sculptor herself stands beside it, one hand flat on the marble, as gentle as someone resting a hand on a sleeping dog.\n\n\"You found something,\" says Signora Alba, not turning round. \"Tell me on the way. We are nearly ready.\"\n\nOn the workbench next to the giant sits something small and grey. A clay model — no bigger than a loaf of bread — and it is the giant's twin. Same pose. Same tilt of the head. Same everything, in miniature.\n\nTheo leans close. \"Wait,\" he says. \"You made it twice?\"\n\n\"Three times,\" says Signora Alba. \"The first two were wrong. Clay does not mind being wrong.\" She picks up a strange tool — two metal legs, like a compass with no pencil — and touches one point to the clay model's shoulder, one to its chin. Then she lifts it across to the marble and checks the same two spots on the giant. \"Calipers,\" she says. \"They measure, so I do not have to guess. Clay lets me make every mistake first, where mistakes are free. Marble charges for every one.\"\n\nShe marks a spot on the white stone with a stub of chalk. Just a dot. The smallest beginning.\n\n\"So the two doors,\" says Theo slowly, grin spreading across his dusty face, \"aren't rivals. One is for practising. One is for committing.\"\n\n\"Now you understand my studio,\" says Signora Alba, and she lifts her chisel.\n\nBut Theo is frowning at the little grey model, because a bigger question has just walked into his head. \"Wait. If statues are this old — older than everything — then which came first, back at the very beginning? The forgiving one, or the one that never forgives?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"That,\" says Signora Alba, \"is a question for the keeper of old stone.\" She leads us out through the quiet streets to the museum, where a woman with a magnifying glass is waiting among the statues.\n\n\"Come and see,\" the conservator says. Her gallery is cool and still, full of white faces watching from their pedestals. She stops beside a marble hand, five hundred years old, each finger smooth as soap. \"Look close.\"\n\nWe lean in. There — on the thumb — a tiny extra groove, thin as a hair.\n\n\"The chisel slipped,\" she says. \"One slip, half a second, five hundred years ago. The stone kept it. Stone keeps everything.\" She says it the way you'd talk about a friend who never forgets a birthday.\n\nThen she shows us a Roman face, older than old, its nose chipped, its expression perfectly calm. \"Two thousand years,\" she says, \"and he is still exactly what his sculptor meant him to be. That is the other side of the secret. The same hardness that never forgives a mistake is what lets the finished statue last forever.\"\n\nIt clicks. We can hear it click. The white door isn't cruel — it's the reason anything survives at all.\n\nBefore we leave, the conservator presses something into our palm. A small marble chip, cool and smooth, from a restoration bin. \"A piece of forever,\" she says. \"It will outlive all of us.\"\n\nOn the walk home it sits in our pocket, heavy for its size, and Theo keeps reaching in to check it's still there.\n\n\"So clay is for finding the statue,\" he says, \"and stone is for keeping it.\"\n\n\"And now,\" we say, \"we're keeping a little piece of the keeping.\"\n\nThe chip stays cool all the way home. It will probably stay cool forever.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"That,\" says Signora Alba, \"is a question for the people who pour fire.\" She wraps our little clay figure — the one we squished and shaped ourselves — in cloth, and leads us down the street to the foundry.\n\nWe hear it before we see it. Roaring. Then the door opens and the heat rolls out like a giant's breath.\n\nInside, furnaces glow orange, and moulds stand in rows like sandcastles waiting for the tide. A foundry worker in a heavy apron waves us over. \"Just in time,\" she says. \"The furnace cools at four.\"\n\nShe presses our clay figure into a box of sand and lifts it out again, leaving a perfect figure-shaped hollow. Then — this is the clever part — she pours in hot wax, lets it set, and packs a new mould around the wax. \"The wax melts out,\" she says, \"and leaves a space exactly your figure's shape. Watch.\"\n\nThe crucible tips. Bronze pours out, glowing orange, liquid as soup, and runs into the space the wax left behind. We hold our breath and watch.\n\n\"Clay forgives everything,\" the worker says, \"so you can get it right. Then the right one gets poured into metal, and metal never forgets. Your soft little lump is becoming a statue that could outlive its maker.\"\n\nIt clicks. The clay door isn't just for practising — it's the first step on the road to forever.\n\nWhen the mould cracks open, there it is: our figure, in bronze, gleaming. The worker grins. \"I made two. This one's twin is yours.\"\n\nShe wraps it in cloth and gives it to us. Still faintly warm.\n\nAll the way home, Theo carries it like a baby bird. \"It was mud,\" he keeps saying. \"It was mud, and now it's forever.\"\n\n\"Squish first,\" we say. \"Shine later.\"\n\nAnd the little bronze horse — because that is what it turned out to be — warms our pocket the whole way home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two doors, two totally different sounds behind them — squelching on one side, chipping on the other. Which do we open first: the muddy one, or the one that says 'no second chances'?\"",
+      "options": [
+        {
+          "say_word": "Squish",
+          "label": "Open the clay-spattered door first",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Chisel",
+          "label": "Open the 'no second chances' door first",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The mystery's nearly solved, but there's one last clue, and it's split in two hiding places. Do we hunt it in the quiet museum with all the old stone faces, or in the roaring foundry where they pour fire into moulds?\"",
+      "options": [
+        {
+          "say_word": "Museum",
+          "label": "Follow the conservator to the marble gallery",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Foundry",
+          "label": "Follow the foundry worker to the bronze pour",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sculpture_and_clay",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.drawing_and_animation",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core contrast—carving removes while modelling adds, marble unforgiving versus clay forgiving—naturally builds as a puzzle where clues about each material's behavior lead to the satisfying reveal of why sculptors choose their path.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "The enormous white marble block in the corner, treated like a sleeping giant the whole studio tiptoes around — every encounter with it is a small big adventure.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and rehearsal: doing the slow, forgiving practice first (clay model) before the unforgiving performance (marble) is what careful craftspeople actually do",
+      "why": "The mystery's satisfying answer IS this value — sculptors rehearse in clay before committing to stone — so it arrives naturally as the puzzle's solution rather than as a lesson pasted on."
+    },
+    "cast": [
+      {
+        "role": "A working sculptor who does both carving and modelling",
+        "reused": false,
+        "why": "She can show the two opposite methods side by side and let us feel a chisel's weight and a clay lump's squish; she is the natural guide for the mystery's answer."
+      },
+      {
+        "role": "An older child apprentice in the studio",
+        "reused": false,
+        "why": "Keeps a cracked first attempt on a shelf as proof that clay forgives; gives the listening child a near-peer companion who voices the question out loud and carries the choice questions."
+      },
+      {
+        "role": "A museum conservator who repairs old statues",
+        "reused": false,
+        "why": "Delivers the second clue that changes the first: the tiny extra groove in a five-hundred-year-old marble hand, showing that marble keeps every secret."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Opening question: two doors — one clay-spattered, one saying 'no second chances'",
+        "Clue: two trash bins — one full of stone chips, one empty because clay scraps get recycled",
+        "Clue: the sculptor measures between a small clay model and the big marble block with calipers",
+        "Clue: an old marble hand with a tiny extra groove where the chisel slipped, visible after five hundred years",
+        "Clue: a dented clay figure squashed and rebuilt overnight, good as new",
+        "Carving works by taking material away; once a chip is gone it cannot be put back",
+        "Modelling works by adding material on, pinching and pressing clay up from nothing",
+        "Marble is so unforgiving sculptors made clay models first and copied them with measuring tools",
+        "Clay forgives almost everything: squash it flat, add water, start again",
+        "Many bronze statues begin as clay: mould, wax, hot liquid bronze poured in",
+        "Marble statues survive thousands of years because stone resists weather — the same hardness that makes mistakes permanent",
+        "Satisfying answer: carving and modelling are opposite roads, marble never forgives while clay always does, so sculptors rehearse in clay before committing to stone",
+        "Setting: sculptor's studio with marble dust, chisels in size order, one huge white block in the corner",
+        "Setting: museum gallery with marble statues and a small bronze horse under a spotlight",
+        "Setting: bronze foundry with glowing furnaces and moulds lined up like sandcastles",
+        "Value: mistakes as information — keeping the failed piece on the shelf honours the learning",
+        "Deeper door: the sculptor squints at our own hand, then at the clay, copying the exact bend of each finger"
+      ],
+      "gathered_but_unused": [
+        "Carving works by taking material away: a sculptor using a chisel removes chips of marble, and once a piece is gone, it cannot be put back.",
+        "Modelling works by adding material on: a sculptor pinches, rolls, and presses clay together, building a form up from nothing.",
+        "Marble is so unforgiving that sculptors sometimes made a clay or plaster model first and used measuring tools to copy it carefully into stone.",
+        "Clay forgives almost everything: if a sculpture sags or a nose goes wrong, you can squash it flat, add a little water, and start again.",
+        "Michelangelo said the statue was already inside the marble block and his job was just to free it — but he still planned carefully, because one wrong hit could ruin months of work.",
+        "Many bronze statues begin as clay: the clay model is covered in a mould, melted wax replaces the clay, and hot liquid bronze is poured into the space the wax leaves behind.",
+        "Marble statues have survived for thousands of years partly because stone resists weather — the same hardness that makes a mistake permanent also makes the finished statue last.",
+        "Sculptors who carve often study real bodies and objects closely — Renaissance artists even studied anatomy — because carving what you see demands knowing it deeply before the first cut."
+      ]
+    },
+    "safety_beat": "In the foundry ending (s4b), the foundry worker shows once, lightly, that she knows where to stand: she settles us on the marked viewing step behind the pouring line with a practised arm, already standing there herself before a word is spoken — competence, no warning, no tension.",
+    "motif": "The two bins: one brimming with pale stone chips that can never go back, one empty because every clay scrap returns to the next attempt.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the two-doors conceit is legible and satisfying, the making is shown step by patient step (pinch a nose, calipers, lost-wax pour), the sound-words land as their own small sentences (Tink. Tap. Tap. Tap. squelch), and each branch pays off its door's promise with a keepsake whose temperature — cool marble, warm bronze — a child can feel in the pocket of the telling."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "tingly curiosity, hurrying toward something",
+        "s2a": "squishy delight, safe and invited",
+        "s2b": "held breath, reverent hush",
+        "s3": "the click of a puzzle piece, pleased awe",
+        "s4a": "quiet wonder, pocket-heavy satisfaction",
+        "s4b": "roaring excitement warming into pride"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 38% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 5.0); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "03_sculpture_and_clay_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

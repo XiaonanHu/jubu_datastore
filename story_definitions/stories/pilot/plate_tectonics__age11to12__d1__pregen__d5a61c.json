@@ -1,0 +1,330 @@
+{
+  "id": "story.plate_tectonics.age11to12.d1.pregen.d5a61c",
+  "title": "The Puzzle That Took a Century",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.plate_tectonics",
+    "sel_theme": null,
+    "value_lesson": "Good skepticism and evidence over authority",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "A child detective gathers Earth's own clues across a hundred years until the one missing piece clicks the whole picture together",
+  "slots": {
+    "kid_name": {
+      "role": "the child detective in the story",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The wind on this beach in Brazil has a mind of its own. It flips {kid_name}'s hair. It rattles the little tin in Nana Pip's pocket, the one full of real jigsaw pieces, the one that goes everywhere she goes.\n\n\"Listen to that,\" says Nana Pip. \"The tin wants to tell a story.\"\n\nThey walk the way they always walk, slow, with cocoa waiting back home in the chipped mugs. The sea hisses up the sand and slides away again. Nana Pip holds up her phone, and on it is a map of the whole wide Atlantic, blue as bathwater, with Brazil on one side and Africa on the other.\n\nAnd {kid_name} stares at it, and stares, and then it just bursts out:\n\n\"Nana. The edge of Brazil looks like it could plug right into Africa. Like a puzzle piece.\"\n\nNana Pip stops walking. She smiles the smile she saves for very good moves in very hard puzzles. Out of the tin comes one green piece, shaped a little like Brazil itself, and she presses it into {kid_name}'s hand. It is warm from her pocket.\n\n\"A keeper for the tin,\" she says. \"Because, my love, you have just asked the question that took a hundred years to answer. Grown scientists argued about it. Shouted about it. One man staked his whole life on it, and nobody believed him.\"\n\nThe wind tugs at her scarf. The sea goes hiss, and hush.\n\n\"But,\" says Nana Pip, tapping the map, \"a coastline that fits is only the first clue. And a first clue might be real evidence, or it might be a pretty coincidence. Detectives have to decide which.\"\n\nShe raises one eyebrow. \"So. Which is it?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The museum's back room smells of old paper and cold stone, and it is full of drawers. Hundreds of drawers, tall as Nana Pip, each one labeled with the name of a continent.\n\n\"South America,\" reads the curator, a woman with a magnifying glass on a string around her neck and the pleased look of someone who has been waiting all morning for exactly this visit. \"And Africa. I keep them across the room from each other. Seems wrong, somehow.\"\n\nShe slides two drawers open, one with a rumble, one with a squeak. Inside, on beds of blue velvet, lie two flat stones. And in each stone, pressed like a leaf in a book, is the same little animal. Long thin body. Long thin tail. A little lizardy thing, no bigger than a banana.\n\n\"Mesosaurus,\" says the curator. \"Say it with me, it's a good one. Meso-saurus.\"\n\n\"Meso-saurus,\" says {kid_name}, and it tastes like a word worth keeping.\n\n\"Now here is the puzzle,\" the curator says. \"This little fellow lived in lakes and rivers. Fresh water only. It could no more swim the salty Atlantic than I could flap my arms and fly to the moon. And yet—\" she taps one drawer, then the other, \"—one of him turned up in South America, and his twin turned up in Africa.\"\n\nNana Pip leans close. Her tin rattles. \"Go on, detective. Do the honours.\"\n\nSo {kid_name} lifts the two stones, one careful hand under each, and lays them side by side on the table. The two little lizards lie nose to nose, tail to tail, like a reflection, like twins separated at birth and meeting at last.\n\n\"Shapes can be coincidence,\" the curator says, and her eyes are shining. \"One coastline hugging another — maybe. But twins? Twins are harder to wave away.\"\n\n\"A keeper for the tin,\" whispers Nana Pip, and out comes the tin, and in goes the moment.\n\nBut as they walk back into the daylight, Nana Pip's face goes thoughtful. \"Two little lizards, my love. Against a whole ocean.\" She shakes her head slowly. \"Who on earth would believe them?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "The geologist's study is at the top of a narrow staircase that creaks like it is telling secrets, and the room itself looks like the inside of a very busy brain. Rocks on the desk. Rocks on the floor. Photographs of glaciers pinned to every wall, slightly crooked, held up with tape.\n\n\"Mind the teetering one,\" says the geologist, an old man with eyebrows like two grey caterpillars, as {kid_name} steps around a stack of stone samples. \"It's been teetering since 1962. Hasn't fallen yet.\"\n\nHe lifts one dark rock with both hands and sets it in front of them like a cake. \"Now. Put your finger here.\"\n\nThe rock has scratches. Long ones, deep ones, running side by side like the claw marks of something enormous, all dragging one way.\n\n\"Glaciers did that,\" the geologist says. \"Ice, heavy as a mountain, sliding across the land, scraping its fingernails along the rock. And here is the part that keeps me up at night.\" He pulls out photograph after photograph and slaps them down in a row. \"South America. Africa. India. Australia. The same scratches. The same claw marks. All pointing the same way.\"\n\n{kid_name} runs a finger along the grooves. They are rough and cold and they all run one way, like hair combed flat, like sled tracks in snow.\n\n\"One giant ice sheet,\" the geologist says, \"sliding across one giant joined-up land. Otherwise the marks wouldn't line up. They'd point every which way, like a dropped box of matches.\"\n\n\"Like a dropped box of matches,\" Nana Pip repeats with respect, and writes it down.\n\n\"And that's not all.\" The geologist whisks a cloth off a tray, and there lie pressed ferns, five of them, five continents' worth, and every frond the same shape, like five copies of one fingerprint. \"Same plant. Five oceans apart. Ferns cannot fly, my friend. Somebody carried them — or the ground did.\"\n\nNana Pip's tin is out and open before she even speaks. \"Keeper,\" she says firmly. \"Keeper, keeper, keeper.\"\n\nBut on the stairs going down, she stops, and the creaks go quiet under them. \"Scratches and ferns across five continents, my love. That can't be coincidence.\" She frowns. \"So why won't anyone believe it? Where's the proof the whole world will accept?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Nana Pip taps the phone, and the beach folds away like a map being closed, and suddenly we are standing at the back of a tall lecture hall in 1912, where the air smells of chalk dust and wet coats and the radiators clank like somebody stirring a very big pot.\n\n\"What did you find?\" Nana Pip whispers. \"Hold on to it. You are about to meet the man who needed it.\"\n\nAt the front, a man with round glasses is pinning up a map so enormous it needs two chairs and a stepladder. Alfred Wegener. He has chalk on his sleeve, chalk on his ear, and eyes like somebody who has been awake all night finishing a puzzle and does not regret it.\n\n\"Look,\" he tells the room, and his pointer taps one coastline, then another. Tap. Tap. \"These edges fit. And that is not all.\" He pins up pictures of fossils, little curled ferns, twin creatures from opposite sides of an ocean. \"The same plants. The same animals. The same scratches in the rock, as if the continents were once one great land that broke apart and drifted. I call it continental drift.\"\n\nThe room goes very quiet. It is the quiet of a hundred grown-ups all thinking at once.\n\nThen an old geologist stands up, slow, and his voice is not unkind. \"Mr. Wegener. Your clues are... interesting. But answer me this. What force could possibly move a continent?\"\n\nWegener opens his mouth. Closes it. The chalk dust floats. He has every piece except one, and it is the one the whole puzzle hangs on.\n\n\"I... do not know yet,\" he says. \"But the evidence is real.\"\n\nHeads shake. Chairs scrape. The room files out into the cold.\n\nNana Pip's voice comes soft beside us. \"He kept collecting clues anyway, my love. All the way to a lonely ice sheet in Greenland. Because a missing piece is not the end of a puzzle.\" The tin rattles. \"It is an invitation.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Nana Pip taps the phone, and the hall folds away, and we are standing on the deck of a night ship in the cold black Atlantic, where the sea slaps the hull and the stars are spilled salt. A young technician with headphones around her neck is bent over a long roll of paper, and the paper is growing, line by line, as the ship's sonar listens down into the dark.\n\n\"Shh,\" she says, grinning. \"The ocean is drawing us a picture.\"\n\nWe watch the lines rise into a giant rumpled ridge right down the middle of the seafloor, like the earth has a backbone. And on either side of it, stripes. Dark, light, dark, light. Zebra stripes of magnetized rock, and here is the thing that makes the technician hold her breath: the stripes on the left mirror the stripes on the right. Perfectly.\n\n\"The rock at the ridge is brand new,\" she whispers. \"It cools, it records the earth's magnetism like a tape recorder, and then it spreads away on both sides. The seafloor is being born at the plate boundaries. Right now. Under us. That is what moves the continents. That is the how.\"\n\nThe ship hums. The paper keeps growing. And every old clue clicks at once in our heads, tap, tap, tap, like Wegener's pointer.\n\nThe beach folds back around us. The wind is still showing off. Nana Pip takes the green piece from {kid_name}'s hand and snaps it into a blue one, shaped a little like Africa, and the click is the most satisfying sound in the world.\n\n\"A keeper for the tin,\" she says. But she does not put it in the tin. She puts it in your pocket. \"Some pieces you keep on you.\"\n\nWe walk home slow, and the cocoa is waiting in the chipped mugs, and the piece is warm in your pocket where the answer used to be missing.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Nana Pip taps the phone, and the hall folds away, and we are home at her kitchen table, where the cocoa steams in the chipped mugs and the tin sits open like a little treasure chest.\n\n\"Now,\" she says, pushing a sheet of paper toward you. \"You are going to make the evidence with your own hands. Because an answer you build yourself is an answer you keep.\"\n\nOn the paper she has drawn a line down the middle. \"The ridge,\" she says. \"The plate boundary, where new seafloor is born.\" She hands you a shaker of iron filings, and you sprinkle them over the paper like pepper on soup. Then she slides a magnet under the table, slow, and you hold your breath.\n\nThe filings shiver. They stand up. They curve into stripes, dark and light, dark and light, marching away from the ridge on both sides. And the stripes on the left mirror the stripes on the right. Perfectly.\n\n\"Look at that,\" Nana Pip breathes. \"Zebra stripes. The real ocean floor has them, my love. When rock cools at the ridge, it records the earth's magnetism like a tape recorder, and then it spreads. That is the proof Wegener never lived to see. The seafloor itself wrote down the answer, and it was spreading the continents apart the whole time.\"\n\nYou run the magnet again, and the stripes form again, and it does not get less wonderful.\n\nNana Pip pours the cocoa. Then she takes the green piece, the one shaped a little like Brazil, and slides it into a blue one shaped a little like Africa. Click. The best sound in the world.\n\n\"A keeper for the tin,\" she says. But she does not put it in the tin. She puts it in your pocket. \"Some pieces you keep on you.\"\n\nThe cocoa is warm. The stripes are still on the paper. And the answer is yours, because your hands made it.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"One clue is a maybe, detective. Two clues is a pattern. So — do we go open the museum's fossil drawers, or climb up to the old geologist's study and look at the rocks?\"",
+      "options": [
+        {
+          "say_word": "Fossils",
+          "label": "Visit the museum back room to see the twin fossils",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Rocks",
+          "label": "Climb to the geologist's study to see the glacier scratches and ferns",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The answer came at last, out on the dark ocean. Do you want to stand on that night ship and watch the map grow — or shall we make the stripes appear ourselves, right here at my table?\"",
+      "options": [
+        {
+          "say_word": "The ship",
+          "label": "Sail on the 1950s research ship and watch the sonar reveal the ridge",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The table",
+          "label": "Make magnetic stripes appear with iron filings at Nana Pip's table",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.plate_tectonics",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's actual material is literally a detective story — matching coastlines, fossils across oceans, and a scientist nobody believed — so clues accumulating toward a satisfying answer fits perfectly for an 11-year-old.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Slowest Race on Earth)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Nana Pip, the puzzle-loving grandparent, who carries a tin of real jigsaw pieces everywhere, serves cocoa in chipped mugs, and calls every clue 'a keeper for the tin'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Good skepticism and evidence over authority",
+      "why": "The material offers it naturally: the doubters asked a fair question ('how?'), and the quiet evidence in rocks and fossils eventually outweighed the loud opinions — a lesson the mystery structure delivers without preaching"
+    },
+    "cast": [
+      {
+        "role": "Curious kid narrator with a puzzle-loving grandparent",
+        "reused": false,
+        "why": "The mystery pattern needs a detective who asks the opening question and collects each clue; the grandchild frame lets the storyteller_tale voice open and close warmly on the beach"
+      },
+      {
+        "role": "Nana Pip, the puzzle-loving grandparent",
+        "reused": false,
+        "why": "Carries the cozy accent, tells the century-long story, and hands the child each real jigsaw piece that mirrors the science"
+      },
+      {
+        "role": "Alfred Wegener, the patient scientist",
+        "reused": false,
+        "why": "The heart of the historical mystery; his 1912 lecture and long wait give the mystery its pause and its human warmth"
+      },
+      {
+        "role": "A skeptical geologist from 1912",
+        "reused": false,
+        "why": "Asks the fair question 'but what force could move a continent?' so the missing piece of the mystery is named out loud"
+      },
+      {
+        "role": "A museum curator who loves matching things",
+        "reused": false,
+        "why": "Opens the fossil drawers so the child can lay the twin fossils side by side and see the match with their own eyes"
+      },
+      {
+        "role": "A young sonar technician on a 1950s research ship",
+        "reused": false,
+        "why": "First to notice the magnetic stripes mirror each other; delivers the satisfying answer and opens the door-glimpse of the living seafloor"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "coastlines of South America and Africa fitting like torn puzzle pieces",
+        "twin Mesosaurus fossils across an ocean it could never swim",
+        "matching Glossopteris fern fossils on five continents",
+        "glacier scratches pointing the same direction across far-apart lands",
+        "Wegener's 1912 continental drift idea and the laughing audience",
+        "the fair skeptical question: what force could move a continent?",
+        "1950s sonar mapping of the mid-Atlantic ridge",
+        "magnetic stripes mirroring on both sides of the ridge, proving seafloor spreading at plate boundaries",
+        "windswept Brazil beach setting",
+        "museum back room with fossil drawers",
+        "1912 lecture hall with huge map and chalk dust",
+        "night research ship with pinging sonar"
+      ],
+      "gathered_but_unused": [
+        "The coastlines of South America and Africa look like two torn puzzle pieces that once fit together — and when you match them at the edges of their continental shelves, they fit even better.",
+        "Fossils of the same small freshwater reptile, Mesosaurus, have been found in both South America and Africa — but it could not have swum across the salty ocean.",
+        "Identical fern fossils, from a plant called Glossopteris, turn up in South America, Africa, India, Antarctica, and Australia — lands now separated by enormous oceans.",
+        "Scratches gouged into solid rock by ancient glaciers point the same direction across South America, Africa, India, and Australia — as if one huge ice sheet once slid across one joined landmass.",
+        "Alfred Wegener, a German weather scientist, proposed continental drift in 1912 — and most geologists laughed at him because he could not explain what force could move continents.",
+        "Wegener died on an expedition in Greenland's ice in 1930, still not believed — decades before the evidence that would prove him right was found.",
+        "In the 1950s and 60s, scientists mapping the ocean floor found a giant underwater mountain chain down the middle of the Atlantic, with the youngest rock in the center and older rock farther away on both sides.",
+        "The magnetic stripes frozen into ocean-floor rock mirror each other perfectly on either side of the mid-ocean ridge — a tape recording of Earth's flipping magnetic field that proved the seafloor is spreading and pushing continents apart at plate boundaries."
+      ]
+    },
+    "safety_beat": "On the night ship deck, the young technician casually shows the child the warm spot by the rail near the sonar cabin door where the wind doesn't bite and the deck stays dry — competence shown once, lightly, no warning or tension",
+    "motif": "A puzzle piece that fits only when you find the right partner",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.plate_tectonics.age9to10.d1.pregen.58f802",
+        "title": "The Slowest Race on Earth",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already braids wonder, fondness, and real science into a single satisfying arc — Nana Pip's attentive love, the puzzle-piece ritual, and the earned click at the end are all doing their work, and the sound of it read aloud ('Meso-saurus,' 'hiss, and hush,' the final click) lands exactly as a listener would want."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a small jolt of discovery",
+        "s2a": "wide-eyed, leaning over the drawer",
+        "s2b": "delighted and busy, fingers on cold rock",
+        "s3": "a held breath, then a sympathetic ache",
+        "s4a": "hushed awe, then the deep click of satisfaction",
+        "s4b": "tingly hands-on wonder, then warm and full"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "06_plate_tectonics_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

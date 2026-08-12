@@ -1,0 +1,336 @@
+{
+  "id": "story.robots.age11to12.d1.pregen.3971af",
+  "title": "Zip and the Wrong Shelf",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.robots",
+    "sel_theme": null,
+    "value_lesson": "Slowing down and checking each part beats guessing and swapping things randomly — and each wrong guess teaches something the right answer wouldn't.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A warehouse robot keeps delivering boxes to the wrong shelf, and a kid and an engineer must test each part of its sense-think-act loop to find which one is lying.",
+  "slots": {
+    "kid_name": {
+      "role": "The kid character, the listener's stand-in",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    },
+    "wrong_delivery": {
+      "role": "The silly wrong thing Zip keeps delivering to the wrong shelf",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "a box of rubber ducks"
+    },
+    "loop_drawing": {
+      "role": "The three-arrow loop diagram Rae draws, which gets one arrow checked off per failed attempt and returns in the endings",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "drawn in marker on the back of a shipping label"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Let me tell you about the day I spent in the biggest warehouse you can imagine. Picture a building so long that the far wall looks hazy, like the end of a road on a hot day. Yellow lines crisscross the floor like streets, and robots zip along them between shelves taller than houses. Beep. Beep. All day long.\n\nMy friend Rae is the engineer there, and she met us at the door with a bright vest for you, {kid_name}, so everyone could see you coming. \"Blue squares,\" she said, pointing down at the floor. \"Stand on those and you're off the robot roads. The yellow lines are theirs.\" She said it the way you'd show someone where to stand at a crosswalk — just how things work around here.\n\nThen she whistled, and around the corner came Zip.\n\nZip is the fastest robot on the floor, a squat little fellow on wheels with a light on top that spins when he's pleased with himself. And here is the thing about Zip: he used to be perfect. Every box, every shelf, every single time. But lately — well. Watch.\n\nZip rolled up to us with a box on his back, spun his light, and beeped like he'd just won a race. Then he dropped the box on a shelf, spun around, and zipped away.\n\nRae leaned over and read the label. She sighed.\n\n\"That's {wrong_delivery},\" she said. \"And that shelf is for winter coats.\"\n\nWe looked at the box. We looked at the shelf. Somewhere down the aisle, Zip beeped again — a proud beep, a job-well-done beep. And that's the strange part. Zip wasn't being lazy or broken-down. Zip believed, all the way through, that he'd put that box exactly right.\n\n\"The afternoon shipment leaves at four,\" Rae said, pulling a marker from her pocket. \"I need my best robot back. And I have a hunch you're the one to find out what he's actually doing.\"\n\nShe flipped over a shipping label and started to draw.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The recipe,\" you said. \"Let's read his recipe.\"\n\nRae grinned and popped open a laptop right there on a shelf, between the winter coats and a stack of hats. \"Zip's brain is just code,\" she said. \"And code is a recipe. If this happens, do that. If the shelf says coats, put coats.\"\n\nWe read it line by line, out loud, the way you'd read a cake recipe looking for the missing egg. If the camera sees a shelf number, beep. If the shelf number matches the box label, drop the box. It all made sense. Every line was sensible. Every line was right.\n\n\"There's no mistake,\" I said.\n\n\"No typo,\" said Rae. \"No missing line. Huh.\" She tapped the laptop. \"So let's try the oldest fix in the world. Turn him off and on again.\"\n\nShe whistled Zip over, pressed a button under his chin, and his light went dark. Then she pressed it again. Beep. His light spun, and off he went — and for two whole minutes he was perfect. Coats to coats. Hats to hats. Rae checked her watch. \"See? Fixed.\"\n\nThen Zip rolled past us, beeped his proudest beep, and dropped {wrong_delivery} onto the winter coat shelf. Again.\n\nRae pulled out {loop_drawing}. Three arrows in a circle: sense, think, act. She put a big check mark on think.\n\n\"The thinking is fine,\" she said. \"The recipe's good. And do you know what that means?\" She leaned in. \"Broken code doesn't behave for two minutes and then break. Broken code is broken right away. So whatever's wrong with Zip... it isn't in his think.\"\n\nThe loop had one arrow checked. Two to go.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Test him,\" you said. \"Like an engineer.\"\n\n\"My favorite kind of detective,\" said Rae. \"Here's the secret, {kid_name}. Engineers don't wait for things to break. They break things on purpose, gently, and watch what happens.\"\n\nShe whistled Zip over, and he came zipping up, light spinning, pleased as anything. Rae tore off a strip of packing tape. \"This is his camera eye,\" she said, pointing to a little dark circle on Zip's front. \"His sensor. It's how he sees the shelf numbers. Watch.\"\n\nShe pressed the tape over the eye.\n\nZip stopped. Mid-roll, mid-beep, mid-everything. His light went still. He simply froze, like a statue of a robot.\n\n\"No seeing, no moving,\" said Rae. \"His loop is stuck on sense. He can't think about a shelf he can't see.\" She peeled the tape off. Beep! Zip sprang back to life and zipped away as if nothing had happened.\n\n\"Your turn,\" said Rae.\n\nNext time Zip rolled past, I held my thumb over his little eye — gently, the way you'd cover a camera on a phone. Zip froze under my thumb. I could feel a tiny hum in him, waiting. I lifted my thumb. Beep! Off he went.\n\n\"Now we reset him, so the test starts clean,\" said Rae, and she pressed the button under his chin. Zip went dark, woke, and ran perfectly — coats to coats, hats to hats — for two whole minutes. Then, beep, {wrong_delivery}, winter coat shelf. Again.\n\nRae pulled out {loop_drawing} and checked off think. \"A reset wipes his thinking clean, and the wrongness survives it. So the mistake isn't in his think.\" She frowned. \"But look — if his eye were dead, he'd freeze. He doesn't freeze. He delivers, confident as a postman. So his sense isn't dead either. It's... telling him something. Something wrong.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Rae flipped the label over and checked off the THINK arrow with a satisfied scratch of her marker. \"Two down,\" she said. \"If Zip's brain is working, then the trouble must be in his body. His actuators — the motors that make him go and grab.\"\n\nShe rolled out a cart of spare wheels, and we helped her swap them in, one, two, three, four. Zip spun in a delighted circle, his motors whirring smooth as bathwater running. \"See that?\" Rae said. \"Beautiful.\"\n\nThen she handed him a box. Zip beeped, zipped down the aisle, and parked it — we ran to look — right back on the wrong shelf. The proud beep floated back to us. Rae sighed and checked off ACT. \"Two arrows down. One to go.\"\n\nWe stared at the drawing. Three arrows in a circle: sense, think, act. Only SENSE was left unchecked, and somehow that made us both go quiet.\n\n\"What did you find?\" Rae asked you, {kid_name}. \"Out there, just now.\"\n\nYou told her. And whatever it was, it made you both look up at the same moment — at Zip's camera eye, the little glass circle above his gripper.\n\n\"Can we look at that?\" you asked.\n\nRae lifted you up on her shoulders. And there it was. A greasy smudge, right across the lens, thick as jam on toast. \"Oh, Zip,\" Rae breathed. \"You couldn't see.\"\n\nShe wiped it clean with a soft cloth from her pocket. Zip blinked — you could actually see the focus adjust — and beeped. A different beep. A surprised beep.\n\n\"Every robot runs that loop,\" Rae said, tapping the drawing. \"Sense, think, act. Zip follows his floor lines. My old mentor Fen's rover on Mars has to think for itself — a signal takes twenty-two minutes to get there. But they all run the same three arrows.\"\n\nZip delivered the next box perfectly. His light spun gold.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Rae clicked her pen. \"Then a ride it is. Zip's cleared for passengers — supervised ones.\"\n\nShe walked us to a painted circle on the floor. \"Feet inside this. My hand stays on the stop button the whole time. That's the deal.\"\n\nZip rolled up and lowered his cargo plate with a polite little chirp. You stepped on, {kid_name}, and I held the rail beside you. Rae's thumb rested on the red button. \"Ready?\"\n\nZip beeped. We moved.\n\nThe aisle slid past, smooth as skating. And here is what you could feel, right through your shoes: Zip's wheels never stopped adjusting. A tiny hum, a tiny turn, faster than a blink. His sensors read the yellow line ahead, his brain decided, his wheels obeyed — and then it happened again. And again. Sense, think, act. Sense, think, act. The loop wasn't a drawing anymore. It was under your feet, working.\n\n\"Feel that?\" Rae called, jogging alongside. \"That's feedback! He's checking himself a hundred times a second!\"\n\nZip slowed, turned, and stopped at a shelf. He lifted the box of {wrong_delivery} — gently, carefully — and set it down. Rae checked the label. She checked the shelf. She grinned like I'd never seen.\n\n\"Toy aisle. Correct shelf.\" \n\nZip's light spun gold, and his beep echoed down the whole long building. Proud, and this time, right.\n\nBack at the workbench, Rae pressed something into your hand. The shipping label, with its circle of three arrows — every one checked off now, in her thick black marker.\n\n\"You earned that,\" she said.\n\nI still have my copy, taped up by my desk. And whenever something in my house acts confused — the remote, the toaster, the cat — I check its eyes first. You'd be surprised how often that's the whole problem.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Rae clicked her pen. \"The museum shelf, then. My favourite corner of the whole building.\"\n\nShe led us past the workbench to a long shelf against the wall, and — well. It didn't look like much. Old grippers, scuffed wheels, camera eyes in a row like buttons. But Rae ran her hand along it the way you'd pat a good dog.\n\n\"Every piece here was somebody's invention,\" she said. \"Somebody sat at a bench and dreamed it up, and tried it, and it failed, and they tried again.\"\n\nShe lifted down a camera eye and put it in your palm, {kid_name}. It was cloudy — fogged and dim, like Zip's smudged lens, except this one would never wipe clean.\n\n\"That's from the first warehouse robots, years before Zip. They bumped into everything. Shelves, walls, each other. Bonk, bonk, all day long.\" Rae tapped the cloudy lens. \"They could see, but they couldn't check themselves. Then someone invented the feedback check — the loop looking at its own work — and suddenly a robot could notice it had gone wrong. That one idea changed everything.\"\n\nYou turned the little eye over in your hand. Somewhere behind us, Zip beeped — a crisp, correct, modern beep.\n\n\"He's standing on their shoulders,\" Rae said. \"Every robot is. Even Fen's rover, out there thinking for itself on Mars. Somebody's wrong guess is underneath every single thing it does right.\"\n\nThen she did something I didn't expect. She took the shipping-label drawing — all three arrows checked — and folded it around the little retired lens, and pressed both into your hand.\n\n\"Take them. The loop that fixed Zip, and the eye that started it all.\"\n\nThat lens sits on my windowsill now, where the morning light comes through it. A reminder that seeing clearly is the first job of every robot — and not a bad one for a person.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Rae taps her marker on the loop drawing and says, \"Two ways to hunt a bug, kid. We can read Zip's recipe line by line and look for a mistake — or we can poke his senses on purpose, the way engineers test, and watch what he does. Which sounds like your kind of detective work?\"",
+      "options": [
+        {
+          "say_word": "Read it",
+          "label": "Open Zip's code on the laptop and hunt for the mistake line by line",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Poke it",
+          "label": "Test Zip like an engineer — tape over his camera and see what he does",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Rae clicks her pen and grins. \"Zip owes you one. So — do you want to ride his route and feel that loop working under your feet, or should I show you the shelf of old broken parts, where every piece of him was somebody's invention first?\"",
+      "options": [
+        {
+          "say_word": "Ride",
+          "label": "Ride along on Zip's route and feel the sense-think-act loop in motion",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Museum",
+          "label": "Visit the shelf of old robot parts and hear how each piece was invented",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.robots",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The sense-think-act loop naturally creates a debugging story where a robot's sensors, thinking, or actuators fail and must be fixed through feedback, perfectly matching the try-fail-try-solve structure.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Zip the warehouse robot, whose beeps, spins, and stubborn wrong-shelf deliveries carry all the comedy.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Slowing down and checking each part beats guessing and swapping things randomly — and each wrong guess teaches something the right answer wouldn't.",
+      "why": "The pattern_material practically hands this over: the failed attempts each rule out one part of the loop, so the value is structural rather than pasted on."
+    },
+    "cast": [
+      {
+        "role": "The storyteller, narrating a memory of a day spent in a robot warehouse",
+        "reused": false,
+        "why": "The storyteller_tale frame requires a teller who says 'I' and bookends the memory warmly."
+      },
+      {
+        "role": "The kid who notices what the adults missed",
+        "reused": false,
+        "why": "The child listener needs an on-page stand-in who asks the questions and ultimately spots the smudge on the camera."
+      },
+      {
+        "role": "Rae, a robotics engineer who tests warehouse robots",
+        "reused": false,
+        "why": "She carries the expertise, shows the kid how to stand safely in the warehouse, and voices the sense-think-act diagram moment."
+      },
+      {
+        "role": "Zip, a warehouse robot who keeps delivering boxes to the wrong shelf",
+        "reused": false,
+        "why": "Zip is the problem and the personality; his confused loop makes the abstract sense-think-act cycle visible and funny."
+      },
+      {
+        "role": "Old mentor Fen, mentioned in the Mars branch, who once wrote rover software",
+        "reused": false,
+        "why": "He exists only as Rae's story-within-the-story in one branch, opening the Mars door without crowding the warehouse cast."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Every robot runs the sense-think-act loop and then senses again to check",
+        "A sensor is the robot's way of feeling the world — cameras, bumpers, distance sensors",
+        "An actuator is the part that moves — motors, wheels, grippers",
+        "Feedback means the robot checks whether its action worked",
+        "If a sensor is dirty or blocked the robot does the wrong thing even with perfect thinking",
+        "Warehouse robot follows floor lines; Mars rover must decide alone because signals take up to 22 minutes",
+        "Engineers test robots by breaking things on purpose — tape over the camera",
+        "Setting: huge warehouse with tall shelves, yellow floor lines, robots zipping between aisles",
+        "Pattern: reset works for two minutes then fails; wheel swap fails; cleaning the sensor fixes it",
+        "Failed attempts rule out think, then act, then sense",
+        "Deeper door: engineer shows the loop diagram — every robot ever built runs this loop",
+        "Deeper door: Mars rover video — by the time we see it hit a rock, it hit it eleven minutes ago",
+        "Deeper door: kid covers the camera with a thumb and watches the robot freeze",
+        "Wider door: code on a laptop looks like a recipe — if this, then that",
+        "Wider door: shelf of old broken parts, each one an invention someone dreamed up"
+      ],
+      "gathered_but_unused": [
+        "Every robot runs the same loop: it senses something, thinks about what to do, then acts — and then senses again to check what happened.",
+        "A sensor is a robot's way of feeling the world — cameras, touch bumpers, heat sensors, and distance sensors all count.",
+        "An actuator is the part that moves — motors, wheels, grippers, and pistons are all actuators turning decisions into motion.",
+        "Feedback means the robot checks whether its action worked — like a thermostat checking the temperature after turning the heat on.",
+        "A warehouse robot and a Mars rover both sense, think, and act — but the warehouse robot follows floor lines while the rover must decide on its own because signals take up to 22 minutes to reach Mars.",
+        "If a robot's sensor gets dirty or blocked, it can make the robot do the wrong thing even if its thinking is perfect.",
+        "Some robots use feedback hundreds of times per second — faster than you can blink — to stay balanced or hold things gently.",
+        "Engineers test robots by breaking things on purpose — blocking sensors, unplugging actuators — to see how the robot handles surprises."
+      ]
+    },
+    "safety_beat": "In s1, before any robot work begins, Rae hands the kid a hi-vis vest and shows them the blue floor squares where people stand, off the yellow robot paths — competence shown lightly, no warning tone; echoed in s4a when the kid's feet go inside the painted circle on Zip's cargo plate and Rae keeps a hand on the stop button.",
+    "motif": "The loop drawn as a circle of three arrows — sense, think, act — that gets one arrow checked off at a time until the broken one glows.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.robots.age5to6.d1.authored.5c964a",
+        "title": "The Great Sock Fling",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already makes the engineering genuinely legible — the sense/think/act loop is eliminated step by step with real tests a child can picture — and the smudge reveal lands as both a satisfying answer and a warm one, with Rae's fondness for Zip and the child quietly present throughout."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and curious, then a small giggle at the proud wrong robot",
+        "s2a": "leaning in like a detective, then a held breath when the fix fails",
+        "s2b": "delighted hands-on experimenting, a giggle at the frozen robot",
+        "s3": "quiet suspense tightening, then the soft 'oh' of the smudge reveal",
+        "s4a": "thrilled and fizzy, feeling the loop hum underfoot, then proud",
+        "s4b": "hushed and reverent at the shelf of old eyes, then a warm glow"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "05_robots_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

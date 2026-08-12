@@ -1,0 +1,330 @@
+{
+  "id": "story.gravity.age11to12.d1.pregen.78068a",
+  "title": "The Moon That Kept Missing",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.gravity",
+    "sel_theme": null,
+    "value_lesson": "Getting something wrong three times in front of people, and finding each wrong version taught you one real piece of the answer",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "A boy tries to build a model Moon orbit for the science fair, fails three different ways, and earns the fix by discovering that an orbit is just falling while moving fast enough sideways to always miss.",
+  "slots": {
+    "moon_marble": {
+      "role": "the marble chosen to play the Moon — picked by the child at c1 and carried through every attempt and both endings",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "the green cat's-eye marble"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Tom volleys the ball into the dusk. Up it goes, hanging for one held breath against the purple sky — and down it comes. Down. Every single time.\n\n\"Again,\" says Grandpa Ivo from the deck chair.\n\nTom kicks. Up. Down. He catches it on his instep and points with his chin. \"Then how come that doesn't?\"\n\nThe Moon is rising over the rooftops, fat and yellow, just sitting there. Not falling. Not even wobbling.\n\n\"Ah,\" says Grandpa. \"You've noticed the Moon's little trick.\"\n\nHe disappears into the shed and comes back wheeling something that should have been thrown out years ago. The Moon-O-Matic: brass, dents, clock parts sticking out at odd angles, one small puff of steam where steam should not be. It hiccups. It clanks. Out of a slot at the front pops an index card.\n\nGrandpa reads it aloud. \"THE MOON IS FALLING RIGHT NOW. IT JUST KEEPS MISSING.\" He taps the card. \"Useless machine. Except for this.\"\n\nOne dial on the whole contraption still works. It is labeled SIDEWAYS, and when Grandpa turns it, the needle swings up and points at the Moon.\n\n\"Sideways,\" Tom says slowly. \"The Moon is falling... sideways?\"\n\n\"Falling and missing,\" says Grandpa. \"Forever. That's the whole trick, and nobody believes a machine that also says the Moon is not made of cheese, probably.\"\n\nTom looks at his football. Down every time. He looks at the Moon. Never down, not once in four billion years.\n\n\"I'm going to build it,\" he says. \"A real working model. The falling that never lands. For the science fair on Friday.\"\n\nGrandpa's eyebrows go up. Then he reaches into his coat and pulls out an old tin that rattles.\n\n\"Then you'll need a Moon,\" he says, and opens the lid.\n\nMarbles. Dozens of them, glinting in the last of the light.\n\n\"Pick a good one,\" says Grandpa. \"It's got a lot of missing to do.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Tom's finger hovers over the tin. \"The green one. The cat's-eye. It looks like it's already watching something.\"\n\n\"A Moon with eyes,\" says Grandpa approvingly. \"Excellent.\"\n\nIn the garden, Tom sets the football on the grass. Earth. He places the green marble a hand's width away and flicks it gently past. Then he bends down with a drinking straw and puffs it sideways as it rolls.\n\nThe marble curves. It actually curves — a lovely bend around the football, and Tom's heart leaps.\n\n\"It's working! It's—\"\n\nHis puff runs out. The marble straightens and plinks dead into the football. Plink.\n\nThe Moon-O-Matic hiccups. A card drops out. Grandpa reads it by torchlight. \"SIDEWAYS SPEED MUST NOT RUN OUT.\" He hands it over. \"First useful thing it's said all year.\"\n\nTom tries again. Puff. Curve. Plink. Again. Puff, curve, plink. His cheeks ache. The marble doesn't care about his cheeks.\n\n\"It curves while I'm blowing,\" he says, flopping onto the grass. \"The second I stop, it stops being a Moon and goes back to being a marble.\"\n\n\"So sideways is right,\" says Grandpa, \"but breath runs out.\"\n\nTom pulls out his notebook and writes: sideways matters — but you can't puff forever. Something else has to keep it going.\n\nHe holds the green cat's-eye up to the real Moon. \"You don't have a straw up there. What have you got?\"\n\nThe Moon says nothing. The machine hiccups. Somewhere in its brass belly, a dial twitches toward SIDEWAYS and stays there.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Tom digs past the green ones and pulls out the midnight-blue marble, flecked with silver. \"This one. It's got stars in it already.\"\n\n\"A Moon with its own weather,\" says Grandpa approvingly.\n\nIn the garden, Tom sets the football on the grass. Earth. Then he ties a length of string to the blue marble — Grandpa holds one end — and swings it around the football in a wide, smooth circle.\n\nIt orbits. Perfectly. Round and round, silver flecks flashing in the dusk.\n\nGrandpa slow-claps. \"Ladies and gentlemen, the Moon.\"\n\nTom grins so hard his face hurts. \"Done. Science fair, here I—\"\n\nClank. The Moon-O-Matic shudders, and a card shoots out onto the grass. Grandpa picks it up and reads: \"WHERE IS THE STRING IN SPACE?\"\n\nTom's grin slides off. He looks at the string in his hand. He looks up at the real Moon, hanging over the rooftops with no string, no hand, nothing holding it at all.\n\n\"It's a cheat,\" he says quietly. \"The string's doing everything. The marble's not falling and missing — it's just... tied on.\"\n\n\"A pull isn't a bend,\" says Grandpa, winding the string back in. \"Real gravity has no string. The Moon is falling toward Earth every second — and something about its sideways speed means it never arrives.\"\n\nTom writes in his notebook: orbit works, but it's a cheat. Gravity isn't a rope. So what bends the path?\n\nHe pockets the blue marble. \"You're still my Moon,\" he tells it. \"We just haven't earned you yet.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Friday night. The school hall smells of crisps and poster paint, and Ms. Okafor waves Tom over to the wobbliest stall in the room.\n\n\"Tom! Just the person.\" Her stall is a trampoline with a bowling ball sunk in the middle, and coins spiral slowly down the dip and vanish with a clink. \"Show me what you've got.\"\n\nTom sets up attempt three: clingfilm stretched tight over a mixing bowl. He rolls {moon_marble}. It skids straight off the edge and under a chair.\n\n\"Too shallow,\" says Ms. Okafor. She presses the bowling ball deeper, and the whole trampoline sighs. \"The Sun makes a deep hollow. Earth makes a smaller one. You make a dent so tiny you'd need a microscope. Mass bends the space it sits in. The more mass, the deeper the bend.\"\n\n\"So I need a deeper dip,\" Tom says.\n\n\"A deeper dip, and—\" \n\nShe never finishes. Little Pip from Year Two reaches across the stall for a juice carton, misses, and pokes the trampoline with one finger.\n\nTwo marbles are already rolling. The slow one spirals glumly down, down, and clunks into the bowling ball. But the fast one — the fast one whips around the wall of the dip, round and round, like a skateboarder in an empty pool, and it does not fall in. It just keeps missing.\n\nThe hall noise fades right out of Tom's ears.\n\n\"Did you see?\" he whispers. \"Nobody pushed it. Nobody pulled it. The dip did everything. It just needed to be going fast enough — sideways.\"\n\nMs. Okafor is grinning. \"There it is. That's the whole secret. The Moon isn't held up by anything. It's falling around the Earth, forever, because it has just the right sideways speed for the curve it's falling through.\"\n\nTom pulls the Moon-O-Matic's last index card from his pocket, the one he has been carrying all week. He looks at {moon_marble} in his palm. Sideways speed. No string. A deep, smooth curve. Three pieces, and one chance left.\n\n\"Ms. Okafor,\" he says. \"Can I borrow the trampoline?\"\n\nFrom somewhere under the stall, the Moon-O-Matic dings — once — like a tiny brass bell.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Tom doesn't say a word. He just takes the clingfilm off the mixing bowl, balls it up, and drops it in the bin. Ms. Okafor watches. The whole stall watches.\n\n\"Right,\" Tom says. \"Properly this time.\"\n\nHe stretches a real sheet over the washing-up basin from the caretaker's cupboard, pulls it drum-tight, and sinks the football in the middle. The dip goes deep and smooth, walls curved like the inside of a teacup. He weighs {moon_marble} in his hand.\n\nLittle Pip has stopped drinking his juice. \"Is it going to work?\"\n\n\"It has to,\" Tom says. \"Three times round. Falling and missing. That's an orbit.\"\n\nHe places the marble at the rim. He thinks about his right boot, laces through the ball, the way Grandpa taught him. Sideways. Not at the middle. Never at the middle.\n\nHe flicks.\n\nThe marble flies along the wall, fast, low, hugging the curve. Once around. Twice around. The hall has gone very quiet. Three times around — always falling, always missing — before it slows, spirals down, and rests against the football.\n\nThe stall erupts. Pip shouts, \"It missed! It missed!\" Ms. Okafor hangs a gold star on the stall front, and under the table the Moon-O-Matic clanks and spits out one last card.\n\nGrandpa reads it. \"TOLD YOU SO. PROBABLY.\"\n\nWalking home under the real Moon, fat and yellow over the rooftops, Tom keeps the marble warm in his fist. \"You're falling right now,\" he tells it. \"You just keep missing.\"\n\nThe Moon says nothing. It is busy.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Pack it up,\" Tom says. \"My Moon should fly where the real one is.\"\n\nSo they load Grandpa's car with the trampoline sheet, the football, the binoculars, and a blanket that smells of the shed, and drive up through the dark lanes to the hilltop meadow. The grass is cold. The first stars are out. And there, climbing over the town lights below, is the Moon — the actual Moon, the one that has been missing the Earth for four billion years.\n\nGrandpa spreads the sheet between four fence posts. Tom sinks the football in the middle. The dip isn't perfect — the ground is lumpy and one corner keeps slipping — but it's deep, and it's smooth enough.\n\n\"Ready?\" says Grandpa, binoculars ready.\n\nTom sets {moon_marble} at the rim. He thinks of laces through the ball, of sideways, of the fast marble in the hall that just kept missing. He flicks.\n\nThe marble whips around the wall of the dip. Once. Twice. Three whole times, circling the football Earth while the real Moon climbs higher, and Tom's chest does something funny, because they are both up here now, his marble and that Moon, doing the very same thing.\n\nGrandpa lowers the binoculars. \"The apple and the Moon,\" he says quietly. \"Same thing. Both falling along the bend. Only the apple has no sideways speed, so it meets the ground. And this blanket is the only reason we're not sliding along the curve ourselves.\"\n\n\"The ground catches us,\" Tom says.\n\n\"The ground catches us,\" Grandpa agrees. \"The Moon is still falling. It just keeps missing.\"\n\nTom watches his marble settle against the football. He picks it up, warm from his pocket, and holds it so the real Moon shines on it.\n\nOn the ride home he falls asleep with it in his fist, and dreams in circles.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Pick your Moon, lad,\" says Grandpa, rattling the marble tin. \"Green cat's-eye, or the blue one with the silver flecks?\"",
+      "options": [
+        {
+          "say_word": "Green",
+          "label": "the green cat's-eye marble",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "moon_marble": "the green cat's-eye marble"
+          }
+        },
+        {
+          "say_word": "Blue",
+          "label": "the midnight-blue marble with silver flecks",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "moon_marble": "the midnight-blue marble"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"You've got the sideways flick and the deep bend,\" says Ms. Okafor, arms folded. \"So — rebuild it here, tonight, in front of everyone? Or pack it up and fly your Moon under the real one?\"",
+      "options": [
+        {
+          "say_word": "Rebuild",
+          "label": "rebuild the model right now at the fair",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Hilltop",
+          "label": "take the model up the hill under the real Moon",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.gravity",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "Gravity as curved space is full of testable puzzles — why the Moon doesn't fall down, why heavy and light things drop together — so a child trying, failing, and re-trying to explain or model orbits gives the concept real work to do.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Pull That Carried Us)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "Grandpa's ancient brass 'Moon-O-Matic' machine, a wheezing contraption of clock parts from his observatory days that hiccups, clanks, and spits out index cards with useless fortunes like 'THE MOON IS NOT MADE OF CHEESE, PROBABLY' — but its one working dial is labeled SIDEWAYS.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Getting something wrong three times in front of people, and finding each wrong version taught you one real piece of the answer",
+      "why": "The problem_and_fix pattern already delivers three failures with a clue in each; the material explicitly offers this value angle, so it rides along naturally without preaching."
+    },
+    "cast": [
+      {
+        "role": "Tom, an eleven-year-old who loves football and can't stop asking why the Moon gets to stay up",
+        "reused": false,
+        "why": "The named hero; his footballer's instinct that every ball arcs back down gives him both the question and, eventually, the sideways flick that solves it."
+      },
+      {
+        "role": "Grandpa, who once worked night shifts at an observatory",
+        "reused": false,
+        "why": "Carries the crazy_inventor dominant tone through his ramshackle Moon-O-Matic machine, answers questions with questions, and lends the garden, the binoculars, and the trampoline."
+      },
+      {
+        "role": "Ms. Okafor, the science teacher",
+        "reused": false,
+        "why": "Runs the gravity-well stall, refuses to hand over the answer, and asks the devastating question 'Where's the string in space?' that kills the second failed attempt."
+      },
+      {
+        "role": "Pip, the younger sibling",
+        "reused": false,
+        "why": "His clumsy poke at the model accidentally shows how a slow marble spirals in while a fast one keeps circling — the clue that cracks the problem."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Newton's apple and the falling Moon — the same pull, moving fast enough sideways to always miss",
+        "Einstein's curved space: a heavy ball pressed into a trampoline, everything rolling along the bend",
+        "The Moon falls toward Earth constantly but moves sideways about a kilometre every second",
+        "More mass bends space more — bowling ball, orange, marble on a rubber sheet",
+        "Setting: back garden with washing line, trampoline, and Moon rising over rooftops",
+        "Setting: school hall science fair night with a lopsided trampoline-and-weights demonstration",
+        "Failed attempt one: blowing the marble sideways with a straw — sideways speed matters but a puff dies out",
+        "Failed attempt two: swinging the marble on string — it orbits, but 'Where's the string in space?'",
+        "Failed attempt three: clingfilm over a bowl — too shallow, everything slides off",
+        "Turning point: Pip's clumsy poke shows a slow marble spirals in while a fast one keeps going round",
+        "Fix earned: a real stretchy sheet, one firm sideways flick, the Moon circles three whole times",
+        "Value: three wrong versions each teaching one real piece of the answer"
+      ],
+      "gathered_but_unused": [
+        "Newton saw an apple fall and realized the Moon is falling too — the same pull, just moving fast enough sideways to always miss the Earth.",
+        "Einstein said gravity is not a rope or a magnet; it is space itself bending around mass, and everything rolls along the bend.",
+        "The Moon falls toward Earth all the time, but it also moves sideways at about a kilometre every second, so it keeps circling around instead of crashing in.",
+        "Astronauts float in orbit not because there is no gravity up there, but because they and their ship are falling together around the Earth.",
+        "The more mass something has, the more it bends the space around it, so Earth bends space far more than you do, and the Sun bends it far more than Earth.",
+        "If you could throw a ball hard enough, it would curve all the way around the Earth and come back to the back of your head — that is what an orbit is.",
+        "You cannot feel space bending; you only feel the effects, like your feet pressing the floor because Earth stops you following the curve all the way down.",
+        "GPS satellites have to correct their clocks because time runs slightly differently where gravity is weaker — Einstein's curved space is built into your phone."
+      ]
+    },
+    "safety_beat": "In s4b, Grandpa picks the flat, dry pitch of meadow for the blanket and trampoline sheet, well back from the hill's edge, and carries the torch — shown as easy habit, no warning, no tension.",
+    "motif": "A marble circling a dip in stretched fabric — falling that never lands.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.gravity.age7to8.d1.pregen.3cea6b",
+        "title": "The Pull That Carried Us",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a child's want is stated plainly and pursued through real, legible trial-and-error, the science lands through doing rather than telling, the sound-words (plink, clank, hiccups, dings) land as their own small sentences, and the warm, funny Grandpa companionship plus the luminous closing image give it both engine and glow."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then leaning in as the want is declared",
+        "s2a": "hopeful puffing, then a comic deflating plink",
+        "s2b": "a grin, then the grin sliding off into honest puzzlement",
+        "s3": "a held breath as the fast marble just keeps missing",
+        "s4a": "tension, eruption, satisfied and giggly",
+        "s4b": "quiet and glowing, sleepy, dreaming in circles"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.6); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 38% of sentences carry speech or action; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 38% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 38% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "04_gravity_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

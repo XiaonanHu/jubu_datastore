@@ -1,0 +1,321 @@
+{
+  "id": "story.volcanoes.age11to12.d1.pregen.6295bb",
+  "title": "The Mountain That Hiccupped",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.volcanoes",
+    "sel_theme": null,
+    "value_lesson": "Patient attention — real answers come from checking every signal twice and stacking small clues instead of guessing",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A kid detective and a volcanologist follow three silly-sounding clues — hiccups, puffs, and burps — to solve how scientists forecast an eruption before it happens.",
+  "slots": {
+    "volcano_name": {
+      "role": "The name of the volcano being watched",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Mount Puffle"
+    },
+    "notebook_name": {
+      "role": "What Pip calls the clue notebook",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Mountain Diary"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It is ten o'clock at night, and the volcano looks completely, totally, boringly normal. Pip knows this because Pip is looking right at it, through the big round window at the top of the observatory, and it is just sitting there being a mountain. Same dark shape. Same little curl of steam. Same everything. So why, WHY, did Dr. Voss just walk over to the big alert poster on the wall and move the pin from green to yellow?\n\n\"Excuse me,\" says Pip. \"The mountain looks exactly the same as yesterday.\"\n\n\"Does it?\" says Dr. Voss, and she taps the poster twice, like that's an answer.\n\nMeanwhile, Bramble the goat is climbing the coat rack. He has already conquered the bookshelf this morning, and after lunch he summited the filing cabinet, and now he is standing on the very top of the coat rack wearing his tiny yellow hard hat, looking extremely proud of himself, as well he should. Everyone at the observatory treats Bramble like a fellow mountaineer, because honestly, he has summited more things in this building than most actual mountaineers.\n\nPip pulls out {notebook_name} and opens it to the very first page, which is completely blank, which is a tragedy. Something made Dr. Voss change that poster. Something is going on under that mountain. And Pip is going to figure out what it is and write it down, clue by clue, starting tonight.\n\n\"Okay,\" Pip says. \"How do you know? How can you possibly tell something's different when it looks exactly the same?\"\n\nDr. Voss grins. She points across the room at a machine that looks like a metal barrel with a needle on top, and the needle is scratching back and forth across a long strip of paper, wiggle, wiggle, wiggle.\n\n\"That's a seismometer,\" she says. \"It listens to the mountain's hiccups. And Bramble's stomach. They sound surprisingly similar.\"\n\nBramble bleats, offended.\n\n\"The mountain has been hiccupping all week,\" Dr. Voss says. \"Little tiny earthquakes, too small for us to feel. But the seismometer feels every single one. And that's not the only sign we've got.\"\n\nShe turns to Pip. \"So. Where do you want to start? We could go look at the tilt meters on the side of the mountain, where the ground is swelling up like a great big bubble. Or we could check the gas sensors in the crater, which have been sniffing something new in the steam. Which one?\"\n\nBramble hops down off the coat rack and trots over, ready for adventure. He does not care which one. He is ready for both.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The drum,\" says Pip. \"I want to hear the hiccups.\"\n\n\"Then follow me,\" says Dr. Voss, and she leads Pip down into the basement, where the seismometer lives, because it needs somewhere quiet to listen. Bramble comes too, clip-clopping down the stairs behind them. His hard hat keeps slipping over his eyes.\n\nThe drum is tall as Pip and covered in paper, and the needle is dancing across it like it has had far too much sugar. Zig, zag, zig, zag. Hundreds of tiny wiggles, one after another, all day long.\n\n\"Every one of those zigs is a little earthquake,\" says Dr. Voss. \"Too small for us to feel. But the mountain feels them. That's rock cracking, deep down, as magma squeezes its way up toward the surface.\"\n\n\"Hiccups,\" says Pip, writing it down in {notebook_name}. \"The mountain has hiccups.\"\n\n\"Hundreds a day,\" says Dr. Voss. \"And lately they've been climbing. Getting shallower. The magma is on the move.\"\n\nThen the needle goes WILD. It scrawls a huge spike right across the paper, so big it nearly jumps off the drum.\n\n\"Whoa!\" says Pip. \"Was that a big one?\"\n\nDr. Voss leans in and squints at the spike. Then she snorts. \"Nope. That's a truck.\"\n\n\"A truck?\"\n\n\"Delivery lorry on the road outside. The seismometer hears everything, so we check every signal twice.\"\n\nBramble bleats, which probably means he knew that already.\n\nPip grins and writes it down, clue number one: the hiccups are real, and they are climbing toward the surface. The mountain is stirring. But Pip is watching it now, and Pip is not going to miss a single wiggle.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The slope,\" says Pip. \"I want to see the ground move.\"\n\n\"Then we hike,\" says Dr. Voss, and she grabs her rucksack. Bramble practically leaps off the floor. He loves a hike. He is already at the door, hard hat on, ready to lead the expedition.\n\nUp the mountain they go, Bramble marching in front like a tiny furry general. Every time they pass a bump, he stops and plants his hoof on top of it, claiming it for the team. By the time they reach the GPS station, Bramble has summited seven bumps, two rocks, and one very surprised sheep.\n\nThe GPS station is a tripod with a metal box on top, blinking quietly at the sky.\n\n\"This little gadget talks to satellites,\" says Dr. Voss. \"It measures exactly where the ground is. And look.\" She shows Pip the screen. \"Four centimeters. The ground here has risen four centimeters in just one month.\"\n\n\"Four centimeters?\" says Pip. \"That's... not very much.\"\n\n\"Not to you and me,\" says Dr. Voss. \"But to a mountain? That's enormous. It means the whole side of the volcano is puffing up, like bread dough rising in a tin. Something underneath is pushing it up from below.\"\n\nPip stares at the ground. It looks completely still. Completely normal. But the numbers say it moved. The satellites saw it from space.\n\n\"So the mountain is swelling,\" Pip says slowly, writing it down in {notebook_name}. \"Like it's taking a great big breath.\"\n\n\"Exactly,\" says Dr. Voss. \"And we want to know what's making it breathe.\"\n\nBramble bleats and plants his hoof on the tripod. Claimed. Pip laughs and writes clue number one: the mountain is swelling, and something deep down is doing the pushing.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the ranger station, Dr. Voss spreads the big paper map across the table and weighs down the corners with a mug, a flashlight, and Bramble's food bowl, because Bramble is already standing on the map. \"What did you find?\" she asks, and Pip tells her, and she pins it right onto the mountain where it belongs. Then she adds two more pins herself. \"Gas readings doubled overnight,\" she says. \"And the hot spring by the trail has gone milky, steaming harder than anyone remembers.\" Pip stares at the map. The pins are not scattered. They are stacking, like the mountain is clearing its throat and hiccupping at the same time. \"One clue is a maybe,\" Dr. Voss says. \"Three clues are a pattern. And the pattern says something is rising from the magma chamber, a few kilometers down.\" \"How can you possibly know that?\" Pip asks. \"The hiccups told us,\" says Dr. Voss. \"Quake-waves bend when they pass through the magma chamber, the way a bat's squeaks bounce around a cave and tell it the shape of the dark. The waves come back bent, and bent means molten, and molten means the mountain is waking up.\" Pip writes it all down in {notebook_name}, pressing so hard the pencil nearly snaps. Bramble bleats and stamps one hoof on the map, right on the summit of {volcano_name}, like he is claiming the climb. Dr. Voss taps the pins. \"So, team. The clues agree. But agreeing on clues is not the same as knowing what to do. What do we do with a pattern?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We speak,\" says Pip. \"A pattern nobody hears is just a secret.\" Dr. Voss nods slowly, then grins. \"Then let's go say it out loud.\" Bramble hops off the map and trots to the door first, hard hat on, like he has been waiting for someone to say that all night.\n\nThe mayor's office smells like coffee and old paper. Dr. Voss lays the map on the desk, and Pip opens {notebook_name} and reads the clues one by one, voice wobbling at first, then steady. The mayor listens. She asks two questions. Then she picks up the phone and says, \"Raise the forecast. An eruption is likely within weeks. We start the plan tomorrow.\"\n\nAnd the plan is surprisingly not scary. It is radios checked, bags packed, posters updated. It is a drill the whole town already knows, like a fire drill, only with better snacks. Pip stands on a chair at the community hall and shows everyone the pins. \"One clue is a maybe,\" Pip says. \"Three clues are a pattern. The mountain has been talking for weeks. We just listened.\"\n\nWeeks later, on a bright cold morning, {volcano_name} huffs out a great grey plume of ash, slow and grumbly, like an old dog getting up. And here is the thing: nobody runs. Everybody is already on the viewing hill with thermoses and binoculars, watching the mountain do the thing it said it would do.\n\nThat night Pip writes the last page of {notebook_name}: \"We knew because we listened.\" Then Dr. Voss hangs a little brass medal around Bramble's neck, for services to mountaineering. Bramble tries to eat it. Obviously.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Not yet,\" says Pip. \"Soon, but not yet. If we speak too early, people stop listening. I want to watch until the clues say now.\" Dr. Voss looks at Pip for a long moment, then nods. \"Then we watch,\" she says. \"All of us. Round the clock.\" Bramble stamps one hoof on the summit of {volcano_name}, which everyone understands to mean he volunteers for the night shift.\n\nSo the observatory becomes a ship, and the mountain is the weather. Pip reads the seismometer drum at midnight, the needle scratching its little hiccups across the paper, wiggle, wiggle, wiggle. At dawn, Dr. Voss sniffs the gas sensors and writes the numbers down. Bramble stands sentinel on the porch roof in his hard hat, staring at the mountain like it owes him money. Days pass. The hiccups stay small. The swelling stays slow. \"Still not yet,\" Pip whispers every night, and it is a strange, patient kind of brave.\n\nThen, on the ninth night, everything changes at once. The drum goes wild, hiccups tumbling over each other. The gas readings jump. The ground swells like the mountain is taking one enormous breath. Pip's pencil flies across the page. \"Now,\" Pip breathes. \"NOW.\"\n\nThe forecast goes out with time to spare, and the town does its calm, well-practiced dance: radios, bags, posters, the viewing hill. When {volcano_name} finally huffs its great grey plume into the morning sky, the whole town is already watching, safe and ready, and it is the most magnificent hiccup anyone has ever seen.\n\nPip closes {notebook_name} on its last page: \"The mountain talked for weeks. We just had to keep listening.\" Bramble gets a medal. He tries to eat that too.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The mountain is telling us something, Pip. Where should a detective listen first — down at the drum that hears every hiccup, or up on the slope where the ground itself is stretching?\"",
+      "options": [
+        {
+          "say_word": "The drum",
+          "label": "Visit the seismometer station and read the wiggly lines",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The slope",
+          "label": "Hike up to the GPS station and measure the swelling ground",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Three clues, one pattern. So, detective — do we take this to the mayor and speak the forecast out loud today, or do we keep every eye on the mountain until the signs say 'now'?\"",
+      "options": [
+        {
+          "say_word": "Speak up",
+          "label": "Help deliver the forecast to the mayor so the town prepares now",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Keep watching",
+          "label": "Join the round-the-clock watch until the clues spike together",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.volcanoes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Forecasting an eruption is naturally a detective story—swelling ground and tiny quakes are clues that scientists read to solve the puzzle of what the volcano will do next.",
+      "backup": "dilemma",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.339,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2712,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1356,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.25,
+          "family_nudge": 1.0,
+          "final_weight": 0.1186,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Island That Grew from Fire)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0678,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0407,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Bramble, the observatory's goat, who carries the big_adventure tone: he 'summits' every instrument hill, wears a tiny hard hat, and is treated by the whole team as a fellow expedition mountaineer",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patient attention — real answers come from checking every signal twice and stacking small clues instead of guessing",
+      "why": "The material offers it naturally: the false-lead truck quake and the 'no single clue was proof' answer are already about patient checking, so the lesson rides the plot instead of being stated"
+    },
+    "cast": [
+      {
+        "role": "Pip, a kid whose grandmother remembers the last eruption and who keeps a clue notebook",
+        "reused": false,
+        "why": "The named hero and question-asker; the notebook gives the mystery pattern its clue-collecting engine and something small to carry home"
+      },
+      {
+        "role": "Dr. Ada Voss, the volcanologist who runs the observatory",
+        "reused": false,
+        "why": "Reads the seismometer lines aloud, explains the magma chamber, and asks the choice questions in a scientist's voice"
+      },
+      {
+        "role": "Bramble, the observatory goat in a tiny hard hat",
+        "reused": false,
+        "why": "Carries the silly dominant tone and the big_adventure accent in one element, keeping the science beats light"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "seismometer drum filling with hundreds of tiny upward-marching quakes",
+        "GPS station showing the ground risen four centimeters in a month",
+        "gas readings doubling and the milky steaming hot spring",
+        "false lead: one big quake that was only a passing truck",
+        "stacked clues spelling the forecast that lets the town get ready",
+        "the volcano observatory at night with wiggly lines like heartbeats",
+        "the ranger-station map with colored pins for every quake",
+        "satellites spotting the swelling from space like rising bread dough"
+      ],
+      "gathered_but_unused": [
+        "Before some volcanoes erupt, the ground on their slopes slowly swells upward as molten rock pushes into the mountain from below, and scientists measure this swelling with tiltmeters and GPS stations accurate to a few millimeters.",
+        "As magma squeezes upward through rock, it cracks the rock around it, causing swarms of tiny earthquakes — too small to feel, but a seismometer buried in the ground hears every one.",
+        "A magma chamber is a pool or network of molten rock stored underground, sometimes only a few kilometers beneath a volcano's peak, and scientists map its size and shape by tracking how earthquake waves bend as they pass through it.",
+        "Volcanoes can release extra carbon dioxide and sulfur gases before an eruption, so scientists climb the slopes with sniffing instruments and even measure the gases from airplanes flying overhead.",
+        "When magma rises, it can heat groundwater, so hot springs on a volcano's flanks may suddenly get warmer or change color — one more clue the mountain is stirring.",
+        "By combining clues — swelling ground, swarms of quakes, and rising gases — scientists can issue a forecast, an official warning that an eruption is likely within days or weeks, giving towns time to prepare and evacuate safely.",
+        "Satellites orbiting Earth can spot a volcano's ground swelling from space by comparing radar images taken weeks apart, watching whole mountainsides rise without anyone standing on them.",
+        "In 1991, scientists at Mount Pinatubo in the Philippines read the warning signs — thousands of quakes, swelling, gas — and forecast the eruption in time for tens of thousands of people to move to safety before one of the century's biggest blasts."
+      ]
+    },
+    "safety_beat": "On the s2b mountainside path, Dr. Voss casually shows Pip where the scientists stand: on the marked trail behind the GPS tripod, upwind of any steam, hard hats on — competence shown once, lightly, with Bramble already posing on the correct spot as comic reinforcement",
+    "motif": "The mountain breathing — slow swells like deep breaths, gas like clearing its throat, quakes like hiccups",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.volcanoes.age5to6.d1.authored.15f810",
+        "title": "The Mountain That Sings",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      },
+      {
+        "story_id": "story.volcanoes.age9to10.d1.pregen.1bb4cb",
+        "title": "The Island That Grew from Fire",
+        "pattern": "journey",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a strong engine of child agency (Pip's want is stated plainly and pursued immediately, with a real choice at each branch), and its sound design — the wiggle-wiggle-wiggle, the hiccups, Bramble's comic beats — lands exactly as a read-aloud should."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "bristling curiosity and a giggle",
+        "s2a": "delighted eavesdropping, then a snort-laugh at the truck",
+        "s2b": "boots-on wonder, puffing up like the mountain",
+        "s3": "leaning in as the pins stack",
+        "s4a": "puffed-up pride, then satisfied and safe",
+        "s4b": "a long held breath, then a glorious release"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "04_volcanoes_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

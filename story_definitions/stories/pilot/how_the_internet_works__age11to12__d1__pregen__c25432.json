@@ -1,0 +1,328 @@
+{
+  "id": "story.how_the_internet_works.age11to12.d1.pregen.c25432",
+  "title": "The Tenth Hop",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.how_the_internet_works",
+    "sel_theme": null,
+    "value_lesson": "A failed attempt is not wasted: each wrong guess crosses one suspect off the list and narrows the search.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "When the class project page refuses to load, two kids follow the request down the chain of invisible answerers until they find the one link that's asleep.",
+  "slots": {
+    "project_page": {
+      "role": "The class project webpage that won't load",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the class tide-pool project page"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember being twelve, in the school library at 3:47 p.m., the week our class project page was due. The library smelled of old paper and rain on coats, and on Mrs. Okafor's desk sat the ancient globe lamp, a warm glass Earth glowing like a nightlight the size of a pumpkin.\n\n\"Watch this,\" Dev said, and pressed refresh.\n\nThe little circle spun. And spun. And spun some more, the way a ceiling fan spins after you switch it off, not doing anything at all.\n\n\"Maybe it's shy,\" I said.\n\nThen something strange happened. Every screen in the library froze at the same moment. The catalog computer. The checkout screen. The big monitor by the encyclopedias. A dozen spinning circles, all at once, like the whole room had taken a breath and forgotten to let it out.\n\nEveryone looked up. A first-grader by the fish tank said, very seriously, \"The internet fell down,\" and nobody laughed, because honestly, we were all thinking it.\n\n\"It's not down,\" Mrs. Okafor said, tapping her own frozen screen. \"It's just not answering. Your request went out there somewhere. The question is where it got stuck.\"\n\nOut there somewhere. I looked at the glowing globe on her desk, all those little countries painted in faded gold, and it hit me: when you press enter, your question doesn't just float off like dandelion fluff. It travels. Real places. Real machines. Somewhere between this library and wherever {project_page} lives, a dozen computers we'd never see were supposed to answer in a blink — and one of them wasn't.\n\n\"Where does a request even go?\" I asked out loud.\n\nDev grinned the grin that meant trouble, the good kind. \"Let's trace it. Hop by hop.\"\n\nMrs. Okafor pulled a big sheet of paper from her desk drawer and spread it out right under the globe lamp, smooth as a map. \"Explorers,\" she said, \"start at the beginning.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Restart it,\" said Dev. \"That's rule one. When in doubt, turn it off and on again. Everybody knows that.\"\n\n\"Everybody knows it because it works,\" I said, and we went looking for Baz.\n\nBaz the technician kept his kingdom in a closet behind the photocopier, a room full of blinking lights and zip-tied cables. He listened to our whole theory, then said the best thing a grown-up can say: \"Show me.\"\n\nHe opened a grey box on the wall. Inside sat the library's router, no bigger than a sandwich, covered in little lights. \"This is where your request leaves the building,\" Baz said. \"Hop one. Sometimes it just needs a nap.\"\n\nHe unplugged it. The lights blinked out, one by one, like windows going dark at bedtime. We counted to ten under our breath. He plugged it back in.\n\nThe lights came up. Red. Red. Yellow.\n\nGreen.\n\n\"Yes!\" we both shouted, because we could not help it. Baz laughed and we sprinted back to the globe lamp, where our map waited. Dev pressed refresh with the ceremony of a knight drawing a sword.\n\nThe circle spun.\n\nAnd spun.\n\n\"But the light was green,\" I said. \"Green means go.\"\n\n\"Green means the router's fine,\" Dev said slowly. Then he looked up. \"Wait. The catalog computers.\"\n\nThe catalog computers were humming along, happy as ever. Kids were typing in book titles. The school's network was fine. It had never been the problem at all.\n\n\"So hop one answered,\" Dev said, and he drew a little check mark on our map, right beside the library. \"The request leaves here just fine. The broken link is farther down the road.\"\n\nFarther down the road turned out to be a real road. Baz had followed us out, carrying a short piece of cable cut open so you could see inside it. No copper wires. A thread of glass, thinner than a hair.\n\n\"Fiber,\" he said. He clicked a laser pointer and shone it in one end. A red dot appeared at the other, bright as a ladybug. \"That's how your request travels. Light. Cables of glass running under the streets, under the sea, all the way to wherever that page lives. Your question goes out as a blink of light, and the answer blinks back.\"\n\nI looked at the globe lamp, at all that painted ocean between the countries. Light, swimming along the sea floor, carrying our question.\n\n\"So somewhere out there,\" I said, \"a blink of light is getting lost.\"\n\n\"Hop two,\" said Dev, and uncapped the pen.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Test it gently,\" Dev said. \"Before we blame anything, let's see what still works.\"\n\nHe opened a new tab and typed in a different site. Not {project_page}. Just some ordinary page, the kind nobody ever thinks about twice.\n\nIt popped up. Instantly. Blink and you'd miss it.\n\n\"Ha!\" I said. Then, quieter: \"Oh. That doesn't actually fix anything.\"\n\n\"No,\" Dev said, grinning the good-trouble grin. \"But it tells us everything. Watch.\"\n\nHe typed a third site. Up it came. A fourth. Instant. Every page on Earth seemed to be answering except ours.\n\n\"So the school's network works,\" I said slowly. \"The Wi-Fi works. The request leaves the building happy as anything.\"\n\n\"The network is innocent,\" Dev announced, and he drew a big check mark on our map, right beside the library. \"Cross it off. Our broken link belongs to somebody far away.\"\n\nSomebody far away. I looked at the globe lamp, glowing warm over our map, all those faded gold countries. Mrs. Okafor was at her desk beneath it, stamping returns, and she had been listening the whole time. Librarians always are.\n\n\"You know what a server is?\" she said. \"It's this desk.\"\n\nWe looked at her desk. It was a desk.\n\n\"All day long, everyone asks me things at once,\" she said. \"Where are the dragon books. Can I have more time. Somebody spilled something in the biographies. And I answer, one at a time, as fast as I can. A server is a computer whose whole job is answering. Requests come in from everywhere, and it sends pages back, like me handing books across this desk.\"\n\n\"And if your desk is closed?\" Dev asked.\n\n\"Then nobody gets their book,\" she said. \"The request arrives at a dark desk, and it waits, and waits.\"\n\nShe tapped the little circle still spinning on our screen.\n\n\"Your question is out there right now,\" she said, \"knocking on the door of some server you'll never see, in some building you'll never visit. And that server, for some reason, isn't answering.\"\n\nI pictured it. Our question, folded like a paper airplane, sailing across the room of the world, and landing on a desk with the lights off.\n\n\"So how do we find out where it landed?\" I asked.\n\nDev pulled the map closer. \"Hop by hop,\" he said.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We spread everything on the table under the globe lamp, and the warm glass Earth glowed over our map like it was keeping watch for us. \"Okay,\" Dev said, pulling the laptop close. \"Time to follow it for real. There's a tool called a traceroute. It shows every stop a request makes, like a train timetable.\"\n\n\"A train timetable for our question,\" I said.\n\n\"Exactly. Watch.\" Dev typed, and lines began to appear, one by one. \"Hop one, the library. Hop two, the school district. Hop three, some company in the city.\" Each hop was a different network, owned by a different company, handing our request along like a bucket brigade. Four. Five. Six. Seven. Eight. Nine.\n\nThen the list just stopped.\n\n\"Where's ten?\" I asked.\n\nDev leaned in. \"That's the thing. There is no ten. Our request gets through nine networks in less time than a blink, and then — nothing. Footprints ending at a locked door.\"\n\nMrs. Okafor looked over our shoulders. \"So the chain isn't broken in the middle,\" she said. \"It's broken at the very end.\"\n\n\"But wait,\" I said. \"The page is big. Pictures and everything. How does all of that even travel?\"\n\n\"In pieces,\" Dev said. \"Like a jigsaw puzzle. The server chops the page into little packets, one piece per envelope, and every envelope takes the trip. Right now our envelopes are landing on a desk where nobody's answering.\"\n\nI closed my eyes and pictured it: our request as a paper airplane, folded neat, sailing across a huge dark room toward a librarian who had fallen asleep at her desk. It lands. It waits. No answer-plane comes back.\n\n\"So the server itself is the problem,\" Dev said slowly. \"And we can't restart a machine we don't own.\"\n\nThe globe lamp hummed softly. Nine good hops, one silent one. Somewhere out there, past nine companies' worth of cables, a computer was sitting in the dark with our page inside it.\n\n\"Then we need another way to wake it up,\" I said. \"Or another way around.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We knock,\" I said. \"Politely.\"\n\nDev flipped the page over, and there it was, small as a postage stamp: a hosting address. An actual email. We wrote one sentence — please, our class page won't load — and pressed send, and our airplane sailed off into the dark one more time.\n\nThen we waited. The globe lamp hummed. The clock said 4:15.\n\nPing.\n\n\"It's a person,\" Dev whispered. A real person, in a city we'd never visited, who owned the very server our page lived on. The machine had crashed, they wrote — just stopped, like a clock that needs winding — and they'd restarted it, and sorry about that, and good luck with the tide pools.\n\nDev pressed refresh.\n\nThe page appeared. All of it. In a blink. The same request that had failed all afternoon — the same words, the same airplane — came home answered, because the librarian had woken up.\n\n\"Nothing changed except the answerer,\" I said.\n\n\"Watch this,\" Dev said, and opened a panel at the bottom of the browser, a waterfall of tiny lines. \"Look. That's not one request. It's dozens. One for the words. One for each photo. One just for the font.\" The lines filled in at different speeds, fast and slow, a whole fleet of answer-planes landing one after another.\n\nI wrote back: thank you. Two words, to a stranger I'd never see.\n\nWe folded the map and put it in my bag, and Mrs. Okafor switched off the lamp, and the library went dim and gold at the edges.\n\nI still think of that room of humming librarians, every single time a page loads.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Around,\" I said. \"There has to be another road.\"\n\n\"While we think,\" said Baz, \"look at this.\" He pulled up a video, and there it was: a ship in the middle of the black ocean, hauling a cable up from the deep, a glowing glass thread no thicker than a garden hose, rising past starfish and the shadow of an old wreck. A crew in yellow jackets spliced the broken threads together, patient as people mending a fishing net, so messages could cross the ocean again.\n\n\"That's the internet,\" I said. \"A thread in the cold dark, and somebody fixing it.\"\n\n\"And here's the other road,\" Dev said, typing. \"A cached copy. A library keeps a snapshot of pages it's seen before.\" Yesterday's version of our page appeared — a little faded, half the pictures missing, but there. \"See? The server exists. The route around the broken link is real. Lots of roads run between the same two places.\"\n\nWe studied yesterday's tide pools under the glowing globe, and it was enough to go home on.\n\nThe next morning, Dev's phone buzzed before first bell. The server's owner had found the crash overnight and restarted the machine. We pressed refresh together, and the page — today's page, whole and bright — answered in a blink. The same airplane. The same question. This time, an answer-plane sailed back.\n\nI remember thinking the internet isn't magic. It's a promise kept by people we'll never meet — and every page that loads is a thank-you note, waiting to be read.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Every guess crosses one suspect off the list,\" Dev says, spinning the laptop around. \"So which suspect do we cross off first?\"",
+      "options": [
+        {
+          "say_word": "Restart",
+          "label": "Blame the Wi-Fi: get Baz to restart the router and watch the lights",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Test",
+          "label": "Try a different website first and see what that proves",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The footprints stop at hop ten,\" Dev says, tapping the screen. \"The server's asleep and it's not ours to wake. Do we knock on the owner's door, or find another road around?\"",
+      "options": [
+        {
+          "say_word": "Knock",
+          "label": "Email the server's owner and ask them to wake the machine",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Detour",
+          "label": "Hunt for a cached copy and learn how messages route around breaks",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.how_the_internet_works",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The topic's core material — a request travelling through many servers and what happens when one link in the chain breaks — naturally supplies a blockage to diagnose, retry, and solve, which is exactly the engine of problem_and_fix.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "The school library's ancient globe lamp, a warm glass Earth glowing on the librarian's desk, under which the kids spread their hop-by-hop map like explorers.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "A failed attempt is not wasted: each wrong guess crosses one suspect off the list and narrows the search.",
+      "why": "The pattern_material is built on this: the Wi-Fi restart fails, the different-website test half-works, and each failure reveals where the problem is NOT, which is exactly what earns the final fix. It rides along naturally without preaching."
+    },
+    "cast": [
+      {
+        "role": "The storyteller, narrating a memory from when they were twelve",
+        "reused": false,
+        "why": "The teller pattern requires the frame: only the storyteller says 'I', opening with 'I remember' and closing warmly at the end."
+      },
+      {
+        "role": "Dev, a friend who has memorized how to trace a request",
+        "reused": false,
+        "why": "Reads traceroute hops like a train timetable; drives the problem_and_fix pattern by testing links one at a time instead of guessing."
+      },
+      {
+        "role": "The librarian, Mrs. Okafor",
+        "reused": false,
+        "why": "Explains that a server is like her desk: everyone asks at once, she answers in order, and if her desk is closed nobody gets their book. Anchors the cozy accent beside the globe lamp."
+      },
+      {
+        "role": "The school IT technician, Baz",
+        "reused": false,
+        "why": "Carries the ring of keys and the cut-open piece of fiber cable; shows the kids that light does the carrying and that broken routes can be sidestepped."
+      },
+      {
+        "role": "A submarine cable repair crew member, seen in a documentary clip",
+        "reused": false,
+        "why": "A wider-door glimpse of cables under the sea: hauling a cable up from the seabed to splice broken glass threads, shown briefly in the basement branch."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "request and server paper-airplane exchange",
+        "school library at 3:47 p.m., all screens freezing at once",
+        "router restart fails, wrong link in the chain",
+        "different website loads fine, proving the network works",
+        "traceroute stopping cold at hop ten",
+        "packets as jigsaw pieces mailed one per envelope",
+        "many roads between the same two places",
+        "fiber cable with laser pointer, light doing the carrying",
+        "server restart: same request answered in a blink",
+        "browser inspector waterfall as wider door to Making Apps",
+        "basement blinking box with DO NOT UNPLUG sticky note",
+        "documentary clip of submarine cable repair",
+        "librarian's desk as server analogy"
+      ],
+      "gathered_but_unused": [
+        "When you load a page, your computer first sends a tiny message called a request, and a faraway computer called a server sends the page back in answer.",
+        "Big files are chopped into small pieces called packets, each one traveling on its own and then snapped back together at your screen.",
+        "Most internet traffic between continents travels through fiber-optic cables lying on the ocean floor, thinner than a garden hose.",
+        "Every computer on the internet has an address made of numbers, called an IP address, so messages know where to go.",
+        "A server is just a computer whose whole job is to wait for requests and answer them, all day and all night.",
+        "Your request can hop through a dozen or more networks owned by different companies before it reaches the server.",
+        "If one route is broken, packets can simply take a different path, because the internet was designed with many roads between the same two places.",
+        "The whole round trip of a request and its answer often takes less time than a single blink of your eye."
+      ]
+    },
+    "safety_beat": "In s2a, when Baz opens the basement room with the blinking box and the DO NOT UNPLUG sticky note, he shows the kids where to stand, to the side of the cable tangle, hands behind backs, 'so you can see the lights,' a light competence beat with no warning and no tension.",
+    "motif": "Paper airplanes carrying questions across a huge room, and answer-planes sailing back.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already fuses a real technical mystery with warm companionship — the globe lamp, the 'librarians always are' listening, and the closing image of humming librarians make the made world feel both legible and fondly shared, and revision would only disturb that balance."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a held breath as every screen freezes",
+        "s2a": "giggly triumph, then the rug pulled — leaning in again",
+        "s2b": "detective glee, then a hush as the dark desk is pictured",
+        "s3": "wide-eyed wonder at the bucket brigade, then a held breath at the missing tenth ",
+        "s4a": "warm astonishment at the stranger's reply, then satisfied and glowing",
+        "s4b": "awe at the undersea cable, then cozy relief and a sleepy thank-you"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] narration heavy: only 38% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 37% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 37% of sentences carry speech or action",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 37% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "06_how_the_internet_works_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

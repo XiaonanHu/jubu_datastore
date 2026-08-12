@@ -1,0 +1,337 @@
+{
+  "id": "story.making_apps.age11to12.d1.pregen.0c8f38",
+  "title": "The Seventeen Requests",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.making_apps",
+    "sel_theme": null,
+    "value_lesson": "Saying 'not yet' to good ideas is its own kind of courage; choosing what to leave out shapes a thing as much as what goes in.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "A young app maker must decide what to build next—and what to leave out—after releasing a wobbly first version to real people.",
+  "slots": {
+    "app_name": {
+      "role": "The name of Maya's app",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "SnackTracker"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Maya had been drawing the same app for three weeks, and the kitchen table knew it. There were seventeen pages of sketches now, taped together in a long paper snake that curled off the edge and onto the floor. Screens, buttons, arrows. A little square drawing of a smiling snack bar that she had redrawn maybe forty times.\n\n\"Okay,\" said Leo, her best friend and official tester, scooting his chair closer. \"Show me again.\"\n\nMaya spread the pages flat. \"This is {app_name}. You tap here to add what you ate. Then here to see your week.\"\n\nLeo pressed his finger on the first drawing. \"Tap.\" He moved to the second. \"Tap.\" He got to the third page and stopped. His finger hovered over the paper, circling like a confused bee. \"Wait. Do I tap the banana or the arrow?\"\n\n\"The arrow,\" Maya said.\n\n\"But the banana is bigger.\"\n\n\"The banana is just there to look friendly.\"\n\n\"Then the banana is lying to me.\"\n\nMaya opened her mouth to argue, then closed it. She looked at page three the way Leo was seeing it, and he was right. The banana was huge and tappable-looking. The arrow was tiny and shy.\n\nGrandma Rosie set down a plate of oatmeal cookies, still warm. \"How's the testing going, inventors?\"\n\n\"The banana lied,\" Leo said, taking two cookies.\n\n\"Mm,\" said Grandma Rosie, like this was a serious engineering report. \"Paper can only tell you so much, sweetheart. At some point you need real fingers on a real screen.\"\n\nMaya looked at her paper snake, all seventeen pages of it, taped and re-taped and full of good guesses. A real screen. Real fingers. She could actually build this. She had the sketches. She had the feedback. She even had a banana that needed demoting.\n\n\"Leo,\" she said slowly, \"what if I make a real version? Like, an actual app?\"\n\nLeo grinned through a mouthful of cookie. \"Finally. I've been tapping paper like a pigeon for nothing.\"\n\nMaya pulled out a fresh page and wrote at the top: Version One. Real one.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Maya built Version One in one weekend, fuelled by toast and stubbornness. She moved the banana to the corner, where it could be friendly without lying. She made the arrow big and green and impossible to miss. By Sunday night, the little snack bar on the screen glowed like it meant it.\n\n\"Okay,\" Maya whispered. \"Moment of truth.\"\n\nShe tapped Add Snack. The button worked. She tapped View Week. A chart appeared, slightly crooked but real. Then she tapped Save, and the app made a sound like a robot falling down a well.\n\nMaya froze. \"That is not the sound I picked.\"\n\nShe tried again. The robot fell down the well again. Louder this time.\n\n\"That is a horrifying sound,\" she said. But the snack was saved. The app worked. Ugly in places, terrifying in one specific place, but real.\n\nMonday morning, Maya slid the phone across the table to Leo and watched his face like it was a test result.\n\nLeo tapped. He frowned. He tapped again. The robot fell down the well, and Leo jumped so hard his knee hit the table.\n\n\"Why does it sound like that,\" he said. It was not a question.\n\n\"I don't know yet. But did it save?\"\n\nLeo looked at the screen. Then at her. Then back at the screen.\n\n\"It saved,\" he said, slowly. \"Maya. It's real. The banana doesn't lie anymore, and it saved my snack.\"\n\nHe tapped Add Snack again, just to watch it work. Maya felt something warm spread through her chest, like the first bite of something still in the oven.\n\nVersion One was out in the world. It had one user, one terrifying sound effect, and seventeen pages of paper behind it.\n\nIt was a start.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Maya built Version One in one weekend, fuelled by toast and stubbornness. She moved the banana to the corner, where it could be friendly without lying. She made the arrow big and green and impossible to miss. By Sunday night, the little snack bar on the screen glowed like it meant it.\n\n\"Okay,\" Maya whispered. \"Moment of truth.\"\n\nShe tapped Add Snack. The button worked. She tapped View Week. A chart appeared, slightly crooked but real. Then she tapped Save, and the app made a sound like a robot falling down a well.\n\nMaya froze. \"That is not the sound I picked.\"\n\nShe tried again. The robot fell down the well again. Louder this time.\n\n\"That is a horrifying sound,\" she said. But the snack was saved. The app worked. Ugly in places, terrifying in one specific place, but real.\n\nShe found Grandma Rosie in the kitchen, rolling out dough. Maya held out the phone with both hands, like it might break or bite.\n\n\"Grandma? Will you test something?\"\n\nGrandma Rosie wiped her hands on her apron and took the phone seriously, the way she took all important things. She tapped Add Snack. She peered at the chart. She tapped Save.\n\nThe robot fell down the well.\n\nGrandma Rosie did not flinch. She looked at the screen for a long moment, then at Maya.\n\n\"Well,\" she said. \"That is a sound that has opinions.\"\n\nMaya burst out laughing, and the knot in her stomach loosened for the first time all weekend.\n\n\"But Grandma, does it work?\"\n\nGrandma Rosie tapped Add Snack again, carefully, like she was planting a seed. \"It works,\" she said. \"The banana minds its manners now. And you made this. From paper.\"\n\nShe handed the phone back and pulled a warm cookie from nowhere, the way grandmas do.\n\n\"Version One,\" she said, like she was naming a ship.\n\nMaya took the cookie. Version One was out in the world. It had one user, one opinionated sound effect, and seventeen pages of paper behind it.\n\nIt was a start.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The day came to test it on a real screen. Grandma Rosie brought cookies, as always. Mr. Chen from next door agreed to try it, holding his phone like it was a very old, very precious map. Maya held her breath. She was not allowed to speak.\n\nMr. Chen tapped. He swiped. He frowned. On the third screen, his finger circled, a lost bee looking for a flower that wasn't there. He sighed, a quiet, crumpled sound, and handed the phone back. \"It's lovely, Maya,\" he said, \"but I think I'm too old for this.\"\n\nThe words stung. She bit her tongue, tasting copper and frustration. She wanted to shout, \"No, you're supposed to tap the little arrow!\" But the rules were the rules. Later, Leo tried it on his older phone. The screen went black. Dead. Maya's heart did a slow, cold flip.\n\n\"What did you expect to happen?\" Mr. Chen asked gently, not unkindly. \"And what happened instead?\"\n\nMaya looked from her beautiful sketches to the blank, silent phone. The paper banana had been a liar. The real screen was a wall. The bug wasn't in her drawings. It wasn't in her head. It was out there, in the real world, only appearing when real hands tried to hold it. It was a problem she couldn't fix alone.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Maya released Version One to five kids at school, and for six days her phone was quiet. Then, on the seventh day, Jasper sent a message. It had seventeen parts.\n\n\"Make it talk to my watch,\" read Maya. \"Make it scan barcodes. Make it predict my future. Make the banana bigger.\" She looked up. \"The banana is not the problem anymore.\"\n\nLeo peered over her shoulder. \"Number eight says, 'Add a button that tells my brother to stop touching my stuff.'\"\n\n\"That's not a feature,\" Maya said. \"That's a family argument.\"\n\nGrandma Rosie arrived with cookies that smelled like cinnamon and decisions. She set the plate down and looked at the list, all seventeen items scrolling like a grocery receipt from a giant's house.\n\n\"You can't build everything at once, sweetie,\" she said. \"Pick the two that matter most. The rest get a 'not yet.'\"\n\nMaya stared at the screen. Her finger hovered. Then she circled the crash fix—because Leo's phone still went black—and the bigger, clearer arrow, because Mr. Chen's finger deserved a target it could find. She wrote \"not yet\" beside the other fifteen. The words felt like closing a door softly, not slamming it.\n\nVersion 1.1 went out on a Tuesday. It had the fix. It had the arrow. And it had one secret thing nobody asked for: when you added a snack, the little icon did a tiny, happy bounce, like it was glad to see you.\n\nLeo tested it first. He added a cookie. The icon bounced. He added another. It bounced again. \"Did you make it... happy?\" he asked.\n\nMaya looked at her phone. The app icon—the one she'd drawn forty times on paper—now glowed a little brighter, like it had swallowed a small piece of sunset.\n\n\"I made it polite,\" she said. \"It says thank you.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Maya released Version One to five kids at school, and for six days her phone was quiet. Then Jasper sent the list. Seventeen requests. Maya read them twice, then a third time, her stomach tightening like a screw.\n\n\"He wants it to play music,\" she told Mr. Chen, who was fixing his fence next door. \"And count steps. And translate dog barks. I don't even know how to do that. I don't know what this app is anymore.\"\n\nMr. Chen hammered once, then stopped. He looked at her over the fence, not unkindly. \"What problem are you really trying to solve, Maya?\"\n\nShe opened her mouth to say \"everything,\" then closed it. She thought about the paper snake, the seventeen pages, the banana that lied. She thought about Leo's finger circling, lost.\n\n\"I want to help people remember what they ate,\" she said slowly. \"So they can see their week. That's all.\"\n\n\"Then most of these,\" Mr. Chen said, nodding at her phone, \"are for a different app. One you don't have to build.\"\n\nMaya went inside. She circled two requests: the crash fix, and the clearer arrow. Beside the other fifteen, she wrote \"not yet.\" The words felt like putting down a heavy backpack.\n\nVersion 1.1 went out on a Tuesday. It fixed the black screen. It made the arrow big enough to find. And Maya added one secret thing nobody asked for: when you opened the app, the little snack icon wiggled, just once, like it was stretching awake.\n\nLeo noticed immediately. \"It moved! Did it always move?\"\n\nMaya checked her phone. The icon—the one she'd drawn forty times—now glowed a little brighter, the colors sharper, like someone had cleaned a window.\n\n\"No,\" she said. \"But it knows what it is now.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Who should test it first, Maya? Your best friend or your grandma?\"",
+      "options": [
+        {
+          "say_word": "Leo",
+          "label": "Test with Leo, the honest best friend",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Grandma",
+          "label": "Test with Grandma Rosie, the unexpected tester",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"How will you decide which two features to build, Maya?\"",
+      "options": [
+        {
+          "say_word": "Cookies",
+          "label": "Ask Grandma Rosie for advice over cookies",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Questions",
+          "label": "Ask Mr. Chen for guiding questions",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.making_apps",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Shipping a real app is inherently a step-by-step making journey—from idea to screen, through testing with real people, to deciding what goes in the next version—which maps directly onto the make_and_build pattern.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma Rosie, who carries the cozy tone by bringing cookies to every testing session and offering gentle, unexpected wisdom.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Saying 'not yet' to good ideas is its own kind of courage; choosing what to leave out shapes a thing as much as what goes in.",
+      "why": "The material naturally offers this lesson through the feedback list of seventeen requests and Maya's decision to circle just two for the next version."
+    },
+    "cast": [
+      {
+        "role": "Maya, the maker, a kid who has been building a small app for weeks",
+        "reused": false,
+        "why": "The named hero of the story, driving the action and making the hard choices about what to include and what to cut."
+      },
+      {
+        "role": "Leo, the honest best friend",
+        "reused": false,
+        "why": "Tests the app first and gives kind but truthful feedback that stings then helps."
+      },
+      {
+        "role": "Grandma Rosie, the unexpected tester",
+        "reused": false,
+        "why": "Carries the cozy accent, uses the app in ways nobody planned, and reveals real problems with warmth and humor."
+      },
+      {
+        "role": "Jasper, the eager user who wants everything",
+        "reused": false,
+        "why": "Sends a flood of feedback with seventeen requests, forcing Maya to choose what to build next."
+      },
+      {
+        "role": "Mr. Chen, the coding club mentor",
+        "reused": false,
+        "why": "Refuses to fix bugs but asks questions that make the answer appear."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "The idea sketched on paper first",
+        "The first version that technically works but is ugly",
+        "The moment of watching a real person use it without any instructions",
+        "The bug that only appears in real hands",
+        "The feedback list that grows longer than the app itself",
+        "The release day",
+        "The update ritual",
+        "Many real apps began as paper sketches",
+        "Some app makers release a 'beta'",
+        "Beta testers have found bugs that only appear in odd moments"
+      ],
+      "gathered_but_unused": [
+        "The first public version of the game Minecraft was released in 2009 after just one weekend of work, and players' feedback shaped almost everything added after.",
+        "Apps get version numbers like 1.0, 1.1, and 2.0 so makers and users can tell exactly which release they're holding and what changed.",
+        "The very first iPhone, released in 2007, had no App Store at all — the store opened a year later with only about 500 apps.",
+        "Many real apps began as paper sketches — designers draw every screen on paper first and 'tap' the drawings with a finger to test if the flow makes sense before any code exists.",
+        "Some app makers release a 'beta' — a test version given to a small group of real people — specifically so it can break in front of friendly eyes before the whole world sees it.",
+        "When WhatsApp launched in 2009, almost nobody downloaded it, and it only took off after the maker changed what the app was actually for.",
+        "Every update to an app replaces the old version on your phone — the new one downloads, installs, and quietly retires the one you had yesterday.",
+        "Beta testers have found bugs that only appear in odd moments — like a game that crashed only when a player tapped two buttons at the exact same second."
+      ]
+    },
+    "safety_beat": "not needed: setting is not a real place a child could stand in",
+    "motif": "A hand-drawn paper sketch that slowly transforms into a glowing app icon, with each version adding a new layer of color and clarity.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it shows the real texture of making—paper lies, screens surprise, feedback stings, and scope must be chosen—while keeping the reader company with warm, funny voices (the banana that lies, the robot down the well, the sound that has opinions) and landing on quiet, satisfying images of competence."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a giggle at the lying banana, then a small spark of 'she ",
+        "s2a": "leaning in, a held breath at the moment of truth, then a burst of laughter and w",
+        "s2b": "leaning in, a held breath, then a relieved giggle and the cozy feeling of being ",
+        "s3": "a held breath that tightens into a sting, then a cold flip, then a quiet, honest",
+        "s4a": "amused and slightly overwhelmed by the giant list, then the calm satisfaction of",
+        "s4b": "amused then knotted, then the relief of putting down a heavy backpack, then a sm"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 12 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.8); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 34% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 4.9); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 33% of sentences carry speech or action; [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 34% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 33% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 27% of sentences carry speech or action",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 34% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 33% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 27% of sentences carry speech or action",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "05_making_apps_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

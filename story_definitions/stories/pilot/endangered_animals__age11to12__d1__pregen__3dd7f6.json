@@ -1,0 +1,314 @@
+{
+  "id": "story.endangered_animals.age11to12.d1.pregen.3dd7f6",
+  "title": "The Night the Eyes Came Back",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.endangered_animals",
+    "sel_theme": null,
+    "value_lesson": "Counting carefully comes before fixing boldly — you cannot help what you have not found.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "We join a ferret-counting crew racing to find enough black-footed ferrets before their hidden population spirals too small to save, and our choices shape how the comeback begins.",
+  "slots": {
+    "ferret_name": {
+      "role": "the name we give the very last ferret we find, the one whose eyeshine proves the population is still alive",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Bandit"
+    },
+    "pellet_flavor": {
+      "role": "the silly flavor Nico suggests for the drone-dropped vaccine pellets, repeated in the landing",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "peanut butter"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The first thing you need to know about Shep is that he once carried a live black-footed ferret home to the porch, gentle as a ferry, and set it down like a delivery. That was three years ago, back when everybody thought the ferrets were gone from this ranch for good. Gone. Extinct, maybe, the way a word can sound like a door closing.\n\nTonight we are standing in that same Wyoming dusk with Nico and Dr. Wren, and the sky is the color of plum jam. Shep trots beside us, his tail thumping a jaunty drumbeat against our legs. Thump. Thump. He knows this job.\n\n\"Clipboards,\" says Dr. Wren, pressing one into our hands. \"And the spotlight. You sweep the beam low over the prairie dog town, slow, like you're painting a fence. What you're looking for is eyeshine. Two little green sparks. Emerald, like someone lit tiny lanterns in the dark.\"\n\n\"Every pair of eyes is one ferret,\" Nico says. \"We count them all. That's the whole job.\"\n\n\"The count matters,\" Dr. Wren says, \"because a population is just a fancy word for how many are left. Last year we counted nine. Nine is not a lot. This year, the first hour of looking has found zero.\"\n\nZero. The word sits down in the grass and does not move.\n\n\"Zero doesn't mean gone,\" Dr. Wren says quickly. \"It means we haven't looked in the right places yet. That's why I need counters who are thorough. Counters who are honest. Midnight is our deadline. We count every ferret on this ranch before then, or we don't know what we're working with.\"\n\nShep sits down in the grass and looks out at the prairie dog town, ears up, like he is listening for something we cannot hear yet.\n\nWe lift the spotlight. The beam lands on the first mound, pale and round as a dinner plate.\n\nNothing.\n\nWe move it to the next one. Slow. Like painting a fence.\n\n\"They're out there,\" Nico says. \"Shep found one before.\"\n\nThump. Thump. Goes the tail.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"On foot,\" we say, and Dr. Wren nods like she hoped we would. \"The old way.\"\n\nSo we walk. Shep out front, nose down, tail going thump, thump against the dark. We sweep the spotlight low, slow, like painting a fence. Burrow after burrow. Mound after mound.\n\nNothing.\n\n\"Eyes,\" Nico whispers. \"Come on. Two little green lanterns.\"\n\nBut the prairie dog town is empty as a cupboard before breakfast. An hour of walking, and the only eyes we find belong to one sleepy owl, who blinks at us like we woke him up for nothing.\n\n\"Zero,\" Dr. Wren says, and writes it down honest. \"The ferrets hunt at night, and they hunt far. A black-footed ferret can travel miles before sunrise. Our little line of walkers can't cover it.\"\n\nThen Shep stops. Freezes. His whole body goes still as a fence post.\n\n\"What, boy?\"\n\nHe trots to the far fence, the one at the very edge of the ranch, and points his nose at the wire. There, trembling in the wind, is a single strand of fur. Pale gold, with a black tip.\n\nDr. Wren lifts it free, gentle as a secret. \"Ferret,\" she says. \"Fresh. It crossed here tonight, heading out past the fence.\"\n\nWe look out past the wire, into all that dark.\n\n\"They're not gone,\" Nico says. \"They're scattered. Wider than anybody can walk.\"\n\nSomewhere out there, tiny green lanterns are moving, and our boots cannot reach them. Shep leans his warm shoulder against our leg, and the wind carries the strand of fur smell past his nose one more time. Thump, goes his tail. One beat. A promise.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The lab,\" we say, and Dr. Okafor's whole face lights up like a porch lamp. \"Good. The ferrets leave us letters everywhere. We just have to read them.\"\n\nHer field lab is a trailer that smells like coffee and warm dust, and it is crowded with little paper bags. \"Hair and scat from the burrow mouths,\" she says, handing us tweezers. \"Every sample tells me who walked by. Collect them like treasure.\"\n\nSo we do. Shep supervises, nose working, tail thumping the trailer steps. Thump. Thump. By midnight the table is covered in bags, and Dr. Okafor feeds the samples into a humming machine that reads DNA — the tiny instruction book inside every hair.\n\n\"First letter,\" she announces, peering at the screen. Then she laughs. \"Weasel.\"\n\n\"Second?\"\n\n\"Cat. The ranch's own cat, I'd bet my boots.\"\n\nHalf our treasure belongs to the wrong animals entirely. Nico groans. \"We're counting everybody except ferrets.\"\n\nBut then the machine hums again, and Dr. Okafor goes very quiet. \"Ferret,\" she says. \"Real ferret. And another. And one more.\" She spins the screen around so we can see. \"They're out there, friends. That's the good news. The strange news is — they're nearly all related. Cousins. Brothers and sisters.\"\n\n\"Is that bad?\" we ask.\n\n\"It's the start of something called an extinction vortex,\" she says. \"When a population gets small enough, everyone left is family, and the number shrinks faster and faster — like leaves circling a drain. The ferrets aren't just few. The few is pulling them down.\"\n\nThe words sit down in the trailer and get heavy.\n\n\"So counting them isn't enough anymore,\" Nico says slowly.\n\nDr. Okafor shakes her head. \"No. The number itself is the emergency now.\" Shep pushes his warm head under our hand, and outside, somewhere in the dark, two green lanterns we haven't found yet are burning.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The ranch kitchen at midnight smells like coffee and old boots, and the table is covered in maps. Shep pushes his head under our arm while Dr. Wren clears a space between the mugs. \"All right,\" she says. \"Tell me what you found out there.\" We tell her, every bit of it, and she listens with her pencil pressed flat against the table, nodding slowly, the way you nod when a puzzle piece finally turns the right way around.\n\n\"That confirms it,\" she says at last. \"The population is real. But it is dangerously small, and now we know why our first fixes failed.\" She holds up one finger. \"We tried vaccinating ferrets by hand. We could not find enough of them to catch.\" A second finger. \"We tried vaccine bait for the prairie dogs the ferrets depend on. It melted in the summer heat. Both times, we were reaching for one animal at a time.\"\n\nNico unrolls a hand-drawn map of the prairie dog town, weighted at the corners with a flashlight and a spoon. Dr. Okafor leans over it and marks the healthy zones from her samples, small green circles blooming across the paper. And there it is, the whole problem at once, spread out between the jam jar and the salt.\n\n\"So we stop reaching for one ferret,\" Nico says slowly, \"and reach the whole prairie.\"\n\n\"Drones,\" says Dr. Wren. \"Dropping vaccine pellets over the entire town.\" \n\"{pellet_flavor} flavored,\" Nico says. \"Obviously.\"\n\"And at Marisol's breeding center,\" Dr. Okafor adds, \"new ferrets. Unrelated ones, to freshen the family tree. A recovery needs both.\"\n\nThump. Thump. Shep's tail, under the table.\n\n\"It launches at dawn,\" Dr. Wren says. \"Two missions. We can only join one.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The drone sounds like a helpful bee. We stand with Dr. Wren on the safe side of the fence, Shep's ears tilted at the hum, and watch it drift over the prairie dog town in slow straight rows. The pellets patter down like slow rain. Plip. Plip. Plip. Dr. Wren reads the map and nods at every green circle. \"Good coverage,\" she says. \"Now the prairie waits for dark.\"\n\nDark comes, and we sweep the spotlight low over the mounds, slow, like painting a fence.\n\nNothing.\n\nThen — two green sparks. Emerald, like tiny lanterns.\n\n\"One,\" Nico whispers.\n\nThe beam slides on. Two more sparks, close together. Then a small tumbling shape, all elbows, chasing its mother through the grass.\n\n\"A kit,\" Dr. Wren breathes. \"That's not just a population. That's a family.\"\n\nWe count seven before midnight. The last pair of eyes is small and steady and does not blink, and Nico grins at us. \"That one's yours. Name it.\"\n\n\"{ferret_name},\" we say, and the name fits like a collar.\n\nBefore we leave, Dr. Wren holds out her phone toward Shep and presses record. Jingle. Jingle. Goes his tagged collar. \"There,\" she says. \"The sound of this ranch working.\" She hands us a labeled envelope, and inside it is the bit of fur from the fence, proof that one hair can restart a whole population.\n\nWe ride home with the envelope in our pocket and the jingle in the phone, and somewhere behind us in the dark, {ferret_name} is still out there, glowing.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Marisol's breeding center smells like clean straw. The ferret kits here are raised with barely any human contact, so they stay wild. We watch the oldest one through the window of her pen, a small masked face with bright dark eyes, and we keep our hands folded and our voices low. Wild is the whole point.\n\n\"She doesn't know our names,\" Marisol says. \"That's how you know we did it right.\"\n\nWe help her ready the crate: fresh straw, water, one glove slipped under the door like a gift. Then we drive to the ranch at dusk, the crate riding quiet between us, Shep's tail thumping a slow drumbeat against our legs. Thump. Thump.\n\nOn the prairie dog town, Marisol sets the crate down facing the grass. She opens the door and steps back, and we step back too, because this part belongs to the ferret.\n\nFor a moment, nothing. Then she pours out of the crate like spilled water, low and quick and gone into the grass, and the grass closes over her like it was keeping her a place.\n\nAn hour later the spotlight finds her: two green sparks, emerald, tiny lanterns in the dark. Home.\n\n\"You did the hard part,\" Dr. Wren says. \"Name her.\"\n\n\"{ferret_name},\" we say, and the night seems to hold it gently.\n\nBack at the kitchen table, Marisol gives us a paper map of the ranch, one green dot for every known ferret. Thirteen dots, where last year there were almost none. \"And far away in Brazil,\" she says, \"people are planting bridges of trees so isolated monkeys can find each other too.\"\n\nWe pin the map up at home, and Shep sleeps under it, and somewhere out there {ferret_name} is glowing in the grass, and the map is only just beginning.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The ferrets are hiding from my spotlight, friends. So which crew are you — do we walk the burrows on foot and search the old way, or do we let Dr. Okafor read the clues they left behind in the lab?\"",
+      "options": [
+        {
+          "say_word": "On foot",
+          "label": "Walk the prairie dog town with the spotlight crew and search burrow by burrow",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The lab",
+          "label": "Help Dr. Okafor count ferrets from hair and scat DNA in the field lab",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Dawn's coming and the plan has two halves. Who's coming with me to fly the vaccine drones over the prairie — and who's going with Marisol to help a brand-new ferret come home?\"",
+      "options": [
+        {
+          "say_word": "Fly",
+          "label": "Join the drone crew dropping vaccine pellets across the whole prairie at dawn",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Release",
+          "label": "Go to the breeding center and help return a hand-raised kit to the wild",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.endangered_animals",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The topic's core material—populations dropping too low and then recovery efforts bringing species back—maps naturally onto a problem-and-fix arc where failed attempts lead to a solution, and the comeback stories supply the satisfying fix without tipping into hopelessness.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Shep, the old ranch dog who once carried a live ferret home to the porch, trots beside us with his tail thumping a jaunty drumbeat against our legs.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Counting carefully comes before fixing boldly — you cannot help what you have not found.",
+      "why": "The material offers it naturally: both branches only succeed because someone first counts the animals honestly (spotlight surveys or DNA), and the fix is earned by that clue, which is exactly the problem_and_fix beat structure."
+    },
+    "cast": [
+      {
+        "role": "Dr. Wren, a wildlife biologist who leads nighttime spotlight surveys for black-footed ferrets",
+        "reused": false,
+        "why": "She gives the we_adventure teller a guide with real field skills, and her spotlight surveys let us literally count the population one glowing pair of eyes at a time."
+      },
+      {
+        "role": "Nico, a ranch kid whose family owns the Wyoming land where the ferrets were rediscovered",
+        "reused": false,
+        "why": "He gives the listening child a kid-sized partner and shows that ordinary families, not just scientists, hold pieces of a recovery."
+      },
+      {
+        "role": "Dr. Okafor, a conservation geneticist who reads DNA from hair and scat samples",
+        "reused": false,
+        "why": "She explains the numbers game in the branch that leans how_it_works: how few is too few, and what an extinction vortex is, without any hopelessness."
+      },
+      {
+        "role": "Marisol, a zookeeper who raises ferret kits at a breeding center",
+        "reused": false,
+        "why": "She carries the comeback half of the topic: how a population of almost none can be grown back and released, earned by what the failed search revealed."
+      },
+      {
+        "role": "Shep, the ranch dog",
+        "reused": false,
+        "why": "The accent carrier: his cheerful, slightly smug presence (he found a ferret first, after all) keeps the tone playful against the cozy night work."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Black-footed ferret rediscovery via ranch dog Shep, hidden population of ~130",
+        "Wyoming prairie at dusk, spotlight surveys for emerald eyeshine",
+        "Extinction vortex concept (too few animals, shrinking faster, like water down a drain)",
+        "DNA counting from hair and scat without seeing the animal",
+        "Vaccine-laced bait melting in summer heat as a failed fix",
+        "Drone-delivered peanut-butter-flavored vaccine pellets as the working fix",
+        "Captive breeding and release as the comeback engine (condor-style bold choice, adapted to ferrets)",
+        "Golden lion tamarin forest corridors as a glimpsed wider door to Ecosystems"
+      ],
+      "gathered_but_unused": [
+        "The black-footed ferret was once thought completely extinct, until a ranch dog named Shep brought one home in Wyoming in 1981, and scientists discovered a tiny hidden population of about 130 ferrets living nearby.",
+        "By the 1970s there were only about 417 nesting pairs of bald eagles left in the lower 48 states, mostly because a pesticide called DDT made their eggshells so thin the eggs cracked under the parents' weight. After DDT was banned, the population recovered to more than 300,000 eagles.",
+        "In 1995 there were only 4 known individuals of the Mauritius kestrel left in the wild, making it the rarest bird on Earth. Today there are several hundred, because scientists hand-raised chicks and released them.",
+        "When a population gets very small, it can fall into something scientists call an extinction vortex: with so few animals, relatives end up mating with relatives, the babies are weaker, and the population shrinks even faster, like water spiraling down a drain.",
+        "The California condor's population dropped to just 27 birds in 1987, and scientists made the bold choice to capture every single one and breed them in zoos. There are now more than 500 condors, with over half flying free.",
+        "Scientists can now count animals without ever seeing them, by collecting DNA from things the animals leave behind, like hair caught on a fence, skin cells in a footprint, or even a sample of river water.",
+        "Golden lion tamarins were down to about 200 animals in the wild, and part of their recovery came from planting forest corridors, strips of trees that reconnect chopped-up patches of habitat so isolated groups can find each other and mix their genes.",
+        "The Arabian oryx was declared extinct in the wild in 1972, but a small herd kept in zoos, called the World Herd, was bred and released back into the deserts of Oman, making it one of the first animals ever to return from being extinct in the wild."
+      ]
+    },
+    "safety_beat": "During s1, Nico shows us once, lightly, how to walk a prairie dog town — step on the firm grass between burrows, never on the crumbly mounds — a plain competence beat with no warning tone and no tension attached.",
+    "motif": "Emerald eyeshine — tiny pairs of glowing green eyes in the dark, standing for every animal that is still out there to be found and counted.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances scientific clarity with sensory warmth, using sound and repetition to keep a listener anchored while letting the wonder of the ferrets arrive and depart without being grabbed."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a held breath at 'zero'",
+        "s2a": "leaning in, boots-on-ground searching, then a small spark of hope",
+        "s2b": "busy and intrigued, then sobered by the weight of the news",
+        "s3": "gathered close around the table, pieces clicking into place",
+        "s4a": "held breath released into quiet delight, satisfied and glowing",
+        "s4b": "reverent and still, then satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 3 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "08_endangered_animals_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

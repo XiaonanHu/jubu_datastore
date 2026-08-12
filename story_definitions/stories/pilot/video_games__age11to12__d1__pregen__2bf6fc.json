@@ -1,0 +1,325 @@
+{
+  "id": "story.video_games.age11to12.d1.pregen.2bf6fc",
+  "title": "The Case of the Too-Easy First Level",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.video_games",
+    "sel_theme": null,
+    "value_lesson": "Curiosity turns confusion into discovery: the things that confuse you in a game (or anywhere) were often put there on purpose, and asking 'why' is how you learn to read them",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A kid detective investigates why every game's first level feels suspiciously easy, and uncovers the tutorial hidden inside level one.",
+  "slots": {
+    "detective_name": {
+      "role": "The kid detective's name, used by Mara and the storyteller",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    },
+    "game_world": {
+      "role": "The made-up game the kid plays, with a hero, a first pit, and a shiny first coin",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a squirrel pirate hopping through Treetop Lagoon"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I want to tell you about a detective I knew.\n\nNot the kind with a magnifying glass and a raincoat. Well — all right, there was a magnifying glass. But it belonged to Detective Dee, and Detective Dee was a sock puppet with button eyes and a voice like a kazoo with opinions.\n\nIt was a rainy Saturday, the kind that makes the living room feel like a cave in the best way. Big screen glowing. Blanket fort sagging. And {detective_name} was three levels into {game_world} — you know the one, with the hero who leaps and the coins that go *plink* when you grab them.\n\nLevel one? A breeze. A stroll. A gentle hop over a pit so small it might as well have apologized.\n\nBut level three kept bonking them. Boing. Off the moving log. Boing. Into the mud. Again.\n\n\"One more try,\" {detective_name} muttered.\n\nThat is when Detective Dee slid off the sofa arm, held the magnifying glass up to the glowing screen — the pixels went big and blocky and beautiful, like a mosaic made of sugar cubes — and declared, in that kazoo voice:\n\n\"Something about level one was suspiciously polite.\"\n\n{detective_name} paused the game. \"Polite?\"\n\n\"Too easy. Too friendly. A level that never pushes back?\" Dee tapped the glass. \"That is not a level. That is a butler holding a door. And butlers, my friend, always know something.\"\n\nRain ticked the window. The frozen hero hung mid-jump on the screen, one coin still spinning, waiting.\n\n\"So what do we do?\" {detective_name} asked.\n\nDee's button eyes gleamed. \"We go back to level one. And this time — we read it.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Back to level one. Detective Dee rode {detective_name}'s hand like a captain on a mast, magnifying glass sweeping the screen.\n\n\"Begin the heist,\" Dee whispered. \"Walk. Do not jump. I want to see the crime happen.\"\n\nSo {detective_name} walked. The hero strolled left to right, whistling a little tune — and stopped. Right at the edge of the first pit. One jump wide. Not two. Not a scary gap. Exactly one.\n\n\"Freeze!\" Dee squawked. \"There. You see it? That pit is placed so walking fails. The game is not being nice, partner. It is teaching your thumb where the jump button lives.\"\n\n{detective_name} blinked. \"The pit is a lesson?\"\n\n\"A lesson with a moustache and a fake name,\" said Dee. \"Now hop it.\"\n\nThey hopped. And there, dead center in the path, sat the first coin. Waiting. Shining. The hero's toe brushed it and — plink! — the score ticked up, bright and instant.\n\nDee gasped so hard the sock nearly came off. \"The coin! It chimes the second you touch it! That is not decoration, that is a reward loop — the game saying, good job, do it again, here is a shiny thing!\"\n\n\"So the whole level...\"\n\n\"Is a tutorial in disguise!\" Dee held the glass to the screen, and the pixels went big and blocky, like clues under a lamp. \"The pit teaches jumping. The coin teaches grabbing. And nobody ever told us. That, partner, is the politest trick in gaming.\"\n\n{detective_name} grinned. \"What else is it hiding?\"\n\nDee's button eyes narrowed. \"Only one way to find out. Squeeze.\"\n\nAnd they squeezed.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"We need a witness,\" {detective_name} said, reaching for the phone. \"Somebody who built one of these things.\"\n\nDee gasped. \"Your cousin. Mara. The game-maker. Oh, she is SO a suspect.\"\n\nMara answered on the second ring, and {detective_name} put her on speaker so Dee could interrogate properly.\n\n\"Mara,\" {detective_name} said. \"Why are first levels always so easy?\"\n\nA pause. Then Mara laughed — the kind of laugh that knows something. \"Easy? Or easy on purpose?\"\n\nDee leaned so close to the phone his button eyes nearly touched it. \"Answer the question, suspect!\"\n\n\"Hi, Dee,\" Mara said, completely unsurprised. \"Okay, one hint. But then you have to come over Saturday and watch my old school project, glitches and all. Deal?\"\n\n\"Deal,\" said {detective_name}.\n\n\"When I made my game,\" Mara said, \"I spent a whole week deciding where to put my very first obstacle. One little pit. Want to know where it went?\"\n\n\"Where?\"\n\n\"Right where the player couldn't avoid it. Smack in the path. Because if they could walk around it, half of them would never learn to jump — and then level two would eat them alive.\"\n\nDee made a noise like a kazoo falling down stairs. \"She ADMITS it! The pit was a trap! A helpful trap!\"\n\n\"A tutorial,\" Mara said. \"The best ones never say 'press this button.' They just put a pit exactly one jump wide and let you figure it out. And the first coin? Dead center, so nobody misses it.\"\n\n{detective_name} looked at the frozen screen, where the hero hung mid-jump over one small, polite pit.\n\n\"Saturday,\" Mara said. \"Bring the sock.\"\n\nDee straightened. \"Tell her the sock brings YOU.\"\n\n\"He heard that,\" said Mara, and hung up laughing.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Dee lowered the magnifying glass, slow and solemn, like a detective pocketing a diamond. \"Whatever you just found,\" the kazoo voice whispered, \"it has an address. And I know where it lives.\"\n\nAn hour later we were squished onto Mara's couch. Mara made games — well, one game, an old school project, glowing on her laptop. Above the screen she'd pinned her level sketches to the wall, pencil lines and arrows and little stick heroes, like a tiny design studio had exploded in an orderly fashion.\n\n\"Show me level one,\" Dee commanded.\n\nMara loaded it. The hero trotted out. And there — the first enemy, shuffling along slower than a queue at the post office. It couldn't even bonk you, not if you were the tiniest bit careful.\n\n\"Watch,\" said Mara. \"My friends playtested this. When someone missed a jump — boing, into the mud — I moved the platform closer. And I dropped a coin right where they should land. Like a signpost. A shiny, plinking signpost.\"\n\nDee went very still. A sock going still is a dramatic thing.\n\n\"The pit,\" Dee breathed. \"It was never there to stop anybody. It was there to teach the jump. The enemy teaches the dodge. The coin teaches the landing.\" The magnifying glass rose, trembling. \"This whole level is a tutorial — wearing a mustache!\"\n\nMara grinned. \"A tutorial in disguise. Nobody reads instructions, so level one teaches by need. You need to jump, here's a pit. You need to dodge, here's a slow shuffler. And every time you get it right — plink — a coin, a chime, a little burst of yes. Goal, action, reward. Then again. Goal, action, reward. That loop runs the whole game. That's the engine under everything.\"\n\n\"A reward loop,\" Dee whispered, like naming buried treasure. \"Case closed.\"\n\nThen the button eyes narrowed.\n\n\"Mara. Why is that wall... a slightly different shade?\"\n\nMara's grin went mysterious. \"Play it,\" she said, handing over the controller. \"With your new eyes.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "{detective_name} steered the hero back through level one, past the polite little pit, past the slow shuffler, all the way to that wall. Up close, through Dee's magnifying glass, the pixels really were a different shade. Off. Like one wrong Lego in a wall of red.\n\n\"Do it,\" Dee whispered. \"Boop the wall.\"\n\n\"You can't boop a wall.\"\n\n\"Detectives boop.\"\n\nSo {detective_name} walked the hero straight into it. And the wall slid open.\n\nNo key. No button. Just a hidden room, glowing gold, treasure chests stacked like pancakes, and right in the middle — a tiny sprite of Mara, waving. A little speech bubble popped up: *You found me!*\n\n\"Mara!\" {detective_name} spun around. \"You're IN the game?\"\n\nMara shrugged, but she was grinning. \"Makers hide themselves sometimes. And here's the thing — nobody told you that room existed. The wall told you. One off-color patch, that's the whole clue. Games leave secrets like footprints. Once you learn to read them...\" she tapped the screen, \"...you start seeing them everywhere.\"\n\n\"Footprints,\" Dee breathed. \"Made of pixels. The perfect crime.\"\n\nLater, when the rain had softened to a patter and Mara had gone to make cocoa, {detective_name} opened their notebook to a fresh page. At the top they wrote: *Clues Games Leave.* Underneath: *1. A wall that doesn't match is a door that hasn't admitted it yet.*\n\nDetective Dee got tucked back onto the sofa arm, case closed, magnifying glass under one fuzzy arm. Beside him, in the notebook margin, {detective_name} drew a tiny detective badge.\n\n\"Same time next Saturday?\" {detective_name} asked.\n\nThe sock said nothing. But the button eyes gleamed.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "{detective_name} looked at the odd-colored wall. Then at Mara. Then back at the wall.\n\n\"Later,\" they said. \"First — teach me to build one. A level. A tiny one.\"\n\nDee gasped so hard a button eye rattled. \"The detective becomes... the criminal mastermind.\"\n\n\"The *designer*,\" Mara laughed, and pulled up a blank screen. Empty. Just a grid, waiting. \"Okay. One pit. One coin. One enemy. That's your whole budget. Where does the pit go?\"\n\n{detective_name} thought about it. \"Near the start. So the player has to jump right away.\"\n\n\"Why?\"\n\n\"Because... if they jump early and nothing bad happens, they learn the jump is safe. Then when it matters later, they already know how.\"\n\nMara's eyebrows went up. \"That's level design. You just did level design.\"\n\nThey placed the pit. They dropped the coin right over the landing spot — a shiny little signpost. Then the enemy: one slow shuffler, waddling along. \"Slow,\" {detective_name} said, \"so nobody gets bonked while they're still learning.\"\n\n\"A tutorial in disguise,\" Mara said. \"Your mustache, detective.\"\n\nThen she opened her animation folder, and {detective_name} leaned in close. There was the squirrel hero — or rather, twelve of him, frame by frame, tail up, tail down, mid-wiggle. \"I draw every hop,\" Mara said. \"Twelve drawings for one second of wiggle.\"\n\n\"Twelve!\" Dee fainted backward off the couch arm.\n\nThat night, {detective_name} opened their notebook to a fresh page and wrote at the top: *My First Tutorial.* Underneath: a pit, a coin, and one extremely slow shuffler, drawn with great care.\n\nDee climbed back up, adjusted his magnifying glass, and cleared his tiny kazoo throat.\n\n\"The case,\" he announced, \"is closed. And the detective...\" a dramatic pause, \"...is officially brilliant.\"\n\n\"We both are,\" said {detective_name}.\n\n\"Correct,\" said the sock.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Detective Dee swivels on your hand and booms, 'Every great detective chooses a door, partner! Do we replay level one and squeeze it for clues, or do we shake down my prime suspect, your cousin who BUILT one of these things?'",
+      "options": [
+        {
+          "say_word": "Replay",
+          "label": "Replay level one and hunt for clues inside the game",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Interrogate",
+          "label": "Call Cousin Mara and ask the game maker directly",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Mara leans back and grins. 'So, detective. You've cracked the tutorial. Now what, do you go poke that suspicious wall, or do you sit down and build a sneaky first level of your own?'",
+      "options": [
+        {
+          "say_word": "Poke it",
+          "label": "Push on the odd-colored wall and chase the hidden secret",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Build",
+          "label": "Stay with Mara and design a tiny tutorial level yourself",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.video_games",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core skill is learning to read a game like its makers do, which maps naturally onto a mystery structure where a child spots the hidden tutorial, decodes the goal-choice-reward loop, and pieces together clues about why level one feels fun.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Loop That Wouldn't Stop)"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Detective Dee, a sock-puppet detective who treats every game clue like a jewel heist at Buckingham Palace",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Curiosity turns confusion into discovery: the things that confuse you in a game (or anywhere) were often put there on purpose, and asking 'why' is how you learn to read them",
+      "why": "The material offers it naturally; the whole mystery is about reading a game the way its makers do, so the lesson rides the plot rather than lecturing"
+    },
+    "cast": [
+      {
+        "role": "The kid (slot-named), a game lover who has started noticing that level one always feels different from the rest",
+        "reused": false,
+        "why": "The noticing kid from the material is the natural detective for a mystery pattern; their notebook of clues drives the plot"
+      },
+      {
+        "role": "Detective Dee, a dramatic sock-puppet detective the kid voices during play",
+        "reused": false,
+        "why": "Carries the big_adventure accent single-handedly, turning small observations into grand revelations while the real story stays gentle and silly"
+      },
+      {
+        "role": "Cousin Mara, who once built a small game for a school project",
+        "reused": false,
+        "why": "The older-sibling game maker from the material; she can reveal the answer from the maker's side and host the final test"
+      },
+      {
+        "role": "The storyteller, who once wondered the same thing long ago",
+        "reused": false,
+        "why": "Required by the teller: only the storyteller says 'I', frames the memory, and closes it warmly"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "level one is the tutorial in disguise; the first pit forces the jump",
+        "the first enemy walks slowly to teach what danger looks like",
+        "reward loop: goal, action, reward, coin chime and score ticking up",
+        "mechanics are the basic actions; a whole game from two or three",
+        "designers test levels by watching players and moving platforms or adding coins",
+        "hidden secrets in plain sight: the slightly different wall",
+        "setting: living room with big screen, two controllers, game paused mid-level",
+        "setting glimpse: game design studio with level sketches pinned to walls",
+        "wider door glimpse: animation, how sprites get their wiggle"
+      ],
+      "gathered_but_unused": [
+        "Many games teach you how to play without a single instruction screen—level one is the tutorial in disguise. The first pit in Super Mario Bros. is placed so you must jump, teaching you the jump button by making you need it.",
+        "A 'reward loop' is the cycle of goal, action, and reward that keeps play interesting: you see a coin, you jump for it, you hear the chime and see the number go up. That loop repeats thousands of times in a single game.",
+        "Game designers call the basic actions you can do 'mechanics'—jumping, climbing, shooting, building. A whole game can be built from just two or three mechanics combined in clever ways.",
+        "The first enemy in many games walks slowly toward you and can't hurt you if you're careful—it's there to teach you what danger looks like before the game gets hard.",
+        "Sprites are the small pictures that make up game characters and objects. Early games had tiny sprites—sometimes just 8 by 8 pixels—so artists had to choose every single colored square carefully.",
+        "Game designers test levels by watching people play and noticing where they get confused or stuck. If too many players miss a jump, the designer might move a platform or add a coin to show the way.",
+        "Some games hide secrets in plain sight—a wall that looks slightly different, a suspicious gap in the ceiling. Players learn to read these visual clues the way detectives read footprints.",
+        "The music in a game often changes to tell you something important—speeding up when time is running out, or turning quiet and mysterious when you enter a hidden place."
+      ]
+    },
+    "safety_beat": "In s3, at Mara's house, the kid flops onto the couch and unplugs the second controller before tripping over its cord, a light, wordless beat of knowing where the gear lives; no tension, just competence in a real room",
+    "motif": "A magnifying glass held up to a screen, turning pixels into clues",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it has a real engine (a mystery pursued with escalating questions), a warm comic partnership, and it makes game design legible step by step — pit teaches jump, coin teaches landing, off-color wall teaches secrets — so the listener actually watches competence happen rather than being told about it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and giggling, leaning in",
+        "s2a": "delighted discovery, a small aha",
+        "s2b": "pleased anticipation, a giggle at the kazoo",
+        "s3": "wide-eyed, the satisfying click of the case closing",
+        "s4a": "hushed wonder, then cozy and proud",
+        "s4b": "busy and capable, then warm and settled"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [c1] narrator asks the choice: no spoken line; a character should pose the question; [c2] narrator asks the choice: no spoken line; a character should pose the question"
+      }
+    ],
+    "writers_notes": [
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[c1] narrator asks the choice: no spoken line; a character should pose the question",
+      "[c2] narrator asks the choice: no spoken line; a character should pose the question"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "07_video_games_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

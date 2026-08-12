@@ -1,0 +1,297 @@
+{
+  "id": "story.painting_pictures.age11to12.d1.pregen.306c97",
+  "title": "The Painting That Changed Its Mind",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.painting_pictures",
+    "sel_theme": null,
+    "value_lesson": "A mistake isn't the end of the thing being made; it can be scraped off, layered over, and revised.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "We set out to paint the red boat from the river, and learn that a finished painting is many paintings stacked up.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Aunt Bea's garage smells like rain and toast. It is a drizzly Saturday, the door is half open, and the river at the end of her street is doing the thing that started all of this.\n\nLast night, at sunset, we saw it. The Tomato, sitting on the water, glowing a red so red that Pip actually grabbed my arm. \"That,\" Pip said. \"That exact red.\"\n\nSo here we are, with a canvas propped on two paint cans, and five little dabs of paint on a board. Five. The grumpy clerk at the art shop talked us out of twenty colors and into these.\n\n\"Mixing,\" he'd growled, like it was a secret. \"That's where the real colors live.\"\n\n\"He's probably right,\" Aunt Bea says, tying on her apron. \"But I still don't like him.\"\n\nWe squeeze out the dabs. Red, yellow, blue, white, and a brown the color of a paper bag. Aunt Bea hands us sticks of charcoal, soft as burnt toast, and we sketch the Tomato — the fat little hull, the crooked mast, the stripe Pip insists on even though the real boat doesn't have one.\n\n\"It's our painting,\" Pip says. \"The boat can have a stripe if it wants.\"\n\nThen comes the part Aunt Bea calls the underpainting. We mix brown and a little red, thin it out, and wash the whole canvas with it, until our boat and our water and our sky all look like they are made of toast.\n\n\"Gravy,\" Pip says, squinting. \"It looks like gravy.\"\n\nIt does. It really, really does.\n\n\"Every painting starts ugly,\" Aunt Bea says. \"That's how you know you're doing it right.\"\n\nI look at our five little dabs, then at the window, where the drizzle has smudged the world grey. And I wonder — quietly, so Pip won't hear — if that sunset red is even hiding in there. Five colors. That's all we get.\n\n\"Right,\" says Aunt Bea, picking up a brush. \"Let's find out.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Charge,\" Pip says, which is not a real plan, but it sounds like one.\n\nSo we charge. I scoop red and yellow into one big puddle, and Pip dumps in blue, and then, because more feels like the answer, we swipe in white and brown too, and stir the whole thing with the handle of a brush like we're making soup for a giant.\n\n\"Sunset soup,\" Pip says. \"Dinner is served.\"\n\nFor one second, it's beautiful. Swirls of gold and pink chase each other around the puddle, and I think, we did it, we found it.\n\nThen the swirls slow down. And slump. And the whole puddle settles into the exact color of wet cardboard.\n\n\"No,\" Pip says. \"Un-serve it.\"\n\nWe paint it on anyway, because maybe the canvas will fix it. It does not fix it. The sky goes on lumpy and grey-brown, and where I scrubbed too hard, a thin blue line peeks out from under the new paint, like the canvas is raising one eyebrow at us.\n\n\"It's glaring,\" I whisper. \"The painting is actually glaring.\"\n\n\"It has a right,\" says Aunt Bea, leaning over our shoulders. \"You asked every color to shout at once. Red bounces light back at you — that's why it glows. But blue and brown soak light up like sponges. Mix them all together and the sponges win. Nobody's bouncing anything.\"\n\n\"So the red was in there,\" Pip says, \"and we drowned it.\"\n\n\"Little bit,\" says Aunt Bea. \"Good news is, paint dries. This painting is about to become the bottom layer of a better one.\"\n\nI look at our cardboard sky and our boat the color of tomato soup, and I swear the thin blue line wiggles, just slightly, like it's laughing at us.\n\n\"Stop laughing,\" Pip tells it. \"We're revising.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Slow,\" I say. \"We sneak up on it.\"\n\nAunt Bea shows us the trick: hold the brush way out at the far end of the handle, like a wizard's wand, so your hand can't boss the bristles around. We mix the thinnest pink, thin as skim milk, and lay it over the gravy sky. It dries. We lay another. The wiggly brush paints the river grass almost by itself, little green flicks standing up along the bank, and Pip gasps like we've grown a lawn.\n\n\"Layer,\" Pip whispers, like it's a magic word. \"Another layer.\"\n\nSo we layer. And layer. And here's the thing nobody warns you about: careful has a trap in it too. The water starts out shimmery, and I think, one more pass will make it shimmerier. It does not. The next pass dulls it. The pass after that kills it dead. Our river sits there flat and grey and overworked, like bread dough somebody kneaded for an hour out of spite.\n\n\"I was being so gentle,\" I say. \"How did gentle break it?\"\n\nThe painting says nothing. It sulks. You can feel it sulking. And under my dull grey water, that thin blue line peeks out, smug as anything, like it knew this would happen.\n\n\"You can argue with a painting too politely,\" Aunt Bea says. \"You fussed the water until it gave up. A painting wants a little pushback. Bold strokes, then leave it alone.\"\n\n\"And the red?\" Pip asks, because the Tomato is still the color of tomato soup, and sunset is not getting any closer.\n\n\"Still hiding,\" Aunt Bea admits. \"But your layers are honest ones. A dull river can be woken up. Scrape a little, splash a little. Paintings forgive.\"\n\n\"Hear that?\" Pip tells the canvas. \"You have to forgive us. Aunt Bea said.\"\n\nThe blue line keeps peeking. I choose to believe it's thinking it over.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Whichever way we went looking, the wall sent us back to the same place. The middle of the painting. And it is ugly.\n\nNot gravy-ugly. Worse. Our sky has gone the color of old dishwater, and the red we chased all morning is buried somewhere under it, sulking.\n\n\"It got worse,\" Pip says. \"We made it worse.\"\n\n\"Good,\" says Aunt Bea.\n\nWe both stare at her.\n\n\"Now there's something to argue with.\" She presses the palette knife into my hand. It is small and flat and cool, like a spreader for toast. \"The wall taught me this part. A painting is never one painting. It's a stack of them, and sometimes the top one has to go.\"\n\n\"Scrape it?\" I say. \"Off?\"\n\n\"Off,\" she says, and her eyes are doing the thing they do when the river is about to flood and she loves it.\n\nThe knife feels like a lie in my fingers. We worked all morning on that sky. But the painting is already arguing with us — it has been arguing all day — and right now it is saying, in its grumpiest voice, go on then.\n\nSo I press the blade in, low on the canvas, and pull.\n\nThe dishwater sky comes off in a thick curl, like frosting off a cake, like mud off a boot. It is horrible. It is wonderful. Pip makes a sound like a kettle.\n\n\"Again,\" Pip whispers.\n\nWe scrape. Curl after curl. And then I stop, because there, in the groove the knife just made, something is glowing. A thin pink line. Yesterday's sunset, still alive under all that grey, waiting.\n\n\"It was hiding,\" Pip breathes. \"The whole time, it was just hiding.\"\n\n\"That's the secret of layers,\" Aunt Bea says. \"Nothing is gone. It's underneath.\"\n\nWe step back to see it better. All the way back, bumping into the stool, knocking a paint can with my heel, until we are squinting from the doorway like people at a museum.\n\nAnd from there, finally, the painting starts telling us the truth.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"It wants to keep the ghost,\" Pip says.\n\nThe painting says nothing, which is how it says yes.\n\nSo we leave the groove alone. The pink line stays, thin and stubborn, like a scar that turned out to be a smile. Around it, we build the new sky in layers — a wash of blue, then a thinner blue, then a blue so pale it is almost the color of the rain outside. Each layer dries a little darker than the last, and the groove glows up through all of them, warm as a window at night.\n\n\"It's not arguing anymore,\" I say.\n\n\"It's purring,\" Pip says.\n\nThen Pip reaches for the yellow, and the brush slips, and a blob — a whole blob — lands on the wet canvas, right where the far shore is supposed to be.\n\n\"No,\" Pip whispers.\n\nBut the painting doesn't flinch. The blob sits there, round and bright, and Aunt Bea tilts her head.\n\n\"Look at that,\" she says. \"The porch light.\"\n\nAnd it is. The exact warm spot the picture was missing, the one we didn't know it needed until it arrived by accident. Pip dabs it once, gently, with the corner of a rag, and the porch light softens into the shore like it was always there.\n\nWe step back. All the way back, past the stool, past the paint can, to the doorway where the drizzle is still going. From here, nothing is wrong. Nothing at all.\n\nAt the very edge of the canvas, one thin blue line of the old muddy sky peeks out from under the new one. We look at it. The painting looks back.\n\n\"Leave it,\" Pip says.\n\n\"Leave it,\" Aunt Bea agrees.\n\nBecause a finished painting is not one painting. It is every painting it ever was, stacked up and still glowing through.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Bury it,\" Pip says. \"Bury the whole thing.\"\n\nThe painting growls, but it is the kind of growl that means go on, I dare you.\n\nSo we do. We load the brush with blue — not dishwater blue, but the blue of the river just before the sun hits it — and we lay it over the groove, over the ghost, over every grey mistake, in strokes so bold Aunt Bea actually claps once, like a seal.\n\n\"More,\" she says.\n\nWe layer. Blue over blue, then a thin white dragged across the top like fog lifting. The sky stops sulking. It starts shining.\n\nAnd then — the red. We don't mix it. We build it. A dab of red, a touch of yellow, a breath of brown, tiny strokes side by side until the Tomato's hull glows the way it did last night, the way that made Pip grab my arm. Five colors. That was all we ever needed.\n\n\"It arrived,\" Pip whispers. \"The red arrived.\"\n\nThen the brush slips. A blob of yellow lands on the wet sky, fat and ridiculous, right above the mast.\n\nPip freezes. Aunt Bea freezes. The painting waits.\n\n\"It's the sun,\" I say.\n\nAnd it is. Low and silly and exactly where the sun should be, like the painting knew all along and was just waiting for us to catch up. Pip adds one thin line of white underneath it, and the whole sky warms.\n\nWe sign the corner. All three of us, our names small and crooked, stacked like the layers themselves.\n\nFrom across the garage, the painting looks right. Not perfect — right. Like it finally stopped arguing and started agreeing.\n\nAt the edge, one thin blue line of the first failed sky still peeks out. We leave it there.\n\n\"Proof,\" Aunt Bea says, \"that it was always becoming this.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Five colors is all you've got, so how do you want to hunt that red? Charge in and mix the whole puddle, or sneak up on it layer by layer?\"",
+      "options": [
+        {
+          "say_word": "Charge",
+          "label": "Mix every color together and hunt the red head-on",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Sneak",
+          "label": "Build the red slowly, one thin layer at a time",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"That scrape left a ghost of the old sky in the groove. Do we keep the ghost and paint around it, or bury it under a brand-new sky?\"",
+      "options": [
+        {
+          "say_word": "Keep it",
+          "label": "Leave the ghostly groove showing and build the new sky around it",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Bury it",
+          "label": "Layer a bold new sky right over the old one",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.painting_pictures",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.drawing_and_animation",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "The topic's material—layering, underpainting, scraping off, revising, and a finished painting being many paintings stacked up—is inherently a step-by-step process of making something, which perfectly feeds the make_and_build pattern for an 11-year-old.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "The painting itself, which argues back like a grumpy, stubborn friend",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "A mistake isn't the end of the thing being made; it can be scraped off, layered over, and revised.",
+      "why": "The material offers it naturally through the scrape-off, the underpainting, and the painting arguing back; no lecture is needed because the canvas itself demonstrates it."
+    },
+    "cast": [
+      {
+        "role": "An aunt who paints houses for money and pictures for herself",
+        "reused": false,
+        "why": "She carries the craft knowledge, hands over the palette knife, and treats scraping off as normal work, not failure."
+      },
+      {
+        "role": "The painting itself, almost like a character",
+        "reused": false,
+        "why": "It is the accent carrier for big_adventure: it glares, goes muddy, hides its old selves, and finally looks right from across the room."
+      },
+      {
+        "role": "A younger sibling who drips a blob of yellow onto the wet painting",
+        "reused": false,
+        "why": "Delivers the happy accident that becomes the one thing the picture was missing."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "underpainting in dull brown like the world made of toast",
+        "mixing every bright color slumps into wet-cardboard brownish gray",
+        "grumpy clerk talks us into five colors because mixing is where real colors live",
+        "palette knife scraping off the lumpy sky like frosting, old pink glowing in the groove",
+        "stepping back across the room, bumping into a stool, squinting from the doorway",
+        "yellow blob happy accident becomes the porch light the picture was missing",
+        "one thin blue line of an old layer peeking out at the edge",
+        "the ugly middle where the painting looks worse than when it started"
+      ],
+      "gathered_but_unused": [
+        "A finished oil painting is usually built from many layers, and sometimes a painter paints over a whole nearly-finished picture and starts again on the same canvas.",
+        "Painters often begin with an underpainting — a rough first coat in one or two dull colors — that maps out where the darks and lights will go, and later layers sit right on top of it.",
+        "If you mix every bright color of paint together, you don't get a rainbow — you get a dull brownish gray, because each color soaks up light the others were bouncing back.",
+        "A long stiff brush held at the very end makes loose, wobbly, lively marks, while holding it close like a pencil makes tight, careful ones.",
+        "You can scrape wet paint off a canvas with a flat tool and the painting survives — painters do it all the time to take back a mistake or to find the older layer hiding underneath.",
+        "In really old paintings you can sometimes see the artist's first idea showing faintly through the top layer, because paint slowly grows more see-through over many years.",
+        "Some painters on purpose leave parts unfinished — a patch of bare canvas or a drippy edge — because the painting argues back, and sometimes the unfinished spot turns out to be the best part.",
+        "Many painters step back from their work every few minutes, or look at it in a mirror, because up close your eyes get used to mistakes and from far away — or flipped — the picture shows you what's really there."
+      ]
+    },
+    "safety_beat": "In the garage, Aunt Bea casually nudges the sleeping dog's bed away from the wet canvas on the floor and parks the palette knife flat on the table edge before handing it over handle-first; competence shown lightly, no warning.",
+    "motif": "A thin blue line peeking out from under the new paint",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the making is shown step by real step (mixing, underpainting, layering, scraping), the companionship is paid in attention rather than declared, the personified painting gives it a warm argumentative pulse, and the sound of it read aloud — 'Sunset soup. Dinner is served,' 'Un-serve it,' 'It was hiding... the whole time, it was just hiding' — lands cleanly for an 11-year-old listener."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in at the mystery of the red",
+        "s2a": "gleeful charge, then a deflating giggle",
+        "s2b": "careful hush sliding into worried frustration",
+        "s3": "a held breath, then the thrill of the scrape and the glow",
+        "s4a": "warm relief and a small gasp at the lucky blob",
+        "s4b": "triumphant, satisfied, and quietly proud"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "02_painting_pictures_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

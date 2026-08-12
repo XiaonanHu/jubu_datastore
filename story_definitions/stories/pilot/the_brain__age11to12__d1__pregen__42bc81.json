@@ -1,0 +1,337 @@
+{
+  "id": "story.the_brain.age11to12.d1.pregen.42bc81",
+  "title": "The Great Cereal Switcheroo",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_brain",
+    "sel_theme": null,
+    "value_lesson": "It is okay to make mistakes because they help us learn",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A storyteller recounts how a curious student solved the mystery of a surprising breakfast and discovered the brain is a prediction machine.",
+  "slots": {
+    "student_name": {
+      "role": "The curious student",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Alex"
+    },
+    "friend_name": {
+      "role": "The playful friend",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Let me tell you about a morning that went sideways for a friend of mine, and sideways in the best possible way. It starts in a sunny kitchen, the kind with yellow curtains and a table that wobbles if you lean on it wrong. {student_name} had just shuffled in, still half asleep, hair doing something truly heroic. On the counter sat a tall glass of something cold and pale, and beside it, {friend_name} was busy not looking suspicious, which, if you know {friend_name}, is the most suspicious thing of all. Now here is what {student_name}'s brain was doing, quietly, without being asked. It looked at that glass and it made a prediction. That is orange juice, it said. Cold, sweet, a little tangy. It got the mouth ready. It got the tongue ready. It even got the swallow ready. Your brain does this all the time, you know. It guesses what comes next, and it sends tiny signals zipping through your body like flashes of lightning, carrying the news from one neuron to the next. Sip coming, they said. Orange juice incoming. So {student_name} picked up the glass, took a big gulp, and it was milk. Plain, ordinary milk. And here is the part I love. {student_name} jumped. Actually jumped, like the floor had wiggled. Because the milk was not bad, not at all. It was just wrong. It was not what the brain had promised, and when a prediction misses, the brain lights up like a storm. Surprise! the signals shouted, zipping everywhere at once. Pay attention! Something new is happening! {friend_name} was already laughing into a sleeve. \"Your face,\" {friend_name} said. \"Your whole entire face.\" \"You switched it,\" {student_name} said. \"You actually switched it.\" But here is the mystery, the one that got me thinking. Why did perfectly good milk taste like a shock?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"I'll get to the bottom of this,\" {student_name} said, grabbing a magnifying glass from the junk drawer. It was time to investigate the scene of the crime. \n\nWe looked at the counter. The empty milk glass sat there, looking innocent. Beside it was the cereal box. {student_name} picked it up and shook it. It sounded right. It looked right. But when {student_name} opened the top, out tumbled a piece of paper. \n\nIt was a note, folded four times. {student_name} unfolded it. It read: \"Gotcha! Check the fridge door.\"\n\nWe opened the fridge. There, on the middle shelf, sat the orange juice carton. But it was wearing a disguise. Someone had drawn a mustache on the orange smiling on the front. And taped to the side was a second note. \"Step one of the switcheroo complete,\" it said. \"Step two is why.\"\n\n\"Why?\" {student_name} asked, turning to {friend_name}. \"Why go to all this trouble?\"\n\n{friend_name} just grinned, tapping the side of their head. \"Because your brain needed a wake-up call,\" {friend_name} said. \"It was sleepwalking. It thought it knew exactly what was coming.\"\n\n\"So you tricked it?\" {student_name} asked.\n\n\"I surprised it,\" {friend_name} said. \"There's a difference. And look at you now. You're wide awake. You're solving mysteries.\"\n\n{student_name} looked at the mustache on the juice carton. It was true. The sleepiness was gone. The brain was buzzing, making new predictions, trying to figure out what {friend_name} would do next.\n\n\"Okay,\" {student_name} said, a smile starting. \"You got me. But why milk? Why not something else?\"\n\n\"Ah,\" {friend_name} said, holding up a finger. \"That is the real question. And the answer is in your own head.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"I don't need to look in the fridge,\" {student_name} said, closing their eyes. \"I need to look inside.\"\n\nWe went quiet. {student_name} stood very still in the middle of the kitchen, listening to their own body. It took a moment. The house was quiet. The toaster ticked as it cooled down. \n\nThen, {student_name} felt it. A tiny shiver, right at the back of the neck. It wasn't cold. It was more like a spark. It felt like a tiny flash of lightning zipping down the spine, fast as thought. \n\n\"Whoa,\" {student_name} whispered.\n\n\"What?\" {friend_name} asked, leaning in. \"What did you find?\"\n\n\"A tingle,\" {student_name} said. \"Like electricity. Right here.\" {student_name} touched the back of their neck. \"It's like my body is buzzing.\"\n\n\"That's it!\" {friend_name} said, snapping their fingers. \"That's the signal!\"\n\n\"The signal for what?\" {student_name} asked.\n\n\"For 'pay attention',\" {friend_name} said. \"When you tasted that milk, your brain sent a lightning bolt through you. It woke up every single neuron. It said, 'Hey! The world isn't what we thought! Wake up!'\"\n\n{student_name} rubbed their arms. The tingle was fading, but the memory of it was sharp. \"So that jump I did? That was the lightning?\"\n\n\"That was the lightning,\" {friend_name} said. \"Your brain was so surprised it sent a signal to your legs to move. Just in case. Just to be ready.\"\n\n\"But why did it feel so... big?\" {student_name} asked. \"It was just milk.\"\n\n\"Because your brain hates being wrong,\" {friend_name} said. \"And it loves learning. That zap? That's the feeling of your brain getting smarter.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "So {student_name} did what any good detective would do. Straight to the kitchen table, where {friend_name} was still grinning, and the question came out like a sneeze. \"Okay. How? How did my brain fall for it?\" Now, I have thought about that morning a lot, and here is what I believe happened inside that head. The brain is a guessing machine. It never waits around for the world to explain itself. It looks at a tall glass, pale and cold, and it makes a prediction. Orange juice. It has seen that glass a hundred times, so it guesses fast, and it sends the guess zipping from neuron to neuron like lightning through a wire. Get ready, the signals say. Tangy coming. And then the milk arrives, and the whole guess collapses. That is the moment the lightning really flashes. Because a wrong prediction is not a failure, not even a little. It is the brain sitting up straight. It is every neuron shouting at once, surprise, surprise, update the map! \"So my brain was not tricked,\" {student_name} said slowly. \"It was... learning?\" Exactly. That flash of surprise is how the brain rewrites itself. Next time, it will check the glass twice. It will sniff before it sips. The wrong guess taught it something the right guess never could. {friend_name} poured two fresh glasses and slid one across the table. \"For science,\" {friend_name} said. But something still itched at the back of my mind. If one surprise can rewrite a whole morning, what happens when the brain meets a surprise it truly cannot explain?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "So we tried it on someone smaller. Sooty, the class hamster, round as a bun and always sniffing. {student_name} held up a little brass bell. \"Watch his brain guess,\" {student_name} said. Ding. Then a sunflower seed, right into the bowl. Sooty stuffed it in his cheek like a tiny librarian shelving a book. We did it again. Ding. Seed. Again. Ding. Seed. And then, on the fourth ding, before the seed even landed, Sooty spun around and ran to the bowl. He sat there, whiskers forward, waiting. \"He's predicting!\" {friend_name} whispered. That is exactly what was happening. Somewhere in that walnut of a brain, neurons were firing their little lightning bolts, over and over, ding means seed, ding means seed, until the guess was so strong his paws moved before the food arrived. Practice had built the prediction, the way water wears a groove in stone. Then {student_name} rang the bell and did not give the seed. Sooty waited. He sniffed the empty bowl. He looked up at us with those bright bead eyes, and I swear his whole face said, excuse me? \"His brain got it wrong,\" {student_name} said, laughing. \"So now it updates.\" And it did. The next ding, Sooty waited a moment longer before he ran. He was learning to check, just like someone sniffing a glass before they sip. We gave him the seed anyway, because he had earned it, and because a surprise that teaches should still end in something good. On the way out, {friend_name} tucked the little bell into {student_name}'s pocket. \"For the next mystery,\" {friend_name} said. It is still there, I think. Small and brass and full of dings.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "So we built a brain out of spare parts. Well, almost. {student_name}'s robot was a wobbly little thing called Clank, two legs, a battery, and a tiny computer that could remember what worked. \"He doesn't know how to walk yet,\" {student_name} said. \"He has to guess.\" Clank stood up on the kitchen floor, lifted one foot, and tipped straight over. Bong. {friend_name} caught him before the second fall. \"He's terrible at this,\" {friend_name} said. \"He's perfect at this,\" {student_name} said. Because every time Clank fell, his little computer lit up, surprise, that guess was wrong, and it rewrote its prediction. Lean less left. Slower. Smaller step. Just like your neurons, sending their lightning flash through the body, update the map, update the map. Fall after fall, the guesses got better. He wobbled. He swayed like a drunk penguin. And then, on maybe the twentieth try, Clank took one step, and then another, and then three whole steps across the linoleum, past the table leg, all the way to {friend_name}'s shoe. We shouted. We actually shouted, because we could not help it. \"He learned it,\" {student_name} said, very quietly, holding Clank like something precious. \"Not by being right. By being wrong, over and over, and listening every time.\" That night, {student_name} set Clank on the shelf, and I thought about the milk, and the bell, and all the wrong guesses that teach us more than the right ones ever do. Your brain is doing it right now, actually. Guessing what I will say next. And if I end by telling you that {friend_name} drank the suspicious glass, and it was orange juice after all, well. Update the map.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Where should we look for our first clue?\"",
+      "options": [
+        {
+          "say_word": "Kitchen",
+          "label": "Look for clues in the kitchen",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Body",
+          "label": "Look for clues inside the body",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"How should we test our new prediction powers?\"",
+      "options": [
+        {
+          "say_word": "Hamster",
+          "label": "Teach the class hamster a trick",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Robot",
+          "label": "Build a walking robot",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_brain",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 9
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The brain-as-prediction-machine topic naturally builds suspense as a child notices small surprises and clues, then discovers how neurons send signals to update guesses, making mystery the most engaging fit for an 11-year-old.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2637,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2198,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1538,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1319,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0989,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Wobbly Wire)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0879,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "The storyteller (I)",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "It is okay to make mistakes because they help us learn",
+      "why": "The story shows that being surprised (a wrong prediction) is how the brain learns to do better next time."
+    },
+    "cast": [
+      {
+        "role": "The Storyteller",
+        "reused": false,
+        "why": "Establishes the frame, tells the tale, and closes it warmly."
+      },
+      {
+        "role": "The Curious Student",
+        "reused": false,
+        "why": "Asks the questions and drives the investigation to solve the mystery."
+      },
+      {
+        "role": "The Playful Friend",
+        "reused": false,
+        "why": "Causes the initial surprise with a joke and offers playful explanations."
+      },
+      {
+        "role": "The Kind Teacher",
+        "reused": false,
+        "why": "Explains the science of neurons, signals, and predictions."
+      },
+      {
+        "role": "The Class Hamster",
+        "reused": false,
+        "why": "Helps demonstrate how practice changes predictions in the endings."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Taking a sip of milk that you thought was orange juice",
+        "Your brain guesses what you will hear next",
+        "Neurons pass messages using electricity",
+        "A robot that tries to walk and falls down",
+        "A sunny kitchen during breakfast time",
+        "A curious student who loves solving puzzles",
+        "A playful friend who loves telling jokes",
+        "A kind teacher who knows a lot about science"
+      ],
+      "gathered_but_unused": [
+        "Your brain guesses what you will hear next and checks if it was right or wrong.",
+        "When your brain guesses wrong, it gets a jolt of surprise so it can learn and do better next time.",
+        "Neurons are tiny cells that pass messages to each other using electricity and chemicals.",
+        "A single neuron can connect to thousands of other neurons at once.",
+        "Your brain sends signals faster than a race car can drive.",
+        "If you hear a silly sound in a serious moment, your brain gets confused because it predicted something quiet.",
+        "Sometimes your brain fills in missing gaps so well that you don't even realize something was left out.",
+        "The more you practice a skill, the better your brain gets at predicting what will happen next in that activity."
+      ]
+    },
+    "safety_beat": "The student shows competence by carefully picking up the glass cup from the table and placing it safely in the sink before investigating.",
+    "motif": "A flash of lightning zipping through the body, carrying messages of surprise and learning.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.the_brain.age9to10.d1.pregen.da12bd",
+        "title": "The Wobbly Wire",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story's engine runs on a child's real want — to solve the mystery of the switched glass — and every segment ends leaning into the next question, while the science lands through sound ('Ding. Seed.', 'Bong', 'zipping like lightning') and the friendship is paid in attention, so no single voice is missing."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "giggle and a held breath",
+        "s2a": "leaning in, detective hat on",
+        "s2b": "wide-eyed, listening to their own neck",
+        "s3": "satisfied click of understanding",
+        "s4a": "delighted by a tiny indignant hamster",
+        "s4b": "cheering, then a warm last wink"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 10 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 28% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 3.4); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.5); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 29% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 28% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 29% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] narration heavy: only 37% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 28% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 29% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] narration heavy: only 37% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "10_the_brain_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

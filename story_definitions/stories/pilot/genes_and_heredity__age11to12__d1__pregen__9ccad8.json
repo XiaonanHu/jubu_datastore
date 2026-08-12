@@ -1,0 +1,305 @@
+{
+  "id": "story.genes_and_heredity.age11to12.d1.pregen.9ccad8",
+  "title": "The Recipe Book Train",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.genes_and_heredity",
+    "sel_theme": null,
+    "value_lesson": "Difference is not ranking; every shuffle of the deck makes a one-of-a-kind hand, and no hand is the best one.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "A journey from the kitchen table down into a single cell and out along the family tree, following one question: how did our traits travel to us?",
+  "slots": {
+    "cousin_name": {
+      "role": "The cousin who journeys beside us and gets a different envelope of traits",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Look at your thumbs,\" says Grandma Nessa. So we do. Mine bends back like a little hook. {cousin_name}'s sticks straight up, no bend at all. \"Same family,\" Nessa says, \"different cards.\"\n\nWe are at her kitchen table, the one with the blue checkered cloth, and cocoa warming on the stove. {cousin_name} rolls their tongue into a hot dog. I try. Mine just folds in half and lies there, like a slug napping.\n\n\"How come?\" I ask. \"We have the same grandma.\"\n\nNessa taps the old recipe book on the table. It is fat and worn, soft as a teddy bear's ear, with notes scribbled in the margins by her mother, and her mother's mother. \"This is a copy,\" she says. \"The real one is somewhere much, much smaller.\"\n\n\"Smaller than the book?\" says {cousin_name}.\n\n\"Smaller than a crumb,\" says Nessa. \"Every cell in your body has one. A whole recipe book, copied out, for making you.\"\n\nShe opens her coat pocket and takes out a thermos. She pours three cups, even though the cocoa on the stove is right there. \"A marvel,\" she says, \"deserves a warm sip and a slow look.\"\n\nWe sip. The kitchen goes very quiet.\n\nThen the sugar bowl glints.\n\nA pinprick of light, right in the middle of the sugar, like one grain has woken up. It grows. It hums, low and friendly, like the fridge at night. The kitchen seems to tilt, just a little, the way it does when you stand up too fast.\n\n\"Nessa,\" I whisper. \"The sugar bowl is glowing.\"\n\n\"So it is,\" she says, and she does not sound surprised at all. She sounds like someone whose train has come in. \"Drink up, you two. Nuclea wants to show us the original book. And she won't wait all night.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We step through the pinprick, and the kitchen folds away behind us like a napkin.\n\nNow we are standing inside something round and warm and humming. \"A cell,\" says Nuclea, hugging her ledger. \"One of trillions. And there—\" she points, \"is the book.\"\n\nIt is a staircase. A spiral staircase, turning up and up, and every step is made of glowing beads. Only four kinds. Nuclea says their names like old friends: A, T, G, C. \"Four letters,\" she says. \"That's the whole alphabet. And it spells you.\"\n\n\"Four letters spell all of me?\" says {cousin_name}.\n\n\"Three billion steps,\" says Nuclea. \"It spells everything.\"\n\nNessa pours cocoa from her thermos, right there on the third step. \"A marvel,\" she says, \"deserves a warm sip and a slow look.\"\n\nThen Nuclea does something wonderful. She takes hold of one tiny speck of bead, and she pulls. A silver thread comes out of it, thin as spider silk, and it stretches. Across the room. Down a long hall. Around a corner. Six feet of thread, Nuclea says, out of one speck too small to see. Then, quick as a yawn, it folds itself back into a dot.\n\n\"The thread won't hold long,\" she says. \"Before it folds away again, read me one gene. One recipe, off the staircase. Any one.\"\n\nWe climb. The beads glow under our fingers, warm as toast. I find a run of steps that keeps repeating, and I read the letters out loud, slow, the way Nessa reads recipes. T. G. A. C.\n\n\"That one,\" says Nuclea softly, writing in her ledger, \"is the recipe for the bend in your thumb.\"\n\nI look at my thumb. The little hook. Written here, in beads, in every cell I have.\n\n\"So the whole book about us,\" whispers {cousin_name}, \"fits inside something we can't even see?\"\n\nNuclea smiles. \"Every copy of it. In every cell. All night long.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We step through the pinprick, and the kitchen folds away behind us like a napkin.\n\nNuclea leads us down a corridor that smells of paper and cocoa, into the coziest little office I have ever seen. A green lamp. A wooden table. Two dealers in waistcoats, shuffling cards.\n\n\"The shuffling station,\" Nuclea whispers. \"Mind your elbows. Tonight's deal is nearly done.\"\n\nThe cards are not ordinary cards. Each one has a picture: a hooked thumb, a straight thumb, a rolled tongue, a flat one. \"Trait tickets,\" says Nuclea. \"One deck from your mother. One from your father.\"\n\nThe dealers slide the cards across the table, quick and gentle, half and half, exactly half and half. \"Fifty percent from each,\" says Nuclea. \"Always. But which fifty—\" she taps her ledger, \"that is the shuffle.\"\n\nTwo envelopes land on the table with a soft plap. One has my name on it. One has {cousin_name}'s.\n\nNessa pours cocoa all round, even for the dealers, who sip without stopping their hands. \"A marvel,\" she says, \"deserves a warm sip and a slow look.\"\n\nWe open my envelope. Hooked thumb. Flat tongue. A curl of dark hair. Then {cousin_name} opens theirs, and we both lean in, because the tickets inside are plainly, cheerfully different. Straight thumb. Rolled tongue. Freckles across the nose like spilled cinnamon.\n\n\"Same grandma,\" I say slowly. \"Different cards.\"\n\n\"Now you see it,\" says Nuclea.\n\nA train whistle sounds, far off and friendly. The dealers stamp both envelopes, thump, thump, and slide them across to us.\n\n\"Keep yours,\" says Nuclea. \"The deal is done. But I wonder—\" she looks at us over her ledger, \"which tickets did you get, and which went to your cousin instead? Look closely, travelers. The answer is sitting at the kitchen table, right beside you.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The light folds us small, smaller than a crumb, and sets us down on a platform beside a long, low train. Its cars are the color of cocoa. The engine hums, low and friendly, like the fridge at night.\n\n\"Tickets,\" says a voice.\n\nThe conductor is tall and thin as a pencil, with a cap too big for him and a puncher in his fist. \"Alder,\" he says. \"Conductor Alder. End of the line, family tree, last stop. Lantern's already lit, and it won't wait all night.\" He looks at our hands. \"Tickets, please.\"\n\nI look down. There is a ticket in my fist. {cousin_name} has one too. Alder punches mine, then theirs, and squints at the holes like they say something he likes.\n\n\"What did you find back there?\" {cousin_name} whispers to me.\n\nBefore I can answer, the whistle goes. Not loud. Warm, like a kettle just starting to think about it.\n\nWe climb aboard. The seats are soft as a teddy bear's ear, and the window runs the whole length of the car. Outside, the track stretches ahead, two long rails twisted together like a rope of licorice, and along it, little platforms with signs.\n\n\"First stop,\" Alder calls, \"eye color.\"\n\nWe do not stop. We slow, and the sign slides past, and I see {cousin_name}'s eyes in the window glass, and mine beside them, same family, different cards.\n\n\"Blood type,\" Alder calls. \"Tongue-rolling.\"\n\n{cousin_name} rolls theirs at me through the glass. I make my slug face. We laugh, because we cannot help it.\n\nThen the train slows for real, and there on the next platform, cocoa thermos in hand, is someone I almost know. Young. Bright-eyed. Waving like the train is hers.\n\n\"Nessa?\" I say.\n\nShe climbs aboard, pours three cups from the thermos, and holds up a ticket of her own. \"One of mine never showed,\" she says, \"not once, my whole life. Until it met a match.\" She sits down beside us and wraps her hands around her cup. \"Drink up. The last stop is the family tree, and something has been riding hidden in it a long, long time.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The train slows to a stop so soft I feel it in my teeth. Outside the window, a tree rises bigger than any tree has a right to be, its trunk wide as a house, its branches lit by a single lantern hanging from the lowest limb.\n\n\"Last stop,\" says Alder. \"Family tree.\"\n\nWe climb down onto moss that squishes like cake. Young Nessa leads, thermos in one hand, and we climb — branch to branch, easy as stairs — up past leaves that are not leaves at all. They are portraits. Hundreds of them, swaying gently, each one framed in bark. A woman with my chin. A man with Nessa's bright eyes.\n\n\"Higher,\" Nessa says. \"The newest leaves grow at the top.\"\n\nAnd there, on a twig still green and growing, is a portrait half-finished. Me. My hook thumb, my fold-flat tongue, my freckles coming in one by one like someone is dotting them with a fine brush, right now, as we watch.\n\n\"That's me,\" I whisper. \"It's still painting me.\"\n\n\"Always is,\" says Nessa. \"Your whole life long.\"\n\nThen {cousin_name} laughs out loud. On the twig beside mine, another portrait is finishing itself — and its hair is red. Bright, bright red, like nobody's in the whole family.\n\n\"There she is,\" Nessa says softly. \"My mother's red hair. My ticket that never showed. It rode hidden in the book for three generations, waiting for a match. And tonight it finally climbed into the front seat.\"\n\nShe presses a plain ticket into my palm. It is warm, like it has been in a pocket a long time.\n\nWe sit on the branch, the three of us, and Nessa pours the last of the cocoa. Below us the lantern swings. I sip, and look at my leaf, and try to trace my freckles back — but the trail tangles, the way recipes do when everybody adds a note.\n\n\"Some you can trace,\" Nessa says, reading my face. \"Some stay a mystery. Half from your mother, half from your father, shuffled like cards. The book gets copied either way.\"\n\nThe light folds us big again, back at the blue checkered cloth. The sugar bowl is just a sugar bowl. But in my pocket there is a small card, and on it, in Nessa's mother's handwriting: one new page, half from each, shuffled, ours alone.\n\n\"Mine's the freckles,\" I say. \"I think.\"\n\n\"Worth a warm sip,\" says Nessa, \"and a slow look.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The train slows to a stop so soft I feel it in my teeth. Outside the window, a tree rises bigger than any tree has a right to be, its trunk wide as a house, its branches lit by a single lantern swinging from the lowest limb.\n\n\"Last stop,\" says Alder. \"Family tree.\"\n\nWe climb down onto moss that squishes like cake. Young Nessa leads, thermos in hand, and we climb — branch to branch, easy as stairs — up past leaves that are not leaves at all. They are portraits, swaying gently, each one framed in bark. A woman with my chin. A man with {cousin_name}'s straight thumb.\n\n\"Higher,\" says Nessa. \"The newest leaves grow at the top.\"\n\nAnd there, on two twigs side by side, hang two portraits still wet with paint. Mine: hook thumb, fold-flat tongue, freckles. Theirs: straight thumb, tongue like a hot dog, and hair coming in red. Bright, bright red, like nobody's in the whole family.\n\n\"Two hands,\" Nessa says, \"dealt from the same deck.\"\n\nWe sit on the branch between our leaves, and Nessa pours the cocoa, and we look. Really look.\n\n\"Your hair,\" I say to {cousin_name}. \"It's like the tree saved up all its red just for you.\"\n\n\"Your freckles,\" {cousin_name} says back. \"They're like... connect-the-dots that nobody finished. In a good way.\"\n\nWe laugh, because we cannot help it.\n\nNessa tucks a red ticket into {cousin_name}'s pocket and a blue one into mine. \"Neither hand is better,\" she says. \"There is no better. There is only yours, and yours, and the deck that keeps on shuffling.\"\n\n\"Same grandma,\" {cousin_name} says, like they're hearing it new.\n\n\"Different cards,\" I say.\n\nThe light folds us big again, back at the blue checkered cloth. The sugar bowl is just a sugar bowl. But in my pocket there is a small card, and on it, in Nessa's mother's handwriting: one new page, half from each, shuffled, ours alone.\n\n{cousin_name} holds up their blue ticket against my red one, and grins.\n\n\"Good hand,\" they say.\n\n\"Good hand,\" I say back.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two doors, travelers,\" Nuclea whispers, hugging her ledger. \"Shall we climb the spiral staircase and read the letters ourselves, or visit the shuffling station and watch the cards being dealt?\"",
+      "options": [
+        {
+          "say_word": "Climb",
+          "label": "Climb the DNA staircase and read the four-letter code",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Shuffle",
+          "label": "Visit the shuffling station and watch the trait cards dealt",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Last climb of the night,\" says young Nessa, pouring the cocoa. \"Do we look for your own leaf and trace one trait home, or sit with your cousin's leaf and see how the same deck dealt two different hands?\"",
+      "options": [
+        {
+          "say_word": "Trace",
+          "label": "Find our own leaf and trace one inherited trait to its source",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Compare",
+          "label": "Sit with our cousin's leaf and compare the two different hands",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.genes_and_heredity",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 8
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The material naturally lends itself to a journey through the cell's recipe book, letting an 11-year-old travel from DNA to traits to why siblings differ, which is more engaging than a quiet mood piece and more substantive than a romp for this conceptual science topic.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma Nessa's younger self, who keeps a thermos of cocoa in her coat pocket and insists every marvel deserves a warm sip and a slow look.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Difference is not ranking; every shuffle of the deck makes a one-of-a-kind hand, and no hand is the best one.",
+      "why": "The material offers it naturally through the card-shuffle fact and the sibling character, and it quietly counters any superiority framing without lecturing."
+    },
+    "cast": [
+      {
+        "role": "Nuclea, a small busy librarian who is our own cell nucleus personified",
+        "reused": false,
+        "why": "She opens the smallest door, pulls the recipe book from its shelf, and gives the journey its guide-voice of curious order."
+      },
+      {
+        "role": "Grandma Nessa, appearing as a young woman inside the journey",
+        "reused": false,
+        "why": "She carries the cozy accent, points out which traits she handed down, and anchors the hidden-passenger reveal with her own carried gene."
+      },
+      {
+        "role": "Conductor Alder, who punches four kinds of colored tickets on the chromosome train",
+        "reused": false,
+        "why": "He runs the train leg of the journey, names the gene stops, and shows lightly where to stand when the platform is a real station."
+      },
+      {
+        "role": "Our cousin, traveling beside us and receiving different cards and tickets",
+        "reused": false,
+        "why": "The cousin makes the sibling-difference puzzle personal: same parents' deck, different hand, no one better or worse, just differently shuffled."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "recipe book of about 20,000 genes written in four letters",
+        "DNA unspooling two meters from one cell, folding back into a dot",
+        "half the deck from each parent, shuffled, so siblings differ",
+        "train along a chromosome, each stop a gene with a trait sign",
+        "blood type as four colored tickets from one gene's versions",
+        "red-hair gene riding hidden for generations",
+        "family tree as a real tree with portraits, newest leaves at the top",
+        "identical twins fading into slightly different shades (glimpsed, not dwelt on)"
+      ],
+      "gathered_but_unused": [
+        "Every cell in your body contains a complete copy of your DNA, a recipe book with about 20,000 genes written in a code of just four chemical letters.",
+        "If you unspooled all the DNA from just one cell, it would stretch about two meters long, yet it folds up small enough to fit inside a nucleus a hundred times thinner than a hair.",
+        "You inherit half your genes from your mother and half from your father, but which half is shuffled like a deck of cards, which is why siblings with the same parents can look so different.",
+        "Traits like eye color, dimples, and whether you can roll your tongue are passed down through genes, but many traits, like height, come from many genes working together plus the world around you.",
+        "Identical twins share all the same genes, yet they still develop small differences, because experiences and environment can change how genes are used.",
+        "Some traits skip generations: a gene for red hair can hide quietly in a family for years, carried by people who don't have red hair themselves, until it meets another hidden copy.",
+        "Your blood type is inherited, and the four main types, A, B, AB, and O, come from different versions of a single gene passed down from your parents.",
+        "Humans share about 99.9 percent of their DNA with every other human on Earth; the tiny fraction that differs is what makes each person's combination of traits unique."
+      ]
+    },
+    "safety_beat": "At the chromosome station, Conductor Alder taps the painted line with his punch and says, 'Behind the yellow, tickets out,' showing once, lightly, where to stand before the train comes in.",
+    "motif": "A worn recipe book, copied into every cell, annotated by generations, and finally carried home with one new page.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already braids wonder, warmth, and plain-spoken science into a single voice: Nessa's fondness is paid as attention, the sound-words land as their own small sentences, and the marvels are each given a warm sip and a slow look rather than being rushed past."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a held breath as the sugar bowl glints",
+        "s2a": "wide-eyed leaning in, fingers tingling on the warm beads",
+        "s2b": "delighted suspense, the giggle of opening your own envelope",
+        "s3": "cozy rocking motion, a giggle at the slug face, then a small catch at young Ness",
+        "s4a": "hushed awe on the branch, then satisfied and drowsy by the checkered cloth",
+        "s4b": "hushed awe shared between cousins, then a grinning, sleepy goodnight"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "09_genes_and_heredity_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

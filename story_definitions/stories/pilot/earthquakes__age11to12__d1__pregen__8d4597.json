@@ -1,0 +1,299 @@
+{
+  "id": "story.earthquakes.age11to12.d1.pregen.8d4597",
+  "title": "The School That Learned to Sway",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.earthquakes",
+    "sel_theme": null,
+    "value_lesson": "Failing the first time is how you learn what the problem really is — Zoe's glued-down block tower snaps, and that snap is exactly the clue that solves everything.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A girl whose school is closed for earthquake retrofitting visits the site, tests her own ideas about keeping buildings safe, and discovers that the strongest buildings are the ones that know how to move.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "On the first Monday of spring, Zoe ran up the hill to Hillcrest School and stopped so fast her shoes squeaked on the pavement. The gym had vanished. Well, not vanished — but it was wrapped head to toe in scaffolding, like a present in too much wrapping paper, and a big white notice hung on the door. CLOSED, it said. FOR EARTHQUAKE RETROFITTING. Zoe read it twice. Retrofitting. She knew earthquakes. She did not know retro anything. Every morning that week she pressed her face to the fence on her way in, peeking through the diamond-shaped gaps. She saw men carrying steel beams. She saw dust drifting in the sun like slow gold glitter. And once, she saw a woman in a welder's mask lift the mask, catch Zoe peeking, and wave — not a shooing wave. A come-here wave. So on Friday, Zoe went. The woman had silver at her temples and a voice that rose and fell like a song. \"You've been watching us all week, darlin',\" she said. \"I am Granny Imani. I do the welding. And you — you must be the girl who loves this old school.\" Zoe nodded, and before she could stop it, her worry tumbled right out. \"Is the gym broken? It's my favourite. It's creaky and it smells like floor polish and I know every squeaky board. Why does it need fixing? What's a retrofit?\" Granny Imani wiped her hands on a rag, smiling. \"Come, then. Stand here, on the safe side, where I can see you. Let me show you what we're doin' for your old friend.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Under the gym it is, then,\" Granny Imani says, and she lifts a heavy plastic flap on the side of the building. Cool air comes out. Zoe ducks under the flap and stops. She is underneath her whole school. It floats above her on rows of yellow jacks, and she can see the bare dirt underneath. \"We lifted it,\" Granny Imani says, \"just a little. Enough to slide some new feet underneath.\" She leads Zoe to a stack of giant black pads, thick as dinner plates and wider than dinner tables. \"Touch it,\" she says. Zoe presses her palm flat. The pad is smooth, a little warm, and it gives a little, like the rubber on a shoe sole. \"Rubber and steel,\" Granny Imani says. \"Rubber, steel, rubber, steel. Like a stack of Oreos, yes? The rubber lets the ground slide sideways. The steel holds the school steady up and down.\" Zoe looks up at the underside of the gym, floating there. \"That's it?\" she says. \"Squishy pads?\" Granny Imani laughs, a low warm sound. \"Wait until you see what happens when the ground moves.\" On the way out, Zoe sees a poster on the site office wall. A red line zigzags across a map. Beyond it, a little volcano puffs smoke. \"Same restless plates,\" Granny Imani says. \"They make the earthquakes here. They make the mountains there.\" Zoe looks back at the giant pads. They seem too soft to beat a whole earthquake.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"To the lab, then,\" Granny Imani says, and she drives Zoe across town to a big concrete building at the university. Inside, her nephew Dev is standing next to a platform the size of a garage floor. \"This is the shake table,\" he says. \"It does earthquakes. Small ones. Safe ones.\" On the table sit two little buildings. One is glued stiff to a wooden base. The other sits on tiny rubber pads, loose as a cake on a plate. \"Magnitude five first,\" Dev says. He turns a dial. The table rumbles. The stiff building shakes so hard its windows pop out. The padded one just glides side to side, like it is skating on ice. \"Now six,\" Dev says. He turns the dial one more number. The rumble gets much louder, much faster. The stiff building snaps in half and falls over. The padded one keeps gliding, back and forth, back and forth, like it has all day. Zoe laughs. \"It just rides it out,\" she says. Dev nods. \"That's base isolation. The ground moves. The building doesn't have to.\" On his shelf, Zoe sees a little model volcano and a map with arrows pushing into each other. \"Same plates that shake us,\" Dev says, \"they also build mountains.\" Zoe looks at the broken stiff building, then the smooth rubber pads. She has an idea about what should work. She wants to try it herself.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "All weekend, Zoe couldn't sit still. On Saturday morning she cleared the kitchen table, found the wooden blocks from the game cupboard, and pulled out the baking tray. She filled it with wobbly jelly, because Granny Imani had said the ground moves like something soft, not like a floor. \"Right,\" Zoe said. \"Let's build.\" She stacked the blocks tall and careful, one on one, until it stood like a little tower. Then she had her big idea. Glue. She ran for the glue stick and stuck the bottom block hard to the tray, pressing it down with both thumbs. \"There,\" she said. \"Nothing's moving you.\" She held the tray with both hands and shook it side to side, the way the ground shakes. The jelly wobbled. The tray rattled. And the tower — snap. It broke clean in half, blocks tumbling into the jelly with a soft plop. Zoe stared. \"But I glued it,\" she said out loud. \"I made it strong.\" She picked up the broken pieces, turning them over in her fingers, and then she remembered. The thing she'd seen at the school. The way the building wasn't meant to fight the shake at all. It was meant to move with it. \"Oh,\" she whispered. \"You don't hold on. You let go.\" She pulled the rubber liners from the jar lids in the drawer — the grippy kind Mum used for opening stubborn jam — and laid them flat on the tray. She rebuilt the tower on top, block by block, no glue this time. Then she shook the tray again. The jelly rippled. The rubber slid and shifted. And the tower swayed — a slow, gentle lean, side to side — but it did not fall. Zoe laughed so loud the cat jumped off the windowsill. \"You did it,\" she told the tower. \"You danced.\" She found a marker and wrote on the bottom block, in her best letters: Tower Zoe.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "On Monday morning, Zoe carried Tower Zoe up the hill in both hands, like a birthday cake. The scaffolding was gone. The gym doors stood wide open, and inside, Granny Imani was welding the very last steel X-brace, sparks falling like tiny orange stars. She lifted her mask. \"You came! And you brought a friend.\" \"It's my tower,\" Zoe said. \"It survived the jelly. I wanted the crew to see.\" Granny Imani crouched down, and her lilt went soft and sing-song. \"Look here, darlin'. Every brace spreads the shaking, the way arms spread a hug — so no one wall carries it all. And every one I weld is a promise. A promise that a child in this room will be safe.\" Zoe set her tower on the floor, right above the hidden isolators she'd learned about, and the wood hummed faintly under her knees. Somewhere below, the whole building was ready to glide. Granny Imani pressed a stamp onto a paper hard hat and held it out. JUNIOR RETROFIT CREW, it said. \"Welcome aboard,\" she said. Zoe wore it all the way home, past the fence, past the pavement where her shoes had squeaked. Her school hadn't just gotten stronger. It had learned to dance.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "On Monday after school, Zoe carried Tower Zoe back to Dev's lab, and Dev grinned when he saw it. \"The official test,\" he said. \"Full dial. Magnitude seven. Are you ready?\" Zoe swallowed. \"Ready.\" She set her tower on the shake table, on its little rubber pads, and stepped back beside him. Dev turned the dial all the way. The table roared. It shook so hard the pencils danced in their cup. And Tower Zoe swayed — a slow, easy glide, side to side, like it was riding waves. It did not fall. \"Yes!\" Zoe shouted, because she could not help it. Dev slowed the table, and the printer hummed and spat out a long strip of paper. \"The wobble graph,\" he said. He pointed to two lines. One was a wild black scribble, jagged as a mountain range. \"That's the stiff one — it fought the shake and lost.\" Beside it ran a tiny, gentle wave, smooth as bathwater. \"And that's yours.\" He taped the graph to the lab wall, right next to photographs of real towers that sway on purpose, and wrote her name underneath in thick marker. Zoe carried a copy home folded in her pocket. That night she took it out and smoothed it flat. Proof, in black and white, that the best way to stand tall is to learn how to lean.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"So, little engineer — you want to come under the gym with me and touch the real pads, or you want to go shake some buildings to bits at my nephew's lab?\"",
+      "options": [
+        {
+          "say_word": "Real pads",
+          "label": "Go under the gym with Granny Imani to see and touch the actual base isolators",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Shake things",
+          "label": "Visit Dev's university lab and watch models get rattled on the shake table",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Your tower survived, so — do we carry it to the gym to show the crew, or do we take it back to the lab and crank the dial all the way up?\"",
+      "options": [
+        {
+          "say_word": "Show the crew",
+          "label": "Bring Tower Zoe to the reopened gym and show Granny Imani and the crew what she discovered",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Crank it up",
+          "label": "Take Tower Zoe back to the lab for the full magnitude 7 test and the printed proof",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.earthquakes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "Earthquake engineering is inherently about solving the problem of buildings failing during shaking, making the try-fail-try-again structure of problem_and_fix a natural fit for exploring base isolators and flexible frames.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3889,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2778,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1111,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1111,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0556,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0333,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Granny Imani, the welder, whose warm Trinidadian lilt turns every explanation into a small song",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Failing the first time is how you learn what the problem really is — Zoe's glued-down block tower snaps, and that snap is exactly the clue that solves everything.",
+      "why": "The problem_and_fix pattern already carries it: the failed stiff-building attempts are historical fact, so the lesson rides along naturally without a single word of preaching"
+    },
+    "cast": [
+      {
+        "role": "Zoe, age 11, whose school gym is closed for retrofitting",
+        "reused": false,
+        "why": "The named hero — a kid with a concrete personal stake (her gym, her climbing rope, her lunch spot) who keeps visiting the site and piecing together the science herself"
+      },
+      {
+        "role": "Granny Imani, a welder on the retrofit crew",
+        "reused": false,
+        "why": "The cozy mentor who never lectures; she hands Zoe real things to touch and test, and her accent carries the story's warm, musical accent tone"
+      },
+      {
+        "role": "Dev, a lab technician at the university shake-table lab",
+        "reused": false,
+        "why": "Opens the wider door to the engineering lab and lets Zoe run the decisive magnitude experiment herself in the branch where she visits him"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "base isolators as giant rubber-and-steel pads that let the ground slide while the building barely moves",
+        "isolator cross-section like a stack of Oreos squishing sideways like a deck of cards",
+        "engineers retrofit old buildings with steel braces and isolators, giving them a second chance",
+        "failed attempt: making buildings as stiff and strong as possible, and they cracked anyway",
+        "failed attempt: bolting buildings tightly to foundations, which sent the energy straight into the walls",
+        "the insight: you can't beat an earthquake with strength alone — control the movement instead of stopping it",
+        "shake-table test where a stiff model and an isolated model behave completely differently",
+        "magnitude 6 releases about 30 times more energy than magnitude 5",
+        "some towers sway on purpose because stiff buildings crack while flexible ones bend and survive",
+        "welder explaining that each X-brace spreads the shaking force and is a promise of safety",
+        "construction site at an old brick school with scaffolding and welding sparks"
+      ],
+      "gathered_but_unused": [
+        "Base isolators are giant rubber-and-steel pads placed under a building, and during an earthquake they let the ground slide back and forth while the building above barely moves.",
+        "A magnitude 6 earthquake releases about 30 times more energy than a magnitude 5, even though the number only went up by one.",
+        "Some skyscrapers are built to sway on purpose during an earthquake, because a stiff building that refuses to move can crack, while a flexible one bends and survives.",
+        "Engineers retrofit old buildings by adding steel braces, stronger columns, or base isolators, giving a building that was never designed for earthquakes a second chance.",
+        "In a shake-table test, engineers build a model building, put it on a platform, and shake it hard to watch exactly where it breaks — so the real building never has to.",
+        "The Transamerica Pyramid in San Francisco is designed so its foundation can move up to several feet sideways in a big quake, riding the motion instead of fighting it.",
+        "Rubber base isolators are made of alternating thin layers of rubber and steel, and the steel keeps the building steady vertically while the rubber lets it slide horizontally.",
+        "Japan has retrofitted thousands of buildings since a devastating 1995 earthquake, and now some train stations and hospitals sit on isolators so they can keep working right after a quake."
+      ]
+    },
+    "safety_beat": "In s2a, Granny Imani casually walks Zoe along the painted visitor path and hands her a hard hat before they step under the gym — shown once, lightly, as pure competence with zero warning language or tension",
+    "motif": "A tower of wooden blocks on a wobbly surface — first glued stiff and snapping, then floating free and surviving.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.earthquakes.age9to10.d1.pregen.b27ade",
+        "title": "The Tower That Learned to Wobble",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already pairs a child's real want with legible, hands-on making: Zoe watches, asks, tests, fails once at the kitchen table, and succeeds, with the engineering shown step by step in warm, speakable prose."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and a little worried, then welcomed",
+        "s2a": "wide-eyed underneath, hands-on wonder",
+        "s2b": "leaning in, delighted by the skating building",
+        "s3": "busy and determined, a small crash, then a triumphant giggle",
+        "s4a": "proud and snug, welcomed aboard",
+        "s4b": "held breath, then fist-pump satisfaction"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 1 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "05_earthquakes_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,319 @@
+{
+  "id": "story.pixels_and_screens.age11to12.d1.pregen.206e9f",
+  "title": "The Band That Wasn't There",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.pixels_and_screens",
+    "sel_theme": null,
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A strange dark band in a photo leads a kid to discover how a number in memory becomes light in the eye, sixty times a second.",
+  "slots": {
+    "photo_subject": {
+      "role": "The picture displayed on the lab screen that Theo photographs",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a golden banana on a bright blue background"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The computer lab after school smells like warm dust and the lemon wipes Ms. Okafor uses on the keyboards. Theo is the last one here, and he has a job to do.\n\nOn the big monitor glows the class picture: {photo_subject}. It is so bright it almost hums. Theo holds up his phone, because his sister Nadia is never going to believe how good it looks on this screen. She loves this stuff. She once spent a whole dinner explaining why the microwave clock is green.\n\nClick.\n\nTheo looks at the photo. Then he looks at the screen. Then back at the photo.\n\n\"No way,\" he says out loud.\n\nBecause there, slanting across the photo like a fat gray stripe, is a dark band. It covers half the banana. But when he looks up at the real monitor, the picture is smooth. Perfect. No band at all.\n\nHe takes another picture. Click. The band is back, in a slightly different place.\n\n\"That is not there,\" Theo tells the screen. The screen does not argue. It just glows.\n\nHe leans in close. He waves his hand in front of the monitor. Smooth. He takes a third photo, holding his breath this time, as if that could help. Click. Band.\n\n\"Theo?\" Ms. Okafor is stacking chairs in the corner, and she has that smile teachers get when they already know the answer to something. \"Find something interesting?\"\n\n\"My photo has a stripe in it,\" Theo says. \"But the screen doesn't. I checked like five times.\"\n\n\"Hmm,\" says Ms. Okafor, which is not an answer at all. She sets down the last chair. \"Well. The lab is yours until five, if you want to poke at it.\"\n\nTheo is already reaching for his phone to call Nadia. Because a band that shows up in a photo but not in real life? That is not a glitch. That is a clue.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Nadia arrives in nine minutes flat, still wearing her swim bag, and Theo holds up the phone without a word. She looks at the photo. She looks at the screen. Her eyes go huge.\n\n\"Oh, we are so doing this,\" she says.\n\nMs. Okafor keeps a magnifying glass in the supply drawer, the heavy kind with a metal rim, and she slides it across the desk like she's passing them something valuable. \"Careful with my treasure,\" she says.\n\nTheo presses it gently against the monitor, right on the banana's yellow curve.\n\nThe smooth picture falls apart.\n\n\"Whoa,\" he breathes. Up close, the banana isn't a banana at all. It's rows and rows of tiny glowing tiles, packed together like the mosaic on the community center wall. Except each tile is glowing from inside.\n\n\"Look closer,\" Nadia says. She's practically lying on the desk. \"Each tile. Tell me what you see.\"\n\nTheo tilts the glass. Each little tile is really three even tinier lights, standing side by side. One red. One green. One blue. On the yellow part of the banana, the red and green ones are blazing and the blue is dim. On the blue background, it's the opposite — blue burning bright, the other two barely awake.\n\n\"They're mixing,\" Theo says. \"Like paint. But with light.\"\n\n\"They're called pixels,\" Nadia says, and she says it like she's handing him a present. \"Picture elements. Every picture on every screen is a mosaic of them. Red, green, blue, over and over, millions of them, and your eye just... mixes it all together.\"\n\nTheo pulls the glass away. Banana. Puts it back. Tiles. Away. Banana.\n\n\"Okay, but wait.\" He picks up his phone again. \"If it's all just little lights glowing away — then why does my camera see a stripe?\"\n\nNadia's grin gets wider. \"That,\" she says, \"is the good part.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Nadia arrives in nine minutes flat, still wearing her swim bag, and Theo holds up the phone without a word. She looks at the photo. She looks at the screen. Her eyes go huge.\n\n\"Okay,\" she says. \"We need to catch it in the act.\"\n\n\"Catch what? Nothing's moving.\"\n\n\"That's what it wants you to think.\" She taps his phone. \"Does this thing do slow motion?\"\n\nIt does. Theo props the phone against a stack of keyboards, aims it at the banana, and hits record. They let it run for ten seconds. Nadia is gripping the back of his chair hard enough to wobble it.\n\n\"Play it,\" she says. \"Slow.\"\n\nThey watch. And there it is — something Theo's eyes have never once caught in his whole life. In the slowed-down video, the picture isn't just sitting there. A bright wave sweeps down the screen, top to bottom, drawing the picture as it goes. Then it jumps back to the top and does it again. And again. And again.\n\n\"It's repainting itself,\" Theo whispers. \"The whole screen. Over and over.\"\n\n\"Sixty times a second, probably,\" Nadia says. \"It's called the refresh. And no —\" she holds up a finger, because she knows him, \"— not like refreshing a drink, not like refreshing a webpage. Like a painter repainting the same wall, top to bottom, so fast you never catch the brush moving.\"\n\nTheo stares at the monitor. Perfect, smooth, still. Lying to his face, sixty times a second.\n\n\"So my camera...\"\n\n\"Your camera snapped its picture in the middle of a repaint. Half the wall was fresh, half was still waiting. That's your band.\" Nadia spins the chair around to face her. \"The screen was never showing the whole picture at once, Theo. Not ever. It's a mosaic of light that gets rebuilt faster than your eyes can see.\"\n\nTheo looks at the banana. The banana, somehow, looks smug.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Nadia arrives in seven minutes flat, still wearing her swim team jacket, and Theo watches her eyes go wide the second he shows her what he found.\n\n\"Okay,\" she breathes, like someone just handed her a present. \"Okay, okay, okay.\"\n\nShe goes straight to the whiteboard and starts drawing. Tiny squares, rows and rows of them, like a mosaic made of light. \"Every pixel,\" she says, \"is three tiny lamps. Red, green, blue. That's it. That's the whole trick.\" She dots three little circles inside each square. \"And the graphics chip? It reads numbers in memory — like two-five-five, two hundred, zero — and tells each lamp exactly how bright to glow. Red all the way up, green most of the way, blue off. Gold.\"\n\nTheo stares at the mosaic. \"So the banana is just... numbers?\"\n\n\"Numbers becoming light,\" Nadia says, and her voice goes soft and reverent, the way it does. \"And here's the part that's going to break your brain. The screen doesn't paint the picture once. It paints it, wipes it, and paints it again. Sixty times a second. That's the frame rate. Sixty whole paintings, every single second, and your eyes never catch a single one.\"\n\nThe lab hums. The monitor glows.\n\n\"But my camera,\" Theo says slowly, \"takes its pictures at a different speed.\"\n\nNadia stops. She turns. She is grinning like crazy, but she waits.\n\n\"So sometimes,\" Theo says, \"my camera catches the screen... halfway. Half the old painting, half the new one. And the seam where they meet—\"\n\n\"—is the band,\" Nadia finishes, barely a whisper. \"Theo. The band was never on the screen. It was the instant between two paintings.\"\n\nTheo looks at the monitor. Sixty paintings a second. Happening right now. Happening the whole time.\n\n\"Nadia,\" he says. \"I want to see it.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Feel it,\" says Ms. Okafor, and she vanishes into the supply closet. She comes back holding something small and square and worn soft at the corners. \"From the animation shelf,\" she says. \"Sixty pages. One second.\"\n\nIt's a flipbook. A fat little pad of paper, and on the first page, a cat crouches.\n\n\"Hold it with your thumb,\" Nadia says, practically vibrating. \"Flip slow first. Just look.\"\n\nTheo flips slow. Page by page, the cat creeps upward — a whisker here, a paw there. Sixty separate drawings. Sixty still, quiet cats.\n\n\"Now fast,\" Nadia whispers.\n\nTheo bends his thumb and lets the pages run. Riffle. And the cat jumps — smooth as water, one clean leap, up and over and gone. Sixty frozen cats melt into one living one, right there in his hands.\n\n\"Whoa,\" Theo says.\n\n\"That's the frame rate,\" Nadia says. \"That's what the graphics chip is doing right now, sixty times a second, so fast your eyes give up and just say cat.\" She flips it again herself, greedy for it. \"Video games do the exact same thing. And Theo — the science museum downtown has a whole wall, thousands of tiny lights you can touch. Red, green, blue. You can stand inside a pixel.\"\n\n\"Before you go,\" Ms. Okafor says, and the lab printer hums awake. Out slides a strip of paper: the banana photo, magnified until the mosaic shows — rows and rows of tiny glowing tiles, red, green, blue, red, green, blue.\n\nAt home, Theo tapes the strip into his notebook, right on the first page. He looks at it for a long time. A picture made of numbers. Numbers made of light.\n\n\"Sixty paintings a second,\" he tells the quiet room, \"and I caught the seam.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"One more time,\" Theo says, lifting his phone. \"But now I know what I'm hunting.\"\n\nNadia pulls a chair up close, her shoulder warm against his. \"The band is the seam between two paintings. Sixty chances a second. So we don't get lucky — we get patient.\"\n\nThey take pictures. Click. Clean. Click. Clean. Theo's thumb starts to ache. Click. Clean.\n\n\"It's weirdly hard to catch a thing on purpose,\" he mutters, \"when you caught it three times by accident.\"\n\n\"Science,\" Nadia says solemnly, and they both crack up.\n\nClick.\n\nTheo looks down. There it is — the fat gray band, slanting across the banana like it owns the place. Caught mid-refresh, half old painting, half new. \"Got you,\" he whispers.\n\n\"Print them,\" says Ms. Okafor, and she means both. Out of the lab printer they come, side by side: the banded photo and a clean one. Proof. The invisible repaint, pinned to paper.\n\nMs. Okafor carries the pair across the lab and tacks them onto a corkboard labeled in her neat handwriting: QUESTIONS WE LOVE. \"First entry of the year,\" she says.\n\n\"You should see the science museum downtown,\" Nadia says, bumping Theo's shoulder. \"There's a wall made of thousands of tiny lights. You can stand inside a pixel mosaic. We're going. I'm not asking.\"\n\nThen Ms. Okafor presses one more print into Theo's hand — a small square, the banana magnified until the mosaic shows: tiny tiles, red, green, blue, red, green, blue.\n\nIt rides home in his pocket, a pocket-sized piece of the trick. That night he holds it up to the lamp and the little tiles glow.\n\n\"Sixty paintings a second,\" Theo says, \"and here's the proof. Right here.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two ways to sneak up on this, Theo — do we press the magnifying glass right up against the glass and see what the picture is made of, or do we film the screen in slow motion and catch it in the act?\"",
+      "options": [
+        {
+          "say_word": "Magnify",
+          "label": "Look at the screen up close with the magnifying glass",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Film it",
+          "label": "Record the screen in slow motion to catch what eyes miss",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"So now you know the secret — sixty brand-new paintings every second. Do you want to feel how separate drawings turn into smooth motion, or hunt that sneaky band one more time now that you know exactly what it is?\"",
+      "options": [
+        {
+          "say_word": "Flipbook",
+          "label": "Try the sixty-page flipbook from the animation shelf",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Band hunt",
+          "label": "Photograph the screen again to catch the mid-refresh band on purpose",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.pixels_and_screens",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core material—how a number in memory becomes light in your eye sixty times a second without you noticing—is naturally a hidden-process question that clues (tiny squares, RGB, refresh) can gradually answer, which fits mystery better than a blocked-goal fix or a step-by-step build.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3457,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2963,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1605,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0741,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Night We Shrunk the Whale)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0741,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.037,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Nadia, the older sibling, whose eyes go wide at every tiny glowing detail and who treats each clue like a treasure she can't wait to hand over",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": false,
+      "value": null,
+      "why": "The material offers pure mystery and wonder; no value lesson arises naturally, and the avoid list forbids screen-time lecturing, so the story stays a cozy investigation."
+    },
+    "cast": [
+      {
+        "role": "Theo, a curious kid who notices something strange",
+        "reused": false,
+        "why": "The named hero; his photo of the computer lab screen catches a dark band his eyes never saw, which opens the mystery."
+      },
+      {
+        "role": "Nadia, an older sibling who knows a bit about computers",
+        "reused": false,
+        "why": "Drops clues in pieces instead of answering outright; she carries the curious_wonder accent and asks both choice questions in her own voice."
+      },
+      {
+        "role": "Ms. Okafor, a teacher who suggests an experiment",
+        "reused": false,
+        "why": "Runs the after-school computer lab club and proposes the magnifying-glass and slow-motion investigations; lightly shows lab competence."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "camera catches a screen mid-refresh, showing a dark band invisible to the eye",
+        "magnifying glass reveals every pixel is three tiny lights: red, green, blue",
+        "screens redraw every pixel sixty times a second",
+        "a number in memory becomes light in your eye via the graphics chip",
+        "sixty frames per second is sixty separate drawings, like a flipbook",
+        "school computer lab setting",
+        "science museum wall of thousands of tiny touch-lights (glimpsed as a wider door)",
+        "video games and flipbook animation (glimpsed as a wider door)"
+      ],
+      "gathered_but_unused": [
+        "Every pixel on a screen is made of three tiny lights: one red, one green, one blue. By changing how bright each tiny light glows, the screen can make any color you can imagine.",
+        "Most screens redraw every single pixel sixty times every second. That means if you blink for just one-tenth of a second, the screen has already painted the whole picture six times while your eyes were closed.",
+        "A number stored in the computer's memory becomes light in your eye in less time than it takes to snap your fingers. The graphics chip reads the number, calculates what color each pixel should be, and sends the signal down a cable or through the air to the screen.",
+        "If you take a photo of a screen with a camera, sometimes the photo shows weird bands or stripes that you never saw with your eyes. That's because the camera and the screen are both capturing and refreshing at different speeds, and sometimes they catch each other mid-refresh.",
+        "The word 'pixel' comes from 'picture element.' A single pixel is so small that a typical phone screen has over a million of them — and each one can show a different color at the same time.",
+        "When a video game shows a character running, the graphics chip is drawing a brand-new picture — called a frame — for every single moment of movement. Sixty frames per second means sixty separate drawings every second, each one slightly different, creating the illusion of smooth motion.",
+        "Old computer monitors from the 1990s sometimes showed a visible flicker because they refreshed slower than modern screens. People who used them for hours sometimes got headaches from the subtle flashing they couldn't quite see.",
+        "Some screens refresh even faster than sixty times a second — gaming monitors can refresh 120, 144, or even 240 times per second. At those speeds, fast-moving games look incredibly smooth because the screen keeps up with every tiny movement."
+      ]
+    },
+    "safety_beat": "In s1, Ms. Okafor shows light lab competence as she unlocks the supply drawer: she asks Theo to keep the magnifying glass and cables on the desks, not the floor, 'so nobody trips over my extension cord again' — competence, no warning, no tension.",
+    "motif": "A mosaic of light — tiny red, green, and blue tiles that build every picture, glimpsed again and again at bigger scales.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      },
+      {
+        "story_id": "story.pixels_and_screens.age7to8.d1.pregen.12fb98",
+        "title": "The Night We Shrunk the Whale",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a genuine engine — Theo's 'that is not a glitch, that is a clue' — and carries it through with warm sibling chemistry, a teacher who hands over treasures instead of answers, and sound that lands cleanly aloud ('Riffle.' 'Click. Band.'), so revision would only change it, not improve it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "prickling curiosity — something is off and he is on the case",
+        "s2a": "wide-eyed wonder, leaning over the desk with them",
+        "s2b": "delighted disbelief — the still picture is secretly moving",
+        "s3": "brain pleasantly breaking, then the click of figuring it out himself",
+        "s4a": "a held breath, then the small magic of the cat leaping in his own hands",
+        "s4b": "satisfied triumph and a pocket-sized glow to take home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "07_pixels_and_screens_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,338 @@
+{
+  "id": "story.robots_and_sensors.age11to12.d1.pregen.74fc77",
+  "title": "The Robot Who Learned to Say I'm Not Sure",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.robots_and_sensors",
+    "sel_theme": null,
+    "value_lesson": "Admitting uncertainty is a form of competence, not weakness",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A school robotics team's self-driving rover keeps failing in new and embarrassing ways until they discover that the smartest code isn't code that never gets confused — it's code that knows what to do when it is.",
+  "slots": {
+    "coder_name": {
+      "role": "The kid protagonist who wrote the obstacle-detection code",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    },
+    "robot_name": {
+      "role": "The team's autonomous rover",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Biscuit"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I was there the day a robot named {robot_name} learned to say it wasn't sure. And I promise you, nobody clapped harder than my grandpa, who does not trust robot cars one little bit.\n\nThe school gym didn't look like a gym anymore. Tape lines on the floor. Cardboard boxes everywhere, like a maze for a very confused mouse. And that hot, sharp smell of solder — Grandpa says it smells like burnt toast, and he's not wrong.\n\n{coder_name} — that's me — was down on my knees, watching {robot_name} roll through the practice course all by itself. No remote. No help. Autonomous, which is a big word that just means: the robot decides.\n\nLeft at the chair. Around the bucket. Stop at the stuffed bear.\n\nPerfect. Every time.\n\n\"Hm,\" said Grandpa Osei, behind me.\n\nGrandpa's \"hm\" is never just a hm. It's a whole sentence wearing a small hat.\n\n\"What?\" I said. \"It's doing great.\"\n\n\"It is doing great,\" he agreed, in his warm, rumbly voice, \"at doing the same thing over and over.\" He folded his arms. \"But tell me this. When your robot is confused — when its eyes see one thing and its ears hear another — what does it do then?\"\n\nI opened my mouth. Nothing came out.\n\nBecause here's the thing about a robot: it only knows what you told it. If this, then that. And I had never told {robot_name} what to do when this and that didn't match.\n\n\"One hour to the regional final,\" Grandpa said, checking his watch. \"Plenty of time.\"\n\nOn top of {robot_name}, a little yellow light blinked. The one I'd taped over because it looked silly. The one that meant: I NEED HELP.\n\nI looked at it. It blinked back.\n\nMaybe it wasn't silly after all.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Better eye,\" I said. \"Fastest fix. The camera's the one that lied.\"\n\nSo we trusted it. I cleaned the lens. I bumped the confidence setting way up, so the camera had to be *really* sure before {robot_name} moved. Priya raised an eyebrow, but the clock said twenty minutes, and the camera was all we had time for.\n\nFirst heat. The gym went quiet in that buzzing way, like a fridge full of whispers.\n\n{robot_name} rolled out. Left at the chair. Around the bucket. Smooth as butter on warm toast.\n\nThen it met the trash bag.\n\nSomebody had dropped a big black garbage bag right in the middle of the course — an edge case, the judges called it, which means a surprise the rules forgot to mention. And here is the thing about cameras: they see light. Black plastic drinks light. It swallows it whole. So the camera looked at that bag and saw... nothing. Empty floor. A clear road.\n\n{robot_name} drove straight into it. Not fast. Confidently. Like it was greeting an old friend.\n\n*Bonk.*\n\nThe bag fell over. {robot_name} kept driving, wheels spinning, pushing the bag across the floor like a very slow bulldozer with a very dark secret.\n\nThe gym laughed — not mean. The way you laugh when a dog wears a hat.\n\nGrandpa Osei leaned down. \"Your robot's eyes did not lie,\" he said. \"They told the truth about light. You just asked them the wrong question.\"\n\nI stared at the little yellow light on top of {robot_name}, blinking away under its tape.\n\nA sensor doesn't see the world. It sees one kind of thing. And every kind of thing has a different way of being wrong.\n\n\"Okay,\" I said, pulling out my laptop. \"New plan.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The camera can't be trusted alone,\" I said. \"So we swap. Ultrasonic.\"\n\nPriya nodded. \"Ears instead of eyes.\"\n\nThe ultrasonic sensor works like a bat. It shouts a sound too high for us to hear, then listens for the echo. Close thing, quick echo. Far thing, slow echo. No light needed. No black-bag trick.\n\nI rewrote the code in twelve minutes flat. If echo comes back fast, then stop. Simple. Clean. Done.\n\nSecond heat. {robot_name} rolled out.\n\nLeft at the chair. Around the bucket. Past the spot where the trash bag had been —\n\n*SCREECH.*\n\n{robot_name} slammed its brakes so hard it rocked on its wheels like a nervous shopping cart.\n\nNothing there. Nothing in the way. Just a paper banner hanging from the ceiling, three feet above the course, saying GO ROBOTS GO in glittery letters.\n\nThe banner swayed. The echo bounced. The sensor heard: SOMETHING. And my code said: if something, then stop. Forever. There was no \"then\" for a banner that wasn't in the way.\n\n{robot_name} sat there. Beeping. Stuck.\n\nBeep. Beep. Beep.\n\nThe gym giggled. My face went hot as a soldering iron.\n\nGrandpa Osei crouched beside me, his knees cracking like bubble wrap. \"So,\" he said. \"First it saw nothing where something was. Now it sees something where nothing is.\" He tapped the robot's shell. \"You didn't fix the problem. You traded it.\"\n\nHe was right. One sensor, one blindness. Swap the sensor, swap the blindness.\n\nThe yellow light blinked under its tape. I NEED HELP.\n\nOne heat left. And neither eye nor ear alone could do it.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "So we tried it. New code in, breath held, {robot_name} back at the start line.\n\nLeft at the chair. Around the bucket. And then —\n\nBeep. Beep. Beeeep.\n\n{robot_name} stopped dead in the middle of the course, little yellow light blinking like crazy, and would not move again. Not for anything.\n\n\"Both eyes said go,\" I groaned, flopping down at the repair table. \"Both of them. Together. How can two answers agree and still be wrong?\"\n\nGrandpa Osei pulled up a chair. \"Two wrong answers can shake hands,\" he said. \"Happens all the time.\"\n\n\"But the battery's dead too,\" I said, prying it loose. \"Ten minutes before the final. Perfect.\"\n\n\"Dead battery, live brain,\" Grandpa said. \"Use the one you brought.\"\n\nA girl from the next table leaned over. Priya, from the rival team, all elbows and safety goggles. \"You're the obstacle-detection team, right? What did you two just find out there?\"\n\nI told her — well, I told her the shape of it. That we'd fixed one thing and found a worse thing hiding behind it.\n\nShe grinned like I'd handed her a present. \"I invent edge cases for fun,\" she said. \"That's the stuff nobody imagines until it happens. My team keeps a list. We call it the Doom List.\"\n\n\"A list,\" I said. \"You can't list everything.\"\n\n\"Nope,\" she agreed happily. \"That's the fun part.\"\n\nGrandpa Osei had been quiet through all of this, turning the dead battery over in his big hands. Now he looked up, and asked the question he'd clearly been saving.\n\n\"So. When the thing doesn't know — when its eyes and its ears and its whole list all fail at once — what does it do?\"\n\nPriya opened her mouth. Closed it.\n\nI opened mine. Closed it.\n\nNobody had an answer.\n\nAnd sitting there, with the gym buzzing and the clock ticking, I realized that was the answer.\n\nNobody had ever told {robot_name} what to do when it didn't know.\n\nThe yellow light blinked on top of the robot. Patient. Waiting.\n\nI looked at Grandpa. Grandpa looked at me.\n\n\"We have ten minutes,\" he said, \"and I think you finally know what to build.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "I flipped open the laptop. My fingers knew what to type before my brain did.\n\nIf the eyes disagree — if they disagree by too much — then slow down. Slow to a crawl. Light the lamp. Wait for a human.\n\n\"A fail-safe,\" I said. \"When it doesn't know, it stops pretending.\"\n\nGrandpa read it over my shoulder. \"Hm,\" he said. But this hm sounded proud.\n\nPriya was watching from her table. \"Your robot's going to be slow,\" she said. Not mean. Just true.\n\n\"I know,\" I said.\n\nThe whistle blew. Final heat. {robot_name} rolled to the line, yellow light bare for everyone to see. No tape this time.\n\nLeft at the chair. Around the bucket. Then — the mirrored tile, the one that had fooled every robot all day.\n\n{robot_name} stopped. The light went on. Blink. Blink.\n\nThe whole gym went quiet. Somebody laughed — one short laugh, then swallowed it.\n\nAnd then {robot_name} began to creep. Slow as syrup. Slow as a turtle in no hurry at all. Past the tile. Around the bear. Across the line.\n\nLast place. By a mile.\n\nThe head judge walked over, and she was smiling. \"Fastest robot didn't finish,\" she said. \"Yours did — because it knew what to do when it didn't know.\" She held up the design prize. \"This is the one we'd trust on a real road.\"\n\nThe gym erupted. Grandpa Osei clapped loudest of all, big hands like thunder.\n\n\"I trust this robot,\" he announced to anyone who would listen, \"because it says so when it's confused!\"\n\nLater, we taped the little yellow light onto the trophy. Not over it. Onto it. Right on top, where everyone could see.\n\nIt blinked all the way home in Grandpa's car. The one he drives himself. For now.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "I looked at Priya. Priya looked at me.\n\n\"Twenty minutes,\" I said. \"Doom List plus fail-safe?\"\n\n\"Obviously,\" she said, already dragging her chair over.\n\nWe typed like the clock was personally insulting us. Her edge cases — the mirrored tile, the wobbly bridge, the chair that isn't quite where the map says — poured into my code like soup into a bowl. My rule wrapped around the whole thing: when the answers disagree by too much, slow to a crawl, light the lamp, flag a human.\n\n\"This shouldn't work,\" Priya said happily, slamming the battery in. \"Two teams, one robot, no time.\"\n\n\"Autonomous,\" Grandpa said, \"means the robot decides. You two finally decided something first.\"\n\nThe whistle blew. {robot_name} rolled out wearing both schools' colors — Priya had stuck her team's sticker on its side, crooked, and neither of us fixed it.\n\nLeft at the chair. Around the bucket. Then the mirrored tile, gleaming like a lie.\n\n{robot_name} slowed. Stopped. The yellow light came on. Blink. Blink.\n\nThe gym held its breath.\n\nThen the little robot crept forward — slow as honey, sure as sunrise — past the tile, over the bridge, around the bear, across the line.\n\nNot the fastest. The only one that finished clean.\n\nThe noise in that gym. Priya screamed and hugged me and then pretended she hadn't. Grandpa Osei was on his feet, clapping like thunder, shouting, \"It said so! It said so when it was lost!\"\n\nThe judges gave us the design prize — both teams, one trophy, first time ever.\n\nThat evening, Grandpa leaned on the doorframe. \"Well,\" he said. \"Can I get a ride home in the car that admits when it's lost?\"\n\n\"It's a toy rover, Grandpa.\"\n\n\"A man can practice,\" he said.\n\nPriya's dead battery sits on our shelf now, both schools' initials Sharpied on the side. Useless. Priceless. The thing that reminded us: nobody knows everything. That's what friends are for.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Priya leans over the pit table and says, \"Your camera just told you a lie and your robot believed it. So which do you fix first — give it a better eye, or teach it what to do when its eyes argue?\"",
+      "options": [
+        {
+          "say_word": "Better eye",
+          "label": "Swap in the ultrasonic distance sensor and trust it instead",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Trust both",
+          "label": "Keep the camera and add a second sensor so the two can vote",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Grandpa Osei taps the laptop and says, \"You've got twenty minutes. Do you make this robot careful all by itself — or do you and that girl stop pretending you're rivals and build the careful thing together?\"",
+      "options": [
+        {
+          "say_word": "Go solo",
+          "label": "Write the fail-safe rule alone so the team's own work stands on its own",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Team up",
+          "label": "Merge code with Priya — her edge cases, their fail-safe — and enter as allies",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.robots_and_sensors",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The topic's core material—sensors disagreeing, edge cases surprising the machine, and code needing fail-safes—is literally a cycle of trying, failing differently, and fixing, which maps directly onto problem_and_fix better than a gentle mystery or a scenic journey.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Grandpa Osei, who distrusts 'robot cars' and asks the blunt questions that turn out to be perfect engineering questions — his warm skepticism carries the only accent in an otherwise cozy story.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Admitting uncertainty is a form of competence, not weakness",
+      "why": "The material offers it naturally: the winning design is the one that slows down and asks for help when its sensors disagree, and Grandpa Osei's 'rude' questions turn out to be wisdom. The lesson rides the plot rather than being stated."
+    },
+    "cast": [
+      {
+        "role": "The kid who wrote the obstacle-detection code (named by the child reader)",
+        "reused": false,
+        "why": "The protagonist whose concrete pursuit is getting their team's rover through the competition course; the storyteller frames the tale as something that happened to a kid they knew."
+      },
+      {
+        "role": "Grandpa Osei, a grandparent who distrusts 'robot cars'",
+        "reused": false,
+        "why": "He drives the protagonist to the competition, asks 'what does it do when it's confused?', and unknowingly hands the team the winning idea. Carries the accent."
+      },
+      {
+        "role": "Priya, a rival-turned-helper from another school",
+        "reused": false,
+        "why": "She solved the same sensor problem differently and trades ideas over a dead battery; she models that competitors can be kind."
+      },
+      {
+        "role": "The storyteller",
+        "reused": false,
+        "why": "Required by the teller frame — only the storyteller says 'I', opening the tale ('I was there the day...') and closing it warmly."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "school gym converted into a robotics competition arena, tape lines, cardboard obstacles, smell of hot solder",
+        "kid on a school robotics team who wrote the obstacle-detection code",
+        "grandparent who distrusts robot cars and asks what it does when it's confused",
+        "rival-turned-helper who solved the same sensor problem differently, trades ideas over a dead battery",
+        "attempt one: camera alone reads black trash bag as empty space because black plastic absorbs light",
+        "attempt two: ultrasonic sensor slams brakes for a hanging banner not in the path — overcorrection",
+        "attempt three: sensors vote but both are fooled by the same mirrored floor tile — two wrong answers can agree",
+        "the robot frozen and beeping, stuck in an if-this-then-that rule with no 'then' for its situation",
+        "the earned fix: a fail-safe rule — when sensors disagree beyond a limit, slow to a crawl and flag a human",
+        "the deeper realization: the winning robot is the one whose team thought hardest about what it should do when it doesn't know what to do",
+        "edge case: rare weird situations like a traffic light reflected in a puddle",
+        "glimpse of wider doors: Mars rovers drive themselves because radio takes up to 22 minutes (Robots); if-this-then-that rules (Writing Programs)"
+      ],
+      "gathered_but_unused": [
+        "A self-driving car can carry three kinds of eyes—camera, radar, and lidar—because each one fails in a different way: cameras go blind in glare, radar can't read a stop sign, and lidar gets confused by heavy rain.",
+        "Engineers use the phrase 'edge case' for the rare, weird situations a robot almost never meets—like a traffic light reflected in a puddle—because those are exactly the moments that break it.",
+        "Real autonomous vehicles practice for millions of miles inside simulations before they ever touch a real road, driving through fake cities where engineers can make a thousand children chase a ball into the street on the same corner.",
+        "A robot vacuum builds its map of your house by spinning a laser and measuring how long the light takes to bounce back—bump into the sofa and it doesn't 'see' the sofa, it remembers a math problem about distance.",
+        "When sensors disagree, the code has to vote—and engineers design the tiebreaker so the safest answer wins, which is why a confused robot car slows down instead of guessing.",
+        "A fail-safe is a plan for when everything goes wrong: some delivery robots, if their camera dies, are programmed to stop, brake, and call a human, because doing nothing on purpose is a decision too.",
+        "The Mars rovers drive themselves because a radio signal takes up to 22 minutes to reach Mars—if a rover had to wait for a human to say 'stop,' it would already be in the crater.",
+        "A robot arm in a factory can weld the same car door ten thousand times perfectly, but drop a single unexpected cardboard box in its path and it may freeze or crush it—it only knows the world it was taught."
+      ]
+    },
+    "safety_beat": "In s1, before the heats begin, a judge walks the course and the kids instinctively step behind the taped pit line; [coder_name] shows Grandpa Osei where spectators stand and why the repair table is the only place solder irons are on — shown lightly as know-how, no warning tone.",
+    "motif": "A small yellow 'I NEED HELP' light on top of the robot, which begins as an embarrassment and ends as the thing the whole gym applauds.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a real want pursued under a ticking clock, sound-words that land as their own small sentences (Bonk. SCREECH. Beep. Beep. Beep.), a grandpa whose fondness is paid as attention rather than declared, and a technical idea (sensors each have their own blindness; the fail-safe is admitting uncertainty) that a listener watches come together step by step — the branches even offer two genuinely different emotional landings, solitary trust versus found friendship, both earned."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, with a small itch of worry at the taped-over light",
+        "s2a": "leaning in, then a wincing giggle at the slow-motion bonk",
+        "s2b": "a held breath, then hot-faced sympathy as the beeping strands the robot",
+        "s3": "stumped and fizzing — the good frustration of a question nobody can answer yet",
+        "s4a": "quietly triumphant and warmed through — last place that feels like first",
+        "s4b": "bouncing with shared delight, then settled and sleepy-sweet on the shelf image"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 11 warning. [s1] narration heavy: only 39% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 27% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 4.2); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 28% of sentences carry speech or action; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.2)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 39% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 27% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 28% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 25% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 39% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 27% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 28% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 25% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "08_robots_and_sensors_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

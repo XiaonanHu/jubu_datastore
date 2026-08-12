@@ -1,0 +1,312 @@
+{
+  "id": "story.game_design.age11to12.d1.pregen.40c801",
+  "title": "The Dice and the Ladder",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.game_design",
+    "sel_theme": null,
+    "value_lesson": "the discipline of changing one thing at a time",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A kid designer builds a board game from a shoebox of borrowed parts and tunes it through versions until the table asks to play again.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The rain came sideways that afternoon, drumming the library windows like fingers on a table. Nico sat in the maker corner, drawing lightning bolts in the margins of a comic, and tried to explain the feeling to Ms. Okafor.\n\n\"You know when you're almost caught?\" Nico said. \"Not caught. Almost. Like the storm is right behind you, breathing on your heels, and one bad turn means it gets you. I want a game that feels like that.\"\n\nMs. Okafor did not say that's nice, dear. She said, \"Ah. Tension.\" Then she wheeled over the maker-kit cart, which rattled like a toolbox, and slapped a laminated chart on the table. It said VERSION 1 in fat marker letters. \"Rule one of game design,\" she said. \"The first version is allowed to be ugly. It is supposed to be ugly. Ugly is how you find the fun.\"\n\nSo Nico built ugly. Twenty minutes, tops. A shoebox lid for the board. Grid paper squares drawn in wobbly pencil. Buttons for runners, dice for the storm, and a spinner cut from a cereal box that said TOASTY O'S across the middle. Nico wrote one rule on an index card: Roll. Run. Don't get caught.\n\nIt was not a game yet. It was a pile of stuff with a wish inside it.\n\nThen a chair scraped across the carpet. Pip, Nico's little sister, dragged it over backwards and climbed on like it was a throne. She was six. She treated every game like a championship final.\n\n\"Player one,\" Pip announced. Then, in the sports-commentator whisper she used for important moments: \"And here comes Pip now, stepping up to the board, the crowd going wild—\"\n\n\"There is no crowd,\" Nico said.\n\n\"The crowd is in my head,\" Pip said, and snatched the dice.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Walking storm,\" Nico said. \"Where everyone can see it coming.\"\n\nMs. Okafor raised one eyebrow. \"Bold. Version one is supposed to be ugly, not terrifying.\"\n\nNico found a black button and set it on the last square of the grid. \"New rule. Every round, the storm creeps one space forward. It walks. We run.\" Nico wrote it on the index card, right under Don't get caught. The shoebox lid rattled when the table bumped, buttons and dice and cardboard storm all jumping together, a whole game shaking in a box.\n\nPip leaned in so close her chin nearly touched the board. \"The crowd holds its breath,\" she whispered.\n\nThey played. Pip rolled, moved her blue button three squares, and grinned. Then the storm moved. One space. Closer.\n\n\"Fine,\" Pip said. \"Pip is not worried. Pip has legs.\"\n\nRound two. Pip rolled a one. The storm moved one space. It was right behind her button now, close enough to breathe on its heels.\n\n\"The crowd is worried,\" Pip whispered.\n\nRound three. Pip rolled a two and ran. The storm moved one space and landed on her square.\n\n\"Eaten,\" Nico said.\n\nPip sat back in her backwards chair and crossed her arms. Then, in the full commentator whisper: \"Ladies and gentlemen, the storm is unbeatable and frankly rude. The crowd is going home. The crowd is getting a snack.\"\n\nNico looked at the board. Three turns. The game loop had spun exactly once, goal and choice and consequence, and then it was over. Nobody got to try again, because there was nothing to try. A chase nobody can survive isn't a chase.\n\n\"Okay,\" Nico said slowly, and picked up the black button. \"Ugly found the problem. The storm walks too fast.\"\n\nThe shoebox rattled. Something in there was about to get swapped out.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Hiding storm,\" Nico said. \"In a deck of cards. Nobody knows what's next.\"\n\n\"Sneaky,\" Ms. Okafor said. \"I like it. Remember, ugly is allowed.\"\n\nNico cut index cards in half and drew a storm cloud on every single one. Trouble, trouble, trouble. Forty cards, shuffled into a fat stack. \"New rule. Every turn, we flip a card. Storm card means the storm jumps us. When the deck runs out, we've outrun it. We win.\"\n\nPip cracked her knuckles like a tiny athlete. \"The crowd is ready.\"\n\nThey played. Flip a card, move a button, wait. Flip, move, wait. The storm jumped them on turn four, and Pip gasped so hard she nearly fell off her chair, which was the best moment of the whole game. Then it was turn nine. Turn fifteen. The deck was still fat. The shoebox lid sat there with its wobbly pencil squares, and nothing rattled, because nothing was happening.\n\nTurn twenty-two, Nico looked up. Pip had stopped moving her button. She had lined up all the spare buttons in rows, red ones and yellow ones, and was quietly building a farm.\n\n\"The crowd has left the stadium,\" Pip murmured, placing a cow. \"The crowd is raising chickens now.\"\n\nNico flipped another card. Trouble. Nobody gasped. The consequence was taking so long to arrive that when it finally did, nobody cared. The game loop was still spinning, but so slowly, so lazily, that the itch to try again had fallen asleep.\n\n\"Okay,\" Nico said, and pushed the fat deck away. \"Ugly found the problem. The storm hides too well.\"\n\nPip looked up from her farm. \"Can the chickens stay?\"\n\n\"The chickens can stay.\"\n\nThe shoebox rattled. Something in there was about to get swapped out.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "By the next afternoon, version two of Storm Sprint was ready. Nico had swapped the wobbly pencil lines for tape, and the shoebox lid no longer rattled with quite so many wrong pieces. \"It's getting lighter,\" Pip said, shaking it. \"Like it's shedding its baby teeth.\"\n\nThey played. And this time, the game loop spun. You wanted to reach the lighthouse. You chose a path — the fast rocks or the long sand. Then the dice rolled, the storm answered, and you either whooped or groaned and reached to go again. Pip lost twice and didn't care at all. \"Again,\" she kept saying. \"The crowd demands a rematch.\"\n\nThen Ada arrived. Ada, who always found the secret door in everything. She watched one round, chin in her hands, then picked up her button.\n\nShe moved slowly. Not unluckily — deliberately. One square at a time, along the safe sand path, every single turn. The storm never once came close.\n\n\"And Ada takes the lead,\" Pip whispered, leaning in. \"She's playing it safe. Very safe. Suspiciously safe.\"\n\nAda won. They played again. Ada won. A third time, Ada won, with the same slow, steady, joyless march.\n\nPip's shoulders slumped. \"The crowd,\" she said quietly, \"has gone home.\"\n\nMs. Okafor had been watching from the cart. Now she rolled her chair over and looked at Nico. \"So,\" she said. \"Right now — is this game decided by luck, by skill, or by one boring trick?\"\n\nNico stared at the board. The sand path sat there, plain as day, winning without any fun at all.\n\n\"A trick,\" Nico admitted. \"One boring trick.\"\n\n\"Then the game isn't finished,\" Ms. Okafor said. \"It's just told you where it's broken. What did you two find out there, while you were playing?\"\n\n\"That slow wins,\" Pip said gloomily.\n\n\"Then let's make slow interesting,\" said Nico.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "One change only. Nico stared at Ms. Okafor's chart, then pulled out a fresh index card and wrote in careful letters: STORM SURGE. Once per game, when this card is drawn, the leaders slide back two spaces and the stragglers jump forward two. \"That's it?\" Pip said. \"One card?\" \"One card,\" said Nico. \"One splash of luck.\" They played version three. The storm surge hit on the second turn, and Ada went flying backward off the sand path with a yelp that made Pip snort juice out her nose. It was funny. It was also broken, because Ada's slow march still won, just slower. Version four shuffled harder. Still broken. Version five moved the surge to mid-game, and suddenly Ada's strategy was merely good instead of guaranteed. She frowned. She recalculated. Version seven, and the table went quiet — the good kind of quiet, where everyone was thinking so hard you could hear it. Pip was behind by three spaces. The surge card flipped. She rocketed forward, and the whole table gasped. \"And Pip closes the gap,\" she whispered, gripping her button. \"The crowd is on its feet.\" She rolled. She ran. She lost by one space. Pip slapped the table, not hard, just enough to make the dice jump. \"Can we go again?\" Nico wrote it word for word on the shoebox lid. Then Nico tucked the crossed-out rules inside — version three, version four, every wrong turn — a paper trail of everything the game had taught its maker. The box rattled lighter on the walk home. \"It's shedding its ugly,\" Pip said, hugging it. \"Soon it'll be nothing but fun.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "One change only. Nico stared at Ms. Okafor's chart, then picked up a marker and crossed out a single line on the rules card: the safe path now costs one token per turn. \"So slow play bleeds your supplies,\" Nico said. \"And the risky path pays out.\" Ada raised one eyebrow. \"You're pricing my strategy.\" \"I'm balancing it,\" said Nico. They played version four. Ada tried her slow march and watched her tokens drain away, turn by turn, until she had to abandon the sand path entirely and invent something new on the spot — a weird, darting route through the middle that nobody had tried. She lost. She grinned. \"Again,\" she said. Version five tweaked the token cost. Version six found the sweet spot, and the table went quiet — the good kind of quiet, where everyone was thinking so hard you could hear it. Pip was ahead by two spaces, but her tokens were gone, and the risky path was the only way home. \"And Pip commits to the rocks,\" she whispered, rolling. \"No safety net. No plan B. The crowd cannot look.\" The dice tumbled. The storm missed by one square. Pip won by one space, and before Nico could even finish recording the result, she slammed both palms on the table. \"Can we go again?\" Nico wrote it word for word on the shoebox lid. Then Nico folded the version chart — every iteration, every crossed-out number — and tucked it inside the box like a map of everywhere the game had been. The box rattled lighter on the walk home. \"What's next?\" Pip asked. Nico shook the box and listened to the pieces settle. \"I don't know yet,\" Nico said. \"But I already want to play it.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Every chase needs a clock, love. Do you want your storm to walk across the board where everyone can watch it coming, or hide inside a deck of cards so nobody knows what's next?\"",
+      "options": [
+        {
+          "say_word": "Walking storm",
+          "label": "the storm marker creeps forward one space each round, visible to everyone",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Storm deck",
+          "label": "the storm hides in a deck of trouble cards that runs out",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"One change only, that's the rule of the chart. Will you tip the luck dial with a storm-surge card that mixes everyone up, or tip the skill dial and make that safe path cost something every single turn?\"",
+      "options": [
+        {
+          "say_word": "Shake it up",
+          "label": "add one storm-surge card that shuffles leaders and stragglers, giving losers hope",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Charge the toll",
+          "label": "make the safe path cost a token per turn so slow play starves itself",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.game_design",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Game design is inherently about creating something step by step—building a prototype, testing it, and iterating on the loop—so the make_and_build pattern naturally fits the topic's core material of crafting rules, balancing luck and skill, and refining a game through playtesting.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Pip, the younger sibling, who treats every playtest like a championship final and narrates her own moves in a sports-commentator whisper",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "the discipline of changing one thing at a time",
+      "why": "The material offers it directly in the parent/librarian rule 'change one thing, then test again,' and the braid's structure (two choice points, each changing exactly one dial) lets the hero live the lesson rather than be told it."
+    },
+    "cast": [
+      {
+        "role": "the kid designer",
+        "reused": false,
+        "why": "The named hero of the make_and_build pattern; the whole braid is their iteration journey from idea to working game."
+      },
+      {
+        "role": "a younger sibling who is brutally honest",
+        "reused": false,
+        "why": "Doubles as the accent carrier for big_adventure energy and the honest playtester who names the boring part without flinching."
+      },
+      {
+        "role": "the friend who always finds the exploit",
+        "reused": false,
+        "why": "Delivers the luck-versus-skill problem in person; their unbeatable strategy is the wobble that forces the rebalance."
+      },
+      {
+        "role": "the librarian who runs a game-design club",
+        "reused": false,
+        "why": "Asks the second choice question in her own voice and provides the version-log chart that makes iteration visible; also anchors the library setting."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "game loop as goal-choice-consequence-again, tuned like a chorus",
+        "ugly prototype from borrowed bits: dice from Yahtzee, houses from Monopoly",
+        "balance as a kitchen scale with a die on one side and a chess knight on the other",
+        "rock-paper-scissors: no move is ever the best move",
+        "first playtest wobble: game ends in three turns, needs a clock inside it",
+        "removing all luck makes the best player win every time; one dice-roll comeback makes losers lean in",
+        "iteration rhythm: version 1 unplayable, version 3 funny but broken, version 7 the quiet table",
+        "the moment it works: 'can we go again?' written word for word on the box lid",
+        "library maker-kit cart of cardboard, tokens, and spinners",
+        "the librarian's version chart: what changed, what happened",
+        "idea arrives as a feeling: 'a game where you're always nearly caught'"
+      ],
+      "gathered_but_unused": [
+        "The first version of almost every famous game was bad, and its designers knew it because they watched real people play it",
+        "In Tetris, the pieces fall faster the better you do, so the game is always chasing you — it never lets you relax into winning",
+        "Game designers talk about 'balance' the way bakers talk about salt: too little and the game is bland, too much and one strategy swallows everything",
+        "Rock-paper-scissors is perfectly balanced because every choice beats one thing and loses to one thing — no move is ever 'the best move'",
+        "Nintendo's Shigeru Miyamoto designed the first level of Super Mario Bros so players would learn every rule — jumping, pipes, mushrooms — just by walking to the right, with no instructions at all",
+        "Board game designers often prototype with bits borrowed from other games — dice from Yahtzee, houses from Monopoly — because an ugly prototype teaches you faster than a pretty one",
+        "A 'game loop' is the circle a player repeats — want something, try something, see what happens, want to try again — and designers tune it like a song's chorus",
+        "Chess stayed popular for 1,500 years partly because luck is almost absent — but most games add a little luck so that a losing player always has a reason to hope"
+      ]
+    },
+    "safety_beat": "The library maker corner is a real place a child could stand in; Ms. Okafor shows competence lightly by wheeling the cart over, pointing out where the scissors and spare spinners live, and settling the kids at the scuffed back table before any designing begins.",
+    "motif": "the shoebox that rattles lighter and lighter as ugly pieces get swapped for right ones",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does the busy_workshop work it sets out to do — every version of the game is shown coming together and coming apart in concrete, legible steps, the failures are treated as texture rather than defeat, and the sound of it (the rattling shoebox, Pip's commentator whisper, 'Roll. Run. Don't get caught.') lands beautifully aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "cozy and sparking with an idea",
+        "s2a": "leaning in, then a deflating shrug",
+        "s2b": "a gasp, then restless boredom and a giggle at the chickens",
+        "s3": "pleased hum curdling into suspicion",
+        "s4a": "held breath, a whoop, satisfied rattle",
+        "s4b": "held breath, a whoop, satisfied rattle"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.7); [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "02_game_design_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,328 @@
+{
+  "id": "story.the_solar_system.age11to12.d1.pregen.c96f89",
+  "title": "The Case of the Cosmic Leftovers",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_solar_system",
+    "sel_theme": null,
+    "value_lesson": "Nothing is wasted",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "A young detective follows the clues from a rubble-strewn gap between planets to discover that asteroids and comets are not junk, but the solar system's baby photos.",
+  "slots": {
+    "hero_name": {
+      "role": "The child detective",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Alex"
+    },
+    "guide_name": {
+      "role": "The museum guide",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Dr. Stone"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The meteorite is heavier than it looks. {hero_name} holds out both hands, and {guide_name} drops it in—chunk. Dark as a burnt biscuit, speckled with tiny silver flakes, cold from its long trip through space. \"Four and a half billion years old,\" {guide_name} says, like that's a normal thing to say on a Tuesday. \"Older than Earth. Make of that what you will.\"\n\n\"What I will,\" {hero_name} says, turning it over, \"is that this feels like a clue.\"\n\nThe teacher is handing out notebooks, the cheap kind with stiff covers. \"Detective notebooks,\" she announces. \"Because today, we are investigating a mystery.\" She points at the big glowing model of the solar system hanging from the ceiling. \"Between Mars and Jupiter,\" she says, \"there is a ring of rubble. Millions of rocks, all shapes and sizes, going round and round the sun like a construction site nobody ever cleaned up. The question is—why is it there?\"\n\n{hero_name} stares up at it. It does look wrong. The planets are all neat and round, and then there's this... mess. Like somebody started building something and gave up.\n\nThat's when {hero_name} feels the wiggle. Small, green, and extremely pleased with itself, Detective Zorp climbs out of {hero_name}'s jacket pocket wearing a fake mustache he definitely did not have yesterday. He pulls out a magnifying glass the size of a button and presses it against the meteorite.\n\n\"State your name,\" Zorp says to the rock.\n\nThe rock says nothing.\n\n\"Hmm,\" says Zorp. \"Suspiciously lumpy. And silent. Classic guilty behavior.\" He looks up at {hero_name}, mustache twitching. \"Partner, I think these rocks know something. And I intend to find out what.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The heavy clues,\" says {hero_name}.\n\n\"Excellent choice.\" {guide_name} leads us to a glass case and pulls on white gloves. \"Two kinds of evidence today.\"\n\nThe first rock is dark and flecked with metal, like someone spilled iron filings into chocolate batter. \"This one froze fast,\" says {guide_name}. \"Molten metal, locked in place before it could sink.\"\n\nThe second is full of tiny glassy beads, round as fish eggs, pressed into gray stone. \"And this one froze slow. These little spheres were liquid drops, floating, before they hardened.\"\n\n\"Different moments,\" {hero_name} says, writing it down. \"From the formation.\"\n\n\"From before there was an Earth to stand on.\"\n\nDetective Zorp has been circling the metal rock, mustache twitching. \"Partner, I must interrogate this one personally.\" He climbs onto the case, wedges himself underneath, and tries to balance it on his head.\n\nIt does not balance. It is much heavier than it looks. Zorp wobbles. Zorp tips. Zorp goes over sideways with a small squeak, arms pinned, mustache crooked.\n\n\"The suspect,\" he says from the floor, \"is resisting arrest.\"\n\n{hero_name} hauls him up, and he straightens his mustache with great dignity. \"Write this down, partner.\"\n\nSo {hero_name} writes, in big letters: THESE ROCKS ARE OLDER THAN EARTH.\n\nZorp taps the notebook. \"Older than Earth. Which means they were already here when the planets were still being made. Witnesses, partner. Every single one of them.\"\n\n{hero_name} looks at the dark rock, at the silver flakes frozen mid-sink, and something tingles at the back of the neck. Witnesses to what, exactly?",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The crime scene,\" says {hero_name}. \"I want to walk it.\"\n\n\"Then follow me.\" {guide_name} leads us into a long dark hall, carrying two lamps. She sets one at our feet, then walks and walks and walks, until she's a speck, and sets the second lamp down far away. A tiny glow, like a night-light left on in another neighborhood.\n\n\"Those two lamps,\" she calls, her voice thin with distance, \"are two asteroids. Everything between them is what the belt is really made of.\"\n\n\"Which is?\"\n\n\"Nothing. Walk it, Detective.\"\n\nSo {hero_name} walks. And walks. The far lamp doesn't seem to get any closer. The floor stretches on, dark and empty, and it's like being the only kid in a playground the size of a country. {hero_name} writes in the notebook: THE BELT IS MOSTLY NOT THERE.\n\nSomewhere in the dark, a small voice wails. \"Partner? Partner! I have been walking for hours! There is nothing here! No rocks, no clues, not even a bench!\"\n\n{guide_name} sweeps her flashlight across the floor and finds him, a tiny green speck halfway between the lamps, sitting down with his mustache drooping. She carries him back in her cupped hands.\n\n\"Space,\" Zorp announces, climbing onto {hero_name}'s shoulder, \"is too spacious. I do not recommend it.\"\n\n\"So,\" says {guide_name}, clicking off one lamp. \"Millions of rocks, spread thinner than flour dusted across a whole kitchen. Does that look like a planet that exploded?\"\n\n{hero_name} stares into the enormous dark between the lamps. No. It doesn't. An explosion would leave a pile. This is more like... ingredients that never got mixed.\n\n\"Then what,\" {hero_name} says slowly, \"stopped the recipe?\"\n\nZorp's mustache lifts. \"Now that, partner, is the question.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Detectives!\" the teacher calls, tapping the glowing model. \"Gather round. I have a second clue, and it changes everything.\" She makes the planets spin. \"Watch closely. Every planet orbits the Sun in the same direction. And they all travel on the same flat level—like this.\" She holds her hand out flat and slides it through the ring of planets. \"One direction. One flat plane. Like pizza dough, all spun from the same ball.\"\n\nZorp climbs onto {hero_name}'s shoulder for a better look, mustache bristling. \"So what did you find back there, partner? Anything the rocks confessed?\" He twirls the end of his mustache. \"Because I have a theory. Food fight. The planets had a food fight, and nobody cleaned up.\"\n\n{hero_name} watches the model turn. Round and round, all one way, all one flat spinning disk. Then the eyes go to the rubble between Mars and Jupiter. The pieces are small. Really small. And spread out so far that if you stood on one, the next would be a dot in the black.\n\n\"Wait,\" {hero_name} says slowly. \"If everything formed from one spinning ball of dough... then the belt isn't a planet that crashed. The pieces are too little. Too far apart. They never got to join up in the first place.\"\n\nZorp gasps. \"Not broken?\"\n\n\"Never built,\" {hero_name} says, and writes it in the notebook in big letters: NOT BROKEN. NEVER BUILT.\n\nZorp leans over the page, squinting through his button-sized magnifying glass. \"Hmm. So the rocks aren't guilty of anything.\" He strokes his mustache. \"They're... leftovers. Ingredients that never made it into the pizza.\"\n\n\"Exactly,\" {hero_name} says. \"But that means something stopped them. Something kept those pieces from joining up.\" The pen taps the notebook. Tap. Tap. \"And if they never became a planet... what does that make them? Failures? Or something else entirely?\"\n\nZorp's eyes gleam under the fake mustache. \"Partner,\" he whispers, \"I think our suspects just became witnesses.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"The cold trail,\" {hero_name} says. \"Let's follow the ice.\"\n\n{guide_name} grins and flicks off the lights. The room goes dark, and then—whoosh—a long, glowing streak appears on the ceiling. A comet. It has a fuzzy head and a tail that stretches across the whole room like a scarf caught in the wind.\n\n\"Comets,\" {guide_name} says, \"are the other leftovers. The icy kind.\" She holds up a lumpy white ball. \"This model is made of ice and pepper. Dirty snowball, basically. That's what a comet is—ice, dust, and rock, all mixed together and frozen solid.\"\n\nZorp scrambles up {hero_name}'s arm, mustache quivering. \"Frozen? Frozen means evidence preserved!\" He leans toward the model, magnifying glass ready. \"I must taste it. For science.\"\n\n\"Zorp, maybe don't—\"\n\nToo late. Zorp licks the model. His whole face scrunches up. \"Brain freeze!\" he squeaks, clutching his head. \"But... deliciously solved!\"\n\n{guide_name} laughs. \"He's not wrong. Comets are like messages in a bottle, thrown to the edge of the solar system billions of years ago. The ice inside them matches the cold chemistry of the young solar system—before planets, before fish, before trees. Each comet is a frozen piece of the beginning.\"\n\n{hero_name} stares at the glowing streak on the ceiling. Ice older than anything alive. A message from before there was anyone to read it. The pen moves almost by itself: COMETS = FROZEN MEMORIES.\n\n\"So the asteroids are rocky leftovers,\" {hero_name} says slowly, \"and the comets are icy ones. Both are... memories of how it all started?\"\n\n\"Both are witnesses,\" {guide_name} says. \"They remember the formation.\"\n\nZorp, still rubbing his forehead, nods solemnly. \"The case deepens. But how do the ice witnesses connect to the rock witnesses? That's the real mystery.\"\n\n{hero_name} taps the notebook. Tap. Tap. Two kinds of leftovers. One story. But how do they fit together?",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The gravity twist,\" {hero_name} says. \"I want to see how Jupiter stirred the pot.\"\n\n{guide_name} pulls out a spinning stool—the kind office chairs have, but smaller—and sets a rubber ball on the seat. \"Watch,\" she says, and gives the stool a slow spin. The ball rolls in a wobbly circle, never settling, never smooth. \"That ball is trying to orbit. But something keeps knocking it off course.\"\n\nShe taps the stool with her finger. Tap. The ball wobbles harder.\n\n\"That's Jupiter,\" {guide_name} says. \"Jupiter is enormous—more than twice as heavy as all the other planets combined. Its gravity is so strong that it kept stirring the asteroid belt, over and over, like a giant hand knocking the pieces apart every time they tried to clump together.\"\n\n{hero_name} watches the ball lurch and wobble. It never finds a rhythm. Never settles into a clean orbit. \"So the pieces wanted to join up,\" {hero_name} says, \"but Jupiter wouldn't let them?\"\n\n\"Exactly. The belt is a construction site where the foreman kept knocking the bricks apart.\"\n\nZorp's eyes go wide. He scrambles down from {hero_name}'s shoulder and marches straight to the stool. \"I must experience this gravity for myself. For the case.\" He climbs onto the seat, grips the edges with his tiny green hands, and looks up. \"Spin me, partner. Gently.\"\n\n{hero_name} gives the stool a slow push. Zorp goes round and round, mustache flapping. \"Oh,\" he says. \"Oh no. Oh—\" The stool stops. Zorp wobbles off, legs wiggly, and sits down hard on the floor. \"Gravity,\" he declares, pointing a shaky finger upward, \"is very rude.\"\n\n{guide_name} grins. \"But it's the reason the belt exists. Jupiter's gravity kept those pieces from ever forming a planet. They stayed small. Stayed scattered. Stayed... unused.\"\n\n{hero_name} writes it down: JUPITER = THE TROUBLEMAKER. Then, underneath: THE BRICKS NEVER GOT USED.\n\nZorp, still dizzy, leans against {hero_name}'s shoe. \"Unused bricks,\" he mumbles. \"But unused for what? That's the question, partner. What were they supposed to build?\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Dr. Stone holds up two evidence bags and says, 'Detective, we can examine the heavy clues up close in the gallery, or we can walk the crime scene and see how empty this belt really is. Which calls to you?'",
+      "options": [
+        {
+          "say_word": "Examine",
+          "label": "Study the meteorites in the lab",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Walk",
+          "label": "Pace the distance between the lamps",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "The teacher spins the stool slowly and asks, 'We know the pieces never joined. Do you want to follow the cold trail to the comets, or stay here and see how Jupiter's gravity stirred the pot?'",
+      "options": [
+        {
+          "say_word": "Cold trail",
+          "label": "Chase the comets to the deep freeze",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Stir the pot",
+          "label": "Watch the gravity demonstration",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_solar_system",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's core idea — that asteroids and comets are leftovers that 'remember' the solar system's formation — is naturally a detective structure where clues in ice, rock, and orbits accumulate toward a satisfying answer about how everything began.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3556,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1333,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1111,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Drifting Stone)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0889,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0667,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "Detective Zorp, a small green alien from the museum's space exhibit who comes alive in the child's imagination and insists on wearing a fake mustache while 'interrogating' rocks.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Nothing is wasted",
+      "why": "The material literally offers it: leftovers that seemed like rubble turn out to be the most valuable evidence. The mystery structure makes this the satisfying answer rather than a lecture."
+    },
+    "cast": [
+      {
+        "role": "Museum guide in the meteorite gallery",
+        "reused": false,
+        "why": "The perfect person to place real space rocks in hands and show the meteorite evidence; the gallery is the ideal mystery setting."
+      },
+      {
+        "role": "School science teacher",
+        "reused": false,
+        "why": "Hands out the 'case file' notebook and asks the key choice questions in a teacherly, encouraging voice."
+      },
+      {
+        "role": "Detective Zorp",
+        "reused": false,
+        "why": "The silly accent: a plush-toy alien who 'helps' by tasting rocks (don't worry, he uses a spoon) and getting everything comically wrong before the hero gets it right."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "natural history museum's meteorite gallery",
+        "Museum guide places real asteroid piece in hand",
+        "School science teacher hands out case file",
+        "Opening question: why does space between Mars and Jupiter look like rubble",
+        "Clue: planets all orbit same direction from one spinning disk",
+        "Clue: meteorite heavier than it looks with specks older than Earth",
+        "Clue: asteroid belt isn't a crashed planet, pieces never joined",
+        "Clue: comet's ice matches cold far-away edge of young solar system",
+        "Satisfying answer: asteroids and comets are unused bricks holding memory of formation",
+        "Comets are frozen messages from the very beginning",
+        "Asteroid belt so spread out spacecraft can fly through without seeing one",
+        "Gathered asteroid belt would be smaller than the Moon",
+        "Comet grows tail only near Sun as ice turns to gas",
+        "Comet tail always points away from Sun",
+        "Jupiter's gravity kept stirring the pot (wider door)",
+        "Walking between two lamps to feel asteroid belt emptiness",
+        "Meteorite with metal flakes vs round glassy beads (different formation moments)"
+      ],
+      "gathered_but_unused": [
+        "The asteroid belt holds millions of rocks, but they are so spread out that a spacecraft can fly through without ever seeing one.",
+        "If you gathered the whole asteroid belt into one ball, it would be smaller than our Moon.",
+        "A comet grows its glowing tail only when it swings near the Sun, because the Sun's heat turns its ice straight into gas.",
+        "Comets are made of ice and dust left over from when the planets formed, so each one is a frozen message from the very beginning.",
+        "Some meteorites that land on Earth are chips knocked off asteroids, and scientists cut them open to read what the early solar system was made of.",
+        "The planets and asteroids all circle the Sun in the same direction because they formed out of one huge spinning cloud of gas and dust.",
+        "Some asteroids have tiny moons of their own orbiting them.",
+        "A comet's tail always points away from the Sun, blown by sunlight and solar wind — so a comet leaving the Sun travels tail-first."
+      ]
+    },
+    "safety_beat": "In the meteorite gallery, Dr. Stone shows the hero exactly how to hold the heavy space rock with two hands over the padded table, demonstrating the 'museum grip' before handing it over—competence shown lightly, no tension.",
+    "motif": "A detective's notebook filling with 'evidence' that starts as rubble and ends as treasure.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.the_solar_system.age7to8.d1.pregen.e33162",
+        "title": "The Drifting Stone",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already has a working engine (a child detective with a stated question that each segment answers and re-deepens), a comic partner whose sound and rhythm land aloud, and facts that arrive as felt experience — walking the empty hall, spinning on the stool — rather than as lecture."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "delighted intrigue — a heavy rock, a mustache, a mystery",
+        "s2a": "busy and pleased, with a giggle at the tipped-over detective",
+        "s2b": "a held breath in the big dark, then relief and a laugh",
+        "s3": "the click of an idea landing — leaning in, satisfied",
+        "s4a": "tingly wonder at ice older than anything alive",
+        "s4b": "giggly dizziness settling into a genuine new question"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.9); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [c1] narrator asks the choice: no spoken line; a character should pose the question; [c2] narrator asks the choice: no spoken line; a character should pose the question"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[c1] narrator asks the choice: no spoken line; a character should pose the question",
+      "[c2] narrator asks the choice: no spoken line; a character should pose the question"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "03_the_solar_system_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

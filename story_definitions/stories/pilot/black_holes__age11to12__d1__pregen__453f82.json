@@ -1,0 +1,355 @@
+{
+  "id": "story.black_holes.age11to12.d1.pregen.453f82",
+  "title": "The Clock That Drank the Light",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.black_holes",
+    "sel_theme": null,
+    "value_lesson": "Knowing when to stop is part of bravery; some thresholds cannot be uncrossed, and wisdom is recognizing them.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A journey to the edge of a black hole to discover why nothing escapes, and how time itself stretches near the darkness.",
+  "slots": {
+    "hero_name": {
+      "role": "The child hero traveling to the black hole",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Look at that,\" says Maya, pressing her nose to the observation glass. \"It's eating the stars.\"\n\nYou stand between her and Zix in the classroom of the ship *Steady*, watching the live feed. Gargantua-9 hangs there — a hole in space where the light bends wrong, stretched into a ring of fire around nothing at all.\n\n\"That's the event horizon,\" Zix breathes. \"The edge of the world.\"\n\nNobody moves. Behind you, Alex waves from the pilot's seat, but you can't look away from the screen. Your wristwatch ticks. Steady. Normal. *Tick, tick, tick.*\n\nThen — *clank-clank-whir* — something bumps your knee.\n\n\"Hello, hello!\" Pip the probe looks up at you with brass fittings gleaming, his metal arms spread wide to show off the dents. \"Three dips I've taken! Three! And each time, the gravity pulls me like taffy — *stretched* me, friend, stretched me thin as spaghetti!\"\n\nHe clicks, delighted, and spins in a circle.\n\n\"You're really going down there?\" you ask.\n\n\"We all are!\" Pip's gears whir with joy. \"To see the singularity! To feel spacetime stretch! To watch the light slow down and stop and—\"\n\n\"Easy, Pip,\" Alex calls back. \"We haven't launched yet.\"\n\nMaya is already gripping your hand. \"You ready?\" she asks.\n\nOutside, the black hole waits, drinking the light. Your watch keeps ticking — for now.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Jupiter it is!\" Maya shouts, her eyes bright.\n\nAlex leans forward in the pilot's seat. \"Hold on to your hats, everyone. We're going to borrow some speed.\"\n\nThe ship *Steady* tilts, and suddenly the viewscreen fills with swirling orange and cream stripes. Jupiter! It looks close enough to touch, a giant ball of storms bigger than a thousand Earths.\n\n\"Feel that?\" Zix whispers.\n\nYou do. It's like a gentle hand reaching out from the planet, wrapping around the ship, and pulling you forward. Not scary — just strong. Like when someone bigger holds your hand on a crowded street.\n\n\"Taffy-pull!\" Pip clicks, spinning in a circle. \"Even Jupiter stretches spacetime! Watch, watch!\"\n\nHe rolls a marble across a piece of stretchy fabric. The marble curves, spiraling down toward a heavy ball in the middle.\n\n\"Mass bends space,\" Pip says. \"Like a trampoline with a bowling ball in the middle. The black hole? That's a bowling ball the size of a million suns.\"\n\nYou glance at your wristwatch. Still ticking steady. *Tick, tick, tick.*\n\nBehind you, the Sun shrinks to a bright dot, then to a spark, then to almost nothing. Ahead, the darkness grows. The ship curves, faster now, flung forward by Jupiter's pull.\n\n\"There,\" Alex says quietly.\n\nThe black hole fills half the viewscreen. The ring of fire around it glows brighter than ever, and the center is so dark it hurts to look at. You watch it anyway. Nobody moves. The only sound is your watch, small and steady, ticking against your wrist.\n\nThen Maya's hand finds yours. \"We can hover here at the safe edge,\" she says, \"or we can climb into *The Firefly* and go down on the tether. What do you think, {hero_name}?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Straight across,\" you say. \"Let's see the light bend.\"\n\nZix gasps.\n\n\"What?\" you ask.\n\n\"Look. Look at the stars.\"\n\nYou press your face to the glass. The stars ahead are multiplying — one star becomes two, then four, then a dozen, all smearing into a glowing hoop of gold around the black hole.\n\n\"Einstein ring,\" Maya breathes. \"That's one star, {hero_name}. Just one. But the black hole bends its light so much that we see it everywhere at once.\"\n\n\"Like taffy!\" Pip whirs, his brass fittings gleaming. \"The light stretches and stretches, warm and golden, all the way around the dark!\"\n\nYou watch the ring shimmer. It's beautiful and strange, like looking through a curved window at the whole universe. You don't say anything. Neither does Maya. The ring turns, slow and golden, and for a moment you just stand there, the two of you, looking.\n\nYour wristwatch ticks. *Tick, tick, tick.* Still steady. For now.\n\nThe ship glides closer, and the ring grows wider, brighter. The darkness in the middle yawns open like a mouth, swallowing the light whole. Drinking the light.\n\n\"We're almost there,\" Alex says from the pilot's seat.\n\nMaya turns to you, her hand on your shoulder. \"We can hover here at the safe edge, or we can climb into *The Firefly* and go down on the tether. Which one, {hero_name}?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find?\" Maya asks, leaning close. \"Tell me everything.\"\n\nBut before you can answer, the ship *Steady* shudders — gently, like a cat settling — and the view outside swells. Gargantua-9 fills half the sky now. Not a hole. A whirlpool. Spacetime itself dragging around it, slow and thick as honey pouring off a spoon.\n\n\"We're here,\" Alex calls from the pilot's seat. \"Safe orbit. The good ledge.\"\n\nPip clicks at your elbow. \"Look, look! Your watch!\"\n\nYou lift your wrist. *Tick. Tick. Tick.* Steady as your own heartbeat.\n\nThen Zix points at the screen. \"And Alex's clock.\"\n\nOn the distant ship, the numbers spin — whirling, blurring, hours tumbling past in seconds. Your breath catches. Same moment. Two speeds. Time itself stretching like taffy near the edge.\n\n\"Now watch,\" Maya whispers. \"This is the part that matters.\"\n\nPip releases a probe — small, brave, blinking red. It drifts toward the swirling dark. Closer. Closer. The signal light flickers on the screen, slowing, reddening, stretching into a long thin thread of color.\n\nThen it stops.\n\nFrozen. Red as the last coal in a fire. Hanging there at the edge of everything.\n\nNobody speaks. The ring turns, slow and golden, around the dark. The dark drinks. Maya's hand rests on the glass, perfectly still. Even Pip's gears go quiet.\n\n\"Event horizon,\" Zix breathes at last. \"It can't come back. Not the probe. Not the light. Not even the signal.\"\n\nThe red dot fades. Goes black.\n\nYour watch ticks on, steady and warm against your pulse, and the black hole turns and turns, drinking the light, and nobody says anything at all for a long, long moment.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Down we go,\" Maya says, and the *Firefly* drops.\n\nYou stand at the center of the glass dome, feet together, just like she showed you. Gravity pulls at your shoes. Then your knees. Then your hair — not hard, but different. Your feet feel heavier than your head.\n\n\"Feel that?\" Maya asks. \"That's the stretch. Spacetime pulling us like taffy.\"\n\nYou look down. The event horizon waits below — not black, but *empty*, a place where light goes in and doesn't come out. You check your wristwatch. *Tick, tick, tick.* Steady as your own heartbeat, exactly as it was in the classroom. It always will be. A clock never feels strange to the wrist that wears it.\n\n\"Look up,\" Maya whispers.\n\nThrough the dome, the stars behind you are speeding up. Whirling. Hours passing in heartbeats. Alex's voice crackles over the radio, fast and chipmunk-high: \"You're—almost—too—close—\"\n\n\"We're fine,\" Maya says, but she's already pulling the lever. \"Hold on.\"\n\nThe *Firefly* strains. The tether groans. For a moment you hang there between the dark below and the racing universe above, and your watch keeps its calm, ordinary tick while the whole sky hurries.\n\nThen — *snap* — you're rising. The stars slow. Alex's voice drops back to Alex's voice. Your watch has not changed at all.\n\nBack at the *Steady*, Alex hugs you hard. \"You were gone for hours!\"\n\n\"Minutes,\" you say, catching your breath. \"We were only gone minutes.\"\n\nYou are both right. That is the strangest part. Your watch says minutes. The ship's clock says hours. And when you look at the photo Maya took — your reflection stretched long and thin in the warped light, smiling — you hold it a moment longer. You don't say anything. The you in the picture is still smiling back.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Pip's ready,\" Zix says, and the little probe drops.\n\nYou watch from the *Steady*'s observation deck, hands pressed to the glass. Pip's tether unspools — down, down, toward the swirling dark. His camera feed fills the screen.\n\n\"See?\" Maya points. \"His clock.\"\n\nOn Pip's brass chest, a tiny dial ticks. Slow. Slower. *Tick... ... ...tick...* Almost stopping.\n\n\"And ours?\" you ask.\n\nZix grins. \"Hold yours up next to the screen.\"\n\nYou do. *Tick, tick, tick.* Steady, ordinary, exactly as it has been all day — a clock never runs strangely for the person holding it. But beside Pip's dial the difference is enormous. Three of your ticks for one of his. Then five. Then ten.\n\n\"Time dilation,\" Maya breathes. \"He's falling slow. And from down there, we're the ones racing.\"\n\nPip's signal light glows red. Redder. Stretched thin as a thread. His voice crackles, delighted and slow: \"Frieeeeend... I seeee... the siiiingularity...\"\n\nThe data streams across the screen. Mass crushed to a point. Smaller than an atom.\n\n\"Reel him back,\" Alex calls. \"Now.\"\n\nZix pulls the winch. The tether hums. Pip rises — slowly, slowly — and his dial ticks faster, and faster, until it keeps pace with yours again, and the universe settles back into one speed.\n\nWhen Pip clanks onto the deck, he's different. Stretched. One brass rivet pulled long and thin like a piece of taffy. His little dial says a quarter past two. The clock on the wall behind him says ten to six.\n\n\"For you,\" Pip clicks, handing the rivet over. \"Souvenir.\"\n\nYou hold it tight. Behind you, Alex laughs. \"My hair grew a whole centimetre waiting for him!\"\n\nYou don't answer right away. The rivet is warm in your fist. Below, the black hole turns and turns, drinking the light.\n\n\"Worth it,\" you say.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We can take the long way 'round and steal some speed from Jupiter's pull, or cut straight across the dark to see the starlight bend. Which feels right to you?\"",
+      "options": [
+        {
+          "say_word": "Swing",
+          "label": "Slingshot past Jupiter",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Straight",
+          "label": "Direct route to the ring",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"I can take us down in the glass bubble to feel the stretch ourselves, or we can send Pip to the edge while we watch from here. What should we do?\"",
+      "options": [
+        {
+          "say_word": "Descend",
+          "label": "Go down in the shuttle",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Observe",
+          "label": "Send the probe and watch",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.black_holes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "Falling into a black hole is inherently a journey—the material naturally follows a character moving toward and past the event horizon, experiencing stretched light and time dilation along the way.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3516,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2198,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1319,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0989,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Star That Danced with Nothing)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0879,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0659,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip, a robot probe with brass fittings who has survived three dips toward the event horizon and speaks in delighted clicks and whirs about the 'taffy-pull' of gravity.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Knowing when to stop is part of bravery; some thresholds cannot be uncrossed, and wisdom is recognizing them.",
+      "why": "The event horizon offers a natural lesson about irreversible choices without being preachy—the story requires turning back at the edge to survive, making the value structural."
+    },
+    "cast": [
+      {
+        "role": "Maya Chen, a patient astrophysicist who travels with the hero, explaining spacetime with warm hands and wonder",
+        "reused": false,
+        "why": "Grounds the science in calm expertise while modeling curiosity over fear."
+      },
+      {
+        "role": "Pip, the robot probe who has been closer than any human and carries the curious_wonder accent",
+        "reused": false,
+        "why": "Provides comic relief and firsthand testimony of spaghettification; his enthusiasm makes the scary parts feel like a puzzle."
+      },
+      {
+        "role": "Alex, the hero's best friend watching from the safe observation ship, tracking time differences",
+        "reused": false,
+        "why": "Asks the choice questions with genuine investment and notices the time-slip effects from outside."
+      },
+      {
+        "role": "Zix, a curious alien student with translucent skin who asks the questions too scary to voice",
+        "reused": false,
+        "why": "Allows exposition to feel like dialogue and gives permission to be nervous while staying brave."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "spaghettification (warm taffy stretch)",
+        "time dilation (clocks ticking at different speeds)",
+        "event horizon (point of no return)",
+        "Einstein ring (starlight bent into a halo)",
+        "singularity (physics breaking down at the center)",
+        "spacetime warping (trampoline curve)",
+        "Jupiter gravity assist (wider door)",
+        "probe signal freezing and fading"
+      ],
+      "gathered_but_unused": [
+        "If you fell feet-first into a black hole, gravity would pull harder on your feet than your head, stretching you like warm taffy — scientists call this spaghettification.",
+        "Time slows down near a black hole compared to far away. If you hovered near the edge and looked at a distant clock, you would see it ticking faster than yours.",
+        "The event horizon is the point of no return — once you cross it, not even light can climb back out.",
+        "Light passing near a black hole bends around it, so you could see the same star repeated in a ring of light called an Einstein ring.",
+        "At the center of a black hole lies the singularity, where all the mass is crushed into a point smaller than an atom and the rules of physics as we know them break down.",
+        "From far away, you would never see someone actually fall in — they would appear to freeze at the edge, growing redder and dimmer until they faded from view.",
+        "Black holes warp spacetime itself, so the shortest path between two points near one is a curve, not a straight line.",
+        "Some black holes spin, dragging spacetime around with them like a spoon stirring honey."
+      ]
+    },
+    "safety_beat": "In s4a, Maya demonstrates competence by showing the hero exactly where to float in the shuttle (centered, feet together) to minimize tidal forces, speaking of it as a pilot's secret rather than a warning.",
+    "motif": "A wristwatch ticking at different speeds, its hands spinning wildly or freezing still depending on how close we drift to the edge.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.black_holes.age9to10.d1.pregen.63b518",
+        "title": "The Star That Danced with Nothing",
+        "pattern": "mystery",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story has a genuinely luminous subject — the frozen red probe, the warped light, time running at two speeds — but it keeps reaching for the next fact or the next choice instead of letting the child sit inside the strangeness it has just shown them.",
+          "editor_notes": [
+            "s3 contains the story's best image — the probe's signal 'Frozen. Red as the last coal in a fire' — and the draft almost honors it with 'nobody says anything at all for a long, long moment,' but the moment is one sentence long; give it three or four beats of pure looking (the ring turning, the dark drinking, Maya's hand still on the glass) before anyone speaks again.",
+            "s4a ends the instant the wonder peaks: the stopped watch, the stretched reflection photo, and 'Proof that you touched the edge' all arrive in two sentences; let the child hold the photo a moment longer — one quiet line of looking, no explanation — because 'proof' turns a mystery into a souvenir and the draft already has a souvenir in s4b.",
+            "s4b's 'Worth it' is a fine closing beat but it lands immediately after Alex's joke; insert one held breath between the joke and the answer — the rivet warm in the fist, the black hole still turning below — so the last line feels earned by stillness rather than by wit.",
+            "The repeated 'drinking the light' phrase is doing ritual work and should be kept, but it is currently buried mid-sentence each time; let it end a sentence at least once (e.g., close s2b's penultimate paragraph on it) so the ear catches it as a refrain.",
+            "Trim one explanatory line per segment — e.g., 'Physics breaking' in s4b or 'Spacetime is bending' in s2b — wherever an image has already said the thing; the images are strong enough to carry the science, and each cut buys a second of quiet.",
+            "The choice-prompt endings of s2a and s2b ('What do you think, {hero_name}?') arrive right after the most beautiful images in those segments; move one beat of silent watching between the Einstein ring and the question so the wonder isn't immediately converted into a decision."
+          ],
+          "segments_revised": 6,
+          "segments_rejected": 0
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already marries real physics to felt experience through the watch's heartbeat rhythm and Maya's steadying hand, and its quiet, unhurried ending trusts the child to sit inside the wonder."
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and a little held-breath, with Pip as a giggle of relief",
+        "s2a": "thrilled and safe at once, like being swung by a grown-up",
+        "s2b": "hushed awe at the golden ring, standing still inside it",
+        "s3": "a long held breath as the red light freezes and fades",
+        "s4a": "stretched and breathless, then tender and slightly strange at the photo",
+        "s4b": "delighted suspense, then warm and proud with the rivet in the fist"
+      },
+      "segments_revised": 6,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 38% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.3); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 37% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polished (221 -> 221 words)",
+      "round 1: [s2a] polished (268 -> 288 words)",
+      "round 1: [s2b] polished (233 -> 225 words)",
+      "round 1: [s3] polished (248 -> 277 words)",
+      "round 1: [s4a] polished (243 -> 247 words)",
+      "round 1: [s4b] polished (249 -> 253 words)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 38% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "hand_edit": {
+      "date": "2026-08-11",
+      "segments": [
+        "s4a",
+        "s4b"
+      ],
+      "reason": "Physics correction: both segments narrated the reader's OWN watch as slowing/stopping/spinning. An observer's own clock always ticks normally; only the other clock is seen to run differently. Rewrote so the wristwatch stays steady and the dilation is shown by comparison (ship clock vs wrist in s4a, Pip's dial vs wrist in s4b). Outcome beats, motif (steady tick, taffy, drinking the light) and choice structure unchanged.",
+      "by": "hand edit, pre-ingest review"
+    },
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "01_black_holes_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

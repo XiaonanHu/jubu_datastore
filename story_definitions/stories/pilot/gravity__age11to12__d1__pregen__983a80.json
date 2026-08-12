@@ -1,0 +1,328 @@
+{
+  "id": "story.gravity.age11to12.d1.pregen.983a80",
+  "title": "The Moon That Keeps Missing",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.gravity",
+    "sel_theme": null,
+    "value_lesson": "Patient questioning pays off: the biggest answer in the story comes from sitting with a small, ordinary question nobody else bothered to ask.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "A kid who collects falling things follows one stubborn question — why does the apple fall but the Moon never lands? — until falling and orbiting turn out to be the same motion.",
+  "slots": {
+    "hero_name": {
+      "role": "The curious kid who collects falling things",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Wren"
+    },
+    "falling_thing": {
+      "role": "The small object the hero drops at the very start and again at the warm landing",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "an acorn"
+    },
+    "marble_color": {
+      "role": "The marble the hero rolls around the trampoline dip, which comes home in their pocket at the end",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a green marble"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "{hero_name} had a pocket full of falling things.\n\nA chestnut. A feather. A strip of birch bark that curled like a question mark. Every evening, up on the orchard hill, {hero_name} dropped one and wrote down what it did. And every single one did the same thing.\n\nDown.\n\nTonight it was {falling_thing}. {hero_name} held it out over the grass, let go, and watched. Down it went, straight as a plumb line, and tucked itself into the clover like it had done it a hundred times. Which, in a way, it had.\n\n\"Sixty-three,\" {hero_name} wrote in the notebook. \"Falls down. Like everything.\"\n\nAnd that was when {hero_name} looked up — and there it was. The Moon. Just risen, huge and gold, hanging over the orchard like it had been hung on a nail.\n\nNot falling.\n\n{hero_name} stared at it. Sixty-three things in the notebook. Sixty-three things, and every one of them came down. Apples came down — this whole hill was proof of that. Rain came down. Stars didn't, but stars were far and small and nobody expected them to. The Moon was enormous. The Moon was close. The Moon was, when you thought about it, the biggest falling thing there had ever been, and it had never once landed.\n\n\"Hey, Mr. Abernathy,\" {hero_name} called, because Mr. Abernathy was out fixing his fence again, the way he was most evenings, and the fence ran right along the good dropping spot. \"How come the Moon doesn't fall?\"\n\nMr. Abernathy leaned on the post and looked up at it, the way you look at an old friend who has just done something surprising.\n\n\"Funny thing,\" he said. \"It does.\"\n\n\"It does not,\" said {hero_name}}. \"It's up there.\"\n\n\"It falls,\" said Mr. Abernathy, hammering in a nail like that settled it. \"It falls all the time. It just keeps missing.\"\n\nAbove the orchard, the Moon hung gold and patient, as if it were listening. As if it had all night to explain itself, and intended to take all night to do it.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Trampoline it is,\" said Mr. Abernathy, and he vanished into his garage and came back rolling something across the grass. A bowling ball. Old, black, heavy as a bag of apples. He heaved it up onto the trampoline in the corner of his yard, and it sat down in the middle with a slow, satisfied creak, and the whole black skin of the trampoline dipped around it like soup settling in a bowl.\n\n\"Now,\" he said, and he pressed something small and cool into {hero_name}'s hand. {marble_color}. \"Roll it straight across. Try.\"\n\n{hero_name} knelt at the edge and rolled it, hard and true, straight for the far side. And the marble did not go straight. It slid down into the dip, swung around the bowling ball in a long smooth curve, climbed a little, curled back, and went circling, circling, around and around the heavy ball like it was tied to it by a string.\n\nThere was no string. {hero_name} checked. {hero_name} picked the marble up and rolled it again, and again it curved, and again it circled, and nothing touched it at all.\n\n\"It's not pulling it,\" {hero_name} said slowly. \"Nothing's pulling it. It's just... following the dip.\"\n\n\"Mm,\" said Mr. Abernathy, leaning on the fence. \"Heavy thing makes a dip. Little thing follows the curve. Funny place to find that out, a backyard.\"\n\n{hero_name} looked at the bowling ball, heavy and still in its hollow. Then up at the Moon, enormous over the orchard, circling and circling and never landing.\n\n\"Earth is the bowling ball,\" {hero_name} whispered.\n\nAbove them, the Moon kept falling around the curve of the world, and missing, and missing, on purpose, forever.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The picture, then,\" said Mr. Abernathy, and he went inside and came back with a stack of old astronomy magazines tied up in string, smelling of dust and somebody's attic. He flipped through them on the fence post until he found the page, and then he held it out without a word.\n\n{hero_name} looked. And looked again.\n\nIt was a photograph of deep space, black as the bottom of a well, and scattered with galaxies like seeds on dark soil. But in the middle of it, something was wrong. There was a smear of blue light, bent into an arc, stretched like taffy, a whole galaxy pulled into a glowing curve around a patch of nothing.\n\n\"What is that?\" {hero_name} asked.\n\n\"A galaxy,\" said Mr. Abernathy. \"Very far away. Its light has been traveling toward us for longer than there have been people to see it. And on the way, it passed something heavy. Something so heavy it bent the path of the light itself, the way a magnifying glass bends sunbeams. That's why the galaxy looks smeared into an arc. We're seeing it around the curve.\"\n\n{hero_name} stared at the blue streak. \"But light doesn't weigh anything. You can't pull on light. There's nothing to grab.\"\n\n\"No,\" said Mr. Abernathy, pleased. \"There isn't. So it isn't being pulled, is it? It's following something. The heavy thing made a dent in... well. In the way there is to go. And the light just went the only way it could. Around the bend.\"\n\n{hero_name} looked from the photograph up to the sky, where the Moon hung gold over the orchard, going around and around its own bend.\n\nNothing was pulling it either. {hero_name} was suddenly sure of that. The Moon was following a curve, the way the light followed a curve, and the curve was made by the heavy Earth sitting in the middle of it.\n\n\"It's not falling toward us,\" {hero_name} said. \"It's falling around us.\"\n\nThe Moon said nothing. It had been keeping the secret a long time, and it could keep it a little longer.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "By suppertime the idea had followed {hero_name} home, the way a song follows you in from outside. It sat at the table. It leaned over the soup. It would not go away.\n\nThen the screen door banged, and there was Junie, home from the space museum trip, smelling of bus seats and gift-shop fudge.\n\n\"You won't believe what I saw,\" Junie said, dropping into a chair. \"Astronauts. Floating around inside the station like dandelion fluff. And get this — the man said there's gravity up there. Almost as much as down here.\"\n\n{hero_name}} put down the spoon. \"That's wrong. If there's gravity, they'd fall.\"\n\n\"That's what I said!\" Junie waved a breadstick. \"But he swore it. Gravity, and floating, both at once.\"\n\nThey looked at each other. Outside the window, the yard lay dark and familiar, and the trampoline sat in the middle of it like a held breath.\n\n\"Come on,\" said {hero_name}.\n\nThe night air was cool and smelled of cut grass. {hero_name} climbed onto the trampoline and set {marble_color} on the stretched black fabric, right at the edge. It sat there a moment. Then it rolled — slowly, then faster — spiraling down into the dip their weight made, round and round and round.\n\n\"Watch,\" {hero_name} said softly. \"It falls the whole time. It just keeps going sideways.\"\n\n\"So it never lands,\" Junie breathed. \"It's always falling in, and always missing.\"\n\n\"Like the astronauts. Falling around the Earth, together with their station.\" {hero_name} felt the pieces slide into place, smooth as the marble circling. \"The apple falls straight down the dip. The Moon falls sideways around it. Same fall. Same dip. Different speed.\"\n\nThey looked up. The Moon had risen over the orchard, gold and enormous, watching them the way it had watched all along — patient, round, and quietly, endlessly, missing the ground.\n\n\"It knew,\" whispered {hero_name}. \"All this time, it knew.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Make one,\" said {hero_name}. \"Before bed. I want to make one.\"\n\nThe Moon climbed a little higher, as if to get a better view.\n\nThey took turns. Junie went first, flicking the marble across the fabric. It shot straight into the dip and stopped. Plop.\n\n\"Too slow,\" said {hero_name}.\n\nJunie tried again, harder. The marble zipped clean across the trampoline and off the far edge into the grass.\n\n\"Too fast,\" said {hero_name}. \"It has to be exactly sideways. Fast enough to miss, slow enough to stay.\"\n\nThen it was {hero_name}'s turn. A breath. A flick. The marble curved, caught the slope of the dip, and began to circle. Once around. Twice around. Junie grabbed {hero_name}'s sleeve. Three times around — three whole circles, falling the entire time, missing the entire time — before it spiraled gently down into the middle and lay still.\n\nFor a moment neither of them said anything.\n\n\"That,\" whispered Junie, \"is what the Moon is doing. Right now. Over our heads.\"\n\n\"Falling,\" said {hero_name}. \"Just too sideways to land.\"\n\nUp in the bedroom, by the light of one lamp, {hero_name} opened the notebook to a fresh page and wrote slowly, pressing hard: \"Sixty-four. The Moon is falling. It's just too sideways to land. An orbit is a fall that never stops missing.\"\n\nThen {hero_name} picked up {marble_color} — still warm from the night air, smooth as a drop of water — and slipped it into the pocket with the chestnut and the feather and the curl of birch bark. A pocket full of falling things, and now one that had learned to miss.\n\nOutside the window, over the dark orchard, the Moon rolled on around its invisible dip, gold and patient, falling and falling and never once landing. It had been keeping the trick longer than anyone. It did not mind sharing it.\n\n\"Goodnight, you,\" said {hero_name}, and went to sleep with the curtain open, so the Moon could keep an eye on things. It always did.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The hill,\" said {hero_name}. \"I want to say goodnight properly.\"\n\nSo they climbed, the two of them, up through the orchard rows where the grass grew long and the apples hung dark against the sky. The Moon climbed with them, the way it always does — you walk, and it comes along, quiet as a dog.\n\nAt the very top, {hero_name} stopped. From here the whole hill fell away, and the sky opened up enormous, and there was the Moon, gold and round, rolling along overhead.\n\n\"Watch,\" said {hero_name}.\n\n{hero_name} took out {falling_thing} — the same one from the very start, from drop number sixty-three — and held it out over the edge of the hill, and let go.\n\nDown it went. Straight down the invisible dip, into the dark grass. Gone.\n\nAnd overhead, at exactly the same time, the Moon went sailing on around the very same dip — the same fall, the same curve, only sideways, only too fast to ever arrive. Two falling things. One little and quick and done in a heartbeat. One huge and patient and sixty-three drops in the making. Same motion. Different speed.\n\n\"I see it,\" breathed {hero_name}. \"I actually see it. The apple and the Moon. The same thing.\"\n\n\"Newton saw it first,\" said Junie. \"But you saw it too.\"\n\nBefore they left, {hero_name} did one more thing. From the low branch by the fence, they picked one perfect apple — the roundest one, the one that shone — and set it on the fence post, right where Mr. Abernathy would find it in the morning.\n\n\"For Newton,\" said {hero_name}. \"He started it.\"\n\nThey walked home down the hill in the dark, and the Moon came with them the whole way, over the orchard, over the rooftops, over the yard where the trampoline sat holding its quiet dip. It was not floating up there. It had never been floating. It was falling — beautifully, endlessly falling — and somehow that made it feel less like a stranger in the sky and more like an old friend who had been doing the same lovely trick all along, waiting for somebody to notice.\n\n\"Goodnight,\" said {hero_name} at the door. \"Keep missing.\"\n\nAnd it did.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Your Moon's been keeping that secret a long time. We could chase it right here in the yard with my old trampoline, or we could chase it through a picture my magazines have been saving — which calls to you?\"",
+      "options": [
+        {
+          "say_word": "The yard",
+          "label": "Try the trampoline experiment with the bowling ball and marble",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The picture",
+          "label": "Look at the magazine photograph of the galaxy bent into an arc",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"So now you know the Moon's oldest trick. Do you want to make an orbit with your own hands before bed — or climb the hill and say goodnight to the one that's been doing it all along?\"",
+      "options": [
+        {
+          "say_word": "Make one",
+          "label": "Go back to the trampoline and throw the marble at the perfect sideways speed",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Say goodnight",
+          "label": "Climb the orchard hill and watch the apple and the Moon do the same thing",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.gravity",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Gravity as curved spacetime naturally unfolds as a detective story where a child notices clues—the apple falling, the Moon circling, the strange behavior of orbits—and gradually pieces together that mass bends space itself, making the 'aha' revelation deeply satisfying for an 11-year-old.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2381,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2143,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1905,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Pull That Carried Us)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1429,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0952,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0714,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "The Moon, personified just a little, watching over the story each night — the cozy element, a quiet familiar face appearing at every key moment like a night-light that never leaves.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patient questioning pays off: the biggest answer in the story comes from sitting with a small, ordinary question nobody else bothered to ask.",
+      "why": "The mystery pattern is built from this value — the hero's notebook of boring, ordinary falling things is what unlocks the shape of space. It rides along naturally without being stated."
+    },
+    "cast": [
+      {
+        "role": "A curious kid who collects falling things — apples, acorns, dropped crayons — and writes down what each one does",
+        "reused": false,
+        "why": "The named hero; their notebook of falling things gives the mystery its opening oddity and its warm landing."
+      },
+      {
+        "role": "A retired physics teacher who lives next door and keeps a trampoline in the yard",
+        "reused": false,
+        "why": "Shows rather than tells; the trampoline demonstration is the story's central clue, and a grandparently neighbor carries cozy authority. Asks choice questions in their own voice."
+      },
+      {
+        "role": "An older sibling who has been to the space museum and half-remembers a fact about astronauts floating",
+        "reused": false,
+        "why": "Drops the clue that sounds wrong — 'there IS gravity up there' — which deepens the mystery at exactly the right beat."
+      },
+      {
+        "role": "The Moon, personified just a little, watching over the story each night",
+        "reused": false,
+        "why": "The accent carrier and motif's home; appears at the opening oddity, the answer, and the landing."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A hilltop orchard in autumn where apples thump to the ground while the first stars come out overhead",
+        "The Moon is falling toward Earth all the time, but moving sideways so fast it keeps missing — that is what an orbit is",
+        "Newton said an apple falls and the Moon falls for the same reason; Einstein went further and said mass bends space itself",
+        "Astronauts float not because there is no gravity up there, but because they and the station are falling together",
+        "The trampoline demonstration — a heavy ball makes a dip, and marbles roll in curves around it",
+        "A photo of light from a distant galaxy bent into an arc by an unseen massive object — even light follows the curve",
+        "The satisfying answer: falling and orbiting are the same motion at different sideways speeds",
+        "Opening question: why does an apple fall straight down, but the Moon never falls at all? Or does it?"
+      ],
+      "gathered_but_unused": [
+        "The Moon is falling toward Earth all the time, but it is also moving sideways so fast that it keeps missing, and that is what an orbit is.",
+        "Newton said an apple falls and the Moon falls for the same reason; Einstein went further and said mass bends space itself, and things follow the curves.",
+        "Astronauts on the space station float not because there is no gravity up there, but because they and the station are falling together around the Earth.",
+        "You weigh slightly less at the equator than at the poles, partly because Earth spins and bulges, so gravity's pull is a tiny bit different in different places.",
+        "Even light follows curved space: astronomers have seen distant galaxies smeared into arcs because a massive galaxy cluster bent the light passing by.",
+        "Your own body has gravity — every mass does — but it is so small compared to Earth's that you never feel it pulling a pencil toward you.",
+        "Jupiter's mass is so great that its gravity flings some comets clean out of the solar system and captures others, acting like a giant guardian of the inner planets.",
+        "If you could dig a hole straight through the Earth and jump in, gravity would pull you faster and faster toward the center, then slow you on the far side, and you would yo-yo back and forth."
+      ]
+    },
+    "safety_beat": "In s1 and s4b, the neighbor shows once, lightly, where to stand on the hilltop orchard path — the flat, familiar spot by the fence where the view up is clearest — pure competence, no warning, no tension.",
+    "motif": "A marble circling a dip in stretched fabric — the curve that explains everything, glimpsed first in a basketball hoop, then a trampoline, then the sky itself.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.gravity.age7to8.d1.pregen.3cea6b",
+        "title": "The Pull That Carried Us",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already converts a real idea into felt experience — the want is stated and pursued, the physics is shown through hands and marbles rather than told, the wonder is dwelt in, and the closing lines ('Goodnight, you' / 'Keep missing.' / 'And it did.') land with warmth, humor, and a read-aloud rhythm that needs no help."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then a held breath at the enormous question",
+        "s2a": "leaning in, hands practically on the marble, a small gasp at 'Earth is the bowli",
+        "s2b": "wide-eyed and hushed, the strange smeared galaxy slowly clicking into place",
+        "s3": "delighted conspiracy, the giggle of 'that's what I said!' turning into breath-he",
+        "s4a": "tense and rooting during the three circles, then satisfied and sleepy under the ",
+        "s4b": "reverent and calm on the hill, a fond smile at the apple on the fence post, slee"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "02_gravity_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

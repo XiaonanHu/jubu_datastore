@@ -1,0 +1,321 @@
+{
+  "id": "story.inventions.age11to12.d1.pregen.d8f166",
+  "title": "The Puddle-Chugger",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.inventions",
+    "sel_theme": null,
+    "value_lesson": "Borrowing and improving ideas is not cheating — it is how every invention ever worked, as long as you build and test your own version.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "We set out to build a tiny steam-boat that actually chugs across the puddle, and get there by borrowing one clever trick each from Watt, Bell, and the internet's 'LO' crash.",
+  "slots": {
+    "boat_name": {
+      "role": "The name we give our little steam-boat prototype",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Soggy Puffin"
+    },
+    "code_word": {
+      "role": "The two-letter message our boat 'sends' when it finally works, echoing the internet's first 'LO'",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "CH (as in chug!)"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Rain on the shed roof. Drip, drip, plop, into the bucket by the door. It is Saturday, and Grandma's shed smells of sawdust and tea, and we have a plan.\n\n\"We are going to build a boat,\" we tell her. \"A steam-boat. A tiny one that chugs across the big puddle by the gate all by itself. Puffing.\"\n\nGrandma wipes her hands on her apron. \"Big talk,\" she says, \"for a rainy morning.\" She fills the kettle and sets it on the hotplate, because no invention in this family begins without tea.\n\nWe raid the shelves while it heats. A broken toy train, the good kind, heavy as a stone. An old radio with dials that click. And from the scrap tin, a coil of copper tube, bent into a squiggle like a piece of elbow macaroni. We straighten it out. It shines like a penny in a pocket.\n\nThen the kettle whistles. One long note, then a huff, then a rumble deep in its belly, like a tiny train trying to leave the station.\n\nWe stare at it. It stares back, steaming.\n\n\"Did you hear that?\" we whisper. \"It sounds like a dare.\"\n\n\"Kettles do that,\" says Grandma, pouring. \"Now. Your grand plan. What does it remind you of?\"\n\nRemind us of? It is brand new. Nobody has ever built a boat like ours.\n\n\"Humour me,\" says Grandma.\n\nSo we take apart the toy train, and there inside is a little wheel with scoops, made to catch a push. We unscrew the radio, and there is a coiled wire, made to carry a message. And the copper tube, we bend it again, one bend, so it can hold steam the way the kettle does.\n\nThree old things. Three old ideas, sitting in our hands, waiting to be snapped together.\n\nGrandma raises her mug. \"Every invention is a remix, my loves. Somebody else's good idea, wearing your hat.\"\n\nThe kettle huffs, in company.\n\n\"Our boat needs a name,\" we say. \"What should we call her?\" — {boat_name}\n\n\"Excellent,\" says Grandma. \"Now. How do we make steam push?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Slap it together!\" we shout, because we cannot help it.\n\nGrandma grins into her mug. \"Then slap, inventors.\"\n\nWe slap. The copper coil goes over a tea-light, one bend, two bends, no measuring, who has time. We jam a cork in the jar lid. We flip a margarine tub upside down and that is the hull, because it floats and it is free. Our best friend pokes the coil with a pencil. \"Is it supposed to wobble like that?\"\n\n\"Probably,\" we say, which is not an answer.\n\nThe water in the coil gets hot. We hear it tick. Then it hisses, like the kettle's little cousin, and a fat bubble of steam shoves out the back. The boat shoots forward, spins in a circle, and sinks with a glug.\n\nGlug.\n\nWe stare at the bubbles. Our friend nods, very serious. \"Magnificent.\"\n\n\"Truly,\" says Grandma. \"Now. Tea.\" She pours, and over the steam she tells us about Mr. Watt, who did not invent the steam engine at all. Somebody else's engine kept wasting its puff, and Watt bolted on a separate cold bit, a condenser, so the steam stopped leaking away. One borrowed trick. That was the whole genius.\n\nWe look at our coil. It is wet. It is smug.\n\n\"The puff leaked,\" we say slowly. \"It all went out the back and none of it stayed to push.\"\n\nSo we bend the tube again, one more bend, and wrap a strip of cold wet cloth around the middle of it, a little jacket, so the steam keeps its strength on the way through. The coil sits in our hands like it knows something now.\n\nGrandma raises her mug to the kettle. The kettle huffs back, in company.\n\n\"Version two,\" she says. \"Tomorrow. And this time, inventors, she floats.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Measure twice,\" we say. \"We want to hear what it tells us.\"\n\n\"Good ears,\" says Grandma, and clears a space on the bench.\n\nWe sketch first. The boat on paper looks like a bathtub with ideas. Our best friend holds the ruler. We bend the copper tube slowly, one bend, then stop, then one more, checking the drawing each time like it might change its mind.\n\nWhile we work, Grandma lifts down something heavy from the high shelf. An old telephone, black as a boot, with a round dial that goes whir-click when you spin it.\n\n\"Mr. Bell was not trying to invent the telephone,\" she says. \"He was trying to stack telegraph messages on one wire, lots of little dots at once. Then one day a springy reed twanged by accident, and the wire carried the twang. A sound! He heard it and thought: oh. OH.\"\n\n\"So the telephone was a mistake?\" our friend asks.\n\n\"The telephone was somebody listening to a mistake,\" says Grandma. \"Different thing entirely.\"\n\nShe taps the phone's round earpiece. \"Inside here, a thin skin that shakes when sound hits it. A diaphragm. Borrow it.\"\n\nSo we borrow it. We stretch a balloon skin over a tin can and press it against our coil, and now the boat has a heartbeat you can hear. Our friend taps the copper. The skin flutters, fast-fast-slow.\n\nWe carry version one to the puddle and light the tea-light. The diaphragm starts to flutter. Puff. Puff. The boat wobbles sideways, and the flutter goes fast-fast-slow, fast-fast — stop.\n\nSilence. Drip, drip, plop, from the roof.\n\n\"It died,\" our friend whispers.\n\n\"But we heard it die,\" we say. \"The puff was uneven. Fast, fast, slow. Something inside is not keeping the beat.\"\n\nGrandma consults the kettle, pouring slow. The kettle huffs, steady as a clock.\n\n\"Then tomorrow,\" she says, \"we find out why.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the workbench, we spread out what we know. The kettle whistles, one long note, and Grandma pours without being asked.\n\n\"So,\" she says. \"What did you find?\"\n\nWe tell her, and it all comes down to one thing. Our steam arrives in a single big whoosh. One giant push, and then nothing. A boat cannot chug on a whoosh.\n\n\"Chug, chug, chug,\" says Grandma, tapping the table. \"Little pushes. Even ones.\"\n\nThe shed door creaks. It is Priya, from our class, holding her bike helmet, dripping. \"Steam-boats were invented ages ago,\" she says. \"Like, two hundred years.\"\n\n\"True,\" says Grandma, unbothered. \"And the man who patented the first good one got a piece of paper saying the idea was his, for a while. That is all a patent is. But paper never pushed a boat. He still had to build a prototype that worked, and he built it out of older ideas, like stepping stones across a river.\"\n\nPriya comes in out of the rain. \"So their boat is allowed?\"\n\n\"Their boat is tradition,\" says Grandma.\n\nThe kettle huffs, in company. We consult it, the way we always do before a rebuild. It rumbles back, deep in its belly. Not in answer. In company.\n\nPriya peers at the copper coil on the bench. \"Your problem is the bends. They're all different sizes. Steam rushes through the big ones. I'm good at measuring,\" she says. \"The best in our class, actually.\"\n\nSo we hand her the ruler. Together we mark the coil into even sections, one thumb-width each, and bend it slow, one bend, one borrowed idea at a time.\n\nThe rain patters on. The puddle is waiting.\n\n\"Version two,\" says Priya, and grins.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Priya bounces on her toes. \"The puddle. Now. Before the rain stops.\"\n\nWe wrap version two in a tea towel and run. The big puddle by the gate is brown and busy, raindrops pocking it like fingers tapping a table. Grandma follows with the kettle, because ceremony is ceremony.\n\nWe kneel at the edge. Priya lights the little burner, and we hold our breath so hard our cheeks puff out.\n\nThe copper coil trembles. Steam fills it, bend by bend, and then — chug. Chug. Chug. The boat scoots forward, puffing, our name for her painted on the side.\n\nThree seconds. Then she stops. Dead in the water, one boat-length out.\n\n\"No!\" we wail.\n\n\"YES!\" shouts Priya, and we spin around. \"Listen. The very first message ever sent on the internet? The computer crashed after two letters. L, O. They were trying to type LOGIN and it died. And it still counted! Two letters changed the world!\"\n\nWe look at our boat, stalled and steaming. \"So our boat just sent its first message,\" we say slowly. \"Two chugs. What is she saying?\" — {code_word}\n\n\"Then let's get the rest of the word out,\" says Priya. She reaches in, careful, and turns the coil one half-turn, so the last bend sits even with the others. \"Even pushes. Like Grandma said.\"\n\nThe burner hisses. Chug. Chug. Chug-chug-chug, all the way across, the whole width of the puddle, puffing our code word into the rain.\n\nWe shout, because we cannot help it. Grandma applauds with her mug.\n\nBack in the shed, she hangs the bent copper coil on the pegboard, on a hook all by itself. Below it she tapes a label in her spidery writing: Patent Pending, Puddle Division.\n\n\"Every patent starts as a puddle,\" she says.\n\nThe kettle huffs. In company.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Almost isn't enough,\" we say. \"Not yet.\"\n\nSo the afternoon becomes a parade of almosts. We set version two in Grandma's old baking tray, filled at the sink. Chug, chug, chug — three seconds — dead. We unbend the coil, smooth one kink, try again. Seven seconds. Dead. Priya frowns at the ruler and moves one bend a thumb-width over. Eleven seconds.\n\nEach time, Grandma tops up the teapot and tells another piece of the story.\n\n\"There was a man named Tim Berners-Lee,\" she says, \"who invented the World Wide Web. But he didn't invent the pieces. Computers already existed. The internet already existed, carrying messages. He just snapped two old ideas together — like your train wheel and your kettle.\"\n\nChug-chug-chug. Dead at the far end of the tray. Twelve seconds.\n\n\"And here is the part I love,\" says Grandma. \"He could have patented it. Gotten a piece of paper saying it was his, and charged the whole world to use it. Instead he gave it away. Free. So anyone could build on it. Remix it.\"\n\n\"He gave away his invention?\" we say. \"On purpose?\"\n\n\"That's why you have a computer at school,\" says Priya, not looking up from the coil. \"Okay. One more.\"\n\nThe light outside goes gold, then grey. The kettle whistles, consulted one last time, and rumbles back in company. Priya sets the boat in the tray.\n\nChug. Chug. Chug-chug-chug. Around the whole rim of the tray, one full lap, steady as a heartbeat.\n\nWe carry her out into the drizzle, and she crosses the real puddle without stopping once.\n\n\"Enough,\" we whisper. \"It's enough.\"\n\nBefore bed, we tape the very first paper sketch to the shed wall — damp at the corners, signed by all three of us — so the next kid who raids this scrap tin can see exactly how we did it.\n\n\"Free to remix,\" says Grandma, turning off the light.\n\nThe kettle huffs. Goodnight.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Grandma taps the kettle and asks: 'So, inventors — do we slap it together and see what breaks, or do we measure twice and listen to what it's telling us?'",
+      "options": [
+        {
+          "say_word": "Build it!",
+          "label": "Slap the prototype together fast and test it to destruction",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Listen first",
+          "label": "Sketch carefully and give the boat a 'heartbeat' we can listen to",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Our best friend bounces on their toes: 'Version two is READY. Do we march it straight to the puddle for the big launch, or keep tinkering till it's perfect-perfect?'",
+      "options": [
+        {
+          "say_word": "Launch day",
+          "label": "Carry it to the puddle right now for the full-send crossing",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "One more tweak",
+          "label": "Stay at the bench and polish the almost-there version until dusk",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.inventions",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Inventions as remixes is inherently about building something new by combining older parts step by step, so a child protagonist prototyping their own invention from borrowed ideas fits the material perfectly.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.26,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma's tea kettle, which whistles, huffs, and is ceremonially 'consulted' before every rebuild — the cozy heartbeat of the shed.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Borrowing and improving ideas is not cheating — it is how every invention ever worked, as long as you build and test your own version.",
+      "why": "The material offers it naturally: the rival's 'that's been invented already' jab, Grandma's patent explanation, and Berners-Lee giving the Web away free all point to the same lesson without any preaching."
+    },
+    "cast": [
+      {
+        "role": "The kid inventor (protagonist, age 11, narrating as 'we')",
+        "reused": false,
+        "why": "The make_and_build pattern needs a first-person-plural builder who collects parts, hits dead ends, and keeps remaking the prototype one version at a time."
+      },
+      {
+        "role": "Grandma, a retired tinkerer",
+        "reused": false,
+        "why": "She never gives the answer directly — she asks 'What does that part remind you of?' and tells the Watt, Bell, and Berners-Lee stories that carry the inventions-as-remixes knowledge. She also owns the tea kettle that carries the cozy accent."
+      },
+      {
+        "role": "The best friend who is great at breaking things",
+        "reused": false,
+        "why": "The wobble beats need someone who tests every prototype to destruction in seconds and celebrates each collapse as useful information — this keeps the silly dominant tone fizzy."
+      },
+      {
+        "role": "A rival-turned-teammate from class",
+        "reused": false,
+        "why": "Arrives saying 'that's been invented already,' which sets up the patent/remix conversation, then joins with the one missing skill — careful measuring — for the final working version."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "cluttered garden shed workshop with pegboard, wobbly workbench, and jars of screws",
+        "little steam-boat that chugs across a puddle (the want)",
+        "the remix hunt: taking apart an old toy to see which parts already exist",
+        "Watt improving the Newcomen engine with a separate condenser",
+        "Bell's vibrating reed carrying a twang down a wire, discovered by accident",
+        "ARPANET's first message crashing after 'LO' — 'lo and behold!'",
+        "a patent says the idea is yours, but you still need a working prototype",
+        "Berners-Lee combining hypertext and the internet and giving it away free",
+        "early steam engines as giant metal straws pumping mine water",
+        "rival-turned-teammate who brings careful measuring"
+      ],
+      "gathered_but_unused": [
+        "James Watt didn't invent the steam engine — he made an existing one (the Newcomen engine) much better by adding a separate condenser, so it wasted far less steam and fuel.",
+        "Alexander Graham Bell was trying to send multiple telegraph messages down one wire when he noticed a vibrating reed could carry the twang of a sound — that accident became the telephone.",
+        "The first words ever spoken on a telephone were Bell calling to his assistant in the next room: 'Mr. Watson, come here, I want to see you' — after spilling battery acid on his clothes.",
+        "The internet grew out of ARPANET, a 1969 network that first connected just four university computers — and the very first message crashed the system after only two letters ('L' and 'O' of 'LOGIN').",
+        "Tim Berners-Lee invented the World Wide Web by combining two existing ideas — hypertext (clickable linked text) and the internet — and gave it away free instead of patenting it.",
+        "Early steam engines were built to pump water out of flooded mines — the 'fire engine' was basically a giant metal straw sucking water up so miners could dig deeper for coal.",
+        "The telegraph came before the telephone, and the telephone came before the internet — each invention stood on the shoulders of the one before, like stepping stones across a river.",
+        "A patent is an official document that says 'this invention is yours' for a set number of years — but inventors still have to build a working prototype to prove the idea actually does something."
+      ]
+    },
+    "safety_beat": "In s1, when we take apart the old radio, Grandma shows once and lightly where hands belong: she lifts out the big capacitor and sets it on the high shelf 'because that one holds its zap,' then hands us the safe plastic gears — competence, no warning, no tension.",
+    "motif": "A coil of copper tube that keeps being unbent and re-bent, gathering one borrowed idea per bend until it finally carries a real 'chug.'",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the making is shown step by step with named parts and real failures, the sound-words land as their own small sentences, and the kettle's recurring 'in company' huff quietly supplies the warmth without ever declaring it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in at the kettle's dare",
+        "s2a": "giggling, then a held breath, then the small sting of the glug",
+        "s2b": "quiet and careful, ears open, a small hush at the death",
+        "s3": "settled and busy, a new friend pulling up a chair",
+        "s4a": "held breath, wail, then a shout of joy",
+        "s4b": "patient, determined, then satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 38% of sentences carry speech or action; [s4b] narration heavy: only 38% of sentences carry speech or action; [c1] narrator asks the choice: no spoken line; a character should pose the question"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 38% of sentences carry speech or action",
+      "[s4b] narration heavy: only 38% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 38% of sentences carry speech or action",
+      "[s4b] narration heavy: only 38% of sentences carry speech or action",
+      "[c1] narrator asks the choice: no spoken line; a character should pose the question",
+      "[c2] narrator asks the choice: no spoken line; a character should pose the question"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "06_inventions_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

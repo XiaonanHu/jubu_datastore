@@ -1,0 +1,338 @@
+{
+  "id": "story.the_solar_system.age11to12.d1.pregen.fba7cd",
+  "title": "The Detective and the Crumbs of Everything",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_solar_system",
+    "sel_theme": null,
+    "value_lesson": "Unfinished pieces are not failures; sometimes they are the best records of the past.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A young detective follows the trail of the solar system's leftovers to discover why the planets left so many pieces behind.",
+  "slots": {
+    "comet_name": {
+      "role": "The name Marisol gives the comet she spots",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pickles"
+    },
+    "detective_badge_word": {
+      "role": "The silly word Marisol stamps on her detective notebook cover",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Official"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "It was a cold, clear night, and Detective Marisol Vega was on a stakeout.\n\n\"The backyard is quiet,\" whispered a tiny voice from her jacket pocket. \"TOO quiet. The galaxy holds its breath!\"\n\nThat was Zorp. Zorp was a small plush alien, and he narrated everything like a space epic, even breakfast.\n\nMarisol's brother Theo stood beside her, breathing on his hands to warm them. Above them the sky was black and deep and sprinkled with stars, and somewhere up there was a comet nobody in their family had spotted yet. Marisol intended to be the first.\n\n\"Binoculars up,\" she said.\n\n\"Binoculars UP!\" squeaked Zorp. \"The brave detective raises her mighty—\"\n\n\"Zorp.\"\n\n\"Sorry. Quiet. Too quiet. Got it.\"\n\nMarisol swept the binoculars slowly across the sky. Roof. Chimney. Stars. Stars. And then—\n\n\"There!\" She grabbed Theo's sleeve. \"There it is! I found it!\"\n\nThe comet hung in the dark like a fuzzy crumb on a bakery counter, with a long glowing tail streaming off to one side.\n\nMarisol lowered the binoculars. Then she raised them again. Then she lowered them again.\n\n\"Theo,\" she said slowly. \"Comet tails point away from the sun. That's the rule. The sun is down there, behind the hills. So the tail should point up.\"\n\n\"And?\"\n\n\"The tail points sideways.\"\n\nTheo squinted. \"Maybe it's... a relaxed comet?\"\n\n\"Comets don't relax.\"\n\nFrom her pocket came a gasp. \"A MYSTERY! In the cold depths of space, a clue appears—\"\n\nMarisol pulled out her detective notebook and clicked her pen. \"Case number one,\" she said. \"The comet with the sideways tail. I'm calling it {comet_name}.\"\n\nShe wrote the name at the top of a fresh page, then stamped the cover with her favorite word: {detective_badge_word}.\n\n\"The Case of the Cosmic Crumbs,\" she said, \"is officially open.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The next morning, Marisol and Theo pedaled to the space museum, Zorp bouncing in her pocket like a very dramatic popcorn kernel.\n\n\"The heroes approach the Temple of Ancient Stones!\" he squeaked.\n\nInside, the guide smiled at Marisol's notebook. \"You want the meteorite case. End of the hall.\"\n\nAnd there it was. A dark little rock under glass, no bigger than a bar of soap, with a bumpy crust like the edge of burnt toast.\n\n\"That,\" said the guide, \"is a piece of an asteroid. It fell out of the sky and landed in a farmer's field. And here's the wild part — it's older than any rock on Earth. Older than the mountains. Older than the oceans.\"\n\nMarisol pressed both hands to the glass. \"Older than everything?\"\n\n\"Older than everything here.\"\n\n\"A MESSAGE IN A BOTTLE!\" Zorp declared, popping up. \"Flung across the endless void from the dawn of TIME ITSELF!\"\n\n\"Zorp, it's a rock.\"\n\n\"It's a rock that REMEMBERS.\"\n\nMarisol flipped her notebook open to the sketch of {comet_name} and held it beside the case. Crumb on a bakery counter. Crumb under glass. Both leftovers. Both from the very beginning, when the planets were still forming.\n\n\"Theo,\" she whispered. \"This rock was there. At the formation of the whole solar system. It's a clue that fell out of the sky on purpose.\"\n\n\"Rocks don't do things on purpose.\"\n\n\"Then it's a clue that fell out of the sky by accident, and I don't care, because look at it.\"\n\nTheo leaned in close. \"So if the comet's a crumb and this is a crumb...\"\n\n\"Then somebody,\" Marisol said, \"left crumbs all over the solar system. And I want to know why.\"\n\n\"DUN DUN DUN,\" said Zorp.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "That evening, Marisol and Theo climbed the hill to the observatory, where Dr. Okafor had the big telescope aimed at a faint, slow-moving dot.\n\n\"An asteroid,\" she said, stepping aside so Marisol could look. \"There it goes. One of millions.\"\n\n\"MILLIONS!\" squeaked Zorp. \"A mighty swarm, packed shoulder to shoulder in the cold dark—\"\n\n\"Actually,\" said Dr. Okafor, \"that's the funny part.\" She pulled out a chart of the solar system and tapped the ring between Mars and Jupiter. \"This is the asteroid belt. In pictures it looks like a crowded rock field. Ships dodging, rocks bonking into each other. But that's not true. The belt is almost entirely empty space.\"\n\nMarisol looked up. \"Empty?\"\n\n\"If you stood on one asteroid, you probably couldn't even see the next one. They're spread out over millions and millions of kilometers. All the asteroids together weigh less than the Moon.\"\n\nThere was a small thump. Zorp had fainted backward into Marisol's pocket.\n\n\"The pictures LIE,\" he moaned. \"The epic space chase through the deadly rock field... a fantasy!\"\n\n\"But wait.\" Marisol pulled out her notebook, flipping to the sketch of {comet_name}. \"If they're leftovers from the formation of the solar system — crumbs from when the planets got baked — why are they spread out? Crumbs don't spread themselves. Somebody sweeps them.\"\n\nDr. Okafor raised one eyebrow. \"Somebody... or something. Something big enough to stir a whole belt.\"\n\nTheo looked at the chart. Then at the telescope. Then at Marisol. \"Something big,\" he repeated. \"Like, planet big?\"\n\n\"Jupiter big,\" said Dr. Okafor.\n\nMarisol clicked her pen and wrote one word on the page, in capital letters: SUSPECT.\n\n\"The Case of the Cosmic Crumbs,\" she said, \"just got a lot bigger.\"\n\n\"DUN DUN DUN,\" said a muffled voice from her pocket.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back inside, Marisol spread her notebook open on the kitchen table and clicked her pen twice, which was her thinking sound. \"Okay,\" she said. \"Tell me everything. What did you find out there?\"\n\nTheo talked. Zorp added trumpets. Marisol wrote it all down, and when they were done she tapped the page. \"So now we have this, plus the sideways tail. The Sun pushes a comet's tail around like wind pushing smoke. That's clue one.\"\n\n\"Clue one!\" Zorp squeaked from her pocket. \"The detective's mighty brain awakens!\"\n\nMarisol pulled out the model they'd built last week, the one with little balls for planets. She pointed at the space between Mars and Jupiter, where they'd scattered a whole handful of crumbs and pebbles. \"The asteroid belt. Millions of chunks, all circling, and they never got together into a planet. You know why? Jupiter. It's so big its gravity kept stirring them, like a spoon in a pot that never stops. The pieces kept bumping and flying apart. They never got to build.\"\n\nTheo frowned. \"So the planets formed all neat and tidy, but—\"\n\n\"But why are so many pieces still wandering?\" Marisol finished. She wrote the question in big letters. Then she stared at it. Then she gasped so hard Zorp nearly fell out of her pocket.\n\n\"Leftovers,\" she whispered. \"Theo. The asteroids, the comets — they're leftovers. From the formation of the whole solar system. When everything formed, most of the dust and rock baked into planets. But these bits never got used. They're the crumbs that never became cake.\"\n\n\"Crumbs,\" Theo breathed.\n\n\"And because they never got baked, they never changed. They still remember the beginning. Every comet, every asteroid — it's a piece of day one, still floating around.\"\n\nZorp made a strange sound. Marisol looked down. The little alien was weeping, tiny plush tears on his tiny plush cheeks. \"The crumbs,\" he whispered, \"are the TREASURE MAP. The greatest case in the galaxy, solved by—\"\n\n\"Not solved yet,\" said Marisol, standing up. Because a real detective with an answer this big had to do something about it. But what?",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Family night at the museum was loud. Kids everywhere, sticky fingers, a dinosaur skeleton towering over the lobby. Marisol stood beside the meteorite case, notebook in hand, Zorp riding shotgun in her pocket.\n\n\"Citizens of Earth!\" Zorp squeaked. \"The detective prepares to reveal the greatest secret in the—\"\n\n\"Zorp.\"\n\n\"Right. Quiet.\"\n\nDr. Okafor tapped the microphone. \"Everyone, this is Marisol. She has something to tell you about that little dark rock.\"\n\nMarisol stepped up. The rock sat behind the glass, small and gray and ordinary. Nobody ever looked at it twice.\n\n\"This rock is a crumb,\" she said. \"From the bakery of the beginning. When the solar system formed, most of the dust and rock baked into planets. But some pieces never got used. They never changed. They still remember day one.\"\n\nShe pointed at the asteroid belt poster. \"The asteroid belt is full of crumbs. Comets too. They're leftovers, and they're the oldest things you can touch.\"\n\nA little kid in the front row gasped. \"That rock remembers the beginning?\"\n\n\"That rock IS the beginning,\" said Marisol.\n\nDr. Okafor smiled and peeled a sticker off a sheet. It said JUNIOR DETECTIVE in silver letters. She pressed it onto Marisol's notebook, right next to the name {comet_name}.\n\n\"Case closed,\" said Dr. Okafor.\n\n\"Case CLOSED!\" Zorp shouted. \"The galaxy rejoices!\"\n\nOn the way out, Marisol stopped at the gift table. She picked up a postcard of Ceres, the quiet round world hiding among the crumbs, and tucked it into her notebook.\n\n\"You coming?\" Theo asked.\n\n\"Yeah,\" said Marisol, patting her pocket. \"We're coming.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The backyard was cold again, but Marisol didn't mind. The comet was leaving, and she had to see it off.\n\n\"There,\" said Dr. Okafor, pointing through the telescope. \"Still got that sideways tail.\"\n\nMarisol looked. The comet hung in the dark, fuzzy and glowing, its tail streaming off at that strange angle. The Sun's invisible fan, pushing the tail around like wind pushing smoke.\n\n\"It's a dirty snowball from the beginning,\" Marisol said. \"A crumb that never got baked. And it's been carrying that memory for billions of years.\"\n\n\"Billions,\" Theo breathed.\n\nZorp sniffled from her pocket. \"The brave crumb sails into the void, alone but unforgotten—\"\n\n\"Zorp.\"\n\n\"Sorry.\"\n\nMarisol pulled out her notebook and clicked her pen. She wrote the final entry: \"Comet {comet_name}. Dirty snowball. Tail blown sideways by the Sun's fan. Leftover from the formation of everything. Case closed.\"\n\nShe underlined the name twice.\n\n\"You're really naming it {comet_name}?\" Theo asked.\n\n\"I already did,\" said Marisol. \"It's official. It's in the notebook.\"\n\nDr. Okafor handed her something small and heavy. A meteorite replica from the observatory gift table, dark and pocked and cool to the touch.\n\n\"A crumb that remembers,\" said Dr. Okafor.\n\nMarisol held it up to the sky. The comet was already fading, already sailing away into the deep black. It would be gone for years.\n\n\"Goodbye, {comet_name},\" she whispered.\n\nShe tucked the meteorite into her pocket, next to Zorp, and patted it once.\n\n\"Come on,\" she said. \"Let's go inside. I'm keeping this on my windowsill.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Theo squints at the notebook and says, \"Okay, detective, the tail is weird. Do we go touch an actual space rock at the museum, or do we go spy on the asteroid hideout through the big telescope?\"",
+      "options": [
+        {
+          "say_word": "Museum",
+          "label": "Visit the meteorite under glass at the space museum",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Telescope",
+          "label": "Visit the observatory to see the asteroid belt",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Dr. Okafor taps the solved notebook and asks, \"The case is cracked, Marisol. Will you announce it to the whole museum on family night, or shall we watch your comet sail off and close the file under the stars?\"",
+      "options": [
+        {
+          "say_word": "Announce",
+          "label": "Present the solved case at museum family night",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Stargaze",
+          "label": "Watch the comet's farewell from the backyard",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_solar_system",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Asteroids and comets are literally clues left over from the solar system's formation, so a child of 11 can naturally play detective piecing together what these remnants remember about the beginning.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3556,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1333,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1111,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0889,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0667,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Zorp, a small plush alien with a squeaky voice who rides in the hero's pocket and narrates everything like a dramatic space epic",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Unfinished pieces are not failures; sometimes they are the best records of the past.",
+      "why": "The material offers it naturally: asteroids and comets never became planets, yet they are the most precious clues to the beginning."
+    },
+    "cast": [
+      {
+        "role": "Detective Marisol Vega, curious child detective",
+        "reused": false,
+        "why": "She notices the odd clue that the leftovers do not match the tidy planet picture and drives the mystery."
+      },
+      {
+        "role": "Zorp, plush alien sidekick",
+        "reused": false,
+        "why": "Carries the big_adventure accent with overblown space-captain proclamations, keeping the dominant tone silly."
+      },
+      {
+        "role": "Dr. Okafor, astronomer",
+        "reused": false,
+        "why": "Tracks the comet and explains what its path and material reveal; asks the second choice question."
+      },
+      {
+        "role": "Theo, older brother",
+        "reused": false,
+        "why": "Asks the wrong-but-useful questions that push the mystery forward; asks the first choice question."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "asteroid belt is mostly empty space, not a crowded rock field",
+        "asteroids are leftovers from when the planets were forming",
+        "comets are icy and dusty and grow a glowing tail near the Sun",
+        "a comet's tail points away from the Sun, not backward",
+        "the asteroid belt sits between Mars and Jupiter",
+        "meteorites on Earth are pieces of asteroids with very old material",
+        "Ceres is the largest object in the belt",
+        "comets and asteroids preserve clues about the formation of the solar system",
+        "Jupiter's gravity may have kept the belt from forming a planet",
+        "backyard on a cold clear evening with binoculars",
+        "space museum room with a real meteorite under glass",
+        "opening question: why are there so many leftover pieces still wandering?"
+      ],
+      "gathered_but_unused": [
+        "The asteroid belt is mostly empty space, not a crowded rock field, even though pictures make it look dense.",
+        "Many asteroids are leftovers from when the planets were forming, so they are like pieces of the early solar system that never became a planet.",
+        "Comets are icy and dusty, and when one gets close to the Sun it can grow a glowing tail.",
+        "A comet’s tail does not always point backward the way it travels; the Sun’s light and particles push it away from the Sun.",
+        "The asteroid belt sits between Mars and Jupiter, in a kind of wide ring around the Sun.",
+        "Some meteorites that fall to Earth are pieces of asteroids, so scientists can study ancient solar system material without leaving home.",
+        "The dwarf planet Ceres is in the asteroid belt and is the largest object there.",
+        "Comets and asteroids can carry clues about the formation of the solar system because they have changed less than the planets have."
+      ]
+    },
+    "safety_beat": "In s2a, the museum guide shows Marisol where to stand at the railing so she can see the meteorite case without touching the glass — a light, easy competence beat with no warning or tension.",
+    "motif": "Crumbs on a bakery counter",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.the_solar_system.age7to8.d1.pregen.e33162",
+        "title": "The Drifting Stone",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already has a working engine — a real question pursued through real places — and the crumb/bakery metaphor carries the science warmly without burying it, while Zorp's sound and the sibling rapport keep it fun to hear aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "leaning in, delighted by a squeaky sidekick and a real clue",
+        "s2a": "wide-eyed at the old rock, giggling at Zorp",
+        "s2b": "a held breath as the case gets bigger",
+        "s3": "the click of pieces fitting, a gasp shared",
+        "s4a": "proud and satisfied, a little applause inside",
+        "s4b": "quiet and glowing, a fond goodbye"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 5.0); [s4a] flat rhythm: sentence lengths vary little (spread 4.3); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.0)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.0)"
+    ],
+    "hand_edit": {
+      "date": "2026-08-12",
+      "field": "title",
+      "was": "The Case of the Cosmic Crumbs",
+      "now": "The Detective and the Crumbs of Everything",
+      "reason": "title was near-identical to _demo_run_kid3/03_the_solar_system ('The Case of the Cosmic Leftovers' vs '...Cosmic Crumbs'). New title keeps this version's bakery-crumbs motif but reads as its own story on a shelf.",
+      "by": "hand edit, pre-ingest review"
+    },
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "02_the_solar_system_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

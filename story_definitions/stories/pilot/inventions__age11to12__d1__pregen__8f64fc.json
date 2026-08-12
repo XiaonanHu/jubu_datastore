@@ -1,0 +1,302 @@
+{
+  "id": "story.inventions.age11to12.d1.pregen.8f64fc",
+  "title": "The Cat-Feeding Contraption",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.inventions",
+    "sel_theme": null,
+    "value_lesson": "Persistence through failure and remixing with credit",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "We want to build a machine that feeds our cat when we're late, and we get there by remixing old inventions step by step.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Pickles is yowling again. Yowling and yowling, because robotics club ran late and her dinner is late and she does not care about gear ratios at all. We are in Grandpa's garden shed, which smells like grass clippings and old wood, and every shelf is stacked with things that might be useful someday. Jars of screws. A bicycle wheel. Three umbrellas with no handles.\n\n\"She has a point,\" Grandpa says. He is sitting on the upturned bucket that is his thinking seat, and he unscrews the top of his thermos very slowly, the way he always does before a big decision. He calls that thermos the Professor. Nobody knows why. He takes a sip. He waits. \"Hmm,\" he says. \"The Professor thinks we have ourselves an invention problem.\"\n\nPickles yowls. It is the loudest sound a small cat can make.\n\n\"A machine,\" we say, \"that feeds her on time. Every time. Even when we're late.\"\n\nGrandpa stands up and pulls a dusty box off the highest shelf, and inside are the strangest things we have ever seen. A mousetrap attached to a doorbell. A wooden spoon with a motor glued to it. \"My prototypes,\" he says, like he's introducing old friends. \"That one was supposed to stir my tea. That one was supposed to find my glasses. Neither one worked even a little bit.\"\n\nHe taps the side of the box. \"Every inventor starts exactly here. One small, annoying problem, and one idea that probably won't work. That's how the steam engine happened, and the telephone too. Somebody annoyed, somebody tinkering.\"\n\nPickles headbutts Grandpa's shin, hard.\n\n\"The Professor thinks,\" Grandpa says, pouring the last sip into his cup, \"that we'd better start drawing.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Grandpa pats the Professor and grins. \"The library it is.\" So we grab our bikes and pedal into town, the evening air cool on our faces, while Pickles watches from the window with her tail flicking like a metronome. The library's invention corner smells like paper and glue, and we spread out books about James Watt, who took Newcomen's clunky steam engine and remixed it into something that actually worked, and Alexander Graham Bell, who mashed a telegraph wire together with a vibrating diaphragm and called it a telephone. We take apart a broken radio from the donation bin, and the inside is a city of wires and tiny screws. Grandpa shows up with the Professor and settles into a chair. \"See this?\" he says, tapping a diagram of Watt's engine. \"A patent. It's a paper that says, 'This is my idea, and you can't steal it.' But here's the clever part. It also tells everyone exactly how it works, so the next inventor can stand on your shoulders and build something even better.\" We sketch our first messy diagram on the back of a receipt, drawing gears and levers and a little door for the food. It looks like spaghetti had a fight with a clock. But it's ours.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The shed,\" we say, and Grandpa nods slowly. \"The Professor approves.\" We raid the pegboard for hooks and pulleys, dig through jars of screws, and pull apart the disassembled radio on its mat, revealing a jungle of wires and a motor that might still work. Maya bikes over with her electronics kit, and she spreads it out on the workbench like a treasure map. \"You need a timer,\" she says, holding up a little circuit board. \"Something that ticks until it's dinner o'clock, then bam, it triggers the motor. That's how the internet started, you know. ARPANET took computers that already existed and phone lines that already existed and just... remixed them so universities could share stuff.\" We sketch our first diagram on the back of a seed packet, labeling it 'Prototype 1' in big letters and taping the corners down with duct tape. Grandpa consults the Professor, sipping slowly. \"Hmm,\" he says. \"The Professor thinks you're onto something. Or possibly onto the floor. Hard to tell with prototypes.\" The diagram is already smudged with fingerprints and crossed-out lines, but it's a start.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back in the shed, Grandpa unrolls the diagram on the workbench. It already has one coffee ring on it, from before. \"What did you find out there?\" he asks, and we tell him everything, and he nods and adds three more squiggly lines to the drawing with his pencil. Now it looks like a map of a place that does not exist.\n\n\"Prototype 1,\" Grandpa announces. \"The Professor expects great things.\"\n\nWe build the hopper out of a cardboard box, because cardboard is the best building material ever invented and nobody can prove otherwise. The kibble goes in the top. Underneath, Grandpa rigs a little gate with string and a pulley off an old clothesline, and we hold the whole thing together with duct tape and hope. Mostly hope.\n\n\"Test run,\" Grandpa says. He pours in a scoop of kibble. We pull the string.\n\nThe gear slips. The string tangles. The gate opens sideways, then not at all, and then the whole hopper folds itself up with a sad little crunch, like a cardboard box sitting down because it is tired. Kibble goes everywhere. Pickles strolls in and starts eating it off the floor, which is not the point at all.\n\n\"Hmm,\" Grandpa says. He unscrews the Professor. He sips. He waits so long we think he has fallen asleep with his eyes open. \"The Professor thinks of Bell and Watson.\"\n\n\"The telephone guys?\"\n\n\"Those very guys. Do you know how many different diaphragms they tried before one carried a clear voice? Dozens. Dozens and dozens. Little discs of this, little discs of that. Every single one that failed told them something.\" He taps the collapsed hopper with one finger. \"A Prototype 1 that falls down is not a defeat. It is a clue with a crunch.\"\n\nWe look at the wreckage. The string is wrapped around the gear like spaghetti. And that is when we see it: we yanked. The gate never had a chance. It does not need a yank. It needs a slow, steady push, the kind that does not hurry.\n\nGrandpa is already reaching for the pencil, and the diagram gets its first piece of tape.\n\n\"Wait,\" Theo says, slowly, the way he talks when an idea is still warming up. \"Why don't we use something that pushes slow? Like... like my bike pump?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"A bike pump,\" Grandpa says, and he is already rummaging. \"Air. Slow, steady air.\" He comes up holding the pump in one hand and a plastic water bottle in the other, and he holds them up like two puzzle pieces that have been waiting to meet. \"James Watt did exactly this, you know. The old steam engines wasted half their puff, so Watt bolted on a separate part, a condenser, and suddenly the whole thing worked twice as well. He didn't invent a new engine. He remixed an old one.\" We tape the bottle to the pump, hose it to the gate, and the diagram gets two more pieces of tape and a big arrow that says AIR GOES HERE. \"Prototype 2,\" Grandpa announces. \"The Professor is watching.\" We press the pump. The piston sighs. The gate slides open, slow as sunrise, and kibble pours into the bowl in a perfect little waterfall. Pickles eats her dinner on time, and we cheer so loudly the shed door rattles in its frame. Later, Grandpa stamps the diagram with his old ink stamp: PROTOTYPE 2, IT WORKS. \"We could file a patent,\" he says, sipping. \"But the real prize is this drawing. The next inventor reads it, and builds something even better.\" The diagram comes home with us, taped and ringed and beautiful. Pickles purrs against it all evening.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Wires and a motor,\" Maya says, and she is already elbow-deep in the bin of old radio parts. \"The internet worked like this, you know. Nobody invented new wires. They took phone lines that already existed, and computers that already existed, and taught them to talk to each other. Remix.\" She holds up a little motor and a coil of speaker wire, and her grin says these two are about to become best friends. We wire the timer to the motor, tape a cardboard scoop to its spinning bit, and the diagram gets two more pieces of tape and a cloud of squiggly lines that Grandpa labels THE BRAIN. \"Prototype 2,\" he announces. \"The Professor is listening.\" The timer ticks. Beep. The motor hums, the scoop turns, and kibble tips into the bowl in one neat little avalanche, right on time. Theo dances. Pickles eats. Maya looks at the whole humming, beeping thing and says, \"You realise this is basically a robot.\" Grandpa raises the Professor in a toast. \"Every inventor,\" he says, \"stands on someone's shoulders.\" The little scoop motor comes home with us, beeping softly in our pocket. Pickles follows it around like a new friend.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Well now,\" Grandpa says, patting the Professor, \"do we go hunt for ideas in the library's invention books, or do we stay right here and see what the shed wants to give us?\"",
+      "options": [
+        {
+          "say_word": "Library",
+          "label": "Go research how old inventors remixed ideas",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Shed",
+          "label": "Stay and tinker with parts and Maya's electronics",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The gate needs a slow, steady push,\" Maya says, tapping her chin. \"Do we build it with air and bottles, or with wires and a motor?\"",
+      "options": [
+        {
+          "say_word": "Air",
+          "label": "Remix a bicycle pump and water bottle into a slow piston",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Wires",
+          "label": "Remix a timer circuit and old radio parts into a motor scoop",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.inventions",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Inventions as remixes is inherently about building—combining older ideas step by step into a prototype—so the make_and_build pattern lets an 11-year-old follow that process naturally while using patent, prototype, and innovation.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.26,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.06,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.03,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandpa's thermos, which he calls 'the Professor' and consults before every big decision, sipping slowly and saying 'Hmm, the Professor thinks...'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Persistence through failure and remixing with credit",
+      "why": "The material offers it naturally: prototypes wobble and fail as clues, and Grandpa explicitly frames our build as standing on Watt's, Bell's, and ARPANET's shoulders."
+    },
+    "cast": [
+      {
+        "role": "A retired engineer grandparent (Grandpa)",
+        "reused": false,
+        "why": "Carries the cozy accent through his thermos ritual, shows tool safety lightly, tells stories of his own failed prototypes, and explains how Watt remixed Newcomen's engine."
+      },
+      {
+        "role": "A friend who is good at coding or electronics (Maya)",
+        "reused": false,
+        "why": "Asks one of the choice questions in her own voice, offers the coding/electronics branch, and shows how modern inventions remix hardware and software."
+      },
+      {
+        "role": "A younger neighbor kid (Theo)",
+        "reused": false,
+        "why": "Asks innocent questions that force clear explanation, is first to test the final prototype, and asks the other choice question with blunt kid logic."
+      },
+      {
+        "role": "The cat (Pickles)",
+        "reused": false,
+        "why": "The reason for the want; her impatient meowing is the deadline that keeps the story moving."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "The 'want': a machine that feeds the cat when we're late",
+        "The research step: studying diagrams of a steam engine's piston and a telephone's diaphragm",
+        "The prototype phase: cardboard, duct tape, string, labeled 'Prototype 1'",
+        "The wobble: a gear slips and the structure collapses, requiring redesign",
+        "The remix moment: combining a bicycle pump and a water bottle for a new function",
+        "The 'it works!' moment: the device performs its task, even imperfectly",
+        "Watt improved Newcomen's engine with a separate condenser",
+        "Bell's telephone remixed telegraph wire with a vibrating diaphragm",
+        "ARPANET combined computer networking ideas and telephone lines",
+        "Early prototypes look messy and handmade",
+        "A patent is a legal document that also publicly explains how it works",
+        "The stepping stone effect: each inventor standing on the shoulders of the last",
+        "A cluttered garden shed workshop with pegboard, wobbly workbench, jars of screws",
+        "A grandfather's garage smelling of sawdust, with an old radio disassembled on a mat",
+        "A public library's invention corner with books and a bin of broken electronics",
+        "Wider door glimpse: Robots"
+      ],
+      "gathered_but_unused": [
+        "The steam engine didn't appear fully formed; James Watt improved it by adding a separate condenser to an older Newcomen engine, saving fuel and making it practical for factories.",
+        "Alexander Graham Bell's telephone used the idea of a telegraph wire but added a vibrating diaphragm that could turn sound waves into electrical signals, a 'remix' of existing parts.",
+        "The internet began as ARPANET, which combined existing computer networking ideas and telephone lines to let researchers share data between universities.",
+        "Early prototypes often look messy and handmade; the first telephone Bell made was a tangle of wires, a battery, and a wooden stand, not a sleek plastic case.",
+        "A patent is a legal document that gives an inventor the right to stop others from copying their invention for a set time, but it also requires them to publicly explain how it works.",
+        "The 'stepping stone' effect: Watt's steam engine improved on Newcomen's, which improved on Savery's, each inventor standing on the shoulders of the last.",
+        "Innovation often means finding a new use for an old tool; the first steam engines were built to pump water out of mines, not to power trains or factories.",
+        "Many inventions fail repeatedly before they work; Bell and his assistant Watson tried dozens of diaphragm materials before one could carry a clear voice."
+      ]
+    },
+    "safety_beat": "In s1, Grandpa shows once, lightly, that he knows where to stand: he moves us a step back from the wobbly workbench, rests our hands on the pegboard's edge, and says 'tools live up here, fingers down here,' with no tension, just competence.",
+    "motif": "A hand-drawn diagram that gets messier and more taped-over with each prototype, until it finally matches a working machine.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work beautifully: it is a busy_workshop tale where the making is fully legible (the yanked string, the slow push, the pump's sigh), the fondness between Grandpa, the kids, and Pickles is paid as constant attention, and the sound of it read aloud — the Professor, 'a clue with a crunch,' 'spaghetti had a fight with a clock' — lands exactly right for an 11-year-old listener."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "giggling and leaning in — a yowling cat, a mysterious thermos, a box of glorious",
+        "s2a": "absorbed and busy — the radio's city of wires, ideas stacking up like real knowl",
+        "s2b": "absorbed and busy — Maya's treasure-map kit, the pleasant clutter of parts and p",
+        "s3": "held breath then a snort-laugh — the hopper's sad little crunch, then the slow d",
+        "s4a": "deep satisfaction — the gate opening slow as sunrise, the cheer, the stamped dia",
+        "s4b": "deep satisfaction — the beep, the avalanche of kibble, Theo's dance, the motor c"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 2 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "06_inventions_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

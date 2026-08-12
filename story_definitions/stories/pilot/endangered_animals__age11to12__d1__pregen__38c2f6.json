@@ -1,0 +1,301 @@
+{
+  "id": "story.endangered_animals.age11to12.d1.pregen.38c2f6",
+  "title": "The Twenty-First Crane",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.endangered_animals",
+    "sel_theme": null,
+    "value_lesson": "Failure is information, not defeat",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "We join a crane-counting team racing to help a tiny whooping crane population survive its first migration, learning that saving a species is a numbers game won by patience, failure, and better ideas.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"You're up. Good.\"\n\nRuth's voice comes out of the dark like gravel and coffee. She hands us each a thermos and points toward the marsh, where the sky is just turning the colour of a peach.\n\n\"Sandhill cranes,\" she says. \"We're counting them. Every last one.\"\n\nWe're standing on a wooden platform above the water, and the wind is doing that thing where it goes right through your jacket and says hello to your ribs. Below us, the marsh stretches out wide and silver, and somewhere in it are birds taller than we are.\n\nSam, Ruth's assistant, opens a notebook so worn it looks like it's been through a rainstorm. Because it has. Several.\n\n\"Look at this,\" Sam says, and turns the book so we can see. \"Nineteen forty-one. The whole species. Every whooping crane alive on Earth.\"\n\nThe photograph is small and grainy. Twenty-one birds, standing in a line, like they're posing for a class picture.\n\n\"Twenty-one,\" Ruth says. \"That's it. That's all there were.\"\n\nWe stare at it. Twenty-one birds. You could count them on your fingers and toes and have one left over.\n\n\"And now?\" we ask.\n\nRuth smiles, and it's the kind of smile that has a whole story inside it. \"Now we're over eight hundred. But we don't guess. We count. Every spring, every bird, by name and by number.\"\n\nShe pulls something from her vest pocket and presses it into our hand. A feather. White as the first snow, longer than our hand, soft along the edges.\n\n\"Carry that,\" she says. \"It's the count feather. Whoever holds it calls the number.\"\n\nSam flips to today's page. \"We've spotted twenty this morning. But the youngest chick, the new one, we haven't seen yet.\"\n\nRuth's eyes scan the marsh. \"One missing,\" she says quietly. \"In a family this small, one matters.\"\n\nThe feather sits in our palm, light as nothing, and the wind carries a sound across the water. A low, rolling call, like a question being asked far away.\n\n\"That's the parents calling,\" Sam says. \"They're looking too.\"\n\nWe close our fingers around the feather. \"Then let's find that chick.\"\n\nRuth nods once. \"Now you're counting.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The reeds,\" we say, and Ruth grins like she was hoping we'd pick the wet one.\n\nWe climb down into the marsh, and the water finds our boots right away. Cold. Squelchy. The kind of cold that makes your toes sit up and pay attention. Ruth moves ahead of us, slow and low, one hand on the cattails, and we copy her exactly. Step. Wait. Step.\n\n\"Chick's smart,\" she murmurs. \"But smarts don't help if you're stuck.\"\n\nThen we hear it. A thin, peeping sound, scared and small, coming from the water's edge.\n\nThere. Tangled in a mess of old fishing line, half-hidden in the reeds, is a crane chick. Grey and fluffy, with legs like sticks and eyes like black beads. It sees us and peeps louder.\n\n\"Easy now,\" Ruth says, and her voice goes soft as flannel. \"You're all right, little one.\"\n\nShe shows us how to hold a bird this big. One arm around the body, wings folded gentle against the sides, beak pointing away from faces. \"Like hugging a football that bites,\" she says. We kneel in the cold water and work the line loose, finger by finger, while the chick's heart goes thump-thump-thump against our sleeve.\n\nThe line comes free. The chick stands, shakes itself like a dog, and stares at us.\n\n\"Go on,\" Ruth whispers. \"Your folks are calling.\"\n\nIt runs. It flies. It's gone into the silver.\n\nRuth picks up the tangled line and holds it like it weighs a ton. \"Third one this season,\" she says, and her voice has gone flat as yesterday's soda. \"The marsh is full of this stuff.\"\n\nWe look at the feather in our hand. Twenty-one cranes, and now one more safe. But the water keeps secrets, and not all of them are kind.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The blind,\" we say, and Sam nods like that's the smart money.\n\nWe climb the wooden steps, quiet as we can, and slip into the observation blind. It's a little hut with a long window, and it smells like old wood and rain. Sam hands us binoculars that feel heavy and important.\n\n\"Leg bands,\" Sam says. \"Like license plates. Every crane has one. Find the chick, read the band, log it. That's the job.\"\n\nWe scan the marsh. It's huge from up here, silver and green and full of secrets. A heron stands still as a statue. Two ducks argue about something. And then—\n\n\"There,\" Sam breathes.\n\nThree cranes. Two tall ones, and between them, a fluffy grey chick with legs like sticks, pecking at something in the shallow water. We find the leg band. Red, with white numbers. Sam flips through the notebook, taps a page.\n\n\"That's her. Number twenty-one. Safe and feeding.\"\n\nThe relief hits us like warm soup. We didn't know we were holding our breath until it comes out in a whoosh.\n\nRuth climbs up behind us, quiet for her size. She looks through her own binoculars, and her shoulders drop an inch. \"Good,\" she says. \"That's good.\"\n\nBut Sam is staring at the notebook, and Sam's face has gone serious. \"Ruth. The count.\"\n\n\"I know,\" Ruth says.\n\n\"Twenty-one is good. But if we lose three this year, or four—\" Sam stops.\n\nRuth takes the feather from our hand and holds it up to the light. \"Eight hundred birds,\" she says. \"Sounds like a lot. It isn't. Not when the whole species fits in one marsh.\"\n\nWe look at the chick, small and busy and alive. Twenty-one today. But the math is thin as ice, and the water underneath is cold.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the station, Ruth pours the last of the coffee into our thermos caps and pulls up a chair that creaks like it's telling its own story.\n\n\"So,\" she says, and her drawl wraps around the word like a blanket. \"What'd you find out there?\"\n\nWe tell her, and she listens the way she counts birds — every single one matters.\n\n\"Good,\" she says. \"That tells us something.\" She reaches into her vest and pulls out the white feather, the one from this morning, and sets it on the table between us. \"You want to know how we got from twenty-one to eight hundred?\"\n\nWe nod.\n\n\"Incubators, first,\" Ruth says. \"Scientists hatched eggs in machines, warm as toast. The chicks came out fine. But they looked at the first thing they saw — a human face — and decided that was Mom.\" She shakes her head. \"They wouldn't follow other cranes. Wouldn't migrate. Just stood around waiting for a person to tell them where to go.\"\n\n\"So what fixed it?\" we ask.\n\n\"Costumes.\" Ruth says it flat, like it's the most normal thing in the world. \"Grown scientists in white sheets, holding crane puppets on sticks, never saying a word. The chicks imprinted on the puppets instead. Followed them everywhere.\" She taps the table. \"That fixed the imprinting. But those birds still didn't know the route south. Nobody to teach them the way.\"\n\nSam leans against the doorframe. \"Every failure told them exactly what to fix next.\"\n\n\"That's the thing about a population this small,\" Ruth says. \"You don't get to give up. You just get to learn.\" She picks up the feather and turns it slowly. \"Eight hundred birds now. Recovery is real. But this marsh, this year, these young cranes — including our chick — they still need a teacher. And winter doesn't wait.\"\n\nShe holds the feather out to us. \"So. How do we teach them the way south?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The ultralight looks like a dragonfly that swallowed a kite. Its wings are painted white, with black tips, exactly like a whooping crane's.\n\n\"The birds think it's their mama,\" Sam says, patting the little aircraft. \"Only way they'll follow.\"\n\nRuth zips her jacket. \"Pilot wears a white costume, never speaks. Just flies. The chicks imprint on the plane, not the person.\"\n\nWe climb into the chase vehicle, a truck with a radio and a scope mounted on top. Our job: track the flock, keep the route clear, count every bird that rises.\n\nThe pilot taxis. The young cranes — seven of them, including our chick — lift from the marsh, wings beating slow and sure. They fall in behind the ultralight like they've done it a hundred times.\n\n\"They're following,\" we breathe.\n\n\"Every mile south,\" Ruth says into the radio, \"they're learning the way.\"\n\nFor three weeks we leapfrog ahead, checking fields, clearing hazards, sleeping in motels that smell like chlorine and hope. The radio crackles updates: flock over Kentucky. Flock over Tennessee. Our chick's leg band, spotted and logged.\n\nThen, one bright morning, the call comes. \"All seven on the ground in Florida. Safe.\"\n\nRuth goes very still. Then she smiles, and her voice lifts like a bird taking off. \"Eight hundred and one.\"\n\nShe presses the white feather into our hands. \"You held the count. Now hold this. It went up by one you helped.\"\n\nThe feather is light as nothing. It feels like everything.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We stay. Somebody has to mind the ground.\n\nRuth hands us binoculars and a clipboard thick as a sandwich. \"Flyway team. We clear the path, log every bird, and watch the skies. The youngsters fly themselves — we just make sure nothing's in their way.\"\n\nSam shows us the marsh at dawn, where old fishing line hangs from reeds like silver thread. \"Birds tangle in that,\" Sam says, snipping it free. \"One piece at a time.\"\n\nWe work for days. We log cranes in the notebook — number, time, direction. We join volunteers on hilltops, thermoses in hand, eyes on the clouds. The white feather rides in our pocket, a quiet weight.\n\nThen, on a cold morning that smells like snow coming, Ruth grabs our arm. \"Look up.\"\n\nSeven white shapes pass overhead, wings black-tipped, calling to each other in voices like rusty gates swinging. No plane. No costumes. Just cranes, flying south on their own.\n\n\"Leg band,\" Sam says, training the scope. \"Blue over silver. That's our chick.\"\n\nWe count them as they pass. One, two, three — all seven, strong and sure.\n\nRuth updates the notebook, her pencil steady. \"Eight hundred and one,\" she says, and her drawl wraps around the number like a scarf. \"Recovery isn't a maybe. It's a count that keeps climbing.\"\n\nSam adds one more number to the spreadsheet. Ruth tucks the feather into our hands.\n\n\"Take that home,\" she says. \"And remember — in Yellowstone, the wolves came back, and even the rivers changed. Save one species, you lift a whole world.\"\n\nWe close our fingers around the feather. It is warm from her pocket, and it feels like a promise.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Ruth lowers her binoculars and says, \"One bird short, friends. We can wade the far reeds and look for her, or climb to the blind and read leg bands till we find her. Which way?\"",
+      "options": [
+        {
+          "say_word": "Wade",
+          "label": "Search the reed beds on foot",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Climb",
+          "label": "Spot her from the observation blind",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Ruth taps the migration map and says, \"These youngsters need a teacher. We can fly with them in the ultralight and lead them south ourselves, or stay here and make the whole route safe from the ground. Both matter. Which team are we?\"",
+      "options": [
+        {
+          "say_word": "Fly",
+          "label": "Join the ultralight team and lead the cranes south",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Ground",
+          "label": "Stay and protect the route from the ground",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.endangered_animals",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The topic is literally about populations dropping too low and the fixes that brought them back, so a try-fail-try-again structure maps directly onto real recovery stories without needing to force it.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.28,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.15,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.05,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Ruth, the wildlife biologist, whose warm, clipped prairie drawl carries the accent — the only accented voice in the story.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Failure is information, not defeat",
+      "why": "The material offers it naturally — the incubator attempt and the costume attempt both 'fail,' but each failure hands the scientists the exact clue they need. The story never has to say the lesson out loud; the pattern carries it."
+    },
+    "cast": [
+      {
+        "role": "Ruth, a wildlife biologist who has counted cranes for 15 years",
+        "reused": false,
+        "why": "She anchors the numbers game — she can say the population without checking notes, and her voice changes when she does. She carries the accent and the expertise."
+      },
+      {
+        "role": "Sam, a 12-year-old volunteer who logs data at the marsh station",
+        "reused": false,
+        "why": "Gives the listening child a same-age pair of hands inside the story, entering real numbers into real spreadsheets, making the science feel joinable."
+      },
+      {
+        "role": "The ultralight pilot (a quiet, steady mentor figure)",
+        "reused": false,
+        "why": "Needed for the earned fix — leading the young cranes south by aircraft. Kept quiet so Ruth stays the emotional center."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Whooping cranes: only 21 left in 1941, over 800 today after decades of protection",
+        "Population: when numbers drop too low, animals can't find mates and slide toward extinction",
+        "The marsh setting at dawn with camouflage netting and binoculars",
+        "The 15-year crane biologist who knows the count by heart",
+        "The 12-year-old volunteer logging data",
+        "Pattern material: incubators fail (imprinting), costumes better but no migration route, ultralight aircraft as the fix",
+        "Genetic bottleneck: recovery isn't finished just because numbers rise",
+        "Wolf/Yellowstone ecosystem glimpse as a wider door"
+      ],
+      "gathered_but_unused": [
+        "In 1941, there were only 21 whooping cranes left in the entire world. Today there are over 800, because scientists and volunteers spent decades protecting their nests and teaching chicks new migration routes.",
+        "Scientists use the word 'population' to count how many of one kind of animal are left. When a population drops below a certain number, the animals may have trouble finding mates, and the species can slide toward extinction even if some are still alive.",
+        "The American bison once numbered around 30 to 60 million. By 1884, hunters had cut the population down to about 325 wild animals. Recovery took over a century, and today roughly 500,000 bison exist, though most live on ranches.",
+        "Bald eagles nearly went extinct in the lower 48 states because a pesticide called DDT made their eggshells so thin that the eggs cracked under the parents' weight. After DDT was banned in 1972, the population recovered from about 417 nesting pairs to over 300,000 birds.",
+        "In 1995, there were no gray wolves left in Yellowstone National Park. Scientists brought 31 wolves from Canada and released them. The wolf population grew, and the whole ecosystem changed: elk moved differently, trees grew back along rivers, and even the rivers' shapes shifted.",
+        "The black-footed ferret was thought to be completely extinct — twice. Then in 1981, a ranch dog in Wyoming brought a dead one to its owner's porch, and scientists discovered a tiny surviving population. All black-footed ferrets alive today descend from just 18 of those animals.",
+        "California condors dropped to just 22 birds in 1987. Scientists made the hard choice to capture every single one and breed them in zoos. It worked: today there are over 500, with more than half flying free again.",
+        "When a species' population gets very small, it loses genetic diversity — the differences between individuals that help a species survive disease and change. Scientists call this a 'bottleneck,' and it means the recovery isn't finished just because numbers go back up."
+      ]
+    },
+    "safety_beat": "In s2a, Ruth shows us once, lightly, how to stand in the marsh — firm ground near the reeds, never between a chick and deep water — pure competence, no warning tone, and the moment passes in a breath.",
+    "motif": "A single white feather, taller than your hand, passed from person to person as the count slowly climbs.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it pairs a real, plainly-told conservation history with warm, funny, fond human company, gives the child listener a job that matters, and lands its sound-words and images cleanly for reading aloud."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "cold fingers, wide eyes, trusted with something real",
+        "s2a": "held breath, then a small fierce rescue",
+        "s2b": "leaning in, then relief like warm soup",
+        "s3": "snug and amazed, coffee-warm curiosity",
+        "s4a": "wind-in-face exhilaration, then a glow of pride",
+        "s4b": "quiet steady work, then a lump in the throat as the cranes pass over"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.9); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 5.0); [s4b] flat rhythm: sentence lengths vary little (spread 4.4); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "08_endangered_animals_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

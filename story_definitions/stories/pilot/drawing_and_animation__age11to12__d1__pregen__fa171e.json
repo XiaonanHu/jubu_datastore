@@ -1,0 +1,314 @@
+{
+  "id": "story.drawing_and_animation.age11to12.d1.pregen.fa171e",
+  "title": "The Jump That Wouldn't Land",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.drawing_and_animation",
+    "sel_theme": null,
+    "value_lesson": "Slowing down to understand a problem beats piling on more effort",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "We try to animate a character leaping over a puddle, and only learn that the secret isn't how many drawings we make but where we put them.",
+  "slots": {
+    "jumper_name": {
+      "role": "The character we are animating, who keeps failing to clear the puddle",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The back corner of the library smells like peppermint tea and old paper, which is our favourite smell in the world. Nana June lets us spread out on the carpet there, right under the window, and today we have something to show her.\n\nIt's a flipbook. Three weeks of work. Our jumper — {jumper_name} — crouches on page one, leaps across pages two through twenty-three, and lands on the other side of a puddle on page twenty-four. Twenty-four drawings. We counted twice. We were so proud of that number we told everyone at the bus stop.\n\n\"Watch this,\" we say.\n\nNana June puts down her knitting. The needles keep going anyway, soft little clicks, like they knit on their own when she's thinking.\n\nWe flip the pages.\n\nAnd our hearts sink.\n\n{jumper_name} goes up. And up. And hangs there, floating, slow as a bubble in bathwater. The puddle waits below, patient as a cat. By the time the landing finally comes, we've almost forgotten there was a jump at all.\n\n\"Hmm,\" says Nana June.\n\nShe says it the way she says everything — like she's turning it over, not closing it. She takes a sip of tea. Click, click go the needles.\n\n\"Twenty-four frames,\" we say. \"We worked so hard.\"\n\n\"I can see that,\" she says. \"Every drawing is beautiful. But you know what I noticed? The puddle seems to win.\"\n\nShe's right. That's exactly it. The puddle sits there, wide and calm, and {jumper_name} just drifts over it like a leaf on a slow river. No spring. No pop. No land.\n\nWe look at the flipbook. We look at each other. Three weeks of evenings, and the jump won't land.\n\n\"Why does it look so wrong?\" we ask.\n\nNana June smiles into her tea. \"Now that,\" she says, \"is a very good question.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"More,\" we say. \"More frames. Twenty-four wasn't enough, so we'll do thirty-six. Forty. It'll be smoother, and smooth is good, right?\"\n\nNana June picks up her knitting. Click, click. \"Worth a try,\" she says.\n\nSo we draw. We draw until our pencils are little stubs, until the pencil sharpener is full of cedar smell, until our fingertips are grey with graphite. Thirty-six frames now. {jumper_name} crouches in six frames instead of three. The leap takes eighteen. The landing, twelve. Every single in-between is perfect. We line them up on the carpet like soldiers.\n\n\"Watch,\" we say.\n\nWe flip.\n\nAnd it's worse. Somehow it's worse. {jumper_name} doesn't float now — {jumper_name} *drifts*, slow and dreamy, like an astronaut walking on the moon. The puddle below seems to stretch wider, lazy as a cat in a sunbeam. The jump takes forever. We could go make toast. We could knit a scarf.\n\nNana June pours the tea. Peppermint steam curls up between us. \"May I ask you something?\" she says. \"What's the most important moment in this jump?\"\n\nWe look at our thirty-six beautiful drawings.\n\nWe can't answer.\n\nEvery frame looks exactly as important as every other frame. Which means none of them are.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Cut it,\" we say. \"It's too slow, so make it fast. Snappy. We'll erase every other drawing and it'll have *pop*.\"\n\nNana June picks up her knitting. Click, click. \"Worth a try,\" she says.\n\nSo we erase. Twelve frames now. Gone, the careful in-betweens. Gone, the soft arc of the leap. Our eraser is worn to a nub and there are little grey crumbs all over the carpet, but the book is thin and quick. It feels dangerous. It feels like a race car.\n\n\"Watch,\" we say.\n\nWe flip.\n\nAnd it's a disaster of a whole new flavour. {jumper_name} doesn't float — {jumper_name} *teleports*. One frame on the ground, one frame in the air, one frame across the puddle. Blink and you miss it. The jump looks like a magic trick gone wrong, all vanish and no wonder. And the puddle — we could swear the puddle is wider. Unimpressed. Almost bored.\n\nNana June pours the tea. Peppermint steam curls up between us. \"May I ask you something?\" she says. \"What's the most important moment in this jump?\"\n\nWe flip our twelve chopped-up pages.\n\nWe can't answer.\n\nWhatever the most important moment was, we erased it.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The bell above the library door jingles, and a voice says, \"Whoa. Eraser snowstorm.\"\n\nIt's Theo. He's in high school now, but last summer he took an animation workshop, and Nana June waves him over like she'd been expecting him all along.\n\n\"Show him,\" she says.\n\nWe hand over the flipbook. Theo flips it once. Twice. Then he grins — not mean, just like he's spotted something hiding in plain sight.\n\n\"Okay, first — twenty-four drawings is a lot of work, and the work is good. But the problem was never how many drawings you made.\" He taps the cover. \"It's where the drawings are.\"\n\nHe pulls a scrap of paper from Nana June's bookmark pile and draws three quick figures: {jumper_name} squashed low, {jumper_name} stretched at the top of the leap, {jumper_name} stuck to the ground like a dart.\n\n\"These are keyframes. The important moments. Crouch, peak, landing.\" He dots lines between them. \"Everything else is an in-between — just a bridge. Bridges don't get to decide anything. Keyframes do.\"\n\nThen he draws a tiny ladder beside the crouch, little tick marks crowding together at the bottom, spreading wide at the top, bunching up again at the landing.\n\n\"This is a timing chart. It tells the in-betweens where to stand. Bunch them near the crouch and the landing, and the jump eases in slow, then snaps out fast. Spread them all even — like yours — and everything floats.\"\n\nWe stare at the ladder. So that's what went wrong. Our twenty-four drawings were standing in a perfectly even line, like kids waiting for the bus. Nobody was hurrying. Nobody was snapping.\n\n\"Here's the secret the pros know,\" Theo says. \"They animate on twos. Twelve drawings a second, not twenty-four. Twelve, in the right places, beats twenty-four mushy ones every single time.\"\n\nClick, click go the needles. Nana June pours Theo a cup of tea without asking, which means he's allowed to stay.\n\n\"So,\" he says, pulling our pencil toward him. \"You know the secret now. You've got one afternoon and a puddle that keeps winning. How do you want to rebuild the jump?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We look at the flipbook — three weeks of it — and then at the fresh stack of blank paper Theo slides across the carpet.\n\n\"New drawings,\" we say. \"Clean start.\"\n\n\"Good call,\" he says. \"Now draw the jump before you draw the jump.\"\n\nSo we do. Three keyframes, big and bold, one per page: {jumper_name} squashed low like a coiled spring, {jumper_name} stretched thin at the very top of the leap, {jumper_name} planted on the far bank like a flag claiming the moon. We hold them up side by side and, honestly, the jump already works. Three drawings, and you can feel it.\n\nThen the timing chart. We pencil a little ladder beside each keyframe — ticks crowded tight at the crouch, spreading wide through the soaring middle, bunching close again at the landing. \"Slow in, snap out,\" we whisper, like a spell.\n\nNine in-betweens next. Only nine. Each one knows exactly where it stands, because the chart says so. Twelve drawings total. On twos, each gets two beats of the light.\n\nIt takes one hour. Not three weeks. One hour.\n\nNana June puts down her knitting. We flip.\n\n{jumper_name} crouches — and waits there, gathering weight like a held breath — then springs, hangs at the top for one delicious beat, and comes down with a stomp we can feel through the carpet. Clear of the puddle. The puddle that is now wide as the whole library carpet, and it doesn't matter, not one bit, because the jump lands with room to spare.\n\nNana June claps. The needles click. Even the puddle seems impressed.\n\n\"Twelve drawings,\" Theo says. \"Told you.\"\n\nBefore we leave, Nana June presses something into our pocket — the timing chart from our best keyframe, folded small. \"A treasure map,\" she says.\n\nWe pat our pocket the whole walk home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We look at the flipbook, and we just can't throw it away. Three weeks of evenings live in those pages.\n\n\"Rescue,\" we say. \"The good poses are in there somewhere.\"\n\n\"Then let's go fishing,\" says Theo.\n\nWe spread all twenty-four drawings across the carpet, and Nana June leans over her tea while we hunt. Some drawings are mush. But some — some make us gasp. We circle them with a red pencil: the crouch on page two, low and loaded like a cat about to pounce. The peak on page thirteen, stretched and weightless. The landing on page twenty-two, feet down, knees bent, solid as a fencepost.\n\n\"Those are your keyframes,\" Theo says. \"They were good all along. They were just drowning.\"\n\nNow the timing chart. We pencil a ladder beside each keyframe — ticks crowded at the crouch, spread wide at the peak, bunched tight at the landing. Then we redraw the in-betweens to match, nine of them, each one standing exactly where the chart tells it to. Twelve drawings. On twos. The other twelve pages we set aside gently, like guests who stayed a little too long.\n\nWe flip.\n\n{jumper_name} crouches and holds it, gathering real weight — then springs, hangs at the top for one floating, golden beat, and stomps down hard on the far bank. Clear of the puddle. The puddle that is now wide as the whole library carpet, and it loses anyway.\n\nNana June claps, and her needles click like tiny applause of their own.\n\n\"Same jumper,\" Theo grins. \"Same hands. Different where the drawings stand.\"\n\nOn the way out, we slide one page into our pocket — the rescued crouch, the drawing that was good all along and only needed friends in the right places.\n\n\"Keep it,\" says Nana June. \"Some things are worth rescuing.\"\n\nWe already knew that. We rescued it.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Well, my dears,\" Nana June says, setting down her knitting, \"when something won't work, you can pile more onto it — or you can trim it down. Which sounds like your fix?\"",
+      "options": [
+        {
+          "say_word": "Pile on",
+          "label": "Add even more drawings — 36 frames must be smoother than 24",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Trim down",
+          "label": "Erase every other frame to make the jump twice as fast",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Okay, you've got the secret now,\" Theo says, tapping his timing chart. \"So do we start fresh with brand-new keyframes, or do we dig through your old drawings and rescue the good poses hiding in there?\"",
+      "options": [
+        {
+          "say_word": "Start fresh",
+          "label": "Redraw the jump from scratch with three bold new keyframes and a timing chart",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Rescue",
+          "label": "Keep the old drawings, find the keyframes hiding in them, and re-time the in-betweens",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.drawing_and_animation",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The animation pipeline's core tension—why twelve well-timed drawings beat twenty-four poorly timed ones—is naturally a problem of choppy motion that a young animator must diagnose and fix through keyframes, in-betweens, and timing experiments.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Nana June, the librarian who keeps a kettle of peppermint tea on her desk and knits while she asks questions",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Slowing down to understand a problem beats piling on more effort",
+      "why": "The material offers it naturally: adding more drawings makes things worse, and the fix only comes from stopping, looking, and thinking about where drawings go — the value rides the plot rather than being pasted on"
+    },
+    "cast": [
+      {
+        "role": "We, the narrators — a pair of kids who love to draw and are animating a character jumping over a puddle",
+        "reused": false,
+        "why": "The we_adventure teller requires first-person plural kid narrators who draw, fail, and fix together"
+      },
+      {
+        "role": "Nana June, the librarian who doesn't know animation but asks the perfect questions",
+        "reused": false,
+        "why": "She carries the cozy accent (peppermint tea, knitting, warm patience) and her question 'what's the most important moment?' accidentally teaches keyframes — exactly the character in the material"
+      },
+      {
+        "role": "Theo, an older kid who once took an animation workshop",
+        "reused": false,
+        "why": "He delivers the turning point — that timing beats quantity — and shows us timing charts and pencil tests, matching the 'older sibling or friend' material"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "24 frames looking slow and floaty — like moving through water",
+        "Adding more drawings (36 frames) makes it worse, moon-floaty",
+        "Erasing every other frame makes it choppy, teleporting",
+        "Keyframe = the most important moment of a movement; in-betweens connect keyframes",
+        "Timing charts — tick-mark maps drawn right on the keyframe",
+        "Animating on twos: 12 drawings can feel smoother than 24 when timing is right",
+        "Spacing matters: bunch drawings at start and end so motion eases in and out",
+        "Pencil test — flipping rough drawings to check timing before cleanup",
+        "Library back corner setting with frames spread on the carpet",
+        "Librarian who asks good questions; classmate-style honest feedback"
+      ],
+      "gathered_but_unused": [
+        "Most TV animation runs at about 12 drawings per second, not 24 — animators call this 'animating on twos,' and it can look smoother than 24 drawings if the timing is right.",
+        "A keyframe is the drawing that shows the most important moment of a movement — like the wind-up before a jump — and the in-betweens are the drawings that connect one keyframe to the next.",
+        "If you put too many in-betweens between two keyframes, the movement slows down and can feel mushy — fewer drawings with stronger timing often reads as faster and more alive.",
+        "Animators use something called 'timing charts' — little diagrams drawn right on the keyframe that show exactly where each in-between should fall, like a map for the in-between artist.",
+        "In traditional hand-drawn animation, every drawing is done on paper with holes punched at the bottom, and those holes fit over pegs on a light table so the drawings line up perfectly.",
+        "Animators often shoot a 'pencil test' — a quick video of just the rough drawings flipped in sequence — to check if the timing feels right before anyone cleans up a single line.",
+        "The spacing between drawings matters as much as the number: if the drawings are evenly spaced, the motion looks robotic, but if they bunch up at the start and spread out at the end, the movement feels natural — like it's easing in and out.",
+        "A single second of finished animation can take an animator a full day or more to draw, which is why studios split the work — one person draws keyframes, another draws in-betweens, and someone else checks that it all flows."
+      ]
+    },
+    "safety_beat": "In s1, Nana June shows us the library's back-corner routine once, lightly: she moves her tea tray to the high shelf 'because elbows and teacups both need their own space' — competence, no warning, no tension.",
+    "motif": "A puddle that keeps growing wider every time our jumper fails to clear it",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does the rare thing well: it makes a real craft principle (keyframes, timing charts, animating on twos) felt as suspense and triumph, with warm companionship, a satisfying sound-world of clicking needles and peppermint steam, and two failure branches that each teach something distinct before the payoff lands."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and proud, then a slow sinking",
+        "s2a": "busy hope curdling into dreamy frustration",
+        "s2b": "reckless glee popping into dismay",
+        "s3": "leaning in, the click of an answer arriving",
+        "s4a": "held breath, then a stomp of triumph and pocketed warmth",
+        "s4b": "tender rescue, then the same stomp earned differently"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 10 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2a] flat rhythm: sentence lengths vary little (spread 4.6); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2b] flat rhythm: sentence lengths vary little (spread 4.7); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 26% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 26% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 26% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "01_drawing_and_animation_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

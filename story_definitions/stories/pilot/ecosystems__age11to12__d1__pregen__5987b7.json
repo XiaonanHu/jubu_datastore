@@ -1,0 +1,312 @@
+{
+  "id": "story.ecosystems.age11to12.d1.pregen.5987b7",
+  "title": "The River That Changed Its Mind",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.ecosystems",
+    "sel_theme": null,
+    "value_lesson": "Humility about how much we don't understand",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "How 41 wolves returning to Yellowstone sent a ripple effect through elk, trees, beavers, and water until the rivers themselves bent differently.",
+  "slots": {
+    "raven_name": {
+      "role": "What we call the raven who keeps appearing at the edges of the story",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "Ink"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Ranger Ada hands us the binoculars before she even says good morning. \"Look closer,\" she says. \"The land is telling you something.\"\n\nWe are standing on a snowy hillside above the Lamar Valley, the three of us, our breath puffing out in little clouds. Below us the river curls through the valley in a lazy ribbon, bending this way and that, like it is in no hurry to get anywhere at all.\n\n\"Beautiful,\" we say.\n\n\"Mm,\" says Ada. She pulls a dented tin out of her coat pocket and pries it open. Inside are old photographs, soft at the corners. She holds one up against the real valley, right in front of our eyes.\n\nAnd here is the strange thing. It is the same hillside. The same river. But in the photograph, the river runs almost straight, like somebody drew it with a ruler. The banks are bare. No willows, no trees leaning over the water, none of the shaggy green crowds of them that line the bends below us right now.\n\n\"That was taken here,\" Ada says. \"Same spot. About seventy years ago.\"\n\nWe look at the photograph. We look at the valley. Straight river, bare banks. Curvy river, banks thick with willows.\n\n\"But rivers don't just... change,\" we say.\n\nAda smiles into her collar. She taps the photograph with one gloved finger. \"This one did. It changed its mind. And nobody dug it a new path. Nobody asked it to move. The river did it all by itself.\"\n\nSomewhere below, a raven croaks once, like it knows the answer and isn't telling.\n\n\"So here's the mystery,\" Ada says, tucking the tin away. \"What makes a river change its mind?\"\n\nThe wind comes up the valley, cold and clean, and the river bends and bends below us, keeping its secret.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Follow the wolves,\" we say, and Ada grins. \"Then you'll want Dr. Moss. She reads snow the way you read a book.\"\n\nDr. Moss is waiting at the trailhead, already crouched over a line of tracks pressed into the white. \"Wolf,\" she says, before we even ask. \"Front paw, hind paw, front paw, hind paw. Look closer. See how the line stays straight? A wolf walks like it has somewhere to be.\"\n\nWe follow the tracks down into the valley, our boots crunching, the raven {raven_name} hopping along a fencepost beside us like he wants to see how this ends.\n\n\"There,\" Dr. Moss whispers, and points.\n\nAcross the snow, a wolf stands watching a herd of elk. Just watching. The elk are watching back. Nobody is running. Nobody is chasing. But the elk are bunched up tight near the trees, their ears swiveling, their whole bodies saying we are not staying here long.\n\n\"People think wolves change a valley by eating elk,\" Dr. Moss says. \"But look closer. That wolf isn't eating anyone. She's just... there. And that's enough. The elk can't relax anymore. They can't stand in one spot by the river for weeks, munching every green thing down to the dirt. They keep moving. They stay near the forest, where they can duck away.\"\n\n\"So the wolves didn't eat the valley back,\" we say slowly. \"They just made the elk nervous.\"\n\n\"Nervous enough to move,\" says Dr. Moss. \"The elk changed first. Before a single tree grew back, before anything else — the elk changed how they walked through the world.\"\n\nThe wolf turns and trots away, and the whole herd shifts like one big animal, drifting toward the trees.\n\n\"But wait,\" we say. \"If the elk just moved around... how did that make the river bend?\"\n\nDr. Moss smiles. \"Ask the trees.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The aspen grove,\" we say, and Ada nods like we picked the right door. \"Up we go.\"\n\nWe climb above the valley floor, our breath coming faster, {raven_name} the raven gliding overhead from snag to snag. At the top of the slope, Ada stops. \"Look closer,\" she says, and opens the dented tin again.\n\nThe photograph shows this exact hillside — bare. Just stubble and dirt and a few chewed-down sticks.\n\nBut the hillside in front of us is crowded with young aspen trees, taller than we are, their leaves trembling gold in the wind even though there is barely any wind at all. Aspens shiver like that. They tremble at almost nothing.\n\n\"Same spot,\" Ada says. \"Fifty years between. So what happened?\"\n\nWe look at the photograph. We look at the trees. \"The elk stopped eating them?\"\n\n\"Half right,\" Ada says. \"The elk stopped *lingering*. Before the wolves came back, elk would stand down by that river all winter long, nibbling every willow shoot, every baby aspen, down to nothing. A tree never had a chance. But once the wolves returned, the elk got careful. They kept moving. They stayed near the forest edges. And the little trees by the river —\" she sweeps her arm across the grove — \"got to grow up.\"\n\n\"So the wolves changed the elk, and the elk changed the trees,\" we say. \"Like a ripple in a pond.\"\n\n\"A ripple effect,\" Ada says, pleased. \"That's exactly the word for it.\"\n\nWe touch one of the aspens, its bark smooth and pale under our fingers, and the leaves shiver above us like quiet applause.\n\n\"But Ada,\" we say. \"Trees don't make rivers curve. So what happened next?\"\n\nAda tucks the tin away. \"Now,\" she says, \"you need to meet the engineers.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "The raven circles once more, then drops low over the water, and we follow it downstream to where the banks grow soft and green. Ada crouches in the mud and points. Sticks. Dozens of them, piled in a messy heap, each one chewed to a point at both ends, like pencils sharpened by someone with very strong teeth.\n\n\"Beavers,\" Ada says. \"Look closer.\"\n\nWe look closer. The sticks are fresh, the wood still pale and wet. And just past the pile, the water slows. It spreads out wide and calm, pooling behind a dam of mud and branches, and the whole stream seems to take a deep breath and settle.\n\n\"What did you find back there?\" Ada asks, tapping her tin. \"Whatever it was, it led you here. Same as it led us.\" She doesn't wait for an answer. She never does. \"The beavers came back because the willows came back. The willows gave them food and building sticks. And the beavers built dams, and the dams slowed the water, and the slowed water let the river bend.\"\n\nWe stare at the dam. A beaver is out there somewhere, probably adding one more stick right now, doing its small work, changing everything.\n\n\"So the river didn't change its mind on its own,\" we say slowly.\n\n\"No,\" Ada says. \"Something changed it for them. Something that started the whole chain.\"\n\nThe raven lands on a bare branch above the dam and croaks, once, like it has been waiting for us to catch up.\n\nAda stands and brushes the mud off her knees. \"One more piece,\" she says. \"The first piece. The one that started the ripple.\" She looks at us, and her eyes are bright. \"Are you ready to see it?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The raven doesn't wait. It lifts off the branch and flies up the valley, and we follow, scrambling over the snowy bank, our boots crunching in the cold.\n\nIt leads us to a rise above the river, where the snow is trampled and red. A wolf kill. An elk, half-eaten, lying in the willows. And there, perched right on the ribcage, is a golden eagle, huge and unbothered, tearing at the meat with its hooked beak.\n\nWe freeze. Ada puts a hand on our shoulder. \"Look closer,\" she whispers.\n\nWe look closer. The eagle isn't alone. Three ravens hop in the snow nearby, impatient, waiting their turn. One of them is our raven. It croaks, once, like it's saying hello.\n\n\"The wolves did this,\" Ada says. \"They hunted. They ate. And now they're feeding everyone else.\"\n\nWe watch. The eagle eats. The ravens wait. A magpie lands, bold as anything, and snatches a scrap. Further off, a coyote sits in the trees, patient, knowing its turn will come.\n\n\"One hunt,\" Ada says, \"feeds dozens. The eagles, the ravens, the magpies, the coyotes, the foxes, even the beetles under the snow. That's the food web. And the wolves—\" she taps her tin, \"—the wolves are the keystone species. The one that holds the whole arch up.\"\n\nWe stare at her. \"The arch?\"\n\nShe kneels in the snow and builds it with her hands: a little curve of stones, one at the top. \"Pull the keystone out,\" she says, and she does, and the stones tumble. \"Put it back,\" and she does, and the arch holds. \"That's the wolves. Take them away, and everything falls. Bring them back, and everything holds.\"\n\nThe raven croaks again, and this time it sounds like laughter.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We follow Ada back to the ranger station, our legs tired, our heads full. The raven comes too, gliding above us all the way, like it wants to see how the story ends.\n\nThe station is small and warm, with a woodstove in the corner and photographs pinned all over one wall. Ada goes straight to the wall and points. \"Look closer,\" she says, one more time.\n\nIt's the same river. The same bends we saw from the hillside. But this photograph is new, taken from the air, and the river doesn't just bend — it loops, it curls, it wanders like a lazy ribbon dropped on the floor. And all along the bends, little ponds glint in the sun. Beaver ponds. Dozens of them.\n\n\"Even the scientists were surprised,\" Ada says. \"They knew the wolves would change the elk. They didn't know the elk would change the willows, the willows would change the beavers, and the beavers would change the river itself. That's the ripple effect. One change, touching everything.\"\n\nWe look at the old photograph, the straight river, the bare banks. We look at the new one, the curves, the ponds, the green. Same river. Different mind.\n\n\"The wolves are the keystone species,\" Ada says. \"The one that holds the arch. Take them out, and it all tumbles. Put them back, and it all holds.\"\n\nBefore we leave, Ada walks us down to the stream behind the station. She crouches at the bank and picks up a small smooth stone, grey and round, worn soft by the water. She presses it into our hand.\n\n\"For your pocket,\" she says. \"So you remember. One small thing can change everything.\"\n\nWe close our fingers around the stone. It's still warm from her hand.\n\nThe raven croaks once from the roof, and we look up, and it's gone.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The elk changed first — but do you want to follow the wolves to see how they did it, or climb to the aspen grove to see what grew back when the elk moved on?\"",
+      "options": [
+        {
+          "say_word": "Tracks",
+          "label": "Follow the wolf tracks with Dr. Moss",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Aspens",
+          "label": "Climb to the aspen grove with Ranger Ada",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The river bends because of the beavers, the beavers build because of the willows, the willows grow because the elk moved, and the elk move because of the wolves. One last choice: do you want to see where the raven is leading us, or return to the ranger station to see the whole picture?\"",
+      "options": [
+        {
+          "say_word": "Raven",
+          "label": "Follow the raven to the wolf kill site",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Station",
+          "label": "Return to the ranger station for the full picture",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.ecosystems",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The Yellowstone wolf story is literally a puzzle — rivers changed and no one knew why until clues (elk, willows, beavers) were connected — so a mystery structure lets an 11-year-old pull the thread themselves and feel the ripple effect click into place.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.22,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.04,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.04,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Ranger Ada, who carries a dented tin of old photographs and keeps saying 'Look closer — the land is telling you something.'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Humility about how much we don't understand",
+      "why": "The material offers it naturally — even the scientists were surprised by how far the ripple effects reached, and Ranger Ada's photograph-tin shows that nature is more connected than anyone assumed."
+    },
+    "cast": [
+      {
+        "role": "Ranger Ada, a park ranger who has worked in Yellowstone since before the wolves came back",
+        "reused": false,
+        "why": "She holds the before-and-after photographs that make the mystery visible, and her patient way of reading the land carries the curious_wonder accent."
+      },
+      {
+        "role": "Dr. Moss, a wildlife biologist who tracks wolves by radio collar",
+        "reused": false,
+        "why": "She teaches us to read paw prints and names the wolves as a keystone species, giving us the scientific lens we need for the clues."
+      },
+      {
+        "role": "A raven who follows the wolf pack",
+        "reused": false,
+        "why": "The raven leads us to the kill site and shows how scavengers depend on predators, demonstrating the food web without a single lecture."
+      },
+      {
+        "role": "A beaver building a dam on a stream that didn't used to be there",
+        "reused": false,
+        "why": "The beaver unknowingly demonstrates how one animal's work creates habitat for fish, ducks, and dragonflies, and how slowed water changes rivers."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Wolves missing for 70 years, 41 wolves returned in 1995-1996",
+        "Keystone species — one animal holding up the arch",
+        "Elk stood in valleys all day eating willow and aspen to stubs",
+        "Elk stopped lingering, willow and aspen grew tall again",
+        "Beaver colonies grew from one to more than a dozen",
+        "Beaver ponds slow water, streams began to meander",
+        "Wolf kills feed ravens, eagles, coyotes, and bears",
+        "Trophic cascade — a ripple effect from top predator to river",
+        "Old photographs show bare banks, new photographs show thick willows",
+        "A ranger station with maps and radio collars",
+        "A snowy hillside above the Lamar Valley",
+        "The bank of a slow, winding stream with beaver-chewed sticks",
+        "A grove of young aspen trees in early fall"
+      ],
+      "gathered_but_unused": [
+        "Wolves were missing from Yellowstone for nearly 70 years, and when 41 wolves were brought back in 1995 and 1996, the whole ecosystem began to shift.",
+        "Wolves are a keystone species — one animal whose presence holds up many other parts of the ecosystem, like a keystone holds up an arch.",
+        "Before wolves returned, elk had grown so numerous and so unafraid that they stood in river valleys all day, eating young willow and aspen trees down to stubs.",
+        "Once wolves returned, elk stopped lingering in open valleys and started moving again — and in the places they avoided, willow and aspen shoots grew tall for the first time in decades.",
+        "Tall willows along streams gave beavers food and building material again — beaver colonies in Yellowstone grew from one to more than a dozen after wolves came back.",
+        "Beaver ponds slow water down, and slowed water changed how rivers moved — some streams began to meander and hold water longer instead of rushing straight through.",
+        "When elk carcasses are left by wolves, ravens, magpies, eagles, coyotes, and bears all get meals — one hunt feeds dozens of other animals in the food web.",
+        "Scientists call these chain reactions a trophic cascade — a ripple effect where changing one predator at the top sends waves all the way down through plants, rivers, and soil."
+      ]
+    },
+    "safety_beat": "Ranger Ada shows us where to stand on the snowy hillside — behind the binocular scope, back from the edge — with the quiet competence of someone who has done this a thousand mornings.",
+    "motif": "A stone arch with one keystone at the top — pull it out and everything tumbles; put it back and everything holds.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already turns a real ecological chain into a felt mystery, with Ada's recurring 'Look closer,' the raven's single croaks, and the warm stone at the end giving a listening child both company and a satisfying click of understanding."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "cold air and a hooked question",
+        "s2a": "leaning in, boots crunching",
+        "s2b": "the click of a puzzle piece",
+        "s3": "wide-eyed, watching the water slow",
+        "s4a": "a held breath at the red snow",
+        "s4b": "warm stone in the pocket, satisfied and quiet"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] abstract mood word: 'beautiful' usually means a feeling was told, not given; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid3",
+      "source_file": "07_ecosystems_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

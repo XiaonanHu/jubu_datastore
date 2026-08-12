@@ -1,0 +1,341 @@
+{
+  "id": "story.ecosystems.age11to12.d1.pregen.b5ae1c",
+  "title": "The Howl That Pulled the Thread",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.ecosystems",
+    "sel_theme": null,
+    "value_lesson": "Humility — people once thought removing wolves was wise, and admitting the mistake took courage; fixing it took more",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A mystery about how fourteen returning wolves rippled outward until they reshaped Yellowstone's rivers themselves.",
+  "slots": {
+    "companion_name": {
+      "role": "The 11-year-old narrator's notebook — what 'we' call our collected clue list",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the Thread-Puller's Notebook"
+    },
+    "favorite_clue": {
+      "role": "The clue the child found most surprising, echoed in the warm landing",
+      "kind": "playthrough",
+      "ask_child": false,
+      "default": "the beaver pond count"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Listen,\" says Scout. \"A wolf.\"\n\nThe radio receiver on her belt crackles, and a howl slides out of it — long, low, and silver, like someone pulling a thread of sound across the whole valley. Scout freezes with her hand on the volume knob, grinning the way she does when a muddy track turns out to be a treasure map.\n\n\"That's the Lamar pack,\" she says. \"Fourteen of them, all told. Want to know what they did?\"\n\nWe're standing in the ranger station at Yellowstone, and outside the window the Lamar Valley is doing what it does now — willow trees crowding the riverbanks, tall as houses, green as anything. Grandma June is beside us, holding a photograph so old the corners have gone soft.\n\n\"This is the same valley,\" she says. \"Thirty years ago.\"\n\nWe look at the photo. Then out the window. Then back at the photo.\n\nThe valley in her picture is bald. The river is there, but the banks are bare dirt, chewed down to stubble, not a tree in sight. It looks like a place that had its hair cut too short and never grew it back.\n\n\"That's the same place?\" we ask.\n\n\"Same bend in the river,\" says Grandma June. \"Same mountains.\"\n\nScout taps the photo with one finger. \"Same river, too. But it changed its mind about where to go.\"\n\nWe open {companion_name} — that's what we call our clue list, the notebook where we write down everything that doesn't add up. We write: *Grandma June's valley has no trees. Ours has thousands. Same place. Why?*\n\n\"Here's the thing,\" Scout says, and her voice drops like she's telling us a secret. \"The wolves did it. Fourteen wolves, brought back in 1995. They changed the elk. The elk changed the willows. The willows changed the beavers. And the beavers changed the river.\"\n\nWe stare at her.\n\n\"That's a food web,\" she says. \"Every living thing tugging on every other living thing. And the wolves? They're the keystone species — the one that holds the whole arch up. Pull them out, and everything falls. Put them back, and everything stands up again.\"\n\nThe howl comes again through the receiver. Closer this time.\n\n\"So,\" Scout says, picking up her binoculars. \"Do you want to pull that thread with me? Because I know where it starts.\"\n\nWe look at Grandma June. She folds the photograph and puts it in our hands.\n\n\"Take it,\" she says. \"You'll want to compare.\"\n\nWe tuck it into {companion_name}, right next to the question we can't stop thinking about.\n\nHow can fourteen wolves change the course of a river?",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Tracks first,\" we say. \"Let's pull.\"\n\nScout grins and shoulders her pack. \"Good. Snow doesn't lie.\"\n\nThe Lamar Valley crunches under our boots. Grandma June waves us off from the station porch, and then it's just us and Scout and a white field stitched with elk tracks — hundreds of them, pressed thick as footprints on a city sidewalk, all hurrying the same direction.\n\n\"Look at this,\" Scout says, kneeling. \"A crowd of elk came through here. But watch.\" She sweeps her arm along the riverbank. \"Not one of them stopped to eat.\"\n\nWe look. The willows along the water are tall and shaggy, taller than Scout, taller than the station roof. But down at our feet, half-buried in snow, are stubs — old, chewed stumps no bigger than a knee.\n\n\"Before the wolves,\" Scout says, \"elk lounged in this valley all day, every day. Safe, lazy, munching every green shoot before it could grow. Those stumps are willows that never got a chance.\" She taps the receiver on her belt, and it crackles — a howl, far off, threading through the cold air. \"Then the wolves came home. And the valley stopped feeling safe.\"\n\n\"So the elk left?\" we ask.\n\n\"Not left. Moved. Kept moving. Nervous elk don't stand around eating a riverbank bald.\" She points uphill, where the tracks climb toward the trees. \"And the moment the elk stopped chewing — the willows stood up.\"\n\nWe crouch beside a stump and write in {companion_name}: *Elk ate the willows. Wolves scared the elk. Willows came back.*\n\nIt's a good clue. A real one. But we stare at it, and something tugs.\n\n\"Scout,\" we say slowly. \"Willows are just trees. How do trees move a river?\"\n\nScout's grin goes wide, like we've just found the X on her treasure map.\n\n\"Now you're asking the right question,\" she says. \"And the answer has big flat tails.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Let's stay,\" we say. \"We want the before.\"\n\nGrandma June's whole face softens. \"Then walk with me, thread-pullers.\"\n\nThe riverbank is ankle-deep in wildflowers, and the river talks the whole way — a low, busy mutter over the stones. Grandma June walks slow, one hand trailing through the grass like she's petting it.\n\n\"When I was eleven,\" she says, \"this bend was silent. No willows for the wind to shush. No beavers slapping the water. And never, not once, a wolf howl. In seventy years, I never heard one.\" She stops and looks at the water. \"The elk stood right there in the river all day, still as lawn ornaments. Nothing ever bothered them, so why would they move?\"\n\n\"Lawn ornaments,\" we repeat, and write it in {companion_name}.\n\nBack at the station, she pulls out Dr. Mara's photograph collection — a shoebox so full it won't close. We spread the pictures across the table, and we match them to the view out the window, one by one. Bare banks. Bare banks. Bare banks.\n\nThen Grandma June turns the last bare one over.\n\n\"Look at the back,\" she says.\n\nPencil, faded: *1995.*\n\n\"That's the year the wolves came home,\" she says. \"Fourteen of them, carried here in crates. After that, every picture in this box starts changing.\" She taps the photos into a line, like dominoes. \"Wolves were endangered, you know. Gone from most of the country, nearly forever. Bringing them back was the hardest thing this park ever did.\"\n\nWe write it big across a fresh page: *1995. The year everything turned.*\n\nBut the thread tugs. We know when the river changed. We know who started it.\n\n\"Grandma June,\" we say. \"A wolf is a meat-eater. A river is water. How does one reach the other?\"\n\nShe smiles and closes the shoebox, gentle as a secret.\n\n\"That,\" she says, \"is exactly what the beavers have been waiting to tell you.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Scout's truck rattles up the hillside track, and at the top, the whole valley opens below us like a map that somebody made real.\n\nDr. Mara is already there, kneeling on the grass with an actual map spread out and a rock holding each corner. \"You found something,\" she says. It isn't a question. \"What did you find?\"\n\nWe tell her, and she listens the way grown-ups almost never do — all the way to the end, without once saying uh-huh. Then she taps the map. \"Good. Because what you just found is one thread. I want to show you the whole rope.\"\n\nShe pulls out a notebook, older than {companion_name}, its pages soft as cloth. \"Every year since 1995, I've counted beaver colonies in this valley.\" She opens it, and there they are: columns of years, columns of numbers. We run our finger down the page. One colony. Then two. Then five. Then nine. The numbers climb like stairs.\n\n\"The wolves came back in 1995,\" Dr. Mara says. \"Watch what the beavers did after.\"\n\n\"They multiplied,\" we whisper.\n\n\"Now here's the part that bends people's brains.\" She picks up three flat stones and builds a little arch on the map, two standing, one across the top. Then she slides the top stone out. The whole thing collapses with a small, sad clatter.\n\n\"That top stone is the keystone. The wolves are a keystone species — pull them out, the arch falls. Put them back, everything stands.\" She rebuilds it. \"The wolves chased the elk off the riverbanks. The willows grew back. And willows are beaver food, beaver houses, beaver everything. The wolves didn't just change the elk. They handed the valleys back to the willows, and the willows handed the rivers back to the beavers.\"\n\nWe look down at the living valley. From up here we can see it — the ponds strung along the river like beads on a string, each one still and dark, each one holding water back, slowing the river down, making it wander.\n\n\"The river changed its mind,\" we say, \"because the beavers told it to.\"\n\n\"And the beavers could tell it,\" says Scout, \"because the wolves told the elk.\" She grins. \"That's a ripple effect. One splash, and the rings reach the far bank.\"\n\nWe write it all in {companion_name}, and the thread in our heads pulls tight: wolf, elk, willow, beaver, water. But down there, the ponds are shining. We haven't stood in one yet.\n\n\"Can we go down?\" we ask.\n\nDr. Mara is already folding her map. \"I thought you'd never ask.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "We wade down at dawn, and the mist is still curled on the water like a cat that isn't ready to move. Scout holds up one hand. We stop. We listen.\n\nA frog plops. A duck mutters. Somewhere in the reeds, a muskrat is minding its own small business, and the whole pond is so still it seems to be holding its breath.\n\n\"Count,\" Scout whispers.\n\nSo we do. Frogs along the muddy edge, too many to finish. Ducks in the middle, folding themselves into the quiet. And under the willows, where the side-channel runs cool and dappled, trout hover in the shadow like silver thoughts. We peer past the dam at the sunny stretch beyond it. No trout there. Not one.\n\n\"Why do they hide under the willows?\" we ask.\n\n\"Shade keeps the water cold,\" says Dr. Mara. \"Cold water holds more air. The willows are doing that. The willows the elk stopped eating. Because of the wolves.\"\n\nThere it is. The whole thread, lying in the water in front of us.\n\nThen the pond goes whap — a beaver's tail, slapped flat on the surface, and the beaver itself glides past with a willow branch in its mouth, dragging it home like a workman carrying a plank. It doesn't look at us. It has a river to slow down.\n\nGrandma June laughs, very softly, into her sleeve.\n\nWe open {companion_name} and write the last line, the one the whole valley has been spelling for us: the wolves scared the elk, the trees grew, the beavers dammed, the water slowed — and the river healed. Underneath, because it still surprises us, we add {favorite_clue}.\n\nGrandma June bends down and lifts a willow leaf off the water, wet and yellow as a little sun. She presses it flat between the pages.\n\n\"For the road home,\" she says.\n\nThe mist lifts. The pond answers with one more plop.\n\n\"Fourteen wolves,\" we whisper, closing the notebook. \"And all of this.\"",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "We climb back up to the lookout as the light goes gold, and Dr. Mara spreads the old map on the rock, weighting the corners with stones the way she did before. \"Now,\" she says. \"Look down. Then look at the map. Tell me what's wrong.\"\n\nWe look down. We look at the map. And the wrongness jumps out at us like a frog off a bank.\n\nThe map's river wanders all over the valley, looping and curling like a dropped piece of string. The living river below us runs steadier, held in place, its banks gripped by willow roots like fingers holding on.\n\n\"The map says it should wander more,\" we say slowly. \"But it doesn't.\"\n\n\"The beaver ponds slow the water,\" says Dr. Mara. \"Slow water drops its silt. The banks build up and hold. The willows grip them. The river settles.\" She taps the old loops on the map. \"This river hadn't made up its mind. That one has.\"\n\nAnd from up here, we can see the whole thing at once. The hills where the elk graze, warier now, keeping moving. The green willow crowd along the banks. The beaver ponds strung down the valley, each one catching the low sun and flashing it back at us, like the valley is signaling. One thread, pulled through the entire food web, and every knot in it visible from this one rock.\n\nScout's receiver crackles. We all go still.\n\nA howl slides out of it — long, low, and silver — and this time another answers it, from the far side of the valley, and then a third, farther off, the sound threading back and forth across the dusk like someone stitching the whole valley shut for the night.\n\n\"That's them,\" Scout whispers. \"The keystone species, saying goodnight.\"\n\nWe write the last line in {companion_name}: the wolves scared the elk, the trees grew, the beavers dammed, the water slowed — and the river changed its mind. Underneath, because it still surprises us, we add {favorite_clue}.\n\nThen Scout opens her pack and takes out a rubber stamp from the ranger station — a wolf track, five toes and all — and presses it onto the page, firm and black.\n\n\"So you remember,\" she says, \"who pulled the thread.\"\n\nWe close the notebook. The valley hums. And all the way down the hill, the howls keep stitching.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"So, thread-pullers — do we follow those elk tracks into the snow right now, or stay and hear what your grandmother remembers from before the wolves came back?\" — Scout",
+      "options": [
+        {
+          "say_word": "Track them",
+          "label": "Head out with Scout to follow fresh elk tracks in the snow",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "favorite_clue": "the elk tracks in the mud"
+          }
+        },
+        {
+          "say_word": "Stay and listen",
+          "label": "Sit with Grandma June and her memories of the wolf-less years",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "favorite_clue": "Grandma June's before-picture"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The chain ends at the water, one way or another — so do we wade down to the beaver pond at dawn and count what lives there, or climb back up to the lookout and see the whole changed river at once?\" — Dr. Mara",
+      "options": [
+        {
+          "say_word": "Wade in",
+          "label": "Visit the beaver pond at dawn to find the trout, frogs, and the beaver itself",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Climb high",
+          "label": "Return to the lookout to compare the old map's river with the living one below",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.ecosystems",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The Yellowstone wolf story is literally a chain of clues—vanished wolves, overgrazed rivers, returning beavers—so a gentle mystery lets an 11-year-old follow the ripple effect to the keystone species answer, while quiet_hour and make_and_build have little to build on.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.22,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.22,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.04,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.04,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Scout, the young wolf-tracking ranger whose radio collar receiver crackles with howls and who treats every muddy track like a treasure map",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Humility — people once thought removing wolves was wise, and admitting the mistake took courage; fixing it took more",
+      "why": "The material offers it naturally through Grandma June's before-memory and Dr. Mara's 1995 photographs; it deepens the mystery's answer without preaching, since the whole story is about humans learning to see connections they missed"
+    },
+    "cast": [
+      {
+        "role": "Scout, a young park ranger who tracks the wolf packs",
+        "reused": false,
+        "why": "Carries the big_adventure accent — radio static, howls in headphones, tracking through snow; gives the mystery its field-expedition energy"
+      },
+      {
+        "role": "Dr. Mara, a wildlife biologist who helped reintroduce the wolves in 1995",
+        "reused": false,
+        "why": "Holds the old photographs and the keystone species explanation; the keeper of the before-picture"
+      },
+      {
+        "role": "Grandma June, who visited Yellowstone as a child before wolves returned",
+        "reused": false,
+        "why": "Provides the living memory of the treeless valleys and opens the wider door to endangered animals in one branch"
+      },
+      {
+        "role": "The beaver, busy and unbothered",
+        "reused": false,
+        "why": "Arrives as living proof at the exact moment the answer clicks; comic, wordless confirmation"
+      },
+      {
+        "role": "An 11-year-old narrator-companion with a clue notebook",
+        "reused": false,
+        "why": "The 'we' of we_adventure — collects clues alongside the listener so the mystery is solved together, never lectured"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Opening question: 'How can fourteen wolves change the course of a river?'",
+        "1995 wolf reintroduction after 70 years away",
+        "Old photographs of treeless riverbanks, willow eaten to stubs",
+        "Elk tracks everywhere but no young willows taller than a knee",
+        "Ranger's notebook showing beaver colonies increasing after 1995",
+        "Shaded stream with trout beside a sunny stretch with none",
+        "Beaver dams creating ponds for fish, frogs, ducks",
+        "Rivers changing shape — winding less, eroding less",
+        "Keystone species / keystone in an arch explanation",
+        "Grandmother's memory of pre-wolf valleys",
+        "Wider door: wolves were once endangered; what other animals almost vanished?",
+        "Setting: ranger station with maps and crackling radio",
+        "Setting: Lamar Valley riverbank ankle-deep in wildflowers",
+        "Setting: hillside lookout above the winding river",
+        "Setting: beaver pond at dawn"
+      ],
+      "gathered_but_unused": [
+        "Wolves were brought back to Yellowstone in 1995 after being gone for about 70 years, and their return set off a chain of changes that reached all the way to the rivers.",
+        "Before wolves returned, elk herds had grown very large and ate young willow and aspen trees down to stubs along the riverbanks.",
+        "With wolves hunting again, elk spent less time standing in open river valleys where they were easy targets, so young trees got a chance to grow tall.",
+        "When the willows and aspens grew back, beavers returned to build dams, because they finally had enough wood to eat and build with.",
+        "Beaver dams slowed the water and created ponds, which gave homes to fish, frogs, ducks, and muskrats.",
+        "The new riverside trees shaded the water, keeping it cooler, which is better for trout.",
+        "With more trees holding the soil and beaver dams slowing the flow, some rivers in Yellowstone actually changed shape, winding less and eroding their banks less.",
+        "A keystone species is one that holds an ecosystem together like the keystone in an arch, so removing it or bringing it back causes a ripple effect through the whole food web."
+      ]
+    },
+    "safety_beat": "In s2a, Scout shows once, lightly, that he knows where to stand — demonstrating how to read tracks from the firm bank rather than the soft muddy edge, and handing us the receiver while he checks the snow ahead; pure competence, no warning, no tension",
+    "motif": "A thread being pulled — each clue tugs the next one loose, from wolf to elk to willow to beaver to water",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it turns a real ecological idea into a genuine mystery with a pulling thread, plants its facts inside scenes a child can picture, and lands its sound-words and recurring howl as pleasures rather than decoration."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "hooked and curious, leaning in over the clue notebook",
+        "s2a": "boots-on-the-ground detective work, a small click of understanding",
+        "s2b": "slow, fond, a little hushed by the bald old photographs",
+        "s3": "the satisfying snap of the whole pattern coming into view",
+        "s4a": "held breath at the pond's edge, then warm and quietly amazed",
+        "s4b": "wide and golden, the goodnight howls leaving a listener settled and glowing"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.7); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "hand_edit": {
+      "date": "2026-08-12",
+      "field": "title",
+      "was": "The River That Changed Its Mind",
+      "now": "The Howl That Pulled the Thread",
+      "reason": "title collided exactly with _demo_run_kid3/07_ecosystems (same topic, independent story). New title follows this version's own motif — a thread pulled from wolf to elk to willow to beaver to water — and its opening howl.",
+      "by": "hand edit, pre-ingest review"
+    },
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid6",
+      "source_file": "03_ecosystems_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

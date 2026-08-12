@@ -1,0 +1,315 @@
+{
+  "id": "story.writing_programs.age11to12.d1.pregen.d07fc9",
+  "title": "The Mystery Jar",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.writing_programs",
+    "sel_theme": null,
+    "value_lesson": "Clarity is kindness to your future self and others",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "A kid coder must decipher a teammate's confusing old program before the showcase, discovering that clear names and small parts make bugs visible.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Thursday afternoon, in the basement of the community center, where the radiator clanks and the whole room smells faintly of pencil shavings and hot computers. Sam and I are on the floor with the laptop between us, and tomorrow is the showcase.\n\n\"Okay,\" Sam says. \"Run it again.\"\n\nOur maze game is almost done. Almost. The little explorer on the screen turns left, grabs the golden key, and then, for no reason any of us can see, walks straight through a wall.\n\n\"It's not supposed to do that,\" Sam says.\n\n\"It's never supposed to do that,\" I say. \"It keeps doing it anyway.\"\n\nPriya pulls her chair over, the wheels squeaking on the floor. Priya is in high school, and she volunteers here on Thursdays, and she has this way of leaning toward a bug like it's a wrapped present.\n\n\"Tell me,\" she says. \"What did you expect it to do? And what did it actually do?\"\n\n\"Expected: wall stops him,\" Sam says. \"Actual: wall is apparently a rumor.\"\n\nPriya grins and scrolls up. And up. And up. Our game isn't one screen of code anymore. It's one long scroll, hundreds of lines, all in one piece, like a pot of spaghetti where you can't find the end of a single noodle.\n\n\"Who wrote this part?\" she asks.\n\nWe both look at Marcus. Marcus wrote the core of it three weeks ago, in one heroic Saturday. He comes over and squints at his own code like it's written in a language he used to speak.\n\n\"What does this variable do?\" Priya asks. \"This one called... x2?\"\n\nLong pause. \"Something important,\" Marcus says. \"Probably.\"\n\nPriya doesn't laugh. She does something better. She points at the top of the screen, where our game starts, and then down at the very bottom, where it ends, way out of sight.\n\n\"You've built a whole kitchen in here,\" she says. \"But nobody labeled the jars.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Delete it,\" Sam says. \"It looks weird. Just delete it.\"\n\nThe line sits there, glowing on the screen: a variable called d, doing something to the score. Nobody remembers writing it. Marcus squints. Priya leans in, elbows on her knees.\n\n\"What do you expect will happen if we delete it?\" she asks.\n\n\"Score stops doubling,\" I say.\n\n\"And what will it actually do?\"\n\n\"Same thing, hopefully.\"\n\nWe delete it. We run the game. The explorer grabs the key, and the score does not double. It does not do anything. It sits at zero like a stone. We collect three coins, five coins, ten coins. Zero. Zero. Zero.\n\n\"Oh no,\" Sam says.\n\n\"The line was doing two things,\" Priya says, and she is not even slightly upset. She looks delighted. \"It was adding the points and doubling them. You threw out the whole recipe because it had one weird ingredient.\"\n\nWe put the line back. The score works again. And then, at eleven, it doubles.\n\n\"So the bug is in there,\" Marcus says slowly, \"inside d. But d doesn't tell us anything. It's like a jar labeled... I don't know. 'Stuff.'\"\n\nPriya taps the screen. \"Exactly. Somewhere inside this d, two jobs are hiding in one coat. We can't fix it until we can read it.\"\n\n\"How do you fix something you can't read?\" I ask.\n\nPriya smiles. \"You open the jar,\" she says. \"And you smell what's inside.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Copy it,\" I say. \"Just for now. Paste the scoring part somewhere safe, poke at the copy, and leave the real one alone.\"\n\nSam drags the chunk of code into a new spot at the bottom of the scroll. Now there are two: the original, with that unreadable variable called d, and our copy, which we rename test_score because we are geniuses.\n\nWe run the game. The explorer grabs the key. Score climbs. At eleven, it doubles. But now we can poke the copy without fear. Marcus finds a line, changes a number, and the copy stops doubling.\n\n\"Fixed!\" he says.\n\nWe run the full game. The explorer grabs the key. Score climbs. At eleven, it doubles.\n\n\"Wait,\" Sam says. \"We fixed it. I watched you fix it.\"\n\n\"You fixed the copy,\" Priya says. \"The game is still running the original.\"\n\nSo we fix the original too. We run it again. The score climbs past eleven, past twelve, and stops doubling. We cheer. Then Sam collects a bonus coin, and the score goes backwards.\n\n\"What,\" Marcus says.\n\n\"You fixed one copy one way and the other copy another way,\" Priya says, and her eyes are shining. \"Now the game has two versions of the truth. Which one runs depends on which path the explorer takes.\"\n\n\"It's like having a twin,\" Sam says, \"who never got the memo.\"\n\n\"Copies are traps,\" Priya says. \"They look like safety, but they drift apart. And underneath both of them is still that variable called d that nobody can read.\"\n\nShe taps the screen. \"One jar. One label. That's the fix.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "So we tried the classic move. We sprinkled print commands everywhere, like salting soup. Run it. The screen filled up with messages, scrolling and scrolling, faster than anyone could read.\n\n\"It's saying everything,\" Marcus said, \"and telling us nothing.\"\n\nPriya reached over and stopped the program. \"Okay. What did you expect it to do? And what did it actually do?\"\n\n\"Expected: one message when he hits a wall,\" I said. \"Actual: nine hundred messages about everything he's ever done.\"\n\n\"Then let's not interrogate the computer,\" Priya said. \"Let's just read it. Out loud. Like a story.\"\n\nSo Sam read. \"When the explorer moves... check if... d is less than...\"\n\n\"What's d?\" Marcus asked.\n\n\"You wrote d,\" Sam said.\n\n\"That was three weeks ago,\" Marcus said. \"I've lived a whole life since then.\"\n\nWe all leaned in. Somewhere in that scroll, the score was doubling, and the wall was turning into a rumor, and none of us could see where, because every line was wearing a disguise.\n\nPriya tapped the screen. \"New plan. We take the scoring part out and give it its own name. A function. Something we can test all by itself, with pretend numbers, like shaking one jar instead of sniffing the whole kitchen.\"\n\nSo we did. We lifted the scoring code out of the scroll and named it update_score, which is a boring name but an honest one. Then we fed it pretend points: ten, then ten more.\n\n\"Twenty,\" Sam said.\n\n\"Forty,\" the computer said.\n\nWe all made the same face. There it was. Not hiding in nine hundred messages. Just sitting in one small named box, doubling everything we handed it.\n\n\"Found you,\" Marcus whispered.\n\n\"Now the wall,\" Priya said. \"Rename d. Call it what it actually is.\"\n\nSam typed: distance_to_wall. And the moment the words were on the screen, two more bugs just... stood up and waved. Lines that had looked fine said things like if distance_to_wall is less than zero, which is nonsense, and we could finally see it was nonsense, because the words were telling the truth now.\n\n\"Three bugs,\" I said. \"They were there the whole time.\"\n\n\"They were wearing name tags,\" Priya said. \"The name tags said x2 and d.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "So we fixed the doubling line. One tiny change, where the score was adding itself twice. Then we looked at the rest of it, the same stretch of instructions written out three separate times, in three separate places, like the same recipe copied onto three sticky notes.\n\n\"We could make that its own function too,\" Sam said. \"One jar. One label.\"\n\nSo we did. Priya calls that a refactor, which sounds like something a pit crew does, but really it just means: same soup, better kitchen. We ran the game. The explorer turned left, grabbed the key, and bonked politely into the wall, which was finally, gloriously, a wall.\n\n\"Run it again,\" Marcus said.\n\nWe ran it again. And again. It just worked, every time, which is maybe the most boring and most beautiful thing a program can do.\n\nSaturday, the basement filled up with parents and little kids and folding chairs. Our laptop sat on the table with a paper sign: MAZE GAME, MADE BY US. A man in a puffy coat played it, and his explorer bonked into a wall, and he laughed and said, \"Ha! Got me.\"\n\n\"How'd you make the walls work?\" he asked.\n\nAnd here is the part I did not see coming. Marcus, who wrote the scroll, who named a variable x2 and forgot it, leaned in and explained the whole thing. The function. The pretend numbers. The names that tell the truth. He explained it to a stranger, out loud, and every word was right.\n\nPriya was by the whiteboard, pretending not to listen. Somebody had drawn two jars up there. One said Paprika. The other one used to say Stuff, and somebody had crossed it out and written Cumin, in careful letters, so the next cook would know.\n\n\"Next Thursday?\" Sam said, packing up the laptop.\n\n\"Next Thursday,\" I said. \"We're going to read the robot club's code. Like a story.\"\n\nMarcus shouldered his bag. \"Their variables are all called things like q.\"\n\nWe walked up the stairs together, into the cold, and the radiator clanked goodbye behind us.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "So we fixed the doubling line. One tiny change, where the score was adding itself twice. We ran it. The score counted up properly, ten, twenty, thirty, like a person who has learned to count.\n\n\"Done,\" Marcus said, and reached for the lid of the laptop.\n\nBut I was still reading. That is the thing about code with honest names: you keep reading it, the way you keep walking down a street when the houses get interesting. And there, in the part about moving, something looked off.\n\n\"Wait,\" I said. \"What happens if he goes diagonal?\"\n\nSam tried it. Up and sideways at once. The explorer slid clean through the corner of a wall, smooth as butter off a knife.\n\n\"A fourth bug,\" Priya said, and she said it the way you say \"more cake.\" \"You never would have seen that in the scroll. It was hiding under the tangle. You cleared the tangle, and there it was.\"\n\nWe fixed that one too. Then we broke the whole game into small named parts, one job each, the way a recipe says preheat the oven and means it. Functions all the way down, every jar labeled.\n\nSaturday, the basement filled up with parents and folding chairs. A kid, maybe seven, stood at our table watching the explorer bonk into walls.\n\n\"How does it know?\" the kid asked.\n\nSam did not answer. Sam did something better. He turned the laptop around and read the code out loud, the actual words. \"If distance to wall is zero... stop.\"\n\nThe kid's eyes went wide. \"Oh,\" he said. \"I get it!\"\n\nNobody had ever said that about the scroll.\n\nPriya was by the whiteboard, smiling at nothing. Somebody had drawn two jars up there. One said Paprika. The other used to say Stuff, and somebody had crossed it out and written Cumin, in careful letters, so the next cook would know.\n\n\"Think that kid will come Thursday?\" Marcus asked.\n\n\"He'll come,\" Priya said. \"They always come. Somebody reads them the code like a story, and then they have to know how it ends.\"\n\nWe packed up slow, nobody in a hurry, the radiator clanking like it was keeping time for us.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Okay, so the score's doubling and I have no idea why. Do we just delete the line that looks weird, or do we copy it somewhere else so we can poke at it without breaking the whole thing?\"",
+      "options": [
+        {
+          "say_word": "Delete it",
+          "label": "Delete the suspicious line and see what happens",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Copy it",
+          "label": "Copy the code to a safe place and test it there",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"We found the bug and fixed it, but now that the code is actually readable, I keep noticing other stuff. Do we call it done and demo what we have, or do we keep reading and see what else is hiding in there?\"",
+      "options": [
+        {
+          "say_word": "Ship it",
+          "label": "Call it done, demo the working game, and explain the fix to visitors",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Keep reading",
+          "label": "Keep reading the now-clear code to see what else might be hiding",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.writing_programs",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The topic's core material—splitting code into functions, refactoring for readability, and debugging—naturally maps to a cycle of trying, failing, and fixing, which suits a 12-year-old's capacity for systematic problem-solving.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "The club mentor, a high schooler who volunteers on Thursdays, who treats every bug like a puzzle box and asks 'what did you expect it to do, and what did it actually do?' with genuine delight at the gap between the two.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Clarity is kindness to your future self and others",
+      "why": "The material naturally offers this: the teammate's forgotten code is a tangle precisely because past-them didn't name things well, and the fix is literally making the code readable for the next person."
+    },
+    "cast": [
+      {
+        "role": "The kid protagonist, age twelve",
+        "reused": false,
+        "why": "Owns the project that has grown past one screen, hits the bug, tries shortcuts, and learns to split and rename until it works."
+      },
+      {
+        "role": "The teammate who wrote the original code weeks ago and has since forgotten it",
+        "reused": false,
+        "why": "Has to read their own work like a stranger's, discovering that past-them left no helpful names or notes; becomes the person who asks the first choice question."
+      },
+      {
+        "role": "A best friend who is newer to coding",
+        "reused": false,
+        "why": "Reads the code out loud like a story, and spots the confusing names simply because they keep tripping over them; asks the second choice question."
+      },
+      {
+        "role": "The club mentor, a high schooler who volunteers on Thursdays",
+        "reused": false,
+        "why": "Carries the curious_wonder accent; refuses to just fix things, instead asking 'what did you expect it to do, and what did it actually do?' until the answer appears."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A function is a named chunk of code you can call over and over",
+        "Programmers spend much more time reading code than writing it, so good names matter enormously",
+        "Refactoring means changing how code is organized without changing what it does",
+        "Big programs are built from many small parts that each do one job",
+        "Reading someone else's code is a real skill that programmers practice",
+        "The game works until the score passes ten, then everything doubles for no reason",
+        "The team tries to find the bug by adding print statements everywhere until the screen floods with messages",
+        "Nobody can tell what the variable 'd' does, so the fix attempt is to leave it alone and work around it",
+        "A community center basement where kids are programming small robots for a weekend showcase",
+        "The club mentor, a high schooler who volunteers on Thursdays",
+        "A best friend who is newer to coding",
+        "The teammate who wrote the original code weeks ago and has since forgotten it"
+      ],
+      "gathered_but_unused": [
+        "A function is a named chunk of code you can call over and over, so instead of writing the same steps ten times you write them once and give them a name.",
+        "Programmers spend much more time reading code than writing it, so good names matter enormously: a variable called 'seconds_left' explains itself, while one called 'x2' makes the next reader stop and guess.",
+        "Refactoring means changing how code is organized without changing what it does, like rearranging a messy room so everything still works but you can finally find your shoes.",
+        "Big programs are built from many small parts that each do one job, and if each part works on its own, the whole thing is far easier to fix when something breaks.",
+        "A loop tells the computer to repeat steps, but if the condition that ends the loop is wrong, the program can run forever, which is called an infinite loop.",
+        "When a program fails, the error message is a clue, not a scolding; experienced programmers read error messages carefully because they usually point near the line where things went wrong.",
+        "Different programming languages are good at different jobs: Python is popular for learning and science, JavaScript runs inside web pages, and C is used when speed matters, like inside game consoles and medical devices.",
+        "Reading someone else's code is a real skill that programmers practice; they often trace through it line by line with their finger or a pencil, pretending to be the computer, to understand what it actually does rather than what it was supposed to do."
+      ]
+    },
+    "safety_beat": "The community center basement is a real place a child could stand in. The club mentor shows competence lightly by knowing where the extension cords are taped down and reminding the team to keep their laptops on the tables, not the floor—no warning, just quiet knowledge of the space.",
+    "motif": "Two jars on a shelf, one labeled 'Paprika' and one labeled 'Stuff'—the mystery jar that must be opened, smelled, and finally relabeled so the next cook knows what's inside.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already shows the work coming together step by step — the delete-and-break, the copy trap, the print-salting, the naming that makes bugs 'stand up and wave' — so the listener watches competence being earned, and the jar/kitchen motif plus warm dialogue give it both legibility and fondness."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "cozy and curious, leaning toward the bug like a wrapped present",
+        "s2a": "a held breath, then the small oh-no of a mistake that teaches",
+        "s2b": "mischievous hope, then the comic deflation of fixing the wrong twin",
+        "s3": "the slow click of things becoming readable, a quiet 'found you'",
+        "s4a": "proud and warm, the boring-beautiful satisfaction of it just working",
+        "s4b": "delighted discovery, then a sleepy, keeping-time contentment"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 3.9); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "03_writing_programs_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

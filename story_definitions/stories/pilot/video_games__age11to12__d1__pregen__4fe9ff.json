@@ -1,0 +1,332 @@
+{
+  "id": "story.video_games.age11to12.d1.pregen.4fe9ff",
+  "title": "The Level That Teaches",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.video_games",
+    "sel_theme": null,
+    "value_lesson": "A stuck player is a clue about the design, not a failure of the player — feedback is a gift, and fixing the thing beats blaming the person.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "A young maker sets out to build a game whose first level teaches everything without a single word of instructions — and learns, one wobble at a time, that fun is designed, not found.",
+  "slots": {
+    "maker_name": {
+      "role": "The 12-year-old maker at the center of the story",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Rowan"
+    },
+    "hero_sprite": {
+      "role": "The little character in the game being built",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "a fox with a red scarf"
+    },
+    "collectible": {
+      "role": "The thing the hero collects in the game",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "fireflies in jars"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Let me tell you about the autumn my young friend {maker_name} built something out of nothing, at a kitchen table, with a pencil and a stack of graph paper.\n\nIt started on a Tuesday. {maker_name} had just finished the first level of a favorite game — the kind with a little hero, {hero_sprite}, who hops across platforms collecting {collectible}. Nothing unusual there. But this time, {maker_name} put the controller down and sat very still.\n\n\"Grandma Rhea,\" {maker_name} said. \"That level never told me anything. Not one word of instructions. And somehow I knew exactly what to do.\"\n\nGrandma Rhea looked up from her tea. She does not play games. She has never held a controller in her life. But she pulled her chair closer, the way she does when something interesting is about to happen.\n\n\"Show me,\" she said.\n\nSo {maker_name} started the level again. And there it was — a low wall, just high enough that you had to jump. No sign. No arrow. Just a wall you could not walk past, so your fingers figured it out on their own. And right past the wall, a coin floated in the air, placed exactly where your jump would land. You did not read about jumping. You jumped, and the game caught you, and the coin said: yes, like that.\n\n\"The whole level is a tutorial,\" {maker_name} said, \"but it never says so. It just... teaches you by letting you play.\"\n\nGrandma Rhea sipped her tea. \"Why did that sparkle?\" she asked, pointing at the screen.\n\n{maker_name} grinned. \"That's the reward. The game gives you something small and good every time you get it right, so your hands want to try the next thing.\"\n\n{maker_name} pulled out the graph paper. Blank squares, hundreds of them, waiting.\n\n\"I want to make one,\" {maker_name} said. \"A level that teaches like that. No instructions at all.\"\n\nGrandma Rhea poured more tea. \"Then we had better get comfortable.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"How it moves,\" said {maker_name}. \"Before it looks like anything, it has to feel like something.\"\n\nMaya nodded, like that was the right answer. \"Then you get to do what every big studio does first. You build the ugliest version of the game on purpose.\"\n\nSo {maker_name} opened a blank project and made one small grey square on a plain dark screen. No hero. No scarf. Just a square that could run left, run right, and jump when you pressed the button.\n\n\"That's the whole game?\" Grandma Rhea asked, setting down two cups of tea.\n\n\"That's the whole game,\" Maya said. \"For now. It's called a grey-box. If a plain square is fun to move, everything you build on top will be fun too.\"\n\n{maker_name} pressed jump. The square rose, hung in the air a moment too long, and drifted down like a leaf. It worked. It was not fun.\n\n\"It feels floaty,\" {maker_name} said.\n\n\"Then change one number,\" Maya said, pointing at the screen. \"Jump height. That's it. One number.\"\n\n{maker_name} typed a smaller number. The square hopped — quick, low, a neat little pop. Then a bigger number, and it sailed nearly off the screen. They tried numbers back and forth until the jump rose fast and came down faster, with a soft thud you could almost feel in your thumbs.\n\n\"There,\" Maya said. \"That's the mechanic. One thing done well is worth ten things done badly.\"\n\nGrandma Rhea leaned closer, wrapping her hands around her cup. \"Why did that one feel nice? The hop. Why is a hop nice?\"\n\n{maker_name} opened their mouth to answer, and stopped. The square sat on the screen, waiting. The jump felt good now — {maker_name}'s thumbs knew it. But nobody in the kitchen could say why.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"How it looks,\" said {maker_name}. \"If I'm going to spend weeks on this, I want to love looking at it.\"\n\n\"Fair,\" Maya said. \"Then you're doing what the old pixel artists did. One square at a time.\"\n\n{maker_name} opened a grid on the screen — tiny boxes, like the graph paper, only these could hold color. Zoomed all the way in, the hero was nothing but a scatter of squares. One dark square for an eye. Two pointed ones for ears. A row of warm orange down the back, and a single red line underneath that, zoomed out, became a scarf in the wind.\n\n\"It's a mosaic,\" {maker_name} said. \"Every pixel placed on purpose.\"\n\n\"Why is the scarf red?\" Grandma Rhea asked, settling in with her tea.\n\n\"So your eye finds it,\" {maker_name} said. \"Even when the hero is tiny, the scarf tells you which way you're moving.\"\n\nDev from the club leaned in the doorway, home from school. \"What does the fox collect?\"\n\n\"{collectible},\" {maker_name} said, and Dev grinned like that was exactly right.\n\nThen came the paper. {maker_name} drew level one in pencil, one square at a time. A flat start, so your fingers could learn to walk. Then a gap — exactly one jump wide, no wider. And past the gap, the first of the {collectible}, drawn floating precisely where a jump would carry you. You would not read about jumping. You would jump, and the game would catch you, and the jar would say: yes, like that.\n\n\"The level is the tutorial,\" {maker_name} said. \"It just never says so.\"\n\nGrandma Rhea studied the maze of penciled squares for a long moment.\n\n\"It looks lovely, dear. But tell me — why would anyone play it twice?\"\n\nThe pencil stopped. The kitchen went very quiet, because nobody had an answer.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "That Saturday, the game club met in the school library, and the level was ready. A whole first level, playable, built from everything the week had taught. {maker_name} slid the laptop across the table. \"Dev, you try first.\"\n\nDev cracked his knuckles like a professional. {hero_sprite} hopped onto the screen, and off they went — over the low wall, past the first ledge, collecting {collectible} as they went. Then came the gap over the pit. Dev jumped. Down went {hero_sprite}. Dev jumped again. Down again. The third time, Dev laughed — but it was a thin laugh, and he pushed the laptop back. \"I'm just bad at this,\" he said. \"You play.\"\n\nThe room went quiet. Grandma Rhea, who had brought her tea in a thermos because she refused to miss the big day, poured a cup and set it beside {maker_name}.\n\n\"He jumped wrong,\" {maker_name} said. But the words came out slow, like feet testing ice.\n\nGrandma Rhea blew on her tea. \"Three times wrong? At the very same spot?\" She tilted her head. \"That's not a boy problem, love. That's a wall problem. Show me what you just found.\"\n\nSo {maker_name} looked at the level the way its maker should. The landing platform sat one square too far. Nobody had told Dev where to leap from. {maker_name} dragged the platform closer, and right at the edge of the pit, placed one of the {collectible} — floating exactly where a good jump begins. A signpost that says, without words: from here.\n\n\"Dev. One more go.\"\n\nDev sighed, sat down, ran at the gap — and sailed clean across. First try.\n\n\"See?\" said Grandma Rhea, raising her cup. \"The level learned to teach.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "That night, {maker_name} opened the sound box. A voice, Grandma Rhea had said. What if every {collectible} had one? At the library maker space, headphones on, {maker_name} gave each jar a note, one step higher than the last. Bloop. Bloop. Bloop. Five in a row, and the jars played a tiny melody — a song of your own success, and you never knew you were making it.\n\nThen the sparkle. A soft golden puff when a jar was caught, and a little counter in the corner, ticking up. Goal, jump, chime, sparkle, count. New goal. The loop clicked shut, warm as a locket.\n\n\"Again,\" said Grandma Rhea, and she hummed the little tune back, wrong but happy.\n\nAt the club, a younger kid wandered over. Never seen the game. No instructions. They watched the wall, and jumped. They followed the jar, and leapt. They heard the notes climb and chased the next one, grinning at the music they didn't know they were making. The level taught them everything.\n\nMs. Okafor printed the level map and pinned it on the club wall. Grandma Rhea listened to the chimes, and said softly, \"That's why you go back.\"\n\nAnd that is how {maker_name} went home with a creased graph-paper map in one pocket and a song in the other, knowing they had not just made a game. They had designed fun itself — the kind that says well done without a single word.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "That night, {maker_name} tore up level two. A ladder, Grandma Rhea had said. So the level became a staircase — not a cliff. The first step taught one small hop. The second asked for the same hop, a little higher. The third put a jar over a gap, and the jump you already knew carried you across. Every new skill shook hands with an old one.\n\nThen, the answering back. Every {collectible} got a small sparkle when it was caught, and a counter in the corner, ticking up. One, two, three. The game saying, in its own quiet way: I saw that.\n\nAt the club showcase, Dev played the whole thing, start to finish, without one word of help. Nobody told him anything. The level told him everything.\n\nA visiting kid watched, mouth open. \"How did the game know what to teach me next?\"\n\n{maker_name} looked at the staircase on the screen and felt something settle into place, like a key turning. The level itself was the teacher they had set out to build. It had been the teacher all along.\n\nMs. Okafor pinned the map on the club wall. Grandma Rhea asked for a printout of {hero_sprite}, mid-leap, and framed it for the kitchen wall, right beside the kettle. \"So I can see the little champion,\" she said, \"while the tea brews.\"\n\nAnd that is how {maker_name} came home with a pixel portrait for the fridge and eyes that had changed for good — eyes that now read every game the way its makers do, finding the gentle teacher hiding inside level one.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Maya spins her chair around and grins: \"Every game starts as a question — 'is this fun?' So what do you want to build first: how it moves, or how it looks?\"",
+      "options": [
+        {
+          "say_word": "Make it move",
+          "label": "Build the plain prototype first — a square that runs and jumps, to find the fun before the art",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Draw the hero",
+          "label": "Design the pixel hero and sketch level one on graph paper first, like an architect's plan",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Grandma Rhea sets down her tea, watches Dev collect three things in total silence, and asks: \"The game works, dear — so why does it feel like nobody's saying well done? What will you give it: a voice, or a ladder?\"",
+      "options": [
+        {
+          "say_word": "Give it a voice",
+          "label": "Build the reward loop through sound — a rising note for every collectible, so success plays a melody",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Build the ladder",
+          "label": "Build the reward loop through structure — a staircase of levels where each new skill shakes hands with the old ones",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.video_games",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 12,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "The topic's core material—spotting tutorials, understanding mechanics, and seeing how reward loops are built—naturally feeds a story about a child designing or building their own game step by step.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Loop That Wouldn't Stop)"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma Rhea, who does not play games at all but sits beside the maker with a cup of tea, asking soft questions like 'why did that sparkle?' — her cozy, curious presence warms every scene she appears in.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "A stuck player is a clue about the design, not a failure of the player — feedback is a gift, and fixing the thing beats blaming the person.",
+      "why": "The material offers it naturally: the playtest wobble is literally about watching someone get stuck and choosing to move the platform instead of blaming them. It rides along without lecturing because it is shown through the maker's hands, not stated as a moral."
+    },
+    "cast": [
+      {
+        "role": "The maker (age 12, named by the child)",
+        "reused": false,
+        "why": "The story needs a protagonist whose hands do the building; the make_and_build pattern is theirs from sketch to finished level."
+      },
+      {
+        "role": "Dev, the best friend and first playtester",
+        "reused": false,
+        "why": "The wobble needs an honest player who falls into the same pit three times and accidentally teaches the maker that a stuck player is a design clue."
+      },
+      {
+        "role": "Maya, an older teen from the game club who codes a little",
+        "reused": false,
+        "why": "She shows the maker how one tiny rule change transforms a level's feel, then steps back — the mentor who opens the door without walking through it."
+      },
+      {
+        "role": "Grandma Rhea, who has never played a game",
+        "reused": false,
+        "why": "Her innocent questions push the maker to say the reward loop out loud and understand it; she also carries the cozy accent tone."
+      },
+      {
+        "role": "Ms. Okafor, the community center game club leader",
+        "reused": false,
+        "why": "She points the maker to free tools and pins the printed level map on the club wall at the end — the warm landing needs her hands."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "the reward loop: goal, choice, something happens back, new goal",
+        "level one is secretly the tutorial — a gap one jump wide with a reward past it",
+        "a mechanic is one small rule; great games remix a handful of them",
+        "designers watch real players get stuck and fix the level, not the player",
+        "sound is part of the reward loop — a rising note per pickup",
+        "difficulty rises like a staircase, not a cliff",
+        "sprites drawn pixel by pixel on a grid, like a mosaic",
+        "famous games started as plain grey prototypes asking 'is this fun?'",
+        "community center game club setting with old computers and a whiteboard of level sketches"
+      ],
+      "gathered_but_unused": [
+        "Most games are built from a simple repeating rhythm called a loop: the game gives you a goal, you make a choice, and something happens back — a sound, a sparkle, a number ticking up — and then a new goal appears.",
+        "Level one of many games is secretly the tutorial. Designers teach you the rules by letting you play them — a low wall teaches jumping, a single slow enemy teaches dodging — long before anyone explains anything in words.",
+        "A mechanic is one small rule about how the game works, like 'pressing jump in mid-air makes you jump again.' Great games are often just a handful of mechanics mixed and remixed in clever ways.",
+        "Game makers test their levels by watching real players get stuck. If everyone falls into the same pit, the designer knows the level — not the player — needs fixing, and they move a platform or add a signpost.",
+        "Sprites — the little pictures of characters and objects — are often drawn on a grid of pixels, where every single square of color is placed on purpose, like a mosaic you can walk around in.",
+        "Sound is part of the reward loop. A rising musical note when you grab a pickup, or a soft thud when you land, tells your brain 'you did it' faster than words on a screen ever could.",
+        "Difficulty in good games rises like a staircase, not a cliff. Each level asks for one new skill plus everything you already learned, so you always feel challenged but rarely feel tricked.",
+        "Many famous games started as tiny homemade prototypes — one person, one mechanic, one weekend — built just to answer the question 'is this fun?' before anyone drew a single real level."
+      ]
+    },
+    "safety_beat": "At the community center game club, Ms. Okafor shows the maker the small rituals of the room once, lightly — where the signed-in laptops live, which shelf holds the headphones, pulling the chair in so the walkway stays clear — pure competence, no warning, no tension.",
+    "motif": "The hidden tutorial: a small gap, a coin placed exactly where a jump lands — the level itself as a gentle teacher.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it shows the making step by step with real tools and real failures, wraps it in Grandma Rhea's warm attention, and lands its sound-words ('Bloop. Bloop. Bloop.', 'a soft thud you could almost feel in your thumbs') cleanly for a listening child."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and cozy, leaning in beside Grandma Rhea",
+        "s2a": "absorbed, thumbs almost twitching, ending on a small held question",
+        "s2b": "delighted by the tiny mosaic, then stopped short by a good question",
+        "s3": "a wince of worry, then the warm click of a fix that works",
+        "s4a": "giggly and glowing, a tune you want to hum along",
+        "s4b": "satisfied and settled, like a key turning, ready for bed"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 27% of sentences carry speech or action; [s4b] narration heavy: only 29% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 27% of sentences carry speech or action",
+      "[s4b] narration heavy: only 29% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 27% of sentences carry speech or action",
+      "[s4b] narration heavy: only 29% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid1",
+      "source_file": "01_video_games_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

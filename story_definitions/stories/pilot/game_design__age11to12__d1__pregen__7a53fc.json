@@ -1,0 +1,341 @@
+{
+  "id": "story.game_design.age11to12.d1.pregen.7a53fc",
+  "title": "The Dragon Cost Problem",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.game_design",
+    "sel_theme": null,
+    "value_lesson": "Being wrong on purpose is how things get made — a broken version is not a failure, it is the work",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "A kid tries to build their first real board game, and the only way forward is through every version that breaks.",
+  "slots": {
+    "designer_name": {
+      "role": "The kid designer, the child in the story",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    },
+    "friend_name": {
+      "role": "The skeptical best friend and keeper of Sir Bouncesalot",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Jo"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The argument lasted an entire rainy afternoon at the library chess club. Should a dragon cost five coins or six? Voices got louder. Someone knocked over a bishop. And that was when {designer_name} stood up on a chair and shouted the words that changed everything: we could just MAKE one.\n\nThat night, at the kitchen table, {designer_name} cut a cereal box flat and borrowed dice from three other games. The idea felt enormous in their head, a whole treasure island, players racing across it, coins to spend, a dragon at the far end. But when they picked up the pencil to write the first rule, the island turned to fog. The pencil hovered. Nothing came.\n\nThe doorbell rang. It was {friend_name}, rain on their hood, holding something small and battered between two fingers.\n\nSir Bouncesalot. The d20. The luckiest die in the world, if you asked {friend_name}, which nobody ever did.\n\nThey placed it on the table with great ceremony, like a knight laying down a sword, and looked at the blank cardboard.\n\nA dragon to be slain, they said.\n\n{designer_name} laughed, and something loosened. Okay, they said. Okay. What do we actually need?\n\n{friend_name} rolled Sir Bouncesalot across the cereal box, because of course they did. Twenty. A good omen, obviously.\n\nSo they started with what they knew. Players need something to want. The treasure. Write it down. Players need a choice, a real one, not a fake one. Spend coins to move fast, or save them for the dragon, or buy a little luck. Write it down. And every choice needs a consequence, or nobody cares about anything. Write it down.\n\nGoal, choice, consequence. Around and around.\n\nThey did not know it yet, but they had just built the thing that lives inside every game ever made. The loop. The engine.\n\n{designer_name} drew a small star in the corner of the cardboard. It came out lopsided.\n\nVersion one, they said.\n\n{friend_name} picked up Sir Bouncesalot and held it high. Then let the quest begin.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Play it, said {designer_name}. Obviously. We have to know.\n\n{friend_name} grinned and grabbed the phone. Twenty minutes later Zara from chess club was sitting at the kitchen table, turning a cardboard coin over in her fingers, looking at the hand-drawn island the way a dragon looks at a sheep.\n\nI'll go first, she said.\n\nZara did not move toward the treasure. Zara did not buy luck. Zara bought the dragon card. Every single round, she bought the dragon card, and every single round it stomped across the board and ate whatever the rest of them had built. On turn six, {friend_name} rolled Sir Bouncesalot with full ceremony, both hands, eyes closed, a small hum of destiny. Three. Zara's dragon ate their last coin anyway.\n\nEleven minutes after it started, it was over.\n\nZara pushed back her chair, and she said it kindly, which somehow made it worse. This part is boring. And also, I won without trying.\n\nThe kitchen went very quiet. Sir Bouncesalot sat on the table showing his three like a small bad moon.\n\n{friend_name} picked him up and rolled him again, gently, as if apologizing. Six. Also bad.\n\nOkay, said {designer_name}. Their ears were hot. Okay. Let's think.\n\nThey stared at the board. The treasure path. The luck cards. The dragon, sitting there at the far end, fat and smug, the best thing on the island by a mile.\n\nWait, said {designer_name} slowly. The problem isn't that the dragon is strong.\n\n{friend_name} looked up.\n\nThe problem is that nothing else gives you a reason not to take it. Moving fast is worse. Luck is worse. Saving is worse. It's not a choice at all. It's just a door with one handle.\n\nZara leaned back in. Huh, she said. That's true. I never even read the other cards.\n\n{designer_name} flipped the cereal box over and picked up the pencil. The first star, the lopsided one, was on the other side now, hidden against the table. They drew a new one in the fresh corner. It came out a little straighter.\n\nVersion two, they said.\n\n{friend_name} lifted Sir Bouncesalot high. The quest continues.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Ask around, said {designer_name}. If we're wrong, I want to know before Zara does.\n\nSo the next morning, before anyone rolled anything, {designer_name} tucked the notebook under one arm and biked to the library, {friend_name} rattling alongside with Sir Bouncesalot in a jacket pocket like a tiny knight in a carriage.\n\nThe librarian listened to the whole thing. The island, the coins, the dragon. She did not fix anything. She just asked one question.\n\nWhat do you want players to feel, right here? And she tapped the page where the dragon card was drawn.\n\n{designer_name} opened their mouth and nothing came out. Nobody had asked that. They had argued about five coins or six for an entire afternoon and nobody had once asked that.\n\nThe librarian pulled a book off the shelf and found a picture of a seesaw. A game is balanced like this, she said. A beginner should beat an expert sometimes. Not always. Sometimes. If the expert always wins, the beginner quits. If it's pure luck, the expert quits. You're building the middle.\n\nThen she told them about a man named Reiner Knizia, who has made hundreds of games, more than almost anyone alive, and who still builds every single one out of cardboard first. Ugly first versions, she said. On purpose. Cardboard is where games go to tell the truth.\n\n{friend_name} leaned over the book. Hundreds, they whispered. And he still tests them. Like quests.\n\nThey biked home fast. The notebook felt heavier than before, in a good way, like a tool instead of a diary.\n\nThat afternoon they played version one anyway, just the two of them, because now they wanted to see it break. And it broke. {friend_name} played the Zara strategy, dragon card every round, and the game folded in eleven minutes flat. Sir Bouncesalot rolled twenty twice and it changed nothing, which {friend_name} took as a personal insult.\n\nBut this time {designer_name} was watching the seesaw. Every round, the dragon side just sat on the ground. Nothing weighed anything against it.\n\nThere, said {designer_name}. That's the wobble. It's not that the dragon is strong. It's that nothing else is a reason.\n\n{friend_name} nodded slowly, then flipped the cereal box over. New corner. Fresh cardboard.\n\n{designer_name} drew the star again. Straighter this time. You could tell what it was now.\n\nVersion two, they said.\n\n{friend_name} raised Sir Bouncesalot like a banner. The quest continues.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the kitchen table, {designer_name} stared at the lopsided star in the corner of the cardboard. Version one had wobbled. It had creaked. And somewhere in the middle of all that wobbling, a strange idea had landed: maybe it was supposed to.\n\n\"You know what?\" {designer_name} said slowly. \"I think version one was meant to be terrible. That's not failure. That's the job.\"\n\n{friend_name} looked up from Sir Bouncesalot. \"Say that again.\"\n\n\"Designers call it iteration. You build a version, you watch it break, you fix the thing that broke, and you build it again. Great games go through hundreds of versions. Hundreds.\"\n\n{friend_name} was quiet for a moment. Then they picked up the pencil and pressed it into {designer_name}'s hand.\n\n\"Then stop talking,\" they said, \"and iterate.\"\n\nSo they did. They crossed out the dragon's price and wrote something new: the dragon costs more every time someone buys it. First player pays five. Second pays seven. Third pays nine. Suddenly the dragon was not a shopping trip. It was a decision.\n\n\"And this,\" {designer_name} said, drawing a new card with a flourish, \"is the lucky map. If you're losing, really losing, you can spend your last coins on a shortcut through the jungle. Might work. Might not.\"\n\n{friend_name} grinned. \"Skill for the expert. A real chance for the beginner.\"\n\n\"Balance,\" {designer_name} said, and the word felt like a key turning.\n\nThey redrew the star. Still a little wobbly. But better. Definitely better.\n\nVersion two.\n\n{friend_name} lifted Sir Bouncesalot high, closed their eyes, and rolled with the ceremony of a knight anointing a battlefield. The die clattered across the cardboard.\n\nThey played. The loop turned. Goal, choice, consequence, around and around, and this time the game had a heartbeat. It was not perfect. Something still snagged near the end, something {designer_name} could not quite name yet.\n\nBut when the last coin was spent and the dragon finally fell, {friend_name} looked up with wide eyes and said the only word that matters in game design.\n\n\"Again.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Luck,\" {designer_name} said. \"We tip it toward luck.\"\n\n{friend_name} stood up so fast their chair wobbled. \"At last,\" they said, lifting Sir Bouncesalot to the light like a chalice. \"The die has been waiting for this moment.\"\n\nSo version three grew chances the way a garden grows weeds. The lucky-map deck got fatter — shortcuts, rainstorms, a monkey who steals coins and sometimes gives them back wearing a tiny hat. {designer_name} added a weather die. Roll it at the start of each round: sun means everyone moves fast, wind means the boats drift, and rain means the dragon stays home and naps.\n\n\"Rain,\" {friend_name} breathed, reading the new card. \"The dragon naps. That's beautiful.\"\n\nThen came the playtest that nobody saw coming. {friend_name}'s mum wandered in for a cup of tea, got handed the dragon piece, and stayed. She had never played a board game in her life. She asked what the coins were for twice. She moved her boat the wrong way and apologised to it.\n\nAnd she won.\n\nNot by accident — by weather. Rain, rain, rain, three rounds running, and while Zara's brilliant plans drowned in puddles, Mum's little boat drifted straight into the harbour on a lucky map she'd drawn by pure fluke.\n\nZara put her face in her hands. \"I have been defeated,\" she said, \"by a nap.\"\n\nBut here is the thing {designer_name} noticed, scribbling in the notebook: Mum never once asked what the rules meant. The weather die explained itself. The lucky map explained itself. The game made sense to someone who had never played anything — and she still had to earn it, coin by coin, roll by roll.\n\n\"One more,\" Zara said.\n\nThey played three rounds. Nobody stopped saying it. One more. One more.\n\nLate that night, {designer_name} redrew the star in the corner of the rules card. Straighter. Brighter. Almost perfect.\n\nVersion four, they wrote.\n\nThe storyteller still has that card. And tucked inside the notebook, drawn better every single time, is the star — proof that the best games are the ones where anyone at the table can win, on any given night, if the rain falls just right.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Skill,\" {designer_name} said. \"We tip it toward skill.\"\n\n{friend_name} looked down at Sir Bouncesalot, cradled in their palm. \"You hear that?\" they whispered to the die. \"She thinks she doesn't need you.\" They rolled it anyway, for luck, because some habits are sacred.\n\nSo version three sharpened its teeth. Coins could be saved across rounds now — hoard them, spend them later, feel clever. And the dragon? The dragon could be baited. Leave a trail of coins leading away from the treasure, and the greedy old thing would follow it, sniffing, while you slipped in the back way.\n\nZara's eyes went very bright.\n\nIt took her four turns. Four. She saved coins in rounds one and two, bought nothing, let everyone think she was floundering. Then in round three she laid a coin trail like breadcrumbs, sent the dragon waddling off toward the far beach, and strolled into the hoard with her pockets empty and her smile enormous.\n\n\"Three-turn trap,\" she said, leaning back. \"I planned it before you finished shuffling.\"\n\n{designer_name} stared at the board. Then at the rules. Then at Zara.\n\n\"That's brilliant,\" they said. \"That's — wait. If you can do that, a new player will never win. Ever.\"\n\nZara's smile faded. She looked at the coin trail, at the dragon, at the hoard. \"Oh,\" she said. \"Oh no. I broke my own favourite game.\"\n\nThey fixed it together. One small rule: the first time you play, the dragon likes you. It starts one step closer to your boat. A soft landing. A welcome.\n\nThe final playtest ran long past dinner. Nobody noticed. Every choice mattered now — every coin, every turn, every risk — and even the players who were losing leaned forward, elbows on the table, watching the board like it might tell them a secret.\n\nThe storyteller still has the notebook. On the last page, under RULES, version four, someone has written in hopeful pencil: version five ideas.\n\nThe star in the corner is drawn better than ever. But there is room, still, for it to grow.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Right,\" says {friend_name}, slamming Sir Bouncesalot onto the table like a gauntlet. \"The rules exist. Do we play this beautiful disaster right now and watch it burn, or do we sneak it past someone who actually knows games first?\"",
+      "options": [
+        {
+          "say_word": "Play it",
+          "label": "Test version one immediately and let it fall apart",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Ask around",
+          "label": "Take the rules to the game librarian before anyone plays",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Okay, version three needs a soul,\" {designer_name} says, tapping the pencil. \"Zara wins every time she thinks, and your mum wins every time she's lucky. Which way do we tip the seesaw — more luck, so anyone can win? Or more skill, so outsmarting someone feels amazing?\"",
+      "options": [
+        {
+          "say_word": "More luck",
+          "label": "Grow the lucky-map deck and let dice shake the island",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "More skill",
+          "label": "Add saving, baiting, and long plans for clever players",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.game_design",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.computers_and_code",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "Game design is inherently about making something step by step — prototyping a game loop, playtesting it, and iterating on the balance between luck and skill — so the build pattern lets an 11-year-old experience the designer's actual process firsthand.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3218,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2759,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.26,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1494,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1379,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.069,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0345,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "A battered d20 named Sir Bouncesalot that the best friend rolls with ridiculous ceremony before every single decision, treating each playtest like a quest of legend",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Being wrong on purpose is how things get made — a broken version is not a failure, it is the work",
+      "why": "The iteration material offers it naturally: version one is supposed to be embarrassing, and the story never has to say so out loud"
+    },
+    "cast": [
+      {
+        "role": "The kid designer (the child, named via slot)",
+        "reused": false,
+        "why": "The make_and_build pattern needs a maker whose hands do the iterating; the child listener takes this seat"
+      },
+      {
+        "role": "The skeptical best friend (named via slot)",
+        "reused": false,
+        "why": "Delivers the true, uncomfortable playtest notes that turn out to be gold; also carries the big_adventure accent through Sir Bouncesalot"
+      },
+      {
+        "role": "The kid who always wins everything (Zara from chess club)",
+        "reused": false,
+        "why": "Finds the turn-one strategy that breaks the game, then helps patch the hole; gives the skill-vs-luck balance idea a human face"
+      },
+      {
+        "role": "The librarian who runs the game shelf",
+        "reused": false,
+        "why": "Asks the one perfect question instead of solving anything; her question carries the balance fact into the story"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "game loop wonder fact (goal, choice, consequence, the itch to go again)",
+        "balance fact (a beginner should sometimes beat an expert, but not always; luck vs skill seesaw)",
+        "iteration fact (the first version of every great game is terrible; each fix is an iteration)",
+        "Reiner Knizia building every idea from paper and cardboard first",
+        "playtesting fact (getting confused is the most useful thing a playtester can do)",
+        "school library corner with the chess club whiteboard",
+        "the dragon-should-cost-5-or-6-coins argument from the community center material",
+        "the blank-page moment and the eleven-minute first playtest from pattern material",
+        "the sword-card balance wobble (the problem is not the strong thing, it is that nothing competes with it)"
+      ],
+      "gathered_but_unused": [
+        "Every game you love runs on the same invisible loop: there's a goal, you make a choice, something happens as a result, and then you want to go again. Designers call this the game loop, and it's the heartbeat of everything from tag to chess to Mario Kart.",
+        "Board game designer Reiner Knizia has made over 600 published games, and he still builds every new idea out of paper and cardboard first, testing it with real people before a single piece gets printed.",
+        "The game of Monopoly was originally invented in 1903 by a woman named Elizabeth Magie, and she called it The Landlord's Game. She designed it to show how unfair it felt when one person owned everything — the game itself was her argument.",
+        "When designers say a game needs 'balance,' they mean nobody should be able to win just by being lucky, and nobody should be able to win every single time just by being skilled. The sweet spot is a game where a beginner can sometimes beat an expert — but not always.",
+        "The first version of almost every great game is terrible. Designers expect this. They call each new version an 'iteration,' and some video games go through hundreds of iterations before anyone outside the studio ever plays them.",
+        "Shigeru Miyamoto, who created Mario, designed the very first level of Super Mario Bros. so that the first thing you see is a question block and a slow-moving mushroom — the level teaches you the rules before you've read a single word.",
+        "Playtesting is a real job. Game studios pay people — including kids your age, sometimes — to play unfinished games and say out loud exactly where they got confused, bored, or frustrated. Getting confused is the most useful thing a playtester can do.",
+        "The game of rock-paper-scissors is perfectly balanced — each choice beats one and loses to one — and yet mathematicians have studied it for decades because real humans are so bad at choosing randomly that patterns always sneak in."
+      ]
+    },
+    "safety_beat": "In s2b, at the library, {designer_name} asks the librarian where the quiet game shelf is rather than wandering the stacks — a light flick of knowing where to stand, then the story moves on.",
+    "motif": "A hand-cut cardboard star, redrawn slightly better on each new version of the game",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.computers_and_code.age7to8.d1.pregen.439348",
+        "title": "The Loop That Wouldn't Stop",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "crazy_inventor",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already shows the doing of design — the breaking, the seesaw, the iterated stars — with warm companionship and read-aloud sparkle, so revision would only change it, not improve it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "fizzing excitement, then a held breath, then relief and a giggle",
+        "s2a": "cocky anticipation, then a wince, then the small click of insight",
+        "s2b": "curious and a little nervous, then quietly lit up, then satisfied",
+        "s3": "settled-in and pleased, a giggle at 'iterate', then warm triumph",
+        "s4a": "delighted giggles, a soft lump at Mum winning, then satisfied and sleepy",
+        "s4b": "leaning in, a gasp at the trap, then tender and hopeful"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 14 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] no voices: segment carries no spoken line; [s1] narration heavy: only 7% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 18% of sentences carry speech or action; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] no voices: segment carries no spoken line"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 7% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 18% of sentences carry speech or action",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 12% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 26% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 7% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 18% of sentences carry speech or action",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 12% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 26% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "08_game_design_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

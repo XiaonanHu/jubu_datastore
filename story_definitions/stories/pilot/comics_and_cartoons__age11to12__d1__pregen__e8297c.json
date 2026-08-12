@@ -1,0 +1,322 @@
+{
+  "id": "story.comics_and_cartoons.age11to12.d1.pregen.e8297c",
+  "title": "The Missing Crash",
+  "age_band": "11-12",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.comics_and_cartoons",
+    "sel_theme": null,
+    "value_lesson": "Sharing work-in-progress",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "We hunt for the torn-out last page of a flipbook, following clues that teach us how panels and page turns control time, until we find it hiding inside a birthday card.",
+  "slots": {
+    "flipbook_name": {
+      "role": "The title of the flipbook with the missing last page",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Big Wave"
+    },
+    "sister_strip": {
+      "role": "The name of the sister's comic strip about the dog",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Muddy Paws"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "New-comics day at Page and Panel smells like fresh paper and the pretzels from the cart outside, and the bell over the door goes ting when our best friend bursts in, waving something over their head. Not a comic. A flipbook. \n\n\"You have to see this,\" they say. \"I drew it all week. It's called {flipbook_name}.\"\n\nWe squeeze onto the window bench together, Pip the shop cat hopping up beside us, because Pip has opinions about everything. The pages are thick as toast. On the first one, way out at sea, there's a little bump of a wave, just a squiggle of blue pencil. Our friend holds the corner of the book. \"Ready?\"\n\nWe nod. Pip puts one paw on the edge like he's ready too.\n\nThumb down, and the pages start to flip. Flip flip flip. The bump grows a shoulder. Flip flip flip. The wave stands up. Flip flip flip flip. It curls over itself, taller and taller, and the little surfer on her board looks up at it, and our friend flips faster, and the wave leans, and leans, and\n\nBlank.\n\nThe last page is torn out. There's just a ragged paper fringe where it used to be, and the flipbook shuts with a soft thwap. The wave is still up there, leaning. It never comes down.\n\n\"Wait. Flip it again,\" we say.\n\nThey flip it again. Flip flip flip. Bump, shoulder, curl, lean — thwap. Blank. Pip pats the ragged edge with his paw, pat pat, like he's checking under it.\n\n\"It was there last night,\" our friend says, and their voice goes small. \"I watched it crash a hundred times. It was the best part. It was the whole point.\"\n\nWe look at the torn fringe. We look at Pip, who is sniffing it very seriously, whiskers twitching. A wave that never crashes. A last page, gone. Somebody took it — or something did.\n\n\"Okay,\" we say, and we can feel the mystery settling onto the bench beside us, warm as a cat. \"Let's find that crash.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The library is three blocks of Pip trotting ahead of us, tail up like a flag. Ms. Okafor is stamping returns when we slide the flipbook onto her desk, and she stops mid-thump. \"A wave with no crash,\" she says. \"That is a crime against pacing.\"\n\nShe pulls a comic from the shelf behind her, one of the old mysteries, and lays it flat. \"Look at this page.\" Five skinny panels in a row, a detective sprinting, each one a blur of legs. \"Small panels go fast. Your eye hops. Hop hop hop.\" Then she turns the page, and the whole next page is one enormous panel — the detective's face, gasping, in front of an open door. \"Big panel,\" she says, \"makes you stop. Holds you there. The page turn is the drumbeat before the reveal.\"\n\n\"That's what my last page was,\" our friend whispers. \"The whole crash. One big panel.\"\n\n\"Someone knew that,\" Ms. Okafor says. \"They took the drumbeat.\"\n\nPip hops onto the desk and sniffs the flipbook's torn corner, then sniffs the ruler Ms. Okafor uses to tear checkout slips. He looks at us. We look too. Both edges carry the same gray pencil smudge, soft as a thumbprint.\n\n\"Someone traced it,\" we say. \"On this ruler. Recently.\"\n\nMs. Okafor raises one eyebrow. \"Then your page didn't run away. It was borrowed.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "My sister is at the kitchen table with her tongue in the corner of her mouth, drawing. Pip hops onto the chair beside her and watches like an art critic. \"Don't bump the table,\" she says. \"I'm on panel three.\"\n\nHer strip is called {sister_strip}, and today's one is about her dog. In the first three panels — small ones, squeezed together — the dog is a streak of mud and paws, door to hallway to stairs. She drew him three times in one panel once, to show sprinting, but today it's three little panels, hop hop hop, fast as a heartbeat.\n\nThen, at the bottom, one huge panel: the dog flopped on his bed, asleep, one ear up. The whole row slows down just looking at it.\n\n\"Small panels speed time up,\" she says, not looking up. \"Big ones slow it down. That's the whole trick.\"\n\nOur friend goes very still. \"The flipbook,\" they say. \"The little pages flip fast. But the last page — the crash — that was the slow one. The big moment.\"\n\nWe look at the muddy paws in her strip, hurrying inside. Somebody hurried with the flipbook too. Grabbed it, traced the crash, put it back — quick panels, not slow ones. They didn't steal it to keep it. They borrowed it in a rush.\n\n\"Sis,\" we say slowly. \"Who used your desk last night?\"\n\nShe finally looks up. \"Why do you think I'm drawing muddy paws?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the kitchen table, we spread everything out. On one side, the sister's comic strip, {sister_strip}, all four panels of it. On the other, the flipbook, still open to that ragged edge. Pip sits right in the middle, tail curled over his paws, looking from one to the other like he's reading both at once.\n\n\"Okay,\" our friend says. \"Tell me what you found.\"\n\nWe tell them. All of it. And as we talk, their eyes get wider and wider, and they start flipping the corner of the flipbook without even meaning to, flip flip flip, that little wave rising and rising and never coming down.\n\n\"Wait,\" they say suddenly. \"Let's test something.\"\n\nThey pull {sister_strip} closer. \"Read it with me. Out loud. And every time we turn a page or hit the end of a row, we clap. Once. Like a drumbeat.\"\n\nSo we do. We read the first panel, and clap. The second, and clap. The rhythm of it is steady, like a heart beating. Pip's ear twitches at every clap.\n\n\"Now the flipbook,\" our friend says.\n\nWe flip. Flip flip flip. Clap. Flip flip flip flip. Clap. The wave grows, the wave curls, the wave leans —\n\nThwap. Blank. No clap. The drumbeat just stops, right where the crash should be, and the silence where it belongs is so loud it almost rings.\n\n\"That's it,\" our friend breathes. \"That's the whole problem. The pacing is broken. The reveal is gone.\" They look at the smudges on the table, at the strip, at the flipbook. \"Somebody needed that wave. Somebody who was making something.\"\n\nPip stands up, stretches, and puts one paw flat on {sister_strip}. He looks at us.\n\n\"We know how they did it,\" we say slowly. \"But we don't know where the page is now.\"\n\nPip's tail flicks. Once. Like a drumbeat.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Pip's paw comes down on the birthday card, right on the envelope flap, and his tail flicks. Once. Like a drumbeat.\n\n\"The card,\" our friend breathes. \"It's tomorrow. I never even opened it.\"\n\nWe slide it out of the envelope, slow, because some part of us already knows. The front says Happy Birthday in blue pencil — the same blue pencil as a certain wave. Pip stands on his hind legs, front paws on the table edge, watching like it's the best show in town.\n\n\"Ready?\" we ask.\n\n\"Ready,\" our friend whispers.\n\nWe open the card.\n\nThe wave stands up.\n\nIt's a pop-up. Somebody traced the missing last page onto stiff paper, folded it flat, and glued it in — so when the card opens, the wave rises, curls, and comes crashing down in one smooth paper swoop, right over a tiny pop-up surfer who rides it all the way to the bottom. Flip, flip, flip — crash. The drumbeat lands. The pacing is perfect. The reveal is enormous.\n\n\"The flipbook was missing its crash,\" our friend says, laughing now, \"because the crash was busy being a birthday present.\"\n\nThere's writing inside, small and neat: You draw the best waves. I wanted yours to move forever. Happy birthday.\n\nWe read it twice. Pip sniffs the pop-up wave very seriously, then boops it with his nose, and it wobbles, and we all laugh.\n\nThere is cake, because of course there is cake — chocolate, with one blue squiggle of icing on top that looks suspiciously like a wave. And while we eat, our friend takes a pencil and adds one more name to the flipbook's cover, right under theirs. The tracer's name. \"They made the crash matter,\" they say. \"They get a credit.\"\n\nBefore we leave, our friend presses something small and sticky into our palm. A sticker. A tiny traced wave, mid-crash, no bigger than a thumbnail.\n\n\"So you remember,\" they say, \"that every wave comes down somewhere.\"\n\nWe stick it on our sleeve. Pip purrs. And all the way home, we can still hear it — flip flip flip, and then, at last, the crash.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"We could find the page,\" our friend says slowly. \"Or...\" They look at the flipbook, at the ragged fringe, at Pip. \"Or we could draw a new one. A better one. A crash so big it was worth waiting for.\"\n\nPip's tail flicks. Once. Like a drumbeat saying yes.\n\nSo we clear the table and get to work. Our friend sketches; we steady the pages. And because we have learned something today, we do not rush. We make the crash slow.\n\n\"Big panels,\" our friend says, drawing one huge box across the page. \"Big panels stretch time out. The wave hangs there. Nobody breathes.\"\n\n\"And small ones?\" we ask.\n\n\"Small ones for the crash itself. Lots of them. Quick quick quick.\" They grin. \"That's pacing.\"\n\nSo the new last page gets a layout of its own: one tall panel where the wave leans and leans, then a row of tiny ones — the curl tipping, the first white splash, the surfer's eyes going wide — and then, at the very bottom, one enormous panel for the crash itself, all spray and foam and a surfer riding it out with her arms up like she planned the whole thing.\n\nWe tape it in, careful, right against the ragged fringe. The flipbook is whole again. Thicker, even.\n\n\"Read it with me,\" our friend says. \"Out loud. Clap on the page turn, like before.\"\n\nWe flip. Flip flip flip. Clap. The bump, the shoulder, the curl. Flip flip flip flip. Clap. The wave leans — and this time the page turns, and the clap lands, and the crash fills the whole bottom panel, enormous, and we shout, because we cannot help it.\n\nPip pats the new page with his paw, pat pat, approving.\n\n\"It's better than the one I lost,\" our friend admits. \"Because we made it together.\"\n\nBefore we go, they run a photocopy of our last page and fold it into our hands. \"The original stays in the book,\" they say. \"But the crash belongs to both of us.\"\n\nWe carry it home flat in our pocket, warm as a secret. And sometimes, before bed, we unfold it and flip the whole story through our thumbs one more time — flip flip flip, lean, clap — and the wave comes down, every single time, exactly when it should.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "Do we want to visit the librarian to see how a real mystery comic handles its missing page, or go straight to my sister who is drawing her dog strip right now?",
+      "options": [
+        {
+          "say_word": "Library",
+          "label": "Visit the school librarian",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Sister",
+          "label": "Visit the older sister",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "Do we flip the birthday card open right now to see if the wave crashes, or draw a brand-new last page together to make the crash even bigger?",
+      "options": [
+        {
+          "say_word": "Flip",
+          "label": "Open the birthday card to see the reveal",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Draw",
+          "label": "Draw a new last page together",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.comics_and_cartoons",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.drawing_and_animation",
+      "age_band": "11-12",
+      "age": 11,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Page design as storytelling naturally builds suspense through layout and pacing, with the page turn acting as a literal reveal mechanism that pays off accumulated clues.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Pip the cat",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Sharing work-in-progress",
+      "why": "The friend hesitates to show the messy draft flipbook with the torn corner, and the resolution celebrates that showing the work let everyone help solve the mystery."
+    },
+    "cast": [
+      {
+        "role": "A best friend who makes flipbooks in the corners of their math workbook",
+        "reused": false,
+        "why": "Provides the flipbook with the missing last page, kicking off the mystery."
+      },
+      {
+        "role": "A school librarian who knows exactly which shelf the mystery comics live on",
+        "reused": false,
+        "why": "Points out how small chase panels feel fast and big panels make you hold your breath; helps decode the clues."
+      },
+      {
+        "role": "An older sister who draws her own comic strip about the family dog",
+        "reused": false,
+        "why": "Draws the same dog three times in one panel to show it sprinting; her comic provides the second clue that recontextualizes the first."
+      },
+      {
+        "role": "Pip the cat",
+        "reused": false,
+        "why": "The shop cat asleep on the counter who carries the curious_wonder accent by batting at page corners and trying to catch the flipbook wave."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A comic book shop on new-comics day",
+        "A best friend who makes flipbooks in the corners of their math workbook",
+        "A school librarian who knows exactly which shelf the mystery comics live on",
+        "An older sister who draws her own comic strip about the family dog",
+        "The page turn is a built-in pause in a printed comic",
+        "When a character is drawn twice in one panel, it can show movement",
+        "A flipbook makes drawings move because each page changes the picture by only a tiny amount",
+        "Artists use a reveal by keeping something out of the panels for several pages",
+        "Opening question: who took the last page of the flipbook",
+        "Clue: pencil smudges on the classroom's shared ruler match the smudges on the torn flipbook corner",
+        "Clue: a big, slow panel in the sister's comic shows the dog sleeping, but three fast panels before it show muddy paws heading inside",
+        "Satisfying answer: the last flipbook page wasn't stolen, it was being traced onto a birthday card",
+        "Sharing work-in-progress: letting someone see your messy draft panels takes a little courage and gives them a chance to help"
+      ],
+      "gathered_but_unused": [
+        "A comic artist can make time feel slow by drawing one big panel that stretches across a whole page, so your eye lingers inside a single moment.",
+        "Many small panels packed close together make a scene feel fast, because your eyes hop from box to box like stepping stones.",
+        "The page turn is a built-in pause in a printed comic, and artists often hide a surprise on the very next page so the flip itself feels like a drumbeat.",
+        "Speech bubbles are read in an order the artist plans, usually from top to bottom and left to right, so the layout quietly tells your eyes where to go next.",
+        "When a character is drawn twice in one panel, it can show movement, like the artist pressed a fast-forward button and left footprints of the motion behind.",
+        "A flipbook makes drawings move because each page changes the picture by only a tiny amount, and your thumb flipping the pages supplies the speed.",
+        "Artists use a reveal by keeping something out of the panels for several pages, letting readers imagine it before finally showing it big.",
+        "The empty space between panels, called the gutter, is where the reader's imagination fills in what happened, so part of every comic is actually drawn by the person reading it."
+      ]
+    },
+    "safety_beat": "In s1, the librarian shows us how to stand in the comics corner with our backs to the beanbags so we don't trip on the spinning rack while reading.",
+    "motif": "A wave that never quite crashes until the final reveal.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already converts its craft lesson (panel pacing) into a physical, clappable rhythm a listener can feel, and both endings pay off the missing drumbeat with warmth and agency."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "leaning in, then a held breath at the blank page",
+        "s2a": "pleased detective tingle, clues clicking",
+        "s2b": "cozy suspicion, a small gasp at the sister's reveal",
+        "s3": "delighted participation, then the loud silence of the missing clap",
+        "s4a": "warm surprise, laughter, satisfied and hugged",
+        "s4b": "absorbed making, a triumphant shout, then snug and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [c1] narrator asks the choice: no spoken line; a character should pose the question; [c2] narrator asks the choice: no spoken line; a character should pose the question"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] evaluation-ish phrase: 'ahead of' (usually literal; check it isn't a developmental comparison)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[c1] narrator asks the choice: no spoken line; a character should pose the question",
+      "[c2] narrator asks the choice: no spoken line; a character should pose the question"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid2",
+      "source_file": "04_comics_and_cartoons_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}
