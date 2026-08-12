@@ -198,13 +198,14 @@ PARENT_MAP_GROUPS: list[tuple[str, list[str]]] = [
                "rocks_and_minerals", "islands", "weather", "maps_and_globes"]),
     ("water", ["oceans_and_tides", "ocean_animals", "whales_and_dolphins",
                "frogs_and_amphibians"]),
-    ("life", ["insects", "birds", "rainforests", "dinosaurs"]),
+    ("life", ["insects", "birds", "rainforests", "dinosaurs",
+              "ecosystems", "endangered_animals"]),
     ("food", ["farms_and_food"]),
-    ("mind", ["the_brain", "sleep_and_dreams"]),
+    ("mind", ["the_brain", "sleep_and_dreams", "genes_and_heredity"]),
     ("arts", ["musical_instruments", "sound_and_echoes", "drawing_and_animation",
               "theater_and_pretending", "shapes_and_symmetry"]),
     ("machines", ["computers_and_code", "robots", "engines_and_vehicles",
-                  "magnets"]),
+                  "magnets", "inventions"]),
 ]
 
 # Front-hemisphere disc layout: flat enough that nothing hides behind

@@ -293,8 +293,9 @@ by:* the validator (most rules are enforced automatically).
 - `avoid` lists are required wherever a subject has sharp edges (predators,
   illness, death, disasters, historical violence, fear).
 - Banned in all display text (validator-enforced): assessment, mastery,
-  score, milestone, "your child", is/are/falling behind, ahead of, delayed,
-  gifted, grade level. The same spirit applies to family-record naming:
+  milestone, "your child", delayed, gifted, grade level. ("score" was
+  dropped in 2026-08: it caught game scores in story prose. "ahead of" and
+  "is/are/falling behind" warn rather than block -- almost always literal.) The same spirit applies to family-record naming:
   interest means enjoyment, never ability.
 - Connections: every curriculum topic has ≥2 `adjacent` neighbors, at least
   one in each of its age bands; connections never cross axes; prerequisites

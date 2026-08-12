@@ -32,7 +32,13 @@ ARCHIVE_DIR = REPO_ROOT / "story_definitions" / "stories" / "archive_v1"
 
 # Ceilings only — there is deliberately no minimum, because padding is the
 # failure this whole audit exists to catch (prompt v2.1 §8).
-SEGMENT_WORD_CEILING = {"3-4": 130, "5-6": 200, "7-8": 280, "9-10": 360}
+SEGMENT_WORD_CEILING = {
+    "3-4": 130,
+    "5-6": 200,
+    "7-8": 280,
+    "9-10": 360,
+    "11-12": 440,
+}
 
 # Mood words that usually mean a feeling was told instead of given.
 ABSTRACT_MOOD_WORDS = (
@@ -45,15 +51,24 @@ ABSTRACT_MOOD_WORDS = (
     "delightful",
     "beautiful",
 )
+# Unambiguous evaluation language: these BLOCK.
 BANNED_EVALUATION = (
     r"\bassessment\b",
     r"\bmastery\b",
     r"\bmilestone(s)?\b",
-    r"\b(is|are|fall(s|ing)?|lag(s|ging)?)\s+behind\b",
-    r"\bahead\s+of\b",
     r"\bdelayed\b",
     r"\bgifted\b",
     r"\bgrade\s+level\b",
+)
+# Phrases that are developmental comparison in a parent-facing sentence but
+# ordinary English in a story ("trotting ahead of us", "the light was falling
+# behind"). These WARN, matching jubu_chat.story_generation.craft_gate; they
+# are deliberately absent from graph_validator.BANNED_LANGUAGE_PATTERNS, which
+# is what build_story_explorer --check enforces. Blocking on them here made the
+# audit disagree with both, and reported 8 of the shipped 86 as blocked.
+EVALUATION_ISH = (
+    r"\b(is|are|fall(s|ing)?|lag(s|ging)?)\s+behind\b",
+    r"\bahead\s+of\b",
 )
 # A choice question the narrator asks, rather than a character (v2.1 §9).
 NARRATOR_ASK = re.compile(r"^\s*(should we|shall we|do we|what should)", re.IGNORECASE)
@@ -156,7 +171,13 @@ def audit_story(story: dict[str, Any], path: Path) -> StoryAudit:
         pattern=story["pattern"],
         teller=story["teller"],
     )
-    ceiling = SEGMENT_WORD_CEILING.get(story["age_band"], 200)
+    band = story["age_band"]
+    if band not in SEGMENT_WORD_CEILING:
+        raise SystemExit(
+            f"no word ceiling for age band {band!r} ({path.name}); "
+            "add it to SEGMENT_WORD_CEILING"
+        )
+    ceiling = SEGMENT_WORD_CEILING[band]
 
     segment_words: dict[str, int] = {}
     spreads: list[float] = []
@@ -185,6 +206,18 @@ def audit_story(story: dict[str, Any], path: Path) -> StoryAudit:
             if match:
                 audit.findings.append(
                     Finding("block", "banned language", sid, repr(match.group(0)))
+                )
+        for pattern in EVALUATION_ISH:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                audit.findings.append(
+                    Finding(
+                        "warn",
+                        "evaluation-ish phrase",
+                        sid,
+                        f"{match.group(0)!r} (usually literal; check it isn't a "
+                        "developmental comparison)",
+                    )
                 )
 
         sentences = split_sentences(text)

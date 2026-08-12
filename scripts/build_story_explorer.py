@@ -282,6 +282,13 @@ PILOT_CATEGORIES = [
     "knowledge_domain.sound_and_echoes",
     # Machines:
     "knowledge_domain.robots",
+    "knowledge_domain.inventions",
+    # 2026-08 11-12 band batch: top-level topics with no parent in the
+    # graph. (The 11-12 computer and art topics are deep dives under
+    # computers_and_code / drawing_and_animation and ride along already.)
+    "knowledge_domain.ecosystems",
+    "knowledge_domain.endangered_animals",
+    "knowledge_domain.genes_and_heredity",
 ]
 # The map is drawn in 3D and orbited by the viewer, so positions are points
 # on nested spheres: categories on a big one, their deep dives on small ones.

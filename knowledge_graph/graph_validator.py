@@ -30,12 +30,16 @@ from jubu_datastore.knowledge_graph.graph_schema import (
 # are almost always literal ("the boat ahead of us", "the wave behind them")
 # and were the #1 spurious blocker, so the craft gate downgraded them to a warn
 # and this display-text check matches that decision.
+# NOTE (2026-08): "score" was removed from this list. It was written to catch
+# assessment framing, but it also caught the ordinary meaning of the word in
+# story prose -- a game score, a scoreboard, a variable named score in a
+# story about debugging. The rest of the list still catches real evaluation
+# language, and "interest means enjoyment, never ability" is unaffected.
 BANNED_LANGUAGE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = tuple(
     (re.compile(pattern, re.IGNORECASE), reason)
     for pattern, reason in [
         (r"\bassessment\b", "assessment framing"),
         (r"\bmastery\b", "mastery framing"),
-        (r"\bscore(s|d)?\b", "scoring framing"),
         (r"\bmilestone(s)?\b", "milestone framing in display text"),
         (r"\byour child\b", "per-child address"),
         (r"\bdelayed\b", "deficit framing"),
