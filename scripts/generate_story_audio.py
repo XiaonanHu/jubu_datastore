@@ -373,6 +373,10 @@ def generate_story(
             f"new settings."
         )
     slots = story.get("slots") or {}
+    # Resolve the script FIRST: a story with no script for this language must
+    # fail with one clear line, not a slot warning about prose that does not
+    # exist yet.
+    units = narration_units_for_lang(story, lang)
     if lang != "en":
         # Slot DEFAULTS are English ("the green cat's-eye marble"). Spoken
         # inside a translated sentence that lands as an English clause in the
@@ -397,7 +401,7 @@ def generate_story(
     manifest_segments: dict[str, list[dict[str, Any]]] = {}
     chars_sent = 0
     files_written = 0
-    for unit_id, prose in narration_units_for_lang(story, lang):
+    for unit_id, prose in units:
         chunk_entries: list[dict[str, Any]] = []
         for index, chunk_text in enumerate(story_audio_chunks.paragraph_chunks(prose)):
             slot_tokens = story_audio_chunks.declared_slot_tokens(chunk_text, slots)
