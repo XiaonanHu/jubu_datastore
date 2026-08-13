@@ -39828,5 +39828,227 @@
     }
    ]
   }
+ },
+ "story.birds.age3to4.d1.pregen.fbfc31": {
+  "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
+  "model_id": "sonic-3",
+  "speed": 1.0,
+  "emotion": null,
+  "sentence_pause_ms": 550,
+  "mp3_bit_rate": 128000,
+  "segments": {
+   "s1": [
+    {
+     "i": 0,
+     "file": "s1_00.mp3",
+     "has_slot": true,
+     "chars": 586
+    }
+   ],
+   "s2a": [
+    {
+     "i": 0,
+     "file": "s2a_00.mp3",
+     "has_slot": false,
+     "chars": 715
+    }
+   ],
+   "s2b": [
+    {
+     "i": 0,
+     "file": "s2b_00.mp3",
+     "has_slot": false,
+     "chars": 716
+    }
+   ],
+   "s3": [
+    {
+     "i": 0,
+     "file": "s3_00.mp3",
+     "has_slot": false,
+     "chars": 732
+    }
+   ],
+   "s4a": [
+    {
+     "i": 0,
+     "file": "s4a_00.mp3",
+     "has_slot": false,
+     "chars": 580
+    }
+   ],
+   "s4b": [
+    {
+     "i": 0,
+     "file": "s4b_00.mp3",
+     "has_slot": false,
+     "chars": 601
+    }
+   ],
+   "c1": [
+    {
+     "i": 0,
+     "file": "c1_00.mp3",
+     "has_slot": false,
+     "chars": 164
+    }
+   ],
+   "c2": [
+    {
+     "i": 0,
+     "file": "c2_00.mp3",
+     "has_slot": false,
+     "chars": 237
+    }
+   ]
+  }
+ },
+ "story.knights_and_castles.age3to4.d1.pregen.bcef96": {
+  "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
+  "model_id": "sonic-3",
+  "speed": 1.0,
+  "emotion": null,
+  "sentence_pause_ms": 550,
+  "mp3_bit_rate": 128000,
+  "segments": {
+   "s1": [
+    {
+     "i": 0,
+     "file": "s1_00.mp3",
+     "has_slot": false,
+     "chars": 606
+    }
+   ],
+   "s2a": [
+    {
+     "i": 0,
+     "file": "s2a_00.mp3",
+     "has_slot": false,
+     "chars": 710
+    }
+   ],
+   "s2b": [
+    {
+     "i": 0,
+     "file": "s2b_00.mp3",
+     "has_slot": false,
+     "chars": 547
+    }
+   ],
+   "s3": [
+    {
+     "i": 0,
+     "file": "s3_00.mp3",
+     "has_slot": false,
+     "chars": 672
+    }
+   ],
+   "s4a": [
+    {
+     "i": 0,
+     "file": "s4a_00.mp3",
+     "has_slot": false,
+     "chars": 627
+    }
+   ],
+   "s4b": [
+    {
+     "i": 0,
+     "file": "s4b_00.mp3",
+     "has_slot": false,
+     "chars": 658
+    }
+   ],
+   "c1": [
+    {
+     "i": 0,
+     "file": "c1_00.mp3",
+     "has_slot": false,
+     "chars": 144
+    }
+   ],
+   "c2": [
+    {
+     "i": 0,
+     "file": "c2_00.mp3",
+     "has_slot": false,
+     "chars": 163
+    }
+   ]
+  }
+ },
+ "story.the_moon.age3to4.d1.pregen.82179b": {
+  "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
+  "model_id": "sonic-3",
+  "speed": 1.0,
+  "emotion": null,
+  "sentence_pause_ms": 550,
+  "mp3_bit_rate": 128000,
+  "segments": {
+   "s1": [
+    {
+     "i": 0,
+     "file": "s1_00.mp3",
+     "has_slot": true,
+     "chars": 617
+    }
+   ],
+   "s2a": [
+    {
+     "i": 0,
+     "file": "s2a_00.mp3",
+     "has_slot": true,
+     "chars": 622
+    }
+   ],
+   "s2b": [
+    {
+     "i": 0,
+     "file": "s2b_00.mp3",
+     "has_slot": true,
+     "chars": 738
+    }
+   ],
+   "s3": [
+    {
+     "i": 0,
+     "file": "s3_00.mp3",
+     "has_slot": true,
+     "chars": 699
+    }
+   ],
+   "s4a": [
+    {
+     "i": 0,
+     "file": "s4a_00.mp3",
+     "has_slot": true,
+     "chars": 663
+    }
+   ],
+   "s4b": [
+    {
+     "i": 0,
+     "file": "s4b_00.mp3",
+     "has_slot": true,
+     "chars": 610
+    }
+   ],
+   "c1": [
+    {
+     "i": 0,
+     "file": "c1_00.mp3",
+     "has_slot": false,
+     "chars": 206
+    }
+   ],
+   "c2": [
+    {
+     "i": 0,
+     "file": "c2_00.mp3",
+     "has_slot": false,
+     "chars": 195
+    }
+   ]
+  }
  }
 }
