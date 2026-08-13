@@ -172,9 +172,23 @@ def build_parent_data(stories: list[dict[str, Any]]) -> dict[str, Any]:
             "slots": slots,
         }
         if story["id"] in audio_manifest:
-            audio_field = story_audio_field(story, audio_manifest[story["id"]])
+            entry = audio_manifest[story["id"]]
+            audio_field = story_audio_field(story, entry)
             if audio_field is not None:
                 parent_story["audio"] = audio_field
+                # Languages this story can be HEARD in. The page text stays
+                # English; these are alternate narration tracks, and their
+                # clips share the English filenames one directory down
+                # (<story_id>/<lang>/<file>), so the player only swaps the
+                # path. Listed only when a language covers every unit the
+                # English covers — a partial track would switch language
+                # mid-story.
+                langs = []
+                for code, track in (entry.get("languages") or {}).items():
+                    if set(track.get("segments") or {}) >= set(audio_field):
+                        langs.append(code)
+                if langs:
+                    parent_story["audio_langs"] = sorted(langs)
         out_stories.append(parent_story)
     return {
         "topics": topics,

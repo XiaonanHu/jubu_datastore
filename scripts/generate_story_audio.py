@@ -94,7 +94,9 @@ def load_voice_config() -> dict[str, Any]:
         return json.load(f)
 
 
-def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict[str, Any]:
+def voice_for_story(
+    story: dict[str, Any], voice_config: dict[str, Any], lang: str = "en"
+) -> dict[str, Any]:
     """Resolve the full delivery settings for one story.
 
     Voice + speed come from the story's `teller`; the emotion that makes
@@ -111,9 +113,20 @@ def voice_for_story(story: dict[str, Any], voice_config: dict[str, Any]) -> dict
         )
     teller_voice = teller_voices[teller]
     band_settings = (voice_config.get("age_bands") or {}).get(story.get("age_band"), {})
+    lang_settings = (voice_config.get("languages") or {}).get(lang, {})
+    if lang != "en" and not lang_settings:
+        raise SystemExit(
+            f"no voice configured for language '{lang}' — add it under "
+            f"`languages` in {VOICE_CONFIG_PATH.name}"
+        )
 
     def resolve(key: str, fallback: Any) -> Any:
-        # Age band wins: "for the little ones, read it like THIS" is the more
+        # Language wins for voice: teller is about WHO is telling the story,
+        # not what language they speak, so a Hindi narration uses the Hindi
+        # voice whatever the teller says. Pace still resolves by band.
+        if key in lang_settings:
+            return lang_settings[key]
+        # Age band next: "for the little ones, read it like THIS" is the more
         # specific intent than "this kind of teller sounds like this".
         if key in band_settings:
             return band_settings[key]
@@ -274,6 +287,52 @@ def narration_units(story: dict[str, Any]) -> list[tuple[str, str]]:
     return units
 
 
+def narration_units_for_lang(
+    story: dict[str, Any], lang: str
+) -> list[tuple[str, str]]:
+    """The units to voice, in `lang`.
+
+    English is the story's own prose. Any other language reads from
+    `story["narration"][lang]` — a narration SCRIPT, not display text: the
+    page still shows English, so the script must stay paragraph-for-paragraph
+    aligned with it or clip N stops matching paragraph N on screen.
+
+    Coverage must be complete. A half-translated story would switch language
+    mid-read, which is worse than not offering the language at all.
+    """
+    english = narration_units(story)
+    if lang == "en":
+        return english
+    script = (story.get("narration") or {}).get(lang)
+    if not script:
+        raise SystemExit(
+            f"{story['id']} has no narration script for '{lang}' — add "
+            f"story['narration']['{lang}'] before voicing it"
+        )
+    by_unit: dict[str, str] = dict(script.get("segments") or {})
+    by_unit.update(script.get("choice_points") or {})
+    out: list[tuple[str, str]] = []
+    for unit_id, english_prose in english:
+        translated = by_unit.get(unit_id)
+        if not translated:
+            raise SystemExit(
+                f"{story['id']} narration['{lang}'] is missing unit "
+                f"'{unit_id}' — a partial script would switch language "
+                f"mid-story"
+            )
+        want = len(story_audio_chunks.paragraph_chunks(english_prose))
+        got = len(story_audio_chunks.paragraph_chunks(translated))
+        if want != got:
+            raise SystemExit(
+                f"{story['id']} narration['{lang}'] unit '{unit_id}' has "
+                f"{got} paragraph(s) but the English has {want}. The player "
+                f"plays clip N against paragraph N, so they must match — keep "
+                f"the blank lines exactly as they are in the English."
+            )
+        out.append((unit_id, translated))
+    return out
+
+
 def generate_story(
     story: dict[str, Any],
     client: CartesiaBatchClient,
@@ -281,10 +340,11 @@ def generate_story(
     site_audio_dir: Path,
     force: bool,
     previous_manifest: dict[str, Any],
+    lang: str = "en",
 ) -> tuple[dict[str, Any], int, int]:
     """Generate all chunks for one story. Returns (manifest_entry,
     chars_sent, files_written)."""
-    voice = voice_for_story(story, voice_config)
+    voice = voice_for_story(story, voice_config, lang)
     voice_id = voice["voice_id"]
     speed = voice["speed"]
     emotion = voice["emotion"]
@@ -303,6 +363,8 @@ def generate_story(
     # entry every setting trivially "differs", which would tell you to
     # --force a story that is simply being voiced for the first time.
     previous_entry = previous_manifest.get(story["id"])
+    if previous_entry and lang != "en":
+        previous_entry = (previous_entry.get("languages") or {}).get(lang)
     drift = settings_drift(previous_entry, current_settings) if previous_entry else []
     if drift and not force:
         print(
@@ -313,12 +375,14 @@ def generate_story(
     slots = story.get("slots") or {}
 
     story_dir = site_audio_dir / story["id"]
+    if lang != "en":
+        story_dir = story_dir / lang
     story_dir.mkdir(parents=True, exist_ok=True)
 
     manifest_segments: dict[str, list[dict[str, Any]]] = {}
     chars_sent = 0
     files_written = 0
-    for unit_id, prose in narration_units(story):
+    for unit_id, prose in narration_units_for_lang(story, lang):
         chunk_entries: list[dict[str, Any]] = []
         for index, chunk_text in enumerate(story_audio_chunks.paragraph_chunks(prose)):
             slot_tokens = story_audio_chunks.declared_slot_tokens(chunk_text, slots)
@@ -341,8 +405,9 @@ def generate_story(
                 chars_sent += len(transcript)
                 files_written += 1
                 print(
-                    f"  {story['id']}/{file_name}: {len(transcript)} chars "
-                    f"in {time.monotonic() - started:.1f}s"
+                    f"  {story['id']}/{lang if lang != 'en' else ''}"
+                    f"{'/' if lang != 'en' else ''}{file_name}: "
+                    f"{len(transcript)} chars in {time.monotonic() - started:.1f}s"
                 )
             chunk_entries.append(
                 {
@@ -598,6 +663,10 @@ def main() -> int:
     parser.add_argument("--pause-test", metavar="ID_SUBSTRING",
                         help="render one passage at several sentence-pause "
                              "lengths so you can pick one by ear")
+    parser.add_argument("--lang", default="en", metavar="CODE",
+                        help="narration language (default en). Anything else "
+                             "reads story['narration'][CODE] and writes clips "
+                             "to <story_id>/<CODE>/, leaving English untouched")
     parser.add_argument("--force", action="store_true",
                         help="regenerate mp3s that already exist")
     parser.add_argument("--upload", action="store_true",
@@ -635,9 +704,9 @@ def main() -> int:
     total_chars = 0
     total_files = 0
     for story in sorted(stories, key=lambda s: s["id"]):
-        settings = voice_for_story(story, voice_config)
+        settings = voice_for_story(story, voice_config, args.lang)
         print(
-            f"{story['id']} ({story['teller']} / "
+            f"{story['id']} [{args.lang}] ({story['teller']} / "
             f"{(story.get('tone') or {}).get('dominant')} → "
             f"emotion={settings['emotion'] or 'none'}, "
             f"speed={settings['speed']}, "
@@ -645,8 +714,17 @@ def main() -> int:
         )
         manifest_entry, chars_sent, files_written = generate_story(
             story, client, voice_config, args.site_audio_dir, args.force,
-            previous_manifest,
+            previous_manifest, args.lang,
         )
+        if args.lang != "en":
+            # Keep English at the top level — 100+ existing entries have that
+            # shape and build_pilot_site reads it — and hang other languages
+            # off it, so one story is still one manifest entry.
+            existing = dict(previous_manifest.get(story["id"]) or {})
+            languages = dict(existing.get("languages") or {})
+            languages[args.lang] = manifest_entry
+            existing["languages"] = languages
+            manifest_entry = existing
         new_manifest_entries[story["id"]] = manifest_entry
         # Persist per story: an 80-story run that dies at story 70 must not
         # throw away the manifest for the 69 that succeeded.
