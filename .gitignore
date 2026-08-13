@@ -47,3 +47,6 @@ story_definitions/preview/*.html
 # local narration clips awaiting review/upload (generate_story_audio.py)
 story_definitions/preview/pilot_audio/
 story_definitions/preview/audio_auditions/
+story_definitions/preview/audio_diagnose/
+story_definitions/preview/audio_diagnose/
+story_definitions/preview/audio_diagnose/

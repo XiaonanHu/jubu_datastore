@@ -299,7 +299,11 @@ def generate_story(
         "sentence_pause_ms": sentence_pause_ms,
         "mp3_bit_rate": mp3_bit_rate,
     }
-    drift = settings_drift(previous_manifest.get(story["id"], {}), current_settings)
+    # Only meaningful for a story that HAS clips already: with no previous
+    # entry every setting trivially "differs", which would tell you to
+    # --force a story that is simply being voiced for the first time.
+    previous_entry = previous_manifest.get(story["id"])
+    drift = settings_drift(previous_entry, current_settings) if previous_entry else []
     if drift and not force:
         print(
             f"  NOTE: {', '.join(drift)} changed since these clips were made, "

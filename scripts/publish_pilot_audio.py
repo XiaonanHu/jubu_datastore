@@ -39,6 +39,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -130,12 +131,26 @@ def upload_clips(bucket: str, dry_run: bool) -> None:
             f"{len(strays)} non-mp3 file(s) under {LOCAL_AUDIO_DIR.name}, e.g. "
             f"{strays[0].name} — remove them so they don't reach the bucket"
         )
-    run(
-        ["gcloud", "storage", "rsync", "--recursive",
-         str(LOCAL_AUDIO_DIR), f"gs://{bucket}"],
-        cwd=REPO_ROOT,
-        dry_run=dry_run,
-    )
+    # A full-library upload is ~500 MB over many minutes; a laptop sleeping
+    # or a Wi-Fi hiccup kills gcloud mid-run. rsync is idempotent — already
+    # uploaded objects are skipped — so just retry.
+    command = ["gcloud", "storage", "rsync", "--recursive",
+               str(LOCAL_AUDIO_DIR), f"gs://{bucket}"]
+    attempts = 3
+    for attempt in range(1, attempts + 1):
+        try:
+            run(command, cwd=REPO_ROOT, dry_run=dry_run)
+            return
+        except Failed:
+            if attempt == attempts:
+                raise Failed(
+                    "the upload kept failing (check the network). Nothing is "
+                    "lost — clips already uploaded are skipped, so just run "
+                    "this command again when you're back online."
+                )
+            print(f"    upload interrupted; retrying ({attempt}/{attempts - 1}) "
+                  f"— already-uploaded clips will be skipped")
+            time.sleep(5)
 
 
 def rebuild_site(dry_run: bool) -> int:
