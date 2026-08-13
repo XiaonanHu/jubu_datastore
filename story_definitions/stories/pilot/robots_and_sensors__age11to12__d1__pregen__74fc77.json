@@ -91,7 +91,7 @@
         },
         {
           "say_word": "Trust both",
-          "label": "Keep the camera and add a second sensor so the two can vote",
+          "label": "Keep the camera — clean the lens and make it be really sure before it moves",
           "tone_lean": "gentle",
           "curiosity_lean": "how_it_works",
           "next_segment": "s2a",
@@ -332,7 +332,17 @@
       "source_run": "_demo_run_kid1",
       "source_file": "08_robots_and_sensors_kimik3.json",
       "depth": 1
-    }
+    },
+    "hand_edit": [
+      {
+        "date": "2026-08-12",
+        "by": "hand edit, pre-audio review",
+        "field": "choice_points",
+        "was": "Keep the camera and add a second sensor so the two can vote",
+        "now": "Keep the camera — clean the lens and make it be really sure before it moves",
+        "reason": "The option promised a second voting sensor, but s2a only cleans the lens and raises the confidence threshold. s3 (which both branches feed) is where two sensors first vote, and it reads correctly from either branch once the promise is removed."
+      }
+    ]
   },
   "depth": 1
 }

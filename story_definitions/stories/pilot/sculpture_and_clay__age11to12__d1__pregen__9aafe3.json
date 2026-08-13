@@ -58,7 +58,7 @@
     },
     {
       "id": "s4b",
-      "text": "\"That,\" says Signora Alba, \"is a question for the people who pour fire.\" She wraps our little clay figure — the one we squished and shaped ourselves — in cloth, and leads us down the street to the foundry.\n\nWe hear it before we see it. Roaring. Then the door opens and the heat rolls out like a giant's breath.\n\nInside, furnaces glow orange, and moulds stand in rows like sandcastles waiting for the tide. A foundry worker in a heavy apron waves us over. \"Just in time,\" she says. \"The furnace cools at four.\"\n\nShe presses our clay figure into a box of sand and lifts it out again, leaving a perfect figure-shaped hollow. Then — this is the clever part — she pours in hot wax, lets it set, and packs a new mould around the wax. \"The wax melts out,\" she says, \"and leaves a space exactly your figure's shape. Watch.\"\n\nThe crucible tips. Bronze pours out, glowing orange, liquid as soup, and runs into the space the wax left behind. We hold our breath and watch.\n\n\"Clay forgives everything,\" the worker says, \"so you can get it right. Then the right one gets poured into metal, and metal never forgets. Your soft little lump is becoming a statue that could outlive its maker.\"\n\nIt clicks. The clay door isn't just for practising — it's the first step on the road to forever.\n\nWhen the mould cracks open, there it is: our figure, in bronze, gleaming. The worker grins. \"I made two. This one's twin is yours.\"\n\nShe wraps it in cloth and gives it to us. Still faintly warm.\n\nAll the way home, Theo carries it like a baby bird. \"It was mud,\" he keeps saying. \"It was mud, and now it's forever.\"\n\n\"Squish first,\" we say. \"Shine later.\"\n\nAnd the little bronze horse — because that is what it turned out to be — warms our pocket the whole way home.",
+      "text": "\"That,\" says Signora Alba, \"is a question for the people who pour fire.\" She wraps our little clay figure — the one we squished and shaped ourselves — in cloth, and leads us down the street to the foundry.\n\nWe hear it before we see it. Roaring. Then the door opens and the heat rolls out like a giant's breath.\n\nInside, furnaces glow orange, and moulds stand in rows like sandcastles waiting for the tide. A foundry worker in a heavy apron waves us over. \"Just in time,\" she says. \"The furnace cools at four.\"\n\nShe presses our clay figure into a box of sand and lifts it out again, leaving a perfect figure-shaped hollow. Then — this is the clever part — she pours in hot wax, lets it set, and packs a new mould around the wax. \"The wax melts out,\" she says, \"and leaves a space exactly your figure's shape. Watch.\"\n\nThe crucible tips. Bronze pours out, glowing orange, liquid as soup, and runs into the space the wax left behind. We hold our breath and watch.\n\n\"Clay forgives everything,\" the worker says, \"so you can get it right. Then the right one gets poured into metal, and metal never forgets. Your soft little lump is becoming a statue that could outlive its maker.\"\n\nIt clicks. The clay door isn't just for practising — it's the first step on the road to forever.\n\nWhen the mould cracks open, there it is: our figure, in bronze, gleaming. The worker grins. \"I made two. This one's twin is yours.\"\n\nShe wraps it in cloth and gives it to us. Cool at last. It took all night to stop being dangerous.\n\nAll the way home, Theo carries it like a baby bird. \"It was mud,\" he keeps saying. \"It was mud, and now it's forever.\"\n\n\"Squish first,\" we say. \"Shine later.\"\n\nAnd the little bronze horse — because that is what it turned out to be — warms our pocket the whole way home.",
       "next": null
     }
   ],
@@ -300,7 +300,17 @@
       "source_run": "_demo_run_kid2",
       "source_file": "03_sculpture_and_clay_kimik3.json",
       "depth": 1
-    }
+    },
+    "hand_edit": [
+      {
+        "date": "2026-08-12",
+        "by": "hand edit, pre-audio review",
+        "field": "segments.s4b",
+        "was": "Still faintly warm.",
+        "now": "Cool at last. It took all night to stop being dangerous.",
+        "reason": "Molten bronze takes many hours to become handleable; the story had a child holding a just-cracked casting."
+      }
+    ]
   },
   "depth": 1
 }

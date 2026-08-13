@@ -52,7 +52,7 @@
     },
     {
       "id": "s3",
-      "text": "\"What did you find?\" Maya asks, leaning close. \"Tell me everything.\"\n\nBut before you can answer, the ship *Steady* shudders — gently, like a cat settling — and the view outside swells. Gargantua-9 fills half the sky now. Not a hole. A whirlpool. Spacetime itself dragging around it, slow and thick as honey pouring off a spoon.\n\n\"We're here,\" Alex calls from the pilot's seat. \"Safe orbit. The good ledge.\"\n\nPip clicks at your elbow. \"Look, look! Your watch!\"\n\nYou lift your wrist. *Tick. Tick. Tick.* Steady as your own heartbeat.\n\nThen Zix points at the screen. \"And Alex's clock.\"\n\nOn the distant ship, the numbers spin — whirling, blurring, hours tumbling past in seconds. Your breath catches. Same moment. Two speeds. Time itself stretching like taffy near the edge.\n\n\"Now watch,\" Maya whispers. \"This is the part that matters.\"\n\nPip releases a probe — small, brave, blinking red. It drifts toward the swirling dark. Closer. Closer. The signal light flickers on the screen, slowing, reddening, stretching into a long thin thread of color.\n\nThen it stops.\n\nFrozen. Red as the last coal in a fire. Hanging there at the edge of everything.\n\nNobody speaks. The ring turns, slow and golden, around the dark. The dark drinks. Maya's hand rests on the glass, perfectly still. Even Pip's gears go quiet.\n\n\"Event horizon,\" Zix breathes at last. \"It can't come back. Not the probe. Not the light. Not even the signal.\"\n\nThe red dot fades. Goes black.\n\nYour watch ticks on, steady and warm against your pulse, and the black hole turns and turns, drinking the light, and nobody says anything at all for a long, long moment.",
+      "text": "\"What did you find?\" Maya asks, leaning close. \"Tell me everything.\"\n\nBut before you can answer, the ship *Steady* shudders — gently, like a cat settling — and the view outside swells. Gargantua-9 fills half the sky now. Not a hole. A whirlpool. Spacetime itself dragging around it, slow and thick as honey pouring off a spoon.\n\n\"We're here,\" Alex calls from the pilot's seat. \"Safe orbit. The good ledge.\"\n\nPip clicks at your elbow. \"Look, look! Your watch!\"\n\nYou lift your wrist. *Tick. Tick. Tick.* Steady as your own heartbeat.\n\nThen Zix points at the screen. \"And the beacon. The one we left behind, back where it's safe.\"\n\nFar out there, well clear of the dark, the numbers spin — whirling, blurring, hours tumbling past in seconds. Your breath catches. Same moment. Two speeds. Time itself stretching like taffy near the edge.\n\n\"Now watch,\" Maya whispers. \"This is the part that matters.\"\n\nPip releases a probe — small, brave, blinking red. It drifts toward the swirling dark. Closer. Closer. The signal light flickers on the screen, slowing, reddening, stretching into a long thin thread of color.\n\nThen it stops.\n\nFrozen. Red as the last coal in a fire. Hanging there at the edge of everything.\n\nNobody speaks. The ring turns, slow and golden, around the dark. The dark drinks. Maya's hand rests on the glass, perfectly still. Even Pip's gears go quiet.\n\n\"Event horizon,\" Zix breathes at last. \"It can't come back. Not the probe. Not the light. Not even the signal.\"\n\nThe red dot fades. Goes black.\n\nYour watch ticks on, steady and warm against your pulse, and the black hole turns and turns, drinking the light, and nobody says anything at all for a long, long moment.",
       "next": {
         "kind": "choice",
         "id": "c2"
@@ -334,15 +334,25 @@
       "[s4b] flat rhythm: sentence lengths vary little (spread 4.3)",
       "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
     ],
-    "hand_edit": {
-      "date": "2026-08-11",
-      "segments": [
-        "s4a",
-        "s4b"
-      ],
-      "reason": "Physics correction: both segments narrated the reader's OWN watch as slowing/stopping/spinning. An observer's own clock always ticks normally; only the other clock is seen to run differently. Rewrote so the wristwatch stays steady and the dilation is shown by comparison (ship clock vs wrist in s4a, Pip's dial vs wrist in s4b). Outcome beats, motif (steady tick, taffy, drinking the light) and choice structure unchanged.",
-      "by": "hand edit, pre-ingest review"
-    },
+    "hand_edit": [
+      {
+        "date": "2026-08-11",
+        "segments": [
+          "s4a",
+          "s4b"
+        ],
+        "reason": "Physics correction: both segments narrated the reader's OWN watch as slowing/stopping/spinning. An observer's own clock always ticks normally; only the other clock is seen to run differently. Rewrote so the wristwatch stays steady and the dilation is shown by comparison (ship clock vs wrist in s4a, Pip's dial vs wrist in s4b). Outcome beats, motif (steady tick, taffy, drinking the light) and choice structure unchanged.",
+        "by": "hand edit, pre-ingest review"
+      },
+      {
+        "date": "2026-08-12",
+        "by": "hand edit, pre-audio review",
+        "field": "segments.s3",
+        "was": "\"And Alex's clock.\" / On the distant ship, the numbers spin",
+        "now": "\"And the beacon. The one we left behind, back where it's safe.\" / Far out there, well clear of the dark, the numbers spin",
+        "reason": "Frame-of-reference error: Alex is at the pilot's seat of the ship the reader is standing on, so Alex cannot also be on 'the distant ship', and co-located observers see no dilation between them. Now compares against a distant beacon, whose clock correctly runs FAST as seen from deeper in the well — which also sets up the probe later in the same segment running slow. Same segment, opposite directions, both correct. (Companion to the s4a/s4b fix made earlier; this one was missed.)"
+      }
+    ],
     "library_ingest": {
       "provenance": "pregen_batch",
       "generator": "kimi-k3",

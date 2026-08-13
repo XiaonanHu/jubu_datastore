@@ -21,7 +21,7 @@
   "segments": [
     {
       "id": "s1",
-      "text": "\"You're up. Good.\"\n\nRuth's voice comes out of the dark like gravel and coffee. She hands us each a thermos and points toward the marsh, where the sky is just turning the colour of a peach.\n\n\"Sandhill cranes,\" she says. \"We're counting them. Every last one.\"\n\nWe're standing on a wooden platform above the water, and the wind is doing that thing where it goes right through your jacket and says hello to your ribs. Below us, the marsh stretches out wide and silver, and somewhere in it are birds taller than we are.\n\nSam, Ruth's assistant, opens a notebook so worn it looks like it's been through a rainstorm. Because it has. Several.\n\n\"Look at this,\" Sam says, and turns the book so we can see. \"Nineteen forty-one. The whole species. Every whooping crane alive on Earth.\"\n\nThe photograph is small and grainy. Twenty-one birds, standing in a line, like they're posing for a class picture.\n\n\"Twenty-one,\" Ruth says. \"That's it. That's all there were.\"\n\nWe stare at it. Twenty-one birds. You could count them on your fingers and toes and have one left over.\n\n\"And now?\" we ask.\n\nRuth smiles, and it's the kind of smile that has a whole story inside it. \"Now we're over eight hundred. But we don't guess. We count. Every spring, every bird, by name and by number.\"\n\nShe pulls something from her vest pocket and presses it into our hand. A feather. White as the first snow, longer than our hand, soft along the edges.\n\n\"Carry that,\" she says. \"It's the count feather. Whoever holds it calls the number.\"\n\nSam flips to today's page. \"We've spotted twenty this morning. But the youngest chick, the new one, we haven't seen yet.\"\n\nRuth's eyes scan the marsh. \"One missing,\" she says quietly. \"In a family this small, one matters.\"\n\nThe feather sits in our palm, light as nothing, and the wind carries a sound across the water. A low, rolling call, like a question being asked far away.\n\n\"That's the parents calling,\" Sam says. \"They're looking too.\"\n\nWe close our fingers around the feather. \"Then let's find that chick.\"\n\nRuth nods once. \"Now you're counting.\"",
+      "text": "\"You're up. Good.\"\n\nRuth's voice comes out of the dark like gravel and coffee. She hands us each a thermos and points toward the marsh, where the sky is just turning the colour of a peach.\n\n\"Whooping cranes,\" she says. \"We're counting them. Every last one.\"\n\nWe're standing on a wooden platform above the water, and the wind is doing that thing where it goes right through your jacket and says hello to your ribs. Below us, the marsh stretches out wide and silver, and somewhere in it are birds taller than we are.\n\nSam, Ruth's assistant, opens a notebook so worn it looks like it's been through a rainstorm. Because it has. Several.\n\n\"Look at this,\" Sam says, and turns the book so we can see. \"Nineteen forty-one. The whole species. Every whooping crane alive on Earth.\"\n\nThe photograph is small and grainy. Twenty-one birds, standing in a line, like they're posing for a class picture.\n\n\"Twenty-one,\" Ruth says. \"That's it. That's all there were.\"\n\nWe stare at it. Twenty-one birds. You could count them on your fingers and toes and have one left over.\n\n\"And now?\" we ask.\n\nRuth smiles, and it's the kind of smile that has a whole story inside it. \"Now we're over eight hundred. But we don't guess. We count. Every spring, every bird, by name and by number.\"\n\nShe pulls something from her vest pocket and presses it into our hand. A feather. White as the first snow, longer than our hand, soft along the edges.\n\n\"Carry that,\" she says. \"It's the count feather. Whoever holds it calls the number.\"\n\nSam flips to today's page. \"We've spotted twenty this morning. But the youngest chick, the new one, we haven't seen yet.\"\n\nRuth's eyes scan the marsh. \"One missing,\" she says quietly. \"In a family this small, one matters.\"\n\nThe feather sits in our palm, light as nothing, and the wind carries a sound across the water. A low, rolling call, like a question being asked far away.\n\n\"That's the parents calling,\" Sam says. \"They're looking too.\"\n\nWe close our fingers around the feather. \"Then let's find that chick.\"\n\nRuth nods once. \"Now you're counting.\"",
       "next": {
         "kind": "choice",
         "id": "c1"
@@ -295,7 +295,17 @@
       "source_run": "_demo_run_kid6",
       "source_file": "08_endangered_animals_kimik3.json",
       "depth": 1
-    }
+    },
+    "hand_edit": [
+      {
+        "date": "2026-08-12",
+        "field": "segments.s1",
+        "was": "\"Sandhill cranes,\" she says.",
+        "now": "\"Whooping cranes,\" she says.",
+        "by": "hand edit, pre-audio review",
+        "reason": "Species mix-up in the opening line: the story names the birds sandhill cranes once, then whooping cranes twice, and its numbers (21 birds in 1941, over 800 now) are whooping crane figures. Sandhill cranes number in the hundreds of thousands and are not endangered."
+      }
+    ]
   },
   "depth": 1
 }
