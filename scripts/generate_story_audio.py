@@ -373,6 +373,21 @@ def generate_story(
             f"new settings."
         )
     slots = story.get("slots") or {}
+    if lang != "en":
+        # Slot DEFAULTS are English ("the green cat's-eye marble"). Spoken
+        # inside a translated sentence that lands as an English clause in the
+        # middle of the story, so a script may localise them.
+        localised = ((story.get("narration") or {}).get(lang) or {}).get("slots") or {}
+        slots = {
+            name: ({**slot, "default": localised[name]} if name in localised else slot)
+            for name, slot in slots.items()
+        }
+        missing = [n for n in slots if n not in localised]
+        if missing:
+            print(
+                f"  NOTE: slot(s) {missing} have no {lang} default — their "
+                f"English wording will be spoken inside the translated prose"
+            )
 
     story_dir = site_audio_dir / story["id"]
     if lang != "en":
