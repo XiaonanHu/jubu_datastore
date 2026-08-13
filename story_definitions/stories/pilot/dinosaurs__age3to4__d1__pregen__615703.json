@@ -1,0 +1,342 @@
+{
+  "id": "story.dinosaurs.age3to4.d1.pregen.615703",
+  "title": "The Biggest Stomp-Print Ever",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.dinosaurs",
+    "sel_theme": null,
+    "value_lesson": "Trying again when something wobbles and falls — each rebuild makes it stronger",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "A storyteller remembers the day the dinosaurs built a giant mud footprint together, wobble by wobble, until it was big enough to sit in and ROAR about.",
+  "slots": {
+    "child_name": {
+      "role": "the child listening, who in the memory was there helping",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Little Stomper"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember a morning on the sandy riverbank, where the mud was soft and the ferns waved tall. Grandpa Ankylosaurus thumped his tail club. Boom. Boom. \"Today,\" he said, \"we build the BIGGEST stomp-print ever! A stomp you can keep! So big {child_name} can sit inside it!\" So we gathered. Stegosaurus carried pebbles on her plates. Plop, plop. A little feathered dinosaur fluttered down with fluff in her beak. \"Oooh,\" she said, \"what does THAT do?\" We patted the mud flat, flat, flat. Soft as porridge. But nobody knew how to make the three toes yet — and the toes are the whole footprint.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Stomp it is!\" says Baby Triceratops. Up, up she rears — and STOMP! STOMP! STOMP! Three big toes! Mud goes splash! \"Again! Again!\" we shout, and she giggles so hard her horns wobble. But then — bloop. One toe wall slides down, slow as honey. The little feathered dinosaur flutters close and peeks in. \"Oooh,\" she says, \"why did it fall?\" Grandpa's eyes go twinkly. \"A wobble is a teacher!\" he booms. And we look at the slumpy toe, and we start to think.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Slow and gentle,\" says Stegosaurus, and she tips her sunny plates. Plop, plop, plop — three smooth pebbles for three toes. We pat-pat-pat, one little push at a time. So neat! So tidy! But the little feathered dinosaur tilts her head. \"Oooh,\" she says, \"is that a toe for a mouse?\" We look. The middle toe is teeny-tiny — more a dimple than a toe. Grandpa's eyes go twinkly. \"A wobble is a teacher!\" he booms. And we look at the little toe, and we start to think.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Grandpa Ankylosaurus nodded at the mud. \"First we pat. Flat, flat, flat.\" Boom, boom, boom went his tail club. We patted too, with our hands and our feet. Then we pressed the three toes in, slow and careful. Baby Triceratops bumped the wall with her frill. Bump! It stayed! Stegosaurus plopped pebbles on for toenails. Plop, plop. The little feathered dinosaur tucked fluff into the cracks. \"Oooh,\" she said, \"what did YOU find?\" We stepped back. A stomp-print as long as a bathtub! Big enough to sit in! Grandpa lifted his head. \"Now — how do we CELEBRATE a footprint this fine?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We ROAR!\" said Grandpa. So we lined up all around the print. \"One, two — ROOOAR!\" we shouted. ROOOAR went the dinosaurs. Roar! went {child_name}. One roar is fun. Everyone roaring is a whole song! Then one stomp each. Stomp! Stomp! STOMP! Up burst the birds from the ferns — flutter, flutter, like confetti in the sky! The little feathered dinosaur spun in a circle. \"Oooh! It tickles my FEATHERS!\" Grandpa pressed one smooth pebble into my hand, warm from the sun. A pebble toenail, just for me. And that pebble sits on my shelf still.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"We SIT!\" said Grandpa. So I climbed down, down, into the stomp-print. Squish went the mud. I sat right inside it, small as an egg in a nest. \"It is SO big,\" I said. \"It is SO you-sized,\" said Grandpa. The little feathered dinosaur fluttered down and tucked one soft feather behind my ear. \"Oooh,\" she said, \"what does THAT do?\" A small bird landed on the edge. Tweet-tweet! it sang. And she sang back — tweet-tweet! — almost the same. Then home we went, squish, squash, squish. And that feather is in my pocket still, soft as the day it was given.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The mud is ready, little stompers! Now — do we make the toes with a big brave STOMP, or pat them in slow and gentle with pebbles?\"",
+      "options": [
+        {
+          "say_word": "STOMP!",
+          "label": "Stomp the toes in big and splashy",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Pat-pat",
+          "label": "Press the toes in slowly with smooth pebbles",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"A footprint this fine needs a finish! Do we ROAR together so the whole riverbank hears it — or climb in and SIT inside it, to feel how big it truly is?\"",
+      "options": [
+        {
+          "say_word": "ROAR!",
+          "label": "Everyone roars and stomps a song together",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Climb in",
+          "label": "Sit inside the giant print like an egg in a nest",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.dinosaurs",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "A three-year-old can stomp and roar along while a friendly dinosaur builds something step by step, letting the big feet and long neck do real work in the story.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3665,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1697,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1584,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Compass That Points to Wonder)"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1357,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Mystery of the Enormous Footprint)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0905,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0566,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Little feathered dinosaur, who flutters close to every crack and wobble asking 'oooh, what does THAT do?'",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Trying again when something wobbles and falls — each rebuild makes it stronger",
+      "why": "The make_and_build pattern hands it over naturally: the first mud wall slumps, and Grandpa Ankylosaurus treats the slump as the best part, because now we know what the mud needs."
+    },
+    "cast": [
+      {
+        "role": "Storyteller (the 'I' voice, an old friend who was there)",
+        "reused": false,
+        "why": "Required by storyteller_tale frame: opens and closes the memory, only voice that says 'I'."
+      },
+      {
+        "role": "Grandpa Ankylosaurus",
+        "reused": false,
+        "why": "The crazy_inventor of the tale: he invents the whole idea, pats mud flat with his tail club like a drum, boom boom, and loves every wobble because wobbles teach."
+      },
+      {
+        "role": "Baby Triceratops",
+        "reused": false,
+        "why": "The child's companion: copies every stomp, giggles at splashes, and her gentle frill-bump becomes the official wobble-tester."
+      },
+      {
+        "role": "Stegosaurus friend",
+        "reused": false,
+        "why": "The helper who carries pebbles and leaves balanced on her sunny back plates, one careful step at a time."
+      },
+      {
+        "role": "Little feathered dinosaur",
+        "reused": false,
+        "why": "Named accent carrier for curious_wonder: flutters, hops, brings soft feathers, and asks the wondering questions out loud."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "sandy riverbank with soft mud perfect for making footprints, tall ferns waving",
+        "building a giant dinosaur footprint out of mud and pebbles: pat flat, press three toes, pebble toenails, stomp next to it to compare",
+        "Grandpa Ankylosaurus pats the ground flat with his tail club, boom, like a big drum",
+        "Baby Triceratops copies every stomp and giggles when its feet go splash",
+        "Stegosaurus carries building things balanced on her back plates",
+        "little feathered dinosaur brings soft feathers and leaves to tuck into the cracks",
+        "Tyrannosaurus footprint as long as a bathtub, big enough for a child to sit inside",
+        "birds burst up from the trees like confetti when everyone stomps and roars",
+        "value: trying again when something wobbles and falls"
+      ],
+      "gathered_but_unused": [
+        "Some dinosaurs were as tall as a house, with legs like tree trunks that went thump thump thump when they walked.",
+        "Brachiosaurus had a neck so long it could nibble leaves at the very top of tall trees, like a living ladder.",
+        "Dinosaurs hatched from eggs, and some nests had eggs as big as footballs.",
+        "Stegosaurus had big flat plates standing up all along its back, like a row of kites.",
+        "Ankylosaurus had a big bony club on the end of its tail and a lumpy armored back, like wearing a shell.",
+        "Triceratops had three horns on its face and a big frill on its neck, like wearing a fancy collar.",
+        "Tyrannosaurus rex had feet so big that one footprint could be as long as a bathtub, and its roar was very, very loud.",
+        "Many scientists think some dinosaurs had feathers, soft and fluffy like a baby chick."
+      ]
+    },
+    "safety_beat": "In s1, Grandpa Ankylosaurus pats the firm packed mud with his tail club and shows everyone the good standing spot — 'firm mud for feet, soft mud for prints' — light competence, no warning, no tension.",
+    "motif": "The stomp-print: mud patted flat, three toes pressed in, pebble toenails, growing from a wobbly mess to a footprint big enough to sit inside.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.dinosaurs.age5to6.d1.authored.b9d4cb",
+        "title": "The Mystery of the Enormous Footprint",
+        "pattern": "mystery",
+        "teller": "named_hero",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "big_adventure"
+      },
+      {
+        "story_id": "story.dinosaurs.age9to10.d1.pregen.401799",
+        "title": "The Compass That Points to Wonder",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": null
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already blends making, warmth, and wonder with strong read-aloud sound — the steps of building the print are shown concretely, the refrain 'A wobble is a teacher' reframes failure kindly, and both endings land on a small kept token that lingers."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, drawn in by the big promise",
+        "s2a": "giggles and splashy excitement, then a held breath at the bloop",
+        "s2b": "pleased neatness, then a small frown of noticing",
+        "s3": "absorbed, hands-busy satisfaction as the print comes together",
+        "s4a": "roaring, bouncing joy settling into warm pride at the pebble",
+        "s4b": "cozy, hushed snugness in the nest of the print, drifting toward sleep"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 11 warning. [s1] narration heavy: only 23% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 3.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.7); [s3] flat rhythm: sentence lengths vary little (spread 3.1); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.4); [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] narration heavy: only 23% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.1)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 28% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action",
+      "[s1] narration heavy: only 23% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.1)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 28% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "04_dinosaurs_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

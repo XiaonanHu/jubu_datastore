@@ -1,0 +1,354 @@
+{
+  "id": "story.ocean_animals.age3to4.d1.pregen.2f3db9",
+  "title": "The Quiet Splash",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.ocean_animals",
+    "sel_theme": null,
+    "value_lesson": "The quiet joy of saying hello to a new friend",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "A storyteller remembers waiting on a warm rock for the tide pool to wake up, and the small hellos that came with the light.",
+  "slots": {
+    "pool_name": {
+      "role": "What the child calls the tide pool",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the Sparkle Pool"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember a morning, little one, when you and I sat on a big warm rock. The sun had baked it cozy, like toast. Below us lay {pool_name}, still and clear as bathwater. We wiggled our toes. We waited. The sun spilled a golden ripple across the water. Shiver-shine. Shiver-shine. \"Is anyone home?\" you whispered. I listened. You listened. The pool went blub. Just one little blub. Somebody was waking up down there.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Then the sand goes puff. Up rises the octopus, slow and wiggly. One arm lifts. Then another. Curl. Uncurl. Each arm waves all by itself, like eight little hellos. You wiggle your fingers back. The golden ripple grows brighter. Shiver-shine. Shiver-shine. \"Hello, wiggly one,\" you say. The octopus waves. We wave. But where is the little fish? We listen. We wait.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Then a silver fish darts in. Quick, quick, quick. It swims in small circles, round and round. Then it stops. It opens its mouth. Blub. Blub. Tiny bubbles float up, up, up. Pop at the top. \"Blub blub,\" you say. The fish blows more bubbles. The golden ripple grows brighter. Shiver-shine. Shiver-shine. We watch the bubbles dance. But where is the wiggly octopus? We look. We wait.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"What did you find?\" I whisper. You wiggle your fingers. \"Come and see!\" And here they are, both friends together in {pool_name}. The octopus waves one arm, slow and sleepy. Hello. Hello. The little fish blows bubbles that float up, up, past its wiggly arms. Blub. Blub. Then, from under a pink coral branch, a tiny pink crab peeks out. It waves one little claw sideways. Hello to you too! Far away, a big whale hums a low, rumbly song. The water shivers gently. The golden ripple grows brighter on the sandy bottom. Shiver-shine. Shiver-shine. But the light is shifting now. Our quiet splash is beginning to pass.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "You wiggle your fingers at the little fish. Wiggle, wiggle. It blows one last big bubble. Pop! The octopus waves one arm, slow and sleepy. Bye-bye. Bye-bye. We sit on our warm rock a little longer. The sun-baked stone feels cozy under us. The golden ripple fades, soft and low. Shiver-shine. Shiver-shine. \"Do you hear it?\" I whisper. Blub. Blub. The sound stays in your ears. We carry it home with us, all the way back. Eight arms waving. One little fish saying blub. You wiggle your fingers again, just to remember.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "You blow a gentle kiss toward the water. Mwah. The octopus curls one arm into a soft spiral, like a hug. The little fish swims one last slow circle. Round and round. We sit on our warm rock a little longer. The sun-baked stone feels cozy under us. The golden ripple fades, soft and low. Shiver-shine. Shiver-shine. \"Do you see it?\" I whisper. The light shimmers on the sandy bottom. We carry the picture home with us, all the way back. One curled arm. One slow circle. You blow another kiss, just to remember.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Shall we watch for the wiggly arms, or listen for the blub blub bubbles?\"",
+      "options": [
+        {
+          "say_word": "Wiggly arms",
+          "label": "Watch the octopus wake up",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Blub blub",
+          "label": "Listen for the little fish",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"How shall we say goodbye to our friends?\"",
+      "options": [
+        {
+          "say_word": "Wiggle",
+          "label": "Wiggle your fingers like the octopus",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Kiss",
+          "label": "Blow a soft kiss to the water",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.ocean_animals",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "At age 3, the topic's material—an octopus waving hello and a fish going blub blub—is a warm sensory mood piece rather than a puzzle or a fix-it, so quiet_hour lets the splish-splash encounter glow without forcing a plot.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.3469,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.257,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1606,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0857,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 0.25,
+          "family_nudge": 1.0,
+          "final_weight": 0.0749,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The City Beneath the Boat)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0535,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "The warm, sun-baked rock (cozy)",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "The quiet joy of saying hello to a new friend",
+      "why": "The material offers the octopus waving and the fish bubbling as natural, unforced moments of greeting."
+    },
+    "cast": [
+      {
+        "role": "Storyteller",
+        "reused": false,
+        "why": "The frame narrator who says 'I', remembering a quiet morning by the sea."
+      },
+      {
+        "role": "Wiggly Octopus",
+        "reused": false,
+        "why": "The first friend to arrive, carrying the curious wonder with eight independent arms."
+      },
+      {
+        "role": "Little Silver Fish",
+        "reused": false,
+        "why": "The second friend, bringing the blub blub sound and the choice of how to greet it."
+      },
+      {
+        "role": "Tiny Pink Crab",
+        "reused": false,
+        "why": "A deeper-door glimpse (Crabs) who waves a claw during the shared middle."
+      },
+      {
+        "role": "Big Whale",
+        "reused": false,
+        "why": "A wider-door glimpse (Whales) heard humming far away, never seen, adding gentle depth."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "warm shallow tide pool with sunbeams dancing on the water",
+        "octopus has eight arms and can wiggle each one all by itself",
+        "fish breathe underwater through gills and make bubbles that go blub blub",
+        "crabs walk sideways on the sandy bottom",
+        "whales sing songs that travel far through the water",
+        "sunlight makes wavy patterns on the sandy bottom like ripples of gold",
+        "quiet joy of saying hello to a new friend"
+      ],
+      "gathered_but_unused": [
+        "An octopus has eight arms and can wiggle each one all by itself",
+        "Fish breathe underwater through their gills and make little bubbles that go blub blub",
+        "Sea turtles paddle with their flippers like slow, gentle wings",
+        "Jellyfish float and pulse like soft umbrellas drifting in the sea",
+        "Seahorses hold onto seaweed with their curly tails so they don't float away",
+        "Crabs walk sideways on the sandy bottom",
+        "Coral looks like colorful rocks but is made of tiny animals living together",
+        "Whales sing songs that travel far through the water"
+      ]
+    },
+    "safety_beat": "In s1, the storyteller shows competence by patting the warm rock and saying, 'I sat right here where the sun had dried the stone, safe and steady, with my toes just near the edge where I could see the bottom.'",
+    "motif": "The golden ripple of sun on shallow water, growing brighter as friends arrive.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.ocean_animals.age5to6.d1.authored.a57de9",
+        "title": "The Door in the Tide Pool",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "cozy"
+      },
+      {
+        "story_id": "story.ocean_animals.age9to10.d1.pregen.5b2db0",
+        "title": "The City Beneath the Boat",
+        "pattern": "journey",
+        "teller": "named_hero",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already holds its moments with reverent patience, letting the tide pool creatures arrive, be witnessed, and depart without grabbing, and its sound-world (blub, shiver-shine, pop) lands as small spoken sentences a three-year-old can join."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, toes wiggling, leaning toward the water",
+        "s2a": "delighted surprise, wiggling along with eight hellos",
+        "s2b": "quick little spark of glee, then bubbles rising",
+        "s3": "wide-eyed fullness, everything gathered, a held breath at the whale's hum",
+        "s4a": "tender letting go, carrying the sound home, sleepy-warm",
+        "s4b": "tender letting go, carrying the picture home, sleepy-warm"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 18 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.0); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 29% of sentences carry speech or action; [s1] abstract mood word: 'cozy' usually means a feeling was told, not given; [s2a] flat rhythm: sentence lengths vary little (spread 2.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 24% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 2.0)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 29% of sentences carry speech or action",
+      "[s1] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 2.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 24% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 2.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 33% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s3] narration heavy: only 11% of sentences carry speech or action",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s4a] narration heavy: only 15% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s4b] narration heavy: only 25% of sentences carry speech or action",
+      "[s4b] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 29% of sentences carry speech or action",
+      "[s1] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 2.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] narration heavy: only 24% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 2.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 33% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s3] narration heavy: only 11% of sentences carry speech or action",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s4a] narration heavy: only 15% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.4)",
+      "[s4b] narration heavy: only 25% of sentences carry speech or action",
+      "[s4b] abstract mood word: 'cozy' usually means a feeling was told, not given"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "08_ocean_animals_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

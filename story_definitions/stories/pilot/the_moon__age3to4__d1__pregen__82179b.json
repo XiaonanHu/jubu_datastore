@@ -1,0 +1,330 @@
+{
+  "id": "story.the_moon.age3to4.d1.pregen.82179b",
+  "title": "Tuck In the Moon",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.the_moon",
+    "sel_theme": null,
+    "value_lesson": "Winding down: all the wild moon games end in snuggling, soft voices, and feeling safe under the gentle glow",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "A small child in footie pajamas plays bigger and bigger good-night games with the moon until the only thing left to do is tuck the moon in the way the child knows best.",
+  "slots": {
+    "hero_name": {
+      "role": "The child hero's name",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Moonlight spills across {hero_name}'s blanket in a long white stripe. Outside the window, the moon hangs over the rooftops, glowing like a big banana. \"Good night, Moon!\" says {hero_name}, and waves. The moon glows brighter! So {hero_name} waves both arms. Brighter! Both arms and one leg! Grandma windmills too, like a silly machine. Biscuit the cat meows at the window. \"Grandma, look,\" says {hero_name}. \"The moon is a banana. It must be hungry!\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"First, a cracker!\" says {hero_name}, holding it up to the window. The moon just glows. \"Then the banana, because it matches!\" But when {hero_name} turns around, the plate is empty. Biscuit the cat licks his whiskers. Crumbs! \"You ate the moon's snack!\" giggles {hero_name}. Biscuit purrs. The moon hangs there, still hungry, still glowing. \"The whole jar!\" says {hero_name}. Grandma helps lift it, heavy and wobbly, up to the windowsill. \"Eat up, Moon!\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"I'll catch it!\" whispers {hero_name}. The moonbeam slides across the floor like a silver snail. Step on it! It slips away. Grab it with both hands! It wiggles free. Scoop it in the jar! The jar stays empty. But look - the moonbeam lands smack on Biscuit the cat. Biscuit glows! He purrs louder and louder, a soft rumbling cat-lamp in the dark. \"The moon knows the softest spot,\" laughs Grandma. {hero_name} pats the warm, glowing cat. The moonbeam stays right there, on Biscuit's stripey back.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Grandma pours more warm milk. \"Here's the thing, little one,\" she says. \"The moon's glow is borrowed. Every evening, the sun tucks its light into the moon's pocket, like handing over a night-light. The moon carries it all night, watching every house.\" {hero_name} gasps. \"The sun and moon take turns?\" Biscuit purrs. Then {hero_name} sits up tall. \"Grandma! If the moon watches us all night... somebody has to tuck IT in!\" Grandma raises her mug. \"How do you tuck in something so big and glowy?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"My blanket!\" says {hero_name}. Grandma helps drape it over the windowsill, like the moon's very own covers. Then {hero_name} sings. Loud! \"GOOD NIGHT, MOON!\" Too loud for bedtime. Softer now. Softer. A whisper. \"Good night, moon.\" The glow settles over the room like a blanket of its own. {hero_name} climbs into bed under one white stripe. \"Good night, Sun, wherever you're sleeping.\" And one small moonbeam stays on the blanket. All night long.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"My pillow!\" says {hero_name}, marching it to the window. On the sill it goes, so the moon has somewhere to rest its face. Biscuit claims half of it. Official pillow-guard. Pat, pat. \"Good night, Moon. Good night, Sun, wherever you're sleeping.\" Grandma carries {hero_name} to bed, and look - the moonbeam has saved a stripe of glow across the blanket, tucked in neat. The moon watches every house on the street. So nobody sleeps alone. Not ever.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Well, little moon-keeper,\" says Grandma, sipping her warm milk, \"if that banana moon is hungry, shall we feed it a bedtime snack - or shall we try to catch that slippery moonbeam sliding across the floor?\"",
+      "options": [
+        {
+          "say_word": "Feed it!",
+          "label": "Feed the moon snacks held up to the window",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Catch it!",
+          "label": "Chase and try to catch the moonbeam",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The moon's doing the night watch, all right,\" says Grandma, setting down her mug. \"So how do we tuck in something as big as the sky - with your blanket, or with your pillow?\"",
+      "options": [
+        {
+          "say_word": "Blanket!",
+          "label": "Drape the hero's blanket on the windowsill and sing a loud-to-soft lullaby",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Pillow!",
+          "label": "Prop the hero's pillow on the sill for the moon to rest its face",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.the_moon",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "romp",
+      "why": "The moon's soft glow watching over sleepy houses naturally feeds escalating silly play—like the moon peeking into windows, playing hide-and-seek with clouds, or glowing brighter to say goodnight—which suits a 3-year-old better than building or a weighty choice.",
+      "backup": "dilemma",
+      "candidates": [
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2415,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2174,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.32,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1932,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Long Line of Earths)"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1304,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Fox Who Watched the Moon)"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0966,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.06,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0725,
+          "sampled": true,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "The Moon itself, whose grand, slow, sky-wide reactions (glowing brighter, following everywhere, refusing to hide) carry the big_adventure accent.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Winding down: all the wild moon games end in snuggling, soft voices, and feeling safe under the gentle glow",
+      "why": "The romp pattern naturally lands on bedtime; the material's own value angle fits without preaching, since the escalating games are what make the final quiet feel earned."
+    },
+    "cast": [
+      {
+        "role": "Pip, a small child in footie pajamas",
+        "reused": false,
+        "why": "The named hero who leads every game and refuses to sleep until the moon is tucked in too."
+      },
+      {
+        "role": "The Moon, sleepy and friendly",
+        "reused": false,
+        "why": "The playmate and the accent carrier; it glows brighter when waved at and plays along with every silly game."
+      },
+      {
+        "role": "Grandma with a mug of warm milk",
+        "reused": false,
+        "why": "The in-scene character who suggests games, knows moon facts, asks the choice questions in her own voice, and steers the silliness toward bed."
+      },
+      {
+        "role": "Biscuit, a round gray cat",
+        "reused": false,
+        "why": "Comic consequence-bearer: the moonbeam keeps landing on the cat, who purrs in the glow and escalates the giggles."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Waving at the moon - it glows brighter, escalating to both arms, then arms and a leg, then windmill waving",
+        "The moon looks like a curved banana slice tonight",
+        "Feeding the moon: snacks held to the window one by one, plate empties, grand finale is the whole cookie jar",
+        "Trying to catch the moonbeam - it slips away and lands on the cat",
+        "Tucking the moon in: blanket held to the window, a pillow offered, a lullaby sung louder and louder",
+        "The moon does not make its own light; it borrows the sun's shine like a night-light",
+        "The sun handing its light to the moon's pocket each evening (wider door to The Sun)",
+        "Cozy bedroom at night, curtains open, moonlight spilling across the blanket in a white stripe"
+      ],
+      "gathered_but_unused": [
+        "The moon looks like it follows you when you walk or ride in the car at night.",
+        "The moon does not make its own light; it shines because the sun lights it up like a mirror.",
+        "The moon can look like different shapes on different nights — a big round circle or a curved banana slice.",
+        "The moon has bumpy spots and round dents called craters on its face.",
+        "You can sometimes see the moon in the daytime, faint and pale in the blue sky.",
+        "The moon is very far away — so far that a rocket ship has to fly for days to get there.",
+        "The moon goes around and around the Earth, like a slow, quiet merry-go-round.",
+        "The moon's soft glow is gentle enough to look at — it never hurts your eyes."
+      ]
+    },
+    "safety_beat": "When the hero hoists the cookie jar (s2a) or climbs to reach the windowsill (s3/s4b), Grandma casually steadies the jar from below and moves the chair so the hero stands on the floor, not furniture - shown once, lightly, as competence.",
+    "motif": "The moon's soft white glow, spilling and stretching and finally settling like a blanket over everyone.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.the_moon.age5to6.d1.authored.ba4d52",
+        "title": "The Fox Who Watched the Moon",
+        "pattern": "quiet_hour",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": null
+      },
+      {
+        "story_id": "story.the_moon.age9to10.d1.pregen.6e78d2",
+        "title": "The Long Line of Earths",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "big_adventure",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances mischief, warmth, and a genuinely lovely tucking-in inversion (the child insisting somebody must tuck in the moon), with sound-words that land as their own beats and a wind-down that earns its sleepy ending."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "giggly and wiggly, leaning in to wave",
+        "s2a": "mock outrage and a giggle at the cat",
+        "s2b": "a held breath of chasing, then snug wonder at the glowing cat",
+        "s3": "wide-eyed at the secret, then a small sit-up-tall of purpose",
+        "s4a": "the big loud song dimming down to a whisper, satisfied and sleepy",
+        "s4b": "cozy and claimed, tucked in and not alone"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.2); [s1] narration heavy: only 33% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.1); [s2b] flat rhythm: sentence lengths vary little (spread 3.2); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 29% of sentences carry speech or action; [s3] flat rhythm: sentence lengths vary little (spread 3.8); [s4b] narration heavy: only 30% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s1] narration heavy: only 33% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 29% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4b] narration heavy: only 30% of sentences carry speech or action",
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s1] narration heavy: only 33% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 29% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4b] narration heavy: only 30% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "06_the_moon_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

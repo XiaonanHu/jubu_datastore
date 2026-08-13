@@ -1,0 +1,372 @@
+{
+  "id": "story.birds.age3to4.d1.pregen.fbfc31",
+  "title": "The Great Birdie Copycat",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.birds",
+    "sel_theme": null,
+    "value_lesson": "Sharing",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "A cozy window-side game of copying birds escalates into a wild, crumb-filled romp until we must decide how to keep our new feathered friends happy.",
+  "slots": {
+    "window_spot": {
+      "role": "The cozy place where we watch the birds",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the kitchen window with the feeder stuck right to the glass"
+    },
+    "copycat_move": {
+      "role": "The silly way we try to move like a bird",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "flap our arms fast like a chickadee"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are snuggled on the couch by {window_spot}. Tap, tap, tap! A bold little sparrow hops right up to the glass. It pecks the window and stares at us with one shiny eye. “Chirp!” we say. The sparrow tilts its head. “Chirp, chirp!” it says right back! We flap our arms fast. {copycat_move}. The sparrow flaps too! The game of copycat begins.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "“Hop like birdies!” we say. We hop low. Hop, hop! We hop higher. Hop, hop, hop! We hop SO high — bonk! Our heads bump the bottom of the table. Soft bonk! The sparrow just keeps hopping on the sill. Hop, hop, hop. Like nothing happened. Then — zoom! A tiny chickadee swoops in. It grabs a seed. Zoom! Away it goes. Zoom in, grab, zoom away! “Chirp!” says the sparrow. “Chirp, chirp!” we say back.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "“Flap like birdies!” we say. We flap our arms fast. Flap, flap! We flap faster. Flapflapflapflap! Oh no — wobble, wobble — plop! We tumble onto the couch cushions in a giggly heap. We still can’t fly! The sparrow stares with one shiny eye. Then — flap, flap! A tiny chickadee swoops in. It grabs a seed. Flap, flap — away it goes! Showing off how it’s done. “Chirp!” says the sparrow. “Chirp, chirp!” we giggle back.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "We are puffed and giggly from all that copying. \"What did you find?\" we ask the sparrow. It just chirps. So we put out one little crumb. The sparrow comes! Then a whole handful — five birds come! Then we dump out the WHOLE bag. Flap, flap, flap! Birds everywhere! Hopping on the rail. Perching on the chair. \"Chirp!\" \"Chirp, chirp!\" The porch is a birdie traffic jam. And through it all, the sparrow hops back to the window, right beside our hands on the glass, and stays.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "A big round pigeon lands on the feeder. Thump! Too big! Seeds spill everywhere. \"I fixed it!\" he seems to say. All the birds eat off the floor. But wait! The little birds get pushed aside. We sprinkle extra seeds in a special spot just for them. The sparrow chirps. \"Chirp!\" we say back. \"Chirp, chirp!\" We watch the sparrow take one seed, slow, and settle its feathers down flat.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "A big round pigeon lands on the feeder. Thump! Too big! Seeds spill everywhere. \"I fixed it!\" he seems to say. All the birds eat off the floor. But look! The mama bird stuffs her beak and zooms off. We follow her with our eyes. A tiny nest! Three fuzzy heads! We put out a special pile just for her. She zooms back and forth, back and forth. We stay at the window and watch her go.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Well?\" the sparrow seems to say with its shiny eye. \"How should we play? Should we hop like birdies, or flap like birdies?\"",
+      "options": [
+        {
+          "say_word": "Hop",
+          "label": "Hop like a birdie",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {
+            "copycat_move": "hop on two little legs"
+          }
+        },
+        {
+          "say_word": "Flap",
+          "label": "Flap like a birdie",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {
+            "copycat_move": "flap our arms fast"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Oh no!\" the sparrow chirps, looking at the spilled seeds and the busy mama bird. \"What should we do now? Should we share the seeds with the little birds, or find out where the mama bird is going?\"",
+      "options": [
+        {
+          "say_word": "Share",
+          "label": "Share seeds with the little birds",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Follow",
+          "label": "Follow the mama bird",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.birds",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "romp",
+      "why": "A toddler watching birdies at the window naturally escalates into copying them — hop, flap, chirp — which is exactly the escalating silly play a romp runs on, and it uses the target words as the game itself.",
+      "backup": "romp",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2851,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2444,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.165,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (Grandma Nell and the Dawn Chorus)"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1527,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0815,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0509,
+          "sampled": true,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "The bold little sparrow, who tilts its head with a shiny, curious eye, always wondering what we will do next.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Sharing",
+      "why": "The material naturally offers it: when the pigeon spills the seeds, the story's resolution hinges on making sure every bird, even the little ones, gets to eat."
+    },
+    "cast": [
+      {
+        "role": "The bold little sparrow",
+        "reused": false,
+        "why": "Perfectly embodies the curious_wonder accent, initiates the copycat game, and is the natural character to ask the choice questions."
+      },
+      {
+        "role": "The big round clumsy pigeon",
+        "reused": false,
+        "why": "Provides the crazy_inventor tone through silly, escalating mishaps and the 'consequence' beat of the romp pattern."
+      },
+      {
+        "role": "The tiny chickadee",
+        "reused": false,
+        "why": "Adds frantic, funny energy for the escalation beats and models the 'trying again' spirit."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A cozy kitchen window with a bird feeder stuck right to the glass",
+        "A bold little sparrow who isn't scared of the window",
+        "A big round pigeon who is a bit clumsy",
+        "A tiny chickadee who never sits still",
+        "Birds sing a cheery chirp, and when you chirp back they sometimes answer you again",
+        "Birds hop on two little legs when they walk on the ground",
+        "Birds flap their wings fast, faster than you can flap your arms",
+        "You put out one little crumb. A sparrow comes! You put out a whole handful. Five birds come! You dump out the WHOLE bag and now there are birds everywhere",
+        "The pigeon tries to land on the tiny feeder. Too big! Tips it sideways. Seeds spill everywhere.",
+        "Sharing — putting out enough seeds so every birdie gets some, even the little ones who get pushed aside",
+        "The mama bird keeps flying away with a beak full of seeds — where is she going? You peek behind the flower pot and find a tiny nest tucked in the gutter"
+      ],
+      "gathered_but_unused": [
+        "Some birds come to eat seeds and crumbs right at the window where you can watch",
+        "Birds puff up their feathers when they're cold and look like round fluffy balls",
+        "Birds take baths in puddles and splash with their wings",
+        "Baby birds open their beaks very wide when they want food",
+        "Birds come in lots of colors — red like a cardinal, blue like a bluebird, yellow like a goldfinch"
+      ]
+    },
+    "safety_beat": "not needed: setting is not a real place a child could stand in",
+    "motif": "The echoing chirp — a sound that starts small, gets copied, and grows into a joyful, noisy conversation.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.birds.age5to6.d1.authored.320758",
+        "title": "Grandma Nell and the Dawn Chorus",
+        "pattern": "quiet_hour",
+        "teller": "storyteller_tale",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "warm_companion",
+          "why": "The story is full of motion and sound but the birds are treated as entertainment; the child and the sparrow never quite look at each other with fondness, so the ending lands on the mess rather than on the company.",
+          "editor_notes": [
+            "In s1, the sparrow 'stares at us with one shiny eye' — give the child one small act of noticing back: a quiet line where the child sees something specific about the sparrow (a ruffled feather, a quick blink) before the game starts.",
+            "In s2a and s2b, the child copies the bird but the bird never copies the child in a way that feels like being seen; let the sparrow do one small, deliberate imitation of the child (a head tilt, a hop pattern) so the game becomes mutual rather than one-sided.",
+            "In s3, 'The porch is a birdie traffic jam' is funny but the sparrow gets lost in the crowd; end the segment with the sparrow coming back to the window or the child's hand, so the original companion is not swallowed by the spectacle.",
+            "In s4a, 'our hearts full and happy' tells the feeling instead of paying it as attention; replace it with a watched detail — the sparrow eating one seed slowly, or settling its feathers — so the warmth is shown, not declared.",
+            "In s4b, 'We helped a whole birdie family' is a conclusion about helpfulness; let the moment stay with the mama bird and the child watching her go, so the tenderness is in the staying, not the summary."
+          ],
+          "segments_revised": 3,
+          "segments_rejected": 3
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already pairs a lively, mouth-pleasing copycat game with a quiet ending in which the sparrow simply stays beside the child's hands on the glass — companionship paid as attention, exactly what a bedtime read-aloud needs."
+        }
+      ],
+      "cards_used": [
+        "warm_companion"
+      ],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then delighted — a game is born",
+        "s2a": "giggles and a soft bonk, then a quick zoom of surprise",
+        "s2b": "giggles and a wobbly plop, then a quick zoom of surprise",
+        "s3": "bouncing excitement swelling into happy bird-chaos, then a warm settling",
+        "s4a": "a comic thump, a small worry, then the quiet glow of watching one bird eat slow",
+        "s4b": "a comic thump, wide-eyed discovery, then the calm of staying to watch the mama w"
+      },
+      "segments_revised": 3,
+      "segments_rejected": 3
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 17 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.1); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] no voices: segment carries no spoken line; [s1] narration heavy: only 9% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 1.8); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 37% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.1)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 9% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 37% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 2.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 6% of sentences carry speech or action",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 25% of sentences carry speech or action",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 33% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.6)",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 21% of sentences carry speech or action",
+      "round 1: [s1] polish rejected: grew 121% of the original, over the 115% limit",
+      "round 1: [s2a] polish rejected: grew 120% of the original, over the 115% limit",
+      "round 1: [s2b] polish rejected: grew 122% of the original, over the 115% limit",
+      "round 1: [s3] polished (80 -> 88 words)",
+      "round 1: [s4a] polished (65 -> 70 words)",
+      "round 1: [s4b] polished (71 -> 77 words)",
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.1)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 9% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] no voices: segment carries no spoken line",
+      "[s2a] narration heavy: only 37% of sentences carry speech or action",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 2.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] no voices: segment carries no spoken line",
+      "[s2b] narration heavy: only 6% of sentences carry speech or action",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.6)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "07_birds_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

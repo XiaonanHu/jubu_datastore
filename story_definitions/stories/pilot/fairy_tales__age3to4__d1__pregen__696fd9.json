@@ -1,0 +1,313 @@
+{
+  "id": "story.fairy_tales.age3to4.d1.pregen.696fd9",
+  "title": "The Fairy in the Blanket Fort",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.fairy_tales",
+    "sel_theme": null,
+    "value_lesson": "Being still and calm makes the world feel safe for small, shy things",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "On a sleepy evening, a child and their grandmother wait quietly in a blanket fort, and a shy fairy comes to say hello before the stars come out.",
+  "slots": {
+    "fairy_greeting": {
+      "role": "the small way the child greets the fairy back (a wave or a whispered hello)",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "a tiny finger-wave"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember an evening, little one, when you and Grandma built a blanket fort over two chairs. Click, click, went Grandma's needles. You switched on the flashlight, and the ceiling of the fort was full of stars. Purr, purr, went the cat, curled in Grandma's cozy lap. \"Now,\" said Grandma softly, \"we wait for one small thing. A fairy. A shy little fairy with sparkly wings. She only visits when the house is very quiet, and everyone moves very, very slowly.\" So we sat still as mice. We listened. We waited.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Like the cat,\" you say. So you curl up small and purring-quiet, just like the cat. Shhh. Breathe slow. Listen. Tick, tick, goes the clock. Tick, tick. And look — the flashlight catches little bits of dust, dancing in the beam. Dancing like tiny fallen stars. Grandma leans close. \"The air feels cooler on your cheek,\" she whispers. \"Like a small breeze walking past. That is the first sign. She is near.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Like you,\" you say. So Grandma gives you two crayons, one in each hand. \"Click them softly,\" she whispers. \"Like my needles.\" Click, click. Click, click. The fort fills up with the gentlest little song, and your hands feel warm and busy. Then — listen. A faint hum comes from the fort's doorway. Like wind in the chimney. Like a soft blanket being shaken. Grandma smiles. \"Keep clicking,\" she whispers. \"She hears us.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Then — a tiny light came floating in. A fairy! Her wings sparkled like soap bubbles. She sat right on your finger. You gave her {fairy_greeting}, slow and gentle. \"Hello, little one,\" she hummed. Then she drifted over to the cat. She braided one whisker, just one. Purr, purr. He pretended not to see. She drew a circle of sparkles round his nose. Then her wings stopped fluttering. They simply glowed. And all the dust in the air turned to tiny stars.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"A curtsey,\" you whisper. The fairy rises, and her wings sweep down like a tiny gown. Slowly, slowly, she bends — deep and grand, as if a royal ball were waiting in some far-off palace. Then she touches the window and draws a crown in the mist, one sparkly finger, one shining line. And out she drifts, into the dusk. In the morning, one glittering speck waits on your pillow. And that is the evening I remember.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"A show,\" you whisper. The fairy finds a bottle cap and steps on — a tiny stage, just her size. She bows to three pinecones, one marble, the cat, and you. Then she hums one last tune, soft as a candle going to sleep. Her glow fades. She slips out the window, quiet as moonlight. In the morning, one glittering speck waits on your pillow. And that is the evening I remember.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Shall we wait like the cat, all still and purring-quiet, or wait like me, with slow busy hands?\" — Grandma",
+      "options": [
+        {
+          "say_word": "Cat-still",
+          "label": "Wait like the cat, quiet and watchful",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Slow hands",
+          "label": "Wait like Grandma, with pretend-knitting",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Before she goes, shall we ask her for a royal curtsey, or for one little show?\" — Grandma",
+      "options": [
+        {
+          "say_word": "Curtsey",
+          "label": "The fairy curtsies like she's practicing for a royal ball",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Show",
+          "label": "The fairy performs on a bottle-cap stage",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.fairy_tales",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "A friendly fairy with sparkly wings saying hello is a small, warm encounter rather than a puzzle or a trip, so the material naturally feeds a gentle mood piece for a 3-year-old.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.219,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1971,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1825,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1642,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1277,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.073,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandma, whose knitting needles click softly and whose lap is the coziest place in the house",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Being still and calm makes the world feel safe for small, shy things",
+      "why": "The material offers it directly through Grandma's line about fairies visiting only when the world is soft and slow; it arises naturally from the quiet_hour pattern rather than being imposed."
+    },
+    "cast": [
+      {
+        "role": "Grandma, knitting in the corner of the blanket fort",
+        "reused": false,
+        "why": "She carries the cozy accent and gently teaches that fairies visit only when the world is soft and slow, giving the child a job: be quiet and wait."
+      },
+      {
+        "role": "A sleepy fairy with wings like soap bubbles",
+        "reused": false,
+        "why": "The small wonder itself; she hums like wind in the chimney, draws in window condensation, and brings the curious_wonder tone."
+      },
+      {
+        "role": "The house cat who pretends not to see the fairy",
+        "reused": false,
+        "why": "A warm, funny presence the fairy can greet; his loud purr covers the wing-hum and keeps the secret safe."
+      },
+      {
+        "role": "The storyteller",
+        "reused": true,
+        "why": "storyteller_tale frame: only the teller says 'I', opening with 'I remember an evening...' and closing the frame warmly at the end."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "blanket fort over two chairs with a flashlight ceiling of stars",
+        "shy fairies visit only when the house is very quiet",
+        "wings humming like a soft blanket shaken, glowing dust in the air",
+        "fairy with soap-bubble wings who hums like wind in the chimney",
+        "cat who pretends not to see while the fairy braids his whiskers",
+        "fairy drawing a tiny picture in window condensation with a sparkly finger",
+        "fairy curtsying as if practicing for a royal ball (wider door: Princesses)",
+        "fairy using a bottle cap as a tiny stage (wider door: Theater)",
+        "a single glittering dust mote found on the pillow in the morning (deeper door)",
+        "sparkles like tiny stars fallen to play"
+      ],
+      "gathered_but_unused": [
+        "Fairies are imaginary friends from old stories, often shown with sparkly wings and a love of quiet places",
+        "Sparkles can look like tiny stars that have fallen to play in the daytime",
+        "When a fairy flies very slowly, her wings make a sound like a gentle hum or a soft blanket being shaken",
+        "Dew drops on grass look exactly like fairy diamonds in the early morning light",
+        "Some fairies in tales are shy and only visit when the house is very quiet and everyone is moving slowly",
+        "The shimmer on a soap bubble is called iridescence, and fairies are said to wear it like a cloak",
+        "A fairy's footsteps are said to feel like a cool breeze on your cheek rather than a touch",
+        "Moonlight through window glass makes patterns that old stories call fairy footprints"
+      ]
+    },
+    "safety_beat": "not needed: setting is a blanket fort inside the child's own bedroom with Grandma present; no real-place navigation beat required",
+    "motif": "A single glow that moves — flashlight star-ceiling, fairy wings, firefly light — each one borrowing light from the last.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already holds a child inside a slow, hushed, glowing moment and lets the wonder arrive, stay a while, and leave without grabbing at it — revision would only change it, not improve it."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, settling into the hush",
+        "s2a": "held breath, leaning in to listen",
+        "s2b": "busy-fingered and pleased, a small shared secret",
+        "s3": "wide-eyed delight, a held breath of wonder",
+        "s4a": "a slow, grand little gasp, then satisfied and sleepy",
+        "s4b": "a giggle softened into a glow, then satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] abstract mood word: 'cozy' usually means a feeling was told, not given; [s2a] flat rhythm: sentence lengths vary little (spread 3.7); [s2b] flat rhythm: sentence lengths vary little (spread 3.7); [s3] flat rhythm: sentence lengths vary little (spread 2.4); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 14% of sentences carry speech or action; [s4b] flat rhythm: sentence lengths vary little (spread 4.1)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 2.4)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 14% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s1] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 2.4)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 14% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "02_fairy_tales_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

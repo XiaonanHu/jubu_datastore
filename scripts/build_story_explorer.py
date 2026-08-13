@@ -289,6 +289,13 @@ PILOT_CATEGORIES = [
     "knowledge_domain.ecosystems",
     "knowledge_domain.endangered_animals",
     "knowledge_domain.genes_and_heredity",
+    # 2026-08 3-4 band batch: the make-believe and early-life topics the
+    # youngest band is built on. dinosaurs / the_moon / birds / ocean_animals
+    # were already categories.
+    "knowledge_domain.fairy_tales",
+    "knowledge_domain.princesses_and_princes",
+    "knowledge_domain.knights_and_castles",
+    "knowledge_domain.animal_babies",
 ]
 # The map is drawn in 3D and orbited by the viewer, so positions are points
 # on nested spheres: categories on a big one, their deep dives on small ones.

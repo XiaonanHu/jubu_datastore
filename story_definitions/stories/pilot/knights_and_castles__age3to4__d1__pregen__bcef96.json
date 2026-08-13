@@ -1,0 +1,314 @@
+{
+  "id": "story.knights_and_castles.age3to4.d1.pregen.bcef96",
+  "title": "The Great Big Door That Would Not Open",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.knights_and_castles",
+    "sel_theme": null,
+    "value_lesson": "Trying a different way is how fixes are found — each wrong try teaches something",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "problem_and_fix",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "We arrive at a friendly castle to meet the smiling knight, but the great big door is stuck, and each wrong try teaches us how to open it.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "We are going to visit Sir Cedric. He is a knight, and his castle is big and round and friendly, with a grassy path right up to the door. We walk and walk. Listen. Jingle, jingle. That is Sir Cedric's armor, somewhere inside! The great big door has a round iron ring. We stand on tiptoe. We lift it. Knock, knock, knock! We put our ears to the wood. No footsteps. The door is stuck fast.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Our ideas first!\" we say. We push the door with our hands. Push, push! It does not move. But under our palms, the wood leans out. Out! \"It opens the other way!\" we say. We put our fingers on the round iron ring and pull. Pull, pull! Still stuck. But the ring turns a little in our hands. Click. Oh! A tiny click. \"Did you hear that?\" we whisper. The ring turns! That is the clue. The door wants us to turn it.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Somebody who knows!\" we say. \"Who knows this old door's secrets?\" Up above the door, a little window opens. An old lady leans out and waves. \"Hullo, little ones!\" she calls. \"That old door never opens for pushing or pulling. Only for turning the ring and lifting the latch.\" Down she climbs, and she shows us where her hands go. \"Like this,\" she says. \"Now you try.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Now we know what to do! We stand on tiptoe. We take the round iron ring. We turn it. We lift it. Click! The great big door swings open. Creeeak! Sir Cedric kneels down, down, down to us. He lifts his shiny visor. Click! Underneath is a big smile, and a wink. \"You did it!\" he says. \"What did you find out there?\" And Watson the castle cat twirls around our legs. Purr, purr. He leads us into the sunny courtyard.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Watson trots to the kitchen. Cook Margery waves us in. The bread dough is big and puffy! \"Give it a squish,\" she says. We push it down. Squish! It sighs, soft as a pillow. She bakes it warm and saves us the end piece. We curl up in the wide stone window seat. Watson purrs on our lap. The bread is soft and warm in our hands. Sir Cedric tucks a little round loaf in our pocket. \"For the walk home,\" he says.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Sir Cedric's armor jingles as we follow him to the stable. His horse Pip is big and gentle. \"Hold your hand flat, like a little table,\" says Sir Cedric. We hold out three apple pieces. One, two, three! Pip snuffles them up, soft and tickly. Old Nan shows us the great wooden beam. We help slide it across the door. Boom! The door shuts happy and snug. Watson purrs. Pip gives us a soft whiskery nuzzle. \"For remembering,\" says Sir Cedric.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Hmm! This old door is being very quiet. Shall we try our own ideas first — or shall we find someone who knows its secrets?\"",
+      "options": [
+        {
+          "say_word": "Try",
+          "label": "We try our own ideas on the door first",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Help",
+          "label": "We look for someone who knows the door's secret",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Well, friends, the whole castle is ours today! Would you like to visit Cook Margery and her warm bread — or come meet my horse in the stable?\"",
+      "options": [
+        {
+          "say_word": "Kitchen",
+          "label": "We visit Cook Margery to squish dough and share warm bread",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Stable",
+          "label": "We visit the stable to feed the knight's horse a flat-palm apple",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.knights_and_castles",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "problem_and_fix",
+      "why": "The 'knock knock on the great big door' moment is a natural tiny problem-and-fix beat — knock, no answer, knock again, door opens to a smiling knight — which gives a 3-year-old a satisfying try-again payoff using exactly the required words.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.219,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1971,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred problem_and_fix"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1825,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1642,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1277,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.073,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Watson the castle cat, whose purring, lap-curling, doorway-leading coziness softens every beat",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Trying a different way is how fixes are found — each wrong try teaches something",
+      "why": "The chosen pattern material (push fails, pull fails, turn-and-lift works) is literally built from wrong tries that reveal clues, so the lesson rides the structure itself without any preaching."
+    },
+    "cast": [
+      {
+        "role": "Sir Cedric, the smiling knight",
+        "reused": true,
+        "why": "The recurring friendly face of this topic family; he is who we came to visit, his jingling armor gives sound-play, and his visor-click smile delivers the wonder."
+      },
+      {
+        "role": "Old Nan, the gatekeeper",
+        "reused": false,
+        "why": "She knows the door's happy creak and its secrets; she voices the second choice and shows the great wooden beam, making her the story's gentle expert."
+      },
+      {
+        "role": "Watson, the castle cat",
+        "reused": false,
+        "why": "Carries the cozy accent: found in the hay, leads us through doorways, purrs when the door booms shut, and comes along to the warm landing."
+      },
+      {
+        "role": "Cook Margery",
+        "reused": false,
+        "why": "Optional branch host whose warm bread and saved end piece give one ending its small take-home gift."
+      },
+      {
+        "role": "Pip the stable boy",
+        "reused": false,
+        "why": "Optional branch host who teaches the flat-palm apple offer, giving the other ending its small take-home skill."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Setting: the grassy path ending at one great big wooden door with a round iron knocker",
+        "Setting: the sunny courtyard with a well and chickens",
+        "Pattern material: the big heavy door — pushing doesn't work, pulling doesn't work, turning the iron ring and lifting the latch does",
+        "Wonder fact: castle doors of thick heavy oak, wide and strong",
+        "Wonder fact: knight's armor jingles when he walks",
+        "Deeper door moment: knock knock knock on tiptoe, footsteps coming closer",
+        "Deeper door moment: the visor lifts with a click to a big smile and a wink",
+        "Deeper door moment: Old Nan shows the great wooden beam and lets us help slide it",
+        "Wider door moment: the horse nudges for an apple, flat palm like a little table",
+        "Wider door moment: Cook Margery's warm bread slice at the window seat with the castle cat",
+        "Value angle: each wrong try teaches something"
+      ],
+      "gathered_but_unused": [
+        "Castle doors were made of thick, heavy wood, sometimes oak, so they could be strong and last a long time.",
+        "Real castles had a gatehouse — a little room built right over the big doorway where guards could wave hello to visitors.",
+        "Drawbridges were bridges that could lift up and lower down over a ditch of water called a moat.",
+        "Knights wore shining armor made of metal rings and plates that jingled when they walked.",
+        "Castles had tall towers where people could look out and see far across the fields.",
+        "Some castle windows were narrow slits on the outside but wide on the inside, so the window seat was big enough to sit in.",
+        "People in castles kept animals nearby — horses in stables, chickens in the yard, and sometimes falcons.",
+        "Castles had big kitchens with huge fireplaces where cooks made bread and soup for everyone inside."
+      ]
+    },
+    "safety_beat": "In s4b, Pip shows once, lightly, how to stand beside the horse's shoulder and offer a flat palm like a little table — competence modeled as part of the fun, never a warning.",
+    "motif": "The round iron ring on the great big door — first stared at, then tried the wrong ways, finally turned and lifted the right way, and at the end held gently as the door booms happy shut behind us.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: a child-sized quest with a real problem solved by the listener's own hands, sound-words that land as their own small sentences, and a warm landing of bread, cat, and a pocketed loaf for the walk home."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, ears pricked at the jingle",
+        "s2a": "leaning in, hands busy, a small spark of discovery",
+        "s2b": "relieved and welcomed, ready to learn the trick",
+        "s3": "a held breath, then triumph and a giggle at the wink",
+        "s4a": "squishy delight settling into warm and full",
+        "s4b": "tickly, gentle, satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] no voices: segment carries no spoken line; [s2a] flat rhythm: sentence lengths vary little (spread 2.9); [s3] flat rhythm: sentence lengths vary little (spread 3.5); [s4a] flat rhythm: sentence lengths vary little (spread 2.5); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 23% of sentences carry speech or action; [s4b] flat rhythm: sentence lengths vary little (spread 2.9); [s4b] narration heavy: only 23% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] no voices: segment carries no spoken line",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 2.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 23% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s4b] narration heavy: only 23% of sentences carry speech or action",
+      "[s1] no voices: segment carries no spoken line",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 2.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 23% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.9)",
+      "[s4b] narration heavy: only 23% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "03_knights_and_castles_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

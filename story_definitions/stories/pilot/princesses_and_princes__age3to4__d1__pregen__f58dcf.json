@@ -1,0 +1,321 @@
+{
+  "id": "story.princesses_and_princes.age3to4.d1.pregen.f58dcf",
+  "title": "The Crown on the Windowsill",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.princesses_and_princes",
+    "sel_theme": null,
+    "value_lesson": "courtesy as play — bowing and waving to ordinary things (the cat, the lamp, the moon) makes the whole room feel seen and loved",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "One small royal waits on a windowsill at bedtime for the moon to climb over the roof and light up her crown, then says good night to everything she loves before the crown goes down to rest.",
+  "slots": {
+    "princess_name": {
+      "role": "the little princess",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Poppy"
+    },
+    "crown_style": {
+      "role": "what the crown is made of — crayon-colored cardboard or a chain of daisies",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "crayon-colored cardboard"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember a little princess named {princess_name}. She wore a blanket cape, much too big, and a crown of {crown_style}. Her bedroom was her palace. The lamp glowed like a throne-room fire. Grandmother stood guard by the door. \"The moon will rise soon,\" she said. \"Set your crown on the windowsill, and the moon might light it up.\" So the little princess hurried past the cardboard castle, where a paper knight stood on the wall. \"Good night, Sir Knight!\" she called. Then she climbed up by the window to wait. Waiting is hard for small royals.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"While we wait,\" said Grandmother, \"shall we twirl the time away?\" Yes! The little princess twirled. Her cape went whoosh. She twirled again, slow, slow, and her cape bloomed like a big bell. Then Grandmother asked, \"What crown does a moon deserve to see? The cardboard crown, colored bright? Or the daisy crown, smelling sweet?\" The little princess chose. She carried it carefully, carefully, past Sir Knight, and set it on the windowsill. \"Now the moon can find it,\" she whispered. Waiting felt important now.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"While we wait,\" said Grandmother, \"shall we say good evening to the whole court?\" Yes! The little princess waved her slow royal wave, side to side, side to side, like a flag in a breeze. She waved to the royal cat on his cushion-throne, and gave him one soft pat. Then Grandmother asked, \"What crown does a moon deserve to see? The cardboard crown, colored bright? Or the daisy crown, smelling sweet?\" The little princess chose. She carried it carefully, carefully, and set it on the windowsill. \"Now the moon can find it,\" she whispered.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Then a pale glow crept along the edge of the roof. Up climbed the moon, round as a coin. Its light found the crown on the glass, and tiny golden dots began to dance — across the ceiling, over the walls, onto the sleeping cat's back. \"Why does the moon shine all by itself?\" whispered the little princess. \"My crown only shines when light finds it.\" Grandmother bowed from her post by the door. \"Some things carry light,\" she said, \"and some things share it. Both are grand.\" She smiled. \"And how does a royal say good night to a moon?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"A wave,\" said the little princess. \"A slow, royal wave.\" She lifted her hand high and waved it side to side. Side to side. The moonlight twinkled on her crown, as if the moon were waving back. Then off came the crown. Clink. It was the loudest sound in the hushed room. Cape, crown, and slippers waited on the chair, glowing softly. One golden dot stayed above her pillow. Even grand princesses take off their crowns at night. And I remember, she slept like royalty.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"A bow,\" said the little princess. \"A deep, deep bow.\" She bent down slowly, so slowly that her crown slid forward. She caught it with both hands. Grandmother bowed back from her post by the door. Then off came the crown. Clink. It was the loudest sound in the hushed room. Cape, crown, and slippers waited on the chair, glowing softly. One golden dot stayed above her pillow. Even grand princesses take off their crowns at night. And I remember, she slept like royalty.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"While we wait for the moon, my little royal — shall we twirl the time away, or shall we go and say good evening to the whole court?\"",
+      "options": [
+        {
+          "say_word": "Twirl",
+          "label": "twirl slowly and watch the cape bloom open like a bell",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Visit",
+          "label": "give the royal cat and the whole room a slow parade wave",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The moon is shining right on your crown, little royal. How shall we say good night to it — with a slow royal wave, or with a deep, deep bow?\"",
+      "options": [
+        {
+          "say_word": "Wave",
+          "label": "a slow parade wave, side to side like a flag in a breeze, and the moon twinkles back",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Bow",
+          "label": "a bow so deep the crown slides forward and has to be caught with both hands",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.princesses_and_princes",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "For a 3-year-old, the gentle ritual of a little princess twirling, waving, and bowing good night is a perfect calm, mood-focused moment that needs no plot or problem.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.219,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1971,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1825,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1642,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1277,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.073,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "The cardboard-box castle in the corner, with its paper knight drawn on the wall, which the little princess passes on her way to the window — the one glimpse of big adventure in a quiet hour.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "courtesy as play — bowing and waving to ordinary things (the cat, the lamp, the moon) makes the whole room feel seen and loved",
+      "why": "The material offers it naturally: the pattern material of a slow royal wave to each thing in the room and the royal cat accepting a pat are already the emotional heart of the quiet hour, so the value rides along without being taught."
+    },
+    "cast": [
+      {
+        "role": "a little princess in a too-big cape",
+        "reused": false,
+        "why": "She carries the curious_wonder tone: she twirls slowly, watches her cape bloom, and asks the small questions about light and shine."
+      },
+      {
+        "role": "a grandmother playing royal guard",
+        "reused": false,
+        "why": "She stands tall by the door, holds the one small thing to wait for (the moonrise), asks the choice questions in her own warm voice, and bows back — the steady companion of the quiet hour."
+      },
+      {
+        "role": "the family cat, appointed royal cat",
+        "reused": false,
+        "why": "Sits on a cushion like a throne and accepts a gentle pat as a royal greeting; gives the wave-and-bow courtesy play somewhere to land."
+      },
+      {
+        "role": "the moon outside the window",
+        "reused": false,
+        "why": "The small wonder itself: it rises over the roof like something the sky decided to wear and makes the crown glitter back, like waving good night in its own way."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "a bedroom turned into a pretend palace, with a blanket-cape and a lamp glowing like a throne-room fire",
+        "a windowsill at bedtime, looking out at the first stars, with a crown resting on the glass catching the moonlight",
+        "the moon sometimes looks like a coin or a crown in the sky when the sun goes down",
+        "sequins and glitter catch light and throw tiny bright dots onto walls and ceilings",
+        "when you twirl in a cape, the cape lifts and spins like a bell or a parachute",
+        "a slow wave, back and forth like a flag in a breeze, is how royalty in parades wave",
+        "a bow so deep and slow that the crown slides forward and has to be caught with both hands",
+        "the quiet clink of the crown being set down on the bedside table",
+        "cape, crown, and slippers lined up on a chair, waiting for tomorrow, glowing faintly in the nightlight",
+        "a cardboard-box castle in the corner with a paper knight drawn on the wall standing guard",
+        "the little royal wonders why some things shine on their own and some things only shine when light finds them",
+        "even very grand princesses and princes take off their crowns and put on pajamas at night"
+      ],
+      "gathered_but_unused": [
+        "Real crowns are heavy, so a paper crown or a crown of dandelions is much easier for small heads to wear",
+        "When you twirl in a cape, the cape lifts and spins like a bell or a parachute",
+        "Sequins and glitter catch light and throw tiny bright dots onto walls and ceilings",
+        "You can make a crown by linking daisy stems together, one through the other",
+        "A slow wave, back and forth like a flag in a breeze, is how royalty in parades wave to crowds",
+        "The moon sometimes looks like a coin or a crown in the sky when the sun goes down",
+        "Velvet and satin feel very different — velvet is soft like a cat's ear, satin is slippery like water",
+        "Even very grand princesses and princes take off their crowns and put on pajamas at night"
+      ]
+    },
+    "safety_beat": "In s1, as the princess settles at the windowsill, Grandmother shows once, lightly, where to stand: she places the cushion on the floor beside the sill and says a royal always watches moonrise from the floor, with the window latched — competence shown as royal custom, no warning, no tension.",
+    "motif": "The crown catching light and throwing tiny golden dots that dance on walls, ceiling, and sleeping things.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already holds a child inside a slow, fond, luminous bedtime moment — the waiting is given things to do, the moon's arrival is savored rather than rushed, the sound-words land as their own small sentences, and Grandmother's quiet presence supplies all the company the wonder needs."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning in",
+        "s2a": "a delighted giggle, then careful and important",
+        "s2b": "warm and ceremonious, a small wave of pride",
+        "s3": "a held breath, eyes wide at the dancing dots",
+        "s4a": "a soft glow, satisfied and sleepy",
+        "s4b": "a slow smile at the caught crown, then satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 7 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 3.8); [s2b] flat rhythm: sentence lengths vary little (spread 4.4); [s4a] flat rhythm: sentence lengths vary little (spread 3.9); [s4a] narration heavy: only 36% of sentences carry speech or action; [s4b] flat rhythm: sentence lengths vary little (spread 3.3); [s4b] narration heavy: only 36% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s4a] narration heavy: only 36% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s4a] narration heavy: only 36% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "01_princesses_and_princes_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

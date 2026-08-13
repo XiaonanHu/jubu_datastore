@@ -1,0 +1,334 @@
+{
+  "id": "story.animal_babies.age3to4.d1.pregen.43bb48",
+  "title": "Peep Peep, Follow Mama",
+  "age_band": "3-4",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.animal_babies",
+    "sel_theme": null,
+    "value_lesson": "It's okay to be wobbly and slow; Mama waits, and you get there.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "We are the wobbly little duckling, and we follow Mama Duck's quack on a walking journey from the nest to the pond, where we discover the water holds us up.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "You wake up in a soft grass nest. You are a round yellow puff. Your feet go wiggle, wiggle, wiggle. They want to go! Mama Duck stretches up tall. \"Quack, quack,\" she says. That means follow me! You peep. \"Peep, peep, peep!\" You tumble out of the nest. Slap, slap, slap go your little feet. You are the last one in line. The littlest one. Mama waits. She looks back at you. \"Quack,\" she says. Come along, little one. Today is the day! Today we walk all the way to the pond.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "Slap, slap, slap. Past the red barn we go. Then — plip! A rain puddle! Little things wiggle in it. Wiggle, wiggle, wiggle, like tadpoles do. \"Peep, peep, peep!\" you say. What is THIS? \"Quack,\" says Mama. Baby frogs. Swimming before they can hop! You lean in close. But your shadow falls — splish! They all scatter! You wait. You hold still. One little tadpole comes back. Dot, dot, dot. You dabble your beak in. Hello, little swimmer!",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "Slap, slap, slap. Past the cozy coop we go. Then — cheep, cheep! Tiny cheeps! Mama Hen fluffs her wing wide. Underneath is dark and warm. A feather house! \"Peep, peep, peep!\" you say. What is THIS? \"Quack,\" says Mama. Baby chicks, all tucked in. You lean in close. It is rumbly in there. You count the cheeps. One, two, three! Then one little chick peeks out. It looks at you. \"Cheep!\" it says, beak to beak. Hello, little one!",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Through the meadow gate we go. The tall grass tickles our fluff. Tickle, tickle! A lamb bounces over. \"Baa!\" it says. And far across the field, its mama turns her head that very second. \"Baa!\" she calls back. Every mama knows her own baby's sound. Just like Mama knows our peep. Under the willow tree, a mama robin feeds her nestlings. Little beaks open wide, like tiny flowers. Then the path ends. The pond! Big and shiny and new. A frog says, \"Ribbit.\" Plop! Mama slides into the water. \"Quack, quack,\" she calls. That means: your turn, little one.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "You put one foot in. Slap! The water lifts you up! Babies float! \"Peep, peep!\" you cry. \"Quack,\" says Mama. I knew you could. You paddle behind her. Slap, slap, slap go your feet. A frog swims beside you. \"Ribbit,\" it says. Hello, neighbor. You bob past the lily pads. You are swimming! At the muddy edge you climb out. Shake your fluff. One wet footprint stays on the mud. Yours. You are a swimming duckling now.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "You stay at the warm muddy edge. You dabble. Peep, peep, peep at the ripples. Peep at your own wobbly face peeping back. Plop! goes the frog. Plop, plop, plop from pad to pad. Mama floats close. \"Quack,\" she says, soft. I am here. You press your fluff against her warm side. The sun sprinkles gold on the water. The pond knows your peeping face now. Tomorrow you will swim. Today you dabble with Mama.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Quack quack, little one — shall we visit the wiggly swimmers in the puddle, or the cheeping chicks under the hen's wing?\"",
+      "options": [
+        {
+          "say_word": "Puddle",
+          "label": "Stop at the rain puddle to meet the tadpoles",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Chicks",
+          "label": "Stop at the coop to peek under Mama Hen's wing",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Quack quack, Peeper — will you put a foot in and float with me, or shall we dabble together here at the warm muddy edge?\"",
+      "options": [
+        {
+          "say_word": "Float",
+          "label": "Put a foot in and paddle across the pond behind Mama",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Dabble",
+          "label": "Stay at the muddy edge and explore the ripples with Mama",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.animal_babies",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "3-4",
+      "age": 3,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "A wobbly duckling following its mama is inherently a journey, and the simple, repetitive movement of 'peep peep peep' along the way is perfect for a 3-year-old.",
+      "backup": "problem_and_fix",
+      "candidates": [
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2832,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.28,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2448,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2098,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.15,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1311,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0699,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0437,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "The wobbly little duckling — the one who peeps 'what is THIS?' at every stop and sees each wonder first, carrying the curious_wonder accent.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "It's okay to be wobbly and slow; Mama waits, and you get there.",
+      "why": "The material offers it without forcing: the duckling's wobble is in the wonder facts, Mama Duck's listed behavior is 'waits when someone falls behind,' and the journey pattern makes arriving the payoff. It rides along as action, never as a lesson spoken aloud."
+    },
+    "cast": [
+      {
+        "role": "Mama Duck",
+        "reused": false,
+        "why": "The natural lead for a journey pattern in this topic: she leads the line, quacks so we can follow her voice, and waits when we wobble — she is both guide and safety."
+      },
+      {
+        "role": "The wobbly little duckling (us)",
+        "reused": false,
+        "why": "First person plural 'we' rides inside the duckling, so the listening child does the peeping, wobbling, and discovering — the we_adventure teller needs a body to walk in."
+      },
+      {
+        "role": "Mama Hen",
+        "reused": false,
+        "why": "She fluffs her wing-tent open as we pass the coop, giving the deeper-door moment of the warm dark feather house and a glimpse of Animal Homes."
+      },
+      {
+        "role": "The lamb and its mama",
+        "reused": false,
+        "why": "Their baa-and-answer across the meadow mirrors our peep-and-quack, showing every baby has its own sound and every mama knows it."
+      },
+      {
+        "role": "The frog on the lily pad",
+        "reused": false,
+        "why": "The pond's welcomer — ribbit, plop — who shows the water is full of neighbors right before our own first swim."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "duckling can walk and paddle on the very day it hatches",
+        "peep peep peep answered by Mama's quack quack",
+        "Mama leads her ducklings in a wiggly line",
+        "soft fluffy down instead of feathers",
+        "chicks warm under Mama Hen's wing",
+        "lamb knows its own mama's baa",
+        "pond with lily pads and muddy edge with little footprints",
+        "farmyard with red barn, gate, and rain puddles",
+        "meadow path between two fences, tall grass tickling",
+        "willow tree trailing branches like curtains",
+        "first stop: tadpoles like little commas swimming",
+        "second stop: chicks cheeping under Mama Hen's wing",
+        "third stop: lamb bouncing on springy legs",
+        "last stop: frog goes plop, Mama slides into the water",
+        "refrain: peep peep peep, what is THIS?",
+        "deeper door: one foot in the pond and the water lifts — babies float",
+        "deeper door: under the wing is dark, warm, rumbly — a feather house",
+        "wider door: coop, barn stall, and willow nest — every baby has a home",
+        "wider door: mother robin feeding nestlings in the willow"
+      ],
+      "gathered_but_unused": [
+        "A duckling can walk and paddle on the very day it hatches.",
+        "Ducklings say peep peep peep, and Mama duck answers quack quack.",
+        "Mama duck leads her ducklings to the water in a line.",
+        "Ducklings have soft fluffy down instead of smooth feathers.",
+        "A mother hen keeps her chicks warm under her wings.",
+        "A lamb knows its own mama's baa from all the other sheep.",
+        "A baby calf stands up on wobbly legs soon after it is born.",
+        "A mother pig sings to her piglets with grunts while they nurse."
+      ]
+    },
+    "safety_beat": "In s3, at the pond's edge, Mama Duck shows how it's done: she slides in first, then turns and waits in the shallows, quacking — modeling that we enter the water right where Mama is, feet first, close to the muddy edge. Competence, no warning, no tension.",
+    "motif": "The peep-and-quack call and answer — a little voice going out and a big warm voice always coming back, until the last peep is answered by the water itself.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is built from plain named things, ritual sound-refrains that return in the same order, and a warm second-person bond with Mama, and its two endings honor both the bold and the cautious child without decoration or rush."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and wiggly, ready to go",
+        "s2a": "leaning in, then a small held breath",
+        "s2b": "cozy and curious, a beak-to-beak giggle",
+        "s3": "wide-eyed at the big shiny pond",
+        "s4a": "a brave splash of triumph",
+        "s4b": "safe, golden, and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 14 warning. [s1] flat rhythm: sentence lengths vary little (spread 2.1); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 1.3); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 1.2); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 32% of sentences carry speech or action; [s2b] abstract mood word: 'cozy' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 2.1)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 1.3)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 1.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 32% of sentences carry speech or action",
+      "[s2b] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s3] flat rhythm: sentence lengths vary little (spread 2.6)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.2)",
+      "[s4b] narration heavy: only 27% of sentences carry speech or action",
+      "[s1] flat rhythm: sentence lengths vary little (spread 2.1)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 1.3)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 1.2)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] narration heavy: only 32% of sentences carry speech or action",
+      "[s2b] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s3] flat rhythm: sentence lengths vary little (spread 2.6)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 1.8)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 2.2)",
+      "[s4b] narration heavy: only 27% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid7",
+      "source_file": "05_animal_babies_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}
