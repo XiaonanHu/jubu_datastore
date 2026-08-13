@@ -453,6 +453,31 @@ def run_pause_test(story_substring: str, voice_config: dict[str, Any]) -> int:
     everything else at the shipped config and varies only the pause, so the
     choice is a straight listen-and-pick.
     """
+    # Partition BEFORE spending anything: a story with no script for this
+    # language must not take the rest of the batch down with it. One missing
+    # script used to abort the whole run — including stories that were ready —
+    # because stories are processed in id order and the first failure raised.
+    skipped: list[str] = []
+    if args.lang != "en":
+        ready = []
+        for story in stories:
+            if (story.get("narration") or {}).get(args.lang):
+                ready.append(story)
+            else:
+                skipped.append(story["id"])
+        stories = ready
+        if skipped:
+            print(f"skipping {len(skipped)} story(ies) with no '{args.lang}' "
+                  f"narration script:")
+            for story_id in skipped:
+                print(f"  - {story_id}")
+            print()
+        if not stories:
+            raise SystemExit(
+                f"none of the requested stories have a '{args.lang}' narration "
+                f"script yet — add story['narration']['{args.lang}'] first"
+            )
+
     client = CartesiaBatchClient()
     stories = [s for s in bse.load_stories() if story_substring in s["id"]]
     if not stories:
@@ -768,6 +793,12 @@ def main() -> int:
         "Next: python scripts/build_pilot_site.py  (stamps audio info into "
         "stories.json), then copy stories.json to buju_website per PILOT_DEPLOY.md"
     )
+    if skipped:
+        print(
+            f"\nNOTE: {len(skipped)} story(ies) were skipped for lack of a "
+            f"'{args.lang}' script (listed above). Everything else was voiced."
+        )
+        return 1
     return 0
 
 
