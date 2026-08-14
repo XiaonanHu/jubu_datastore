@@ -198,6 +198,13 @@ def verify_bucket_coverage(bucket: str, dry_run: bool) -> None:
         for clips in (story.get("audio") or {}).get("segments", {}).values():
             for clip in clips:
                 wanted.add(f"{story['id']}/{clip['file']}")
+                # Alternate-language tracks reuse the English filenames one
+                # directory down. They must be verified too — a family reading
+                # in Hindi hits those paths and nothing else, so leaving them
+                # out means the one check against "Listen button, then silence"
+                # never looks at the track most likely to be missing.
+                for lang in story.get("audio_langs") or []:
+                    wanted.add(f"{story['id']}/{lang}/{clip['file']}")
     if not wanted:
         raise Failed("no clips referenced by stories.json — nothing to verify")
     listing = run(
@@ -220,7 +227,11 @@ def verify_bucket_coverage(bucket: str, dry_run: bool) -> None:
             f"bucket, e.g. {missing[0]} — families would see a Listen button "
             f"and hear nothing. Re-run with the upload step, or regenerate."
         )
-    print(f"    ok: all {len(wanted)} referenced clips are in the bucket")
+    langs = sorted({
+        lang for story in data["stories"] for lang in (story.get("audio_langs") or [])
+    })
+    extra = f" (including {', '.join(langs)} tracks)" if langs else ""
+    print(f"    ok: all {len(wanted)} referenced clips are in the bucket{extra}")
 
 
 def copy_to_website(website_root: Path, dry_run: bool) -> None:
