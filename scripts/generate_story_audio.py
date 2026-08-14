@@ -769,6 +769,15 @@ def main() -> int:
             languages[args.lang] = manifest_entry
             existing["languages"] = languages
             manifest_entry = existing
+        else:
+            # Symmetrically: re-voicing English replaces the top level, so
+            # carry any sibling language tracks across or they are silently
+            # dropped and their clips — already in the bucket — go unlisted.
+            existing_languages = (previous_manifest.get(story["id"]) or {}).get(
+                "languages"
+            )
+            if existing_languages:
+                manifest_entry["languages"] = existing_languages
         new_manifest_entries[story["id"]] = manifest_entry
         # Persist per story: an 80-story run that dies at story 70 must not
         # throw away the manifest for the 69 that succeeded.

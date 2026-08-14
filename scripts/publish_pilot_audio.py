@@ -163,6 +163,13 @@ def rebuild_site(dry_run: bool) -> int:
     if dry_run:
         return -1
     print(output.strip())
+    if "WARNING: audio manifest has no English track" in output:
+        raise Failed(
+            "at least one story has been voiced only in a non-English language. "
+            "English carries the page text and the clip structure every other "
+            "language reuses, so voice those stories in English (the command is "
+            "printed above) before publishing."
+        )
     if "WARNING: audio manifest is stale" in output:
         raise Failed(
             "the manifest is stale for at least one story (its prose changed "

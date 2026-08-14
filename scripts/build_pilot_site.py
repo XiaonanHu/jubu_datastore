@@ -70,7 +70,14 @@ def story_audio_field(
     story: dict[str, Any], manifest_entry: dict[str, Any]
 ) -> dict[str, Any] | None:
     """The parent-facing `audio` field for one voiced story, or None when the
-    manifest is stale (story prose changed since generation — regenerate).
+    story cannot be stamped: either it has no English track at all (voice it),
+    or the English track is stale (prose changed since generation — regenerate).
+
+    English is load-bearing, not just one language among several: the page text
+    is English, and the player derives its chunk structure from this field, with
+    alternate-language clips reusing the English filenames one directory down.
+    A story voiced only in another language therefore has nothing to hang those
+    clips on.
 
     Per unit (segment or choice question), a list over paragraph chunks:
     {"i": chunk index, "file": mp3 under /pilot/audio/<story_id>/,
@@ -84,6 +91,19 @@ def story_audio_field(
         for choice_point in story["choice_points"]
     )
     manifest_segments = manifest_entry.get("segments", {})
+    if not manifest_segments:
+        # Distinct from staleness: nothing changed, the English pass never ran.
+        # Reported separately because "stale" sends you looking for an edit to
+        # the prose that never happened.
+        others = sorted(manifest_entry.get("languages") or {})
+        heard_in = f" (voiced only in {', '.join(others)})" if others else ""
+        short_id = story["id"].rsplit(".", 1)[-1]
+        print(
+            f"WARNING: audio manifest has no English track for {story['id']}"
+            f"{heard_in} — skipping its audio; voice it in English first: "
+            f"python scripts/generate_story_audio.py --stories {short_id}"
+        )
+        return None
     stamped_segments: dict[str, list[dict[str, Any]]] = {}
     for unit_id, prose in unit_prose.items():
         chunks = story_audio_chunks.paragraph_chunks(prose)
@@ -183,9 +203,13 @@ def build_parent_data(stories: list[dict[str, Any]]) -> dict[str, Any]:
                 # path. Listed only when a language covers every unit the
                 # English covers — a partial track would switch language
                 # mid-story.
+                # Compare UNIT IDS against the English ones — audio_field's own
+                # keys are voice_id/model_id/speed/..., which no language track
+                # will ever be a superset of.
+                english_units = set(audio_field["segments"])
                 langs = []
                 for code, track in (entry.get("languages") or {}).items():
-                    if set(track.get("segments") or {}) >= set(audio_field):
+                    if set(track.get("segments") or {}) >= english_units:
                         langs.append(code)
                 if langs:
                     parent_story["audio_langs"] = sorted(langs)
