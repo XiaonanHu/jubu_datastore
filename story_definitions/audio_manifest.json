@@ -32693,6 +32693,562 @@
      "chars": 185
     }
    ]
+  },
+  "languages": {
+   "hi": {
+    "voice_id": "47f3bbb1-e98f-4e0c-92c5-5f0325e1e206",
+    "model_id": "sonic-3",
+    "speed": 1.0,
+    "emotion": null,
+    "sentence_pause_ms": 200,
+    "mp3_bit_rate": 128000,
+    "segments": {
+     "s1": [
+      {
+       "i": 0,
+       "file": "s1_00.mp3",
+       "has_slot": false,
+       "chars": 156
+      },
+      {
+       "i": 1,
+       "file": "s1_01.mp3",
+       "has_slot": false,
+       "chars": 153
+      },
+      {
+       "i": 2,
+       "file": "s1_02.mp3",
+       "has_slot": false,
+       "chars": 190
+      },
+      {
+       "i": 3,
+       "file": "s1_03.mp3",
+       "has_slot": false,
+       "chars": 314
+      },
+      {
+       "i": 4,
+       "file": "s1_04.mp3",
+       "has_slot": false,
+       "chars": 152
+      },
+      {
+       "i": 5,
+       "file": "s1_05.mp3",
+       "has_slot": false,
+       "chars": 50
+      },
+      {
+       "i": 6,
+       "file": "s1_06.mp3",
+       "has_slot": false,
+       "chars": 60
+      },
+      {
+       "i": 7,
+       "file": "s1_07.mp3",
+       "has_slot": false,
+       "chars": 116
+      },
+      {
+       "i": 8,
+       "file": "s1_08.mp3",
+       "has_slot": false,
+       "chars": 58
+      },
+      {
+       "i": 9,
+       "file": "s1_09.mp3",
+       "has_slot": false,
+       "chars": 34
+      },
+      {
+       "i": 10,
+       "file": "s1_10.mp3",
+       "has_slot": false,
+       "chars": 311
+      },
+      {
+       "i": 11,
+       "file": "s1_11.mp3",
+       "has_slot": false,
+       "chars": 97
+      },
+      {
+       "i": 12,
+       "file": "s1_12.mp3",
+       "has_slot": false,
+       "chars": 114
+      },
+      {
+       "i": 13,
+       "file": "s1_13.mp3",
+       "has_slot": false,
+       "chars": 35
+      },
+      {
+       "i": 14,
+       "file": "s1_14.mp3",
+       "has_slot": true,
+       "chars": 93
+      },
+      {
+       "i": 15,
+       "file": "s1_15.mp3",
+       "has_slot": false,
+       "chars": 66
+      }
+     ],
+     "s2a": [
+      {
+       "i": 0,
+       "file": "s2a_00.mp3",
+       "has_slot": false,
+       "chars": 79
+      },
+      {
+       "i": 1,
+       "file": "s2a_01.mp3",
+       "has_slot": false,
+       "chars": 56
+      },
+      {
+       "i": 2,
+       "file": "s2a_02.mp3",
+       "has_slot": false,
+       "chars": 333
+      },
+      {
+       "i": 3,
+       "file": "s2a_03.mp3",
+       "has_slot": false,
+       "chars": 49
+      },
+      {
+       "i": 4,
+       "file": "s2a_04.mp3",
+       "has_slot": false,
+       "chars": 232
+      },
+      {
+       "i": 5,
+       "file": "s2a_05.mp3",
+       "has_slot": false,
+       "chars": 7
+      },
+      {
+       "i": 6,
+       "file": "s2a_06.mp3",
+       "has_slot": false,
+       "chars": 86
+      },
+      {
+       "i": 7,
+       "file": "s2a_07.mp3",
+       "has_slot": false,
+       "chars": 328
+      },
+      {
+       "i": 8,
+       "file": "s2a_08.mp3",
+       "has_slot": false,
+       "chars": 61
+      },
+      {
+       "i": 9,
+       "file": "s2a_09.mp3",
+       "has_slot": false,
+       "chars": 96
+      },
+      {
+       "i": 10,
+       "file": "s2a_10.mp3",
+       "has_slot": false,
+       "chars": 225
+      },
+      {
+       "i": 11,
+       "file": "s2a_11.mp3",
+       "has_slot": false,
+       "chars": 83
+      },
+      {
+       "i": 12,
+       "file": "s2a_12.mp3",
+       "has_slot": false,
+       "chars": 65
+      }
+     ],
+     "s2b": [
+      {
+       "i": 0,
+       "file": "s2b_00.mp3",
+       "has_slot": false,
+       "chars": 79
+      },
+      {
+       "i": 1,
+       "file": "s2b_01.mp3",
+       "has_slot": false,
+       "chars": 73
+      },
+      {
+       "i": 2,
+       "file": "s2b_02.mp3",
+       "has_slot": false,
+       "chars": 276
+      },
+      {
+       "i": 3,
+       "file": "s2b_03.mp3",
+       "has_slot": false,
+       "chars": 154
+      },
+      {
+       "i": 4,
+       "file": "s2b_04.mp3",
+       "has_slot": false,
+       "chars": 306
+      },
+      {
+       "i": 5,
+       "file": "s2b_05.mp3",
+       "has_slot": false,
+       "chars": 47
+      },
+      {
+       "i": 6,
+       "file": "s2b_06.mp3",
+       "has_slot": false,
+       "chars": 101
+      },
+      {
+       "i": 7,
+       "file": "s2b_07.mp3",
+       "has_slot": false,
+       "chars": 135
+      },
+      {
+       "i": 8,
+       "file": "s2b_08.mp3",
+       "has_slot": false,
+       "chars": 237
+      },
+      {
+       "i": 9,
+       "file": "s2b_09.mp3",
+       "has_slot": false,
+       "chars": 192
+      },
+      {
+       "i": 10,
+       "file": "s2b_10.mp3",
+       "has_slot": false,
+       "chars": 29
+      },
+      {
+       "i": 11,
+       "file": "s2b_11.mp3",
+       "has_slot": false,
+       "chars": 37
+      },
+      {
+       "i": 12,
+       "file": "s2b_12.mp3",
+       "has_slot": false,
+       "chars": 119
+      },
+      {
+       "i": 13,
+       "file": "s2b_13.mp3",
+       "has_slot": false,
+       "chars": 96
+      },
+      {
+       "i": 14,
+       "file": "s2b_14.mp3",
+       "has_slot": false,
+       "chars": 52
+      }
+     ],
+     "s3": [
+      {
+       "i": 0,
+       "file": "s3_00.mp3",
+       "has_slot": false,
+       "chars": 130
+      },
+      {
+       "i": 1,
+       "file": "s3_01.mp3",
+       "has_slot": false,
+       "chars": 34
+      },
+      {
+       "i": 2,
+       "file": "s3_02.mp3",
+       "has_slot": false,
+       "chars": 177
+      },
+      {
+       "i": 3,
+       "file": "s3_03.mp3",
+       "has_slot": false,
+       "chars": 84
+      },
+      {
+       "i": 4,
+       "file": "s3_04.mp3",
+       "has_slot": false,
+       "chars": 164
+      },
+      {
+       "i": 5,
+       "file": "s3_05.mp3",
+       "has_slot": false,
+       "chars": 356
+      },
+      {
+       "i": 6,
+       "file": "s3_06.mp3",
+       "has_slot": false,
+       "chars": 60
+      },
+      {
+       "i": 7,
+       "file": "s3_07.mp3",
+       "has_slot": false,
+       "chars": 39
+      },
+      {
+       "i": 8,
+       "file": "s3_08.mp3",
+       "has_slot": false,
+       "chars": 163
+      },
+      {
+       "i": 9,
+       "file": "s3_09.mp3",
+       "has_slot": false,
+       "chars": 224
+      },
+      {
+       "i": 10,
+       "file": "s3_10.mp3",
+       "has_slot": false,
+       "chars": 176
+      },
+      {
+       "i": 11,
+       "file": "s3_11.mp3",
+       "has_slot": false,
+       "chars": 53
+      },
+      {
+       "i": 12,
+       "file": "s3_12.mp3",
+       "has_slot": false,
+       "chars": 49
+      }
+     ],
+     "s4a": [
+      {
+       "i": 0,
+       "file": "s4a_00.mp3",
+       "has_slot": false,
+       "chars": 69
+      },
+      {
+       "i": 1,
+       "file": "s4a_01.mp3",
+       "has_slot": false,
+       "chars": 241
+      },
+      {
+       "i": 2,
+       "file": "s4a_02.mp3",
+       "has_slot": false,
+       "chars": 122
+      },
+      {
+       "i": 3,
+       "file": "s4a_03.mp3",
+       "has_slot": false,
+       "chars": 155
+      },
+      {
+       "i": 4,
+       "file": "s4a_04.mp3",
+       "has_slot": false,
+       "chars": 77
+      },
+      {
+       "i": 5,
+       "file": "s4a_05.mp3",
+       "has_slot": false,
+       "chars": 40
+      },
+      {
+       "i": 6,
+       "file": "s4a_06.mp3",
+       "has_slot": false,
+       "chars": 251
+      },
+      {
+       "i": 7,
+       "file": "s4a_07.mp3",
+       "has_slot": true,
+       "chars": 194
+      },
+      {
+       "i": 8,
+       "file": "s4a_08.mp3",
+       "has_slot": false,
+       "chars": 190
+      },
+      {
+       "i": 9,
+       "file": "s4a_09.mp3",
+       "has_slot": false,
+       "chars": 123
+      },
+      {
+       "i": 10,
+       "file": "s4a_10.mp3",
+       "has_slot": false,
+       "chars": 88
+      },
+      {
+       "i": 11,
+       "file": "s4a_11.mp3",
+       "has_slot": false,
+       "chars": 189
+      },
+      {
+       "i": 12,
+       "file": "s4a_12.mp3",
+       "has_slot": false,
+       "chars": 58
+      },
+      {
+       "i": 13,
+       "file": "s4a_13.mp3",
+       "has_slot": false,
+       "chars": 35
+      }
+     ],
+     "s4b": [
+      {
+       "i": 0,
+       "file": "s4b_00.mp3",
+       "has_slot": false,
+       "chars": 52
+      },
+      {
+       "i": 1,
+       "file": "s4b_01.mp3",
+       "has_slot": false,
+       "chars": 305
+      },
+      {
+       "i": 2,
+       "file": "s4b_02.mp3",
+       "has_slot": false,
+       "chars": 68
+      },
+      {
+       "i": 3,
+       "file": "s4b_03.mp3",
+       "has_slot": false,
+       "chars": 294
+      },
+      {
+       "i": 4,
+       "file": "s4b_04.mp3",
+       "has_slot": false,
+       "chars": 52
+      },
+      {
+       "i": 5,
+       "file": "s4b_05.mp3",
+       "has_slot": false,
+       "chars": 270
+      },
+      {
+       "i": 6,
+       "file": "s4b_06.mp3",
+       "has_slot": false,
+       "chars": 64
+      },
+      {
+       "i": 7,
+       "file": "s4b_07.mp3",
+       "has_slot": false,
+       "chars": 105
+      },
+      {
+       "i": 8,
+       "file": "s4b_08.mp3",
+       "has_slot": false,
+       "chars": 160
+      },
+      {
+       "i": 9,
+       "file": "s4b_09.mp3",
+       "has_slot": false,
+       "chars": 85
+      },
+      {
+       "i": 10,
+       "file": "s4b_10.mp3",
+       "has_slot": false,
+       "chars": 98
+      },
+      {
+       "i": 11,
+       "file": "s4b_11.mp3",
+       "has_slot": false,
+       "chars": 40
+      },
+      {
+       "i": 12,
+       "file": "s4b_12.mp3",
+       "has_slot": false,
+       "chars": 216
+      },
+      {
+       "i": 13,
+       "file": "s4b_13.mp3",
+       "has_slot": false,
+       "chars": 66
+      },
+      {
+       "i": 14,
+       "file": "s4b_14.mp3",
+       "has_slot": false,
+       "chars": 28
+      }
+     ],
+     "c1": [
+      {
+       "i": 0,
+       "file": "c1_00.mp3",
+       "has_slot": false,
+       "chars": 153
+      }
+     ],
+     "c2": [
+      {
+       "i": 0,
+       "file": "c2_00.mp3",
+       "has_slot": false,
+       "chars": 161
+      }
+     ]
+    }
+   }
   }
  },
  "story.ocean_animals.age3to4.d1.pregen.2f3db9": {
@@ -35505,6 +36061,532 @@
      "chars": 167
     }
    ]
+  },
+  "languages": {
+   "hi": {
+    "voice_id": "47f3bbb1-e98f-4e0c-92c5-5f0325e1e206",
+    "model_id": "sonic-3",
+    "speed": 1.0,
+    "emotion": null,
+    "sentence_pause_ms": 200,
+    "mp3_bit_rate": 128000,
+    "segments": {
+     "s1": [
+      {
+       "i": 0,
+       "file": "s1_00.mp3",
+       "has_slot": false,
+       "chars": 86
+      },
+      {
+       "i": 1,
+       "file": "s1_01.mp3",
+       "has_slot": false,
+       "chars": 229
+      },
+      {
+       "i": 2,
+       "file": "s1_02.mp3",
+       "has_slot": false,
+       "chars": 66
+      },
+      {
+       "i": 3,
+       "file": "s1_03.mp3",
+       "has_slot": false,
+       "chars": 180
+      },
+      {
+       "i": 4,
+       "file": "s1_04.mp3",
+       "has_slot": false,
+       "chars": 60
+      },
+      {
+       "i": 5,
+       "file": "s1_05.mp3",
+       "has_slot": false,
+       "chars": 288
+      },
+      {
+       "i": 6,
+       "file": "s1_06.mp3",
+       "has_slot": false,
+       "chars": 48
+      },
+      {
+       "i": 7,
+       "file": "s1_07.mp3",
+       "has_slot": false,
+       "chars": 47
+      },
+      {
+       "i": 8,
+       "file": "s1_08.mp3",
+       "has_slot": false,
+       "chars": 149
+      },
+      {
+       "i": 9,
+       "file": "s1_09.mp3",
+       "has_slot": false,
+       "chars": 73
+      },
+      {
+       "i": 10,
+       "file": "s1_10.mp3",
+       "has_slot": false,
+       "chars": 65
+      },
+      {
+       "i": 11,
+       "file": "s1_11.mp3",
+       "has_slot": false,
+       "chars": 100
+      }
+     ],
+     "s2a": [
+      {
+       "i": 0,
+       "file": "s2a_00.mp3",
+       "has_slot": false,
+       "chars": 61
+      },
+      {
+       "i": 1,
+       "file": "s2a_01.mp3",
+       "has_slot": false,
+       "chars": 102
+      },
+      {
+       "i": 2,
+       "file": "s2a_02.mp3",
+       "has_slot": false,
+       "chars": 202
+      },
+      {
+       "i": 3,
+       "file": "s2a_03.mp3",
+       "has_slot": false,
+       "chars": 39
+      },
+      {
+       "i": 4,
+       "file": "s2a_04.mp3",
+       "has_slot": false,
+       "chars": 159
+      },
+      {
+       "i": 5,
+       "file": "s2a_05.mp3",
+       "has_slot": false,
+       "chars": 103
+      },
+      {
+       "i": 6,
+       "file": "s2a_06.mp3",
+       "has_slot": false,
+       "chars": 121
+      },
+      {
+       "i": 7,
+       "file": "s2a_07.mp3",
+       "has_slot": false,
+       "chars": 151
+      },
+      {
+       "i": 8,
+       "file": "s2a_08.mp3",
+       "has_slot": false,
+       "chars": 74
+      },
+      {
+       "i": 9,
+       "file": "s2a_09.mp3",
+       "has_slot": false,
+       "chars": 189
+      },
+      {
+       "i": 10,
+       "file": "s2a_10.mp3",
+       "has_slot": false,
+       "chars": 33
+      },
+      {
+       "i": 11,
+       "file": "s2a_11.mp3",
+       "has_slot": false,
+       "chars": 279
+      },
+      {
+       "i": 12,
+       "file": "s2a_12.mp3",
+       "has_slot": true,
+       "chars": 186
+      }
+     ],
+     "s2b": [
+      {
+       "i": 0,
+       "file": "s2b_00.mp3",
+       "has_slot": false,
+       "chars": 62
+      },
+      {
+       "i": 1,
+       "file": "s2b_01.mp3",
+       "has_slot": false,
+       "chars": 26
+      },
+      {
+       "i": 2,
+       "file": "s2b_02.mp3",
+       "has_slot": false,
+       "chars": 25
+      },
+      {
+       "i": 3,
+       "file": "s2b_03.mp3",
+       "has_slot": false,
+       "chars": 22
+      },
+      {
+       "i": 4,
+       "file": "s2b_04.mp3",
+       "has_slot": false,
+       "chars": 183
+      },
+      {
+       "i": 5,
+       "file": "s2b_05.mp3",
+       "has_slot": true,
+       "chars": 157
+      },
+      {
+       "i": 6,
+       "file": "s2b_06.mp3",
+       "has_slot": false,
+       "chars": 142
+      },
+      {
+       "i": 7,
+       "file": "s2b_07.mp3",
+       "has_slot": false,
+       "chars": 246
+      },
+      {
+       "i": 8,
+       "file": "s2b_08.mp3",
+       "has_slot": false,
+       "chars": 72
+      },
+      {
+       "i": 9,
+       "file": "s2b_09.mp3",
+       "has_slot": false,
+       "chars": 151
+      },
+      {
+       "i": 10,
+       "file": "s2b_10.mp3",
+       "has_slot": false,
+       "chars": 51
+      },
+      {
+       "i": 11,
+       "file": "s2b_11.mp3",
+       "has_slot": true,
+       "chars": 175
+      }
+     ],
+     "s3": [
+      {
+       "i": 0,
+       "file": "s3_00.mp3",
+       "has_slot": false,
+       "chars": 60
+      },
+      {
+       "i": 1,
+       "file": "s3_01.mp3",
+       "has_slot": false,
+       "chars": 266
+      },
+      {
+       "i": 2,
+       "file": "s3_02.mp3",
+       "has_slot": false,
+       "chars": 84
+      },
+      {
+       "i": 3,
+       "file": "s3_03.mp3",
+       "has_slot": false,
+       "chars": 70
+      },
+      {
+       "i": 4,
+       "file": "s3_04.mp3",
+       "has_slot": false,
+       "chars": 66
+      },
+      {
+       "i": 5,
+       "file": "s3_05.mp3",
+       "has_slot": false,
+       "chars": 102
+      },
+      {
+       "i": 6,
+       "file": "s3_06.mp3",
+       "has_slot": false,
+       "chars": 207
+      },
+      {
+       "i": 7,
+       "file": "s3_07.mp3",
+       "has_slot": false,
+       "chars": 48
+      },
+      {
+       "i": 8,
+       "file": "s3_08.mp3",
+       "has_slot": false,
+       "chars": 226
+      },
+      {
+       "i": 9,
+       "file": "s3_09.mp3",
+       "has_slot": false,
+       "chars": 19
+      },
+      {
+       "i": 10,
+       "file": "s3_10.mp3",
+       "has_slot": false,
+       "chars": 69
+      },
+      {
+       "i": 11,
+       "file": "s3_11.mp3",
+       "has_slot": false,
+       "chars": 172
+      },
+      {
+       "i": 12,
+       "file": "s3_12.mp3",
+       "has_slot": false,
+       "chars": 99
+      },
+      {
+       "i": 13,
+       "file": "s3_13.mp3",
+       "has_slot": false,
+       "chars": 42
+      },
+      {
+       "i": 14,
+       "file": "s3_14.mp3",
+       "has_slot": false,
+       "chars": 168
+      }
+     ],
+     "s4a": [
+      {
+       "i": 0,
+       "file": "s4a_00.mp3",
+       "has_slot": false,
+       "chars": 57
+      },
+      {
+       "i": 1,
+       "file": "s4a_01.mp3",
+       "has_slot": false,
+       "chars": 214
+      },
+      {
+       "i": 2,
+       "file": "s4a_02.mp3",
+       "has_slot": false,
+       "chars": 85
+      },
+      {
+       "i": 3,
+       "file": "s4a_03.mp3",
+       "has_slot": false,
+       "chars": 322
+      },
+      {
+       "i": 4,
+       "file": "s4a_04.mp3",
+       "has_slot": false,
+       "chars": 30
+      },
+      {
+       "i": 5,
+       "file": "s4a_05.mp3",
+       "has_slot": false,
+       "chars": 170
+      },
+      {
+       "i": 6,
+       "file": "s4a_06.mp3",
+       "has_slot": false,
+       "chars": 75
+      },
+      {
+       "i": 7,
+       "file": "s4a_07.mp3",
+       "has_slot": false,
+       "chars": 212
+      },
+      {
+       "i": 8,
+       "file": "s4a_08.mp3",
+       "has_slot": false,
+       "chars": 136
+      },
+      {
+       "i": 9,
+       "file": "s4a_09.mp3",
+       "has_slot": false,
+       "chars": 79
+      },
+      {
+       "i": 10,
+       "file": "s4a_10.mp3",
+       "has_slot": false,
+       "chars": 64
+      },
+      {
+       "i": 11,
+       "file": "s4a_11.mp3",
+       "has_slot": false,
+       "chars": 304
+      }
+     ],
+     "s4b": [
+      {
+       "i": 0,
+       "file": "s4b_00.mp3",
+       "has_slot": false,
+       "chars": 67
+      },
+      {
+       "i": 1,
+       "file": "s4b_01.mp3",
+       "has_slot": false,
+       "chars": 170
+      },
+      {
+       "i": 2,
+       "file": "s4b_02.mp3",
+       "has_slot": false,
+       "chars": 40
+      },
+      {
+       "i": 3,
+       "file": "s4b_03.mp3",
+       "has_slot": false,
+       "chars": 105
+      },
+      {
+       "i": 4,
+       "file": "s4b_04.mp3",
+       "has_slot": false,
+       "chars": 25
+      },
+      {
+       "i": 5,
+       "file": "s4b_05.mp3",
+       "has_slot": false,
+       "chars": 64
+      },
+      {
+       "i": 6,
+       "file": "s4b_06.mp3",
+       "has_slot": false,
+       "chars": 225
+      },
+      {
+       "i": 7,
+       "file": "s4b_07.mp3",
+       "has_slot": false,
+       "chars": 104
+      },
+      {
+       "i": 8,
+       "file": "s4b_08.mp3",
+       "has_slot": false,
+       "chars": 156
+      },
+      {
+       "i": 9,
+       "file": "s4b_09.mp3",
+       "has_slot": false,
+       "chars": 79
+      },
+      {
+       "i": 10,
+       "file": "s4b_10.mp3",
+       "has_slot": false,
+       "chars": 40
+      },
+      {
+       "i": 11,
+       "file": "s4b_11.mp3",
+       "has_slot": false,
+       "chars": 219
+      },
+      {
+       "i": 12,
+       "file": "s4b_12.mp3",
+       "has_slot": false,
+       "chars": 192
+      },
+      {
+       "i": 13,
+       "file": "s4b_13.mp3",
+       "has_slot": false,
+       "chars": 72
+      },
+      {
+       "i": 14,
+       "file": "s4b_14.mp3",
+       "has_slot": false,
+       "chars": 108
+      },
+      {
+       "i": 15,
+       "file": "s4b_15.mp3",
+       "has_slot": false,
+       "chars": 119
+      },
+      {
+       "i": 16,
+       "file": "s4b_16.mp3",
+       "has_slot": false,
+       "chars": 29
+      }
+     ],
+     "c1": [
+      {
+       "i": 0,
+       "file": "c1_00.mp3",
+       "has_slot": false,
+       "chars": 167
+      }
+     ],
+     "c2": [
+      {
+       "i": 0,
+       "file": "c2_00.mp3",
+       "has_slot": false,
+       "chars": 160
+      }
+     ]
+    }
+   }
   }
  },
  "story.earthquakes.age11to12.d1.pregen.8d4597": {
@@ -37435,6 +38517,460 @@
      "chars": 197
     }
    ]
+  },
+  "languages": {
+   "hi": {
+    "voice_id": "47f3bbb1-e98f-4e0c-92c5-5f0325e1e206",
+    "model_id": "sonic-3",
+    "speed": 1.0,
+    "emotion": null,
+    "sentence_pause_ms": 200,
+    "mp3_bit_rate": 128000,
+    "segments": {
+     "s1": [
+      {
+       "i": 0,
+       "file": "s1_00.mp3",
+       "has_slot": false,
+       "chars": 416
+      },
+      {
+       "i": 1,
+       "file": "s1_01.mp3",
+       "has_slot": false,
+       "chars": 232
+      },
+      {
+       "i": 2,
+       "file": "s1_02.mp3",
+       "has_slot": false,
+       "chars": 305
+      },
+      {
+       "i": 3,
+       "file": "s1_03.mp3",
+       "has_slot": false,
+       "chars": 88
+      },
+      {
+       "i": 4,
+       "file": "s1_04.mp3",
+       "has_slot": false,
+       "chars": 232
+      },
+      {
+       "i": 5,
+       "file": "s1_05.mp3",
+       "has_slot": false,
+       "chars": 56
+      },
+      {
+       "i": 6,
+       "file": "s1_06.mp3",
+       "has_slot": false,
+       "chars": 320
+      },
+      {
+       "i": 7,
+       "file": "s1_07.mp3",
+       "has_slot": false,
+       "chars": 132
+      },
+      {
+       "i": 8,
+       "file": "s1_08.mp3",
+       "has_slot": false,
+       "chars": 86
+      },
+      {
+       "i": 9,
+       "file": "s1_09.mp3",
+       "has_slot": false,
+       "chars": 9
+      },
+      {
+       "i": 10,
+       "file": "s1_10.mp3",
+       "has_slot": false,
+       "chars": 70
+      },
+      {
+       "i": 11,
+       "file": "s1_11.mp3",
+       "has_slot": false,
+       "chars": 62
+      },
+      {
+       "i": 12,
+       "file": "s1_12.mp3",
+       "has_slot": false,
+       "chars": 26
+      }
+     ],
+     "s2a": [
+      {
+       "i": 0,
+       "file": "s2a_00.mp3",
+       "has_slot": false,
+       "chars": 97
+      },
+      {
+       "i": 1,
+       "file": "s2a_01.mp3",
+       "has_slot": false,
+       "chars": 203
+      },
+      {
+       "i": 2,
+       "file": "s2a_02.mp3",
+       "has_slot": false,
+       "chars": 9
+      },
+      {
+       "i": 3,
+       "file": "s2a_03.mp3",
+       "has_slot": false,
+       "chars": 62
+      },
+      {
+       "i": 4,
+       "file": "s2a_04.mp3",
+       "has_slot": false,
+       "chars": 219
+      },
+      {
+       "i": 5,
+       "file": "s2a_05.mp3",
+       "has_slot": false,
+       "chars": 239
+      },
+      {
+       "i": 6,
+       "file": "s2a_06.mp3",
+       "has_slot": false,
+       "chars": 76
+      },
+      {
+       "i": 7,
+       "file": "s2a_07.mp3",
+       "has_slot": false,
+       "chars": 17
+      },
+      {
+       "i": 8,
+       "file": "s2a_08.mp3",
+       "has_slot": false,
+       "chars": 191
+      },
+      {
+       "i": 9,
+       "file": "s2a_09.mp3",
+       "has_slot": false,
+       "chars": 134
+      },
+      {
+       "i": 10,
+       "file": "s2a_10.mp3",
+       "has_slot": false,
+       "chars": 47
+      },
+      {
+       "i": 11,
+       "file": "s2a_11.mp3",
+       "has_slot": false,
+       "chars": 101
+      },
+      {
+       "i": 12,
+       "file": "s2a_12.mp3",
+       "has_slot": false,
+       "chars": 243
+      }
+     ],
+     "s2b": [
+      {
+       "i": 0,
+       "file": "s2b_00.mp3",
+       "has_slot": false,
+       "chars": 178
+      },
+      {
+       "i": 1,
+       "file": "s2b_01.mp3",
+       "has_slot": false,
+       "chars": 276
+      },
+      {
+       "i": 2,
+       "file": "s2b_02.mp3",
+       "has_slot": false,
+       "chars": 272
+      },
+      {
+       "i": 3,
+       "file": "s2b_03.mp3",
+       "has_slot": false,
+       "chars": 82
+      },
+      {
+       "i": 4,
+       "file": "s2b_04.mp3",
+       "has_slot": false,
+       "chars": 11
+      },
+      {
+       "i": 5,
+       "file": "s2b_05.mp3",
+       "has_slot": false,
+       "chars": 53
+      },
+      {
+       "i": 6,
+       "file": "s2b_06.mp3",
+       "has_slot": false,
+       "chars": 113
+      },
+      {
+       "i": 7,
+       "file": "s2b_07.mp3",
+       "has_slot": false,
+       "chars": 290
+      },
+      {
+       "i": 8,
+       "file": "s2b_08.mp3",
+       "has_slot": false,
+       "chars": 36
+      },
+      {
+       "i": 9,
+       "file": "s2b_09.mp3",
+       "has_slot": false,
+       "chars": 311
+      },
+      {
+       "i": 10,
+       "file": "s2b_10.mp3",
+       "has_slot": false,
+       "chars": 59
+      },
+      {
+       "i": 11,
+       "file": "s2b_11.mp3",
+       "has_slot": false,
+       "chars": 64
+      },
+      {
+       "i": 12,
+       "file": "s2b_12.mp3",
+       "has_slot": false,
+       "chars": 210
+      }
+     ],
+     "s3": [
+      {
+       "i": 0,
+       "file": "s3_00.mp3",
+       "has_slot": false,
+       "chars": 440
+      },
+      {
+       "i": 1,
+       "file": "s3_01.mp3",
+       "has_slot": false,
+       "chars": 448
+      },
+      {
+       "i": 2,
+       "file": "s3_02.mp3",
+       "has_slot": false,
+       "chars": 313
+      },
+      {
+       "i": 3,
+       "file": "s3_03.mp3",
+       "has_slot": false,
+       "chars": 105
+      },
+      {
+       "i": 4,
+       "file": "s3_04.mp3",
+       "has_slot": false,
+       "chars": 76
+      },
+      {
+       "i": 5,
+       "file": "s3_05.mp3",
+       "has_slot": true,
+       "chars": 58
+      },
+      {
+       "i": 6,
+       "file": "s3_06.mp3",
+       "has_slot": false,
+       "chars": 179
+      },
+      {
+       "i": 7,
+       "file": "s3_07.mp3",
+       "has_slot": false,
+       "chars": 33
+      },
+      {
+       "i": 8,
+       "file": "s3_08.mp3",
+       "has_slot": false,
+       "chars": 84
+      }
+     ],
+     "s4a": [
+      {
+       "i": 0,
+       "file": "s4a_00.mp3",
+       "has_slot": false,
+       "chars": 403
+      },
+      {
+       "i": 1,
+       "file": "s4a_01.mp3",
+       "has_slot": false,
+       "chars": 106
+      },
+      {
+       "i": 2,
+       "file": "s4a_02.mp3",
+       "has_slot": false,
+       "chars": 9
+      },
+      {
+       "i": 3,
+       "file": "s4a_03.mp3",
+       "has_slot": false,
+       "chars": 61
+      },
+      {
+       "i": 4,
+       "file": "s4a_04.mp3",
+       "has_slot": false,
+       "chars": 24
+      },
+      {
+       "i": 5,
+       "file": "s4a_05.mp3",
+       "has_slot": false,
+       "chars": 157
+      },
+      {
+       "i": 6,
+       "file": "s4a_06.mp3",
+       "has_slot": false,
+       "chars": 87
+      },
+      {
+       "i": 7,
+       "file": "s4a_07.mp3",
+       "has_slot": false,
+       "chars": 160
+      },
+      {
+       "i": 8,
+       "file": "s4a_08.mp3",
+       "has_slot": true,
+       "chars": 66
+      },
+      {
+       "i": 9,
+       "file": "s4a_09.mp3",
+       "has_slot": false,
+       "chars": 323
+      },
+      {
+       "i": 10,
+       "file": "s4a_10.mp3",
+       "has_slot": true,
+       "chars": 124
+      }
+     ],
+     "s4b": [
+      {
+       "i": 0,
+       "file": "s4b_00.mp3",
+       "has_slot": false,
+       "chars": 321
+      },
+      {
+       "i": 1,
+       "file": "s4b_01.mp3",
+       "has_slot": false,
+       "chars": 87
+      },
+      {
+       "i": 2,
+       "file": "s4b_02.mp3",
+       "has_slot": false,
+       "chars": 277
+      },
+      {
+       "i": 3,
+       "file": "s4b_03.mp3",
+       "has_slot": false,
+       "chars": 173
+      },
+      {
+       "i": 4,
+       "file": "s4b_04.mp3",
+       "has_slot": false,
+       "chars": 196
+      },
+      {
+       "i": 5,
+       "file": "s4b_05.mp3",
+       "has_slot": false,
+       "chars": 101
+      },
+      {
+       "i": 6,
+       "file": "s4b_06.mp3",
+       "has_slot": false,
+       "chars": 68
+      },
+      {
+       "i": 7,
+       "file": "s4b_07.mp3",
+       "has_slot": true,
+       "chars": 78
+      },
+      {
+       "i": 8,
+       "file": "s4b_08.mp3",
+       "has_slot": false,
+       "chars": 276
+      },
+      {
+       "i": 9,
+       "file": "s4b_09.mp3",
+       "has_slot": true,
+       "chars": 162
+      }
+     ],
+     "c1": [
+      {
+       "i": 0,
+       "file": "c1_00.mp3",
+       "has_slot": false,
+       "chars": 206
+      }
+     ],
+     "c2": [
+      {
+       "i": 0,
+       "file": "c2_00.mp3",
+       "has_slot": false,
+       "chars": 185
+      }
+     ]
+    }
+   }
   }
  },
  "story.genes_and_heredity.age11to12.d1.pregen.9ccad8": {
@@ -38459,6 +39995,496 @@
      "chars": 203
     }
    ]
+  },
+  "languages": {
+   "hi": {
+    "voice_id": "47f3bbb1-e98f-4e0c-92c5-5f0325e1e206",
+    "model_id": "sonic-3",
+    "speed": 1.0,
+    "emotion": null,
+    "sentence_pause_ms": 200,
+    "mp3_bit_rate": 128000,
+    "segments": {
+     "s1": [
+      {
+       "i": 0,
+       "file": "s1_00.mp3",
+       "has_slot": true,
+       "chars": 50
+      },
+      {
+       "i": 1,
+       "file": "s1_01.mp3",
+       "has_slot": true,
+       "chars": 203
+      },
+      {
+       "i": 2,
+       "file": "s1_02.mp3",
+       "has_slot": false,
+       "chars": 5
+      },
+      {
+       "i": 3,
+       "file": "s1_03.mp3",
+       "has_slot": true,
+       "chars": 241
+      },
+      {
+       "i": 4,
+       "file": "s1_04.mp3",
+       "has_slot": true,
+       "chars": 65
+      },
+      {
+       "i": 5,
+       "file": "s1_05.mp3",
+       "has_slot": true,
+       "chars": 144
+      },
+      {
+       "i": 6,
+       "file": "s1_06.mp3",
+       "has_slot": false,
+       "chars": 16
+      },
+      {
+       "i": 7,
+       "file": "s1_07.mp3",
+       "has_slot": true,
+       "chars": 346
+      },
+      {
+       "i": 8,
+       "file": "s1_08.mp3",
+       "has_slot": true,
+       "chars": 249
+      },
+      {
+       "i": 9,
+       "file": "s1_09.mp3",
+       "has_slot": false,
+       "chars": 142
+      },
+      {
+       "i": 10,
+       "file": "s1_10.mp3",
+       "has_slot": false,
+       "chars": 44
+      },
+      {
+       "i": 11,
+       "file": "s1_11.mp3",
+       "has_slot": true,
+       "chars": 39
+      },
+      {
+       "i": 12,
+       "file": "s1_12.mp3",
+       "has_slot": false,
+       "chars": 116
+      },
+      {
+       "i": 13,
+       "file": "s1_13.mp3",
+       "has_slot": false,
+       "chars": 153
+      }
+     ],
+     "s2a": [
+      {
+       "i": 0,
+       "file": "s2a_00.mp3",
+       "has_slot": false,
+       "chars": 362
+      },
+      {
+       "i": 1,
+       "file": "s2a_01.mp3",
+       "has_slot": true,
+       "chars": 113
+      },
+      {
+       "i": 2,
+       "file": "s2a_02.mp3",
+       "has_slot": true,
+       "chars": 305
+      },
+      {
+       "i": 3,
+       "file": "s2a_03.mp3",
+       "has_slot": true,
+       "chars": 149
+      },
+      {
+       "i": 4,
+       "file": "s2a_04.mp3",
+       "has_slot": true,
+       "chars": 108
+      },
+      {
+       "i": 5,
+       "file": "s2a_05.mp3",
+       "has_slot": false,
+       "chars": 167
+      },
+      {
+       "i": 6,
+       "file": "s2a_06.mp3",
+       "has_slot": true,
+       "chars": 147
+      },
+      {
+       "i": 7,
+       "file": "s2a_07.mp3",
+       "has_slot": true,
+       "chars": 46
+      },
+      {
+       "i": 8,
+       "file": "s2a_08.mp3",
+       "has_slot": false,
+       "chars": 103
+      }
+     ],
+     "s2b": [
+      {
+       "i": 0,
+       "file": "s2b_00.mp3",
+       "has_slot": false,
+       "chars": 263
+      },
+      {
+       "i": 1,
+       "file": "s2b_01.mp3",
+       "has_slot": true,
+       "chars": 28
+      },
+      {
+       "i": 2,
+       "file": "s2b_02.mp3",
+       "has_slot": false,
+       "chars": 304
+      },
+      {
+       "i": 3,
+       "file": "s2b_03.mp3",
+       "has_slot": true,
+       "chars": 26
+      },
+      {
+       "i": 4,
+       "file": "s2b_04.mp3",
+       "has_slot": false,
+       "chars": 382
+      },
+      {
+       "i": 5,
+       "file": "s2b_05.mp3",
+       "has_slot": true,
+       "chars": 125
+      },
+      {
+       "i": 6,
+       "file": "s2b_06.mp3",
+       "has_slot": false,
+       "chars": 288
+      },
+      {
+       "i": 7,
+       "file": "s2b_07.mp3",
+       "has_slot": true,
+       "chars": 119
+      },
+      {
+       "i": 8,
+       "file": "s2b_08.mp3",
+       "has_slot": true,
+       "chars": 192
+      },
+      {
+       "i": 9,
+       "file": "s2b_09.mp3",
+       "has_slot": true,
+       "chars": 73
+      },
+      {
+       "i": 10,
+       "file": "s2b_10.mp3",
+       "has_slot": false,
+       "chars": 90
+      }
+     ],
+     "s3": [
+      {
+       "i": 0,
+       "file": "s3_00.mp3",
+       "has_slot": true,
+       "chars": 182
+      },
+      {
+       "i": 1,
+       "file": "s3_01.mp3",
+       "has_slot": false,
+       "chars": 150
+      },
+      {
+       "i": 2,
+       "file": "s3_02.mp3",
+       "has_slot": false,
+       "chars": 230
+      },
+      {
+       "i": 3,
+       "file": "s3_03.mp3",
+       "has_slot": true,
+       "chars": 70
+      },
+      {
+       "i": 4,
+       "file": "s3_04.mp3",
+       "has_slot": false,
+       "chars": 117
+      },
+      {
+       "i": 5,
+       "file": "s3_05.mp3",
+       "has_slot": false,
+       "chars": 144
+      },
+      {
+       "i": 6,
+       "file": "s3_06.mp3",
+       "has_slot": true,
+       "chars": 18
+      },
+      {
+       "i": 7,
+       "file": "s3_07.mp3",
+       "has_slot": true,
+       "chars": 260
+      },
+      {
+       "i": 8,
+       "file": "s3_08.mp3",
+       "has_slot": true,
+       "chars": 98
+      },
+      {
+       "i": 9,
+       "file": "s3_09.mp3",
+       "has_slot": false,
+       "chars": 119
+      },
+      {
+       "i": 10,
+       "file": "s3_10.mp3",
+       "has_slot": true,
+       "chars": 302
+      },
+      {
+       "i": 11,
+       "file": "s3_11.mp3",
+       "has_slot": false,
+       "chars": 178
+      },
+      {
+       "i": 12,
+       "file": "s3_12.mp3",
+       "has_slot": true,
+       "chars": 59
+      }
+     ],
+     "s4a": [
+      {
+       "i": 0,
+       "file": "s4a_00.mp3",
+       "has_slot": true,
+       "chars": 67
+      },
+      {
+       "i": 1,
+       "file": "s4a_01.mp3",
+       "has_slot": false,
+       "chars": 66
+      },
+      {
+       "i": 2,
+       "file": "s4a_02.mp3",
+       "has_slot": false,
+       "chars": 125
+      },
+      {
+       "i": 3,
+       "file": "s4a_03.mp3",
+       "has_slot": true,
+       "chars": 24
+      },
+      {
+       "i": 4,
+       "file": "s4a_04.mp3",
+       "has_slot": false,
+       "chars": 118
+      },
+      {
+       "i": 5,
+       "file": "s4a_05.mp3",
+       "has_slot": true,
+       "chars": 108
+      },
+      {
+       "i": 6,
+       "file": "s4a_06.mp3",
+       "has_slot": true,
+       "chars": 275
+      },
+      {
+       "i": 7,
+       "file": "s4a_07.mp3",
+       "has_slot": false,
+       "chars": 47
+      },
+      {
+       "i": 8,
+       "file": "s4a_08.mp3",
+       "has_slot": false,
+       "chars": 73
+      },
+      {
+       "i": 9,
+       "file": "s4a_09.mp3",
+       "has_slot": true,
+       "chars": 76
+      },
+      {
+       "i": 10,
+       "file": "s4a_10.mp3",
+       "has_slot": true,
+       "chars": 222
+      },
+      {
+       "i": 11,
+       "file": "s4a_11.mp3",
+       "has_slot": true,
+       "chars": 240
+      },
+      {
+       "i": 12,
+       "file": "s4a_12.mp3",
+       "has_slot": false,
+       "chars": 238
+      },
+      {
+       "i": 13,
+       "file": "s4a_13.mp3",
+       "has_slot": true,
+       "chars": 110
+      }
+     ],
+     "s4b": [
+      {
+       "i": 0,
+       "file": "s4b_00.mp3",
+       "has_slot": true,
+       "chars": 53
+      },
+      {
+       "i": 1,
+       "file": "s4b_01.mp3",
+       "has_slot": false,
+       "chars": 226
+      },
+      {
+       "i": 2,
+       "file": "s4b_02.mp3",
+       "has_slot": true,
+       "chars": 169
+      },
+      {
+       "i": 3,
+       "file": "s4b_03.mp3",
+       "has_slot": true,
+       "chars": 19
+      },
+      {
+       "i": 4,
+       "file": "s4b_04.mp3",
+       "has_slot": true,
+       "chars": 133
+      },
+      {
+       "i": 5,
+       "file": "s4b_05.mp3",
+       "has_slot": false,
+       "chars": 70
+      },
+      {
+       "i": 6,
+       "file": "s4b_06.mp3",
+       "has_slot": false,
+       "chars": 266
+      },
+      {
+       "i": 7,
+       "file": "s4b_07.mp3",
+       "has_slot": true,
+       "chars": 92
+      },
+      {
+       "i": 8,
+       "file": "s4b_08.mp3",
+       "has_slot": false,
+       "chars": 68
+      },
+      {
+       "i": 9,
+       "file": "s4b_09.mp3",
+       "has_slot": true,
+       "chars": 204
+      },
+      {
+       "i": 10,
+       "file": "s4b_10.mp3",
+       "has_slot": true,
+       "chars": 59
+      },
+      {
+       "i": 11,
+       "file": "s4b_11.mp3",
+       "has_slot": false,
+       "chars": 419
+      },
+      {
+       "i": 12,
+       "file": "s4b_12.mp3",
+       "has_slot": true,
+       "chars": 48
+      },
+      {
+       "i": 13,
+       "file": "s4b_13.mp3",
+       "has_slot": false,
+       "chars": 16
+      }
+     ],
+     "c1": [
+      {
+       "i": 0,
+       "file": "c1_00.mp3",
+       "has_slot": false,
+       "chars": 221
+      }
+     ],
+     "c2": [
+      {
+       "i": 0,
+       "file": "c2_00.mp3",
+       "has_slot": false,
+       "chars": 174
+      }
+     ]
+    }
+   }
   }
  },
  "story.robots_and_sensors.age11to12.d1.pregen.74fc77": {
