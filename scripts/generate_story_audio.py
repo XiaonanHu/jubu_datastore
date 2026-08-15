@@ -85,6 +85,9 @@ def mp3_format(bit_rate: int) -> dict[str, Any]:
 # How many paragraphs of a story's opening segment an audition sample uses —
 # enough to judge a voice, short enough to stay cheap across candidates.
 AUDITION_PARAGRAPH_COUNT = 2
+# Cap the sample so every candidate is judged on a comparable amount of
+# speech (some story openings are one line, others are six).
+AUDITION_MAX_CHARS = 700
 
 
 def load_voice_config() -> dict[str, Any]:
@@ -120,8 +123,16 @@ def voice_for_story(
             f"`languages` in {VOICE_CONFIG_PATH.name}"
         )
 
+    band_lang_settings = (band_settings.get("languages") or {}).get(lang, {})
+
     def resolve(key: str, fallback: Any) -> Any:
-        # Language wins for voice: teller is about WHO is telling the story,
+        # Most specific first: "for THIS band, in THIS language, use this
+        # voice." That is the only place a 12-year-old's English narrator can
+        # differ from a 4-year-old's, because the plain `languages` layer
+        # below would otherwise shadow every band override for English.
+        if key in band_lang_settings:
+            return band_lang_settings[key]
+        # Language next, for voice: teller is about WHO is telling the story,
         # not what language they speak, so a Hindi narration uses the Hindi
         # voice whatever the teller says. Pace still resolves by band.
         if key in lang_settings:
@@ -587,40 +598,107 @@ def run_diagnose(story_substring: str, voice_config: dict[str, Any]) -> int:
     return 0
 
 
-def run_audition(candidate_voice_ids: list[str], voice_config: dict[str, Any]) -> int:
+def run_audition(
+    candidate_voice_ids: list[str],
+    voice_config: dict[str, Any],
+    band: str | None = None,
+) -> int:
     """One short sample per (teller, candidate voice) so Xia can pick the
-    voice mapping by ear before any batch run."""
+    voice by ear before any batch run.
+
+    Layout is ONE DIRECTORY PER VOICE:
+
+        audio_auditions/<voice_id>/<teller>.mp3
+        audio_auditions/<voice_id>/about.txt
+
+    not a flat pile of `<teller>__<voice_id>.mp3`. Auditioning is a
+    voice-by-voice comparison — you listen to everything one candidate does,
+    then everything the next one does — and a flat directory sorts by teller,
+    which interleaves the candidates and makes exactly the wrong grouping.
+
+    With --audition-band, samples are drawn from that band's stories AND
+    delivered with that band's pacing, so what you hear is what you would
+    ship. Without it you get whatever story sorts first, at global pacing —
+    fine for a rough screen, misleading for a final pick.
+    """
     client = CartesiaBatchClient()
     stories = bse.load_stories()
-    story_by_teller: dict[str, dict[str, Any]] = {}
-    for story in sorted(stories, key=lambda s: s["id"]):
-        story_by_teller.setdefault(story["teller"], story)
-    AUDITION_DIR.mkdir(parents=True, exist_ok=True)
-    chars_sent = 0
-    for teller, story in sorted(story_by_teller.items()):
-        opening_segment = next(
-            segment
+    if band:
+        in_band = [story for story in stories if story.get("age_band") == band]
+        if not in_band:
+            raise SystemExit(
+                f"no stories in band {band!r} — nothing to audition against"
+            )
+        stories = in_band
+    # Prefer an opening that contains dialogue: character voice is where
+    # candidates differ most, and a narration-only sample can make two very
+    # different voices sound interchangeable. Ties break on id, so the pick
+    # stays deterministic between runs.
+    def audition_rank(story: dict[str, Any]) -> tuple[int, str]:
+        opening = next(
+            segment["text"]
             for segment in story["segments"]
             if segment["id"] == story["start_segment"]
         )
-        sample_paragraphs = story_audio_chunks.paragraph_chunks(
-            opening_segment["text"]
-        )[:AUDITION_PARAGRAPH_COUNT]
-        sample_text = story_audio_chunks.substitute_slot_values(
-            " ".join(sample_paragraphs), story.get("slots") or {}, {}
-        )
-        for voice_id in candidate_voice_ids:
-            out_path = AUDITION_DIR / f"{teller}__{voice_id}.mp3"
+        return (0 if '"' in opening else 1, story["id"])
+
+    story_by_teller: dict[str, dict[str, Any]] = {}
+    for story in sorted(stories, key=audition_rank):
+        story_by_teller.setdefault(story["teller"], story)
+    chars_sent = 0
+    for voice_id in candidate_voice_ids:
+        voice_dir = AUDITION_DIR / voice_id
+        voice_dir.mkdir(parents=True, exist_ok=True)
+        notes = [
+            f"voice_id: {voice_id}",
+            f"model_id: {voice_config['model_id']}",
+            f"band:     {band or '(none — global pacing, first story per teller)'}",
+            "",
+        ]
+        for teller, story in sorted(story_by_teller.items()):
+            settings = voice_for_story(story, voice_config, "en")
+            opening_segment = next(
+                segment
+                for segment in story["segments"]
+                if segment["id"] == story["start_segment"]
+            )
+            sample_paragraphs = story_audio_chunks.paragraph_chunks(
+                opening_segment["text"]
+            )[:AUDITION_PARAGRAPH_COUNT]
+            sample_text = story_audio_chunks.substitute_slot_values(
+                " ".join(sample_paragraphs), story.get("slots") or {}, {}
+            )
+            # Openings vary from two lines to two hundred words, which made
+            # one teller's sample five times the length of another's — hard
+            # to compare and needlessly expensive. Trim at a sentence end.
+            if len(sample_text) > AUDITION_MAX_CHARS:
+                cut = sample_text.rfind(". ", 0, AUDITION_MAX_CHARS)
+                sample_text = sample_text[: (cut + 1) if cut > 0 else AUDITION_MAX_CHARS]
+            transcript = story_audio_chunks.to_transcript(
+                sample_text, settings["sentence_pause_ms"]
+            )
+            out_path = voice_dir / f"{teller}.mp3"
             out_path.write_bytes(
                 client.synthesize(
-                    sample_text, voice_id, voice_config["model_id"], 1.0
+                    transcript, voice_id, voice_config["model_id"],
+                    settings["speed"], settings["emotion"],
+                    mp3_format(voice_config.get("mp3_bit_rate", 128000)),
                 )
             )
-            chars_sent += len(sample_text)
+            chars_sent += len(transcript)
+            notes.append(
+                f"{teller}.mp3 — {story['id']} (ages {story['age_band']}), "
+                f"speed={settings['speed']}, "
+                f"pause={settings['sentence_pause_ms']}ms, "
+                f"emotion={settings['emotion'] or 'none'}"
+            )
             print(f"wrote {out_path.relative_to(REPO_ROOT)}")
+        (voice_dir / "about.txt").write_text("\n".join(notes) + "\n", encoding="utf-8")
     print(
-        f"\nauditions done ({chars_sent} chars sent). Listen, then set the "
-        f"winning voice_id per teller in {VOICE_CONFIG_PATH.relative_to(REPO_ROOT)}"
+        f"\nauditions done ({chars_sent} chars sent), one folder per voice under "
+        f"{AUDITION_DIR.relative_to(REPO_ROOT)}. Listen through a whole folder "
+        f"before moving to the next, then set the winner in "
+        f"{VOICE_CONFIG_PATH.relative_to(REPO_ROOT)}"
     )
     return 0
 
@@ -674,8 +752,21 @@ def main() -> int:
                         help="voice stories whose id contains any given substring")
     parser.add_argument("--all", action="store_true",
                         help="voice the whole library (only after samples are approved)")
+    parser.add_argument("--band", metavar="BAND",
+                        help="restrict to one age band, e.g. 11-12. Use with "
+                             "--all --force to re-cut exactly one band after a "
+                             "voice change, leaving approved bands alone")
+    parser.add_argument("--except-stories", nargs="+", metavar="ID_SUBSTRING",
+                        default=[],
+                        help="hold these back from the selection (stories whose "
+                             "text still needs work)")
     parser.add_argument("--audition", nargs="+", metavar="VOICE_ID",
-                        help="generate teller samples for candidate voice ids")
+                        help="generate teller samples for candidate voice ids, "
+                             "one folder per voice")
+    parser.add_argument("--audition-band", metavar="BAND",
+                        help="draw audition samples from this age band and "
+                             "use its pacing (e.g. 11-12), so the sample "
+                             "matches what you would ship")
     parser.add_argument("--diagnose", metavar="ID_SUBSTRING",
                         help="render one passage under a matrix of settings to "
                              "find what is making a voice sound wrong")
@@ -701,10 +792,11 @@ def main() -> int:
     if args.diagnose:
         return run_diagnose(args.diagnose, voice_config)
     if args.audition:
-        return run_audition(args.audition, voice_config)
-    if not args.stories and not args.all:
+        return run_audition(args.audition, voice_config, args.audition_band)
+    if not args.stories and not args.all and not args.band:
         parser.error(
-            "pick stories with --stories, or use --all / --audition / --diagnose"
+            "pick stories with --stories or --band, or use --all / --audition "
+            "/ --diagnose"
         )
 
     stories = bse.load_stories()
@@ -716,6 +808,18 @@ def main() -> int:
         ]
         if not stories:
             raise SystemExit(f"no story ids match {args.stories}")
+    if args.band:
+        stories = [story for story in stories if story.get("age_band") == args.band]
+        if not stories:
+            raise SystemExit(f"no stories in band {args.band!r}")
+    if args.except_stories:
+        held_ids = {
+            story["id"] for story in stories
+            if any(sub in story["id"] for sub in args.except_stories)
+        }
+        stories = [story for story in stories if story["id"] not in held_ids]
+        for story_id in sorted(held_ids):
+            print(f"holding back {story_id}")
 
     # Partition BEFORE spending anything: a story with no script for this
     # language must not take the rest of the batch down with it. One missing
