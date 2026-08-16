@@ -242,6 +242,7 @@ PARENT_MAP_GROUPS: list[tuple[str, list[str]]] = [
     ("mind", ["the_brain", "sleep_and_dreams", "genes_and_heredity"]),
     ("arts", ["musical_instruments", "sound_and_echoes", "drawing_and_animation",
               "theater_and_pretending", "shapes_and_symmetry",
+              "clothes_and_fashion", "colors_and_mixing",
               "fairy_tales", "princesses_and_princes", "knights_and_castles"]),
     ("machines", ["computers_and_code", "robots", "engines_and_vehicles",
                   "magnets", "inventions"]),

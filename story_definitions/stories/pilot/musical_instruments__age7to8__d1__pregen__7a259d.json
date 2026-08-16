@@ -1,0 +1,318 @@
+{
+  "id": "story.musical_instruments.age7to8.d1.pregen.7a259d",
+  "title": "The Rumble in the Back Row",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.musical_instruments",
+    "sel_theme": null,
+    "value_lesson": "Every instrument in the orchestra has a different job, and the music only works when they all listen to each other and take turns.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "We hunt a mysterious low rumble through the orchestra, following clues until we find the biggest drum hiding in plain sight.",
+  "slots": {
+    "mystery_sound_name": {
+      "role": "The child's private name for the strange rumble, spoken whenever the sound appears",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the Grumble-Boom"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "\"Stand here with me,\" says the percussionist. \"The orchestra is waking up.\"\n\nWe are backstage at the concert hall, right in the middle of the warm-up, and it is the best kind of noise. A violin slides up and down like somebody stretching. A trumpet goes braap, then giggles and tries again. Somewhere a flute is running up and down the stairs of its notes, fast as a squirrel.\n\nThe percussionist lays out her instruments on a long table, smallest to biggest, like setting the table for dinner. Triangle. Tambourine. Two wooden sticks that go clack.\n\nThen we feel it.\n\nRumble. Rumble.\n\nA low sound rolls through the floor and up into our shoes. It is round and soft and enormous, like thunder that has learned to whisper.\n\n\"What is that?\" we ask.\n\nThe percussionist stops. She listens. \"Not mine,\" she says. \"Not yet, anyway.\"\n\nRumble. Rumble.\n\nWe look around. Nobody is playing it. The trumpet player is laughing. The flute is still doing its stairs.\n\n\"It sounds like a Grumble-Boom,\" we say. Because it does. It sounds exactly like a {mystery_sound_name}.\n\nFrom her pocket, the percussionist pulls out Pip, a small soft mallet with a fuzzy head, and pats him once. \"A mystery,\" she says. \"Good. I have ten minutes before the conductor's signal. Let's find your Grumble-Boom.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The strings first,\" says the percussionist. \"Feel what a vibration really is. Then we will know if your Grumble-Boom is one.\"\n\nThe violinist smiles and holds out her violin. \"Gentle fingertips,\" she says. \"Right here, on the strings.\"\n\nWe rest our fingers on the thin strings, soft as whiskers. The bow slides. The strings buzz under our skin, fast and tickly, like a tiny bee trapped in honey.\n\n\"Now the wood,\" she says. We touch the round wooden body. It hums against our fingertips, warm and alive. \"The strings make the buzz. The wood turns it into song.\"\n\nRumble. Rumble.\n\nThe floor shakes under our shoes. The tremble rolls up our legs and into our chests, slow and deep and enormous.\n\nWe pull our fingers back. \"That is not a string,\" we say. \"Strings buzz fast. This is slow. It is too big for a string.\"\n\nThe percussionist pats Pip's fuzzy head. \"Good ears,\" she says. \"Not strings. So your Grumble-Boom is hiding in a family we have not checked yet.\"\n\nShe looks toward the back of the stage, where the floor is still trembling. \"Let's keep listening.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Up we go,\" says the percussionist. \"The brass is loudest. If your Grumble-Boom is hiding there, we will hear it clear.\"\n\nWe climb the steps to the brass section. The trumpet player grins at us. \"Want to hear how a trumpet really works?\" he asks.\n\nHe puts his lips together and blows a raspberry. Pbbbt! We laugh. \"That is the buzz,\" he says. \"My lips do that, and the trumpet turns it into this.\"\n\nHe lifts the trumpet and plays a note so bright and golden it makes us jump. It rings off the ceiling like sunshine breaking through a window.\n\nRumble. Rumble.\n\nThe floor trembles under our feet. But the sound is not coming from the trumpet. It is coming from behind the brass, low and slow, rolling like a big soft wave.\n\n\"That is not you,\" we say.\n\nThe trumpet player shakes his head. \"Nope. I buzz. That thing does not buzz. It just... booms.\"\n\nThe percussionist pats Pip's fuzzy head. \"Not brass,\" she says. \"So your Grumble-Boom is hiding behind the loudest family in the orchestra. Clever thing.\"\n\nShe points past the trumpets, toward the back row. \"Let's go deeper.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the long table, the percussionist is waiting for us. She pats Pip's fuzzy head once, because a clue has landed.\n\n\"Tell me what you found,\" she says.\n\nWe tell her. She listens all the way through, nodding slowly, and then she holds up one finger.\n\n\"Then here is the clue that changes it. Whoever makes your {mystery_sound_name} is sitting down. The instrument is taller than they are. And it has a round skin stretched across the top.\"\n\nWe think about that. No strings. No mouthpiece. Nobody blows.\n\n\"But there is a mallet,\" she says, and pats Pip again.\n\nA skin. A mallet. Taller than a person.\n\nBefore we can guess, the conductor steps onto the podium. The warm-up noise melts away. The baton rises, and it points straight at the back row, behind the trumpets and trombones.\n\nBoom.\n\nThe floor trembles. Our shoes tremble. And there it is, hiding in plain sight all along: two enormous copper bowls, each with a great round skin stretched across the top, and the skins are trembling exactly the way the floor did.\n\n\"The timpani,\" whispers the percussionist. \"The biggest drums in the orchestra.\"\n\nPip gets a pat. A big one.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"We'll stay,\" we say. \"Right here.\"\n\nThe percussionist grins and pulls up a stool for us, small and low, right beside the great copper bowls. \"Best seats in the house,\" she whispers. \"The floor does half the listening for you.\"\n\nThe conductor's baton falls, and the music begins. Strings first, soft as rain on a window. Then the woodwinds, curling through like ribbons. The brass waits, shining and patient.\n\nAnd then we feel it coming. Through the floor, through the stool, up into our knees. The timpani is about to speak.\n\nBoom.\n\nIt arrives in our bodies before our ears catch it. The percussionist leans close. \"Feel that? The drums don't just make noise. They wait. They listen. And when the moment is right, they answer.\"\n\nAnother boom. This one is quieter, tucked underneath the trumpets like a heartbeat under a song.\n\n\"That one answered,\" she whispers. \"The one before led. Can you feel the difference?\"\n\nWe can. One pushes the music forward. The other holds it up from below, like hands under something heavy and precious.\n\nThe piece rolls on, and the {mystery_sound_name} rolls with it, and we sit in the back row feeling every single one arrive through the floor like a message meant just for us.\n\nWhen the last note fades, the percussionist presses Pip into our hands. His fuzzy head is warm from all the patting.\n\n\"Keep him,\" she says. \"You know the sound now. You'll always know it.\"\n\nWe slip out past the empty seats, Pip tucked safe in our keeping, and the rumble follows us home. Not a mystery anymore. A friend.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The box,\" we say. \"We want the box.\"\n\nThe conductor's eyes light up. She steps down and holds out her hand, and we climb onto the small wooden podium. The whole orchestra spreads out before us, every face turned our way. It is very quiet and very high.\n\n\"Two signals,\" the conductor murmurs. \"That's all you need. Hand low and slow means soft. Hand high and big means loud. The rest is just listening.\"\n\nWe raise our hand slowly, palm down, low. The strings begin, barely breathing. The flutes join, thin as thread. We keep our hand low, and the whole orchestra stays small, a hundred musicians holding their music like a candle in the dark.\n\nThen we lift. Higher. Bigger. The brass opens up, golden and bold. The woodwinds climb. Our hand goes higher still, and the sound rises with it, filling the hall like bread rising in a warm kitchen.\n\nAt the very top, the percussionist catches our eye. She raises her mallet. We nod.\n\nThe great skin of the timpani trembles under one enormous stroke, and the boom rolls through the podium, through our shoes, through everything.\n\nThen we bring our hand down, slow, slow, and the whole orchestra follows us into silence. A real silence, the kind that rings.\n\nThe conductor takes both our hands. \"The loudest moment in this hall,\" she says, \"started with the smallest flick of your wrist.\"\n\nAs we go, the percussionist presses Pip into our palm. \"For the keeper of the {mystery_sound_name},\" she says.\n\nWe walk out past the empty seats, and the rumble follows us, low and warm, like a friend saying goodbye.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We could hunt this rumble two ways, you and I — do we put our fingertips on the strings and feel what a vibration really is, or do we climb up and listen where the brass is loudest?\"",
+      "options": [
+        {
+          "say_word": "Feel it",
+          "label": "Visit the violinist and touch the strings to feel them vibrate",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Climb up",
+          "label": "Head up toward the brass section to listen from close by",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The mystery's solved, friends — so how do we finish? Do we stay back here and ride out the whole first piece beside the big drum, or does someone want to stand on my box and wave the orchestra loud and soft?\" — asked by the percussionist, with the conductor smiling nearby",
+      "options": [
+        {
+          "say_word": "Stay put",
+          "label": "Stay beside the timpani and feel the whole first piece through the floor",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Take the baton",
+          "label": "Stand on the conductor's box and lead one loud-and-soft moment",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.musical_instruments",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The distinct sounds and characteristics of instrument families naturally lend themselves to a guessing-game structure where a child can follow auditory clues to identify which section is playing.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Pip, a small soft toy mallet the percussionist keeps in a pocket, whose fuzzy head gets patted whenever a clue lands",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Every instrument in the orchestra has a different job, and the music only works when they all listen to each other and take turns.",
+      "why": "The mystery resolves by watching the whole orchestra wait for the conductor's signal and the timpani answer — the value lands in the satisfying answer beat without preaching"
+    },
+    "cast": [
+      {
+        "role": "The percussionist who plays many instruments",
+        "reused": false,
+        "why": "Owns the mystery's answer, carries the cozy accent through Pip the toy mallet, and naturally demonstrates hit/shake/scrape along the way"
+      },
+      {
+        "role": "The conductor",
+        "reused": false,
+        "why": "Delivers the decisive clue by pointing to the back row, and shows light competence in the real concert-hall setting"
+      },
+      {
+        "role": "A violinist in the orchestra",
+        "reused": false,
+        "why": "Provides the first branch's clue path, letting us feel strings vibrate so we can rule strings out"
+      },
+      {
+        "role": "A trumpet player in the brass section",
+        "reused": false,
+        "why": "Provides the second branch's clue path, demonstrating the lip buzz so we can rule brass out"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Opening question: a low rumbling sound nobody can see the source of",
+        "Clue: the sound vibrates in your chest and the floor trembles near the back of the stage",
+        "Clue: the musician is sitting down and the instrument is taller than they are, with a round skin stretched across the top",
+        "Clue: no visible strings, no mouthpiece, nobody blows into it — but it has a mallet",
+        "Clue: when the conductor points to the back row, the sound booms and the percussionist lifts a big padded stick",
+        "Satisfying answer: the timpani, the biggest drum in the orchestra, hiding behind the trumpets and trombones",
+        "Percussion fact: percussion instruments make sound when hit, shaken, or scraped",
+        "Violin fact: strings vibrate and the wooden body makes the vibrations loud",
+        "Brass fact: players buzz their lips into the mouthpiece",
+        "Conductor fact: the conductor plays no instrument but every musician watches them",
+        "Setting: a concert hall just before the music starts, musicians tuning on stage"
+      ],
+      "gathered_but_unused": [
+        "A violin makes sound when its strings vibrate, and the wooden body of the violin makes those tiny vibrations loud enough to hear.",
+        "Woodwind instruments like flutes and clarinets make sound when air inside them vibrates, even though most of them are not made of wood anymore.",
+        "Brass players buzz their lips into the mouthpiece, and the long curled tube of the instrument turns that buzz into a big, bold sound.",
+        "Percussion instruments make sound when they are hit, shaken, or scraped, and the drum family is the biggest section of the orchestra.",
+        "A trombone is the only orchestra instrument with a slide, and the player makes notes higher or lower by pushing the slide in and out.",
+        "The harp has 47 strings and seven pedals, and the player uses both hands and both feet at the same time.",
+        "The conductor does not play any instrument, but every musician watches them to know when to start, stop, play louder, or play softer.",
+        "A xylophone has wooden bars that each make a different note, and the longer the bar, the lower the sound."
+      ]
+    },
+    "safety_beat": "In s1, the percussionist guides us along the stage edge between the instrument stands, showing us the clear walkway where musicians pass, and in s4b the conductor steadies an arm near the small box as we step up — competence shown lightly, no warning, no tension.",
+    "motif": "A trembling round skin — felt first as a vibration in the floor, then seen as the great drumhead of the timpani.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is a warm, well-paced mystery that teaches real listening through the body, with a companion who pays attention, sound-words that land as their own small sentences, and two endings that each pay off the child's agency without disturbing the glow."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "deliciously noisy, then a held breath of mystery",
+        "s2a": "tickly and curious, hands-on discovery",
+        "s2b": "a giggle, then leaning in closer",
+        "s3": "the click of the puzzle solving itself",
+        "s4a": "swallowed by the music, snug and chosen",
+        "s4b": "tall and powerful, then ringing quiet pride"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 38% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 3.9); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.3); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 39% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 39% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] narration heavy: only 38% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 39% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "02_musical_instruments_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

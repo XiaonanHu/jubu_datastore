@@ -1,0 +1,313 @@
+{
+  "id": "story.orchestras.age7to8.d1.pregen.315524",
+  "title": "The Silent Leader",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.orchestras",
+    "sel_theme": null,
+    "value_lesson": "Being a leader can mean helping others shine instead of making the most noise yourself.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "cozy"
+  },
+  "spine": "We sneak into a grand concert hall to solve the mystery of who is telling a hundred musicians what to do when nobody says a word.",
+  "slots": {},
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The man at the door tears our tickets in half, and then we are inside the biggest room we have ever seen. Red velvet seats, row after row, soft as a cat's ear. Front row. Us.\n\nOn the stage, a hundred musicians are all playing at once, but nobody is playing the same thing. A horn goes brrrp. A drum goes bomp. The strings slide up and down like slow sirens, and the whole swirly cloud of it tickles our ears.\n\n\"Listen,\" says a voice. A woman with a violin tucked under her chin is leaning toward us from the stage. \"I'm Wren. And this is Bumble.\" She holds out her violin. \"Go on. Touch the wood.\"\n\nWe do. It hums under our fingers, warm and buzzy, like a bee in a box.\n\nWren grins. \"Here's the strange part.\" She points with her bow. On a little box at the front stands a woman in a long dark jacket, doing nothing at all. Just smiling, with crinkly eyes, like somebody's grandma watching pancakes cook.\n\n\"Nobody is shouting orders,\" Wren whispers. \"Nobody is counting. So how does everyone know when to play?\"\n\nWe look at the woman on the box. She looks back at us, and her smile gets bigger.\n\n\"Come closer,\" says Wren. \"Before the lights go down. Let's find out.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "We slip up the little stairs and into the string neighborhood, where music stands crowd together like houses on a busy street. Wren sits us down right beside her chair. \"Watch,\" she says, and she pulls her bow across the strings. Bumble sings out, and the string under her fingers trembles blurry, like a tiny bee trying to get free.\n\nAll around us, bows are sliding. A cello hums so low we feel it in our ribs.\n\nBut then we notice something. Wren's fingers are busy, busy, busy — and still her eyes flick up. Between every phrase, up they go, quick as sparrows, to the woman on the little box. We look down the row. The violins are doing it too. And the cellos. And the big basses at the back, their heads tipping up like sunflowers.\n\n\"See?\" Wren whispers, without stopping her bow. \"All of us. Watching her.\"\n\n\"But she hasn't made a single sound,\" we say.\n\n\"Not one,\" says Wren, and her eyes flick up again. \"So what are we all looking at?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We tiptoe past the horns, past the flutes, all the way to the very back of the stage, where the percussion corner sits like a toy shop after a tornado. Cymbals lean like golden plates. A xylophone glitters. And in the middle of it all stands a drum as big as a bathtub.\n\n\"Careful of the triangle,\" says a cheerful voice. A woman with her hair in a bouncy bun steps out from behind the giant drum. \"I'm Tova. Want to hear my heartbeat?\"\n\nBefore we can answer, she taps the big drum with a soft padded stick. Boom. Boom. Boom. It rumbles up through the floor and into our shoes.\n\n\"That's the sound the whole orchestra builds on,\" Tova says. \"Like a house on its foundation.\" She points with her stick, way, way across the stage, to the little box at the front. \"And from back here — the farthest seat there is — I can see her hands. Clear as anything.\"\n\nWe squint. We can see them too, small and white, waiting.\n\n\"She never makes a sound,\" Tova says. \"So what do you suppose those hands are saying?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Wren taps our shoulders. \"Front row,\" she whispers. \"Quiet as mice.\"\n\nWe settle into the red velvet. The lights go down, and Maestra Elena lifts her hands high, high, like she is reaching for a shelf.\n\nThe whole orchestra swells. A hundred instruments rise together, big as a wave, and the sound fills our chests like a deep breath.\n\nThen her hands sink low, low, like she is patting a sleeping dog.\n\nThe music shrinks. It gets so small we lean forward. We hold our breath. The strings are whispering secrets, and the brass is humming softer than a cat's purr.\n\n\"Did you feel that?\" Pip the clarinet player mouths at us from his chair. He wiggles his fingers on the shiny keys. \"Her hands told us.\"\n\nThen the small white baton flashes. It points down, sharp as a pencil tap.\n\nEvery instrument begins at exactly the same second. Bomp. Brrrp. A drum, a horn, all together, like one giant voice.\n\n\"It's a language,\" Wren breathes. \"Her hands draw it in the air, and the music answers.\"\n\nMaestra Elena turns. Her eyes crinkle at us, warm as toast. She beckons with one finger.\n\n\"You've been watching,\" she says, her voice cozy as a kitchen at breakfast. \"Do you think you've cracked it? Would you like to test the language yourselves, before the real concert?\"\n\nWe look at Wren. Wren looks at Pip. Pip grins.\n\n\"What do you say?\" Maestra Elena asks. \"Shall we see if the baton will listen to you?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Test our ears!\" we say.\n\n\"Then close your eyes,\" says Barnaby the trumpet player, sliding in beside us. \"Each family plays alone. You guess who.\"\n\nFirst: a humming, warm and smooth, like honey pouring. \"Strings!\" we whisper. Wren and Bumble are swaying.\n\nThen a golden buzz, bright as sunshine through a window. \"Brass!\" Barnaby lifts his trumpet and plays one note so big and shiny it feels like breakfast.\n\nNext, quick notes dart and tumble like birds. \"Woodwinds!\" Pip winks.\n\nLast: Boom. Boom-boom. The floor shakes our shoes. \"Percussion!\" we shout, laughing.\n\nBarnaby points to the side of the stage. \"And that grand piano? Secret agent. Hammers hit strings inside. Both families at once.\"\n\nThen Maestra Elena lifts her baton. The violins begin soft as rain on a roof. Her hands climb, and the storm climbs with them, brass rolling, drums cracking, until thunder fills the whole hall. At the very end she catches our eye and conducts the last soft note just for us.\n\nAfterward, Wren signs our program. \"The quietest person made the biggest music,\" she says.\n\nWe carry it home like a candle.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"We want to try!\" we say.\n\nMaestra Elena opens a little case. Inside lies a spare baton, white as a piece of chalk. \"A small flick means softer,\" she says. \"A big sweep means louder. Show me.\"\n\nWren gathers her strings. Pip rounds up his woodwinds. We climb onto the little box, and our knees feel wobbly.\n\nWe lift the baton. We bring it down, crooked as a worm.\n\nThe musicians play. Together. Exactly together. Pip grins so wide his clarinet nearly slips.\n\nWe flick small. The music shrinks to a whisper. We sweep big, and it grows and grows, rumbling into a small thunder under our own two hands. Our hearts are pounding like drums.\n\nThen the real concert begins, and we watch Maestra Elena do the same thing a hundred times bigger. Tova's timpani go Boom right on cue, and the floor rattles our shoes.\n\nAfterward, Maestra Elena closes our fingers around the spare baton. \"On loan,\" she says, eyes crinkling. \"Until next time.\"\n\nWe carry it home carefully, like a candle flame. A leader's job, we know now, is helping everyone else shine.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"The concert hasn't started yet, so we have time for one quick look before we must sit. Shall we visit my string neighborhood up front, or tiptoe all the way back to the percussion corner where the big drums live?\"",
+      "options": [
+        {
+          "say_word": "Strings",
+          "label": "Visit the string neighborhood with Wren",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Drums",
+          "label": "Tiptoe back to the percussion corner with Tova",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"So you've found my secret. Now, would you like to test your ears and guess each family by its sound, or would you rather borrow a baton and try the language with your own hands?\"",
+      "options": [
+        {
+          "say_word": "Guess",
+          "label": "Test our ears by guessing each family from its sound",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Conduct",
+          "label": "Borrow the baton and try conducting a small group",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.orchestras",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.musical_instruments",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The topic's material—four instrument families, the conductor's baton, tuning up, whisper-to-thunder dynamics—naturally feeds a gentle mystery where a child can follow clues (a sound, a gesture, a hush) to discover how the conductor's hands bring everyone together, which suits an 8-year-old's curiosity better than a static mood piece or a fix-it plot.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Maestra Elena, the conductor, whose warm crinkly-eyed smiles and cozy humming between instructions make the grand hall feel like a kitchen at breakfast",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Being a leader can mean helping others shine instead of making the most noise yourself.",
+      "why": "The mystery's satisfying answer is literally that the conductor never makes a sound yet makes everyone else sound magnificent; the value rides along without any extra preaching."
+    },
+    "cast": [
+      {
+        "role": "Maestra Elena, the conductor",
+        "reused": false,
+        "why": "She is both the mystery's answer and the cozy accent carrier; her silent hands are the puzzle we chase all story long."
+      },
+      {
+        "role": "Wren, a young violinist in the string section",
+        "reused": false,
+        "why": "Our first guide; she lets us feel her violin hum and points our eyes toward the little box at the front."
+      },
+      {
+        "role": "Barnaby, a friendly trumpet player from the brass family",
+        "reused": false,
+        "why": "Carries the brass clue and the whisper-to-thunder aspect; his sunshine-bright note shows how loudly the orchestra can answer the conductor's hands."
+      },
+      {
+        "role": "Pip, a clarinet player from the woodwind family",
+        "reused": false,
+        "why": "Guides the woodwind branch and the tuning-up-together moment; his secret finger code gives the mystery a playful texture."
+      },
+      {
+        "role": "Tova, the timpanist",
+        "reused": false,
+        "why": "Anchors the percussion corner, the heartbeat rhythm wider door, and the thunder half of the finale."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "four families of instruments sitting in neighborhoods on one stage",
+        "strings vibrate under a bow, humming like a tiny bee",
+        "brass players buzz their lips like bumblebees",
+        "woodwind fingers hop on keys like little dancers",
+        "the conductor's baton and hands tell everyone when to start, stop, whisper, and thunder",
+        "tuning up together into one swirly cloud of matching notes",
+        "an orchestra can whisper softer than a secret and boom louder than the floor rumbling",
+        "percussion is struck, shaken, or scraped; timpani as big as a bathtub",
+        "clue: every musician glances up at one person on a little box",
+        "clue: hands high means louder, hands low means softer",
+        "clue: the baton points down and everyone begins at the same second",
+        "clue: the person on the box never makes a sound",
+        "wider door: the timpanist's heartbeat rhythm the orchestra builds on",
+        "wider door: a grand piano that is both strings and percussion"
+      ],
+      "gathered_but_unused": [
+        "An orchestra has four families of instruments: strings, woodwinds, brass, and percussion, and each family makes sound in its own special way.",
+        "String instruments like violins and cellos make sound when their strings vibrate, either from a bow sliding across them or from fingers plucking them.",
+        "Brass instruments like trumpets and trombones make sound when the player buzzes their lips into the mouthpiece.",
+        "Woodwind instruments like flutes and clarinets make sound when air moves inside them, and the player opens and closes holes or keys to change the notes.",
+        "The conductor waves a thin white stick called a baton, and every musician watches it to know exactly when to start, stop, play softly, or play loudly.",
+        "Before a concert begins, all the musicians tune their instruments at the same time, making a big swirly cloud of sound until every note matches.",
+        "An orchestra can play so softly you almost have to hold your breath to hear it, and so loudly the floor seems to rumble under your shoes.",
+        "Percussion instruments include drums, cymbals, and xylophones, and they make sound when they are struck, shaken, or scraped."
+      ]
+    },
+    "safety_beat": "In s2b, Tova shows us where to stand at the edge of the percussion corner, just beside her stool and clear of the swinging cymbal stands, with the easy competence of someone showing a friend the best spot to see.",
+    "motif": "A small white baton drawing invisible shapes in the air that turn into sound",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the mystery of the silent conductor is posed as a genuine question and paid off through watching, the sound-words land as their own small sentences, and both endings earn their candle-glow without rushing the wonder."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and tickled, leaning in",
+        "s2a": "snug inside the music, spotting the secret",
+        "s2b": "delighted, rumble-in-the-shoes curious",
+        "s3": "a held breath, then the warm invitation",
+        "s4a": "giggling through the guessing game, then hushed and glowing",
+        "s4b": "knees-wobbly thrilled, then proud and sleepy-satisfied"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s3] flat rhythm: sentence lengths vary little (spread 4.7); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] abstract mood word: 'cozy' usually means a feeling was told, not given; [s4a] flat rhythm: sentence lengths vary little (spread 4.7); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.4)"
+      }
+    ],
+    "writers_notes": [
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.7)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "03_orchestras_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

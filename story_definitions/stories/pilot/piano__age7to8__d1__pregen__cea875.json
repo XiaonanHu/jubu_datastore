@@ -1,0 +1,358 @@
+{
+  "id": "story.piano.age7to8.d1.pregen.cea875",
+  "title": "The Great Piano Soft-Off",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.piano",
+    "sel_theme": null,
+    "value_lesson": "Playing softly on purpose so someone else can shine, and discovering that being the quiet part of a duet is its own kind of brave.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "romp",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "curious_wonder"
+  },
+  "spine": "We start a silly contest to play the softest note ever, and it escalates until we discover the quietest sound of all is the one we make together.",
+  "slots": {
+    "piano_name": {
+      "role": "The old upright piano in Nana's living room",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Clanker"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Rain on Nana's windows again. The whole house smells like toast and cat. Biscuit is sitting on the piano stool, staring up at the old upright like it swallowed a mouse. Her whiskers twitch. 'What is it, Biscuit?' we whisper. Biscuit pats the keys with one soft paw. Plink. Plink. The piano is covered in family photos and a dusty lace cloth, but underneath, it's all wood and wires and secrets. Nana calls it {piano_name}, which is a funny name for a piano, but it's true — when you press a key, it goes clank. Today the piano tuner is coming. Mr. Figg. He has a mustache like a walrus and a bag full of tiny tools. 'There's a sticky key,' Nana says. 'Middle C. It sticks.' Mr. Figg lifts the top of the piano and props it with the wooden stick. We lean in. Inside, there are rows and rows of little felt hammers, all wearing fuzzy gray sweaters, waiting to jump up and tap the strings. 'Look,' we breathe. 'They're all asleep.' Our little sister, who is three and very loud, bangs a key with her whole hand. 'That one smells like purple!' she shouts. Mr. Figg doesn't even blink. 'Ah,' he says. 'A synesthete.'",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"First,\" says Mr. Figg, \"you must see the hammers work.\" He presses a key, and inside, a little felt hammer in its fuzzy gray sweater jumps up—boing—and taps a string. \"Now,\" he says, \"the Soft-Off. Who can play the quietest note?\"\n\nI go first. I press so gently the hammer barely tiptoes up. Ting.\n\n\"Too loud,\" says my sister. She breathes on a key like it's a dandelion. The hammer just sighs against the string. Nothing.\n\nBiscuit watches with her wide eyes. She lifts one soft paw and pats, so light, like a snowflake landing. Plink.\n\n\"I win,\" we whisper.\n\nThen we try together. We hover our fingers. We breathe. We giggle because nobody can hear anything at all, and Biscuit is purring louder than the piano.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Watch,\" says Mr. Figg. He plays a run, and inside, the hammers leap like tiny acrobats in fuzzy gray sweaters, bouncing up to tap the strings.\n\n\"Now the Animal Game,\" he says. \"Every key is an animal.\"\n\nI press a low note. \"Hippo,\" I say. It goes deep and grumbly.\n\nMy sister bangs a high one. \"Baby chick!\" It goes peep peep peep.\n\nBiscuit pats the middle. \"That's a frog,\" we decide.\n\nThen we all play at once. The low notes stomp like elephants. The high notes scatter like mice. My sister shouts, \"That one smells like purple!\" and Mr. Figg just nods, playing faster, and the whole zoo escapes into Nana's living room, loud and wonderful and completely out of control.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Mr. Figg opens the top of the piano wide. \"Now we find the frog's sore throat,\" he says. He lifts out the action — that's the row of hammers, all in their gray sweaters — and peers in with a little light. \"Well, well.\" Under Middle C, wedged tight against the key, is a toy mouse. Biscuit's toy mouse. \"So that's where it went,\" we whisper. Mr. Figg takes a long, thin tool from his bag. \"Key spoon,\" he says. He slides it under the key, gentle as anything, and eases. The mouse does not budge. He tries again, from the side. Wiggle, wiggle. Pop! Out it comes, dusty and gray. Biscuit's ears go flat. Her eyes go wide. She leaps onto the keys. Her soft paws patter across the white and black. Run, run, run. The piano makes a wild, scrambled song. Up and down. Loud and soft. Biscuit is composing. 'She's playing!' we shout. Mr. Figg laughs so hard his mustache wiggles. Biscuit runs faster. The hammers inside jump and tap. The strings hum. 'How do we stop it?' we ask. Mr. Figg wipes his eyes. 'We don't,' he says. 'We let it finish.'",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The song slows. Biscuit stops. She looks at us, then at Mr. Figg, then at the keys. 'Well, that was a ruckus!' says Mr. Figg, holding Biscuit who is still twitching her tail. 'Now, do you want to play the softest duet ever, or shall we listen to the piano purr?' We look at our sister. She is already sitting at the bench, her hands hovering. 'I want to play my purple note,' she whispers. 'Soft. Like a secret.' Mr. Figg nods. 'Then let us begin.' He lifts the lid. Inside, the little felt hammers are still wearing their fuzzy gray sweaters, but now they are awake. Watching. Waiting. We press a key. A tiny, tiptoeing bass note. Our sister presses her purple note. It is so soft it is almost not there. A whisper. A breath. Biscuit sits between us, purring. Mr. Figg shows us the damper. It falls like a little pillow, tucking the string in. 'There,' he says. 'The quietest sound is the bravest.' We take home a felt hammer-shaped cookie from Nana. It is sweet and soft and gone in one bite.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The song slows. Biscuit stops. She looks at us, then at Mr. Figg, then at the keys. 'Well, that was a ruckus!' says Mr. Figg, holding Biscuit who is still twitching her tail. 'Now, do you want to play the softest duet ever, or shall we listen to the piano purr?' We press our ears against the wood. Mr. Figg plays one last loud note. The hum buzzes through the whole piano. It feels like a purring cat. A giant, wooden cat. We lift our fingers. We listen. The sound gets smaller. And smaller. Like it is walking away down a long hallway. A hallway with no end. Biscuit's ears twitch. She hears it too. Mr. Figg smiles. 'The piano is saying goodbye,' he says. 'In its own way.' He opens his toolbox. Inside, there is a tiny tuning wrench. A toy one. He gives it to us. 'For next time,' he says. We take it home. We hold it tight. We remember the piano's secret purr. It is still buzzing in our ears.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Alright, you two,\" says Mr. Figg, wiping his hands on a rag. \"Do you want to see how these little hammers work, or shall we just start making some noise?\"",
+      "options": [
+        {
+          "say_word": "Peek inside",
+          "label": "Watch the hammers dance",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Make noise",
+          "label": "Start the animal game",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Well, that was a ruckus!\" says Mr. Figg, holding Biscuit who is still twitching her tail. \"Now, do you want to play the softest duet ever, or shall we listen to the piano purr?\"",
+      "options": [
+        {
+          "say_word": "Softest duet",
+          "label": "Play a quiet duet with my sister",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Piano purr",
+          "label": "Feel the hum and hear the sound fade",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.piano",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.musical_instruments",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 0
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "romp",
+      "why": "The piano's cause-and-effect mechanics—hammers jumping, strings ringing, sounds swelling loud and soft—naturally fuel escalating silly play, like pressing every key to wake a thunderstorm of hammers.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred romp"
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Nana's cat, Biscuit, who watches everything with wide, wondering eyes and tries to 'play' by patting the keys with her soft paws.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Playing softly on purpose so someone else can shine, and discovering that being the quiet part of a duet is its own kind of brave.",
+      "why": "The whole story is about soft playing, and the resolution hinges on choosing to play quietly so the little sister's 'purple' note can be heard—naturally rides along without preaching."
+    },
+    "cast": [
+      {
+        "role": "The piano tuner who visits with a toolbox full of wrenches and felt strips",
+        "reused": false,
+        "why": "Opens up the piano and lets us peek inside at all the hammers and strings, showing us how one key makes its hammer jump—essential for the 'how it works' curiosity."
+      },
+      {
+        "role": "A little sister who thinks the piano is a giant's xylophone",
+        "reused": false,
+        "why": "Keeps pressing keys at random and making up names for the sounds, like 'that one smells like purple'—drives the crazy inventor energy and the animal-sound game."
+      },
+      {
+        "role": "A cat who lives in the piano shop (adapted as Nana's cat, Biscuit)",
+        "reused": false,
+        "why": "Walks across the keys at closing time and accidentally composes a song; here, Biscuit is the curious_wonder accent, always sniffing the piano and trying to understand the 'mouse in socks' sounds."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "When you press a piano key, a little felt hammer inside jumps up and taps a string to make the sound.",
+        "If you press a key very softly, the hammer taps the string gently and the sound comes out soft too.",
+        "The felt on the hammers is soft so the strings get a gentle tap instead of a hard whack.",
+        "When you lift your finger off the key, a soft pad called a damper falls on the string and stops the sound.",
+        "A game where you play a note as soft as you possibly can, then your friend plays one even softer, until you're both just barely breathing on the keys and giggling because nobody can hear anything",
+        "A game where every key you press has to match an animal sound, so low notes are hippos and high notes are baby chicks, and the song becomes a whole zoo escaping",
+        "Opening the top of an upright piano and watching the hammers dance while someone plays, each one leaping up and falling back like a tiny acrobat",
+        "Pressing a key so slowly and gently that the hammer doesn't quite reach the string, and discovering there's a silence hiding inside the piano too",
+        "Playing one note and then pressing your ear against the wood to feel the hum buzzing through the whole piano like a purring cat"
+      ],
+      "gathered_but_unused": [
+        "If you press a key hard, the hammer hits the string fast and the sound comes out loud.",
+        "A piano has 88 keys, and each key has its own string (or strings) waiting to be tapped.",
+        "The low notes come from long, thick strings, and the high notes come from short, thin ones.",
+        "You can play two notes at the same time, one with each hand, and the hammers tap two strings at once."
+      ]
+    },
+    "safety_beat": "Mr. Figg shows us where to stand when he opens the piano top—'Just here, so you can see the hammers jump but your fingers stay clear of the strings'—competence, never warning.",
+    "motif": "A tiny felt hammer wearing a fuzzy gray sweater, tiptoeing up to tap a string without waking it.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "busy_workshop",
+          "why": "The story is about a piano tuner coming to fix a sticky key, but the fixing never happens — the craft the draft sets up is abandoned for games, and the sticky Middle C is never unstuck.",
+          "editor_notes": [
+            "s1 promises a repair: 'There's a sticky key... Middle C. It sticks.' and Mr. Figg arrives with 'a bag full of tiny tools' — but no tool is ever used on the piano. Let Mr. Figg actually fix Middle C somewhere, even briefly: open the action, find the cause (a crumb? a swollen flange? Biscuit's missing toy mouse wedged under the key — the draft even hints 'like it swallowed a mouse'), and show the small steps of easing it free.",
+            "The hammers 'wearing fuzzy gray sweaters' is the story's best made-world image, but it's only looked at, never worked with. Give one moment where Mr. Figg names a real part as he touches it — the damper, the tuning pins, the felt — the way s4a briefly does with the damper ('It falls like a little pillow'), which is the single best workshop beat in the draft and should be the model, not the exception.",
+            "s3's mitten game and Biscuit's composing rampage are fun, but they replace the tuning rather than accompany it. Consider letting the chaos be what reveals the problem — e.g., Biscuit's wild run is what knocks the stuck thing loose, or her patter is how Mr. Figg locates which key sticks — so the play and the work become one event instead of the work vanishing.",
+            "s4a's cookie and s4b's toy wrench are lovely parting gifts, but the wrench especially ('For next time') gestures at competence the story never demonstrated. If Mr. Figg has actually tuned something on the page — one pin turned, one string brought from clank to true — the toy wrench becomes an earned handover of the craft rather than a souvenir of a visit where nothing got fixed.",
+            "Keep the games in s2a/s2b — they are the giggle-engine and the sound-play is strong — but frame them as Mr. Figg's way of testing the piano before/after the repair, so the sequence reads: listen, find the fault, fix it, play. That order is the deep reassurance this story is already reaching for."
+          ],
+          "segments_revised": 2,
+          "segments_rejected": 4
+        },
+        {
+          "round": 2,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The draft rushes through its most precious moments—the sleeping hammers, the piano's purr, the fading note—treating wonder as a plot point rather than something to sit inside.",
+          "editor_notes": [
+            "In s1, when the children whisper 'They're all asleep,' linger there for one more beat. Describe the hammers' stillness, the dust motes, or the cat's breath before the sister shatters it. Let the child feel the hush.",
+            "In s4a, when the damper falls 'like a little pillow, tucking the string in,' slow down. Let the children watch the felt settle. Let them wait for the silence to become complete before Mr. Figg speaks.",
+            "In s4b, the fading hum is described as 'walking away down a long hallway. A hallway with no end.' This is the story's most luminous image, but it passes in one sentence. Extend it: describe the vibration under their fingertips, the way the wood feels warmer where the sound was, or how Biscuit's ear tracks the note into silence.",
+            "In s3, when Mr. Figg says 'We let it finish,' that is a moment of reverence. Don't cut immediately to the next line. Let the children listen to the scrambled song until it truly ends, noticing the specific notes or the cat's tail twitching in time."
+          ],
+          "segments_revised": 5,
+          "segments_rejected": 1
+        }
+      ],
+      "cards_used": [
+        "busy_workshop",
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "snug and curious",
+        "s2a": "leaning in, breath held",
+        "s2b": "giggling and stomping",
+        "s3": "surprised delight, then wild joy",
+        "s4a": "tender and hushed",
+        "s4b": "quietly amazed, then satisfied"
+      },
+      "segments_revised": 7,
+      "segments_rejected": 5
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 14 warning. [s1] no voices: segment carries no spoken line; [s1] narration heavy: only 19% of sentences carry speech or action; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.3); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 36% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 19% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] no voices: segment carries no spoken line",
+      "[s3] narration heavy: only 32% of sentences carry speech or action",
+      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 28% of sentences carry speech or action",
+      "round 1: [s1] polished (200 -> 207 words)",
+      "round 1: [s2a] polish rejected: grew 117% of the original, over the 115% limit",
+      "round 1: [s2b] polish rejected: grew 120% of the original, over the 115% limit",
+      "round 1: [s3] polished (180 -> 196 words)",
+      "round 1: [s4a] polish rejected: grew 118% of the original, over the 115% limit",
+      "round 1: [s4b] polish rejected: grew 136% of the original, over the 115% limit",
+      "round 2: [s1] polish rejected: grew 117% of the original, over the 115% limit",
+      "round 2: [s2a] polished (127 -> 127 words)",
+      "round 2: [s2b] polished (122 -> 122 words)",
+      "round 2: [s3] polished (196 -> 196 words)",
+      "round 2: [s4a] polished (186 -> 186 words)",
+      "round 2: [s4b] polished (174 -> 174 words)",
+      "[s1] no voices: segment carries no spoken line",
+      "[s1] narration heavy: only 19% of sentences carry speech or action",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] no voices: segment carries no spoken line",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 28% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "01_piano_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

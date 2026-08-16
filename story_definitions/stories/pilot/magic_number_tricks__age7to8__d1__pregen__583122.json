@@ -1,0 +1,316 @@
+{
+  "id": "story.magic_number_tricks.age7to8.d1.pregen.583122",
+  "title": "The Number That Always Comes Home",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.magic_number_tricks",
+    "sel_theme": null,
+    "value_lesson": "Honest amazement",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "cozy"
+  },
+  "spine": "A mystery about how one trick always lands on the same number, and how doubling hides its speed until it suddenly becomes enormous.",
+  "slots": {
+    "friend_name": {
+      "role": "The skeptical best friend who helps test the trick",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    },
+    "trick_name": {
+      "role": "The name Grandpa gives his number trick at the fair booth",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Five-Knock Trick"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandpa's kitchen table is covered in the usual things. A chessboard with the squares worn soft. A jar of rice, fat and dusty. And his chipped blue teacup, the one with the crack running down the side like a tiny river.\n\nWe are sitting across from him, me and {friend_name}, and {friend_name} has their arms crossed. \"Number tricks are just showing off,\" {friend_name} says. \"There's always a catch.\"\n\nGrandpa doesn't argue. He just taps his teacup twice. Tap. Tap. That means something is about to matter.\n\n\"Pick a number,\" he says. \"Any number. Don't tell me.\"\n\n{friend_name} picks one. I pick one too. Grandpa tells us to double it. Then add ten. Then halve it. Then take away the number we started with.\n\nWe do it in our heads. It takes a second. Then Grandpa looks at {friend_name} and says, \"Five.\"\n\n{friend_name}'s mouth drops open. \"How did you—\"\n\n\"And you,\" Grandpa says, turning to me. \"Five.\"\n\nHe's right. We both got five. We started with different numbers, secret numbers, and we both landed on five.\n\n\"That's not possible,\" {friend_name} says.\n\nGrandpa taps the teacup again. Tap. Tap. \"It's not magic,\" he says. \"It's a pattern. And patterns don't care what number you pick.\"\n\nHe leans back. \"The question isn't how I knew. The question is why it works.\" He waits. \"So. Do you want me to tell you the secret, or do you want to figure it out?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The fair,\" {friend_name} says, before I can even breathe. \"If this trick is so tough, let's break it in public.\"\n\nSo we take the chessboard, the rice jar, and Grandpa's chipped blue teacup to the school fair, and Grandpa sets up a little booth with a hand-painted sign: {trick_name}. Kids line up. Grandpa taps the teacup twice. Tap. Tap. \"Pick a number,\" he tells a girl with pigtails. \"Double it. Add ten. Halve it. Take away your number.\" She gasps. \"Five!\"\n\nThen {friend_name} cracks their knuckles. \"My turn.\" They lean in and whisper their number, but I hear it. It's huge. It's a number with a lot of zeros in it. The crowd goes quiet. Grandpa just smiles. \"Double it,\" he says. {friend_name} does, slowly. \"Add ten. Halve it. Take away your number.\" {friend_name}'s eyes go wide. \"Five,\" they say, very quietly. \"It's still five.\"\n\nThe whole line cheers. {friend_name} flops down next to me. \"We fed it a monster,\" they say, \"and it still came home.\" Grandpa taps the teacup. Tap. Tap. \"Patterns don't care how big you go,\" he says. \"But I think you're starting to see why.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"We'll stay,\" I say, and {friend_name} nods. \"Rice turning into trouble sounds better than telling.\"\n\nGrandpa grins. He opens the jar, takes out one grain of rice, and sets it on the first square of the chessboard. \"One,\" he says. Then two grains on the next square. \"Doubling.\" Then four. Then eight. {friend_name} yawns. \"This is the trouble? It's just rice.\"\n\nGrandpa keeps going. Sixteen. Thirty-two. Sixty-four. The pile is still small enough to hold in your hand. \"See?\" {friend_name} says. \"Doubling is slow.\"\n\nThen the pile jumps. A hundred and twenty-eight. Two hundred and fifty-six. Grandpa has to scoop rice out by the cupful now, and the jar is getting light. \"Five hundred and twelve,\" he says, and the heap slides off the square and onto the table. {friend_name} yelps and jumps back. \"Where did it all come from? It was nothing a second ago!\"\n\nGrandpa taps the teacup twice. Tap. Tap. \"That's the secret,\" he says. \"Doubling stays quiet for a long, long time. Then it runs away so fast it could fill this whole kitchen. And it started with one grain.\" He pours the rice back into the jar. \"Same as the trick. Small steps. Big landing.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back at the table, Grandpa pushes a piece of paper toward us. \"Show me what you found,\" he says.\n\nWe tell him. Both of us. The words tumble out, and {friend_name} waves their hands around, and Grandpa just listens, nodding, tapping his teacup twice when we get to the good part. Tap. Tap.\n\n\"So the trick always lands on the same number,\" he says. \"No matter what you pick.\" He picks up a pencil. \"Let me show you why.\"\n\nHe draws a little box on the paper. Just a square. \"This is your secret number. We don't know what it is, so we draw it as a box.\" Then he draws another box next to it. \"Double it. Two boxes.\" He writes a ten beside them. \"Add ten.\" Then he crosses out one box and half the ten. \"Halve it.\" Then he crosses out the last box. \"Take away your number.\"\n\nWe stare at the paper. The boxes are gone. All that's left is five.\n\n\"The boxes cancel out,\" I whisper.\n\n\"Every time,\" Grandpa says. \"The number you pick disappears. That's the secret. The trick doesn't care what you started with. It eats the boxes and leaves the five.\"\n\n{friend_name} leans back in their chair. \"So it's not magic at all.\"\n\n\"It's better than magic,\" Grandpa says. \"It's a pattern. And patterns work for everyone.\"\n\nHe taps the teacup one more time. Tap. Tap. \"Now,\" he says. \"What do we do with it?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Teach it,\" {friend_name} says, before I can even open my mouth. \"Somebody else has to feel that.\"\n\nSo we carry the trick out to the fair, where Grandpa sets up a little booth with a hand-painted sign: {trick_name}. A younger kid wanders over, scuffing one shoe in the grass.\n\n\"Pick a number,\" {friend_name} says, leaning in just like Grandpa did. \"Any number. Don't tell me.\"\n\nThe kid picks. We walk them through it, step by step. Double it. Add ten. Halve it. Take away your number. The kid's forehead wrinkles up.\n\n\"Five,\" {friend_name} and I say together.\n\nThe kid's mouth drops open. \"How did you—\"\n\nAnd there it is. The same baffled face we made. It works even better when you're the one saying it.\n\nBack home, Grandpa taps the teacup twice. Tap. Tap. Then he tips the rice jar, and one single grain rolls across the table. \"For your pocket,\" he says. \"One grain, doubled and doubled, makes a mountain.\"\n\nI keep it there all the way home. Small as anything. Hiding a mountain.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Peek,\" I say. \"I want to see what else a secret can hide.\"\n\nGrandpa's eyes crinkle. He pulls a fat old notebook off the shelf and blows the dust off. \"The trick hid a number,\" he says. \"But secret steps can hide a message, too.\"\n\nHe opens to a page covered in numbers. \"Each number stands for a letter. One is A, two is B. Simple. But unless you know the steps, it just looks like a list of groceries.\"\n\n{friend_name} grabs the pencil. \"So we could write notes nobody else can read?\"\n\n\"Try it,\" Grandpa says.\n\nWe scratch away, tongues out, turning letters into numbers. When we slide the paper across, Grandpa reads it slow, then laughs. \"'Grandpa is a noodle.' Charming.\"\n\nHe taps the teacup twice. Tap. Tap. Then he tears out a small square of paper, covered in his own tiny numbers, and folds it into my hand. \"For later. Solve it when you're home.\"\n\nThen he tips the rice jar, and one grain rolls out. \"For luck,\" he says. \"One grain, doubled and doubled, makes a mountain.\"\n\nThe note stays folded in my pocket, warm as a secret, all the way home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do you want to test this trick in front of the whole fair, or stay right here and watch rice turn into trouble?\"",
+      "options": [
+        {
+          "say_word": "Fair booth",
+          "label": "Take the trick to the school fair and test it on lots of kids",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Rice test",
+          "label": "Stay at the table and explore the doubling rice clue",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now that you know the secret, do you want to teach the trick to someone new, or peek at how secret steps can hide a message?\"",
+      "options": [
+        {
+          "say_word": "Teach it",
+          "label": "Share the trick with a younger kid and pass on the wonder",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Peek codes",
+          "label": "Follow the secret-step idea into codes and hidden messages",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.magic_number_tricks",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.shapes_and_symmetry",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 4
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "Magic number tricks are inherently about secrets and surprising reveals, so a mystery structure lets clues about doubling and patterns accumulate until the satisfying 'how it works' answer lands.",
+      "backup": "inner_weather",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "cozy"
+      },
+      "accent_carrier": "Grandpa's chipped blue teacup, which he taps twice whenever a clue is about to matter",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Honest amazement",
+      "why": "The material naturally offers the idea that the trick is most delightful when we admit it is a puzzle, and the real magic is that math is true for everyone."
+    },
+    "cast": [
+      {
+        "role": "A grandparent who used to be a street magician",
+        "reused": false,
+        "why": "Perfect for the mystery pattern: he performs the trick, then withholds the secret until we collect enough clues to earn it ourselves."
+      },
+      {
+        "role": "A best friend who is skeptical of magic",
+        "reused": false,
+        "why": "Gives us a playful detective partner who tests the trick with outrageous numbers and keeps the tone silly instead of pressured."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "doubling rice on a chessboard becomes enormous surprisingly fast",
+        "paper folding doubles thickness and quickly outruns hands",
+        "a number trick can always land on the same answer",
+        "the secret is that the starting number cancels itself out",
+        "an old street-magician grandparent",
+        "a skeptical best friend who tests tricks with huge numbers",
+        "a school fair booth with a hand-painted sign",
+        "a kitchen table with chessboard and rice",
+        "codes and ciphers as a neighbouring glimpse"
+      ],
+      "gathered_but_unused": [
+        "When you double a number over and over, it gets big amazingly fast: 1 becomes 2, then 4, then 8, then 16, and after only 20 doublings it's over a million.",
+        "There's an old story about a wise person who asked a king for rice doubled on every square of a chessboard, and by the last square it would be more rice than the whole kingdom could grow.",
+        "If you fold a piece of paper in half again and again, each fold doubles its thickness, and after about 42 folds it would be thicker than the distance to the Moon.",
+        "In a mind-reading trick, if someone picks a number, doubles it, adds 10, halves it, and subtracts their original number, the answer is always 5, no matter what number they started with.",
+        "Some number tricks always land on the same number because the secret steps make your starting number cancel itself out, like a footprint washing away in the tide.",
+        "Doubling is how germs multiply and how one sunflower seed can become a whole field of sunflowers in just a few seasons.",
+        "A trick where you add the digits of a number and subtract them from the original always gives an answer in the nine times table, like 9, 18, or 27.",
+        "Computers count using only doubling numbers: 1, 2, 4, 8, 16, 32, and by mixing these they can make any number at all."
+      ]
+    },
+    "safety_beat": "At the school fair, Grandpa lightly shows he knows where to stand by keeping the booth table clear and the rice jar steady on a flat spot, with no fuss or warning.",
+    "motif": "A grain of rice that becomes a mountain",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the math is dramatized rather than explained, the teacup's tap-tap is a perfect heard-aloud ritual, the branches each earn their own texture (public triumph, slow-then-sudden rice, generous teaching, pocketed secrecy), and the closing images — one grain hiding a mountain, a note warm as a secret — land with quiet warmth."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious and a little skeptical, then a held breath at 'Five'",
+        "s2a": "gleeful suspense, then a shared cheer",
+        "s2b": "bored patience tipping into a yelp of surprise",
+        "s3": "the satisfying click of a puzzle solving itself",
+        "s4a": "proud, generous delight, ending snug",
+        "s4b": "conspiratorial giggles settling into a warm, pocketed secret"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 11 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.0); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.8); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 5.0); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 4.4)"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 5.0)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.8)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "05_magic_number_tricks_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

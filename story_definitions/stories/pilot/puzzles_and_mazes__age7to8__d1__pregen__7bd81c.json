@@ -1,0 +1,305 @@
+{
+  "id": "story.puzzles_and_mazes.age7to8.d1.pregen.7bd81c",
+  "title": "The Backwards Pencil",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.puzzles_and_mazes",
+    "sel_theme": null,
+    "value_lesson": "Being stuck is not failing; it is the part where your brain grows",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "big_adventure"
+  },
+  "spine": "We keep getting stuck near the finish of Grandpa's hand-drawn maze until we discover the sneaky trick of starting at the end and walking backwards, which turns every dead end into a clue.",
+  "slots": {
+    "maze_name": {
+      "role": "What Grandpa calls the maze he drew for us",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Cookie Crumb Labyrinth"
+    },
+    "surprise_at_finish": {
+      "role": "The tiny treasure Grandpa hid at the finish",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "a chocolate chip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Grandpa's kitchen table smells like toast. It is Saturday morning, and Grandpa has been drawing something on a big piece of paper for a whole hour, with his tongue sticking out the corner of his mouth like it does when he is concentrating very hard. \"Look at this,\" he says, and slides the paper across to us. It is a maze. A proper one, with walls and corners and long skinny passages. Grandpa calls it {maze_name}. \"I drew it just for you,\" he says. \"And at the finish, I hid a treasure. A real one.\" He taps the very middle of the maze with one finger. Right there, he says, is {surprise_at_finish}. We put our pencil at the start. Easy, we think. We begin to draw. The line goes forward, turns left, turns right. But the closer we get to the middle, the more the maze seems to giggle at us. Dead end. Dead end. Another dead end. We are so close we can almost taste that treasure, and we cannot get there. Grandpa leans back in his chair and smiles. \"Why do you think it gets harder,\" he says, \"the closer you get?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The clues,\" we say. \"We want to hunt for clues.\" Grandpa nods, slow and serious, like we have just chosen our expedition gear. \"Good choice,\" he says. \"Every dead end is a clue, if you know how to listen to it.\" We put our pencil back at the start and we go. The line runs forward, turns, and stops. Dead end. But this time, we mark it with a small X. \"Good,\" we say out loud. \"Now I know.\" We try another way. The line wiggles left, wiggles right, and stops again. Another X. \"Good. Now I know.\" It feels a little like losing, at first. Every X is a tiny defeat. But then we look at the paper and we see it. The X's are not just marks. They are talking. They are telling us which way not to go. The maze is not a trap anymore. It is a conversation. We are not stuck. We are solving. We look at Grandpa. He is watching us, his eyes twinkling. \"See?\" he says. \"The maze is telling you its secrets.\" We look at the paper. The X's are everywhere, but they are pointing the way. We just have to follow them. But will we have enough X's to find the treasure?",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"A hint,\" we say. \"Tell us the sneaky trick.\" Grandpa leans in close, like a fellow explorer sharing secret treasure map knowledge. He lowers his voice. \"The trick,\" he whispers, \"is to start at the finish.\" We blink. \"But that is backwards!\" Grandpa grins. \"Exactly! The start of a maze has many choices. It is designed to confuse you. But the finish? The finish usually has only one path leading away from it. It is much easier to find your way out of a room with only one door.\" He taps the middle of the maze. \"So, you flip your pencil. You start at the treasure, and you walk the maze backwards.\" We look at the paper. It feels like cheating, but it also feels like genius. We put our pencil on the finish, right where {surprise_at_finish} is waiting. We start to draw. The line goes backwards, out of the middle, and into the passages. And it is amazing. The maze seems to open up like a zipper. The dead ends we found before are not even on this path. The way is clear. It is a straight shot, right back to the start. We did it. We solved the maze by walking it backwards. We look at Grandpa, our mouths open. He just winks. \"The sneakiest tricks,\" he says, \"are the ones that are hiding in plain sight.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Grandpa taps the middle of the maze. \"So what did you find?\" We tell him, and his eyes go crinkly at the corners. \"Then you know the secret,\" he says. \"Turn the paper around. Start at the treasure. Walk backwards.\" We spin the page. We put our pencil right on the finish, and we begin to draw the other way. Backwards, the whole maze changes. Passages that looked sneaky now look plain. And here is the funny thing: the worst dead ends, the ones that giggled at us, are all huddled near the treasure, like the maze was guarding it on purpose. From this side, we spot them before they spot us. Around the last corner, the pencil line stops, turns, and lands on the start. \"Solved,\" Grandpa says, and he reaches into his pocket and sets {surprise_at_finish} on the table like a tiny treasure chest. It tastes like victory. \"Now,\" he says, pulling out a fresh sheet of paper, \"do you want to draw a maze of your own, with your own sneaky dead ends? Or shall we try a different kind of puzzle altogether?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Our turn,\" we say, and Grandpa slides the fresh paper over like a map to somewhere. We draw a start. We draw a finish. Then we do the sneaky thing first: we put our pencil on the finish and draw backwards, so we know the path really connects. The line stops, turns, wiggles home. Almost. One corner dead-ends where it shouldn't. \"A wall where a door should be,\" Grandpa murmurs. We erase one little line, and the path opens like a yawn. Now we pile on the dead ends, fat ones, giggly ones, all huddled near the treasure where they do the most guarding. Grandpa takes the pencil. He frowns. He groans. \"Impossible,\" he declares, and solves it in about four seconds. \"Hey!\" we shout. He laughs so hard his chair creaks. \"A fair stump,\" he says, \"is a gift. You made me feel clever and slow at the same time.\" We put the maze in our pocket, to take home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The code,\" we say. Grandpa's eyes go crinkly, and from his shirt pocket he pulls a folded note. Inside is a row of numbers: 8, 5, 12, 12, 15. \"Numbers standing where letters should be,\" he says. \"Very rude of them.\" We stare. Nothing. Then we remember the maze, and we try it backwards: what if 1 is A, all the way at the start of the alphabet? We count on our fingers. 8 is H. 5 is E. 12 is L. And 12 again. \"A pattern that repeats,\" Grandpa says softly, \"like a path you walk twice.\" 15 is O. The word sits there on the table, plain as toast. HELLO. \"Hello back,\" we say to the note, and Grandpa laughs. \"A code is just a maze made of symbols,\" he says. \"Once you find the way in, it can't wait to be solved.\" We fold the note small and put it in our pocket, next to the pencil. All the way home, the world looks full of secret paths, waiting.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do you want to hunt for clues by marking every dead end, or shall I give you a hint about a sneaky trick?\"",
+      "options": [
+        {
+          "say_word": "Hunt clues",
+          "label": "Mark every dead end with an X to gather information",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Ask hint",
+          "label": "Ask Grandpa for the backwards trick",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Now that you know the secret, do you want to draw your own maze for me to solve, or try cracking a code I wrote just for you?\"",
+      "options": [
+        {
+          "say_word": "Draw maze",
+          "label": "Make your own maze and test it backwards",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Crack code",
+          "label": "Solve a number code by finding the repeating pattern",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.puzzles_and_mazes",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.shapes_and_symmetry",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 7
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "The material is literally about clues, dead ends, and solving something by working backwards, which maps perfectly onto a gentle mystery where the trick of starting at the finish becomes the satisfying reveal.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "Grandpa, who treats maze-making like a grand expedition and hides a cookie-crumb 'treasure' at the finish",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Being stuck is not failing; it is the part where your brain grows",
+      "why": "The material offers it naturally: dead ends are clues, and the stuck feeling right before the finish is where the pattern appears"
+    },
+    "cast": [
+      {
+        "role": "A kid who loves mazes but always gets stuck near the end",
+        "reused": false,
+        "why": "Carries the curious_wonder tone and embodies the topic's truth that being stuck is the fun part"
+      },
+      {
+        "role": "Grandpa who draws mazes by hand",
+        "reused": false,
+        "why": "Carries the big_adventure accent; makes the maze, hides the surprise, and asks the choice questions in his own voice"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "You can solve most mazes faster by starting at the finish and walking backwards",
+        "A dead end is not a mistake; it is a clue",
+        "Maze makers put the trickiest dead ends near the finish",
+        "When you make your own maze, you have to solve it backwards yourself first",
+        "Being stuck means your brain is working",
+        "A code is a kind of maze made of symbols",
+        "A kitchen table covered with a paper maze, a pencil, and a cookie crumb",
+        "A grandparent who draws mazes by hand",
+        "A kid who loves mazes but always gets stuck near the end",
+        "Opening question: Why does the maze feel impossible when you're close to the end?",
+        "Clue: The finish has only one path leading away from it, but the start has many",
+        "Clue: Dead ends are marked with X's, and each X is a piece of information",
+        "Satisfying answer: Start at the finish and walk backwards",
+        "A child finds a dead end, marks it, and says out loud, 'Good. Now I know.'",
+        "A kid solves a maze backwards, then tries it forwards and sees it looks completely different",
+        "A note in code is solved by finding the pattern, just like finding the path in a maze"
+      ],
+      "gathered_but_unused": [
+        "You can solve most mazes faster by starting at the finish and walking backwards to the start, because the finish usually has only one path leading away from it while the start has many choices.",
+        "A dead end is not a mistake; it is a clue. Every dead end you find tells you which way NOT to go, and that is real information.",
+        "Maze makers on purpose put the trickiest dead ends near the finish, so you feel lost right before you win.",
+        "Some mazes are drawn so that if you keep one hand on the same wall the whole time, you will always find the way out, even if it takes a long time.",
+        "When you make your own maze, you have to solve it backwards yourself first to make sure it can actually be finished.",
+        "Being stuck in a maze means your brain is working. The moment you feel most stuck is often right before you see the pattern.",
+        "Mazes and puzzles show up in nature too, like the winding paths ants make or the spiral of a snail shell, which follows its own repeating pattern.",
+        "A code is a kind of maze made of symbols instead of walls. You solve it by finding the pattern that repeats."
+      ]
+    },
+    "safety_beat": "not needed: setting is not a real place a child could stand in",
+    "motif": "A pencil line that stops, turns around, and finds its way home",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: the backwards-solving trick is a genuine, satisfying insight, the Grandpa-child warmth is paid in attention (tongue in the corner of his mouth, eyes going crinkly, the wink), the sound is read-aloud friendly ('plain as toast,' 'opens like a yawn,' 'giggly ones'), and each branch lands its own small gift — competence in s4a, a world full of secret paths in s4b."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, then deliciously stumped",
+        "s2a": "leaning in, losing-then-winning as the X's start to talk",
+        "s2b": "a held breath, then the grin of being let in on the trick",
+        "s3": "the click of it working, then victory you can taste",
+        "s4a": "busy and proud, then a giggle at Grandpa's four-second solve",
+        "s4b": "quietly clever, then satisfied and a little starry-eyed on the way home"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 2 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "08_puzzles_and_mazes_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

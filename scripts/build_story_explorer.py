@@ -254,6 +254,11 @@ PILOT_CATEGORIES = [
     "knowledge_domain.oceans_and_tides",
     "knowledge_domain.frogs_and_amphibians",
     "knowledge_domain.theater_and_pretending",
+    # 2026-08: making/appearance topics — both exist in the graph at 5-6 with
+    # no parent that was already a pilot category, so without these two lines
+    # their stories would generate fine and then be invisible on the map.
+    "knowledge_domain.clothes_and_fashion",
+    "knowledge_domain.colors_and_mixing",
     # 2026-08 pregen batch: new standalone top-level topics (no parent in the
     # graph yet). Listed here so their stories appear; the sphere layout
     # handles any count. Space & sky:

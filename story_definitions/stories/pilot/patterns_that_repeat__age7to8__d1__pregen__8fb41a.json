@@ -1,0 +1,319 @@
+{
+  "id": "story.patterns_that_repeat.age7to8.d1.pregen.8fb41a",
+  "title": "The Tile That Pointed",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.patterns_that_repeat",
+    "sel_theme": null,
+    "value_lesson": "Mistakes can be gifts: the flipped tile everyone grumbled about turns out to be the most important tile in the building.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "mystery",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": null
+  },
+  "spine": "A broken pattern in the school hallway turns out to be a message, and we follow the breaks to find what someone hid.",
+  "slots": {
+    "hidden_spot": {
+      "role": "the place in the school where the message points and the tin of quilt squares is hidden",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "the cupboard under the stairs"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Nico counts everything. Stairs on the way up. Windows on the way down. So when we walk the shiny hallway of our old school, past the blue diamond tiles that march along the wall, it is Nico who stops dead.\n\n\"Wait,\" he says. \"Count with me. Blue, blue, white. Blue, blue, white.\"\n\nWe count. Blue, blue, white. All the way down the hall, the same little song — until it isn't.\n\n\"There!\" Nico's finger lands on one blue diamond, right at our height. It is flipped the wrong way. Its point aims at the floor, not the ceiling.\n\n\"Somebody set it crooked,\" I say.\n\n\"Mm, no.\" Mr. Okafor pokes his head out of the bathroom, where he is re-tiling the floor. He shows us how he works: he slides a tile along the ground, flips it like a pancake, turns it till it sits just right. \"Tiles don't mind which way they point,\" he says. \"That one wasn't set wrong. It was set differently.\"\n\nNico looks at me. I look at the tile. Its point aims at the floor like a finger.\n\n\"Who flipped it?\" Nico whispers. \"And why?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The hall,\" Nico says. \"Come on.\"\n\nWe stand in front of the flipped tile, and Nico runs his finger along the wall, the way Mr. Okafor slides his tiles. \"Every flipped one is blue,\" he says. \"And look — they only show up at corners.\"\n\nWe slide along the wall, slow, the way Mr. Okafor does it. Nico counts under his breath. One flipped tile. Then another. Then another.\n\n\"Left,\" Nico says. \"Left again. Now right.\"\n\nThe flipped tiles make a trail of turns. We follow them down the old corridor, past the coat hooks, past the radiator that ticks like a clock. Six flips. Six turns.\n\nThen the corridor ends. Blank wall. No door, no cupboard, nothing.\n\nNico stares. \"That's it?\"\n\nI touch the wall. It's just wall.\n\n\"The flips point somewhere,\" Nico says. \"But where?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "We find Dee on the porch steps, tapping her foot. Clap, stomp, clap. Clap, stomp, clap.\n\n\"Dee,\" Nico says, \"we found a flipped tile in the hall. It points somewhere, but we don't know where.\"\n\nDee doesn't answer. She just keeps tapping. Clap, stomp, clap. Clap, stomp —\n\nHer foot comes down early. A stumble. She grins.\n\n\"You did that on purpose,\" I say.\n\n\"Did I?\" Dee says. She taps it again. Clap, stomp, clap. Clap, stomp — stomp. Early again.\n\nNico tilts his head. \"That's the same as the tile. A break right where you're listening for it.\"\n\nDee's grin gets wider. She taps the rhythm one more time, slow. Clap, stomp, clap. Clap, stomp — stomp.\n\n\"Six,\" Nico says. \"The early stomp lands on beat six. Same as the hall.\"\n\nDee just taps and waits.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Dee is waiting on the school steps, and she does not even say hello. \"Well?\" she says. \"What did you find?\"\n\nWe tell her. All of it, talking over each other, and her eyes get rounder and rounder until she claps once, sharp. \"Grandma Wren,\" she says. \"Now.\"\n\nGrandma Wren's sewing room smells like warm cotton. Her quilt lies draped over the frame, half finished, soft as a blanket fort. She does not ask what brought us. She just smooths the fabric with one slow hand and says, \"What do you notice?\"\n\nWe look. Nico looks longest.\n\n\"The squares,\" he breathes. \"They're turned sideways. But only along this one edge.\"\n\nHe is right. All down one border, the little squares point the wrong way, one after another, like footprints in fabric. A trail. Somebody stitched a trail.\n\n\"And here.\" Dee's finger stops at the corner. One square. Then two. Then four. Each bunch doubling the one before, growing and growing, like the quilt is counting something bigger than itself.\n\nGrandma Wren says nothing. She is smiling at the corner.\n\nNico grabs my sleeve. \"The flipped tile in the hall. It was never the message. It was the arrow.\" His voice drops to a whisper. \"The message is the doubling. It's telling us how big the hidden thing is. And how many breaks to count on the way.\"\n\nDee grins her widest grin. \"Then we'd better start counting.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Inside,\" we say together.\n\nSo we count the breaks backward, out of the sewing room, down the hall. \"One,\" says Nico, where the tiles change color. \"Two,\" says Dee, clapping once at the corner. Three, four, five. At six we stop, and there it is: {hidden_spot}.\n\nDee pulls the door. Inside, behind a stack of old chalk, sits a tin box gone soft with dust.\n\nNico lifts the lid. Fabric squares. Dozens of them, the prettiest cloth I have ever seen — tiny flowers, tiny stars, one blue the exact blue of the hallway tiles. And a note, folded small.\n\n\"Read it,\" Dee whispers.\n\n\"For whoever counts,\" Nico reads. \"The pattern was mine first. I copied it from the cracks in the dried garden mud, and set it in the wall so it would last. — Mama.\"\n\nGrandma Wren has followed us, quiet as a cat. \"My mother laid those tiles,\" she says. \"Now each of you, pick one square. Keep it.\"\n\nI take the blue one. Dee takes stars. Nico holds his square up against the wall, and the flipped tile points straight at him.\n\n\"It was never crooked,\" he says softly. \"It was the most important tile in the whole building.\"\n\nAnd for the first time all day, Nico stops counting.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"The garden,\" we say.\n\nSo we count the doubling outward, across the playground, one step, two steps, four. Dee claps the rhythm. Nico stomps it. And the garden waits, dry and cracked from the long summer.\n\n\"Look at the mud,\" I say.\n\nIt has split into shapes. Six-sided shapes, pressed together like a honeycomb, like a quilt, like —\n\n\"The hallway tiles,\" Nico breathes. \"They're the same. Somebody copied the ground.\"\n\nWe count the crack-clusters. One, two, four, doubling, doubling, until the sixth. Dee digs with careful fingers, and there, wrapped in waxed cloth, sits a tin.\n\nInside: fabric squares, dozens, tiny flowers and tiny stars. And a note. \"For whoever counts. The pattern was mine first. I found it in the mud and set it in the wall so it would last. — Mama.\"\n\n\"Grandma Wren's mother,\" Dee whispers. \"She laid the hallway tiles.\"\n\nBack inside, we each pick one square to keep. Mine is blue as the tiles. And Nico runs his finger along the wall, slow, slower — and stops.\n\n\"The vines between the tiles,\" he says. \"They're a maze. And it ends at that little painted door.\"\n\nWe look. We look at each other. Dee grins.\n\n\"Tomorrow,\" says Nico, pocketing his square. \"Tomorrow we count that.\"",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"We could chase the flips down the hall ourselves,\" Nico says, \"or Dee's on the porch tapping something weird — she might already know. Which way?\"",
+      "options": [
+        {
+          "say_word": "hall",
+          "label": "Trace the flipped tiles along the hallway",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "porch",
+          "label": "Ask Dee about her stumbling rhythm",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The doubling tells us how many breaks to count,\" Grandma Wren says, smoothing the quilt. \"But you can count them back inside, or count them out into the garden. Where do you want to follow the pattern?\"",
+      "options": [
+        {
+          "say_word": "inside",
+          "label": "Count the breaks back through the school to the hiding spot",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "garden",
+          "label": "Follow the doubling outside to the cracked-mud garden",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.patterns_that_repeat",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.shapes_and_symmetry",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "mystery",
+      "why": "A child spotting a strange tile or quilt block and gathering clues about how it slides, flips, and turns to fill the wall gives the mystery pattern a natural, satisfying arc without any right-answer pressure.",
+      "backup": "inner_weather",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred mystery"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": null
+      },
+      "accent_carrier": "Dee, the riddle-loving cousin, whose clap-stomp rhythms and grinning guesses carry a playful spark",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Mistakes can be gifts: the flipped tile everyone grumbled about turns out to be the most important tile in the building.",
+      "why": "The material offers it naturally — the mystery's whole answer is that a break in a pattern is a message, so the 'wrong' tile being the treasure lands without any lecturing."
+    },
+    "cast": [
+      {
+        "role": "Nico, a classmate who counts everything",
+        "reused": false,
+        "why": "He is the one who spots the flipped tile and cannot rest until it is explained — the perfect engine for a mystery that opens on noticing."
+      },
+      {
+        "role": "Mr. Okafor, a tile-setter",
+        "reused": false,
+        "why": "He is re-tiling the school bathroom and can show us, hands-on, how tiles slide and flip to fit — turning the mystery's mechanics into something we do ourselves."
+      },
+      {
+        "role": "Dee, an older cousin who loves riddles",
+        "reused": false,
+        "why": "Her clap-stomp rhythm that stumbles on purpose is the second clue, and her riddle-voice carries the story's playful accent."
+      },
+      {
+        "role": "Grandma Wren, a quilter",
+        "reused": false,
+        "why": "Her half-finished quilt holds the hidden message and the warm landing; she asks 'What do you notice?' instead of telling, which fits the mystery's beat structure."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "one tile in the hallway is wrong — flipped the wrong way",
+        "slide one shape along the wall and it fits perfectly into the next spot",
+        "some tiles have to be flipped over, like turning a pancake",
+        "the clap-stomp rhythm stumbles — stomp comes early — and Dee insists it wasn't a mistake",
+        "the quilt's edge has squares turned sideways, but only along one border, like a trail of breadcrumbs",
+        "a break in a pattern is the one thing every eye notices",
+        "one square in the quilt's corner, then two, then four — keep doubling",
+        "hexagon cracks in the dried mud of the garden",
+        "the vines form a path — a maze printed on the wall",
+        "noticing things is a skill anyone can practice"
+      ],
+      "gathered_but_unused": [
+        "A quilt can be made by sewing one small square over and over, flipping it and turning it until the whole blanket is covered.",
+        "In a tile pattern, you can slide one shape along the wall and it fits perfectly into the next spot without ever having to squeeze or stretch it.",
+        "Some tiles have to be flipped over, like turning a pancake, before they'll fit next to their neighbors.",
+        "Wallpaper in old houses often repeats the same little flower or bird every few inches, all the way around the room.",
+        "A pattern of sounds can repeat too — clap, stomp, clap, clap, stomp, clap — and your body can feel what comes next before you hear it.",
+        "Some patterns don't just repeat — they grow, like one tile, then two, then four, doubling each time.",
+        "Bees build honeycombs by repeating one hexagon shape over and over, and the pattern is so snug there's no wasted space.",
+        "If you fold a piece of paper and cut one small shape, when you unfold it the shape has been copied and flipped across every fold line."
+      ]
+    },
+    "safety_beat": "In s1, Mr. Okafor shows us where to stand at the edge of his chalk lines and hands us tiles to dry-fit on the floor, away from the stacked boxes — competence shown lightly, no warning.",
+    "motif": "one small shape repeated — sliding, flipping, turning — until it fills a whole surface, and the one place it breaks",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a child's real want pursued immediately, with sound-words that land as their own small sentences and a quiet, earned ending that pays attention instead of declaring love."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "curious, hooked by a small wrong thing",
+        "s2a": "leaning in, then a held breath at the blank wall",
+        "s2b": "a giggle of recognition, the fun of catching the trick",
+        "s3": "tingly discovery, everything clicking together",
+        "s4a": "warm and full, satisfied and sleepy",
+        "s4b": "bright and fizzing, one more door left to open"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 10 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 4.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 2.4); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.9); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 2.4)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 2.4)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 3.8)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "07_patterns_that_repeat_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

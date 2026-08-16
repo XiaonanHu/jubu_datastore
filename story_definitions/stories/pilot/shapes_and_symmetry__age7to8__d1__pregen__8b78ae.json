@@ -1,0 +1,338 @@
+{
+  "id": "story.shapes_and_symmetry.age7to8.d1.pregen.8b78ae",
+  "title": "The Path of Three Shapes",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.shapes_and_symmetry",
+    "sel_theme": null,
+    "value_lesson": "Patience and precision: the builders measured every face so the shapes would stand for thousands of years",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "cozy",
+    "accent": "curious_wonder"
+  },
+  "spine": "We follow a sunrise path up a giant pyramid, meeting three shape-guides who each hand us a flat tile, until at the top we fit the tiles together to unlock the pyramid's hidden heart.",
+  "slots": {
+    "keepsake_tile": {
+      "role": "Which single tile we tuck into our pocket to carry home at the end",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "the triangle tile"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The sand is still cool from the night, and it squeaks under our shoes as we stand at the bottom of the biggest thing we have ever seen. A pyramid, tall as a mountain, with sides so flat and smooth they look poured.\n\n\"Good morning,\" says the architect, unrolling a long papyrus across a flat stone. \"You came. Good. Look here.\" On the papyrus, drawn in black ink, is a square. Just a square. \"Before it was a mountain,\" the architect says, \"it was this. One flat face. Then four more, leaning in to meet at the top. Five faces, and every one of them flat.\"\n\nSomething skitters over our toes. A little sand-coloured lizard, quick as a dropped pin. \"Sef,\" says the architect, \"our inspector.\"\n\nSef dashes up the first stone block, stops, and taps the corner with one foot. \"One,\" he says. Then another foot, another corner. \"Two. Three. Four.\" He looks back at us, delighted. \"Square base. Four corners. Counted them myself.\"\n\nThe architect rolls the papyrus tight. \"Here is the thing. At the top of this pyramid is a door. It has been shut a very long time. Its lock is waiting for three flat shapes — three tiles — and the path up has three stops, one tile at each.\" A pause. \"Nobody remembers which three shapes the door wants. So we collect all three, and we find out.\"\n\nSef is already three blocks up, feet pattering on the stone. \"Coming?\" he calls.\n\nThe sun lifts over the sand. The pyramid's flat face turns gold, all at once, like someone switched it on.\n\n\"Coming,\" we say.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"The bees,\" we say, and the architect nods. \"This way, then.\"\n\nRound the corner of the pyramid, the air goes warm and humming. Rows of wooden boxes sit in the sun, and bees drift over them like slow golden sparks. The beekeeper waves us closer and lifts out a wooden frame. \"Look,\" she says. \"The bees build their own rooms.\"\n\nThe comb is packed with little cells, wall to wall. Sef scampers along the frame's edge, tapping. \"One, two, three, four, five, six!\" he says. \"Six sides on every single one.\"\n\n\"Six flat walls,\" says the beekeeper, \"fitting together with no gaps. Clever bees.\"\n\nWe run a finger along one cell's edge. Smooth as toast crust. The bees hum on, busy with their own warm work, and for a moment we just listen.\n\n\"And the box they live in?\" the architect asks.\n\nThe beekeeper pats the long wooden hive. \"Two matching ends, straight sides all the way along. A prism, same as your tiles.\" She reaches into her pocket and presses a flat rectangle tile into our hand. \"For your door.\"\n\nSef is already darting back toward the main path. \"The mason's waiting!\" he calls. \"And the sun's getting higher!\"\n\nWe tuck the tile safe and hurry after him.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"The crystals,\" we say, and the architect smiles. \"This way, then.\"\n\nRound the corner of the pyramid stands a long hall with a glass roof, and inside, enormous crystals hang from the ceiling like fireworks that froze mid-burst. The light comes through them in slow gold squiggles. Nobody says anything for a moment. Even Sef holds still.\n\nA museum guard meets us at the door. \"Quickly, before the crowds,\" she says, and presses something cool into our hands. A real quartz prism, small enough to hold. \"Turn it slowly. Count.\"\n\nWe turn it. Six long flat faces, smooth as window glass, running straight from end to end. Then two pointy ends, one at each side. Sef skitters up our sleeve and taps each face with one quick foot. \"One, two, three, four, five, six!\" he says. \"Six long ones. Two pointy ones. Counted them myself.\"\n\n\"Two matching ends,\" says the guard, \"and straight sides all the way along. That's what makes it a prism.\"\n\nThe prism catches the sun and throws a tiny rainbow onto our sleeve. Sef leans close. He doesn't tap it. He doesn't count it. He just watches it tremble there, small and bright, until the guard takes back the quartz and hands us a flat rectangle tile instead. \"For your door,\" she says.\n\nSef is already at the hall's far door, dancing from foot to foot. We tuck the tile safe and climb after him, up toward the sun.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back on the winding stone path, the architect's mason friend is waiting, a fresh-cut block on his palms. \"Look,\" he says. \"Six square faces, every one the same size. A cube.\" He turns it over and over, slow as a pot on a wheel. Then he lifts a flat cardboard model and folds it up, fold, fold, fold, until a cross of six squares becomes a box in his hands. Sef skitters around it once, twice, then stops. \"Six!\" he cries. \"Six faces. I counted.\" The mason laughs and presses a small square tile into our pocket, beside the one we already carry. Two tiles now. \"And the third?\" we ask. The architect points up, where the pyramid's four triangle faces lean together to one bright point. \"At the top,\" he says. \"Where the last tile waits.\" As we climb, Sef fishes a little stone die from the mason's pouch and rolls it. \"Guess the bottom,\" he says. We guess. \"Seven's partner,\" Sef says, grinning. \"Always.\" We pocket that small magic and climb on, ready for the door.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Up,\" says the architect. \"While the light is gold.\"\n\nSo we climb, out into the bright air, block by block, until the whole pyramid falls away below us. Sef darts ahead, his quick feet tracing every edge. \"Left wall,\" he calls. Then, scampering across, \"Right wall. They match! Like folded wings.\"\n\nThey do. The four great triangle faces lean in from every side, and here at the very top they meet at one sharp point, touching the sky. Left and right rise like mirror images of each other.\n\nThe architect kneels by a small stone door set into the point. \"Three hollows,\" they say. \"Square. Rectangle. Triangle. And only one careful try before the sun is high.\"\n\nWe reach into our pocket. Two tiles already wait there, warm from the climb. The architect presses the third into our hand — the triangle, smooth and sharp-cornered. \"You do it,\" they say.\n\nSquare. Click. Rectangle. Click. Triangle.\n\nClick.\n\nThe door swings open, and the sunrise pours in. Below us the whole pyramid spreads out like the papyrus plan come alive — square base, four flat faces, every line exactly where it was drawn.\n\n\"Counted them all myself,\" says Sef, puffing out his little chest.\n\nWe tuck {keepsake_tile} into our pocket, warm from the sun, and carry it home.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Inside,\" says the architect. \"The heart knows the way.\"\n\nWe slip through the old doorway, and the bright air folds away behind us. A narrow passage. Then a room. Then another. Cube-shaped rooms, each one with six flat faces, opening into more and more.\n\n\"A maze,\" we whisper.\n\nSef's tail flicks. He dashes left, stops, dashes right. \"This one!\" he cries. \"Look — left wall, right wall. They match. Like folded wings.\"\n\nHe's right. The rooms where left and right mirror each other lead onward. The lopsided ones loop us back. So we follow the matching rooms, fold by fold, deeper into the pyramid's heart.\n\nThe heart chamber is small and still. The architect lifts a lamp, and there on the far wall is the door. \"Three hollows,\" they say softly. \"Square. Rectangle. Triangle.\"\n\nTwo tiles wait in our pocket already. The architect presses the third into our hand — the triangle, smooth and sharp-cornered. \"You do it,\" they say.\n\nSquare. Click. Rectangle. Click. Triangle.\n\nClick.\n\nThe walls glow, warm and golden, as the shapes click home. Sef pats the door with one quick foot. \"Six faces in the rooms. Three in the lock. Counted every one.\"\n\nWe tuck {keepsake_tile} into our pocket, smooth from our careful hands, and carry it home.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two little paths wind round the base, friends,\" says the architect, tapping the papyrus. \"One hums with bees and their six-sided rooms — one glitters with crystals grown into perfect prisms. Which shall we walk first?\"",
+      "options": [
+        {
+          "say_word": "The hives",
+          "label": "Visit the beekeeper's garden and count the hexagon cells",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "The crystals",
+          "label": "Step into the glass hall and hold a real quartz prism",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Here the path forks for the last time,\" the architect whispers, Sef's tail flicking between the stones. \"We can climb on, out into the bright air, all the way to the point where the four triangle faces touch the sky — or slip through this old doorway and find the heart of the pyramid from inside. Where do our feet belong?\"",
+      "options": [
+        {
+          "say_word": "To the top",
+          "label": "Climb the open-air path to the pyramid's point at sunrise",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "To the heart",
+          "label": "Slip inside and solve the maze of cube-shaped rooms",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.shapes_and_symmetry",
+      "topic_tier": "curriculum",
+      "parent_topic": null,
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 5
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "A journey through a world built of cubes, pyramids, and prisms lets an 8-year-old physically explore how flat faces fold into solid shapes, turning the geometry itself into the adventure.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "cozy",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Sef the sand-coloured lizard, whose darting feet trace every edge and corner with quick, delighted curiosity, always pausing to count faces out loud before scampering on.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience and precision: the builders measured every face so the shapes would stand for thousands of years",
+      "why": "The material offers it naturally — the mason's careful cube-cutting and the architect's symmetrical plan both model slow, exact work, and the final door only opens when our three tiles are fitted precisely."
+    },
+    "cast": [
+      {
+        "role": "Sef, a sand-coloured lizard who lives between the pyramid stones",
+        "reused": false,
+        "why": "Carries the curious_wonder accent: he counts faces, edges, and corners with his quick feet and asks the riddle 'How many faces?' at every stop, making the math feel like a game."
+      },
+      {
+        "role": "An ancient Egyptian architect with a papyrus scroll",
+        "reused": false,
+        "why": "Guides the journey and shows competence at the real place; unrolls the flat plan of the square base so we see the pyramid as flat faces before we climb it."
+      },
+      {
+        "role": "A stone mason who helped build the pyramids",
+        "reused": false,
+        "why": "First shape-guide: shows how each block was cut into a perfect cube and hands us the square tile."
+      },
+      {
+        "role": "A friendly beekeeper in a white suit",
+        "reused": false,
+        "why": "Second shape-guide (branch s2a): opens a hive in the garden at the pyramid's foot to show hexagon cells and the prism-shaped hive box, handing us the rectangle tile."
+      },
+      {
+        "role": "A museum guard who polishes the crystal collection",
+        "reused": false,
+        "why": "Second shape-guide (branch s2b): in a glass-roofed hall of hanging crystals, lets us hold a quartz prism and hands us the rectangle tile."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "cube has six square faces, unfolds flat into a cross of six squares",
+        "pyramid with square bottom has five faces, four triangles meeting at one point",
+        "prism has two identical ends and straight sides, every slice the same shape",
+        "Egyptian pyramids' four triangular faces almost perfectly symmetrical",
+        "bees build honeycombs from six-sided hexagons with no gaps",
+        "quartz grows as six-sided prisms with pointy ends",
+        "collect a flat face-shape at each stop — square, rectangle, triangle — and build a model of every shape by the end",
+        "guide asks the same riddle three times: how many faces, edges, corners",
+        "stone path winding up a giant ancient pyramid at sunrise",
+        "busy beekeeper's garden with wooden hive boxes",
+        "glass-roofed museum hall with huge crystals hanging like frozen fireworks",
+        "maze of cube-shaped rooms inside the pyramid, solved by noticing symmetrical rooms",
+        "dice opposites add to seven (glimpsed)"
+      ],
+      "gathered_but_unused": [
+        "A cube has six square faces that are all exactly the same size, and if you unfold it flat you get a cross shape made of six squares.",
+        "A dice always has its opposite sides add up to seven — one and six, two and five, three and four — no matter which way you roll it.",
+        "A pyramid with a square bottom has five faces: four triangle faces that lean in and meet at one sharp point on top.",
+        "A prism has two identical ends and straight sides all the way along, so if you slice it anywhere, the slice is always the same shape.",
+        "Egyptian pyramids were built so their four triangular faces are almost perfectly symmetrical, each side matching its opposite even though the base is as big as nine football fields.",
+        "Bees build honeycombs from six-sided hexagon shapes that fit together with no gaps and no wasted wax, like tiles that snap perfectly into place.",
+        "When a shape has a line of symmetry, you can fold it along that line and the two halves match exactly, like a butterfly's wings.",
+        "Some crystals grow into natural cubes and prisms — salt grows as tiny cubes, and quartz grows as six-sided prisms with pointy ends."
+      ]
+    },
+    "safety_beat": "In s1, before we set foot on the path, the architect shows lightly that she knows this place: she sets her palm flat on the first stone, points out the smooth worn steps where feet have gone for a thousand years, and walks ahead on the inside of the path — competence, never warning.",
+    "motif": "Flat faces that fold and fit — every marvel on the journey is a solid shape built from flat pieces we can hold in our hands.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": true,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "revise",
+          "card": "still_and_luminous",
+          "why": "The story is structurally sound and the geometry content is well-embedded, but it rushes through its most wondrous moments — the frozen-firework crystals, the sunrise pouring through the opened door, the glowing heart chamber — giving a listening child no time to sit inside them before Sef hurries everyone along.",
+          "editor_notes": [
+            "In s2b, the crystals 'like fireworks that froze mid-burst' and the 'slow gold squiggles' of light get exactly one sentence each before the guard starts talking — let the moment breathe: give the turning of the quartz and the tiny rainbow on the sleeve a beat of silence before anyone speaks, since that rainbow is the segment's real gift and Sef's delight is told ('stares at it, delighted') rather than shown.",
+            "Sef's 'The mason's waiting! And the sun's getting higher!' ends both s2a and s2b by yanking the listener out of the scene — consider letting one of the two branches (the crystal hall especially) end on the held moment instead, with the hurry implied by the climb rather than announced.",
+            "In s4a, 'The door swings open, and the sunrise pours in' is the story's biggest image and it is immediately flattened into a geometry recap ('square base, four flat faces, every line exactly where it was drawn') — let the sunrise land first as pure sight and feeling for a sentence or two before the counting resumes; a child at bedtime wants to stand in that light.",
+            "In s4b, 'The walls glow, warm and golden' is the entire payoff of the inside route and it passes in half a sentence — the heart chamber was built up as 'small and still,' so let the glow be slow: the light moving across the walls, Sef quiet for once, before the final counting line.",
+            "The closing line in both branches ('We tuck {keepsake_tile} into our pocket... and carry it home') is efficient but abrupt — one small still beat between the door and the leaving (a last look back, the warmth of the tile in the hand) would let the glow settle into sleepiness rather than stopping mid-shine."
+          ],
+          "segments_revised": 3,
+          "segments_rejected": 3
+        },
+        {
+          "round": 2,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is a geometry adventure with a real engine (three tiles, one door), a counting ritual in Sef that lands aloud, and two genuinely different endings that both pay off the climb."
+        }
+      ],
+      "cards_used": [
+        "still_and_luminous"
+      ],
+      "listener_felt_arc": {
+        "s1": "wide-eyed and game, pulled in by the lizard and the mystery of the door",
+        "s2a": "warm and humming, snug among the bees, a small pause to just listen",
+        "s2b": "hushed wonder at the frozen fireworks, then the held-breath stillness of the rai",
+        "s3": "busy and pleased, hands-on with the folding box, a giggle at the dice trick",
+        "s4a": "a held breath at the high bright top, then the satisfying click-click-click and ",
+        "s4b": "a darker, tunnelling suspense, then the warm golden glow of the lock clicking ho"
+      },
+      "segments_revised": 3,
+      "segments_rejected": 3
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 4 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.5); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4b] flat rhythm: sentence lengths vary little (spread 4.4); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.2)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "round 1: [s1] polish rejected: 286 words over the 280 ceiling",
+      "round 1: [s2a] polished (192 -> 209 words)",
+      "round 1: [s2b] polished (218 -> 243 words)",
+      "round 1: [s3] polished (178 -> 178 words)",
+      "round 1: [s4a] polish rejected: grew 116% of the original, over the 115% limit",
+      "round 1: [s4b] polish rejected: grew 119% of the original, over the 115% limit",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "06_shapes_and_symmetry_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

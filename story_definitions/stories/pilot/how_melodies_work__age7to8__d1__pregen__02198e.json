@@ -1,0 +1,314 @@
+{
+  "id": "story.how_melodies_work.age7to8.d1.pregen.02198e",
+  "title": "The Tune That Stuck to Our Socks",
+  "age_band": "7-8",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.how_melodies_work",
+    "sel_theme": null,
+    "value_lesson": "Trying a wrong note is how you find the right one—mistakes are just steps in the building.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "we_adventure",
+  "tone": {
+    "dominant": "silly",
+    "accent": "big_adventure"
+  },
+  "spine": "We want to build our own sticky melody from scratch, and we get there by repeating a pattern, wobbling on a surprise, and learning that one small change makes a tune unforgettable.",
+  "slots": {
+    "stuck_tune": {
+      "role": "The nonsense song stuck in our heads at the start",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Banana Sock Song"
+    },
+    "our_melody": {
+      "role": "The three-note pattern we build and repeat",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "Up-up-down, like climbing two stairs and sliding back one"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Rain on the window. Drip, drip, drop. And inside our heads, all morning long, the same ridiculous tune: {stuck_tune}. We have hummed it at breakfast. We have hummed it at our socks. It will not leave us alone.\n\n\"A mystery,\" says the Tune Detective, and she flips open her notebook so fast her pencil nearly falls out. \"Why does one melody stick like a burr on your jumper, and another one just slides away?\"\n\n\"Burrs have hooks,\" we say.\n\n\"Exactly.\" She taps her pencil on the cardboard box we have been using as a drum. Boom. Boom-boom. \"So a sticky tune must have hooks too. And I know how we find them. We build our own tune, from scratch, and we make it stick on purpose.\"\n\nOn purpose! We sit up straight.\n\nShe presses the big red button on the tablet. Recording. \"Detectives,\" she says, \"we need three notes and a pattern that repeats, then surprises you. That is the whole secret. Probably.\"\n\n\"Probably?\"\n\n\"Detectives say probably,\" she says, and grins. \"Ready?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"First, we take apart the tune that's stuck,\" says the Tune Detective. \"Like detectives at a crime scene.\"\n\nShe taps the cardboard box. Knock-knock-knock. We know that part! Then — ding-dong! She makes a doorbell sound with her voice, and we laugh, because the knock-knock-knock suddenly turned into a doorbell ring.\n\n\"Did you hear that?\" she says. \"It repeats. Then it surprises you.\"\n\nWe listen again. Knock-knock-knock. Knock-knock-knock. Knock-knock-knock. Ding-dong!\n\n\"Same, same, same — DIFFERENT!\" we shout.\n\nShe writes it in her notebook, big and proud: SAME-SAME-SAME-DIFFERENT. \"That is the hook,\" she says. \"That is why {stuck_tune} stuck to us like a burr. Our brains love a pattern — and they love it even more when the pattern does something sneaky at the end.\"\n\n\"Sneaky like a doorbell in the middle of knocking,\" we say.\n\n\"Exactly.\" She spins the pencil like a tiny baton. \"Now we know the trick. Question is — can we build one ourselves?\"\n\nWe look at the box drum. We look at each other. Our fingers are already wiggling.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"First, we open the piano,\" says the Tune Detective, and she lifts the big wooden lid in the corner.\n\nWhoa. Inside, the piano is a whole secret world. Long strings stretch across the bottom, thick as skipping ropes. Short strings sit up top, thin as spaghetti.\n\n\"Long strings, low notes,\" she says, and presses a key way down at the end. Bwooom. We feel it in our belly buttons. \"Short strings, high notes.\" Ting! Like a tiny bell in our ears.\n\n\"It's a harp inside a box,\" we whisper.\n\n\"A harp that wears a fancy wooden coat,\" she says. Then she points at the black keys. \"And look — groups of two, groups of three. Two, three, two, three, all the way along. That's how you never get lost.\"\n\nWe hum {stuck_tune} way down low, where the skipping-rope strings live. Then way up high, where the spaghetti strings ping. It's the same song — just wearing different colored shirts.\n\n\"So a melody can climb up and down,\" we say, \"and it's still itself.\"\n\n\"Still itself,\" she says. \"Now — what if we made one climb on purpose?\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Well?\" says the Tune Detective, pencil ready. \"What did you find?\" We tell her everything, and she writes it down in big swoopy letters. \"Good. Because now we build. Three notes, like stepping stones.\" She taps the cardboard box. Boom. \"Up.\" Boom. \"Up.\" Then her hand hovers. \"And down.\" Boom-boom.\n\nOur turn. We climb the two stairs and slide back one, just like {our_melody}. Up-up-down. Up-up-down. It sticks already! We are humming it at our socks when the last note lands with a thunk. A tipped stone. A dropped pot rolling across the kitchen floor.\n\n\"There!\" yells the Tune Detective, nearly snapping her pencil. \"Did you hear that?\"\n\n\"It wobbled,\" we say.\n\n\"It wobbled,\" she agrees, and her eyes go round and bright. \"The repeat part is perfect. But the surprise? A surprise should feel like a doorbell ring, ding-dong, somebody wonderful arriving. Not like a pot hitting the floor.\" She flips her notebook to a fresh page. \"So. Same three notes. Same climb, same slide. But the ending has to ring.\"\n\nWe look at the box. We look at each other. Up-up-down, we hum, and this time we stop right before the thunk.\n\n\"Again,\" whispers the Detective. \"And this time, listen for the doorbell.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"Swap it,\" we say. \"The last note. Give it a new one.\"\n\n\"Which new one?\" asks the Tune Detective, pencil hovering.\n\nWe hum the climb. Up-up. Then, instead of the thunk, we slide down just one small step, close and smooth, like the last stair home. Ding.\n\nThe Detective writes it down in big swoopy letters. \"Same, same, same,\" she says, \"and then—\"\n\n\"Different,\" we whisper.\n\nShe taps the red button. Recording. We play the whole thing into the box: up-up-down, up-up-down, up-up-ding. Then we press play.\n\nOut it comes. Same-same-same-DIFFERENT. The surprise lands like a doorbell ring, and we burst out laughing, because somebody wonderful has arrived, and it is our own tune.\n\n\"Again!\" we shout.\n\nWe play it again. And again. The Tune Detective is laughing too hard to write. \"Detectives,\" she says, wiping her eyes, \"the melody has hooks. It is officially stuck.\"\n\nShe is right. We hum it all the way downstairs, up-up-down, up-up-ding, and the rain on the window hums along. Drip, drip, ding.\n\nThat night the tune comes home in our pockets, curled up warm like a penny we forgot we had. And whenever we want, we can take it out and ring it.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"Keep the wobble,\" we say. \"But move the whole tune up. Higher.\"\n\nThe Tune Detective raises one eyebrow. \"The same tune? In a taller hat?\"\n\n\"Higher,\" we say. \"Like climbing two more stairs before you start.\"\n\nSo we do. Up-up-down, up-up-down, and then we step up, up, and play the whole pattern again from there. Same climb. Same slide. Same wobble at the end. Only now the wobble sits up high, and it does not sound like a dropped pot anymore. It sounds like a question.\n\nAnd the tune answers it. Ding-dong.\n\nThe Detective taps the red button. Recording. We play it back, and there it is: our melody, wearing a higher shirt, and the wobble is the funny answer we did not know we were waiting for. We laugh so hard we have to sit down on the floor.\n\n\"The surprise was hiding,\" says the Detective, scribbling. \"It just needed a lift.\"\n\n\"It repeats,\" we say, \"and then it surprises you.\"\n\n\"Probably,\" she says, and grins.\n\nWe hum it all the way downstairs, low version, high version, low, high, and the rain on the window keeps the beat. Drip, drip, ding-dong.\n\nThat night the tune comes home in our pockets, both shirts and all, and the wobble turns out to be our favourite part.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Do we take apart the tune that's stuck, or open up the piano and see how notes work?\"",
+      "options": [
+        {
+          "say_word": "Detective work",
+          "label": "Take apart the stuck tune to map its pattern",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Piano lid",
+          "label": "Open the piano and explore how notes go up and down",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Do we swap the wobbly note for a new one, or move the whole tune higher and keep the wobble?\"",
+      "options": [
+        {
+          "say_word": "Swap it",
+          "label": "Change the last note to a different surprise",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Move it",
+          "label": "Shift the whole melody higher and keep the wobbly note",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.how_melodies_work",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.musical_instruments",
+      "age_band": "7-8",
+      "age": 8,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "The topic's core material—repeating a pattern, then changing it just enough to surprise—maps naturally onto a child building a tune step by step, which is more hands-on and satisfying at 8 than a passive journey or a silly romp.",
+      "backup": "make_and_build",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.24,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.18,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.14,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.12,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.08,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "silly",
+        "accent": "big_adventure"
+      },
+      "accent_carrier": "The Tune Detective",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "we_adventure",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Trying a wrong note is how you find the right one—mistakes are just steps in the building.",
+      "why": "The make_and_build pattern naturally offers this: the wobble in beat 3 is a wrong note that teaches us exactly what the right one needs to do."
+    },
+    "cast": [
+      {
+        "role": "The Tune Detective",
+        "reused": false,
+        "why": "Carries the big_adventure accent by treating a stuck song like a mystery to solve, tapping it out on desks and knees with theatrical urgency."
+      },
+      {
+        "role": "The Note Builder",
+        "reused": false,
+        "why": "Embodies the make_and_build pattern, lining up notes like blocks and testing each step with serious craft."
+      },
+      {
+        "role": "The Surprise Finder",
+        "reused": false,
+        "why": "Points out the exact moment a repeated pattern changes, saying 'There! Did you hear that?' with genuine delight."
+      },
+      {
+        "role": "The Recording Buddy",
+        "reused": false,
+        "why": "Holds the phone and taps the red button so we can hear our own tune played back, making the moment it finally works feel real."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Tunes that stick repeat the same pattern a few times, then change one small thing to surprise your ears",
+        "A melody is just one note after another, like stepping stones",
+        "You can sing the exact same tune higher or lower, and it's still the same song",
+        "Your brain loves patterns and feels a spark of happy when it guesses right",
+        "Making up your own melody is allowed—there are no wrong notes when you're exploring",
+        "Building a three-note pattern that repeats, then swapping the last note for a surprise ending",
+        "Recording a made-up melody, then changing just one note to see if it gets stickier",
+        "A rainy-day bedroom with a tablet recording app and a cardboard box drum",
+        "Opening a piano lid and seeing the long strings for low notes and short strings for high notes"
+      ],
+      "gathered_but_unused": [
+        "A melody is just one note after another, like stepping stones. Some tunes skip far apart and some slide close together, and that changes how they feel.",
+        "Tunes that stick in your head usually repeat the same pattern a few times, then change one small thing to surprise your ears.",
+        "You can sing the exact same tune higher or lower, and it's still the same song, just like wearing the same shirt in a different color.",
+        "Your brain loves patterns. When a melody repeats, your brain starts guessing what comes next, and when it's right, you feel a little spark of happy.",
+        "Some songs stick because they have a musical 'hook'—a short bit that repeats so much your brain grabs onto it like a handle.",
+        "Notes can go up, down, or stay the same. A tune that only goes up feels like climbing; one that tumbles down feels like sliding.",
+        "Making up your own melody is allowed. There are no wrong notes when you're exploring—only notes you haven't tried yet.",
+        "Even famous songs sometimes borrow tiny patterns from older songs and change them just enough to feel new."
+      ]
+    },
+    "safety_beat": "In s2b, the Note Builder shows competence by lifting the piano lid slowly with both hands and propping it securely before we peek inside, then pressing keys gently rather than banging them.",
+    "motif": "A knock-knock-knock that suddenly becomes a doorbell ring.",
+    "shelf_at_build_time": [],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already runs on a real engine — a stated mystery, a discovered rule, a failed first attempt, and a fix the child characters drive — and its sound-world (boom, ding-dong, drip-drip-ding) lands as read-aloud pleasure while the Tune Detective's fond, grinning attention keeps the making warm."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "itchy-curious and leaning in",
+        "s2a": "delighted recognition, a giggle at the doorbell",
+        "s2b": "wide-eyed wonder, belly-button awe",
+        "s3": "absorbed effort, then a comic wobble of disappointment",
+        "s4a": "triumphant giggles, snug and pocket-warm at the end",
+        "s4b": "surprised delight, proud and sleepy-satisfied"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 5 warning. [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.0); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.4); [s3] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_music_math",
+      "source_file": "04_how_melodies_work_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}
