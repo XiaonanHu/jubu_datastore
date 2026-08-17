@@ -1,0 +1,328 @@
+{
+  "id": "story.foods_around_the_world.age5to6.d1.pregen.260237",
+  "title": "The Breakfast Express",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.foods_around_the_world",
+    "sel_theme": null,
+    "value_lesson": "Kids everywhere eat breakfast, but it looks different in different places—and there's no one right way to eat",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A magical breakfast train carries a child around the world to discover how kids everywhere start their day with different foods and different ways of eating.",
+  "slots": {
+    "hero_name": {
+      "role": "The child hero's name",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Maya"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Morning. Just barely. {hero_name} stands on the platform, and the whole sky is the color of warm toast. Right in front of us, a long green train hums softly — and look. Look at the steam. It curls up from the roof, thick as soup, as porridge, as the warm breath of someone still sleeping. A whistle goes. Toot-toot! Then — clang! — a woman in a bright red cap swings down from the front car. \"You're here! You're here!\" she says. \"I'm Conductor Zara, and this is the Breakfast Express. We ride all around the world, tasting how kids start their day.\" She holds out her hand. \"Somewhere right now, a kid is eating warm rice for breakfast. Somewhere else, it's flatbread with honey. Want to come see?\" We look at the steam. We look at her big smile. We climb aboard.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "The train slows. Whoo-ooosh. \"Japan!\" calls Zara. We step off into a small warm kitchen. Steam curls up from a bowl of rice, thick as soup, as porridge, as breath on a cold morning. A grandmother smiles. \"For breakfast,\" she says, \"we crack an egg on top. Like this.\" Tap. Crack. Plop. The yolk sits on the rice, golden as a tiny sun. She stirs with chopsticks, and the sun melts into the grains. \"Now you,\" she says, and hands us a pair. {hero_name} pinches them tight. The rice slips. It slides. It will not stay. \"Slow,\" she says gently. \"Like picking up a little bird.\" We breathe out. We try again.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "The train slows. Whoo-ooosh. \"Ethiopia!\" calls Zara. We step off into a kitchen that smells like warm bread and spice. On the table lies a big round injera, soft and spongy, with steam still curling off it. A father tears a piece with one hand. \"Like this,\" he says. \"Then scoop.\" He folds it around a spoonful of red lentils and pops it in his mouth. \"Now you.\" {hero_name} grabs the edge and pulls. Rrrrip! The piece is huge, bigger than our whole hand. Everyone laughs, kind and warm, and we laugh too. \"A little smaller,\" he says, smiling. \"Try again.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Back on the train, the whistle goes. Toot-toot! The Breakfast Express hums and rolls. Conductor Zara leans close. \"What did you find out there?\" she asks. We tell her, and her eyes go wide and bright. \"Steam rising,\" she says softly. \"Warm food. Kids eating breakfast in all kinds of ways.\" Outside the window, the world slides by — green hills, then rooftops, then streets waking up. The train rocks us gently, side to side, like bathwater. Zara stands up tall. \"Next stop,\" she says, \"a busy street corner in Vietnam. Somewhere right now, a kid is slurping noodles for breakfast.\" Slurping! We look at the steam curling from the roof. We look at her big smile. The whistle sings again, and the train hurries on, deeper into morning.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The train stops. Steam everywhere! It curls from a big pot on the street corner, thick as soup. A cook smiles at us. \"Pho for breakfast,\" she says. With long chopsticks, she lifts slippery noodles from the bubbling pot. Swish! Into a bowl they go. \"Somewhere right now, a kid is slurping these,\" Zara whispers. The cook hands {hero_name} small chopsticks. \"Try!\" We pinch. We lift. A noodle wiggles... and plop! Back it splashes. Everyone smiles, and we try again. This time — slurp! Warm broth, soft noodles. Our whole belly goes cozy. The cook wraps up chopsticks for {hero_name} to keep. \"For home,\" she says. We climb aboard, holding them tight, tasting that warm soup all the way back.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "The train stops. Steam curls from a little bakery door, sweet and warm. Inside, a baker with flour on her nose smiles. \"For breakfast,\" she says, \"we dip.\" She hands {hero_name} a piece of baguette, still warm, and a bowl of hot chocolate. \"Somewhere right now, a kid is dipping bread just like this,\" Zara whispers. We dip. We lift. Drip, drip! Sweet chocolate drops on the table. The baker laughs softly and slides us a napkin. \"It means the chocolate is good,\" she says. We bite. Crunch, then soft, then warm chocolate. Our whole mouth is happy. The baker wraps a small baguette for {hero_name} to carry home. \"For later,\" she says. We climb aboard, holding it close, the taste of dipping still on our lips.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"First stop, adventurer! Would you like to visit a kitchen where rice is steaming, or a home where bread is torn with fingers?\"",
+      "options": [
+        {
+          "say_word": "Rice",
+          "label": "Visit Japan for rice with egg",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Bread",
+          "label": "Visit Ethiopia for injera and lentils",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"Our last stop! Shall we visit a street corner where noodles swim in hot soup, or a bakery where bread dips into chocolate?\"",
+      "options": [
+        {
+          "say_word": "Noodles",
+          "label": "Visit Vietnam for pho",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Chocolate",
+          "label": "Visit France for baguette and hot chocolate",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.foods_around_the_world",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "5-6",
+      "age": 5,
+      "family_context": "none — library story for everyone",
+      "seed": 3
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "The topic's material—kids in different places eating warm rice, flatbread with honey, noodles at breakfast—naturally moves from place to place, so a journey lets a 5-year-old travel between breakfasts as the plot itself.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2273,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2045,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1591,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1364,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1364,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0909,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Conductor Zara",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Kids everywhere eat breakfast, but it looks different in different places—and there's no one right way to eat",
+      "why": "The material naturally offers this through the rotation of different breakfasts and eating methods (chopsticks, hands, forks, spoons) without ranking or judging any cuisine"
+    },
+    "cast": [
+      {
+        "role": "Conductor Zara",
+        "reused": false,
+        "why": "A friendly train conductor who guides the journey with curiosity and wonder, asking questions and marveling at each breakfast"
+      },
+      {
+        "role": "The Hero (unnamed child)",
+        "reused": false,
+        "why": "Third-person protagonist who boards the train and experiences each breakfast"
+      },
+      {
+        "role": "Grandmother in Japan",
+        "reused": false,
+        "why": "Shows how to crack an egg over rice and use chopsticks"
+      },
+      {
+        "role": "Father in Ethiopia",
+        "reused": false,
+        "why": "Teaches how to tear injera with hands and scoop lentils"
+      },
+      {
+        "role": "Cook in Vietnam",
+        "reused": false,
+        "why": "Lifts pho noodles with chopsticks and serves the soup"
+      },
+      {
+        "role": "Baker in France",
+        "reused": false,
+        "why": "Offers warm baguette and hot chocolate for dipping"
+      }
+    ],
+    "materials": {
+      "selected": [
+        "Japan: warm rice with raw egg for breakfast",
+        "Ethiopia: injera flatbread torn with fingers to scoop stews",
+        "Vietnam: pho noodle soup with chopsticks",
+        "France: baguette dipped in hot chocolate",
+        "Trying chopsticks for the first time, noodle slips",
+        "Tearing injera with one hand, piece too big, kind laughter",
+        "Steam rising from warm food",
+        "Kids everywhere eat breakfast but it looks different"
+      ],
+      "gathered_but_unused": [
+        "In Japan, some kids eat warm rice with a raw egg cracked on top for breakfast",
+        "In Mexico, kids might eat chilaquiles—tortilla chips simmered in red or green sauce—for breakfast",
+        "In Ethiopia, families eat injera—a spongy flatbread—torn with fingers and used to scoop up stews",
+        "In Vietnam, breakfast can be a bowl of pho—hot noodle soup with beef or chicken",
+        "In France, kids dip buttered toast or baguette into hot chocolate for breakfast",
+        "In India, some families eat idli—soft, white, steamed rice cakes—for breakfast",
+        "In Turkey, breakfast includes olives, cheese, tomatoes, and honey with bread",
+        "In China, congee—rice cooked until it becomes soft porridge—is a common breakfast"
+      ]
+    },
+    "safety_beat": "In Vietnam (s4a), the cook stands back from the bubbling pot and lifts noodles with long chopsticks, showing the hero where to sit safely at the counter—competence shown lightly, no warning or tension.",
+    "motif": "Steam rising from warm food",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.foods_around_the_world.age7to8.d1.pregen.8cd842",
+        "title": "The Compass of Steam",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it has a warm companion in Zara, a gentle try-again engine in every kitchen, sound-words that land as their own small sentences (Tap. Crack. Plop. / Rrrrip! / slurp!), and a recurring steam-and-whistle ritual that gives a five-year-old the world held still and returned to."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, climbing aboard",
+        "s2a": "leaning in, tongue out in concentration",
+        "s2b": "a giggle at the giant rip",
+        "s3": "rocked and cozy, listening hard",
+        "s4a": "a held breath, then the slurp and a warm belly",
+        "s4b": "happy mouth, satisfied and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 6 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 3.6); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 36% of sentences carry speech or action; [s4a] abstract mood word: 'cozy' usually means a feeling was told, not given"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'cozy' usually means a feeling was told, not given",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.5)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.6)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] abstract mood word: 'cozy' usually means a feeling was told, not given"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid5_beach",
+      "source_file": "04_foods_around_the_world_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

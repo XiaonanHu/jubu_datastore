@@ -1,0 +1,347 @@
+{
+  "id": "story.in_the_kitchen.age5to6.d1.pregen.d9d4e6",
+  "title": "The Wobbly Bowl and the Sleepy Balloon",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.in_the_kitchen",
+    "sel_theme": null,
+    "value_lesson": "Cooking for someone else — making something to give, not just to eat",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "make_and_build",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "crazy_inventor",
+    "accent": "silly"
+  },
+  "spine": "A child and Grandma try to bake a surprise loaf for a tired neighbor, and the dough only rises once they learn what the wobble was teaching them.",
+  "slots": {
+    "child_name": {
+      "role": "The child in the memory",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    },
+    "loaf_name": {
+      "role": "The silly official name of the bread",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "The Great Puffy Loaf"
+    },
+    "stir_style": {
+      "role": "How the child stirs during the playthrough",
+      "kind": "playthrough",
+      "ask_child": true,
+      "default": "big slow circles"
+    },
+    "gift_extra": {
+      "role": "The small extra tucked in with the gift loaf",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "a butter smile on top"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember a smell that lived in Grandma's kitchen. Warm and yeasty, like a hug you could eat. Let me take you there, {child_name}.\n\n\"Mr. Abernathy next door has had a long, tired week,\" Grandma says, tying her apron. \"So today, we bake him {loaf_name}. Real bread, from scratch.\"\n\nShe turns the radio on. Plinky music fills the kitchen.\n\nFrom the crock by the stove comes a squeaky little voice. \"Ahem! Stirring orders!\"\n\nThat's Spoonilla, the good wooden spoon. Grandma insists she runs the whole kitchen.\n\n\"Big slow circles, please!\" Spoonilla squeaks.\n\nWe stir the squishy dough, {stir_style}. It squishes between our fingers.\n\nThen Grandma pats it into a bowl and covers it with a cloth.\n\n\"Now it sleeps,\" she whispers. \"And while it sleeps, it grows. Like a sleepy balloon.\"\n\nWe peek. Under the cloth, the dough is already puffing.\n\nSoon we will carry it to Mr. Abernathy, still warm.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Wake the yeast!\" Spoonilla squeaks. \"Tiny helpers, up and at 'em!\"\n\nGrandma sprinkles the yeast into warm water with a pinch of sugar. We lean close. We watch.\n\nNothing. Then — bloop. Bloop bloop! Little bubbles come fizzing up, like the water is giggling.\n\n\"It's alive!\" we shout, because we cannot help it.\n\n\"It was just sleepy,\" says Grandma. \"Like someone else I know before breakfast.\"\n\nNow the flour. \"Three cups!\" orders Spoonilla. \"One! Two! Three!\" We scoop a tiny white mountain, and we stir, {stir_style}.\n\nBut oh — the bowl will not hold still. Every stir spins it round on the counter. Round and round it goes, and the dough sloshes half in, half out.\n\n\"Hold the bowl, chef!\" Spoonilla squeaks. \"HOLD THE BOWL!\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Slow and steady!\" Spoonilla squeaks. \"Mountain first!\"\n\nWe scoop the flour, one spoon at a time, and level each one with a finger. Tongue out. Nice and flat. Grandma smiles and says nothing, because levelling is serious work.\n\nThen she pours the warm water in, slow as honey, while we stir, {stir_style}.\n\nAnd here is the funny part. The soft powder turns sticky. Then stretchy. Then it grabs hold of everything — our fingers, our knuckles, the spoon. It will NOT let go.\n\nSpoonilla thinks this is hilarious. \"Stuck!\" she squeaks. \"The chef is stuck to the supper!\"\n\nGrandma just nods. \"Sticky is right,\" she says. \"Sticky means it's working.\"\n\nIs it working? It feels like glue with ideas.\n\n\"Keep stirring!\" squeaks Spoonilla. \"Show that dough who's chef!\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"Well, look at that,\" Grandma says. \"What did you find?\" We tell her, and she smiles. \"Then we know just what to do.\"\n\nShe shows us the fix. We press and fold, press and fold, until the dough stops fighting and turns into a soft, smooth ball.\n\n\"Good squishing!\" Spoonilla squeaks.\n\nUnder the cloth it goes. We watch it rise, slow and round, like a sleepy balloon. It peeks over the rim. \"The yeast made tiny puffs,\" Grandma whispers. \"They did their work.\"\n\nInto the oven it goes. Before the timer even rings, the smell floats through the whole house. Warm and yeasty, like a hug you could eat.\n\n\"Soon,\" Grandma says, \"we carry it to Mr. Abernathy, still warm.\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "Ding! The timer sings. Grandma opens the oven, and out comes {loaf_name}, golden and puffy, smelling like the whole kitchen is smiling. \"Now, little baker,\" Spoonilla squeaks. \"March!\" We wrap the warm loaf with {gift_extra} tucked in, and we carry it across the yard, quick quick quick, before it cools. Knock knock KNOCK! Mr. Abernathy opens the door. He smells the bread. His whole face wakes up, like a lamp turning on. \"For me?\" he says. We share the first warm slice right there on his step. He lends us his butter knife, \"for next time.\" And that is why, in my memory, bread smells like knocking on a door.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "Ding! The timer sings. Out comes {loaf_name}, golden and warm. \"Tiptoe time,\" Grandma whispers. We wrap it in a tea towel with {gift_extra} tucked inside, and a crayon card that says its name in big wobbly letters. We carry it across the yard, soft soft soft, and set it on Mr. Abernathy's porch. The card goes on top. Then we hide behind the bush and hold our breath. The door opens. We hear his surprised laugh float out the window, warm as the bread. Home again, I fold the empty towel under my arm. It is still warm. And that is why, in my memory, a warm towel smells like someone smiling.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Now, chef — do we wake up the sleepy yeast first and watch it bubble, or do we build our flour mountain first and pour the water in slow?\"",
+      "options": [
+        {
+          "say_word": "Wake it!",
+          "label": "Wake the yeast first and watch it foam",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Slow pour",
+          "label": "Measure the flour mountain first and mix gently",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The loaf is ready, little baker. Do we march it over right now and knock on his door big and brave, or do we tiptoe it onto his porch like a secret surprise?\"",
+      "options": [
+        {
+          "say_word": "Knock big",
+          "label": "Carry it over and knock on the door right now",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Tiptoe",
+          "label": "Leave it on the porch as a quiet surprise",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.in_the_kitchen",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "5-6",
+      "age": 5,
+      "family_context": "none — library story for everyone",
+      "seed": 1
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "make_and_build",
+      "why": "The kitchen topic is inherently about process—stirring, mixing, and watching dough transform—so a step-by-step story about making pancakes or bread lets a five-year-old experience the satisfying sequence of cause and effect that the material naturally provides.",
+      "backup": "quiet_hour",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2667,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1556,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1333,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.1111,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred make_and_build"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0889,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "crazy_inventor",
+        "accent": "silly"
+      },
+      "accent_carrier": "Spoonilla, the good wooden spoon who lives in the crock by the stove and whom Grandma insists gives stirring orders in a squeaky voice",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Cooking for someone else — making something to give, not just to eat",
+      "why": "The material offers it directly (deeper_door_moment: carrying warm food to a lonely neighbor) and it gives the make_and_build pattern its reason: the loaf exists to say 'I was thinking of you.'"
+    },
+    "cast": [
+      {
+        "role": "The storyteller (teller, says \"I\")",
+        "reused": false,
+        "why": "Frame narrator who opens with \"I remember\" and closes warmly, per storyteller_tale."
+      },
+      {
+        "role": "The child (story-self, named by slot)",
+        "reused": false,
+        "why": "The maker whose hands stir, measure, and carry the warm loaf at the end."
+      },
+      {
+        "role": "Grandma",
+        "reused": false,
+        "why": "From the material: reads the recipe, steadies the heavy bowl, pokes dough to test it, and tells a story about baking this same bread long ago."
+      },
+      {
+        "role": "Spoonilla the wooden spoon",
+        "reused": false,
+        "why": "The silly accent carrier: a named, beloved object that 'talks' in a squeaky voice and issues ridiculous stirring commands, keeping the crazy_inventor energy light."
+      },
+      {
+        "role": "Mr. Abernathy, the neighbor",
+        "reused": false,
+        "why": "The someone we cook for; he naps through most of the story and receives the warm loaf at the end."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "grandma's kitchen with the radio and the good wooden spoon in a crock",
+        "flour + water + stir = sticky stretchy dough (wonder fact)",
+        "yeast is alive and breathes puffs that make dough grow (wonder fact)",
+        "measuring three cups of flour, one two three, tiny mountain",
+        "the wobble of a bowl that spins while little hands stir",
+        "sticky dough finally becoming a smooth ball",
+        "watching through the oven window as pale turns golden",
+        "the smell that floats through the house before the timer rings",
+        "carrying warm food to a neighbor (deeper door)",
+        "the second try is always better (value angle)"
+      ],
+      "gathered_but_unused": [
+        "Flour is soft and powdery, but when you add water and stir, it turns into sticky, stretchy dough",
+        "Pancake batter makes tiny bubbles on the hot pan, and when the bubbles pop and stay open, the pancake is ready to flip",
+        "Yeast is alive — it eats sugar and breathes out tiny puffs of air that make bread dough grow bigger",
+        "Eggs are runny and slippery when raw, but heat turns them firm and fluffy",
+        "Butter melts from a hard stick into a shiny golden puddle when it gets warm",
+        "When you bake cookies, the smell floats through the whole house before the timer even rings",
+        "Measuring cups and spoons help make sure you put in just the right amount — too much salt and the soup tastes like the sea",
+        "When you stir cake batter, you fold air into it, and those tiny air bubbles help the cake rise up soft and tall in the oven"
+      ]
+    },
+    "safety_beat": "In s3, when the loaf goes into the oven, Grandma lightly claims the hot work — \"My hands do the oven, your eyes do the watching\" — as she slides the pan in and the child watches through the oven window. Competence shown once, no warning language, no tension.",
+    "motif": "The bowl of dough under its cloth, rising like a sleepy balloon",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.in_the_kitchen.age7to8.d1.pregen.d36165",
+        "title": "The Cake That Couldn't Go Back",
+        "pattern": "mystery",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "silly"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already balances warmth, agency, and sensory pleasure: Spoonilla gives the child a bossy little ally, the baking steps are shown in the doing, the yeast and dough are named plainly and truly, and both endings pay off the opening smell-memory with a quiet gift to a neighbor."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, being let in on a plan",
+        "s2a": "wide-eyed fizz, then a giggle at the runaway bowl",
+        "s2b": "absorbed and sticky-fingered, pleased to be trusted",
+        "s3": "patient wonder, watching something grow",
+        "s4a": "bouncy pride, then the warm glow of a shared slice",
+        "s4b": "held-breath hush, then a secret, sleepy warmth"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 8 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.3); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 3.7); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 3.9); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.9); [s4b] narration heavy: only 36% of sentences carry speech or action"
+      }
+    ],
+    "writers_notes": [
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action",
+      "[s1] flat rhythm: sentence lengths vary little (spread 3.3)",
+      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 3.7)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s2b] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.9)",
+      "[s4b] narration heavy: only 36% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid5_beach",
+      "source_file": "02_in_the_kitchen_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

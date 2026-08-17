@@ -1,0 +1,326 @@
+{
+  "id": "story.beaches_and_sand.age5to6.d1.pregen.a820f0",
+  "title": "The Moat That Waited for a Wave",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.beaches_and_sand",
+    "sel_theme": null,
+    "value_lesson": "Patience",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "journey",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "big_adventure",
+    "accent": "curious_wonder"
+  },
+  "spine": "A child's walk from the dune path to the water's edge, following the tide's row of gifts to the perfect castle spot, where a moat waits for the sea to fill it all by itself.",
+  "slots": {
+    "hero_name": {
+      "role": "The hero's name, used by Granny and the narrator",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Pip"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "The sand was warm before we even saw it. \"Off we go, {hero_name},\" said Granny, and her bucket went swing, swing, swing. Up the wooden path we climbed, up over the dunes, and the grass heads nodded at us. Whisper, whisper. Then — the whole beach! Gold as far as we could look. And there, down below, went a curly line of things the sea had left behind. Shells. Seaweed. Foam bubbles, winking in the sun. Granny stopped. She put her hands in her pockets, where her found shells rattled. \"Now who,\" she said, \"left a trail like that? And where does it go?\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Toes in!\" you shout, and off the path you hop. The sand is hot on top — hot, hot, hot! \"Quick,\" says Granny, \"push your toes down.\" Down you push, and — oh! Underneath, the sand is cool, like a secret waiting. \"Well, would you look at that,\" says Granny. You wiggle-walk along the trail, past a white feather, soft as a whisper. Granny scoops up two handfuls of sand. One is dry — it slips away like sugar, fssst, through her fingers. One is damp — it holds its shape, like a little hill. \"Now why,\" she says, turning her hands over, \"does one run away and one stay put?\" Ahead, the shells glint. Wink, wink. The trail curls on, down to the wet sand, and your toes are already going.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Up high!\" you shout, and up you climb, up among the nodding grass. Whisper, whisper. Granny pats the sandy hill. \"The wind built this,\" she says. \"And the grass holds it still, like fingers holding tight.\" You stand on top and — oh! You can see the whole trail at once, like a seagull would. A white feather. A round dark hole, where a crab lives. A spiral seashell, pink as a sunset. All in a row, pointing down, down, down to the wet sand. \"There it is!\" you shout. \"The whole trail!\" Granny's shells rattle in her pocket. \"Now where,\" she says, \"does it end?\" Down you scramble, legs tickled by spiky grass, down to where the line goes on.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Down we went, onto the smooth wet sand. It was cool and firm under our toes. \"The sea's doorstep,\" said Granny. \"Best place to stand.\" Then we saw it. A round dark hole. And tiny footprints all around it, like a star. Out popped a little crab, the colour of sand. It ran sideways. It stopped. It looked at us. Then — zip! Back in its hole. \"Oh!\" we laughed. Granny rattled her pocket shells. \"What did you find back there?\" she asked. \"Tell me on the way.\" Because look — the line of foam bubbles ended right here. And there stood the biggest sandcastle we had ever seen. A big kid waved a spare spade. \"Want to help?\" they called. \"We need one more thing!\"",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "\"I'll drizzle!\" said {hero_name}. The spade was heavy and good. Wet sand slid off it in lumpy ribbons. Plop. Plop. And the ribbons held their shape, right on top of the big castle. \"My tower,\" said {hero_name}. The big kid dug the moat, round and round, deep and curly. Then we all sat back. And waited. One wave stopped far away. The next came closer. The next, closer still. \"Here it comes,\" whispered Granny. And one foamy edge swirled right into the moat. Fizz! Bubbles everywhere! The castle stood dry inside. {hero_name} planted the spiral seashell on top, for a flag. On the way home, Granny held out a smooth little periwinkle. \"That one's safe to take,\" she said. So we did.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "\"I'll dig!\" said {hero_name}. The spade bit into the wet sand. Scrape. Scrape. Round and round the big castle went the moat, deep and curly, and {hero_name} patted the walls smooth. The big kid drizzled the towers. Plop. Plop. Then we all sat back at the sea's doorstep. And waited. One wave stopped far away. The next came closer. The next, closer still. \"Here it comes,\" whispered Granny. And one wave slid all the way up and filled the moat. Fizz! Bubbles everywhere! The castle stood dry inside. {hero_name} planted the spiral seashell on top, for a flag. On the way home, Granny picked up a fan-ridged shell from the tideline. \"That was once an animal's house,\" she said. \"You may keep it.\" So we did.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"Two ways down to that shiny line, my love — do you want your toes in the hot sand right now, or shall we climb up high first and spy the whole trail like seagulls?\"",
+      "options": [
+        {
+          "say_word": "Toes in",
+          "label": "Hop off the path onto the hot dry sand and find the cool layer underneath",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Climb up",
+          "label": "Climb to the dune top and read the whole trail of tide-gifts from above",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"There's one job left and one job going spare,\" says the older kid, holding out the spade. \"Will you drizzle a tower on top, or dig the moat that the sea's going to fill?\"",
+      "options": [
+        {
+          "say_word": "Drizzle",
+          "label": "Build a small drizzled tower on top of the big castle",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Dig",
+          "label": "Dig the deep curly moat that waits for the wave",
+          "tone_lean": "bold",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.beaches_and_sand",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.oceans_and_tides",
+      "age_band": "5-6",
+      "age": 5,
+      "family_context": "none — library story for everyone",
+      "seed": 6
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "journey",
+      "why": "A beach visit naturally unfolds as a journey for a five-year-old, moving from warm sand to seashell discoveries to building a castle as the tide comes in.",
+      "backup": "mystery",
+      "candidates": [
+        {
+          "pattern": "mystery",
+          "base_weight": 0.25,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.303,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2424,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "journey",
+          "base_weight": 0.35,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.2121,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.1,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1212,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred journey"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.05,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0606,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.03,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0364,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "big_adventure",
+        "accent": "curious_wonder"
+      },
+      "accent_carrier": "Granny, whose pockets are full of found shells and who wonders aloud about everything she picks up, turning each stop into a small delicious question.",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "named_hero",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Patience",
+      "why": "The material offers it directly: the wave's slow approach is a repeating beat, and the moat only fills when Pip waits and watches instead of fetching water. It rides along as the climax, never as a lecture."
+    },
+    "cast": [
+      {
+        "role": "Pip, the five-year-old hero",
+        "reused": false,
+        "why": "A named hero fits the teller; small enough for warm-sand-between-toes wonder, old enough to carry a shell home."
+      },
+      {
+        "role": "Granny, who knows the beach well",
+        "reused": false,
+        "why": "Carries the curious_wonder accent, shows lightly where to stand, and asks both choice questions in her own voice."
+      },
+      {
+        "role": "An older kid building an enormous sandcastle",
+        "reused": false,
+        "why": "Offers the spare spade at the journey's end, giving Pip a concrete job (drizzle one tower) without taking over the story."
+      },
+      {
+        "role": "A small sand-colored crab",
+        "reused": false,
+        "why": "Provides the deeper-and-stranger beat: a sideways scuttle, a pause, a dash back into its star-printed hole."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "journey order: car park to dune path, over the dune top, down to dry sand, across to wet sand, to the water's edge",
+        "the tide's gifts laid out like clues: seaweed, shells, foam bubbles leading to the best castle spot",
+        "what is spotted in order: feather, crab hole, spiral seashell, starfish",
+        "wet sand sticks, dry sand falls apart",
+        "a wave fills the moat all by itself",
+        "building stages: moat, walls, drizzle towers, shell flag",
+        "dunes are wind-made hills held still by grass roots",
+        "warm top sand, cool damp sand underneath",
+        "patience value angle: waiting at the moat",
+        "deeper door: two handfuls of sand, one slips, one holds"
+      ],
+      "gathered_but_unused": [
+        "Sand is made of tiny pieces of rock and shell that the sea has rubbed and rolled until they became small and smooth.",
+        "The tide goes in and out, and when it goes out it leaves treasures behind on the wet sand.",
+        "Wet sand sticks together and dry sand falls apart, which is why sandcastle builders carry buckets of water.",
+        "A wave can slide all the way up the beach and fill a sandcastle moat all by itself.",
+        "Dunes are hills of sand made by the wind, and special grasses grow on them to hold the sand still with their long roots.",
+        "Sand feels warm on top where the sun has been shining, but cool and damp if you dig your toes down underneath.",
+        "Some holes in the sand belong to little animals like crabs, who dig down to stay cool and damp.",
+        "The sea makes a shushing sound as each wave slides up the sand and pulls the sand grains gently back down."
+      ]
+    },
+    "safety_beat": "In s3, Granny shows once and lightly that the wet flat sand is the sea's doorstep — the firm, safe place to stand and watch the water — pure competence, no warning, no tension.",
+    "motif": "The trail the tide leaves behind — a line of shells, seaweed, and foam bubbles that works like breadcrumbs leading to the sea's doorstep.",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
+        "title": "The River Inside the Sea",
+        "pattern": "journey",
+        "teller": "we_adventure",
+        "tone_dominant": "curious_wonder",
+        "tone_accent": "big_adventure"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: Granny's fond attention is paid in noticing and staying, the sound-words land as their own small sentences, the branches mirror each other cleanly, and the wave-waiting sequence gives a held breath before a satisfying, take-homeable ending."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious, leaning toward the trail",
+        "s2a": "giggly, feet busy, a small secret found",
+        "s2b": "up on tiptoe, pleased to see the whole picture",
+        "s3": "a held breath, then a quick delighted laugh at the crab",
+        "s4a": "busy hands, then held breath, then fizzing triumph and sleepy satisfaction",
+        "s4b": "busy hands, then held breath, then fizzing triumph and a warm keepable glow"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.3); [s3] flat rhythm: sentence lengths vary little (spread 3.2); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s4a] flat rhythm: sentence lengths vary little (spread 3.5); [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 23% of sentences carry speech or action; [s4b] flat rhythm: sentence lengths vary little (spread 4.4); [s4b] flat rhythm: 4 sentences in a row of near-identical length"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 23% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 23% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.3)",
+      "[s3] flat rhythm: sentence lengths vary little (spread 3.2)",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] flat rhythm: sentence lengths vary little (spread 3.5)",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 23% of sentences carry speech or action",
+      "[s4b] flat rhythm: sentence lengths vary little (spread 4.4)",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] narration heavy: only 23% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid5_beach",
+      "source_file": "07_beaches_and_sand_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}

@@ -1,0 +1,326 @@
+{
+  "id": "story.sweet_treats.age5to6.d1.pregen.25cc78",
+  "title": "The Pearls Take Their Bath",
+  "age_band": "5-6",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.sweet_treats",
+    "sel_theme": null,
+    "value_lesson": "Waiting a little makes some treats even better — pearls need their long warm bath, and some joys cannot be hurried.",
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "quiet_hour",
+  "teller": "storyteller_tale",
+  "tone": {
+    "dominant": "curious_wonder",
+    "accent": "silly"
+  },
+  "spine": "On a warm evening at a small bubble tea stand, a child waits for the pearls to finish their long warm bath, and discovers that the best sweet things cannot be hurried.",
+  "slots": {
+    "child_name": {
+      "role": "the child in the memory, whom the storyteller addresses as 'you'",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "little one"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "I remember a warm evening street, and a little stand with cups lined up like towers. You were there, {child_name}, watching the worker drop a fresh pot of pearls into their sweet syrup bath. \"They need a little more time,\" the worker said, \"to turn dark and chewy.\" So we waited. Pip the shop cat sat by the door, sniffing the steam. Sniff. Sniff. Then—achoo! One great dignified sneeze. Pip blinked slowly at every cup, as if personally approving each pearl. You leaned on your elbows. I leaned on mine. The pearls took their bath, and the street smelled like sugar and rain.",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      }
+    },
+    {
+      "id": "s2a",
+      "text": "\"Let's watch,\" you say. The worker lifts the lid just a crack. Steam curls up, warm and sweet. Inside, the pearls tumble slow, slow, slow — like marbles in honey. \"They started out hard and white,\" she says. \"Only a long warm bath makes them soft and chewy. Some things cannot be hurried.\" Pip stands on his hind legs, front paws on the counter, peeking in. The worker shows you the little mat. \"Stand here, back from the warm pot. You can still see the steam dance.\" You stand. You watch. The pearls turn darker, shinier, rounder. Little moons in a pot. Pip blinks, slow. Are they ready yet? Not yet. But soon.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s2b",
+      "text": "\"Let's say hello,\" you say. At the next table, a grandmother eats sweet pearl soup. She lifts one warm pearl on her spoon and holds it to the lantern light. It glows — a little moon on a spoon. \"It began as a root called cassava,\" she says, \"growing in the ground far away.\" Pip follows, sitting at her feet, hoping. Unashamedly hoping. She smiles and gives him one pearl. He licks it once, twice, then gulps. You lean close. The pearl on her spoon glows warm and brown. But your own pearls — are they still in their bath? Are they ready yet? The grandmother winks. \"Good things take time.\"",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      }
+    },
+    {
+      "id": "s3",
+      "text": "\"The pearls are done,\" the worker calls softly. She pours the cold tea over ice, spoons in the dark warm pearls, and slides in the very big straw. You take the first slow sip, {child_name}. And something small and wonderful happens. The cold arrives on your tongue first. The sweet follows a blink later, like a flower opening after a shiver. You try it again, slowly, just to feel the two arrive one after the other. Cold. Then sweet. Cold. Then sweet. Pip blinks slowly at your cup, as if he can taste the evening too. \"What did you find?\" the worker asks, smiling. But you are busy sipping, feeling the little moons wait at the bottom.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      }
+    },
+    {
+      "id": "s4a",
+      "text": "The cup feels light. Almost gone. But the worker tilts it, just a little, and points. \"Look,\" she whispers. There, hiding in the corner, is one last pearl. One dark little moon, waiting all along. You aim the big straw, {child_name}. Slowly, slowly, it travels up — like a slow little elevator, rising just for you. You chew it softly. It is the smallest bite. Somehow, it is the biggest. Pip blinks once, slow and sure. And that is why, whenever I see little moons at the bottom of a cup, I remember that the best sweet things take their time.",
+      "next": null
+    },
+    {
+      "id": "s4b",
+      "text": "You set the cup on the step, {child_name}, and sit beside Pip. Little rings of water bloom on the wood. The street turns soft and gold. You sip slowly. Cold. Then sweet. Cold. Then sweet. The last pearl waits at the bottom, in no hurry at all. Neither are you. Pip's tail curls around your ankle, warm as a scarf. Then — there it comes, up the straw, in its own good time. Pip gives one slow approving blink. And whenever the evening is warm and unhurried, I remember that some joys cannot be rushed — they arrive in their own good time, like pearls.",
+      "next": null
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"While the pearls take their bath, little one — would you like to watch them tumble in the pot, or go say hello to the grandmother with the glowing spoon?\"",
+      "options": [
+        {
+          "say_word": "Watch",
+          "label": "Stay and watch the pearls tumble and darken in the pot",
+          "tone_lean": "gentle",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Visit",
+          "label": "Visit the grandmother and see a pearl glow like a little moon",
+          "tone_lean": "gentle",
+          "curiosity_lean": "what_its_for",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"The cup is nearly empty, little one. Shall we tilt it and hunt for the last pearl hiding at the bottom — or sit on the step with Pip and let the evening finish slowly?\"",
+      "options": [
+        {
+          "say_word": "Hunt",
+          "label": "Tilt the cup and hunt for the last hidden pearl with the big straw",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "Linger",
+          "label": "Sit on the step with Pip and sip slowly until the last pearl comes on its own",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "build_record": {
+    "request": {
+      "topic": "knowledge_domain.sweet_treats",
+      "topic_tier": "deep_dive",
+      "parent_topic": "knowledge_domain.farms_and_food",
+      "age_band": "5-6",
+      "age": 5,
+      "family_context": "none — library story for everyone",
+      "seed": 2
+    },
+    "prompt_version": "segment_writing_v2.3",
+    "pattern_choice": {
+      "chosen": "quiet_hour",
+      "why": "The sensory details of cold ice cream melting on the tongue and chewy pearls at the bottom of a cup are perfect for a slow, warm, moment-focused story where almost nothing needs to happen.",
+      "backup": "journey",
+      "candidates": [
+        {
+          "pattern": "journey",
+          "base_weight": 0.24,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2637,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "mystery",
+          "base_weight": 0.2,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.2198,
+          "sampled": true,
+          "rejected_because": "sampled, but the judge preferred quiet_hour"
+        },
+        {
+          "pattern": "make_and_build",
+          "base_weight": 0.14,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1538,
+          "sampled": false,
+          "rejected_because": null
+        },
+        {
+          "pattern": "quiet_hour",
+          "base_weight": 0.12,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.1319,
+          "sampled": true,
+          "rejected_because": null
+        },
+        {
+          "pattern": "problem_and_fix",
+          "base_weight": 0.18,
+          "shelf_nudge": 0.5,
+          "family_nudge": 1.0,
+          "final_weight": 0.0989,
+          "sampled": false,
+          "rejected_because": "already on this topic family's shelf (The Cranky Freezer and the Dancing Pearls)"
+        },
+        {
+          "pattern": "romp",
+          "base_weight": 0.08,
+          "shelf_nudge": 1.0,
+          "family_nudge": 1.0,
+          "final_weight": 0.0879,
+          "sampled": false,
+          "rejected_because": null
+        }
+      ]
+    },
+    "tone_choice": {
+      "chosen": {
+        "dominant": "curious_wonder",
+        "accent": "silly"
+      },
+      "accent_carrier": "Pip, the shop cat, who sits by the stand and blinks slowly at every cup as if personally approving each pearl",
+      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
+    },
+    "teller_choice": {
+      "chosen": "storyteller_tale",
+      "why": "pattern default, rotated off the teller most recently used"
+    },
+    "value_decision": {
+      "included": true,
+      "value": "Waiting a little makes some treats even better — pearls need their long warm bath, and some joys cannot be hurried.",
+      "why": "The quiet_hour pattern is built on pleasurable waiting, and the pearl material (hard white pearls turning soft and dark only after a long warm bath) offers this value without any preaching — it simply is how the treat works."
+    },
+    "cast": [
+      {
+        "role": "The storyteller, who once visited this stand as a child and now tells the memory",
+        "reused": false,
+        "why": "The storyteller_tale frame requires an 'I' who opens and closes the memory warmly."
+      },
+      {
+        "role": "The bubble tea shop worker with a very big straw",
+        "reused": false,
+        "why": "She tends the pot of pearls and can show, lightly, how the wide straw works like a slow elevator — she carries the curious_wonder tone."
+      },
+      {
+        "role": "Pip, the cat by the shop door",
+        "reused": false,
+        "why": "Carries the silly accent alone: he sniffs the steam, sneezes at it, and insists on inspecting every cup."
+      },
+      {
+        "role": "A grandmother at the next table with a bowl of sweet pearl soup",
+        "reused": false,
+        "why": "Appears in one branch to hold a pearl up to the light and tell where tapioca begins — a root in the ground, far away."
+      }
+    ],
+    "materials": {
+      "selected": [
+        "A small bubble tea stand on a warm evening street, with cups lined up like little towers",
+        "A bubble tea shop worker with a very big straw",
+        "A cat who sits by the shop door",
+        "A grandmother who makes sweet soups with pearls",
+        "Tapioca pearls start out hard and white, and turn dark, soft, and chewy after a long warm bath in sweet syrup",
+        "Bubble tea pearls are made from tapioca, which comes from a root called cassava",
+        "Your tongue feels cold before it tastes sweet — the cold arrives first, and the sweetness follows a blink later",
+        "The last pearl at the bottom of the cup, found only when the drink seems finished",
+        "The way the cold cup fogs and sweats on the outside, leaving little rings of water on the table",
+        "Pearls tumbling slowly in a pot, getting darker and shinier like marbles in honey"
+      ],
+      "gathered_but_unused": [
+        "Ice cream is full of tiny air bubbles, whipped in while it freezes — that's what makes it soft instead of a hard block of ice.",
+        "The smaller the ice crystals in ice cream, the creamier it feels on your tongue.",
+        "Bubble tea pearls are made from tapioca, which comes from a root called cassava.",
+        "Tapioca pearls start out hard and white, and turn dark, soft, and chewy after a long warm bath in sweet syrup.",
+        "Your tongue feels cold before it tastes sweet — the cold arrives first, and the sweetness follows a blink later.",
+        "In Italy, people eat a soft, silky ice cream called gelato, often in little cups with tiny spoons.",
+        "In Japan, there is a chewy ice cream treat called mochi — soft rice dough wrapped around a little ball of ice cream.",
+        "Long ago, before freezers, people carried ice down from mountains to make cold, sweet treats."
+      ]
+    },
+    "safety_beat": "In s2a, the worker lightly shows the child the little mat on the floor — 'this is the watching spot, where you can see the steam but the pot keeps its warmth to itself' — competence, no warning, no tension.",
+    "motif": "little moons — the dark pearls glowing at the bottom of the pot, then the cup, then the spoon",
+    "shelf_at_build_time": [
+      {
+        "story_id": "story.sweet_treats.age7to8.d1.pregen.1d4ca9",
+        "title": "The Cranky Freezer and the Dancing Pearls",
+        "pattern": "problem_and_fix",
+        "teller": "we_adventure",
+        "tone_dominant": "cozy",
+        "tone_accent": "curious_wonder"
+      }
+    ],
+    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+    "polish_pass": {
+      "applied": false,
+      "iterations": [
+        {
+          "round": 1,
+          "verdict": "leave it alone",
+          "why": "The story already does its work: it is a warm, unhurried sensory ritual with a gentle refrain (cold, then sweet; little moons; Pip's slow blinks), a clear felt arc from anticipation to savoring, and a read-aloud texture that lands cleanly for a five-year-old."
+        }
+      ],
+      "cards_used": [],
+      "listener_felt_arc": {
+        "s1": "snug and curious",
+        "s2a": "leaning in, patient and wide-eyed",
+        "s2b": "warm and a little giggly at the hopeful cat",
+        "s3": "delighted discovery, sipping slowly",
+        "s4a": "a small held breath, then satisfied",
+        "s4b": "settled, golden, and sleepy"
+      },
+      "segments_revised": 0,
+      "segments_rejected": 0
+    },
+    "gates": [
+      {
+        "gate": "whole-story read of every path",
+        "result": "pass",
+        "notes": "0 blocking, 9 warning. [s2a] flat rhythm: sentence lengths vary little (spread 4.0); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 36% of sentences carry speech or action; [s4a] flat rhythm: 4 sentences in a row of near-identical length; [s4a] narration heavy: only 31% of sentences carry speech or action; [s4b] flat rhythm: 4 sentences in a row of near-identical length; [s4b] no voices: segment carries no spoken line"
+      }
+    ],
+    "writers_notes": [
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 29% of sentences carry speech or action",
+      "[s2a] flat rhythm: sentence lengths vary little (spread 4.0)",
+      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s3] narration heavy: only 36% of sentences carry speech or action",
+      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4a] narration heavy: only 31% of sentences carry speech or action",
+      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+      "[s4b] no voices: segment carries no spoken line",
+      "[s4b] narration heavy: only 29% of sentences carry speech or action"
+    ],
+    "library_ingest": {
+      "provenance": "pregen_batch",
+      "generator": "kimi-k3",
+      "source_run": "_demo_run_kid5_beach",
+      "source_file": "03_sweet_treats_kimik3.json",
+      "depth": 1
+    }
+  },
+  "depth": 1
+}
