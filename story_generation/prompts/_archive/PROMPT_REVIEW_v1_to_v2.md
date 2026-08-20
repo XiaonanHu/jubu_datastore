@@ -1,12 +1,15 @@
 # Prompt Review — v1 → v2
 
+> **Kind:** archive · **Status:** historical provenance, not operational.
+> Why the v2 writing rules say what they say. The prompt is now at v2.3.
+
 **For:** reviewing the story-writing prompt change before we regenerate any
 stories. **Driven by:** a children's-storytelling expert's line-by-line
 review of "The Mountain That Breathes" (July 2026), plus the founder's two
 observations (abrupt opening, description overload).
 
-Files: `segment_writing_v1_archived.md` (what produced the 22 pilot
-stories) and `segment_writing_v2.md` (the replacement).
+Files: `segment_writing_v1.md` (beside this one; what produced the 22
+pilot stories) and `../segment_writing_v2.md` (the replacement).
 
 ---
 

@@ -25,6 +25,7 @@ starting position chosen so we can build and test — not a final answer.
 | What | Where |
 |---|---|
 | This policy | `jubu_datastore/story_definitions/STORY_CREATION_POLICY.md` |
+| The on-disk shape of a story (braid, JSON, naming, validation) | `jubu_datastore/story_definitions/STORY_SCHEMA.md` |
 | The engineering pipeline that implements it | `jubu_datastore/story_definitions/STORY_GENERATION_WORKFLOW.md` |
 | Knowledge Graph Master Policy (topics, family records) | `jubu_datastore/knowledge_graph_definitions/KNOWLEDGE_GRAPH_POLICY.md` |
 | Per-topic, per-age writing instructions (`GenerationBrief`) | built by `jubu_datastore/knowledge_graph/age_view.py` |
@@ -149,7 +150,7 @@ after three choices. Instead:
   deep-dive descendants — and changes only when the child renames) and
   **playthrough slots** (choice consequences, living only within one
   playthrough). The full slot recording-and-propagation design is in the
-  workflow doc, Stage 3d.
+  workflow doc, Stage 3f.
 
 **Rule: no fake choices.** If both options lead to the same next sentence
 with different wallpaper, the choice is a lie and children notice. Each
@@ -171,6 +172,15 @@ walk from start to an ending. All numbers live in config:
 | 5-6 | about 5 minutes | ~700 | 2 |
 | 7-8 | about 8 minutes | ~1,200 | 3 |
 | 9-10 | about 11 minutes | ~1,700 | 3 |
+| 11-12 | about 14 minutes | **not set** | 3 |
+
+Listen-through and choice points come from `age_bands` in
+`jubu_backend/jubu_chat/configs/story_generation.yaml`, which is the authority
+— do not copy them anywhere else. **Words per path is a design budget that
+exists only in this table**, and it was never set for 11-12 even though the
+band now holds 34 stories; the per-segment ceiling (440) is doing all the work
+there. Note the two are different numbers: config enforces a *per-segment*
+ceiling, this column is the *per-path* budget.
 
 **Decision: one topic-and-age pair maps to many stories — deliberately.**
 Each story is one complete, self-contained braid (its own outline, branches,
@@ -207,8 +217,12 @@ know the whole story hangs together before any prose exists. It is checked
 before writing begins: every pattern stretch's beat jobs done, choices real, slots consistent,
 avoid-list clean, every ending warm.
 
-**Step 2 — the writing rounds.** Segments are written **one per round**, in
-reading order. Each round sees: the outline, the finished text of the
+**Step 2 — the writing rounds.** Segments are written in reading order, but
+the unit is not always one segment: where a choice point branches, the two
+continuation segments are written **together in one call**, so they contrast
+deliberately. The trunk and each shared segment are one call each. (Stage 5 of
+the workflow doc owns this rule; it changed there after founder review and
+this paragraph went two revisions without being updated.) Each round sees: the outline, the finished text of the
 segments on its path so far, the slot values in play on that path, and the
 topic's per-age instructions (framing, vocabulary, avoid list). Shared
 (rejoined) segments are written once, with their slots as named blanks, and
@@ -232,18 +246,23 @@ writing.
 
 **Decision: three telling styles, rotated for variety:**
 
+The per-pattern default teller is **not listed here** — it lives in
+`pattern_default` in `jubu_backend/jubu_chat/configs/story_telling_styles.yaml`,
+which is what the code reads. This section defines what each teller *is*; the
+config decides which one a pattern gets by default.
+
 1. **"We" adventure.** Buju and the child go together: "We push open the
    mossy door. Warm air breathes on our faces. Should we follow the glowing
    crab, or climb up to see farther?" Companionship instead of a spotlight
    — the child is never alone in the story, and choices are naturally
-   *ours*. Default for `journey`, `make_and_build`, and `romp` stories.
+   *ours*.
 2. **The named hero.** A child-aged character the listener watches over and
    chooses for — and here we borrow a beloved trick from the live system
    (which already keeps child-coined names and uses them verbatim): at the
    story's start, **the child names the hero**. "This story is about a
    brave explorer. What should we call her?" The name is a slot; the family
-   keeps it, and the hero can return in later stories. Default for feeling
-   `inner_weather` and `dilemma` stories, where a little distance is protective: it is
+   keeps it, and the hero can return in later stories. Chosen where a little
+   distance is protective: it is
    easier to help *Mira* with her jealousy than to be told about your own.
 3. **The storyteller's tale.** A character in the frame tells their own
    adventure: the lighthouse keeper who once rowed out in the storm, the

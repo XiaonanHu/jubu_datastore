@@ -9,7 +9,7 @@ Stage 5 gate (see story_definitions/STORY_GENERATION_WORKFLOW.md).
 Two findings BLOCK, because they are exact: a segment over the age band's
 word ceiling, and banned evaluation language. Everything else is a WARNING
 for human eyes — a blocking threshold on a judgment call is how arbitrary
-rules creep back in (prompt v2.1, §0).
+rules creep back in (writing prompt, §0).
 
 Run as a script, not `python -m` from the repo root: the package's
 logging/ subpackage would shadow stdlib logging.

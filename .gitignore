@@ -50,3 +50,11 @@ story_definitions/preview/audio_auditions/
 story_definitions/preview/audio_diagnose/
 story_definitions/preview/audio_diagnose/
 story_definitions/preview/audio_diagnose/
+
+# Course pipeline working output. publish_course.py copies only the webp/mp3
+# the page actually serves into buju_website; the source PNGs are ~1.5 MB each.
+story_definitions/preview/course_audio/
+story_definitions/preview/course_images/
+probe.mp3
+probe_*.png
+probe_*.webp

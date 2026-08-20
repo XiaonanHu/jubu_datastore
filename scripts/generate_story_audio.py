@@ -84,6 +84,33 @@ def mp3_format(bit_rate: int) -> dict[str, Any]:
     return {"container": "mp3", "sample_rate": 44100, "bit_rate": int(bit_rate)}
 # How many paragraphs of a story's opening segment an audition sample uses —
 # enough to judge a voice, short enough to stay cheap across candidates.
+# A 128kbps mp3 of ordinary narration runs about this many bytes per
+# character of transcript. Measured over 929 clips of 300+ characters, the
+# spread is tight — everything healthy sits inside 1.5x. Well past that means
+# the model welded silence onto the end: the listener hears the sentence stop
+# and then nothing until the clip finally runs out. Twice in 6841 clips, and
+# both times the story simply went quiet on whoever was listening.
+# Measured per band over 2376 clips of 200+ characters: medians land between
+# 806 and 970 bytes/char and every band's p95 is within 1.15x of its own
+# median. The 3-4 band sits highest only because it reads at speed 0.92, which
+# is why the expectation below divides by speed rather than hard-coding a band
+# table. The worst HEALTHY clip in the library is 1.7x; the two broken ones are
+# 2.5x and 2.8x. 1.8 sits in that gap.
+# Per LANGUAGE, because the ratio is really "how much speech does one
+# character of this script carry". Devanagari packs a syllable into fewer
+# characters than English does, so Hindi legitimately runs ~1.5x more bytes
+# per character (measured: en median 822 over 2376 clips, hi 1218 over 155).
+# Using the English figure for Hindi flags healthy clips as broken.
+# A language with no entry here is NOT checked — a false alarm on every clip
+# of a new language would train you to ignore this warning, which is worse
+# than not having it. Add a language once you have a few hundred clips to
+# take a median from.
+EXPECTED_BYTES_PER_CHAR = {"en": 850, "hi": 1250}
+SILENT_TAIL_RATIO = 1.8
+# Short clips carry proportionally more mp3 header, so the ratio is only
+# meaningful once there is real speech in the file.
+SILENT_TAIL_MIN_CHARS = 200
+
 AUDITION_PARAGRAPH_COUNT = 2
 # Cap the sample so every candidate is judged on a comparable amount of
 # speech (some story openings are one line, others are six).
@@ -344,6 +371,119 @@ def narration_units_for_lang(
     return out
 
 
+def run_check_clips(voice_config: dict[str, Any], site_audio_dir: Path) -> int:
+    """Scan every clip already on disk for the silence fault, without spending
+    anything. The generation path retries automatically, but clips made before
+    that guard existed were never checked — and a bad clip is invisible until
+    somebody is listening to it. Run this before a publish."""
+    manifest = load_manifest()
+    checked = flagged = 0
+    skipped_langs: set[str] = set()
+    for story_id, entry in sorted(manifest.items()):
+        tracks = [("en", entry)] + sorted(
+            (code, track) for code, track in (entry.get("languages") or {}).items()
+        )
+        for lang, track in tracks:
+            speed = float(track.get("speed", 1.0))
+            bit_rate = int(track.get("mp3_bit_rate", 128000))
+            for unit_id, chunks in sorted((track.get("segments") or {}).items()):
+                for chunk in chunks:
+                    path = site_audio_dir / story_id
+                    if lang != "en":
+                        path = path / lang
+                    path = path / chunk["file"]
+                    if not path.is_file():
+                        continue
+                    checked += 1
+                    size = path.stat().st_size
+                    chars = chunk.get("chars") or 0
+                    if chars < SILENT_TAIL_MIN_CHARS:
+                        continue
+                    expected = _expected_bytes_per_char(lang, bit_rate, speed)
+                    if expected is None:
+                        skipped_langs.add(lang)
+                        continue
+                    if size / chars > expected * SILENT_TAIL_RATIO:
+                        flagged += 1
+                        print(
+                            f"  SILENCE  {story_id.rsplit('.', 1)[-1]} "
+                            f"{lang} {unit_id}/{chunk['file']}: "
+                            f"{size * 8 / bit_rate:.0f}s for {chars} chars "
+                            f"({size / chars / expected:.1f}x expected)"
+                        )
+    print(f"\nchecked {checked} clip(s), {flagged} suspect")
+    if skipped_langs:
+        print(
+            f"note: {', '.join(sorted(skipped_langs))} not checked — no length "
+            f"baseline for that language yet (see EXPECTED_BYTES_PER_CHAR)"
+        )
+    if flagged:
+        print(
+            "Regenerate them with --force (the generator retries a bad take "
+            "automatically), then listen before publishing."
+        )
+        return 1
+    return 0
+
+
+def _expected_bytes_per_char(lang: str, bit_rate: int, speed: float) -> float | None:
+    """Bytes of mp3 one character of this language should produce, or None
+    when we have no baseline for it and must not guess."""
+    base = EXPECTED_BYTES_PER_CHAR.get(lang)
+    if base is None:
+        return None
+    return base * (bit_rate / 128000) / max(speed, 0.1)
+
+
+def _looks_like_silent_tail(
+    audio: bytes, transcript: str, bit_rate: int, speed: float = 1.0,
+    lang: str = "en",
+) -> bool:
+    """True when this mp3 is far longer than its text can account for.
+
+    Scaled by language, bit rate (bigger file for the same speech) and speed
+    (slower reading is legitimately longer), so one threshold covers every
+    band and every voice.
+    """
+    if len(transcript) < SILENT_TAIL_MIN_CHARS:
+        return False
+    expected = _expected_bytes_per_char(lang, bit_rate, speed)
+    if expected is None:
+        return False
+    return len(audio) / len(transcript) > expected * SILENT_TAIL_RATIO
+
+
+def _without_silent_tail(
+    audio: bytes, transcript: str, client: "CartesiaBatchClient", voice_id: str,
+    model_id: str, speed: float, emotion: str | None, bit_rate: int, label: str,
+    lang: str = "en",
+) -> tuple[bytes, bool]:
+    """One retry when a clip comes back with silence welded on.
+
+    Synthesis is not deterministic, so asking again almost always produces a
+    clean take. We keep the shorter of the two rather than trusting the retry
+    blindly — if both are long the text really is that long, and the warning
+    tells you to listen to it yourself.
+    """
+    if not _looks_like_silent_tail(audio, transcript, bit_rate, speed, lang):
+        return audio, False
+    seconds = len(audio) * 8 / bit_rate
+    print(f"    ! {label}: {seconds:.0f}s for {len(transcript)} chars — "
+          f"that is mostly silence. Retrying once.")
+    second = client.synthesize(
+        transcript, voice_id, model_id, speed, emotion, mp3_format(bit_rate),
+    )
+    if len(second) < len(audio):
+        audio = second
+    if _looks_like_silent_tail(audio, transcript, bit_rate, speed, lang):
+        print(f"    ! {label}: still long after the retry — LISTEN TO THIS ONE "
+              f"before publishing.")
+    else:
+        print(f"    ok {label}: retry came back clean "
+              f"({len(audio) * 8 / bit_rate:.0f}s)")
+    return audio, True
+
+
 def generate_story(
     story: dict[str, Any],
     client: CartesiaBatchClient,
@@ -426,13 +566,18 @@ def generate_story(
             file_path = story_dir / file_name
             if force or not file_path.is_file():
                 started = time.monotonic()
-                file_path.write_bytes(
-                    client.synthesize(
-                        transcript, voice_id, model_id, speed, emotion,
-                        mp3_format(mp3_bit_rate),
-                    )
+                audio = client.synthesize(
+                    transcript, voice_id, model_id, speed, emotion,
+                    mp3_format(mp3_bit_rate),
                 )
                 chars_sent += len(transcript)
+                audio, retried = _without_silent_tail(
+                    audio, transcript, client, voice_id, model_id, speed,
+                    emotion, mp3_bit_rate, f"{story['id']}/{file_name}", lang,
+                )
+                if retried:
+                    chars_sent += len(transcript)
+                file_path.write_bytes(audio)
                 files_written += 1
                 print(
                     f"  {story['id']}/{lang if lang != 'en' else ''}"
@@ -763,6 +908,9 @@ def main() -> int:
     parser.add_argument("--audition", nargs="+", metavar="VOICE_ID",
                         help="generate teller samples for candidate voice ids, "
                              "one folder per voice")
+    parser.add_argument("--check-clips", action="store_true",
+                        help="scan every clip already on disk for the silence "
+                             "fault and exit; spends nothing")
     parser.add_argument("--audition-band", metavar="BAND",
                         help="draw audition samples from this age band and "
                              "use its pacing (e.g. 11-12), so the sample "
@@ -793,7 +941,9 @@ def main() -> int:
         return run_diagnose(args.diagnose, voice_config)
     if args.audition:
         return run_audition(args.audition, voice_config, args.audition_band)
-    if not args.stories and not args.all and not args.band:
+    if args.check_clips:
+        return run_check_clips(voice_config, args.site_audio_dir)
+    if not args.stories and not args.all and not args.band and not args.check_clips:
         parser.error(
             "pick stories with --stories or --band, or use --all / --audition "
             "/ --diagnose"

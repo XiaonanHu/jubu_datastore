@@ -1,6 +1,11 @@
 # Segment Writing Prompt — v1 (ARCHIVED, produced the pilot stories)
 
-**Status: superseded by `segment_writing_v2.md`.** Kept verbatim so prompt
+> **Kind:** prompt · **Status:** ARCHIVED — superseded by `../segment_writing_v2.md`.
+> The braid spec it carried ("exactly 6 segments and 2 choice points") was the
+> only home for that material and now lives in
+> `story_definitions/STORY_SCHEMA.md`.
+
+**Status: superseded by `../segment_writing_v2.md`.** Kept verbatim so prompt
 changes can be reviewed and so the 22 pilot stories can be traced to the
 rules that produced them. Do not write new stories with this.
 

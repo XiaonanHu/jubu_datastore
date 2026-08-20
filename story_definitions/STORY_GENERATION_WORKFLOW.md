@@ -82,7 +82,7 @@ reasons recorded.
 ### The story pattern library
 
 A **story pattern** is the kind of movement that pulls a story forward —
-what keeps a child listening. Seven patterns, each with real-author
+what keeps a child listening. Eight patterns, each with real-author
 reference points so writers and models know the register:
 
 | Pattern | What pulls the story forward | Feels like |
@@ -294,9 +294,12 @@ picks the candidate the materials actually support, saying why.
 
 **3c. Teller.** Who tells it: "we" adventure, named hero, or storyteller's
 tale (policy §6). The rotation rule removes whatever this family just had;
-the plan suggests defaults (`inner_weather` and `dilemma` → named hero;
-`journey` and `romp` → "we"; `quiet_hour` and remembered-past material →
-storyteller's tale); the same model call as 3b picks from what remains.
+the plan suggests a per-pattern default, and the same model call as 3b picks
+from what remains. The defaults are deliberately **not listed here, nor in the
+policy** — they live in `pattern_default` in
+`jubu_backend/jubu_chat/configs/story_telling_styles.yaml`, which is what the
+code actually reads. Both documents previously carried partial copies that
+disagreed with the config and with each other.
 
 **3d. The cast — reuse before invent.** When the main topic is a deep-dive
 child of another topic (especially an immediate child) or a sibling in the
@@ -440,17 +443,15 @@ is one call. Fail → regenerate that unit only. Every finding, pass or fail,
 is appended to `WritersNotes` and travels into all later units' calls.
 
 **The writing prompt itself is versioned**, in `story_generation/prompts/`.
-The current one is `segment_writing_v2.md` (v2.1), rewritten from a
-children's storytelling expert's line-by-line review of the pilot and then
-from founder review; its predecessor and the review that replaced it sit
-beside it, and the prompt id goes into the build record so any story traces
-to the rules that wrote it. Its craft leans, one line each: prime the
-opening (who we are, where, what pulls us in); voices and action usually
-carry more than narration; a description earns its place by inviting,
-involving, advancing, or igniting a feeling; images come from the child's
-own day; grow one motif; let sentence length rise and fall; a character
-usually asks the choice question; and where the story visits a real place a
-child could stand in, the characters show they know where to stand.
+It is the sole owner of the craft rules, and this document deliberately does
+**not** summarise them — a summary here drifts the moment the prompt is
+revised, and it did: this paragraph described v2.1 while the prompt had moved
+to v2.3, so the two newest craft sections were invisible to anyone reading
+only the workflow. Read `segment_writing_v2.md` for what the writer is
+actually told. The version in force is `prompt.version_id` in
+`jubu_backend/jubu_chat/configs/story_generation.yaml`, and it is stamped into
+every build record so a story traces to the rules that wrote it. Its
+predecessor and the review that replaced it are in `prompts/_archive/`.
 
 **The per-unit gate.** Two things block, because they are exact:
 
@@ -508,13 +509,14 @@ review; the rest to standard review until the gates earn trust.
 
 | Piece | Where | Why |
 |---|---|---|
-| Pipeline code | `jubu_datastore/story_generation/` (new package) | Mirrors how `knowledge_graph/` holds the graph's programs |
-| Recipe book: patterns (beats, affinities, handoff list), tones, tellers | `jubu_datastore/story_definitions/{story_patterns,tones,telling_styles}.yaml` (to be created) | The versioned definitions build-record codes point into |
+| Pipeline code | `jubu_backend/jubu_chat/story_generation/` | One module per responsibility; `story_builder.py` is the only file that calls models |
+| Entry point | `jubu_backend/scripts/build_story.py` | The only CLI |
+| Recipe book: patterns (beats, affinities), tones, tellers, polish voice cards | `jubu_backend/jubu_chat/configs/story_{patterns,tones,telling_styles,voice_cards}.yaml` | The versioned definitions build-record codes point into |
 | Recurring cast roles per topic family | alongside the stories' records; names live in family records only | Shared world, personal names |
 | Prompts per stage | `jubu_datastore/story_generation/prompts/`, versioned | Prompt id goes into the build record |
-| Tunables (stretch counts per age, nudge floors/caps, slot cap, over-generation factor, value cap, variety windows, retry counts) | config files, not code | Tunables live in config, per backend convention |
+| Tunables (age-band ceilings and choice points, nudge floors/caps, slot cap, over-generation factor, polish growth limit, retry counts) | `jubu_backend/jubu_chat/configs/story_generation.yaml` | Tunables live in config, per backend convention |
 | Stage artifacts (request, sheet, decisions, outline, notes, build record) | persisted per build | Resumable, auditable |
-| Finished stories + review status | new story schema (policy §12) | Replaces the old flat `stories` table |
+| Finished stories + review status | `jubu_datastore/story_definitions/stories/pilot/`; shape defined in `STORY_SCHEMA.md` | Replaces the old flat `stories` table |
 
 ## Engineering rules
 
@@ -534,7 +536,7 @@ review; the rest to standard review until the gates earn trust.
 
 ## What to build first
 
-1. The recipe-book configs — **story_patterns.yaml first** (seven patterns
+1. The recipe-book configs — **story_patterns.yaml first** (eight patterns
    with beat lists, affinities, and the handoff list), then tones and
    tellers.
 2. Stages 0-3 end to end for two contrasting requests — volcanoes age 6

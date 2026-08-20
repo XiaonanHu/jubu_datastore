@@ -1,0 +1,1834 @@
+{
+  "id": "story.frustration.age5to6.d1.course.c41a7b",
+  "title": "The Tower That Kept Falling",
+  "age_band": "5-6",
+  "depth": 1,
+  "mode": "course",
+  "topics": {
+    "knowledge_domain": "knowledge_domain.bridges_and_buildings",
+    "sel_theme": "sel_theme.frustration",
+    "value_lesson": null,
+    "story_element": null,
+    "secondary": []
+  },
+  "pattern": "inner_weather",
+  "teller": "named_hero",
+  "tone": {
+    "dominant": "warm_everyday",
+    "accent": null
+  },
+  "spine": "the hot tight feeling when the tower will not stay up",
+  "slots": {
+    "friend_name": {
+      "role": "Pip's friend, who builds alongside him",
+      "kind": "naming",
+      "ask_child": true,
+      "default": "Sam"
+    }
+  },
+  "start_segment": "s1",
+  "segments": [
+    {
+      "id": "s1",
+      "text": "Pip and {friend_name} have ten red blocks. Pip wants to make a big tall tower. One block up, then two blocks up, then three blocks up! The tower wobbles. Then it falls down. All the blocks go down. Pip's hands get tight. Pip's face gets hot. \"Grr!\" says Pip. \"I want it to stay up!\"",
+      "next": {
+        "kind": "choice",
+        "id": "c1"
+      },
+      "illustration_prompt": "SCENE: Pip kneels on the rug beside the ten red cube blocks. His half-built tower has just toppled; three cubes tumble in mid-air. The friend sits cross-legged nearby, watching.\n\nMOOD: Pip is FRUSTRATED: fists clenched, cheeks flushed, brows pulled down, mouth a flat line. He is NOT smiling, NOT grinning, NOT playful.\n\nSAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.\n\nCHARACTERS: PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.\n\nSTYLE: Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "image": "/pilot-courses/images/story.frustration.age5to6.d1.course.c41a7b/s1.webp"
+    },
+    {
+      "id": "s2a",
+      "text": "Pip pushes the blocks away. They go all over the floor. Now the blocks are down, but Pip still feels tight. The hot feeling did not go away. It did not help.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      },
+      "illustration_prompt": "SCENE: Pip sweeps one arm sideways and shoves the red cubes away across the floor; cubes scatter outward. The friend leans back a little, giving him room.\n\nMOOD: Pip is ANGRY and still stuck: hunched shoulders, jaw set, eyes narrowed, mouth turned down. He is definitely NOT smiling, NOT grinning, NOT enjoying this. This is the moment his first idea fails.\n\nSAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.\n\nCHARACTERS: PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.\n\nSTYLE: Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "image": "/pilot-courses/images/story.frustration.age5to6.d1.course.c41a7b/s2a.webp"
+    },
+    {
+      "id": "s2b",
+      "text": "Pip puts the blocks up fast. Very fast, up and up and up. Then the tower falls down again. Now Pip feels more tight. The hot feeling got big. It did not help.",
+      "next": {
+        "kind": "segment",
+        "id": "s3"
+      },
+      "illustration_prompt": "SCENE: Pip stacks the red cubes as fast as he can, hands blurred, the tower leaning badly and already starting to topple again. The friend watches with a small worried frown.\n\nMOOD: Pip is TENSE and hurrying: gritted teeth, tight shoulders, urgent. NOT smiling, NOT triumphant.\n\nSAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.\n\nCHARACTERS: PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.\n\nSTYLE: Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "image": "/pilot-courses/images/story.frustration.age5to6.d1.course.c41a7b/s2b.webp"
+    },
+    {
+      "id": "s3",
+      "text": "{friend_name} sits down by Pip. \"Your hands are tight,\" says {friend_name}. \"My hands get tight too.\" Pip looks down at his hands. They are tight, so Pip takes one slow breath in. Then Pip lets it out, long and slow. Like blowing out a candle. In, and out, and in, and out. The tight feeling gets small. Pip's hands open up.",
+      "next": {
+        "kind": "choice",
+        "id": "c2"
+      },
+      "illustration_prompt": "SCENE: The friend has sat down close beside Pip on the rug and points gently at Pip's hands. Pip looks down at his own open palms. His chest is lifted mid-breath, eyes softly closed, shoulders dropping.\n\nMOOD: Pip is CALMING: the anger is draining out of his face. Soft, quiet, relieved. A gentle moment, not a happy one yet.\n\nSAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.\n\nCHARACTERS: PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.\n\nSTYLE: Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "image": "/pilot-courses/images/story.frustration.age5to6.d1.course.c41a7b/s3.webp"
+    },
+    {
+      "id": "s4a",
+      "text": "Pip makes the tower again. This time Pip goes slow. Big blocks go at the bottom. That is the base. Little blocks go on the top. One, two, three, four! The tower stays up. Pip looks at it. Pip smiles. \"I did it,\" says Pip.",
+      "next": null,
+      "illustration_prompt": "SCENE: Pip places a last red cube on a neat sturdy tower — the widest cubes at the bottom, narrowing upward. The tower stands straight. The friend watches from the side.\n\nMOOD: Pip is PROUD and calm: a real warm smile, open relaxed hands, shoulders down.\n\nSAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.\n\nCHARACTERS: PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.\n\nSTYLE: Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "image": "/pilot-courses/images/story.frustration.age5to6.d1.course.c41a7b/s4a.webp"
+    },
+    {
+      "id": "s4b",
+      "text": "\"Will you help me?\" says Pip. \"Yes,\" says {friend_name}. They make the tower together. Big blocks down low, for the base. Little blocks up high. It stays up. They look at it. They both smile. \"We did it,\" says Pip.",
+      "next": null,
+      "illustration_prompt": "SCENE: Pip and the friend build the tower together, four hands working, wide base of red cubes at the bottom. The tower stands straight.\n\nMOOD: Both children are WARM and pleased: easy smiles, relaxed shoulders, sitting close.\n\nSAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.\n\nCHARACTERS: PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.\n\nSTYLE: Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "image": "/pilot-courses/images/story.frustration.age5to6.d1.course.c41a7b/s4b.webp"
+    }
+  ],
+  "choice_points": [
+    {
+      "id": "c1",
+      "rejoins": true,
+      "question": "\"What do we do now?\" asks {friend_name}.",
+      "options": [
+        {
+          "say_word": "push",
+          "label": "Push the blocks away",
+          "tone_lean": "bold",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s2a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "fast",
+          "label": "Build it again, fast",
+          "tone_lean": "eager",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s2b",
+          "sets_slots": {}
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "rejoins": false,
+      "question": "\"What do you want to do?\" asks {friend_name}.",
+      "options": [
+        {
+          "say_word": "again",
+          "label": "Try the tower again",
+          "tone_lean": "bold",
+          "curiosity_lean": "how_it_works",
+          "next_segment": "s4a",
+          "sets_slots": {}
+        },
+        {
+          "say_word": "help",
+          "label": "Ask for help",
+          "tone_lean": "gentle",
+          "curiosity_lean": "just_experience",
+          "next_segment": "s4b",
+          "sets_slots": {}
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "course": {
+    "sel_theme": "sel_theme.frustration",
+    "sub_skill": "notice_the_body_then_breathe",
+    "casel_domain": "self_management",
+    "grade_view": [
+      "K"
+    ],
+    "age_treatment_used": 6,
+    "framing": "spotting frustration in your body before it boils over",
+    "target_vocabulary": [
+      "frustrated",
+      "tight",
+      "deep breath"
+    ],
+    "avoid": [
+      "shaming the feeling",
+      "adults dismissing it"
+    ],
+    "branch_model": "stumble_then_recover",
+    "branch_parity": {
+      "note": "Both c1 options are attempts that do not work. The strategy lives in the shared segment s3, so every path reaches it. Neither choice is the wrong answer.",
+      "path_a": "pushes the blocks away; feeling stays",
+      "path_b": "rebuilds too fast; feeling grows"
+    },
+    "glossary": [
+      {
+        "word": "base",
+        "say": "bayss",
+        "kid_gloss": "The bottom part that holds everything up. A wide base makes a tower strong."
+      },
+      {
+        "word": "block",
+        "say": "blok",
+        "kid_gloss": "A hard square piece you can stack. Pip has ten of them."
+      },
+      {
+        "word": "blowing",
+        "say": "BLOH-ing",
+        "kid_gloss": "Pushing air out of your mouth, like on a birthday candle."
+      },
+      {
+        "word": "bottom",
+        "say": "BOT-um",
+        "kid_gloss": "The lowest part. The bottom of a tower touches the floor."
+      },
+      {
+        "word": "breath",
+        "say": "breth",
+        "kid_gloss": "The air you pull in and let out. A slow breath helps big feelings get small."
+      },
+      {
+        "word": "candle",
+        "say": "KAN-dul",
+        "kid_gloss": "A little stick of wax with a small flame. You blow it out slowly."
+      },
+      {
+        "word": "face",
+        "say": "fayss",
+        "kid_gloss": "The front of your head, where your eyes and mouth are."
+      },
+      {
+        "word": "feeling",
+        "say": "FEE-ling",
+        "kid_gloss": "Something you feel inside, like happy, sad, or frustrated."
+      },
+      {
+        "word": "feels",
+        "say": "feelz",
+        "kid_gloss": "Has a feeling inside."
+      },
+      {
+        "word": "frustrated",
+        "say": "FRUS-tray-ted",
+        "kid_gloss": "The hot, stuck feeling when something will not work. That is what Pip feels."
+      },
+      {
+        "word": "grr",
+        "say": "gurr",
+        "kid_gloss": "The sound you make when you feel frustrated."
+      },
+      {
+        "word": "high",
+        "say": "hy",
+        "kid_gloss": "Far up."
+      },
+      {
+        "word": "low",
+        "say": "loh",
+        "kid_gloss": "Close to the ground."
+      },
+      {
+        "word": "more",
+        "say": "mor",
+        "kid_gloss": "A bigger amount than before."
+      },
+      {
+        "word": "pushes",
+        "say": "PUSH-iz",
+        "kid_gloss": "Moves something away with your hands."
+      },
+      {
+        "word": "slow",
+        "say": "sloh",
+        "kid_gloss": "Not fast. Taking your time."
+      },
+      {
+        "word": "smile",
+        "say": "smyle",
+        "kid_gloss": "When your mouth curves up because you feel good."
+      },
+      {
+        "word": "stay",
+        "say": "stay",
+        "kid_gloss": "To keep still and not move or fall."
+      },
+      {
+        "word": "still",
+        "say": "stil",
+        "kid_gloss": "Even now. The feeling was still there."
+      },
+      {
+        "word": "tall",
+        "say": "tawl",
+        "kid_gloss": "Going a long way up."
+      },
+      {
+        "word": "tight",
+        "say": "tyte",
+        "kid_gloss": "Squeezed hard and hard to open. Frustration can feel tight in your hands."
+      },
+      {
+        "word": "tower",
+        "say": "TOW-er",
+        "kid_gloss": "A tall stack of blocks, going up and up."
+      },
+      {
+        "word": "wobbles",
+        "say": "WOB-uhls",
+        "kid_gloss": "Moves side to side, like it might fall over."
+      }
+    ],
+    "checks": [
+      {
+        "tier": "recognition",
+        "prompt": "How did Pip's body feel when the tower fell down?",
+        "options": [
+          "Tight and hot",
+          "Cold and sleepy",
+          "Soft and quiet"
+        ],
+        "look_for": "Names the somatic cue, not just the emotion word.",
+        "correct": 0
+      },
+      {
+        "tier": "strategy_recall",
+        "prompt": "What did Pip do to help the tight feeling get small?",
+        "options": [
+          "Took a slow breath, like blowing out a candle",
+          "Ran away",
+          "Pushed the blocks again"
+        ],
+        "look_for": "Recalls the breath, ideally with the candle image.",
+        "correct": 0
+      },
+      {
+        "tier": "transfer",
+        "prompt": "Your shoe will not tie. Your hands feel tight. What could you do?",
+        "options": [
+          "Take a slow breath first",
+          "Throw the shoe",
+          "Say you are bad at shoes"
+        ],
+        "look_for": "Applies the strategy to a new situation without prompting.",
+        "correct": 0
+      }
+    ],
+    "evidence_levels": [
+      "not_yet_observed",
+      "emerging",
+      "demonstrated"
+    ],
+    "educator_notes": "The story never names the strategy as a technique and never states a lesson. Pip simply does it. Name it afterward if you want to: 'Pip noticed his body, then he breathed.' Both branch choices are attempts that do not work - this is on purpose, so the child sees that a first try failing is normal. Do not tell the child they picked wrong.",
+    "setting": {
+      "knowledge_domain": "knowledge_domain.bridges_and_buildings",
+      "age_treatment_used": 6,
+      "framing": "bridges carry you over rivers; the shapes that make buildings strong",
+      "vocabulary_woven": [
+        "base"
+      ],
+      "note": "The knowledge topic is the SETTING and the material, never a second objective. Nothing in the three checks assesses it. Rule 1 (one SEL objective) is about not stacking two SEL lessons, not about banning content."
+    },
+    "art_direction": {
+      "style": "Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+      "cast": "PIP: a small round-cheeked boy about 5, tousled dark brown hair, mustard-yellow long-sleeve top, DARK GREEN trousers (never blue), bare feet. FRIEND: a child the same age, short curly brown hair, light blue dungarees over a white tee, bare feet.",
+      "anchor": "SAME ROOM EVERY SCENE: a plain playroom, pale wooden floor, cream wall, a low wooden toy shelf on the left, one soft round cream rug. Keep it identical across scenes. SAME TOY EVERY SCENE: exactly TEN red wooden blocks and no others — FOUR LARGE cubes and SIX SMALL cubes, clearly different sizes so a big block can sit under a little one. All red. No other colours, no long bricks, no planks. Count them: ten blocks visible, never more.",
+      "note": "Every prompt repeats STYLE, CAST and ANCHOR verbatim. ANCHOR was added 2026-08-20 after the first run drifted: the room changed between scenes and the blocks turned from red cubes into long bricks and then into multicoloured wooden shapes, contradicting the text the child is reading. MOOD carries explicit negatives because s2a came back with Pip grinning during his angry beat. 2026-08-20 second pass: the anchor previously said 'ten identical cubes', which contradicted the story's own 'big blocks at the bottom, little blocks on top' — the wide-base idea is the knowledge payload, so the blocks must come in two sizes. Also pinned Pip's trousers, which drifted blue in s2b."
+    },
+    "reader_settings": {
+      "slot_defaults": {
+        "friend_name": "Sam"
+      },
+      "note": "Names are set by the teacher in course settings. Opening a story goes straight into the scene."
+    },
+    "lexile_band": "BR160L–230L"
+  },
+  "audio": {
+    "source": "cartesia_sse_timestamps",
+    "model_id": "sonic-3",
+    "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
+    "speed": 1.0,
+    "segments": {
+      "s1": {
+        "file": "s1.mp3",
+        "duration": 27.143,
+        "words": [
+          {
+            "w": "Pip",
+            "start": 0.139,
+            "end": 0.449
+          },
+          {
+            "w": "and",
+            "start": 0.449,
+            "end": 0.557
+          },
+          {
+            "w": "Sam",
+            "start": 0.557,
+            "end": 0.944
+          },
+          {
+            "w": "have",
+            "start": 0.944,
+            "end": 1.13
+          },
+          {
+            "w": "ten",
+            "start": 1.13,
+            "end": 1.424
+          },
+          {
+            "w": "red",
+            "start": 1.424,
+            "end": 1.61
+          },
+          {
+            "w": "blocks.",
+            "start": 1.61,
+            "end": 2.152
+          },
+          {
+            "w": "Pip",
+            "start": 2.645,
+            "end": 2.923
+          },
+          {
+            "w": "wants",
+            "start": 2.923,
+            "end": 3.155
+          },
+          {
+            "w": "to",
+            "start": 3.155,
+            "end": 3.279
+          },
+          {
+            "w": "make",
+            "start": 3.279,
+            "end": 3.434
+          },
+          {
+            "w": "a",
+            "start": 3.434,
+            "end": 3.496
+          },
+          {
+            "w": "big",
+            "start": 3.496,
+            "end": 3.697
+          },
+          {
+            "w": "tall",
+            "start": 3.697,
+            "end": 3.945
+          },
+          {
+            "w": "tower.",
+            "start": 3.945,
+            "end": 4.456
+          },
+          {
+            "w": "One",
+            "start": 5.274,
+            "end": 5.785
+          },
+          {
+            "w": "block",
+            "start": 5.785,
+            "end": 6.141
+          },
+          {
+            "w": "up,",
+            "start": 6.141,
+            "end": 6.404
+          },
+          {
+            "w": "then",
+            "start": 6.713,
+            "end": 6.946
+          },
+          {
+            "w": "two",
+            "start": 6.946,
+            "end": 7.286
+          },
+          {
+            "w": "blocks",
+            "start": 7.286,
+            "end": 7.704
+          },
+          {
+            "w": "up,",
+            "start": 7.704,
+            "end": 7.905
+          },
+          {
+            "w": "then",
+            "start": 8.184,
+            "end": 8.447
+          },
+          {
+            "w": "three",
+            "start": 8.447,
+            "end": 8.865
+          },
+          {
+            "w": "blocks",
+            "start": 8.865,
+            "end": 9.314
+          },
+          {
+            "w": "up!",
+            "start": 9.314,
+            "end": 9.624
+          },
+          {
+            "w": "The",
+            "start": 10.658,
+            "end": 10.829
+          },
+          {
+            "w": "tower",
+            "start": 10.829,
+            "end": 11.277
+          },
+          {
+            "w": "wobbles.",
+            "start": 11.277,
+            "end": 11.943
+          },
+          {
+            "w": "Then",
+            "start": 13.086,
+            "end": 13.597
+          },
+          {
+            "w": "it",
+            "start": 13.612,
+            "end": 13.798
+          },
+          {
+            "w": "falls",
+            "start": 13.798,
+            "end": 14.092
+          },
+          {
+            "w": "down.",
+            "start": 14.092,
+            "end": 14.557
+          },
+          {
+            "w": "All",
+            "start": 15.932,
+            "end": 16.273
+          },
+          {
+            "w": "the",
+            "start": 16.273,
+            "end": 16.35
+          },
+          {
+            "w": "blocks",
+            "start": 16.35,
+            "end": 16.83
+          },
+          {
+            "w": "go",
+            "start": 16.861,
+            "end": 17.016
+          },
+          {
+            "w": "down.",
+            "start": 17.016,
+            "end": 17.464
+          },
+          {
+            "w": "Pip's",
+            "start": 18.685,
+            "end": 18.995
+          },
+          {
+            "w": "hands",
+            "start": 18.995,
+            "end": 19.289
+          },
+          {
+            "w": "get",
+            "start": 19.289,
+            "end": 19.505
+          },
+          {
+            "w": "tight.",
+            "start": 19.505,
+            "end": 19.923
+          },
+          {
+            "w": "Pip's",
+            "start": 21.221,
+            "end": 21.546
+          },
+          {
+            "w": "face",
+            "start": 21.546,
+            "end": 21.809
+          },
+          {
+            "w": "gets",
+            "start": 21.84,
+            "end": 22.057
+          },
+          {
+            "w": "hot.",
+            "start": 22.057,
+            "end": 22.475
+          },
+          {
+            "w": "\"Grr!",
+            "start": 23.587,
+            "end": 24.067
+          },
+          {
+            "w": "\"",
+            "start": 24.668,
+            "end": 24.823
+          },
+          {
+            "w": "says",
+            "start": 24.823,
+            "end": 24.978
+          },
+          {
+            "w": "Pip.",
+            "start": 24.978,
+            "end": 25.365
+          },
+          {
+            "w": "\"I",
+            "start": 26.152,
+            "end": 26.276
+          },
+          {
+            "w": "want",
+            "start": 26.276,
+            "end": 26.539
+          },
+          {
+            "w": "it",
+            "start": 26.539,
+            "end": 26.632
+          },
+          {
+            "w": "to",
+            "start": 26.632,
+            "end": 26.725
+          },
+          {
+            "w": "stay",
+            "start": 26.725,
+            "end": 27.003
+          },
+          {
+            "w": "up!",
+            "start": 27.003,
+            "end": 27.143
+          }
+        ],
+        "text": "Pip and Sam have ten red blocks. Pip wants to make a big tall tower. One block up, then two blocks up, then three blocks up! The tower wobbles. Then it falls down. All the blocks go down. Pip's hands get tight. Pip's face gets hot. \"Grr!\" says Pip. \"I want it to stay up!\""
+      },
+      "s2a": {
+        "file": "s2a.mp3",
+        "duration": 12.869,
+        "words": [
+          {
+            "w": "Pip",
+            "start": 0.124,
+            "end": 0.372
+          },
+          {
+            "w": "pushes",
+            "start": 0.372,
+            "end": 0.728
+          },
+          {
+            "w": "the",
+            "start": 0.728,
+            "end": 0.82
+          },
+          {
+            "w": "blocks",
+            "start": 0.82,
+            "end": 1.176
+          },
+          {
+            "w": "away.",
+            "start": 1.176,
+            "end": 1.563
+          },
+          {
+            "w": "They",
+            "start": 2.552,
+            "end": 2.707
+          },
+          {
+            "w": "go",
+            "start": 2.707,
+            "end": 2.923
+          },
+          {
+            "w": "all",
+            "start": 2.923,
+            "end": 3.248
+          },
+          {
+            "w": "over",
+            "start": 3.248,
+            "end": 3.481
+          },
+          {
+            "w": "the",
+            "start": 3.481,
+            "end": 3.573
+          },
+          {
+            "w": "floor.",
+            "start": 3.573,
+            "end": 4.084
+          },
+          {
+            "w": "Now",
+            "start": 5.134,
+            "end": 5.351
+          },
+          {
+            "w": "the",
+            "start": 5.351,
+            "end": 5.429
+          },
+          {
+            "w": "blocks",
+            "start": 5.429,
+            "end": 5.816
+          },
+          {
+            "w": "are",
+            "start": 5.816,
+            "end": 5.908
+          },
+          {
+            "w": "down,",
+            "start": 5.908,
+            "end": 6.249
+          },
+          {
+            "w": "but",
+            "start": 6.698,
+            "end": 6.899
+          },
+          {
+            "w": "Pip",
+            "start": 6.899,
+            "end": 7.178
+          },
+          {
+            "w": "still",
+            "start": 7.178,
+            "end": 7.472
+          },
+          {
+            "w": "feels",
+            "start": 7.472,
+            "end": 7.812
+          },
+          {
+            "w": "tight.",
+            "start": 7.812,
+            "end": 8.199
+          },
+          {
+            "w": "The",
+            "start": 9.265,
+            "end": 9.389
+          },
+          {
+            "w": "hot",
+            "start": 9.389,
+            "end": 9.59
+          },
+          {
+            "w": "feeling",
+            "start": 9.59,
+            "end": 9.962
+          },
+          {
+            "w": "did",
+            "start": 9.962,
+            "end": 10.07
+          },
+          {
+            "w": "not",
+            "start": 10.07,
+            "end": 10.287
+          },
+          {
+            "w": "go",
+            "start": 10.287,
+            "end": 10.473
+          },
+          {
+            "w": "away.",
+            "start": 10.473,
+            "end": 10.829
+          },
+          {
+            "w": "It",
+            "start": 11.786,
+            "end": 12.003
+          },
+          {
+            "w": "did",
+            "start": 12.003,
+            "end": 12.219
+          },
+          {
+            "w": "not",
+            "start": 12.219,
+            "end": 12.451
+          },
+          {
+            "w": "help.",
+            "start": 12.451,
+            "end": 12.869
+          }
+        ],
+        "text": "Pip pushes the blocks away. They go all over the floor. Now the blocks are down, but Pip still feels tight. The hot feeling did not go away. It did not help."
+      },
+      "s2b": {
+        "file": "s2b.mp3",
+        "duration": 13.734,
+        "words": [
+          {
+            "w": "Pip",
+            "start": 0.17,
+            "end": 0.402
+          },
+          {
+            "w": "puts",
+            "start": 0.402,
+            "end": 0.619
+          },
+          {
+            "w": "the",
+            "start": 0.619,
+            "end": 0.712
+          },
+          {
+            "w": "blocks",
+            "start": 0.712,
+            "end": 1.006
+          },
+          {
+            "w": "up",
+            "start": 1.006,
+            "end": 1.13
+          },
+          {
+            "w": "fast.",
+            "start": 1.13,
+            "end": 1.672
+          },
+          {
+            "w": "Very",
+            "start": 2.629,
+            "end": 2.908
+          },
+          {
+            "w": "fast,",
+            "start": 2.908,
+            "end": 3.403
+          },
+          {
+            "w": "up",
+            "start": 3.837,
+            "end": 4.022
+          },
+          {
+            "w": "and",
+            "start": 4.022,
+            "end": 4.115
+          },
+          {
+            "w": "up",
+            "start": 4.146,
+            "end": 4.347
+          },
+          {
+            "w": "and",
+            "start": 4.347,
+            "end": 4.471
+          },
+          {
+            "w": "up.",
+            "start": 4.518,
+            "end": 4.827
+          },
+          {
+            "w": "Then",
+            "start": 5.692,
+            "end": 5.924
+          },
+          {
+            "w": "the",
+            "start": 5.924,
+            "end": 6.048
+          },
+          {
+            "w": "tower",
+            "start": 6.048,
+            "end": 6.373
+          },
+          {
+            "w": "falls",
+            "start": 6.373,
+            "end": 6.698
+          },
+          {
+            "w": "down",
+            "start": 6.698,
+            "end": 6.946
+          },
+          {
+            "w": "again.",
+            "start": 6.946,
+            "end": 7.271
+          },
+          {
+            "w": "Now",
+            "start": 8.29,
+            "end": 8.414
+          },
+          {
+            "w": "Pip",
+            "start": 8.414,
+            "end": 8.63
+          },
+          {
+            "w": "feels",
+            "start": 8.63,
+            "end": 8.894
+          },
+          {
+            "w": "more",
+            "start": 8.894,
+            "end": 9.079
+          },
+          {
+            "w": "tight.",
+            "start": 9.079,
+            "end": 9.497
+          },
+          {
+            "w": "The",
+            "start": 10.547,
+            "end": 10.656
+          },
+          {
+            "w": "hot",
+            "start": 10.656,
+            "end": 10.873
+          },
+          {
+            "w": "feeling",
+            "start": 10.873,
+            "end": 11.198
+          },
+          {
+            "w": "got",
+            "start": 11.198,
+            "end": 11.414
+          },
+          {
+            "w": "big.",
+            "start": 11.414,
+            "end": 11.739
+          },
+          {
+            "w": "It",
+            "start": 12.929,
+            "end": 13.037
+          },
+          {
+            "w": "did",
+            "start": 13.037,
+            "end": 13.223
+          },
+          {
+            "w": "not",
+            "start": 13.223,
+            "end": 13.44
+          },
+          {
+            "w": "help.",
+            "start": 13.44,
+            "end": 13.734
+          }
+        ],
+        "text": "Pip puts the blocks up fast. Very fast, up and up and up. Then the tower falls down again. Now Pip feels more tight. The hot feeling got big. It did not help."
+      },
+      "s3": {
+        "file": "s3.mp3",
+        "duration": 27.455,
+        "words": [
+          {
+            "w": "Sam",
+            "start": 0.201,
+            "end": 0.619
+          },
+          {
+            "w": "sits",
+            "start": 0.619,
+            "end": 0.867
+          },
+          {
+            "w": "down",
+            "start": 0.867,
+            "end": 1.099
+          },
+          {
+            "w": "by",
+            "start": 1.099,
+            "end": 1.285
+          },
+          {
+            "w": "Pip.",
+            "start": 1.285,
+            "end": 1.672
+          },
+          {
+            "w": "\"Your",
+            "start": 2.381,
+            "end": 2.536
+          },
+          {
+            "w": "hands",
+            "start": 2.536,
+            "end": 2.799
+          },
+          {
+            "w": "are",
+            "start": 2.799,
+            "end": 2.892
+          },
+          {
+            "w": "tight,\"",
+            "start": 2.892,
+            "end": 3.264
+          },
+          {
+            "w": "says",
+            "start": 3.31,
+            "end": 3.527
+          },
+          {
+            "w": "Sam.",
+            "start": 3.527,
+            "end": 3.852
+          },
+          {
+            "w": "\"My",
+            "start": 4.902,
+            "end": 5.103
+          },
+          {
+            "w": "hands",
+            "start": 5.103,
+            "end": 5.506
+          },
+          {
+            "w": "get",
+            "start": 5.506,
+            "end": 5.676
+          },
+          {
+            "w": "tight",
+            "start": 5.676,
+            "end": 5.955
+          },
+          {
+            "w": "too.",
+            "start": 5.955,
+            "end": 6.311
+          },
+          {
+            "w": "\"",
+            "start": 6.804,
+            "end": 6.935
+          },
+          {
+            "w": "Pip",
+            "start": 6.935,
+            "end": 7.067
+          },
+          {
+            "w": "looks",
+            "start": 7.191,
+            "end": 7.438
+          },
+          {
+            "w": "down",
+            "start": 7.438,
+            "end": 7.671
+          },
+          {
+            "w": "at",
+            "start": 7.671,
+            "end": 7.764
+          },
+          {
+            "w": "his",
+            "start": 7.794,
+            "end": 7.949
+          },
+          {
+            "w": "hands.",
+            "start": 7.949,
+            "end": 8.336
+          },
+          {
+            "w": "They",
+            "start": 9.804,
+            "end": 9.99
+          },
+          {
+            "w": "are",
+            "start": 9.99,
+            "end": 10.083
+          },
+          {
+            "w": "tight,",
+            "start": 10.083,
+            "end": 10.439
+          },
+          {
+            "w": "so",
+            "start": 10.733,
+            "end": 10.919
+          },
+          {
+            "w": "Pip",
+            "start": 10.919,
+            "end": 11.182
+          },
+          {
+            "w": "takes",
+            "start": 11.182,
+            "end": 11.461
+          },
+          {
+            "w": "one",
+            "start": 11.461,
+            "end": 11.662
+          },
+          {
+            "w": "slow",
+            "start": 11.662,
+            "end": 11.91
+          },
+          {
+            "w": "breath",
+            "start": 11.91,
+            "end": 12.142
+          },
+          {
+            "w": "in.",
+            "start": 12.142,
+            "end": 12.328
+          },
+          {
+            "w": "Then",
+            "start": 13.61,
+            "end": 13.873
+          },
+          {
+            "w": "Pip",
+            "start": 13.873,
+            "end": 14.121
+          },
+          {
+            "w": "lets",
+            "start": 14.121,
+            "end": 14.322
+          },
+          {
+            "w": "it",
+            "start": 14.322,
+            "end": 14.415
+          },
+          {
+            "w": "out,",
+            "start": 14.415,
+            "end": 14.663
+          },
+          {
+            "w": "long",
+            "start": 14.957,
+            "end": 15.406
+          },
+          {
+            "w": "and",
+            "start": 15.406,
+            "end": 15.653
+          },
+          {
+            "w": "slow.",
+            "start": 15.653,
+            "end": 16.071
+          },
+          {
+            "w": "Like",
+            "start": 17.354,
+            "end": 17.601
+          },
+          {
+            "w": "blowing",
+            "start": 17.601,
+            "end": 17.957
+          },
+          {
+            "w": "out",
+            "start": 17.957,
+            "end": 18.143
+          },
+          {
+            "w": "a",
+            "start": 18.205,
+            "end": 18.282
+          },
+          {
+            "w": "candle.",
+            "start": 18.282,
+            "end": 18.855
+          },
+          {
+            "w": "In,",
+            "start": 20.045,
+            "end": 20.401
+          },
+          {
+            "w": "and",
+            "start": 20.432,
+            "end": 20.695
+          },
+          {
+            "w": "out,",
+            "start": 20.726,
+            "end": 21.113
+          },
+          {
+            "w": "and",
+            "start": 21.562,
+            "end": 21.747
+          },
+          {
+            "w": "in,",
+            "start": 21.809,
+            "end": 22.196
+          },
+          {
+            "w": "and",
+            "start": 22.552,
+            "end": 22.738
+          },
+          {
+            "w": "out.",
+            "start": 22.769,
+            "end": 23.001
+          },
+          {
+            "w": "The",
+            "start": 23.974,
+            "end": 24.067
+          },
+          {
+            "w": "tight",
+            "start": 24.067,
+            "end": 24.392
+          },
+          {
+            "w": "feeling",
+            "start": 24.392,
+            "end": 24.733
+          },
+          {
+            "w": "gets",
+            "start": 24.733,
+            "end": 24.903
+          },
+          {
+            "w": "small.",
+            "start": 24.903,
+            "end": 25.274
+          },
+          {
+            "w": "Pip's",
+            "start": 26.371,
+            "end": 26.665
+          },
+          {
+            "w": "hands",
+            "start": 26.665,
+            "end": 27.021
+          },
+          {
+            "w": "open",
+            "start": 27.021,
+            "end": 27.3
+          },
+          {
+            "w": "up.",
+            "start": 27.3,
+            "end": 27.455
+          }
+        ],
+        "text": "Sam sits down by Pip. \"Your hands are tight,\" says Sam. \"My hands get tight too.\" Pip looks down at his hands. They are tight, so Pip takes one slow breath in. Then Pip lets it out, long and slow. Like blowing out a candle. In, and out, and in, and out. The tight feeling gets small. Pip's hands open up."
+      },
+      "s4a": {
+        "file": "s4a.mp3",
+        "duration": 20.969,
+        "words": [
+          {
+            "w": "Pip",
+            "start": 0.155,
+            "end": 0.402
+          },
+          {
+            "w": "makes",
+            "start": 0.402,
+            "end": 0.635
+          },
+          {
+            "w": "the",
+            "start": 0.635,
+            "end": 0.728
+          },
+          {
+            "w": "tower",
+            "start": 0.728,
+            "end": 1.084
+          },
+          {
+            "w": "again.",
+            "start": 1.084,
+            "end": 1.563
+          },
+          {
+            "w": "This",
+            "start": 2.49,
+            "end": 2.722
+          },
+          {
+            "w": "time",
+            "start": 2.722,
+            "end": 3.001
+          },
+          {
+            "w": "Pip",
+            "start": 3.001,
+            "end": 3.202
+          },
+          {
+            "w": "goes",
+            "start": 3.233,
+            "end": 3.419
+          },
+          {
+            "w": "slow.",
+            "start": 3.419,
+            "end": 3.806
+          },
+          {
+            "w": "Big",
+            "start": 4.67,
+            "end": 4.933
+          },
+          {
+            "w": "blocks",
+            "start": 4.933,
+            "end": 5.289
+          },
+          {
+            "w": "go",
+            "start": 5.289,
+            "end": 5.475
+          },
+          {
+            "w": "at",
+            "start": 5.475,
+            "end": 5.568
+          },
+          {
+            "w": "the",
+            "start": 5.568,
+            "end": 5.661
+          },
+          {
+            "w": "bottom.",
+            "start": 5.661,
+            "end": 6.079
+          },
+          {
+            "w": "That",
+            "start": 7.315,
+            "end": 7.562
+          },
+          {
+            "w": "is",
+            "start": 7.562,
+            "end": 7.671
+          },
+          {
+            "w": "the",
+            "start": 7.671,
+            "end": 7.764
+          },
+          {
+            "w": "base.",
+            "start": 7.764,
+            "end": 8.212
+          },
+          {
+            "w": "Little",
+            "start": 8.984,
+            "end": 9.232
+          },
+          {
+            "w": "blocks",
+            "start": 9.232,
+            "end": 9.557
+          },
+          {
+            "w": "go",
+            "start": 9.557,
+            "end": 9.712
+          },
+          {
+            "w": "on",
+            "start": 9.712,
+            "end": 9.789
+          },
+          {
+            "w": "the",
+            "start": 9.789,
+            "end": 9.851
+          },
+          {
+            "w": "top.",
+            "start": 9.851,
+            "end": 10.238
+          },
+          {
+            "w": "One,",
+            "start": 11.396,
+            "end": 11.66
+          },
+          {
+            "w": "two,",
+            "start": 11.66,
+            "end": 11.876
+          },
+          {
+            "w": "three,",
+            "start": 11.876,
+            "end": 12.17
+          },
+          {
+            "w": "four!",
+            "start": 12.17,
+            "end": 12.65
+          },
+          {
+            "w": "The",
+            "start": 14.01,
+            "end": 14.118
+          },
+          {
+            "w": "tower",
+            "start": 14.118,
+            "end": 14.49
+          },
+          {
+            "w": "stays",
+            "start": 14.49,
+            "end": 14.815
+          },
+          {
+            "w": "up.",
+            "start": 14.815,
+            "end": 14.985
+          },
+          {
+            "w": "Pip",
+            "start": 16.175,
+            "end": 16.376
+          },
+          {
+            "w": "looks",
+            "start": 16.376,
+            "end": 16.655
+          },
+          {
+            "w": "at",
+            "start": 16.655,
+            "end": 16.778
+          },
+          {
+            "w": "it.",
+            "start": 16.778,
+            "end": 16.887
+          },
+          {
+            "w": "Pip",
+            "start": 17.983,
+            "end": 18.216
+          },
+          {
+            "w": "smiles.",
+            "start": 18.216,
+            "end": 18.603
+          },
+          {
+            "w": "\"I",
+            "start": 19.374,
+            "end": 19.498
+          },
+          {
+            "w": "did",
+            "start": 19.498,
+            "end": 19.73
+          },
+          {
+            "w": "it,\"",
+            "start": 19.73,
+            "end": 19.885
+          },
+          {
+            "w": "says",
+            "start": 20.489,
+            "end": 20.721
+          },
+          {
+            "w": "Pip.",
+            "start": 20.721,
+            "end": 20.969
+          }
+        ],
+        "text": "Pip makes the tower again. This time Pip goes slow. Big blocks go at the bottom. That is the base. Little blocks go on the top. One, two, three, four! The tower stays up. Pip looks at it. Pip smiles. \"I did it,\" says Pip."
+      },
+      "s4b": {
+        "file": "s4b.mp3",
+        "duration": 18.368,
+        "words": [
+          {
+            "w": "\"Will",
+            "start": 0.062,
+            "end": 0.279
+          },
+          {
+            "w": "you",
+            "start": 0.279,
+            "end": 0.402
+          },
+          {
+            "w": "help",
+            "start": 0.402,
+            "end": 0.666
+          },
+          {
+            "w": "me?",
+            "start": 0.666,
+            "end": 0.929
+          },
+          {
+            "w": "\"",
+            "start": 1.344,
+            "end": 1.507
+          },
+          {
+            "w": "says",
+            "start": 1.507,
+            "end": 1.669
+          },
+          {
+            "w": "Pip.",
+            "start": 1.669,
+            "end": 1.979
+          },
+          {
+            "w": "\"Yes,\"",
+            "start": 3.153,
+            "end": 3.602
+          },
+          {
+            "w": "says",
+            "start": 3.695,
+            "end": 3.958
+          },
+          {
+            "w": "Sam.",
+            "start": 3.958,
+            "end": 4.237
+          },
+          {
+            "w": "They",
+            "start": 5.209,
+            "end": 5.333
+          },
+          {
+            "w": "make",
+            "start": 5.333,
+            "end": 5.534
+          },
+          {
+            "w": "the",
+            "start": 5.534,
+            "end": 5.627
+          },
+          {
+            "w": "tower",
+            "start": 5.627,
+            "end": 5.921
+          },
+          {
+            "w": "together.",
+            "start": 5.921,
+            "end": 6.432
+          },
+          {
+            "w": "Big",
+            "start": 7.513,
+            "end": 7.854
+          },
+          {
+            "w": "blocks",
+            "start": 7.854,
+            "end": 8.241
+          },
+          {
+            "w": "down",
+            "start": 8.241,
+            "end": 8.504
+          },
+          {
+            "w": "low,",
+            "start": 8.504,
+            "end": 8.814
+          },
+          {
+            "w": "for",
+            "start": 8.876,
+            "end": 9.015
+          },
+          {
+            "w": "the",
+            "start": 9.015,
+            "end": 9.108
+          },
+          {
+            "w": "base.",
+            "start": 9.108,
+            "end": 9.464
+          },
+          {
+            "w": "Little",
+            "start": 10.452,
+            "end": 10.7
+          },
+          {
+            "w": "blocks",
+            "start": 10.7,
+            "end": 11.025
+          },
+          {
+            "w": "up",
+            "start": 11.025,
+            "end": 11.149
+          },
+          {
+            "w": "high.",
+            "start": 11.149,
+            "end": 11.505
+          },
+          {
+            "w": "It",
+            "start": 12.09,
+            "end": 12.245
+          },
+          {
+            "w": "stays",
+            "start": 12.245,
+            "end": 12.539
+          },
+          {
+            "w": "up.",
+            "start": 12.539,
+            "end": 12.803
+          },
+          {
+            "w": "They",
+            "start": 13.822,
+            "end": 13.977
+          },
+          {
+            "w": "look",
+            "start": 13.977,
+            "end": 14.178
+          },
+          {
+            "w": "at",
+            "start": 14.178,
+            "end": 14.302
+          },
+          {
+            "w": "it.",
+            "start": 14.302,
+            "end": 14.456
+          },
+          {
+            "w": "They",
+            "start": 15.754,
+            "end": 15.909
+          },
+          {
+            "w": "both",
+            "start": 15.909,
+            "end": 16.141
+          },
+          {
+            "w": "smile.",
+            "start": 16.141,
+            "end": 16.559
+          },
+          {
+            "w": "\"We",
+            "start": 17.052,
+            "end": 17.315
+          },
+          {
+            "w": "did",
+            "start": 17.346,
+            "end": 17.563
+          },
+          {
+            "w": "it,\"",
+            "start": 17.563,
+            "end": 17.702
+          },
+          {
+            "w": "says",
+            "start": 17.795,
+            "end": 18.074
+          },
+          {
+            "w": "Pip.",
+            "start": 18.074,
+            "end": 18.368
+          }
+        ],
+        "text": "\"Will you help me?\" says Pip. \"Yes,\" says Sam. They make the tower together. Big blocks down low, for the base. Little blocks up high. It stays up. They look at it. They both smile. \"We did it,\" says Pip."
+      },
+      "c1": {
+        "file": "c1.mp3",
+        "duration": 2.428,
+        "words": [
+          {
+            "w": "\"What",
+            "start": 0.0,
+            "end": 0.248
+          },
+          {
+            "w": "do",
+            "start": 0.248,
+            "end": 0.325
+          },
+          {
+            "w": "we",
+            "start": 0.325,
+            "end": 0.449
+          },
+          {
+            "w": "do",
+            "start": 0.449,
+            "end": 0.697
+          },
+          {
+            "w": "now?",
+            "start": 0.697,
+            "end": 1.115
+          },
+          {
+            "w": "\"",
+            "start": 1.561,
+            "end": 1.785
+          },
+          {
+            "w": "asks",
+            "start": 1.785,
+            "end": 2.01
+          },
+          {
+            "w": "Sam.",
+            "start": 2.01,
+            "end": 2.428
+          }
+        ],
+        "text": "\"What do we do now?\" asks Sam."
+      },
+      "c2": {
+        "file": "c2.mp3",
+        "duration": 2.552,
+        "words": [
+          {
+            "w": "\"What",
+            "start": 0.108,
+            "end": 0.402
+          },
+          {
+            "w": "do",
+            "start": 0.402,
+            "end": 0.464
+          },
+          {
+            "w": "you",
+            "start": 0.464,
+            "end": 0.526
+          },
+          {
+            "w": "want",
+            "start": 0.526,
+            "end": 0.697
+          },
+          {
+            "w": "to",
+            "start": 0.697,
+            "end": 0.759
+          },
+          {
+            "w": "do?",
+            "start": 0.759,
+            "end": 1.006
+          },
+          {
+            "w": "\"",
+            "start": 1.824,
+            "end": 2.01
+          },
+          {
+            "w": "asks",
+            "start": 2.01,
+            "end": 2.196
+          },
+          {
+            "w": "Sam.",
+            "start": 2.196,
+            "end": 2.552
+          }
+        ],
+        "text": "\"What do you want to do?\" asks Sam."
+      }
+    }
+  }
+}

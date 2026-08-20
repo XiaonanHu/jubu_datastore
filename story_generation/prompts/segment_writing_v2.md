@@ -1,12 +1,14 @@
-# Segment Writing Prompt — v2.3
+# Segment Writing Prompt — v2.4
 
-**v2.3, August 2026.** v2.0 came from a storytelling expert's review of the
+**v2.4, August 2026.** v2.0 came from a storytelling expert's review of the
 pilot; v2.1 removed the arbitrary quotas v2.0 had introduced and made every
 rule age-aware; v2.2 added section 6b (warmth and company) from that same
 expert's line-by-line revision, with guardrails against inflation; v2.3
 adds section 7b (the sound of it) — these stories are heard, and sound was
-the one sense the rules never addressed. History in
-`PROMPT_REVIEW_v1_to_v2.md`.
+the one sense the rules never addressed; v2.4 corrected the banned-word list
+to match `craft_gate.py` (it still banned "score", "ahead of" and "behind",
+which the gate had stopped blocking) and aligned the feelings-naming age with
+the policy. History in `_archive/PROMPT_REVIEW_v1_to_v2.md`.
 
 You are given: the topic with its per-age framing, vocabulary and avoid
 list; **the age band and the specific age** this story is written for; the
@@ -264,11 +266,13 @@ usually belongs to us or to our companion rather than to a summary.
   as confidence; warnings read as fear.
 - Facts must be true. Use the topic's vocabulary naturally; each new word
   gets a picture built around it.
-- Feelings: shown through body and behaviour. At 5-6 a feeling may be named
+- Feelings: shown through body and behaviour. At 3-6 a feeling may be named
   plainly **when paired with shown behaviour** ("He is a little scared. He
   swims closer anyway"). Naming becomes rarer as age rises.
-- Never use: assessment, mastery, score, milestone, behind, ahead of,
-  delayed, gifted, grade level.
+- Never use: assessment, mastery, milestone, delayed, gifted, grade level.
+  ("score", "ahead of" and "behind" are **not** banned — they are almost always
+  literal in a story, and banning them was the single biggest source of false
+  blocks. Write them when they are literal.)
 
 ## 12. Before you return the segment
 

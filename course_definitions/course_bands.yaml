@@ -1,0 +1,66 @@
+# Course-mode linguistic bands. Age-adaptive: one row per band.
+# Course stories are SHORTER and syntactically TIGHTER than library stories.
+# Library bands live in jubu_backend/jubu_chat/configs/story_generation.yaml
+# and are unchanged by this file.
+version: 1
+
+bands:
+  "3-4":
+    grade_view: ["Pre-K"]
+    lexile_band: "BR400L-BR200L"
+    words_per_path: [60, 140]
+    mean_sentence_length: [3.0, 5.0]
+    max_clause_depth: 1
+    syllables_per_word_avg_max: 1.30
+    sight_word_target_pct: 85
+    choice_points: 2
+  "5-6":
+    grade_view: ["K"]
+    lexile_band: "BR160L-230L"
+    words_per_path: [180, 260]
+    mean_sentence_length: [4.5, 6.5]
+    max_clause_depth: 1
+    syllables_per_word_avg_max: 1.35
+    sight_word_target_pct: 60
+    choice_points: 2
+  "7-8":
+    grade_view: ["1", "2"]
+    lexile_band: "200L-550L"
+    words_per_path: [300, 600]
+    mean_sentence_length: [6.0, 11.5]
+    max_clause_depth: 2
+    syllables_per_word_avg_max: 1.55
+    sight_word_target_pct: 70
+    choice_points: 2
+  "9-10":
+    grade_view: ["3", "4"]
+    lexile_band: "520L-900L"
+    words_per_path: [700, 1200]
+    mean_sentence_length: [10.0, 14.0]
+    max_clause_depth: 3
+    syllables_per_word_avg_max: 1.65
+    sight_word_target_pct: 65
+    choice_points: 2
+  "11-12":
+    grade_view: ["5"]
+    lexile_band: "740L-1010L"
+    words_per_path: [1200, 1800]
+    mean_sentence_length: [12.5, 17.5]
+    max_clause_depth: 4
+    syllables_per_word_avg_max: 1.80
+    sight_word_target_pct: 55
+    choice_points: 2
+
+# Sight-word coverage is only meaningful where the child SEES the text.
+# Gate it on read-along / print surfaces; ignore it for audio-only stories.
+sight_word_applies_to: [read_along, print]
+
+# Sight-word pools are BAND-GATED in check_course_story.py: a "3-4" text is
+# scored against Pre-Primer only, so it cannot pass by leaning on 3rd-grade
+# Dolch words. Targets below are therefore stricter than they look.
+#
+# The K target was lowered 80 -> 60 on 2026-08-20 (band-gated scoring). 80% describes a controlled
+# decodable reader; a narrative carrying real content words and SEL vocabulary
+# lands near 70%. The remaining ~30% is not treated as a miss: every non-sight
+# word must carry a glossary entry and is tappable in the reader, which turns
+# the gap into the vocabulary layer.

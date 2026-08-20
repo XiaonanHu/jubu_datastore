@@ -1,5 +1,10 @@
 # Pilot stories → cloud: handoff for the next session
 
+> **Kind:** handoff · **Status:** ARCHIVED 2026-08-17 — completed.
+> Its one open question ("is buju.ai/pilot backend-served or static?") is
+> answered: static, on Vercel with an email gate. See
+> `buju_website/PILOT_DEPLOY.md`. The library has since grown from 86 to 144.
+
 **Goal of the next session:** get the pilot story library live in the cloud
 and viewable as HTML (the parent-facing `buju.ai/pilot` review experience),
 deployed via jubu-deploy. Voice conversion (Cartesia) and the final

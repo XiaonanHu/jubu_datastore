@@ -1,5 +1,10 @@
 # Story Pilot Build Plan — the interactive explorer
 
+> **Kind:** handoff · **Status:** ARCHIVED 2026-08-17 — executed.
+> The story JSON schema in Step 1 was the only home for that material and has
+> been moved to `../STORY_SCHEMA.md`, which is now authoritative. Kept for the
+> record of the original twelve hand-authored pilots.
+
 **Goal.** A single self-contained webpage where you can see a subset of the
 knowledge graph (10+ topics), click a topic, see its stories, and *play*
 one — reading segment by segment, making the choices, naming the
