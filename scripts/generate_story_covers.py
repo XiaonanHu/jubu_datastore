@@ -48,26 +48,22 @@ COVER_ASPECT = "1:1"       # topic discs are round; a square crops cleanly
 COVER_MAX_PX = 800         # plenty for a hover-grown disc, small on the wire
 
 COVER_INSTRUCTIONS = """You are the art director for a children's picture-book series.
-You will be given one branching story. Choose the single moment that belongs on
-its COVER: the image a child would point at and say "that one!".
+You will be given a branching story. Choose the single, most iconic moment from the opening or core premise that belongs on its COVER — the image a child points to and says "that one!".
 
-Return EXACTLY this JSON shape and nothing else:
+Return ONLY a valid JSON object matching this schema, with no markdown formatting or extra text:
 
 {
-  "scene": "One or two sentences. One bold central subject, physically doing
-            something from the story, close enough to fill the frame. A calm,
-            simple background. This image must read clearly as a small round
-            thumbnail.",
-  "mood": "The feeling on the subject's face and in its posture — inviting,
-           curious, warm. Include explicit negatives where a feeling could be
-           misread."
+  "scene": "1-2 sentences. One bold central subject performing a key action, tightly framed in the foreground. Simple, low-detail background with high contrast behind the subject. Must read clearly in a small circular crop.",
+  "mood": "Specific emotional expression on the subject's face and posture (e.g., warm, curious, inviting). Include explicit negative constraints (e.g., 'excited, not scary or intense')."
 }
 
 RULES
-- One subject, one moment. No collages, no montages, no split frames.
-- Describe only what is visible. Never invent a character the story does not contain.
-- Never describe text, signage, labels or speech bubbles.
-- Never state a countable quantity of anything.
+- Focus on ONE subject in ONE moment. No montages, split screens, or multi-panel layouts.
+- Choose the scene from the main story hook before major branching paths diverge.
+- Describe only visible elements. Never invent characters outside the provided text.
+- Do not describe text, logos, labels, book titles, or speech bubbles.
+- Avoid countable numbers or quantities (use 'a few', 'a cluster', or 'a group' instead of exact numbers).
+- Ensure the main action is centered to prevent edge-clipping in circular crops.
 """
 
 
