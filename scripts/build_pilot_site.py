@@ -329,6 +329,13 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
             child_counts[t["parent"]] = child_counts.get(t["parent"], 0) + 1
     cat_pos = _disc_positions(child_counts)
 
+    # Which wedge (similarity group) each category belongs to. Deep dives
+    # inherit their parent's wedge. The map uses this for wedge colours,
+    # region boundary lines and the watermark decor layer.
+    group_of_cat = {
+        _KD + cat: group for group, cats in PARENT_MAP_GROUPS for cat in cats
+    }
+
     nodes: list[dict[str, Any]] = []
     for t in expl["topics"]:
         if t["parent"] is None:
@@ -357,6 +364,7 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
                 "cluster": t["cluster"],
                 "parent": t["parent"],
                 "stories": t["stories"],
+                "group": group_of_cat.get(t["parent"] or t["id"], ""),
             }
         )
 
@@ -368,7 +376,12 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
         for e in expl["edges"]
         if e["source"] in kept and e["target"] in kept
     ]
-    return {"nodes": nodes, "edges": edges}
+    # Wedge order matters to the renderer: adjacent names get adjacent hues.
+    return {
+        "nodes": nodes,
+        "edges": edges,
+        "groups": [g for g, _cats in PARENT_MAP_GROUPS],
+    }
 
 
 MIN_NODE_SPACING = 34.0
