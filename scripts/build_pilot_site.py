@@ -286,9 +286,11 @@ def _disc_positions(child_counts: dict[str, int]) -> dict[str, tuple[float, floa
     ]
     total_w = float(sum(weights))
     pos: dict[str, tuple[float, float, float]] = {}
+    sectors: dict[str, tuple[float, float]] = {}   # group -> angular sector
     theta = 0.0
-    for (_, cats), w in zip(grouped, weights):
+    for (group, cats), w in zip(grouped, weights):
         wedge = 2.0 * math.pi * (w / total_w)
+        sectors[group] = (theta, theta + wedge)
         k = len(cats)
         for i, cat in enumerate(cats):
             frac = (i + 0.5) / k
@@ -305,7 +307,7 @@ def _disc_positions(child_counts: dict[str, int]) -> dict[str, tuple[float, floa
             y = r * math.sin(a) * Y_SQUASH
             pos[_KD + cat] = (round(x, 2), round(y, 2), a)
         theta += wedge
-    return pos
+    return pos, sectors
 
 
 def _bulge(x: float, y: float) -> float:
@@ -327,7 +329,7 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
     for t in expl["topics"]:
         if t["parent"]:
             child_counts[t["parent"]] = child_counts.get(t["parent"], 0) + 1
-    cat_pos = _disc_positions(child_counts)
+    cat_pos, sectors = _disc_positions(child_counts)
 
     # Which wedge (similarity group) each category belongs to. Deep dives
     # inherit their parent's wedge. The map uses this for wedge colours,
@@ -368,7 +370,16 @@ def build_parent_graph(stories: list[dict[str, Any]]) -> dict[str, Any]:
             }
         )
 
-    _relax(nodes, {cid: (p[0], p[1]) for cid, p in cat_pos.items()})
+    # Every node springs back toward its computed slot (categories AND deep
+    # dives), and every node is clamped to its wedge's angular sector each
+    # round — so packing can never smear a wedge's topics into a
+    # neighbouring wedge, and each territory stays one coherent, mostly
+    # convex patch on the map.
+    anchors = {n["id"]: (n["x"], n["y"]) for n in nodes}
+    node_sector = {
+        n["id"]: sectors[group_of_cat[n["parent"] or n["id"]]] for n in nodes
+    }
+    _relax(nodes, anchors, node_sector)
 
     kept = {n["id"] for n in nodes}
     edges = [
@@ -389,14 +400,38 @@ CATEGORY_DRIFT = 0.35   # how freely a category may shift while packing
 ANCHOR_SPRING = 0.22    # ...and how hard it is pulled back to its wedge slot
 
 
+SECTOR_MARGIN = 0.06    # radians a node may overhang into a neighbour wedge
+
+
+def _clamp_to_sector(n: dict[str, Any], sector: tuple[float, float]) -> None:
+    """Rotate a node back inside its wedge's angular sector (small overhang
+    allowed — a topic may sit on the border between two categories, but not
+    deep inside a foreign one). Radius is preserved; y stays squashed."""
+    a0, a1 = sector
+    ux, uy = n["x"], n["y"] / Y_SQUASH
+    r = math.sqrt(ux * ux + uy * uy)
+    if r < 1e-6:
+        return
+    a = math.atan2(uy, ux)
+    while a < a0:
+        a += 2.0 * math.pi
+    if a <= a1 + SECTOR_MARGIN or a >= a0 + 2.0 * math.pi - SECTOR_MARGIN:
+        return
+    # outside: snap to whichever edge of the wedge is angularly closer
+    a = a1 if (a - a1) <= (a0 + 2.0 * math.pi - a) else a0
+    n["x"] = r * math.cos(a)
+    n["y"] = r * math.sin(a) * Y_SQUASH
+
+
 def _relax(
     nodes: list[dict[str, Any]],
     anchors: dict[str, tuple[float, float]],
+    node_sector: dict[str, tuple[float, float]] | None = None,
     rounds: int = 90,
 ) -> None:
-    """Push overlapping nodes apart, then spring categories back toward the
-    wedge slot they were assigned. Deep dives move freely; categories only
-    drift a little, so groups stay contiguous while the disc packs evenly.
+    """Push overlapping nodes apart, then spring every node back toward the
+    slot it was assigned; each round ends by clamping every node into its
+    wedge's angular sector, so packing keeps each wedge one coherent patch.
     Fully deterministic — no randomness (positions must be stable builds)."""
     for step in range(rounds):
         # anneal the spring to zero so the last rounds are pure separation —
@@ -429,6 +464,11 @@ def _relax(
                     continue
                 n["x"] += (anchor[0] - n["x"]) * spring
                 n["y"] += (anchor[1] - n["y"]) * spring
+        if node_sector is not None:
+            for n in nodes:
+                sector = node_sector.get(n["id"])
+                if sector is not None:
+                    _clamp_to_sector(n, sector)
         if not moved and spring <= 0.0:
             break
     # Centre the finished layout on its own bounding box, so the map sits in
