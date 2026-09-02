@@ -1,323 +1,329 @@
 {
-  "id": "story.swimming_and_floating.age5to6.d1.pregen.c9ba73",
-  "title": "Pip and the Wobbly Starfish",
-  "age_band": "5-6",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.swimming_and_floating",
-    "sel_theme": null,
-    "value_lesson": "trying again a different way is how learning works",
-    "story_element": null,
-    "secondary": []
+ "id": "story.swimming_and_floating.age5to6.d1.pregen.c9ba73",
+ "title": "Pip and the Wobbly Starfish",
+ "age_band": "5-6",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.swimming_and_floating",
+  "sel_theme": null,
+  "value_lesson": "trying again a different way is how learning works",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "problem_and_fix",
+ "teller": "named_hero",
+ "tone": {
+  "dominant": "cozy",
+  "accent": null
+ },
+ "spine": "A small child learns that floating is not about holding on tight, but about letting the water hold you.",
+ "slots": {},
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "The pool is quiet this morning. Just us, and Grandpa Joe, and the big basket of toys. Pip digs right to the bottom. \"This one,\" says Pip. A bright yellow duck. \"Dabble,\" says Grandpa Joe. \"A fine name.\" On the shallow step, he pushes Dabble under. Blub. Up it pops. \"Full of air,\" says Grandpa Joe. \"That is why it floats.\" He hums his little bubble-tune. Pip watches Dabble bob. \"I want to float like that,\" says Pip. \"On my back.\" Grandpa Joe holds out his hands. Pip leans back. Lifts one foot. Lifts the other. Down goes Pip's bottom. Splash. \"Ker-plop,\" says Grandpa Joe. Pip tries again. Feet up. Bottom down. Splash. \"Ker-plop.\"",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
   },
-  "pattern": "problem_and_fix",
-  "teller": "named_hero",
-  "tone": {
+  {
+   "id": "s2a",
+   "text": "\"Bubbles first,\" says Pip. Grandpa Joe hums his bubble-tune. Pip puts just their lips in the water. Blow. Blub-blub-blub. The bubbles tickle Pip's nose. It rumbles funny, like a purring cat. Pip giggles. Snort! Water goes up. \"Too big,\" says Grandpa Joe. \"Soft and slow, little fish.\" Pip tries again. Soft. Slow. Blub-blub-blub. A long stream of bubbles dances up. Then Pip takes a big breath. Their chest puffs up, round and full of air. Just like Dabble's round yellow belly. \"Look,\" says Pip. \"I'm full of air too.\" Grandpa Joe smiles. \"That you are,\" he says. \"That you are.\"",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "\"Chase the duck,\" says Pip. Grandpa Joe tosses Dabble out. Ker-plop. Pip lies on their belly. Grandpa's hands hover close. Pip kicks stiff legs. Splash, splash. Nowhere. \"Floppy feet,\" says Grandpa Joe. \"Like a frog.\" Pip flops. Kick, kick, kick. The water pushes back. Pip scoots forward. One whole glide. The water holds Pip up the whole time. It feels like a big soft hand. Pip reaches. Gotcha. Dabble bobs in Pip's arms. \"You floated,\" says Grandpa Joe. \"On your belly.\" Pip hugs the wet yellow duck. \"Again,\" says Pip. \"Again.\"",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Grandpa Joe turns Dabble upside down and pushes him under. Blub. Up he pops, right side up, bobbing. \"Air inside,\" says Grandpa Joe. \"That is the secret.\" He hums his little bubble-tune. Then he scrunches his hand into a ball. Down it dips, low in the water. He spreads his fingers wide, flat like a star. Up it floats. \"See?\" says Grandpa Joe. \"Big breath. Loose body. Wide like a starfish.\" Pip looks at Dabble. Pip looks at the star-hand. \"Like that?\" says Pip. \"Just like that,\" says Grandpa Joe. \"Show me what you found.\" Pip takes a big, big breath. Arms out. Legs out. Grandpa Joe's warm hand rests under Pip's back. The water lifts. The water holds. Pip's feet leave the bottom. \"I'm floating!\" says Pip. \"Ker-plop,\" says Grandpa Joe, softly. \"No splash at all.\"",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "Pip takes a big breath. \"One finger,\" says Grandpa Joe. Off comes one. \"Two.\" Off comes two. Pip's cheeks puff out. Pip's toes wiggle above the water. Off comes the last finger, and Grandpa Joe's hand hovers close, not touching. The water lifts. The water holds. \"I'm doing it!\" says Pip. \"All by myself!\" Grandpa Joe hums his little bubble-tune. The lifeguard smiles and gives a thumbs-up. Dabble bobs beside them, bright and yellow. \"Ker-plop,\" says Grandpa Joe, softly. \"No splash at all.\" Then Pip stands up, laughing, and scoops Dabble close. Home they go, wrapped in the warm towel. And at bedtime, Dabble sits by Pip's pillow, ready for the story.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "\"Let's glide,\" says Pip. Grandpa Joe sets Dabble on the far step, bright and yellow, waiting. Pip leans back. Big breath. Arms out. Legs out. \"One long, slow ker-plop,\" says Grandpa Joe. \"Ready?\" Pip kicks. Splash, splash, splash. The water lifts. The water holds. Pip glides on their back, right across the shallow step. \"I'm moving!\" says Pip. \"I'm really moving!\" Grandpa Joe hums his little bubble-tune, walking beside. Then — bump. Pip's fingers touch the step. \"You made it!\" says Grandpa Joe. Pip sits up, laughing, and grabs Dabble tight. Home they go, Dabble riding on Pip's tummy in the warm towel, still smelling of pool water.",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "\"Well, little fish, Dabble here floats easy as pie. Shall we practice our bubble-blowing first, or shall we chase this rascal duck across the water?\"",
+   "options": [
+    {
+     "say_word": "Bubbles",
+     "label": "Practice blowing gentle bubbles that tickle your nose",
+     "tone_lean": "gentle",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Chase",
+     "label": "Lie on your belly and kick after the duck",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "\"You're floating, Pip, you're really floating! Now then — do you want to let go of my fingers one by one and float all by yourself, or shall we kick-glide on your back, nice and slow, all the way to Dabble?\"",
+   "options": [
+    {
+     "say_word": "By myself",
+     "label": "Let go one finger at a time and float solo",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s4a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Glide",
+     "label": "Kick-glide on your back across to the duck",
+     "tone_lean": "gentle",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.swimming_and_floating",
+   "topic_tier": "deep_dive",
+   "parent_topic": "knowledge_domain.oceans_and_tides",
+   "age_band": "5-6",
+   "age": 5,
+   "family_context": "none — library story for everyone",
+   "seed": 5
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "problem_and_fix",
+   "why": "The topic's core material—blowing bubbles without getting water up your nose, getting your feet to leave the bottom, staying up on your back—is naturally a series of small tries that don't quite work and then do, which feeds problem_and_fix better than a journey or a mystery.",
+   "backup": "mystery",
+   "candidates": [
+    {
+     "pattern": "mystery",
+     "base_weight": 0.25,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.303,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred problem_and_fix"
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.2,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2424,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "journey",
+     "base_weight": 0.35,
+     "shelf_nudge": 0.5,
+     "family_nudge": 1.0,
+     "final_weight": 0.2121,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred problem_and_fix"
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.1,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.1212,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.05,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.0606,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.03,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.0364,
+     "sampled": false,
+     "rejected_because": null
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "cozy",
     "accent": null
+   },
+   "accent_carrier": "Grandpa Joe, who hums a little bubble-tune and calls every splash a 'ker-plop'.",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "A small child learns that floating is not about holding on tight, but about letting the water hold you.",
-  "slots": {},
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "The pool is quiet this morning. Just us, and Grandpa Joe, and the big basket of toys. Pip digs right to the bottom. \"This one,\" says Pip. A bright yellow duck. \"Dabble,\" says Grandpa Joe. \"A fine name.\" On the shallow step, he pushes Dabble under. Blub. Up it pops. \"Full of air,\" says Grandpa Joe. \"That is why it floats.\" He hums his little bubble-tune. Pip watches Dabble bob. \"I want to float like that,\" says Pip. \"On my back.\" Grandpa Joe holds out his hands. Pip leans back. Lifts one foot. Lifts the other. Down goes Pip's bottom. Splash. \"Ker-plop,\" says Grandpa Joe. Pip tries again. Feet up. Bottom down. Splash. \"Ker-plop.\"",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "\"Bubbles first,\" says Pip. Grandpa Joe hums his bubble-tune. Pip puts just their lips in the water. Blow. Blub-blub-blub. The bubbles tickle Pip's nose. It rumbles funny, like a purring cat. Pip giggles. Snort! Water goes up. \"Too big,\" says Grandpa Joe. \"Soft and slow, little fish.\" Pip tries again. Soft. Slow. Blub-blub-blub. A long stream of bubbles dances up. Then Pip takes a big breath. Their chest puffs up, round and full of air. Just like Dabble's round yellow belly. \"Look,\" says Pip. \"I'm full of air too.\" Grandpa Joe smiles. \"That you are,\" he says. \"That you are.\"",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "\"Chase the duck,\" says Pip. Grandpa Joe tosses Dabble out. Ker-plop. Pip lies on their belly. Grandpa's hands hover close. Pip kicks stiff legs. Splash, splash. Nowhere. \"Floppy feet,\" says Grandpa Joe. \"Like a frog.\" Pip flops. Kick, kick, kick. The water pushes back. Pip scoots forward. One whole glide. The water holds Pip up the whole time. It feels like a big soft hand. Pip reaches. Gotcha. Dabble bobs in Pip's arms. \"You floated,\" says Grandpa Joe. \"On your belly.\" Pip hugs the wet yellow duck. \"Again,\" says Pip. \"Again.\"",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "Grandpa Joe turns Dabble upside down and pushes him under. Blub. Up he pops, right side up, bobbing. \"Air inside,\" says Grandpa Joe. \"That is the secret.\" He hums his little bubble-tune. Then he scrunches his hand into a ball. Down it dips, low in the water. He spreads his fingers wide, flat like a star. Up it floats. \"See?\" says Grandpa Joe. \"Big breath. Loose body. Wide like a starfish.\" Pip looks at Dabble. Pip looks at the star-hand. \"Like that?\" says Pip. \"Just like that,\" says Grandpa Joe. \"Show me what you found.\" Pip takes a big, big breath. Arms out. Legs out. Grandpa Joe's warm hand rests under Pip's back. The water lifts. The water holds. Pip's feet leave the bottom. \"I'm floating!\" says Pip. \"Ker-plop,\" says Grandpa Joe, softly. \"No splash at all.\"",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "Pip takes a big breath. \"One finger,\" says Grandpa Joe. Off comes one. \"Two.\" Off comes two. Pip's cheeks puff out. Pip's toes wiggle above the water. Off comes the last finger, and Grandpa Joe's hand hovers close, not touching. The water lifts. The water holds. \"I'm doing it!\" says Pip. \"All by myself!\" Grandpa Joe hums his little bubble-tune. The lifeguard smiles and gives a thumbs-up. Dabble bobs beside them, bright and yellow. \"Ker-plop,\" says Grandpa Joe, softly. \"No splash at all.\" Then Pip stands up, laughing, and scoops Dabble close. Home they go, wrapped in the warm towel. And at bedtime, Dabble sits by Pip's pillow, ready for the story.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "\"Let's glide,\" says Pip. Grandpa Joe sets Dabble on the far step, bright and yellow, waiting. Pip leans back. Big breath. Arms out. Legs out. \"One long, slow ker-plop,\" says Grandpa Joe. \"Ready?\" Pip kicks. Splash, splash, splash. The water lifts. The water holds. Pip glides on their back, right across the shallow step. \"I'm moving!\" says Pip. \"I'm really moving!\" Grandpa Joe hums his little bubble-tune, walking beside. Then — bump. Pip's fingers touch the step. \"You made it!\" says Grandpa Joe. Pip sits up, laughing, and grabs Dabble tight. Home they go, Dabble riding on Pip's tummy in the warm towel, still smelling of pool water.",
-      "next": null
-    }
-  ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "\"Well, little fish, Dabble here floats easy as pie. Shall we practice our bubble-blowing first, or shall we chase this rascal duck across the water?\"",
-      "options": [
-        {
-          "say_word": "Bubbles",
-          "label": "Practice blowing gentle bubbles that tickle your nose",
-          "tone_lean": "gentle",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Chase",
-          "label": "Lie on your belly and kick after the duck",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "\"You're floating, Pip, you're really floating! Now then — do you want to let go of my fingers one by one and float all by yourself, or shall we kick-glide on your back, nice and slow, all the way to Dabble?\"",
-      "options": [
-        {
-          "say_word": "By myself",
-          "label": "Let go one finger at a time and float solo",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s4a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Glide",
-          "label": "Kick-glide on your back across to the duck",
-          "tone_lean": "gentle",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.swimming_and_floating",
-      "topic_tier": "deep_dive",
-      "parent_topic": "knowledge_domain.oceans_and_tides",
-      "age_band": "5-6",
-      "age": 5,
-      "family_context": "none — library story for everyone",
-      "seed": 5
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "problem_and_fix",
-      "why": "The topic's core material—blowing bubbles without getting water up your nose, getting your feet to leave the bottom, staying up on your back—is naturally a series of small tries that don't quite work and then do, which feeds problem_and_fix better than a journey or a mystery.",
-      "backup": "mystery",
-      "candidates": [
-        {
-          "pattern": "mystery",
-          "base_weight": 0.25,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.303,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred problem_and_fix"
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.2,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2424,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "journey",
-          "base_weight": 0.35,
-          "shelf_nudge": 0.5,
-          "family_nudge": 1.0,
-          "final_weight": 0.2121,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred problem_and_fix"
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.1,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.1212,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.05,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.0606,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.03,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.0364,
-          "sampled": false,
-          "rejected_because": null
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "cozy",
-        "accent": null
-      },
-      "accent_carrier": "Grandpa Joe, who hums a little bubble-tune and calls every splash a 'ker-plop'.",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "named_hero",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "trying again a different way is how learning works",
-      "why": "The problem_and_fix pattern offers it naturally: each failed try reveals a clue, and the fix is earned by that clue rather than by luck."
-    },
-    "cast": [
-      {
-        "role": "Pip, the child hero",
-        "reused": false,
-        "why": "A fresh named hero fits the named_hero teller and lets the story stay third-person about one child's first float."
-      },
-      {
-        "role": "Grandpa Joe, the patient grown-up",
-        "reused": false,
-        "why": "Stays within arm's reach, counts kicks, carries the cozy accent, and asks the choice questions in his own warm voice."
-      },
-      {
-        "role": "Dabble, the rubber duck",
-        "reused": false,
-        "why": "The floating buddy and motif-carrier; it demonstrates why air-filled things float and gives Pip something to chase and copy."
-      }
-    ],
-    "materials": {
-      "selected": [
-        "community pool with shallow step, lifeguard, and basket of kickboards and rubber ducks",
-        "body floats when you lie still and take a big breath",
-        "blowing bubbles tickles your nose",
-        "kicking splashy legs pushes you forward even when feet leave the bottom",
-        "things full of air float, like a rubber duck",
-        "scrunch into a ball and sink a little; stretch out long and flat and float better",
-        "spread arms and legs wide like a star",
-        "patient grown-up stays within arm's reach and counts kicks",
-        "problem: wants to float on back but keeps sinking when feet lift"
-      ],
-      "gathered_but_unused": [
-        "Your body is mostly water, and it can float if you lie still and take a big breath of air.",
-        "Blowing bubbles underwater tickles your nose and makes a funny rumbling sound.",
-        "Kicking your legs fast and splashy can push you forward through the water, even if your feet leave the bottom.",
-        "Some things float because they are full of air, like a rubber duck or an empty bucket turned upside down.",
-        "When you take a deep breath and hold it, your chest puffs up like a balloon and helps you float higher.",
-        "Water can hold you up if you spread your arms and legs out wide, like a star or a pancake.",
-        "If you scrunch up into a tight ball, you sink a little; if you stretch out long and flat, you float better.",
-        "Goggles help you see underwater, so you can watch your own bubbles and the grown-up’s hands nearby."
-      ]
-    },
-    "safety_beat": "In s1, Grandpa Joe settles onto the shallow step where the water only reaches Pip's chest, keeps one arm's length away, and nods to the lifeguard in the high chair — quiet competence, no warning.",
-    "motif": "A bright yellow rubber duck that bobs, gets pushed under, and always pops back up.",
-    "shelf_at_build_time": [
-      {
-        "story_id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
-        "title": "The River Inside the Sea",
-        "pattern": "journey",
-        "teller": "we_adventure",
-        "tone_dominant": "curious_wonder",
-        "tone_accent": "big_adventure"
-      }
-    ],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": false,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "leave it alone",
-          "why": "The story already does its work: a warm, unhurried swim lesson where the duck's physics becomes Pip's physics, the ker-plop joke lands and then deepens into tenderness, and the sound-words (Blub, Ker-plop, Snort) sit as their own small sentences that read aloud beautifully."
-        }
-      ],
-      "cards_used": [],
-      "listener_felt_arc": {
-        "s1": "snug and curious, then a giggly splash",
-        "s2a": "tickly, rumbly delight / a giggle",
-        "s2b": "leaning in, effortful, then a small triumph",
-        "s3": "a held breath, then lifted and glowing",
-        "s4a": "proud and held, then satisfied and sleepy",
-        "s4b": "proud and moving, then cozy and done"
-      },
-      "segments_revised": 0,
-      "segments_rejected": 0
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "pass",
-        "notes": "0 blocking, 14 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.0); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 2.6); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 39% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 2.1); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 39% of sentences carry speech or action"
-      }
-    ],
-    "writers_notes": [
-      "[s1] flat rhythm: sentence lengths vary little (spread 3.0)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 2.6)",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] narration heavy: only 39% of sentences carry speech or action",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 2.1)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2b] narration heavy: only 39% of sentences carry speech or action",
-      "[s3] flat rhythm: sentence lengths vary little (spread 2.7)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 3.3)",
-      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s1] flat rhythm: sentence lengths vary little (spread 3.0)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 2.6)",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] narration heavy: only 39% of sentences carry speech or action",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 2.1)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2b] narration heavy: only 39% of sentences carry speech or action",
-      "[s3] flat rhythm: sentence lengths vary little (spread 2.7)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 3.3)",
-      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run_kid5_beach",
-      "source_file": "06_swimming_and_floating_kimik3.json",
-      "depth": 1
-    }
+  "teller_choice": {
+   "chosen": "named_hero",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "depth": 1
+  "value_decision": {
+   "included": true,
+   "value": "trying again a different way is how learning works",
+   "why": "The problem_and_fix pattern offers it naturally: each failed try reveals a clue, and the fix is earned by that clue rather than by luck."
+  },
+  "cast": [
+   {
+    "role": "Pip, the child hero",
+    "reused": false,
+    "why": "A fresh named hero fits the named_hero teller and lets the story stay third-person about one child's first float."
+   },
+   {
+    "role": "Grandpa Joe, the patient grown-up",
+    "reused": false,
+    "why": "Stays within arm's reach, counts kicks, carries the cozy accent, and asks the choice questions in his own warm voice."
+   },
+   {
+    "role": "Dabble, the rubber duck",
+    "reused": false,
+    "why": "The floating buddy and motif-carrier; it demonstrates why air-filled things float and gives Pip something to chase and copy."
+   }
+  ],
+  "materials": {
+   "selected": [
+    "community pool with shallow step, lifeguard, and basket of kickboards and rubber ducks",
+    "body floats when you lie still and take a big breath",
+    "blowing bubbles tickles your nose",
+    "kicking splashy legs pushes you forward even when feet leave the bottom",
+    "things full of air float, like a rubber duck",
+    "scrunch into a ball and sink a little; stretch out long and flat and float better",
+    "spread arms and legs wide like a star",
+    "patient grown-up stays within arm's reach and counts kicks",
+    "problem: wants to float on back but keeps sinking when feet lift"
+   ],
+   "gathered_but_unused": [
+    "Your body is mostly water, and it can float if you lie still and take a big breath of air.",
+    "Blowing bubbles underwater tickles your nose and makes a funny rumbling sound.",
+    "Kicking your legs fast and splashy can push you forward through the water, even if your feet leave the bottom.",
+    "Some things float because they are full of air, like a rubber duck or an empty bucket turned upside down.",
+    "When you take a deep breath and hold it, your chest puffs up like a balloon and helps you float higher.",
+    "Water can hold you up if you spread your arms and legs out wide, like a star or a pancake.",
+    "If you scrunch up into a tight ball, you sink a little; if you stretch out long and flat, you float better.",
+    "Goggles help you see underwater, so you can watch your own bubbles and the grown-up’s hands nearby."
+   ]
+  },
+  "safety_beat": "In s1, Grandpa Joe settles onto the shallow step where the water only reaches Pip's chest, keeps one arm's length away, and nods to the lifeguard in the high chair — quiet competence, no warning.",
+  "motif": "A bright yellow rubber duck that bobs, gets pushed under, and always pops back up.",
+  "shelf_at_build_time": [
+   {
+    "story_id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
+    "title": "The River Inside the Sea",
+    "pattern": "journey",
+    "teller": "we_adventure",
+    "tone_dominant": "curious_wonder",
+    "tone_accent": "big_adventure"
+   }
+  ],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": false,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "leave it alone",
+     "why": "The story already does its work: a warm, unhurried swim lesson where the duck's physics becomes Pip's physics, the ker-plop joke lands and then deepens into tenderness, and the sound-words (Blub, Ker-plop, Snort) sit as their own small sentences that read aloud beautifully."
+    }
+   ],
+   "cards_used": [],
+   "listener_felt_arc": {
+    "s1": "snug and curious, then a giggly splash",
+    "s2a": "tickly, rumbly delight / a giggle",
+    "s2b": "leaning in, effortful, then a small triumph",
+    "s3": "a held breath, then lifted and glowing",
+    "s4a": "proud and held, then satisfied and sleepy",
+    "s4b": "proud and moving, then cozy and done"
+   },
+   "segments_revised": 0,
+   "segments_rejected": 0
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "pass",
+    "notes": "0 blocking, 14 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.0); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 2.6); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2a] narration heavy: only 39% of sentences carry speech or action; [s2b] flat rhythm: sentence lengths vary little (spread 2.1); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 39% of sentences carry speech or action"
+   }
+  ],
+  "writers_notes": [
+   "[s1] flat rhythm: sentence lengths vary little (spread 3.0)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 2.6)",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] narration heavy: only 39% of sentences carry speech or action",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 2.1)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2b] narration heavy: only 39% of sentences carry speech or action",
+   "[s3] flat rhythm: sentence lengths vary little (spread 2.7)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 3.3)",
+   "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s1] flat rhythm: sentence lengths vary little (spread 3.0)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 2.6)",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] narration heavy: only 39% of sentences carry speech or action",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 2.1)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2b] narration heavy: only 39% of sentences carry speech or action",
+   "[s3] flat rhythm: sentence lengths vary little (spread 2.7)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 3.3)",
+   "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 4.1)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run_kid5_beach",
+   "source_file": "06_swimming_and_floating_kimik3.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "Pip, arms and legs spread wide like a starfish, floats serenely on their back, with a bright yellow rubber duck bobbing gently beside them.",
+  "mood": "Calm and focused, with a hint of gentle triumph and wonder, not scared or struggling.",
+  "stroke": "Soft, feathery strokes with light layering.",
+  "derived_by": "gemini-2.5-flash"
+ }
 }

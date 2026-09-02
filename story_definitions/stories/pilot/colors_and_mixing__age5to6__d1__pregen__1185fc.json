@@ -1,314 +1,320 @@
 {
-  "id": "story.colors_and_mixing.age5to6.d1.pregen.1185fc",
-  "title": "The Great Orange Sunset Machine",
-  "age_band": "5-6",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.colors_and_mixing",
-    "sel_theme": null,
-    "value_lesson": "Patience",
-    "story_element": null,
-    "secondary": []
+ "id": "story.colors_and_mixing.age5to6.d1.pregen.1185fc",
+ "title": "The Great Orange Sunset Machine",
+ "age_band": "5-6",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.colors_and_mixing",
+  "sel_theme": null,
+  "value_lesson": "Patience",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "make_and_build",
+ "teller": "we_adventure",
+ "tone": {
+  "dominant": "crazy_inventor",
+  "accent": "silly"
+ },
+ "spine": "We want to paint a giant orange sunset banner for Grandma's porch, but we only have red and yellow paint—so we must invent our way to the perfect orange, one swirl at a time.",
+ "slots": {},
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "Grandpa's garage smells like sawdust and old rain boots. We have newspaper spread everywhere. On the floor. On the table. Even on the cat.\n\n\"Today,\" we say, \"we paint a giant orange sunset banner for the porch!\"\n\nGrandpa claps. \"Splendid!\" He squeezes out two fat blobs of paint. One red, one yellow. They sit on the palette like two little hills.\n\nMixmaster Max watches from the workbench. He is Grandpa's old garden gnome, with a pointy hat covered in dried paint drips. He holds the palette with his stiff plaster hands. He is very good at supervising.\n\n\"Now,\" says Grandpa. \"Where is the orange?\"\n\nWe look. No orange. Only red. Only yellow.\n\n\"Hmm,\" we say. \"We need orange.\"\n\nMax's hat wiggles. Just a tiny bit.",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
   },
-  "pattern": "make_and_build",
-  "teller": "we_adventure",
-  "tone": {
+  {
+   "id": "s2a",
+   "text": "\"Careful scientists,\" we say. \"One drop at a time.\"\n\nGrandpa nods. \"Very wise.\" He squeezes fresh red onto a clean corner of the palette. Then yellow. Two little islands, not touching.\n\nWe dip the brush in red. Then yellow. Swirl, swirl, slow.\n\n\"Look,\" we whisper. The red is turning peachy at the edges.\n\nMixmaster Max leans in. His hat nearly touches the paint. \"Steady,\" says Grandpa.\n\nSwirl. Swirl. The yellow melts into the red like butter into toast.\n\n\"Is it orange yet?\" we ask.\n\nMax's hat wiggles. Not quite. But something is happening in the middle of the palette, something warm and glowing, like a tiny sun waking up.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "\"Crazy inventors!\" we shout. \"Great big swoosh!\"\n\nGrandpa grins. \"My favorite kind.\" He hands us the big brush, the one as wide as a spoon.\n\nWe plunge it into the red blob. Then the yellow. Swoosh!\n\nPaint flies. A red dot lands on Mixmaster Max's nose. He does not blink. He is very professional.\n\n\"Again!\" says Grandpa.\n\nSwoosh, swoosh! The colors crash together like waves. Red streaks through yellow. Yellow streaks through red. It looks like a storm on the palette.\n\n\"Whoa,\" we breathe. The middle is glowing. But the edges are wild, all swirly and streaky.\n\nMax's hat tilts. Is it supposed to look like that?",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "Grandpa leans over the palette. \"What did you find?\" he asks.\n\nWe show him. He nods slowly, the way he does when the tomato soup needs stirring.\n\n\"Ah,\" he says. \"A wobble. Every good mix has one.\"\n\nHe holds our brush under the tap. The water runs pink, then clear. \"Clean tools,\" he says, \"make true colors.\"\n\nWe dip the brush. We add yellow, bit by bit. The red softens. Tangerine. Then glowing sunset orange.\n\n\"Look!\" we shout, because we cannot help it.\n\nMixmaster Max's hat wiggles. The orange swirls on the palette like a tiny sun, right there in Grandpa's garage.\n\n\"Now,\" says Grandpa, \"the banner.\"",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "We paint the sun with our perfect orange. Big, round strokes. While it dries, a real bee lands on the windowsill. Its legs are dusted yellow, just like our paint. \"Look,\" we whisper. \"It carried the yellow here.\" Grandpa nods. \"Then let's give it somewhere to land.\" We mix a tiny drop of red into white. Pink. Soft as a kitten's ear. We dab a flower in the corner. The bee hums. We hang the banner on the porch. The real sunset matches ours. The bee visits our painted blossom. \"Hello Sunshine,\" we say. Max's hat wiggles.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "We paint the sun with our perfect orange. Then we look under the workbench. The shadow there is gray, not orange. \"Why?\" we ask. Grandpa scratches his chin. \"Let's find out.\" We add one tiny drop of black to our orange. It turns brown, like mud. We paint a cool shadow beneath our sun. \"Shadows aren't gray,\" Grandpa says. \"They're where the light hides.\" We hang the banner on the porch. The real sun sets. Our painted shadow grows long. \"Hello Sunshine,\" we say. Max's hat wiggles.",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "\"Do we mix like careful scientists, one drop at a time, or like crazy inventors with a great big swoosh?\"",
+   "options": [
+    {
+     "say_word": "Careful",
+     "label": "Mix slowly and watch each swirl",
+     "tone_lean": "gentle",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Swoosh",
+     "label": "Mix with a big dramatic swirl",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "\"Shall we paint a flower for the bees we saw, or a shadow for the mysteries under the table?\"",
+   "options": [
+    {
+     "say_word": "Flower",
+     "label": "Paint a pink flower that bees would visit",
+     "tone_lean": "gentle",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s4a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Shadow",
+     "label": "Paint a dark shade shadow under the sun",
+     "tone_lean": "bold",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.colors_and_mixing",
+   "topic_tier": "curriculum",
+   "parent_topic": null,
+   "age_band": "5-6",
+   "age": 5,
+   "family_context": "none — library story for everyone",
+   "seed": 4
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "make_and_build",
+   "why": "Mixing paints to discover orange is inherently a hands-on, step-by-step making process where a child can want a color, combine red and yellow, and get there.",
+   "backup": "make_and_build",
+   "candidates": [
+    {
+     "pattern": "journey",
+     "base_weight": 0.24,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.24,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "mystery",
+     "base_weight": 0.2,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.18,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.18,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred make_and_build"
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.14,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.14,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.12,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.12,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred make_and_build"
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.08,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.08,
+     "sampled": false,
+     "rejected_because": null
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "crazy_inventor",
     "accent": "silly"
+   },
+   "accent_carrier": "Grandpa's old garden gnome named Mixmaster Max, who wears a pointy hat covered in dried paint drips and 'helps' by holding the palette with his stiff plaster hands",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "We want to paint a giant orange sunset banner for Grandma's porch, but we only have red and yellow paint—so we must invent our way to the perfect orange, one swirl at a time.",
-  "slots": {},
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "Grandpa's garage smells like sawdust and old rain boots. We have newspaper spread everywhere. On the floor. On the table. Even on the cat.\n\n\"Today,\" we say, \"we paint a giant orange sunset banner for the porch!\"\n\nGrandpa claps. \"Splendid!\" He squeezes out two fat blobs of paint. One red, one yellow. They sit on the palette like two little hills.\n\nMixmaster Max watches from the workbench. He is Grandpa's old garden gnome, with a pointy hat covered in dried paint drips. He holds the palette with his stiff plaster hands. He is very good at supervising.\n\n\"Now,\" says Grandpa. \"Where is the orange?\"\n\nWe look. No orange. Only red. Only yellow.\n\n\"Hmm,\" we say. \"We need orange.\"\n\nMax's hat wiggles. Just a tiny bit.",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "\"Careful scientists,\" we say. \"One drop at a time.\"\n\nGrandpa nods. \"Very wise.\" He squeezes fresh red onto a clean corner of the palette. Then yellow. Two little islands, not touching.\n\nWe dip the brush in red. Then yellow. Swirl, swirl, slow.\n\n\"Look,\" we whisper. The red is turning peachy at the edges.\n\nMixmaster Max leans in. His hat nearly touches the paint. \"Steady,\" says Grandpa.\n\nSwirl. Swirl. The yellow melts into the red like butter into toast.\n\n\"Is it orange yet?\" we ask.\n\nMax's hat wiggles. Not quite. But something is happening in the middle of the palette, something warm and glowing, like a tiny sun waking up.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "\"Crazy inventors!\" we shout. \"Great big swoosh!\"\n\nGrandpa grins. \"My favorite kind.\" He hands us the big brush, the one as wide as a spoon.\n\nWe plunge it into the red blob. Then the yellow. Swoosh!\n\nPaint flies. A red dot lands on Mixmaster Max's nose. He does not blink. He is very professional.\n\n\"Again!\" says Grandpa.\n\nSwoosh, swoosh! The colors crash together like waves. Red streaks through yellow. Yellow streaks through red. It looks like a storm on the palette.\n\n\"Whoa,\" we breathe. The middle is glowing. But the edges are wild, all swirly and streaky.\n\nMax's hat tilts. Is it supposed to look like that?",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "Grandpa leans over the palette. \"What did you find?\" he asks.\n\nWe show him. He nods slowly, the way he does when the tomato soup needs stirring.\n\n\"Ah,\" he says. \"A wobble. Every good mix has one.\"\n\nHe holds our brush under the tap. The water runs pink, then clear. \"Clean tools,\" he says, \"make true colors.\"\n\nWe dip the brush. We add yellow, bit by bit. The red softens. Tangerine. Then glowing sunset orange.\n\n\"Look!\" we shout, because we cannot help it.\n\nMixmaster Max's hat wiggles. The orange swirls on the palette like a tiny sun, right there in Grandpa's garage.\n\n\"Now,\" says Grandpa, \"the banner.\"",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "We paint the sun with our perfect orange. Big, round strokes. While it dries, a real bee lands on the windowsill. Its legs are dusted yellow, just like our paint. \"Look,\" we whisper. \"It carried the yellow here.\" Grandpa nods. \"Then let's give it somewhere to land.\" We mix a tiny drop of red into white. Pink. Soft as a kitten's ear. We dab a flower in the corner. The bee hums. We hang the banner on the porch. The real sunset matches ours. The bee visits our painted blossom. \"Hello Sunshine,\" we say. Max's hat wiggles.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "We paint the sun with our perfect orange. Then we look under the workbench. The shadow there is gray, not orange. \"Why?\" we ask. Grandpa scratches his chin. \"Let's find out.\" We add one tiny drop of black to our orange. It turns brown, like mud. We paint a cool shadow beneath our sun. \"Shadows aren't gray,\" Grandpa says. \"They're where the light hides.\" We hang the banner on the porch. The real sun sets. Our painted shadow grows long. \"Hello Sunshine,\" we say. Max's hat wiggles.",
-      "next": null
-    }
-  ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "\"Do we mix like careful scientists, one drop at a time, or like crazy inventors with a great big swoosh?\"",
-      "options": [
-        {
-          "say_word": "Careful",
-          "label": "Mix slowly and watch each swirl",
-          "tone_lean": "gentle",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Swoosh",
-          "label": "Mix with a big dramatic swirl",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "\"Shall we paint a flower for the bees we saw, or a shadow for the mysteries under the table?\"",
-      "options": [
-        {
-          "say_word": "Flower",
-          "label": "Paint a pink flower that bees would visit",
-          "tone_lean": "gentle",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s4a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Shadow",
-          "label": "Paint a dark shade shadow under the sun",
-          "tone_lean": "bold",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.colors_and_mixing",
-      "topic_tier": "curriculum",
-      "parent_topic": null,
-      "age_band": "5-6",
-      "age": 5,
-      "family_context": "none — library story for everyone",
-      "seed": 4
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "make_and_build",
-      "why": "Mixing paints to discover orange is inherently a hands-on, step-by-step making process where a child can want a color, combine red and yellow, and get there.",
-      "backup": "make_and_build",
-      "candidates": [
-        {
-          "pattern": "journey",
-          "base_weight": 0.24,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.24,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "mystery",
-          "base_weight": 0.2,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.18,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.18,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred make_and_build"
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.14,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.14,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.12,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.12,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred make_and_build"
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.08,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.08,
-          "sampled": false,
-          "rejected_because": null
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "crazy_inventor",
-        "accent": "silly"
-      },
-      "accent_carrier": "Grandpa's old garden gnome named Mixmaster Max, who wears a pointy hat covered in dried paint drips and 'helps' by holding the palette with his stiff plaster hands",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "we_adventure",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "Patience",
-      "why": "The make_and_build pattern requires step-by-step adjustment (adding yellow bit by bit, cleaning the brush), and the wonder_facts explicitly frame mixing as taking time and small tries to get just right"
-    },
-    "cast": [
-      {
-        "role": "Grandpa (or Grandma) who sets up the garage workshop",
-        "reused": false,
-        "why": "Provides the workspace, the newspaper-covered table, and the gentle guidance to keep brushes clean without taking over the discovery"
-      },
-      {
-        "role": "Mixmaster Max the garden gnome",
-        "reused": false,
-        "why": "Carries the silly accent—he is a dramatic 'crazy inventor' figure who 'supervises' the mixing with grand gestures and gets accidentally splattered, serving as the comic sidekick who celebrates each wobble"
-      },
-      {
-        "role": "The listening child (we_adventure narrator)",
-        "reused": false,
-        "why": "First-person plural voice that drives the action, makes the choices, and experiences the wonder of discovery"
-      }
-    ],
-    "materials": {
-      "selected": [
-        "Red and yellow paint mixed together make orange",
-        "A wobble: the brush is dirty from another color, so the orange turns muddy",
-        "A wobble: the first mix looks too red, so the child adds more yellow bit by bit",
-        "A cozy garage workshop with a drop cloth on the floor",
-        "A parent or grandparent who helps set up",
-        "Adding white paint to a color makes it lighter (tint)",
-        "Adding black paint to a color makes it darker (shade)",
-        "The child paints a picture of a flower and notices how bees visit real flowers outside",
-        "The child paints a shadow on the paper and wonders why shadows are gray"
-      ],
-      "gathered_but_unused": [
-        "Red and yellow paint mixed together make orange.",
-        "Blue and yellow paint mixed together make green.",
-        "Red and blue paint mixed together make purple.",
-        "Adding white paint to a color makes it lighter, called a tint.",
-        "Adding black paint to a color makes it darker, called a shade.",
-        "You cannot mix other colors to get red, yellow, or blue—they are primary colors.",
-        "Mixing many colors together often makes brown or gray.",
-        "Wet paint can look darker or brighter than dry paint."
-      ]
-    },
-    "safety_beat": "Grandpa shows us how to stand on the drop cloth with our feet apart like a painter, keeping our sleeves rolled up and our brush pointing down toward the paper, demonstrating comfortable competence in the real garage space without any warning or tension.",
-    "motif": "A swirling spiral of color that starts as two separate blobs and becomes one glowing orange sun",
-    "shelf_at_build_time": [],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": false,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "leave it alone",
-          "why": "The story already does its work: it shows the making step by step (blobs, swirl, wobble, tap-water rinse, bit-by-bit yellow), the sound-words land as their own small sentences, and Grandpa's fondness is paid as attention rather than declared."
-        }
-      ],
-      "cards_used": [],
-      "listener_felt_arc": {
-        "s1": "snug and curious, with a giggle at the cat",
-        "s2a": "leaning in, hushed, watching the tiny sun wake",
-        "s2b": "a delighted whoop, paint flying",
-        "s3": "a held breath, then the warm glow of getting it right",
-        "s4a": "wonderstruck and satisfied, the real world answering the painted one",
-        "s4b": "puzzled-then-pleased, a small discovery tucked into the sunset"
-      },
-      "segments_revised": 0,
-      "segments_rejected": 0
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "pass",
-        "notes": "0 blocking, 14 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.5); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 38% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.4); [s2b] flat rhythm: sentence lengths vary little (spread 3.3); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 36% of sentences carry speech or action; [s3] flat rhythm: sentence lengths vary little (spread 3.4)"
-      }
-    ],
-    "writers_notes": [
-      "[s1] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s1] narration heavy: only 38% of sentences carry speech or action",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 3.3)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2b] narration heavy: only 36% of sentences carry speech or action",
-      "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4a] narration heavy: only 31% of sentences carry speech or action",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 3.0)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s1] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s1] narration heavy: only 38% of sentences carry speech or action",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 3.3)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2b] narration heavy: only 36% of sentences carry speech or action",
-      "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4a] narration heavy: only 31% of sentences carry speech or action",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 3.0)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run_kid5_beach",
-      "source_file": "05_colors_and_mixing_kimik3.json",
-      "depth": 1
-    }
+  "teller_choice": {
+   "chosen": "we_adventure",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "depth": 1
+  "value_decision": {
+   "included": true,
+   "value": "Patience",
+   "why": "The make_and_build pattern requires step-by-step adjustment (adding yellow bit by bit, cleaning the brush), and the wonder_facts explicitly frame mixing as taking time and small tries to get just right"
+  },
+  "cast": [
+   {
+    "role": "Grandpa (or Grandma) who sets up the garage workshop",
+    "reused": false,
+    "why": "Provides the workspace, the newspaper-covered table, and the gentle guidance to keep brushes clean without taking over the discovery"
+   },
+   {
+    "role": "Mixmaster Max the garden gnome",
+    "reused": false,
+    "why": "Carries the silly accent—he is a dramatic 'crazy inventor' figure who 'supervises' the mixing with grand gestures and gets accidentally splattered, serving as the comic sidekick who celebrates each wobble"
+   },
+   {
+    "role": "The listening child (we_adventure narrator)",
+    "reused": false,
+    "why": "First-person plural voice that drives the action, makes the choices, and experiences the wonder of discovery"
+   }
+  ],
+  "materials": {
+   "selected": [
+    "Red and yellow paint mixed together make orange",
+    "A wobble: the brush is dirty from another color, so the orange turns muddy",
+    "A wobble: the first mix looks too red, so the child adds more yellow bit by bit",
+    "A cozy garage workshop with a drop cloth on the floor",
+    "A parent or grandparent who helps set up",
+    "Adding white paint to a color makes it lighter (tint)",
+    "Adding black paint to a color makes it darker (shade)",
+    "The child paints a picture of a flower and notices how bees visit real flowers outside",
+    "The child paints a shadow on the paper and wonders why shadows are gray"
+   ],
+   "gathered_but_unused": [
+    "Red and yellow paint mixed together make orange.",
+    "Blue and yellow paint mixed together make green.",
+    "Red and blue paint mixed together make purple.",
+    "Adding white paint to a color makes it lighter, called a tint.",
+    "Adding black paint to a color makes it darker, called a shade.",
+    "You cannot mix other colors to get red, yellow, or blue—they are primary colors.",
+    "Mixing many colors together often makes brown or gray.",
+    "Wet paint can look darker or brighter than dry paint."
+   ]
+  },
+  "safety_beat": "Grandpa shows us how to stand on the drop cloth with our feet apart like a painter, keeping our sleeves rolled up and our brush pointing down toward the paper, demonstrating comfortable competence in the real garage space without any warning or tension.",
+  "motif": "A swirling spiral of color that starts as two separate blobs and becomes one glowing orange sun",
+  "shelf_at_build_time": [],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": false,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "leave it alone",
+     "why": "The story already does its work: it shows the making step by step (blobs, swirl, wobble, tap-water rinse, bit-by-bit yellow), the sound-words land as their own small sentences, and Grandpa's fondness is paid as attention rather than declared."
+    }
+   ],
+   "cards_used": [],
+   "listener_felt_arc": {
+    "s1": "snug and curious, with a giggle at the cat",
+    "s2a": "leaning in, hushed, watching the tiny sun wake",
+    "s2b": "a delighted whoop, paint flying",
+    "s3": "a held breath, then the warm glow of getting it right",
+    "s4a": "wonderstruck and satisfied, the real world answering the painted one",
+    "s4b": "puzzled-then-pleased, a small discovery tucked into the sunset"
+   },
+   "segments_revised": 0,
+   "segments_rejected": 0
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "pass",
+    "notes": "0 blocking, 14 warning. [s1] flat rhythm: sentence lengths vary little (spread 3.5); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s1] narration heavy: only 38% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 4.4); [s2b] flat rhythm: sentence lengths vary little (spread 3.3); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s2b] narration heavy: only 36% of sentences carry speech or action; [s3] flat rhythm: sentence lengths vary little (spread 3.4)"
+   }
+  ],
+  "writers_notes": [
+   "[s1] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s1] narration heavy: only 38% of sentences carry speech or action",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 3.3)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2b] narration heavy: only 36% of sentences carry speech or action",
+   "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4a] narration heavy: only 31% of sentences carry speech or action",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 3.0)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s1] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s1] narration heavy: only 38% of sentences carry speech or action",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 4.4)",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 3.3)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2b] narration heavy: only 36% of sentences carry speech or action",
+   "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4a] narration heavy: only 31% of sentences carry speech or action",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 3.0)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run_kid5_beach",
+   "source_file": "05_colors_and_mixing_kimik3.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "Mixmaster Max, a garden gnome, holds a painter's palette where red and yellow have just swirled together to form a glowing orange.",
+  "mood": "Warm, curious, and inviting, with a hint of quiet satisfaction, not overly excited or intense.",
+  "stroke": "Soft, feathery strokes with light layering to convey the gentle magic of color mixing.",
+  "derived_by": "gemini-2.5-flash"
+ }
 }

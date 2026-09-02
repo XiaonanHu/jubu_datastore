@@ -1,322 +1,328 @@
 {
-  "id": "story.theater_and_pretending.age7to8.d1.pregen.53e351",
-  "title": "The Thunder Sheet and the Sunset Gel",
-  "age_band": "7-8",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.theater_and_pretending",
-    "sel_theme": null,
-    "value_lesson": "A mistake in rehearsal is information, not failure.",
-    "story_element": null,
-    "secondary": []
+ "id": "story.theater_and_pretending.age7to8.d1.pregen.53e351",
+ "title": "The Thunder Sheet and the Sunset Gel",
+ "age_band": "7-8",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.theater_and_pretending",
+  "sel_theme": null,
+  "value_lesson": "A mistake in rehearsal is information, not failure.",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "make_and_build",
+ "teller": "we_adventure",
+ "tone": {
+  "dominant": "crazy_inventor",
+  "accent": "silly"
+ },
+ "spine": "We wanted to be on stage, but we end up building the magic backstage—and discover that making the thunder and the sunset is the best seat in the house.",
+ "slots": {},
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "\"You two!\" calls the stage manager. \"You're on crew.\" She hands us a clipboard and a headset. Not a script. A headset. It smells like dust and old batteries. We follow her behind the curtain, where the air is cooler and the floorboards creak like they're telling secrets. Painted flats lean against the wall—one shows a castle, one shows a forest, one shows a giant sandwich. Ropes hang in loops like sleeping snakes. Up a narrow staircase we climb, into a little room that glows. This is the booth. A window looks down at the empty stage. Two people wait for us. One sits at a board covered in switches. One sits at a table covered in... things. Coconut shells. A metal sheet. A shoebox full of rice. \"This is lighting,\" says the stage manager. \"This is sound effects. They'll teach you.\" The sound effects person grins and picks up the metal sheet. It wobbles. It makes a noise like a garbage can falling down stairs. We laugh. \"That,\" she says, \"is thunder. Or it will be, once you learn how to ask it nicely.\" We look at the stage far below. We look at the switches. We look at the coconut shells. We are not in the spotlight. We are behind the curtain. But the stage manager taps the clipboard. \"The show doesn't happen without you,\" she says. And the headset crackles, like it's listening.",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
   },
-  "pattern": "make_and_build",
-  "teller": "we_adventure",
-  "tone": {
+  {
+   "id": "s2a",
+   "text": "\"Thunder,\" we say. The sound effects person—her name is Mags—hands us the metal sheet. It's heavy and cold. \"Hold it by the edge,\" she says. \"Like a pizza. Now wobble it. Slow.\" We wobble. CLANG. It sounds like a garbage can rolling down stairs. It sounds like a trash truck hitting a pothole. Mags covers her ears. \"Too fast,\" she says. \"Old Rumble-Belly likes to take his time.\" We laugh. We try again. This time we hold our breath. We move our wrists slow, slow, like we're stirring a giant pot of soup. The metal bends. It shivers. Rumble. Rumble. The sound travels through the floorboards, up our legs, into our chests. It sounds like weather coming. It sounds like the sky is thinking about rain. Mags grins. \"There,\" she says. \"Now you're asking nicely.\" The headset crackles. \"Cue-to-cue in five minutes,\" says the stage manager. We look at the sheet. It wobbles. It waits.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "\"Sunset,\" we say. The lighting operator—his name is Pip—spins his chair around. \"Good choice.\" He points to the spotlight. \"White light is boring. We fix that with gels.\" He opens a drawer full of colored squares. Thin plastic, like stained glass you can fold. He slides a red one into the slot in front of the lamp. Click. The white circle on the stage floor turns strawberry-red. \"Too cold,\" we say. He tries orange. Fire-orange, like the inside of a pumpkin. \"Closer,\" we say. He tries blue. The stage turns into a cold morning, the kind where you can see your breath. We shiver. \"Not that one.\" Pip taps his chin. \"Sunset over the sea,\" he says. \"Needs to be warm. Needs to be pink and gold at the same time.\" He pulls out a square that looks like nothing special. He slides it in. Click. The stage turns the color of peach skin, of toast, of the sky right before the stars come out. We gasp. \"That's it,\" we whisper. \"That's the one.\"",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "The stage manager lifts her hand. \"Cue-to-cue,\" she says. \"Standby lights. Standby sound.\" A pause. \"GO.\" And the booth comes alive. The spotlight slides across the stage like a slow gold finger. Below us, someone shakes the thunder sheet—gently, gently—and it answers with a low, rolling growl. Not a garbage can this time. Real thunder. The fog machine hums awake. White mist curls onto the stage and starts to rise. It rises. It keeps rising. \"Uh oh,\" says the lighting person. The fog swallows the actors' shoes. Then their knees. Then their whole bodies. Gone. Nothing but a white sea where our actors used to be. \"Cut the fog!\" calls the stage manager. The machine stops. Slowly, slowly, the mist sinks back down. Two actors reappear, blinking like surprised owls. We can't help it—we laugh. \"The fog means well,\" says the sound effects person. \"It just doesn't know when to stop.\" She shows us the trick. \"Count it. One potato, two potato—then off.\" We try it. One potato, two potato. Click. The fog rolls out low and stays low, hugging the floor like a magic carpet. The actors wade through it, visible from the waist up, floating. \"Beautiful,\" whispers the stage manager. The thunder sheet gives a small, proud wobble. Rumble. Just a little one. Like it knows.",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "Opening night. The booth is dark. Our headsets crackle. \"Standby storm,\" whispers the stage manager. \"GO.\" We take hold of the thunder sheet. Slow. Slow. We wobble it low, and it answers with a growl that rolls out over the seats. The audience gasps. A real gasp, all at once, like one big lung. The sound effects person grins and slides the spotlight wider. Rain crackles in the speaker. We wobble again, softer, and the storm wanders away over the hills. After the show, she presses something into our hands. A small square of the sunset gel. \"For the crew,\" she says. That night we hold it up to the lamp in our room. The whole wall turns fire-orange. We sit in our own little sunset. \"We made them gasp,\" we say. The gel glows on the dresser, warm as a coal.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "Opening night. We stand backstage by the thunder sheet, peeking through a gap in the curtain. \"Standby sunset,\" whispers the stage manager in our headset. \"GO.\" Above us, the lighting operator slides the gel into the spotlight. Click. And the stage becomes a sea at dusk. Orange light spills across the painted waves. The actors glow like they're standing inside a peach. Out front, the audience goes very quiet—the good kind of quiet. The thunder sheet leans against us and gives one small, proud wobble. Rumble. After the show, the set painter beckons us over. She hands us a tiny painted flat—a miniature of the castle wall we braced. \"For the crew,\" she says. It's light enough to carry with one hand. But it holds the whole show. We set it on our shelf at home, where it catches the morning sun. \"That's ours,\" we say. \"We helped build that.\"",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "\"You can only learn one tool before the cue-to-cue. Do you want to make the thunder, or paint the sunset?\"",
+   "options": [
+    {
+     "say_word": "Thunder",
+     "label": "Learn the thunder sheet",
+     "tone_lean": "bold",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Sunset",
+     "label": "Try the spotlight gel",
+     "tone_lean": "gentle",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "\"Where do you want to stand when the show starts? In the booth with the sliders, or backstage with the noisemakers?\"",
+   "options": [
+    {
+     "say_word": "Booth",
+     "label": "Watch from the lighting booth",
+     "tone_lean": "gentle",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s4a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Backstage",
+     "label": "Stand by the thunder sheet",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.theater_and_pretending",
+   "topic_tier": "curriculum",
+   "parent_topic": null,
+   "age_band": "7-8",
+   "age": 8,
+   "family_context": "none — library story for everyone",
+   "seed": 28
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "make_and_build",
+   "why": "The topic is literally about how sets, spotlights, and sound effects are constructed and operated, so a step-by-step making-of story fits the material better than a journey or romp.",
+   "backup": "romp",
+   "candidates": [
+    {
+     "pattern": "journey",
+     "base_weight": 0.24,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.24,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred make_and_build"
+    },
+    {
+     "pattern": "mystery",
+     "base_weight": 0.2,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.18,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.18,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.14,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.14,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.12,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.12,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.08,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.08,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred make_and_build"
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "crazy_inventor",
     "accent": "silly"
+   },
+   "accent_carrier": "The thunder sheet (a wobbly, door-sized piece of metal with a mind of its own and a tendency to sound like a garbage can at the wrong moment)",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "We wanted to be on stage, but we end up building the magic backstage—and discover that making the thunder and the sunset is the best seat in the house.",
-  "slots": {},
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "\"You two!\" calls the stage manager. \"You're on crew.\" She hands us a clipboard and a headset. Not a script. A headset. It smells like dust and old batteries. We follow her behind the curtain, where the air is cooler and the floorboards creak like they're telling secrets. Painted flats lean against the wall—one shows a castle, one shows a forest, one shows a giant sandwich. Ropes hang in loops like sleeping snakes. Up a narrow staircase we climb, into a little room that glows. This is the booth. A window looks down at the empty stage. Two people wait for us. One sits at a board covered in switches. One sits at a table covered in... things. Coconut shells. A metal sheet. A shoebox full of rice. \"This is lighting,\" says the stage manager. \"This is sound effects. They'll teach you.\" The sound effects person grins and picks up the metal sheet. It wobbles. It makes a noise like a garbage can falling down stairs. We laugh. \"That,\" she says, \"is thunder. Or it will be, once you learn how to ask it nicely.\" We look at the stage far below. We look at the switches. We look at the coconut shells. We are not in the spotlight. We are behind the curtain. But the stage manager taps the clipboard. \"The show doesn't happen without you,\" she says. And the headset crackles, like it's listening.",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "\"Thunder,\" we say. The sound effects person—her name is Mags—hands us the metal sheet. It's heavy and cold. \"Hold it by the edge,\" she says. \"Like a pizza. Now wobble it. Slow.\" We wobble. CLANG. It sounds like a garbage can rolling down stairs. It sounds like a trash truck hitting a pothole. Mags covers her ears. \"Too fast,\" she says. \"Old Rumble-Belly likes to take his time.\" We laugh. We try again. This time we hold our breath. We move our wrists slow, slow, like we're stirring a giant pot of soup. The metal bends. It shivers. Rumble. Rumble. The sound travels through the floorboards, up our legs, into our chests. It sounds like weather coming. It sounds like the sky is thinking about rain. Mags grins. \"There,\" she says. \"Now you're asking nicely.\" The headset crackles. \"Cue-to-cue in five minutes,\" says the stage manager. We look at the sheet. It wobbles. It waits.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "\"Sunset,\" we say. The lighting operator—his name is Pip—spins his chair around. \"Good choice.\" He points to the spotlight. \"White light is boring. We fix that with gels.\" He opens a drawer full of colored squares. Thin plastic, like stained glass you can fold. He slides a red one into the slot in front of the lamp. Click. The white circle on the stage floor turns strawberry-red. \"Too cold,\" we say. He tries orange. Fire-orange, like the inside of a pumpkin. \"Closer,\" we say. He tries blue. The stage turns into a cold morning, the kind where you can see your breath. We shiver. \"Not that one.\" Pip taps his chin. \"Sunset over the sea,\" he says. \"Needs to be warm. Needs to be pink and gold at the same time.\" He pulls out a square that looks like nothing special. He slides it in. Click. The stage turns the color of peach skin, of toast, of the sky right before the stars come out. We gasp. \"That's it,\" we whisper. \"That's the one.\"",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "The stage manager lifts her hand. \"Cue-to-cue,\" she says. \"Standby lights. Standby sound.\" A pause. \"GO.\" And the booth comes alive. The spotlight slides across the stage like a slow gold finger. Below us, someone shakes the thunder sheet—gently, gently—and it answers with a low, rolling growl. Not a garbage can this time. Real thunder. The fog machine hums awake. White mist curls onto the stage and starts to rise. It rises. It keeps rising. \"Uh oh,\" says the lighting person. The fog swallows the actors' shoes. Then their knees. Then their whole bodies. Gone. Nothing but a white sea where our actors used to be. \"Cut the fog!\" calls the stage manager. The machine stops. Slowly, slowly, the mist sinks back down. Two actors reappear, blinking like surprised owls. We can't help it—we laugh. \"The fog means well,\" says the sound effects person. \"It just doesn't know when to stop.\" She shows us the trick. \"Count it. One potato, two potato—then off.\" We try it. One potato, two potato. Click. The fog rolls out low and stays low, hugging the floor like a magic carpet. The actors wade through it, visible from the waist up, floating. \"Beautiful,\" whispers the stage manager. The thunder sheet gives a small, proud wobble. Rumble. Just a little one. Like it knows.",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "Opening night. The booth is dark. Our headsets crackle. \"Standby storm,\" whispers the stage manager. \"GO.\" We take hold of the thunder sheet. Slow. Slow. We wobble it low, and it answers with a growl that rolls out over the seats. The audience gasps. A real gasp, all at once, like one big lung. The sound effects person grins and slides the spotlight wider. Rain crackles in the speaker. We wobble again, softer, and the storm wanders away over the hills. After the show, she presses something into our hands. A small square of the sunset gel. \"For the crew,\" she says. That night we hold it up to the lamp in our room. The whole wall turns fire-orange. We sit in our own little sunset. \"We made them gasp,\" we say. The gel glows on the dresser, warm as a coal.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "Opening night. We stand backstage by the thunder sheet, peeking through a gap in the curtain. \"Standby sunset,\" whispers the stage manager in our headset. \"GO.\" Above us, the lighting operator slides the gel into the spotlight. Click. And the stage becomes a sea at dusk. Orange light spills across the painted waves. The actors glow like they're standing inside a peach. Out front, the audience goes very quiet—the good kind of quiet. The thunder sheet leans against us and gives one small, proud wobble. Rumble. After the show, the set painter beckons us over. She hands us a tiny painted flat—a miniature of the castle wall we braced. \"For the crew,\" she says. It's light enough to carry with one hand. But it holds the whole show. We set it on our shelf at home, where it catches the morning sun. \"That's ours,\" we say. \"We helped build that.\"",
-      "next": null
-    }
-  ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "\"You can only learn one tool before the cue-to-cue. Do you want to make the thunder, or paint the sunset?\"",
-      "options": [
-        {
-          "say_word": "Thunder",
-          "label": "Learn the thunder sheet",
-          "tone_lean": "bold",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Sunset",
-          "label": "Try the spotlight gel",
-          "tone_lean": "gentle",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "\"Where do you want to stand when the show starts? In the booth with the sliders, or backstage with the noisemakers?\"",
-      "options": [
-        {
-          "say_word": "Booth",
-          "label": "Watch from the lighting booth",
-          "tone_lean": "gentle",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s4a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Backstage",
-          "label": "Stand by the thunder sheet",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.theater_and_pretending",
-      "topic_tier": "curriculum",
-      "parent_topic": null,
-      "age_band": "7-8",
-      "age": 8,
-      "family_context": "none — library story for everyone",
-      "seed": 28
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "make_and_build",
-      "why": "The topic is literally about how sets, spotlights, and sound effects are constructed and operated, so a step-by-step making-of story fits the material better than a journey or romp.",
-      "backup": "romp",
-      "candidates": [
-        {
-          "pattern": "journey",
-          "base_weight": 0.24,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.24,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred make_and_build"
-        },
-        {
-          "pattern": "mystery",
-          "base_weight": 0.2,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.18,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.18,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.14,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.14,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.12,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.12,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.08,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.08,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred make_and_build"
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "crazy_inventor",
-        "accent": "silly"
-      },
-      "accent_carrier": "The thunder sheet (a wobbly, door-sized piece of metal with a mind of its own and a tendency to sound like a garbage can at the wrong moment)",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "we_adventure",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "A mistake in rehearsal is information, not failure.",
-      "why": "The thunder sheet that sounds like a garbage can and the fog that swallows the actors are not disasters; they are the exact moments that teach us how to wobble slow and count 'one potato, two potato.'"
-    },
-    "cast": [
-      {
-        "role": "The stage manager",
-        "reused": false,
-        "why": "Wears the headset, calls 'places please,' and knows where every tape mark goes—she is the one who teaches us that a show is a chain of tiny timed moments."
-      },
-      {
-        "role": "The sound effects person",
-        "reused": false,
-        "why": "Keeper of the thunder sheet and the bean tube; shows us how to wobble slow instead of shake fast, turning noise into weather."
-      },
-      {
-        "role": "The lighting operator",
-        "reused": false,
-        "why": "Sits in the booth with the glowing sliders; lets us slide one lever and teaches us that a white spotlight becomes a sunset only when a colored gel slides in front."
-      },
-      {
-        "role": "A kid who wanted to be on stage but got assigned to crew",
-        "reused": false,
-        "why": "Our point-of-view anchor; starts out wanting the spotlight, ends up proud to be the one who makes the spotlight matter."
-      }
-    ],
-    "materials": {
-      "selected": [
-        "A spotlight doesn't make its own light color; a colored plastic sheet called a gel slides in front of the beam",
-        "The sound of a thunderstorm in a play is often made backstage by shaking a big thin sheet of metal",
-        "A rain sound effect can be made by pouring dried beans or rice slowly back and forth inside a long tube",
-        "Many theaters have a hidden room called a booth high at the back of the audience",
-        "Before a show, actors do a 'tech rehearsal' where they may say one line and then stand still for minutes",
-        "The dusty backstage area behind the curtain, full of leaning painted walls and coiled ropes",
-        "The lighting booth at the back of the auditorium, a tiny room of glowing sliders above the seats",
-        "The wobble: the painted flat keeps tipping over until someone shows how a triangular brace behind it works like a kickstand",
-        "The moment the spotlight gel goes in and the plain white stage suddenly looks like a sunset over the sea",
-        "Testing the thunder sheet: first shake sounds like nothing, second shake sounds like a garbage can, third shake—after learning to wobble it slow—sounds like a real storm",
-        "The dress rehearsal disaster where the fog machine makes too much fog and the actors vanish completely, so the crew learns to count 'one potato, two potato' and stop",
-        "The jobs nobody applauds for are the ones that make the applause possible—crew pride",
-        "A cue-to-cue rehearsal where the stage manager says 'standby lights, standby sound... GO'"
-      ],
-      "gathered_but_unused": [
-        "A spotlight doesn't make its own light color; a colored plastic sheet called a gel slides in front of the beam, and one lamp can become moonlight-blue or fire-orange just by swapping the gel.",
-        "The sound of a thunderstorm in a play is often made backstage by shaking a big thin sheet of metal, and the wobble travels through the air just like real thunder.",
-        "Stage sets are often built from flats—wooden frames covered in canvas and painted—that look like solid brick walls from the audience but are light enough for one person to carry.",
-        "Many theaters have a hidden room called a booth high at the back of the audience where one person runs the lights and another runs the sound, watching the show through a little window.",
-        "A rain sound effect can be made by pouring dried beans or rice slowly back and forth inside a long tube or across a drum, and the audience hears pattering rain on a roof.",
-        "Before a show, actors do a 'tech rehearsal' where they may say one line and then stand still for minutes while the light and sound crews practice their cues around them.",
-        "The curtain at the front of a stage is sometimes called 'the grand drape,' and it can weigh hundreds of pounds because thick velvet soaks up light and sound so the magic stays hidden until showtime.",
-        "Fog on stage that hugs the floor like a magic carpet is made by chilling fog so it becomes heavier than air, which is why it creeps around actors' ankles instead of floating up."
-      ]
-    },
-    "safety_beat": "In the lighting booth, the lighting operator shows us where to stand so we can see the stage through the little window without blocking the sliders—competence, not warning.",
-    "motif": "The slow wobble—first the metal sheet that sounds like trash, then the light that finds its color, then the fog that learns to behave.",
-    "shelf_at_build_time": [],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": false,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "leave it alone",
-          "why": "The story already does its work: it makes backstage craft legible and thrilling through named tools, patient step-by-step doing, and sound-words that land as their own small sentences, with a warm crew who pay attention to the child-narrator."
-        }
-      ],
-      "cards_used": [],
-      "listener_felt_arc": {
-        "s1": "wide-eyed and invited in",
-        "s2a": "giggly, then a held breath, then proud",
-        "s2b": "snug and curious, leaning toward the glow",
-        "s3": "delight, a held breath, a giggle, then settled pride",
-        "s4a": "heart-pounding, then warm as a coal",
-        "s4b": "hushed wonder, then satisfied and tall"
-      },
-      "segments_revised": 0,
-      "segments_rejected": 0
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "pass",
-        "notes": "0 blocking, 14 warning. [s1] evaluation-ish phrase: 'are behind' (usually literal; check it isn't a developmental comparison); [s1] flat rhythm: sentence lengths vary little (spread 4.7); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 3.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.7); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 32% of sentences carry speech or action"
-      }
-    ],
-    "writers_notes": [
-      "[s1] evaluation-ish phrase: 'are behind' (usually literal; check it isn't a developmental comparison)",
-      "[s1] flat rhythm: sentence lengths vary little (spread 4.7)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] flat rhythm: sentence lengths vary little (spread 3.7)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] narration heavy: only 32% of sentences carry speech or action",
-      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
-      "[s4a] narration heavy: only 38% of sentences carry speech or action",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 4.2)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s1] evaluation-ish phrase: 'are behind' (usually literal; check it isn't a developmental comparison)",
-      "[s1] flat rhythm: sentence lengths vary little (spread 4.7)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] flat rhythm: sentence lengths vary little (spread 3.7)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] narration heavy: only 32% of sentences carry speech or action",
-      "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
-      "[s4a] narration heavy: only 38% of sentences carry speech or action",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 4.2)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[story] slots: declared but never used: ['our_show_name', 'thunder_sheet_name']"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run_girl",
-      "source_file": "29_theater_and_pretending_kimik3_demo.json",
-      "depth": 1
-    }
+  "teller_choice": {
+   "chosen": "we_adventure",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "depth": 1
+  "value_decision": {
+   "included": true,
+   "value": "A mistake in rehearsal is information, not failure.",
+   "why": "The thunder sheet that sounds like a garbage can and the fog that swallows the actors are not disasters; they are the exact moments that teach us how to wobble slow and count 'one potato, two potato.'"
+  },
+  "cast": [
+   {
+    "role": "The stage manager",
+    "reused": false,
+    "why": "Wears the headset, calls 'places please,' and knows where every tape mark goes—she is the one who teaches us that a show is a chain of tiny timed moments."
+   },
+   {
+    "role": "The sound effects person",
+    "reused": false,
+    "why": "Keeper of the thunder sheet and the bean tube; shows us how to wobble slow instead of shake fast, turning noise into weather."
+   },
+   {
+    "role": "The lighting operator",
+    "reused": false,
+    "why": "Sits in the booth with the glowing sliders; lets us slide one lever and teaches us that a white spotlight becomes a sunset only when a colored gel slides in front."
+   },
+   {
+    "role": "A kid who wanted to be on stage but got assigned to crew",
+    "reused": false,
+    "why": "Our point-of-view anchor; starts out wanting the spotlight, ends up proud to be the one who makes the spotlight matter."
+   }
+  ],
+  "materials": {
+   "selected": [
+    "A spotlight doesn't make its own light color; a colored plastic sheet called a gel slides in front of the beam",
+    "The sound of a thunderstorm in a play is often made backstage by shaking a big thin sheet of metal",
+    "A rain sound effect can be made by pouring dried beans or rice slowly back and forth inside a long tube",
+    "Many theaters have a hidden room called a booth high at the back of the audience",
+    "Before a show, actors do a 'tech rehearsal' where they may say one line and then stand still for minutes",
+    "The dusty backstage area behind the curtain, full of leaning painted walls and coiled ropes",
+    "The lighting booth at the back of the auditorium, a tiny room of glowing sliders above the seats",
+    "The wobble: the painted flat keeps tipping over until someone shows how a triangular brace behind it works like a kickstand",
+    "The moment the spotlight gel goes in and the plain white stage suddenly looks like a sunset over the sea",
+    "Testing the thunder sheet: first shake sounds like nothing, second shake sounds like a garbage can, third shake—after learning to wobble it slow—sounds like a real storm",
+    "The dress rehearsal disaster where the fog machine makes too much fog and the actors vanish completely, so the crew learns to count 'one potato, two potato' and stop",
+    "The jobs nobody applauds for are the ones that make the applause possible—crew pride",
+    "A cue-to-cue rehearsal where the stage manager says 'standby lights, standby sound... GO'"
+   ],
+   "gathered_but_unused": [
+    "A spotlight doesn't make its own light color; a colored plastic sheet called a gel slides in front of the beam, and one lamp can become moonlight-blue or fire-orange just by swapping the gel.",
+    "The sound of a thunderstorm in a play is often made backstage by shaking a big thin sheet of metal, and the wobble travels through the air just like real thunder.",
+    "Stage sets are often built from flats—wooden frames covered in canvas and painted—that look like solid brick walls from the audience but are light enough for one person to carry.",
+    "Many theaters have a hidden room called a booth high at the back of the audience where one person runs the lights and another runs the sound, watching the show through a little window.",
+    "A rain sound effect can be made by pouring dried beans or rice slowly back and forth inside a long tube or across a drum, and the audience hears pattering rain on a roof.",
+    "Before a show, actors do a 'tech rehearsal' where they may say one line and then stand still for minutes while the light and sound crews practice their cues around them.",
+    "The curtain at the front of a stage is sometimes called 'the grand drape,' and it can weigh hundreds of pounds because thick velvet soaks up light and sound so the magic stays hidden until showtime.",
+    "Fog on stage that hugs the floor like a magic carpet is made by chilling fog so it becomes heavier than air, which is why it creeps around actors' ankles instead of floating up."
+   ]
+  },
+  "safety_beat": "In the lighting booth, the lighting operator shows us where to stand so we can see the stage through the little window without blocking the sliders—competence, not warning.",
+  "motif": "The slow wobble—first the metal sheet that sounds like trash, then the light that finds its color, then the fog that learns to behave.",
+  "shelf_at_build_time": [],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": false,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "leave it alone",
+     "why": "The story already does its work: it makes backstage craft legible and thrilling through named tools, patient step-by-step doing, and sound-words that land as their own small sentences, with a warm crew who pay attention to the child-narrator."
+    }
+   ],
+   "cards_used": [],
+   "listener_felt_arc": {
+    "s1": "wide-eyed and invited in",
+    "s2a": "giggly, then a held breath, then proud",
+    "s2b": "snug and curious, leaning toward the glow",
+    "s3": "delight, a held breath, a giggle, then settled pride",
+    "s4a": "heart-pounding, then warm as a coal",
+    "s4b": "hushed wonder, then satisfied and tall"
+   },
+   "segments_revised": 0,
+   "segments_rejected": 0
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "pass",
+    "notes": "0 blocking, 14 warning. [s1] evaluation-ish phrase: 'are behind' (usually literal; check it isn't a developmental comparison); [s1] flat rhythm: sentence lengths vary little (spread 4.7); [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: sentence lengths vary little (spread 3.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.7); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 32% of sentences carry speech or action"
+   }
+  ],
+  "writers_notes": [
+   "[s1] evaluation-ish phrase: 'are behind' (usually literal; check it isn't a developmental comparison)",
+   "[s1] flat rhythm: sentence lengths vary little (spread 4.7)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] flat rhythm: sentence lengths vary little (spread 3.7)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] narration heavy: only 32% of sentences carry speech or action",
+   "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
+   "[s4a] narration heavy: only 38% of sentences carry speech or action",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 4.2)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s1] evaluation-ish phrase: 'are behind' (usually literal; check it isn't a developmental comparison)",
+   "[s1] flat rhythm: sentence lengths vary little (spread 4.7)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] flat rhythm: sentence lengths vary little (spread 3.7)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] narration heavy: only 32% of sentences carry speech or action",
+   "[s3] abstract mood word: 'beautiful' usually means a feeling was told, not given",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 3.9)",
+   "[s4a] narration heavy: only 38% of sentences carry speech or action",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 4.2)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[story] slots: declared but never used: ['our_show_name', 'thunder_sheet_name']"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run_girl",
+   "source_file": "29_theater_and_pretending_kimik3_demo.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "A grand red stage curtain just beginning to open, a warm golden glow of stage light spilling through the widening gap.",
+  "mood": "Inviting anticipation and wonder — the moment before the show begins; not dark, not ominous.",
+  "stroke": "Soft, feathery strokes with light layering, the glow rendered in gentle warm pencil.",
+  "derived_by": "hand-edited"
+ }
 }

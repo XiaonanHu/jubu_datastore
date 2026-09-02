@@ -1,331 +1,337 @@
 {
-  "id": "story.ocean_animals.age9to10.d1.pregen.5b2db0",
-  "title": "The City Beneath the Boat",
-  "age_band": "9-10",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.ocean_animals",
-    "sel_theme": null,
-    "value_lesson": "Every job matters, even the tiny ones; symbiosis as a picture of friendship",
-    "story_element": null,
-    "secondary": []
+ "id": "story.ocean_animals.age9to10.d1.pregen.5b2db0",
+ "title": "The City Beneath the Boat",
+ "age_band": "9-10",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.ocean_animals",
+  "sel_theme": null,
+  "value_lesson": "Every job matters, even the tiny ones; symbiosis as a picture of friendship",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "journey",
+ "teller": "named_hero",
+ "tone": {
+  "dominant": "cozy",
+  "accent": "curious_wonder"
+ },
+ "spine": "A glass-bottom boat tour of a coral reef becomes a journey through a living city, meeting its builders, cleaners, and guards, until the reef reveals it is two cities in one.",
+ "slots": {
+  "hero_name": {
+   "role": "The child hero's first name",
+   "kind": "naming",
+   "ask_child": true,
+   "default": "Wren"
   },
-  "pattern": "journey",
-  "teller": "named_hero",
-  "tone": {
+  "boat_name": {
+   "role": "The glass-bottom boat's name, used playfully by Marina",
+   "kind": "playthrough",
+   "ask_child": true,
+   "default": "The Window"
+  }
+ },
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "The water under the boat was making a noise like a thousand tiny crackers snapping at once. Crackle. Pop. {hero_name} pressed both hands flat against the glass bottom of {boat_name} and felt it, a fizzing little tickle, right up through the floor. \"Hear that?\" said Marina. She ran the snorkel tours, and she talked about the reef the way other people talk about their own street. She did not say the fish. She said the neighbours. \"That's the city waking up,\" she said. \"The workers are already out.\" {hero_name} looked down. Below the glass, the morning sun fell through the water in long, wobbling nets of gold, and far beneath them lay pale sand and dark shapes that might have been towers, or might have been rocks. \"It's called a coral reef,\" Marina said, \"but really, it's a city. It has cleaners, and guards, and builders, and all of them live off tiny drifting specks called plankton that float past like delivery carts.\" She grinned. \"And everybody here has a deal with everybody else. You clean my teeth, I don't eat you. That's symbiosis.\" She handed {hero_name} a mask. \"The quiet tide won't last. Once the big engines start, the shy ones hide. So. Do you want to hear about the city, or do you want to meet it?\"",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
+  },
+  {
+   "id": "s2a",
+   "text": "The water slid shut over their heads, cool and quiet, and the crackling came from everywhere at once. Marina pointed down, and they followed her into the canyon. Two tall walls rose on either side, and the space between them was full of fish, streaming along in both directions like traffic on a busy street. A school of silver ones parted around them, quick as a blink. Marina pressed her finger flat against the wall and waited until they did the same. The wall was warm. Bumpy. Alive. This whole tower, she told them, had been built by coral polyps, animals smaller than a fingernail, stacked on top of their grandmothers and great-great-grandmothers. Inside each polyp, tiny golden algae were catching the sunlight right now, turning it into food, like little solar panels that fed the whole city. Then they heard it. Crunch. Crunch. Something big and slow came around the bend, a parrotfish with a beak like a garden gate, biting chunks out of the coral. Old Bumper. He cruised past without a glance, and out of his tail end poured a soft white cloud of fresh sand, settling down through the water like snow. Marina's eyes went wide and delighted, and she pointed after him. He was heading deeper in, toward a wall nobody had bitten yet. They kicked off the canyon floor and followed the falling snow.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "The turtle was waiting above the reef top, moving its flippers the way slow swimmers do in a pool, barely trying, going somewhere anyway. Marina waved, and the turtle did not wave back, because it was a turtle, but it did wait for them to catch up. They swam alongside, looking down. From up here the city made sense. Towers here. Streets there. A flat rooftop where fish drifted in a loose crowd, the way pigeons gather on a church. Marina pointed down at a boulder of coral and told them to look closer. The whole surface was fuzzy, and the fuzz was mouths. Coral polyps, each one the size of a grain of rice, and inside every single one, a million golden algae were drinking the sunlight and turning it into food, enough to feed the whole reef. Solar panels, Marina called them, with her eyebrows up. The turtle dipped its head, slow and certain, toward a flat coral head a little way off. Big fish were gathering there already, lining up in a neat row, one behind the other, like customers waiting outside a shop before it opens. Nobody was pushing. Everybody seemed to know exactly where to stand. The turtle was going to join the line, and it was not going to slow down for them. They kicked hard to keep up.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "The trail ended at a wide, flat coral head, pale as a dinner plate, and Marina pulled up short. \"Well,\" she whispered. \"The car wash.\" Big fish hovered over it in a patient line, one behind the other, waiting their turn like cars on a Saturday. At the front, a grouper the size of a door hung perfectly still with its mouth wide open. \"What did you just find?\" Marina murmured. \"Hold on to it. This is where it fits.\" Then {hero_name} saw the cleaner. A tiny striped fish, no longer than a finger, darted straight into the grouper's open mouth. In. Around. Out through the gills. \"That's Pip,\" Marina said. \"He eats the itchy bits right off their teeth. Nobody eats Pip. That's the deal.\" The grouper didn't flinch. It was holding still on purpose, the way you hold still for a haircut. \"Symbiosis,\" Marina said. \"Pip gets lunch. The grouper gets clean. Neither could do the other's job.\" {hero_name} drifted closer, slow as sinking snow — and something small and orange shot out of the anemone below and bumped the mask with its nose. A clownfish, no bigger than a thumb, guarding its whole house. It glared. It charged again. Then it dove back into the tentacles, safe where any other fish would be stung. Nearby, a striped damselfish fanned its tail over a patch of purple eggs while hungry shapes circled and circled. \"Easy,\" Marina whispered. \"This whole place runs on trust. One splash, and the line scatters.\" {hero_name} held very, very still, and the line held too.",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "\"The edge,\" said {hero_name}. \"I want to see the deep.\" Marina kicked slow, one hand resting light on the mooring buoy line, so {boat_name} stayed exactly where the bottom fell away. \"My grandfather taught me this spot,\" she said. \"The city ends here. After this, no streets.\" {hero_name} looked down. The coral towers stopped all at once, like a town at the edge of a map, and below them the water went blue, then bluer, then a blue so deep it drank the light. No bottom. None. \"The day shift doesn't go down there,\" Marina said. \"Different neighbours do.\" Something moved far below. A long grey shape, unhurried, sliding through the dark like a door closing slowly. \"Shark,\" Marina whispered. \"Doing the night patrol.\" Then a jellyfish drifted up past the drop-off, glowing faintly at the edges, pulsing like a slow heartbeat, and behind it, smaller lights blinked on and off, on and off, fish that carry their own lamps because the sun's never reached them. {hero_name} held very still and watched one light travel a long way through the dark. \"Will we ever go down?\" {hero_name} asked. \"Not today,\" Marina said. \"Some doors stay closed for another trip. That's all right. It means the city's bigger than one visit.\" Back on the boat, the light going gold and thin, Marina pressed something into {hero_name}'s hand. A handful of beach sand, soft as flour. \"Most of that,\" she said, \"is parrotfish poop. They crunch coral all day, and out comes sand. Half this beach came through a fish.\" {hero_name} laughed and didn't let go of it. Below, along the reef, little lights were coming on, one by one, all down the streets. The night shift, clocking in.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "\"We'll stay,\" said {hero_name}. \"I want to watch the shift change.\" \"Good,\" said Marina. \"Then pick one spot. One patch of coral. Don't look anywhere else.\" {hero_name} chose a round coral head below the boat, bumpy as a loaf of bread, and waited. Nothing happened. The water went from gold to copper to a deep, soft purple. Still nothing. \"Is it broken?\" {hero_name} whispered. \"Patience,\" Marina said. \"The night shift doesn't hurry.\" And then, on the one patch {hero_name} was watching, something moved. A tiny tentacle, thin as an eyelash, reached out of a hole that had been shut all day. Then another. Then the whole coral head was waving, hundreds of feathery arms unfolding like slow fingers, all reaching into the dark water. \"The polyps,\" Marina breathed. \"They build the towers by day and catch plankton by night. Same workers. Double shift.\" {boat_name}'s lights came on, and the street filled with shapes that had been hiding since morning. A long skinny fish slid out of a crack and hung upside down, hunting. Something with too many legs picked its way along a ledge. And there, on the same coral head, the damselfish that had fanned its eggs all day was still there, still fanning, working the night shift too. \"She never stopped,\" {hero_name} said. \"Some jobs don't end,\" said Marina. \"Two cities, {hero_name}. Same walls, same street. One sleeps, one wakes.\" She handed up a handful of beach sand, soft as flour. \"Souvenir. Most of it's parrotfish poop, if you can believe it.\" {hero_name} could. Below, every wall was waving now, all down the street, like the whole city saying goodnight and good morning at the very same time.",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "\"First stop on the tour, and you get to pick it. Do you want to drop down into the canyon where the builders work, or ride along with my old turtle friend and see the whole city from above?\"",
+   "options": [
+    {
+     "say_word": "Canyon",
+     "label": "Drop into the coral canyon to meet the builders",
+     "tone_lean": "bold",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Turtle",
+     "label": "Glide with the sea turtle above the reef",
+     "tone_lean": "gentle",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "\"The sun's dropping, so we can only do one more thing. Do you want to swim out to the edge and look down into the deep, or stay right here and watch this street wake up for the night shift?\"",
+   "options": [
+    {
+     "say_word": "The edge",
+     "label": "Swim to the reef edge and peer into the deep blue",
+     "tone_lean": "bold",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s4a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Night shift",
+     "label": "Stay and watch the reef change to its night shift",
+     "tone_lean": "gentle",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.ocean_animals",
+   "topic_tier": "curriculum",
+   "parent_topic": null,
+   "age_band": "9-10",
+   "age": 9,
+   "family_context": "none — library story for everyone",
+   "seed": 9
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "journey",
+   "why": "A coral reef as an underwater city naturally invites a journey through its neighborhoods, meeting the cleaners, guards, and builders along the way.",
+   "backup": "mystery",
+   "candidates": [
+    {
+     "pattern": "mystery",
+     "base_weight": 0.24,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2791,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred journey"
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.18,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2093,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred journey"
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.15,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.1744,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "journey",
+     "base_weight": 0.28,
+     "shelf_nudge": 0.5,
+     "family_nudge": 1.0,
+     "final_weight": 0.1628,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.08,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.093,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.05,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.0581,
+     "sampled": false,
+     "rejected_because": null
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "cozy",
     "accent": "curious_wonder"
+   },
+   "accent_carrier": "Pip, the cleaner wrasse, whose fearless darting in and out of a giant grouper's mouth turns every fact into a small astonishment.",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "A glass-bottom boat tour of a coral reef becomes a journey through a living city, meeting its builders, cleaners, and guards, until the reef reveals it is two cities in one.",
-  "slots": {
-    "hero_name": {
-      "role": "The child hero's first name",
-      "kind": "naming",
-      "ask_child": true,
-      "default": "Wren"
-    },
-    "boat_name": {
-      "role": "The glass-bottom boat's name, used playfully by Marina",
-      "kind": "playthrough",
-      "ask_child": true,
-      "default": "The Window"
-    }
+  "teller_choice": {
+   "chosen": "named_hero",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "The water under the boat was making a noise like a thousand tiny crackers snapping at once. Crackle. Pop. {hero_name} pressed both hands flat against the glass bottom of {boat_name} and felt it, a fizzing little tickle, right up through the floor. \"Hear that?\" said Marina. She ran the snorkel tours, and she talked about the reef the way other people talk about their own street. She did not say the fish. She said the neighbours. \"That's the city waking up,\" she said. \"The workers are already out.\" {hero_name} looked down. Below the glass, the morning sun fell through the water in long, wobbling nets of gold, and far beneath them lay pale sand and dark shapes that might have been towers, or might have been rocks. \"It's called a coral reef,\" Marina said, \"but really, it's a city. It has cleaners, and guards, and builders, and all of them live off tiny drifting specks called plankton that float past like delivery carts.\" She grinned. \"And everybody here has a deal with everybody else. You clean my teeth, I don't eat you. That's symbiosis.\" She handed {hero_name} a mask. \"The quiet tide won't last. Once the big engines start, the shy ones hide. So. Do you want to hear about the city, or do you want to meet it?\"",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "The water slid shut over their heads, cool and quiet, and the crackling came from everywhere at once. Marina pointed down, and they followed her into the canyon. Two tall walls rose on either side, and the space between them was full of fish, streaming along in both directions like traffic on a busy street. A school of silver ones parted around them, quick as a blink. Marina pressed her finger flat against the wall and waited until they did the same. The wall was warm. Bumpy. Alive. This whole tower, she told them, had been built by coral polyps, animals smaller than a fingernail, stacked on top of their grandmothers and great-great-grandmothers. Inside each polyp, tiny golden algae were catching the sunlight right now, turning it into food, like little solar panels that fed the whole city. Then they heard it. Crunch. Crunch. Something big and slow came around the bend, a parrotfish with a beak like a garden gate, biting chunks out of the coral. Old Bumper. He cruised past without a glance, and out of his tail end poured a soft white cloud of fresh sand, settling down through the water like snow. Marina's eyes went wide and delighted, and she pointed after him. He was heading deeper in, toward a wall nobody had bitten yet. They kicked off the canyon floor and followed the falling snow.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "The turtle was waiting above the reef top, moving its flippers the way slow swimmers do in a pool, barely trying, going somewhere anyway. Marina waved, and the turtle did not wave back, because it was a turtle, but it did wait for them to catch up. They swam alongside, looking down. From up here the city made sense. Towers here. Streets there. A flat rooftop where fish drifted in a loose crowd, the way pigeons gather on a church. Marina pointed down at a boulder of coral and told them to look closer. The whole surface was fuzzy, and the fuzz was mouths. Coral polyps, each one the size of a grain of rice, and inside every single one, a million golden algae were drinking the sunlight and turning it into food, enough to feed the whole reef. Solar panels, Marina called them, with her eyebrows up. The turtle dipped its head, slow and certain, toward a flat coral head a little way off. Big fish were gathering there already, lining up in a neat row, one behind the other, like customers waiting outside a shop before it opens. Nobody was pushing. Everybody seemed to know exactly where to stand. The turtle was going to join the line, and it was not going to slow down for them. They kicked hard to keep up.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "The trail ended at a wide, flat coral head, pale as a dinner plate, and Marina pulled up short. \"Well,\" she whispered. \"The car wash.\" Big fish hovered over it in a patient line, one behind the other, waiting their turn like cars on a Saturday. At the front, a grouper the size of a door hung perfectly still with its mouth wide open. \"What did you just find?\" Marina murmured. \"Hold on to it. This is where it fits.\" Then {hero_name} saw the cleaner. A tiny striped fish, no longer than a finger, darted straight into the grouper's open mouth. In. Around. Out through the gills. \"That's Pip,\" Marina said. \"He eats the itchy bits right off their teeth. Nobody eats Pip. That's the deal.\" The grouper didn't flinch. It was holding still on purpose, the way you hold still for a haircut. \"Symbiosis,\" Marina said. \"Pip gets lunch. The grouper gets clean. Neither could do the other's job.\" {hero_name} drifted closer, slow as sinking snow — and something small and orange shot out of the anemone below and bumped the mask with its nose. A clownfish, no bigger than a thumb, guarding its whole house. It glared. It charged again. Then it dove back into the tentacles, safe where any other fish would be stung. Nearby, a striped damselfish fanned its tail over a patch of purple eggs while hungry shapes circled and circled. \"Easy,\" Marina whispered. \"This whole place runs on trust. One splash, and the line scatters.\" {hero_name} held very, very still, and the line held too.",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "\"The edge,\" said {hero_name}. \"I want to see the deep.\" Marina kicked slow, one hand resting light on the mooring buoy line, so {boat_name} stayed exactly where the bottom fell away. \"My grandfather taught me this spot,\" she said. \"The city ends here. After this, no streets.\" {hero_name} looked down. The coral towers stopped all at once, like a town at the edge of a map, and below them the water went blue, then bluer, then a blue so deep it drank the light. No bottom. None. \"The day shift doesn't go down there,\" Marina said. \"Different neighbours do.\" Something moved far below. A long grey shape, unhurried, sliding through the dark like a door closing slowly. \"Shark,\" Marina whispered. \"Doing the night patrol.\" Then a jellyfish drifted up past the drop-off, glowing faintly at the edges, pulsing like a slow heartbeat, and behind it, smaller lights blinked on and off, on and off, fish that carry their own lamps because the sun's never reached them. {hero_name} held very still and watched one light travel a long way through the dark. \"Will we ever go down?\" {hero_name} asked. \"Not today,\" Marina said. \"Some doors stay closed for another trip. That's all right. It means the city's bigger than one visit.\" Back on the boat, the light going gold and thin, Marina pressed something into {hero_name}'s hand. A handful of beach sand, soft as flour. \"Most of that,\" she said, \"is parrotfish poop. They crunch coral all day, and out comes sand. Half this beach came through a fish.\" {hero_name} laughed and didn't let go of it. Below, along the reef, little lights were coming on, one by one, all down the streets. The night shift, clocking in.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "\"We'll stay,\" said {hero_name}. \"I want to watch the shift change.\" \"Good,\" said Marina. \"Then pick one spot. One patch of coral. Don't look anywhere else.\" {hero_name} chose a round coral head below the boat, bumpy as a loaf of bread, and waited. Nothing happened. The water went from gold to copper to a deep, soft purple. Still nothing. \"Is it broken?\" {hero_name} whispered. \"Patience,\" Marina said. \"The night shift doesn't hurry.\" And then, on the one patch {hero_name} was watching, something moved. A tiny tentacle, thin as an eyelash, reached out of a hole that had been shut all day. Then another. Then the whole coral head was waving, hundreds of feathery arms unfolding like slow fingers, all reaching into the dark water. \"The polyps,\" Marina breathed. \"They build the towers by day and catch plankton by night. Same workers. Double shift.\" {boat_name}'s lights came on, and the street filled with shapes that had been hiding since morning. A long skinny fish slid out of a crack and hung upside down, hunting. Something with too many legs picked its way along a ledge. And there, on the same coral head, the damselfish that had fanned its eggs all day was still there, still fanning, working the night shift too. \"She never stopped,\" {hero_name} said. \"Some jobs don't end,\" said Marina. \"Two cities, {hero_name}. Same walls, same street. One sleeps, one wakes.\" She handed up a handful of beach sand, soft as flour. \"Souvenir. Most of it's parrotfish poop, if you can believe it.\" {hero_name} could. Below, every wall was waving now, all down the street, like the whole city saying goodnight and good morning at the very same time.",
-      "next": null
-    }
+  "value_decision": {
+   "included": true,
+   "value": "Every job matters, even the tiny ones; symbiosis as a picture of friendship",
+   "why": "The material offers it naturally: rice-sized polyps build towers, a finger-length wrasse serves a grouper, clownfish and anemone protect each other. The lesson rides in the scenes themselves rather than being stated."
+  },
+  "cast": [
+   {
+    "role": "Hero: a child snorkeler (named by slot)",
+    "reused": false,
+    "why": "The named_hero teller needs a concrete child to follow through the reef city; third person keeps the narrator out of the listening child's space."
+   },
+   {
+    "role": "Guide: Marina, the snorkel leader who knows the reef like a hometown",
+    "reused": false,
+    "why": "The guide character from the material points out hidden workers a visitor would swim past; she asks the choice questions in her own easy voice."
+   },
+   {
+    "role": "Pip, the cleaner wrasse at the station",
+    "reused": false,
+    "why": "Carries the curious_wonder accent; the fearless little fish who bosses a grouper embodies the size-reversal theme and can recur across scenes."
+   },
+   {
+    "role": "Old Bumper, the parrotfish builder and sand-maker",
+    "reused": false,
+    "why": "His crunching is heard before he is seen (sound-before-sight pattern), and his sand-poop fact is the carried-home discovery."
+   },
+   {
+    "role": "A sea turtle who leads a stretch of the journey",
+    "reused": false,
+    "why": "Gives the journey its slow, calm, bird's-eye movement beat and opens the wider door toward sea turtles."
+   }
   ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "\"First stop on the tour, and you get to pick it. Do you want to drop down into the canyon where the builders work, or ride along with my old turtle friend and see the whole city from above?\"",
-      "options": [
-        {
-          "say_word": "Canyon",
-          "label": "Drop into the coral canyon to meet the builders",
-          "tone_lean": "bold",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Turtle",
-          "label": "Glide with the sea turtle above the reef",
-          "tone_lean": "gentle",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "\"The sun's dropping, so we can only do one more thing. Do you want to swim out to the edge and look down into the deep, or stay right here and watch this street wake up for the night shift?\"",
-      "options": [
-        {
-          "say_word": "The edge",
-          "label": "Swim to the reef edge and peer into the deep blue",
-          "tone_lean": "bold",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s4a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Night shift",
-          "label": "Stay and watch the reef change to its night shift",
-          "tone_lean": "gentle",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.ocean_animals",
-      "topic_tier": "curriculum",
-      "parent_topic": null,
-      "age_band": "9-10",
-      "age": 9,
-      "family_context": "none — library story for everyone",
-      "seed": 9
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "journey",
-      "why": "A coral reef as an underwater city naturally invites a journey through its neighborhoods, meeting the cleaners, guards, and builders along the way.",
-      "backup": "mystery",
-      "candidates": [
-        {
-          "pattern": "mystery",
-          "base_weight": 0.24,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2791,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred journey"
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.18,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2093,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred journey"
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.15,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.1744,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "journey",
-          "base_weight": 0.28,
-          "shelf_nudge": 0.5,
-          "family_nudge": 1.0,
-          "final_weight": 0.1628,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.08,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.093,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.05,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.0581,
-          "sampled": false,
-          "rejected_because": null
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "cozy",
-        "accent": "curious_wonder"
-      },
-      "accent_carrier": "Pip, the cleaner wrasse, whose fearless darting in and out of a giant grouper's mouth turns every fact into a small astonishment.",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "named_hero",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "Every job matters, even the tiny ones; symbiosis as a picture of friendship",
-      "why": "The material offers it naturally: rice-sized polyps build towers, a finger-length wrasse serves a grouper, clownfish and anemone protect each other. The lesson rides in the scenes themselves rather than being stated."
-    },
-    "cast": [
-      {
-        "role": "Hero: a child snorkeler (named by slot)",
-        "reused": false,
-        "why": "The named_hero teller needs a concrete child to follow through the reef city; third person keeps the narrator out of the listening child's space."
-      },
-      {
-        "role": "Guide: Marina, the snorkel leader who knows the reef like a hometown",
-        "reused": false,
-        "why": "The guide character from the material points out hidden workers a visitor would swim past; she asks the choice questions in her own easy voice."
-      },
-      {
-        "role": "Pip, the cleaner wrasse at the station",
-        "reused": false,
-        "why": "Carries the curious_wonder accent; the fearless little fish who bosses a grouper embodies the size-reversal theme and can recur across scenes."
-      },
-      {
-        "role": "Old Bumper, the parrotfish builder and sand-maker",
-        "reused": false,
-        "why": "His crunching is heard before he is seen (sound-before-sight pattern), and his sand-poop fact is the carried-home discovery."
-      },
-      {
-        "role": "A sea turtle who leads a stretch of the journey",
-        "reused": false,
-        "why": "Gives the journey its slow, calm, bird's-eye movement beat and opens the wider door toward sea turtles."
-      }
-    ],
-    "materials": {
-      "selected": [
-        "coral polyps smaller than a fingernail building towers over hundreds of years",
-        "cleaner wrasse station with big fish lined up like a car wash",
-        "clownfish and anemone symbiosis with the slime coat",
-        "algae inside coral as tiny solar panels feeding the reef",
-        "night shift: polyps stretching tentacles to catch drifting plankton",
-        "sergeant major damselfish guarding purple eggs",
-        "parrotfish crunching coral and pooping white sand",
-        "the reef's crackling, popping, drumming noise",
-        "sunlit shallows with light like moving nets of gold",
-        "coral canyon with fish streaming past like traffic",
-        "the reef edge dropping into bottomless blue",
-        "the same street seen in daylight and again at dusk",
-        "sounds arriving before sights at each stop",
-        "size reversals: tiniest creatures run the biggest operations"
-      ],
-      "gathered_but_unused": [
-        "A coral reef is built by tiny animals called coral polyps, each one smaller than your fingernail, working together over hundreds of years",
-        "Cleaner wrasse fish run tiny cleaning stations where bigger fish line up and hold still while the wrasse nibbles dead skin and parasites off their scales",
-        "Clownfish live safely among the stinging tentacles of a sea anemone because a special slime coat keeps the anemone from stinging them, and in return the clownfish chases away fish that would bite the anemone",
-        "Coral polyps and the tiny algae living inside them help each other: the algae make food from sunlight and the coral gives the algae a safe home",
-        "At night, the reef changes shifts: many coral polyps stretch out their tentacles to catch drifting plankton, and creatures that hid all day come out to hunt",
-        "Sergeant major damselfish guard their eggs fiercely, chasing away fish many times their size to keep the nest safe",
-        "Parrotfish crunch up coral rock with beak-like teeth, digest the living parts, and poop out fine white sand — much of the sand on tropical beaches started as parrotfish poop",
-        "A reef is crowded and noisy: shrimp snap their claws, fish grunt and drum, and the popping sounds can be heard through the water"
-      ]
-    },
-    "safety_beat": "In s4a at the reef edge, Marina rests one hand on the mooring buoy line and angles her fins against the mild current, showing once and lightly that she knows where to float; competence only, no warning, no tension.",
-    "motif": "The reef as a city: towers, streets, workers, and shifts changing from day to night.",
-    "shelf_at_build_time": [
-      {
-        "story_id": "story.ocean_animals.journey_001",
-        "title": "The Door in the Tide Pool",
-        "pattern": "journey",
-        "teller": "we_adventure",
-        "tone_dominant": "curious_wonder",
-        "tone_accent": "cozy"
-      }
-    ],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": false,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "leave it alone",
-          "why": "The story already sustains its city conceit with warm, precise attention, gives Marina and {hero_name} a real shared experience, and lands both endings with a quiet glow that suits a read-aloud at bedtime."
-        }
-      ],
-      "cards_used": [],
-      "listener_felt_arc": {
-        "s1": "fizzing with curiosity, invited in",
-        "s2a": "wide-eyed, chasing the falling snow",
-        "s2b": "gliding and noticing, hurrying to keep up",
-        "s3": "a delighted held breath",
-        "s4a": "hushed awe settling into warm sleepiness",
-        "s4b": "patient wonder blooming into a satisfied goodnight"
-      },
-      "segments_revised": 0,
-      "segments_rejected": 0
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "pass",
-        "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 21% of sentences carry speech or action; [s2b] no voices: segment carries no spoken line"
-      }
-    ],
-    "writers_notes": [
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] no voices: segment carries no spoken line",
-      "[s2a] narration heavy: only 21% of sentences carry speech or action",
-      "[s2b] no voices: segment carries no spoken line",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] no voices: segment carries no spoken line",
-      "[s2a] narration heavy: only 21% of sentences carry speech or action",
-      "[s2b] no voices: segment carries no spoken line"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run",
-      "source_file": "10_ocean_animals_kimik3_demo.json",
-      "depth": 1
-    }
+  "materials": {
+   "selected": [
+    "coral polyps smaller than a fingernail building towers over hundreds of years",
+    "cleaner wrasse station with big fish lined up like a car wash",
+    "clownfish and anemone symbiosis with the slime coat",
+    "algae inside coral as tiny solar panels feeding the reef",
+    "night shift: polyps stretching tentacles to catch drifting plankton",
+    "sergeant major damselfish guarding purple eggs",
+    "parrotfish crunching coral and pooping white sand",
+    "the reef's crackling, popping, drumming noise",
+    "sunlit shallows with light like moving nets of gold",
+    "coral canyon with fish streaming past like traffic",
+    "the reef edge dropping into bottomless blue",
+    "the same street seen in daylight and again at dusk",
+    "sounds arriving before sights at each stop",
+    "size reversals: tiniest creatures run the biggest operations"
+   ],
+   "gathered_but_unused": [
+    "A coral reef is built by tiny animals called coral polyps, each one smaller than your fingernail, working together over hundreds of years",
+    "Cleaner wrasse fish run tiny cleaning stations where bigger fish line up and hold still while the wrasse nibbles dead skin and parasites off their scales",
+    "Clownfish live safely among the stinging tentacles of a sea anemone because a special slime coat keeps the anemone from stinging them, and in return the clownfish chases away fish that would bite the anemone",
+    "Coral polyps and the tiny algae living inside them help each other: the algae make food from sunlight and the coral gives the algae a safe home",
+    "At night, the reef changes shifts: many coral polyps stretch out their tentacles to catch drifting plankton, and creatures that hid all day come out to hunt",
+    "Sergeant major damselfish guard their eggs fiercely, chasing away fish many times their size to keep the nest safe",
+    "Parrotfish crunch up coral rock with beak-like teeth, digest the living parts, and poop out fine white sand — much of the sand on tropical beaches started as parrotfish poop",
+    "A reef is crowded and noisy: shrimp snap their claws, fish grunt and drum, and the popping sounds can be heard through the water"
+   ]
   },
-  "depth": 1
+  "safety_beat": "In s4a at the reef edge, Marina rests one hand on the mooring buoy line and angles her fins against the mild current, showing once and lightly that she knows where to float; competence only, no warning, no tension.",
+  "motif": "The reef as a city: towers, streets, workers, and shifts changing from day to night.",
+  "shelf_at_build_time": [
+   {
+    "story_id": "story.ocean_animals.journey_001",
+    "title": "The Door in the Tide Pool",
+    "pattern": "journey",
+    "teller": "we_adventure",
+    "tone_dominant": "curious_wonder",
+    "tone_accent": "cozy"
+   }
+  ],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": false,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "leave it alone",
+     "why": "The story already sustains its city conceit with warm, precise attention, gives Marina and {hero_name} a real shared experience, and lands both endings with a quiet glow that suits a read-aloud at bedtime."
+    }
+   ],
+   "cards_used": [],
+   "listener_felt_arc": {
+    "s1": "fizzing with curiosity, invited in",
+    "s2a": "wide-eyed, chasing the falling snow",
+    "s2b": "gliding and noticing, hurrying to keep up",
+    "s3": "a delighted held breath",
+    "s4a": "hushed awe settling into warm sleepiness",
+    "s4b": "patient wonder blooming into a satisfied goodnight"
+   },
+   "segments_revised": 0,
+   "segments_rejected": 0
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "pass",
+    "notes": "0 blocking, 4 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] no voices: segment carries no spoken line; [s2a] narration heavy: only 21% of sentences carry speech or action; [s2b] no voices: segment carries no spoken line"
+   }
+  ],
+  "writers_notes": [
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] no voices: segment carries no spoken line",
+   "[s2a] narration heavy: only 21% of sentences carry speech or action",
+   "[s2b] no voices: segment carries no spoken line",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] no voices: segment carries no spoken line",
+   "[s2a] narration heavy: only 21% of sentences carry speech or action",
+   "[s2b] no voices: segment carries no spoken line"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run",
+   "source_file": "10_ocean_animals_kimik3_demo.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "A parrotfish with its distinctive beak, gently nibbling a piece of coral.",
+  "mood": "Calm and focused, conveying a sense of quiet industry, not aggressive or hurried.",
+  "stroke": "Soft, feathery strokes with light layering.",
+  "derived_by": "gemini-2.5-flash"
+ }
 }

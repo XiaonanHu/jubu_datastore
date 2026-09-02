@@ -1,334 +1,340 @@
 {
-  "id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
-  "title": "The River Inside the Sea",
-  "age_band": "9-10",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.oceans_and_tides",
-    "sel_theme": null,
-    "value_lesson": "Patience in observing slow, natural processes",
-    "story_element": null,
-    "secondary": []
+ "id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
+ "title": "The River Inside the Sea",
+ "age_band": "9-10",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.oceans_and_tides",
+  "sel_theme": null,
+  "value_lesson": "Patience in observing slow, natural processes",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "journey",
+ "teller": "we_adventure",
+ "tone": {
+  "dominant": "curious_wonder",
+  "accent": "big_adventure"
+ },
+ "spine": "We ride the Gulf Stream from a warm harbor to the place where warm and cold currents meet, discovering how the ocean's conveyor belt carries heat, salt, and travelers around the world.",
+ "slots": {
+  "turtle_name": {
+   "role": "The name of the baby sea turtle who rides the current with us",
+   "kind": "naming",
+   "ask_child": true,
+   "default": "Pip"
+  }
+ },
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "The dock smells of salt and tar and fish, and every ship in the harbor is getting ready to go somewhere. Ropes creak. Gulls argue overhead. We stand at the very end of the longest pier, where a small white boat bobs like it cannot wait one more minute.\n\n\"All aboard the water highway!\" The voice arrives before the captain does — a great booming voice that makes the gulls stop arguing. Captain Marina sweeps off her hat and bows so low the hat nearly touches the dock. \"You must be my crew. Today's current waits for no one.\"\n\n\"What current?\" we ask. The sea looks like the sea. Blue, wavy, ordinary.\n\n\"Ah,\" says a quiet voice. Dr. Salma is kneeling on the deck, unrolling a map across her knees. On it, the ocean is dark and cold — and winding through it, painted in glowing blue, is a ribbon. A river. Inside the sea. We lean in close. \"The Gulf Stream,\" she says. \"Warm water, traveling. Stronger than every river on land poured together.\"\n\nSomething splashes beside the boat. A baby sea turtle, no bigger than a dinner plate, paddling in circles.\n\n\"He's waiting for his ride,\" says Dr. Salma. \"The current carries turtles thousands of miles. It's a conveyor belt, and the whole planet rides it — heat, salt, travelers.\"\n\nCaptain Marina plants her boots wide and points out to sea with one sweeping arm. \"The ribbon is out there right now, moving. We just have to find it.\"\n\n\"How do you find a river you can't see?\" we ask.\n\n\"That,\" says Captain Marina, grinning, \"is why I need a crew.\"",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
   },
-  "pattern": "journey",
-  "teller": "we_adventure",
-  "tone": {
+  {
+   "id": "s2a",
+   "text": "\"Follow the turtle!\" we shout. \"All aboard!\" Captain Marina spins the wheel, and we chase a dinner plate with flippers. Pip paddles like he has somewhere to be. He does not look back once. \"He knows,\" says Dr. Salma. \"Watch.\"\n\nWe pass the mouth of a river, where the water swirls in two colors that will not mix. \"Hold still,\" says Dr. Salma, and she dips a cup over the side. \"Taste.\" One sip from the river side: cool, plain. One sip from the sea side: salt that makes our lips pucker. \"Salinity,\" she says. \"How much salt the water carries. The river has almost none. The ocean is loaded. The current knows the difference.\"\n\nThe water turns from green-blue to deep, bright blue, like someone pulled a curtain. The boat lifts. We are moving faster, and the engine is off. \"We're on it!\" Captain Marina booms. \"The Gulf Stream! The little navigator found it!\"\n\nPip stops paddling. He spreads his flippers and floats, and the current carries him like a moving walkway at the airport, except the walkway is warm and made of water and goes on for a thousand miles. We sail beside him, and the boat hums under our feet.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "\"The color line!\" we shout. Captain Marina's eyes go bright. \"Full sail, shipmates!\" She pulls a rope and the sail snaps tight, and the boat leans forward like a dog on a leash.\n\nDr. Salma stands at the bow, one hand shading her eyes. \"There,\" she says. \"Do you see it?\" We squint. Far out, the water changes. On this side, green-blue, the color of shallow bathtubs. On the far side, deep sapphire, dark as a marble. A faint seam runs between them, wobbling like a line drawn in chalk.\n\n\"Warm water is clearer than cold water,\" says Dr. Salma. \"The Gulf Stream carries almost no mud, no sand. Just heat and salt. That is why it looks so blue.\"\n\nThe seam gets closer. Closer. And then the boat gives a small lurch, like stepping onto an escalator, and suddenly we are gliding faster than the wind alone could push us. The water around us turns bright and clear, so clear we can see our own shadow on the surface, wobbling.\n\nTwo dolphins burst up beside the bow. They leap, splash down, leap again, riding the front of the boat like they have done this a hundred times. \"They know the highway too!\" Captain Marina laughs, and her laugh is louder than the wind.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "\"All aboard the water highway!\" Captain Marina roars, and the little boat leaps forward.\n\nThe sea changes under us. One moment we are bouncing over ordinary waves — the next, the water turns smooth and swift, and the whole ocean seems to hurry beneath the hull. The glowing ribbon. We are riding it.\n\n\"Feel this,\" says Dr. Salma. She lowers a thermometer over the side on a long string, waits, then holds it up, dripping. \"Bath-warm. This water left the Gulf of Mexico weeks ago, and it is carrying its warmth all the way to Europe. Like a conveyor belt that never stops.\"\n\nWe trail our fingers in the current. Warm. Truly warm, while the wind off the cold sea around us nips our ears.\n\n\"Sailors have ridden this river for hundreds of years,\" Captain Marina says, sweeping one arm along the horizon. \"No sails needed. The sea does the work.\"\n\nSomething bobs alongside. {turtle_name}, paddling hard, then resting, letting the current carry him. His shell gleams. He looks at us as if to say — keep up.\n\n\"The loop he is on goes all the way around the ocean,\" says Dr. Salma. \"A drop of water might travel a hundred years before it comes home.\"\n\nA hundred years. We sit with that, rocking.\n\nThen the air cools. The water darkens from blue to deep, deep slate. And ahead of us, rising off the sea like a wall, stands a great silver mist — the place where our warm ribbon meets the cold.\n\n\"There,\" whispers Dr. Salma. \"What you found got us here. Now we see what's inside.\"",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "\"Into the mist,\" we say. Nobody shouts it. Even Captain Marina only nods, one slow nod, and turns the wheel.\n\nThe fog swallows the boat. The world goes soft and white and quiet — so quiet we can hear the water moving under us, swirling, whispering. Cool mist settles on our cheeks like tiny wet kisses.\n\nNobody says anything for a long moment. We just listen.\n\n\"This fog is born right here,\" whispers Dr. Salma at last, \"where warm water kisses cold. The meeting makes the mist.\"\n\nThen we see them. Beneath the boat, fish flash silver — hundreds, thousands, turning like one enormous coin spinning in the dark. We watch them turn. We do not say a word.\n\n\"The meeting stirs up food,\" Dr. Salma breathes. \"The whole ocean comes to dinner.\"\n\nWe lean over the side and plunge one hand in. Warm. Cold. Warm again — swirls of both at once, curling round our fingers like the sea is stirring itself with a giant spoon.\n\nSomething bumps our knuckles. {turtle_name}! He pops up through the mist, riding the swirl, blinking at us as if to say — you came in! You came in!\n\nSlowly the fog thins. Silver light breaks through, and Captain Marina swings the wheel. \"The current points home, crew. All aboard!\"\n\nAt the harbor, the Moon is rising, huge and orange. Dr. Salma points up at it. \"That old Moon helps pull the tides,\" she says, \"and the tides stir the very currents we rode today.\"\n\nThen she presses something small and cool into our palm. A tiny glass float. \"It measured the current for me for years. Now it is yours.\"\n\nWe hold it and say nothing. All the way home it stays warm in our pocket — like it remembers the ribbon.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "\"Hold us here,\" we say, and Captain Marina plants her boots wide. \"Edge of the mist it is. Best seats in the house!\"\n\nFrom the border, we can see everything. Fog rises off the water in slow curls, like the sea is breathing. Birds pour out of the white and dive, dive, dive. And at the surface, fish boil silver — thousands of them, churning the water where the currents stir up food.\n\n\"Now watch,\" says Dr. Salma. She lowers a clear tube into the sea, pulls it up, and holds it to the light. Inside, two waters swirl — and slowly, the heavier one sinks, sliding down through the lighter one like syrup through water in a glass.\n\n\"Salt,\" she says. \"Salty water is heavier. It sinks — and that sinking helps push the deep currents along. The word for the saltiness is salinity. You cannot see it. But it moves the whole ocean.\"\n\nWe stare at the tube. Invisible salt, driving a river inside the sea.\n\nA flipper waves at the edge of the mist. {turtle_name}, floating past, riding the ribbon out toward the open ocean — off on his hundred-year ride. We wave back. We wave and we wave, until the white takes him.\n\nFor a while nobody moves. The water laps at the hull, soft, and the mist goes on breathing without him.\n\nThen Captain Marina turns the boat for home.\n\nOn the sail back we stop at a quiet beach, where the tide carries sand in and out, in and out. We float on our backs in the warm shallows, and the ocean holds us up like a hand.\n\nBefore we climb out, Dr. Salma presses something small into our palm. A tiny glass float. \"It measured the current for me for years,\" she says. \"Now it is yours.\"\n\nWe carry it home, still smelling of salt, and the float clicks softly in our pocket — like the sea saying goodbye.",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "\"The current's out there, shipmates, but it's invisible! So how do we find it — do we follow that little turtle, who looks like he knows the way, or do we chase the color line on the horizon, where the water changes from green to deep blue?\"",
+   "options": [
+    {
+     "say_word": "Follow",
+     "label": "Follow the baby turtle out to sea",
+     "tone_lean": "gentle",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Chase",
+     "label": "Chase the color line on the horizon",
+     "tone_lean": "bold",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "\"Here it comes, crew — the meeting place, where warm water kisses cold! Do we drift right into the mist and feel it for ourselves, or hold at the edge where we can watch the whole swirling show?\"",
+   "options": [
+    {
+     "say_word": "Drift",
+     "label": "Drift into the mist and feel the meeting",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s4a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Watch",
+     "label": "Watch the swirling meeting from the calm edge",
+     "tone_lean": "gentle",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.oceans_and_tides",
+   "topic_tier": "curriculum",
+   "parent_topic": null,
+   "age_band": "9-10",
+   "age": 9,
+   "family_context": "none — library story for everyone",
+   "seed": 21
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "journey",
+   "why": "Ocean currents are literally moving pathways that carry heat, ships, and creatures around the globe, so the material naturally feeds a journey where a child rides the Gulf Stream and discovers how salinity and temperature drive this planetary conveyor belt.",
+   "backup": "mystery",
+   "candidates": [
+    {
+     "pattern": "journey",
+     "base_weight": 0.35,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.35,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "mystery",
+     "base_weight": 0.25,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.25,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred journey"
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.2,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred journey"
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.1,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.1,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.05,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.05,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.03,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.03,
+     "sampled": false,
+     "rejected_because": null
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "curious_wonder",
     "accent": "big_adventure"
+   },
+   "accent_carrier": "Captain Marina, whose booming voice, sweeping arm gestures, and cry of 'All aboard the water highway!' carry the big_adventure tone",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "We ride the Gulf Stream from a warm harbor to the place where warm and cold currents meet, discovering how the ocean's conveyor belt carries heat, salt, and travelers around the world.",
-  "slots": {
-    "turtle_name": {
-      "role": "The name of the baby sea turtle who rides the current with us",
-      "kind": "naming",
-      "ask_child": true,
-      "default": "Pip"
-    }
+  "teller_choice": {
+   "chosen": "we_adventure",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "The dock smells of salt and tar and fish, and every ship in the harbor is getting ready to go somewhere. Ropes creak. Gulls argue overhead. We stand at the very end of the longest pier, where a small white boat bobs like it cannot wait one more minute.\n\n\"All aboard the water highway!\" The voice arrives before the captain does — a great booming voice that makes the gulls stop arguing. Captain Marina sweeps off her hat and bows so low the hat nearly touches the dock. \"You must be my crew. Today's current waits for no one.\"\n\n\"What current?\" we ask. The sea looks like the sea. Blue, wavy, ordinary.\n\n\"Ah,\" says a quiet voice. Dr. Salma is kneeling on the deck, unrolling a map across her knees. On it, the ocean is dark and cold — and winding through it, painted in glowing blue, is a ribbon. A river. Inside the sea. We lean in close. \"The Gulf Stream,\" she says. \"Warm water, traveling. Stronger than every river on land poured together.\"\n\nSomething splashes beside the boat. A baby sea turtle, no bigger than a dinner plate, paddling in circles.\n\n\"He's waiting for his ride,\" says Dr. Salma. \"The current carries turtles thousands of miles. It's a conveyor belt, and the whole planet rides it — heat, salt, travelers.\"\n\nCaptain Marina plants her boots wide and points out to sea with one sweeping arm. \"The ribbon is out there right now, moving. We just have to find it.\"\n\n\"How do you find a river you can't see?\" we ask.\n\n\"That,\" says Captain Marina, grinning, \"is why I need a crew.\"",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "\"Follow the turtle!\" we shout. \"All aboard!\" Captain Marina spins the wheel, and we chase a dinner plate with flippers. Pip paddles like he has somewhere to be. He does not look back once. \"He knows,\" says Dr. Salma. \"Watch.\"\n\nWe pass the mouth of a river, where the water swirls in two colors that will not mix. \"Hold still,\" says Dr. Salma, and she dips a cup over the side. \"Taste.\" One sip from the river side: cool, plain. One sip from the sea side: salt that makes our lips pucker. \"Salinity,\" she says. \"How much salt the water carries. The river has almost none. The ocean is loaded. The current knows the difference.\"\n\nThe water turns from green-blue to deep, bright blue, like someone pulled a curtain. The boat lifts. We are moving faster, and the engine is off. \"We're on it!\" Captain Marina booms. \"The Gulf Stream! The little navigator found it!\"\n\nPip stops paddling. He spreads his flippers and floats, and the current carries him like a moving walkway at the airport, except the walkway is warm and made of water and goes on for a thousand miles. We sail beside him, and the boat hums under our feet.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "\"The color line!\" we shout. Captain Marina's eyes go bright. \"Full sail, shipmates!\" She pulls a rope and the sail snaps tight, and the boat leans forward like a dog on a leash.\n\nDr. Salma stands at the bow, one hand shading her eyes. \"There,\" she says. \"Do you see it?\" We squint. Far out, the water changes. On this side, green-blue, the color of shallow bathtubs. On the far side, deep sapphire, dark as a marble. A faint seam runs between them, wobbling like a line drawn in chalk.\n\n\"Warm water is clearer than cold water,\" says Dr. Salma. \"The Gulf Stream carries almost no mud, no sand. Just heat and salt. That is why it looks so blue.\"\n\nThe seam gets closer. Closer. And then the boat gives a small lurch, like stepping onto an escalator, and suddenly we are gliding faster than the wind alone could push us. The water around us turns bright and clear, so clear we can see our own shadow on the surface, wobbling.\n\nTwo dolphins burst up beside the bow. They leap, splash down, leap again, riding the front of the boat like they have done this a hundred times. \"They know the highway too!\" Captain Marina laughs, and her laugh is louder than the wind.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "\"All aboard the water highway!\" Captain Marina roars, and the little boat leaps forward.\n\nThe sea changes under us. One moment we are bouncing over ordinary waves — the next, the water turns smooth and swift, and the whole ocean seems to hurry beneath the hull. The glowing ribbon. We are riding it.\n\n\"Feel this,\" says Dr. Salma. She lowers a thermometer over the side on a long string, waits, then holds it up, dripping. \"Bath-warm. This water left the Gulf of Mexico weeks ago, and it is carrying its warmth all the way to Europe. Like a conveyor belt that never stops.\"\n\nWe trail our fingers in the current. Warm. Truly warm, while the wind off the cold sea around us nips our ears.\n\n\"Sailors have ridden this river for hundreds of years,\" Captain Marina says, sweeping one arm along the horizon. \"No sails needed. The sea does the work.\"\n\nSomething bobs alongside. {turtle_name}, paddling hard, then resting, letting the current carry him. His shell gleams. He looks at us as if to say — keep up.\n\n\"The loop he is on goes all the way around the ocean,\" says Dr. Salma. \"A drop of water might travel a hundred years before it comes home.\"\n\nA hundred years. We sit with that, rocking.\n\nThen the air cools. The water darkens from blue to deep, deep slate. And ahead of us, rising off the sea like a wall, stands a great silver mist — the place where our warm ribbon meets the cold.\n\n\"There,\" whispers Dr. Salma. \"What you found got us here. Now we see what's inside.\"",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "\"Into the mist,\" we say. Nobody shouts it. Even Captain Marina only nods, one slow nod, and turns the wheel.\n\nThe fog swallows the boat. The world goes soft and white and quiet — so quiet we can hear the water moving under us, swirling, whispering. Cool mist settles on our cheeks like tiny wet kisses.\n\nNobody says anything for a long moment. We just listen.\n\n\"This fog is born right here,\" whispers Dr. Salma at last, \"where warm water kisses cold. The meeting makes the mist.\"\n\nThen we see them. Beneath the boat, fish flash silver — hundreds, thousands, turning like one enormous coin spinning in the dark. We watch them turn. We do not say a word.\n\n\"The meeting stirs up food,\" Dr. Salma breathes. \"The whole ocean comes to dinner.\"\n\nWe lean over the side and plunge one hand in. Warm. Cold. Warm again — swirls of both at once, curling round our fingers like the sea is stirring itself with a giant spoon.\n\nSomething bumps our knuckles. {turtle_name}! He pops up through the mist, riding the swirl, blinking at us as if to say — you came in! You came in!\n\nSlowly the fog thins. Silver light breaks through, and Captain Marina swings the wheel. \"The current points home, crew. All aboard!\"\n\nAt the harbor, the Moon is rising, huge and orange. Dr. Salma points up at it. \"That old Moon helps pull the tides,\" she says, \"and the tides stir the very currents we rode today.\"\n\nThen she presses something small and cool into our palm. A tiny glass float. \"It measured the current for me for years. Now it is yours.\"\n\nWe hold it and say nothing. All the way home it stays warm in our pocket — like it remembers the ribbon.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "\"Hold us here,\" we say, and Captain Marina plants her boots wide. \"Edge of the mist it is. Best seats in the house!\"\n\nFrom the border, we can see everything. Fog rises off the water in slow curls, like the sea is breathing. Birds pour out of the white and dive, dive, dive. And at the surface, fish boil silver — thousands of them, churning the water where the currents stir up food.\n\n\"Now watch,\" says Dr. Salma. She lowers a clear tube into the sea, pulls it up, and holds it to the light. Inside, two waters swirl — and slowly, the heavier one sinks, sliding down through the lighter one like syrup through water in a glass.\n\n\"Salt,\" she says. \"Salty water is heavier. It sinks — and that sinking helps push the deep currents along. The word for the saltiness is salinity. You cannot see it. But it moves the whole ocean.\"\n\nWe stare at the tube. Invisible salt, driving a river inside the sea.\n\nA flipper waves at the edge of the mist. {turtle_name}, floating past, riding the ribbon out toward the open ocean — off on his hundred-year ride. We wave back. We wave and we wave, until the white takes him.\n\nFor a while nobody moves. The water laps at the hull, soft, and the mist goes on breathing without him.\n\nThen Captain Marina turns the boat for home.\n\nOn the sail back we stop at a quiet beach, where the tide carries sand in and out, in and out. We float on our backs in the warm shallows, and the ocean holds us up like a hand.\n\nBefore we climb out, Dr. Salma presses something small into our palm. A tiny glass float. \"It measured the current for me for years,\" she says. \"Now it is yours.\"\n\nWe carry it home, still smelling of salt, and the float clicks softly in our pocket — like the sea saying goodbye.",
-      "next": null
-    }
+  "value_decision": {
+   "included": true,
+   "value": "Patience in observing slow, natural processes",
+   "why": "The material offers it naturally: the conveyor belt takes hundreds of years to complete a loop, and Dr. Salma's work is all about waiting, measuring, and watching. It rides along lightly through her character rather than being stated as a lesson."
+  },
+  "cast": [
+   {
+    "role": "Captain Marina, sea captain of the small research boat The Driftwood",
+    "reused": false,
+    "why": "Steers us along the Gulf Stream, tells stories of riding currents, and carries the big_adventure accent with theatrical flair"
+   },
+   {
+    "role": "Dr. Salma, friendly ocean scientist",
+    "reused": false,
+    "why": "Explains currents, heat, and salinity with hands-on demonstrations; her curiosity is contagious and anchors the wonder"
+   },
+   {
+    "role": "Pip, a baby sea turtle",
+    "reused": false,
+    "why": "Rides the current alongside us, showing how animals use ocean highways; gives us a small traveling companion to care about"
+   },
+   {
+    "role": "We, the curious travelers (first person plural)",
+    "reused": false,
+    "why": "The we_adventure teller; we ask questions, notice changes, and make the choices"
+   }
   ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "\"The current's out there, shipmates, but it's invisible! So how do we find it — do we follow that little turtle, who looks like he knows the way, or do we chase the color line on the horizon, where the water changes from green to deep blue?\"",
-      "options": [
-        {
-          "say_word": "Follow",
-          "label": "Follow the baby turtle out to sea",
-          "tone_lean": "gentle",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Chase",
-          "label": "Chase the color line on the horizon",
-          "tone_lean": "bold",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "\"Here it comes, crew — the meeting place, where warm water kisses cold! Do we drift right into the mist and feel it for ourselves, or hold at the edge where we can watch the whole swirling show?\"",
-      "options": [
-        {
-          "say_word": "Drift",
-          "label": "Drift into the mist and feel the meeting",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s4a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Watch",
-          "label": "Watch the swirling meeting from the calm edge",
-          "tone_lean": "gentle",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.oceans_and_tides",
-      "topic_tier": "curriculum",
-      "parent_topic": null,
-      "age_band": "9-10",
-      "age": 9,
-      "family_context": "none — library story for everyone",
-      "seed": 21
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "journey",
-      "why": "Ocean currents are literally moving pathways that carry heat, ships, and creatures around the globe, so the material naturally feeds a journey where a child rides the Gulf Stream and discovers how salinity and temperature drive this planetary conveyor belt.",
-      "backup": "mystery",
-      "candidates": [
-        {
-          "pattern": "journey",
-          "base_weight": 0.35,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.35,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "mystery",
-          "base_weight": 0.25,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.25,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred journey"
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.2,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred journey"
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.1,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.1,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.05,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.05,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.03,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.03,
-          "sampled": false,
-          "rejected_because": null
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "curious_wonder",
-        "accent": "big_adventure"
-      },
-      "accent_carrier": "Captain Marina, whose booming voice, sweeping arm gestures, and cry of 'All aboard the water highway!' carry the big_adventure tone",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "we_adventure",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "Patience in observing slow, natural processes",
-      "why": "The material offers it naturally: the conveyor belt takes hundreds of years to complete a loop, and Dr. Salma's work is all about waiting, measuring, and watching. It rides along lightly through her character rather than being stated as a lesson."
-    },
-    "cast": [
-      {
-        "role": "Captain Marina, sea captain of the small research boat The Driftwood",
-        "reused": false,
-        "why": "Steers us along the Gulf Stream, tells stories of riding currents, and carries the big_adventure accent with theatrical flair"
-      },
-      {
-        "role": "Dr. Salma, friendly ocean scientist",
-        "reused": false,
-        "why": "Explains currents, heat, and salinity with hands-on demonstrations; her curiosity is contagious and anchors the wonder"
-      },
-      {
-        "role": "Pip, a baby sea turtle",
-        "reused": false,
-        "why": "Rides the current alongside us, showing how animals use ocean highways; gives us a small traveling companion to care about"
-      },
-      {
-        "role": "We, the curious travelers (first person plural)",
-        "reused": false,
-        "why": "The we_adventure teller; we ask questions, notice changes, and make the choices"
-      }
-    ],
-    "materials": {
-      "selected": [
-        "Gulf Stream as a warm river inside the ocean",
-        "Ocean currents as the planet's conveyor belts moving heat",
-        "Salinity: saltier water is heavier and sinks, pushing deep currents",
-        "Warm surface currents and cold deep currents stacked in a giant loop",
-        "The Gulf Stream is stronger than all the world's rivers combined",
-        "Sailors riding currents like moving walkways",
-        "Baby turtles riding currents across the ocean",
-        "Warm and cold currents meeting to create fog and rich fishing grounds",
-        "Harbor town where ships prepare to follow currents",
-        "Dolphins leaping alongside the boat (wider door: Ocean Animals)",
-        "The Moon helping pull the tides (wider door: The Moon)",
-        "A river flowing into the sea, mixing fresh and salty water (wider door: Rivers)",
-        "Floating on your back and feeling the ocean hold you up (deeper door: Swimming and Floating)",
-        "Waves carrying sand in and out with the tides (deeper door: Beaches and Sand)"
-      ],
-      "gathered_but_unused": [
-        "The Gulf Stream is a giant, warm ocean current that flows like a river inside the ocean, carrying warm water from the Gulf of Mexico all the way to Europe.",
-        "Ocean currents act like the planet's conveyor belts, moving heat from the equator toward the poles and helping keep Earth's climate balanced.",
-        "Salinity means how salty the ocean water is, and saltier water is heavier, so it sinks and helps push deep ocean currents along.",
-        "Some ocean currents move warm water near the surface, while others move cold water deep below, making a giant loop that can take hundreds of years to complete.",
-        "The Gulf Stream moves so much water that it is stronger than all the rivers in the world combined.",
-        "Sailors and explorers have used ocean currents for hundreds of years to travel faster across the sea, riding the currents like moving walkways.",
-        "Tiny sea creatures, fish, and even baby turtles ride ocean currents to travel huge distances across the ocean without swimming the whole way.",
-        "When warm and cold ocean currents meet, they can create fog, rich fishing grounds, and swirling areas full of life."
-      ]
-    },
-    "safety_beat": "In s1, before we board, Captain Marina lightly shows she knows her craft: she checks the tide chart pinned to the dock, taps the life jackets hanging in a row, and says the current only takes well-prepared sailors — competence shown as welcome, never warning.",
-    "motif": "A glowing ribbon of warm water winding through the cold dark sea, like a scarf the planet wears",
-    "shelf_at_build_time": [],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": true,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "revise",
-          "card": "still_and_luminous",
-          "why": "The story is lively and well-built, but it rushes through the very moments a listening child would want to sit inside — the mist, the sinking salt, the turtle's departure — and the wonder never gets a held breath before the next fact arrives.",
-          "editor_notes": [
-            "s3 ends with the story's best image — 'a great silver mist — the place where our warm ribbon meets the cold' — and s4a immediately answers it with Captain Marina laughing 'like thunder' and shouting 'Brave crew! Hold fast!' Let the entry into the fog be quiet: keep 'The world goes soft and white and quiet' but cut the booming bracket around it, so the loud-to-soft drop is something the listener feels, not just hears described.",
-            "The strongest still moment in the whole draft is 'A hundred years. We sit with that, rocking.' in s3 — that is the register the mist scenes want. In s4a, 'Cool mist settles on our cheeks like tiny wet kisses' and the fish 'turning like one enormous coin spinning in the dark' arrive back-to-back with Dr. Salma's explanation ('The meeting stirs up food... The whole ocean comes to dinner'). Let one image land in silence before the science; the child can hold the coin without being told what it means yet.",
-            "In s4b, the turtle's exit — 'We wave back until the white takes him' — is the emotional peak of that branch and it gets one sentence, immediately followed by a beach stop, floating, and the gift. Give the goodbye air: a beat of watching the white, maybe the sound of the water, before the boat turns for home.",
-            "The glass float is a perfect luminous object — small, cool, given without ceremony — but both branches rush past it. 'It measured the current for me for years. Now it is yours.' deserves a pause after it; consider ending s4a on the float's warmth ('like it remembers the ribbon') with one fewer explanatory sentence before it, so the gift is the last thing the child holds.",
-            "Guard against the voice tipping into plain_and_true: the draft is not over-decorated, and its facts (salinity, the thermometer, the tube) are good and clear. The revision is only about pacing the wonder — hold the mist, hold the goodbye, hold the gift — not about stripping language."
-          ],
-          "segments_revised": 5,
-          "segments_rejected": 1
-        },
-        {
-          "round": 2,
-          "verdict": "leave it alone",
-          "why": "The story already balances wonder, warmth, and science with a strong read-aloud rhythm — the turtle gives it a companion, the mist sequence slows to genuine hush, and the glass-float ending lands as a glow rather than a lesson."
-        }
-      ],
-      "cards_used": [
-        "still_and_luminous"
-      ],
-      "listener_felt_arc": {
-        "s1": "giddy and curious, leaning in",
-        "s2a": "gleeful chase, then the lift of arrival",
-        "s2b": "wide-eyed, wind in the hair",
-        "s3": "warm-fingered amazement, then a held breath at the mist",
-        "s4a": "hushed and tingly, then snug and moonlit",
-        "s4b": "quiet ache of goodbye, then held and sleepy"
-      },
-      "segments_revised": 5,
-      "segments_rejected": 1
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "fail",
-        "notes": "1 blocking, 3 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] banned language: 'ahead of'; [story] slots: declared but never used: ['boat_name', 'keepsake']"
-      }
-    ],
-    "writers_notes": [
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] banned language: 'ahead of'",
-      "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
-      "round 1: [s1] polished (270 -> 273 words)",
-      "round 1: [s2a] polished (203 -> 203 words)",
-      "round 1: [s2b] polished (214 -> 214 words)",
-      "round 1: [s3] polish rejected: 'ahead of'",
-      "round 1: [s4a] polished (271 -> 299 words)",
-      "round 1: [s4b] polished (293 -> 326 words)",
-      "[s1] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] banned language: 'ahead of'",
-      "[story] slots: declared but never used: ['boat_name', 'keepsake']"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run",
-      "source_file": "22_oceans_and_tides_kimik3_demo.json",
-      "depth": 1
-    }
+  "materials": {
+   "selected": [
+    "Gulf Stream as a warm river inside the ocean",
+    "Ocean currents as the planet's conveyor belts moving heat",
+    "Salinity: saltier water is heavier and sinks, pushing deep currents",
+    "Warm surface currents and cold deep currents stacked in a giant loop",
+    "The Gulf Stream is stronger than all the world's rivers combined",
+    "Sailors riding currents like moving walkways",
+    "Baby turtles riding currents across the ocean",
+    "Warm and cold currents meeting to create fog and rich fishing grounds",
+    "Harbor town where ships prepare to follow currents",
+    "Dolphins leaping alongside the boat (wider door: Ocean Animals)",
+    "The Moon helping pull the tides (wider door: The Moon)",
+    "A river flowing into the sea, mixing fresh and salty water (wider door: Rivers)",
+    "Floating on your back and feeling the ocean hold you up (deeper door: Swimming and Floating)",
+    "Waves carrying sand in and out with the tides (deeper door: Beaches and Sand)"
+   ],
+   "gathered_but_unused": [
+    "The Gulf Stream is a giant, warm ocean current that flows like a river inside the ocean, carrying warm water from the Gulf of Mexico all the way to Europe.",
+    "Ocean currents act like the planet's conveyor belts, moving heat from the equator toward the poles and helping keep Earth's climate balanced.",
+    "Salinity means how salty the ocean water is, and saltier water is heavier, so it sinks and helps push deep ocean currents along.",
+    "Some ocean currents move warm water near the surface, while others move cold water deep below, making a giant loop that can take hundreds of years to complete.",
+    "The Gulf Stream moves so much water that it is stronger than all the rivers in the world combined.",
+    "Sailors and explorers have used ocean currents for hundreds of years to travel faster across the sea, riding the currents like moving walkways.",
+    "Tiny sea creatures, fish, and even baby turtles ride ocean currents to travel huge distances across the ocean without swimming the whole way.",
+    "When warm and cold ocean currents meet, they can create fog, rich fishing grounds, and swirling areas full of life."
+   ]
   },
-  "depth": 1
+  "safety_beat": "In s1, before we board, Captain Marina lightly shows she knows her craft: she checks the tide chart pinned to the dock, taps the life jackets hanging in a row, and says the current only takes well-prepared sailors — competence shown as welcome, never warning.",
+  "motif": "A glowing ribbon of warm water winding through the cold dark sea, like a scarf the planet wears",
+  "shelf_at_build_time": [],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": true,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "revise",
+     "card": "still_and_luminous",
+     "why": "The story is lively and well-built, but it rushes through the very moments a listening child would want to sit inside — the mist, the sinking salt, the turtle's departure — and the wonder never gets a held breath before the next fact arrives.",
+     "editor_notes": [
+      "s3 ends with the story's best image — 'a great silver mist — the place where our warm ribbon meets the cold' — and s4a immediately answers it with Captain Marina laughing 'like thunder' and shouting 'Brave crew! Hold fast!' Let the entry into the fog be quiet: keep 'The world goes soft and white and quiet' but cut the booming bracket around it, so the loud-to-soft drop is something the listener feels, not just hears described.",
+      "The strongest still moment in the whole draft is 'A hundred years. We sit with that, rocking.' in s3 — that is the register the mist scenes want. In s4a, 'Cool mist settles on our cheeks like tiny wet kisses' and the fish 'turning like one enormous coin spinning in the dark' arrive back-to-back with Dr. Salma's explanation ('The meeting stirs up food... The whole ocean comes to dinner'). Let one image land in silence before the science; the child can hold the coin without being told what it means yet.",
+      "In s4b, the turtle's exit — 'We wave back until the white takes him' — is the emotional peak of that branch and it gets one sentence, immediately followed by a beach stop, floating, and the gift. Give the goodbye air: a beat of watching the white, maybe the sound of the water, before the boat turns for home.",
+      "The glass float is a perfect luminous object — small, cool, given without ceremony — but both branches rush past it. 'It measured the current for me for years. Now it is yours.' deserves a pause after it; consider ending s4a on the float's warmth ('like it remembers the ribbon') with one fewer explanatory sentence before it, so the gift is the last thing the child holds.",
+      "Guard against the voice tipping into plain_and_true: the draft is not over-decorated, and its facts (salinity, the thermometer, the tube) are good and clear. The revision is only about pacing the wonder — hold the mist, hold the goodbye, hold the gift — not about stripping language."
+     ],
+     "segments_revised": 5,
+     "segments_rejected": 1
+    },
+    {
+     "round": 2,
+     "verdict": "leave it alone",
+     "why": "The story already balances wonder, warmth, and science with a strong read-aloud rhythm — the turtle gives it a companion, the mist sequence slows to genuine hush, and the glass-float ending lands as a glow rather than a lesson."
+    }
+   ],
+   "cards_used": [
+    "still_and_luminous"
+   ],
+   "listener_felt_arc": {
+    "s1": "giddy and curious, leaning in",
+    "s2a": "gleeful chase, then the lift of arrival",
+    "s2b": "wide-eyed, wind in the hair",
+    "s3": "warm-fingered amazement, then a held breath at the mist",
+    "s4a": "hushed and tingly, then snug and moonlit",
+    "s4b": "quiet ache of goodbye, then held and sleepy"
+   },
+   "segments_revised": 5,
+   "segments_rejected": 1
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "fail",
+    "notes": "1 blocking, 3 warning. [s1] flat rhythm: 4 sentences in a row of near-identical length; [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s3] banned language: 'ahead of'; [story] slots: declared but never used: ['boat_name', 'keepsake']"
+   }
+  ],
+  "writers_notes": [
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] banned language: 'ahead of'",
+   "[s4a] flat rhythm: 4 sentences in a row of near-identical length",
+   "round 1: [s1] polished (270 -> 273 words)",
+   "round 1: [s2a] polished (203 -> 203 words)",
+   "round 1: [s2b] polished (214 -> 214 words)",
+   "round 1: [s3] polish rejected: 'ahead of'",
+   "round 1: [s4a] polished (271 -> 299 words)",
+   "round 1: [s4b] polished (293 -> 326 words)",
+   "[s1] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] banned language: 'ahead of'",
+   "[story] slots: declared but never used: ['boat_name', 'keepsake']"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run",
+   "source_file": "22_oceans_and_tides_kimik3_demo.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "A baby sea turtle, Pip, floats with all flippers spread wide, carried effortlessly by an unseen ocean current.",
+  "mood": "Content and serene, with a hint of curious wonder in his expression, not scared or struggling.",
+  "stroke": "Soft, feathery strokes with light layering.",
+  "derived_by": "gemini-2.5-flash"
+ }
 }

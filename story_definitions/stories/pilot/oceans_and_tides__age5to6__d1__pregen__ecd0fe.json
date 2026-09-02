@@ -1,380 +1,386 @@
 {
-  "id": "story.oceans_and_tides.age5to6.d1.pregen.ecd0fe",
-  "title": "The Ocean's Front Door",
-  "age_band": "5-6",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.oceans_and_tides",
-    "sel_theme": null,
-    "value_lesson": "Being gentle with small living things — looking closely, touching softly, letting them stay in their home.",
-    "story_element": null,
-    "secondary": []
+ "id": "story.oceans_and_tides.age5to6.d1.pregen.ecd0fe",
+ "title": "The Ocean's Front Door",
+ "age_band": "5-6",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.oceans_and_tides",
+  "sel_theme": null,
+  "value_lesson": "Being gentle with small living things — looking closely, touching softly, letting them stay in their home.",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "journey",
+ "teller": "storyteller_tale",
+ "tone": {
+  "dominant": "big_adventure",
+  "accent": "curious_wonder"
+ },
+ "spine": "A storyteller remembers the day Grandpa took them step by step — seeing, hearing, smelling, feeling, touching, tasting — through the ocean's front door and home again with a shell that still sings.",
+ "slots": {
+  "child_name": {
+   "role": "The child in the storyteller's memory — the little version of the teller, named so the listening child can step into the story",
+   "kind": "naming",
+   "ask_child": true,
+   "default": "Nico"
   },
-  "pattern": "journey",
-  "teller": "storyteller_tale",
-  "tone": {
+  "shell_name": {
+   "role": "The name the child gives the seashell they carry home, which the storyteller still keeps on a shelf",
+   "kind": "playthrough",
+   "ask_child": true,
+   "default": "Whisper"
+  }
+ },
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "When I was small, my Grandpa took me to see the biggest water there is. We stood at the top of a wooden boardwalk, little {child_name} and Grandpa, and the wind was full of salt. Far away, past the dunes, there was a thin blue line. And there was a sound. A roaring whisper, soft and huge at the same time. \"Do you hear that?\" Grandpa said. \"That's the ocean. It's calling us.\" I listened. The whisper tickled my ears. It sounded like a giant breathing in and out, in and out. Grandpa tucked my collar against the wind and took my hand. \"Come on,\" he said. So we stepped onto the boardwalk, and the whisper got a little louder.",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
+  },
+  {
+   "id": "s2a",
+   "text": "\"The waves!\" I said. Grandpa laughed and we ran straight down to the water's edge. The roaring whisper was loud now. Whoosh. A wave came sliding in, and its foamy fingers tickled my toes. \"Jump!\" said Grandpa. We jumped, hand in hand, and the wave ran away. Then it came back. And it ran away again. Splash! A drop landed right on my lips. I licked them. \"Salty!\" I said, and I laughed and laughed. Up above, a seagull went round and round. He landed close by and tipped his head, as if he had never, ever seen anyone laugh at the ocean before.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "\"The quiet sand,\" I whispered. So we tiptoed along where the tide had just slipped out. The sand was damp and cool under my bare feet. \"Look close,\" Grandpa said. \"This sand is made of tiny pieces of shell and rock. Every piece is different.\" I squatted down. It was true! And the tide had left treasures. A smooth grey stone. A spiral shell. A little pool that held the whole sky. I stood very still and looked. The sky lay there, quiet, in the sand. Then I put the shell in my pocket. Hop, hop, hop. A seagull landed behind me and pecked at my stone before I could grab it. \"Mine,\" he said. \"I saw it second.\" Grandpa winked at me. \"Fair's fair,\" he told the bird. \"The ocean is breathing out now,\" he said. \"Soon it will breathe back in.\"",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "\"What did you find?\" Grandpa asks. But before I can tell him, the path ends at the rocks. The water hides here in cracks and crannies. I step in. Ankle deep. The sand fizzes under my toes. It wobbles me. I giggle and squeeze Grandpa's hand. \"Look,\" Grandpa whispers. A little crab scuttles sideways. Scuttle, scuttle. We dig soft in the wet sand. A clam squirts a tiny fountain. Plop. Pip leans so far over the pool he nearly tumbles in. \"Careful, Pip,\" I say. Above us, pale and round in the daytime sky, hangs the moon. \"She is pulling the tide,\" Grandpa says. \"Like the ocean breathing.\" The water creeps back in around the rocks. The pools will soon belong to the sea again.",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "Along the wrack line, where the tide leaves its treasures, a beachcomber with a bucket waves us over. \"Looking for a shell?\" she says. She lifts out a spiral one, smooth and pink inside. \"A sea creature once lived here,\" she says. \"Now it's an empty house. Hold it to your ear.\" I press it close. Whoosh. The ocean's voice, right there in my hand! \"It's the sea,\" I whisper. \"It came home with me.\" Grandpa smiles. \"Then give it a name, little one.\" And that is the shell I still keep on my shelf. {shell_name}, I called it. Hold it to your ear, just like this. Do you hear it? The ocean is still inside, saying goodnight.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "Grandpa and I climb back up the beach, slow and sandy, and turn for one last look. The water touches the sky in every direction. Big and blue and breathing. Side by side, we wave. \"Goodbye, ocean!\" I shout. And the biggest, splashiest wave comes running up the shore. It claps soft against the sand. Whoosh. As if the ocean is waving back. Pip circles once and cries, \"It heard you! It heard you!\" Grandpa squeezes my hand. \"It will remember us,\" he says. I picked up one smooth stone from the tide line that day. It lives in my pocket still. And every time I see the sea, I wave. Because the ocean always, always waves back.",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "Grandpa squeezes my hand and says, \"Well now, the ocean has two front doors. Do we go straight down and let the waves chase our toes — or do we tiptoe along the quiet sand and see what the tide left behind for us?\"",
+   "options": [
+    {
+     "say_word": "Chase",
+     "label": "Run down to the water and play the wave-chasing game",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Treasure",
+     "label": "Walk the quiet damp sand and hunt for what the tide left behind",
+     "tone_lean": "gentle",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "Grandpa shades his eyes and says, \"The tide's turning, little one. Shall we find a shell to carry the ocean's voice home in — or climb up high and give the big water one last wave goodbye?\"",
+   "options": [
+    {
+     "say_word": "Shell",
+     "label": "Find a seashell that holds the ocean's sound and carry it home",
+     "tone_lean": "gentle",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s4a",
+     "sets_slots": {
+      "shell_name": "Whisper"
+     }
+    },
+    {
+     "say_word": "Goodbye",
+     "label": "Climb up and wave one last goodbye to the whole ocean",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.oceans_and_tides",
+   "topic_tier": "curriculum",
+   "parent_topic": null,
+   "age_band": "5-6",
+   "age": 5,
+   "family_context": "none — library story for everyone",
+   "seed": 7
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "journey",
+   "why": "The ocean's waves chasing toes and salty spray naturally create a sense of movement and discovery that a journey pattern can beautifully capture for a 5-year-old.",
+   "backup": "mystery",
+   "candidates": [
+    {
+     "pattern": "mystery",
+     "base_weight": 0.25,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.303,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred journey"
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.2,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2424,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred journey"
+    },
+    {
+     "pattern": "journey",
+     "base_weight": 0.35,
+     "shelf_nudge": 0.5,
+     "family_nudge": 1.0,
+     "final_weight": 0.2121,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.1,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.1212,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.05,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.0606,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.03,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.0364,
+     "sampled": false,
+     "rejected_because": null
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "big_adventure",
     "accent": "curious_wonder"
+   },
+   "accent_carrier": "Pip the seagull, who circles overhead narrating his own curious commentary and keeps landing nearby to inspect whatever the child has just discovered.",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "A storyteller remembers the day Grandpa took them step by step — seeing, hearing, smelling, feeling, touching, tasting — through the ocean's front door and home again with a shell that still sings.",
-  "slots": {
-    "child_name": {
-      "role": "The child in the storyteller's memory — the little version of the teller, named so the listening child can step into the story",
-      "kind": "naming",
-      "ask_child": true,
-      "default": "Nico"
-    },
-    "shell_name": {
-      "role": "The name the child gives the seashell they carry home, which the storyteller still keeps on a shelf",
-      "kind": "playthrough",
-      "ask_child": true,
-      "default": "Whisper"
-    }
+  "teller_choice": {
+   "chosen": "storyteller_tale",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "When I was small, my Grandpa took me to see the biggest water there is. We stood at the top of a wooden boardwalk, little {child_name} and Grandpa, and the wind was full of salt. Far away, past the dunes, there was a thin blue line. And there was a sound. A roaring whisper, soft and huge at the same time. \"Do you hear that?\" Grandpa said. \"That's the ocean. It's calling us.\" I listened. The whisper tickled my ears. It sounded like a giant breathing in and out, in and out. Grandpa tucked my collar against the wind and took my hand. \"Come on,\" he said. So we stepped onto the boardwalk, and the whisper got a little louder.",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "\"The waves!\" I said. Grandpa laughed and we ran straight down to the water's edge. The roaring whisper was loud now. Whoosh. A wave came sliding in, and its foamy fingers tickled my toes. \"Jump!\" said Grandpa. We jumped, hand in hand, and the wave ran away. Then it came back. And it ran away again. Splash! A drop landed right on my lips. I licked them. \"Salty!\" I said, and I laughed and laughed. Up above, a seagull went round and round. He landed close by and tipped his head, as if he had never, ever seen anyone laugh at the ocean before.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "\"The quiet sand,\" I whispered. So we tiptoed along where the tide had just slipped out. The sand was damp and cool under my bare feet. \"Look close,\" Grandpa said. \"This sand is made of tiny pieces of shell and rock. Every piece is different.\" I squatted down. It was true! And the tide had left treasures. A smooth grey stone. A spiral shell. A little pool that held the whole sky. I stood very still and looked. The sky lay there, quiet, in the sand. Then I put the shell in my pocket. Hop, hop, hop. A seagull landed behind me and pecked at my stone before I could grab it. \"Mine,\" he said. \"I saw it second.\" Grandpa winked at me. \"Fair's fair,\" he told the bird. \"The ocean is breathing out now,\" he said. \"Soon it will breathe back in.\"",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "\"What did you find?\" Grandpa asks. But before I can tell him, the path ends at the rocks. The water hides here in cracks and crannies. I step in. Ankle deep. The sand fizzes under my toes. It wobbles me. I giggle and squeeze Grandpa's hand. \"Look,\" Grandpa whispers. A little crab scuttles sideways. Scuttle, scuttle. We dig soft in the wet sand. A clam squirts a tiny fountain. Plop. Pip leans so far over the pool he nearly tumbles in. \"Careful, Pip,\" I say. Above us, pale and round in the daytime sky, hangs the moon. \"She is pulling the tide,\" Grandpa says. \"Like the ocean breathing.\" The water creeps back in around the rocks. The pools will soon belong to the sea again.",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "Along the wrack line, where the tide leaves its treasures, a beachcomber with a bucket waves us over. \"Looking for a shell?\" she says. She lifts out a spiral one, smooth and pink inside. \"A sea creature once lived here,\" she says. \"Now it's an empty house. Hold it to your ear.\" I press it close. Whoosh. The ocean's voice, right there in my hand! \"It's the sea,\" I whisper. \"It came home with me.\" Grandpa smiles. \"Then give it a name, little one.\" And that is the shell I still keep on my shelf. {shell_name}, I called it. Hold it to your ear, just like this. Do you hear it? The ocean is still inside, saying goodnight.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "Grandpa and I climb back up the beach, slow and sandy, and turn for one last look. The water touches the sky in every direction. Big and blue and breathing. Side by side, we wave. \"Goodbye, ocean!\" I shout. And the biggest, splashiest wave comes running up the shore. It claps soft against the sand. Whoosh. As if the ocean is waving back. Pip circles once and cries, \"It heard you! It heard you!\" Grandpa squeezes my hand. \"It will remember us,\" he says. I picked up one smooth stone from the tide line that day. It lives in my pocket still. And every time I see the sea, I wave. Because the ocean always, always waves back.",
-      "next": null
-    }
+  "value_decision": {
+   "included": true,
+   "value": "Being gentle with small living things — looking closely, touching softly, letting them stay in their home.",
+   "why": "The tide pool material offers it naturally: a small crab and a buried clam appear in the deeper beat, and Grandpa models 'look with your eyes, soft with your fingers' as part of the wonder, not as a rule."
+  },
+  "cast": [
+   {
+    "role": "The storyteller (grandparent voice, telling a memory)",
+    "reused": false,
+    "why": "The storyteller_tale frame requires one 'I' voice; making the teller a grandparent recalling their own childhood trip lets the frame open and close warmly by a fireside or bedtime chair."
+   },
+   {
+    "role": "Grandpa (the remembered guide)",
+    "reused": false,
+    "why": "The grandparent-who-knows-the-ocean character fits the journey pattern perfectly: he leads the way in, shows where to stand, and asks both choice questions in his own warm, unhurried voice."
+   },
+   {
+    "role": "Pip the seagull",
+    "reused": false,
+    "why": "Carries the curious_wonder accent single-handedly — he inspects every find, tilts his head at the tide pools, and gives the story one comic, wondering thread that is not the child."
+   },
+   {
+    "role": "The beachcomber with a bucket",
+    "reused": false,
+    "why": "Appears at the destination beat to reveal what a seashell really is (an empty house a creature once lived in), handing the child the discovery that travels home."
+   }
   ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "Grandpa squeezes my hand and says, \"Well now, the ocean has two front doors. Do we go straight down and let the waves chase our toes — or do we tiptoe along the quiet sand and see what the tide left behind for us?\"",
-      "options": [
-        {
-          "say_word": "Chase",
-          "label": "Run down to the water and play the wave-chasing game",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Treasure",
-          "label": "Walk the quiet damp sand and hunt for what the tide left behind",
-          "tone_lean": "gentle",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "Grandpa shades his eyes and says, \"The tide's turning, little one. Shall we find a shell to carry the ocean's voice home in — or climb up high and give the big water one last wave goodbye?\"",
-      "options": [
-        {
-          "say_word": "Shell",
-          "label": "Find a seashell that holds the ocean's sound and carry it home",
-          "tone_lean": "gentle",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s4a",
-          "sets_slots": {
-            "shell_name": "Whisper"
-          }
-        },
-        {
-          "say_word": "Goodbye",
-          "label": "Climb up and wave one last goodbye to the whole ocean",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.oceans_and_tides",
-      "topic_tier": "curriculum",
-      "parent_topic": null,
-      "age_band": "5-6",
-      "age": 5,
-      "family_context": "none — library story for everyone",
-      "seed": 7
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "journey",
-      "why": "The ocean's waves chasing toes and salty spray naturally create a sense of movement and discovery that a journey pattern can beautifully capture for a 5-year-old.",
-      "backup": "mystery",
-      "candidates": [
-        {
-          "pattern": "mystery",
-          "base_weight": 0.25,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.303,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred journey"
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.2,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2424,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred journey"
-        },
-        {
-          "pattern": "journey",
-          "base_weight": 0.35,
-          "shelf_nudge": 0.5,
-          "family_nudge": 1.0,
-          "final_weight": 0.2121,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.1,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.1212,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.05,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.0606,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.03,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.0364,
-          "sampled": false,
-          "rejected_because": null
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "big_adventure",
-        "accent": "curious_wonder"
-      },
-      "accent_carrier": "Pip the seagull, who circles overhead narrating his own curious commentary and keeps landing nearby to inspect whatever the child has just discovered.",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "storyteller_tale",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "Being gentle with small living things — looking closely, touching softly, letting them stay in their home.",
-      "why": "The tide pool material offers it naturally: a small crab and a buried clam appear in the deeper beat, and Grandpa models 'look with your eyes, soft with your fingers' as part of the wonder, not as a rule."
-    },
-    "cast": [
-      {
-        "role": "The storyteller (grandparent voice, telling a memory)",
-        "reused": false,
-        "why": "The storyteller_tale frame requires one 'I' voice; making the teller a grandparent recalling their own childhood trip lets the frame open and close warmly by a fireside or bedtime chair."
-      },
-      {
-        "role": "Grandpa (the remembered guide)",
-        "reused": false,
-        "why": "The grandparent-who-knows-the-ocean character fits the journey pattern perfectly: he leads the way in, shows where to stand, and asks both choice questions in his own warm, unhurried voice."
-      },
-      {
-        "role": "Pip the seagull",
-        "reused": false,
-        "why": "Carries the curious_wonder accent single-handedly — he inspects every find, tilts his head at the tide pools, and gives the story one comic, wondering thread that is not the child."
-      },
-      {
-        "role": "The beachcomber with a bucket",
-        "reused": false,
-        "why": "Appears at the destination beat to reveal what a seashell really is (an empty house a creature once lived in), handing the child the discovery that travels home."
-      }
-    ],
-    "materials": {
-      "selected": [
-        "First you see the ocean from far away, a thin blue line on the horizon",
-        "Then you hear it, a roaring whisper that gets louder as you walk closer",
-        "Then you smell it, salty and fresh",
-        "Then you feel it, cool spray on your face",
-        "Then you touch it, a wave rushing up to tickle your toes",
-        "Then you taste it, a tiny drop on your lips",
-        "Waves chase your toes and then run away, over and over",
-        "The tide comes in and goes out every day, like the ocean is breathing",
-        "Seashells are empty houses that sea creatures once lived in",
-        "When the tide goes out, it leaves behind treasures like shells, smooth stones, and tiny pools",
-        "A child holds a seashell to their ear and hears a whooshing sound",
-        "A wooden boardwalk that stretches out over the dunes toward the sea",
-        "A rocky tide pool area where water hides in the cracks and crannies",
-        "Standing in ankle-deep water and feeling the sand shift under your feet",
-        "Digging with bare hands to find a clam, then watching it squirt a little fountain",
-        "Looking up at the moon in the daytime sky, pale and round, and hearing that it helps pull the tides",
-        "A small crab scuttling sideways across the bottom of a pool"
-      ],
-      "gathered_but_unused": [
-        "The ocean is the biggest water there is, stretching farther than anyone can see.",
-        "Ocean water is salty, and it tickles your tongue if you accidentally taste it.",
-        "Waves chase your toes and then run away, over and over again.",
-        "The tide comes in and goes out every day, like the ocean is breathing.",
-        "Seashells are empty houses that sea creatures once lived in.",
-        "Some waves are small and gentle, and some are big and splashy, but they all come from the same ocean.",
-        "The ocean makes a roaring, whispering sound that never stops.",
-        "When the tide goes out, it leaves behind treasures like shells, smooth stones, and tiny pools of water."
-      ]
-    },
-    "safety_beat": "In s2a, Grandpa shows once, lightly, where to stand: 'We plant our feet right here where the foam can just reach — that's the ocean's welcome mat.' Competence modeled as part of the game, no warning, no tension.",
-    "motif": "The ocean's voice — the roaring whisper that lives in the air, in the waves, and finally inside a seashell held to the ear.",
-    "shelf_at_build_time": [
-      {
-        "story_id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
-        "title": "The River Inside the Sea",
-        "pattern": "journey",
-        "teller": "we_adventure",
-        "tone_dominant": "curious_wonder",
-        "tone_accent": "big_adventure"
-      }
-    ],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": true,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "revise",
-          "card": "warm_companion",
-          "why": "The story is beautifully observed and full of sound, but the warmth between Grandpa and the child stays thin — he explains and smiles, yet nobody is simply, visibly fond of anyone, and the world is more watched than shared.",
-          "editor_notes": [
-            "s1: Grandpa's 'The only way in is through all five senses. One at a time' is a lovely invitation but sounds like a lesson; give him one small act of attention to the child first — a hand on the shoulder, tucking a collar against the salt wind — so the teaching comes out of fondness, not instead of it.",
-            "s2a: 'Grandpa laughed and we ran straight down' — let the running be shared rather than adjacent: he could hoist the child over the last dune, or be the one whose toes get tickled first and yelp, so the giggle belongs to both of them.",
-            "s2b: The seagull's 'Mine. I saw it second' is the warmest beat in the draft — Grandpa only 'smiled' at it. Let him answer the bird or wink at the child, so the joke becomes something the two of them hold together.",
-            "s3: 'I giggle and squeeze Grandpa's hand' is the one moment of physical fondness in the whole story — it shows the draft knows the note; give s1 and s2 one beat each of the same currency (a shared look, a held hand swung, sand brushed off a knee).",
-            "s4b: 'It will remember you' is a big claim handed down from above; it would land warmer if Grandpa tied it to the two of them — 'It will remember us' — or if the goodbye wave were something they do side by side rather than the child shouting alone while he watches.",
-            "Watch that the fix stays small: the sound-words (Whoosh, Scuttle scuttle, Plop) and the giant-breathing image already do their work — add fondness in gestures, not in new speeches."
-          ],
-          "segments_revised": 5,
-          "segments_rejected": 1
-        },
-        {
-          "round": 2,
-          "verdict": "revise",
-          "card": "still_and_luminous",
-          "why": "The story is warm and well-made, but it keeps arriving at moments a child would want to sit inside — the first sound of the sea, the pool holding the sky, the moon pulling the tide — and then immediately moving on or explaining them.",
-          "editor_notes": [
-            "s1: The arrival is the story's best held breath, but 'The only way in is through all five senses. One at a time' explains the magic before we've felt it. Cut the lesson; let the roaring whisper and the collar-tuck carry it. The child doesn't need the itinerary, just the hand.",
-            "s2b: 'A little pool that held the whole sky' is the most luminous image in the draft, and it gets one clause before 'I put the shell in my pocket.' Give it a beat of stillness — the child looking, the sky lying there — before anything is pocketed.",
-            "s3: The moon 'pale and round in the daytime sky' is a real wonder and it's immediately converted into a lesson ('She is pulling the tide'). Let the moon simply hang there for a sentence of quiet looking first; Grandpa's explanation can come after, softer, or not at all.",
-            "s3: 'The pools will soon belong to the sea again' is the story's one true moment of letting-go, and it passes in half a line. Slow the water creeping in; let the child watch a pool be taken back. That small loss, met quietly, is the glow the ending should be made of.",
-            "s2b/s3: The seagull's 'Mine. I saw it second' and the crab-and-clam business are charming but busy; consider trimming one antic beat per segment so the quiet ones have room to land.",
-            "Sound check: 'roaring whisper' is lovely aloud and worth keeping as the recurring sound; 'Scuttle, scuttle' and 'Plop' land well. 'cracks and crannies' and 'fizzes under my toes' are slight tongue-trips for a read-aloud adult — fine once, just don't stack them."
-          ],
-          "segments_revised": 5,
-          "segments_rejected": 1
-        }
-      ],
-      "cards_used": [
-        "warm_companion",
-        "still_and_luminous"
-      ],
-      "listener_felt_arc": {
-        "s1": "snug and curious, then a held breath",
-        "s2a": "giggly and splashy, running energy",
-        "s2b": "stooping close, small wonder quickly pocketed",
-        "s3": "wobbling, whispering, a brief hush under the moon",
-        "s4a": "cozy and satisfied, the sea brought home",
-        "s4b": "big-hearted goodbye, waving, warm and sleepy"
-      },
-      "segments_revised": 10,
-      "segments_rejected": 2
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "pass",
-        "notes": "0 blocking, 10 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.9); [s1] narration heavy: only 31% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 5.0); [s2b] flat rhythm: sentence lengths vary little (spread 3.1); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.4); [s4a] flat rhythm: sentence lengths vary little (spread 4.5); [s4b] flat rhythm: sentence lengths vary little (spread 3.5)"
-      }
-    ],
-    "writers_notes": [
-      "[s2b] flat rhythm: sentence lengths vary little (spread 3.3)",
-      "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
-      "round 1: [s1] polished (126 -> 133 words)",
-      "round 1: [s2a] polish rejected: grew 116% of the original, over the 115% limit",
-      "round 1: [s2b] polished (120 -> 128 words)",
-      "round 1: [s3] polished (125 -> 125 words)",
-      "round 1: [s4a] polished (118 -> 118 words)",
-      "round 1: [s4b] polished (113 -> 118 words)",
-      "round 2: [s1] polished (133 -> 120 words)",
-      "round 2: [s2a] polished (112 -> 104 words)",
-      "round 2: [s2b] polished (128 -> 143 words)",
-      "round 2: [s3] polish rejected: grew 126% of the original, over the 115% limit",
-      "round 2: [s4a] polished (118 -> 118 words)",
-      "round 2: [s4b] polished (118 -> 118 words)",
-      "[s1] flat rhythm: sentence lengths vary little (spread 4.9)",
-      "[s1] narration heavy: only 31% of sentences carry speech or action",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 5.0)",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 3.1)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
-      "[s4b] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s4b] narration heavy: only 38% of sentences carry speech or action"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run_kid5_beach",
-      "source_file": "08_oceans_and_tides_kimik3.json",
-      "depth": 1
-    }
+  "materials": {
+   "selected": [
+    "First you see the ocean from far away, a thin blue line on the horizon",
+    "Then you hear it, a roaring whisper that gets louder as you walk closer",
+    "Then you smell it, salty and fresh",
+    "Then you feel it, cool spray on your face",
+    "Then you touch it, a wave rushing up to tickle your toes",
+    "Then you taste it, a tiny drop on your lips",
+    "Waves chase your toes and then run away, over and over",
+    "The tide comes in and goes out every day, like the ocean is breathing",
+    "Seashells are empty houses that sea creatures once lived in",
+    "When the tide goes out, it leaves behind treasures like shells, smooth stones, and tiny pools",
+    "A child holds a seashell to their ear and hears a whooshing sound",
+    "A wooden boardwalk that stretches out over the dunes toward the sea",
+    "A rocky tide pool area where water hides in the cracks and crannies",
+    "Standing in ankle-deep water and feeling the sand shift under your feet",
+    "Digging with bare hands to find a clam, then watching it squirt a little fountain",
+    "Looking up at the moon in the daytime sky, pale and round, and hearing that it helps pull the tides",
+    "A small crab scuttling sideways across the bottom of a pool"
+   ],
+   "gathered_but_unused": [
+    "The ocean is the biggest water there is, stretching farther than anyone can see.",
+    "Ocean water is salty, and it tickles your tongue if you accidentally taste it.",
+    "Waves chase your toes and then run away, over and over again.",
+    "The tide comes in and goes out every day, like the ocean is breathing.",
+    "Seashells are empty houses that sea creatures once lived in.",
+    "Some waves are small and gentle, and some are big and splashy, but they all come from the same ocean.",
+    "The ocean makes a roaring, whispering sound that never stops.",
+    "When the tide goes out, it leaves behind treasures like shells, smooth stones, and tiny pools of water."
+   ]
   },
-  "depth": 1
+  "safety_beat": "In s2a, Grandpa shows once, lightly, where to stand: 'We plant our feet right here where the foam can just reach — that's the ocean's welcome mat.' Competence modeled as part of the game, no warning, no tension.",
+  "motif": "The ocean's voice — the roaring whisper that lives in the air, in the waves, and finally inside a seashell held to the ear.",
+  "shelf_at_build_time": [
+   {
+    "story_id": "story.oceans_and_tides.age9to10.d1.pregen.a11e33",
+    "title": "The River Inside the Sea",
+    "pattern": "journey",
+    "teller": "we_adventure",
+    "tone_dominant": "curious_wonder",
+    "tone_accent": "big_adventure"
+   }
+  ],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": true,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "revise",
+     "card": "warm_companion",
+     "why": "The story is beautifully observed and full of sound, but the warmth between Grandpa and the child stays thin — he explains and smiles, yet nobody is simply, visibly fond of anyone, and the world is more watched than shared.",
+     "editor_notes": [
+      "s1: Grandpa's 'The only way in is through all five senses. One at a time' is a lovely invitation but sounds like a lesson; give him one small act of attention to the child first — a hand on the shoulder, tucking a collar against the salt wind — so the teaching comes out of fondness, not instead of it.",
+      "s2a: 'Grandpa laughed and we ran straight down' — let the running be shared rather than adjacent: he could hoist the child over the last dune, or be the one whose toes get tickled first and yelp, so the giggle belongs to both of them.",
+      "s2b: The seagull's 'Mine. I saw it second' is the warmest beat in the draft — Grandpa only 'smiled' at it. Let him answer the bird or wink at the child, so the joke becomes something the two of them hold together.",
+      "s3: 'I giggle and squeeze Grandpa's hand' is the one moment of physical fondness in the whole story — it shows the draft knows the note; give s1 and s2 one beat each of the same currency (a shared look, a held hand swung, sand brushed off a knee).",
+      "s4b: 'It will remember you' is a big claim handed down from above; it would land warmer if Grandpa tied it to the two of them — 'It will remember us' — or if the goodbye wave were something they do side by side rather than the child shouting alone while he watches.",
+      "Watch that the fix stays small: the sound-words (Whoosh, Scuttle scuttle, Plop) and the giant-breathing image already do their work — add fondness in gestures, not in new speeches."
+     ],
+     "segments_revised": 5,
+     "segments_rejected": 1
+    },
+    {
+     "round": 2,
+     "verdict": "revise",
+     "card": "still_and_luminous",
+     "why": "The story is warm and well-made, but it keeps arriving at moments a child would want to sit inside — the first sound of the sea, the pool holding the sky, the moon pulling the tide — and then immediately moving on or explaining them.",
+     "editor_notes": [
+      "s1: The arrival is the story's best held breath, but 'The only way in is through all five senses. One at a time' explains the magic before we've felt it. Cut the lesson; let the roaring whisper and the collar-tuck carry it. The child doesn't need the itinerary, just the hand.",
+      "s2b: 'A little pool that held the whole sky' is the most luminous image in the draft, and it gets one clause before 'I put the shell in my pocket.' Give it a beat of stillness — the child looking, the sky lying there — before anything is pocketed.",
+      "s3: The moon 'pale and round in the daytime sky' is a real wonder and it's immediately converted into a lesson ('She is pulling the tide'). Let the moon simply hang there for a sentence of quiet looking first; Grandpa's explanation can come after, softer, or not at all.",
+      "s3: 'The pools will soon belong to the sea again' is the story's one true moment of letting-go, and it passes in half a line. Slow the water creeping in; let the child watch a pool be taken back. That small loss, met quietly, is the glow the ending should be made of.",
+      "s2b/s3: The seagull's 'Mine. I saw it second' and the crab-and-clam business are charming but busy; consider trimming one antic beat per segment so the quiet ones have room to land.",
+      "Sound check: 'roaring whisper' is lovely aloud and worth keeping as the recurring sound; 'Scuttle, scuttle' and 'Plop' land well. 'cracks and crannies' and 'fizzes under my toes' are slight tongue-trips for a read-aloud adult — fine once, just don't stack them."
+     ],
+     "segments_revised": 5,
+     "segments_rejected": 1
+    }
+   ],
+   "cards_used": [
+    "warm_companion",
+    "still_and_luminous"
+   ],
+   "listener_felt_arc": {
+    "s1": "snug and curious, then a held breath",
+    "s2a": "giggly and splashy, running energy",
+    "s2b": "stooping close, small wonder quickly pocketed",
+    "s3": "wobbling, whispering, a brief hush under the moon",
+    "s4a": "cozy and satisfied, the sea brought home",
+    "s4b": "big-hearted goodbye, waving, warm and sleepy"
+   },
+   "segments_revised": 10,
+   "segments_rejected": 2
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "pass",
+    "notes": "0 blocking, 10 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.9); [s1] narration heavy: only 31% of sentences carry speech or action; [s2a] flat rhythm: sentence lengths vary little (spread 5.0); [s2b] flat rhythm: sentence lengths vary little (spread 3.1); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 3.4); [s4a] flat rhythm: sentence lengths vary little (spread 4.5); [s4b] flat rhythm: sentence lengths vary little (spread 3.5)"
+   }
+  ],
+  "writers_notes": [
+   "[s2b] flat rhythm: sentence lengths vary little (spread 3.3)",
+   "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+   "round 1: [s1] polished (126 -> 133 words)",
+   "round 1: [s2a] polish rejected: grew 116% of the original, over the 115% limit",
+   "round 1: [s2b] polished (120 -> 128 words)",
+   "round 1: [s3] polished (125 -> 125 words)",
+   "round 1: [s4a] polished (118 -> 118 words)",
+   "round 1: [s4b] polished (113 -> 118 words)",
+   "round 2: [s1] polished (133 -> 120 words)",
+   "round 2: [s2a] polished (112 -> 104 words)",
+   "round 2: [s2b] polished (128 -> 143 words)",
+   "round 2: [s3] polish rejected: grew 126% of the original, over the 115% limit",
+   "round 2: [s4a] polished (118 -> 118 words)",
+   "round 2: [s4b] polished (118 -> 118 words)",
+   "[s1] flat rhythm: sentence lengths vary little (spread 4.9)",
+   "[s1] narration heavy: only 31% of sentences carry speech or action",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 5.0)",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 3.1)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] flat rhythm: sentence lengths vary little (spread 3.4)",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 4.5)",
+   "[s4b] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s4b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s4b] narration heavy: only 38% of sentences carry speech or action"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run_kid5_beach",
+   "source_file": "08_oceans_and_tides_kimik3.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "A child holds a large, spiral seashell to their ear, listening intently.",
+  "mood": "Curious and wonder-filled, with a gentle, inviting expression, not scary or intense.",
+  "stroke": "Soft, feathery strokes with light layering.",
+  "derived_by": "gemini-2.5-flash"
+ }
 }

@@ -1,307 +1,313 @@
 {
-  "id": "story.clothes_and_fashion.age5to6.d1.pregen.0d2b57",
-  "title": "The Cape That Chose Its Own Star",
-  "age_band": "5-6",
-  "topics": {
-    "knowledge_domain": "knowledge_domain.clothes_and_fashion",
-    "sel_theme": null,
-    "value_lesson": "The thing you made being lopsided and still being yours, made by your own hands, which makes it the best one in the world to you",
-    "story_element": null,
-    "secondary": []
+ "id": "story.clothes_and_fashion.age5to6.d1.pregen.0d2b57",
+ "title": "The Cape That Chose Its Own Star",
+ "age_band": "5-6",
+ "topics": {
+  "knowledge_domain": "knowledge_domain.clothes_and_fashion",
+  "sel_theme": null,
+  "value_lesson": "The thing you made being lopsided and still being yours, made by your own hands, which makes it the best one in the world to you",
+  "story_element": null,
+  "secondary": []
+ },
+ "pattern": "make_and_build",
+ "teller": "we_adventure",
+ "tone": {
+  "dominant": "curious_wonder",
+  "accent": "big_adventure"
+ },
+ "spine": "We want to make a dress-up cape that feels like us today, and step by wobbly step, we do.",
+ "slots": {
+  "cape_name": {
+   "role": "What we name the finished cape in the warm landing",
+   "kind": "naming",
+   "ask_child": true,
+   "default": "the Blob-Star Cape"
+  }
+ },
+ "start_segment": "s1",
+ "segments": [
+  {
+   "id": "s1",
+   "text": "Grandma Nella's spare room smells like sunshine and peppermint tea. In the corner, her pedal sewing machine sits like a sleepy pet, waiting for its feet to move. \"We want to make a dress-up cape,\" we say. \"One that feels like us today.\" Grandma Nella opens the button drawer. It is sorted by colour, like a box of sweets. \"Every great cape starts with a plan,\" she says. So we draw one with crayons. A cape with a big star on the back. But the star comes out wobbly. It looks like a blob. We giggle. \"Blobs are better,\" we decide. Grandma Nella nods. \"Then let's find some fabric.\" Whirr-whirr-WHIRR goes the machine, like a tiny train.",
+   "next": {
+    "kind": "choice",
+    "id": "c1"
+   }
   },
-  "pattern": "make_and_build",
-  "teller": "we_adventure",
-  "tone": {
+  {
+   "id": "s2a",
+   "text": "\"The shelf,\" says Grandma Nella. We follow her to a tower of folded cloth. She pulls out three pieces. \"Feel first,\" she says. The first is soft and stripy, like a kitten in a ladder of colours. The second is smooth and sparkly. The third is bumpy, like toast. We touch the stripy one. Then the bumpy one. Then back to the stripy. \"This one?\" we ask. Then the sparkly one slides cool under our fingers. \"No, this one!\" Grandma Nella laughs. She swipes her hand across it. The sequins flip from silver to blue, like fish scales changing in the sun. We swipe back. Blue to silver. \"Fabric starts as one big flat sheet,\" she says. \"We cut the shapes out, like cookies from dough.\" Whirr-whirr-WHIRR goes the tiny train.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s2b",
+   "text": "\"The button tin,\" says Grandma Nella. She tips it out, and buttons spill everywhere. We make pattern games. Big ones here, little ones there. Then red ones, blue ones, green ones. Then we count the holes. Two holes. Four holes. \"A pattern is something that repeats,\" says Grandma Nella. \"Again and again. Like red stripe, blue stripe on a sock.\" We go to the fabric shelf and touch the soft, stripy one. Its stripes are a pattern we can follow with our eyes. \"This one,\" we say. \"The stripes will help us cut straight,\" says Grandma Nella. \"Fabric starts as one big flat sheet. We cut the shapes out, like cookies from dough.\" Whirr-whirr-WHIRR goes the tiny train.",
+   "next": {
+    "kind": "segment",
+    "id": "s3"
+   }
+  },
+  {
+   "id": "s3",
+   "text": "\"What did you find?\" Grandma Nella asks, and her eyes go crinkly. We show her, and she spreads our fabric on the table like a picnic blanket. \"Every great cape starts with lines,\" she says, and draws them in chalk. The big scissors go crunch-crunch. But our line goes wiggly! We trim it. Wiggly again! Trim it again. \"Wiggly lines are just design changes,\" says Grandma Nella. Then the needle keeps un-threading itself. Again and again! Grandma licks the thread, squashes it flat, and it slides through like a bunny through a tunnel. Whirr-whirr-WHIRR goes the little train. Seam by seam, the cape becomes real. We try it on. It is lopsided. One armhole is tight. But on the back, our blob-star catches the light and throws tiny dots dancing across the ceiling. We twirl. The dots twirl too.",
+   "next": {
+    "kind": "choice",
+    "id": "c2"
+   }
+  },
+  {
+   "id": "s4a",
+   "text": "The door bangs open. \"I need the long scarf!\" Pip shouts, grabbing it from the dressing-up corner. \"Watch this!\" Pip spins, and the scarf floats out like a ribbon. We spin too. Our lopsided cape swishes around our shoulders, and every time we turn, the blob-star throws tiny lights across the walls. \"It's a dance!\" we shout. \"A spinning, flashing dance!\" Grandma Nella's feet start to pedal. Whirr-whirr-WHIRR. The little train is our music. We spin slow. We spin fast. The sparkles flash every single turn, like they know the steps too. At last we flop down, dizzy and giggling. \"This cape needs a name,\" says Grandma Nella. We think hard. We name it together: {cape_name}. On the walk home, wrapped up warm, it still catches the streetlights. Then it hangs on our door hook, throwing one last tiny light. \"Goodnight, {cape_name},\" we whisper.",
+   "next": null
+  },
+  {
+   "id": "s4b",
+   "text": "Pip arrives dragging a cardboard box. \"This is my stage!\" Pip announces, flipping it over. \"And we are doing a show.\" We wrap the cape around our shoulders and climb up. \"I am a star,\" we say, \"who has forgotten all their lines!\" \"So make up new ones!\" Pip calls. So we do. We say silly things. We say grand things. The cape's lopsided hem swishes at exactly the wrong moments, which makes the star even funnier, and the blob-star on our back sparkles every time we bow. Grandma Nella is the whole audience. She claps like thunder. \"Encore! Encore!\" When the show is over, one sequin flips blue and drops into our hand. \"Your ticket stub,\" says Grandma Nella. We name the cape together: {cape_name}. We carry it home folded over our arm, soft and warm like a sleeping cat. The blue sequin goes on our windowsill, where it catches the morning sun.",
+   "next": null
+  }
+ ],
+ "choice_points": [
+  {
+   "id": "c1",
+   "rejoins": true,
+   "question": "\"Now, my love, a cape can begin two ways. Do you want to go hunting through my fabric shelf for the cloth that feels like you today, or shall we tip out my button tin and play pattern games first to warm up our choosing eyes?\"",
+   "options": [
+    {
+     "say_word": "Fabric hunt",
+     "label": "Go straight to the fabric shelf and choose the cloth by feel",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s2a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Button games",
+     "label": "Tip out the button tin and play sorting pattern games first",
+     "tone_lean": "gentle",
+     "curiosity_lean": "how_it_works",
+     "next_segment": "s2b",
+     "sets_slots": {}
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "rejoins": false,
+   "question": "\"The cape is DONE!\" Pip shouts, spinning once on the spot. \"So what does a brand-new cape do first, swirl through a made-up dance until the sparkles flash, or star in a pretend-show on my box stage?\"",
+   "options": [
+    {
+     "say_word": "Dance",
+     "label": "Invent a spinning dance where the sparkly bits flash",
+     "tone_lean": "bold",
+     "curiosity_lean": "just_experience",
+     "next_segment": "s4a",
+     "sets_slots": {}
+    },
+    {
+     "say_word": "Put on a show",
+     "label": "Star in a pretend-show on Pip's cardboard box stage",
+     "tone_lean": "gentle",
+     "curiosity_lean": "what_its_for",
+     "next_segment": "s4b",
+     "sets_slots": {}
+    }
+   ]
+  }
+ ],
+ "status": "draft",
+ "build_record": {
+  "request": {
+   "topic": "knowledge_domain.clothes_and_fashion",
+   "topic_tier": "curriculum",
+   "parent_topic": null,
+   "age_band": "5-6",
+   "age": 5,
+   "family_context": "none — library story for everyone",
+   "seed": 0
+  },
+  "prompt_version": "segment_writing_v2.3",
+  "pattern_choice": {
+   "chosen": "make_and_build",
+   "why": "The topic's core material—soft, scratchy, stripy, sparkly fabrics and choosing what feels like you—naturally feeds a step-by-step making process, like gathering textures and patterns to create a dress-up costume, which suits a 5-year-old better than a journey or mystery would.",
+   "backup": "journey",
+   "candidates": [
+    {
+     "pattern": "journey",
+     "base_weight": 0.24,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.24,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred make_and_build"
+    },
+    {
+     "pattern": "mystery",
+     "base_weight": 0.2,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.2,
+     "sampled": true,
+     "rejected_because": "sampled, but the judge preferred make_and_build"
+    },
+    {
+     "pattern": "problem_and_fix",
+     "base_weight": 0.18,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.18,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "make_and_build",
+     "base_weight": 0.14,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.14,
+     "sampled": true,
+     "rejected_because": null
+    },
+    {
+     "pattern": "quiet_hour",
+     "base_weight": 0.12,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.12,
+     "sampled": false,
+     "rejected_because": null
+    },
+    {
+     "pattern": "romp",
+     "base_weight": 0.08,
+     "shelf_nudge": 1.0,
+     "family_nudge": 1.0,
+     "final_weight": 0.08,
+     "sampled": false,
+     "rejected_because": null
+    }
+   ]
+  },
+  "tone_choice": {
+   "chosen": {
     "dominant": "curious_wonder",
     "accent": "big_adventure"
+   },
+   "accent_carrier": "Grandma Nella's pedal sewing machine, which goes whirr-whirr-WHIRR like a tiny train whenever something exciting is about to happen",
+   "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
   },
-  "spine": "We want to make a dress-up cape that feels like us today, and step by wobbly step, we do.",
-  "slots": {
-    "cape_name": {
-      "role": "What we name the finished cape in the warm landing",
-      "kind": "naming",
-      "ask_child": true,
-      "default": "the Blob-Star Cape"
-    }
+  "teller_choice": {
+   "chosen": "we_adventure",
+   "why": "pattern default, rotated off the teller most recently used"
   },
-  "start_segment": "s1",
-  "segments": [
-    {
-      "id": "s1",
-      "text": "Grandma Nella's spare room smells like sunshine and peppermint tea. In the corner, her pedal sewing machine sits like a sleepy pet, waiting for its feet to move. \"We want to make a dress-up cape,\" we say. \"One that feels like us today.\" Grandma Nella opens the button drawer. It is sorted by colour, like a box of sweets. \"Every great cape starts with a plan,\" she says. So we draw one with crayons. A cape with a big star on the back. But the star comes out wobbly. It looks like a blob. We giggle. \"Blobs are better,\" we decide. Grandma Nella nods. \"Then let's find some fabric.\" Whirr-whirr-WHIRR goes the machine, like a tiny train.",
-      "next": {
-        "kind": "choice",
-        "id": "c1"
-      }
-    },
-    {
-      "id": "s2a",
-      "text": "\"The shelf,\" says Grandma Nella. We follow her to a tower of folded cloth. She pulls out three pieces. \"Feel first,\" she says. The first is soft and stripy, like a kitten in a ladder of colours. The second is smooth and sparkly. The third is bumpy, like toast. We touch the stripy one. Then the bumpy one. Then back to the stripy. \"This one?\" we ask. Then the sparkly one slides cool under our fingers. \"No, this one!\" Grandma Nella laughs. She swipes her hand across it. The sequins flip from silver to blue, like fish scales changing in the sun. We swipe back. Blue to silver. \"Fabric starts as one big flat sheet,\" she says. \"We cut the shapes out, like cookies from dough.\" Whirr-whirr-WHIRR goes the tiny train.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s2b",
-      "text": "\"The button tin,\" says Grandma Nella. She tips it out, and buttons spill everywhere. We make pattern games. Big ones here, little ones there. Then red ones, blue ones, green ones. Then we count the holes. Two holes. Four holes. \"A pattern is something that repeats,\" says Grandma Nella. \"Again and again. Like red stripe, blue stripe on a sock.\" We go to the fabric shelf and touch the soft, stripy one. Its stripes are a pattern we can follow with our eyes. \"This one,\" we say. \"The stripes will help us cut straight,\" says Grandma Nella. \"Fabric starts as one big flat sheet. We cut the shapes out, like cookies from dough.\" Whirr-whirr-WHIRR goes the tiny train.",
-      "next": {
-        "kind": "segment",
-        "id": "s3"
-      }
-    },
-    {
-      "id": "s3",
-      "text": "\"What did you find?\" Grandma Nella asks, and her eyes go crinkly. We show her, and she spreads our fabric on the table like a picnic blanket. \"Every great cape starts with lines,\" she says, and draws them in chalk. The big scissors go crunch-crunch. But our line goes wiggly! We trim it. Wiggly again! Trim it again. \"Wiggly lines are just design changes,\" says Grandma Nella. Then the needle keeps un-threading itself. Again and again! Grandma licks the thread, squashes it flat, and it slides through like a bunny through a tunnel. Whirr-whirr-WHIRR goes the little train. Seam by seam, the cape becomes real. We try it on. It is lopsided. One armhole is tight. But on the back, our blob-star catches the light and throws tiny dots dancing across the ceiling. We twirl. The dots twirl too.",
-      "next": {
-        "kind": "choice",
-        "id": "c2"
-      }
-    },
-    {
-      "id": "s4a",
-      "text": "The door bangs open. \"I need the long scarf!\" Pip shouts, grabbing it from the dressing-up corner. \"Watch this!\" Pip spins, and the scarf floats out like a ribbon. We spin too. Our lopsided cape swishes around our shoulders, and every time we turn, the blob-star throws tiny lights across the walls. \"It's a dance!\" we shout. \"A spinning, flashing dance!\" Grandma Nella's feet start to pedal. Whirr-whirr-WHIRR. The little train is our music. We spin slow. We spin fast. The sparkles flash every single turn, like they know the steps too. At last we flop down, dizzy and giggling. \"This cape needs a name,\" says Grandma Nella. We think hard. We name it together: {cape_name}. On the walk home, wrapped up warm, it still catches the streetlights. Then it hangs on our door hook, throwing one last tiny light. \"Goodnight, {cape_name},\" we whisper.",
-      "next": null
-    },
-    {
-      "id": "s4b",
-      "text": "Pip arrives dragging a cardboard box. \"This is my stage!\" Pip announces, flipping it over. \"And we are doing a show.\" We wrap the cape around our shoulders and climb up. \"I am a star,\" we say, \"who has forgotten all their lines!\" \"So make up new ones!\" Pip calls. So we do. We say silly things. We say grand things. The cape's lopsided hem swishes at exactly the wrong moments, which makes the star even funnier, and the blob-star on our back sparkles every time we bow. Grandma Nella is the whole audience. She claps like thunder. \"Encore! Encore!\" When the show is over, one sequin flips blue and drops into our hand. \"Your ticket stub,\" says Grandma Nella. We name the cape together: {cape_name}. We carry it home folded over our arm, soft and warm like a sleeping cat. The blue sequin goes on our windowsill, where it catches the morning sun.",
-      "next": null
-    }
+  "value_decision": {
+   "included": true,
+   "value": "The thing you made being lopsided and still being yours, made by your own hands, which makes it the best one in the world to you",
+   "why": "The wobble beats (wiggly cutting line, blob star) land naturally on this value without lecturing; it is already baked into the pattern material."
+  },
+  "cast": [
+   {
+    "role": "A grandma who sews (Grandma Nella)",
+    "reused": false,
+    "why": "She owns the spare room setting, threads needles, sorts buttons by colour, and calls mistakes 'design changes', which carries the make-and-build pattern perfectly."
+   },
+   {
+    "role": "A best friend next door (Pip)",
+    "reused": false,
+    "why": "Pip trades scraps, suggests 'just one more sparkle', and gives the finished cape its first audience, opening the wider door to dancing and pretend-play."
+   }
   ],
-  "choice_points": [
-    {
-      "id": "c1",
-      "rejoins": true,
-      "question": "\"Now, my love, a cape can begin two ways. Do you want to go hunting through my fabric shelf for the cloth that feels like you today, or shall we tip out my button tin and play pattern games first to warm up our choosing eyes?\"",
-      "options": [
-        {
-          "say_word": "Fabric hunt",
-          "label": "Go straight to the fabric shelf and choose the cloth by feel",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s2a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Button games",
-          "label": "Tip out the button tin and play sorting pattern games first",
-          "tone_lean": "gentle",
-          "curiosity_lean": "how_it_works",
-          "next_segment": "s2b",
-          "sets_slots": {}
-        }
-      ]
-    },
-    {
-      "id": "c2",
-      "rejoins": false,
-      "question": "\"The cape is DONE!\" Pip shouts, spinning once on the spot. \"So what does a brand-new cape do first, swirl through a made-up dance until the sparkles flash, or star in a pretend-show on my box stage?\"",
-      "options": [
-        {
-          "say_word": "Dance",
-          "label": "Invent a spinning dance where the sparkly bits flash",
-          "tone_lean": "bold",
-          "curiosity_lean": "just_experience",
-          "next_segment": "s4a",
-          "sets_slots": {}
-        },
-        {
-          "say_word": "Put on a show",
-          "label": "Star in a pretend-show on Pip's cardboard box stage",
-          "tone_lean": "gentle",
-          "curiosity_lean": "what_its_for",
-          "next_segment": "s4b",
-          "sets_slots": {}
-        }
-      ]
-    }
-  ],
-  "status": "draft",
-  "build_record": {
-    "request": {
-      "topic": "knowledge_domain.clothes_and_fashion",
-      "topic_tier": "curriculum",
-      "parent_topic": null,
-      "age_band": "5-6",
-      "age": 5,
-      "family_context": "none — library story for everyone",
-      "seed": 0
-    },
-    "prompt_version": "segment_writing_v2.3",
-    "pattern_choice": {
-      "chosen": "make_and_build",
-      "why": "The topic's core material—soft, scratchy, stripy, sparkly fabrics and choosing what feels like you—naturally feeds a step-by-step making process, like gathering textures and patterns to create a dress-up costume, which suits a 5-year-old better than a journey or mystery would.",
-      "backup": "journey",
-      "candidates": [
-        {
-          "pattern": "journey",
-          "base_weight": 0.24,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.24,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred make_and_build"
-        },
-        {
-          "pattern": "mystery",
-          "base_weight": 0.2,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.2,
-          "sampled": true,
-          "rejected_because": "sampled, but the judge preferred make_and_build"
-        },
-        {
-          "pattern": "problem_and_fix",
-          "base_weight": 0.18,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.18,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "make_and_build",
-          "base_weight": 0.14,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.14,
-          "sampled": true,
-          "rejected_because": null
-        },
-        {
-          "pattern": "quiet_hour",
-          "base_weight": 0.12,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.12,
-          "sampled": false,
-          "rejected_because": null
-        },
-        {
-          "pattern": "romp",
-          "base_weight": 0.08,
-          "shelf_nudge": 1.0,
-          "family_nudge": 1.0,
-          "final_weight": 0.08,
-          "sampled": false,
-          "rejected_because": null
-        }
-      ]
-    },
-    "tone_choice": {
-      "chosen": {
-        "dominant": "curious_wonder",
-        "accent": "big_adventure"
-      },
-      "accent_carrier": "Grandma Nella's pedal sewing machine, which goes whirr-whirr-WHIRR like a tiny train whenever something exciting is about to happen",
-      "why": "sampled from the recipes this pattern leans toward, avoiding what this family's shelf served recently"
-    },
-    "teller_choice": {
-      "chosen": "we_adventure",
-      "why": "pattern default, rotated off the teller most recently used"
-    },
-    "value_decision": {
-      "included": true,
-      "value": "The thing you made being lopsided and still being yours, made by your own hands, which makes it the best one in the world to you",
-      "why": "The wobble beats (wiggly cutting line, blob star) land naturally on this value without lecturing; it is already baked into the pattern material."
-    },
-    "cast": [
-      {
-        "role": "A grandma who sews (Grandma Nella)",
-        "reused": false,
-        "why": "She owns the spare room setting, threads needles, sorts buttons by colour, and calls mistakes 'design changes', which carries the make-and-build pattern perfectly."
-      },
-      {
-        "role": "A best friend next door (Pip)",
-        "reused": false,
-        "why": "Pip trades scraps, suggests 'just one more sparkle', and gives the finished cape its first audience, opening the wider door to dancing and pretend-play."
-      }
-    ],
-    "materials": {
-      "selected": [
-        "grandma's spare room with pedal sewing machine and button drawers",
-        "choosing between three fabrics: soft and stripy, smooth and sparkly, bumpy like toast",
-        "drawing the plan with crayons: a cape with a star that looks more like a blob, then deciding blobs are better",
-        "the wobble of cutting along a chalk line that goes wiggly",
-        "threading a needle that keeps un-threading until the thread end is licked and squashed flat",
-        "trying it on: lopsided, one armhole tight, but the sparkly star catches the light",
-        "sequins flip over to show a different colour on the other side",
-        "stripes, dots and zigzags are patterns that repeat",
-        "wider door: a friend spins in a scarf and they invent a dance where the sparkly bits flash",
-        "wider door: the finished costume gets a pretend-show test in the living room"
-      ],
-      "gathered_but_unused": [
-        "Some fabrics feel soft like a kitten's fur, and some feel scratchy like dry grass, because of the tiny threads they're woven from.",
-        "Sequins are tiny flat discs sewn onto clothes, and they flip over to show a different colour on the other side.",
-        "Stripes, dots, and zigzags are all patterns, and a pattern is something that repeats again and again.",
-        "Before clothes are sewn, fabric is just a big flat sheet, and people cut shapes out of it like cutting cookies from dough.",
-        "Buttons have little holes in them, and thread goes in one hole and out the other, over and over, to hold them tight.",
-        "Velcro is made of two sides, one scratchy with tiny hooks and one soft with tiny loops, and they grab each other when pressed together.",
-        "Long ago, purple dye was so hard to make that only kings and queens could wear purple clothes.",
-        "Some sparkly things on clothes are tiny pieces of plastic or metal that catch the light and bounce it back to your eyes."
-      ]
-    },
-    "safety_beat": "In s3, Grandma Nella lightly shows competence at her own sewing corner: she moves the big scissors to her side of the table and holds the fabric steady while we press the chalk, a calm showing of where hands go, with no warning words and no tension.",
-    "motif": "A sparkly star on the back of a cape that starts as a blob and ends up catching the light",
-    "shelf_at_build_time": [],
-    "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
-    "polish_pass": {
-      "applied": false,
-      "iterations": [
-        {
-          "round": 1,
-          "verdict": "leave it alone",
-          "why": "The story already lets a child watch a cape come together step by step — plan, fabric, cut, thread, seam — with mistakes treated as ordinary texture, and it closes each branch in warmth without rushing."
-        }
-      ],
-      "cards_used": [],
-      "listener_felt_arc": {
-        "s1": "snug and curious, leaning in over the crayons",
-        "s2a": "fingers tingling, delighted by the flipping sequins",
-        "s2b": "busy and satisfied, sorting and counting",
-        "s3": "a held breath at each wiggle, then a small triumph at the dancing dots",
-        "s4a": "giddy and spinning, then sleepy and snug",
-        "s4b": "proud and giggly on stage, then quiet and glowy at the windowsill"
-      },
-      "segments_revised": 0,
-      "segments_rejected": 0
-    },
-    "gates": [
-      {
-        "gate": "whole-story read of every path",
-        "result": "pass",
-        "notes": "0 blocking, 9 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.1); [s2a] flat rhythm: sentence lengths vary little (spread 3.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.6); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.9); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 20% of sentences carry speech or action"
-      }
-    ],
-    "writers_notes": [
-      "[s1] flat rhythm: sentence lengths vary little (spread 4.1)",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 4.6)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] narration heavy: only 20% of sentences carry speech or action",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)",
-      "[s1] flat rhythm: sentence lengths vary little (spread 4.1)",
-      "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
-      "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s2b] flat rhythm: sentence lengths vary little (spread 4.6)",
-      "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
-      "[s3] flat rhythm: 4 sentences in a row of near-identical length",
-      "[s3] narration heavy: only 20% of sentences carry speech or action",
-      "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)"
-    ],
-    "library_ingest": {
-      "provenance": "pregen_batch",
-      "generator": "kimi-k3",
-      "source_run": "_demo_run_kid5_beach",
-      "source_file": "01_clothes_and_fashion_kimik3.json",
-      "depth": 1
-    }
+  "materials": {
+   "selected": [
+    "grandma's spare room with pedal sewing machine and button drawers",
+    "choosing between three fabrics: soft and stripy, smooth and sparkly, bumpy like toast",
+    "drawing the plan with crayons: a cape with a star that looks more like a blob, then deciding blobs are better",
+    "the wobble of cutting along a chalk line that goes wiggly",
+    "threading a needle that keeps un-threading until the thread end is licked and squashed flat",
+    "trying it on: lopsided, one armhole tight, but the sparkly star catches the light",
+    "sequins flip over to show a different colour on the other side",
+    "stripes, dots and zigzags are patterns that repeat",
+    "wider door: a friend spins in a scarf and they invent a dance where the sparkly bits flash",
+    "wider door: the finished costume gets a pretend-show test in the living room"
+   ],
+   "gathered_but_unused": [
+    "Some fabrics feel soft like a kitten's fur, and some feel scratchy like dry grass, because of the tiny threads they're woven from.",
+    "Sequins are tiny flat discs sewn onto clothes, and they flip over to show a different colour on the other side.",
+    "Stripes, dots, and zigzags are all patterns, and a pattern is something that repeats again and again.",
+    "Before clothes are sewn, fabric is just a big flat sheet, and people cut shapes out of it like cutting cookies from dough.",
+    "Buttons have little holes in them, and thread goes in one hole and out the other, over and over, to hold them tight.",
+    "Velcro is made of two sides, one scratchy with tiny hooks and one soft with tiny loops, and they grab each other when pressed together.",
+    "Long ago, purple dye was so hard to make that only kings and queens could wear purple clothes.",
+    "Some sparkly things on clothes are tiny pieces of plastic or metal that catch the light and bounce it back to your eyes."
+   ]
   },
-  "depth": 1
+  "safety_beat": "In s3, Grandma Nella lightly shows competence at her own sewing corner: she moves the big scissors to her side of the table and holds the fabric steady while we press the chalk, a calm showing of where hands go, with no warning words and no tension.",
+  "motif": "A sparkly star on the back of a cape that starts as a blob and ends up catching the light",
+  "shelf_at_build_time": [],
+  "authored_by": "generated by the offline story pipeline (jubu_chat.story_generation)",
+  "polish_pass": {
+   "applied": false,
+   "iterations": [
+    {
+     "round": 1,
+     "verdict": "leave it alone",
+     "why": "The story already lets a child watch a cape come together step by step — plan, fabric, cut, thread, seam — with mistakes treated as ordinary texture, and it closes each branch in warmth without rushing."
+    }
+   ],
+   "cards_used": [],
+   "listener_felt_arc": {
+    "s1": "snug and curious, leaning in over the crayons",
+    "s2a": "fingers tingling, delighted by the flipping sequins",
+    "s2b": "busy and satisfied, sorting and counting",
+    "s3": "a held breath at each wiggle, then a small triumph at the dancing dots",
+    "s4a": "giddy and spinning, then sleepy and snug",
+    "s4b": "proud and giggly on stage, then quiet and glowy at the windowsill"
+   },
+   "segments_revised": 0,
+   "segments_rejected": 0
+  },
+  "gates": [
+   {
+    "gate": "whole-story read of every path",
+    "result": "pass",
+    "notes": "0 blocking, 9 warning. [s1] flat rhythm: sentence lengths vary little (spread 4.1); [s2a] flat rhythm: sentence lengths vary little (spread 3.5); [s2a] flat rhythm: 4 sentences in a row of near-identical length; [s2b] flat rhythm: sentence lengths vary little (spread 4.6); [s2b] flat rhythm: 4 sentences in a row of near-identical length; [s3] flat rhythm: sentence lengths vary little (spread 4.9); [s3] flat rhythm: 4 sentences in a row of near-identical length; [s3] narration heavy: only 20% of sentences carry speech or action"
+   }
+  ],
+  "writers_notes": [
+   "[s1] flat rhythm: sentence lengths vary little (spread 4.1)",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 4.6)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] narration heavy: only 20% of sentences carry speech or action",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)",
+   "[s1] flat rhythm: sentence lengths vary little (spread 4.1)",
+   "[s2a] flat rhythm: sentence lengths vary little (spread 3.5)",
+   "[s2a] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s2b] flat rhythm: sentence lengths vary little (spread 4.6)",
+   "[s2b] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] flat rhythm: sentence lengths vary little (spread 4.9)",
+   "[s3] flat rhythm: 4 sentences in a row of near-identical length",
+   "[s3] narration heavy: only 20% of sentences carry speech or action",
+   "[s4a] flat rhythm: sentence lengths vary little (spread 4.8)"
+  ],
+  "library_ingest": {
+   "provenance": "pregen_batch",
+   "generator": "kimi-k3",
+   "source_run": "_demo_run_kid5_beach",
+   "source_file": "01_clothes_and_fashion_kimik3.json",
+   "depth": 1
+  }
+ },
+ "depth": 1,
+ "cover_direction": {
+  "scene": "A lopsided cape, mid-swirl, with a sparkling, wobbly blob-star prominently displayed on its back.",
+  "mood": "Playful and wondrous, with a hint of gentle magic, not overly dramatic or intense.",
+  "stroke": "Soft, feathery strokes with light layering, creating a gentle, inviting texture.",
+  "derived_by": "gemini-2.5-flash"
+ }
 }
