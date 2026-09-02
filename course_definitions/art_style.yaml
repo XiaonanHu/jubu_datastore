@@ -1,0 +1,19 @@
+# House style for every illustrated story in the library.
+#
+# One look for the whole shelf. Edit here, not in the script:
+# generate_story_images.py reads this file and stamps the text verbatim into
+# every scene prompt AND into the art-direction call, so a change here shows
+# up on the next regeneration of any story.
+#
+# Keep it concrete. "Warm and friendly" tells an image model nothing; "soft
+# cream paper, gouache texture, terracotta and sage" tells it everything.
+#
+# The no-text and no-numbers clauses stay. Image models render letters as
+# garbage, and a picture that contradicts the story's own words is worse than
+# no picture at all.
+
+style: >-
+  Warm hand-painted children's picture-book illustration. Soft cream paper
+  background, gentle gouache texture, rounded friendly shapes, warm terracotta
+  and sage palette, soft even light, no harsh shadows. No text, no letters,
+  no numbers anywhere.

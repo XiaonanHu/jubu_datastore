@@ -318,5 +318,37 @@
     }
   },
   "status": "draft",
-  "depth": 1
+  "depth": 1,
+  "art_direction": {
+    "cast": "Buju is an adult with a medium build, short curly brown hair, wearing a soft green long-sleeved shirt, practical blue trousers, and sturdy brown boots. The child (us) is a young child, small build, wearing a bright yellow rain jacket, blue rain trousers, and red wellington boots. Dot, the ladybug inspector, is a small, bright red ladybug with seven distinct black spots on her shell and thin black legs. The ants are tiny, dark brown, segmented insects with six thin legs and two antennae, some carrying small white crumbs, tiny dark seeds, or pink petal fragments.",
+    "anchor": "The setting is a garden path made of irregularly shaped, flat grey-blue paving stones with visible cracks and patches of green moss. The stones are wet, reflecting soft light. A shallow, clear puddle on the paving stones reflects the sky and surrounding elements. Lush green grass borders the path, and a weathered, round terracotta flowerpot sits nearby. A fig tree with large, dark green, lobed leaves is visible in the background.",
+    "scenes": {
+      "s1": {
+        "scene": "The child and Buju stand on a wet paved path, looking down intently. A line of ants marches along a crack in the paving, some carrying items, until they reach the edge of a puddle and stop. Dot the ladybug lands gently on the paving stone near the child's knee.",
+        "mood": "Child and Buju: curious, observant, then determined. Ants: purposeful, then confused, frustrated, NOT calm. Dot: expectant, patient."
+      },
+      "s2a": {
+        "scene": "The child and Buju kneel beside the puddle, carefully placing a large, flat, dark green fig leaf across the water. The leaf slides, causing one end to drop into the puddle with a splash. They then secure the leaf with two flat grey pebbles, one on each end. Dot walks slowly and deliberately across the leaf bridge, turns, and walks back.",
+        "mood": "Child and Buju: focused, then slightly frustrated, then problem-solving, then satisfied and proud. Dot: calm, testing, NOT hesitant."
+      },
+      "s2b": {
+        "scene": "The child and Buju kneel beside the puddle, carefully laying two thin brown twigs parallel across the water. The twigs roll and fall into the puddle. They then pull the twigs out, wipe them, and press their ends firmly into the soft ground on either side of the puddle. Dot walks slowly and deliberately along one twig to the middle, taps her feet, and walks back.",
+        "mood": "Child and Buju: focused, then slightly frustrated, then problem-solving, then satisfied and proud. Dot: calm, testing, NOT hesitant."
+      },
+      "s3": {
+        "scene": "The child and Buju kneel, watching the bridge intently. Several ants approach the bridge, touch it with their antennae, and turn away. One small ant hesitates, then steps onto the bridge, walks to the middle, and continues to the far side. The child's fingers are pressed flat against the wet paving stones.",
+        "mood": "Child and Buju: expectant, then confused, then anxious, then relieved and proud. Ants: confused, hesitant, NOT brave. The brave ant: cautious, then resolute and determined."
+      },
+      "s4a": {
+        "scene": "The child and Buju kneel, carefully arranging tall green grass blades upright along the windy side of the leaf bridge, forming a small green wall. The grass bends in the wind but springs back. A continuous line of ants marches steadily across the leaf bridge, some carrying items. Dot sits at the end of the bridge, observing each ant. The sun shines, making the puddle surface gleam gold. The child and Buju lie on their elbows, watching the ants cross.",
+        "mood": "Child and Buju: focused, then satisfied, proud, and content. Ants: purposeful, steady. Dot: observant, approving, NOT bored."
+      },
+      "s4b": {
+        "scene": "The child and Buju kneel, scooping dry sand from under the terracotta flowerpot and patting it into smooth ramps at both ends of the leaf bridge. A continuous line of ants marches steadily up the sand ramp and across the leaf bridge. At a gap in the paving stones, three ants link legs, and a fourth ant walks over them. Dot spreads her wings and flies in a slow, graceful circle above the crossing. The child and Buju watch with surprised and proud expressions.",
+        "mood": "Child and Buju: focused, then surprised, then proud and content. Ants: purposeful, cooperative. Dot: approving, joyful, NOT critical."
+      }
+    },
+    "style": "Warm hand-painted children's picture-book illustration. Soft cream paper background, gentle gouache texture, rounded friendly shapes, warm terracotta and sage palette, soft even light, no harsh shadows. No text, no letters, no numbers anywhere.",
+    "derived_by": "gemini-2.5-flash"
+  }
 }
