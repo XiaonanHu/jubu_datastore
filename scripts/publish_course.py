@@ -106,10 +106,15 @@ def main() -> int:
     if imgs and not a.dry_run:
         image_dst.mkdir(parents=True, exist_ok=True)
     for seg_id, rel in imgs:
-        src = (base / rel) if not Path(rel).is_absolute() else Path(rel)
-        if not src.exists():
-            src = image_src / f"{seg_id}.png"
-        if not src.exists():
+        # Resolve from the GENERATOR's output dir first, preferring webp. The
+        # recorded `rel` may already be a web path from an earlier publish,
+        # which resolves against nothing on disk — trusting it silently
+        # re-shipped the 1.5 MB PNGs.
+        candidates = [image_src / f"{seg_id}.webp", image_src / f"{seg_id}.png"]
+        if not Path(rel).is_absolute():
+            candidates.append(base / rel)
+        src = next((c for c in candidates if c.exists()), None)
+        if src is None:
             missing.append(f"image/{seg_id}"); print(f"  MISSING {seg_id}"); continue
         web = f"/pilot-courses/images/{story['id']}/{src.name}"
         if a.dry_run:
@@ -120,19 +125,6 @@ def main() -> int:
         for s in story["segments"]:
             if s["id"] == seg_id:
                 s["image"] = web
-
-    # Sweep stale assets: a .png left behind after switching to .webp is dead
-    # weight the browser never asks for, and it is megabytes.
-    keep_img = {Path(rel).name for _, rel in imgs}
-    if not a.dry_run:
-        for d, keep in ((audio_dst, keep_audio), (image_dst, keep_img)):
-            if not d.is_dir():
-                continue
-            for f in d.iterdir():
-                if f.is_file() and f.name not in keep:
-                    size = f.stat().st_size // 1024
-                    f.unlink()
-                    print(f"  swept stale {f.name} ({size} KB)")
 
     if missing:
         print(f"\n! {len(missing)} referenced file(s) missing: {missing}")
@@ -174,6 +166,23 @@ def main() -> int:
     if bad:
         print(f"! post-publish check FAILED, {len(bad)} missing: {bad}")
         return 1
+    # Sweep stale assets LAST: a .png left after the switch to .webp is dead
+    # weight the browser never asks for. This runs after the splice on purpose
+    # — housekeeping must never be able to lose a publish.
+    keep_img = {Path(s["image"]).name for s in story["segments"] if s.get("image")}
+    for d, keep in ((audio_dst, keep_audio), (image_dst, keep_img)):
+        if not d.is_dir():
+            continue
+        for f in sorted(d.iterdir()):
+            if f.is_file() and f.name not in keep:
+                size = f.stat().st_size // 1024
+                try:
+                    f.unlink()
+                    print(f"  swept stale {f.name} ({size} KB)")
+                except OSError as e:
+                    print(f"  could not sweep {f.name} ({size} KB): {e.strerror}. "
+                          f"Delete it by hand.")
+
     voiced = sum(1 for m in manifest.values() if m.get("words"))
     print(f"verified: {len(clips)} clip(s), {len(imgs)} image(s), "
           f"{voiced} with word timings.")

@@ -53,6 +53,21 @@ bands:
 
 # Sight-word coverage is only meaningful where the child SEES the text.
 # Gate it on read-along / print surfaces; ignore it for audio-only stories.
+# Sentence pause BAKED INTO course clips, overriding audio_voices.json so the
+# pilot's 142 published clips keep their own pacing.
+#
+# IMPORTANT: this STACKS on the pause the model already makes. Cartesia's own
+# sentence break measured ~480ms, so a 300ms tag produced ~780ms of real
+# silence — 39% of the first clip. Perceived pacing is controlled far better
+# in the player, which caps any gap using the word timings and needs no
+# regeneration. Treat these as a floor, not the knob.
+sentence_pause_ms:
+  "3-4": 400
+  "5-6": 300     # was 400; matched to 7-8
+  "7-8": 300
+  "9-10": 250
+  "11-12": 200
+
 sight_word_applies_to: [read_along, print]
 
 # Sight-word pools are BAND-GATED in check_course_story.py: a "3-4" text is

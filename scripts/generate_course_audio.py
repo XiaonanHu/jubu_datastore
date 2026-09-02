@@ -59,6 +59,7 @@ RAW_PCM = {"container": "raw", "encoding": "pcm_s16le", "sample_rate": SAMPLE_RA
 # Changing the pause needs a --force regeneration; it is inside the audio.
 FALLBACK_PAUSE_MS = {"3-4": 500, "5-6": 400, "7-8": 300, "9-10": 250, "11-12": 250}
 SENTENCE_END = ".!?"
+COURSE_PAUSE: dict = {}
 
 
 # --------------------------------------------------------------------- key
@@ -215,8 +216,13 @@ def main() -> int:
     ap.add_argument("--probe", action="store_true")
     a = ap.parse_args()
 
-    key = resolve_api_key()
+    key_api = resolve_api_key()
     repo = Path(__file__).resolve().parents[1]
+    global COURSE_PAUSE
+    cb = repo / "course_definitions" / "course_bands.yaml"
+    if cb.exists():
+        import yaml
+        COURSE_PAUSE = (yaml.safe_load(cb.read_text()) or {}).get("sentence_pause_ms") or {}
     voices = {}
     vp = repo / "story_definitions" / "audio_voices.json"
     if vp.exists():
@@ -231,7 +237,8 @@ def main() -> int:
         spd = a.speed if a.speed is not None else (
             v.get("speed") or t.get("speed") or voices.get("speed") or 1.0)
         pause = a.pause_ms if a.pause_ms is not None else (
-            v.get("sentence_pause_ms") or t.get("sentence_pause_ms")
+            COURSE_PAUSE.get(band)                    # course_bands.yaml wins
+            or v.get("sentence_pause_ms") or t.get("sentence_pause_ms")
             or voices.get("sentence_pause_ms") or FALLBACK_PAUSE_MS.get(band, 300))
         return vid, float(spd), int(pause)
 
@@ -273,7 +280,7 @@ def main() -> int:
         text = fill(seg["text"])
         t0 = time.monotonic()
         try:
-            audio, words, _ = synthesize(add_breaks(text, pause), vid, a.model, spd, key)
+            audio, words, _ = synthesize(add_breaks(text, pause), vid, a.model, spd, key_api)
         except Exception as e:
             print(f"  {seg['id']}: FAILED — {type(e).__name__}: {e}")
             continue
@@ -299,7 +306,7 @@ def main() -> int:
             continue
         text = fill(cp["question"])
         try:
-            audio, words, _ = synthesize(add_breaks(text, pause), vid, a.model, spd, key)
+            audio, words, _ = synthesize(add_breaks(text, pause), vid, a.model, spd, key_api)
         except Exception as e:
             print(f"  {cid}: FAILED — {e}"); continue
         if audio:
@@ -310,6 +317,33 @@ def main() -> int:
                              "words": words, "text": text}
             chars += len(text)
             print(f"  {cid}: {written.name}, {len(words)} words")
+
+    # Post-story questions and their options. A 5-year-old cannot read three
+    # unassisted options; the reader gives every one a tap-to-hear button, and
+    # these are the clips it plays. Keys match what the player asks for.
+    for qi, chk in enumerate((story.get("course") or {}).get("checks", [])):
+        pieces = [(f"q{qi}", chk.get("prompt", ""))]
+        pieces += [(f"q{qi}o{oi}", o) for oi, o in enumerate(chk.get("options", []))]
+        for key, text in pieces:
+            if not text:
+                continue
+            if a.only and key not in a.only:
+                continue
+            dest = out / f"{key}.mp3"
+            if (dest.exists() or dest.with_suffix(".wav").exists()) and not a.force:
+                continue
+            try:
+                pcm, words, _ = synthesize(fill(text), vid, a.model, spd, key=key_api)
+            except Exception as e:
+                print(f"  {key}: FAILED — {e}"); continue
+            if not pcm:
+                continue
+            written = write_audio(pcm, out / f"{key}.wav")
+            manifest[key] = {"file": written.name,
+                             "duration": words[-1]["end"] if words else None,
+                             "words": words, "text": fill(text)}
+            chars += len(text)
+            print(f"  {key}: {written.name} ({len(words)} words)")
 
     if manifest:
         story["audio"] = {"source": "cartesia_sse_timestamps",
