@@ -23,6 +23,7 @@ from jubu_datastore.knowledge_graph.graph_schema import (
     AGE_BAND_YEARS,
     KnowledgeGraphNode,
 )
+from jubu_datastore.story_generation.craft_gate import BANNED_EVALUATION
 
 # The graph is content coverage, never child evaluation (workstream guardrail).
 # These block only unambiguous developmental-report framing. The comparison
@@ -35,16 +36,24 @@ from jubu_datastore.knowledge_graph.graph_schema import (
 # story prose -- a game score, a scoreboard, a variable named score in a
 # story about debugging. The rest of the list still catches real evaluation
 # language, and "interest means enjoyment, never ability" is unaffected.
+# The child-evaluation vocabulary is owned by the craft gate (one list for
+# story prose, graph display text and the library audit); the graph adds the
+# per-child address that only makes sense in parent-facing text.
 BANNED_LANGUAGE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = tuple(
     (re.compile(pattern, re.IGNORECASE), reason)
     for pattern, reason in [
-        (r"\bassessment\b", "assessment framing"),
-        (r"\bmastery\b", "mastery framing"),
-        (r"\bmilestone(s)?\b", "milestone framing in display text"),
+        *zip(
+            BANNED_EVALUATION,
+            (
+                "assessment framing",
+                "mastery framing",
+                "milestone framing in display text",
+                "deficit framing",
+                "ranking framing",
+                "school-grading framing",
+            ),
+        ),
         (r"\byour child\b", "per-child address"),
-        (r"\bdelayed\b", "deficit framing"),
-        (r"\bgifted\b", "ranking framing"),
-        (r"\bgrade\s+level\b", "school-grading framing"),
     ]
 )
 

@@ -35,6 +35,7 @@ subpackage would shadow stdlib logging.
 from __future__ import annotations
 
 import argparse
+import difflib
 import json
 import re
 import secrets
@@ -120,6 +121,40 @@ def existing_hashes() -> set[str]:
     return found
 
 
+def title_key(title: str) -> str:
+    """Titles compared as lowercase letters only, so punctuation and spacing
+    never make two titles look different."""
+    return re.sub(r"[^a-z]", "", title.lower())
+
+
+def existing_titles() -> dict[str, str]:
+    """title_key -> library filename, for the near-duplicate check."""
+    found: dict[str, str] = {}
+    for path in STORIES_DIR.glob("*.json"):
+        try:
+            title = json.loads(path.read_text(encoding="utf-8")).get("title", "")
+        except (OSError, ValueError):
+            continue
+        if title:
+            found[title_key(title)] = path.name
+    return found
+
+
+def near_duplicate_title(
+    title: str, titles: dict[str, str], threshold: float = 0.9
+) -> str | None:
+    """The library file whose title is the same or nearly the same, if any.
+    "The Moon That Kept Missing" vs "The Moon That Keeps Missing" both shipped
+    on one shelf once; this is what stops the next pair."""
+    key = title_key(title)
+    if key in titles:
+        return titles[key]
+    for other_key, name in titles.items():
+        if difflib.SequenceMatcher(None, key, other_key).ratio() >= threshold:
+            return name
+    return None
+
+
 def unwrap(raw: dict[str, Any], path: Path) -> tuple[dict[str, Any] | None, bool, str]:
     """Return (story, gate_passed, note). story is None when unusable."""
     if "segments" in raw and "story" not in raw:
@@ -140,7 +175,7 @@ def ordered(story: dict[str, Any]) -> dict[str, Any]:
 
 
 def ingest_one(
-    path: Path, args: argparse.Namespace, taken: set[str]
+    path: Path, args: argparse.Namespace, taken: set[str], titles: dict[str, str]
 ) -> dict[str, Any] | None:
     raw = json.loads(path.read_text(encoding="utf-8"))
     story, passed, note = unwrap(raw, path)
@@ -149,6 +184,15 @@ def ingest_one(
         return None
     if not passed and not args.include_blocked:
         print(f"  SKIP  {path.name}: {note}")
+        return None
+
+    clash = near_duplicate_title(story.get("title", ""), titles)
+    if clash and not args.allow_duplicate_title:
+        print(
+            f"  SKIP  {path.name}: title {story.get('title')!r} is the same as or "
+            f"nearly the same as {clash}; retitle it, or pass "
+            "--allow-duplicate-title"
+        )
         return None
 
     orphan_q = question_only_slots(story)
@@ -197,6 +241,7 @@ def ingest_one(
             json.dumps(ordered(story), ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+    titles[title_key(story.get("title", ""))] = out_name
     return {"path": out_path, "story": ordered(story), "source": path.name}
 
 
@@ -222,6 +267,10 @@ def main() -> int:
         "--only", default=None,
         help="substring filter on source filenames",
     )
+    parser.add_argument(
+        "--allow-duplicate-title", action="store_true",
+        help="ingest even when the title matches one already on the shelf",
+    )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -229,6 +278,7 @@ def main() -> int:
         raise SystemExit(f"no pilot stories directory at {STORIES_DIR}")
 
     taken = existing_hashes()
+    titles = existing_titles()
     print(f"library: {len(list(STORIES_DIR.glob('*.json')))} stories, "
           f"{len(taken)} hashes in use")
 
@@ -244,7 +294,7 @@ def main() -> int:
         ]
         print(f"\n{directory.name}: {len(files)} candidate file(s)")
         for path in files:
-            result = ingest_one(path, args, taken)
+            result = ingest_one(path, args, taken, titles)
             if result:
                 written.append(result)
 

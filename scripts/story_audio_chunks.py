@@ -88,6 +88,11 @@ def to_transcript(chunk_text: str, sentence_pause_ms: int) -> str:
     alone: in `"What is he doing?" you ask.` the lowercase "you" means no
     break, so the line still reads as one thought.
     """
+    # Markdown emphasis never renders anywhere in the pilot; the craft gate
+    # now blocks it at generation, and this strips any that slipped in
+    # earlier so the narrator never reads an asterisk aloud. Character
+    # removal only: the paragraph split above is untouched.
+    chunk_text = chunk_text.replace("*", "")
     if not sentence_pause_ms or sentence_pause_ms <= 0:
         return chunk_text
     tag = f'<break time="{int(sentence_pause_ms)}ms"/>'

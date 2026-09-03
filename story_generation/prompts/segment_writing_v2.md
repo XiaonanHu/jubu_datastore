@@ -1,4 +1,4 @@
-# Segment Writing Prompt — v2.4
+# Segment Writing Prompt — v2.5
 
 **v2.4, August 2026.** v2.0 came from a storytelling expert's review of the
 pilot; v2.1 removed the arbitrary quotas v2.0 had introduced and made every
@@ -8,7 +8,11 @@ adds section 7b (the sound of it) — these stories are heard, and sound was
 the one sense the rules never addressed; v2.4 corrected the banned-word list
 to match `craft_gate.py` (it still banned "score", "ahead of" and "behind",
 which the gate had stopped blocking) and aligned the feelings-naming age with
-the policy. History in `_archive/PROMPT_REVIEW_v1_to_v2.md`.
+the policy; v2.5 adds the 11-12 row the age table was missing, the
+register-by-age note (§2b) so the oldest band stops reading like the
+youngest, and the paragraph rule (§7c) — segments were arriving as one
+unbroken block, which the audio pipeline turns into a single unresumable
+clip. History in `_archive/PROMPT_REVIEW_v1_to_v2.md`.
 
 You are given: the topic with its per-age framing, vocabulary and avoid
 list; **the age band and the specific age** this story is written for; the
@@ -52,9 +56,37 @@ decoration.
 | 5-6 | short and medium, an occasional long one | still loved; a phrase that comes back is a gift | dialogue and action carry roughly half or more | ~700 words |
 | 7-8 | fuller range; clauses fine | use as callback rather than refrain | narration can carry more; dialogue still frequent | ~1,200 words |
 | 9-10 | full range, longer flows welcome | only as a deliberate motif | narration can lead; dialogue where it lands hardest | ~1,700 words |
+| 11-12 | full adult range; subordinate clauses, a long periodic sentence when it earns it | a returning line only if the story is built on one | narration leads; dialogue is chosen, not constant | ~2,200 words |
 
 Word counts are **ceilings, not targets** (see §8). Everything else in this
 table is a lean, not a law.
+
+## 2b. Register climbs with age — the oldest band is not the youngest band louder
+
+The single thing that most often makes an older story feel wrong is a
+narrator using a younger register: naming feelings, decorating with
+sound-words, chanting a refrain, explaining the obvious. An 11-year-old
+hears that as being talked down to and closes the book.
+
+- **Sound-words (onomatopoeia) must carry information, not texture.** A
+  sound belongs when it *is* the thing — a steam engine whose "chug" is the
+  physics, a robot whose beep is its only speech, sonar that pings back a
+  shape. That is fine at any age. A narrator sprinkling "clank-clank-whir"
+  for atmosphere is decoration, and by 9-12 it reads as childish. Ask of
+  every sound-word: does the story lose a fact if I cut it? If not, cut it.
+- **Feelings are shown, never named, from 7 up** (see §11). By 11-12 even a
+  shown feeling is usually better left for the child to infer from what a
+  character does.
+- **Refrains and repeated kid-shaped speech are a 3-6 pleasure.** At 9-12 a
+  line may return once if the whole story is built on it; otherwise it reads
+  as padding.
+- **Trust the older listener's patience.** A 11-12 story can hold a longer
+  arc, a quieter beat, a fact that takes three sentences to land. It does
+  not need a jolt every paragraph. What it must not do is stall.
+
+The register a band wants is a lean, like everything in §2 — a deep-dive
+robotics story for a nine-year-old who loves machines can run warmer and
+sound-richer than this suggests. Judge by the listener, not the number.
 
 ## 3. How a story opens — the first stretch
 
@@ -222,6 +254,28 @@ This story reaches the child as sound. Write for the ear, not the page:
   small pleasure to say — "squiggle", "plop", "burrow" — over its plainer
   cousin. Never at the cost of clarity.
 
+## 7c. Break the segment into paragraphs
+
+Return each segment as **several short paragraphs, one beat each**, with a
+blank line between them — never one unbroken block. This is not cosmetic.
+The story is narrated one audio clip per paragraph, so a single-paragraph
+segment becomes one long clip a child cannot pause and resume inside, and
+any glitch in narration takes out the whole segment instead of one
+paragraph.
+
+- A new paragraph starts on a new beat: a change of place or action, a turn
+  in the conversation, a shift in what we notice. When in doubt, break more
+  rather than less.
+- A **sound-word or a short line of dialogue set on its own** (see §7b) is
+  its own paragraph — that is what lets the narrator land on it.
+- Rough aim by age, a lean and not a quota: 3-4 two to four short
+  paragraphs; 5-6 four to seven; 7-8 six to ten; 9-12 eight or more. A
+  segment that is one paragraph is almost always a mistake at any age above
+  3-4.
+- Use a real blank line between paragraphs (one line break, not a run of
+  them). No other markup: no headings, no bullet lists, no asterisks — it is
+  spoken.
+
 ## 8. Length — a ceiling, never a target
 
 **Padding is a failure, not a shortfall.** If a beat is done in 90 words,
@@ -291,4 +345,7 @@ Judgment questions, not a checklist to satisfy mechanically:
    does the consequence land in the body?
 9. If we are somewhere real and warm or deep, did we show we know where to
    stand — lightly, without fear?
-10. Fit for **this age**, not for children in general?
+10. Is it broken into short paragraphs, one beat each, with a blank line
+    between — not one block? (§7c)
+11. Fit for **this age**, not for children in general — the right register,
+    not the youngest one louder? (§2b) Does every sound-word carry a fact?
