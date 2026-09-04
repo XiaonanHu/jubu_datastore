@@ -24434,10 +24434,12 @@
  "story.ocean_animals.age5to6.d1.authored.a57de9": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
@@ -53598,10 +53600,12 @@
  "story.beaches_and_sand.age5to6.d1.pregen.a820f0": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
@@ -53672,10 +53676,12 @@
  "story.clothes_and_fashion.age5to6.d1.pregen.0d2b57": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
@@ -53746,10 +53752,12 @@
  "story.colors_and_mixing.age5to6.d1.pregen.1185fc": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
@@ -53988,10 +53996,12 @@
  "story.foods_around_the_world.age5to6.d1.pregen.260237": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
@@ -54310,10 +54320,12 @@
  "story.oceans_and_tides.age5to6.d1.pregen.ecd0fe": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
@@ -54458,10 +54470,12 @@
  "story.swimming_and_floating.age5to6.d1.pregen.c9ba73": {
   "voice_id": "32b3f3c5-7171-46aa-abe7-b598964aa793",
   "model_id": "sonic-3",
-  "speed": 1.0,
+  "speed": 0.95,
   "emotion": null,
-  "sentence_pause_ms": 400,
+  "sentence_pause_ms": 300,
   "mp3_bit_rate": 128000,
+  "short_sentence_chars": 25,
+  "short_sentence_pause_ms": 200,
   "segments": {
    "s1": [
     {
