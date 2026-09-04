@@ -78,9 +78,21 @@ def _opens_sentence(char: str) -> bool:
     return char.isupper() or char in SENTENCE_OPENERS
 
 
-def to_transcript(chunk_text: str, sentence_pause_ms: int) -> str:
+def to_transcript(
+    chunk_text: str,
+    sentence_pause_ms: int,
+    short_sentence_chars: int = 0,
+    short_sentence_pause_ms: int | None = None,
+) -> str:
     """The text actually sent to Cartesia: prose with a <break/> at each
     sentence boundary so the narrator takes a breath mid-paragraph.
+
+    Short-sentence rule (off unless short_sentence_chars > 0): a sentence
+    shorter than short_sentence_chars is followed by short_sentence_pause_ms
+    instead of sentence_pause_ms. Stories for the youngest bands are written
+    in bursts ("No orange. Only red. Only yellow.") and a full-length pause
+    after every burst reads as staccato; a shorter beat keeps the rhythm.
+    Sentences under MIN_SENTENCE_CHARS_FOR_PAUSE still get no pause at all.
 
     Boundary rule: sentence-final punctuation (plus any closing quotes),
     then whitespace, then something that starts a new sentence — a capital
@@ -96,6 +108,12 @@ def to_transcript(chunk_text: str, sentence_pause_ms: int) -> str:
     if not sentence_pause_ms or sentence_pause_ms <= 0:
         return chunk_text
     tag = f'<break time="{int(sentence_pause_ms)}ms"/>'
+    short_tag = tag
+    if short_sentence_chars > 0 and short_sentence_pause_ms is not None:
+        short_tag = (
+            f'<break time="{int(short_sentence_pause_ms)}ms"/>'
+            if short_sentence_pause_ms > 0 else " "  # keep the word gap
+        )
     pieces: list[str] = []
     segment_start = 0
     index = 0
@@ -124,7 +142,11 @@ def to_transcript(chunk_text: str, sentence_pause_ms: int) -> str:
             and not _is_abbreviation(chunk_text, terminal_index)
         ):
             pieces.append(chunk_text[segment_start:after])
-            pieces.append(tag)
+            is_short = (
+                short_sentence_chars > 0
+                and after - segment_start < short_sentence_chars
+            )
+            pieces.append(short_tag if is_short else tag)
             # The break replaces the inter-sentence whitespace.
             segment_start = next_start
             index = next_start

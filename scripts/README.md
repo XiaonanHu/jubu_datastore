@@ -75,6 +75,32 @@ Also: `--audition <voice_id>…`, `--diagnose`, `--pause-test` for tuning
 by ear. Anything in `audio_voices.json` is baked into the mp3s, so
 changing it means regenerating with `--force`.
 
+Per-band pacing has four knobs: `speed`, `sentence_pause_ms`, and the
+short-sentence rule `short_sentence_chars` / `short_sentence_pause_ms`
+(a sentence shorter than the first gets the second instead of the full
+pause; stories for young bands are written in bursts and a full pause
+after every burst stalls). `build_pilot_site.py` stamps the rule into
+`stories.json` so the live name re-voicer paces a renamed paragraph the
+same way.
+
+### `pace_test.py`
+Renders one story's opening under several (speed, pause, short-rule)
+settings, one Cartesia request per paragraph like production, stitched
+with the player's paragraph gap (needs ffmpeg). Pick by ear, write the
+winner into `audio_voices.json`.
+
+```bash
+python scripts/pace_test.py 1185fc
+python scripts/pace_test.py 1185fc --trial 0.94:250 --trial 0.92:300:25:150
+```
+
+### `build_transcript_fixture.py`
+Writes `buju_website/tests/pilot/fixtures/transcript_parity.json` from
+real library paragraphs so `node tests/pilot/test_transcript.js` can prove
+the JS transcript builder matches `story_audio_chunks.py` byte for byte.
+**Re-run after any change to `story_audio_chunks.py`**, then run the node
+test; the publish script runs it too.
+
 ### `publish_pilot_audio.py`
 **The one command that ships.** Despite the name it publishes the whole
 pilot, not just audio.
@@ -139,11 +165,13 @@ set as `PILOT_CATEGORIES` or the build exits with "out of sync". Change
 the two together, in the same commit.
 
 ### `story_audio_chunks.py`
-Library, not a command. Paragraph chunking + slot substitution. This
-split is implemented three times — here, in the player
-(`buju_website/pilot/js/stories.js`), and in
+Library, not a command. Paragraph chunking + slot substitution + the
+sentence-pause transcript. The split is implemented three times — here,
+in the player (`buju_website/pilot/js/stories.js`), and in
 `buju_website/api/pilot-name-audio.js` — and all three MUST stay in sync
-or clip indices drift between the mp3s and what the player requests.
+or clip indices drift between the mp3s and what the player requests. The
+transcript rules are mirrored in `pilot-name-audio.js` and guarded by
+`build_transcript_fixture.py` + `test_transcript.js`.
 
 ---
 

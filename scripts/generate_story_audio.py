@@ -183,6 +183,14 @@ def voice_for_story(
         "speed": float(resolve("speed", 1.0)),
         "emotion": emotion,
         "sentence_pause_ms": int(resolve("sentence_pause_ms", 0)),
+        # Short-sentence rule (see story_audio_chunks.to_transcript): a
+        # sentence under short_sentence_chars gets short_sentence_pause_ms
+        # instead of the full pause. 0 / None = off, the pre-2026-09 behaviour.
+        "short_sentence_chars": int(resolve("short_sentence_chars", 0)),
+        "short_sentence_pause_ms": (
+            None if resolve("short_sentence_pause_ms", None) is None
+            else int(resolve("short_sentence_pause_ms", None))
+        ),
     }
 
 
@@ -191,15 +199,23 @@ def voice_for_story(
 # rather than silently leaving a half-updated library.
 BAKED_IN_SETTINGS = (
     "voice_id", "model_id", "speed", "emotion", "sentence_pause_ms", "mp3_bit_rate",
+    "short_sentence_chars", "short_sentence_pause_ms",
 )
 
 
 def settings_drift(manifest_entry: dict[str, Any], current: dict[str, Any]) -> list[str]:
     """Names of baked-in settings that differ from the clips on disk."""
+    def norm(key: str, value: Any) -> Any:
+        # The short-sentence keys did not exist before 2026-09: a manifest
+        # entry without them means "off", the same as 0 / None now.
+        if key.startswith("short_sentence") and not value:
+            return None
+        return value
+
     return [
         key
         for key in BAKED_IN_SETTINGS
-        if manifest_entry.get(key) != current.get(key)
+        if norm(key, manifest_entry.get(key)) != norm(key, current.get(key))
     ]
 
 
@@ -500,6 +516,8 @@ def generate_story(
     speed = voice["speed"]
     emotion = voice["emotion"]
     sentence_pause_ms = voice["sentence_pause_ms"]
+    short_sentence_chars = voice["short_sentence_chars"]
+    short_sentence_pause_ms = voice["short_sentence_pause_ms"]
     model_id = voice_config["model_id"]
     mp3_bit_rate = int(voice_config.get("mp3_bit_rate", DEFAULT_MP3_BIT_RATE))
     current_settings = {
@@ -509,6 +527,8 @@ def generate_story(
         "emotion": emotion,
         "sentence_pause_ms": sentence_pause_ms,
         "mp3_bit_rate": mp3_bit_rate,
+        "short_sentence_chars": short_sentence_chars,
+        "short_sentence_pause_ms": short_sentence_pause_ms,
     }
     # Only meaningful for a story that HAS clips already: with no previous
     # entry every setting trivially "differs", which would tell you to
@@ -560,7 +580,8 @@ def generate_story(
                 chunk_text, slots, {}
             )
             transcript = story_audio_chunks.to_transcript(
-                spoken_text, sentence_pause_ms
+                spoken_text, sentence_pause_ms,
+                short_sentence_chars, short_sentence_pause_ms,
             )
             file_name = f"{unit_id}_{index:02d}.mp3"
             file_path = story_dir / file_name
@@ -820,7 +841,8 @@ def run_audition(
                 cut = sample_text.rfind(". ", 0, AUDITION_MAX_CHARS)
                 sample_text = sample_text[: (cut + 1) if cut > 0 else AUDITION_MAX_CHARS]
             transcript = story_audio_chunks.to_transcript(
-                sample_text, settings["sentence_pause_ms"]
+                sample_text, settings["sentence_pause_ms"],
+                settings["short_sentence_chars"], settings["short_sentence_pause_ms"],
             )
             out_path = voice_dir / f"{teller}.mp3"
             out_path.write_bytes(
@@ -1008,7 +1030,11 @@ def main() -> int:
             f"{(story.get('tone') or {}).get('dominant')} → "
             f"emotion={settings['emotion'] or 'none'}, "
             f"speed={settings['speed']}, "
-            f"pause={settings['sentence_pause_ms']}ms):"
+            f"pause={settings['sentence_pause_ms']}ms"
+            + (f", short<{settings['short_sentence_chars']}→"
+               f"{settings['short_sentence_pause_ms']}ms"
+               if settings['short_sentence_chars'] else "")
+            + "):"
         )
         manifest_entry, chars_sent, files_written = generate_story(
             story, client, voice_config, args.site_audio_dir, args.force,

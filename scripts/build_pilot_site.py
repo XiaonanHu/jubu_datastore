@@ -137,6 +137,13 @@ def story_audio_field(
     }
     if manifest_entry.get("emotion"):
         audio_field["emotion"] = manifest_entry["emotion"]
+    # Short-sentence pause rule (2026-09): stamped only when on, so older
+    # stories.json consumers and unchanged stories see exactly what they did.
+    if manifest_entry.get("short_sentence_chars"):
+        audio_field["short_sentence_chars"] = manifest_entry["short_sentence_chars"]
+        audio_field["short_sentence_pause_ms"] = manifest_entry.get(
+            "short_sentence_pause_ms", 0
+        )
     return audio_field
 
 
